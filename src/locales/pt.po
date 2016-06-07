@@ -220,6 +220,14 @@ msgstr "Um indicador de dinâmica que mostra a velocidade de mudança percentual
 msgid "A problem occurred while connecting to the server. Please try again later."
 msgstr "Ocorreu um problema durante a ligação ao servidor. Tente novamente mais tarde."
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:19
+msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
+msgstr "Cópia digitalizada de uma conta de eletricidade recente mostrando o seu endereço atual (a fatura não deve ter mais de três meses)."
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:18
+msgid "A scanned copy of your passport or driver's licence."
+msgstr "Cópia escaneada do passaporte ou carteira de habilitação."
+
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:613
 msgid "A technical indicator which measures overbought/oversold levels in a very similar way to that of an Oscillator indicator, except that %R is plotted upside-down 0% to -100%. Readings in the range of 80 to 100% indicate that the security is oversold while readings in the 0 to 20% range suggest that it is overbought."
 msgstr "Um indicador técnico que avalia os níveis de sobrecompra/sobrevenda de forma muito semelhante à de um indicador de Oscilador, com a exceção de que o R% é traçado inversamente, de 0% a 100%. As leituras num intervalo de 80 a 100% indicam que o título foi sobrevendido, enquanto as leituras num intervalo de 0 a 20% sugerem que foi sobrecomprado."
@@ -491,6 +499,12 @@ msgstr "Experiência com negociações de opções binárias ou outros derivados
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:680
 msgid "Binary options or other financial derivatives trading frequency"
 msgstr "Frequência de negociação de opções binárias ou outros derivados financeiros"
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:620
+#, fuzzy
+#| msgid "Binary.com academy"
+msgid "Binary.com"
+msgstr "Academia Binary.com"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:615
 msgid "Bollinger Band Width"
@@ -930,6 +944,90 @@ msgstr ""
 "\n"
 "Binary\n"
 
+#. (name, website_name, currency, amount, support_email, tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_approve.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
+"\n"
+"Should you have any questions, please do not hesitate to contact us on %5.\n"
+"\n"
+"Kind Regards,\n"
+"\n"
+"Karen Yap\n"
+"%2\n"
+"\n"
+"*Terms and conditions may apply to withdrawals. (%6)"
+msgstr ""
+"Caro(a) %1,\n"
+"\n"
+"Estamos muito felizes que decidiu participar em negociações com a %2 , e esperamos que a sua experiência na nossa plataforma tenha sido positiva até o momento.\n"
+"\n"
+"Queremos informá-lo que recebemos o seu pedido de um bônus e que a sua conta foi creditada com um bônus de %3 %4 *.\n"
+"\n"
+"Caso tenha alguma questão, por favor não hesite em contatar-nos em %5.\n"
+"\n"
+"Atenciosamente,\n"
+"\n"
+"Karen Yap\n"
+"%2\n"
+"\n"
+"*As retiradas poderão estar sujeitas a termos e condições. (%6)"
+
+#. (name, website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+msgstr ""
+"Caro %1,\n"
+"\n"
+"Estamos muito felizes que decidiu participar em negociações com a %2 , e esperamos que a sua experiência na nossa plataforma tenha sido positiva até o momento.\n"
+"\n"
+"Queremos informá-lo que recebemos o seu pedido de um bônus. Infelizmente não fomos capazes de processar a sua solicitação devido a uma das seguintes razões:"
+
+#. (token, link)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+"\n"
+"Token: %1\n"
+"\n"
+"Password reset form: %2"
+msgstr ""
+"Prezado cliente,↵\n"
+"↵\n"
+"Antes de podermos ajudá-lo a mudar sua senha, por favor nos ajude a verificar a sua identidade ao inserir o seguinte token de verificação no formulário de redefinição de senha: ↵\n"
+"↵\n"
+"Token: %1↵\n"
+"↵\n"
+"Formulário de redefinição de senha: %2"
+
+#. (token)
+#: /home/git/regentmarkets/bom-platform/templates/resend_verification.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"In order to verify, please use the following token:\n"
+"\n"
+"%1\n"
+"\n"
+msgstr ""
+"Prezado Cliente,\n"
+"\n"
+"Para a verificação, use o seguinte token:\n"
+"\n"
+"%1\n"
+"\n"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:83
 msgid "Dec"
 msgstr "Dez"
@@ -1184,6 +1282,17 @@ msgstr "Terminar"
 msgid "For added security, please check your email to retrieve the verification token."
 msgstr "Para proporcionar maior segurança, verifique a sua caixa de entrada para obter o token de verificação."
 
+#. (tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:12
+msgid ""
+"For more information on the terms and conditions that apply to your bonus, go to:\n"
+"\n"
+"%1"
+msgstr ""
+"Para mais informações sobre os termos e condições do seu bônus, vá para: ↵\n"
+"↵\n"
+"%1"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:285
 msgid "Foreign currency deposit"
 msgstr "Depósito em moeda estrangeira"
@@ -1322,9 +1431,17 @@ msgstr "Recursos humanos"
 msgid "IP Address"
 msgstr "Endereço IP"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:16
+msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
+msgstr "Se você acha que nenhuma dessas razões se aplicam ao seu caso e você gostaria de solicitar que o bônus fosse creditado na sua conta, por favor nos forneça:"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:753
 msgid "If you need assistance feel free to contact our %1Customer Support"
 msgstr "Caso você precise de assistência, contate o nosso %1Apoio ao Cliente"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:9
+msgid "If you need help, please contact our customer support team at"
+msgstr "Caso você precise de assistência, contate a nossa equipe de apoio ao cliente através de"
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:747
 msgid "If you wish to raise these limits, please authenticate your account."
@@ -2034,6 +2151,27 @@ msgstr "Frequência de negociação de outros instrumentos financeiros"
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:266
 msgid "Others"
 msgstr "Others"
+
+#. (website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:21
+msgid ""
+"Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
+"\n"
+"We wish you the best of luck with your trading.\n"
+"\n"
+"Regards,\n"
+"\n"
+"Karen Yap\n"
+"%1"
+msgstr ""
+"O nosso serviço de apoio ao cliente enviará outra solicitação de bônus em seu nome assim que recebermos os documentos. Esse procedimento pode levar até 3 dias úteis para que o bônus seja creditado na sua conta.↵\n"
+"↵\n"
+"Desejamos sorte nas suas negociações.↵\n"
+"↵\n"
+"Atenciosamente,↵\n"
+"↵\n"
+"Karen Yap↵\n"
+"%1"
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:566
 msgid "Our site does not charge any transfer fees."
@@ -3838,6 +3976,12 @@ msgstr "%R de William"
 msgid "Windows"
 msgstr "Windows"
 
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:619
+#, fuzzy
+#| msgid "Best regards,"
+msgid "With regards,"
+msgstr "Melhores cumprimentos,"
+
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
 msgid "Withdrawal"
 msgstr "Retirada"
@@ -3926,6 +4070,10 @@ msgstr "Não pode transferir para a conta %1, porque essa conta está de momento
 msgid "You did not change anything."
 msgstr "Você não alterou nada."
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:8
+msgid "You have already claimed a bonus in the past."
+msgstr "Você já solicitou o seu bônus."
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:238
 msgid "You have already withdrawn %1 %2."
 msgstr "Você já retirou %1 %2."
@@ -3965,10 +4113,22 @@ msgstr "Você excedeu o seu limite diário em perdas de %1%2."
 msgid "You have not granted access to any applications."
 msgstr "Você não concedeu acesso a nenhum aplicativo."
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:10
+msgid "You have not yet reached the turnover required to be credited with the bonus."
+msgstr "Você ainda não alcançou o faturamento necessário para que o seu bônus seja creditado."
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:9
+msgid "You have opened an account using invalid details."
+msgstr "Você abriu uma conta usando dados inválidos."
+
 #. ($descriptor->{category})
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:417
 msgid "You have reached the rate limit for %1."
 msgstr "Já atingiu o limite de taxa para %1."
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:7
+msgid "You have signed up for more than one account."
+msgstr "Você abriu mais de uma conta."
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:652
 msgid "You have sold this contract at %1 %2"
@@ -4009,6 +4169,10 @@ msgstr "O seu limite de retiradas de %1 dia(s) é atualmente %2 %3 (ou equivalen
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:568
 msgid "Your Client will receive an email notification informing him/her that the transfer has been processed."
 msgstr "O seu Cliente receberá uma notificação por e-mail com a informação de que a transferência foi processada."
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:614
+msgid "Your Login ID"
+msgstr "O seu ID de Início de Sessão"
 
 #. ($currency,                to_monetary_number_format($balance)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:805
@@ -5550,12 +5714,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "A proactive approach to solving problems and delivering client solutions"
 #~ msgstr "Uma abordagem proativa na resolução de problemas e entrega de soluções de cliente"
 
-#~ msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
-#~ msgstr "Cópia digitalizada de uma conta de eletricidade recente mostrando o seu endereço atual (a fatura não deve ter mais de três meses)."
-
-#~ msgid "A scanned copy of your passport or driver's licence."
-#~ msgstr "Cópia escaneada do passaporte ou carteira de habilitação."
-
 #~ msgid "A strong and passionate interest in Marketing and Advertising"
 #~ msgstr "Um interesse forte e apaixonado em Marketing e Publicidade"
 
@@ -6095,9 +6253,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "Binary.com Property"
 #~ msgstr "Propriedade da Binary.com"
 
-#~ msgid "Binary.com academy"
-#~ msgstr "Academia Binary.com"
-
 #~ msgid "Binary.com continues to innovate and grow"
 #~ msgstr "A Binary.com continua a inovar e crescer"
 
@@ -6627,67 +6782,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgstr "Data de nascimento"
 
 #~ msgid ""
-#~ "Dear %1,\n"
-#~ "\n"
-#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-#~ "\n"
-#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
-#~ "\n"
-#~ "Should you have any questions, please do not hesitate to contact us on %5.\n"
-#~ "\n"
-#~ "Kind Regards,\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%2\n"
-#~ "\n"
-#~ "*Terms and conditions may apply to withdrawals. (%6)"
-#~ msgstr ""
-#~ "Caro(a) %1,\n"
-#~ "\n"
-#~ "Estamos muito felizes que decidiu participar em negociações com a %2 , e esperamos que a sua experiência na nossa plataforma tenha sido positiva até o momento.\n"
-#~ "\n"
-#~ "Queremos informá-lo que recebemos o seu pedido de um bônus e que a sua conta foi creditada com um bônus de %3 %4 *.\n"
-#~ "\n"
-#~ "Caso tenha alguma questão, por favor não hesite em contatar-nos em %5.\n"
-#~ "\n"
-#~ "Atenciosamente,\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%2\n"
-#~ "\n"
-#~ "*As retiradas poderão estar sujeitas a termos e condições. (%6)"
-
-#~ msgid ""
-#~ "Dear %1,\n"
-#~ "\n"
-#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-#~ "\n"
-#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
-#~ msgstr ""
-#~ "Caro %1,\n"
-#~ "\n"
-#~ "Estamos muito felizes que decidiu participar em negociações com a %2 , e esperamos que a sua experiência na nossa plataforma tenha sido positiva até o momento.\n"
-#~ "\n"
-#~ "Queremos informá-lo que recebemos o seu pedido de um bônus. Infelizmente não fomos capazes de processar a sua solicitação devido a uma das seguintes razões:"
-
-#~ msgid ""
-#~ "Dear Valued Customer,\n"
-#~ "\n"
-#~ "Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
-#~ "\n"
-#~ "Token: %1\n"
-#~ "\n"
-#~ "Password reset form: %2"
-#~ msgstr ""
-#~ "Prezado cliente,↵\n"
-#~ "↵\n"
-#~ "Antes de podermos ajudá-lo a mudar sua senha, por favor nos ajude a verificar a sua identidade ao inserir o seguinte token de verificação no formulário de redefinição de senha: ↵\n"
-#~ "↵\n"
-#~ "Token: %1↵\n"
-#~ "↵\n"
-#~ "Formulário de redefinição de senha: %2"
-
-#~ msgid ""
 #~ "Dear Valued Customer,\n"
 #~ "\n"
 #~ "In order to verify your withdrawal request, please click on the following link:\n"
@@ -6704,21 +6798,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ "%1\n"
 #~ "\n"
 #~ "Por motivos de segurança e para uma experiência de usuário melhorada, recomendamos que você efetue depósitos e retiradas através do mesmo método de pagamento.\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "Dear Valued Customer,\n"
-#~ "\n"
-#~ "In order to verify, please use the following token:\n"
-#~ "\n"
-#~ "%1\n"
-#~ "\n"
-#~ msgstr ""
-#~ "Prezado Cliente,\n"
-#~ "\n"
-#~ "Para a verificação, use o seguinte token:\n"
-#~ "\n"
-#~ "%1\n"
 #~ "\n"
 
 #~ msgid "Debt-free"
@@ -7264,15 +7343,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "For long contracts, the entry level is the spot plus half spread and the exit level is spot minus half spread. For short contracts, the entry level is spot minus half spread and the exit level is spot plus half spread."
 #~ msgstr "Para contratos longos, o nível de entrada é o preço à vista acrescido de metade do spread, e o nível de saída é o preço à vista decrescido de metade do spread. Para contratos curtos, o nível de entrada é o preço à vista decrescido de metade do spread, e o nível de saída é o preço à vista acrescido de metade do spread."
 
-#~ msgid ""
-#~ "For more information on the terms and conditions that apply to your bonus, go to:\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Para mais informações sobre os termos e condições do seu bônus, vá para: ↵\n"
-#~ "↵\n"
-#~ "%1"
-
 #~ msgid "For the third straight year, BetOnMarkets.com is voted 'Best Fixed-Odds Financial Trading Provider' by Shares Magazine UK. It’s the last time we win it because Shares Magazine stops awarding in this category."
 #~ msgstr "Pelo terceiro ano consecutivo, a BetOnMarkets.com é eleita o \"Melhor Provedor de Negociação Financeira de Probabilidades fixas\" pela revista inglesa Shares Magazine UK. Essa é a última vez que ganhamos, pois a revista Shares Magazine UK vai parar a premiação nesta categoria."
 
@@ -7546,9 +7616,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "If you don't receive the email within the next few minutes, please check your junk/spam mail folder."
 #~ msgstr "Se você não receber o e-mail dentro dos próximos minutos, verifique a pasta de lixo/spam da sua conta."
 
-#~ msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
-#~ msgstr "Se você acha que nenhuma dessas razões se aplicam ao seu caso e você gostaria de solicitar que o bônus fosse creditado na sua conta, por favor nos forneça:"
-
 #~ msgid "If you have the skill set we seek, you’ll become a valued member of a highly competent front end development team engaged in driving our binary options trading systems to new heights."
 #~ msgstr "Se você possuir o conjunto de habilidades que procuramos, você irá se tornará um membro valorizado de uma equipe front-end altamente qualificada, envolvida na elevação dos nossos sistemas de negociação de opções binárias para novas altitudes."
 
@@ -7557,9 +7624,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 
 #~ msgid "If you meet our basic requirements, we’ll send you a talent test."
 #~ msgstr "Se você preencher os nossos requisitos básicos, nos lhe enviaremos um teste de competências."
-
-#~ msgid "If you need help, please contact our customer support team at"
-#~ msgstr "Caso você precise de assistência, contate a nossa equipe de apoio ao cliente através de"
 
 #~ msgid "If you select \"Asian Fall\", you will win the payout if the <strong>last tick</strong> is <strong>lower</strong> than the <strong>average</strong> of the ticks."
 #~ msgstr "Se selecionar \"Asiático Em Queda\", você ganha o pagamento se o <strong>último tique-taque</strong> for <strong>inferior</strong> à <strong>média</strong> dos tique-taques."
@@ -8831,25 +8895,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 
 #~ msgid "Our costs and charges for depositing and withdrawing money are set out <a href=\"%1\" class=\"pjaxload\">here</a>. Please be aware of all costs and charges that apply to you because they will affect your profitability."
 #~ msgstr "O nossos custos e encargos para depósitos e retiradas de fundos estão definidos <a href=\"%1\" class=\"pjaxload\">aqui</a>. Tome nota de todos os custos e encargos que são aplicáveis a você, porque estes irão afetar os seus lucros."
-
-#~ msgid ""
-#~ "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
-#~ "\n"
-#~ "We wish you the best of luck with your trading.\n"
-#~ "\n"
-#~ "Regards,\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%1"
-#~ msgstr ""
-#~ "O nosso serviço de apoio ao cliente enviará outra solicitação de bônus em seu nome assim que recebermos os documentos. Esse procedimento pode levar até 3 dias úteis para que o bônus seja creditado na sua conta.↵\n"
-#~ "↵\n"
-#~ "Desejamos sorte nas suas negociações.↵\n"
-#~ "↵\n"
-#~ "Atenciosamente,↵\n"
-#~ "↵\n"
-#~ "Karen Yap↵\n"
-#~ "%1"
 
 #~ msgid "Our customers clearly like us. In mid-2014, Binary.com has over 100 million historical transactions and over 130,000 new daily transactions."
 #~ msgstr "Os nossos clientes aprovam o nosso trabalho. Em meados de 2014, a Binary.com possuía mais de 100 milhões de transações e mais de 130 mil novas operações diárias."
@@ -10963,17 +11008,8 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "You get fair and transparent pricing, whatever your position."
 #~ msgstr "Você consegue preços justos e transparentes, independentemente da sua posição."
 
-#~ msgid "You have already claimed a bonus in the past."
-#~ msgstr "Você já solicitou o seu bônus."
-
 #~ msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
 #~ msgstr "Você não obteve nem manteve todas as licenças e autorizações necessárias para operar dentro de quaisquer leis, regras e regulamentos aplicáveis sob a autoridade de qualquer entidade regulatória da jurisdição na qual você opera ou aonde o seu negócio se destina;"
-
-#~ msgid "You have not yet reached the turnover required to be credited with the bonus."
-#~ msgstr "Você ainda não alcançou o faturamento necessário para que o seu bônus seja creditado."
-
-#~ msgid "You have opened an account using invalid details."
-#~ msgstr "Você abriu uma conta usando dados inválidos."
 
 #~ msgid "You have purchased the following contract:"
 #~ msgstr "Você comprou o seguinte contrato:"
@@ -10983,9 +11019,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 
 #~ msgid "You have reached the rate limit of requests per second. To continue, please <a href='javascript:;' id='ratelimit-refresh-link'>refresh</a> the page."
 #~ msgstr "O limite da taxa de pedidos por segundo foi atingido. Para continuar, <a href='javascript:;' id='ratelimit-refresh-link'>atualize</a> a página."
-
-#~ msgid "You have signed up for more than one account."
-#~ msgstr "Você abriu mais de uma conta."
 
 #~ msgid "You have sold the following contract:"
 #~ msgstr "Você vendeu o seguinte contrato:"
@@ -11129,9 +11162,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 
 #~ msgid "Your ID will be stored in a cookie and identified every time a prospect clicks on your affiliate link and lands on %1 and in that event, opens an account with us."
 #~ msgstr "A sua ID será armazenada numa cookie e identificada cada vez que um candidato clicar no seu link de afiliado e chegar a %1 e, nesse evento, abrir uma conta conosco."
-
-#~ msgid "Your Login ID"
-#~ msgstr "O seu ID de Início de Sessão"
 
 #~ msgid "Your Property"
 #~ msgstr "A sua propriedade"
@@ -16709,9 +16739,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 
 #~ msgid "Asia and Europe 24 Hours"
 #~ msgstr "Ásia e Europa 24 Horas"
-
-#~ msgid "Best regards,"
-#~ msgstr "Melhores cumprimentos,"
 
 #~ msgid "Call us"
 #~ msgstr "Contate-nos"

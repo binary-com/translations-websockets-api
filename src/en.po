@@ -225,6 +225,14 @@ msgstr ""
 msgid "A problem occurred while connecting to the server. Please try again later."
 msgstr ""
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:19
+msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
+msgstr ""
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:18
+msgid "A scanned copy of your passport or driver's licence."
+msgstr ""
+
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:613
 msgid "A technical indicator which measures overbought/oversold levels in a very similar way to that of an Oscillator indicator, except that %R is plotted upside-down 0% to -100%. Readings in the range of 80 to 100% indicate that the security is oversold while readings in the 0 to 20% range suggest that it is overbought."
 msgstr ""
@@ -487,6 +495,10 @@ msgstr ""
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:680
 msgid "Binary options or other financial derivatives trading frequency"
+msgstr ""
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:620
+msgid "Binary.com"
 msgstr ""
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:615
@@ -882,6 +894,58 @@ msgid ""
 "Binary\n"
 msgstr ""
 
+#. (name, website_name, currency, amount, support_email, tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_approve.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
+"\n"
+"Should you have any questions, please do not hesitate to contact us on %5.\n"
+"\n"
+"Kind Regards,\n"
+"\n"
+"Karen Yap\n"
+"%2\n"
+"\n"
+"*Terms and conditions may apply to withdrawals. (%6)"
+msgstr ""
+
+#. (name, website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+msgstr ""
+
+#. (token, link)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+"\n"
+"Token: %1\n"
+"\n"
+"Password reset form: %2"
+msgstr ""
+
+#. (token)
+#: /home/git/regentmarkets/bom-platform/templates/resend_verification.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"In order to verify, please use the following token:\n"
+"\n"
+"%1\n"
+"\n"
+msgstr ""
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:83
 msgid "Dec"
 msgstr ""
@@ -1136,6 +1200,14 @@ msgstr ""
 msgid "For added security, please check your email to retrieve the verification token."
 msgstr ""
 
+#. (tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:12
+msgid ""
+"For more information on the terms and conditions that apply to your bonus, go to:\n"
+"\n"
+"%1"
+msgstr ""
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:285
 msgid "Foreign currency deposit"
 msgstr ""
@@ -1274,8 +1346,16 @@ msgstr ""
 msgid "IP Address"
 msgstr ""
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:16
+msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
+msgstr ""
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:753
 msgid "If you need assistance feel free to contact our %1Customer Support"
+msgstr ""
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:9
+msgid "If you need help, please contact our customer support team at"
 msgstr ""
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:747
@@ -1977,6 +2057,19 @@ msgstr ""
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:266
 msgid "Others"
+msgstr ""
+
+#. (website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:21
+msgid ""
+"Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
+"\n"
+"We wish you the best of luck with your trading.\n"
+"\n"
+"Regards,\n"
+"\n"
+"Karen Yap\n"
+"%1"
 msgstr ""
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:566
@@ -3772,6 +3865,10 @@ msgstr ""
 msgid "Windows"
 msgstr ""
 
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:619
+msgid "With regards,"
+msgstr ""
+
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
 msgid "Withdrawal"
 msgstr ""
@@ -3860,6 +3957,10 @@ msgstr ""
 msgid "You did not change anything."
 msgstr ""
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:8
+msgid "You have already claimed a bonus in the past."
+msgstr ""
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:238
 msgid "You have already withdrawn %1 %2."
 msgstr ""
@@ -3899,9 +4000,21 @@ msgstr ""
 msgid "You have not granted access to any applications."
 msgstr ""
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:10
+msgid "You have not yet reached the turnover required to be credited with the bonus."
+msgstr ""
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:9
+msgid "You have opened an account using invalid details."
+msgstr ""
+
 #. ($descriptor->{category})
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:417
 msgid "You have reached the rate limit for %1."
+msgstr ""
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:7
+msgid "You have signed up for more than one account."
 msgstr ""
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:652
@@ -3942,6 +4055,10 @@ msgstr ""
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:568
 msgid "Your Client will receive an email notification informing him/her that the transfer has been processed."
+msgstr ""
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:614
+msgid "Your Login ID"
 msgstr ""
 
 #. ($currency,                to_monetary_number_format($balance)

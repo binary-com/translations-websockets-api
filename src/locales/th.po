@@ -224,6 +224,14 @@ msgstr "ตัวบ่งชี้โมเมนตัวแสดงร้อ
 msgid "A problem occurred while connecting to the server. Please try again later."
 msgstr "มีปัญหาเกิดขึ้นในการเชื่อมต่อกับเครือข่ายหลัก โปรดเข้าใช้งานอีกครั้งภายหลัง"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:19
+msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
+msgstr "สำเนาใบแจ้งหนี้สาธารณูปโภคที่แสดงที่อยู่ปัจจุบันของคุณ จำนวน 1 ฉบับ (ใบแจ้งหนี้สาธารณูปโภคล่าสุดไม่เกิน 3 เดือน)"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:18
+msgid "A scanned copy of your passport or driver's licence."
+msgstr "สำเนาหนังสือเดินทาง หรือ ใบขับขี่ จำนวน 1 ฉบับ"
+
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:613
 msgid "A technical indicator which measures overbought/oversold levels in a very similar way to that of an Oscillator indicator, except that %R is plotted upside-down 0% to -100%. Readings in the range of 80 to 100% indicate that the security is oversold while readings in the 0 to 20% range suggest that it is overbought."
 msgstr "เครื่องมือทางเทคนิคที่บอกระดับสภาวะที่เกิดการซื้อมากเกินไป/ขายมากเกินไป เรียกว่า ดัชนีออสซิลเลเทอร์ (Oscillator Indicator) นอกจาก %R จะถูกแสดงแนวโน้มคว่ำลงในขนาด 0% ถึง -100% แต่หากค่าอยู่ระหว่าง 80% ถึง 100% หมายถึง หลักทรัพย์มีการขายมากเกินไป และเมื่ออยู่ในระดับ 0% ถึง 20% คือ หลักทรัพย์มีภาวะการซื้อมากเกินไป"
@@ -495,6 +503,12 @@ msgstr "ประสบการณ์การเทรดไบนารีอ
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:680
 msgid "Binary options or other financial derivatives trading frequency"
 msgstr "ความถี่ในการเทรดไบนารีออปชั่น หรือ อนุพันธ์อื่นๆ"
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:620
+#, fuzzy
+#| msgid "Binary.com academy"
+msgid "Binary.com"
+msgstr "สถาบัน Binary.com"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:615
 msgid "Bollinger Band Width"
@@ -936,6 +950,90 @@ msgstr ""
 "\n"
 "ไบนารี (Binary)\n"
 
+#. (name, website_name, currency, amount, support_email, tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_approve.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
+"\n"
+"Should you have any questions, please do not hesitate to contact us on %5.\n"
+"\n"
+"Kind Regards,\n"
+"\n"
+"Karen Yap\n"
+"%2\n"
+"\n"
+"*Terms and conditions may apply to withdrawals. (%6)"
+msgstr ""
+"เรียน %1\n"
+"\n"
+"เรามีความยินดีที่ท่านได้ตัดสินใจในการเริ่มซื้อขายกับ %2 และพวกเราหวังว่า ประสบการณ์ของท่านกับระบบซื้อขายของเราจะเป็นประโยชน์กับท่านนั้น\n"
+"\n"
+"เราขอเรียนให้ท่านทราบว่า เราได้รับทราบความประสงค์ของท่านเกี่ยวกับโบนัส และเราได้ดำเนินการเพิ่มโบนัส %3%4* ให้บัญชีของท่านเรียบร้อยแล้ว\n"
+"\n"
+"หากท่านมีคำถามหรือข้อสงสัยประการใด ขอได้โปรดแจ้งให้เราทราบ หรือติดต่อกลับที่ %5\n"
+"\n"
+"ขอแสดงความนับถือ\n"
+"\n"
+"Karen Yap\n"
+"%2\n"
+"\n"
+"*ข้อตกลงและเงื่อนไขต่างๆ ที่ใช้กับการถอน (%6)"
+
+#. (name, website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+msgstr ""
+"เรียน %1\n"
+"\n"
+"เรามีความยินดีที่ท่านได้ตัดสินใจในการเริ่มซื้อขายกับ %2 และพวกเราหวังว่า ประสบการณ์ของท่านกับระบบซื้อขายของเราจะเป็นประโยชน์กับท่าน\n"
+"\n"
+"เราขอเรียนให้ท่านทราบว่า เราได้รับทราบความประสงค์ของท่านเกี่ยวกับโบนัส เนื่องด้วยหนึ่งในสาเหตุต่อไปนี้เราจึงไม่สามารถดำเนินการตามความประสงค์ท่านได้:"
+
+#. (token, link)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+"\n"
+"Token: %1\n"
+"\n"
+"Password reset form: %2"
+msgstr ""
+"เรียน ท่านลูกค้าผู้มีอุปการะคุณ\n"
+"\n"
+"โปรดยืนยันตัวตนของท่าน โดยการป้อนรหัสเพื่อการตรวจสอบในแบบฟอร์มการตั้งรหัสผ่านใหม่ จากข้อมูลด้านล่าง เพื่อดำเนินการในการเปลี่ยนแปลงรหัสผ่าน:\n"
+"\n"
+"โทเค่น: %1\n"
+"\n"
+"แบบฟอร์มการตั้งรหัสผ่านใหม่: %2"
+
+#. (token)
+#: /home/git/regentmarkets/bom-platform/templates/resend_verification.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"In order to verify, please use the following token:\n"
+"\n"
+"%1\n"
+"\n"
+msgstr ""
+"เรียน ท่านลูกค้าผู้มีอุปการะคุณ\n"
+"\n"
+"โปรดใช้โทเค่นด้านล่างนี้ เพื่อดำเนินการตามการร้องขอของท่าน:\n"
+"\n"
+"%1\n"
+"\n"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:83
 msgid "Dec"
 msgstr "ธ.ค."
@@ -1190,6 +1288,17 @@ msgstr "เสร็จสิ้น"
 msgid "For added security, please check your email to retrieve the verification token."
 msgstr "โปรดตรวจสอบอีเมล์ของท่านเพื่อรับโทเค่นในการยืนยันตัวตน และความปลอดภัย"
 
+#. (tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:12
+msgid ""
+"For more information on the terms and conditions that apply to your bonus, go to:\n"
+"\n"
+"%1"
+msgstr ""
+"ศึกษาข้อมูลเพิ่มเติมเกี่ยวกับข้อตกลงและเงื่อนไขในการใช้โบนัสของท่าน ได้ที่:\n"
+"\n"
+"%1"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:285
 msgid "Foreign currency deposit"
 msgstr "ฝากสกุลเงินต่างประเทศ"
@@ -1328,9 +1437,17 @@ msgstr "ฝ่ายบุคคล"
 msgid "IP Address"
 msgstr "IP Address"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:16
+msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
+msgstr "หากท่านไม่พบว่ามีเหตุผลในข้อใดเลยที่ตรงตามกรณีของท่าน และท่านต้องการแจ้งความจำนงในการเพิ่มโบนัสในบัญชีของท่าน โปรดให้ข้อมูลเราดังต่อไปนี้:"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:753
 msgid "If you need assistance feel free to contact our %1Customer Support"
 msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อแผนกบริการลูกค้า %1"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:9
+msgid "If you need help, please contact our customer support team at"
+msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อทีมบริการลูกค้าของเราที่"
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:747
 msgid "If you wish to raise these limits, please authenticate your account."
@@ -2040,6 +2157,27 @@ msgstr "ความถี่ในการซื้อขายเครื่
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:266
 msgid "Others"
 msgstr "อื่นๆ"
+
+#. (website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:21
+msgid ""
+"Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
+"\n"
+"We wish you the best of luck with your trading.\n"
+"\n"
+"Regards,\n"
+"\n"
+"Karen Yap\n"
+"%1"
+msgstr ""
+"ฝ่ายบริการลูกค้าของเราจะดำเนินการเรื่องโบนัสแทนท่านเมื่อเราได้รับเอกสาร และจะใช้เวลาดำเนินการ 3 วันทำการ เพื่อโอนโบนัสเข้าบัญชีของท่าน\n"
+"\n"
+"ขอให้ท่านโชคดีในการซื้อขาย\n"
+"\n"
+"ขอแสดงความนับถือ\n"
+"\n"
+"Karen Yap\n"
+"%1"
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:566
 msgid "Our site does not charge any transfer fees."
@@ -3846,6 +3984,12 @@ msgstr ""
 msgid "Windows"
 msgstr ""
 
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:619
+#, fuzzy
+#| msgid "Kind Regards,"
+msgid "With regards,"
+msgstr "ขอแสดงความนับถือ"
+
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
 msgid "Withdrawal"
 msgstr ""
@@ -3934,6 +4078,10 @@ msgstr ""
 msgid "You did not change anything."
 msgstr ""
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:8
+msgid "You have already claimed a bonus in the past."
+msgstr "ท่านได้ใช้โบนัสไปแล้ว"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:238
 msgid "You have already withdrawn %1 %2."
 msgstr "ท่านได้ถอน %1 %2"
@@ -3973,10 +4121,22 @@ msgstr "ท่านใช้วงเงินขาดทุนรายวั
 msgid "You have not granted access to any applications."
 msgstr "ท่านไม่ได้รับอนุญาตให้เข้าใช้งานระบบใดๆ"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:10
+msgid "You have not yet reached the turnover required to be credited with the bonus."
+msgstr "ท่านยังไม่บรรลุมูลค่าการซื้อขายที่กำหนดเพื่อบันทึกยอดรวมกับโบนัส"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:9
+msgid "You have opened an account using invalid details."
+msgstr "ท่านได้เปิดบัญชีโดยใช้รายละเอียดที่ไม่ถูกต้อง"
+
 #. ($descriptor->{category})
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:417
 msgid "You have reached the rate limit for %1."
 msgstr "ท่านได้ใช้วงเงินสำหรับ %1 เต็มมูลค่าแล้ว"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:7
+msgid "You have signed up for more than one account."
+msgstr "ท่านได้ลงทะเบียนมากกว่าหนึ่งบัญชี"
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:652
 msgid "You have sold this contract at %1 %2"
@@ -4017,6 +4177,10 @@ msgstr ""
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:568
 msgid "Your Client will receive an email notification informing him/her that the transfer has been processed."
 msgstr ""
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:614
+msgid "Your Login ID"
+msgstr "Login ID ของท่าน"
 
 #. ($currency,                to_monetary_number_format($balance)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:805
@@ -5562,12 +5726,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "A proactive approach to solving problems and delivering client solutions"
 #~ msgstr "วิธีการเชิงรุกในการแก้ปัญหาและนำเสนอวิธีการแก้ปัญหาต่างๆ ให้ลูกค้า"
 
-#~ msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
-#~ msgstr "สำเนาใบแจ้งหนี้สาธารณูปโภคที่แสดงที่อยู่ปัจจุบันของคุณ จำนวน 1 ฉบับ (ใบแจ้งหนี้สาธารณูปโภคล่าสุดไม่เกิน 3 เดือน)"
-
-#~ msgid "A scanned copy of your passport or driver's licence."
-#~ msgstr "สำเนาหนังสือเดินทาง หรือ ใบขับขี่ จำนวน 1 ฉบับ"
-
 #~ msgid "A strong and passionate interest in Marketing and Advertising"
 #~ msgstr "มีความสนใจและความมุ่งมั่นอย่างแรงกล้าในด้านการตลาด และการโฆษณา"
 
@@ -6104,9 +6262,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "Binary.com Property"
 #~ msgstr "ทรัพย์สินของ Binary.com"
 
-#~ msgid "Binary.com academy"
-#~ msgstr "สถาบัน Binary.com"
-
 #~ msgid "Binary.com continues to innovate and grow"
 #~ msgstr "Binary.com เติบโตและสร้างสรรค์สิ่งใหม่ๆ อย่างต่อเนื่อง"
 
@@ -6642,67 +6797,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgstr "วันเกิด"
 
 #~ msgid ""
-#~ "Dear %1,\n"
-#~ "\n"
-#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-#~ "\n"
-#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
-#~ "\n"
-#~ "Should you have any questions, please do not hesitate to contact us on %5.\n"
-#~ "\n"
-#~ "Kind Regards,\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%2\n"
-#~ "\n"
-#~ "*Terms and conditions may apply to withdrawals. (%6)"
-#~ msgstr ""
-#~ "เรียน %1\n"
-#~ "\n"
-#~ "เรามีความยินดีที่ท่านได้ตัดสินใจในการเริ่มซื้อขายกับ %2 และพวกเราหวังว่า ประสบการณ์ของท่านกับระบบซื้อขายของเราจะเป็นประโยชน์กับท่านนั้น\n"
-#~ "\n"
-#~ "เราขอเรียนให้ท่านทราบว่า เราได้รับทราบความประสงค์ของท่านเกี่ยวกับโบนัส และเราได้ดำเนินการเพิ่มโบนัส %3%4* ให้บัญชีของท่านเรียบร้อยแล้ว\n"
-#~ "\n"
-#~ "หากท่านมีคำถามหรือข้อสงสัยประการใด ขอได้โปรดแจ้งให้เราทราบ หรือติดต่อกลับที่ %5\n"
-#~ "\n"
-#~ "ขอแสดงความนับถือ\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%2\n"
-#~ "\n"
-#~ "*ข้อตกลงและเงื่อนไขต่างๆ ที่ใช้กับการถอน (%6)"
-
-#~ msgid ""
-#~ "Dear %1,\n"
-#~ "\n"
-#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-#~ "\n"
-#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
-#~ msgstr ""
-#~ "เรียน %1\n"
-#~ "\n"
-#~ "เรามีความยินดีที่ท่านได้ตัดสินใจในการเริ่มซื้อขายกับ %2 และพวกเราหวังว่า ประสบการณ์ของท่านกับระบบซื้อขายของเราจะเป็นประโยชน์กับท่าน\n"
-#~ "\n"
-#~ "เราขอเรียนให้ท่านทราบว่า เราได้รับทราบความประสงค์ของท่านเกี่ยวกับโบนัส เนื่องด้วยหนึ่งในสาเหตุต่อไปนี้เราจึงไม่สามารถดำเนินการตามความประสงค์ท่านได้:"
-
-#~ msgid ""
-#~ "Dear Valued Customer,\n"
-#~ "\n"
-#~ "Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
-#~ "\n"
-#~ "Token: %1\n"
-#~ "\n"
-#~ "Password reset form: %2"
-#~ msgstr ""
-#~ "เรียน ท่านลูกค้าผู้มีอุปการะคุณ\n"
-#~ "\n"
-#~ "โปรดยืนยันตัวตนของท่าน โดยการป้อนรหัสเพื่อการตรวจสอบในแบบฟอร์มการตั้งรหัสผ่านใหม่ จากข้อมูลด้านล่าง เพื่อดำเนินการในการเปลี่ยนแปลงรหัสผ่าน:\n"
-#~ "\n"
-#~ "โทเค่น: %1\n"
-#~ "\n"
-#~ "แบบฟอร์มการตั้งรหัสผ่านใหม่: %2"
-
-#~ msgid ""
 #~ "Dear Valued Customer,\n"
 #~ "\n"
 #~ "In order to verify your withdrawal request, please click on the following link:\n"
@@ -6719,21 +6813,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ "%1\n"
 #~ "\n"
 #~ "พวกเราแนะนำให้ท่านฝากเงินและถอนเงินด้วยวิธีการชำระเงินด้วยช่องทางเดียวกันเพื่อความปลอดภัยและการใช้งานโดยสะดวก\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "Dear Valued Customer,\n"
-#~ "\n"
-#~ "In order to verify, please use the following token:\n"
-#~ "\n"
-#~ "%1\n"
-#~ "\n"
-#~ msgstr ""
-#~ "เรียน ท่านลูกค้าผู้มีอุปการะคุณ\n"
-#~ "\n"
-#~ "โปรดใช้โทเค่นด้านล่างนี้ เพื่อดำเนินการตามการร้องขอของท่าน:\n"
-#~ "\n"
-#~ "%1\n"
 #~ "\n"
 
 #~ msgid "Debt-free"
@@ -7262,15 +7341,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "For long contracts, the entry level is the spot plus half spread and the exit level is spot minus half spread. For short contracts, the entry level is spot minus half spread and the exit level is spot plus half spread."
 #~ msgstr "สำหรับสัญญาระยะยาว ระดับเริ่มต้น คือ สปอตบวกด้วยครึ่งของสเปรด และระดับสิ้นสุด คือ สปอตลบด้วยครึ่งของสเปรด สำหรับสัญญาระยะสั้น ระดับเริ่มต้น คือ สปอตลบด้วยครึ่งของสเปรด และระดับสิ้นสุด คือ สปอตบวกด้วยครึ่งของสเปรด"
 
-#~ msgid ""
-#~ "For more information on the terms and conditions that apply to your bonus, go to:\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "ศึกษาข้อมูลเพิ่มเติมเกี่ยวกับข้อตกลงและเงื่อนไขในการใช้โบนัสของท่าน ได้ที่:\n"
-#~ "\n"
-#~ "%1"
-
 #~ msgid "Fraud and Money Laundering"
 #~ msgstr "การฉ้อโกงและการฟอกเงิน"
 
@@ -7526,17 +7596,11 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "If you don't receive the email within the next few minutes, please check your junk/spam mail folder."
 #~ msgstr "หากท่านไม่ได้รับอีเมล์ในอีก 2-3 นาที โปรดตรวจสอบอีเมล์ในกล่องขยะหรือสแปมของท่าน"
 
-#~ msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
-#~ msgstr "หากท่านไม่พบว่ามีเหตุผลในข้อใดเลยที่ตรงตามกรณีของท่าน และท่านต้องการแจ้งความจำนงในการเพิ่มโบนัสในบัญชีของท่าน โปรดให้ข้อมูลเราดังต่อไปนี้:"
-
 #~ msgid "If you have the skill set we seek, you’ll become a valued member of a highly competent front end development team engaged in driving our binary options trading systems to new heights."
 #~ msgstr "หากท่านมีคุณสมบัติที่เรากำลังสรรหา ท่านจะกลายเป็นส่วนหนึ่งของทีมงานพัฒนาระบบส่วนหน้าที่มีความสามารถสูง และรับผิดชอบในการพัฒนาระบบซื้อขายไบนารีออปชั่นที่มีสมรรถนะที่ดีเยี่ยมขึ้นไปอีก"
 
 #~ msgid "If you meet our basic requirements, we’ll send you a talent test."
 #~ msgstr "หากท่านมีคุณสมบัติพื้นฐานครบถ้วน เราจะขอให้ท่านทำข้อทดสอบความสามารถเฉพาะทาง"
-
-#~ msgid "If you need help, please contact our customer support team at"
-#~ msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อทีมบริการลูกค้าของเราที่"
 
 #~ msgid "If you select a <strong>start time</strong> in the future, the <strong>start time</strong> is that which is selected and the <strong>entry spot</strong> is the price in effect at that time."
 #~ msgstr "หากท่านกำหนด <strong>เวลาเริ่มต้น</strong>ในอนาคต <strong>เวลาเริ่มต้น</strong> ที่เลือกนั้น<strong>สปอตเริ่มต้น</strong> คือ ราคาที่มีผลในเวลานั้น"
@@ -8608,25 +8672,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 
 #~ msgid "Our costs and charges for depositing and withdrawing money are set out <a href=\"%1\" class=\"pjaxload\">here</a>. Please be aware of all costs and charges that apply to you because they will affect your profitability."
 #~ msgstr "ค่าใช้จ่ายและค่าธรรมเนียมของเราในการฝากเงินละถอนเงินถูกกไหนดไว้ <a href=\"%1\" class=\"pjaxload\">ที่นี่</a> โปรดศึกษาข้อมูลดังกล่าวที่มีความเกี่ยวข้องกับบัญชีท่าน เนื่องจากค่าใช้จ่ายดังกล่าวสัมพันธ์กับความสามารถในการทำกำไรของท่าน"
-
-#~ msgid ""
-#~ "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
-#~ "\n"
-#~ "We wish you the best of luck with your trading.\n"
-#~ "\n"
-#~ "Regards,\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%1"
-#~ msgstr ""
-#~ "ฝ่ายบริการลูกค้าของเราจะดำเนินการเรื่องโบนัสแทนท่านเมื่อเราได้รับเอกสาร และจะใช้เวลาดำเนินการ 3 วันทำการ เพื่อโอนโบนัสเข้าบัญชีของท่าน\n"
-#~ "\n"
-#~ "ขอให้ท่านโชคดีในการซื้อขาย\n"
-#~ "\n"
-#~ "ขอแสดงความนับถือ\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%1"
 
 #~ msgid "Our customers clearly like us. In mid-2014, Binary.com has over 100 million historical transactions and over 130,000 new daily transactions."
 #~ msgstr "เราเป็นที่นิยมชมชอบของลูกค้า ในกลางปี 2557 Binary.com มีธุรกรรมมากกว่า 100 ล้านระเบียน และมีธุรกรรมใหม่ที่เกิดขึ้นรายวันกว่า 130,000 ธุรกรรม"
@@ -9724,15 +9769,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~ msgid "You agree that you will not:"
 #~ msgstr "คุณตกลงว่า คุณจะไม่:"
 
-#~ msgid "You have already claimed a bonus in the past."
-#~ msgstr "ท่านได้ใช้โบนัสไปแล้ว"
-
-#~ msgid "You have not yet reached the turnover required to be credited with the bonus."
-#~ msgstr "ท่านยังไม่บรรลุมูลค่าการซื้อขายที่กำหนดเพื่อบันทึกยอดรวมกับโบนัส"
-
-#~ msgid "You have opened an account using invalid details."
-#~ msgstr "ท่านได้เปิดบัญชีโดยใช้รายละเอียดที่ไม่ถูกต้อง"
-
 #~ msgid "You have purchased the following contract:"
 #~ msgstr "ท่านได้ซื้อสัญญาต่อไปนี้:"
 
@@ -9741,9 +9777,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 
 #~ msgid "You have reached the rate limit of requests per second. To continue, please <a href='javascript:;' id='ratelimit-refresh-link'>refresh</a> the page."
 #~ msgstr "ท่านได้ส่งคำสั่งต่อวินาทีเกินอัตราที่กำหนด เพื่อดำเนินการต่อ โปรด <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">รีเฟรช</a> หน้านี้"
-
-#~ msgid "You have signed up for more than one account."
-#~ msgstr "ท่านได้ลงทะเบียนมากกว่าหนึ่งบัญชี"
 
 #~ msgid "You have sold the following contract:"
 #~ msgstr "ท่านได้ขายสัญญาต่อไปนี้:"
@@ -9782,9 +9815,6 @@ msgstr "{JAPAN ONLY}Where broking companies show bid and offer prices for purcha
 #~| msgid "Your details"
 #~ msgid "Your Details"
 #~ msgstr "รายละเอียดของท่าน"
-
-#~ msgid "Your Login ID"
-#~ msgstr "Login ID ของท่าน"
 
 #~ msgid "Your Property"
 #~ msgstr "ทรัพย์สินของท่าน"

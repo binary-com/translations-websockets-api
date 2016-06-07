@@ -237,6 +237,14 @@ msgstr "モメンタム系の指標であり、３倍指数平滑移動平均の
 msgid "A problem occurred while connecting to the server. Please try again later."
 msgstr "サーバーに接続時に問題が発生しました。後ほど改めてアクセスして下さい。"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:19
+msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
+msgstr "現住所を明示している公共料金の支払い通知票のスキャン（発行３ヶ月以内のものに限る）。"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:18
+msgid "A scanned copy of your passport or driver's licence."
+msgstr "パスポート、又は運転免許証のスキャン。"
+
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:613
 msgid "A technical indicator which measures overbought/oversold levels in a very similar way to that of an Oscillator indicator, except that %R is plotted upside-down 0% to -100%. Readings in the range of 80 to 100% indicate that the security is oversold while readings in the 0 to 20% range suggest that it is overbought."
 msgstr "オシレータ系指標に類似した方法で過剰な売買を測る指標のことで、%Rでは0％近辺を高値水準、100％近辺を下値水準として見ます。80%から100%の値を示す場合は過剰な売りを示唆し、0%から20%の値を示す場合は過剰な買いを示唆します。"
@@ -508,6 +516,12 @@ msgstr "バイナリーオプションまたはその他金融デリバティブ
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:680
 msgid "Binary options or other financial derivatives trading frequency"
 msgstr "バイナリーオプションまたはその他金融デリバティブ取引の頻度"
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:620
+#, fuzzy
+#| msgid "Binary.com academy"
+msgid "Binary.com"
+msgstr "Binary.comアカデミー"
 
 #: /home/git/regentmarkets/bom-backoffice/lib/BOM/Charting.pm:615
 msgid "Bollinger Band Width"
@@ -955,6 +969,90 @@ msgstr ""
 "\n"
 "Binary\n"
 
+#. (name, website_name, currency, amount, support_email, tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_approve.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
+"\n"
+"Should you have any questions, please do not hesitate to contact us on %5.\n"
+"\n"
+"Kind Regards,\n"
+"\n"
+"Karen Yap\n"
+"%2\n"
+"\n"
+"*Terms and conditions may apply to withdrawals. (%6)"
+msgstr ""
+"%1さま\n"
+"\n"
+"%2でのお取引を開始頂きまして誠にありがとうございます。当社でのトレードにご満足されていらっしゃれば幸いです。\n"
+"\n"
+"本日、先日のリクエストをふまえてお客さまのご口座に%3%4分のボーナス（注）を付与させて頂きましたことを報告いたします。\n"
+"\n"
+"何かご不明な点がございましたら、%5までお問い合わせ下さい。\n"
+"\n"
+"敬具\n"
+"\n"
+"Karen Yap\n"
+"%2\n"
+"\n"
+"（注）ご出金時にはボーナスに関するご利用規約が適用されます。(%6)"
+
+#. (name, website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:1
+msgid ""
+"Dear %1,\n"
+"\n"
+"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+"\n"
+"We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+msgstr ""
+"%1様\n"
+"\n"
+"%2でのお取引を開始頂きまして誠にありがとうございます。当社でのお取引にご満足いただければ幸いです。\n"
+"\n"
+"先日、申請頂いたボーナスの件ですが、残念ながら下記の理由によりボーナス付与の審査を進めることができませんでした。："
+
+#. (token, link)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+"\n"
+"Token: %1\n"
+"\n"
+"Password reset form: %2"
+msgstr ""
+"お客さまへ\n"
+"\n"
+"パスワードをご変更される前に、下記認証コードをパスワードリセット申請書にご入力いただき、ご本人様確認を完了していただきますようご協力のほど宜しくお願いいたします。\n"
+"\n"
+"認証コード：%1\n"
+"\n"
+"パスワードリセット申請書：%2"
+
+#. (token)
+#: /home/git/regentmarkets/bom-platform/templates/resend_verification.html.tt:1
+msgid ""
+"Dear Valued Customer,\n"
+"\n"
+"In order to verify, please use the following token:\n"
+"\n"
+"%1\n"
+"\n"
+msgstr ""
+"お客さまへ\n"
+"\n"
+"ユーザー確認のため、下記認証コードを認証コード欄に入力してください。\n"
+"\n"
+"%1\n"
+"\n"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:83
 msgid "Dec"
 msgstr "12"
@@ -1209,6 +1307,17 @@ msgstr "完了"
 msgid "For added security, please check your email to retrieve the verification token."
 msgstr "セキュリティチェックのため、メールご確認いただき認証コードを取得してください。"
 
+#. (tac_url)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:12
+msgid ""
+"For more information on the terms and conditions that apply to your bonus, go to:\n"
+"\n"
+"%1"
+msgstr ""
+"ボーナスに関するご利用規約は、こちらからご確認下さい。：\n"
+"\n"
+"%1"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:285
 msgid "Foreign currency deposit"
 msgstr "外貨預金"
@@ -1347,9 +1456,17 @@ msgstr "人事"
 msgid "IP Address"
 msgstr "IPアドレス"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:16
+msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
+msgstr "もし、これらの理由に納得されず、かつ改めてボーナスの付与を望まれる場合は下記の証明を提供して下さい："
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:753
 msgid "If you need assistance feel free to contact our %1Customer Support"
 msgstr "ご不明な点がございましたら、%1当社カスタマーサポートチームまでお気軽にお問い合わせ下さい。"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/lost_password.html.tt:9
+msgid "If you need help, please contact our customer support team at"
+msgstr "ご不明な点がございましたら、当社カスタマーサポートチームまでお問い合わせ下さい。"
 
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:747
 msgid "If you wish to raise these limits, please authenticate your account."
@@ -2059,6 +2176,27 @@ msgstr "その他金融商品取引の頻度"
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:266
 msgid "Others"
 msgstr "その他"
+
+#. (website_name)
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:21
+msgid ""
+"Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
+"\n"
+"We wish you the best of luck with your trading.\n"
+"\n"
+"Regards,\n"
+"\n"
+"Karen Yap\n"
+"%1"
+msgstr ""
+"各種文書を受け取り次第、カスタマーサポート経由でボーナス付与の審査を開始します。ご口座にボーナスが付与されるまで３営業日程度掛かる場合があります。\n"
+"\n"
+"是非ともトレードをお楽しみください。\n"
+"\n"
+"敬具\n"
+"\n"
+"Karen Yap\n"
+"%1"
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:566
 msgid "Our site does not charge any transfer fees."
@@ -3865,6 +4003,12 @@ msgstr "ウィリアムズ%R"
 msgid "Windows"
 msgstr "Windows"
 
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:619
+#, fuzzy
+#| msgid "Best regards,"
+msgid "With regards,"
+msgstr "敬具"
+
 #: /home/git/regentmarkets/bom-backoffice/f_manager_confodeposit.cgi:273
 msgid "Withdrawal"
 msgstr "ご出金"
@@ -3953,6 +4097,10 @@ msgstr "口座%1は現在無効であるため、送金できません。"
 msgid "You did not change anything."
 msgstr "変更はありません。"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:8
+msgid "You have already claimed a bonus in the past."
+msgstr "過去にボーナス申請履歴があります。"
+
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:238
 msgid "You have already withdrawn %1 %2."
 msgstr "既に%1 %2を出金されています。"
@@ -3992,10 +4140,22 @@ msgstr "%1%2の1日の損失制限をオーバーしました。"
 msgid "You have not granted access to any applications."
 msgstr "アプリケーションへのアクセス権限がありません。"
 
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:10
+msgid "You have not yet reached the turnover required to be credited with the bonus."
+msgstr "このボーナスを得るために必要なトレード購入金額に達していません。"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:9
+msgid "You have opened an account using invalid details."
+msgstr "無効な入力内容で口座を開設されました。"
+
 #. ($descriptor->{category})
 #: /home/git/regentmarkets/bom-websocket-api/lib/BOM/WebSocketAPI/Websocket_v3.pm:417
 msgid "You have reached the rate limit for %1."
 msgstr "%1のレート制限に達しました。"
+
+#: /home/git/regentmarkets/bom-backoffice/templates/email/bonus_reject.html.tt:7
+msgid "You have signed up for more than one account."
+msgstr "既に2つ以上のご口座をお持ちです。"
 
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:652
 msgid "You have sold this contract at %1 %2"
@@ -4036,6 +4196,10 @@ msgstr "お客さまの%1日の出金限度額は現在%2 %3です。（また�
 #: /home/git/regentmarkets/bom-backoffice/bin/GenerateStaticData.pm:568
 msgid "Your Client will receive an email notification informing him/her that the transfer has been processed."
 msgstr "あなたのクライアントに送金が処理されたことをお知らせする通知メールが届きます。"
+
+#: /home/git/regentmarkets/bom-platform/templates/common_email.html.tt:614
+msgid "Your Login ID"
+msgstr "お客さまのログインID"
 
 #. ($currency,                to_monetary_number_format($balance)
 #: /home/git/regentmarkets/bom/lib/BOM/Product/Transaction.pm:805
@@ -5593,12 +5757,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 #~ msgid "A proactive approach to solving problems and delivering client solutions"
 #~ msgstr "問題解決または顧客へ解決策の提供など積極的に取り組むことができる"
 
-#~ msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
-#~ msgstr "現住所を明示している公共料金の支払い通知票のスキャン（発行３ヶ月以内のものに限る）。"
-
-#~ msgid "A scanned copy of your passport or driver's licence."
-#~ msgstr "パスポート、又は運転免許証のスキャン。"
-
 #~ msgid "A strong and passionate interest in Marketing and Advertising"
 #~ msgstr "マーケティングと広告業に強い関心と情熱がある"
 
@@ -6156,9 +6314,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 #~ msgid "Binary.com Property"
 #~ msgstr "Binary.comプロパティ"
 
-#~ msgid "Binary.com academy"
-#~ msgstr "Binary.comアカデミー"
-
 #~ msgid "Binary.com continues to innovate and grow"
 #~ msgstr "Binary.comは常に進化、成長"
 
@@ -6696,67 +6851,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 #~ msgstr "生年月日"
 
 #~ msgid ""
-#~ "Dear %1,\n"
-#~ "\n"
-#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-#~ "\n"
-#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
-#~ "\n"
-#~ "Should you have any questions, please do not hesitate to contact us on %5.\n"
-#~ "\n"
-#~ "Kind Regards,\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%2\n"
-#~ "\n"
-#~ "*Terms and conditions may apply to withdrawals. (%6)"
-#~ msgstr ""
-#~ "%1さま\n"
-#~ "\n"
-#~ "%2でのお取引を開始頂きまして誠にありがとうございます。当社でのトレードにご満足されていらっしゃれば幸いです。\n"
-#~ "\n"
-#~ "本日、先日のリクエストをふまえてお客さまのご口座に%3%4分のボーナス（注）を付与させて頂きましたことを報告いたします。\n"
-#~ "\n"
-#~ "何かご不明な点がございましたら、%5までお問い合わせ下さい。\n"
-#~ "\n"
-#~ "敬具\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%2\n"
-#~ "\n"
-#~ "（注）ご出金時にはボーナスに関するご利用規約が適用されます。(%6)"
-
-#~ msgid ""
-#~ "Dear %1,\n"
-#~ "\n"
-#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-#~ "\n"
-#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
-#~ msgstr ""
-#~ "%1様\n"
-#~ "\n"
-#~ "%2でのお取引を開始頂きまして誠にありがとうございます。当社でのお取引にご満足いただければ幸いです。\n"
-#~ "\n"
-#~ "先日、申請頂いたボーナスの件ですが、残念ながら下記の理由によりボーナス付与の審査を進めることができませんでした。："
-
-#~ msgid ""
-#~ "Dear Valued Customer,\n"
-#~ "\n"
-#~ "Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
-#~ "\n"
-#~ "Token: %1\n"
-#~ "\n"
-#~ "Password reset form: %2"
-#~ msgstr ""
-#~ "お客さまへ\n"
-#~ "\n"
-#~ "パスワードをご変更される前に、下記認証コードをパスワードリセット申請書にご入力いただき、ご本人様確認を完了していただきますようご協力のほど宜しくお願いいたします。\n"
-#~ "\n"
-#~ "認証コード：%1\n"
-#~ "\n"
-#~ "パスワードリセット申請書：%2"
-
-#~ msgid ""
 #~ "Dear Valued Customer,\n"
 #~ "\n"
 #~ "In order to verify your withdrawal request, please click on the following link:\n"
@@ -6774,21 +6868,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 #~ "\n"
 #~ "セキュリティー保護の為、ご出金口座はご入金の際にご登録した口座になります。\n"
 #~ "ご出金口座を変更されたい場合は、当社カスタマーサポートまでお問い合わせください。\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "Dear Valued Customer,\n"
-#~ "\n"
-#~ "In order to verify, please use the following token:\n"
-#~ "\n"
-#~ "%1\n"
-#~ "\n"
-#~ msgstr ""
-#~ "お客さまへ\n"
-#~ "\n"
-#~ "ユーザー確認のため、下記認証コードを認証コード欄に入力してください。\n"
-#~ "\n"
-#~ "%1\n"
 #~ "\n"
 
 #~ msgid "Debt-free"
@@ -7334,15 +7413,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 #~ msgid "For long contracts, the entry level is the spot plus half spread and the exit level is spot minus half spread. For short contracts, the entry level is spot minus half spread and the exit level is spot plus half spread."
 #~ msgstr "ロングトレードにおいて、エントリーレベルは値にスプレッドの半分を足し、判定レベルは値からスプレッドの半分を引きます。ショートトレードにおいては、エントリーレベルは値から半分のスプレッドを引き、判定レベルは値にスプレッドの半分を足します。"
 
-#~ msgid ""
-#~ "For more information on the terms and conditions that apply to your bonus, go to:\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "ボーナスに関するご利用規約は、こちらからご確認下さい。：\n"
-#~ "\n"
-#~ "%1"
-
 #~ msgid "For the third straight year, BetOnMarkets.com is voted 'Best Fixed-Odds Financial Trading Provider' by Shares Magazine UK. It’s the last time we win it because Shares Magazine stops awarding in this category."
 #~ msgstr "３年連続でBetOnMarkets.comは、Shares Magazine UKから最も優秀な固定オッズ金融トレード業者として認定されましたが、同誌がこの分野での賞の授与をこの年で中止したため、当社が同賞を受賞する最後の年になります。"
 
@@ -7618,9 +7688,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 #~ msgid "If you don't receive the email within the next few minutes, please check your junk/spam mail folder."
 #~ msgstr "お客さまによっては迷惑メールフォルダーに入る場合もありますので、あわせてご確認ください。"
 
-#~ msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
-#~ msgstr "もし、これらの理由に納得されず、かつ改めてボーナスの付与を望まれる場合は下記の証明を提供して下さい："
-
 #~ msgid "If you have the skill set we seek, you’ll become a valued member of a highly competent front end development team engaged in driving our binary options trading systems to new heights."
 #~ msgstr "当社が求めるスキルをお持ちでしたら、新たな高みを目指すバイナリーオプショントレーディングシステムの運営に従事する非常に有能なフロントエンド開発チームの貴重な一員となることでしょう。"
 
@@ -7629,9 +7696,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 
 #~ msgid "If you meet our basic requirements, we’ll send you a talent test."
 #~ msgstr "当社の基本的な要求基準に見合う場合は、テストのご連絡をいたします。"
-
-#~ msgid "If you need help, please contact our customer support team at"
-#~ msgstr "ご不明な点がございましたら、当社カスタマーサポートチームまでお問い合わせ下さい。"
 
 #~ msgid "If you select \"Asian Fall\", you will win the payout if the <strong>last tick</strong> is <strong>lower</strong> than the <strong>average</strong> of the ticks."
 #~ msgstr "「Asianダウン」を選択された場合、<strong>最後のtick</strong>がtickの<strong>平均</strong>よりも<strong>低い</strong>とペイアウトを獲得いただけます。"
@@ -8927,25 +8991,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 
 #~ msgid "Our costs and charges for depositing and withdrawing money are set out <a href=\"%1\" class=\"pjaxload\">here</a>. Please be aware of all costs and charges that apply to you because they will affect your profitability."
 #~ msgstr "入金と出金に関する当社費用・手数料は、<a href=\"%1\" class=\"pjaxload\">こちら</a>で定められています。収益に影響がある可能性があるため、適用される全費用と手数料にご注意ください。"
-
-#~ msgid ""
-#~ "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
-#~ "\n"
-#~ "We wish you the best of luck with your trading.\n"
-#~ "\n"
-#~ "Regards,\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%1"
-#~ msgstr ""
-#~ "各種文書を受け取り次第、カスタマーサポート経由でボーナス付与の審査を開始します。ご口座にボーナスが付与されるまで３営業日程度掛かる場合があります。\n"
-#~ "\n"
-#~ "是非ともトレードをお楽しみください。\n"
-#~ "\n"
-#~ "敬具\n"
-#~ "\n"
-#~ "Karen Yap\n"
-#~ "%1"
 
 #~ msgid "Our customers clearly like us. In mid-2014, Binary.com has over 100 million historical transactions and over 130,000 new daily transactions."
 #~ msgstr "顧客からの高い評価は明確であり、２０１４年の中頃にはBinary.comは累計で１億件の取引を達成し、１３万件以上の新たな取引が日々行われる。"
@@ -11197,17 +11242,8 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 #~ msgid "You get fair and transparent pricing, whatever your position."
 #~ msgstr "お客さまのどのような取引に対しても、公正で透明性の高い取引価格を提供いたします。"
 
-#~ msgid "You have already claimed a bonus in the past."
-#~ msgstr "過去にボーナス申請履歴があります。"
-
 #~ msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
 #~ msgstr "あなたはあなたの操作またはあなたのビジネスターゲットの裁判管轄の規制機関の権限の下で適用される法律、規制、規則の範囲での操作に関する同意と必要な全ライセンスを入手し、維持しているわけではありません。"
-
-#~ msgid "You have not yet reached the turnover required to be credited with the bonus."
-#~ msgstr "このボーナスを得るために必要なトレード購入金額に達していません。"
-
-#~ msgid "You have opened an account using invalid details."
-#~ msgstr "無効な入力内容で口座を開設されました。"
 
 #~ msgid "You have purchased the following contract:"
 #~ msgstr "次の内容のトレードを購入されました："
@@ -11217,9 +11253,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 
 #~ msgid "You have reached the rate limit of requests per second. To continue, please <a href='javascript:;' id='ratelimit-refresh-link'>refresh</a> the page."
 #~ msgstr "秒単位のレート制限に達しました。続行されるにはページを <a href='javascript:;' id='ratelimit-refresh-link'>更新</a> してください。"
-
-#~ msgid "You have signed up for more than one account."
-#~ msgstr "既に2つ以上のご口座をお持ちです。"
 
 #~ msgid "You have sold the following contract:"
 #~ msgstr "次の内容のトレードを転売されました："
@@ -11367,9 +11400,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 
 #~ msgid "Your ID will be stored in a cookie and identified every time a prospect clicks on your affiliate link and lands on %1 and in that event, opens an account with us."
 #~ msgstr "お客さまのIDはクッキーに保存され、お客さまのアフィリエイトリンクがクリックされる度に識別され、%1に伝わります。"
-
-#~ msgid "Your Login ID"
-#~ msgstr "お客さまのログインID"
 
 #~ msgid "Your Property"
 #~ msgstr "不動産"
@@ -17001,9 +17031,6 @@ msgstr "次の文章のうち、金融商品の店頭取引の価格について
 
 #~ msgid "Asia and Europe 24 Hours"
 #~ msgstr "アジア、及び欧州地域にて２４時間対応"
-
-#~ msgid "Best regards,"
-#~ msgstr "敬具"
 
 #~ msgid "Call us"
 #~ msgstr "お電話"
