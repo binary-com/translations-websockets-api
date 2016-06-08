@@ -141,7 +141,7 @@ msgid "<option value=\"\"></option><option value=\"01\">Jan</option><option valu
 msgstr "<option value=\"\"></option><option value=\"01\">Jan</option><option value=\"02\">Fév</option><option value=\"03\">Mar</option><option value=\"04\">Avr</option><option value=\"05\">Mai</option><option value=\"06\">Juin</option><option value=\"07\">Juil</option><option value=\"08\">Août</option><option value=\"09\">Sept</option><option value=\"10\">Oct</option><option value=\"11\">Nov</option><option value=\"12\">Déc</option>"
 
 #. ($params->{code})
-msgid "<p style=\"font-weight: bold;\">Thanks for signing up for a virtual account!</p><p>Enter the following verification token into the form to create an account: <p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p>Enjoy trading with us on Binary.com.</p>"
+msgid "<p style=\"font-weight: bold;\">Thanks for signing up for a virtual account!</p><p>Enter the following verification token into the form to create an account: <p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p>Enjoy trading with us on Binary.com.</p><p style=\"color:#333333;font-size:15px;\">With Regards,<br/>Binary.com</p>"
 msgstr ""
 
 #. ($params->{code})
@@ -152,7 +152,7 @@ msgstr ""
 #| "Before we can help you change your password, please help us to verify your identity by clicking on the link below:\n"
 #| "\n"
 #| "%1"
-msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:<p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p>"
+msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:<p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With Regards,<br/>Binary.com</p>"
 msgstr ""
 "Cher Client,\n"
 "\n"
@@ -161,14 +161,38 @@ msgstr ""
 "%1"
 
 #. ($params->{code})
-msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment agent withdrawal form:<p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p>"
+#, fuzzy
+#| msgid ""
+#| "Dear Valued Customer,\n"
+#| "\n"
+#| "Before we can help you change your password, please help us to verify your identity by clicking on the link below:\n"
+#| "\n"
+#| "%1"
+msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment agent withdrawal form:<p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With Regards,<br/>Binary.com</p>"
 msgstr ""
+"Cher Client,\n"
+"\n"
+"Avant de pouvoir vous aider à changer votre mot de passe, veuillez nous aider à vérifier votre identité en cliquant sur le lien ci-dessous:\n"
+"\n"
+"%1"
 
 #. ($params->{code})
-msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment withdrawal form:<p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p>"
+#, fuzzy
+#| msgid ""
+#| "Dear Valued Customer,\n"
+#| "\n"
+#| "Before we can help you change your password, please help us to verify your identity by clicking on the link below:\n"
+#| "\n"
+#| "%1"
+msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment withdrawal form:<p><span style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With Regards,<br/>Binary.com</p>"
 msgstr ""
+"Cher Client,\n"
+"\n"
+"Avant de pouvoir vous aider à changer votre mot de passe, veuillez nous aider à vérifier votre identité en cliquant sur le lien ci-dessous:\n"
+"\n"
+"%1"
 
-msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system. If it was not you, simply ignore this email, or contact our customer support if you have any concerns.</p>"
+msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system. If it was not you, simply ignore this email, or contact our customer support if you have any concerns.</p><p style=\"color:#333333;font-size:15px;\">With Regards,<br/>Binary.com</p>"
 msgstr ""
 
 #. ($params->{website_name})
@@ -407,11 +431,6 @@ msgstr "Expérience du trading d'options binaires ou d'autres instruments dériv
 msgid "Binary options or other financial derivatives trading frequency"
 msgstr "Fréquence de trading d'options binaires ou d'autres instruments dérivés"
 
-#, fuzzy
-#| msgid "Binary.com academy"
-msgid "Binary.com"
-msgstr "Académie Binary.com"
-
 msgid "Bollinger Band Width"
 msgstr "Largeur des bandes de Bollinger"
 
@@ -596,12 +615,14 @@ msgstr "Contrats doit expirer pendant les heures de trading."
 msgid "Contract will be sold at the prevailing market price when the request is received by our servers. This price may differ from the indicated price."
 msgstr "Note: Contrat sera vendu au prix prévalant sur le marché lorsque la demande est reçue par nos serveurs. Ce prix peut différer du prix indiqué."
 
-#. ($self->underlying->translated_display_name)
-msgid "Contracts on %1 with duration more than 24 hours must expire at the end of a trading day."
+#, fuzzy
+#| msgid "Contracts on %1 with duration more than 24 hours must expire at the end of a trading day."
+msgid "Contracts on this market with a duration of more than 24 hours must expire at the end of a trading day."
 msgstr "Des contrats sur %1 de durées de plus de 24 heures doivent expirer à la fin de la journée de trading."
 
-#. ($underlying->translated_display_name()
-msgid "Contracts on %1 with durations under 24 hours must expire on the same trading day."
+#, fuzzy
+#| msgid "Contracts on %1 with durations under 24 hours must expire on the same trading day."
+msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Des contrats sur %1 de durées inférieures à 24 heures doivent expirer durant la même journée de trading."
 
 #, fuzzy
@@ -3012,8 +3033,9 @@ msgstr "Pari du jour"
 msgid "Token"
 msgstr "Jeton d'authentification"
 
-#. ($safer_expiry->date)
-msgid "Too many market holidays during the contract period. Select an expiry date after %1."
+#, fuzzy
+#| msgid "Too many market holidays during the contract period. Select an expiry date after %1."
+msgid "Too many market holidays during the contract period."
 msgstr "Trop de jours fériés du marché pendant la période de contrat. Veuillez sélectionner une date d'expiration après %1."
 
 msgid "Too many recent attempts. Try again later."
@@ -3048,14 +3070,14 @@ msgstr "Le trading est suspendu pour le moment."
 msgid "Trading is suspended due to missing market data."
 msgstr "Le trading sur %1 est suspendu à cause de données de marché manquantes."
 
-#. ($self->underlying->translated_display_name)
-msgid "Trading on %1 is not offered for this contract type."
+#, fuzzy
+#| msgid "Trading on %1 is not offered for this contract type."
+msgid "Trading on this market is not offered for this contract type."
 msgstr "%1 n'offre pas la possibilité de trader ce type de contrat."
 
-#. ($self->underlying->translated_display_name)
-#. ($self->underlying->translated_display_name()
-#. ($translated_name)
-msgid "Trading on %1 is suspended due to missing market data."
+#, fuzzy
+#| msgid "Trading on %1 is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market data."
 msgstr "Le trading sur %1 est suspendu à cause de données de marché manquantes."
 
 msgid "Transfer to"
@@ -3279,11 +3301,6 @@ msgstr "Williams %R"
 
 msgid "Windows"
 msgstr "Windows"
-
-#, fuzzy
-#| msgid "Best regards,"
-msgid "With regards,"
-msgstr "Cordialement,"
 
 msgid "Withdrawal"
 msgstr "Retrait"
@@ -4980,9 +4997,6 @@ msgstr "HDFC Bank Ltd"
 msgid "Safran"
 msgstr "Safran"
 
-msgid "The Goldman Sachs Group Inc."
-msgstr ""
-
 #, fuzzy
 #| msgid "Define your position"
 msgid "LinkedIn Corporation"
@@ -5033,12 +5047,6 @@ msgstr "Yara International"
 msgid "ICAG (British Airways)"
 msgstr "ICAG (British Airways)"
 
-msgid "Novartis AG"
-msgstr ""
-
-msgid "Berkshire Hathaway Inc."
-msgstr ""
-
 msgid "Anglo American plc"
 msgstr "Anglo American plc"
 
@@ -5067,12 +5075,6 @@ msgstr "BNP Paribas"
 msgid "United Continental Holdings Inc."
 msgstr ""
 
-msgid "AIRBUS GROUP SE"
-msgstr ""
-
-msgid "Procter & Gamble Co."
-msgstr "Procter & Gamble Co."
-
 msgid "Electricite de France"
 msgstr "Électricité de France"
 
@@ -5093,8 +5095,10 @@ msgstr "Danone"
 msgid "AbbVie Inc."
 msgstr "Apple Inc."
 
-msgid "Siemens AG"
-msgstr ""
+#, fuzzy
+#| msgid "Requirements"
+msgid "Siemens"
+msgstr "Conditions"
 
 msgid "Royal Dutch Shell plc"
 msgstr "Royal Dutch Shell plc"
@@ -5109,11 +5113,8 @@ msgid "WOODSIDE PETROLEUM LIMITED"
 msgstr ""
 
 #, fuzzy
-#| msgid "Binary option"
-msgid "McDonald's Corporation"
-msgstr "Option binaire"
-
-msgid "Daimler AG"
+#| msgid "Daimler AG"
+msgid "Daimler"
 msgstr "Daimler AG"
 
 msgid "AT&T"
@@ -5121,9 +5122,6 @@ msgstr "AT&T"
 
 msgid "Metro AG"
 msgstr ""
-
-msgid "Deutsche Bank AG"
-msgstr "Deutchse Bank AG"
 
 msgid "Essilor International"
 msgstr "Essilor International"
@@ -5197,7 +5195,7 @@ msgstr ""
 msgid "YY Inc."
 msgstr "Google Inc."
 
-msgid "Amazon.com Inc"
+msgid "Amazon.com"
 msgstr ""
 
 #, fuzzy
@@ -5227,11 +5225,6 @@ msgstr ""
 #, fuzzy
 #| msgid "Pfizer Inc."
 msgid "Nike Inc."
-msgstr "Pfizer Inc."
-
-#, fuzzy
-#| msgid "Pfizer Inc."
-msgid "PepsiCo Inc."
 msgstr "Pfizer Inc."
 
 #, fuzzy
@@ -5272,9 +5265,6 @@ msgstr "Reckitt Benckiser Group plc"
 #| msgid "Pfizer Inc."
 msgid "Twitter Inc."
 msgstr "Pfizer Inc."
-
-msgid "MasterCard Inc."
-msgstr ""
 
 msgid "Sonic Healthcare Limited"
 msgstr ""
@@ -5347,6 +5337,9 @@ msgstr "Daimler AG"
 msgid "Alpha Bank S.A."
 msgstr "Deutchse Bank AG"
 
+msgid "Daimler AG"
+msgstr "Daimler AG"
+
 msgid "WOOLWORTHS LIMITED"
 msgstr ""
 
@@ -5376,9 +5369,6 @@ msgstr "China Mobile Ltd"
 msgid "Sony Corporation"
 msgstr "Actions de société"
 
-msgid "Maruti Suzuki"
-msgstr ""
-
 #, fuzzy
 #| msgid "National Australia Bank Ltd"
 msgid "Caltex Australia Limited"
@@ -5395,17 +5385,11 @@ msgstr "Apple Inc."
 msgid "L'Oreal"
 msgstr "L'Oréal"
 
-msgid "Tesco plc"
-msgstr "Tesco plc"
-
 msgid "NEWS CORPORATION."
 msgstr ""
 
 msgid "Moet Hennessy Louis Vuitton"
 msgstr "Moet Hennessy Louis Vuitton"
-
-msgid "Caterpillar Inc."
-msgstr ""
 
 msgid "Associated British foods plc"
 msgstr ""
@@ -5417,29 +5401,16 @@ msgid "Intel"
 msgstr "Intel"
 
 #, fuzzy
-#| msgid "IBM"
-msgid "BMW"
-msgstr "IBM"
-
-#, fuzzy
 #| msgid "Apple Inc."
-msgid "Apple Inc"
+msgid "Apple"
 msgstr "Apple Inc."
-
-msgid "Bharti Airtel"
-msgstr ""
-
-#, fuzzy
-#| msgid "BG Group plc"
-msgid "Bt Group plc"
-msgstr "BG Group plc"
 
 msgid "UBS AG"
 msgstr ""
 
 #, fuzzy
 #| msgid "Google Inc."
-msgid "Citigroup Inc"
+msgid "Citigroup"
 msgstr "Google Inc."
 
 msgid "Michelin"
@@ -5469,26 +5440,13 @@ msgstr "Essilor International"
 msgid "Unilever plc"
 msgstr "Unilever plc"
 
-#, fuzzy
-#| msgid "The Coca-Cola Company"
-msgid "The Boeing Company"
-msgstr "The Coca-Cola Company"
-
 msgid "SUNCORP GROUP LIMITED"
 msgstr ""
-
-msgid "Reliance Industries Ltd"
-msgstr "Reliance Industries Ltd"
 
 #, fuzzy
 #| msgid "Global Materials Index"
 msgid "Applied Materials Inc."
 msgstr "Global Materials Index"
-
-#, fuzzy
-#| msgid "Toyota Motor"
-msgid "Tata Motors"
-msgstr "Toyota Motor"
 
 msgid "Youku Tudou Inc."
 msgstr ""
@@ -5517,14 +5475,13 @@ msgstr ""
 msgid "Vertex Pharmaceuticals Incorporated"
 msgstr "Pharmaceuticals Index"
 
-msgid "Allianz SE"
+#, fuzzy
+#| msgid "Allianz SE"
+msgid "Allianz"
 msgstr "Allianz SE"
 
 msgid "Qihoo 360 Technology Company Limited"
 msgstr ""
-
-msgid "Johnson & Johnson"
-msgstr "Johnson & Johnson"
 
 #, fuzzy
 #| msgid "BG Group plc"
@@ -5535,11 +5492,6 @@ msgstr "BG Group plc"
 #| msgid "Diageo plc"
 msgid "Aviva plc"
 msgstr "Diageo plc"
-
-#, fuzzy
-#| msgid "General Electric Company"
-msgid "American Express Company"
-msgstr "General Electric Company"
 
 #, fuzzy
 #| msgid "Limit"
@@ -5558,9 +5510,6 @@ msgstr "Groupe Airbus"
 msgid "SANOFI"
 msgstr "SANOFI"
 
-msgid "SAP SE"
-msgstr ""
-
 #, fuzzy
 #| msgid "Google Inc."
 msgid "Autohome Inc."
@@ -5576,7 +5525,7 @@ msgstr "Deutchse Bank AG"
 
 #, fuzzy
 #| msgid "Google Inc."
-msgid "Facebook Inc"
+msgid "Facebook"
 msgstr "Google Inc."
 
 msgid "Vinci"
@@ -5606,9 +5555,6 @@ msgstr ""
 #| msgid "Horizontal Grid"
 msgid "National Grid plc"
 msgstr "Grille horizontale"
-
-msgid "Lloyds Banking Group plc"
-msgstr "Lloyds Banking Group plc"
 
 msgid "Crown Resorts Limited"
 msgstr ""
@@ -5641,9 +5587,6 @@ msgstr "Biotechnology Index"
 msgid "Illumina Inc."
 msgstr "Apple Inc."
 
-msgid "Electronic Arts Inc."
-msgstr ""
-
 #, fuzzy
 #| msgid "Apple Inc."
 msgid "eBay Inc."
@@ -5661,27 +5604,14 @@ msgstr ""
 msgid "SABMiller plc"
 msgstr "SABMiller plc"
 
-#, fuzzy
-#| msgid "Data Feed"
-msgid "Tata Steels"
-msgstr "Source de Données"
-
 msgid "Philip Morris International"
 msgstr "Philip Morris International"
 
-#, fuzzy
-#| msgid "HSBC Holdings plc"
-msgid "HSBC Holdings"
-msgstr "HSBC Holdings plc"
-
-msgid "E.ON SE"
+msgid "HSBC"
 msgstr ""
 
 msgid "Solvay chemicals"
 msgstr ""
-
-msgid "IBM"
-msgstr "IBM"
 
 #, fuzzy
 #| msgid "Pfizer Inc."
@@ -5758,7 +5688,7 @@ msgstr "Semiconductors Index"
 
 #, fuzzy
 #| msgid "ExxonMobil"
-msgid "Exxon Mobil Corp"
+msgid "Exxon Mobil"
 msgstr "ExxonMobil"
 
 #, fuzzy
@@ -5768,9 +5698,6 @@ msgstr "Pfizer Inc."
 
 msgid "GDF Suez"
 msgstr "GDF Suez"
-
-msgid "Standard Chartered plc"
-msgstr "Standard Chartered plc"
 
 #, fuzzy
 #| msgid "Pfizer Inc."
@@ -5825,9 +5752,6 @@ msgstr "Acheter un contrat"
 msgid "ASX Limited"
 msgstr "Limite"
 
-msgid "Alibaba Group Holding Limited"
-msgstr ""
-
 #, fuzzy
 #| msgid "Toyota Motor"
 msgid "Toyota Motor Corporation"
@@ -5855,9 +5779,6 @@ msgstr "The Coca-Cola Company"
 
 msgid "UCB"
 msgstr "UCB"
-
-msgid "BP plc"
-msgstr "BP plc"
 
 #, fuzzy
 #| msgid "Pfizer Inc."
@@ -5906,16 +5827,13 @@ msgstr "General Electric Company"
 
 #, fuzzy
 #| msgid "Microsoft"
-msgid "Microsoft Corp"
+msgid "Microsoft"
 msgstr "Microsoft"
 
 #, fuzzy
 #| msgid "Apple Inc."
 msgid "JD.com Inc."
 msgstr "Apple Inc."
-
-msgid "Rio Tinto plc"
-msgstr "Rio Tinto plc"
 
 #, fuzzy
 #| msgid "Global Industrial Index"
@@ -5924,7 +5842,7 @@ msgstr "Global Industrial Index"
 
 #, fuzzy
 #| msgid "Apple Inc."
-msgid "Alphabet Inc"
+msgid "Alphabet"
 msgstr "Apple Inc."
 
 msgid "Wal-Mart Stores Inc."
@@ -6063,20 +5981,8 @@ msgstr "Des indices représentent la valeur pondérée d'un ensemble de sociét�
 msgid "United Kingdom Stocks"
 msgstr "Actions du Royaume-Uni"
 
-msgid "Energy"
-msgstr "Energie"
-
-msgid "Asia/Oceania Future"
-msgstr "Futur Asie/Océanie"
-
 msgid "India Stocks"
 msgstr "Actions d'Inde"
-
-msgid "Smart FX"
-msgstr "FX Intelligent"
-
-msgid "Smart FX indices"
-msgstr "Indices FX intelligents"
 
 msgid "Dutch Stocks"
 msgstr "Actions Hollandaises"
@@ -6118,6 +6024,62 @@ msgstr "Les paires les plus échangées et les plus liquides sur le Forex."
 msgid "Americas"
 msgstr "Amériques"
 
+msgid "India"
+msgstr "Inde"
+
+#, fuzzy
+#| msgid "India Stocks"
+msgid "India OTC Stocks"
+msgstr "Actions d'Inde"
+
+msgid "Europe/Africa"
+msgstr "Europe/Afrique"
+
+msgid "Smart Indices"
+msgstr "Indices Intelligents"
+
+#, fuzzy
+#| msgid "USA"
+msgid "US"
+msgstr "Etats-Unis"
+
+#, fuzzy
+#| msgid "US Stocks"
+msgid "US OTC Stocks"
+msgstr "Actions US"
+
+msgid "Germany Stocks"
+msgstr "Actions Allemandes"
+
+msgid "UK"
+msgstr "RU"
+
+#, fuzzy
+#| msgid "UK Stocks"
+msgid "UK OTC Stocks"
+msgstr "Actions de GB"
+
+msgid "Metals"
+msgstr "Métaux"
+
+msgid "Belgian Stocks"
+msgstr "Actions Belges"
+
+msgid "Asia/Oceania"
+msgstr "Asie/Océanie"
+
+msgid "Energy"
+msgstr "Energie"
+
+msgid "Smart FX"
+msgstr "FX Intelligent"
+
+msgid "Smart FX indices"
+msgstr "Indices FX intelligents"
+
+msgid "Asia/Oceania Future"
+msgstr "Futur Asie/Océanie"
+
 msgid "Nocturnes"
 msgstr "Nocturnes"
 
@@ -6129,14 +6091,8 @@ msgstr "Représentent une seule journée de trading avec différents facteurs de
 msgid "OTC Indices"
 msgstr "Indices"
 
-msgid "Europe/Africa"
-msgstr "Europe/Afrique"
-
 msgid "United States Stocks"
 msgstr "Actions des Etats-Unis"
-
-msgid "Smart Indices"
-msgstr "Indices Intelligents"
 
 msgid "Australia"
 msgstr "Australie"
@@ -6153,27 +6109,6 @@ msgid "Forex pairs of interest, but with less liquid international markets."
 msgstr "Des paires d'intérêt de Forex, mais avec des marchés internationaux moins liquides."
 
 #, fuzzy
-#| msgid "USA"
-msgid "US"
-msgstr "Etats-Unis"
-
-#, fuzzy
-#| msgid "US Stocks"
-msgid "US OTC Stocks"
-msgstr "Actions US"
-
-msgid "Germany Stocks"
-msgstr "Actions Allemandes"
-
-#, fuzzy
-#| msgid "Daily Prices"
-msgid "Daily Reset Indices"
-msgstr "Prix journaliers"
-
-msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT)."
-msgstr "Représentent une seule journée de trading avec différents facteurs de marché. Ils sont réinitialisés au début de chaque journée de trading (00:00GMT)."
-
-#, fuzzy
 #| msgid "Synthetic Indices"
 msgid "Continuous Indices"
 msgstr "Indices Synthétiques"
@@ -6183,28 +6118,19 @@ msgstr "Indices Synthétiques"
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "Associé avec un nombre qui représente la volatilité relative du marché. Par exemple, l'Indice Random 100 est deux fois plus volatile que l'Indice Random 50."
 
-msgid "UK"
-msgstr "RU"
-
 #, fuzzy
-#| msgid "UK Stocks"
-msgid "UK OTC Stocks"
-msgstr "Actions de GB"
+#| msgid "Daily Prices"
+msgid "Daily Reset Indices"
+msgstr "Prix journaliers"
 
-msgid "Metals"
-msgstr "Métaux"
+msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT)."
+msgstr "Représentent une seule journée de trading avec différents facteurs de marché. Ils sont réinitialisés au début de chaque journée de trading (00:00GMT)."
 
 msgid "Europe/Africa Future"
 msgstr "Futur Europe/Afrique"
 
 msgid "config-only"
 msgstr "seulement-config"
-
-msgid "Belgian Stocks"
-msgstr "Actions Belges"
-
-msgid "Asia/Oceania"
-msgstr "Asie/Océanie"
 
 msgid "Asians"
 msgstr "Asiatiques"
@@ -6650,6 +6576,91 @@ msgstr "%1 %2 de gain si %3 sort de %7 à %6 jusqu'à %5."
 #| msgid "%1 %2 payout if %3 goes outside %7 and %6 through %5 after %4."
 msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
 msgstr "%1 %2 de gain si %3 sort de %7 et %6 jusqu'à %5 après %4."
+
+#, fuzzy
+#~| msgid "Binary.com academy"
+#~ msgid "Binary.com"
+#~ msgstr "Académie Binary.com"
+
+#, fuzzy
+#~| msgid "Best regards,"
+#~ msgid "With regards,"
+#~ msgstr "Cordialement,"
+
+#~ msgid "Procter & Gamble Co."
+#~ msgstr "Procter & Gamble Co."
+
+#, fuzzy
+#~| msgid "Binary option"
+#~ msgid "McDonald's Corporation"
+#~ msgstr "Option binaire"
+
+#~ msgid "Deutsche Bank AG"
+#~ msgstr "Deutchse Bank AG"
+
+#, fuzzy
+#~| msgid "Pfizer Inc."
+#~ msgid "PepsiCo Inc."
+#~ msgstr "Pfizer Inc."
+
+#~ msgid "Tesco plc"
+#~ msgstr "Tesco plc"
+
+#, fuzzy
+#~| msgid "IBM"
+#~ msgid "BMW"
+#~ msgstr "IBM"
+
+#, fuzzy
+#~| msgid "BG Group plc"
+#~ msgid "Bt Group plc"
+#~ msgstr "BG Group plc"
+
+#, fuzzy
+#~| msgid "The Coca-Cola Company"
+#~ msgid "The Boeing Company"
+#~ msgstr "The Coca-Cola Company"
+
+#~ msgid "Reliance Industries Ltd"
+#~ msgstr "Reliance Industries Ltd"
+
+#, fuzzy
+#~| msgid "Toyota Motor"
+#~ msgid "Tata Motors"
+#~ msgstr "Toyota Motor"
+
+#~ msgid "Johnson & Johnson"
+#~ msgstr "Johnson & Johnson"
+
+#, fuzzy
+#~| msgid "General Electric Company"
+#~ msgid "American Express Company"
+#~ msgstr "General Electric Company"
+
+#~ msgid "Lloyds Banking Group plc"
+#~ msgstr "Lloyds Banking Group plc"
+
+#, fuzzy
+#~| msgid "Data Feed"
+#~ msgid "Tata Steels"
+#~ msgstr "Source de Données"
+
+#, fuzzy
+#~| msgid "HSBC Holdings plc"
+#~ msgid "HSBC Holdings"
+#~ msgstr "HSBC Holdings plc"
+
+#~ msgid "IBM"
+#~ msgstr "IBM"
+
+#~ msgid "Standard Chartered plc"
+#~ msgstr "Standard Chartered plc"
+
+#~ msgid "BP plc"
+#~ msgstr "BP plc"
+
+#~ msgid "Rio Tinto plc"
+#~ msgstr "Rio Tinto plc"
 
 #~ msgid "\"Binary\" or \"digital\" options are options that pay a pre-determined, fixed amount, depending on whether or not an event occurs at the time the Binary Option expires. Binary Options can have only one of two possible outcomes and allow you to take a simple \"Yes or No\" approach. Like traditional options, Binary Options are based on an underlying asset such as currencies, commodities, indexes or stocks, however one of the most significant differences from traditional options, among others, is that there can be only two outcomes for the option, either the client is paid the return upon the occurrence of the event, or the client loses the investment amount as determined in each option."
 #~ msgstr "Les options \"binaires\" ou \"digitales\" sont des options qui paient un montant fixe, prédéterminé, en fonction de la réalisation ou non d'un événement lorsque l'Option Binaire arrive à échéance. Les Options Binaires ne peuvent qu'avoir un ou deux résultats possibles et te permettent de prendre une approche simple \"Oui ou Non\". Comme les options traditionnelles, les Options Binaires sont basées sur des actifs sous-jacents comme les devises, commodités, indices ou actions. Cependant une des plus grandes différences avec les options traditionnelles est, entre autres, qu'il ne peut y avoir que deux résultats pour l'option, soit le client est payé le retour si l'événement se passe, soit le client perd le montant investi comme déterminé dans chaque option."
@@ -13737,9 +13748,6 @@ msgstr "%1 %2 de gain si %3 sort de %7 et %6 jusqu'à %5 après %4."
 #~ msgid "Rel Change"
 #~ msgstr "Changement Rel."
 
-#~ msgid "Requirements"
-#~ msgstr "Conditions"
-
 #~ msgid "Requirements:"
 #~ msgstr "Conditions :"
 
@@ -20270,9 +20278,6 @@ msgstr "%1 %2 de gain si %3 sort de %7 et %6 jusqu'à %5 après %4."
 
 #~ msgid "S&P Retail Industry Index"
 #~ msgstr "Indice S&P Retail Industry"
-
-#~ msgid "India"
-#~ msgstr "Inde"
 
 #~ msgid "Spain"
 #~ msgstr "Espagne"
