@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-06-16 07:36+0000\n"
+"PO-Revision-Date: 2016-06-16 08:48+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
 "websocket/translations/ja/>\n"
@@ -5310,15 +5310,15 @@ msgstr "HIGH"
 
 #| msgid "%1 %2 payout if %3 is strictly higher than %6 at %5."
 msgid "Win payout if %3 is strictly higher than %6 at %5."
-msgstr "%3が%5の時点で%6よりも正確に高い場合にペイアウトをお受け取りいただけます。"
+msgstr "%3が%5の判定時刻に%6以上の場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 is strictly higher than %6 at %5 after %4."
 msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
-msgstr "%3が%4後の%5の時点で%6より正確に高い場合にペイアウトをお受け取りいただけます。"
+msgstr "%3が%4後の%5の時点で%6以上の場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
 msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
-msgstr "%3が%plural(%5,%d tick,%d ticks)後に%6よりも正確に高い場合に、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%plural(%5,%d tick,%d ticks)後に%6以上の場合、ペイアウトをお受け取りいただけます。"
 
 msgid "differs"
 msgstr "アンマッチ"
@@ -5367,29 +5367,29 @@ msgstr "レンジ外で終了"
 
 #| msgid "%1 %2 payout if %3 ends outside %7 to %6 at %5."
 msgid "Win payout if %3 ends outside %7 to %6 at %5."
-msgstr "%3が%5の時点で%7と%6のレンジ外にある場合</strong>、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%5の判定時刻に%7以上もしくは%6未満の場合</strong>、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 ends outside %7 to %6 at %5 after %4."
 msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
-msgstr "%3が%4後の%5の時点で%7と%6のレンジ外にある場合</strong>、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%4後の%5の判定時刻に%7以上もしくは%6未満の場合</strong>、ペイアウトをお受け取りいただけます。"
 
 msgid "ends between"
-msgstr "範囲内で終了"
+msgstr "レンジ内で終了"
 
 #| msgid "%1 %2 payout if %3 ends strictly between %7 to %6 at %5."
 msgid "Win payout if %3 ends strictly between %7 to %6 at %5."
-msgstr "%3が%5の時点で正確に%7と%6の範囲内で終了した場合、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%5の判定時刻に%7未満かつ%6以上で終了した場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 ends strictly between %7 to %6 at %5 after %4."
 msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
-msgstr "%3が%4後の%5の時点で正確に%7と%6の範囲内で終了した場合に、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%4後の%5の判定時刻に%7未満かつ%6以上で終了した場合に、ペイアウトをお受け取りいただけます。"
 
 msgid "does not touch"
 msgstr "ノータッチ"
 
 #| msgid "%1 %2 payout if %3 does not touch %6 through %5."
 msgid "Win payout if %3 does not touch %6 through %5."
-msgstr "%3が%5まで%6にタッチしなかった場合、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%5の取引期間中に%6にタッチしなかった場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 does not touch %6 through %5 after %4."
 msgid "Win payout if %3 does not touch %6 through %5 after %4."
@@ -5400,7 +5400,7 @@ msgstr "タッチ"
 
 #| msgid "%1 %2 payout if %3 touches %6 through %5."
 msgid "Win payout if %3 touches %6 through %5."
-msgstr "%3が%5までに%6にタッチした場合、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%5の取引期間が終了するまで%6にタッチした場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 touches %6 through %5 after %4."
 msgid "Win payout if %3 touches %6 through %5 after %4."
@@ -5411,11 +5411,11 @@ msgstr "LOW"
 
 #| msgid "%1 %2 payout if %3 is strictly lower than %6 at %5."
 msgid "Win payout if %3 is strictly lower than %6 at %5."
-msgstr "%3が%5の時点で正確に%6よりも低い場合、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%5の判定時刻に%6未満の場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 is strictly lower than %6 at %5 after %4."
 msgid "Win payout if %3 is strictly lower than %6 at %5 after %4."
-msgstr "%3が%4後の%5で正確に%6よりも低い場合、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%4後の%5で%6未満の場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
 msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
@@ -5426,11 +5426,11 @@ msgstr "STAY-IN"
 
 #| msgid "%1 %2 payout if %3 stays between %7 to %6 through %5."
 msgid "Win payout if %3 stays between %7 to %6 through %5."
-msgstr "%3が%5までに常に正確に%7と%6の範囲内で留まった場合、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%5までの取引期間中、常に%7未満かつ%6超過を維持した場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 stays between %7 and %6 through %5 after %4."
 msgid "Win payout if %3 stays between %7 and %6 through %5 after %4."
-msgstr "%3が%4後の%5まで常に正確に%7と%6の範囲内に留まった場合、ペイアウトをお受け取りいただけます。"
+msgstr "取引期間中の%3が%4後の%5まで常に正確に%7未満かつ%6超過を維持した場合、ペイアウトをお受け取りいただけます。"
 
 msgid "spread down"
 msgstr "スプレッド ダウン"
@@ -5455,11 +5455,11 @@ msgstr "BREAK-OUT"
 
 #| msgid "%1 %2 payout if %3 goes outside %7 to %6 through %5."
 msgid "Win payout if %3 goes outside %7 to %6 through %5."
-msgstr "%3が%5までに%7と%6のレンジ外で終了した場合、ペイアウトをお受け取りいただけます。"
+msgstr "%3が%5までの取引期間中に%7以上もしくは%6以下の場合、ペイアウトをお受け取りいただけます。"
 
 #| msgid "%1 %2 payout if %3 goes outside %7 and %6 through %5 after %4."
 msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
-msgstr "%3が%4後の%5までに%7と%6のレンジ外にある場合、ペイアウトをお受け取りいただけます。"
+msgstr "取引期間中に%3が%4後の%5までに%7以上もしくは%6以下の場合、ペイアウトをお受け取りいただけます。"
 
 #~ msgid ""
 #~ "Dear Valued Customer,\n"
