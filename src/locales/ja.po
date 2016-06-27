@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-06-17 02:20+0000\n"
+"PO-Revision-Date: 2016-06-27 01:43+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
 "Language: ja\n"
@@ -47,11 +47,14 @@ msgstr "%1が%2を更新しました。OKをクリックすることで、更新
 msgid "%1 transactions may not be performed with this account."
 msgstr "％1のお取引は、このアカウントで実行されない場合があります。"
 
+msgid "%1 would like permission to access your account %2"
+msgstr ""
+
 msgid "%1-Failed attempt to unlock cashier section"
 msgstr "入出金の解除に失敗しました"
 
 msgid "%ctx(If you look in the sky)You will see %plural(%1,one star, %d stars)."
-msgstr "%ctx(If you look in the sky)You will see %plural(%1,one star, %d stars)."
+msgstr "%ctx(If you look in the sky) %plural(%1,1つ星、 %d 個の星)が表示されます。"
 
 msgid "%ctx(minimum duration, for example minimum 15 seconds)min"
 msgstr "%ctx(最短期間, 例： 最短 15 秒）分"
@@ -249,6 +252,22 @@ msgstr "ポイントごとの金額"
 msgid "An additional password can be used to restrict access to the cashier."
 msgstr "入出金へのアクセスを制限するために、追加パスワードを使用することができます。"
 
+msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3 and browser: %4. If this additional sign-in was not performed by you, and / or you have any related concerns, please contact our Customer Support team."
+msgstr ""
+"下記IPアドレスからお客様の口座（%1）へのログインが検出されました。\n"
+"IPアドレス：%2\n"
+"国：%3\n"
+"こちらのログインにお心当たりがない場合は、お手数ですがカスタマーサポートまでご連絡ください。"
+
+#, fuzzy
+#| msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3 and browser: %4. If this additional sign-in was not performed by you, and / or you have any related concerns, please contact our Customer Support team."
+msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3, browser: %4 and app: %5. If this additional sign-in was not performed by you, and / or you have any related concerns, please contact our Customer Support team."
+msgstr ""
+"下記IPアドレスからお客様の口座（%1）へのログインが検出されました。\n"
+"IPアドレス：%2\n"
+"国：%3\n"
+"こちらのログインにお心当たりがない場合は、お手数ですがカスタマーサポートまでご連絡ください。"
+
 msgid "An error occured."
 msgstr "エラーが発生しました"
 
@@ -298,7 +317,7 @@ msgid "AroonOsc"
 msgstr "アルーン・オシレーター"
 
 msgid "Ask"
-msgstr "Ask"
+msgstr "買値"
 
 msgid "Asset"
 msgstr "取引対象"
@@ -314,6 +333,11 @@ msgstr "８月"
 
 msgid "Authorise your account."
 msgstr "アカウント認証"
+
+#, fuzzy
+#| msgid "Authorised Applications"
+msgid "Authorize application"
+msgstr "認識済みアプリケーション"
 
 msgid "Avg Directional Index"
 msgstr "Avg Directional Index：ADX"
@@ -853,11 +877,17 @@ msgstr "Ease Of Movement：EMV"
 msgid "Education"
 msgstr "お役立ち情報"
 
+msgid "Email"
+msgstr "メール"
+
 msgid "Email address"
 msgstr "メールアドレス"
 
 msgid "Email address is incorrect."
 msgstr "メールアドレスが正しくありません"
+
+msgid "Email not given."
+msgstr "Eメールアドレスが入力されていません。"
 
 msgid "End Time"
 msgstr "終了時間"
@@ -899,10 +929,10 @@ msgid "Exit Level"
 msgstr "判定レベル"
 
 msgid "Exit Spot"
-msgstr "終値"
+msgstr "判定時レート"
 
 msgid "Exit Spot Time"
-msgstr "終了レート時間"
+msgstr "判定時刻"
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "終了時間を開始時間と同じ時間に設定することはできません。"
@@ -995,13 +1025,16 @@ msgid "Further instructions must not exceed %1 characters."
 msgstr "詳細説明は%1文字以内でご入力下さい。"
 
 msgid "Futures"
-msgstr "Futures"
+msgstr "先物取引"
 
 msgid "Gaming Account"
 msgstr "ゲームアカウント"
 
 msgid "Global Customer Service Representatives"
 msgstr "グローバル・カスタマーサポート担当"
+
+msgid "Grant"
+msgstr ""
 
 msgid "Granularity is not valid"
 msgstr "粒度/精度が無効です"
@@ -1171,6 +1204,9 @@ msgstr "生年月日が無効です。"
 msgid "Invalid email address"
 msgstr "無効なEメールアドレス"
 
+msgid "Invalid email and password combination."
+msgstr "メールアドレスとパスワードの組み合わせが無効です。"
+
 msgid "Invalid period input! Please input the period between 0 and #1"
 msgstr "期間の指定が不適切です。期間は0と#1の間でご指定下さい。"
 
@@ -1291,6 +1327,11 @@ msgstr "入出金をロック"
 msgid "Logarithmic Scale"
 msgstr "Logarithmicスケール"
 
+#, fuzzy
+#| msgid "login"
+msgid "Login"
+msgstr "ログイン"
+
 msgid "Login History"
 msgstr "ログイン履歴"
 
@@ -1308,6 +1349,11 @@ msgstr "ロング"
 
 msgid "Loss"
 msgstr "損益"
+
+#, fuzzy
+#| msgid "Lost password?"
+msgid "Lost Password?"
+msgstr "パスワードをお忘れの場合"
 
 msgid "Low"
 msgstr "Low"
@@ -1468,6 +1514,9 @@ msgstr "新しいパスワード"
 msgid "New Password Request"
 msgstr "新パスワード発行"
 
+msgid "New Sign-In Activity Detected"
+msgstr "新しいログイン動作が検出されました"
+
 msgid "New password is same as old password."
 msgstr "新しいパスワードが旧パスワードと同じです。"
 
@@ -1549,11 +1598,19 @@ msgstr "小数点以下2桁のみご利用いただけます。"
 msgid "Open"
 msgstr "Open"
 
+msgid "Open an Account"
+msgstr "口座開設"
+
 msgid "Opens"
-msgstr "開場時間"
+msgstr "取引開始時間"
 
 msgid "Opens late (at %1)"
 msgstr "遅めに開場（%1）"
+
+#, fuzzy
+#| msgid "create new account"
+msgid "Operate on accounts"
+msgstr "無料口座開設"
 
 msgid "Original Barrier"
 msgstr "バリア"
@@ -1637,6 +1694,9 @@ msgstr "パラボリックSAR"
 msgid "Parameters sanity check failed."
 msgstr "パラメーターのサニティチェックに失敗しました。"
 
+msgid "Password"
+msgstr "パスワード"
+
 msgid "Password Reset"
 msgstr "パスワード再設定"
 
@@ -1661,6 +1721,9 @@ msgstr "パスワード強度は弱です"
 msgid "Password must contains at least 1 digit, 1 uppercase letter and 1 lowercase letter."
 msgstr "数字、大文字、小文字を各1字以上含めるようにしてください。"
 
+msgid "Password not given."
+msgstr "パスワードが入力されませんでした。"
+
 msgid "Password score is: %1. Passing score is: 20."
 msgstr "パスワードスコア：%1　合格スコア：20"
 
@@ -1675,6 +1738,9 @@ msgstr "not appropriate for JP website"
 
 msgid "Payment Agents are not available on this site."
 msgstr "このサイトでは決済サービスはご利用いただけません。"
+
+msgid "Payments"
+msgstr "アフィリエイト報酬の支払いについて"
 
 msgid "Payout"
 msgstr "ペイアウト"
@@ -1753,6 +1819,11 @@ msgstr "有効な値をご入力して下さい。"
 
 msgid "Please enter a valid name."
 msgstr "有効なお名前をご入力して下さい。"
+
+#, fuzzy
+#| msgid "Please enter a number."
+msgid "Please enter an epoch time."
+msgstr "数字をご入力ください。"
 
 msgid "Please enter an integer value"
 msgstr "半角で数値をご入力して下さい"
@@ -1851,13 +1922,13 @@ msgid "Previous Day"
 msgstr "前日"
 
 msgid "Price"
-msgstr "価格"
+msgstr "売却"
 
 msgid "Price Oscillator"
 msgstr "プライス・オシレーター"
 
 msgid "Prices"
-msgstr "価格"
+msgstr "売却"
 
 msgid "Primary"
 msgstr "主要"
@@ -1937,6 +2008,9 @@ msgstr "ランダム"
 msgid "Rate of Change"
 msgstr "Rate Of Change：ROC"
 
+msgid "Read user profile"
+msgstr ""
+
 msgid "Real Account"
 msgstr "リアル口座番号"
 
@@ -1944,7 +2018,7 @@ msgid "Ref."
 msgstr "参照番号"
 
 msgid "Reference ID"
-msgstr "参照 ID"
+msgstr "約定 ID"
 
 msgid "Relative Strength Index"
 msgstr "Relative Strength Index：RSI"
@@ -1987,6 +2061,11 @@ msgstr "再試行"
 
 msgid "Return"
 msgstr "リターン率"
+
+#, fuzzy
+#| msgid "Permissions"
+msgid "Review Permissions"
+msgstr "アクセス許可"
 
 msgid "Revoke access"
 msgstr "アクセス権の取消"
@@ -2486,7 +2565,7 @@ msgid "The two passwords that you entered do not match."
 msgstr "入力頂いたパスワードと一致しません。"
 
 msgid "The underlying market has moved too much since you priced the contract. "
-msgstr "価格を決定された後に取引対象の市場が著しく変動しました。 (取引画面でこの表示が出た場合、約定されていません) "
+msgstr "取引価格を決定された後に市場が著しく変動したため約定不成立です。 "
 
 msgid "There are no contracts during this period"
 msgstr "この期間でのトレードは存在しません"
@@ -2503,7 +2582,9 @@ msgstr "購入時にサーバーアクセスのエラーが発生がしました
 msgid "There was a problem accessing the server."
 msgstr "サーバーアクセスにエラーが発生しました。"
 
-msgid "There was a problem validating your address."
+#, fuzzy
+#| msgid "There was a problem validating your address."
+msgid "There was a problem validating your personal details."
 msgstr "お客さまのメールアドレスの確認に問題が発生しました。"
 
 msgid "There was a problem validating your personal details. Please fix the fields %1here"
@@ -2602,10 +2683,8 @@ msgstr "この市場は現在閉場しております。"
 msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgstr "この市場は現在閉鎖されています。"
 
-#, fuzzy
-#| msgid "This page is unavailable."
 msgid "This trade is temporarily unavailable."
-msgstr "このページはご利用いただけません。"
+msgstr "このトレードは一時的にご利用いただけません。"
 
 msgid "Thursday"
 msgstr "木曜日"
@@ -2615,6 +2694,21 @@ msgstr "Tick"
 
 msgid "Tile"
 msgstr "タイル表示"
+
+#, fuzzy
+#| msgid "Exclude me from the website until"
+msgid "Timeout from the website until"
+msgstr "特定日まで利用禁止（日時単位）"
+
+#, fuzzy
+#| msgid "Session duration limit cannot be more than 6 weeks."
+msgid "Timeout time cannot be more than 6 weeks."
+msgstr "セッション期間制限は7週間以上に設定できません。"
+
+#, fuzzy
+#| msgid "The market must be open at the start time."
+msgid "Timeout time must be greater than current time."
+msgstr "市場はトレード開始時に開場していなければなりません。"
 
 msgid "Tip:"
 msgstr "補足："
@@ -2646,11 +2740,14 @@ msgstr "合計　損益"
 msgid "Tourism"
 msgstr "ご利用方法"
 
+msgid "Trading"
+msgstr "トレード"
+
 msgid "Trading Limits"
 msgstr "トレードの上限について"
 
 msgid "Trading Times"
-msgstr "トレード対応時間"
+msgstr "各市場の取引時間"
 
 msgid "Trading and Withdrawal Limits"
 msgstr "トレード及びご出金限度額"
@@ -2739,7 +2836,7 @@ msgid "Unrecognised request."
 msgstr "未承認のリクエストです"
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
-msgstr "Unsupported bet class $bet_params->{bet_class}"
+msgstr "サポートされていないベットタイプ $bet_params->{bet_class}"
 
 msgid "Upcoming Events"
 msgstr "祝祭日"
@@ -2818,6 +2915,11 @@ msgstr "お客さまのリクエスト（%1）を承りました。"
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "デモ口座では取引制限の機能を提供しておりません。"
+
+#, fuzzy
+#| msgid "Website exclusion is currently set to <strong>%1.</strong>"
+msgid "Website Timeout until is currently set to <strong>%1.</strong>"
+msgstr "トレードの自己制限として、<strong>%1</strong>まで当社サイトへのアクセスができない設定が施されています。"
 
 msgid "Website exclusion is currently set to <strong>%1.</strong>"
 msgstr "トレードの自己制限として、<strong>%1</strong>まで当社サイトへのアクセスができない設定が施されています。"
@@ -2986,6 +3088,11 @@ msgstr "お客さまの%1日の出金限度額は現在%2 %3です。（また�
 
 msgid "Your Client will receive an email notification informing him/her that the transfer has been processed."
 msgstr "あなたのクライアントに送金が処理されたことをお知らせする通知メールが届きます。"
+
+#, fuzzy
+#| msgid "Your details"
+msgid "Your Details"
+msgstr "ログイン情報"
 
 msgid "Your Login ID"
 msgstr "お客さまのログインID"
@@ -3555,16 +3662,7 @@ msgid "{JAPAN ONLY}Options may be European or American style of exercise, and th
 msgstr "オプション取引にはヨ－ロピアンタイプとアメリカンタイプがあり、権利行使期間の満期時だけに権利行使できるものをヨーロピアンタイプという。"
 
 msgid "{JAPAN ONLY}Please complete the following questions."
-msgstr ""
-"知識確認テスト用ディスクレーマー \n"
-" \n"
-"・この知識確認テストは、法令で義務付けられており、当社がお客さまの事を知り、お客さまがバイナリーオプション取引を行うことに適した\n"
-"   投資者かどうかを判断したうえで、お客さまとの取引を開始するためのものです。 \n"
-"・バイナリーオプション投資を的確に行うにはオプション取引などデリバティブ取引に関わる知識や経験が必要です。 \n"
-"・本テストはオプション取引に関わる基礎的な知識の有無を確認する目的で行われます。 \n"
-"・本テストの結果により適正と判断し、取引を開始する場合は、その後当社との間に取引上のトラブルが生じたとしても、オプション取引に\n"
-"　関わる知識が不足していたにも関わらず当社が取引を認めたことを訴因とはしないことに同意いただくものとします。 \n"
-"・問題の複写を禁止します。また、第三者に漏えいしないことに同意いただくものとします。"
+msgstr "知識確認テスト用ディスクレーマー"
 
 msgid "{JAPAN ONLY}Price of OTC currency option is the calculated value based on multiple elements and is determined by relative trading basically."
 msgstr "店頭通貨オプションの価格は、複数の要素に基づく計算値であり、基本的には相対取引で価格は決定される。"
@@ -4058,7 +4156,7 @@ msgid "Istanbul OTC Index"
 msgstr "イスタンブール 店頭インデックス"
 
 msgid "French Index"
-msgstr "French Index"
+msgstr "フランスインデックス"
 
 msgid "Egypt Index"
 msgstr "エジプト インデックス"
@@ -4091,7 +4189,7 @@ msgid "Shenzhen OTC Index"
 msgstr "深セン 店頭インデックス"
 
 msgid "Norwegian Index"
-msgstr "Norwegian Index"
+msgstr "ノルウェーインデックス"
 
 msgid "Belgian OTC Index"
 msgstr "ベルギー 店頭インデックス"
@@ -4100,7 +4198,7 @@ msgid "Australian OTC Index"
 msgstr "オーストラリア 店頭ンデックス"
 
 msgid "Japanese Index"
-msgstr "Japanese Index"
+msgstr "ジャパンインデックス"
 
 msgid "Russian 10 OTC Index"
 msgstr "ロシア 10店頭インデックス"
@@ -4120,7 +4218,7 @@ msgstr "カナダ インデックス"
 
 # Start of extra_translations
 msgid "Dutch Index"
-msgstr "Dutch Index"
+msgstr "オランダインデックス"
 
 msgid "Italian 30 Index"
 msgstr "Italian 30 Index"
@@ -4150,7 +4248,7 @@ msgid "Swedish OTC Index"
 msgstr "スウェーデン 店頭インデックス"
 
 msgid "Irish Index"
-msgstr "Irish Index"
+msgstr "アイルランドインデックス"
 
 msgid "Brazilian Index"
 msgstr "ブラジル インデックス"
@@ -4162,7 +4260,7 @@ msgid "South African Index"
 msgstr "南アフリカインデックス"
 
 msgid "German Index"
-msgstr "German Index"
+msgstr "ドイツインデックス"
 
 msgid "AP Ordinary"
 msgstr "AP Ordinary"
@@ -4187,7 +4285,7 @@ msgid "UK Smart Index"
 msgstr "英国スマートインデックス"
 
 msgid "US Index"
-msgstr "US Index"
+msgstr "US インデックス"
 
 msgid "US Tech 100 Index"
 msgstr "米ハイテク100指数"
@@ -4239,7 +4337,7 @@ msgid "UK OTC Index"
 msgstr "イギリス 店頭インデックス"
 
 msgid "Hong Kong Index"
-msgstr "Hong Kong Index"
+msgstr "香港 インデックス"
 
 msgid "German Smart Index"
 msgstr "ドイツ スマートインデックス"
@@ -4269,7 +4367,7 @@ msgid "US Smart Index"
 msgstr "アメリカ スマートインデックス"
 
 msgid "Bombay Index"
-msgstr "Bombay Index"
+msgstr "ボンベイ インデックス"
 
 msgid "Tesla Motors Inc."
 msgstr "テスラモーターズ（Tesla Motors Inc.）"
@@ -4290,10 +4388,10 @@ msgid "AB Inbev"
 msgstr "AB Inbev（アンハイザー・ブッシュ・インベブ）"
 
 msgid "International Consolidated Airlines Group SA"
-msgstr "International Consolidated Airlines Group SA"
+msgstr "インターナショナル・コンソリデーテッド・エアラインズ・グループ（International Consolidated Airlines Group SA）"
 
 msgid "Duerr AG"
-msgstr "Duerr AG"
+msgstr "デュール（Duerr AG）"
 
 msgid "HDFC Bank Ltd"
 msgstr "HDFC銀行"
@@ -4301,10 +4399,8 @@ msgstr "HDFC銀行"
 msgid "Safran"
 msgstr "Safran（サフラン）"
 
-#, fuzzy
-#| msgid "The Goldman Sachs Group Inc."
 msgid "Goldman Sachs"
-msgstr "ゴールドマン サックス グループ"
+msgstr "ゴールドマン・サックス（Goldman Sachs）"
 
 msgid "LinkedIn Corporation"
 msgstr "LinkedIn Corporation"
@@ -4319,7 +4415,7 @@ msgid "E.I du Pont de Nemours & company"
 msgstr "E.I du Pont de Nemours & company（デュポン）"
 
 msgid "KBC Groep"
-msgstr "KBC Groep"
+msgstr "KBCグループ（KBC Groep）"
 
 msgid "BG Group plc"
 msgstr "BG Group plc（BGグループ）"
@@ -4334,7 +4430,7 @@ msgid "Time Warner Inc."
 msgstr "タイムワーナー（Time Warner Inc.）"
 
 msgid "Walgreens Boots Alliance Inc."
-msgstr "Walgreens Boots Alliance Inc."
+msgstr "ウォルグリーン・ブーツ・アライアンス（Walgreens Boots Alliance Inc.）"
 
 msgid "American International Group Inc."
 msgstr "アメリカンインターショナルグループ Inc."
@@ -4342,15 +4438,11 @@ msgstr "アメリカンインターショナルグループ Inc."
 msgid "ICAG (British Airways)"
 msgstr "ICAG (ブリティッシュ・エアウェイズ)"
 
-#, fuzzy
-#| msgid "Novartis AG"
 msgid "Novartis"
-msgstr "Novartis AG（ノバルティス）"
+msgstr "Novartis（ノバルティス）"
 
-#, fuzzy
-#| msgid "Berkshire Hathaway Inc."
 msgid "Berkshire Hathaway"
-msgstr "Berkshire Hathaway Inc."
+msgstr "バークシャー・ハサウェイ（Berkshire Hathaway）"
 
 msgid "Anglo American plc"
 msgstr "Anglo American plc（アングロ アメリカン）"
@@ -4359,10 +4451,10 @@ msgid "Compass Group plc"
 msgstr "Compass Group plc（コンパスグループ）"
 
 msgid "New Oriental Edu & Tech Group Inc."
-msgstr "New Oriental Edu & Tech Group Inc."
+msgstr "ニュー・オリエンタル・エデュケーション・アンド・テクノロジー・グループ（New Oriental Edu & Tech Group Inc.）"
 
 msgid "Coca-cola Amatil Limited"
-msgstr "Coca-cola Amatil Limited"
+msgstr "コカ・コーラ・アマティル（Coca-cola Amatil Limited）"
 
 msgid "ING"
 msgstr "ING"
@@ -4374,29 +4466,25 @@ msgid "BNP Paribas"
 msgstr "BNP Paribas（BNPパリバ）"
 
 msgid "United Continental Holdings Inc."
-msgstr "United Continental Holdings Inc."
+msgstr "ユナイテッド・コンチネンタル・ホールディングス（United Continental Holdings Inc.）"
 
-#, fuzzy
-#| msgid "Airbus Group"
 msgid "Airbus"
-msgstr "Airbus Group（エアバスグループ）"
+msgstr "エアバス"
 
-#, fuzzy
-#| msgid "Procter & Gamble Co."
 msgid "Procter & Gamble"
-msgstr "Procter & Gamble Co."
+msgstr "プロクター＆ギャンブル（Procter & Gamble）"
 
 msgid "Electricite de France"
 msgstr "Electricite de France（フランス電力）"
 
 msgid "King Digital Entertainment plc"
-msgstr "King Digital Entertainment plc"
+msgstr "キング・デジタル・エンターテインメント（King Digital Entertainment plc）"
 
 msgid "Accor S.A."
 msgstr "アコー（Accor S.A.）"
 
 msgid "Unibail-Rodamco SE"
-msgstr "Unibail-Rodamco SE"
+msgstr "ウニベイル・ロダムコ（Unibail-Rodamco SE）"
 
 msgid "Danone"
 msgstr "Danone（ダノン）"
@@ -4419,10 +4507,8 @@ msgstr "Royal Dutch Shell（ロイヤルダッチシェル）"
 msgid "WOODSIDE PETROLEUM LIMITED"
 msgstr "WOODSIDE PETROLEUM LIMITED（WPL）"
 
-#, fuzzy
-#| msgid "McDonald's Corporation"
 msgid "McDonald's"
-msgstr "McDonald's Corporation（マクドナルド）"
+msgstr "マクドナルド（McDonald's）"
 
 msgid "Daimler"
 msgstr "ダイムラー（Daimler AG）"
@@ -4433,16 +4519,14 @@ msgstr "AT&T"
 msgid "Metro AG"
 msgstr "Metro AG（メトロ）"
 
-#, fuzzy
-#| msgid "Deutsche Bank AG"
 msgid "Deutsche Bank"
-msgstr "Deutsche Bank AG（ドイツ銀行）"
+msgstr "ドイツ銀行（Deutsche Bank）"
 
 msgid "Essilor International"
 msgstr "Essilor International（エシロール・インターナショナル）"
 
 msgid "Teva Pharmaceutical Industries Limited"
-msgstr "Teva Pharmaceutical Industries Limited"
+msgstr "テバ・ファーマシューティカル・インダストリーズ（Teva Pharmaceutical Industries Limited）"
 
 msgid "Credit Agricole"
 msgstr "Credit Agricole（クレディ・アグリコル）"
@@ -4478,7 +4562,7 @@ msgid "Carnival plc"
 msgstr "Carnival plc（カーニバル）"
 
 msgid "ITC Ltd"
-msgstr "ITC Ltd"
+msgstr "アイ・テー・シー（ITC Ltd）"
 
 msgid "American Airlines Group Inc."
 msgstr "アメリカン エアラインズ グループ（American Airlines Group Inc.）"
@@ -4499,7 +4583,7 @@ msgid "Halliburton Company"
 msgstr "Halliburton Company（ハリバートン）"
 
 msgid "Potash Corp of Saskatchewan Inc."
-msgstr "Potash Corp of Saskatchewan Inc."
+msgstr "ポタシュ・コープ・オブ・サスカチュワン（Potash Corp of Saskatchewan Inc.）"
 
 msgid "Westpac Banking Co."
 msgstr "ウエストパック銀行（Westpac Banking Co.）"
@@ -4516,10 +4600,8 @@ msgstr "Gemalto cyber security（ジェムアルト）"
 msgid "Nike Inc."
 msgstr "ナイキ（Nike Inc.）"
 
-#, fuzzy
-#| msgid "PepsiCo Inc."
 msgid "PepsiCo"
-msgstr "PepsiCo Inc.（ペプシコ）"
+msgstr "ペプシコ（PepsiCo）"
 
 msgid "Orica Limited"
 msgstr "Orica Limited（オリカ）"
@@ -4554,13 +4636,11 @@ msgstr "Reckitt Benckiser Group plc（レキット・ベンキーザーグルー
 msgid "Twitter Inc."
 msgstr "ツイッター（Twitter Inc.）"
 
-#, fuzzy
-#| msgid "MasterCard Inc."
 msgid "MasterCard"
-msgstr "MasterCard Inc.（マスターカード）"
+msgstr "マスターカード（MasterCard）"
 
 msgid "Sonic Healthcare Limited"
-msgstr "Sonic Healthcare Limited"
+msgstr "ソニック・ヘルスケア（Sonic Healthcare Limited）"
 
 msgid "Incyte Corpoartion"
 msgstr "Incyte Corpoartion（インサイト）"
@@ -4575,10 +4655,10 @@ msgid "Belgacom"
 msgstr "Belgacom（ベルガコム）"
 
 msgid "PowerShares QQQ"
-msgstr "PowerShares QQQ"
+msgstr "パワーシェアーズ QQQ（PowerShares QQQ）"
 
 msgid "Marks & Spencer Group plc"
-msgstr "Marks & Spencer Group plc"
+msgstr "マーク・アンド・スペンサー・グループ（Marks & Spencer Group plc）"
 
 msgid "Cisco Systems Inc."
 msgstr "シスコシステムズ（Cisco Systems Inc.）"
@@ -4590,7 +4670,7 @@ msgid "Renault"
 msgstr "Renault（ルノー）"
 
 msgid "E-Commerce China Dangdang Inc."
-msgstr "E-Commerce China Dangdang Inc."
+msgstr "Eコマース・チャイナ・ダンダン（E-Commerce China Dangdang Inc.）"
 
 msgid "ADIDAS AG"
 msgstr "ADIDAS AG"
@@ -4644,7 +4724,7 @@ msgid "Maruti Suzuki"
 msgstr "Maruti Suzuki（マルチ スズキ）"
 
 msgid "Caltex Australia Limited"
-msgstr "Caltex Australia Limited"
+msgstr "カルテックス・オーストラリア（Caltex Australia Limited）"
 
 msgid "Pernod Ricard"
 msgstr "Pernod Ricard（ペルノ・リカール）"
@@ -4655,10 +4735,8 @@ msgstr "アルコア（Alcoa Inc.）"
 msgid "L'Oreal"
 msgstr "L'Oreal（ロレアル）"
 
-#, fuzzy
-#| msgid "Tesco plc"
 msgid "Tesco"
-msgstr "Tesco plc（テスコ）"
+msgstr "テスコ（Tesco）"
 
 msgid "NEWS CORPORATION."
 msgstr "NEWS CORPORATION."
@@ -4666,13 +4744,11 @@ msgstr "NEWS CORPORATION."
 msgid "Moet Hennessy Louis Vuitton"
 msgstr "Moet Hennessy Louis Vuitton（モエ ヘネシー・ルイ ヴィトン）"
 
-#, fuzzy
-#| msgid "Caterpillar Inc."
 msgid "Caterpillar"
-msgstr "Caterpillar Inc.（キャタピラー）"
+msgstr "キャタピラー（Caterpillar）"
 
 msgid "Associated British foods plc"
-msgstr "Associated British foods plc"
+msgstr "アソシエイテッド・ブリティッシュ・フーズ（Associated British foods plc）"
 
 msgid "MOMO Inc."
 msgstr "モモ（MOMO Inc.）"
@@ -4690,7 +4766,7 @@ msgid "Bharti Airtel"
 msgstr "Bharti Airtel（バーティ エアテル）"
 
 msgid "BT"
-msgstr ""
+msgstr "BTグループ"
 
 msgid "UBS AG"
 msgstr "UBS AG"
@@ -4720,15 +4796,13 @@ msgid "Unilever plc"
 msgstr "Unilever plc（ユニリーバ英）"
 
 msgid "Boeing"
-msgstr ""
+msgstr "ボーイング（Boeing）"
 
 msgid "SUNCORP GROUP LIMITED"
 msgstr "SUNCORP GROUP LIMITED（サンコープグループ）"
 
-#, fuzzy
-#| msgid "Reliance Industries Ltd"
 msgid "Reliance Industries"
-msgstr "Reliance Industries Ltd（リライアンス・インダストリーズ）"
+msgstr "リライアンス・インダストリーズ（Reliance Industries）"
 
 msgid "Applied Materials Inc."
 msgstr "アプライド マテリアルズ（Applied Materials Inc.）"
@@ -4737,7 +4811,7 @@ msgid "Tata Motors"
 msgstr "Tata Motors（タタ モーターズ）"
 
 msgid "Youku Tudou Inc."
-msgstr "Youku Tudou Inc."
+msgstr "Youku Tudou Inc.（优酷土豆）"
 
 msgid "Heineken"
 msgstr "Heineken（ハイネケン）"
@@ -4764,24 +4838,22 @@ msgid "Qihoo 360 Technology Company Limited"
 msgstr "Qihoo 360 Technology Company Limited（奇虎360）"
 
 msgid "Johnson & Johnson"
-msgstr "Johnson & Johnson"
+msgstr "ジョンソン・エンド・ジョンソン（Johnson & Johnson）"
 
 msgid "GPT Group Stapled"
 msgstr "GPT Group Stapled"
 
 msgid "Aviva plc"
-msgstr "Aviva plc"
+msgstr "アビバ（Aviva plc）"
 
-#, fuzzy
-#| msgid "American Express Company"
 msgid "American Express"
-msgstr "American Express Company（アメリカン エキスプレス）"
+msgstr "アメリカン・エキスプレス（American Express）"
 
 msgid "AGL Energy Limited"
-msgstr "AGL Energy Limited"
+msgstr "AGLエナジー（AGL Energy Limited）"
 
 msgid "Keurig Green Mountain Inc."
-msgstr "Keurig Green Mountain Inc."
+msgstr "キューリグ・グリーン・マウンテン（Keurig Green Mountain Inc.）"
 
 msgid "Yandex N.V."
 msgstr "ヤンデックス（Yandex N.V.）"
@@ -4792,13 +4864,11 @@ msgstr "Airbus Group（エアバスグループ）"
 msgid "SANOFI"
 msgstr "SANOFI（サノフィ）"
 
-#, fuzzy
-#| msgid "API"
 msgid "SAP"
-msgstr "API"
+msgstr "サップ（SAP）"
 
 msgid "Autohome Inc."
-msgstr "Autohome Inc."
+msgstr "オートホーム（Autohome Inc.）"
 
 msgid "Cie de Saint-Gobain"
 msgstr "Cie de Saint-Gobain（サンゴバン）"
@@ -4825,7 +4895,7 @@ msgid "QUALCOMM"
 msgstr "QUALCOMM"
 
 msgid "ServiceNow Inc."
-msgstr "ServiceNow Inc."
+msgstr "サービスナウ（ServiceNow Inc.）"
 
 msgid "TPG Telecom Limited"
 msgstr "TPG Telecom Limited（TPGテレコム）"
@@ -4833,10 +4903,8 @@ msgstr "TPG Telecom Limited（TPGテレコム）"
 msgid "National Grid plc"
 msgstr "National Grid plc（NG）"
 
-#, fuzzy
-#| msgid "Lloyds Banking Group plc"
 msgid "Lloyds Bank"
-msgstr "Lloyds Banking Group plc（ロイズ・バンキング・グループ）"
+msgstr "ロイズ・バンク（Lloyds Bank）"
 
 msgid "Crown Resorts Limited"
 msgstr "Crown Resorts Limited"
@@ -4848,7 +4916,7 @@ msgid "GoPro Inc."
 msgstr "ゴープロ（GoPro Inc.）"
 
 msgid "Jumei International Holding Limited"
-msgstr "Jumei International Holding Limited"
+msgstr "ジュメイ・インターナショナル・ホールディング（Jumei International Holding Limited）"
 
 msgid "Santos LimitedStar Stock"
 msgstr "Santos Limited Star Stock"
@@ -4859,10 +4927,8 @@ msgstr "プーマ バイオテクノロジー（Puma Biotechnology Inc.）"
 msgid "Illumina Inc."
 msgstr "イルミナ（Illumina Inc.）"
 
-#, fuzzy
-#| msgid "Electronic Arts Inc."
 msgid "Electronic Arts"
-msgstr "Electronic Arts Inc.（エレクトロニック アーツ）"
+msgstr "エレクトロニック ・アーツ（Electronic Arts）"
 
 msgid "eBay Inc."
 msgstr "イーベイ（eBay Inc.）"
@@ -4879,10 +4945,8 @@ msgstr "Legrand electrical components & equipm"
 msgid "SABMiller plc"
 msgstr "SABMiller plc（SABミラー）"
 
-#, fuzzy
-#| msgid "Tata Steels"
 msgid "Tata Steel"
-msgstr "Tata Steels（タタ スチール）"
+msgstr "タタ・スチール（Tata Steels）"
 
 msgid "Philip Morris International"
 msgstr "Philip Morris International（フィリップ・モリス）"
@@ -4890,10 +4954,8 @@ msgstr "Philip Morris International（フィリップ・モリス）"
 msgid "HSBC"
 msgstr "HSBCホールディングス"
 
-#, fuzzy
-#| msgid "E.ON SE"
 msgid "E.ON"
-msgstr "E.ON SE"
+msgstr "エーオン（E.ON）"
 
 msgid "Solvay chemicals"
 msgstr "Solvay chemicals（ソルベイ）"
@@ -4956,7 +5018,7 @@ msgid "General Motors Company"
 msgstr "General Motors Company（ゼネラルモーターズ）"
 
 msgid "Dialog Semiconductor plc"
-msgstr "Dialog Semiconductor plc"
+msgstr "ダイアログ・セミコンダクター（Dialog Semiconductor plc）"
 
 msgid "Exxon Mobil"
 msgstr "エクソンモービル（Exxon Mobil Corp）"
@@ -4967,10 +5029,8 @@ msgstr "ネットフリックス（Netflix Inc.）"
 msgid "GDF Suez"
 msgstr "GDFスエズ"
 
-#, fuzzy
-#| msgid "Standard Chartered plc"
 msgid "Standard Chartered"
-msgstr "Standard Chartered plc（スタンダードチャータード銀行）"
+msgstr "スタンダード・チャータード（Standard Chartered）"
 
 msgid "Fitbit Inc."
 msgstr "フィビット（Fitbit Inc.）"
@@ -4982,7 +5042,7 @@ msgid "Roche Holding Ag-Genusschein"
 msgstr "Roche Holding Ag-Genusschein"
 
 msgid "Cynapsus Therapeutics"
-msgstr "Cynapsus Therapeutics"
+msgstr "シナプサス・セラピューティクス（Cynapsus Therapeutics）"
 
 msgid "FERRARI N V COM"
 msgstr "FERRARI N V COM（フェラーリ）"
@@ -5012,7 +5072,7 @@ msgid "ASX Limited"
 msgstr "ASX Limited（オーストラリア証券取引所）"
 
 msgid "Alibaba"
-msgstr ""
+msgstr "アリババ・グループ・ホールディング"
 
 msgid "Toyota Motor Corporation"
 msgstr "トヨタ自動車株式会社"
@@ -5030,7 +5090,7 @@ msgid "AXA"
 msgstr "AXA（アクサ）"
 
 msgid "Veolia Environnement water"
-msgstr "Veolia Environnement water"
+msgstr "ヴェオリア・ウォーター（Veolia Environnement water）"
 
 msgid "Coca-Cola Co"
 msgstr "Coca-Cola Co（コカ・コーラ）"
@@ -5038,10 +5098,8 @@ msgstr "Coca-Cola Co（コカ・コーラ）"
 msgid "UCB"
 msgstr "UCB"
 
-#, fuzzy
-#| msgid "GBP"
 msgid "BP"
-msgstr "GBP"
+msgstr "BP"
 
 msgid "Univar Inc."
 msgstr "ユニバー（Univar Inc.）"
@@ -5065,13 +5123,13 @@ msgid "Diageo plc"
 msgstr "Diageo plc（ディアジオ）"
 
 msgid "Fortescue Metals Group"
-msgstr "Fortescue Metals Group"
+msgstr "フォーテスキュー・メルタス・グループ（Fortescue Metals Group）"
 
 msgid "Palo Alto Networks Inc."
-msgstr "Palo Alto Networks Inc."
+msgstr "パロ・アルト・ネットワークス（Palo Alto Networks Inc.）"
 
 msgid "Societe Generale"
-msgstr "Societe Generale"
+msgstr "ソシエテ・ジェネラル（Societe Generale）"
 
 msgid "General Electric Co"
 msgstr "General Electric Co（ゼネラル・エレクトリック）"
@@ -5082,10 +5140,8 @@ msgstr "マイクロソフト（Microsoft Corp）"
 msgid "JD.com Inc."
 msgstr "JD.com Inc."
 
-#, fuzzy
-#| msgid "Rio Tinto plc"
 msgid "Rio Tinto"
-msgstr "Rio Tinto plc（リオ・ティント）"
+msgstr "リオ・ティント（Rio Tinto）"
 
 msgid "Alstom industrial machinery"
 msgstr "Alstom industrial machinery"
@@ -5109,16 +5165,16 @@ msgid "XAG/AUD"
 msgstr "XAG/AUD"
 
 msgid "Oil/USD"
-msgstr "Oil/USD"
+msgstr "原油/USD"
 
 msgid "Platinum/USD"
-msgstr "白金/USD"
+msgstr "Platinum/USD"
 
 msgid "Gold/AUD"
-msgstr "Gold/AUD"
+msgstr "金/AUD"
 
 msgid "Gold/EUR"
-msgstr "Gold/EUR"
+msgstr "金/EUR"
 
 msgid "XPT/AUD"
 msgstr "XPT/AUD"
@@ -5127,10 +5183,10 @@ msgid "XAG/EUR"
 msgstr "XAG/EUR"
 
 msgid "Oil/GBP"
-msgstr "Oil/GBP"
+msgstr "原油/GBP"
 
 msgid "Gold/USD"
-msgstr "Gold/USD"
+msgstr "金/USD"
 
 msgid "XAG/GBP"
 msgstr "XAG/GBP"
@@ -5139,7 +5195,7 @@ msgid "XPD/EUR"
 msgstr "XPD/EUR"
 
 msgid "Palladium/USD"
-msgstr "パラジウム/USD"
+msgstr "Palladium/USD"
 
 msgid "Silver/USD"
 msgstr "Silver/USD"
@@ -5148,13 +5204,13 @@ msgid "XPD/AUD"
 msgstr "XPD/AUD"
 
 msgid "Oil/EUR"
-msgstr "Oil/EUR"
+msgstr "原油/EUR"
 
 msgid "Oil/AUD"
-msgstr "Oil/AUD"
+msgstr "原油/AUD"
 
 msgid "Gold/GBP"
-msgstr "Gold/GBP"
+msgstr "金/GBP"
 
 msgid "XPT/EUR"
 msgstr "XPT/EUR"
@@ -5181,7 +5237,7 @@ msgid "Bull Market Index"
 msgstr "ブルマーケットインデックス"
 
 msgid "Synthetic"
-msgstr "Synthetic"
+msgstr "複合"
 
 msgid "Synthetic represents the empirical simulation of cash index from futures."
 msgstr "Syntheticは先物からのキャッシュ·インデックスの実証的なシミュレーションを表します。"
@@ -5223,16 +5279,16 @@ msgid "Middle East"
 msgstr "中東"
 
 msgid "Synthetic Index"
-msgstr "Synthetic Index"
+msgstr "複合 インデックス"
 
 msgid "Synthetic Indices"
-msgstr "Synthetic Indices"
+msgstr "複合 インデックス"
 
 msgid "Australia Stocks"
 msgstr "オーストラリア株式"
 
 msgid "Americas Future"
-msgstr "Americas Future"
+msgstr "アメリカ 先物取引"
 
 msgid "Germany"
 msgstr "ドイツ"
@@ -5262,7 +5318,7 @@ msgid "Europe/Africa"
 msgstr "ヨーロッパ・アフリカ"
 
 msgid "Smart Indices"
-msgstr "Smart Indices"
+msgstr "スマート インデックス"
 
 msgid "US"
 msgstr "アメリカ"
@@ -5292,13 +5348,13 @@ msgid "Energy"
 msgstr "エネルギー関連"
 
 msgid "Smart FX"
-msgstr "Smart FX"
+msgstr "スマート FX"
 
 msgid "Smart FX indices"
-msgstr "Smart FX indices"
+msgstr "スマート FX インデックス"
 
 msgid "Asia/Oceania Future"
-msgstr "Asia/Oceania Future"
+msgstr "アジア/オセアニア 先物取引"
 
 msgid "Nocturnes"
 msgstr "２１時リセット指数"
@@ -5337,7 +5393,7 @@ msgid "Represent a single day of trading with different market factors. They are
 msgstr "異なる市場での要素と共に一日のトレードを示します。１日１回、00:00GMTに価格がリセットされます。"
 
 msgid "Europe/Africa Future"
-msgstr "Europe/Africa Future"
+msgstr "ヨーロッパ/アフリカ 先物取引"
 
 msgid "config-only"
 msgstr "コンフィグ専用"
@@ -6361,13 +6417,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "An Ends Between trade pays out if the market exit price is strictly higher than the low price target AND strictly lower than the high price target. An Ends Outside binary pays out if the market exit price is EITHER strictly higher than the high price target OR strictly lower than the low price target."
 #~ msgstr "「レンジ内」のトレードタイプでは、トレード終値が最小値として設定したバリアよりも高値、”かつ”、最高値として設定したバリアよりも安値であれば条件が満たされたことになります。同値は満たさないと判定され、終値のみが評価対象になります。「レンジ外」のトレードタイプでは、トレードの終値が最高値として設定したバリアよりも高値、”または”、最小値として設定したバリアよりも安値であれば条件が満たされます。同値は満たされないと判定され、終値のみが評価対象になります。"
 
-#~ msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3 and browser: %4. If this additional sign-in was not performed by you, and / or you have any related concerns, please contact our Customer Support team."
-#~ msgstr ""
-#~ "下記IPアドレスからお客様の口座（%1）へのログインが検出されました。\n"
-#~ "IPアドレス：%2\n"
-#~ "国：%3\n"
-#~ "こちらのログインにお心当たりがない場合は、お手数ですがカスタマーサポートまでご連絡ください。"
-
 #~ msgid "An advanced university degree in Mathematics, Physics or Engineering"
 #~ msgstr "数学、物理学、工学の修士または博士の大学学位"
 
@@ -6536,11 +6585,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgstr "ご口座アップグレード"
 
 #~ msgid "Authorised Applications"
-#~ msgstr "認識済みアプリケーション"
-
-#, fuzzy
-#~| msgid "Authorised Applications"
-#~ msgid "Authorize application"
 #~ msgstr "認識済みアプリケーション"
 
 #~ msgid "Available payment methods"
@@ -7511,14 +7555,8 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Eliminating Antisocial Forces"
 #~ msgstr "反社会的勢力に対する基本方針"
 
-#~ msgid "Email"
-#~ msgstr "メール"
-
 #~ msgid "Email Verification"
 #~ msgstr "Eメール認証"
-
-#~ msgid "Email not given."
-#~ msgstr "Eメールアドレスが入力されていません。"
 
 #~ msgid "Email: "
 #~ msgstr "Email: "
@@ -8332,9 +8370,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Invalid Input"
 #~ msgstr "入力値が不適切です"
 
-#~ msgid "Invalid email and password combination."
-#~ msgstr "メールアドレスとパスワードの組み合わせが無効です。"
-
 #~ msgid "Investigate and reproduce client-reported issues"
 #~ msgstr "顧客から報告された問題の調査と再現"
 
@@ -8995,11 +9030,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Log-in to your %1 affiliate account and click on: Reports &rarr; Traffic Report."
 #~ msgstr "%1のアフィリエイト口座にログインし、Reports &rarr; Traffic Reportをクリックします。"
 
-#, fuzzy
-#~| msgid "login"
-#~ msgid "Login"
-#~ msgstr "ログイン"
-
 #~ msgid "Login time:"
 #~ msgstr "ログインタイム："
 
@@ -9011,11 +9041,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 
 #~ msgid "Long-term partnership with the leading financial trading service"
 #~ msgstr "業界を牽引するトレードサービスとの長期的なパートナーシップ"
-
-#, fuzzy
-#~| msgid "Lost password?"
-#~ msgid "Lost Password?"
-#~ msgstr "パスワードをお忘れの場合"
 
 #~ msgid "MENA FFXPO Award"
 #~ msgstr "MENA FFXPO 賞"
@@ -9181,9 +9206,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Network Status"
 #~ msgstr "ネットワークの状態"
 
-#~ msgid "New Sign-In Activity Detected"
-#~ msgstr "新しいログイン動作が検出されました"
-
 #~ msgid "New password"
 #~ msgstr "新しいパスワード"
 
@@ -9322,9 +9344,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Open a free account"
 #~ msgstr "デモ口座申込み"
 
-#~ msgid "Open an Account"
-#~ msgstr "口座開設"
-
 #~ msgid "Open an account now"
 #~ msgstr "今すぐ口座開設"
 
@@ -9339,11 +9358,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 
 #~ msgid "Opening an account"
 #~ msgstr "口座開設"
-
-#, fuzzy
-#~| msgid "create new account"
-#~ msgid "Operate on accounts"
-#~ msgstr "無料口座開設"
 
 #~ msgid "Options trading can become a real addiction, as can any other activity pushed to its limits. To avoid the danger of such an addiction, we provide a reality-check that gives you a summary of your trades and accounts on a regular basis."
 #~ msgstr "どのお取引も制限が拡大できるため、実際に中毒になる場合があります。そのような中毒性への危険性を避けるために、当社ではお取引と口座の概要を定期的にお渡しするリアリティチェックを提供しています。"
@@ -9429,12 +9443,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Partners"
 #~ msgstr "パートナー協定"
 
-#~ msgid "Password"
-#~ msgstr "パスワード"
-
-#~ msgid "Password not given."
-#~ msgstr "パスワードが入力されませんでした。"
-
 #~ msgid "Password reset"
 #~ msgstr "パスワード再設定"
 
@@ -9465,9 +9473,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Payment of commission earned for the previous calendar month will be made monthly, on or around the 15th day of each month, and may be credited to any payment method as agreed between the Company and the Affiliate."
 #~ msgstr "前月のアフィリエイト報酬は翌月１５日頃に、当社とアフィリエイト会員間で合意されているお支払い方法で振り込まれます。"
 
-#~ msgid "Payments"
-#~ msgstr "アフィリエイト報酬の支払いについて"
-
 #~ msgid "Payout has moved in your favour from %1 to %2."
 #~ msgstr "払い戻し価格が%1から%2に変化しました。"
 
@@ -9494,9 +9499,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 
 #~ msgid "Please enter a number greater than 0"
 #~ msgstr "0より大きい数字を入力してください。"
-
-#~ msgid "Please enter a number."
-#~ msgstr "数字をご入力ください。"
 
 #~ msgid "Please enter your current password."
 #~ msgstr "現在のパスワードを入力してください。"
@@ -9811,11 +9813,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 
 #~ msgid "Returns above 1000% on <a href='%1' class='pjaxload'>higher/lower</a> and <a href='%2' class='pjaxload'>touch/no-touch</a> trades."
 #~ msgstr "<a href='%1' class='pjaxload'>HIGH/LOW</a>、<a href='%2' class='pjaxload'>TOUCH/NO-TOUCH</a>オプションで多様な収益機会を提供"
-
-#, fuzzy
-#~| msgid "Permissions"
-#~ msgid "Review Permissions"
-#~ msgstr "アクセス許可"
 
 #~ msgid "Review suspicious account transactions"
 #~ msgstr "不正アカウントの取引を確認"
@@ -10898,9 +10895,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 #~ msgid "Trade your way"
 #~ msgstr "自由にトレード"
 
-#~ msgid "Trading"
-#~ msgstr "トレード"
-
 #~ msgid "Trading Experience"
 #~ msgstr "投資経験"
 
@@ -11757,11 +11751,6 @@ msgstr "%3が%4から%5までの取引期間中に%6以上もしくは%7以下�
 
 #~ msgid "You're using a Virtual Account."
 #~ msgstr "現在デモ口座を使用されています。"
-
-#, fuzzy
-#~| msgid "Your details"
-#~ msgid "Your Details"
-#~ msgstr "ログイン情報"
 
 #~ msgid "Your ID will be stored in a cookie and identified every time a prospect clicks on your affiliate link and lands on %1 and in that event, opens an account with us."
 #~ msgstr "お客さまのIDはクッキーに保存され、お客さまのアフィリエイトリンクがクリックされる度に識別され、%1に伝わります。"
