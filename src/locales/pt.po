@@ -615,6 +615,36 @@ msgstr "Caro(a)"
 msgid "Dear %1 %2 %3,"
 msgstr "Caro(a) %1 %2 %3,"
 
+#, fuzzy
+#| msgid ""
+#| "Dear %1 %2,\n"
+#| "\n"
+#| "Congratulations on passing the knowledge test for binary options trading.\n"
+#| "\n"
+#| "In the next stage of our account opening process we are required to verify your identity documents and review your eligibility to open a trading account. This will be conducted by our Compliance and Risk Management department upon receipt of your identity documents.\n"
+#| "\n"
+#| "Kindly <u>reply to this email and attach a scanned copy</u> of one of the following approved forms of identity:\n"
+#| "\n"
+#| "<ul>\n"
+#| "    <li><b>Japan Driving license</b>, front and back sides</li>\n"
+#| "    <li><b>Health Insurance card</b>, front and back side</li>\n"
+#| "    <li><b>Basic Resident register</b> and separate passport size photograph. If your document contains details of other family members please cover-over with a blank piece of paper when taking the scan</li>\n"
+#| "    <li><b>Residence Card</b>, front and back side</li>\n"
+#| "</ul>\n"
+#| "\n"
+#| "Please ensure the document contains details of your current address which matches the details that you provided in the basic information section earlier. Please also ensure that the address and other information is easily readable, as otherwise this may delay your application.\n"
+#| "\n"
+#| "We will endeavor to verify your documents within 24 hours, and send you another email when this step has been completed.\n"
+#| "\n"
+#| "Once again, thank you very much for applying to open an account at Binary.com\n"
+#| "\n"
+#| "\n"
+#| "Yours sincerely,\n"
+#| "\n"
+#| "Customer Support\n"
+#| "Binary KK\n"
+#| "\n"
+#| "support@binary.com"
 msgid ""
 "Dear %1 %2,\n"
 "\n"
@@ -623,6 +653,8 @@ msgid ""
 "In the next stage of our account opening process we are required to verify your identity documents and review your eligibility to open a trading account. This will be conducted by our Compliance and Risk Management department upon receipt of your identity documents.\n"
 "\n"
 "Kindly <u>reply to this email and attach a scanned copy</u> of one of the following approved forms of identity:\n"
+"\n"
+"%3\n"
 "\n"
 "<ul>\n"
 "    <li><b>Japan Driving license</b>, front and back sides</li>\n"
@@ -1168,9 +1200,6 @@ msgstr "Valor inválido. O valor mínimo de transferência é 0,10 e até duas c
 msgid "Invalid amount. minimum is 10, maximum is 2000."
 msgstr "Valor inválido. O mínimo é 10, o máximo é 2000."
 
-msgid "Invalid candles request"
-msgstr "Solicitação de candelabros inválida"
-
 msgid "Invalid date of birth."
 msgstr "Data de nascimento inválida."
 
@@ -1664,9 +1693,6 @@ msgstr "Caixas Postais ou Apartados não são aceitos como endereço."
 msgid "Parabolic SAR"
 msgstr "Sistema Parabólico SAR (Stop-And-Reversal)"
 
-msgid "Parameters sanity check failed."
-msgstr "Falha na verificação de integridade de parâmetros."
-
 msgid "Password"
 msgstr "Senha"
 
@@ -2024,9 +2050,6 @@ msgstr "A revenda deste contrato não é mais oferecida."
 
 msgid "Reset Password"
 msgstr "Redefinir senha"
-
-msgid "Response too large."
-msgstr "Resposta demasiado grande."
 
 msgid "Retracement Percentages"
 msgstr "Percentagens de Retração"
@@ -2480,9 +2503,6 @@ msgstr "A transferência de conta está indisponível para a sua conta: %1."
 msgid "The account transfer is unavailable. Please deposit to your account."
 msgstr "A transferência de conta não está disponível. Por favor, deposite na sua conta."
 
-msgid "The application sent an invalid request."
-msgstr "O aplicativo enviou uma solicitação inválida."
-
 msgid "The barriers are improperly entered for this contract."
 msgstr "As barreiras foram inseridas de forma inadequada neste contrato."
 
@@ -2803,9 +2823,6 @@ msgstr "Empresa de destino desconhecida."
 msgid "Unlock Cashier"
 msgstr "Desbloquear o Caixa"
 
-msgid "Unrecognised request."
-msgstr "Solicitação desconhecida."
-
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "Classe de aposta não suportado $bet_params->{bet_class}"
 
@@ -2961,6 +2978,11 @@ msgstr "Você já subscreveu a %1"
 msgid "You are already subscribed to balance updates."
 msgstr "Você já subscreveu a atualizações de saldo."
 
+#, fuzzy
+#| msgid "You are already subscribed to transaction updates."
+msgid "You are already subscribed to pricing table."
+msgstr "Você já subscreveu a atualizações de transações."
+
 msgid "You are already subscribed to transaction updates."
 msgstr "Você já subscreveu a atualizações de transações."
 
@@ -2969,9 +2991,6 @@ msgstr "Você está atualmente conectado à sua conta de dinheiro real com %1 (%
 
 msgid "You are currently logged in to your virtual money account (%2)."
 msgstr "Você está atualmente conectado à sua conta de dinheiro virtual (%2)."
-
-msgid "You are either already subscribed or you have reached the limit for pricing table subscription."
-msgstr "Ou você já está inscrito ou já atingiu o limite de inscrição da tabela de preços."
 
 msgid "You are either already subscribed or you have reached the limit for proposal subscription."
 msgstr "Ou você já está subscrito ou já atingiu o limite de subscrição da proposta."
@@ -3023,6 +3042,11 @@ msgstr "Você ainda não alcançou o faturamento necessário para que o seu bôn
 
 msgid "You have opened an account using invalid details."
 msgstr "Você abriu uma conta usando dados inválidos."
+
+#, fuzzy
+#| msgid "You are either already subscribed or you have reached the limit for pricing table subscription."
+msgid "You have reached the limit for pricing table subscription."
+msgstr "Ou você já está inscrito ou já atingiu o limite de inscrição da tabela de preços."
 
 msgid "You have reached the rate limit for %1."
 msgstr "Já atingiu o limite de taxa para %1."
@@ -4116,9 +4140,6 @@ msgstr "Índice Italiano OTC"
 
 msgid "Shanghai Index"
 msgstr "Índice Xangai"
-
-msgid "Istanbul OTC Index"
-msgstr "Índice OTC Istambul"
 
 msgid "French Index"
 msgstr "Índice Francês"
@@ -5545,6 +5566,24 @@ msgstr "Ganhe o prêmio se %3 sair fora de %7 a %6 até %5."
 
 msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
 msgstr "Ganhe o prêmio se %3 sair fora de %7 e %6 até %5 depois de %4."
+
+#~ msgid "Invalid candles request"
+#~ msgstr "Solicitação de candelabros inválida"
+
+#~ msgid "Parameters sanity check failed."
+#~ msgstr "Falha na verificação de integridade de parâmetros."
+
+#~ msgid "Response too large."
+#~ msgstr "Resposta demasiado grande."
+
+#~ msgid "The application sent an invalid request."
+#~ msgstr "O aplicativo enviou uma solicitação inválida."
+
+#~ msgid "Unrecognised request."
+#~ msgstr "Solicitação desconhecida."
+
+#~ msgid "Istanbul OTC Index"
+#~ msgstr "Índice OTC Istambul"
 
 #~ msgid "Trading is suspended at the moment."
 #~ msgstr "A negociação está suspensa no momento."
