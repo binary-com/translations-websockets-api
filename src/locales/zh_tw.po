@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-07-29 08:40+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/zh_TW/>\n"
+"Language-Team: Chinese (Taiwan) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_TW/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,7 +72,6 @@ msgstr "您的護照或駕照掃描件。"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "授權支付代理?"
 
-#| msgid "Absolute barrier"
 msgid "Absolute barrier cannot be zero"
 msgstr "絕對障礙不可為零"
 
@@ -101,7 +99,6 @@ msgstr "發現您的帳戶另由以下IP地址: %2，國家: %3，瀏覽器: %4 
 msgid "An error occurred while processing request. If this error persists, please contact customer support"
 msgstr "處理要求時發生錯誤。如果問題持續出現，請聯繫客戶支援人員"
 
-#| msgid "An error occured."
 msgid "An unexpected error occurred"
 msgstr "發生不可預測錯誤"
 
@@ -366,7 +363,6 @@ msgstr ""
 msgid "Deposit"
 msgstr "存款"
 
-#| msgid "Timeout time must be greater than current time."
 msgid "Deposit amount must be greater than zero."
 msgstr "存款金額必須大於零。"
 
@@ -414,6 +410,11 @@ msgstr "到期時間不可為過去式。"
 msgid "Failed attempt to unlock cashier section"
 msgstr "%1-收銀台無法解鎖"
 
+#, fuzzy
+#| msgid "Failed to update trade description."
+msgid "Failed to get user identity."
+msgstr "無法更新交易描述。"
+
 msgid ""
 "For more information on the terms and conditions that apply to your bonus, go to:\n"
 "\n"
@@ -444,7 +445,6 @@ msgstr "高障礙價格不在可接受的範圍內。請調整高障礙價格。
 msgid "High barrier must be higher than low barrier."
 msgstr "最高障礙必須大於最低障礙。"
 
-#| msgid "An error occurred while processing request. If this error persists, please contact customer support"
 msgid "If this error persists, please contact customer support."
 msgstr "如果持續出現錯誤，請聯繫客戶支援人員。"
 
@@ -484,7 +484,6 @@ msgstr "此google play網址不可使用。"
 msgid "Invalid URI for homepage."
 msgstr "首頁網址不可使用。"
 
-#| msgid "Invalid amount"
 msgid "Invalid account type."
 msgstr "無效帳戶類型。"
 
@@ -494,14 +493,12 @@ msgstr "無效金額。最小轉帳金額為0.10，最多2個小數位。"
 msgid "Invalid amount. minimum is 10, maximum is 2000."
 msgstr "無效金額，最小是10，最大是2000。"
 
-#| msgid "Invalid currency."
 msgid "Invalid barrier."
 msgstr "無效障礙。"
 
 msgid "Invalid email and password combination."
 msgstr "無效的電子郵件地址和密碼組合。"
 
-#| msgid "Invalid amount"
 msgid "Invalid loginid"
 msgstr "無效登入id"
 
@@ -517,9 +514,13 @@ msgstr "無效電話號碼（過短）。"
 msgid "Invalid telephone number."
 msgstr "無效電話號碼。"
 
-#| msgid "Invalid stake"
 msgid "Invalid token"
 msgstr "無效權杖"
+
+#, fuzzy
+#| msgid "Invalid stake"
+msgid "Invalid user."
+msgstr "無效投注金額"
 
 msgid "Kind Regards"
 msgstr "謹致問候"
@@ -733,7 +734,6 @@ msgstr "請登入。"
 msgid "Please note that your settings have been updated as follows:"
 msgstr "請注意，您的設定已完成以下更新："
 
-#| msgid "Please provide complete details for account opening."
 msgid "Please provide a valid sub account loginid."
 msgstr "請提供有效的子帳戶登入id。"
 
@@ -889,7 +889,6 @@ msgstr "對不起，在指定時間內您不可持有超過%1 的合約。請存
 msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
 msgstr "對不起，您不能提款。您的帳戶餘額為%1 %2。"
 
-#| msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
 msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
 msgstr "對不起，您不能提款。您的提款金額%1超過提款限額%2。"
 
@@ -920,7 +919,6 @@ msgstr "對不起，您已禁止自己，直到%1。"
 msgid "Sorry, you have open positions. Please close out all open positions before requesting additional funds."
 msgstr "對不起，您還有未平倉的頭寸。在請求額外資金前，請了結所有未平倉頭寸。"
 
-#| msgid "Sorry, you seem to already have a real money account with us. Perhaps you have used a different email address when you registered it. For legal reasons we are not allowed to open multiple real money accounts per person. If you do not remember your account with us, please"
 msgid "Sorry, you seem to already have a real money account with us. Perhaps you have used a different email address when you registered it. For legal reasons we are not allowed to open multiple real money accounts per person."
 msgstr "對不起，您好像已經有了真實帳戶。可能是您在註冊時使用了不同的電子郵箱號。由於法律因素，我們不能允許一個人同時開立多個真實帳戶。"
 
@@ -1173,12 +1171,16 @@ msgstr "未知著陸公司。"
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "不支持的投注類型$bet_params->{bet_class}"
 
-#| msgid "Max 30 tokens are allowed."
 msgid "Up to 100 tokens are allowed."
 msgstr "可擁有多達100個權杖。"
 
 msgid "Update Settings"
 msgstr "更新設定"
+
+#, fuzzy
+#| msgid "This trade is not offered."
+msgid "User is not connected."
+msgstr "不提供此交易。"
 
 msgid "Verify your email address - %1"
 msgstr "驗證您的電子郵件地址 - %1"
@@ -1228,23 +1230,18 @@ msgstr "網站禁止目前設定為 <strong>%1。 </strong>"
 msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
 msgstr "如果%3在%plural(%5,%d 跳動點,%d 跳動點)之後高於或等於%6，將獲得賠付額。"
 
-#| msgid "%1 %2 payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
 msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is lower than or equal to %6."
 msgstr "如果%3在%plural(%5,%d 跳動點,%d 跳動點)之後低於或等於%6，將獲得賠付額。"
 
-#| msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
 msgid "Win payout if %3 ends on or between %7 to %6 at %5 after %4."
 msgstr "如果%3在%4之後的%5時收盤等於或處於%7至%6之間，將獲得賠付額。"
 
-#| msgid "%1 %2 payout if %3 ends strictly between %7 to %6 at %5."
 msgid "Win payout if %3 ends on or between %7 to %6 at %5."
 msgstr "如果%3在%5時收盤等於或處於%7至%6之間，將獲得賠付額。"
 
-#| msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
 msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
 msgstr "如果%3在%4過後的%5時收盤等於或處於%7至%6之外，將獲得賠付額。"
 
-#| msgid "Win payout if %3 ends outside %7 to %6 at %5."
 msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
 msgstr "如果%3在%5時收盤等於或處於%7至%6之外，將獲得賠付額。"
 
@@ -1254,25 +1251,21 @@ msgstr "如果%3在%4之後到%5時高於或等於%6，將獲得賠付額。"
 msgid "Win payout if %3 is higher than or equal to %6 at %5."
 msgstr "如果%3在%5時等於或高於%6，將獲得賠付額。"
 
-#| msgid "%1 %2 payout if %3 is strictly lower than %6 at %5 after %4."
 msgid "Win payout if %3 is lower than or equal to %6 at %5 after %4."
 msgstr "如果%3在%4之後的%5時低於或等於%6，將獲得賠付額。"
 
-#| msgid "%1 %2 payout if %3 is strictly lower than %6 at %5."
 msgid "Win payout if %3 is lower than or equal to %6 at %5."
 msgstr "如果%3在%5時低於或等於%6，將獲得賠付額。"
 
 msgid "Withdrawal"
 msgstr "提款"
 
-#| msgid "Timeout time must be greater than current time."
 msgid "Withdrawal amount must be greater than zero."
 msgstr "提款金額必須大於零。"
 
 msgid "Yes"
 msgstr "是"
 
-#| msgid "You must already have a valid account with Binary.com."
 msgid "You already have a %1 account %2"
 msgstr "您必須擁有%1的帳戶%2"
 
@@ -1282,8 +1275,12 @@ msgstr "您已訂閱%1"
 msgid "You are already subscribed to balance updates."
 msgstr "您已訂閱餘額更新。"
 
-#| msgid "You are already subscribed to %1"
 msgid "You are already subscribed to proposal."
+msgstr "您已訂閱提案。"
+
+#, fuzzy
+#| msgid "You are already subscribed to proposal."
+msgid "You are already subscribed to proposal_open_contract."
 msgstr "您已訂閱提案。"
 
 msgid "You are already subscribed to transaction updates."
@@ -1337,14 +1334,12 @@ msgstr "您的詳細資料"
 msgid "Your Login ID"
 msgstr "您的登入 ID"
 
-#| msgid "Your cashier section is locked."
 msgid "Your account %1 cashier section was locked."
 msgstr "您的帳戶%1 收銀台區段已被鎖定。"
 
 msgid "Your account %1 has a different currency %2 than USD."
 msgstr "您的帳戶%1貨幣是%2而不是美元。"
 
-#| msgid "Your account is disabled"
 msgid "Your account %1 was disabled."
 msgstr "您的帳戶%1已被禁用。"
 
@@ -1417,7 +1412,6 @@ msgstr "您的密碼已重設。"
 msgid "Your phone number"
 msgstr "您的電話號碼"
 
-#| msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site. If you have forgotten the password of your existing account, please <a href=\"%1\">try our password recovery tool</a> or contact customer service."
 msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site."
 msgstr "您所輸入的電郵地址已經被另外的登入ID使用。根據我們的使用條款和條件，您只能在我們的網站註冊一次。"
 
@@ -1460,53 +1454,42 @@ msgstr "首頁"
 msgid "today"
 msgstr "今天"
 
-#| msgid "{JAPAN ONLY}Trading & Hedging"
 msgid "{JAPAN ONLY}Amount of hedging assets"
 msgstr "{JAPAN ONLY}Amount of hedging assets"
 
-#| msgid "Annual income"
 msgid "{JAPAN ONLY}Annual income"
 msgstr "{JAPAN ONLY}Annual income"
 
-#| msgid "Classification of assets requiring hedge"
 msgid "{JAPAN ONLY}Classification of assets requiring hedge"
 msgstr "{JAPAN ONLY}Classification of assets requiring hedge"
 
-#| msgid "Financial asset"
 msgid "{JAPAN ONLY}Financial asset"
 msgstr "{JAPAN ONLY}Financial asset"
 
-#| msgid "{JAPAN ONLY}Option Pricing"
 msgid "{JAPAN ONLY}Occupation"
 msgstr "{JAPAN ONLY}Occupation"
 
-#| msgid "Purpose of trading"
 msgid "{JAPAN ONLY}Purpose of trading"
 msgstr "{JAPAN ONLY}Purpose of trading"
 
-#| msgid "{JAPAN ONLY}Trading Guide"
 msgid "{JAPAN ONLY}Trading Experience for Commodities"
 msgstr "{JAPAN ONLY}Trading Experience for Commodities"
 
-#| msgid "{JAPAN ONLY}Trading Guide"
 msgid "{JAPAN ONLY}Trading Experience for Equities"
 msgstr "{JAPAN ONLY}Trading Experience for Equities"
 
 msgid "{JAPAN ONLY}Trading Experience for Foreign currency deposit"
 msgstr "{JAPAN ONLY}Trading Experience for Foreign currency deposit"
 
-#| msgid "{JAPAN ONLY}Disclaimer for knowledge test"
 msgid "{JAPAN ONLY}Trading Experience for Investment trust"
 msgstr "{JAPAN ONLY}Trading Experience for Investment trust"
 
-#| msgid "{JAPAN ONLY}Trading & Hedging"
 msgid "{JAPAN ONLY}Trading Experience for Margin FX"
 msgstr "{JAPAN ONLY}Trading Experience for Margin FX"
 
 msgid "{JAPAN ONLY}Trading Experience for OTC derivative (Option) trading"
 msgstr "{JAPAN ONLY}Trading Experience for OTC derivative (Option) trading"
 
-#| msgid "Public and corporation bond"
 msgid "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 
@@ -1865,6 +1848,9 @@ msgstr "意大利場外交易指數"
 
 msgid "Shanghai Index"
 msgstr "上海指數"
+
+msgid "Istanbul OTC Index"
+msgstr "伊斯坦堡場外交易指數"
 
 msgid "French Index"
 msgstr "法國指數"
@@ -3819,9 +3805,6 @@ msgstr "如果%3在%4過後一直到%5時處於%7與%6之外，將獲得賠付�
 #~ msgid "Failed to reset password. %1, please retry."
 #~ msgstr "無法重設密碼。%1，請重試。"
 
-#~ msgid "Failed to update trade description."
-#~ msgstr "無法更新交易描述。"
-
 #~ msgid "False"
 #~ msgstr "False"
 
@@ -5689,9 +5672,6 @@ msgstr "如果%3在%4過後一直到%5時處於%7與%6之外，將獲得賠付�
 
 #~ msgid "Unrecognised request."
 #~ msgstr "無法辨識之請求。"
-
-#~ msgid "Istanbul OTC Index"
-#~ msgstr "伊斯坦堡場外交易指數"
 
 #~ msgid "Trading is suspended at the moment."
 #~ msgstr "目前交易暫停。"
@@ -12742,9 +12722,6 @@ msgstr "如果%3在%4過後一直到%5時處於%7與%6之外，將獲得賠付�
 
 #~ msgid "There are no costs involved on the Binary.com side. However you will bear the costs of your own IT developers who develop the white-label for you."
 #~ msgstr "Binary.com沒有任何成本費用。然而，您將承擔為您開發白標的IT開發人員的費用。"
-
-#~ msgid "This trade is not offered."
-#~ msgstr "不提供此交易。"
 
 #~ msgid "To create a White Label, first <a href=\"%1\">sign up as an affiliate</a>. This will allow you to earn commissions from clients of your White Label."
 #~ msgstr "請先<a href=\"%1\">註冊成為聯盟會員</a>，以建立白色標籤。之後您即可賺取屬於您的白色標籤客戶的佣金。"
