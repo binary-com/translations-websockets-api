@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-08-09 11:05+0000\n"
 "Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.8-dev\n"
 
 msgid "%1 New Password Request"
@@ -413,7 +411,6 @@ msgstr "Время истечения контракта не может быт�
 msgid "Failed attempt to unlock cashier section"
 msgstr "Не удалось разблокировать раздел Касса"
 
-#| msgid "Verify your identity."
 msgid "Failed to get user identity."
 msgstr "Не удалось идентифицировать пользователя."
 
@@ -519,7 +516,6 @@ msgstr "Неверно указан номер телефона."
 msgid "Invalid token"
 msgstr "Неправильный код"
 
-#| msgid "Invalid value."
 msgid "Invalid user."
 msgstr "Неправильное имя пользователя."
 
@@ -788,6 +784,11 @@ msgstr "Просмотреть профиль пользователя"
 msgid "Reload page"
 msgstr "Перегрузите страницу"
 
+#, fuzzy
+#| msgid "Connection failure. Please try again later."
+msgid "Request too frequent. Please try again later."
+msgstr "Ошибка соединения. Пожалуйста, попробуйте позже."
+
 # 83%
 # 100%
 msgid "Resale of this contract is not offered due to market holidays during contract period."
@@ -840,6 +841,11 @@ msgstr "Извините, при обработке Вашего запроса 
 
 msgid "Sorry, client balance will exceed limits with this payment."
 msgstr "Извините, данный платёж превысит лимиты баланса клиента."
+
+#, fuzzy
+#| msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
+msgid "Sorry, contracts on Financial Products are not available in your country of residence"
+msgstr "Извините, контракты на Индексах волатильности недоступны в стране Вашего проживания"
 
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "Извините, контракты на Индексах волатильности недоступны в стране Вашего проживания"
@@ -1180,7 +1186,6 @@ msgstr "Разрешено до 100 кодов подтверждения."
 msgid "Update Settings"
 msgstr "Обновить настройки"
 
-#| msgid "This trade is not offered."
 msgid "User is not connected."
 msgstr "Пользователь не подключён."
 
@@ -1281,7 +1286,6 @@ msgstr "Вы уже подписаны на получение обновлен�
 msgid "You are already subscribed to proposal."
 msgstr "Вы уже подписаны на данное предложение."
 
-#| msgid "You are already subscribed to proposal."
 msgid "You are already subscribed to proposal_open_contract."
 msgstr "Вы уже подписаны на proposal_open_contract."
 
@@ -1359,6 +1363,11 @@ msgstr "На Вашем счете не указана страна прожив
 
 msgid "Your account is disabled"
 msgstr "Ваш счет недоступен"
+
+#, fuzzy
+#| msgid "Your account is restricted to withdrawals only."
+msgid "Your account is locked for withdrawals. Please contact customer service."
+msgstr "На Вашем счету можно производить только вывод средств."
 
 msgid "Your account is restricted to withdrawals only."
 msgstr "На Вашем счету можно производить только вывод средств."
@@ -1585,11 +1594,11 @@ msgstr "EUR/SAR"
 msgid "USD/NOK"
 msgstr "USD/NOK"
 
-msgid "AUD/TRY"
-msgstr "AUD/TRY"
-
 msgid "EUR/BRL"
 msgstr "EUR/BRL"
+
+msgid "AUD/TRY"
+msgstr "AUD/TRY"
 
 msgid "AUD/NZD"
 msgstr "AUD/NZD"
@@ -1818,9 +1827,6 @@ msgstr "Шанхайский внебирж. индекс"
 
 msgid "French Smart Index"
 msgstr "Французский Smart индекс"
-
-msgid "Wall Street OTC Index"
-msgstr "Внебиржевой индекс Wall Street"
 
 msgid "Japanese Smart Index"
 msgstr "Японский Smart индекс"
@@ -2051,11 +2057,11 @@ msgstr "Швейцарский Smart индекс"
 msgid "Italian Index"
 msgstr "Итальянский индекс"
 
-msgid "Euro 100 Index"
-msgstr "Euro 100 индекс"
-
 msgid "Bombay OTC Index"
 msgstr "Бомбейский внебирж. индекс"
+
+msgid "Euro 100 Index"
+msgstr "Euro 100 индекс"
 
 msgid "Euro 150 OTC Index"
 msgstr "Euro 150 внебирж. индекс"
@@ -3293,6 +3299,9 @@ msgstr "Получить выплату, если %3 выйдет за гран�
 msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
 msgstr "Получить выплату, если %3 выйдет за пределы %7 и %6 в любое время в течение %5 после %4."
 
+#~ msgid "Wall Street OTC Index"
+#~ msgstr "Внебиржевой индекс Wall Street"
+
 #~ msgid "Please enter an epoch time."
 #~ msgstr "Пожалуйста, введите время."
 
@@ -3622,9 +3631,6 @@ msgstr "Получить выплату, если %3 выйдет за пред�
 
 #~ msgid "Confirm New Password"
 #~ msgstr "Подтвердить новый пароль"
-
-#~ msgid "Connection failure. Please try again later."
-#~ msgstr "Ошибка соединения. Пожалуйста, попробуйте позже."
 
 #~ msgid "Construction"
 #~ msgstr "Строительство"
