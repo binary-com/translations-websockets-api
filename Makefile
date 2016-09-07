@@ -1,0 +1,3 @@
+test:
+	prove -vlmr t/
+
