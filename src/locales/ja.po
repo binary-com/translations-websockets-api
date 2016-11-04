@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-10-30 07:04+0000\n"
-"Last-Translator: Mark Tanser <mark@regentmarkets.com>\n"
+"PO-Revision-Date: 2016-11-04 06:32+0000\n"
+"Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
 "websocket/translations/ja/>\n"
 "Language: ja\n"
@@ -31,19 +31,19 @@ msgid "30-day limit on losses"
 msgstr "30日間の損失制限"
 
 msgid "30-day turnover limit"
-msgstr "30日の取引数量限度額"
+msgstr "30日の取引限度額"
 
 msgid "7-Day limit on losses is currently set to <strong>%1 %2</strong>"
 msgstr "7日間の損失制限は、現在 <strong>%1 %2</strong>に設定されています"
 
 msgid "7-Day turnover limit is currently set to <strong>%1 %2</strong>"
-msgstr "7日の取引数量限度額は、現在<strong>%1 %2</strong>に設定されています"
+msgstr "7日の取引限度額は、現在<strong>%1 %2</strong>に設定されています"
 
 msgid "7-day limit on losses"
 msgstr "7日間の損失制限"
 
 msgid "7-day turnover limit"
-msgstr "7日の取引数量限度額"
+msgstr "7日の取引限度額"
 
 msgid "<option value=\"\"></option><option value=\"01\">Jan</option><option value=\"02\">Feb</option><option value=\"03\">Mar</option><option value=\"04\">Apr</option><option value=\"05\">May</option><option value=\"06\">Jun</option><option value=\"07\">Jul</option><option value=\"08\">Aug</option><option value=\"09\">Sep</option><option value=\"10\">Oct</option><option value=\"11\">Nov</option><option value=\"12\">Dec</option>"
 msgstr "<option value=\"\"></option><option value=\"01\">1月</option><option value=\"02\">2月</option><option value=\"03\">3月</option><option value=\"04\">4月</option><option value=\"05\">5月</option><option value=\"06\">6月</option><option value=\"07\">7月</option><option value=\"08\">8月</option><option value=\"09\">9月</option><option value=\"10\">10月</option><option value=\"11\">11月</option><option value=\"12\">12月</option>"
@@ -211,10 +211,10 @@ msgid "Daily limit on losses is currently set to <strong>%1 %2</strong>"
 msgstr "１日の損失限度額は、現在<strong>%1 %2</strong>に設定されています。"
 
 msgid "Daily turnover limit"
-msgstr "1日の取引数量限度額"
+msgstr "1日の取引限度額"
 
 msgid "Daily turnover limit is currently set to <strong>%1 %2</strong>"
-msgstr "1日の取引数量限度額は、現在<strong>%1 %2</strong>に設定されています。"
+msgstr "1日の取引限度額は、現在<strong>%1 %2</strong>に設定されています。"
 
 msgid "Date of birth is invalid"
 msgstr "生年月日が無効です"
@@ -523,7 +523,7 @@ msgid "Invalid amount. minimum is 10, maximum is 2000."
 msgstr "無効な値です。最小10・最大 2000です。"
 
 msgid "Invalid barrier."
-msgstr "無効なバリアです"
+msgstr "バリア価格は無効です"
 
 msgid "Invalid expiry time."
 msgstr "有効期限が無効です。"
@@ -815,13 +815,13 @@ msgid "Purchase of this contract would cause you to exceed our payout limit for 
 msgstr "ペイアウト限度額に達しているため新規注文をおこなえません。続行いただくには、保有ポジションを決済していただく必要があります。"
 
 msgid "Purchase of this contract would cause you to exceed your 30-day turnover limit of %1%2."
-msgstr "30日の取引数量限度額%1%2に到達したため購入できません。"
+msgstr "30日の取引限度額%1%2に到達したため購入できません。"
 
 msgid "Purchase of this contract would cause you to exceed your 7-day turnover limit of %1%2."
-msgstr "%1%2の7日の取引数量限度額%1%2に到達したため購入できません。"
+msgstr "%1%2の7日の取引限度額%1%2に到達したため購入できません。"
 
 msgid "Purchase of this contract would cause you to exceed your daily turnover limit of %1%2."
-msgstr "１日の取引数量限度額%1%2に到達したため購入できません。"
+msgstr "１日の取引限度額%1%2に到達したため購入できません。"
 
 msgid "Read user profile"
 msgstr "ユーザープロファイルを読み込む"
@@ -1186,15 +1186,13 @@ msgid "Trading is not offered for this duration."
 msgstr "この取引期間の新規注文及び売却取引は出来ません"
 
 msgid "Trading is suspended due to missing market data."
-msgstr "市場価格の入手が不可能なため、トレードの提供を一時的に停止しております。"
+msgstr "現在、一時的にご利用出来ません"
 
 msgid "Trading on this market is not offered for this contract type."
-msgstr ""
-"%1でのこのタイプのトレードはできません。\n"
-"この取引期間ではこの取引の種類は提供しておりません。"
+msgstr "%1ではこちらのオプションタイプを提供しておりません"
 
 msgid "Trading on this market is suspended due to missing market data."
-msgstr "市場価格レートの配信が不可能なため、この取引期間を一時的に停止しております。"
+msgstr "現在、一時的にご利用出来ません"
 
 msgid "Try out the Volatility Indices which are always open."
 msgstr "いつでもお取引いただけるボラティリティインデックスをお試しください。"
@@ -3162,10 +3160,10 @@ msgid "goes outside"
 msgstr "BREAK-OUT"
 
 msgid "Win payout if %3 goes outside %7 to %6 through %5."
-msgstr "%3のBREAK-OUTは、%5までの取引期間中に%6以上もしくは%7以下になったと予想"
+msgstr "%3のBREAK-OUTは、%5までの取引期間中に%6以上もしくは%7以下になったと予測"
 
 msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
-msgstr "%3のBREAK-OUTは、%4から%5までの取引期間中に%6以上もしくは%7以下になったと予想"
+msgstr "%3のBREAK-OUTは、%4から%5までの取引期間中に%6以上もしくは%7以下になったと予測"
 
 msgid "ends between"
 msgstr "レンジ内で終了"
@@ -3189,19 +3187,19 @@ msgid "touches"
 msgstr "TOUCH"
 
 msgid "Win payout if %3 touches %6 through %5."
-msgstr "%3のTOUCHは、%5までの取引期間が終了するまで%6にタッチを予想"
+msgstr "%3のTOUCHは、%5までの取引期間が終了するまで%6にタッチを予測"
 
 msgid "Win payout if %3 touches %6 through %5 after %4."
-msgstr "%3のTOUCHは、%4から%5の取引が終了するまでに%6にタッチを予想"
+msgstr "%3のTOUCHは、%4から%5の取引が終了するまでに%6にタッチを予測"
 
 msgid "higher"
 msgstr "HIGH"
 
 msgid "Win payout if %3 is higher than or equal to %6 at %5."
-msgstr "%3のラダーHIGHは、%5の判定時刻の時点で%6以上を予想"
+msgstr "%3のラダーHIGHは、%5の判定時刻の時点で%6以上を予測"
 
 msgid "Win payout if %3 is higher than or equal to %6 at %5 after %4."
-msgstr "%3のラダーHIGHは、%4後の判定時刻(%5)の時点で%6以上を予想"
+msgstr "%3のラダーHIGHは、%4後の判定時刻(%5)の時点で%6以上を予測"
 
 msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
 msgstr "%3が%plural(%5,%d tick)後に%6より高いかまたは同じ場合に、ペイアウトをお受け取りいただけます。"
