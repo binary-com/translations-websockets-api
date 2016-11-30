@@ -20,17 +20,32 @@ msgstr ""
 msgid "%1 New Password Request"
 msgstr "%1 ต้องการรหัสผ่านใหม่"
 
+#, fuzzy
+#| msgid "This field is required."
+msgid "%1 is required"
+msgstr "ข้อมูลในช่องนี้จำเป็นต้องมี"
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "%1 ธุรกรรมไม่สามารถดำเนินการได้กับบัญชีนี้"
 
 msgid "%1 would like permission to access your account %2"
 msgstr "%1 ต้องการได้รับอนุญาตในการเข้าถึงบัญชี %2 ของท่าน"
 
+#, fuzzy
+#| msgid "$250,000 - $1,000,000"
+msgid "1,000 - 1,000,000"
+msgstr "250,000 - 1,000,000 เหรียญสหรัฐ"
+
 msgid "30-day limit on losses"
 msgstr "วงเงินของส่วนขาดทุนใน 30 วัน"
 
 msgid "30-day turnover limit"
 msgstr "วงเงินซื้อขาย 30 วัน"
+
+#, fuzzy
+#| msgid "Deposit: %1 working days"
+msgid "5 working days"
+msgstr "ฝากเงิน: %1 วันทำการ"
 
 msgid "7-Day limit on losses is currently set to <strong>%1 %2</strong>"
 msgstr "วงเงิน 7 วัน ส่วนขาดทุนปัจจุบัน คือ <strong>%1 %2</strong>"
@@ -110,6 +125,9 @@ msgstr "มีข้อผิดพลาดเกิดขึ้น"
 msgid "Authorize application"
 msgstr "แอพพลิเคชันที่ยินยอมให้ใช้"
 
+msgid "Bank fees apply"
+msgstr ""
+
 msgid "Barrier is not an integer between 0 to 9."
 msgstr "ค่า Barrier ไม่ได้เป็นเลขจำนวนใดๆ เต็มระหว่าง 0 ถึง 9"
 
@@ -125,6 +143,9 @@ msgstr "Barrier ต้องมีค่าอย่างน้อย "
 msgid "Barriers must be on either side of the spot."
 msgstr "Barriers ต้องอยู่ข้างใดข้างหนึ่งของสปอต"
 
+msgid "By submitting deposit notification on this page, you send us your bank account details and planned deposit amount so we can successfully route your funds to your Binary account. By doing this you do not move any funds. Please contact your bank to complete the transfer."
+msgstr ""
+
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -134,11 +155,19 @@ msgstr "ไม่สามารถเพิ่มสัญญา"
 msgid "Cannot validate contract"
 msgstr "ไม่สามารถตรวจสอบสัญญา"
 
+msgid "Cashier"
+msgstr "แคชเชียร์"
+
 msgid "Cashier password updated"
 msgstr "รหัสผ่านแคชเชียร์ปรับปรุงแล้ว"
 
 msgid "Change in account settings"
 msgstr "การแก้ไขการตั้งค่าของบัญชี"
+
+#, fuzzy
+#| msgid "Contract cannot be sold at this time."
+msgid "Client activity disabled at this time"
+msgstr "สัญญาไม่สามารถถูกจำหน่ายในขณะนี้"
 
 msgid "Client email not set."
 msgstr "อีเมล์ลูกค้ายังไม่ได้ระบุ"
@@ -170,11 +199,22 @@ msgstr "ราคาตลาดของสัญญาใกล้เคีย
 msgid "Contract must expire during trading hours."
 msgstr "สัญญาต้องหมดอายุระหว่างชั่วโมงการซื้อขาย"
 
+msgid "Contracts less than 24 hours in duration would need a relative barrier. (barriers which need +/-)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Contracts of less than 24h in duration are not available between %1-23:59:59 GMT."
+msgid "Contracts more than 24 hours in duration would need an absolute barrier."
+msgstr "สัญญาที่มีอายุน้อยกว่า 24 ชั่วโมง ไม่สามารถใช้งานได้ระหว่าง %1-23:59:59 GMT"
+
 msgid "Contracts on this market with a duration of more than 24 hours must expire at the end of a trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลามากกว่า 24 ชั่วโมงจะหมดอายุเมื่อสิ้นวัน สิ้นสุดเวลาซื้อขาย"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะหมดอายุภายในวันที่ซื้อขาย"
+
+msgid "Contracts with predefined barrier would need an absolute barrier"
+msgstr ""
 
 msgid "Country of Residence"
 msgstr "ประเทศที่พำนัก"
@@ -590,6 +630,11 @@ msgstr "จำนวนสูงสุดของโพซิชั่นที
 msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
 msgstr "จำนวนสูงสุดของโพซิชั่นที่เปิดปัจจุบัน คือ <strong>%1</strong>"
 
+#, fuzzy
+#| msgid "Min: %1 Max: %2"
+msgid "Min %1 Max %2"
+msgstr "ต่ำสุด: %1 สูงสุด: %2"
+
 msgid "Minimum stake of %1 and maximum payout of %2"
 msgstr "จำนวนเงินเดิมพันที่ต่ำที่สุดของ %1 และจำนวนเงินที่ชำระที่มากที่สุดของ %2"
 
@@ -693,6 +738,11 @@ msgstr "รายการของตัวแทนรับชำระเง
 msgid "Payment Agents are not available on this site."
 msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับไซต์นี้"
 
+#, fuzzy
+#| msgid "Payment methods"
+msgid "Payment method"
+msgstr "วิธีการชำระเงิน"
+
 msgid "Payments"
 msgstr "การชำระเงิน"
 
@@ -783,6 +833,11 @@ msgstr "โปรดรอสักครู่เพื่อประมวล
 msgid "Postcode is required for UK residents."
 msgstr "รหัสไปรษณีย์จำเป็นต้องกรอกสำหรับประชาชนสหราชอาณาจักร"
 
+#, fuzzy
+#| msgid "Proceed"
+msgid "Proceeded as %1"
+msgstr "ประมวลผล"
+
 msgid "Proper barriers could not be determined."
 msgstr "ไม่สามารถกำหนด Barrier ที่เหมาะสมได้"
 
@@ -854,6 +909,11 @@ msgstr "ขออภัย มีความผิดพลาดเกิด�
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลความประสงค์ของท่าน"
+
+#, fuzzy
+#| msgid "Sorry, an error occurred while loading the form. Please contact customer support if this problem persists"
+msgid "Sorry, an error occurred while processing your request. Please contact customer support with %1 as reference."
+msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นในขณะโหลดแบบฟอร์ม โปรดติดต่อเจ้าหน้าที่บริการลูกค้า หากท่านยังพบปัญหาในการใช้งาน"
 
 msgid "Sorry, client balance will exceed limits with this payment."
 msgstr "ขออภัย ยอดคงเหลือของลูกค้าจะเกินวงเงินด้วยการชำระเงินนี้"
@@ -981,6 +1041,11 @@ msgstr "รูปแบบ %1 ไม่ถูกต้อง"
 msgid "Submit"
 msgstr "ส่ง"
 
+#, fuzzy
+#| msgid "Successful"
+msgid "Success"
+msgstr "เรียบร้อยแล้ว"
+
 msgid "Supported banks"
 msgstr "รายชื่อธนาคาร"
 
@@ -1001,6 +1066,9 @@ msgstr "ทีม %1"
 
 msgid "The Payment Agent facility is currently not available in your country."
 msgstr "ขณะนี้ไม่มีบริการตัวแทนรับชำระเงินในประเทศของท่าน"
+
+msgid "The account must be in your name and match your binary.com account details. This will be the only account to which we will make payments if you wish to withdraw funds. If your bank account details change in future, please contact customer support who will need to verify your ID and new back account details."
+msgstr ""
 
 msgid "The account transfer is unavailable for accounts with different default currency."
 msgstr "การโอนบัญชีไม่สามารถทำได้กับสำหรับบัญชีที่ใช้สกุลเงินต่างกัน"
@@ -1208,6 +1276,11 @@ msgstr "ตรวจสอบคำสั่งถอนเงินของท
 msgid "Verify your withdrawal request - %1"
 msgstr "ตรวจสอบคำสั่งถอนเงินของท่าน - %1"
 
+#, fuzzy
+#| msgid "Sorry, it is not allowed."
+msgid "Virtual account is not allowed."
+msgstr "ขออภัย คำสั่งนี้ไม่ได้รับอนุญาตให้ดำเนินการ"
+
 msgid "Virtual money credit to account"
 msgstr "ฝากเงินเสมือนในบัญชีของท่าน"
 
@@ -1247,6 +1320,16 @@ msgstr "ขณะนี้ ระยะเวลาในการใช้ง�
 msgid "Website exclusion is currently set to <strong>%1.</strong>"
 msgstr "ขณะนี้ การพักการซื้อขายทางเว็บไซต์กำหนดไว้ที่ <strong>%1</strong>"
 
+#, fuzzy
+#| msgid "Transfer"
+msgid "Wire Transfer"
+msgstr "โอน"
+
+#, fuzzy
+#| msgid "Withdrawal"
+msgid "Withdraw"
+msgstr "การถอนเงิน"
+
 msgid "Withdrawal"
 msgstr "การถอนเงิน"
 
@@ -1282,6 +1365,9 @@ msgstr "ท่านไม่ได้รับอนุญาตในการ
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
+
+msgid "You can request a funds transfer to your designated bank account at any time. You must have sufficient balance in your trading account at the time of transfer. Please contact customer support if you need to withdraw more than the maximum amount."
+msgstr ""
 
 msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgstr "ท่านไม่สามารถโอนไปบัญชี %1 เนื่องจากบัญชีของเขาไม่สามารถใช้งานได้ขณะนี้"
@@ -1412,6 +1498,11 @@ msgstr "ที่อยู่เว็บไซต์ (URL) ของท่า�
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "ตัวอักษร ตัวเลข ช่องว่าง เครื่องหมายขีดกลาง จำนวน 2-32 อักขระ"
 
+#, fuzzy
+#| msgid "Amount"
+msgid "amount"
+msgstr "จำนวน"
+
 msgid "close on %1"
 msgstr "ปิดที่ %1"
 
@@ -1445,23 +1536,102 @@ msgstr "วันนี้"
 msgid "{JAPAN ONLY}"
 msgstr "{JAPAN ONLY}"
 
+#, fuzzy
+#| msgid "{JAPAN ONLY}Other"
+msgid "{JAPAN ONLY}Account Number"
+msgstr "{JAPAN ONLY}Other"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Occupation"
+msgid "{JAPAN ONLY}Account name"
+msgstr "{JAPAN ONLY}Occupation"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Occupation"
+msgid "{JAPAN ONLY}Account number"
+msgstr "{JAPAN ONLY}Occupation"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}6 months to 1 year"
+msgid "{JAPAN ONLY}Account type"
+msgstr "{JAPAN ONLY}6 months to 1 year"
+
 msgid "{JAPAN ONLY}Amount of hedging assets"
 msgstr "{JAPAN ONLY}Amount of hedging assets"
 
 msgid "{JAPAN ONLY}Annual income"
 msgstr "{JAPAN ONLY}Annual income"
 
+#, fuzzy
+#| msgid "{JAPAN ONLY}Annual income"
+msgid "{JAPAN ONLY}Bank name"
+msgstr "{JAPAN ONLY}Annual income"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Annual income"
+msgid "{JAPAN ONLY}Branch code"
+msgstr "{JAPAN ONLY}Annual income"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Financial asset"
+msgid "{JAPAN ONLY}Branch name"
+msgstr "{JAPAN ONLY}Financial asset"
+
 msgid "{JAPAN ONLY}Classification of assets requiring hedge"
 msgstr "{JAPAN ONLY}Classification of assets requiring hedge"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Student"
+msgid "{JAPAN ONLY}Currenct"
+msgstr "{JAPAN ONLY}Student"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Student"
+msgid "{JAPAN ONLY}Current"
+msgstr "{JAPAN ONLY}Student"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}"
+msgid "{JAPAN ONLY}Deposit"
+msgstr "{JAPAN ONLY}"
 
 msgid "{JAPAN ONLY}Financial asset"
 msgstr "{JAPAN ONLY}Financial asset"
 
+#, fuzzy
+#| msgid "If this error persists, please contact customer support."
+msgid "{JAPAN ONLY}For further information, please contact customer support."
+msgstr "หากความผิดพลาดยังมีอยู่ โปรดติดต่อฝ่ายบริการลูกค้า"
+
+msgid "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
+msgstr ""
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}How to Open an Account"
+msgid "{JAPAN ONLY}Make a transfer to this Binary bank account"
+msgstr "{JAPAN ONLY}How to Open an Account"
+
 msgid "{JAPAN ONLY}Occupation"
 msgstr "{JAPAN ONLY}Occupation"
 
+#, fuzzy
+#| msgid "{JAPAN ONLY}Hedging"
+msgid "{JAPAN ONLY}Ordinary"
+msgstr "{JAPAN ONLY}Hedging"
+
+msgid "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
+msgstr ""
+
 msgid "{JAPAN ONLY}Purpose of trading"
 msgstr "{JAPAN ONLY}Purpose of trading"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Hedging"
+msgid "{JAPAN ONLY}Savings"
+msgstr "{JAPAN ONLY}Hedging"
+
+msgid "{JAPAN ONLY}Thank you for your wire transfer deposit notification. Please note that you now have to contact your bank to complete the transfer. Your account will be immediately updated once we receive the payment."
+msgstr ""
 
 msgid "{JAPAN ONLY}Trading Experience for Commodities"
 msgstr "{JAPAN ONLY}Trading Experience for Commodities"
@@ -1483,6 +1653,26 @@ msgstr "{JAPAN ONLY}Trading Experience for OTC derivative (Option) trading"
 
 msgid "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Section 4: Risk"
+msgid "{JAPAN ONLY}Transaction ID: %1"
+msgstr "{JAPAN ONLY}Section 4: Risk"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Other"
+msgid "{JAPAN ONLY}Withdrawal"
+msgstr "{JAPAN ONLY}Other"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}How to Open an Account"
+msgid "{JAPAN ONLY}Your designated bank account"
+msgstr "{JAPAN ONLY}How to Open an Account"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Student"
+msgid "{JAPAN ONLY}amount"
+msgstr "{JAPAN ONLY}Student"
 
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "{JAPAN ONLY}footer text of email template for Japan"
@@ -3396,9 +3586,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgid "USD/DKK"
 #~ msgstr "USD/DKK"
 
-#~ msgid "Contracts of less than 24h in duration are not available between %1-23:59:59 GMT."
-#~ msgstr "สัญญาที่มีอายุน้อยกว่า 24 ชั่วโมง ไม่สามารถใช้งานได้ระหว่าง %1-23:59:59 GMT"
-
 #~ msgid "Too many recent attempts. Try again later."
 #~ msgstr "ได้พยายามหลายครั้งแล้วในระยะเวลาก่อนหน้านี้ กรุณาลองใหม่ภายหลัง"
 
@@ -3425,9 +3612,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "$25,000 - $100,000"
 #~ msgstr "25,000 - 100,000 เหรียญสหรัฐ"
-
-#~ msgid "$250,000 - $1,000,000"
-#~ msgstr "250,000 - 1,000,000 เหรียญสหรัฐ"
 
 #~ msgid "%1 %2 has been credited to your Virtual money account %3"
 #~ msgstr "%1 %2 ถูกเพิ่มแล้วที่บัญชีเสมือนของท่าน %3"
@@ -3527,9 +3711,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Administrator"
 #~ msgstr "ผู้ดูแลระบบ"
-
-#~ msgid "Amount"
-#~ msgstr "จำนวน"
 
 #~ msgid "Amount per point"
 #~ msgstr "จำนวนเงินต่อจุด"
@@ -4803,9 +4984,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgid "Su"
 #~ msgstr "อา"
 
-#~ msgid "Successful"
-#~ msgstr "เรียบร้อยแล้ว"
-
 #~ msgid "Sunday"
 #~ msgstr "วันอาทิตย์"
 
@@ -4887,9 +5065,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "This feature is not relevant to virtual-money accounts."
 #~ msgstr "ฟังก์ชันนี้ไม่สัมพันธ์กับบัญชีเงินเสมือน"
-
-#~ msgid "This field is required."
-#~ msgstr "ข้อมูลในช่องนี้จำเป็นต้องมี"
 
 #~ msgid "Thursday"
 #~ msgstr "วันพฤหัสบดี"
@@ -5603,9 +5778,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "{JAPAN ONLY}Section 3: Outline"
 #~ msgstr "{JAPAN ONLY}Section 3: Outline"
-
-#~ msgid "{JAPAN ONLY}Section 4: Risk"
-#~ msgstr "{JAPAN ONLY}Section 4: Risk"
 
 #~ msgid "{JAPAN ONLY}Section 5: Calculation"
 #~ msgstr "{JAPAN ONLY}Section 5: Calculation"
@@ -7037,9 +7209,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgid "Careers"
 #~ msgstr "งาน"
 
-#~ msgid "Cashier"
-#~ msgstr "แคชเชียร์"
-
 #~ msgid "Cashier password"
 #~ msgstr "รหัสผ่านสำหรับจัดการเงิน"
 
@@ -7460,9 +7629,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgstr "ฝากเงิน หรือ ถอนเงินเข้าบัญชีของคุณผ่านบริการของธนาคาร บัตรเครดิต หรือ เงินอิเล็กทรอนิกส์"
 
 #~ msgid "Deposit: %1 working day"
-#~ msgstr "ฝากเงิน: %1 วันทำการ"
-
-#~ msgid "Deposit: %1 working days"
 #~ msgstr "ฝากเงิน: %1 วันทำการ"
 
 #~ msgid "Deposit: Instant"
@@ -9315,9 +9481,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgid "Payment agent is unavailable in your country."
 #~ msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินในประเทศของท่าน"
 
-#~ msgid "Payment methods"
-#~ msgstr "วิธีการชำระเงิน"
-
 #~ msgid "Payment of commission earned for the previous calendar month will be made monthly, on or around the 15th day of each month, and may be credited to any payment method as agreed between the Company and the Affiliate."
 #~ msgstr "การจ่ายค่าตอบแทนที่เกิดขึ้นในเดือนก่อนหน้าตามปฏิทิน จะดำเนินการทุกวันที่ 15 ในแต่ละเดือน และจะนำเข้าบัญชีท่านตามช่องทางที่ท่าระบุกับบริษัทฯ"
 
@@ -9448,9 +9611,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Privacy Policy"
 #~ msgstr "นโยบายความเป็นส่วนตัว"
-
-#~ msgid "Proceed"
-#~ msgstr "ประมวลผล"
 
 #~ msgid "Process website content translations regularly and efficiently, delivering high-quality work on a dependable basis"
 #~ msgstr "รับผิดชอบในการแปลเนื้อหาของเว็บไซต์ตามปกติอย่างมีประสิทธิภาพ ส่งมอบงานที่มีคุณภาพสูง และเชื่อถือได้"
@@ -9758,9 +9918,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Sorry, an error occurred"
 #~ msgstr "ขออภัย มีความผิดพลาดเกิดขึ้น"
-
-#~ msgid "Sorry, an error occurred while loading the form. Please contact customer support if this problem persists"
-#~ msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นในขณะโหลดแบบฟอร์ม โปรดติดต่อเจ้าหน้าที่บริการลูกค้า หากท่านยังพบปัญหาในการใช้งาน"
 
 #~ msgid "Sorry, the page cannot be found."
 #~ msgstr "ขออภัย ไม่พบหน้าที่ท่านเรียก"
@@ -10197,9 +10354,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgid "Transact in"
 #~ msgstr "ธุรกรรม ณ"
 
-#~ msgid "Transfer"
-#~ msgstr "โอน"
-
 #~ msgid "Transfer between your gaming and financial accounts."
 #~ msgstr "โอนระหว่างการซื้อขายของท่านและบัญชีของท่าน"
 
@@ -10483,9 +10637,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgid "{JAPAN ONLY}For full details of the documents we can accept please download the following guide:"
 #~ msgstr "{JAPAN ONLY}For full details of the documents we can accept please download the following guide:"
 
-#~ msgid "{JAPAN ONLY}How to Open an Account"
-#~ msgstr "{JAPAN ONLY}How to Open an Account"
-
 #~ msgid "{JAPAN ONLY}Identification Documents"
 #~ msgstr "{JAPAN ONLY}Identification Documents"
 
@@ -10579,9 +10730,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Cash Dividend"
 #~ msgstr "เงินปันผลเงินสด"
-
-#~ msgid "Contract cannot be sold at this time."
-#~ msgstr "สัญญาไม่สามารถถูกจำหน่ายในขณะนี้"
 
 #~ msgid "Current Spot"
 #~ msgstr "สปอตปัจจุบัน"
@@ -10773,9 +10921,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Login Trouble"
 #~ msgstr "ปัญหาการเข้าสู่ระบบ"
-
-#~ msgid "Min: %1 Max: %2"
-#~ msgstr "ต่ำสุด: %1 สูงสุด: %2"
 
 #~ msgid "Postcode must be less than 20 characters long and may not contain \"+\"."
 #~ msgstr "รหัสไปรษณีย์ควรมีน้อยกว่า 20 อักขระ และไม่มีเครื่องหมาย \"+\""
