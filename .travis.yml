@@ -1,3 +1,6 @@
 language: perl
 perl:
     - "5.14"
+
+install:
+    - cpanm --quiet --notest List::Util
