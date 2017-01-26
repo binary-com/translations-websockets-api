@@ -43,7 +43,7 @@ if($test->{status}) {
             done_testing;
         }
     }
-    diag explain \@important if @important;
+    diag "The following issues affect our main languages and need fixing:\n", explain(\@important) if @important;
     # diag explain $rslt;
 }
 
