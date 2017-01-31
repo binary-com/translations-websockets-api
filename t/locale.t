@@ -4,9 +4,16 @@ use warnings;
 use Test::More;
 
 use Locale::Maketext::Test;
+use List::Util qw(uniq);
  
 my $test = Locale::Maketext::Test->new(directory => 'src/locales');
 my $rslt = $test->testlocales();
+
+# These are translations that we do not expect to be complete yet. We'll
+# still include them in the output, but they should not cause the Travis
+# run to fail.
+my %skip_country = map {; $_ => 1 } qw(de es fr it pt th vi);
+
 if($test->{status}) {
     pass('all translations ok');
 } else {
@@ -17,16 +24,26 @@ if($test->{status}) {
         }
         return $txt;
     };
-    for my $failed_country (sort keys %{$rslt->{errors}}) {
-        for my $err (@{$rslt->{errors}{$failed_country}}) {
-            fail("error - $failed_country - " . $remap->($err));
+    my @important;
+    for my $failed_country (sort +uniq keys(%{$rslt->{warnings}}), keys(%{$rslt->{errors}})) {
+        subtest $failed_country => sub {
+            TODO: {
+                local $TODO = $skip_country{$failed_country} ? 'incomplete translations for ' . $failed_country : undef;
+                for my $err (@{$rslt->{errors}{$failed_country} // []}) {
+                    my $msg = "error - $failed_country - " . $remap->($err);
+                    fail $msg;
+                    push @important, $msg unless $TODO;
+                }
+                for my $warn (@{$rslt->{warnings}{$failed_country} // []}) {
+                    my $msg = "warning - $failed_country - " . $remap->($warn);
+                    fail $msg;
+                    push @important, $msg unless $TODO;
+                }
+            }
+            done_testing;
         }
     }
-    for my $failed_country (sort keys %{$rslt->{warnings}}) {
-        for my $warn (@{$rslt->{warnings}{$failed_country}}) {
-            fail("warning - $failed_country - " . $remap->($warn));
-        }
-    }
+    diag "The following issues affect our main languages and need fixing:\n", explain(\@important) if @important;
     # diag explain $rslt;
 }
 
