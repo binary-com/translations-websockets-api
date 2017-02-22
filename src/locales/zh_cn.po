@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Chinese (China) (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-02 03:46+0000\n"
+"PO-Revision-Date: 2017-02-20 09:27+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (China) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_CN/>\n"
 "Language: zh_cn\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.11\n"
+"X-Generator: Weblate 2.12-dev\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 msgid "%1 New Password Request"
@@ -26,17 +26,11 @@ msgstr "此账户可能无法执行%1交易。"
 msgid "%1 would like permission to access your account %2"
 msgstr "%1想取得权限访问您的账户%2"
 
-msgid "1,000 - 1,000,000"
-msgstr "1,000 - 1,000,000"
-
 msgid "30-day limit on losses"
 msgstr "30天损失限额"
 
 msgid "30-day turnover limit"
 msgstr "30天交易限额"
-
-msgid "5 working days"
-msgstr "5个工作日"
 
 msgid "7-Day limit on losses is currently set to <strong>%1 %2</strong>"
 msgstr "7天期损失限额当前设置为 <strong>%1 %2</strong>"
@@ -122,11 +116,11 @@ msgstr "处理请求时发生错误。如果问题持续出现，请联系客服
 msgid "An unexpected error occurred"
 msgstr "发生不可预测的错误"
 
+msgid "App id is mandatory to access our api. Please register your application."
+msgstr "访问api时必须有应用程序id。请注册您的应用程序。"
+
 msgid "Authorize application"
 msgstr "授权应用程序"
-
-msgid "Bank fees apply"
-msgstr "收取银行费用"
 
 msgid "Barrier is not an integer between 0 to 9."
 msgstr "障碍必须是0至9之间的整数。"
@@ -142,9 +136,6 @@ msgstr "障碍必须大于或等于 "
 
 msgid "Barriers must be on either side of the spot."
 msgstr "高和低障碍必须分别大于和小于现货价。"
-
-msgid "By submitting deposit notification on this page, you send us your bank account details and planned deposit amount so we can successfully route your funds to your Binary account. By doing this you do not move any funds. Please contact your bank to complete the transfer."
-msgstr "您可在此页面提交存款通知，以便将您的银行详细资料和计划存款金额传给我们，好让我们将款项转入您的Binary账户。您如此操作并没有移动任何款项。请联系您的银行以完成汇款。"
 
 msgid "Cancel"
 msgstr "取消"
@@ -200,7 +191,7 @@ msgid "Contract must expire during trading hours."
 msgstr "合约必须在交易时段内到期。"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
-msgstr ""
+msgstr "合约投注额大于最大购入价。"
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "超过24小时持续期间的合约必须有个绝对障碍。"
@@ -518,10 +509,8 @@ msgstr "电子邮件地址或密码不正确。"
 msgid "Input validation failed: "
 msgstr "输入验证失败： "
 
-#, fuzzy
-#| msgid "Input validation failed: "
 msgid "Input validation failed: %1"
-msgstr "输入验证失败： "
+msgstr "输入验证失败： %1"
 
 msgid "Internal server error"
 msgstr "内部服务器出错"
@@ -652,9 +641,6 @@ msgstr "最大未平仓头寸数目"
 msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
 msgstr "最大未平仓头寸数目当前设置为 <strong>%1</strong>"
 
-msgid "Min %1 Max %2"
-msgstr "最小 %1 最大 %2"
-
 msgid "Min trade stake should be lower than max trade stake."
 msgstr "最小交易投注额必须低于最大交易投注额。"
 
@@ -764,9 +750,6 @@ msgstr "支付代理活动目前未经授权"
 msgid "Payment Agents are not available on this site."
 msgstr "本网站无可用支付代理。"
 
-msgid "Payment method"
-msgstr "支付方式"
-
 msgid "Payments"
 msgstr "支付"
 
@@ -784,6 +767,9 @@ msgstr "权限不足，需有阅读范围。"
 
 msgid "Permission denied."
 msgstr "权限不足。"
+
+msgid "Place of birth"
+msgstr "出生地"
 
 msgid "Please accept Funds Protection."
 msgstr "请接受资金保护。"
@@ -814,6 +800,9 @@ msgstr "请输入您要提供服务的国家"
 
 msgid "Please enter your email address."
 msgstr "请输入您的电邮地址。"
+
+msgid "Please log in using your email and password."
+msgstr "请使用电子邮件地址和密码登录。"
 
 msgid "Please log in."
 msgstr "请登录。"
@@ -869,16 +858,16 @@ msgstr "执行为%1"
 msgid "Proper barriers could not be determined."
 msgstr "无法确定合适的障碍。"
 
-msgid "Purchase of this contract would cause you to exceed our payout limit for open contracts of this type. To continue please consider to sell a few contracts at the market or trade in different contract types."
-msgstr "购买此合约将导致您超出我们对此类未平仓合约的赔付额限定。如要继续交易，请先卖出一些合约，或是改换合约类型。"
+msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
+msgstr "购买此合约将导致您超出我们对此类未平仓合约的赔付额限定。如要继续交易，请先卖出一些未平仓合约，或是改换合约类型。"
 
-msgid "Purchase of this contract would cause you to exceed your 30-day turnover limit of %1%2."
+msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
 msgstr "买入此合约将导致您超出%1%2的30天期交易限额。"
 
-msgid "Purchase of this contract would cause you to exceed your 7-day turnover limit of %1%2."
+msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1%2."
 msgstr "买入此合约将导致您超出%1%2的7天期交易限额。"
 
-msgid "Purchase of this contract would cause you to exceed your daily turnover limit of %1%2."
+msgid "Purchasing this contract will cause you to exceed your daily turnover limit of %1%2."
 msgstr "买入此合约将导致您超出%1%2的每日交易限额。"
 
 msgid "Read user profile"
@@ -1034,6 +1023,9 @@ msgstr "对不起，您似乎已经有了真实账户，可能是在注册时使
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "对不起，您的账户现金余额太高(%1)。最高余额为%2。"
 
+msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
+msgstr "对不起，您的账户不允许输入密码。预知详情，请联系客服人员。"
+
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "对不起，您的账户无权进一步买入任何合约。"
 
@@ -1082,10 +1074,14 @@ msgstr "所支持银行的列表无效"
 msgid "System problems prevent proper settlement at this time."
 msgstr "系统问题导致目前无法正常结算。"
 
-#, fuzzy
-#| msgid "Date of birth is required."
+msgid "Tax identification number"
+msgstr "税务识别号"
+
 msgid "Tax information is required."
-msgstr "需要出生日期。"
+msgstr "需要税务信息。"
+
+msgid "Tax residence"
+msgstr "纳税居住地"
 
 msgid "Telephone"
 msgstr "电话"
@@ -1098,9 +1094,6 @@ msgstr "%1 团队。"
 
 msgid "The Payment Agent facility is currently not available in your country."
 msgstr "您的国家无可用支付代理设施。"
-
-msgid "The account must be in your name and match your binary.com account details. This will be the only account to which we will make payments if you wish to withdraw funds. If your bank account details change in future, please contact customer support who will need to verify your ID and new back account details."
-msgstr "账户须是您的名字，并与您的binary.com账户详细资料匹配。当您提款时，这将是我们向您支付款项的唯一账户。将来如果您的银行账户详细有更改，请联系客服部，他们将对您的身份和新的银行账户详细进行验证。"
 
 msgid "The account transfer is unavailable for accounts with different default currency."
 msgstr "账户不可用不同的预设货币转账。"
@@ -1305,9 +1298,6 @@ msgstr "可拥有多达100个令牌。"
 msgid "Update Settings"
 msgstr "更新设置"
 
-msgid "User is not connected."
-msgstr "用户未连接。"
-
 msgid "Verify your email address - %1"
 msgstr "验证您的电子邮件地址 - %1"
 
@@ -1359,9 +1349,6 @@ msgstr "网站暂停截止时间的当前设置为 <strong>%1。</strong>"
 msgid "Website exclusion is currently set to <strong>%1.</strong>"
 msgstr "网站禁止当前设置为 <strong>%1。</strong>"
 
-msgid "Wire Transfer"
-msgstr "电汇转账"
-
 msgid "Withdraw"
 msgstr "取款"
 
@@ -1403,9 +1390,6 @@ msgstr "您无权通过付款代理取款。"
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
-
-msgid "You can request a funds transfer to your designated bank account at any time. You must have sufficient balance in your trading account at the time of transfer. Please contact customer support if you need to withdraw more than the maximum amount."
-msgstr "您可随时请求把款项汇到您指定的银行账户。汇款时您的交易账户必须有足够的余额。如果所需提款额超出最大限额，请联系客服部。"
 
 msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
@@ -1534,9 +1518,12 @@ msgid "Your token has expired or is invalid."
 msgstr "您的令牌已经过期或无效。"
 
 #, fuzzy
-#| msgid "Your cheque withdrawal was successful"
+#| msgid "Your transaction was successful."
+msgid "Your transaction was cancelled."
+msgstr "您的交易已成功。"
+
 msgid "Your transaction was successful."
-msgstr "您的支票提款成功"
+msgstr "您的交易已成功。"
 
 msgid "Your website URL"
 msgstr "您的网站 URL"
@@ -1619,9 +1606,6 @@ msgstr "{JAPAN ONLY}Deposit"
 msgid "{JAPAN ONLY}Financial asset"
 msgstr "{JAPAN ONLY}Financial asset"
 
-msgid "{JAPAN ONLY}For further information, please contact customer support."
-msgstr "{JAPAN ONLY}For further information, please contact customer support."
-
 msgid "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
 msgstr "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
 
@@ -1637,14 +1621,14 @@ msgstr "{JAPAN ONLY}Ordinary"
 msgid "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
 msgstr "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
 
+msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+msgstr "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+
 msgid "{JAPAN ONLY}Purpose of trading"
 msgstr "{JAPAN ONLY}Purpose of trading"
 
 msgid "{JAPAN ONLY}Savings"
 msgstr "{JAPAN ONLY}Savings"
-
-msgid "{JAPAN ONLY}Thank you for your wire transfer deposit notification. Please note that you now have to contact your bank to complete the transfer. Your account will be immediately updated once we receive the payment."
-msgstr "{JAPAN ONLY}Thank you for your wire transfer deposit notification. Please note that you now have to contact your bank to complete the transfer. Your account will be immediately updated once we receive the payment."
 
 msgid "{JAPAN ONLY}Trading Experience for Commodities"
 msgstr "{JAPAN ONLY}Trading Experience for Commodities"
@@ -3584,6 +3568,42 @@ msgstr "{JAPAN ONLY}Margin FX"
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
 
+#~ msgid "1,000 - 1,000,000"
+#~ msgstr "1,000 - 1,000,000"
+
+#~ msgid "5 working days"
+#~ msgstr "5个工作日"
+
+#~ msgid "Bank fees apply"
+#~ msgstr "收取银行费用"
+
+#~ msgid "By submitting deposit notification on this page, you send us your bank account details and planned deposit amount so we can successfully route your funds to your Binary account. By doing this you do not move any funds. Please contact your bank to complete the transfer."
+#~ msgstr "您可在此页面提交存款通知，以便将您的银行详细资料和计划存款金额传给我们，好让我们将款项转入您的Binary账户。您如此操作并没有移动任何款项。请联系您的银行以完成汇款。"
+
+#~ msgid "Min %1 Max %2"
+#~ msgstr "最小 %1 最大 %2"
+
+#~ msgid "Payment method"
+#~ msgstr "支付方式"
+
+#~ msgid "The account must be in your name and match your binary.com account details. This will be the only account to which we will make payments if you wish to withdraw funds. If your bank account details change in future, please contact customer support who will need to verify your ID and new back account details."
+#~ msgstr "账户须是您的名字，并与您的binary.com账户详细资料匹配。当您提款时，这将是我们向您支付款项的唯一账户。将来如果您的银行账户详细有更改，请联系客服部，他们将对您的身份和新的银行账户详细进行验证。"
+
+#~ msgid "User is not connected."
+#~ msgstr "用户未连接。"
+
+#~ msgid "Wire Transfer"
+#~ msgstr "电汇转账"
+
+#~ msgid "You can request a funds transfer to your designated bank account at any time. You must have sufficient balance in your trading account at the time of transfer. Please contact customer support if you need to withdraw more than the maximum amount."
+#~ msgstr "您可随时请求把款项汇到您指定的银行账户。汇款时您的交易账户必须有足够的余额。如果所需提款额超出最大限额，请联系客服部。"
+
+#~ msgid "{JAPAN ONLY}For further information, please contact customer support."
+#~ msgstr "{JAPAN ONLY}For further information, please contact customer support."
+
+#~ msgid "{JAPAN ONLY}Thank you for your wire transfer deposit notification. Please note that you now have to contact your bank to complete the transfer. Your account will be immediately updated once we receive the payment."
+#~ msgstr "{JAPAN ONLY}Thank you for your wire transfer deposit notification. Please note that you now have to contact your bank to complete the transfer. Your account will be immediately updated once we receive the payment."
+
 #~ msgid "Contracts less than 24 hours in duration would need a relative barrier. (barriers which need +/-)"
 #~ msgstr "期限不到24小时的合约必须有个相对障碍（需要有+/-的障碍）"
 
@@ -4636,9 +4656,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Please confirm the trade on your statement before proceeding."
 #~ msgstr "继续执行之前，请在您的声明上确认此项交易。"
-
-#~ msgid "Please confirm the transaction details in order to complete the transfer:"
-#~ msgstr "请确认交易详情以完成转账："
 
 #~ msgid "Please deposit before transfer to client."
 #~ msgstr "给客户转账前请先存款。"
@@ -7597,9 +7614,6 @@ msgstr "{JAPAN ONLY}Other"
 #~ msgid "Data will be available after market close."
 #~ msgstr "收市后数据可用。"
 
-#~ msgid "Date of birth"
-#~ msgstr "出生日期"
-
 #~ msgid ""
 #~ "Dear Valued Customer,\n"
 #~ "\n"
@@ -8622,9 +8636,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "In/Out trades"
 #~ msgstr "“范围之内 / 之外”交易"
-
-#~ msgid "Indemnification"
-#~ msgstr "赔偿"
 
 #~ msgid "Indemnity and Liability"
 #~ msgstr "赔偿及责任"
@@ -9779,9 +9790,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Please enter a number greater than 0"
 #~ msgstr "请输入大于0的数字"
-
-#~ msgid "Please enter your current password."
-#~ msgstr "请输入当前密码。"
 
 #~ msgid "Please make sure that you first agree with the Agent on the terms of payment before submitting your request."
 #~ msgstr "在提交请求前，请您确认同意代理的支付条款。"
@@ -12214,9 +12222,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Sell Time"
 #~ msgstr "卖出时间"
-
-#~ msgid "Sorry, an error occurred. Please contact customer support if this problem persists."
-#~ msgstr "对不起，发生错误。如果问题持续出现，请联系客服人员。"
 
 #~ msgid "Table"
 #~ msgstr "表"
@@ -21209,9 +21214,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Last 200 ticks"
 #~ msgstr "最近 200 个跳动点"
-
-#~ msgid "Last Year of Residence"
-#~ msgstr "居住的最后一年"
 
 #~ msgid "Last part of licence number must be 2 characters long."
 #~ msgstr "驾照号码最后一部分长度必须为 2 个字符。"
