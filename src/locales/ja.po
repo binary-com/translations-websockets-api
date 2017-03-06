@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-03-06 01:28+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,10 +56,8 @@ msgstr "<p style=\"font-weight: bold;\">デモ口座へご登録いただきあ�
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgstr ""
 "<p style=\"line-height:200%;color:#333333;font-size:15px;\">お客さまへ</p>\n"
-"<p>ワンタイムパスワードを発行いたしました。パスワード再設定ページ上で下記ワンタイムパスワードをご入力頂き、新しいパスワードを再設定してください。<p>"
-"%1\n"
-"<span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: "
-"50px;\">%2</span> </p> </p>"
+"<p>ワンタイムパスワードを発行いたしました。パスワード再設定ページ上で下記ワンタイムパスワードをご入力頂き、新しいパスワードを再設定してください。<p>%1\n"
+"<span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%2</span> </p> </p>"
 
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment agent withdrawal form:<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgstr ""
@@ -156,8 +153,10 @@ msgstr "バリア値が許容レンジ外です。"
 msgid "Barrier must be an integer."
 msgstr "バリア値は整数です"
 
-msgid "Barrier must be at least "
-msgstr "バリアの最小値 "
+#, fuzzy
+#| msgid "The barrier for this contract must be at least 2 pips away from the spot."
+msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
+msgstr "このトレードでのバリア値は最低でもスポット価格より2pip離れている必要があります。"
 
 msgid "Barriers must be on either side of the spot."
 msgstr "バリアの値は両方のスポット価格をカバーするように指定して下さい。"
@@ -778,6 +777,11 @@ msgstr "資金保護に同意してください。"
 
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "リスク免責事項に同意してからお進みください。"
+
+#, fuzzy
+#| msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
+msgid "Please contact customer support for more information."
+msgstr "申し訳ございませんが、口座のパスワードが許可されていません。詳細はカスタマーサポートまでご連絡下さい。"
 
 msgid "Please enter a number between 0 and %1."
 msgstr "0から%1の数字を入力してください。"
@@ -1695,17 +1699,11 @@ msgstr "EUR/JPY"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
-msgid "EUR/RUB"
-msgstr "EUR/RUB"
-
 msgid "GBP/USD"
 msgstr "GBP/USD"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
-
-msgid "USD/CNY"
-msgstr "USD/CNY"
 
 msgid "AUD/AED"
 msgstr "AUD/AED"
@@ -1713,17 +1711,11 @@ msgstr "AUD/AED"
 msgid "EUR/INR"
 msgstr "EUR/INR"
 
-msgid "GBP/CNY"
-msgstr "GBP/CNY"
-
 msgid "USD/JPY"
 msgstr "USD/JPY"
 
 msgid "USD/SGD"
 msgstr "USD/SGD"
-
-msgid "GBP/BRL"
-msgstr "GBP/BRL"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -1734,29 +1726,14 @@ msgstr "GBP/MXN"
 msgid "AUDZAR"
 msgstr "AUDZAR"
 
-msgid "EUR/ILS"
-msgstr "EUR/ILS"
-
-msgid "AUD/SAR"
-msgstr "AUD/SAR"
-
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
-
-msgid "USD/CZK"
-msgstr "USD/CZK"
 
 msgid "USD/AED"
 msgstr "USD/AED"
 
-msgid "EUR/SAR"
-msgstr "EUR/SAR"
-
 msgid "USD/NOK"
 msgstr "USD/NOK"
-
-msgid "EUR/BRL"
-msgstr "EUR/BRL"
 
 msgid "AUD/TRY"
 msgstr "AUD/TRY"
@@ -1782,17 +1759,8 @@ msgstr "EUR/IDR"
 msgid "GBP/NOK"
 msgstr "GBP/NOK"
 
-msgid "GBP/CZK"
-msgstr "GBP/CZK"
-
-msgid "USD/ILS"
-msgstr "USD/ILS"
-
 msgid "AUD Index"
 msgstr "AUD インデックス"
-
-msgid "GBP/ILS"
-msgstr "GBP/ILS"
 
 msgid "USD/CAD"
 msgstr "USD/CAD"
@@ -1839,17 +1807,11 @@ msgstr "EUR/TRY"
 msgid "AUD/PLN"
 msgstr "AUD/PLN"
 
-msgid "USD/KRW"
-msgstr "USD/KRW"
-
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
-
-msgid "AUD/CZK"
-msgstr "AUD/CZK"
 
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
@@ -1872,32 +1834,17 @@ msgstr "GBP/TRY"
 msgid "AUD/NOK"
 msgstr "AUD/NOK"
 
-msgid "EUR/KRW"
-msgstr "EUR/KRW"
-
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
 msgid "EUR/ZAR"
 msgstr "EUR/ZAR"
 
-msgid "AUD/CNY"
-msgstr "AUD/CNY"
-
-msgid "GBP/SAR"
-msgstr "GBP/SAR"
-
 msgid "USD/INR"
 msgstr "USD/INR"
 
 msgid "EUR Index"
 msgstr "EUR インデックス"
-
-msgid "USD/RUB"
-msgstr "USD/RUB"
-
-msgid "EUR/CNY"
-msgstr "EUR/CNY"
 
 msgid "NZD/USD"
 msgstr "NZD/USD"
@@ -1914,9 +1861,6 @@ msgstr "GBP/CAD"
 msgid "USD/CHF"
 msgstr "USD/CHF"
 
-msgid "AUD/ILS"
-msgstr "AUD/ILS"
-
 msgid "AUD/USD"
 msgstr "AUD/USD"
 
@@ -1925,12 +1869,6 @@ msgstr "GBP/CHF"
 
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
-
-msgid "USD/BRL"
-msgstr "USD/BRL"
-
-msgid "EUR/CZK"
-msgstr "EUR/CZK"
 
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
@@ -1941,14 +1879,8 @@ msgstr "USD/HKD"
 msgid "EUR/MXN"
 msgstr "EUR/MXN"
 
-msgid "GBP/KRW"
-msgstr "GBP/KRW"
-
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
-
-msgid "USD/SAR"
-msgstr "USD/SAR"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
@@ -1959,9 +1891,6 @@ msgstr "USD/PLN"
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
 
-msgid "GBP/DKK"
-msgstr "GBP/DKK"
-
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
 
@@ -1970,9 +1899,6 @@ msgstr "GBP/PLN"
 
 msgid "USD/MXN"
 msgstr "USD/MXN"
-
-msgid "AUD/KRW"
-msgstr "AUD/KRW"
 
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
@@ -2669,9 +2595,6 @@ msgstr "リライアンス・インダストリーズ"
 
 msgid "Applied Materials Inc."
 msgstr "アプライド マテリアルズ（Applied Materials Inc.）"
-
-msgid "Tata Motors"
-msgstr "タタ・モーターズ"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc.（优酷土豆）"
@@ -3575,6 +3498,90 @@ msgstr "外国為替証拠金取引"
 
 msgid "{JAPAN ONLY}Other"
 msgstr "その他"
+
+#~ msgid "Barrier must be at least "
+#~ msgstr "バリアの最小値 "
+
+#~ msgid "EUR/RUB"
+#~ msgstr "EUR/RUB"
+
+#~ msgid "USD/CNY"
+#~ msgstr "USD/CNY"
+
+#~ msgid "GBP/CNY"
+#~ msgstr "GBP/CNY"
+
+#~ msgid "GBP/BRL"
+#~ msgstr "GBP/BRL"
+
+#~ msgid "EUR/ILS"
+#~ msgstr "EUR/ILS"
+
+#~ msgid "AUD/SAR"
+#~ msgstr "AUD/SAR"
+
+#~ msgid "USD/CZK"
+#~ msgstr "USD/CZK"
+
+#~ msgid "EUR/SAR"
+#~ msgstr "EUR/SAR"
+
+#~ msgid "EUR/BRL"
+#~ msgstr "EUR/BRL"
+
+#~ msgid "GBP/CZK"
+#~ msgstr "GBP/CZK"
+
+#~ msgid "USD/ILS"
+#~ msgstr "USD/ILS"
+
+#~ msgid "GBP/ILS"
+#~ msgstr "GBP/ILS"
+
+#~ msgid "USD/KRW"
+#~ msgstr "USD/KRW"
+
+#~ msgid "AUD/CZK"
+#~ msgstr "AUD/CZK"
+
+#~ msgid "EUR/KRW"
+#~ msgstr "EUR/KRW"
+
+#~ msgid "AUD/CNY"
+#~ msgstr "AUD/CNY"
+
+#~ msgid "GBP/SAR"
+#~ msgstr "GBP/SAR"
+
+#~ msgid "USD/RUB"
+#~ msgstr "USD/RUB"
+
+#~ msgid "EUR/CNY"
+#~ msgstr "EUR/CNY"
+
+#~ msgid "AUD/ILS"
+#~ msgstr "AUD/ILS"
+
+#~ msgid "USD/BRL"
+#~ msgstr "USD/BRL"
+
+#~ msgid "EUR/CZK"
+#~ msgstr "EUR/CZK"
+
+#~ msgid "GBP/KRW"
+#~ msgstr "GBP/KRW"
+
+#~ msgid "USD/SAR"
+#~ msgstr "USD/SAR"
+
+#~ msgid "GBP/DKK"
+#~ msgstr "GBP/DKK"
+
+#~ msgid "AUD/KRW"
+#~ msgstr "AUD/KRW"
+
+#~ msgid "Tata Motors"
+#~ msgstr "タタ・モーターズ"
 
 #~ msgid "1,000 - 1,000,000"
 #~ msgstr "1,000 - 1,000,000"
@@ -18571,9 +18578,6 @@ msgstr "その他"
 
 #~ msgid "The above table represents a snapshot of the average client positions. This information is generally updated four times a day (at 10 minutes past 7am, 12am, 5pm and 10pm GMT). It is computed by calculating mathematical ratios known as delta, vega and theta and represents approximate estimates of market positions only."
 #~ msgstr "上記に記載されているデータは平均的なポジションを抜粋した情報です。通常、１日あたり４回更新され（7:10、12:00、17:00、22:00 (GMT)）、デルタ、ベガ、シータとして知られている数学的な割合をコンピュータにて計算され、おおよそのポジションの推量のみを示します。\n"
-
-#~ msgid "The barrier for this contract must be at least 2 pips away from the spot."
-#~ msgstr "このトレードでのバリア値は最低でもスポット価格より2pip離れている必要があります。"
 
 #~ msgid "Tipped"
 #~ msgstr "Tip済"
