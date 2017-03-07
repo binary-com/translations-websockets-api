@@ -7,15 +7,17 @@ msgstr ""
 "Project-Id-Version: BOM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-20 09:22+0000\n"
-"Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
+"PO-Revision-Date: 2017-03-06 21:36+0000\n"
+"Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-"
+"websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.12-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.12\n"
 
 msgid "%1 New Password Request"
 msgstr "Запрос нового пароля %1"
@@ -121,6 +123,8 @@ msgstr "Произошла неожиданная ошибка"
 
 msgid "App id is mandatory to access our api. Please register your application."
 msgstr ""
+"Необходимо указать ID приложения, чтобы получить доступ к нашему API. "
+"Пожалуйста, зарегистрируйте приложение."
 
 msgid "Authorize application"
 msgstr "Авторизовать приложение"
@@ -134,8 +138,10 @@ msgstr "Барьер находится вне приемлемых рамок."
 msgid "Barrier must be an integer."
 msgstr "Барьер должен быть целым числом."
 
-msgid "Barrier must be at least "
-msgstr "Барьер должен быть по меньшей мере "
+#, fuzzy
+#| msgid "The barrier for this contract must be at least 2 pips away from the spot."
+msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
+msgstr "Барьер для данного контракта должен отличаться от спот-цены по меньшей мере на 2 пункта."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Барьеры должны быть выше или ниже рыночной цены."
@@ -194,6 +200,8 @@ msgstr "Контракт должен заканчиваться в торгов
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr ""
+"Сумма ставки за контракт превышает превышает максимальную цену покупки "
+"контракта."
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "Контракты длительностью менее 24 ч. требуют установки абсолютного барьера."
@@ -769,16 +777,19 @@ msgstr "Отказано в доступе; необходимо указать 
 msgid "Permission denied."
 msgstr "Отказано в доступе."
 
-#, fuzzy
-#| msgid "Date of birth"
 msgid "Place of birth"
-msgstr "Ваша дата рождения"
+msgstr "Мсто рождения"
 
 msgid "Please accept Funds Protection."
 msgstr "Пожалуйста, установите защиту средств."
 
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "Пожалуйста, согласитесь с Заявлением о риске, прежде, чем продолжить."
+
+msgid "Please contact customer support for more information."
+msgstr ""
+"Пожалуйста, свяжитесь со службой поддержки для получения дополнительной "
+"информации."
 
 msgid "Please enter a number between 0 and %1."
 msgstr "Пожалуйста, введите цифру от 0 до %1."
@@ -804,10 +815,8 @@ msgstr "Пожалуйста, выберите страну, где Вы хот�
 msgid "Please enter your email address."
 msgstr "Пожалуйста, введите Ваш email."
 
-#, fuzzy
-#| msgid "Please enter your current password."
 msgid "Please log in using your email and password."
-msgstr "Пожалуйста, введите текущий пароль."
+msgstr "Пожалуйста, войдите, указав Ваш email и пароль."
 
 msgid "Please log in."
 msgstr "Пожалуйста, войдите в систему."
@@ -863,25 +872,26 @@ msgstr "Продолжено как %1"
 msgid "Proper barriers could not be determined."
 msgstr "Барьеры не могут быть определены."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed our payout limit for open contracts of this type. To continue please consider to sell a few contracts at the market or trade in different contract types."
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "Покупка этого контракта приведет к превышению нашего предела выплат для открытых контрактов данного типа. Чтобы продолжить, пожалуйста, продайте схожие контракты или приобретите другие типы контрактов."
+msgstr ""
+"Покупка этого контракта приведет к превышению нашего предела выплат для "
+"открытых контрактов данного типа. Чтобы продолжить, пожалуйста, продайте "
+"часть Ваших открытых контрактов или выберите другой тип контрактов."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed your 30-day turnover limit of %1%2."
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
-msgstr "Покупка данного контракта приведет к превышению 30-дневного лимита на объём покупок %1%2."
+msgstr ""
+"Покупка данного контракта приведет к превышению 30-дневного лимита на объём "
+"покупок %1%2."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed your 7-day turnover limit of %1%2."
 msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1%2."
-msgstr "Покупка данного контракта приведет к превышению 7-дневного лимита на объём покупок %1%2."
+msgstr ""
+"Покупка данного контракта приведет к превышению 7-дневного лимита на объём "
+"покупок %1%2."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed your daily turnover limit of %1%2."
 msgid "Purchasing this contract will cause you to exceed your daily turnover limit of %1%2."
-msgstr "Покупка данного контракта приведет к превышению дневного лимита на объём покупок %1%2."
+msgstr ""
+"Покупка данного контракта приведет к превышению дневного лимита на объём "
+"покупок %1%2."
 
 msgid "Read user profile"
 msgstr "Просмотреть профиль пользователя"
@@ -1038,10 +1048,10 @@ msgstr "Извините, но похоже, что у Вас уже есть р
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "Извините, баланс Вашего счета слишком высок (%1). Максимальный баланс составляет %2."
 
-#, fuzzy
-#| msgid "Sorry, an error occurred. Please contact customer support if this problem persists."
 msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
-msgstr "Произошла ошибка. Пожалуйста, свяжитесь со службой поддержки, если проблема повторится."
+msgstr ""
+"Извините, но на Вашем счете не разрешен пароль. Для получения дополнительной "
+"информации, пожалуйста, свяжитесь со службой поддержки."
 
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Извините, Ваш счет не авторизован для дальнейшей покупки контрактов."
@@ -1093,18 +1103,14 @@ msgstr "Список поддерживаемых банков недейств�
 msgid "System problems prevent proper settlement at this time."
 msgstr "Сбои в системе не позволяют точно рассчитать цену окончания контракта в настоящее время."
 
-#, fuzzy
-#| msgid "Indemnification"
 msgid "Tax identification number"
-msgstr "Возмещение ущерба"
+msgstr "Номер налогоплательщика"
 
 msgid "Tax information is required."
 msgstr "Необходимо указать информацию о налогах."
 
-#, fuzzy
-#| msgid "Country of residence"
 msgid "Tax residence"
-msgstr "Cтрана проживания"
+msgstr "Место налоговой регистрации"
 
 msgid "Telephone"
 msgstr "Номер телефона"
@@ -1543,10 +1549,8 @@ msgstr "Указанный Вами электронный адрес уже и�
 msgid "Your token has expired or is invalid."
 msgstr "Ваш код подтверждения истёк или недействителен."
 
-#, fuzzy
-#| msgid "Your transaction was successful."
 msgid "Your transaction was cancelled."
-msgstr "Ваша транзакция прошла успешно."
+msgstr "Ваша транзакция отменена."
 
 msgid "Your transaction was successful."
 msgstr "Ваша транзакция прошла успешно."
@@ -1719,17 +1723,11 @@ msgstr "EUR/JPY"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
-msgid "EUR/RUB"
-msgstr "EUR/RUB"
-
 msgid "GBP/USD"
 msgstr "GBP/USD"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
-
-msgid "USD/CNY"
-msgstr "USD/CNY"
 
 msgid "AUD/AED"
 msgstr "AUD/AED"
@@ -1737,17 +1735,11 @@ msgstr "AUD/AED"
 msgid "EUR/INR"
 msgstr "EUR/INR"
 
-msgid "GBP/CNY"
-msgstr "GBP/CNY"
-
 msgid "USD/JPY"
 msgstr "USD/JPY"
 
 msgid "USD/SGD"
 msgstr "USD/SGD"
-
-msgid "GBP/BRL"
-msgstr "GBP/BRL"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -1758,29 +1750,14 @@ msgstr "GBP/MXN"
 msgid "AUDZAR"
 msgstr "AUDZAR"
 
-msgid "EUR/ILS"
-msgstr "EUR/ILS"
-
-msgid "AUD/SAR"
-msgstr "AUD/SAR"
-
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
-
-msgid "USD/CZK"
-msgstr "USD/CZK"
 
 msgid "USD/AED"
 msgstr "USD/AED"
 
-msgid "EUR/SAR"
-msgstr "EUR/SAR"
-
 msgid "USD/NOK"
 msgstr "USD/NOK"
-
-msgid "EUR/BRL"
-msgstr "EUR/BRL"
 
 msgid "AUD/TRY"
 msgstr "AUD/TRY"
@@ -1806,17 +1783,8 @@ msgstr "EUR/IDR"
 msgid "GBP/NOK"
 msgstr "GBP/NOK"
 
-msgid "GBP/CZK"
-msgstr "GBP/CZK"
-
-msgid "USD/ILS"
-msgstr "USD/ILS"
-
 msgid "AUD Index"
 msgstr "AUD индекс"
-
-msgid "GBP/ILS"
-msgstr "GBP/ILS"
 
 msgid "USD/CAD"
 msgstr "USD/CAD"
@@ -1863,17 +1831,11 @@ msgstr "EUR/TRY"
 msgid "AUD/PLN"
 msgstr "AUD/PLN"
 
-msgid "USD/KRW"
-msgstr "USD/KRW"
-
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
-
-msgid "AUD/CZK"
-msgstr "AUD/CZK"
 
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
@@ -1896,32 +1858,17 @@ msgstr "GBP/TRY"
 msgid "AUD/NOK"
 msgstr "AUD/NOK"
 
-msgid "EUR/KRW"
-msgstr "EUR/KRW"
-
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
 msgid "EUR/ZAR"
 msgstr "EUR/ZAR"
 
-msgid "AUD/CNY"
-msgstr "AUD/CNY"
-
-msgid "GBP/SAR"
-msgstr "GBP/SAR"
-
 msgid "USD/INR"
 msgstr "USD/INR"
 
 msgid "EUR Index"
 msgstr "EUR индекс"
-
-msgid "USD/RUB"
-msgstr "USD/RUB"
-
-msgid "EUR/CNY"
-msgstr "EUR/CNY"
 
 msgid "NZD/USD"
 msgstr "NZD/USD"
@@ -1938,9 +1885,6 @@ msgstr "GBP/CAD"
 msgid "USD/CHF"
 msgstr "USD/CHF"
 
-msgid "AUD/ILS"
-msgstr "AUD/ILS"
-
 msgid "AUD/USD"
 msgstr "AUD/USD"
 
@@ -1949,12 +1893,6 @@ msgstr "GBP/CHF"
 
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
-
-msgid "USD/BRL"
-msgstr "USD/BRL"
-
-msgid "EUR/CZK"
-msgstr "EUR/CZK"
 
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
@@ -1965,14 +1903,8 @@ msgstr "USD/HKD"
 msgid "EUR/MXN"
 msgstr "EUR/MXN"
 
-msgid "GBP/KRW"
-msgstr "GBP/KRW"
-
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
-
-msgid "USD/SAR"
-msgstr "USD/SAR"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
@@ -1983,9 +1915,6 @@ msgstr "USD/PLN"
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
 
-msgid "GBP/DKK"
-msgstr "GBP/DKK"
-
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
 
@@ -1994,9 +1923,6 @@ msgstr "GBP/PLN"
 
 msgid "USD/MXN"
 msgstr "USD/MXN"
-
-msgid "AUD/KRW"
-msgstr "AUD/KRW"
 
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
@@ -2697,9 +2623,6 @@ msgstr "Reliance Industries"
 
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
-
-msgid "Tata Motors"
-msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3603,6 +3526,90 @@ msgstr "{JAPAN ONLY}Margin FX"
 
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
+
+#~ msgid "Barrier must be at least "
+#~ msgstr "Барьер должен быть по меньшей мере "
+
+#~ msgid "EUR/RUB"
+#~ msgstr "EUR/RUB"
+
+#~ msgid "USD/CNY"
+#~ msgstr "USD/CNY"
+
+#~ msgid "GBP/CNY"
+#~ msgstr "GBP/CNY"
+
+#~ msgid "GBP/BRL"
+#~ msgstr "GBP/BRL"
+
+#~ msgid "EUR/ILS"
+#~ msgstr "EUR/ILS"
+
+#~ msgid "AUD/SAR"
+#~ msgstr "AUD/SAR"
+
+#~ msgid "USD/CZK"
+#~ msgstr "USD/CZK"
+
+#~ msgid "EUR/SAR"
+#~ msgstr "EUR/SAR"
+
+#~ msgid "EUR/BRL"
+#~ msgstr "EUR/BRL"
+
+#~ msgid "GBP/CZK"
+#~ msgstr "GBP/CZK"
+
+#~ msgid "USD/ILS"
+#~ msgstr "USD/ILS"
+
+#~ msgid "GBP/ILS"
+#~ msgstr "GBP/ILS"
+
+#~ msgid "USD/KRW"
+#~ msgstr "USD/KRW"
+
+#~ msgid "AUD/CZK"
+#~ msgstr "AUD/CZK"
+
+#~ msgid "EUR/KRW"
+#~ msgstr "EUR/KRW"
+
+#~ msgid "AUD/CNY"
+#~ msgstr "AUD/CNY"
+
+#~ msgid "GBP/SAR"
+#~ msgstr "GBP/SAR"
+
+#~ msgid "USD/RUB"
+#~ msgstr "USD/RUB"
+
+#~ msgid "EUR/CNY"
+#~ msgstr "EUR/CNY"
+
+#~ msgid "AUD/ILS"
+#~ msgstr "AUD/ILS"
+
+#~ msgid "USD/BRL"
+#~ msgstr "USD/BRL"
+
+#~ msgid "EUR/CZK"
+#~ msgstr "EUR/CZK"
+
+#~ msgid "GBP/KRW"
+#~ msgstr "GBP/KRW"
+
+#~ msgid "USD/SAR"
+#~ msgstr "USD/SAR"
+
+#~ msgid "GBP/DKK"
+#~ msgstr "GBP/DKK"
+
+#~ msgid "AUD/KRW"
+#~ msgstr "AUD/KRW"
+
+#~ msgid "Tata Motors"
+#~ msgstr "Tata Motors"
 
 #~ msgid "1,000 - 1,000,000"
 #~ msgstr "1,000 - 1,000,000"
@@ -18501,9 +18508,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "The above table represents a snapshot of the average client positions. This information is generally updated four times a day (at 10 minutes past 7am, 12am, 5pm and 10pm GMT). It is computed by calculating mathematical ratios known as delta, vega and theta and represents approximate estimates of market positions only."
 #~ msgstr "Вышеприведенная таблица показывает среднее состояние текущих клиентских позиций. Эти данные обновляются 4 раза в день (в течение 10 минут после 7, 12, 17 и 22:00 GMT). Значения вычисляются с помощью математических величин, известных как delta, vega и theta, и представляют собой лишь примерное отражение открытых в данный момент позиций."
-
-#~ msgid "The barrier for this contract must be at least 2 pips away from the spot."
-#~ msgstr "Барьер для данного контракта должен отличаться от спот-цены по меньшей мере на 2 пункта."
 
 #~ msgid "Tipped"
 #~ msgstr "Отмечено"

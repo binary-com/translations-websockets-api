@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Chinese (China) (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-20 09:27+0000\n"
+"PO-Revision-Date: 2017-02-28 07:47+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (China) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_CN/>\n"
 "Language: zh_cn\n"
@@ -131,8 +131,10 @@ msgstr "障碍不在可接受范围内。"
 msgid "Barrier must be an integer."
 msgstr "障碍必须是整数。"
 
-msgid "Barrier must be at least "
-msgstr "障碍必须大于或等于 "
+#, fuzzy
+#| msgid "The barrier for this contract must be at least 2 pips away from the spot."
+msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
+msgstr "该交易的障碍可能不会调整。"
 
 msgid "Barriers must be on either side of the spot."
 msgstr "高和低障碍必须分别大于和小于现货价。"
@@ -776,6 +778,11 @@ msgstr "请接受资金保护。"
 
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "继续操作前请同意风险免责声明。"
+
+#, fuzzy
+#| msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
+msgid "Please contact customer support for more information."
+msgstr "对不起，您的账户不允许输入密码。预知详情，请联系客服人员。"
 
 msgid "Please enter a number between 0 and %1."
 msgstr "请输入0和%1之间的数字。"
@@ -1517,10 +1524,8 @@ msgstr "您的电邮地址已被注册。根据我们的使用条款和条件，
 msgid "Your token has expired or is invalid."
 msgstr "您的令牌已经过期或无效。"
 
-#, fuzzy
-#| msgid "Your transaction was successful."
 msgid "Your transaction was cancelled."
-msgstr "您的交易已成功。"
+msgstr "您的交易已取消。"
 
 msgid "Your transaction was successful."
 msgstr "您的交易已成功。"
@@ -1693,17 +1698,11 @@ msgstr "欧元/日元"
 msgid "CAD/JPY"
 msgstr "加元/日元"
 
-msgid "EUR/RUB"
-msgstr "欧元/俄国卢布"
-
 msgid "GBP/USD"
 msgstr "英镑/美元"
 
 msgid "BTC/USD"
 msgstr "比特币/美元"
-
-msgid "USD/CNY"
-msgstr "美元/人民币"
 
 msgid "AUD/AED"
 msgstr "澳元/阿联酋迪拉姆"
@@ -1711,17 +1710,11 @@ msgstr "澳元/阿联酋迪拉姆"
 msgid "EUR/INR"
 msgstr "欧元/印度卢比"
 
-msgid "GBP/CNY"
-msgstr "英镑/人民币"
-
 msgid "USD/JPY"
 msgstr "美元/日元"
 
 msgid "USD/SGD"
 msgstr "美元/新加坡元"
-
-msgid "GBP/BRL"
-msgstr "英镑/巴西里尔"
 
 msgid "EUR/AUD"
 msgstr "欧元/澳元"
@@ -1732,29 +1725,14 @@ msgstr "英镑/墨西哥比索"
 msgid "AUDZAR"
 msgstr "澳元兑南非兰特"
 
-msgid "EUR/ILS"
-msgstr "欧元/以色列新谢克尔"
-
-msgid "AUD/SAR"
-msgstr "澳元/沙特阿拉伯里亚尔"
-
 msgid "EUR/SEK"
 msgstr "欧元/瑞典克朗"
-
-msgid "USD/CZK"
-msgstr "美元/捷克克朗"
 
 msgid "USD/AED"
 msgstr "美元/阿联酋迪拉姆"
 
-msgid "EUR/SAR"
-msgstr "欧元/沙特阿拉伯里亚尔"
-
 msgid "USD/NOK"
 msgstr "美元/挪威克朗"
-
-msgid "EUR/BRL"
-msgstr "欧元/巴西雷亚尔"
 
 msgid "AUD/TRY"
 msgstr "澳元/土耳其里拉"
@@ -1780,17 +1758,8 @@ msgstr "欧元/印度尼西亚卢比"
 msgid "GBP/NOK"
 msgstr "英镑/挪威克朗"
 
-msgid "GBP/CZK"
-msgstr "英镑/捷克克朗"
-
-msgid "USD/ILS"
-msgstr "美元/以色列新谢克尔"
-
 msgid "AUD Index"
 msgstr "澳元指数"
-
-msgid "GBP/ILS"
-msgstr "英镑/以色列新谢克尔"
 
 msgid "USD/CAD"
 msgstr "美元/加元"
@@ -1837,17 +1806,11 @@ msgstr "欧元/土耳其里拉"
 msgid "AUD/PLN"
 msgstr "澳元/波兰兹罗提"
 
-msgid "USD/KRW"
-msgstr "美元/韩元"
-
 msgid "EUR/NOK"
 msgstr "欧元/挪威克朗"
 
 msgid "GBP/INR"
 msgstr "英镑/印度卢比"
-
-msgid "AUD/CZK"
-msgstr "澳元/捷克克朗"
 
 msgid "EUR/PLN"
 msgstr "欧元/波兰兹罗提"
@@ -1870,32 +1833,17 @@ msgstr "英镑/土耳其里拉"
 msgid "AUD/NOK"
 msgstr "澳元/挪威克朗"
 
-msgid "EUR/KRW"
-msgstr "欧元/韩元"
-
 msgid "CAD/CHF"
 msgstr "加元/瑞士法郎"
 
 msgid "EUR/ZAR"
 msgstr "欧元/南非兰特"
 
-msgid "AUD/CNY"
-msgstr "澳元/人民币"
-
-msgid "GBP/SAR"
-msgstr "英镑/沙特阿拉伯里亚尔"
-
 msgid "USD/INR"
 msgstr "美元/印度卢比"
 
 msgid "EUR Index"
 msgstr "欧元指数"
-
-msgid "USD/RUB"
-msgstr "美元/俄国卢布"
-
-msgid "EUR/CNY"
-msgstr "欧元/人民币"
 
 msgid "NZD/USD"
 msgstr "新西兰元/美元"
@@ -1912,9 +1860,6 @@ msgstr "英镑/加元"
 msgid "USD/CHF"
 msgstr "美元/瑞士法郎"
 
-msgid "AUD/ILS"
-msgstr "澳元/以色列新谢克尔"
-
 msgid "AUD/USD"
 msgstr "澳元/美元"
 
@@ -1923,12 +1868,6 @@ msgstr "英镑/瑞士法郎"
 
 msgid "EUR/GBP"
 msgstr "欧元/英镑"
-
-msgid "USD/BRL"
-msgstr "美元/巴西雷亚尔"
-
-msgid "EUR/CZK"
-msgstr "欧元/捷克克朗"
 
 msgid "AUD/CAD"
 msgstr "澳元/加元"
@@ -1939,14 +1878,8 @@ msgstr "美元/港币"
 msgid "EUR/MXN"
 msgstr "欧元/墨西哥比索"
 
-msgid "GBP/KRW"
-msgstr "英镑/韩元"
-
 msgid "GBP/HKD"
 msgstr "英镑/港币"
-
-msgid "USD/SAR"
-msgstr "美元/沙特阿拉伯里亚尔"
 
 msgid "USD/TRY"
 msgstr "美元/土耳其里拉"
@@ -1957,9 +1890,6 @@ msgstr "美元/波兰兹罗提"
 msgid "EUR/CAD"
 msgstr "欧元/加元"
 
-msgid "GBP/DKK"
-msgstr "英镑/丹麦克朗"
-
 msgid "EUR/HKD"
 msgstr "欧元/港币"
 
@@ -1968,9 +1898,6 @@ msgstr "英镑/波兰兹罗提"
 
 msgid "USD/MXN"
 msgstr "美元/墨西哥比索"
-
-msgid "AUD/KRW"
-msgstr "澳元/韩元"
 
 msgid "CHF/JPY"
 msgstr "瑞士法郎/日圆"
@@ -2661,9 +2588,6 @@ msgstr "信实工业"
 
 msgid "Applied Materials Inc."
 msgstr "应用材料公司"
-
-msgid "Tata Motors"
-msgstr "塔塔汽车公司"
 
 msgid "Youku Tudou Inc."
 msgstr "优酷土豆股份有限公司"
@@ -3567,6 +3491,90 @@ msgstr "{JAPAN ONLY}Margin FX"
 
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
+
+#~ msgid "Barrier must be at least "
+#~ msgstr "障碍必须大于或等于 "
+
+#~ msgid "EUR/RUB"
+#~ msgstr "欧元/俄国卢布"
+
+#~ msgid "USD/CNY"
+#~ msgstr "美元/人民币"
+
+#~ msgid "GBP/CNY"
+#~ msgstr "英镑/人民币"
+
+#~ msgid "GBP/BRL"
+#~ msgstr "英镑/巴西里尔"
+
+#~ msgid "EUR/ILS"
+#~ msgstr "欧元/以色列新谢克尔"
+
+#~ msgid "AUD/SAR"
+#~ msgstr "澳元/沙特阿拉伯里亚尔"
+
+#~ msgid "USD/CZK"
+#~ msgstr "美元/捷克克朗"
+
+#~ msgid "EUR/SAR"
+#~ msgstr "欧元/沙特阿拉伯里亚尔"
+
+#~ msgid "EUR/BRL"
+#~ msgstr "欧元/巴西雷亚尔"
+
+#~ msgid "GBP/CZK"
+#~ msgstr "英镑/捷克克朗"
+
+#~ msgid "USD/ILS"
+#~ msgstr "美元/以色列新谢克尔"
+
+#~ msgid "GBP/ILS"
+#~ msgstr "英镑/以色列新谢克尔"
+
+#~ msgid "USD/KRW"
+#~ msgstr "美元/韩元"
+
+#~ msgid "AUD/CZK"
+#~ msgstr "澳元/捷克克朗"
+
+#~ msgid "EUR/KRW"
+#~ msgstr "欧元/韩元"
+
+#~ msgid "AUD/CNY"
+#~ msgstr "澳元/人民币"
+
+#~ msgid "GBP/SAR"
+#~ msgstr "英镑/沙特阿拉伯里亚尔"
+
+#~ msgid "USD/RUB"
+#~ msgstr "美元/俄国卢布"
+
+#~ msgid "EUR/CNY"
+#~ msgstr "欧元/人民币"
+
+#~ msgid "AUD/ILS"
+#~ msgstr "澳元/以色列新谢克尔"
+
+#~ msgid "USD/BRL"
+#~ msgstr "美元/巴西雷亚尔"
+
+#~ msgid "EUR/CZK"
+#~ msgstr "欧元/捷克克朗"
+
+#~ msgid "GBP/KRW"
+#~ msgstr "英镑/韩元"
+
+#~ msgid "USD/SAR"
+#~ msgstr "美元/沙特阿拉伯里亚尔"
+
+#~ msgid "GBP/DKK"
+#~ msgstr "英镑/丹麦克朗"
+
+#~ msgid "AUD/KRW"
+#~ msgstr "澳元/韩元"
+
+#~ msgid "Tata Motors"
+#~ msgstr "塔塔汽车公司"
 
 #~ msgid "1,000 - 1,000,000"
 #~ msgstr "1,000 - 1,000,000"
@@ -18552,9 +18560,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "The above table represents a snapshot of the average client positions. This information is generally updated four times a day (at 10 minutes past 7am, 12am, 5pm and 10pm GMT). It is computed by calculating mathematical ratios known as delta, vega and theta and represents approximate estimates of market positions only."
 #~ msgstr "上表简要概括了客户持仓的一般情况。此信息通常每天更新四次（分别在格林威治时间上午 7 点 10 分后、中午 12 点 10 分后、下午 5 点 10 分后以及晚上 10 点 10 分后）。该信息通过计算数学比率 delta、vega 和 theta 得出，仅代表市场持仓的近似估计。"
-
-#~ msgid "The barrier for this contract must be at least 2 pips away from the spot."
-#~ msgstr "该交易的障碍可能不会调整。"
 
 #~ msgid "Tipped"
 #~ msgstr "获提示的"

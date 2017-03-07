@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: French (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-20 14:54+0000\n"
+"PO-Revision-Date: 2017-02-28 11:52+0000\n"
 "Last-Translator: Chloe Chevreton <chloe-che@hotmail.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/binary-websocket/translations/fr/>\n"
 "Language: fr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.11-dev\n"
+"X-Generator: Weblate 2.12-dev\n"
 
 msgid "%1 New Password Request"
 msgstr "Demande de nouveau mot de passe %1"
@@ -116,7 +116,7 @@ msgid "An unexpected error occurred"
 msgstr "Une erreur inattendue s'est produite"
 
 msgid "App id is mandatory to access our api. Please register your application."
-msgstr ""
+msgstr "L'identifiant d'application est requis pour accéder à notre API. Veuillez identifier votre application."
 
 msgid "Authorize application"
 msgstr "Autoriser l'application"
@@ -130,8 +130,10 @@ msgstr "La barrière ne se situe pas dans la plage autorisée."
 msgid "Barrier must be an integer."
 msgstr "La barrière doit être un nombre entier."
 
-msgid "Barrier must be at least "
-msgstr "La barrière doit être d'au moins "
+#, fuzzy
+#| msgid "The barrier for this contract must be at least 2 pips away from the spot."
+msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
+msgstr "La barrière pour ce contrat doit se trouver à au moins 2 pips du point."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Les barrières doivent se situer de part et d'autre du prix spot."
@@ -188,7 +190,7 @@ msgid "Contract must expire during trading hours."
 msgstr "Le contrat doit expirer pendant les heures de trading."
 
 msgid "Contract's stake amount is more than the maximum purchase price."
-msgstr ""
+msgstr "Le montant d'investissement du contrat est supérieur au prix d'achat maximum."
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "Les contrats d'une durée de plus de 24 h requièrent une barrière absolue."
@@ -200,15 +202,13 @@ msgid "Contracts on this market with a duration of under 24 hours must expire on
 msgstr "Les contrats négociés sur ce marché ayant une période d'activité de moins de 24 heures doivent expirer au cours de la même séance."
 
 msgid "Contracts with predefined barrier would need an absolute barrier"
-msgstr ""
+msgstr "Les contrats avec une barrière prédéfinie doivent être associés à une barrière absolue"
 
 msgid "Copier can't be a trader."
-msgstr ""
+msgstr "Le copieur ne peut pas être un trader."
 
-#, fuzzy
-#| msgid "Create a real money account"
 msgid "Copy trading is only available with real money accounts."
-msgstr "Créez un compte d'argent réel"
+msgstr "Le copy trading n'est disponibles que pour les comptes réels."
 
 msgid "Country of Residence"
 msgstr "Pays de résidence"
@@ -303,23 +303,6 @@ msgstr ""
 "\n"
 "support@binary.com"
 
-#, fuzzy
-#| msgid ""
-#| "Dear %1,\n"
-#| "\n"
-#| "We are writing to you regarding your account with Binary.com.\n"
-#| "\n"
-#| "We are legally required to verify that clients are over the age of 18, and so we request that you forward scanned copies of one of the following to %2:\n"
-#| "\n"
-#| "- Valid Passport or Driving licence or National ID card\n"
-#| "\n"
-#| "In order to comply with licencing regulations, you will be unable to make further deposits or withdrawals or to trade on the account until we receive this document.\n"
-#| "\n"
-#| "We look forward to hearing from you soon.\n"
-#| "\n"
-#| "Kind regards,\n"
-#| "\n"
-#| "Binary\n"
 msgid ""
 "Dear %1,\n"
 "\n"
@@ -339,9 +322,9 @@ msgid ""
 msgstr ""
 "Cher/Chère %1,\n"
 "\n"
-"Nous vous contactons concernant votre compte Binary.com.\n"
+"Nous vous contactons concernant votre compte %2.\n"
 "\n"
-"Nous sommes dans l'obligation légale de vérifier que les clients sont âgés de plus de 18 ans. Nous vous demandons donc de bien vouloir transmettre les copies de l'un des documents suivants à l'adresse %2 :\n"
+"Nous sommes dans l'obligation légale de vérifier que les clients sont âgés de plus de 18 ans. Nous vous demandons donc de bien vouloir transmettre les copies de l'un des documents suivants à l'adresse %3 :\n"
 "\n"
 "- Passeport ou permis de conduire en cours de validité, ou carte nationale d'identité.\n"
 "\n"
@@ -349,7 +332,7 @@ msgstr ""
 "\n"
 "Cordialement,\n"
 "\n"
-"Binary\n"
+"%2\n"
 
 msgid ""
 "Dear %1,\n"
@@ -452,7 +435,7 @@ msgid "Exclude time must be after today."
 msgstr "La période d'exclusion doit être ultérieure."
 
 msgid "Exclusion time conversion error."
-msgstr ""
+msgstr "Erreur de conversion de la période d'exclusion."
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "L'heure d'expiration ne peut être identique à l'heure de début."
@@ -466,10 +449,8 @@ msgstr "Tentative infructueuse de déverrouillage de la section caisse"
 msgid "Failed to get user identity."
 msgstr "L'identité de l'utilisateur n'a pas pu être obtenue."
 
-#, fuzzy
-#| msgid "Terms and conditions approval is required."
 msgid "Financial Risk approval is required."
-msgstr "L'acceptation des Conditions générales est requise."
+msgstr "L'acceptation des risques financiers est requise."
 
 msgid ""
 "For more information on the terms and conditions that apply to your bonus, go to:\n"
@@ -525,13 +506,11 @@ msgstr "Adresse e-mail ou mot de passe incorrects."
 msgid "Input validation failed: "
 msgstr "Échec de validation de la saisie : "
 
-#, fuzzy
-#| msgid "Input validation failed: "
 msgid "Input validation failed: %1"
-msgstr "Échec de validation de la saisie : "
+msgstr "Échec de validation de la saisie : 1%"
 
 msgid "Internal server error"
-msgstr ""
+msgstr "Erreur interne du serveur"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "Les contrats intrajournaliers ne peuvent excéder les horaires d'ouverture du marché."
@@ -581,10 +560,8 @@ msgstr "Numéro de téléphone non valide."
 msgid "Invalid token"
 msgstr "Jeton non valide"
 
-#, fuzzy
-#| msgid "Invalid date: %1"
 msgid "Invalid trade type: %1."
-msgstr "Date non valide: %1"
+msgstr "Type de transaction non valide : %1."
 
 msgid "Invalid user."
 msgstr "Utilisateur non valide."
@@ -625,10 +602,8 @@ msgstr "Mot de passe perdu ?"
 msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
 msgstr "La barrière inférieure ne se situe pas dans la plage autorisée. Veuillez ajuster la barrière inférieure."
 
-#, fuzzy
-#| msgid "Payments are suspended for the time being."
 msgid "MT5 API calls are suspended."
-msgstr "Les paiements sont suspendus pour le moment."
+msgstr "Les appels d'API MT5 sont suspendus."
 
 msgid "Max 30 tokens are allowed."
 msgstr "Un maximum de 30 jetons est autorisé."
@@ -664,7 +639,7 @@ msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
 msgstr "Le nombre maximal de positions ouvertes est actuellement fixé à <strong>%1</strong>"
 
 msgid "Min trade stake should be lower than max trade stake."
-msgstr ""
+msgstr "Le montant d'investissement minimum du contrat doit être inférieur au montant d'investissement maximum du contrat."
 
 msgid "Minimum stake of %1 and maximum payout of %2"
 msgstr "Montant d'investissement minimum de %1 et paiement maximum de %2"
@@ -726,10 +701,8 @@ msgstr "Ouvre tard (à %1)"
 msgid "Operate on accounts"
 msgstr "Effectuer des opérations sur les comptes"
 
-#, fuzzy
-#| msgid "Amount must be a positive number."
 msgid "Option %1 value must be zero or positive number."
-msgstr "Le montant doit être un nombre positif."
+msgstr "La valeur de l'option %1 doit être zéro ou un nombre positif."
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -777,10 +750,8 @@ msgstr "Les Agents de paiement ne sont pas disponibles sur ce site."
 msgid "Payments"
 msgstr "Paiements"
 
-#, fuzzy
-#| msgid "Payments are suspended for the time being."
 msgid "Payments are suspended."
-msgstr "Les paiements sont suspendus pour le moment."
+msgstr "Les paiements sont suspendus."
 
 msgid "Payout may not have more than two decimal places."
 msgstr "Le montant de paiement ne peut pas contenir plus de deux décimales."
@@ -788,24 +759,25 @@ msgstr "Le montant de paiement ne peut pas contenir plus de deux décimales."
 msgid "Permission denied, requires %1 scope."
 msgstr "Permission refusée, champ d'application %1 requis."
 
-#, fuzzy
-#| msgid "Permission denied, requires %1 scope."
 msgid "Permission denied, requires read scope."
-msgstr "Permission refusée, champ d'application %1 requis."
+msgstr "Permission refusée, portée de lecture requise."
 
 msgid "Permission denied."
 msgstr "Permission refusée."
 
-#, fuzzy
-#| msgid "Date of birth"
 msgid "Place of birth"
-msgstr "Date de naissance"
+msgstr "Lieu de naissance"
 
 msgid "Please accept Funds Protection."
 msgstr "Veuillez accepter notre politique protection des fonds."
 
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "Avant de continuer, veuillez confirmer votre acceptation de notre déclaration de divulgation des risques."
+
+#, fuzzy
+#| msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
+msgid "Please contact customer support for more information."
+msgstr "Désolé, votre compte n'est pas compatible avec l'utilisation de mots de passe. Veuillez contacter le service clientèle pour obtenir des informations supplémentaires."
 
 msgid "Please enter a number between 0 and %1."
 msgstr "Veuillez saisir un chiffre entre 0 et %1."
@@ -831,10 +803,8 @@ msgstr "Veuillez indiquer le pays dans lequel vous souhaitez proposer vos servic
 msgid "Please enter your email address."
 msgstr "Veuillez saisir votre adresse e-mail."
 
-#, fuzzy
-#| msgid "Please enter your current password."
 msgid "Please log in using your email and password."
-msgstr "Veuillez saisir votre mot de passe actuel."
+msgstr "Veuillez vous connecter en utilisant votre adresse e-mail et votre mot de passe."
 
 msgid "Please log in."
 msgstr "Veuillez vous connecter."
@@ -875,8 +845,6 @@ msgstr "Veuillez changer de compte pour négocier ce sous-jacent."
 msgid "Please use a different password than your login password."
 msgstr "Veuillez utiliser un mot de passe différent de votre mot de passe de connexion."
 
-#, fuzzy
-#| msgid "Please deposit before transfer to client."
 msgid "Please wait for contract settlement."
 msgstr "Veuillez attendre le règlement du contrat."
 
@@ -886,33 +854,23 @@ msgstr "Veuillez attendre le réglement du contrat. Le prix de réglement final 
 msgid "Postcode is required for UK residents."
 msgstr "Le code postal est requis pour les résidents du Royaume-Uni."
 
-#, fuzzy
-#| msgid "Proceed"
 msgid "Proceeded as %1"
-msgstr "Continuer"
+msgstr "Traité en tant que %1"
 
 msgid "Proper barriers could not be determined."
 msgstr "Des barrières adéquates n'ont pas pu être établies."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed our payout limit for open contracts of this type. To continue please consider to sell a few contracts at the market or trade in different contract types."
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "En achetant ce contrat, vous dépasseriez notre limite de paiement pour les contrats ouverts de ce type. Pour continuer, vous pouvez envisager de vendre quelques contrats au prix du marché ou d'effectuer des opérations sur d'autres types de contrat."
+msgstr "En achetant ce contrat, vous dépasseriez notre limite de paiement pour les contrats ouverts de ce type. Pour continuer, vous pouvez vendre quelques-uns de vos contrats ouverts ou effectuer des opérations sur d'autres types de contrat."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed your 30-day turnover limit of %1%2."
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
-msgstr "Avec l'achat de ce contrat, vous dépasseriez votre limite du volume des transactions sur 30 jours de %2%1."
+msgstr "En achetant ce contrat, vous dépasseriez votre limite du volume des transactions sur 30 jours de %2%1."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed your 7-day turnover limit of %1%2."
 msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1%2."
-msgstr "Avec l'achat de ce contrat, vous dépasseriez votre limite du volume des transactions sur 7 jours de %2%1."
+msgstr "En achetant ce contrat, vous dépasseriez votre limite du volume des transactions sur 7 jours de %2%1."
 
-#, fuzzy
-#| msgid "Purchase of this contract would cause you to exceed your daily turnover limit of %1%2."
 msgid "Purchasing this contract will cause you to exceed your daily turnover limit of %1%2."
-msgstr "Avec l'achat de ce contrat, vous dépasseriez votre limite du volume des transactions sur un jour de %2%1."
+msgstr "En achetant ce contrat, vous dépasseriez votre limite du volume des transactions sur un jour de %2%1."
 
 msgid "Read user profile"
 msgstr "Lire le profil utilisateur"
@@ -971,10 +929,8 @@ msgstr "Désolé, une erreur est survenue pendant le traitement de votre compte.
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Désolé, une erreur est survenue pendant le traitement de votre demande."
 
-#, fuzzy
-#| msgid "Sorry, an error occurred while loading the form. Please contact customer support if this problem persists"
 msgid "Sorry, an error occurred while processing your request. Please contact customer support with %1 as reference."
-msgstr "Désolé, une erreur est survenue lors du chargement du formulaire. Veuillez contacter le service clientèle si le problème persiste."
+msgstr "Désolé, une erreur est survenue lors du traitement de votre demande. Veuillez contacter le service clientèle en fournissant la référence %1."
 
 msgid "Sorry, client balance will exceed limits with this payment."
 msgstr "Désolé, ce paiement engendrerait le dépassement du solde du client."
@@ -1009,13 +965,9 @@ msgstr "Désolé, la devise %1 de l'Agent de paiement n'est pas disponible pour 
 msgid "Sorry, the aggregate payouts of contracts on your account cannot exceed %1%2."
 msgstr "Désolé, les paiements cumulés des contrats liés à votre compte ne peuvent excéder %2%1."
 
-#, fuzzy
-#| msgid "Sorry, this feature is not available."
 msgid "Sorry, there is an internal error."
-msgstr "Désolé, cette fonction n'est pas disponible."
+msgstr "Désolé, une erreur interne est survenue."
 
-#, fuzzy
-#| msgid "Sorry, there was a problem validating your personal information with our payment processor. Please contact our Customer Service."
 msgid "Sorry, there was a problem validating your personal information with our payment processor. Please contact our Customer Service team."
 msgstr "Désolé, un problème est survenu durant la validation de vos informations personnelles avec notre service de traitement des paiements. Veuillez contacter notre Service clientèle."
 
@@ -1073,10 +1025,8 @@ msgstr "Désolé, il semble que vous ayez déjà un compte réel chez nous. Peut
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "Désolé, le solde disponible de votre compte est trop élevé (%1). Le solde maximum de votre compte est de %2."
 
-#, fuzzy
-#| msgid "Sorry, an error occurred. Please contact customer support if this problem persists."
 msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
-msgstr "Désolé, une erreur est survenue. Veuillez contacter le service clientèle si le problème persiste."
+msgstr "Désolé, votre compte n'est pas compatible avec l'utilisation de mots de passe. Veuillez contacter le service clientèle pour obtenir des informations supplémentaires."
 
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Désolé, aucun achat de contrat supplémentaire n'est autorisé sur votre compte."
@@ -1126,20 +1076,14 @@ msgstr "La liste des banques compatibles n'est pas valide"
 msgid "System problems prevent proper settlement at this time."
 msgstr "Des problèmes liées au système empêchent actuellement une procédure correcte de règlement des contrats."
 
-#, fuzzy
-#| msgid "Indicator"
 msgid "Tax identification number"
-msgstr "Indicateur"
+msgstr "Numéro d'identification fiscale"
 
-#, fuzzy
-#| msgid "Date of birth is required."
 msgid "Tax information is required."
-msgstr "Date de naissance requise."
+msgstr "Des informations fiscales sont requises."
 
-#, fuzzy
-#| msgid "Country of residence"
 msgid "Tax residence"
-msgstr "Pays de résidence"
+msgstr "Résidence fiscale"
 
 msgid "Telephone"
 msgstr "Téléphone"
@@ -1168,10 +1112,8 @@ msgstr "Le virement de compte à compte est indisponible. Veuillez effectuer un 
 msgid "The barriers are improperly entered for this contract."
 msgstr "Les barrières ne sont pas correctement définies pour ce contrat."
 
-#, fuzzy
-#| msgid "Trading on this market is suspended due to missing market data."
 msgid "The buy price of this contract will be refunded due to missing market data."
-msgstr "L'accès à ce marché est suspendu en raison de données de marché manquantes."
+msgstr "Le montant d'achat de ce contart sera remboursé en raison de données de marché manquantes."
 
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Le contrat %4 est passé de %1%2 à %1%3."
@@ -1306,20 +1248,16 @@ msgid "Too many market holidays during the contract period."
 msgstr "Trop de jours fériés pendant la période de contrat."
 
 msgid "Trader does not allow copy trading."
-msgstr ""
+msgstr "Trader n'autorise pas le copy trading."
 
-#, fuzzy
-#| msgid "Payment Agents are not allowed by your landing company."
 msgid "Traders are not allowed to copy trades."
-msgstr "Les Agents de Paiement ne sont pas autorisés par votre compagnie de soutien."
+msgstr "Les traders ne sont pas autorisés à utiliser le copy trading."
 
 msgid "Trading"
 msgstr "Trading"
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market data."
 msgid "Trading is currently suspended due to configuration update"
-msgstr "Les activités de trading sont suspendues en raison de données de marché manquantes."
+msgstr "Les activités de trading sont actuellement suspendues en raison d'une mise à jour de la configuration"
 
 msgid "Trading is not offered for this duration."
 msgstr "Cette opération n'est pas disponible pour cette durée."
@@ -1369,10 +1307,8 @@ msgstr "Vérifiez votre demande de retrait."
 msgid "Verify your withdrawal request - %1"
 msgstr "Vérifiez votre demande de retrait : %1"
 
-#, fuzzy
-#| msgid "Sorry, it is not allowed."
 msgid "Virtual account is not allowed."
-msgstr "Désolé, cette action n'est pas autorisée."
+msgstr "Le compte virtuel n'est pas autorisé."
 
 msgid "Virtual money credit to account"
 msgstr "Crédit de fonds virtuels sur le compte"
@@ -1434,10 +1370,8 @@ msgstr "Vous êtes déjà inscrit(e) sur %1"
 msgid "You are already subscribed to balance updates."
 msgstr "Vous êtes déjà inscrit(e) aux notifications de solde."
 
-#, fuzzy
-#| msgid "You are already subscribed to proposal."
 msgid "You are already subscribed to proposal array."
-msgstr "Vous êtes déjà inscrit(e) aux propositions."
+msgstr "Vous êtes déjà inscrit(e) à la catégorie de propositions."
 
 msgid "You are already subscribed to proposal."
 msgstr "Vous êtes déjà inscrit(e) aux propositions."
@@ -1487,10 +1421,8 @@ msgstr "Vous avez atteint la limite autorisée pour %1."
 msgid "You have signed up for more than one account."
 msgstr "Vous avez effectué des inscriptions pour plus d'un compte."
 
-#, fuzzy
-#| msgid "You must accept the terms and conditions to open an account."
 msgid "You must complete the knowledge test to activate this account."
-msgstr "Vous devez accepter les conditions générales pour ouvrir un compte."
+msgstr "Vous devez effectuer le test de connaissances pour activer ce compte."
 
 msgid "You will be automatically logged out after such time."
 msgstr "Vous serez automatiquement déconnecté(e) à l'issue de ce délai."
@@ -1498,10 +1430,8 @@ msgstr "Vous serez automatiquement déconnecté(e) à l'issue de ce délai."
 msgid "Your Details"
 msgstr "Vos informations"
 
-#, fuzzy
-#| msgid "Your Login ID"
 msgid "Your Login ID: %1"
-msgstr "Votre identifiant de connexion"
+msgstr "Votre identifiant de connexion : %1"
 
 msgid "Your account %1 cashier section was locked."
 msgstr "La section caisse de votre compte %1 a été verrouillée."
@@ -1587,15 +1517,11 @@ msgstr "L'adresse e-mail que vous avez saisie est déjà utilisée par un autre 
 msgid "Your token has expired or is invalid."
 msgstr "Votre jeton a expiré ou n'est pas valide."
 
-#, fuzzy
-#| msgid "Your transaction reference is"
 msgid "Your transaction was cancelled."
-msgstr "Votre référence de transaction est"
+msgstr "Votre transaction a été annulée."
 
-#, fuzzy
-#| msgid "Your transaction reference is"
 msgid "Your transaction was successful."
-msgstr "Votre référence de transaction est"
+msgstr "Votre transaction a bien été effectuée."
 
 msgid "Your website URL"
 msgstr "L'URL de votre site Web"
@@ -1603,10 +1529,8 @@ msgstr "L'URL de votre site Web"
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "Caractères alpha-numériques avec espace et tiret, 2 à 32 caractères"
 
-#, fuzzy
-#| msgid "Amount"
 msgid "amount"
-msgstr "Montant"
+msgstr "montant"
 
 msgid "close on %1"
 msgstr "clôturer le %1"
@@ -1641,25 +1565,17 @@ msgstr "aujourd'hui"
 msgid "{JAPAN ONLY}"
 msgstr "{JAPAN ONLY}"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Other"
 msgid "{JAPAN ONLY}Account Number"
-msgstr "{JAPAN ONLY}Other"
+msgstr "{JAPAN ONLY}Account Number"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Occupation"
 msgid "{JAPAN ONLY}Account name"
-msgstr "{JAPAN ONLY}Occupation"
+msgstr "{JAPAN ONLY}Account name"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Occupation"
 msgid "{JAPAN ONLY}Account number"
-msgstr "{JAPAN ONLY}Occupation"
+msgstr "{JAPAN ONLY}Account numbe"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}6 months to 1 year"
 msgid "{JAPAN ONLY}Account type"
-msgstr "{JAPAN ONLY}6 months to 1 year"
+msgstr "{JAPAN ONLY}Account type"
 
 msgid "{JAPAN ONLY}Amount of hedging assets"
 msgstr "{JAPAN ONLY}Amount of hedging assets"
@@ -1667,70 +1583,50 @@ msgstr "{JAPAN ONLY}Amount of hedging assets"
 msgid "{JAPAN ONLY}Annual income"
 msgstr "{JAPAN ONLY}Annual income"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Annual income"
 msgid "{JAPAN ONLY}Bank name"
-msgstr "{JAPAN ONLY}Annual income"
+msgstr "{JAPAN ONLY}Bank name"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Annual income"
 msgid "{JAPAN ONLY}Branch code"
-msgstr "{JAPAN ONLY}Annual income"
+msgstr "{JAPAN ONLY}Branch code"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Financial asset"
 msgid "{JAPAN ONLY}Branch name"
-msgstr "{JAPAN ONLY}Financial asset"
+msgstr "{JAPAN ONLY}Branch name"
 
 msgid "{JAPAN ONLY}Classification of assets requiring hedge"
 msgstr "{JAPAN ONLY}Classification of assets requiring hedge"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Student"
 msgid "{JAPAN ONLY}Current"
-msgstr "{JAPAN ONLY}Student"
+msgstr "{JAPAN ONLY}Current"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}"
 msgid "{JAPAN ONLY}Deposit"
-msgstr "{JAPAN ONLY}"
+msgstr "{JAPAN ONLY}Deposit"
 
 msgid "{JAPAN ONLY}Financial asset"
 msgstr "{JAPAN ONLY}Financial asset"
 
-#, fuzzy
-#| msgid "Your bonus will be credited to your account within 3 working days."
 msgid "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
-msgstr "Votre bonus sera crédité sur votre compte dans un délai de 3 jours ouvrables."
+msgstr "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
 
-#, fuzzy
-#| msgid "How to open an account"
 msgid "{JAPAN ONLY}Make a transfer to this Binary bank account"
-msgstr "{JAPAN ONLY}How to Open an Account"
+msgstr "{JAPAN ONLY}Make a transfer to this Binary bank account"
 
 msgid "{JAPAN ONLY}Occupation"
 msgstr "{JAPAN ONLY}Occupation"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Hedging"
 msgid "{JAPAN ONLY}Ordinary"
-msgstr "{JAPAN ONLY}Hedging"
+msgstr "{JAPAN ONLY}Ordinary"
 
 msgid "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
-msgstr ""
+msgstr "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
 
-#, fuzzy
-#| msgid "Please confirm the transaction details in order to complete the transfer:"
 msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
-msgstr "Veuillez confirmer les détails de la transaction afin de compléter le transfert:"
+msgstr "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
 
 msgid "{JAPAN ONLY}Purpose of trading"
 msgstr "{JAPAN ONLY}Purpose of trading"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Hedging"
 msgid "{JAPAN ONLY}Savings"
-msgstr "{JAPAN ONLY}Hedging"
+msgstr "{JAPAN ONLY}Savings"
 
 msgid "{JAPAN ONLY}Trading Experience for Commodities"
 msgstr "{JAPAN ONLY}Trading Experience for Commodities"
@@ -1753,25 +1649,17 @@ msgstr "{JAPAN ONLY}Trading Experience for OTC derivative (Option) trading"
 msgid "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Section 4: Risk"
 msgid "{JAPAN ONLY}Transaction ID: %1"
-msgstr "{JAPAN ONLY}Section 4: Risk"
+msgstr "{JAPAN ONLY}Transaction ID: %1"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Other"
 msgid "{JAPAN ONLY}Withdrawal"
-msgstr "{JAPAN ONLY}Other"
+msgstr "{JAPAN ONLY}Withdrawal"
 
-#, fuzzy
-#| msgid "How to open an account"
 msgid "{JAPAN ONLY}Your designated bank account"
-msgstr "{JAPAN ONLY}How to Open an Account"
+msgstr "{JAPAN ONLY}Your designated bank account"
 
-#, fuzzy
-#| msgid "{JAPAN ONLY}Student"
 msgid "{JAPAN ONLY}amount"
-msgstr "{JAPAN ONLY}Student"
+msgstr "{JAPAN ONLY}amount"
 
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "{JAPAN ONLY}footer text of email template for Japan"
@@ -1803,17 +1691,11 @@ msgstr "EUR/JPY"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
-msgid "EUR/RUB"
-msgstr "EUR/RUB"
-
 msgid "GBP/USD"
 msgstr "GBP/USD"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
-
-msgid "USD/CNY"
-msgstr "USD/CNY"
 
 msgid "AUD/AED"
 msgstr "AUD/AED"
@@ -1821,17 +1703,11 @@ msgstr "AUD/AED"
 msgid "EUR/INR"
 msgstr "EUR/INR"
 
-msgid "GBP/CNY"
-msgstr "GBP/CNY"
-
 msgid "USD/JPY"
 msgstr "USD/JPY"
 
 msgid "USD/SGD"
 msgstr "USD/SGD"
-
-msgid "GBP/BRL"
-msgstr "GBP/BRL"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -1842,29 +1718,14 @@ msgstr "GBP/MXN"
 msgid "AUDZAR"
 msgstr "AUDZAR"
 
-msgid "EUR/ILS"
-msgstr "EUR/ILS"
-
-msgid "AUD/SAR"
-msgstr "AUD/SAR"
-
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
-
-msgid "USD/CZK"
-msgstr "USD/CZK"
 
 msgid "USD/AED"
 msgstr "USD/AED"
 
-msgid "EUR/SAR"
-msgstr "EUR/SAR"
-
 msgid "USD/NOK"
 msgstr "USD/NOK"
-
-msgid "EUR/BRL"
-msgstr "EUR/BRL"
 
 msgid "AUD/TRY"
 msgstr "AUD/TRY"
@@ -1890,17 +1751,8 @@ msgstr "EUR/IDR"
 msgid "GBP/NOK"
 msgstr "GBP/NOK"
 
-msgid "GBP/CZK"
-msgstr "GBP/CZK"
-
-msgid "USD/ILS"
-msgstr "USD/ILS"
-
 msgid "AUD Index"
 msgstr "Indice AUD"
-
-msgid "GBP/ILS"
-msgstr "GBP/ILS"
 
 msgid "USD/CAD"
 msgstr "USD/CAD"
@@ -1947,17 +1799,11 @@ msgstr "EUR/TRY"
 msgid "AUD/PLN"
 msgstr "AUD/PLN"
 
-msgid "USD/KRW"
-msgstr "USD/KRW"
-
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
-
-msgid "AUD/CZK"
-msgstr "AUD/CZK"
 
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
@@ -1980,32 +1826,17 @@ msgstr "GBP/TRY"
 msgid "AUD/NOK"
 msgstr "AUD/NOK"
 
-msgid "EUR/KRW"
-msgstr "EUR/KRW"
-
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
 msgid "EUR/ZAR"
 msgstr "EUR/ZAR"
 
-msgid "AUD/CNY"
-msgstr "AUD/CNY"
-
-msgid "GBP/SAR"
-msgstr "GBP/SAR"
-
 msgid "USD/INR"
 msgstr "USD/INR"
 
 msgid "EUR Index"
 msgstr "Indice EUR"
-
-msgid "USD/RUB"
-msgstr "USD/RUB"
-
-msgid "EUR/CNY"
-msgstr "EUR/CNY"
 
 msgid "NZD/USD"
 msgstr "NZD/USD"
@@ -2022,9 +1853,6 @@ msgstr "GBP/CAD"
 msgid "USD/CHF"
 msgstr "USD/CHF"
 
-msgid "AUD/ILS"
-msgstr "AUD/ILS"
-
 msgid "AUD/USD"
 msgstr "AUD/USD"
 
@@ -2033,12 +1861,6 @@ msgstr "GBP/CHF"
 
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
-
-msgid "USD/BRL"
-msgstr "USD/BRL"
-
-msgid "EUR/CZK"
-msgstr "EUR/CZK"
 
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
@@ -2049,14 +1871,8 @@ msgstr "USD/HKD"
 msgid "EUR/MXN"
 msgstr "EUR/MXN"
 
-msgid "GBP/KRW"
-msgstr "GBP/KRW"
-
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
-
-msgid "USD/SAR"
-msgstr "USD/SAR"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
@@ -2067,9 +1883,6 @@ msgstr "USD/PLN"
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
 
-msgid "GBP/DKK"
-msgstr "GBP/DKK"
-
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
 
@@ -2078,9 +1891,6 @@ msgstr "GBP/PLN"
 
 msgid "USD/MXN"
 msgstr "USD/MXN"
-
-msgid "AUD/KRW"
-msgstr "AUD/KRW"
 
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
@@ -2091,10 +1901,8 @@ msgstr "Indice OTC Shanghai"
 msgid "French Smart Index"
 msgstr "Indice Intelligent France"
 
-#, fuzzy
-#| msgid "Wall Street Index"
 msgid "Wall Street OTC Index"
-msgstr "Indice Wall Street"
+msgstr "Indice OTC Wall Street"
 
 msgid "Japanese Smart Index"
 msgstr "Indice Intelligent Japon"
@@ -2779,9 +2587,6 @@ msgstr "Reliance Industries"
 
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
-
-msgid "Tata Motors"
-msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3685,6 +3490,90 @@ msgstr "{JAPAN ONLY}Margin FX"
 
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
+
+#~ msgid "Barrier must be at least "
+#~ msgstr "La barrière doit être d'au moins "
+
+#~ msgid "EUR/RUB"
+#~ msgstr "EUR/RUB"
+
+#~ msgid "USD/CNY"
+#~ msgstr "USD/CNY"
+
+#~ msgid "GBP/CNY"
+#~ msgstr "GBP/CNY"
+
+#~ msgid "GBP/BRL"
+#~ msgstr "GBP/BRL"
+
+#~ msgid "EUR/ILS"
+#~ msgstr "EUR/ILS"
+
+#~ msgid "AUD/SAR"
+#~ msgstr "AUD/SAR"
+
+#~ msgid "USD/CZK"
+#~ msgstr "USD/CZK"
+
+#~ msgid "EUR/SAR"
+#~ msgstr "EUR/SAR"
+
+#~ msgid "EUR/BRL"
+#~ msgstr "EUR/BRL"
+
+#~ msgid "GBP/CZK"
+#~ msgstr "GBP/CZK"
+
+#~ msgid "USD/ILS"
+#~ msgstr "USD/ILS"
+
+#~ msgid "GBP/ILS"
+#~ msgstr "GBP/ILS"
+
+#~ msgid "USD/KRW"
+#~ msgstr "USD/KRW"
+
+#~ msgid "AUD/CZK"
+#~ msgstr "AUD/CZK"
+
+#~ msgid "EUR/KRW"
+#~ msgstr "EUR/KRW"
+
+#~ msgid "AUD/CNY"
+#~ msgstr "AUD/CNY"
+
+#~ msgid "GBP/SAR"
+#~ msgstr "GBP/SAR"
+
+#~ msgid "USD/RUB"
+#~ msgstr "USD/RUB"
+
+#~ msgid "EUR/CNY"
+#~ msgstr "EUR/CNY"
+
+#~ msgid "AUD/ILS"
+#~ msgstr "AUD/ILS"
+
+#~ msgid "USD/BRL"
+#~ msgstr "USD/BRL"
+
+#~ msgid "EUR/CZK"
+#~ msgstr "EUR/CZK"
+
+#~ msgid "GBP/KRW"
+#~ msgstr "GBP/KRW"
+
+#~ msgid "USD/SAR"
+#~ msgstr "USD/SAR"
+
+#~ msgid "GBP/DKK"
+#~ msgstr "GBP/DKK"
+
+#~ msgid "AUD/KRW"
+#~ msgstr "AUD/KRW"
+
+#~ msgid "Tata Motors"
+#~ msgstr "Tata Motors"
 
 #~ msgid "1,000 - 1,000,000"
 #~ msgstr "1000 - 1 000 000"
@@ -18031,9 +17920,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "The above table represents a snapshot of the average client positions. This information is generally updated four times a day (at 10 minutes past 7am, 12am, 5pm and 10pm GMT). It is computed by calculating mathematical ratios known as delta, vega and theta and represents approximate estimates of market positions only."
 #~ msgstr "Le tableau ci-dessus représente un instantané des positions moyennes des clients. Cette information est généralement actualisée quatre fois par jour (à 7h10, 12h, 17h et 22h GMT). Il est calculé grâce à des calculs de rapports mathématiques connus comme delta, vega et theta et représente uniquement les estimations approximatives des positions du marché."
-
-#~ msgid "The barrier for this contract must be at least 2 pips away from the spot."
-#~ msgstr "La barrière pour ce contrat doit se trouver à au moins 2 pips du point."
 
 #~ msgid "Tipped"
 #~ msgstr "Marqué"

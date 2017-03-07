@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: German (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-21 11:36+0000\n"
+"PO-Revision-Date: 2017-02-27 17:34+0000\n"
 "Last-Translator: Karin Graf <karin_graf@hotmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/binary-websocket/translations/de/>\n"
 "Language: de\n"
@@ -130,8 +130,10 @@ msgstr "Schwelle liegt außerhalb des akzeptablen Bereichs."
 msgid "Barrier must be an integer."
 msgstr "Schwelle muss eine ganze Zahl sein."
 
-msgid "Barrier must be at least "
-msgstr "Schwelle muss mindestens sein "
+#, fuzzy
+#| msgid "The barrier for this contract must be at least 2 pips away from the spot."
+msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
+msgstr "Die Grenze für diesen Vertrag muss mindestens zwei Pips vom Punkt entfernt liegen."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Schwellen müssen oberhalb und unterhalb des Kassakurses liegen."
@@ -773,6 +775,11 @@ msgstr "Bitte akzeptieren Sie den Geldschutz."
 
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "Bitte stimmen Sie, bevor Sie fortfahren, der Risikoübernahme zu."
+
+#, fuzzy
+#| msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
+msgid "Please contact customer support for more information."
+msgstr "Es tut uns leid, Ihr Konto erlaubt keine Passwörter. Für weitere Informationen, setzen Sie sich bitte mit unserer Kundenbetreuung in Verbindung."
 
 msgid "Please enter a number between 0 and %1."
 msgstr "Bitte geben Sie eine Zahl zwischen 0 und %1 ein."
@@ -1512,10 +1519,8 @@ msgstr "Sie haben eine E-Mail Adresse angegeben, die schon von einer anderen Log
 msgid "Your token has expired or is invalid."
 msgstr "Ihr Token ist abgelaufen oder ungültig."
 
-#, fuzzy
-#| msgid "Your transaction was successful."
 msgid "Your transaction was cancelled."
-msgstr "Ihre Überweisung war erfolgreich."
+msgstr "Ihre Überweisung wurde abgebrochen."
 
 msgid "Your transaction was successful."
 msgstr "Ihre Überweisung war erfolgreich."
@@ -1688,17 +1693,11 @@ msgstr "EUR/JPY"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
-msgid "EUR/RUB"
-msgstr "EUR/RUB"
-
 msgid "GBP/USD"
 msgstr "GBP/USD"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
-
-msgid "USD/CNY"
-msgstr "USD/CNY"
 
 msgid "AUD/AED"
 msgstr "AUD/AED"
@@ -1706,17 +1705,11 @@ msgstr "AUD/AED"
 msgid "EUR/INR"
 msgstr "EUR/INR"
 
-msgid "GBP/CNY"
-msgstr "GBP/CNY"
-
 msgid "USD/JPY"
 msgstr "USD/JPY"
 
 msgid "USD/SGD"
 msgstr "USD/SGD"
-
-msgid "GBP/BRL"
-msgstr "GBP/BRL"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -1727,29 +1720,14 @@ msgstr "GBP/MXN"
 msgid "AUDZAR"
 msgstr "AUD/ZAR"
 
-msgid "EUR/ILS"
-msgstr "EUR/ILS"
-
-msgid "AUD/SAR"
-msgstr "AUD/SAR"
-
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
-
-msgid "USD/CZK"
-msgstr "USD/CZK"
 
 msgid "USD/AED"
 msgstr "USD/AED"
 
-msgid "EUR/SAR"
-msgstr "EUR/SAR"
-
 msgid "USD/NOK"
 msgstr "USD/NOK"
-
-msgid "EUR/BRL"
-msgstr "EUR/BRL"
 
 msgid "AUD/TRY"
 msgstr "AUD/TRY"
@@ -1775,17 +1753,8 @@ msgstr "EUR/IDR"
 msgid "GBP/NOK"
 msgstr "GBP/NOK"
 
-msgid "GBP/CZK"
-msgstr "GBP/CZK"
-
-msgid "USD/ILS"
-msgstr "USD/ILS"
-
 msgid "AUD Index"
 msgstr "AUD Index"
-
-msgid "GBP/ILS"
-msgstr "GBP/ILS"
 
 msgid "USD/CAD"
 msgstr "USD/CAD"
@@ -1832,17 +1801,11 @@ msgstr "EUR/TRY"
 msgid "AUD/PLN"
 msgstr "AUD/PLN"
 
-msgid "USD/KRW"
-msgstr "USD/KRW"
-
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
-
-msgid "AUD/CZK"
-msgstr "AUD/CZK"
 
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
@@ -1865,32 +1828,17 @@ msgstr "GBP/TRY"
 msgid "AUD/NOK"
 msgstr "AUD/NOK"
 
-msgid "EUR/KRW"
-msgstr "EUR/KRW"
-
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
 msgid "EUR/ZAR"
 msgstr "EUR/ZAR"
 
-msgid "AUD/CNY"
-msgstr "AUD/CNY"
-
-msgid "GBP/SAR"
-msgstr "GBP/SAR"
-
 msgid "USD/INR"
 msgstr "USD/INR"
 
 msgid "EUR Index"
 msgstr "EUR Index"
-
-msgid "USD/RUB"
-msgstr "USD/RUB"
-
-msgid "EUR/CNY"
-msgstr "EUR/CNY"
 
 msgid "NZD/USD"
 msgstr "NZD/USD"
@@ -1907,9 +1855,6 @@ msgstr "GBP/CAD"
 msgid "USD/CHF"
 msgstr "USD/CHF"
 
-msgid "AUD/ILS"
-msgstr "AUD/ILS"
-
 msgid "AUD/USD"
 msgstr "AUD/USD"
 
@@ -1918,12 +1863,6 @@ msgstr "GBP/CHF"
 
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
-
-msgid "USD/BRL"
-msgstr "USD/BRL"
-
-msgid "EUR/CZK"
-msgstr "EUR/CZK"
 
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
@@ -1934,14 +1873,8 @@ msgstr "USD/HKD"
 msgid "EUR/MXN"
 msgstr "EUR/MXN"
 
-msgid "GBP/KRW"
-msgstr "GBP/KRW"
-
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
-
-msgid "USD/SAR"
-msgstr "USD/SAR"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
@@ -1952,9 +1885,6 @@ msgstr "USD/PLN"
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
 
-msgid "GBP/DKK"
-msgstr "GBP/DKK"
-
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
 
@@ -1963,9 +1893,6 @@ msgstr "GBP/PLN"
 
 msgid "USD/MXN"
 msgstr "USD/MXN"
-
-msgid "AUD/KRW"
-msgstr "AUD/KRW"
 
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
@@ -2662,9 +2589,6 @@ msgstr "Reliance Industries"
 
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
-
-msgid "Tata Motors"
-msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3568,6 +3492,90 @@ msgstr "{JAPAN ONLY}Margin FX"
 
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
+
+#~ msgid "Barrier must be at least "
+#~ msgstr "Schwelle muss mindestens sein "
+
+#~ msgid "EUR/RUB"
+#~ msgstr "EUR/RUB"
+
+#~ msgid "USD/CNY"
+#~ msgstr "USD/CNY"
+
+#~ msgid "GBP/CNY"
+#~ msgstr "GBP/CNY"
+
+#~ msgid "GBP/BRL"
+#~ msgstr "GBP/BRL"
+
+#~ msgid "EUR/ILS"
+#~ msgstr "EUR/ILS"
+
+#~ msgid "AUD/SAR"
+#~ msgstr "AUD/SAR"
+
+#~ msgid "USD/CZK"
+#~ msgstr "USD/CZK"
+
+#~ msgid "EUR/SAR"
+#~ msgstr "EUR/SAR"
+
+#~ msgid "EUR/BRL"
+#~ msgstr "EUR/BRL"
+
+#~ msgid "GBP/CZK"
+#~ msgstr "GBP/CZK"
+
+#~ msgid "USD/ILS"
+#~ msgstr "USD/ILS"
+
+#~ msgid "GBP/ILS"
+#~ msgstr "GBP/ILS"
+
+#~ msgid "USD/KRW"
+#~ msgstr "USD/KRW"
+
+#~ msgid "AUD/CZK"
+#~ msgstr "AUD/CZK"
+
+#~ msgid "EUR/KRW"
+#~ msgstr "EUR/KRW"
+
+#~ msgid "AUD/CNY"
+#~ msgstr "AUD/CNY"
+
+#~ msgid "GBP/SAR"
+#~ msgstr "GBP/SAR"
+
+#~ msgid "USD/RUB"
+#~ msgstr "USD/RUB"
+
+#~ msgid "EUR/CNY"
+#~ msgstr "EUR/CNY"
+
+#~ msgid "AUD/ILS"
+#~ msgstr "AUD/ILS"
+
+#~ msgid "USD/BRL"
+#~ msgstr "USD/BRL"
+
+#~ msgid "EUR/CZK"
+#~ msgstr "EUR/CZK"
+
+#~ msgid "GBP/KRW"
+#~ msgstr "GBP/KRW"
+
+#~ msgid "USD/SAR"
+#~ msgstr "USD/SAR"
+
+#~ msgid "GBP/DKK"
+#~ msgstr "GBP/DKK"
+
+#~ msgid "AUD/KRW"
+#~ msgstr "AUD/KRW"
+
+#~ msgid "Tata Motors"
+#~ msgstr "Tata Motors"
 
 #~ msgid "1,000 - 1,000,000"
 #~ msgstr "1000 - 1 000 000"
@@ -18409,9 +18417,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "The above table represents a snapshot of the average client positions. This information is generally updated four times a day (at 10 minutes past 7am, 12am, 5pm and 10pm GMT). It is computed by calculating mathematical ratios known as delta, vega and theta and represents approximate estimates of market positions only."
 #~ msgstr "Die obere Tabelle repräsentiert eine Momentaufnahme von Positionen eines Durchschnittskunden. Diese Information wird im Allgemeinen viermal täglich aktualisiert (zehn Minuten nach 7.00, 12.00, 17.00 und 22.00 Uhr GMT). Sie berechnet sich aus der Kalkulation mathematischer Ratios, die als Delta, Vega und Theta bekannt sind und nur die ungefähren Schätzungen der Marktpositionen repräsentieren."
-
-#~ msgid "The barrier for this contract must be at least 2 pips away from the spot."
-#~ msgstr "Die Grenze für diesen Vertrag muss mindestens zwei Pips vom Punkt entfernt liegen."
 
 #~ msgid "Tipped"
 #~ msgstr "Getippt"

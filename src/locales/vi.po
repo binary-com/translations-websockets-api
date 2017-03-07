@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-20 02:59+0000\n"
+"PO-Revision-Date: 2017-02-27 10:58+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/binary-websocket/translations/vi/>\n"
 "Language: vi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.11-dev\n"
+"X-Generator: Weblate 2.12-dev\n"
 
 msgid "%1 New Password Request"
 msgstr "%1 Yêu Cầu Mật khẩu Mới"
@@ -120,7 +120,7 @@ msgid "An unexpected error occurred"
 msgstr "Đã có lỗi bất ngờ xảy ra"
 
 msgid "App id is mandatory to access our api. Please register your application."
-msgstr ""
+msgstr "Bắt buộc phải có ID ứng dụng để truy cập API của chúng tôi. Vui lòng đăng ký ứng dụng của bạn."
 
 msgid "Authorize application"
 msgstr "Ứng dụng được cho phép"
@@ -134,8 +134,10 @@ msgstr "Rào cản ngoài ngưỡng được chấp nhận."
 msgid "Barrier must be an integer."
 msgstr "Giới hạn phải là một số nguyên."
 
-msgid "Barrier must be at least "
-msgstr "Rào cản phải là tối thiểu "
+#, fuzzy
+#| msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
+msgstr "giá mở thị trường cộng %plural(%1, %d pip, %d pips)"
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Rào cản phải nằm trên một cạnh của giá giao ngay."
@@ -192,7 +194,7 @@ msgid "Contract must expire during trading hours."
 msgstr "Hợp đồng phải hết hạn trong suốt các giờ giao dịch."
 
 msgid "Contract's stake amount is more than the maximum purchase price."
-msgstr ""
+msgstr "Số lượng cổ phần của hợp đồng nhiều hơn so với giá mua tối đa."
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "Những hợp đồng có thời gian hiệu lực trên 24 giờ đồng hồ sẽ có biên độ giao động cố định."
@@ -510,10 +512,8 @@ msgstr "Email hoặc mật khẩu không đúng."
 msgid "Input validation failed: "
 msgstr "Xác thực đầu vào thất bại: "
 
-#, fuzzy
-#| msgid "Input validation failed: "
 msgid "Input validation failed: %1"
-msgstr "Xác thực đầu vào thất bại: "
+msgstr "Xác thực đầu vào thất bại: %1"
 
 msgid "Internal server error"
 msgstr "Lỗi máy chủ nội bộ"
@@ -771,16 +771,19 @@ msgstr "Quyền hạn bị từ chối, đọc yêu cầu phạm vi."
 msgid "Permission denied."
 msgstr "Quyền bị từ chối."
 
-#, fuzzy
-#| msgid "Date of birth"
 msgid "Place of birth"
-msgstr "Ngày sinh"
+msgstr "Nơi sinh"
 
 msgid "Please accept Funds Protection."
 msgstr "Vui lòng chấp nhận Bảo vệ Quỹ tiền tệ."
 
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "Vui lòng đồng ý với tuyên bố từ chối rủi ro trước khi tiến hành."
+
+#, fuzzy
+#| msgid "Sorry, an error occurred. Please contact customer support if this problem persists."
+msgid "Please contact customer support for more information."
+msgstr "Xin lỗi, có lỗi xảy ra. Vui lòng liên hệ với bộ phận chăm sóc khách hàng nếu lỗi này tái diễn."
 
 msgid "Please enter a number between 0 and %1."
 msgstr "Vui lòng nhập một số giữa 0 và %1."
@@ -806,10 +809,8 @@ msgstr "Vui lòng nhập quốc gia nơi bạn muốn cung cấp dịch vụ
 msgid "Please enter your email address."
 msgstr "Vui lòng nhập địa chỉ email của bạn."
 
-#, fuzzy
-#| msgid "Please enter your current password."
 msgid "Please log in using your email and password."
-msgstr "Vui lòng nhập mật khẩu hiện tại của bạn."
+msgstr "Vui lòng đăng nhập sử dụng email và mật khẩu của bạn."
 
 msgid "Please log in."
 msgstr "Vui lòng đăng nhập."
@@ -1721,17 +1722,11 @@ msgstr "EUR/JPY"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
-msgid "EUR/RUB"
-msgstr "EUR/RUB"
-
 msgid "GBP/USD"
 msgstr "GBP/USD"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
-
-msgid "USD/CNY"
-msgstr "USD/CNY"
 
 msgid "AUD/AED"
 msgstr "AUD/AED"
@@ -1739,17 +1734,11 @@ msgstr "AUD/AED"
 msgid "EUR/INR"
 msgstr "EUR/INR"
 
-msgid "GBP/CNY"
-msgstr "GBP/CNY"
-
 msgid "USD/JPY"
 msgstr "USD/JPY"
 
 msgid "USD/SGD"
 msgstr "USD/SGD"
-
-msgid "GBP/BRL"
-msgstr "GBP/BRL"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -1760,29 +1749,14 @@ msgstr "GBP/MXN"
 msgid "AUDZAR"
 msgstr "AUD/ZAR"
 
-msgid "EUR/ILS"
-msgstr "EUR/ILS"
-
-msgid "AUD/SAR"
-msgstr "AUD/SAR"
-
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
-
-msgid "USD/CZK"
-msgstr "USD/CZK"
 
 msgid "USD/AED"
 msgstr "USD/AED"
 
-msgid "EUR/SAR"
-msgstr "EUR/SAR"
-
 msgid "USD/NOK"
 msgstr "USD/NOK"
-
-msgid "EUR/BRL"
-msgstr "EUR/BRL"
 
 msgid "AUD/TRY"
 msgstr "AUD/TRY"
@@ -1808,17 +1782,8 @@ msgstr "EUR/IDR"
 msgid "GBP/NOK"
 msgstr "GBP/NOK"
 
-msgid "GBP/CZK"
-msgstr "GBP/CZK"
-
-msgid "USD/ILS"
-msgstr "USD/ILS"
-
 msgid "AUD Index"
 msgstr "Chỉ số AUD"
-
-msgid "GBP/ILS"
-msgstr "GBP/ILS"
 
 msgid "USD/CAD"
 msgstr "USD/CAD"
@@ -1866,17 +1831,11 @@ msgstr "EUR/TRY"
 msgid "AUD/PLN"
 msgstr "AUD/PLN"
 
-msgid "USD/KRW"
-msgstr "USD/KRW"
-
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
-
-msgid "AUD/CZK"
-msgstr "AUD/CZK"
 
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
@@ -1899,32 +1858,17 @@ msgstr "GBP/TRY"
 msgid "AUD/NOK"
 msgstr "AUD/NOK"
 
-msgid "EUR/KRW"
-msgstr "EUR/KRW"
-
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
 msgid "EUR/ZAR"
 msgstr "EUR/ZAR"
 
-msgid "AUD/CNY"
-msgstr "AUD/CNY"
-
-msgid "GBP/SAR"
-msgstr "GBP/SAR"
-
 msgid "USD/INR"
 msgstr "USD/INR"
 
 msgid "EUR Index"
 msgstr "Chỉ số EUR"
-
-msgid "USD/RUB"
-msgstr "USD/RUB"
-
-msgid "EUR/CNY"
-msgstr "EUR/CNY"
 
 msgid "NZD/USD"
 msgstr "NZD/USD"
@@ -1941,9 +1885,6 @@ msgstr "GBP/CAD"
 msgid "USD/CHF"
 msgstr "USD/CHF"
 
-msgid "AUD/ILS"
-msgstr "AUD/ILS"
-
 msgid "AUD/USD"
 msgstr "AUD/USD"
 
@@ -1952,12 +1893,6 @@ msgstr "GBP/CHF"
 
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
-
-msgid "USD/BRL"
-msgstr "USD/BRL"
-
-msgid "EUR/CZK"
-msgstr "EUR/CZK"
 
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
@@ -1968,14 +1903,8 @@ msgstr "USD/HKD"
 msgid "EUR/MXN"
 msgstr "EUR/MXN"
 
-msgid "GBP/KRW"
-msgstr "GBP/KRW"
-
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
-
-msgid "USD/SAR"
-msgstr "USD/SAR"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
@@ -1986,9 +1915,6 @@ msgstr "USD/PLN"
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
 
-msgid "GBP/DKK"
-msgstr "GBP/DKK"
-
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
 
@@ -1997,9 +1923,6 @@ msgstr "GBP/PLN"
 
 msgid "USD/MXN"
 msgstr "USD/MXN"
-
-msgid "AUD/KRW"
-msgstr "AUD/KRW"
 
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
@@ -2690,9 +2613,6 @@ msgstr "Reliance Industries"
 
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
-
-msgid "Tata Motors"
-msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3596,6 +3516,90 @@ msgstr "{JAPAN ONLY}Margin FX"
 
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
+
+#~ msgid "Barrier must be at least "
+#~ msgstr "Rào cản phải là tối thiểu "
+
+#~ msgid "EUR/RUB"
+#~ msgstr "EUR/RUB"
+
+#~ msgid "USD/CNY"
+#~ msgstr "USD/CNY"
+
+#~ msgid "GBP/CNY"
+#~ msgstr "GBP/CNY"
+
+#~ msgid "GBP/BRL"
+#~ msgstr "GBP/BRL"
+
+#~ msgid "EUR/ILS"
+#~ msgstr "EUR/ILS"
+
+#~ msgid "AUD/SAR"
+#~ msgstr "AUD/SAR"
+
+#~ msgid "USD/CZK"
+#~ msgstr "USD/CZK"
+
+#~ msgid "EUR/SAR"
+#~ msgstr "EUR/SAR"
+
+#~ msgid "EUR/BRL"
+#~ msgstr "EUR/BRL"
+
+#~ msgid "GBP/CZK"
+#~ msgstr "GBP/CZK"
+
+#~ msgid "USD/ILS"
+#~ msgstr "USD/ILS"
+
+#~ msgid "GBP/ILS"
+#~ msgstr "GBP/ILS"
+
+#~ msgid "USD/KRW"
+#~ msgstr "USD/KRW"
+
+#~ msgid "AUD/CZK"
+#~ msgstr "AUD/CZK"
+
+#~ msgid "EUR/KRW"
+#~ msgstr "EUR/KRW"
+
+#~ msgid "AUD/CNY"
+#~ msgstr "AUD/CNY"
+
+#~ msgid "GBP/SAR"
+#~ msgstr "GBP/SAR"
+
+#~ msgid "USD/RUB"
+#~ msgstr "USD/RUB"
+
+#~ msgid "EUR/CNY"
+#~ msgstr "EUR/CNY"
+
+#~ msgid "AUD/ILS"
+#~ msgstr "AUD/ILS"
+
+#~ msgid "USD/BRL"
+#~ msgstr "USD/BRL"
+
+#~ msgid "EUR/CZK"
+#~ msgstr "EUR/CZK"
+
+#~ msgid "GBP/KRW"
+#~ msgstr "GBP/KRW"
+
+#~ msgid "USD/SAR"
+#~ msgstr "USD/SAR"
+
+#~ msgid "GBP/DKK"
+#~ msgstr "GBP/DKK"
+
+#~ msgid "AUD/KRW"
+#~ msgstr "AUD/KRW"
+
+#~ msgid "Tata Motors"
+#~ msgstr "Tata Motors"
 
 #~ msgid "1,000 - 1,000,000"
 #~ msgstr "1,000 - 1,000,000"
