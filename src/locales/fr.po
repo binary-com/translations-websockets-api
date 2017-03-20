@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: French (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-28 11:52+0000\n"
+"PO-Revision-Date: 2017-03-14 16:37+0000\n"
 "Last-Translator: Chloe Chevreton <chloe-che@hotmail.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/binary-websocket/translations/fr/>\n"
 "Language: fr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.12-dev\n"
+"X-Generator: Weblate 2.12\n"
 
 msgid "%1 New Password Request"
 msgstr "Demande de nouveau mot de passe %1"
@@ -130,10 +130,8 @@ msgstr "La barrière ne se situe pas dans la plage autorisée."
 msgid "Barrier must be an integer."
 msgstr "La barrière doit être un nombre entier."
 
-#, fuzzy
-#| msgid "The barrier for this contract must be at least 2 pips away from the spot."
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
-msgstr "La barrière pour ce contrat doit se trouver à au moins 2 pips du point."
+msgstr "La barrière doit se situer à au moins %plural(%1,%d pip,%d pips) du spot."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Les barrières doivent se situer de part et d'autre du prix spot."
@@ -548,6 +546,11 @@ msgstr "Identifiant de connexion non valide"
 msgid "Invalid stake"
 msgstr "Montant d'investissement non valide"
 
+#, fuzzy
+#| msgid "Invalid account type."
+msgid "Invalid sub account type."
+msgstr "Type de compte non valide."
+
 msgid "Invalid telephone number (too long)."
 msgstr "Numéro de téléphone non valide (trop long)."
 
@@ -565,6 +568,11 @@ msgstr "Type de transaction non valide : %1."
 
 msgid "Invalid user."
 msgstr "Utilisateur non valide."
+
+#, fuzzy
+#| msgid "New password is same as old password."
+msgid "Investor password cannot be same as main password."
+msgstr "Nouveau mot de passe identique à l'ancien mot de passe."
 
 msgid "Japan Client Change in account settings notification"
 msgstr "Japan Client Change in account settings notification"
@@ -775,9 +783,17 @@ msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "Avant de continuer, veuillez confirmer votre acceptation de notre déclaration de divulgation des risques."
 
 #, fuzzy
-#| msgid "Sorry, your account does not allow passwords. Please contact customer support for more information."
+#| msgid "Please complete the following financial assessment form before continuing."
+msgid "Please complete financial assessment."
+msgstr "Veuillez remplir le formulaire d'évaluation financière suivant avant de continuer."
+
+#, fuzzy
+#| msgid "Please complete the following financial assessment form before continuing."
+msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
+msgstr "Veuillez remplir le formulaire d'évaluation financière suivant avant de continuer."
+
 msgid "Please contact customer support for more information."
-msgstr "Désolé, votre compte n'est pas compatible avec l'utilisation de mots de passe. Veuillez contacter le service clientèle pour obtenir des informations supplémentaires."
+msgstr "Veuillez contacter le service clientèle pour obtenir des informations supplémentaires."
 
 msgid "Please enter a number between 0 and %1."
 msgstr "Veuillez saisir un chiffre entre 0 et %1."
@@ -1079,11 +1095,11 @@ msgstr "Des problèmes liées au système empêchent actuellement une procédure
 msgid "Tax identification number"
 msgstr "Numéro d'identification fiscale"
 
-msgid "Tax information is required."
-msgstr "Des informations fiscales sont requises."
-
 msgid "Tax residence"
 msgstr "Résidence fiscale"
+
+msgid "Tax-related information is mandatory for legal and regulatory requirements. Please provide your latest tax information."
+msgstr ""
 
 msgid "Telephone"
 msgstr "Téléphone"
@@ -1243,6 +1259,11 @@ msgstr "La limite de durée de session ne peut excéder 6 semaines."
 
 msgid "Timeout time must be greater than current time."
 msgstr "L'horaire d'exclusion doit être ultérieur à l'heure actuelle."
+
+#, fuzzy
+#| msgid "P.O. Box is not accepted in address."
+msgid "Token is not valid for current ip address."
+msgstr "La boîte postale n'est pas acceptée dans l'adresse."
 
 msgid "Too many market holidays during the contract period."
 msgstr "Trop de jours fériés pendant la période de contrat."
@@ -3491,6 +3512,9 @@ msgstr "{JAPAN ONLY}Margin FX"
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
 
+#~ msgid "Tax information is required."
+#~ msgstr "Des informations fiscales sont requises."
+
 #~ msgid "Barrier must be at least "
 #~ msgstr "La barrière doit être d'au moins "
 
@@ -4727,9 +4751,6 @@ msgstr "{JAPAN ONLY}Other"
 
 #~ msgid "Please choose which currency you would like to transact in."
 #~ msgstr "Veuillez sélectionner la devise avec laquelle vous souhaitez faire des transactions."
-
-#~ msgid "Please complete the following financial assessment form before continuing."
-#~ msgstr "Veuillez remplir le formulaire d'évaluation financière suivant avant de continuer."
 
 #~ msgid "Please confirm the trade on your statement before proceeding."
 #~ msgstr "Veuillez confirmer le trade sur votre extrait avant de procéder."
