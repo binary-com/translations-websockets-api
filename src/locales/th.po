@@ -413,6 +413,11 @@ msgstr "เอกสารมีความจำเป็นเพื่อก
 msgid "Due to regulatory requirements, you are required to authenticate your account in order to continue trading."
 msgstr "ตามข้อกำหนดทางกฎหมาย ท่านต้องยืนยันตัวตนกับบัญชีของท่านเพื่อการเทรดอย่างต่อเนื่อง"
 
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Duplicate barriers not allowed."
+msgstr "บัญชีทดลองใช้ไม่ได้รับอนุญาตให้ดำเนินการ"
+
 msgid "Email"
 msgstr "อีเมล์"
 
@@ -939,6 +944,9 @@ msgstr "รับข่าวสารและข้อเสนอพิเศ
 msgid "Reload page"
 msgstr "โหลดหน้านี้ใหม่"
 
+msgid "Request timed out"
+msgstr ""
+
 msgid "Request too frequent. Please try again later."
 msgstr "ส่งคำร้องขอถี่เกินไป โปรดลองใหม่อีกครั้งภายหลัง"
 
@@ -1307,6 +1315,9 @@ msgstr "ระยะเวลาในการใช้งานระบบอ
 msgid "Token is not valid for current ip address."
 msgstr "ไม่สามารถใช้ ตู้ปณ. ในข้อมูลที่อยู่"
 
+msgid "Too many barriers were requested."
+msgstr ""
+
 msgid "Too many market holidays during the contract period."
 msgstr "มีวันหยุดของตลาดหลายวันระหว่างระยะเวลาของสัญญา"
 
@@ -1325,11 +1336,43 @@ msgstr "ในขณะนี้ การซื้อขายถูกพั�
 msgid "Trading is not offered for this duration."
 msgstr "การซื้อขายไม่ถูกนำเสนอในช่วงเวลานี้"
 
-msgid "Trading is suspended due to missing market data."
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (out-of-date volatility) data"
+msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (spot too far) data"
+msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
 
 msgid "Trading on this market is not offered for this contract type."
 msgstr "การซื้อขายในตลาดนี้ไม่ได้ถูกเสนอสำหรับสัญญาประเภทนี้"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (dividend) data."
+msgstr "การซื้อขายในตลาดนี้ถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (old) data."
+msgstr "การซื้อขายในตลาดนี้ถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (tick) data."
+msgstr "การซื้อขายในตลาดนี้ถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (volatility) data."
+msgstr "การซื้อขายในตลาดนี้ถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
 
 msgid "Trading on this market is suspended due to missing market data."
 msgstr "การซื้อขายในตลาดนี้ถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
@@ -1433,10 +1476,12 @@ msgstr "ท่านได้ลงนามเพื่อรับทราบ
 msgid "You are already subscribed to balance updates."
 msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูลยอดคงเหลือแล้ว"
 
-msgid "You are already subscribed to proposal array."
+msgid "You are already subscribed to proposal."
 msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูลแล้ว"
 
-msgid "You are already subscribed to proposal."
+#, fuzzy
+#| msgid "You are already subscribed to proposal array."
+msgid "You are already subscribed to proposal_array."
 msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูลแล้ว"
 
 msgid "You are already subscribed to proposal_open_contract."

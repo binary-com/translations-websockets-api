@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-03-23 08:10+0000\n"
 "Last-Translator: Alcino Jorge <alcino@binary.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/binary-websocket/translations/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,8 +131,7 @@ msgid "Barrier must be an integer."
 msgstr "A barreira deve ser um número inteiro."
 
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
-msgstr ""
-"A barreira deve estar pelo menos %plural(%1,%d pip,%d pips) do preço à vista."
+msgstr "A barreira deve estar pelo menos %plural(%1,%d pip,%d pips) do preço à vista."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "As barreiras devem estar nos dois lados do preço do mercado."
@@ -411,6 +409,11 @@ msgstr "Os documentos são necessários para verificar a sua identidade"
 
 msgid "Due to regulatory requirements, you are required to authenticate your account in order to continue trading."
 msgstr "Devido a requisitos regulamentares, você é obrigado a autenticar a sua conta para poder prosseguir com a negociação."
+
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Duplicate barriers not allowed."
+msgstr "Contas virtuais não são permitidas."
 
 msgid "Email"
 msgstr "E-mail"
@@ -804,9 +807,7 @@ msgid "Please complete financial assessment."
 msgstr "Complete a avaliação financeira."
 
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
-msgstr ""
-"Preencha o formulário de avaliação financeira para aumentar os seus limites "
-"de retirada e negociação."
+msgstr "Preencha o formulário de avaliação financeira para aumentar os seus limites de retirada e negociação."
 
 msgid "Please contact customer support for more information."
 msgstr "Contate o apoio ao cliente para mais informações."
@@ -915,6 +916,9 @@ msgstr "Receba notícias e ofertas especiais"
 
 msgid "Reload page"
 msgstr "Recarregar página"
+
+msgid "Request timed out"
+msgstr ""
 
 msgid "Request too frequent. Please try again later."
 msgstr "Solicitação muito frequente. Tente novamente mais tarde."
@@ -1118,9 +1122,7 @@ msgid "Tax residence"
 msgstr "Residência fiscal"
 
 msgid "Tax-related information is mandatory for legal and regulatory requirements. Please provide your latest tax information."
-msgstr ""
-"Informações fiscais são obrigatórias para requisitos legais e "
-"regulamentares. Forneça as suas informações fiscais mais recentes."
+msgstr "Informações fiscais são obrigatórias para requisitos legais e regulamentares. Forneça as suas informações fiscais mais recentes."
 
 msgid "Telephone"
 msgstr "Telefone"
@@ -1284,6 +1286,9 @@ msgstr "A hora do bloqueio deve ser superior à hora atual."
 msgid "Token is not valid for current ip address."
 msgstr "O token é válido para o endereço IP."
 
+msgid "Too many barriers were requested."
+msgstr ""
+
 msgid "Too many market holidays during the contract period."
 msgstr "Demasiados feriados durante o período do contrato."
 
@@ -1302,11 +1307,43 @@ msgstr "As negociações estão atualmente suspensas devido a uma atualização 
 msgid "Trading is not offered for this duration."
 msgstr "A negociação não é oferecida para esta duração."
 
-msgid "Trading is suspended due to missing market data."
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (out-of-date volatility) data"
+msgstr "As negociações estão suspensas devido à falta de dados do mercado."
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (spot too far) data"
+msgstr "As negociações estão suspensas devido à falta de dados do mercado."
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "As negociações estão suspensas devido à falta de dados do mercado."
 
 msgid "Trading on this market is not offered for this contract type."
 msgstr "A negociação neste mercado não é disponibilizada para este tipo de contrato."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (dividend) data."
+msgstr "As negociações neste mercado foram suspensas devido à falta de dados do mercado."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (old) data."
+msgstr "As negociações neste mercado foram suspensas devido à falta de dados do mercado."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (tick) data."
+msgstr "As negociações neste mercado foram suspensas devido à falta de dados do mercado."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (volatility) data."
+msgstr "As negociações neste mercado foram suspensas devido à falta de dados do mercado."
 
 msgid "Trading on this market is suspended due to missing market data."
 msgstr "As negociações neste mercado foram suspensas devido à falta de dados do mercado."
@@ -1410,11 +1447,13 @@ msgstr "Você já subscreveu a %1"
 msgid "You are already subscribed to balance updates."
 msgstr "Você já subscreveu a atualizações de saldo."
 
-msgid "You are already subscribed to proposal array."
-msgstr "Você já está subscrito(a) à série de propostas."
-
 msgid "You are already subscribed to proposal."
 msgstr "Você já está subscrito(a) à proposta."
+
+#, fuzzy
+#| msgid "You are already subscribed to proposal array."
+msgid "You are already subscribed to proposal_array."
+msgstr "Você já está subscrito(a) à série de propostas."
 
 msgid "You are already subscribed to proposal_open_contract."
 msgstr "Você já subscreveu a %1."
