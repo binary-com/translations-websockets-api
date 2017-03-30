@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-03-23 20:56+0000\n"
 "Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.12\n"
 
 msgid "%1 New Password Request"
@@ -137,9 +135,7 @@ msgid "Barrier must be an integer."
 msgstr "Барьер должен быть целым числом."
 
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
-msgstr ""
-"Барьер должен находиться минимум на %plural(%1,%d пипс,%d пипса,%d пипсов) "
-"от спот-цены."
+msgstr "Барьер должен находиться минимум на %plural(%1,%d пипс,%d пипса,%d пипсов) от спот-цены."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Барьеры должны быть выше или ниже рыночной цены."
@@ -417,6 +413,11 @@ msgstr "Документы для верификации личности"
 
 msgid "Due to regulatory requirements, you are required to authenticate your account in order to continue trading."
 msgstr "В связи с требованием закона, Вам необходимо авторизовать свой счет, чтобы продолжить работу."
+
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Duplicate barriers not allowed."
+msgstr "Демо-счёт не разрешен."
 
 msgid "Email"
 msgstr "Email"
@@ -810,9 +811,7 @@ msgid "Please complete financial assessment."
 msgstr "Пожалуйста, пройдите финансовую оценку."
 
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
-msgstr ""
-"Пожалуйста, заполните форму финансовой оценки, чтобы снять ограничение на "
-"вывод и торговый лимит."
+msgstr "Пожалуйста, заполните форму финансовой оценки, чтобы снять ограничение на вывод и торговый лимит."
 
 msgid "Please contact customer support for more information."
 msgstr "Пожалуйста, свяжитесь со службой поддержки для получения дополнительной информации."
@@ -921,6 +920,9 @@ msgstr "Получать новости и спец. предложения"
 
 msgid "Reload page"
 msgstr "Перегрузите страницу"
+
+msgid "Request timed out"
+msgstr ""
 
 msgid "Request too frequent. Please try again later."
 msgstr "Слишком частые запросы. Пожалуйста, попробуйте позже."
@@ -1128,10 +1130,7 @@ msgid "Tax residence"
 msgstr "Место налоговой регистрации"
 
 msgid "Tax-related information is mandatory for legal and regulatory requirements. Please provide your latest tax information."
-msgstr ""
-"Налоговая информация является обязательной в рамках юридических и "
-"нормативных требований. Пожалуйста, предоставьте актуальную информацию о "
-"Ваших налогах."
+msgstr "Налоговая информация является обязательной в рамках юридических и нормативных требований. Пожалуйста, предоставьте актуальную информацию о Ваших налогах."
 
 msgid "Telephone"
 msgstr "Номер телефона"
@@ -1297,6 +1296,9 @@ msgstr "Период ограничения должен быть позднее
 msgid "Token is not valid for current ip address."
 msgstr "Ключ не действует для текущего IP адреса."
 
+msgid "Too many barriers were requested."
+msgstr ""
+
 # 83%
 # 100%
 msgid "Too many market holidays during the contract period."
@@ -1317,11 +1319,43 @@ msgstr "Торговля временно приостановлена из-за
 msgid "Trading is not offered for this duration."
 msgstr "Контракты не предлагаются на данный период."
 
-msgid "Trading is suspended due to missing market data."
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (out-of-date volatility) data"
+msgstr "Торговля приостановлена из-за отсутствия рыночных данных."
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (spot too far) data"
+msgstr "Торговля приостановлена из-за отсутствия рыночных данных."
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "Торговля приостановлена из-за отсутствия рыночных данных."
 
 msgid "Trading on this market is not offered for this contract type."
 msgstr "Торговля на данном рынке недоступна для данного типа контрактов."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (dividend) data."
+msgstr "Торговля на данном рынке приостановлена из-за отсутствия рыночных данных."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (old) data."
+msgstr "Торговля на данном рынке приостановлена из-за отсутствия рыночных данных."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (tick) data."
+msgstr "Торговля на данном рынке приостановлена из-за отсутствия рыночных данных."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (volatility) data."
+msgstr "Торговля на данном рынке приостановлена из-за отсутствия рыночных данных."
 
 msgid "Trading on this market is suspended due to missing market data."
 msgstr "Торговля на данном рынке приостановлена из-за отсутствия рыночных данных."
@@ -1426,11 +1460,13 @@ msgstr "Вы уже подписаны на %1"
 msgid "You are already subscribed to balance updates."
 msgstr "Вы уже подписаны на получение обновлений о балансе."
 
-msgid "You are already subscribed to proposal array."
-msgstr "Вы уже подписаны на данный ряд предложений."
-
 msgid "You are already subscribed to proposal."
 msgstr "Вы уже подписаны на данное предложение."
+
+#, fuzzy
+#| msgid "You are already subscribed to proposal array."
+msgid "You are already subscribed to proposal_array."
+msgstr "Вы уже подписаны на данный ряд предложений."
 
 msgid "You are already subscribed to proposal_open_contract."
 msgstr "Вы уже подписаны на proposal_open_contract."

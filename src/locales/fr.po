@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-03-23 12:41+0000\n"
 "Last-Translator: Chloe Chevreton <chloe-che@hotmail.fr>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/binary-websocket/translations/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -409,6 +408,11 @@ msgstr "Des documents sont requis pour vérifier votre identité"
 msgid "Due to regulatory requirements, you are required to authenticate your account in order to continue trading."
 msgstr "Conformément aux dispositions réglementaires applicables, vous devez authentifier votre compte pour pouvoir poursuivre vos activités de trading."
 
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Duplicate barriers not allowed."
+msgstr "Le compte virtuel n'est pas autorisé."
+
 msgid "Email"
 msgstr "E-mail"
 
@@ -581,9 +585,7 @@ msgid "Invalid user."
 msgstr "Utilisateur non valide."
 
 msgid "Investor password cannot be same as main password."
-msgstr ""
-"Le mot de passe investisseur ne peut être identique au mot de passe "
-"principal."
+msgstr "Le mot de passe investisseur ne peut être identique au mot de passe principal."
 
 msgid "Japan Client Change in account settings notification"
 msgstr "Japan Client Change in account settings notification"
@@ -803,9 +805,7 @@ msgid "Please complete financial assessment."
 msgstr "Veuillez remplir le formulaire d'évaluation financière."
 
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
-msgstr ""
-"Veuillez remplir le formulaire d'évaluation financière pour lever vos "
-"limites de retrait et de trading."
+msgstr "Veuillez remplir le formulaire d'évaluation financière pour lever vos limites de retrait et de trading."
 
 msgid "Please contact customer support for more information."
 msgstr "Veuillez contacter le service clientèle pour obtenir des informations supplémentaires."
@@ -914,6 +914,9 @@ msgstr "Recevez des bulletins d'information et des offres spéciales"
 
 msgid "Reload page"
 msgstr "Recharger la page"
+
+msgid "Request timed out"
+msgstr ""
 
 msgid "Request too frequent. Please try again later."
 msgstr "Requête trop fréquente. Veuillez réessayer ultérieurement."
@@ -1117,10 +1120,7 @@ msgid "Tax residence"
 msgstr "Résidence fiscale"
 
 msgid "Tax-related information is mandatory for legal and regulatory requirements. Please provide your latest tax information."
-msgstr ""
-"Les informations fiscales sont requises afin de répondre aux exigences "
-"législatives et réglementaires applicables. Veuillez fournir vos "
-"informations fiscales à jour."
+msgstr "Les informations fiscales sont requises afin de répondre aux exigences législatives et réglementaires applicables. Veuillez fournir vos informations fiscales à jour."
 
 msgid "Telephone"
 msgstr "Téléphone"
@@ -1284,6 +1284,9 @@ msgstr "L'horaire d'exclusion doit être ultérieur à l'heure actuelle."
 msgid "Token is not valid for current ip address."
 msgstr "Le jeton n'est pas valide pour l'adresse IP actuelle."
 
+msgid "Too many barriers were requested."
+msgstr ""
+
 msgid "Too many market holidays during the contract period."
 msgstr "Trop de jours fériés pendant la période de contrat."
 
@@ -1302,11 +1305,43 @@ msgstr "Les activités de trading sont actuellement suspendues en raison d'une m
 msgid "Trading is not offered for this duration."
 msgstr "Cette opération n'est pas disponible pour cette durée."
 
-msgid "Trading is suspended due to missing market data."
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (out-of-date volatility) data"
+msgstr "Les activités de trading sont suspendues en raison de données de marché manquantes."
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (spot too far) data"
+msgstr "Les activités de trading sont suspendues en raison de données de marché manquantes."
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "Les activités de trading sont suspendues en raison de données de marché manquantes."
 
 msgid "Trading on this market is not offered for this contract type."
 msgstr "L'accès à ce marché n'est pas disponible pour ce type de contrat."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (dividend) data."
+msgstr "L'accès à ce marché est suspendu en raison de données de marché manquantes."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (old) data."
+msgstr "L'accès à ce marché est suspendu en raison de données de marché manquantes."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (tick) data."
+msgstr "L'accès à ce marché est suspendu en raison de données de marché manquantes."
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (volatility) data."
+msgstr "L'accès à ce marché est suspendu en raison de données de marché manquantes."
 
 msgid "Trading on this market is suspended due to missing market data."
 msgstr "L'accès à ce marché est suspendu en raison de données de marché manquantes."
@@ -1410,11 +1445,13 @@ msgstr "Vous êtes déjà inscrit(e) sur %1"
 msgid "You are already subscribed to balance updates."
 msgstr "Vous êtes déjà inscrit(e) aux notifications de solde."
 
-msgid "You are already subscribed to proposal array."
-msgstr "Vous êtes déjà inscrit(e) à la catégorie de propositions."
-
 msgid "You are already subscribed to proposal."
 msgstr "Vous êtes déjà inscrit(e) aux propositions."
+
+#, fuzzy
+#| msgid "You are already subscribed to proposal array."
+msgid "You are already subscribed to proposal_array."
+msgstr "Vous êtes déjà inscrit(e) à la catégorie de propositions."
 
 msgid "You are already subscribed to proposal_open_contract."
 msgstr "Vous êtes déjà inscrit(e) aux proposal_open_contract."

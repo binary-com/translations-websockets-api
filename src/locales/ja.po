@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-03-29 08:19+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,10 +56,8 @@ msgstr "<p style=\"font-weight: bold;\">デモ口座へご登録いただきあ�
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgstr ""
 "<p style=\"line-height:200%;color:#333333;font-size:15px;\">お客さまへ</p>\n"
-"<p>ワンタイムパスワードを発行いたしました。パスワード再設定ページ上で下記ワンタイムパスワードをご入力頂き、新しいパスワードを再設定してください。<p>"
-"%1\n"
-"<span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: "
-"50px;\"></span> </p> </p>"
+"<p>ワンタイムパスワードを発行いたしました。パスワード再設定ページ上で下記ワンタイムパスワードをご入力頂き、新しいパスワードを再設定してください。<p>%1\n"
+"<span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\"></span> </p> </p>"
 
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment agent withdrawal form:<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgstr ""
@@ -414,6 +411,11 @@ msgstr "ご本人様確認のために書類の送付が必要です"
 
 msgid "Due to regulatory requirements, you are required to authenticate your account in order to continue trading."
 msgstr "ライセンス監督機関からの取り決めに基づき、トレードを続けるためにはご口座のアップグレードが必要です。"
+
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Duplicate barriers not allowed."
+msgstr "申し訳ございませんが、デモ口座をご利用できません。"
 
 msgid "Email"
 msgstr "メール"
@@ -917,6 +919,9 @@ msgstr "各種キャンペーン情報に関する<br>お知らせを受け取�
 msgid "Reload page"
 msgstr "ページの再読込"
 
+msgid "Request timed out"
+msgstr ""
+
 msgid "Request too frequent. Please try again later."
 msgstr "接続に失敗しました。後ほど再度お試し下さい。"
 
@@ -1285,6 +1290,9 @@ msgstr "現在時刻より未来の日付・時間を選択してください。
 msgid "Token is not valid for current ip address."
 msgstr "現在のIPアドレスに対してこのトークンは無効です。"
 
+msgid "Too many barriers were requested."
+msgstr ""
+
 msgid "Too many market holidays during the contract period."
 msgstr "このトレードは取引期間中に多くの祝日が存在します。"
 
@@ -1303,11 +1311,43 @@ msgstr "構成のアップデート中につき、現在一時的にご利用い
 msgid "Trading is not offered for this duration."
 msgstr "この取引期間の新規注文及び売却取引は出来ません"
 
-msgid "Trading is suspended due to missing market data."
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (out-of-date volatility) data"
+msgstr "現在、一時的にご利用出来ません"
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (spot too far) data"
+msgstr "現在、一時的にご利用出来ません"
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "現在、一時的にご利用出来ません"
 
 msgid "Trading on this market is not offered for this contract type."
 msgstr "%1ではこちらのオプションタイプを提供しておりません"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (dividend) data."
+msgstr "現在、一時的にご利用出来ません"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (old) data."
+msgstr "現在、一時的にご利用出来ません"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (tick) data."
+msgstr "現在、一時的にご利用出来ません"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (volatility) data."
+msgstr "現在、一時的にご利用出来ません"
 
 msgid "Trading on this market is suspended due to missing market data."
 msgstr "現在、一時的にご利用出来ません"
@@ -1411,11 +1451,13 @@ msgstr "既に%1にご登録されています。"
 msgid "You are already subscribed to balance updates."
 msgstr "既に残高更新のお知らせにご登録頂いています。"
 
-msgid "You are already subscribed to proposal array."
-msgstr "既に提案配列にご登録されています。"
-
 msgid "You are already subscribed to proposal."
 msgstr "既に提案にご登録されています。"
+
+#, fuzzy
+#| msgid "You are already subscribed to proposal array."
+msgid "You are already subscribed to proposal_array."
+msgstr "既に提案配列にご登録されています。"
 
 msgid "You are already subscribed to proposal_open_contract."
 msgstr "既にproposal_open_contractにご登録されています。"
