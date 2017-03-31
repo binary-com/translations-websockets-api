@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Chinese (China) (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-03-22 04:10+0000\n"
+"PO-Revision-Date: 2017-03-23 04:53+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hans/>\n"
 "Language: zh_cn\n"
@@ -413,6 +413,11 @@ msgstr "需提交文件验证您的身份"
 msgid "Due to regulatory requirements, you are required to authenticate your account in order to continue trading."
 msgstr "根据监管要求，您必须在账户验证后才能继续交易。"
 
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Duplicate barriers not allowed."
+msgstr "虚拟帐户不可用。"
+
 msgid "Email"
 msgstr "电子邮件"
 
@@ -533,33 +538,23 @@ msgstr "主页URI无效。"
 msgid "Invalid account type."
 msgstr "无效账户类型。"
 
-#, fuzzy
-#| msgid "Invalid amount, maximum is"
 msgid "Invalid amount. Maximum is %1."
-msgstr "无效金额，最大金额是"
+msgstr "无效金额。最大金额是%1。"
 
-#, fuzzy
-#| msgid "The maximum withdrawal is %1."
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
-msgstr "最高取款额为 %1。"
+msgstr "无效金额。最高允许取款限额是%1。"
 
-#, fuzzy
-#| msgid "Invalid amount, minimum is"
 msgid "Invalid amount. Minimum is %1."
-msgstr "无效金额，最小金额是"
+msgstr "无效金额。最小金额是%1。"
 
 msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
 msgstr "无效金额。最小转账金额为0.10，最多2个小数位。"
 
-#, fuzzy
-#| msgid "The minimum withdrawal is %1."
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
-msgstr "最低取款额为 %1。"
+msgstr "无效金额。最低允许取款限额是%1。"
 
-#, fuzzy
-#| msgid "Invalid amount. minimum is 10, maximum is 2000."
 msgid "Invalid amount. minimum is %1, maximum is %2."
-msgstr "无效金额。最小金额是10，最大金额是2000。"
+msgstr "无效金额。最小金额是%1，最大金额是%2。"
 
 msgid "Invalid barrier."
 msgstr "无效障碍。"
@@ -639,10 +634,8 @@ msgstr "MT5 API 通话暂停。"
 msgid "Max 30 tokens are allowed."
 msgstr "最多可拥有30个令牌。"
 
-#, fuzzy
-#| msgid "withdrawal limits"
 msgid "Max withdrawal limit"
-msgstr "取款限额"
+msgstr "最大取款限额"
 
 msgid "Maximum account cash balance"
 msgstr "最大账户现金余额"
@@ -677,10 +670,8 @@ msgstr "最大未平仓头寸数目当前设置为 <strong>%1</strong>"
 msgid "Min trade stake should be lower than max trade stake."
 msgstr "最小交易投注额必须低于最大交易投注额。"
 
-#, fuzzy
-#| msgid "withdrawal limits"
 msgid "Min withdrawal limit"
-msgstr "取款限额"
+msgstr "最小取款限额"
 
 msgid "Minimum stake of %1 and maximum payout of %2"
 msgstr "最小交易金额%1及最大赔付额%2"
@@ -827,10 +818,8 @@ msgstr "欲知详情，请联系客服人员。"
 msgid "Please enter a number between 0 and %1."
 msgstr "请输入0和%1之间的数字。"
 
-#, fuzzy
-#| msgid "Please enter an integer value."
 msgid "Please enter a numeric value."
-msgstr "请输入整数。"
+msgstr "请输入数字值。"
 
 msgid "Please enter a valid name."
 msgstr "请输入有效姓名。"
@@ -930,6 +919,9 @@ msgstr "收取新消息和特别优惠"
 
 msgid "Reload page"
 msgstr "重新加载页面"
+
+msgid "Request timed out"
+msgstr ""
 
 msgid "Request too frequent. Please try again later."
 msgstr "请求过于频繁。请稍后重试。"
@@ -1297,6 +1289,9 @@ msgstr "暂停时间必须大于当前时间。"
 msgid "Token is not valid for current ip address."
 msgstr "令牌对当前ip地址无效。"
 
+msgid "Too many barriers were requested."
+msgstr ""
+
 msgid "Too many market holidays during the contract period."
 msgstr "该合约期限内有太多市场假日。"
 
@@ -1315,11 +1310,43 @@ msgstr "由于数据配置更新，当前交易暂停"
 msgid "Trading is not offered for this duration."
 msgstr "这期间不提供交易。"
 
-msgid "Trading is suspended due to missing market data."
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (out-of-date volatility) data"
+msgstr "由于市场数据丢失，交易暂停。"
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (spot too far) data"
+msgstr "由于市场数据丢失，交易暂停。"
+
+#, fuzzy
+#| msgid "Trading is suspended due to missing market data."
+msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "由于市场数据丢失，交易暂停。"
 
 msgid "Trading on this market is not offered for this contract type."
 msgstr "本市场不提供此类合约交易。"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (dividend) data."
+msgstr "由于市场数据丢失，此市场交易暂停。"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (old) data."
+msgstr "由于市场数据丢失，此市场交易暂停。"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (tick) data."
+msgstr "由于市场数据丢失，此市场交易暂停。"
+
+#, fuzzy
+#| msgid "Trading on this market is suspended due to missing market data."
+msgid "Trading on this market is suspended due to missing market (volatility) data."
+msgstr "由于市场数据丢失，此市场交易暂停。"
 
 msgid "Trading on this market is suspended due to missing market data."
 msgstr "由于市场数据丢失，此市场交易暂停。"
@@ -1425,11 +1452,13 @@ msgstr "您已订阅%1"
 msgid "You are already subscribed to balance updates."
 msgstr "您已订阅余额提醒。"
 
-msgid "You are already subscribed to proposal array."
-msgstr "您已订阅数组提议。"
-
 msgid "You are already subscribed to proposal."
 msgstr "您已订阅项目提议。"
+
+#, fuzzy
+#| msgid "You are already subscribed to proposal array."
+msgid "You are already subscribed to proposal_array."
+msgstr "您已订阅数组提议。"
 
 msgid "You are already subscribed to proposal_open_contract."
 msgstr "您已订阅未平仓合约提议。"
