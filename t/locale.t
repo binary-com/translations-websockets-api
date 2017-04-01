@@ -12,7 +12,7 @@ my $rslt = $test->testlocales();
 # These are translations that we do not expect to be complete yet. We'll
 # still include them in the output, but they should not cause the Travis
 # run to fail.
-my %skip_country = map {; $_ => 1 } qw(de es fr it pt th vi);
+my %skip_country = (); #map {; $_ => 1 } qw(de es fr it pt th vi);
 
 if($test->{status}) {
     pass('all translations ok');
