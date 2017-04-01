@@ -4,4 +4,5 @@ perl:
     - "5.24"
 install:
     - cpanm --quiet --notest List::Util Locale::Maketext::Test
+    - cpanm Locale::Maketext
     - perl -MLocale::Maketext -e 'print $Locale::Maketext::VERSION';
