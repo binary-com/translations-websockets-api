@@ -1,8 +1,11 @@
 language: perl
 perl:
     - "5.14"
+    - "5.16"
+    - "5.18"
+    - "5.20"
+    - "5.22"
     - "5.24"
 install:
     - cpanm --quiet --notest List::Util Locale::Maketext::Test
-    - cpanm Locale::Maketext
     - perl -MLocale::Maketext -e 'print $Locale::Maketext::VERSION';
