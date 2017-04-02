@@ -40,6 +40,7 @@ if($test->{status}) {
                     push @important, $msg unless $TODO;
                 }
             }
+            pass('dummy');
             done_testing;
         }
     }
