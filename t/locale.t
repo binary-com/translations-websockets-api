@@ -26,10 +26,11 @@ if($test->{status}) {
     };
     my @important;
     for my $failed_country (sort +uniq keys(%{$rslt->{warnings}}), keys(%{$rslt->{errors}})) {
-        subtest $failed_country => sub {
+      subtest $failed_country => sub {
+        my $failed = 0;
+
             TODO: {
                 local $TODO = $skip_country{$failed_country} ? 'incomplete translations for ' . $failed_country : undef;
-                my $failed = 0;
                 for my $err (@{$rslt->{errors}{$failed_country} // []}) {
                     my $msg = "error - $failed_country - " . $remap->($err);
 
