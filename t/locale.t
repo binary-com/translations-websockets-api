@@ -27,28 +27,25 @@ if($test->{status}) {
     my @important;
     for my $failed_country (sort +uniq keys(%{$rslt->{warnings}}), keys(%{$rslt->{errors}})) {
       subtest $failed_country => sub {
-        my $failed = 0;
-
+            my $failed = 0;
             TODO: {
-                local $TODO = $skip_country{$failed_country} ? 'incomplete translations for ' . $failed_country : undef;
                 for my $err (@{$rslt->{errors}{$failed_country} // []}) {
+                    next unless $err =~ /Malformed UTF-8/;
                     my $msg = "error - $failed_country - " . $remap->($err);
-
-                    fail $msg && ($failed = 1)  if $msg =~ /Malformed UTF-8/;
-                    push @important, $msg unless $TODO;
+                    fail $msg;
+                    $failed = 1;
                 }
                 for my $warn (@{$rslt->{warnings}{$failed_country} // []}) {
+                  next unless $warn =~ /Malformed UTF-8/;
                     my $msg = "warning - $failed_country - " . $remap->($warn);
-                    fail $msg && ($failed = 1) if /Malformed UTF-8/;
-                    push @important, $msg unless $TODO;
+                  fail $msg;
+                  $failed = 1;
                 }
-            }
-            ok(1) unless $failed;
+              }
+            failed ? fail('failed') : pass('passed');
             done_testing;
         }
     }
-    #diag "The following issues affect our main languages and need fixing:\n", explain(\@important) if @important;
-    # diag explain $rslt;
 }
 
 done_testing;
