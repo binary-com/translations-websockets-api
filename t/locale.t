@@ -42,7 +42,7 @@ if($test->{status}) {
                   $failed = 1;
                 }
               }
-            failed ? fail('failed') : pass('passed');
+            $failed ? fail('failed') : pass('passed');
             done_testing;
         }
     }
