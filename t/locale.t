@@ -29,18 +29,20 @@ if($test->{status}) {
         subtest $failed_country => sub {
             TODO: {
                 local $TODO = $skip_country{$failed_country} ? 'incomplete translations for ' . $failed_country : undef;
+                my $failed = 0;
                 for my $err (@{$rslt->{errors}{$failed_country} // []}) {
                     my $msg = "error - $failed_country - " . $remap->($err);
-                    fail $msg if $msg =~ /Malformed UTF-8/;
+
+                    fail $msg && ($failed = 1)  if $msg =~ /Malformed UTF-8/;
                     push @important, $msg unless $TODO;
                 }
                 for my $warn (@{$rslt->{warnings}{$failed_country} // []}) {
                     my $msg = "warning - $failed_country - " . $remap->($warn);
-                    fail $msg if /Malformed UTF-8/;
+                    fail $msg && ($failed = 1) if /Malformed UTF-8/;
                     push @important, $msg unless $TODO;
                 }
             }
-            ok(1,'dummy');
+            ok(1) unless $failed;
             done_testing;
         }
     }
