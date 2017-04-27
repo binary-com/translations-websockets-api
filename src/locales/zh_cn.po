@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Chinese (China) (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-04-27 01:54+0000\n"
+"PO-Revision-Date: 2017-04-27 02:05+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://hosted.weblate.org/projects"
 "/binary-websocket/translations/zh_Hans/>\n"
@@ -3375,10 +3375,8 @@ msgstr "由于数据配置更新，当前交易暂停。"
 msgid "Payout can not have more than two decimal places."
 msgstr "赔付额的小数点后不得超过两位。"
 
-#, fuzzy
-#| msgid "Stake must be between %1 and %2."
 msgid "Contract may not expire between %1 and %2."
-msgstr "投注额须在%1 与 %2之间。"
+msgstr "合约不可在%1 与 %2之间到期。"
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "高障碍价格不在可接受的范围内。请调整高障碍价格。"
@@ -3389,18 +3387,14 @@ msgstr "由于市场数据丢失，此合约的购入价将退还。"
 msgid "This trade is temporarily unavailable."
 msgstr "此交易暂时不可用。"
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market (volatility) data."
 msgid "Trading is suspended due to missing market data."
-msgstr "由于市场数据丢失（波动率），交易暂停。"
+msgstr "由于市场数据丢失，交易暂停。"
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "到期时间不可与开始时间相同。"
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market (out-of-date volatility) data"
 msgid "Trading is suspended due to missing market (out-of-date volatility) data."
-msgstr "由于市场数据丢失（过时波动率），交易暂停"
+msgstr "由于市场数据丢失（过时波动率），交易暂停。"
 
 msgid "This contract has been sold."
 msgstr "此合约已卖出。"
@@ -3408,15 +3402,11 @@ msgstr "此合约已卖出。"
 msgid "Digit must be in the range of %1 to %2."
 msgstr "数字须在%1 至 %2之间。"
 
-#, fuzzy
-#| msgid "Number of ticks must be between %1 and %2"
 msgid "Number of ticks must be between %1 and %2."
-msgstr "跳动点数目须在%1 与 %2之间"
+msgstr "跳动点数目须在%1 与 %2之间。"
 
-#, fuzzy
-#| msgid "Barrier is not an integer between 0 to 9."
 msgid "Barrier is not an integer in range of %1 to %2."
-msgstr "障碍必须是0至9之间的整数。"
+msgstr "障碍必须是%1至%2之间的整数。"
 
 msgid "Resale of this contract is not offered."
 msgstr "该合约不能转售。"
@@ -3430,15 +3420,11 @@ msgstr "合约必须在交易时段内到期。"
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "超过24小时持续期间的合约必须有个绝对障碍。"
 
-#, fuzzy
-#| msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgid "The market must be open at the start time. Try out the Volatility Indices which are always open."
-msgstr "此市场已关闭。您可以试试一直开放的波动率指数。"
+msgstr "此市场须于开始时间开启。您可以试试一直开放的波动率指数。"
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market (volatility) data."
 msgid "Trading is suspended due to missing market (old) data."
-msgstr "由于市场数据丢失（波动率），交易暂停。"
+msgstr "由于市场数据丢失（旧数据），交易暂停。"
 
 msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgstr "此市场已关闭。您可以试试一直开放的波动率指数。"
@@ -3458,10 +3444,8 @@ msgstr "障碍不在可接受范围内。"
 msgid "Too many market holidays during the contract period."
 msgstr "该合约期限内有太多市场假日。"
 
-#, fuzzy
-#| msgid "Proper barriers could not be determined."
 msgid "Barriers could not be determined."
-msgstr "无法确定合适的障碍。"
+msgstr "无法确定障碍。"
 
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "远期起点合约的开始时间必须离现在5分钟以上。"
@@ -3469,10 +3453,8 @@ msgstr "远期起点合约的开始时间必须离现在5分钟以上。"
 msgid "Contract barrier must be positive."
 msgstr "合约障碍必须为正数。"
 
-#, fuzzy
-#| msgid "Contracts with predefined barrier would need an absolute barrier"
 msgid "Contracts with predefined barrier would need an absolute barrier."
-msgstr "拥有预定障碍的合约必须有个绝对障碍"
+msgstr "拥有预定障碍的合约必须有个绝对障碍。"
 
 msgid "This contract offers no return."
 msgstr "该合约不提供回报。"
@@ -3480,10 +3462,8 @@ msgstr "该合约不提供回报。"
 msgid "Start time is in the future."
 msgstr "开始时间是在未来。"
 
-#, fuzzy
-#| msgid "Trades on Forex with duration less than 2 minutes are temporarily disabled until %1"
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %2 to %3"
-msgstr "直到 %1 为止，持续时间少于2分钟的外汇交易暂时停止"
+msgstr "%2到%3期间内，持续时间少于5小时的外汇交易暂时停止"
 
 msgid "High barrier must be higher than low barrier."
 msgstr "最高障碍必须高于最低障碍。"
@@ -3491,18 +3471,14 @@ msgstr "最高障碍必须高于最低障碍。"
 msgid "Resale of this contract is not offered due to market holidays during contract period."
 msgstr "由于合约期限内有市场假日，该合约不能转售。"
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market (spot too far) data"
 msgid "Trading is suspended due to missing market (spot too far) data."
-msgstr "由于市场数据丢失（与现货价相距太远），交易暂停"
+msgstr "由于市场数据丢失（与现货价相距太远），交易暂停。"
 
 msgid "The contract must expire on a trading day."
 msgstr "合约到期日必须为交易日。"
 
-#, fuzzy
-#| msgid "Please wait for contract settlement."
 msgid "An error occurred during contract settlement."
-msgstr "请等待合约结算。"
+msgstr "合约结算时出错。"
 
 #, fuzzy
 #| msgid "The contract is not available after %1 GMT."
