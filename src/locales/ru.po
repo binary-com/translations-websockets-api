@@ -20,7 +20,9 @@ msgstr ""
 msgid "%1 New Password Request"
 msgstr "Запрос нового пароля %1"
 
-msgid "%1 is required"
+#, fuzzy
+#| msgid "%1 is required"
+msgid "%1 is required."
 msgstr "требуется %1"
 
 msgid "%1 transactions may not be performed with this account."
@@ -80,14 +82,27 @@ msgstr "Отсканированная копия паспорта или вод
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "ВЫ – АВТОРИЗОВАННЫЙ ПЛАТЁЖНЫЙ АГЕНТ?"
 
+#, fuzzy
+#| msgid "Bank account number"
+msgid "Account Number"
+msgstr "Номер банковского счета"
+
 msgid "Account is disabled."
 msgstr "Счёт неактивен."
+
+#, fuzzy
+#| msgid "Bank account name"
+msgid "Account name"
+msgstr "Имя банковского счета"
 
 msgid "Account needs age verification"
 msgstr "Необходима проверка возраста"
 
 msgid "Account not activated."
 msgstr "Счёт не активирован."
+
+msgid "Account type"
+msgstr "Тип счета"
 
 msgid "Acknowledgement of Money Transfer"
 msgstr "Подтверждение денежного перевода"
@@ -119,11 +134,35 @@ msgstr "Необходимо указать ID приложения, чтобы 
 msgid "Authorize application"
 msgstr "Авторизовать приложение"
 
+#, fuzzy
+#| msgid "Change country"
+msgid "Bank country"
+msgstr "Поменять страну"
+
+msgid "Bank name"
+msgstr "Название банка"
+
+#, fuzzy
+#| msgid "Bank Wire"
+msgid "Bank wire"
+msgstr "Банковский перевод"
+
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
 msgstr "Барьер должен находиться минимум на %plural(%1,%d пипс,%d пипса,%d пипсов) от спот-цены."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Барьеры должны быть выше или ниже рыночной цены."
+
+msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
+msgstr ""
+
+msgid "Branch code"
+msgstr "Код филиала"
+
+#, fuzzy
+#| msgid "Bank name"
+msgid "Branch name"
+msgstr "Название банка"
 
 msgid "Cancel"
 msgstr "Отменить"
@@ -181,6 +220,9 @@ msgstr "Страна проживания"
 
 msgid "Cross-company payment agent transfers are not allowed."
 msgstr "Переводы через платежного агента между счетами внутри компании не разрешены."
+
+msgid "Current"
+msgstr "Текущие"
 
 msgid "Daily limit on losses"
 msgstr "Дневной лимит на убытки"
@@ -365,6 +407,11 @@ msgstr ""
 msgid "Deposit"
 msgstr "Пополнение"
 
+#, fuzzy
+#| msgid "Deposit Amount"
+msgid "Deposit amount"
+msgstr "Сумма Депозита"
+
 msgid "Deposit amount must be greater than zero."
 msgstr "Сумма пополнения счёта должна быть больше нуля."
 
@@ -434,6 +481,11 @@ msgstr "Структурированность невозможна"
 msgid "Hello, World!"
 msgstr "Привет, Мир!"
 
+#, fuzzy
+#| msgid "Bank account number"
+msgid "IBAN or Account number"
+msgstr "Номер банковского счета"
+
 msgid "If this error persists, please contact customer support."
 msgstr "Если ошибка повторится, пожалуйста, свяжитесь со службой поддержки."
 
@@ -443,8 +495,10 @@ msgstr "Если Вы считаете, что ни одно из вышеука
 msgid "If you need help, please contact our customer support team at"
 msgstr "Если Вам нужна помощь, обратитесь в службу поддержки"
 
-msgid "If you wish to raise these limits, please authenticate your account."
-msgstr "Если Вы желаете повысить данные лимиты, пожалуйста, авторизируйте свой счет."
+#, fuzzy
+#| msgid "If this error persists, please contact customer support."
+msgid "If you wish to withdraw more than the maximum, please contact customer support."
+msgstr "Если ошибка повторится, пожалуйста, свяжитесь со службой поддержки."
 
 msgid "In order for you to place contracts, we need to know your Residence (Country). Please update your settings."
 msgstr "Для того, чтобы Вы могли приобретать контракты, нам необходимо знать Вашу страну проживания. Пожалуйста, обновите свои настройки."
@@ -458,8 +512,10 @@ msgstr "Неверный эл.адрес или пароль."
 msgid "Input validation failed: "
 msgstr "Проверка введенных данных не удалась: "
 
-msgid "Input validation failed: %1"
-msgstr "Проверка введенных данных не удалась: %1"
+#, fuzzy
+#| msgid "Input validation failed: "
+msgid "Input validation failed: address_postcode"
+msgstr "Проверка введенных данных не удалась: "
 
 msgid "Internal server error"
 msgstr "Внутренняя ошибка сервера"
@@ -477,6 +533,11 @@ msgid "Invalid URI for homepage."
 msgstr "Неправильный URI главной страницы."
 
 msgid "Invalid account type."
+msgstr "Неправильный вид счёта."
+
+#, fuzzy
+#| msgid "Invalid account type."
+msgid "Invalid account."
 msgstr "Неправильный вид счёта."
 
 msgid "Invalid amount. Maximum is %1."
@@ -499,6 +560,11 @@ msgstr "Неправильная сумма. Минимум: %1; максиму�
 
 msgid "Invalid loginid"
 msgstr "Неправильный логин"
+
+#, fuzzy
+#| msgid "Invalid request"
+msgid "Invalid request."
+msgstr "Недействительный запрос"
 
 msgid "Invalid sub account type."
 msgstr "Неправильный вид субсчёта."
@@ -556,6 +622,11 @@ msgstr "Забыли пароль?"
 
 msgid "MT5 API calls are suspended."
 msgstr "Вызовы MT5 API приостановлены."
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Make a transfer to this Binary bank account"
+msgid "Make a transfer to this bank account."
+msgstr "{JAPAN ONLY}Make a transfer to this Binary bank account"
 
 msgid "Max 30 tokens are allowed."
 msgstr "Максимально разрешено 30 кодов подтверждения."
@@ -665,6 +736,11 @@ msgstr "Управление счетами"
 msgid "Option %1 value must be zero or positive number."
 msgstr "Цена опциона %1 должна быть положительным значением или равной нулю."
 
+#, fuzzy
+#| msgid "AP Ordinary"
+msgid "Ordinary"
+msgstr "AP стандартн"
+
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
 "\n"
@@ -741,6 +817,11 @@ msgstr "Пожалуйста, заполните форму финансовой
 msgid "Please contact customer support for more information."
 msgstr "Пожалуйста, свяжитесь со службой поддержки для получения дополнительной информации."
 
+#, fuzzy
+#| msgid "Please contact customer support for more information."
+msgid "Please contact our customer support team if you wish to increase your daily turnover limit."
+msgstr "Пожалуйста, свяжитесь со службой поддержки для получения дополнительной информации."
+
 msgid "Please enter a number between 0 and %1."
 msgstr "Пожалуйста, введите цифру от 0 до %1."
 
@@ -774,8 +855,18 @@ msgstr "Пожалуйста, войдите в систему."
 msgid "Please note that client %1 settings has been updated as below:"
 msgstr "Примите во внимание, что настройки клиента %1 были обновлены следующим образом:"
 
+#, fuzzy
+#| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+msgid "Please note that you now have to contact your bank to complete the transfer."
+msgstr "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+
 msgid "Please note that your settings have been updated as follows:"
 msgstr "Ваши настройки были обновлены:"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
+msgid "Please note: When making the transfer it is very important to add your trading account ID to the Remitter's account name."
+msgstr "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
 
 msgid "Please provide a valid sub account loginid."
 msgstr "Пожалуйста, укажите правильный логин субсчёта."
@@ -795,8 +886,23 @@ msgstr "Пожалуйста, сообщите дополнительную ин
 msgid "Please select"
 msgstr "Выберите"
 
+#, fuzzy
+#| msgid "Please select a valid payment agent."
+msgid "Please select valid payment solution."
+msgstr "Пожалуйста, выберите действующего платежного агента."
+
+#, fuzzy
+#| msgid "Please choose which currency you would like to transact in."
+msgid "Please set the currency you would like to transact in."
+msgstr "Пожалуйста, выберите валюту, которую Вы желаете использовать на счету."
+
 msgid "Please set your 30-day turnover limit in our self-exclusion facilities to access the cashier."
 msgstr "Чтобы открыть доступ к кассе, установите 30-дневный лимит на объём покупок в разделе Самоограничение."
+
+#, fuzzy
+#| msgid "Please select your country of residence"
+msgid "Please set your country of residence."
+msgstr "Пожалуйста, выберите страну проживания"
 
 msgid "Please switch accounts to trade this contract."
 msgstr "Пожалуйста, переключите счета для работы с данным контрактом."
@@ -845,6 +951,11 @@ msgstr "Слишком частые запросы. Пожалуйста, поп
 
 msgid "Review Permissions"
 msgstr "Обзор права доступа"
+
+#, fuzzy
+#| msgid "Settings"
+msgid "Savings"
+msgstr "Настройки"
 
 msgid "Self-Exclusion Facilities"
 msgstr "Услуги по самоограничению"
@@ -995,12 +1106,6 @@ msgstr "Время начала %1 должно быть раньше време
 msgid "Start time is in the past."
 msgstr "Время начала уже прошло."
 
-msgid "Stock Dividend"
-msgstr "Дивиденд в форме акций"
-
-msgid "Stock Split"
-msgstr "Дробление акций"
-
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Потоковые котировки для данного символа недоступны, в связи с ограничениями лицензии."
 
@@ -1015,6 +1120,9 @@ msgstr "Поддерживаемые банки"
 
 msgid "Supported banks list is invalid"
 msgstr "Список поддерживаемых банков недействителен"
+
+msgid "Swift code"
+msgstr ""
 
 msgid "Tax identification number"
 msgstr "Номер налогоплательщика"
@@ -1036,6 +1144,9 @@ msgstr "Команда %1."
 
 msgid "The Payment Agent facility is currently not available in your country."
 msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны."
+
+msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
+msgstr ""
 
 msgid "The account transfer is unavailable for accounts with different default currency."
 msgstr "Трансфер недоступен для счетов с другой валютой по умолчанию."
@@ -1105,6 +1216,9 @@ msgstr "Возникла проблема с подтверждением Ваш
 msgid "There was an error processing the request."
 msgstr "Произошла ошибка при обработке запроса."
 
+msgid "These are the bank account details you provided previously. If you wish to register a different account then please contact customer support."
+msgstr ""
+
 msgid "This Payment Agent cashier section is locked."
 msgstr "Секция КАССА данного платежного агента недоступна."
 
@@ -1153,6 +1267,9 @@ msgstr "Ограничение доступа не может превышать
 msgid "Timeout time must be greater than current time."
 msgstr "Период ограничения должен быть позднее текущего времени."
 
+msgid "To help us track your payment and apply it to your trading account without delay, kindly advise us of the transfer date and amount."
+msgstr ""
+
 msgid "Token is not valid for current ip address."
 msgstr "Ключ не действует для текущего IP адреса."
 
@@ -1167,6 +1284,11 @@ msgstr "Трейдерам запрещено копирование контр�
 
 msgid "Trading"
 msgstr "Контракты"
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Transaction ID: %1"
+msgid "Transaction ID: %1"
+msgstr "{JAPAN ONLY}Transaction ID: %1"
 
 msgid "Unable to price the contract."
 msgstr "Не удалось оценить контракт."
@@ -1313,6 +1435,9 @@ msgstr "Вы открыли более одного счета."
 msgid "You must complete the knowledge test to activate this account."
 msgstr "Для активации счета необходимо пройти тест на проверку знаний."
 
+msgid "You must use a designated bank account to transfer funds to your Binary.com trading account."
+msgstr ""
+
 msgid "You will be automatically logged out after such time."
 msgstr "Вы автоматически будете выходить с сайта после данного времени."
 
@@ -1376,8 +1501,18 @@ msgstr "Ваша КАССА заблокирована."
 msgid "Your cashier was not locked."
 msgstr "Ваша КАССА не заблокирована."
 
+#, fuzzy
+#| msgid "Your cashier session has expired"
+msgid "Your current cashier session has expired. Please start again."
+msgstr "Сессия в разделе КАССА истекла"
+
 msgid "Your date of birth is invalid."
 msgstr "Ваша дата рождения недействительна."
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Your designated bank account"
+msgid "Your designated bank account"
+msgstr "{JAPAN ONLY}Your designated bank account"
 
 msgid "Your email address"
 msgstr "Ваш e-mail"
@@ -1402,6 +1537,11 @@ msgstr "Ваш телефон"
 
 msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site."
 msgstr "Указанный Вами электронный адрес уже используется для другого счёта. В соответствии с нашими Правилами и условиями, Вы можете зарегистрироваться на сайте только один раз."
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
+msgid "Your requested withdrawal will be transferred to the following designated bank account within 5 business days."
+msgstr "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
 
 msgid "Your token has expired or is invalid."
 msgstr "Ваш код подтверждения истёк или недействителен."
@@ -1430,68 +1570,23 @@ msgstr "сегодня"
 msgid "{JAPAN ONLY}"
 msgstr "{JAPAN ONLY}"
 
-msgid "{JAPAN ONLY}Account Number"
-msgstr "{JAPAN ONLY}Account Number"
-
-msgid "{JAPAN ONLY}Account name"
-msgstr "{JAPAN ONLY}Account name"
-
-msgid "{JAPAN ONLY}Account number"
-msgstr "{JAPAN ONLY}Account number"
-
-msgid "{JAPAN ONLY}Account type"
-msgstr "{JAPAN ONLY}Account type"
-
 msgid "{JAPAN ONLY}Amount of hedging assets"
 msgstr "{JAPAN ONLY}Amount of hedging assets"
 
 msgid "{JAPAN ONLY}Annual income"
 msgstr "{JAPAN ONLY}Annual income"
 
-msgid "{JAPAN ONLY}Bank name"
-msgstr "{JAPAN ONLY}Bank name"
-
-msgid "{JAPAN ONLY}Branch code"
-msgstr "{JAPAN ONLY}Branch code"
-
-msgid "{JAPAN ONLY}Branch name"
-msgstr "{JAPAN ONLY}Branch name"
-
 msgid "{JAPAN ONLY}Classification of assets requiring hedge"
 msgstr "{JAPAN ONLY}Classification of assets requiring hedge"
-
-msgid "{JAPAN ONLY}Current"
-msgstr "{JAPAN ONLY}Current"
-
-msgid "{JAPAN ONLY}Deposit"
-msgstr "{JAPAN ONLY}Deposit"
 
 msgid "{JAPAN ONLY}Financial asset"
 msgstr "{JAPAN ONLY}Financial asset"
 
-msgid "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
-msgstr "{JAPAN ONLY}Funds will be transfered to your account within 5 business days."
-
-msgid "{JAPAN ONLY}Make a transfer to this Binary bank account"
-msgstr "{JAPAN ONLY}Make a transfer to this Binary bank account"
-
 msgid "{JAPAN ONLY}Occupation"
 msgstr "{JAPAN ONLY}Occupation"
 
-msgid "{JAPAN ONLY}Ordinary"
-msgstr "{JAPAN ONLY}Ordinary"
-
-msgid "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
-msgstr "{JAPAN ONLY}Please make sure you add your Binary.com account ID to the Remitter's account name."
-
-msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
-msgstr "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
-
 msgid "{JAPAN ONLY}Purpose of trading"
 msgstr "{JAPAN ONLY}Purpose of trading"
-
-msgid "{JAPAN ONLY}Savings"
-msgstr "{JAPAN ONLY}Savings"
 
 msgid "{JAPAN ONLY}Trading Experience for Commodities"
 msgstr "{JAPAN ONLY}Trading Experience for Commodities"
@@ -1514,20 +1609,13 @@ msgstr "{JAPAN ONLY}Trading Experience for OTC derivative (Option) trading"
 msgid "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 
-msgid "{JAPAN ONLY}Transaction ID: %1"
-msgstr "{JAPAN ONLY}Transaction ID: %1"
-
-msgid "{JAPAN ONLY}Withdrawal"
-msgstr "{JAPAN ONLY}Withdrawal"
-
-msgid "{JAPAN ONLY}Your designated bank account"
-msgstr "{JAPAN ONLY}Your designated bank account"
-
-msgid "{JAPAN ONLY}amount"
-msgstr "{JAPAN ONLY}amount"
-
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "{JAPAN ONLY}footer text of email template for Japan"
+
+#, fuzzy
+#| msgid "GBP/MXN"
+msgid "BTC/MXN"
+msgstr "GBP/MXN"
 
 msgid "USDZAR"
 msgstr "USDZAR"
@@ -1595,6 +1683,11 @@ msgstr "USD/NOK"
 msgid "AUD/TRY"
 msgstr "AUD/TRY"
 
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/CAD"
+msgstr "BTC/USD"
+
 msgid "AUD/NZD"
 msgstr "AUD/NZD"
 
@@ -1625,11 +1718,21 @@ msgstr "USD/CAD"
 msgid "GBP/JPY"
 msgstr "GBP/JPY"
 
+#, fuzzy
+#| msgid "CAD/CHF"
+msgid "BTC/CHF"
+msgstr "CAD/CHF"
+
 msgid "GBP Index"
 msgstr "GBP индекс"
 
 msgid "GBP/NZD"
 msgstr "GBP/NZD"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/NZD"
+msgstr "BTC/USD"
 
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
@@ -1642,6 +1745,11 @@ msgstr "GBP/AUD"
 
 msgid "GBP/IDR"
 msgstr "GBP/IDR"
+
+#, fuzzy
+#| msgid "XPT/GBP"
+msgid "BTC/GBP"
+msgstr "XPT/GBP"
 
 msgid "USD/SEK"
 msgstr "USD/SEK"
@@ -1666,6 +1774,11 @@ msgstr "AUD/PLN"
 
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/AUD"
+msgstr "BTC/USD"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
@@ -1709,6 +1822,11 @@ msgstr "NZD/USD"
 msgid "USD Index"
 msgstr "USD индекс"
 
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/SEK"
+msgstr "BTC/EUR"
+
 msgid "AUD/CHF"
 msgstr "AUD/CHF"
 
@@ -1717,6 +1835,11 @@ msgstr "GBP/CAD"
 
 msgid "USD/CHF"
 msgstr "USD/CHF"
+
+#, fuzzy
+#| msgid "CAD/JPY"
+msgid "BTC/JPY"
+msgstr "CAD/JPY"
 
 msgid "AUD/USD"
 msgstr "AUD/USD"
@@ -1739,6 +1862,11 @@ msgstr "EUR/MXN"
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
 
+#, fuzzy
+#| msgid "GBP/PLN"
+msgid "BTC/PLN"
+msgstr "GBP/PLN"
+
 msgid "USD/TRY"
 msgstr "USD/TRY"
 
@@ -1759,6 +1887,11 @@ msgstr "USD/MXN"
 
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
+
+#, fuzzy
+#| msgid "GBP/NOK"
+msgid "BTC/NOK"
+msgstr "GBP/NOK"
 
 msgid "Shanghai OTC Index"
 msgstr "Шанхайский внебирж. индекс"
@@ -1951,11 +2084,11 @@ msgstr "Шведский индекс"
 msgid "Euro 100 OTC Index"
 msgstr "Euro 100 внебирж. индекс"
 
-msgid "Singapore Index"
-msgstr "Сингапурский индекс"
-
 msgid "Wall Street Smart Index"
 msgstr "Wall Street Smart индекс"
+
+msgid "Singapore Index"
+msgstr "Сингапурский индекс"
 
 msgid "Portuguese Smart Index"
 msgstr "Португальский Smart индекс"
@@ -3497,9 +3630,6 @@ msgstr "При расчёте контракта возникла ошибка."
 msgid "Trading is not available from %1 to %2."
 msgstr "Контракт недоступен с %1 до %2."
 
-msgid "This contract is affected by corporate action."
-msgstr "На данный контракт повлияли корпоративные действия."
-
 msgid "This market is presently closed."
 msgstr "Данный рынок сейчас закрыт."
 
@@ -3515,7 +3645,9 @@ msgstr "Внутридневные контракты не могут перех
 msgid "Invalid expiry time."
 msgstr "Неправильное время окончания."
 
-msgid "Invalid stake."
+#, fuzzy
+#| msgid "Invalid stake."
+msgid "Invalid stake/payout."
 msgstr "Неправильная ставка."
 
 msgid "Expiry time cannot be in the past."
@@ -3544,6 +3676,60 @@ msgstr "Минимальная ставка: %1; максимальная вып
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Контракты на данном рынке с длительностью менее 24 часов должны заканчиваться в тот же торговый день."
+
+#~ msgid "If you wish to raise these limits, please authenticate your account."
+#~ msgstr "Если Вы желаете повысить данные лимиты, пожалуйста, авторизируйте свой счет."
+
+#~ msgid "Input validation failed: %1"
+#~ msgstr "Проверка введенных данных не удалась: %1"
+
+#~ msgid "Stock Dividend"
+#~ msgstr "Дивиденд в форме акций"
+
+#~ msgid "Stock Split"
+#~ msgstr "Дробление акций"
+
+#~ msgid "{JAPAN ONLY}Account Number"
+#~ msgstr "{JAPAN ONLY}Account Number"
+
+#~ msgid "{JAPAN ONLY}Account name"
+#~ msgstr "{JAPAN ONLY}Account name"
+
+#~ msgid "{JAPAN ONLY}Account number"
+#~ msgstr "{JAPAN ONLY}Account number"
+
+#~ msgid "{JAPAN ONLY}Account type"
+#~ msgstr "{JAPAN ONLY}Account type"
+
+#~ msgid "{JAPAN ONLY}Bank name"
+#~ msgstr "{JAPAN ONLY}Bank name"
+
+#~ msgid "{JAPAN ONLY}Branch code"
+#~ msgstr "{JAPAN ONLY}Branch code"
+
+#~ msgid "{JAPAN ONLY}Branch name"
+#~ msgstr "{JAPAN ONLY}Branch name"
+
+#~ msgid "{JAPAN ONLY}Current"
+#~ msgstr "{JAPAN ONLY}Current"
+
+#~ msgid "{JAPAN ONLY}Deposit"
+#~ msgstr "{JAPAN ONLY}Deposit"
+
+#~ msgid "{JAPAN ONLY}Ordinary"
+#~ msgstr "{JAPAN ONLY}Ordinary"
+
+#~ msgid "{JAPAN ONLY}Savings"
+#~ msgstr "{JAPAN ONLY}Savings"
+
+#~ msgid "{JAPAN ONLY}Withdrawal"
+#~ msgstr "{JAPAN ONLY}Withdrawal"
+
+#~ msgid "{JAPAN ONLY}amount"
+#~ msgstr "{JAPAN ONLY}amount"
+
+#~ msgid "This contract is affected by corporate action."
+#~ msgstr "На данный контракт повлияли корпоративные действия."
 
 #~ msgid "Cannot validate contract"
 #~ msgstr "Не удалось утвердить контракт"
@@ -4105,9 +4291,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Crosshair"
 #~ msgstr "Линии пересечения"
-
-#~ msgid "Current"
-#~ msgstr "Текущие"
 
 #~ msgid "Current Level"
 #~ msgstr "Текущий уровень"
@@ -4765,9 +4948,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Please check your email to retrieve the token needed to reset your password."
 #~ msgstr "Пожалуйста, проверьте свой эл. адрес; Вам должен прийти токен для изменения пароля."
-
-#~ msgid "Please choose which currency you would like to transact in."
-#~ msgstr "Пожалуйста, выберите валюту, которую Вы желаете использовать на счету."
 
 #~ msgid "Please confirm the trade on your statement before proceeding."
 #~ msgstr "Пожалуйста, подтвердите контракт в своей истории счета, прежде чем продолжить."
@@ -9923,9 +10103,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Please select \"Payout\" or \"Stake\" option."
 #~ msgstr "Пожалуйста, выберите опцию \"Выплата\" или \"Ставка\"."
 
-#~ msgid "Please select your country of residence"
-#~ msgstr "Пожалуйста, выберите страну проживания"
-
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Пожалуйста, укажите желаемый интервал для проверки реальности в минутах "
 
@@ -10290,9 +10467,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Set up and manage social-media advertising campaigns, effectively micro-targeting potential clients and partners"
 #~ msgstr "Проведение и управление рекламными кампаниями в социальных сетях, эффективно ориентированными на потенциальных клиентов и партнёров"
-
-#~ msgid "Settings"
-#~ msgstr "Настройки"
 
 #~ msgid "Severability"
 #~ msgstr "Раздельность положений Соглашения"
@@ -11998,9 +12172,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Your breach of any of Binary.com’s rights;"
 #~ msgstr "нарушение Вами любых прав Binary.com;"
 
-#~ msgid "Your cashier session has expired"
-#~ msgstr "Сессия в разделе КАССА истекла"
-
 #~ msgid "Your clients will love the %1 trading platform because we offer a complete trading experience tailored to the needs of an exceptionally wide range of traders."
 #~ msgstr "Вашим клиентам понравится торговая платформа %1, потому что мы предлагаем интересную торговлю с учетом потребностей различных групп трейдеров."
 
@@ -12585,9 +12756,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "In order to complete your withdrawal, you must authenticate your account. Once you have done so, please proceed to the Cashier and try withdrawing again."
 #~ msgstr "Для завершения вывода средств Вам необходимо авторизировать счет. Как только Вы это сделали, просим пройти в секцию КАССА и попробовать снова."
-
-#~ msgid "Invalid request"
-#~ msgstr "Недействительный запрос"
 
 #~ msgid "There was a problem validating your address. Please fix the indicated fields. If you need assistance feel free to contact our <a href=\"%1\">Customer Support</a>."
 #~ msgstr "Возникла проблема с проверкой адреса. Просим заполнить указанные поля. Если Вам нужна помощь, обратитесь в нашу <a href=\"%1\">службу поддержки</a>."
@@ -13946,9 +14114,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Our Customer service opening hours are:"
 #~ msgstr "Время работы нашего отдела по обслуживанию клиентов:"
-
-#~ msgid "Please select a valid payment agent."
-#~ msgstr "Пожалуйста, выберите действующего платежного агента."
 
 #~ msgid "Please use only alphanumeric characters or spaces."
 #~ msgstr "Пожалуйста, вводите только буквы, цифры или пробелы."
@@ -16154,9 +16319,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "binary options, binary option, forex trading, online trading, financial trading, financial trading binary option, binary trading, index trading, trading indices, forex trades, trading commodities, forex trading market, practice trading, practice binary trading, tick trade, virtual money trading, trading forex stocks, binary trading, binary bet, binary online bet, binary options trading platform, digital options, trading stocks."
 #~ msgstr "бинарные опционы, бинарный опцион, торговля на форексе, торговля онлайн, финансовая торговля, финансовая торговля бинарными опционами, бинарная торговля, торговля на индексах, торговые индексы, сделки на форексе, торговля сырьем, рынок торговли на форексе, практика торговли, попробуйте торговлю на бинарных опционах, тиковые контракты, торговля на демо-счету, торговля на акциях, бинарная торговля, бинарная ставка, бинарная ставка онлайн, торговая платформа бинарными опционами, торговля акциями."
-
-#~ msgid "Bank Wire"
-#~ msgstr "Банковский перевод"
 
 #~ msgid "Dear %1 %2 %3, We would like to inform you that your %5 Withdrawal has been processed. Kind Regards, %4"
 #~ msgstr "Уважаемый/ая %1 %2 %3, Мы рады сообщить, что вывод %5 был произведен. Средства были сняты с Вашего счета. С уважением, %4"
@@ -20524,9 +20686,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "A problem occurred.<P>If this persists, please email <a href=\"mailto:%1\">%1</a> to report the situation, quoting your LoginID and your browser and PC versions."
 #~ msgstr "Возникла проблема. <P>Если эта проблема будет возникать и далее, пожалуйста, напишите по адресу <a href=\"mailto:%1\">%1</a>, чтобы сообщить о сложившейся ситуации, указав свой логин, браузер и версию ПК."
 
-#~ msgid "Account type"
-#~ msgstr "Тип счета"
-
 #~ msgid "Accumulation Distribution"
 #~ msgstr "Индикатор накопления"
 
@@ -20608,13 +20767,7 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Bank Wire Withdrawal"
 #~ msgstr "Вывод средств банковским переводом"
 
-#~ msgid "Bank account name"
-#~ msgstr "Имя банковского счета"
-
 #~ msgid "Bank account no."
-#~ msgstr "Номер банковского счета"
-
-#~ msgid "Bank account number"
 #~ msgstr "Номер банковского счета"
 
 #~ msgid "Bank account number is too long, please enter maximum %1 characters."
@@ -20622,9 +20775,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Bank account number is too short, please enter at least %1 characters."
 #~ msgstr "Слишком короткий номер банковского счета, введите минимум %1 знаков."
-
-#~ msgid "Bank name"
-#~ msgstr "Название банка"
 
 #~ msgid "Bank or sort code"
 #~ msgstr "Код банка или сорт-код"
@@ -20646,9 +20796,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Branch address"
 #~ msgstr "Адрес филиала"
-
-#~ msgid "Branch code"
-#~ msgstr "Код филиала"
 
 #~ msgid "Building Name"
 #~ msgstr "Номер дома"
@@ -20679,9 +20826,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "CartaSi Deposit via Moneybookers"
 #~ msgstr "Внесение CartaSi через Moneybookers"
-
-#~ msgid "Change country"
-#~ msgstr "Поменять страну"
 
 #~ msgid "Check back frequently as we regularly post update on new features, service announcements, special offers and more."
 #~ msgstr "Не забывайте проверять наши новости, так как мы регулярно размещаем здесь информацию о новых функциях сайта, услугах, предложениях и другом."
@@ -20754,9 +20898,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Dear %1"
 #~ msgstr "Уважаемый(ая) %1"
-
-#~ msgid "Deposit Amount"
-#~ msgstr "Сумма Депозита"
 
 #~ msgid "Deposit money into your account"
 #~ msgstr "Пополнить счет"
