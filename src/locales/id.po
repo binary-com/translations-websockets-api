@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-06-30 05:17+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/binary-websocket/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -999,6 +998,9 @@ msgstr "Maaf, hanya USD diperbolehkan."
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "Maaf, layanan kami tidak tersedia untuk negara domisili Anda."
 
+msgid "Sorry, placement of ICO is not support for this service."
+msgstr ""
+
 msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "Maaf, Transfer Agen Pembayaran dihentikan untuk sementara berhubung perbaikan sistem. Silahkan coba kembali 30 menit lagi."
 
@@ -1312,10 +1314,8 @@ msgid ""
 "We would like to inform you that the transfer of %1 %2 has been processed.\n"
 "Transaction %3 is confirmed. The funds have been credited into your account."
 msgstr ""
-"Kami ingin menginformasikan bahwa transfer Anda sebesar %1 %2 telah diproses."
-"\n"
-"Transaksi %3 telah dikonfirmasi. Dana tersebut telah dikreditkan ke dalam "
-"akun Anda."
+"Kami ingin menginformasikan bahwa transfer Anda sebesar %1 %2 telah diproses.\n"
+"Transaksi %3 telah dikonfirmasi. Dana tersebut telah dikreditkan ke dalam akun Anda."
 
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
@@ -1336,16 +1336,14 @@ msgid ""
 "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
 "Transaction %3 is confirmed."
 msgstr ""
-"Email berikut adalah untuk menginformasikan mengenai permohonan penarikan "
-"dana sebesar %1 %2 sudah berhasil diproses.\n"
+"Email berikut adalah untuk menginformasikan mengenai permohonan penarikan dana sebesar %1 %2 sudah berhasil diproses.\n"
 "Transaksi %3 telah dikonfirmasi."
 
 msgid ""
 "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
 "Transaction %3 is pending confirmation."
 msgstr ""
-"Email berikut adalah untuk menginformasikan mengenai permohonan penarikan "
-"dana sebesar %1%2 sudah berhasil diproses.\n"
+"Email berikut adalah untuk menginformasikan mengenai permohonan penarikan dana sebesar %1%2 sudah berhasil diproses.\n"
 "Transaksi %3 masih menunggu konfirmasi."
 
 msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
@@ -1563,9 +1561,6 @@ msgstr "alfanumerik dengan spasi dan garis, 2-32 karakter"
 
 msgid "amount"
 msgstr "jumlah"
-
-msgid "epoch => $_, quote => 100 + rand(0.1)"
-msgstr "epoch => $_, quote => 100 + rand(0.1)"
 
 msgid "homepage"
 msgstr "homepage"
@@ -3520,9 +3515,6 @@ msgstr "Dapatkan hasil jika %3 pasti akan lebih tinggi dari %6 pada %5."
 msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
 msgstr "Dapatkan hasil jika digit terakhir %3 adalah %6 setelah %plural(%5,%d tik)."
 
-msgid "Binary %1 to be sent to [2]"
-msgstr "Binary %1 untuk dikirim ke [2]"
-
 msgid "Win payout if %3 touches %6 through %5 after %4."
 msgstr "Dapatkan hasil jika %3 menyentuh %6 melewati %5 setelah %4."
 
@@ -3565,14 +3557,16 @@ msgstr "Kontrak ini telah berakhir."
 msgid "Trading is not offered for this duration."
 msgstr "Trading tidak ditawarkan untuk durasi ini."
 
+#, fuzzy
+#| msgid "We are not support auction with this token %1"
+msgid "We are not support auction of  %1"
+msgstr "Kami tidak mendukung lelang dengan token ini %1"
+
 msgid "We could not process this contract at this time."
 msgstr "Kami tidak dapat memproses kontrak saat ini."
 
 msgid "Trading is currently suspended due to configuration update."
 msgstr "Trading saat ini ditangguhkan berhubung pembaruan konfigurasi."
-
-msgid "The auction bid price can not be less than zero."
-msgstr "Harga penawaran lelang tidak bisa kurang dari nol."
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "Batasan atas adalah diluar rentang yang dibenarkan. Silahkan sesuaikan batasan atas."
@@ -3591,9 +3585,6 @@ msgstr "Batas adalah bukan bilangan bulat antara %1 hingga %2."
 
 msgid "Resale of this contract is not offered."
 msgstr "Penjualan kembali untuk kontrak ini tidak ditawarkan."
-
-msgid "We are not support auction with this token %1"
-msgstr "Kami tidak mendukung lelang dengan token ini %1"
 
 msgid "Contract market price is too close to final payout."
 msgstr "Harga kontrak berbeda tipis dengan hasil akhir."
@@ -3626,9 +3617,7 @@ msgid "Start time is in the future."
 msgstr "Mulai waktu di masa depan."
 
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
-msgstr ""
-"Trading forex dengan durasi kurang dari 5 jam untuk sementara tidak tersedia "
-"dari %1 hingga %2"
+msgstr "Trading forex dengan durasi kurang dari 5 jam untuk sementara tidak tersedia dari %1 hingga %2"
 
 msgid "High barrier must be higher than low barrier."
 msgstr "Batasan tinggi harus lebih tinggi dari batasan rendah."
@@ -3638,6 +3627,12 @@ msgstr "Penjualan kembali untuk kontrak ini tidak ditawarkan berhubung liburan s
 
 msgid "Trading is suspended due to missing market (spot too far) data."
 msgstr "Trading dihentikan sementara waktu berhubung gangguan data pasar (spot terlalu jauh)."
+
+msgid "Number of token placed must be between %1 and %2."
+msgstr "Jumlah token harus antara %1 dan %2."
+
+msgid "The minimum bid price is USD1. Your bid price is %1%2 which is equivalent to USD%3 ."
+msgstr ""
 
 msgid "An error occurred during contract settlement."
 msgstr "Terjadi error selama penyelesaian kontrak."
@@ -3714,9 +3709,6 @@ msgstr "Kontrak dengan barrier yang ditentukan memerlukan absolut barrier."
 msgid "The contract must expire on a trading day."
 msgstr "Kontrak harus berakhir pada hari trading."
 
-msgid "Number of token placed must be between %1 and %2."
-msgstr "Jumlah token harus antara %1 dan %2."
-
 msgid "Trading is not available from %1 to %2."
 msgstr "Trading tidak tersedia dari %1 hingga %2."
 
@@ -3740,6 +3732,15 @@ msgstr "Trading dihentikan sementara waktu berhubung gangguan data pasar (volati
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Kontrak pada pasar ini dengan durasi kurang dari 24 jam harus berakhir pada hari trading yang sama."
+
+#~ msgid "epoch => $_, quote => 100 + rand(0.1)"
+#~ msgstr "epoch => $_, quote => 100 + rand(0.1)"
+
+#~ msgid "Binary %1 to be sent to [2]"
+#~ msgstr "Binary %1 untuk dikirim ke [2]"
+
+#~ msgid "The auction bid price can not be less than zero."
+#~ msgstr "Harga penawaran lelang tidak bisa kurang dari nol."
 
 #~ msgid "Copy trading is only available with real money accounts."
 #~ msgstr "Copy trading hanya tersedia dengan akun uang riil saja."

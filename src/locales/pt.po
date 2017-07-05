@@ -1001,6 +1001,9 @@ msgstr "Lamentamos, apenas são permitidos dólares dos EUA."
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "Lamentamos, o nosso serviço não está disponível no seu país de residência."
 
+msgid "Sorry, placement of ICO is not support for this service."
+msgstr ""
+
 msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "Lamentamos, os pagamentos por Agentes de Retirada de fundos estão temporariamente suspensos devido à manutenção do sistema. Por favor, tente novamente em 30 minutos."
 
@@ -1577,9 +1580,6 @@ msgstr "alfanumérico com espaço e traço, 2 a 32 caracteres"
 
 msgid "amount"
 msgstr "montante"
-
-msgid "epoch => $_, quote => 100 + rand(0.1)"
-msgstr ""
 
 msgid "homepage"
 msgstr "página inicial"
@@ -3588,9 +3588,6 @@ msgstr "Ganhe o prêmio se %3 for estritamente superior a %6 às %5."
 msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
 msgstr "Ganhe o prêmio se o último dígito de %3 for %6 depois de %plural(%5,%d tique-taque,%d tique-taques)."
 
-msgid "Binary %1 to be sent to [2]"
-msgstr ""
-
 msgid "Win payout if %3 touches %6 through %5 after %4."
 msgstr "Ganhe o prêmio se %3 tocar %6 até %5 depois de %4."
 
@@ -3633,16 +3630,14 @@ msgstr "Lamentamos, este contrato já expirou."
 msgid "Trading is not offered for this duration."
 msgstr "A negociação não é oferecida para esta duração."
 
+msgid "We are not support auction of  %1"
+msgstr ""
+
 msgid "We could not process this contract at this time."
 msgstr "Neste momento nós não pudemos processar este contrato."
 
 msgid "Trading is currently suspended due to configuration update."
 msgstr "As negociações estão atualmente suspensas devido a uma atualização de configuração."
-
-#, fuzzy
-#| msgid "Exclude time cannot be less than 6 months."
-msgid "The auction bid price can not be less than zero."
-msgstr "O tempo de exclusão não pode ser inferior a 6 meses."
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "A barreira alta está fora do intervalo aceitável. Ajuste a barreira alta."
@@ -3661,9 +3656,6 @@ msgstr "A barreira não é um número inteiro no intervalo de %1 a %2."
 
 msgid "Resale of this contract is not offered."
 msgstr "A revenda deste contrato não é oferecida."
-
-msgid "We are not support auction with this token %1"
-msgstr ""
 
 msgid "Contract market price is too close to final payout."
 msgstr "O preço de mercado do contrato é demasiado próximo do prêmio final."
@@ -3708,6 +3700,14 @@ msgstr "A revenda deste contrato não é oferecida devido aos feriados de mercad
 
 msgid "Trading is suspended due to missing market (spot too far) data."
 msgstr "As negociações estão suspensas devido à falta de dados do mercado (preço à vista demasiado afastado)."
+
+#, fuzzy
+#| msgid "Number of ticks must be between %1 and %2."
+msgid "Number of token placed must be between %1 and %2."
+msgstr "O número de tique-taques deve ser entre %1 e %2."
+
+msgid "The minimum bid price is USD1. Your bid price is %1%2 which is equivalent to USD%3 ."
+msgstr ""
 
 msgid "An error occurred during contract settlement."
 msgstr "Ocorreu um erro durante a liquidação do contrato."
@@ -3788,11 +3788,6 @@ msgstr "Contratos com barreiras predefinidas precisam de uma barreira absoluta."
 msgid "The contract must expire on a trading day."
 msgstr "O contrato deverá expirar em um dia de negociação."
 
-#, fuzzy
-#| msgid "Number of ticks must be between %1 and %2."
-msgid "Number of token placed must be between %1 and %2."
-msgstr "O número de tique-taques deve ser entre %1 e %2."
-
 msgid "Trading is not available from %1 to %2."
 msgstr "Negociações não estão disponíveis das %1 às %2."
 
@@ -3816,6 +3811,11 @@ msgstr "As negociações estão suspensas devido à falta de dados do mercado (v
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Contratos neste mercado com uma duração inferior a um dia devem expirar no mesmo dia de negociação."
+
+#, fuzzy
+#~| msgid "Exclude time cannot be less than 6 months."
+#~ msgid "The auction bid price can not be less than zero."
+#~ msgstr "O tempo de exclusão não pode ser inferior a 6 meses."
 
 #~ msgid "Copy trading is only available with real money accounts."
 #~ msgstr "A negociação de cópia só é permitida em contas de dinheiro real."

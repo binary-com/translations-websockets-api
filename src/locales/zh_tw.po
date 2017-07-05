@@ -1000,6 +1000,9 @@ msgstr "對不起，只允許美元。"
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "對不起，我們不對您的居住國提供服務。"
 
+msgid "Sorry, placement of ICO is not support for this service."
+msgstr ""
+
 msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "對不起，由於系統維護，付款代理取款暫時不可用。請於30分鐘後重試。"
 
@@ -1576,9 +1579,6 @@ msgstr "允許輸入英數字元和空格虛線，2-32個字元"
 
 msgid "amount"
 msgstr "金額"
-
-msgid "epoch => $_, quote => 100 + rand(0.1)"
-msgstr ""
 
 msgid "homepage"
 msgstr "首頁"
@@ -3585,9 +3585,6 @@ msgstr "如果 %3 在 %5 時嚴格高於 %6，將獲得賠付額。"
 msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
 msgstr "如果%3的最後數字在%plural(%5,%d 跳動點)之後為%6，將獲得賠付額。"
 
-msgid "Binary %1 to be sent to [2]"
-msgstr ""
-
 msgid "Win payout if %3 touches %6 through %5 after %4."
 msgstr "如果%3在%4過後一直到%5時觸及%6，將獲得賠付額。"
 
@@ -3630,16 +3627,14 @@ msgstr "合約已經到期。"
 msgid "Trading is not offered for this duration."
 msgstr "不在此段期間提供交易。"
 
+msgid "We are not support auction of  %1"
+msgstr ""
+
 msgid "We could not process this contract at this time."
 msgstr "目前我們無法處理該合約。"
 
 msgid "Trading is currently suspended due to configuration update."
 msgstr "由於資料配置更新，目前交易暫停。"
-
-#, fuzzy
-#| msgid "Exclude time cannot be less than 6 months."
-msgid "The auction bid price can not be less than zero."
-msgstr "禁止時間不能少於6個月。"
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "高障礙價格不在可接受的範圍內。請調整高障礙價格。"
@@ -3658,9 +3653,6 @@ msgstr "障礙至少必須是%1至%2之間的整數。"
 
 msgid "Resale of this contract is not offered."
 msgstr "該合約不能轉售。"
-
-msgid "We are not support auction with this token %1"
-msgstr ""
 
 msgid "Contract market price is too close to final payout."
 msgstr "合約市場價格離最終賠付額太近。"
@@ -3705,6 +3697,14 @@ msgstr "因為合約期限內有市場假日，該合約不能轉售。"
 
 msgid "Trading is suspended due to missing market (spot too far) data."
 msgstr "由於市場資料丟失(與現貨價相距太遠)，交易暫停。"
+
+#, fuzzy
+#| msgid "Number of ticks must be between %1 and %2."
+msgid "Number of token placed must be between %1 and %2."
+msgstr "跳動點數目須在%1 與 %2之間。"
+
+msgid "The minimum bid price is USD1. Your bid price is %1%2 which is equivalent to USD%3 ."
+msgstr ""
 
 msgid "An error occurred during contract settlement."
 msgstr "合約結算時出錯。"
@@ -3785,11 +3785,6 @@ msgstr "擁有預定障礙的合約必須有個絕對障礙。"
 msgid "The contract must expire on a trading day."
 msgstr "合約到期日必須為交易日。"
 
-#, fuzzy
-#| msgid "Number of ticks must be between %1 and %2."
-msgid "Number of token placed must be between %1 and %2."
-msgstr "跳動點數目須在%1 與 %2之間。"
-
 msgid "Trading is not available from %1 to %2."
 msgstr "%1到%2期間內交易暫停。"
 
@@ -3813,6 +3808,11 @@ msgstr "由於市場資料丟失(波動率)，交易暫停。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
+
+#, fuzzy
+#~| msgid "Exclude time cannot be less than 6 months."
+#~ msgid "The auction bid price can not be less than zero."
+#~ msgstr "禁止時間不能少於6個月。"
 
 #~ msgid "Copy trading is only available with real money accounts."
 #~ msgstr "複製交易僅可用於真實資金帳戶。"

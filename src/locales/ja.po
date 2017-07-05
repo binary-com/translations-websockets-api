@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-07-03 08:55+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1024,6 +1023,9 @@ msgstr "申し訳ございませんが、米ドルのみ承ります。"
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "申し訳ございません。当社はお客さまの居住国へサービスを提供しておりません。"
 
+msgid "Sorry, placement of ICO is not support for this service."
+msgstr ""
+
 msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "申し訳ございませんが、決済サービスの出金はシステムメンテナンスのため現在ご利用いただけません。お手数をお掛けしますが、30分後に再度お試しください。"
 
@@ -1580,9 +1582,6 @@ msgstr "スペースやダッシュ（―）を含む英数字2-32文字"
 
 msgid "amount"
 msgstr "金額"
-
-msgid "epoch => $_, quote => 100 + rand(0.1)"
-msgstr "epoch => $_, quote => 100 + rand(0.1)"
 
 msgid "homepage"
 msgstr "ホームページ"
@@ -3543,9 +3542,6 @@ msgstr "%3のラダーHIGHは、%5の判定時刻の時点で%6以上を予測"
 msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
 msgstr "%3の下一桁が%plural(%5,%d tick)後に%6である場合に、ペイアウトをお受け取りいただけます。"
 
-msgid "Binary %1 to be sent to [2]"
-msgstr "Binary %1 to be sent to [2]"
-
 msgid "Win payout if %3 touches %6 through %5 after %4."
 msgstr "%3のTOUCHは、%4から%5 GMTの取引が終了するまでに%6にタッチを予測"
 
@@ -3588,14 +3584,16 @@ msgstr "このトレードは既に終了しました。"
 msgid "Trading is not offered for this duration."
 msgstr "この取引期間の新規注文及び売却取引は出来ません"
 
+#, fuzzy
+#| msgid "We are not support auction with this token %1"
+msgid "We are not support auction of  %1"
+msgstr "We are not support auction with this token %1"
+
 msgid "We could not process this contract at this time."
 msgstr "この時間で当トレードを処理することは不可能でした。"
 
 msgid "Trading is currently suspended due to configuration update."
 msgstr "構成のアップデート中につき、現在一時的にご利用いただけません。"
-
-msgid "The auction bid price can not be less than zero."
-msgstr "The auction bid price can not be less than zero."
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "高バリアは許容範囲外です。高バリアの調整をしてください。"
@@ -3614,9 +3612,6 @@ msgstr "バリア値が%1から%2の間の値ではありません。"
 
 msgid "Resale of this contract is not offered."
 msgstr "満期までの2分は売却取引不可"
-
-msgid "We are not support auction with this token %1"
-msgstr "We are not support auction with this token %1"
 
 msgid "Contract market price is too close to final payout."
 msgstr "取引の市場価格が最終払い戻し価格に近すぎます。"
@@ -3659,6 +3654,12 @@ msgstr "市場の休場スケジュールの都合につき、このトレード
 
 msgid "Trading is suspended due to missing market (spot too far) data."
 msgstr "現在、一時的にご利用出来ません。"
+
+msgid "Number of token placed must be between %1 and %2."
+msgstr "Number of token placed must be between %1 and %2."
+
+msgid "The minimum bid price is USD1. Your bid price is %1%2 which is equivalent to USD%3 ."
+msgstr ""
 
 msgid "An error occurred during contract settlement."
 msgstr "トレードの決済中にエラーが発生しました。"
@@ -3735,9 +3736,6 @@ msgstr "設定されたバリアは、基準値を基にそれぞれの設定間
 msgid "The contract must expire on a trading day."
 msgstr "トレードはトレード可能日に終了する必要があります。"
 
-msgid "Number of token placed must be between %1 and %2."
-msgstr "Number of token placed must be between %1 and %2."
-
 msgid "Trading is not available from %1 to %2."
 msgstr "%1から%2のお取引はご利用いただけません。"
 
@@ -3761,6 +3759,15 @@ msgstr "現在、一時的にご利用出来ません"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "取引期間が24時間以内の回号での取引は、取引開始日と取引終了日は同日となります。"
+
+#~ msgid "epoch => $_, quote => 100 + rand(0.1)"
+#~ msgstr "epoch => $_, quote => 100 + rand(0.1)"
+
+#~ msgid "Binary %1 to be sent to [2]"
+#~ msgstr "Binary %1 to be sent to [2]"
+
+#~ msgid "The auction bid price can not be less than zero."
+#~ msgstr "The auction bid price can not be less than zero."
 
 #~ msgid "Copy trading is only available with real money accounts."
 #~ msgstr "トレードのコピーはリアルマネー口座のアカウントでのみ可能です。"
