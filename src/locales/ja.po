@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-07-10 07:28+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,8 +82,7 @@ msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued C
 msgstr ""
 "<p style=\"line-height:200%;color:#333333;font-size:15px;\">お客様へ</p>\n"
 "<p>出金の申請ページ上のワンタイムパスワード欄に下記ワンタイムパスワードをご入力してください。\n"
-"<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-"
-"height: 50px;\">%1</span></p></p>\n"
+"<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p>\n"
 "<p>ご不明な点等ございましたら、カスタマーサポートまでご連絡ください。</p>"
 
 msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system. If it was not you, simply ignore this email, or contact our customer support if you have any concerns.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
@@ -116,9 +114,6 @@ msgstr "この口座は無効です"
 msgid "Account name"
 msgstr "口座名義（全角カナ）"
 
-msgid "Account needs age verification"
-msgstr "年齢確認が必要です"
-
 msgid "Account needs age verification."
 msgstr "年齢確認が必要です"
 
@@ -139,6 +134,11 @@ msgstr "現住所"
 
 msgid "Allow copiers"
 msgstr "コピー可"
+
+#, fuzzy
+#| msgid "amount"
+msgid "Amount"
+msgstr "金額"
 
 msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3 and browser: %4. If this additional sign-in was not performed by you, and / or you have any related concerns, please contact our Customer Support team."
 msgstr ""
@@ -211,8 +211,10 @@ msgstr "登録情報変更完了のお知らせ【Binary株式会社】"
 msgid "Client activity disabled at this time."
 msgstr "現在、トレードを行うことができません"
 
-msgid "Client email not set."
-msgstr "顧客メールアドレスが設定されていません。"
+#, fuzzy
+#| msgid "Client activity disabled at this time."
+msgid "Client activity is disabled currently."
+msgstr "現在、トレードを行うことができません"
 
 msgid "Client is not fully authenticated."
 msgstr "クライアントは完全に許可されていません。"
@@ -261,6 +263,9 @@ msgstr "1日の取引限度額"
 
 msgid "Daily turnover limit is currently set to <strong>%1 %2</strong>"
 msgstr "1日の取引限度額は、現在<strong>%1 %2</strong>に設定されています。"
+
+msgid "Date"
+msgstr "日付"
 
 msgid "Date of birth is invalid"
 msgstr "生年月日が無効です"
@@ -457,6 +462,9 @@ msgstr "ライセンス監督機関からの取り決めに基づき、トレー
 msgid "Duplicate barriers not allowed."
 msgstr "バリアの重複はできません"
 
+msgid "Each transaction will be confirmed once we receive three confirmations from the blockchain."
+msgstr ""
+
 msgid "Email"
 msgstr "メール"
 
@@ -468,6 +476,16 @@ msgstr "メールアドレスが正しくありません"
 
 msgid "Email not given."
 msgstr "Eメールアドレスが入力されていません。"
+
+#, fuzzy
+#| msgid "Enter your email"
+msgid "Enter Your"
+msgstr "メールアドレスを入力"
+
+#, fuzzy
+#| msgid "Please enter amount."
+msgid "Enter the amount"
+msgstr "金額を入力して下さい。"
 
 msgid "Exclude me from the website until"
 msgstr "特定日まで利用禁止（日時単位）"
@@ -527,9 +545,10 @@ msgid "If you need help, please contact our customer support team at"
 msgstr "ご不明な点がございましたら、当社カスタマーサポートチームまでお問い合わせ下さい。"
 
 msgid "If you wish to withdraw more than the maximum, please contact customer support."
+msgstr "限度額を超える金額の出金をご希望の際は、カスタマーサポートまでご連絡ください。また、3000円未満の出金につきまして、振込手数料はお客さま負担となりますのでご了承ください。"
+
+msgid "Important:"
 msgstr ""
-"限度額を超える金額の出金をご希望の際は、カスタマーサポートまでご連絡ください。また、3000円未満の出金につきまして、振込手数料はお客さま負担となりますの"
-"でご了承ください。"
 
 msgid "In order for you to place contracts, we need to know your Residence (Country). Please update your settings."
 msgstr "取引を開始にあたり、当社はお客さまの居住国を確認する必要があります。設定を更新して下さい。"
@@ -567,6 +586,16 @@ msgstr "無効な口座タイプです。"
 msgid "Invalid account."
 msgstr "無効な口座です。"
 
+#, fuzzy
+#| msgid "Invalid email address"
+msgid "Invalid address."
+msgstr "無効なEメールアドレス"
+
+#, fuzzy
+#| msgid "Invalid account."
+msgid "Invalid amount."
+msgstr "無効な口座です。"
+
 msgid "Invalid amount. Maximum is %1."
 msgstr "無効な値です。最大は%1です。"
 
@@ -584,6 +613,9 @@ msgstr "無効な値です。最小出金額は%1です。"
 
 msgid "Invalid amount. minimum is %1, maximum is %2."
 msgstr "無効な値です。最小%1・最大%2です。"
+
+msgid "Invalid currency."
+msgstr "無効通貨です。"
 
 msgid "Invalid loginid"
 msgstr "ログインIDが無効です"
@@ -817,6 +849,11 @@ msgstr "アフィリエイト報酬の支払いについて"
 msgid "Payments are suspended."
 msgstr "決済処理を停止しております。"
 
+#, fuzzy
+#| msgid "Translations"
+msgid "Pending Transactions"
+msgstr "翻訳"
+
 msgid "Permission denied, requires %1 scope."
 msgstr "アクセス権限がありません。%1が必要です。"
 
@@ -889,6 +926,11 @@ msgstr "下記の内容でお客さま登録情報の変更を承りました。
 msgid "Please note: When making the transfer it is very important to add your trading account ID to the Remitter's account name."
 msgstr "ご注意：振込を行う際に、必ずJPで始まる取引口座番号を振込名義の前に記載してください。"
 
+#, fuzzy
+#| msgid "Please enter your email address."
+msgid "Please provide a valid email address."
+msgstr "メールアドレスをご入力して下さい。"
+
 msgid "Please provide a valid sub account loginid."
 msgstr "有効なサブ口座ログインIDをご入力ください。"
 
@@ -913,6 +955,11 @@ msgstr "有効な決済サービスを選択してください。"
 msgid "Please set the currency you would like to transact in."
 msgstr "日本円にてお手続きできます"
 
+#, fuzzy
+#| msgid "Please post the documents to:"
+msgid "Please set the currency."
+msgstr "以下の住所へ書類をご郵送して下さい。："
+
 msgid "Please set your 30-day turnover limit in our self-exclusion facilities to access the cashier."
 msgstr "キャッシャーにアクセスいただくには、取引上限の設定から30日の取引数量限度額を設定してください。"
 
@@ -931,11 +978,17 @@ msgstr "この原資産で取引されるには、口座をお切り替えいた
 msgid "Please use a different password than your login password."
 msgstr "ログインパスワードとは異なるパスワードを使用してください。"
 
+msgid "Please use the address above only once. For subsequent deposits, please visit the cashier page again to generate a new address."
+msgstr ""
+
 msgid "Postcode is required for UK residents."
 msgstr "イギリスに居住している方は郵便番号のご入力が必須となります。"
 
 msgid "Proceeded as %1"
 msgstr "%1として続行"
+
+msgid "Provided amount is not within permissible limits."
+msgstr ""
 
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
 msgstr "ペイアウト限度額に達しているため新規注文をおこなえません。続行いただくには、保有ポジションを決済していただく必要があります。"
@@ -1009,6 +1062,11 @@ msgstr "通信エラーが発生しましたので、再度ページの読み込
 msgid "Sorry, an error occurred while processing your request. Please contact customer support with %1 as reference."
 msgstr "申し訳ございませんが、ページを読み込み中にエラーが発生しました。状況が改善されない場合はカスタマーサポートまでご連絡下さい"
 
+#, fuzzy
+#| msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
+msgstr "申し訳ございませんが、決済サービスでの送金はシステムメンテナンスのため一時的にご利用いただけません。お手数をお掛けしますが、30分後に再度お試しください。"
+
 msgid "Sorry, client balance will exceed limits with this payment."
 msgstr "申し訳ございません。この出金は口座残高の制限を超えております。"
 
@@ -1047,6 +1105,11 @@ msgstr "申し訳ございませんが、お客さまの口座のトレードペ
 
 msgid "Sorry, there is an internal error."
 msgstr "申し訳ございません。内部エラーが発生しています。"
+
+#, fuzzy
+#| msgid "Sorry, an error occurred while processing your request. Please contact customer support with %1 as reference."
+msgid "Sorry, there was a problem generating an address. Please contact customer support if this problem persists."
+msgstr "申し訳ございませんが、ページを読み込み中にエラーが発生しました。状況が改善されない場合はカスタマーサポートまでご連絡下さい"
 
 msgid "Sorry, there was a problem validating your personal information with our payment processor. Please contact our Customer Service team."
 msgstr "申し訳ございませんが、決済処理の際にお客さまの個人情報認証に問題が発生しました。カスタマーサポートまでご連絡ください。"
@@ -1162,9 +1225,7 @@ msgid "The Payment Agent facility is currently not available in your country."
 msgstr "その決済サービスは、お客さまのお住まいの国では現在ご利用いただけません。"
 
 msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
-msgstr ""
-"振込名義（取引口座名義と同一）の前に、必ずJPから始まるリアル口座番号を記載してください。ご登録頂いた金融機関以外からのご入金の処理は行えませんのでご了承"
-"ください。"
+msgstr "振込名義（取引口座名義と同一）の前に、必ずJPから始まるリアル口座番号を記載してください。ご登録頂いた金融機関以外からのご入金の処理は行えませんのでご了承ください。"
 
 msgid "The account transfer is unavailable for accounts with different default currency."
 msgstr "既定通貨が異なるため、口座振替はできません。"
@@ -1178,6 +1239,9 @@ msgstr "お客さまの%1口座への口座振替はできません。"
 msgid "The account transfer is unavailable. Please deposit to your account."
 msgstr "口座振替はご利用いただけません。お客さまの口座へご入金ください。"
 
+msgid "The address can be only used once. Please generate a new address."
+msgstr ""
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "取引レートが%1%2から%1%3に変化しました。"
 
@@ -1186,6 +1250,11 @@ msgstr "このトレードは終了しました"
 
 msgid "The email address and date of birth do not match."
 msgstr "メールアドレスと生年月日が一致しません。"
+
+#, fuzzy
+#| msgid "Sorry, the maximum amount you can convert is"
+msgid "The maximum amount you may transfer is: %1."
+msgstr "申し訳ございませんが、お客様が両替して頂ける最大金額をご確認下さい："
 
 msgid "The name is taken."
 msgstr "名前が取得されました。"
@@ -1265,7 +1334,9 @@ msgstr "このトレードは、オープン中のポジション内に存在し
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "この契約価格は%1%2です。%3から購入された契約は、%1%4以上の購入価格である必要があります。そのため、最小出資比率を満たすために契約数を増やしてください。"
 
-msgid "This is a virtual-money account. Please switch to a real-money account to deposit funds."
+#, fuzzy
+#| msgid "This is a virtual-money account. Please switch to a real-money account to deposit funds."
+msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "こちらはデモ口座です。リアル口座へ切り替えてご入金ください。"
 
 msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
@@ -1286,6 +1357,9 @@ msgstr "現在時刻より未来の日付・時間を選択してください。
 msgid "To help us track your payment and apply it to your trading account without delay, kindly advise us of the transfer date and amount."
 msgstr "万が一、登録完了前に当社への送金を行われてもお取引口座に反映できませんのでご了承ください。初回入金のみ、入金金額を記載して下さい。"
 
+msgid "To view confirmed transactions, kindly visit the statement page."
+msgstr ""
+
 msgid "Token is not valid for current ip address."
 msgstr "現在のIPアドレスに対してこのトークンは無効です。"
 
@@ -1303,6 +1377,11 @@ msgstr "トレード"
 
 msgid "Transaction ID: %1"
 msgstr "トランザクションID:%1"
+
+#, fuzzy
+#| msgid "Translations"
+msgid "Transactions"
+msgstr "翻訳"
 
 msgid "Unable to price the contract."
 msgstr "このトレードの価格設定はできません。"
@@ -1496,7 +1575,9 @@ msgstr "フリーボーナスのみのご利用に基づくトレードの上限
 msgid "Your account has no country of residence."
 msgstr "お客さまの口座は居住国のものではありません。"
 
-msgid "Your account is disabled"
+#, fuzzy
+#| msgid "Your account is disabled"
+msgid "Your account is disabled."
 msgstr "この口座は無効です"
 
 msgid "Your account is locked for withdrawals. Please contact customer service."
@@ -1514,14 +1595,16 @@ msgstr "残高が許容額を超えています。"
 msgid "Your bonus request - %1"
 msgstr "ボーナスリクエスト：%1"
 
-msgid "Your cashier is locked"
-msgstr "入出金はロックされています"
-
 msgid "Your cashier is locked as per your request"
 msgstr "お客さまからのリクエストにより入出金がロックされました。"
 
 msgid "Your cashier is locked as per your request."
 msgstr "リクエストにより入出金がロックされました。"
+
+#, fuzzy
+#| msgid "Your cashier is locked"
+msgid "Your cashier is locked."
+msgstr "入出金はロックされています"
 
 msgid "Your cashier section is locked."
 msgstr "入出金はロックされています。"
@@ -1547,7 +1630,9 @@ msgstr "お客さまのメールアドレス"
 msgid "Your email address is unverified."
 msgstr "お客さまのメールアドレスは無効です。"
 
-msgid "Your identity documents have passed their expiration date. Kindly send a scan of a valid ID to <a href=\"mailto:%1\">%1</a> to unlock your cashier."
+#, fuzzy
+#| msgid "Your identity documents have passed their expiration date. Kindly send a scan of a valid ID to <a href=\"mailto:%1\">%1</a> to unlock your cashier."
+msgid "Your identity documents have passed their expiration date. Kindly send a scan of a valid identity document to %1 to unlock your cashier."
 msgstr "ご提出頂いた身分証明書の有効期限が切れてしまいましたので、入出金は現在ロックされています。新たな身分証明書を<a href=\"mailto:%1\">%1</a>までご送付して下さい。"
 
 msgid "Your name/company"
@@ -1582,6 +1667,11 @@ msgstr "決済処理が完了しました。"
 
 msgid "Your website URL"
 msgstr "ウェブサイトURL"
+
+#, fuzzy
+#| msgid "Address"
+msgid "address:"
+msgstr "現住所"
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "スペースやダッシュ（―）を含む英数字2-32文字"
@@ -3664,8 +3754,10 @@ msgstr "現在、一時的にご利用出来ません。"
 msgid "Number of token placed must be between %1 and %2."
 msgstr "Number of token placed must be between %1 and %2."
 
-msgid "The minimum bid price is USD1. Your bid price is %1%2 which is equivalent to USD%3 ."
-msgstr ""
+#, fuzzy
+#| msgid "Your withdrawal limit is %1 %2 (or equivalent in other currency)."
+msgid "Your bid price is too low, the minimum bid price is USD1 (or equivalent in other currency)."
+msgstr "お客さまのご出金限度額は %1 %2 です。 (または同等の他通貨)"
 
 msgid "An error occurred during contract settlement."
 msgstr "トレードの決済中にエラーが発生しました。"
@@ -3765,6 +3857,12 @@ msgstr "現在、一時的にご利用出来ません"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "取引期間が24時間以内の回号での取引は、取引開始日と取引終了日は同日となります。"
+
+#~ msgid "Account needs age verification"
+#~ msgstr "年齢確認が必要です"
+
+#~ msgid "Client email not set."
+#~ msgstr "顧客メールアドレスが設定されていません。"
 
 #~ msgid "epoch => $_, quote => 100 + rand(0.1)"
 #~ msgstr "epoch => $_, quote => 100 + rand(0.1)"
@@ -4389,9 +4487,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 #~ msgid "Daily"
 #~ msgstr "日毎"
 
-#~ msgid "Date"
-#~ msgstr "日付"
-
 #~ msgid "Date (GMT)"
 #~ msgstr "日付 (GMT)"
 
@@ -4673,9 +4768,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "Invalid date of birth."
 #~ msgstr "生年月日が無効です。"
-
-#~ msgid "Invalid email address"
-#~ msgstr "無効なEメールアドレス"
 
 #~ msgid "Invalid period input! Please input the period between 0 and #1"
 #~ msgstr "期間の指定が不適切です。期間は0と#1の間でご指定下さい。"
@@ -5785,9 +5877,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "Your transaction reference number is %1"
 #~ msgstr "決済の参照番号は%1です"
-
-#~ msgid "Your withdrawal limit is %1 %2 (or equivalent in other currency)."
-#~ msgstr "お客さまのご出金限度額は %1 %2 です。 (または同等の他通貨)"
 
 #~ msgid "Your withdrawal limit is %1 %2."
 #~ msgstr "お客さまの出金限度額は%1 %2です。"
@@ -8308,9 +8397,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "Ensuring that the Binary Group of companies are in full compliance with the regulatory regimes to which they are subject"
 #~ msgstr "バイナリーグループ企業が対象の規制制度に完全に準拠していることを保証"
-
-#~ msgid "Enter your email"
-#~ msgstr "メールアドレスを入力"
 
 #~ msgid "Entry spot"
 #~ msgstr "エントリー価格"
@@ -11623,9 +11709,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 #~ msgid "Translate the ongoing business needs of the company into a suitable IT infrastructure"
 #~ msgstr "当社継続中のビジネスニーズを適切なITインフラへ変換"
 
-#~ msgid "Translations"
-#~ msgstr "翻訳"
-
 #~ msgid "Trust"
 #~ msgstr "信頼性の証"
 
@@ -13596,9 +13679,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 #~ msgid "Please note that to apply to become a Payment Agent, you must <a href=\"%1\">Authenticate your Account</a> first."
 #~ msgstr "決済サービスエージェントになるための申請を行っていただくためには、最初に<a href=\"%1\">お客様の口座の認証</a> をしていただく必要がありますのでご注意ください。"
 
-#~ msgid "Please post the documents to:"
-#~ msgstr "以下の住所へ書類をご郵送して下さい。："
-
 #~ msgid "Proof of address"
 #~ msgstr "居住地の証明について"
 
@@ -13832,9 +13912,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "Please agree to the terms in order to proceed."
 #~ msgstr "続行するには、規約に同意をする必要があります。"
-
-#~ msgid "Please enter amount."
-#~ msgstr "金額を入力して下さい。"
 
 #~ msgid "Should you not need any of the API tokens that you’ve already generated, you may simply delete them from the list."
 #~ msgstr "既に作成したAPIトークンに不要なものがある場合、リストから簡単に削除いただけます。"
@@ -14376,9 +14453,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "Instrument:"
 #~ msgstr "取引対象："
-
-#~ msgid "Invalid currency."
-#~ msgstr "無効通貨です。"
 
 #~ msgid "Listing only Payment Agents in %1."
 #~ msgstr "%1での唯一の決済サービスリスト"
@@ -16626,9 +16700,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "Please note that if you have deposited at least once by credit/debit card, you may find that you are restricted in the amount you may convert into other currencies."
 #~ msgstr "クレジット・デビットカードからご入金をされた金額は他の通貨への両替を承ることは致しかねます。"
-
-#~ msgid "Sorry, the maximum amount you can convert is"
-#~ msgstr "申し訳ございませんが、お客様が両替して頂ける最大金額をご確認下さい："
 
 #~ msgid "Western Union"
 #~ msgstr "ウェスタン・ユニオン"
