@@ -93,7 +93,7 @@ msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Kính gửi 
 
 #, fuzzy
 #| msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system. If it was not you, simply ignore this email, or contact our customer support if you have any concerns.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
-msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system.  <p>You may have:</p><ul><li>Registered with us using the same email in the past, or</li><li>Registered with one of our technology or brokerage partners</li></ul><p>If you’d like to proceed, please try using a different email address to register your account.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
+msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system.  <p>You may have:</p><ul><li>Registered with us using the same email in the past, or</li><li>Registered with one of our technology or brokerage partners</li></ul><p>If you'd like to proceed, please try using a different email address to register your account.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
 msgstr "<p>Kính gửi Quý khách hàng,</p><p>Có vẻ như bạn vừa cố gắng đăng kí với một địa chỉ email đã tồn tại trên hệ thống của chúng tôi. Nếu đó không phải bạn, bạn chỉ cần bỏ qua email này, hoặc liên hệ với nhân viên hỗ trợ khách hàng của chúng tôi nếu bạn có bất kỳ thắc mắc nào.</p><p style=\"color:#333333;font-size:15px;\">Hân hạnh,<br/>%1</p>"
 
 msgid "A general error has occurred."
@@ -570,6 +570,9 @@ msgstr ""
 "\n"
 "%1"
 
+msgid "For subsequent deposits, please visit the cashier page again to generate a new address."
+msgstr ""
+
 msgid "Further instructions must not exceed %1 characters."
 msgstr "Chỉ dẫn bổ sung không được vượt quá %1 kí tự."
 
@@ -639,6 +642,11 @@ msgstr "Đường dẫn không hợp lệ tới googleplay."
 
 msgid "Invalid URI for homepage."
 msgstr "Đường dẫn không hợp lệ tới trang chủ."
+
+#, fuzzy
+#| msgid "Invalid token"
+msgid "Invalid URL"
+msgstr "Token không hợp lệ"
 
 msgid "Invalid account type."
 msgstr "Loại tài khoản không hợp lệ."
@@ -858,6 +866,11 @@ msgstr "Chỉ cho phép 2 số thập phân sau dấu phẩy."
 msgid "Only a maximum of two decimal points are allowed for the withdrawal amount."
 msgstr "Chỉ cho phép 2 số thập phân sau dấu phẩy."
 
+#, fuzzy
+#| msgid "Only %1 are allowed."
+msgid "Only ports 80 and 443 are allowed"
+msgstr "Chỉ có %1 được cho phép."
+
 msgid "Open an Account"
 msgstr "Mở Tài khoản"
 
@@ -1067,8 +1080,10 @@ msgstr "Vui lòng thử lại."
 msgid "Please use a different password than your login password."
 msgstr "Vui lòng sử dụng một mật khẩu khác với mật khẩu đăng nhập của bạn."
 
-msgid "Please use the address above only once. For subsequent deposits, please visit the cashier page again to generate a new address."
-msgstr ""
+#, fuzzy
+#| msgid "Please post the documents to:"
+msgid "Please use the address above only once."
+msgstr "Vui lòng gửi hồ sơ tới:"
 
 msgid "Postcode is required for UK residents."
 msgstr "Mã bưu điện được yêu cầu đối với công dân Vương quốc Anh."
@@ -1350,6 +1365,9 @@ msgstr "Hợp đồng đã hết hạn"
 msgid "The email address and date of birth do not match."
 msgstr "Địa chỉ email và ngày sinh không khớp với nhau."
 
+msgid "The given URL is not http(s)"
+msgstr ""
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr ""
 
@@ -1489,17 +1507,36 @@ msgstr "{NHẬT BẢN} ID Giao dịch: %1"
 msgid "Transactions"
 msgstr "Dịch"
 
+msgid "URL should not have fragment"
+msgstr ""
+
+msgid "URL should not have query"
+msgstr ""
+
+msgid "URL should not have user info"
+msgstr ""
+
 msgid "Unable to price the contract."
 msgstr "Không thể định giá hợp đồng."
 
 msgid "Unfortunately your answers to the questions above indicate that you do not have sufficient financial resources or trading experience to be eligible to open a trading account at this time."
 msgstr "Thật không may câu trả lời cho câu hỏi trên đã chỉ ra rằng bạn không đủ nguồn tài chính hoặc không đủ kinh nghiệm giao dịch để có thể mở tài khoản giao dịch vào lúc này."
 
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Unicode is not allowed in URL"
+msgstr "Xin lỗi, điều này không được cho phép."
+
 msgid "Unknown contract proposal"
 msgstr "Đề nghị hợp đồng không rõ"
 
 msgid "Unknown contract sell proposal"
 msgstr "Đề nghị bán hợp đồng không rõ"
+
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Unknown domain name"
+msgstr "Công ty đích không rõ."
 
 msgid "Unknown landing company."
 msgstr "Công ty đích không rõ."
@@ -4143,6 +4180,11 @@ msgstr "Hợp đồng giao dịch trong ngày có thể không giao với 
 msgid "Invalid stake/payout."
 msgstr "Số tiền đặt cọc không hợp lệ"
 
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero"
+msgid "Lookbacks price cannot be zero."
+msgstr "Rào chắn tuyệt đối không thể là 0"
+
 msgid "Expiry time cannot be in the past."
 msgstr "Thời gian hết hạn không thể ở quá khứ."
 
@@ -4202,9 +4244,6 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "Tài khoản này không có. Nếu có bất kì câu hỏi nào xin vui lòng liên hệ với Phòng Hỗ trợ Khách hàng."
-
-#~ msgid "Virtual account is not allowed."
-#~ msgstr "Xin lỗi, điều này không được cho phép."
 
 #~ msgid "Your account is locked for withdrawals. Please contact customer service."
 #~ msgstr "Tài khoản của bạn đã bị khóa chức năng rút tiền. Xin vui lòng liên hệ với dịch vụ khách hàng."
@@ -5363,9 +5402,6 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 
 #~ msgid "Once you click the 'Submit' button, the funds will be withdrawn from your account and transferred to your Client's account."
 #~ msgstr "Một khi bạn nhấp chuột vào nút \"Gửi yêu cầu\", tiền sẽ được rút khỏi tài khoản của bạn và được chuyển tới tài khoản của khách hàng của bạn."
-
-#~ msgid "Only %1 are allowed."
-#~ msgstr "Chỉ có %1 được cho phép."
 
 #~ msgid "Open"
 #~ msgstr "Mở"
