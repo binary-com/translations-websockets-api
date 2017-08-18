@@ -12,18 +12,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.16-dev\n"
 
+#, fuzzy
+#| msgid "Kind Regards,"
 msgid ""
 "\n"
 "\n"
 "Kind Regards,\n"
 "\n"
-"The %1 team."
-msgstr ""
-"\n"
-"\n"
-"此致，\n"
-"\n"
-"%1團隊。"
+"%1"
+msgstr "此致，"
 
 msgid "%1 New Password Request"
 msgstr "%1 新密碼要求"
@@ -146,6 +143,11 @@ msgstr "處理付款代理轉帳時出錯。"
 
 msgid "An error occurred while processing your payment agent withdrawal."
 msgstr "處理付款代理取款時出錯。"
+
+#, fuzzy
+#| msgid "An error occurred while processing request. Please try again after one minute."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "處理請求時出現錯誤。請一分鐘後重試。"
 
 msgid "An unexpected error occurred"
 msgstr "發生不可預測錯誤"
@@ -605,6 +607,12 @@ msgstr "無效金額。最小允許取款限額是%1。"
 msgid "Invalid amount. minimum is %1, maximum is %2."
 msgstr "無效金額。最小金額是%1，最大金額是%2。"
 
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr ""
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr ""
+
 msgid "Invalid loginid"
 msgstr "無效登入id"
 
@@ -885,6 +893,11 @@ msgstr "請驗證您的帳戶，以繼續操作。"
 msgid "Please authenticate your account to increase your daily turnover limit."
 msgstr "如要增加每日交易限額，請驗證您的帳戶。"
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Please authenticate your account."
+msgstr "請驗證您的帳戶，以繼續操作。"
+
 msgid "Please complete financial assessment."
 msgstr "請完成財務評估。"
 
@@ -924,11 +937,6 @@ msgstr "請登入。"
 msgid "Please note that client %1 settings has been updated as below:"
 msgstr "請注意，客戶%1 的設定已完成以下更新："
 
-#, fuzzy
-#| msgid "Please note that you now have to contact your bank to complete the transfer."
-msgid "Please note that you are limited to one account per currency type."
-msgstr "請注意，現您須聯繫您的銀行，以完成匯款。"
-
 msgid "Please note that you now have to contact your bank to complete the transfer."
 msgstr "請注意，現您須聯繫您的銀行，以完成匯款。"
 
@@ -961,11 +969,6 @@ msgstr "請選擇"
 
 msgid "Please select valid payment solution."
 msgstr "請選擇有效的支付方法。"
-
-#, fuzzy
-#| msgid "Please set the currency you would like to transact in."
-msgid "Please set the currency for your existing account %1, in order to create more accounts."
-msgstr "請設定您想要交易的貨幣。"
 
 msgid "Please set the currency."
 msgstr "請設定貨幣。"
@@ -1070,11 +1073,6 @@ msgstr "對不起，出現錯誤。請重新嘗試存取我們的收銀台。"
 
 msgid "Sorry, an error occurred while processing your account."
 msgstr "對不起，在處理您的帳戶時出錯。"
-
-#, fuzzy
-#| msgid "Sorry, an error occurred while processing your request (code %1)"
-msgid "Sorry, an error occurred while processing your request (code %1)."
-msgstr "對不起，在處理您的請求時發生錯誤(代碼 %1)"
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "對不起，在處理您的請求時發生錯誤。"
@@ -1466,13 +1464,6 @@ msgid "Virtual money credit to account"
 msgstr "虛擬資金已經到帳"
 
 msgid ""
-"We would like to inform you that the transfer of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed. The funds have been credited into your account."
-msgstr ""
-"我們特此通知您，%1 %2轉帳已經處理。\n"
-"%3交易已確認。資金已經到帳。"
-
-msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
 "\n"
@@ -1487,25 +1478,46 @@ msgstr ""
 "\n"
 "%4團隊。"
 
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed."
-msgstr ""
-"我們特此通知您，%1 %2取款要求已經處理。\n"
-"%3交易已確認。"
-
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is pending confirmation."
-msgstr ""
-"我們特此通知您，%1 %2取款要求已經處理。\n"
-"%3交易待確認。"
-
 msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
 msgstr "我們特此通知您，由%3 %4呈交的%1 %2取款要求已經處理。資金已經計入您在%6的%5帳戶。"
 
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "我們特此通知您，您的%1已處理。"
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the transfer of %1 %2 has been processed.\n"
+#| "Transaction %3 is confirmed. The funds have been credited into your account."
+msgid ""
+"We would like to inform you that your deposit of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed.\n"
+"\n"
+"The funds have been credited into your account."
+msgstr ""
+"我們特此通知您，%1 %2轉帳已經處理。\n"
+"%3交易已確認。資金已經到帳。"
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
+#| "Transaction %3 is confirmed."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed."
+msgstr ""
+"我們特此通知您，%1 %2取款要求已經處理。\n"
+"%3交易已確認。"
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
+#| "Transaction %3 is pending confirmation."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been processed.\n"
+"Transaction number %3 is pending confirmation at this point."
+msgstr ""
+"我們特此通知您，%1 %2取款要求已經處理。\n"
+"%3交易待確認。"
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "對不起，自我禁止工具對於虛擬帳戶不可用。"
@@ -1530,9 +1542,6 @@ msgstr "是"
 
 msgid "You already have a %1 account %2"
 msgstr "您必須擁有%1的帳戶%2"
-
-msgid "You already have a financial money account. Please switch accounts to trade financial products."
-msgstr ""
 
 msgid "You are already subscribed to %1"
 msgstr "您已訂閱%1"
@@ -1566,11 +1575,6 @@ msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
 
 msgid "You have already claimed a bonus in the past."
 msgstr "您此前已領取獎金。"
-
-#, fuzzy
-#| msgid "You have opened an account using invalid details."
-msgid "You have created all accounts available to you."
-msgstr "您使用無效的詳細資料開了一個帳戶。"
 
 msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "您已超出此類合約的每日限額。"
@@ -3949,6 +3953,39 @@ msgstr "由於市場資料丟失(波動率)，交易暫停。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "\n"
+#~ "The %1 team."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "此致，\n"
+#~ "\n"
+#~ "%1團隊。"
+
+#, fuzzy
+#~| msgid "Please note that you now have to contact your bank to complete the transfer."
+#~ msgid "Please note that you are limited to one account per currency type."
+#~ msgstr "請注意，現您須聯繫您的銀行，以完成匯款。"
+
+#, fuzzy
+#~| msgid "Please set the currency you would like to transact in."
+#~ msgid "Please set the currency for your existing account %1, in order to create more accounts."
+#~ msgstr "請設定您想要交易的貨幣。"
+
+#, fuzzy
+#~| msgid "Sorry, an error occurred while processing your request (code %1)"
+#~ msgid "Sorry, an error occurred while processing your request (code %1)."
+#~ msgstr "對不起，在處理您的請求時發生錯誤(代碼 %1)"
+
+#, fuzzy
+#~| msgid "You have opened an account using invalid details."
+#~ msgid "You have created all accounts available to you."
+#~ msgstr "您使用無效的詳細資料開了一個帳戶。"
 
 #~ msgid "An error occurred while processing request. If this error persists, please contact customer support"
 #~ msgstr "處理要求時發生錯誤。如果問題持續出現，請聯繫客戶支援人員"

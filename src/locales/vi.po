@@ -24,7 +24,7 @@ msgid ""
 "\n"
 "Kind Regards,\n"
 "\n"
-"The %1 team."
+"%1"
 msgstr "Trân trọng,"
 
 msgid "%1 New Password Request"
@@ -180,6 +180,11 @@ msgstr "Xin lỗi, Lỗi xảy ra trong khi đang xử lý tài khoản cu�
 #| msgid "Sorry, an error occurred while processing your account."
 msgid "An error occurred while processing your payment agent withdrawal."
 msgstr "Xin lỗi, Lỗi xảy ra trong khi đang xử lý tài khoản của bạn."
+
+#, fuzzy
+#| msgid "A problem occurred while connecting to the server. Please try again later."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "Lỗi xảy ra khi kết nối với máy chủ. Vui lòng thử lại sau."
 
 msgid "An unexpected error occurred"
 msgstr "Đã có lỗi bất ngờ xảy ra"
@@ -697,6 +702,12 @@ msgstr "Số tiền không hợp lệ. Số tiền rút tối thiểu là %1."
 msgid "Invalid amount. minimum is %1, maximum is %2."
 msgstr "Số tiền không hợp lệ. nhỏ nhất là %1 và lớn nhất là %2."
 
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr ""
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr ""
+
 msgid "Invalid loginid"
 msgstr "ID đăng nhập không hợp lệ"
 
@@ -999,6 +1010,11 @@ msgstr "Xác thực tài khoản của bạn"
 msgid "Please authenticate your account to increase your daily turnover limit."
 msgstr "Xin vui lòng liên hệ với hỗ trợ khách hàng để biết thêm thông tin."
 
+#, fuzzy
+#| msgid "Authenticate your account"
+msgid "Please authenticate your account."
+msgstr "Xác thực tài khoản của bạn"
+
 msgid "Please complete financial assessment."
 msgstr "Vui lòng hoàn thành đánh giá tài chính."
 
@@ -1040,11 +1056,6 @@ msgstr "Xin lưu ý rằng cài đặt máy khách %1 đã được cập nhật
 
 #, fuzzy
 #| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
-msgid "Please note that you are limited to one account per currency type."
-msgstr "{NHẬT BẢN} Xin lưu ý rằng bây giờ bạn phải liên hệ với ngân hàng của bạn để hoàn thành việc chuyển nhượng."
-
-#, fuzzy
-#| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
 msgid "Please note that you now have to contact your bank to complete the transfer."
 msgstr "{NHẬT BẢN} Xin lưu ý rằng bây giờ bạn phải liên hệ với ngân hàng của bạn để hoàn thành việc chuyển nhượng."
 
@@ -1083,11 +1094,6 @@ msgstr "Vui lòng chọn"
 #| msgid "Please select a valid payment agent."
 msgid "Please select valid payment solution."
 msgstr "Vui lòng chọn một đại lý thanh toán hợp lệ."
-
-#, fuzzy
-#| msgid "Please choose which currency you would like to transact in."
-msgid "Please set the currency for your existing account %1, in order to create more accounts."
-msgstr "Xin vui lòng chọn đồng tiền mà bạn muốn giao dịch."
 
 #, fuzzy
 #| msgid "Please post the documents to:"
@@ -1200,11 +1206,6 @@ msgstr "Xin lỗi, một lỗi đã xảy ra, Vui lòng thử truy cập hệ th
 
 msgid "Sorry, an error occurred while processing your account."
 msgstr "Xin lỗi, Lỗi xảy ra trong khi đang xử lý tài khoản của bạn."
-
-#, fuzzy
-#| msgid "Sorry, an error occurred while processing your request."
-msgid "Sorry, an error occurred while processing your request (code %1)."
-msgstr "Rất tiếc, đã xảy ra lỗi khi đang xử lý yêu cầu của bạn."
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Rất tiếc, đã xảy ra lỗi khi đang xử lý yêu cầu của bạn."
@@ -1617,25 +1618,6 @@ msgstr "Xác minh yêu cầu rút tiền - %1"
 msgid "Virtual money credit to account"
 msgstr "Tín dụng tiền ảo vào tài khoản"
 
-#, fuzzy
-#| msgid ""
-#| "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
-#| "The funds have been credited into your account.\n"
-#| "\n"
-#| "Kind Regards,\n"
-#| "\n"
-#| "The %4 team."
-msgid ""
-"We would like to inform you that the transfer of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed. The funds have been credited into your account."
-msgstr ""
-"Chúng tôi muốn thông báo với bạn rằng việc chuyển khoản %1 %2 qua %3 đã được xử lý.↵\n"
-"   Tiền đã được ghi có vào tài khoản của bạn.↵\n"
-"↵\n"
-"   Thân ái,↵\n"
-"↵\n"
-"   Nhóm %4."
-
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
@@ -1651,25 +1633,46 @@ msgstr ""
 "↵\n"
 "   Nhóm %4."
 
-#, fuzzy
-#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed."
-msgstr "Chúng tôi muốn thông báo rằng bạn đã yêu cầu rút số tiền %1%2 qua %3 %4 đã được xử lý. Số tiền đó đã được ghi có vào tài khoản %5 của bạn tại %6."
-
-#, fuzzy
-#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is pending confirmation."
-msgstr "Chúng tôi muốn thông báo rằng bạn đã yêu cầu rút số tiền %1%2 qua %3 %4 đã được xử lý. Số tiền đó đã được ghi có vào tài khoản %5 của bạn tại %6."
-
 msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
 msgstr "Chúng tôi muốn thông báo rằng bạn đã yêu cầu rút số tiền %1%2 qua %3 %4 đã được xử lý. Số tiền đó đã được ghi có vào tài khoản %5 của bạn tại %6."
 
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "Chúng tôi muốn thông báo với bạn rằng %1 của bạn đã được xử lý."
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
+#| "The funds have been credited into your account.\n"
+#| "\n"
+#| "Kind Regards,\n"
+#| "\n"
+#| "The %4 team."
+msgid ""
+"We would like to inform you that your deposit of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed.\n"
+"\n"
+"The funds have been credited into your account."
+msgstr ""
+"Chúng tôi muốn thông báo với bạn rằng việc chuyển khoản %1 %2 qua %3 đã được xử lý.↵\n"
+"   Tiền đã được ghi có vào tài khoản của bạn.↵\n"
+"↵\n"
+"   Thân ái,↵\n"
+"↵\n"
+"   Nhóm %4."
+
+#, fuzzy
+#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed."
+msgstr "Chúng tôi muốn thông báo rằng bạn đã yêu cầu rút số tiền %1%2 qua %3 %4 đã được xử lý. Số tiền đó đã được ghi có vào tài khoản %5 của bạn tại %6."
+
+#, fuzzy
+#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been processed.\n"
+"Transaction number %3 is pending confirmation at this point."
+msgstr "Chúng tôi muốn thông báo rằng bạn đã yêu cầu rút số tiền %1%2 qua %3 %4 đã được xử lý. Số tiền đó đã được ghi có vào tài khoản %5 của bạn tại %6."
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "Chúng tôi xin lỗi nhưng công cụ Tự loại trừ không có sẵn cho Tài khoản Ảo."
@@ -1694,9 +1697,6 @@ msgstr "Có"
 
 msgid "You already have a %1 account %2"
 msgstr "Bạn đã có một tài khoản %1 %2"
-
-msgid "You already have a financial money account. Please switch accounts to trade financial products."
-msgstr ""
 
 msgid "You are already subscribed to %1"
 msgstr "Bạn đã xác nhận với %1"
@@ -1732,11 +1732,6 @@ msgstr "Bạn không thể chuyển vào tài khoản %1, vì tài khoản củ
 
 msgid "You have already claimed a bonus in the past."
 msgstr "Bạn đã khiếu nại một khoản tiền thưởng trong quá khứ."
-
-#, fuzzy
-#| msgid "You have opened an account using invalid details."
-msgid "You have created all accounts available to you."
-msgstr "Bạn đã mở tài khoản sử dụng các chi tiết không hợp lệ."
 
 msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "Bạn đã vượt quá giới hạn số hợp đồng loại này trong ngày."
@@ -4273,6 +4268,36 @@ msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu thị trư�
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 24 giờ phải hết hạn trong cùng ngày giao dịch."
+
+#, fuzzy
+#~| msgid "Kind Regards,"
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "\n"
+#~ "The %1 team."
+#~ msgstr "Trân trọng,"
+
+#, fuzzy
+#~| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+#~ msgid "Please note that you are limited to one account per currency type."
+#~ msgstr "{NHẬT BẢN} Xin lưu ý rằng bây giờ bạn phải liên hệ với ngân hàng của bạn để hoàn thành việc chuyển nhượng."
+
+#, fuzzy
+#~| msgid "Please choose which currency you would like to transact in."
+#~ msgid "Please set the currency for your existing account %1, in order to create more accounts."
+#~ msgstr "Xin vui lòng chọn đồng tiền mà bạn muốn giao dịch."
+
+#, fuzzy
+#~| msgid "Sorry, an error occurred while processing your request."
+#~ msgid "Sorry, an error occurred while processing your request (code %1)."
+#~ msgstr "Rất tiếc, đã xảy ra lỗi khi đang xử lý yêu cầu của bạn."
+
+#, fuzzy
+#~| msgid "You have opened an account using invalid details."
+#~ msgid "You have created all accounts available to you."
+#~ msgstr "Bạn đã mở tài khoản sử dụng các chi tiết không hợp lệ."
 
 #~ msgid "An error occurred while processing request. If this error persists, please contact customer support"
 #~ msgstr "Đã xảy ra lỗi trong quá trình xử lý yêu cầu. Nếu lỗi này vẫn lặp lại, vui lòng liên hệ nhân viên hỗ trợ khách hàng"
