@@ -89,7 +89,7 @@ msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">尊敬的客
 
 #, fuzzy
 #| msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system. If it was not you, simply ignore this email, or contact our customer support if you have any concerns.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
-msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system.  <p>You may have:</p><ul><li>Registered with us using the same email in the past, or</li><li>Registered with one of our technology or brokerage partners</li></ul><p>If you’d like to proceed, please try using a different email address to register your account.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
+msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system.  <p>You may have:</p><ul><li>Registered with us using the same email in the past, or</li><li>Registered with one of our technology or brokerage partners</li></ul><p>If you'd like to proceed, please try using a different email address to register your account.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
 msgstr "<p>尊敬的客戶，</p><p>看來您註冊時使用的電子郵件地址已包括在我們系統內。如果不是您本人，請忽略此電子郵件，或如有任何疑問，請與我們客戶支持部聯繫。</p><p style=\"color:#333333;font-size:15px;\">此致，<br/>%1</p>"
 
 msgid "A general error has occurred."
@@ -534,6 +534,11 @@ msgstr ""
 "\n"
 "%1"
 
+#, fuzzy
+#| msgid "Please use the address above only once. For subsequent deposits, please visit the cashier page again to generate a new address."
+msgid "For subsequent deposits, please visit the cashier page again to generate a new address."
+msgstr "以上地址請僅使用一次。後續存款時請再次存取收銀台增加新地址。"
+
 msgid "Further instructions must not exceed %1 characters."
 msgstr "詳細說明不能超過 %1 個字元。"
 
@@ -597,6 +602,11 @@ msgstr "此google play網址不可使用。"
 
 msgid "Invalid URI for homepage."
 msgstr "首頁網址不可使用。"
+
+#, fuzzy
+#| msgid "Invalid token"
+msgid "Invalid URL"
+msgstr "無效權杖"
 
 msgid "Invalid account type."
 msgstr "無效帳戶類型。"
@@ -796,6 +806,11 @@ msgstr "存款金額至多只允許小數點后兩位。"
 msgid "Only a maximum of two decimal points are allowed for the withdrawal amount."
 msgstr "取款金額至多只允許小數點后兩位。"
 
+#, fuzzy
+#| msgid "Only %1 are allowed."
+msgid "Only ports 80 and 443 are allowed"
+msgstr "只允許 %1 。"
+
 msgid "Open an Account"
 msgstr "開設帳戶"
 
@@ -989,8 +1004,10 @@ msgstr "請重試。"
 msgid "Please use a different password than your login password."
 msgstr "請使用與登入密碼不同的密碼。"
 
-msgid "Please use the address above only once. For subsequent deposits, please visit the cashier page again to generate a new address."
-msgstr "以上地址請僅使用一次。後續存款時請再次存取收銀台增加新地址。"
+#, fuzzy
+#| msgid "Please set the currency."
+msgid "Please use the address above only once."
+msgstr "請設定貨幣。"
 
 msgid "Postcode is required for UK residents."
 msgstr "英國居民需提供郵遞區號。"
@@ -1266,6 +1283,9 @@ msgstr "合約已到期"
 msgid "The email address and date of birth do not match."
 msgstr "電子郵件和出生日期不相符。"
 
+msgid "The given URL is not http(s)"
+msgstr ""
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "可轉匯的最大金額是:%1。"
 
@@ -1399,17 +1419,36 @@ msgstr "交易 ID: %1"
 msgid "Transactions"
 msgstr "交易"
 
+msgid "URL should not have fragment"
+msgstr ""
+
+msgid "URL should not have query"
+msgstr ""
+
+msgid "URL should not have user info"
+msgstr ""
+
 msgid "Unable to price the contract."
 msgstr "無法提供合約售價。"
 
 msgid "Unfortunately your answers to the questions above indicate that you do not have sufficient financial resources or trading experience to be eligible to open a trading account at this time."
 msgstr "很遺憾，您的回答顯示您缺乏足夠的財務資源或交易經驗，現時還不適合開立交易帳戶。"
 
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Unicode is not allowed in URL"
+msgstr "虛擬帳戶不可使用。"
+
 msgid "Unknown contract proposal"
 msgstr "未知合約建議"
 
 msgid "Unknown contract sell proposal"
 msgstr "未知合約出售建議"
+
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Unknown domain name"
+msgstr "未知著陸公司。"
 
 msgid "Unknown landing company."
 msgstr "未知著陸公司。"
@@ -3959,9 +3998,6 @@ msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "此帳戶不可用。如有任何問題，請聯繫客服人員。"
 
-#~ msgid "Virtual account is not allowed."
-#~ msgstr "虛擬帳戶不可使用。"
-
 #~ msgid "Your account is locked for withdrawals. Please contact customer service."
 #~ msgstr "您的帳戶已被鎖定禁止取款。請聯繫客服部。"
 
@@ -5106,9 +5142,6 @@ msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
 
 #~ msgid "Once you click the 'Submit' button, the funds will be withdrawn from your account and transferred to your Client's account."
 #~ msgstr "一旦您點擊「送出」按鈕，資金將從您的帳戶取出並轉至您客戶的帳戶。"
-
-#~ msgid "Only %1 are allowed."
-#~ msgstr "只允許 %1 。"
 
 #~ msgid "Open"
 #~ msgstr "開盤"

@@ -95,7 +95,7 @@ msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Szanowny Kli
 
 #, fuzzy
 #| msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system. If it was not you, simply ignore this email, or contact our customer support if you have any concerns.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
-msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system.  <p>You may have:</p><ul><li>Registered with us using the same email in the past, or</li><li>Registered with one of our technology or brokerage partners</li></ul><p>If you’d like to proceed, please try using a different email address to register your account.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
+msgid "<p>Dear Valued Customer,</p><p>It appears that you have tried to register an email address that is already included in our system.  <p>You may have:</p><ul><li>Registered with us using the same email in the past, or</li><li>Registered with one of our technology or brokerage partners</li></ul><p>If you'd like to proceed, please try using a different email address to register your account.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%1</p>"
 msgstr "<p>Szanowny Kliencie,</p><p>Próbowałeś zarejestrować adres e-mail, który jest już obecny w naszym systemie. Jeżeli to nie Ty, zignoruj tę wiadomość. Jeżeli masz jakiekolwiek obawy, skontaktuj się z naszym działem obsługi klienta.</p><p style=\"color:#333333;font-size:15px;\">Z poważaniem,<br/>%1</p>"
 
 msgid "A general error has occurred."
@@ -538,6 +538,11 @@ msgstr ""
 "\n"
 "%1"
 
+#, fuzzy
+#| msgid "Please use the address above only once. For subsequent deposits, please visit the cashier page again to generate a new address."
+msgid "For subsequent deposits, please visit the cashier page again to generate a new address."
+msgstr "Proszę skorzystać z powyższego adresu tylko raz. W przypadku późniejszych wpłat należy odwiedzić sekcję Kasję i wygenerować nowy adres."
+
 msgid "Further instructions must not exceed %1 characters."
 msgstr "Dalsze instrukcje nie mogą przekraczać %1 znaków."
 
@@ -601,6 +606,11 @@ msgstr "Nieprawidłowe URI do Google Play."
 
 msgid "Invalid URI for homepage."
 msgstr "Nieprawidłowe URI do strony startowej."
+
+#, fuzzy
+#| msgid "Invalid data"
+msgid "Invalid URL"
+msgstr "Nieprawidłowe dane"
 
 msgid "Invalid account type."
 msgstr "Nieprawidłowy rodzaj konta."
@@ -800,6 +810,11 @@ msgstr "W przypadku kwoty wpłaty dozwolone są tylko dwa miejsca po przecinku."
 msgid "Only a maximum of two decimal points are allowed for the withdrawal amount."
 msgstr "W przypadku kwoty wypłaty dozwolone są tylko dwa miejsca po przecinku."
 
+#, fuzzy
+#| msgid "Only %1 are allowed."
+msgid "Only ports 80 and 443 are allowed"
+msgstr "Dozwolone są tylko %1."
+
 msgid "Open an Account"
 msgstr "Otwórz konto"
 
@@ -993,8 +1008,10 @@ msgstr "Spróbuj ponownie."
 msgid "Please use a different password than your login password."
 msgstr "Proszę użyć innego hasła niż hasło logowania."
 
-msgid "Please use the address above only once. For subsequent deposits, please visit the cashier page again to generate a new address."
-msgstr "Proszę skorzystać z powyższego adresu tylko raz. W przypadku późniejszych wpłat należy odwiedzić sekcję Kasję i wygenerować nowy adres."
+#, fuzzy
+#| msgid "Please set the currency."
+msgid "Please use the address above only once."
+msgstr "Proszę wybrać walutę."
 
 msgid "Postcode is required for UK residents."
 msgstr "W przypadku mieszkańców Wielkiej Brytanii wymagany jest kod pocztowy."
@@ -1270,6 +1287,9 @@ msgstr "Kontrakt wygasł"
 msgid "The email address and date of birth do not match."
 msgstr "Wprowadzony adres e-mail i data urodzenia nie zgadzają się."
 
+msgid "The given URL is not http(s)"
+msgstr ""
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "Maksymalna kwota, którą możesz przelać to: %1."
 
@@ -1403,17 +1423,36 @@ msgstr "Identyfikator transakcji: %1"
 msgid "Transactions"
 msgstr "Transakcje"
 
+msgid "URL should not have fragment"
+msgstr ""
+
+msgid "URL should not have query"
+msgstr ""
+
+msgid "URL should not have user info"
+msgstr ""
+
 msgid "Unable to price the contract."
 msgstr "Nie można wycenić kontraktu."
 
 msgid "Unfortunately your answers to the questions above indicate that you do not have sufficient financial resources or trading experience to be eligible to open a trading account at this time."
 msgstr "Niestety Twoje odpowiedzi na powyższe pytania wskazują, że w chwili obecnej nie posiadasz wystarczających środków finansowych i wystarczającego doświadczenia, aby otworzyć konto do handlowania."
 
+#, fuzzy
+#| msgid "Virtual account is not allowed."
+msgid "Unicode is not allowed in URL"
+msgstr "Konto wirtualne nie jest dozwolone."
+
 msgid "Unknown contract proposal"
 msgstr "Nieznana propozycja kontraktu"
 
 msgid "Unknown contract sell proposal"
 msgstr "Nieznana propozycja sprzedaży kontraktu"
+
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Unknown domain name"
+msgstr "Spółka odpowiedzialna za prowadzenie konta jest nieznana."
 
 msgid "Unknown landing company."
 msgstr "Spółka odpowiedzialna za prowadzenie konta jest nieznana."
@@ -3964,9 +4003,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "To konto jest niedostępne. W przypadku pytań prosimy o kontakt z działem obsługi klienta."
 
-#~ msgid "Virtual account is not allowed."
-#~ msgstr "Konto wirtualne nie jest dozwolone."
-
 #~ msgid "Your account is locked for withdrawals. Please contact customer service."
 #~ msgstr "Wypłaty z Twojego konta zostały zablokowane. Skontaktuj się z działem obsługi klienta."
 
@@ -5117,9 +5153,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "Once you click the 'Submit' button, the funds will be withdrawn from your account and transferred to your Client's account."
 #~ msgstr "Po kliknięciu przycisku „Prześlij” środki zostaną wypłacone z Twojego konta i przesłane na Twoje konto Klienta."
-
-#~ msgid "Only %1 are allowed."
-#~ msgstr "Dozwolone są tylko %1."
 
 #~ msgid "Open"
 #~ msgstr "Otwarcie"
@@ -17146,9 +17179,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "%plural(%1,%d second,%d seconds)"
 #~ msgstr "%plural(%1,%d sek.,%d sek.)"
-
-#~ msgid "Invalid data"
-#~ msgstr "Nieprawidłowe dane"
 
 #, fuzzy
 #~| msgid "Account"
