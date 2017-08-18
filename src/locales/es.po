@@ -18,18 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.17-dev\n"
 
+#, fuzzy
+#| msgid "Kind Regards,"
 msgid ""
 "\n"
 "\n"
 "Kind Regards,\n"
 "\n"
-"The %1 team."
-msgstr ""
-"\n"
-"\n"
-"Saludos cordiales,\n"
-"\n"
-"El equipo de %1."
+"%1"
+msgstr "Saludos cordiales,"
 
 msgid "%1 New Password Request"
 msgstr "Solicitud de contraseña nueva %1"
@@ -151,6 +148,11 @@ msgstr "Ha ocurrido un error al procesar el pago a través de su agente de pago.
 msgid "An error occurred while processing your payment agent withdrawal."
 msgstr "Ha ocurrido un error al procesar el retiro a través de su agente de pago."
 
+#, fuzzy
+#| msgid "An error occurred while processing request. Please try again after one minute."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "Ocurrió un problema al procesar la solicitud. Inténtelo de nuevo en un minuto."
+
 msgid "An unexpected error occurred"
 msgstr "Ha ocurrido un error inesperado"
 
@@ -204,9 +206,6 @@ msgstr "Contraseña del cajero actualizada"
 
 msgid "Change in account settings"
 msgstr "Cambiar en las preferencias de la cuenta"
-
-msgid "Client is not fully authenticated."
-msgstr "El cliente no se ha autenticado completamente."
 
 msgid "Closes early (at %1)"
 msgstr "Cierre anticipado (a las %1)"
@@ -601,6 +600,12 @@ msgstr "Monto invalido. El monto mínimo permitido es %1."
 msgid "Invalid amount. minimum is %1, maximum is %2."
 msgstr "Monto invalido. El monto mínimo es %1 y el máximo es %2."
 
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr ""
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr ""
+
 msgid "Invalid loginid"
 msgstr "ID de inicio de sesión no válido"
 
@@ -881,6 +886,11 @@ msgstr "Por favor autentique su cuenta para continuar."
 msgid "Please authenticate your account to increase your daily turnover limit."
 msgstr "Lo sentimos, ha ocurrido un error. Póngase en contacto con el servicio de atención al cliente si el problema persiste."
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Please authenticate your account."
+msgstr "Por favor autentique su cuenta para continuar."
+
 msgid "Please complete financial assessment."
 msgstr "Por favor complete la evaluación financiera."
 
@@ -1061,17 +1071,16 @@ msgstr "Lo sentimos, los pagos a través de agentes de pago están desactivados 
 msgid "Sorry, account opening is unavailable."
 msgstr "Lo sentimos, apertura de una cuenta actualmente no está disponible."
 
-msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
-msgstr "Lo sentimos, ha ocurrido un error. Por favor, intente acceder a nuestro cajero de nuevo."
-
 msgid "Sorry, an error occurred while processing your account."
 msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su cuenta."
 
-msgid "Sorry, an error occurred while processing your request (code %1)."
-msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su petición (code %1)."
-
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su petición."
+
+#, fuzzy
+#| msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
+msgid "Sorry, an error occurred. Please try accessing our cashier again."
+msgstr "Lo sentimos, ha ocurrido un error. Por favor, intente acceder a nuestro cajero de nuevo."
 
 msgid "Sorry, bidding for tokens is restricted in your country of residence."
 msgstr "Lo sentimos, la oferta de tokens en su país de residencia está restringida."
@@ -1452,13 +1461,6 @@ msgid "Virtual money credit to account"
 msgstr "Crédito de dinero virtual a la cuenta"
 
 msgid ""
-"We would like to inform you that the transfer of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed. The funds have been credited into your account."
-msgstr ""
-"Le informamos que se ha procesado la transferencia de %1 %2.\n"
-"La transacción %3 ha sido confirmada. Los fondos han sido acreditados en su cuenta."
-
-msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
 "\n"
@@ -1474,25 +1476,46 @@ msgstr ""
 "\n"
 " El equipo de %4."
 
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed."
-msgstr ""
-"Le informamos que se ha procesado la solicitud de retiro de %1%2.\n"
-"La transacción %3 ha sido confirmada."
-
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is pending confirmation."
-msgstr ""
-"Le informamos que se ha procesado la solicitud de retiro de %1%2.\n"
-"La transacción %3 está pendiente de confirmación."
-
 msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
 msgstr "Le informamos que la solicitud de retiro de %1%2 por %3 %4 fue procesada. Los fondos han sido acreditados en su cuenta %5 el %6."
 
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "Nos gustaría informarle que su %1 ha sido procesado."
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the transfer of %1 %2 has been processed.\n"
+#| "Transaction %3 is confirmed. The funds have been credited into your account."
+msgid ""
+"We would like to inform you that your deposit of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed.\n"
+"\n"
+"The funds have been credited into your account."
+msgstr ""
+"Le informamos que se ha procesado la transferencia de %1 %2.\n"
+"La transacción %3 ha sido confirmada. Los fondos han sido acreditados en su cuenta."
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
+#| "Transaction %3 is confirmed."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed."
+msgstr ""
+"Le informamos que se ha procesado la solicitud de retiro de %1%2.\n"
+"La transacción %3 ha sido confirmada."
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
+#| "Transaction %3 is pending confirmation."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been processed.\n"
+"Transaction number %3 is pending confirmation at this point."
+msgstr ""
+"Le informamos que se ha procesado la solicitud de retiro de %1%2.\n"
+"La transacción %3 está pendiente de confirmación."
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "Lo sentimos, la opción de auto-exclusión no está disponible para cuentas virtuales."
@@ -3975,6 +3998,25 @@ msgstr "Las operaciones están suspendidas por falta de datos del mercado."
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Los contratos de este mercado con una duración inferior a 24 horas deben expirar el mismo día."
+
+#~ msgid "Client is not fully authenticated."
+#~ msgstr "El cliente no se ha autenticado completamente."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "\n"
+#~ "The %1 team."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Saludos cordiales,\n"
+#~ "\n"
+#~ "El equipo de %1."
+
+#~ msgid "Sorry, an error occurred while processing your request (code %1)."
+#~ msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su petición (code %1)."
 
 #~ msgid "An error occurred while processing request. If this error persists, please contact customer support"
 #~ msgstr "Ha ocurrido un error procesando la solicitud. Si este error persiste, póngase en contacto con nuestro servicio de atención al cliente"

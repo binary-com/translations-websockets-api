@@ -14,18 +14,15 @@ msgstr ""
 "X-Generator: Weblate 2.16-dev\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#, fuzzy
+#| msgid "Kind Regards,"
 msgid ""
 "\n"
 "\n"
 "Kind Regards,\n"
 "\n"
-"The %1 team."
-msgstr ""
-"\n"
-"\n"
-"此致，\n"
-"\n"
-"%1 团队。"
+"%1"
+msgstr "谨致问候，"
 
 msgid "%1 New Password Request"
 msgstr "%1 新密码请求"
@@ -149,6 +146,11 @@ msgstr "处理付款代理转账时发生错误。"
 msgid "An error occurred while processing your payment agent withdrawal."
 msgstr "处理付款代理取款时发生错误。"
 
+#, fuzzy
+#| msgid "An error occurred while processing request. Please try again after one minute."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "处理请求时出现错误。请一分钟后重试。"
+
 msgid "An unexpected error occurred"
 msgstr "发生不可预测的错误"
 
@@ -204,9 +206,6 @@ msgstr "收银台密码已更新"
 
 msgid "Change in account settings"
 msgstr "账户设置更改"
-
-msgid "Client is not fully authenticated."
-msgstr "客户端验证不充分。"
 
 msgid "Closes early (at %1)"
 msgstr "收盘提前（至%1）"
@@ -607,6 +606,12 @@ msgstr "无效金额。最低允许取款限额是%1。"
 msgid "Invalid amount. minimum is %1, maximum is %2."
 msgstr "无效金额。最小金额是%1，最大金额是%2。"
 
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr ""
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr ""
+
 msgid "Invalid loginid"
 msgstr "无效登录id"
 
@@ -887,6 +892,11 @@ msgstr "请验证您的账户，以继续操作。"
 msgid "Please authenticate your account to increase your daily turnover limit."
 msgstr "如要增加每日交易限额，请验证您的账户。"
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Please authenticate your account."
+msgstr "请验证您的账户，以继续操作。"
+
 msgid "Please complete financial assessment."
 msgstr "请完成财务评估。"
 
@@ -1067,19 +1077,16 @@ msgstr "对不起，由于系统维护，支付代理转账暂停使用。请在
 msgid "Sorry, account opening is unavailable."
 msgstr "对不起，不可开立账户。"
 
-msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
-msgstr "对不起，出现错误。请重新尝试访问我们的收银台。"
-
 msgid "Sorry, an error occurred while processing your account."
 msgstr "对不起，您的账户处理发生错误。"
 
-#, fuzzy
-#| msgid "Sorry, an error occurred while processing your request (code %1)"
-msgid "Sorry, an error occurred while processing your request (code %1)."
-msgstr "对不起，您的请求处理发生错误(代码 %1)"
-
 msgid "Sorry, an error occurred while processing your request."
 msgstr "对不起，您的请求处理发生错误。"
+
+#, fuzzy
+#| msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
+msgid "Sorry, an error occurred. Please try accessing our cashier again."
+msgstr "对不起，出现错误。请重新尝试访问我们的收银台。"
 
 #, fuzzy
 #| msgid "Sorry, our service is not available for your country of residence."
@@ -1476,13 +1483,6 @@ msgid "Virtual money credit to account"
 msgstr "虚拟资金已经到账"
 
 msgid ""
-"We would like to inform you that the transfer of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed. The funds have been credited into your account."
-msgstr ""
-"我们特此通知您，%1%2转账已经处理。\n"
-"%3交易已确认。资金已经到账。"
-
-msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
 "\n"
@@ -1497,25 +1497,46 @@ msgstr ""
 "\n"
 "%4团队。"
 
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed."
-msgstr ""
-"我们特此通知您，%1%2取款请求已经处理。\n"
-"%3交易已确认。"
-
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is pending confirmation."
-msgstr ""
-"我们特此通知您，%1%2取款请求已经处理。\n"
-"%3交易待确认。"
-
 msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
 msgstr "我们特此通知您，由%3%4作出的%1%2取款请求已经处理。资金已经计入您在%6的%5账户。"
 
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "我们特此通知您，您的%1已处理。"
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the transfer of %1 %2 has been processed.\n"
+#| "Transaction %3 is confirmed. The funds have been credited into your account."
+msgid ""
+"We would like to inform you that your deposit of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed.\n"
+"\n"
+"The funds have been credited into your account."
+msgstr ""
+"我们特此通知您，%1%2转账已经处理。\n"
+"%3交易已确认。资金已经到账。"
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
+#| "Transaction %3 is confirmed."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed."
+msgstr ""
+"我们特此通知您，%1%2取款请求已经处理。\n"
+"%3交易已确认。"
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
+#| "Transaction %3 is pending confirmation."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been processed.\n"
+"Transaction number %3 is pending confirmation at this point."
+msgstr ""
+"我们特此通知您，%1%2取款请求已经处理。\n"
+"%3交易待确认。"
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "对不起，自我禁止工具对于虚拟账户不可用。"
@@ -3954,6 +3975,27 @@ msgstr "由于市场数据丢失（波动率），交易暂停。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
+
+#~ msgid "Client is not fully authenticated."
+#~ msgstr "客户端验证不充分。"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "\n"
+#~ "The %1 team."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "此致，\n"
+#~ "\n"
+#~ "%1 团队。"
+
+#, fuzzy
+#~| msgid "Sorry, an error occurred while processing your request (code %1)"
+#~ msgid "Sorry, an error occurred while processing your request (code %1)."
+#~ msgstr "对不起，您的请求处理发生错误(代码 %1)"
 
 #~ msgid "An error occurred while processing request. If this error persists, please contact customer support"
 #~ msgstr "处理请求时发生错误。如果问题持续出现，请联系客服人员"

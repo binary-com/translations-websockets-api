@@ -24,7 +24,7 @@ msgid ""
 "\n"
 "Kind Regards,\n"
 "\n"
-"The %1 team."
+"%1"
 msgstr "ขอแสดงความนับถือ"
 
 msgid "%1 New Password Request"
@@ -181,6 +181,11 @@ msgstr "ขออภัย มีความผิดพลาดเกิด�
 msgid "An error occurred while processing your payment agent withdrawal."
 msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลบัญชีของท่าน"
 
+#, fuzzy
+#| msgid "A problem occurred while connecting to the server. Please try again later."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "มีปัญหาเกิดขึ้นในการเชื่อมต่อกับเครือข่ายหลัก โปรดเข้าใช้งานอีกครั้งภายหลัง"
+
 msgid "An unexpected error occurred"
 msgstr "มีข้อผิดพลาดเกิดขึ้น"
 
@@ -244,9 +249,6 @@ msgstr "รหัสผ่านแคชเชียร์ปรับปรุ
 
 msgid "Change in account settings"
 msgstr "การแก้ไขการตั้งค่าของบัญชี"
-
-msgid "Client is not fully authenticated."
-msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
 
 msgid "Closes early (at %1)"
 msgstr "ปิดก่อน (เมื่อ %1)"
@@ -690,6 +692,12 @@ msgstr "ตัวเลขไม่ถูกต้อง มูลค่าต�
 msgid "Invalid amount. minimum is %1, maximum is %2."
 msgstr "ตัวเลขไม่ถูกต้อง มูลค่าต่ำที่สุด คือ %1 และมูลค่าสูงที่สุด คือ %2"
 
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr ""
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr ""
+
 msgid "Invalid loginid"
 msgstr "รหัสผู้ใช้งานไม่ถูกต้อง"
 
@@ -986,6 +994,11 @@ msgstr "ยืนยันตัวตนต่อบัญชีของท่
 msgid "Please authenticate your account to increase your daily turnover limit."
 msgstr "โปรดติดต่อเจ้าหน้าที่บริการลูกค้า เพื่อขอข้อมูลเพิ่มเติม"
 
+#, fuzzy
+#| msgid "Authenticate your account"
+msgid "Please authenticate your account."
+msgstr "ยืนยันตัวตนต่อบัญชีของท่าน"
+
 msgid "Please complete financial assessment."
 msgstr "โปรดบันทึกผลการประเมินทางการเงินของท่าน"
 
@@ -1182,19 +1195,16 @@ msgstr "ขออภัย การโอนเงินผ่านตัว�
 msgid "Sorry, account opening is unavailable."
 msgstr "ขออภัย ไม่สามารถเปิดบัญชีได้"
 
-msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
-msgstr "ขออภัย พบข้อผิดพลาด โปรดพยายามติดต่อแคชเชียร์ของเราอีกครั้ง"
-
 msgid "Sorry, an error occurred while processing your account."
 msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลบัญชีของท่าน"
 
-#, fuzzy
-#| msgid "Sorry, an error occurred while processing your request."
-msgid "Sorry, an error occurred while processing your request (code %1)."
-msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลความประสงค์ของท่าน"
-
 msgid "Sorry, an error occurred while processing your request."
 msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลความประสงค์ของท่าน"
+
+#, fuzzy
+#| msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
+msgid "Sorry, an error occurred. Please try accessing our cashier again."
+msgstr "ขออภัย พบข้อผิดพลาด โปรดพยายามติดต่อแคชเชียร์ของเราอีกครั้ง"
 
 #, fuzzy
 #| msgid "Sorry, our service is not available for your country of residence."
@@ -1602,25 +1612,6 @@ msgstr "ตรวจสอบคำสั่งถอนเงินของท
 msgid "Virtual money credit to account"
 msgstr "ฝากเงินเสมือนในบัญชีของท่าน"
 
-#, fuzzy
-#| msgid ""
-#| "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
-#| "The funds have been credited into your account.\n"
-#| "\n"
-#| "Kind Regards,\n"
-#| "\n"
-#| "The %4 team."
-msgid ""
-"We would like to inform you that the transfer of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed. The funds have been credited into your account."
-msgstr ""
-"ขอเรียนให้ท่านทราบว่า การโอน  %1 %2 ผ่าน %3 ได้ดำเนินการเสร็จสิ้นแล้ว\n"
-"เงินหลักประกันได้ถูกฝากเข้าใบัญชีของท่านแล้ว\n"
-"\n"
-"ขอแสดงความนับถือ\n"
-"\n"
-"ทีม %4"
-
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
@@ -1636,25 +1627,46 @@ msgstr ""
 "\n"
 "ทีม %4"
 
-#, fuzzy
-#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is confirmed."
-msgstr "ขอเรียนให้ท่านทราบว่า คำสั่งถอนเงิน %1%2 โดย %3 %4 ได้ดำเนินการเสร็จสิ้นแล้ว เงินหลักประกันได้ถูกฝากเข้าใบัญชีของท่านแล้ว %5 ที่ %6"
-
-#, fuzzy
-#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
-msgid ""
-"We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
-"Transaction %3 is pending confirmation."
-msgstr "ขอเรียนให้ท่านทราบว่า คำสั่งถอนเงิน %1%2 โดย %3 %4 ได้ดำเนินการเสร็จสิ้นแล้ว เงินหลักประกันได้ถูกฝากเข้าใบัญชีของท่านแล้ว %5 ที่ %6"
-
 msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
 msgstr "ขอเรียนให้ท่านทราบว่า คำสั่งถอนเงิน %1%2 โดย %3 %4 ได้ดำเนินการเสร็จสิ้นแล้ว เงินหลักประกันได้ถูกฝากเข้าใบัญชีของท่านแล้ว %5 ที่ %6"
 
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "ขอเรียนให้ท่านทราบว่า %1 ของท่านได้ดำเนินการเสร็จสิ้นแล้ว"
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
+#| "The funds have been credited into your account.\n"
+#| "\n"
+#| "Kind Regards,\n"
+#| "\n"
+#| "The %4 team."
+msgid ""
+"We would like to inform you that your deposit of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed.\n"
+"\n"
+"The funds have been credited into your account."
+msgstr ""
+"ขอเรียนให้ท่านทราบว่า การโอน  %1 %2 ผ่าน %3 ได้ดำเนินการเสร็จสิ้นแล้ว\n"
+"เงินหลักประกันได้ถูกฝากเข้าใบัญชีของท่านแล้ว\n"
+"\n"
+"ขอแสดงความนับถือ\n"
+"\n"
+"ทีม %4"
+
+#, fuzzy
+#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
+"Transaction number %3 is confirmed."
+msgstr "ขอเรียนให้ท่านทราบว่า คำสั่งถอนเงิน %1%2 โดย %3 %4 ได้ดำเนินการเสร็จสิ้นแล้ว เงินหลักประกันได้ถูกฝากเข้าใบัญชีของท่านแล้ว %5 ที่ %6"
+
+#, fuzzy
+#| msgid "We would like to inform you that the withdrawal request of %1%2 by %3 %4 has been processed. The funds have been credited into your account %5 at %6."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been processed.\n"
+"Transaction number %3 is pending confirmation at this point."
+msgstr "ขอเรียนให้ท่านทราบว่า คำสั่งถอนเงิน %1%2 โดย %3 %4 ได้ดำเนินการเสร็จสิ้นแล้ว เงินหลักประกันได้ถูกฝากเข้าใบัญชีของท่านแล้ว %5 ที่ %6"
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "ขออภัย ไม่มีการพักวงเงินสำหรับบัญชีทดลองใช้"
@@ -4216,6 +4228,24 @@ msgstr "การซื้อขายถูกพักชั่วคราว
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะหมดอายุภายในวันที่ซื้อขาย"
+
+#~ msgid "Client is not fully authenticated."
+#~ msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
+
+#, fuzzy
+#~| msgid "Kind Regards,"
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "\n"
+#~ "The %1 team."
+#~ msgstr "ขอแสดงความนับถือ"
+
+#, fuzzy
+#~| msgid "Sorry, an error occurred while processing your request."
+#~ msgid "Sorry, an error occurred while processing your request (code %1)."
+#~ msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลความประสงค์ของท่าน"
 
 #~ msgid "An error occurred while processing request. If this error persists, please contact customer support"
 #~ msgstr "มีความผิดพลาดเกิดขึ้นขณะดำเนินการตามความประสงค์ของท่าน หากความผิดพลาดยังมีอยู่ โปรดติดต่อฝ่ายบริการลูกค้า"
