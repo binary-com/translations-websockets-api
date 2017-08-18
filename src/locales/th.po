@@ -250,9 +250,6 @@ msgstr "รหัสผ่านแคชเชียร์ปรับปรุ
 msgid "Change in account settings"
 msgstr "การแก้ไขการตั้งค่าของบัญชี"
 
-msgid "Client is not fully authenticated."
-msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
-
 msgid "Closes early (at %1)"
 msgstr "ปิดก่อน (เมื่อ %1)"
 
@@ -1043,6 +1040,11 @@ msgstr "โปรดทราบ การตั้งค่าของลู�
 
 #, fuzzy
 #| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+msgid "Please note that you are limited to one account per currency type."
+msgstr "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
 msgid "Please note that you now have to contact your bank to complete the transfer."
 msgstr "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
 
@@ -1081,6 +1083,11 @@ msgstr "โปรดระบุ"
 #| msgid "Please select a payment agent"
 msgid "Please select valid payment solution."
 msgstr "โปรดระบุตัวแทนรับชำระเงิน"
+
+#, fuzzy
+#| msgid "Please choose which currency you would like to transact in."
+msgid "Please set the currency for your existing account %1, in order to create more accounts."
+msgstr "โปรดระบุสกุลเงินที่ท่านต้องการ"
 
 #, fuzzy
 #| msgid "Please select your country of residence"
@@ -1188,14 +1195,16 @@ msgstr "ขออภัย การโอนเงินผ่านตัว�
 msgid "Sorry, account opening is unavailable."
 msgstr "ขออภัย ไม่สามารถเปิดบัญชีได้"
 
-msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
-msgstr "ขออภัย พบข้อผิดพลาด โปรดพยายามติดต่อแคชเชียร์ของเราอีกครั้ง"
-
 msgid "Sorry, an error occurred while processing your account."
 msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลบัญชีของท่าน"
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลความประสงค์ของท่าน"
+
+#, fuzzy
+#| msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
+msgid "Sorry, an error occurred. Please try accessing our cashier again."
+msgstr "ขออภัย พบข้อผิดพลาด โปรดพยายามติดต่อแคชเชียร์ของเราอีกครั้ง"
 
 #, fuzzy
 #| msgid "Sorry, our service is not available for your country of residence."
@@ -1683,6 +1692,9 @@ msgstr "ใช่"
 msgid "You already have a %1 account %2"
 msgstr "ท่านมี %1 บัญชี %2 แล้ว"
 
+msgid "You already have a financial money account. Please switch accounts to trade financial products."
+msgstr ""
+
 msgid "You are already subscribed to %1"
 msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูล %1 แล้ว"
 
@@ -1715,6 +1727,11 @@ msgstr "ท่านไม่สามารถโอนไปบัญชี %1
 
 msgid "You have already claimed a bonus in the past."
 msgstr "ท่านได้ใช้โบนัสไปแล้ว"
+
+#, fuzzy
+#| msgid "You have opened an account using invalid details."
+msgid "You have created all accounts available to you."
+msgstr "ท่านได้เปิดบัญชีโดยใช้รายละเอียดที่ไม่ถูกต้อง"
 
 msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "ท่านได้ทำรายการเกินวงเงินต่อวันของสัญญาประเภทนี้"
@@ -4212,6 +4229,9 @@ msgstr "การซื้อขายถูกพักชั่วคราว
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะหมดอายุภายในวันที่ซื้อขาย"
 
+#~ msgid "Client is not fully authenticated."
+#~ msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
+
 #, fuzzy
 #~| msgid "Kind Regards,"
 #~ msgid ""
@@ -4223,24 +4243,9 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 #~ msgstr "ขอแสดงความนับถือ"
 
 #, fuzzy
-#~| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
-#~ msgid "Please note that you are limited to one account per currency type."
-#~ msgstr "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
-
-#, fuzzy
-#~| msgid "Please choose which currency you would like to transact in."
-#~ msgid "Please set the currency for your existing account %1, in order to create more accounts."
-#~ msgstr "โปรดระบุสกุลเงินที่ท่านต้องการ"
-
-#, fuzzy
 #~| msgid "Sorry, an error occurred while processing your request."
 #~ msgid "Sorry, an error occurred while processing your request (code %1)."
 #~ msgstr "ขออภัย มีความผิดพลาดเกิดขึ้นขณะที่ประมวลผลความประสงค์ของท่าน"
-
-#, fuzzy
-#~| msgid "You have opened an account using invalid details."
-#~ msgid "You have created all accounts available to you."
-#~ msgstr "ท่านได้เปิดบัญชีโดยใช้รายละเอียดที่ไม่ถูกต้อง"
 
 #~ msgid "An error occurred while processing request. If this error persists, please contact customer support"
 #~ msgstr "มีความผิดพลาดเกิดขึ้นขณะดำเนินการตามความประสงค์ของท่าน หากความผิดพลาดยังมีอยู่ โปรดติดต่อฝ่ายบริการลูกค้า"

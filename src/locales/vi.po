@@ -252,9 +252,6 @@ msgstr "Mật khẩu thu ngân đã được cập nhật"
 msgid "Change in account settings"
 msgstr "Thiết lập trong mục cài đặt tài khoản"
 
-msgid "Client is not fully authenticated."
-msgstr "Khách hàng chưa hoàn toàn được xác thực."
-
 msgid "Closes early (at %1)"
 msgstr "Kết thúc sớm (tại %1)"
 
@@ -1056,6 +1053,11 @@ msgstr "Xin lưu ý rằng cài đặt máy khách %1 đã được cập nhật
 
 #, fuzzy
 #| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
+msgid "Please note that you are limited to one account per currency type."
+msgstr "{NHẬT BẢN} Xin lưu ý rằng bây giờ bạn phải liên hệ với ngân hàng của bạn để hoàn thành việc chuyển nhượng."
+
+#, fuzzy
+#| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
 msgid "Please note that you now have to contact your bank to complete the transfer."
 msgstr "{NHẬT BẢN} Xin lưu ý rằng bây giờ bạn phải liên hệ với ngân hàng của bạn để hoàn thành việc chuyển nhượng."
 
@@ -1094,6 +1096,11 @@ msgstr "Vui lòng chọn"
 #| msgid "Please select a valid payment agent."
 msgid "Please select valid payment solution."
 msgstr "Vui lòng chọn một đại lý thanh toán hợp lệ."
+
+#, fuzzy
+#| msgid "Please choose which currency you would like to transact in."
+msgid "Please set the currency for your existing account %1, in order to create more accounts."
+msgstr "Xin vui lòng chọn đồng tiền mà bạn muốn giao dịch."
 
 #, fuzzy
 #| msgid "Please post the documents to:"
@@ -1201,14 +1208,16 @@ msgstr "Xin lỗi, Đại lý Chuyển khoản Thanh toán tạm thời kh�
 msgid "Sorry, account opening is unavailable."
 msgstr "Xin lỗi, việc mở tài khoản hiện đang không phục vụ."
 
-msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
-msgstr "Xin lỗi, một lỗi đã xảy ra, Vui lòng thử truy cập hệ thống Thu ngân của chúng tôi một lần nữa."
-
 msgid "Sorry, an error occurred while processing your account."
 msgstr "Xin lỗi, Lỗi xảy ra trong khi đang xử lý tài khoản của bạn."
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Rất tiếc, đã xảy ra lỗi khi đang xử lý yêu cầu của bạn."
+
+#, fuzzy
+#| msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
+msgid "Sorry, an error occurred. Please try accessing our cashier again."
+msgstr "Xin lỗi, một lỗi đã xảy ra, Vui lòng thử truy cập hệ thống Thu ngân của chúng tôi một lần nữa."
 
 #, fuzzy
 #| msgid "Sorry, our service is not available for your country of residence."
@@ -1698,6 +1707,9 @@ msgstr "Có"
 msgid "You already have a %1 account %2"
 msgstr "Bạn đã có một tài khoản %1 %2"
 
+msgid "You already have a financial money account. Please switch accounts to trade financial products."
+msgstr ""
+
 msgid "You are already subscribed to %1"
 msgstr "Bạn đã xác nhận với %1"
 
@@ -1732,6 +1744,11 @@ msgstr "Bạn không thể chuyển vào tài khoản %1, vì tài khoản củ
 
 msgid "You have already claimed a bonus in the past."
 msgstr "Bạn đã khiếu nại một khoản tiền thưởng trong quá khứ."
+
+#, fuzzy
+#| msgid "You have opened an account using invalid details."
+msgid "You have created all accounts available to you."
+msgstr "Bạn đã mở tài khoản sử dụng các chi tiết không hợp lệ."
 
 msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "Bạn đã vượt quá giới hạn số hợp đồng loại này trong ngày."
@@ -4269,6 +4286,9 @@ msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu thị trư�
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 24 giờ phải hết hạn trong cùng ngày giao dịch."
 
+#~ msgid "Client is not fully authenticated."
+#~ msgstr "Khách hàng chưa hoàn toàn được xác thực."
+
 #, fuzzy
 #~| msgid "Kind Regards,"
 #~ msgid ""
@@ -4280,24 +4300,9 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 #~ msgstr "Trân trọng,"
 
 #, fuzzy
-#~| msgid "{JAPAN ONLY}Please note that you now have to contact your bank to complete the transfer."
-#~ msgid "Please note that you are limited to one account per currency type."
-#~ msgstr "{NHẬT BẢN} Xin lưu ý rằng bây giờ bạn phải liên hệ với ngân hàng của bạn để hoàn thành việc chuyển nhượng."
-
-#, fuzzy
-#~| msgid "Please choose which currency you would like to transact in."
-#~ msgid "Please set the currency for your existing account %1, in order to create more accounts."
-#~ msgstr "Xin vui lòng chọn đồng tiền mà bạn muốn giao dịch."
-
-#, fuzzy
 #~| msgid "Sorry, an error occurred while processing your request."
 #~ msgid "Sorry, an error occurred while processing your request (code %1)."
 #~ msgstr "Rất tiếc, đã xảy ra lỗi khi đang xử lý yêu cầu của bạn."
-
-#, fuzzy
-#~| msgid "You have opened an account using invalid details."
-#~ msgid "You have created all accounts available to you."
-#~ msgstr "Bạn đã mở tài khoản sử dụng các chi tiết không hợp lệ."
 
 #~ msgid "An error occurred while processing request. If this error persists, please contact customer support"
 #~ msgstr "Đã xảy ra lỗi trong quá trình xử lý yêu cầu. Nếu lỗi này vẫn lặp lại, vui lòng liên hệ nhân viên hỗ trợ khách hàng"

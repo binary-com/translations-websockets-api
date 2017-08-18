@@ -230,9 +230,6 @@ msgstr "入出金パスワードを更新しました"
 msgid "Change in account settings"
 msgstr "登録情報変更完了のお知らせ【Binary株式会社】"
 
-msgid "Client is not fully authenticated."
-msgstr "クライアントは完全に許可されていません。"
-
 msgid "Closes early (at %1)"
 msgstr "取引時間終了の短縮（%1）"
 
@@ -957,6 +954,11 @@ msgstr "ログインをしてください"
 msgid "Please note that client %1 settings has been updated as below:"
 msgstr "下記の内容でお客さま登録情報の変更を承りました。"
 
+#, fuzzy
+#| msgid "Please note that you now have to contact your bank to complete the transfer."
+msgid "Please note that you are limited to one account per currency type."
+msgstr "送金の手続きを完了するには、ご利用の金融機関にご確認頂く必要があります。"
+
 msgid "Please note that you now have to contact your bank to complete the transfer."
 msgstr "送金の手続きを完了するには、ご利用の金融機関にご確認頂く必要があります。"
 
@@ -989,6 +991,11 @@ msgstr "選択して下さい"
 
 msgid "Please select valid payment solution."
 msgstr "有効な決済サービスを選択してください。"
+
+#, fuzzy
+#| msgid "Please set the currency you would like to transact in."
+msgid "Please set the currency for your existing account %1, in order to create more accounts."
+msgstr "日本円にてお手続きできます"
 
 msgid "Please set the currency."
 msgstr "通貨を設定してください。"
@@ -1086,14 +1093,16 @@ msgstr "申し訳ございませんが、決済サービスでの送金はシス
 msgid "Sorry, account opening is unavailable."
 msgstr "申し訳ございませんが、口座開設をご利用いただけません。"
 
-msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
-msgstr "申し訳ございませんがエラーが発生したため、再度入出金操作をお願い致します。"
-
 msgid "Sorry, an error occurred while processing your account."
 msgstr "通信エラーが発生しましたので、再度ページの読み込みをしてください"
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "通信エラーが発生しましたので、再度ページの読み込みをしてください"
+
+#, fuzzy
+#| msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
+msgid "Sorry, an error occurred. Please try accessing our cashier again."
+msgstr "申し訳ございませんがエラーが発生したため、再度入出金操作をお願い致します。"
 
 msgid "Sorry, bidding for tokens is restricted in your country of residence."
 msgstr "申し訳ございません。お客さまの居住国ではトークンの入札はご利用できません。"
@@ -1546,6 +1555,9 @@ msgstr "はい"
 msgid "You already have a %1 account %2"
 msgstr "お客様は既に%1のご口座%2をお持ちです"
 
+msgid "You already have a financial money account. Please switch accounts to trade financial products."
+msgstr ""
+
 msgid "You are already subscribed to %1"
 msgstr "既に%1にご登録されています。"
 
@@ -1578,6 +1590,11 @@ msgstr "口座%1は現在無効であるため、送金できません。"
 
 msgid "You have already claimed a bonus in the past."
 msgstr "過去にボーナス申請履歴があります。"
+
+#, fuzzy
+#| msgid "You have opened an account using invalid details."
+msgid "You have created all accounts available to you."
+msgstr "無効な入力内容で口座を開設されました。"
 
 msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "この種類のトレードにおける１日あたりの上限を超えてしまいました。"
@@ -3956,6 +3973,9 @@ msgstr "現在、一時的にご利用出来ません"
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "取引期間が24時間以内の回号での取引は、取引開始日と取引終了日は同日となります。"
 
+#~ msgid "Client is not fully authenticated."
+#~ msgstr "クライアントは完全に許可されていません。"
+
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -3969,23 +3989,8 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 #~ "\n"
 #~ "カスタマーサポート"
 
-#, fuzzy
-#~| msgid "Please note that you now have to contact your bank to complete the transfer."
-#~ msgid "Please note that you are limited to one account per currency type."
-#~ msgstr "送金の手続きを完了するには、ご利用の金融機関にご確認頂く必要があります。"
-
-#, fuzzy
-#~| msgid "Please set the currency you would like to transact in."
-#~ msgid "Please set the currency for your existing account %1, in order to create more accounts."
-#~ msgstr "日本円にてお手続きできます"
-
 #~ msgid "Sorry, an error occurred while processing your request (code %1)."
 #~ msgstr "通信エラーが発生しましたので、再度ページの読み込みをしてください(コード %1)。"
-
-#, fuzzy
-#~| msgid "You have opened an account using invalid details."
-#~ msgid "You have created all accounts available to you."
-#~ msgstr "無効な入力内容で口座を開設されました。"
 
 #~ msgid "epoch => $_, quote => 100 + rand(0.1)"
 #~ msgstr "epoch => $_, quote => 100 + rand(0.1)"
