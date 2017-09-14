@@ -118,6 +118,31 @@ msgstr "W przypadku tego konta wymagana jest weryfikacja wieku."
 msgid "Account not activated."
 msgstr "Konto nie jest aktywowane."
 
+#, fuzzy
+#| msgid "The account transfer is unavailable for accounts with different default currency."
+msgid "Account transfer is not available for accounts with different currency."
+msgstr "Przelew środków jest niemożliwy dla kont z innymi walutami domyślnymi."
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for your account."
+msgid "Account transfer is not available for your account."
+msgstr "Przelew środków z Twojego konta jest niemożliwy."
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for your account: %1."
+msgid "Account transfer is not available for your account: %1."
+msgstr "Przelew środków z Twojego konta %1 jest niemożliwy."
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for accounts with different default currency."
+msgid "Account transfer is not available within accounts with cryptocurrency as default currency."
+msgstr "Przelew środków jest niemożliwy dla kont z innymi walutami domyślnymi."
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for %1 account."
+msgid "Account transfer is not available within same account."
+msgstr "Przelew środków z konta %1 jest niemożliwy."
+
 msgid "Account type"
 msgstr "Rodzaj rachunku"
 
@@ -159,9 +184,6 @@ msgstr "Podczas przetwarzania Twojego żądania wystąpił błąd. Spróbuj pono
 
 msgid "An unexpected error occurred"
 msgstr "Wystąpił nieoczekiwany błąd"
-
-msgid "App id is mandatory to access our api. Please register your application."
-msgstr "ID aplikacji jest niezbędne do uzyskania dostępu do naszego API. Zarejestruj swoją aplikację."
 
 msgid "Authorize application"
 msgstr "Zatwierdź aplikację"
@@ -243,6 +265,14 @@ msgstr "Utwórz"
 
 msgid "Cross-company payment agent transfers are not allowed."
 msgstr "Międzyfirmowe transfery realizowane przez pośrednika płatności nie są dozwolone."
+
+msgid "Currency provided is different from account currency."
+msgstr ""
+
+#, fuzzy
+#| msgid "The provided currency %1 is not applicable for this account."
+msgid "Currency provided is not valid for your account."
+msgstr "Nie można użyć podanej waluty %1 dla tego konta."
 
 msgid "Current"
 msgstr "Obecne"
@@ -509,6 +539,9 @@ msgstr ""
 msgid "For subsequent deposits, please visit the cashier page again to generate a new address."
 msgstr "W przypadku późniejszych wpłat należy odwiedzić sekcję Kasję i wygenerować nowy adres."
 
+msgid "From account provided should be same as current authorized client."
+msgstr ""
+
 msgid "Further instructions must not exceed %1 characters."
 msgstr "Dalsze instrukcje nie mogą przekraczać %1 znaków."
 
@@ -587,6 +620,11 @@ msgstr "Nieprawidłowy adres."
 msgid "Invalid amount."
 msgstr "Nieprawidłowa kwota."
 
+#, fuzzy
+#| msgid "Payout can not have more than %1 decimal places."
+msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgstr "Kwota wypłaty nie może zawierać więcej niż %1 miejsc(a) po przecinku."
+
 msgid "Invalid amount. Maximum is %1."
 msgstr "Nieprawidłowa kwota. Maksimum wynosi %1."
 
@@ -595,9 +633,6 @@ msgstr "Nieprawidłowa kwota, Maksymalna kwota wypłaty to %1."
 
 msgid "Invalid amount. Minimum is %1."
 msgstr "Nieprawidłowa kwota. Minimum wynosi %1."
-
-msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
-msgstr "Nieprawidłowa kwota. Minimalna kwota przelewu to 0,10, do dwóch miejsc po przecinku."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Nieprawidłowa kwota. Minimalna kwota wypłaty to %1."
@@ -891,6 +926,16 @@ msgstr "Proszę wypełnić formularz oceny sytuacji finansowej."
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
 msgstr "Aby zwiększyć swoje limity wypłat i limity handlowe, proszę wypełnić formularz oceny sytuacji finansowej."
 
+#, fuzzy
+#| msgid "Please authenticate your account."
+msgid "Please deposit to your account."
+msgstr "Zweryfikuj swoje konto."
+
+#, fuzzy
+#| msgid "Please enter a number between 0 and %1"
+msgid "Please enter a number between %1 and %2"
+msgstr "Proszę wpisać liczbę od 0 do %1"
+
 msgid "Please enter a number between 0 and %1."
 msgstr "Proszę wpisać liczbę od 0 do %1."
 
@@ -954,6 +999,16 @@ msgstr "Proszę podać wszystkie dane potrzebne do otworzenia konta."
 msgid "Please provide some information about yourself and your proposed services"
 msgstr "Proszę podać informacje o sobie i oferowanych usługach"
 
+#, fuzzy
+#| msgid "Please enter a valid amount."
+msgid "Please provide valid amount."
+msgstr "Proszę podać prawidłową kwotę."
+
+#, fuzzy
+#| msgid "Please provide a valid email address."
+msgid "Please provide valid currency."
+msgstr "Proszę podać prawidłowy adres e-mail."
+
 msgid "Please select"
 msgstr "Wybierz"
 
@@ -961,6 +1016,11 @@ msgid "Please select valid payment solution."
 msgstr "Proszę wybrać obsługiwany sposób płatności."
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
+msgstr "Aby utworzyć więcej kont, ustaw najpierw walutę dla istniejącego konta %1."
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1, in order to create more accounts."
+msgid "Please set the currency for your existing account %1."
 msgstr "Aby utworzyć więcej kont, ustaw najpierw walutę dla istniejącego konta %1."
 
 msgid "Please set the currency."
@@ -999,6 +1059,11 @@ msgstr "Kontynuowano jako %1"
 msgid "Provided amount is not within permissible limits."
 msgstr "Podana kwota wychodzi poza dozwolone limity."
 
+#, fuzzy
+#| msgid "Provided amount is not within permissible limits."
+msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
+msgstr "Podana kwota wychodzi poza dozwolone limity."
+
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
 msgstr "Zakup tego kontaktu spowoduje przekroczenie naszego limitu wypłat dla otwartych kontraktów tego typu. Jeśli chcesz kontynuować, sprzedaj kilka otwartych kontraktów lub wybierz kontrakt innego typu."
 
@@ -1024,6 +1089,11 @@ msgstr "Otrzymuj najnowsze wiadomości i specjalne oferty"
 
 msgid "Reload page"
 msgstr "Załaduj ponownie stronę"
+
+#, fuzzy
+#| msgid "letters"
+msgid "Remitter"
+msgstr "litery"
 
 msgid "Request timed out"
 msgstr "Upłynął limit czasu dla żądania"
@@ -1249,18 +1319,6 @@ msgstr "Usługi pośredników płatności są obecnie niedostępne w Twoim kraju
 msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
 msgstr "Rachunek musi być założony na Twoje imię i nazwisko i odpowiadać danym Twojego rachunku do handlowania. Wpisz poniżej dane wybranego rachunku."
 
-msgid "The account transfer is unavailable for accounts with different default currency."
-msgstr "Przelew środków jest niemożliwy dla kont z innymi walutami domyślnymi."
-
-msgid "The account transfer is unavailable for your account."
-msgstr "Przelew środków z Twojego konta jest niemożliwy."
-
-msgid "The account transfer is unavailable for your account: %1."
-msgstr "Przelew środków z Twojego konta %1 jest niemożliwy."
-
-msgid "The account transfer is unavailable. Please deposit to your account."
-msgstr "Przelew środków jest niemożliwy. Proszę wpłacić środki na konto."
-
 msgid "The address can be only used once. Please generate a new address."
 msgstr "Adres można wykorzystać tylko raz. Proszę wygenerować nowy adres."
 
@@ -1284,9 +1342,6 @@ msgstr "Minimalna dozwolona kwota wypłaty to %2 %1."
 
 msgid "The name is taken."
 msgstr "Nazwa jest już w użyciu."
-
-msgid "The page has timed out. This may be due to a slow Internet connection, or to excess load on our servers.  Please try again in a few moments."
-msgstr "Strona wygasła. Może to być spowodowane wolnym połączeniu internetowym lub nadmiernym obciążeniem na naszych serwerach. Prosimy spróbować ponownie za kilka minut."
 
 msgid "The password for your account %1 has been changed. This request originated from IP address %2. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "Hasło dla Twojego konta %1 zostało zmienione. Prośba o zmianę hasła została wysłana z następującego adresu IP: %2. Jeśli to nie Ty wysłałeś/aś tę prośbę, prosimy o natychmiastowy kontakt z działem obsługi klienta."
@@ -1434,6 +1489,11 @@ msgstr "Nieznana nazwa domeny"
 
 msgid "Unknown landing company."
 msgstr "Spółka odpowiedzialna za prowadzenie konta jest nieznana."
+
+#, fuzzy
+#| msgid "View payment methods"
+msgid "Unknown payment method."
+msgstr "Zobacz metody płatności"
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "Nieobsługiwana klasa zakładów $bet_params->{bet_class}"
@@ -1730,9 +1790,6 @@ msgstr "2-32 znaki alfanumeryczne ze spacją i myślnikiem"
 msgid "amount"
 msgstr "kwota"
 
-msgid "homepage"
-msgstr "strona główna"
-
 msgid "now."
 msgstr "teraz."
 
@@ -1787,11 +1844,31 @@ msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "{JAPAN ONLY}footer text of email template for Japan"
 
+#, fuzzy
+#| msgid "ETH/GBP"
+msgid "ETH/BRL"
+msgstr "ETH/GBP"
+
 msgid "BTC/MXN"
 msgstr "BTC/MXN"
 
+#, fuzzy
+#| msgid "LTC/SEK"
+msgid "LTC/SAR"
+msgstr "LTC/SEK"
+
 msgid "ETC/GBP"
 msgstr "ETC/GBP"
+
+#, fuzzy
+#| msgid "LTC/AUD"
+msgid "LTC/AED"
+msgstr "LTC/AUD"
+
+#, fuzzy
+#| msgid "GBP/TRY"
+msgid "BCH/TRY"
+msgstr "GBP/TRY"
 
 msgid "USDZAR"
 msgstr "USDZAR"
@@ -1817,6 +1894,11 @@ msgstr "ETC/USD"
 msgid "GBP/AED"
 msgstr "GBP/AED"
 
+#, fuzzy
+#| msgid "LTC/CAD"
+msgid "LTC/XAG"
+msgstr "LTC/CAD"
+
 msgid "EUR/CHF"
 msgstr "EUR/CHF"
 
@@ -1829,14 +1911,39 @@ msgstr "ETC/SEK"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
+#, fuzzy
+#| msgid "ETC/SEK"
+msgid "ETC/SAR"
+msgstr "ETC/SEK"
+
 msgid "GBP/USD"
 msgstr "GBP/USD"
+
+#, fuzzy
+#| msgid "LTC/EUR"
+msgid "LTC/TRY"
+msgstr "LTC/EUR"
+
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/IDR"
+msgstr "ETC/USD"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
 
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/KWD"
+msgstr "ETC/USD"
+
 msgid "AUD/AED"
 msgstr "AUD/AED"
+
+#, fuzzy
+#| msgid "GBP/SGD"
+msgid "BCH/SGD"
+msgstr "GBP/SGD"
 
 msgid "EUR/INR"
 msgstr "EUR/INR"
@@ -1844,8 +1951,26 @@ msgstr "EUR/INR"
 msgid "USD/JPY"
 msgstr "USD/JPY"
 
+#, fuzzy
+#| msgid "ETC/CHF"
+msgid "ETC/CNY"
+msgstr "ETC/CHF"
+
 msgid "USD/SGD"
 msgstr "USD/SGD"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/BRL"
+msgstr "ETC/GBP"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/XPD"
+msgstr "ETH/AUD"
+
+msgid "BCH/EGP"
+msgstr ""
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -1853,8 +1978,38 @@ msgstr "EUR/AUD"
 msgid "GBP/MXN"
 msgstr "GBP/MXN"
 
+#, fuzzy
+#| msgid "GBP/AED"
+msgid "BCH/AED"
+msgstr "GBP/AED"
+
 msgid "AUDZAR"
 msgstr "AUDZAR"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/BRO"
+msgstr "BTC/EUR"
+
+#, fuzzy
+#| msgid "GBP/CZK"
+msgid "BCH/CZK"
+msgstr "GBP/CZK"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/IDR"
+msgstr "ETH/AUD"
+
+#, fuzzy
+#| msgid "ETH/SEK"
+msgid "ETH/SAR"
+msgstr "ETH/SEK"
+
+#, fuzzy
+#| msgid "ETH/CHF"
+msgid "ETH/CNY"
+msgstr "ETH/CHF"
 
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
@@ -1862,8 +2017,18 @@ msgstr "EUR/SEK"
 msgid "USD/AED"
 msgstr "USD/AED"
 
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/XPD"
+msgstr "BTC/MXN"
+
 msgid "USD/NOK"
 msgstr "USD/NOK"
+
+#, fuzzy
+#| msgid "BTC/SEK"
+msgid "BTC/SAR"
+msgstr "BTC/SEK"
 
 msgid "ETH/AUD"
 msgstr "ETH/AUD"
@@ -1873,6 +2038,11 @@ msgstr "ETC/CHF"
 
 msgid "ETH/CHF"
 msgstr "ETH/CHF"
+
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/XPT"
+msgstr "BTC/MXN"
 
 msgid "ETC/NOK"
 msgstr "ETC/NOK"
@@ -1886,11 +2056,21 @@ msgstr "BTC/CAD"
 msgid "LTC/SEK"
 msgstr "LTC/SEK"
 
+#, fuzzy
+#| msgid "ETH/CHF"
+msgid "ETH/CZK"
+msgstr "ETH/CHF"
+
 msgid "LTC/NOK"
 msgstr "LTC/NOK"
 
 msgid "AUD/NZD"
 msgstr "AUD/NZD"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/XAG"
+msgstr "ETH/AUD"
 
 msgid "GBP/SEK"
 msgstr "GBP/SEK"
@@ -1901,11 +2081,34 @@ msgstr "AUD/MXN"
 msgid "ETH/NOK"
 msgstr "ETH/NOK"
 
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/KWD"
+msgstr "ETH/AUD"
+
 msgid "AUD/HKD"
 msgstr "AUD/HKD"
 
 msgid "AUD/IDR"
 msgstr "AUD/IDR"
+
+msgid "BCH/KWD"
+msgstr ""
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BCH/EUR"
+msgstr "BTC/EUR"
+
+#, fuzzy
+#| msgid "ETH/USD"
+msgid "ETH/SGD"
+msgstr "ETH/USD"
+
+#, fuzzy
+#| msgid "BTC/PLN"
+msgid "BCH/PLN"
+msgstr "BTC/PLN"
 
 msgid "EUR/IDR"
 msgstr "EUR/IDR"
@@ -1913,14 +2116,39 @@ msgstr "EUR/IDR"
 msgid "GBP/NOK"
 msgstr "GBP/NOK"
 
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/XAG"
+msgstr "BTC/MXN"
+
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/INR"
+msgstr "BTC/MXN"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/KRW"
+msgstr "BTC/EUR"
+
 msgid "AUD Index"
 msgstr "Indeks australijski (AUD)"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/HKD"
+msgstr "BTC/USD"
 
 msgid "USD/CAD"
 msgstr "USD/CAD"
 
 msgid "GBP/JPY"
 msgstr "GBP/JPY"
+
+#, fuzzy
+#| msgid "ETC/SEK"
+msgid "ETC/KRW"
+msgstr "ETC/SEK"
 
 msgid "BTC/CHF"
 msgstr "BTC/CHF"
@@ -1937,20 +2165,55 @@ msgstr "GBP/NZD"
 msgid "ETH/USD"
 msgstr "ETH/USD"
 
+#, fuzzy
+#| msgid "LTC/SEK"
+msgid "LTC/KRW"
+msgstr "LTC/SEK"
+
 msgid "BTC/NZD"
 msgstr "BTC/NZD"
 
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
 
+#, fuzzy
+#| msgid "LTC/CHF"
+msgid "LTC/CNY"
+msgstr "LTC/CHF"
+
+#, fuzzy
+#| msgid "GBP/KRW"
+msgid "BCH/KRW"
+msgstr "GBP/KRW"
+
+#, fuzzy
+#| msgid "BTC/NOK"
+msgid "BCH/NOK"
+msgstr "BTC/NOK"
+
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+#, fuzzy
+#| msgid "ETC/AUD"
+msgid "ETC/XAU"
+msgstr "ETC/AUD"
+
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/IDR"
+msgstr "LTC/NZD"
 
 msgid "GBP/AUD"
 msgstr "GBP/AUD"
 
 msgid "GBP/IDR"
 msgstr "GBP/IDR"
+
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/XPD"
+msgstr "LTC/NZD"
 
 msgid "BTC/GBP"
 msgstr "BTC/GBP"
@@ -1963,6 +2226,21 @@ msgstr "ETC/MXN"
 
 msgid "USD/IDR"
 msgstr "USD/IDR"
+
+#, fuzzy
+#| msgid "ETC/AUD"
+msgid "ETC/ZAR"
+msgstr "ETC/AUD"
+
+#, fuzzy
+#| msgid "EUR/TRY"
+msgid "ETC/TRY"
+msgstr "EUR/TRY"
+
+#, fuzzy
+#| msgid "EUR/INR"
+msgid "ETC/INR"
+msgstr "EUR/INR"
 
 msgid "AUD/INR"
 msgstr "AUD/INR"
@@ -1979,29 +2257,112 @@ msgstr "EUR/TRY"
 msgid "AUD/PLN"
 msgstr "AUD/PLN"
 
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/INR"
+msgstr "LTC/NZD"
+
 msgid "LTC/CHF"
 msgstr "LTC/CHF"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/EGP"
+msgstr "ETC/GBP"
+
+#, fuzzy
+#| msgid "EUR/INR"
+msgid "ETH/INR"
+msgstr "EUR/INR"
+
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/HKD"
+msgstr "ETC/USD"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/ZAR"
+msgstr "BTC/EUR"
+
+#, fuzzy
+#| msgid "BTC/GBP"
+msgid "BTC/EGP"
+msgstr "BTC/GBP"
 
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
+msgid "BCH/BRO"
+msgstr ""
+
 msgid "BTC/AUD"
 msgstr "BTC/AUD"
+
+#, fuzzy
+#| msgid "GBP/SAR"
+msgid "BCH/SAR"
+msgstr "GBP/SAR"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
 
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/BRO"
+msgstr "ETC/GBP"
+
+#, fuzzy
+#| msgid "ETC/AUD"
+msgid "ETC/AED"
+msgstr "ETC/AUD"
+
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
+
+#, fuzzy
+#| msgid "BTC/NZD"
+msgid "BCH/NZD"
+msgstr "BTC/NZD"
+
+#, fuzzy
+#| msgid "LTC/GBP"
+msgid "LTC/EGP"
+msgstr "LTC/GBP"
 
 msgid "ETC/AUD"
 msgstr "ETC/AUD"
 
+#, fuzzy
+#| msgid "LTC/EUR"
+msgid "LTC/RUB"
+msgstr "LTC/EUR"
+
+#, fuzzy
+#| msgid "BTC/CAD"
+msgid "BTC/CNY"
+msgstr "BTC/CAD"
+
 msgid "NZDCHF"
 msgstr "NZDCHF"
 
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/RUB"
+msgstr "ETC/GBP"
+
+#, fuzzy
+#| msgid "LTC/EUR"
+msgid "LTC/BRL"
+msgstr "LTC/EUR"
+
 msgid "EUR/SGD"
 msgstr "EUR/SGD"
+
+#, fuzzy
+#| msgid "BTC/AUD"
+msgid "BCH/AUD"
+msgstr "BTC/AUD"
 
 msgid "LTC/EUR"
 msgstr "LTC/EUR"
@@ -2015,20 +2376,73 @@ msgstr "ETC/PLN"
 msgid "LTC/PLN"
 msgstr "LTC/PLN"
 
+#, fuzzy
+#| msgid "LTC/AUD"
+msgid "LTC/XAU"
+msgstr "LTC/AUD"
+
 msgid "EUR/USD"
 msgstr "EUR/USD"
+
+msgid "BCH/XAU"
+msgstr ""
 
 msgid "AUD/SGD"
 msgstr "AUD/SGD"
 
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BCH/USD"
+msgstr "BTC/USD"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/TRY"
+msgstr "BTC/EUR"
+
 msgid "GBP/TRY"
 msgstr "GBP/TRY"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/SGD"
+msgstr "BTC/USD"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/ZAR"
+msgstr "ETH/AUD"
+
+#, fuzzy
+#| msgid "ETH/NOK"
+msgid "ETH/KRW"
+msgstr "ETH/NOK"
 
 msgid "ETC/NZD"
 msgstr "ETC/NZD"
 
+#, fuzzy
+#| msgid "BTC/CHF"
+msgid "BCH/CHF"
+msgstr "BTC/CHF"
+
 msgid "AUD/NOK"
 msgstr "AUD/NOK"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/KWD"
+msgstr "BTC/USD"
+
+#, fuzzy
+#| msgid "GBP/IDR"
+msgid "BCH/IDR"
+msgstr "GBP/IDR"
+
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/SGD"
+msgstr "ETC/USD"
 
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
@@ -2038,6 +2452,21 @@ msgstr "LTC/CAD"
 
 msgid "LTC/USD"
 msgstr "LTC/USD"
+
+#, fuzzy
+#| msgid "LTC/USD"
+msgid "LTC/SGD"
+msgstr "LTC/USD"
+
+#, fuzzy
+#| msgid "GBP/CNY"
+msgid "BCH/CNY"
+msgstr "GBP/CNY"
+
+#, fuzzy
+#| msgid "LTC/NOK"
+msgid "LTC/BRO"
+msgstr "LTC/NOK"
 
 msgid "ETH/SEK"
 msgstr "ETH/SEK"
@@ -2051,6 +2480,11 @@ msgstr "EUR/ZAR"
 msgid "ETC/EUR"
 msgstr "ETC/EUR"
 
+#, fuzzy
+#| msgid "ETH/JPY"
+msgid "ETH/XPT"
+msgstr "ETH/JPY"
+
 msgid "USD/INR"
 msgstr "USD/INR"
 
@@ -2060,8 +2494,31 @@ msgstr "LTC/JPY"
 msgid "EUR Index"
 msgstr "Indeks EUR"
 
+msgid "BCH/XPD"
+msgstr ""
+
+#, fuzzy
+#| msgid "ETH/JPY"
+msgid "ETH/TRY"
+msgstr "ETH/JPY"
+
 msgid "ETH/EUR"
 msgstr "ETH/EUR"
+
+#, fuzzy
+#| msgid "LTC/PLN"
+msgid "LTC/XPT"
+msgstr "LTC/PLN"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/XAU"
+msgstr "ETH/AUD"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/XPT"
+msgstr "ETC/GBP"
 
 msgid "ETH/PLN"
 msgstr "ETH/PLN"
@@ -2069,14 +2526,69 @@ msgstr "ETH/PLN"
 msgid "NZD/USD"
 msgstr "NZD/USD"
 
+#, fuzzy
+#| msgid "BTC/CAD"
+msgid "BCH/CAD"
+msgstr "BTC/CAD"
+
 msgid "USD Index"
 msgstr "Indeks amerykański (USD)"
 
 msgid "BTC/SEK"
 msgstr "BTC/SEK"
 
+#, fuzzy
+#| msgid "BTC/AUD"
+msgid "BTC/XAU"
+msgstr "BTC/AUD"
+
+#, fuzzy
+#| msgid "BTC/JPY"
+msgid "BCH/JPY"
+msgstr "BTC/JPY"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/XPD"
+msgstr "ETC/GBP"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/RUB"
+msgstr "BTC/EUR"
+
+#, fuzzy
+#| msgid "BTC/CAD"
+msgid "BTC/CZK"
+msgstr "BTC/CAD"
+
+#, fuzzy
+#| msgid "GBP/ZAR"
+msgid "BCH/ZAR"
+msgstr "GBP/ZAR"
+
 msgid "LTC/AUD"
 msgstr "LTC/AUD"
+
+#, fuzzy
+#| msgid "BTC/AUD"
+msgid "BTC/AED"
+msgstr "BTC/AUD"
+
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/KWD"
+msgstr "LTC/NZD"
+
+#, fuzzy
+#| msgid "BTC/SEK"
+msgid "BCH/SEK"
+msgstr "BTC/SEK"
+
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BCH/MXN"
+msgstr "BTC/MXN"
 
 msgid "LTC/GBP"
 msgstr "LTC/GBP"
@@ -2090,11 +2602,31 @@ msgstr "GBP/CAD"
 msgid "USD/CHF"
 msgstr "USD/CHF"
 
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/HKD"
+msgstr "ETH/AUD"
+
 msgid "BTC/JPY"
 msgstr "BTC/JPY"
 
+#, fuzzy
+#| msgid "ETC/CHF"
+msgid "ETC/CZK"
+msgstr "ETC/CHF"
+
+#, fuzzy
+#| msgid "ETH/NOK"
+msgid "ETH/BRO"
+msgstr "ETH/NOK"
+
 msgid "ETC/CAD"
 msgstr "ETC/CAD"
+
+#, fuzzy
+#| msgid "GBP/BRL"
+msgid "BCH/BRL"
+msgstr "GBP/BRL"
 
 msgid "AUD/USD"
 msgstr "AUD/USD"
@@ -2105,20 +2637,64 @@ msgstr "GBP/CHF"
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
 
+#, fuzzy
+#| msgid "ETH/GBP"
+msgid "ETH/EGP"
+msgstr "ETH/GBP"
+
+msgid "BCH/RUB"
+msgstr ""
+
+msgid "BCH/XPT"
+msgstr ""
+
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
 
 msgid "USD/HKD"
 msgstr "USD/HKD"
 
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/ZAR"
+msgstr "LTC/NZD"
+
 msgid "EUR/MXN"
 msgstr "EUR/MXN"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/XAG"
+msgstr "ETC/GBP"
+
+msgid "BCH/XAG"
+msgstr ""
 
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
 
 msgid "ETC/JPY"
 msgstr "ETC/JPY"
+
+#, fuzzy
+#| msgid "GBP/HKD"
+msgid "BCH/HKD"
+msgstr "GBP/HKD"
+
+#, fuzzy
+#| msgid "LTC/CHF"
+msgid "LTC/CZK"
+msgstr "LTC/CHF"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/AED"
+msgstr "ETH/AUD"
+
+#, fuzzy
+#| msgid "BTC/GBP"
+msgid "BCH/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
@@ -2129,11 +2705,26 @@ msgstr "BTC/PLN"
 msgid "USD/TRY"
 msgstr "USD/TRY"
 
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/HKD"
+msgstr "LTC/NZD"
+
 msgid "USD/PLN"
 msgstr "USD/PLN"
 
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/RUB"
+msgstr "ETH/AUD"
+
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/IDR"
+msgstr "BTC/EUR"
 
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
@@ -2147,11 +2738,21 @@ msgstr "USD/MXN"
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
 
+#, fuzzy
+#| msgid "GBP/INR"
+msgid "BCH/INR"
+msgstr "GBP/INR"
+
 msgid "ETH/NZD"
 msgstr "ETH/NZD"
 
 msgid "ETH/CAD"
 msgstr "ETH/CAD"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/BRL"
+msgstr "BTC/EUR"
 
 msgid "BTC/NOK"
 msgstr "BTC/NOK"
@@ -3785,6 +4386,9 @@ msgstr "Zakłady nie są oferowane dla tego okresu."
 msgid "We could not process this contract at this time."
 msgstr "Przetworzenie tego kontraktu nie było możliwe tym razem."
 
+msgid "Invalid duration (tick) for contract type (%1)."
+msgstr ""
+
 msgid "Trading is currently suspended due to configuration update."
 msgstr "Handlowanie jest obecnie wstrzymane z powodu prac konfiguracyjnych."
 
@@ -3797,7 +4401,9 @@ msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych."
 msgid "Expiry time cannot be equal to start time."
 msgstr "Czas wygaśnięcia nie może być taki sam jak czas rozpoczęcia."
 
-msgid "Missing required contract parameters. (%1)"
+#, fuzzy
+#| msgid "Missing required contract parameters. (%1)"
+msgid "Missing required contract parameters (%1)."
 msgstr "Brakuje obowiązkowego parametru kontraktu. (%1)"
 
 msgid "Number of ticks must be between %1 and %2."
@@ -3927,7 +4533,9 @@ msgstr "Kontrakty na tym rynku z okresem trwania powyżej 24 godz. muszą wygasn
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "Czas rozpoczęcia kontraktów rozpoczynających się przyszłości musi przypadać na datę późniejszą niż 5 minut od teraz."
 
-msgid "Invalid barrier. (%1)"
+#, fuzzy
+#| msgid "Invalid barrier. (%1)"
+msgid "Invalid barrier (%1)."
 msgstr "Nieprawidłowy limit. (%1)"
 
 msgid "This contract offers no return."
@@ -3965,6 +4573,21 @@ msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych (z
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasnąć podczas tej samej sesji."
+
+#~ msgid "App id is mandatory to access our api. Please register your application."
+#~ msgstr "ID aplikacji jest niezbędne do uzyskania dostępu do naszego API. Zarejestruj swoją aplikację."
+
+#~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
+#~ msgstr "Nieprawidłowa kwota. Minimalna kwota przelewu to 0,10, do dwóch miejsc po przecinku."
+
+#~ msgid "The account transfer is unavailable. Please deposit to your account."
+#~ msgstr "Przelew środków jest niemożliwy. Proszę wpłacić środki na konto."
+
+#~ msgid "The page has timed out. This may be due to a slow Internet connection, or to excess load on our servers.  Please try again in a few moments."
+#~ msgstr "Strona wygasła. Może to być spowodowane wolnym połączeniu internetowym lub nadmiernym obciążeniem na naszych serwerach. Prosimy spróbować ponownie za kilka minut."
+
+#~ msgid "homepage"
+#~ msgstr "strona główna"
 
 #~ msgid "Invalid login attempt. Please log in with a social network instead."
 #~ msgstr "Nieprawidłowa próba logowania. Zaloguj się za pomocą sieci społecznościowej."
@@ -4167,12 +4790,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 #~ msgid "USD/CNY"
 #~ msgstr "USD/CNY"
 
-#~ msgid "GBP/CNY"
-#~ msgstr "GBP/CNY"
-
-#~ msgid "GBP/BRL"
-#~ msgstr "GBP/BRL"
-
 #~ msgid "EUR/ILS"
 #~ msgstr "EUR/ILS"
 
@@ -4187,9 +4804,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "EUR/BRL"
 #~ msgstr "EUR/BRL"
-
-#~ msgid "GBP/CZK"
-#~ msgstr "GBP/CZK"
 
 #~ msgid "USD/ILS"
 #~ msgstr "USD/ILS"
@@ -4209,9 +4823,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 #~ msgid "AUD/CNY"
 #~ msgstr "AUD/CNY"
 
-#~ msgid "GBP/SAR"
-#~ msgstr "GBP/SAR"
-
 #~ msgid "USD/RUB"
 #~ msgstr "USD/RUB"
 
@@ -4226,9 +4837,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "EUR/CZK"
 #~ msgstr "EUR/CZK"
-
-#~ msgid "GBP/KRW"
-#~ msgstr "GBP/KRW"
 
 #~ msgid "USD/SAR"
 #~ msgstr "USD/SAR"
@@ -5295,14 +5903,8 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 #~ msgid "Please enter a number between %1."
 #~ msgstr "Proszę wpisać liczbę z przedziału %1."
 
-#~ msgid "Please enter a number between 0 and %1"
-#~ msgstr "Proszę wpisać liczbę od 0 do %1"
-
 #~ msgid "Please enter a number greater or equal to %1."
 #~ msgstr "Proszę wpisać liczbę większą lub równą %1."
-
-#~ msgid "Please enter a valid amount."
-#~ msgstr "Proszę podać prawidłową kwotę."
 
 #~ msgid "Please enter an integer value"
 #~ msgstr "Wpisz liczbę całkowitą"
@@ -6076,9 +6678,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "is required. Current spread"
 #~ msgstr "jest wymagany. Obecny spread"
-
-#~ msgid "letters"
-#~ msgstr "litery"
 
 #~ msgid "loading..."
 #~ msgstr "ładowanie..."
@@ -11813,9 +12412,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 #~ msgid "View open positions"
 #~ msgstr "Zobacz wolne stanowiska"
 
-#~ msgid "View payment methods"
-#~ msgstr "Zobacz metody płatności"
-
 #~ msgid "View progress"
 #~ msgstr "Zobacz postęp"
 
@@ -14567,9 +15163,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "The account transfer is unavailable as your account balance is less than 0.10. Please <a href=\"%1\">deposit</a> to your account."
 #~ msgstr "Przelew środków z tego konta jest niemożliwy, gdyż saldo jest niższe niż 0,10. Proszę <a href=\"%1\">wpłacić środki</a> na konto."
-
-#~ msgid "The account transfer is unavailable for %1 account."
-#~ msgstr "Przelew środków z konta %1 jest niemożliwy."
 
 #~ msgid "The account transfer is unavailable for %1 and %2 accounts with different default currency."
 #~ msgstr "Przelew środków jest niemożliwy dla następujących kont: %1 i %2 z innymi walutami domyślnymi."

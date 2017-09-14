@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-09-08 07:10+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects"
-"/binary-websocket/translations/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hans/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,6 +114,31 @@ msgstr "账户需要通过年龄验证。"
 msgid "Account not activated."
 msgstr "账户未启用。"
 
+#, fuzzy
+#| msgid "The account transfer is unavailable for accounts with different default currency."
+msgid "Account transfer is not available for accounts with different currency."
+msgstr "账户不可用不同的预设货币转账。"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for your account."
+msgid "Account transfer is not available for your account."
+msgstr "您的账户不可转账。"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for your account: %1."
+msgid "Account transfer is not available for your account: %1."
+msgstr "您的账户不可转账：%1。"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for accounts with different default currency."
+msgid "Account transfer is not available within accounts with cryptocurrency as default currency."
+msgstr "账户不可用不同的预设货币转账。"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for %1 account."
+msgid "Account transfer is not available within same account."
+msgstr "%1账户不可转账。"
+
 msgid "Account type"
 msgstr "帐户类型"
 
@@ -156,9 +180,6 @@ msgstr "处理请求时出现错误。请稍后重试。"
 
 msgid "An unexpected error occurred"
 msgstr "发生不可预测的错误"
-
-msgid "App id is mandatory to access our api. Please register your application."
-msgstr "访问api时必须有应用程序id。请注册您的应用程序。"
 
 msgid "Authorize application"
 msgstr "授权应用程序"
@@ -242,6 +263,14 @@ msgstr "创建一个"
 
 msgid "Cross-company payment agent transfers are not allowed."
 msgstr "不允许跨公司支付代理转账。"
+
+msgid "Currency provided is different from account currency."
+msgstr ""
+
+#, fuzzy
+#| msgid "The provided currency %1 is not applicable for this account."
+msgid "Currency provided is not valid for your account."
+msgstr "所提供的货币 %1不可在此账户使用。"
 
 msgid "Current"
 msgstr "当前"
@@ -510,6 +539,9 @@ msgstr ""
 msgid "For subsequent deposits, please visit the cashier page again to generate a new address."
 msgstr "后续存款时请再访问收银台添加新地址。"
 
+msgid "From account provided should be same as current authorized client."
+msgstr ""
+
 msgid "Further instructions must not exceed %1 characters."
 msgstr "详细说明不能超过 %1 个字符。"
 
@@ -588,6 +620,11 @@ msgstr "无效的地址。"
 msgid "Invalid amount."
 msgstr "无效金额。"
 
+#, fuzzy
+#| msgid "Payout can not have more than %1 decimal places."
+msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgstr "赔付额的小数点后不得超过%1位。"
+
 msgid "Invalid amount. Maximum is %1."
 msgstr "无效金额。最大金额是%1。"
 
@@ -596,9 +633,6 @@ msgstr "无效金额。最高允许取款限额是%1。"
 
 msgid "Invalid amount. Minimum is %1."
 msgstr "无效金额。最小金额是%1。"
-
-msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
-msgstr "无效金额。最小转账金额为0.10，最多2个小数位。"
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "无效金额。最低允许取款限额是%1。"
@@ -892,6 +926,16 @@ msgstr "请完成财务评估。"
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
 msgstr "请完成财务评估表格，以便提升取款和交易限额。"
 
+#, fuzzy
+#| msgid "Please authenticate your account."
+msgid "Please deposit to your account."
+msgstr "请验证您的账户。"
+
+#, fuzzy
+#| msgid "Please enter a number between 0 and %1"
+msgid "Please enter a number between %1 and %2"
+msgstr "请输入0和%1之间的数字"
+
 msgid "Please enter a number between 0 and %1."
 msgstr "请输入0和%1之间的数字。"
 
@@ -955,6 +999,16 @@ msgstr "提供完整信息以开立账户。"
 msgid "Please provide some information about yourself and your proposed services"
 msgstr "请提供您本人及相关服务的信息"
 
+#, fuzzy
+#| msgid "Please enter a valid amount."
+msgid "Please provide valid amount."
+msgstr "请输入有效金额。"
+
+#, fuzzy
+#| msgid "Please provide a valid email address."
+msgid "Please provide valid currency."
+msgstr "请提供有效的电邮地址。"
+
 msgid "Please select"
 msgstr "请选择"
 
@@ -962,6 +1016,11 @@ msgid "Please select valid payment solution."
 msgstr "请选择有效的支付方法。"
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
+msgstr "请设置您当前账户%1的货币，以开立更多账户。"
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1, in order to create more accounts."
+msgid "Please set the currency for your existing account %1."
 msgstr "请设置您当前账户%1的货币，以开立更多账户。"
 
 msgid "Please set the currency."
@@ -1000,6 +1059,11 @@ msgstr "执行为%1"
 msgid "Provided amount is not within permissible limits."
 msgstr "输入的数目已超出允许范围。"
 
+#, fuzzy
+#| msgid "Provided amount is not within permissible limits."
+msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
+msgstr "输入的数目已超出允许范围。"
+
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
 msgstr "购买此合约将导致您超出我们对此类未平仓合约的赔付额限定。如要继续交易，请先卖出一些未平仓合约，或是改换合约类型。"
 
@@ -1023,6 +1087,11 @@ msgstr "收取新消息和特别优惠"
 
 msgid "Reload page"
 msgstr "重新加载页面"
+
+#, fuzzy
+#| msgid "letters"
+msgid "Remitter"
+msgstr "信件"
 
 msgid "Request timed out"
 msgstr "请求已到期"
@@ -1240,18 +1309,6 @@ msgstr "您的国家无可用支付代理设施。"
 msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
 msgstr "账户须以您的姓名开立，并与您的交易账户细节相符。请在下方输入您要使用的账户详细资料。"
 
-msgid "The account transfer is unavailable for accounts with different default currency."
-msgstr "账户不可用不同的预设货币转账。"
-
-msgid "The account transfer is unavailable for your account."
-msgstr "您的账户不可转账。"
-
-msgid "The account transfer is unavailable for your account: %1."
-msgstr "您的账户不可转账：%1。"
-
-msgid "The account transfer is unavailable. Please deposit to your account."
-msgstr "账户不可转账。请将资金存入您的账户。"
-
 msgid "The address can be only used once. Please generate a new address."
 msgstr "此地址仅可使用一次。请设定新地址。"
 
@@ -1275,9 +1332,6 @@ msgstr "最低允许取款限额是%1%2。"
 
 msgid "The name is taken."
 msgstr "此名已被注册。"
-
-msgid "The page has timed out. This may be due to a slow Internet connection, or to excess load on our servers.  Please try again in a few moments."
-msgstr "页面超时，可能是因为网络连接速度慢或服务器负载过高。请稍后重试。"
 
 msgid "The password for your account %1 has been changed. This request originated from IP address %2. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "您的账户%1密码已更改。此请求源自IP地址%2。如您并未提出该请求，请立刻联系客服人员。"
@@ -1427,6 +1481,11 @@ msgstr "未知网域名称"
 
 msgid "Unknown landing company."
 msgstr "未知着陆公司。"
+
+#, fuzzy
+#| msgid "View payment methods"
+msgid "Unknown payment method."
+msgstr "查看支付方式"
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "不支持的投注类型$bet_params->{bet_class}"
@@ -1717,9 +1776,6 @@ msgstr "允许输入字母数字组合、空格和划线，2-32个字符"
 msgid "amount"
 msgstr "金额"
 
-msgid "homepage"
-msgstr "首页"
-
 msgid "now."
 msgstr "现在。"
 
@@ -1774,11 +1830,31 @@ msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "{JAPAN ONLY}footer text of email template for Japan"
 
+#, fuzzy
+#| msgid "ETH/GBP"
+msgid "ETH/BRL"
+msgstr "以太币/英镑"
+
 msgid "BTC/MXN"
 msgstr "比特币/墨西哥比索"
 
+#, fuzzy
+#| msgid "LTC/SEK"
+msgid "LTC/SAR"
+msgstr "莱特币/瑞典克朗"
+
 msgid "ETC/GBP"
 msgstr "以太币/英镑"
+
+#, fuzzy
+#| msgid "LTC/AUD"
+msgid "LTC/AED"
+msgstr "莱特币/澳元"
+
+#, fuzzy
+#| msgid "GBP/TRY"
+msgid "BCH/TRY"
+msgstr "英镑/土耳其里拉"
 
 msgid "USDZAR"
 msgstr "美元兑南非兰特"
@@ -1804,6 +1880,11 @@ msgstr "以太币/美元"
 msgid "GBP/AED"
 msgstr "英镑/阿联酋迪拉姆"
 
+#, fuzzy
+#| msgid "LTC/CAD"
+msgid "LTC/XAG"
+msgstr "莱特币/加元"
+
 msgid "EUR/CHF"
 msgstr "欧元/瑞士法郎"
 
@@ -1816,14 +1897,39 @@ msgstr "以太币/瑞典克朗"
 msgid "CAD/JPY"
 msgstr "加元/日元"
 
+#, fuzzy
+#| msgid "ETC/SEK"
+msgid "ETC/SAR"
+msgstr "以太币/瑞典克朗"
+
 msgid "GBP/USD"
 msgstr "英镑/美元"
+
+#, fuzzy
+#| msgid "LTC/EUR"
+msgid "LTC/TRY"
+msgstr "莱特币/欧元"
+
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/IDR"
+msgstr "以太币/美元"
 
 msgid "BTC/USD"
 msgstr "比特币/美元"
 
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/KWD"
+msgstr "以太币/美元"
+
 msgid "AUD/AED"
 msgstr "澳元/阿联酋迪拉姆"
+
+#, fuzzy
+#| msgid "GBP/SGD"
+msgid "BCH/SGD"
+msgstr "英镑/新加坡元"
 
 msgid "EUR/INR"
 msgstr "欧元/印度卢比"
@@ -1831,8 +1937,26 @@ msgstr "欧元/印度卢比"
 msgid "USD/JPY"
 msgstr "美元/日元"
 
+#, fuzzy
+#| msgid "ETC/CHF"
+msgid "ETC/CNY"
+msgstr "以太币/瑞士法郎"
+
 msgid "USD/SGD"
 msgstr "美元/新加坡元"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/BRL"
+msgstr "以太币/英镑"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/XPD"
+msgstr "以太币/澳元"
+
+msgid "BCH/EGP"
+msgstr ""
 
 msgid "EUR/AUD"
 msgstr "欧元/澳元"
@@ -1840,8 +1964,38 @@ msgstr "欧元/澳元"
 msgid "GBP/MXN"
 msgstr "英镑/墨西哥比索"
 
+#, fuzzy
+#| msgid "GBP/AED"
+msgid "BCH/AED"
+msgstr "英镑/阿联酋迪拉姆"
+
 msgid "AUDZAR"
 msgstr "澳元兑南非兰特"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/BRO"
+msgstr "比特币/欧元"
+
+#, fuzzy
+#| msgid "GBP/CZK"
+msgid "BCH/CZK"
+msgstr "英镑/捷克克朗"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/IDR"
+msgstr "以太币/澳元"
+
+#, fuzzy
+#| msgid "ETH/SEK"
+msgid "ETH/SAR"
+msgstr "以太币/瑞典克朗"
+
+#, fuzzy
+#| msgid "ETH/CHF"
+msgid "ETH/CNY"
+msgstr "以太币/瑞士法郎"
 
 msgid "EUR/SEK"
 msgstr "欧元/瑞典克朗"
@@ -1849,8 +2003,18 @@ msgstr "欧元/瑞典克朗"
 msgid "USD/AED"
 msgstr "美元/阿联酋迪拉姆"
 
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/XPD"
+msgstr "比特币/墨西哥比索"
+
 msgid "USD/NOK"
 msgstr "美元/挪威克朗"
+
+#, fuzzy
+#| msgid "BTC/SEK"
+msgid "BTC/SAR"
+msgstr "比特币/瑞典克朗"
 
 msgid "ETH/AUD"
 msgstr "以太币/澳元"
@@ -1860,6 +2024,11 @@ msgstr "以太币/瑞士法郎"
 
 msgid "ETH/CHF"
 msgstr "以太币/瑞士法郎"
+
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/XPT"
+msgstr "比特币/墨西哥比索"
 
 msgid "ETC/NOK"
 msgstr "以太币/挪威克朗"
@@ -1873,11 +2042,21 @@ msgstr "比特币/加元"
 msgid "LTC/SEK"
 msgstr "莱特币/瑞典克朗"
 
+#, fuzzy
+#| msgid "ETH/CHF"
+msgid "ETH/CZK"
+msgstr "以太币/瑞士法郎"
+
 msgid "LTC/NOK"
 msgstr "莱特币/挪威克朗"
 
 msgid "AUD/NZD"
 msgstr "澳元/新西兰元"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/XAG"
+msgstr "以太币/澳元"
 
 msgid "GBP/SEK"
 msgstr "英镑/瑞典克朗"
@@ -1888,11 +2067,34 @@ msgstr "澳元/墨西哥比索"
 msgid "ETH/NOK"
 msgstr "以太币/挪威克朗"
 
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/KWD"
+msgstr "以太币/澳元"
+
 msgid "AUD/HKD"
 msgstr "澳元/港币"
 
 msgid "AUD/IDR"
 msgstr "澳元/印度尼西亚卢比"
+
+msgid "BCH/KWD"
+msgstr ""
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BCH/EUR"
+msgstr "比特币/欧元"
+
+#, fuzzy
+#| msgid "ETH/USD"
+msgid "ETH/SGD"
+msgstr "以太币/美元"
+
+#, fuzzy
+#| msgid "BTC/PLN"
+msgid "BCH/PLN"
+msgstr "比特币/波兰兹罗提"
 
 msgid "EUR/IDR"
 msgstr "欧元/印度尼西亚卢比"
@@ -1900,14 +2102,39 @@ msgstr "欧元/印度尼西亚卢比"
 msgid "GBP/NOK"
 msgstr "英镑/挪威克朗"
 
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/XAG"
+msgstr "比特币/墨西哥比索"
+
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BTC/INR"
+msgstr "比特币/墨西哥比索"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/KRW"
+msgstr "比特币/欧元"
+
 msgid "AUD Index"
 msgstr "澳元指数"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/HKD"
+msgstr "比特币/美元"
 
 msgid "USD/CAD"
 msgstr "美元/加元"
 
 msgid "GBP/JPY"
 msgstr "英镑/日元"
+
+#, fuzzy
+#| msgid "ETC/SEK"
+msgid "ETC/KRW"
+msgstr "以太币/瑞典克朗"
 
 msgid "BTC/CHF"
 msgstr "比特币/瑞士法郎"
@@ -1924,20 +2151,55 @@ msgstr "英镑/新西兰元"
 msgid "ETH/USD"
 msgstr "以太币/美元"
 
+#, fuzzy
+#| msgid "LTC/SEK"
+msgid "LTC/KRW"
+msgstr "莱特币/瑞典克朗"
+
 msgid "BTC/NZD"
 msgstr "比特币/新西兰元"
 
 msgid "NZD/JPY"
 msgstr "新西兰元/日元"
 
+#, fuzzy
+#| msgid "LTC/CHF"
+msgid "LTC/CNY"
+msgstr "莱特币/瑞士法郎"
+
+#, fuzzy
+#| msgid "GBP/KRW"
+msgid "BCH/KRW"
+msgstr "英镑/韩元"
+
+#, fuzzy
+#| msgid "BTC/NOK"
+msgid "BCH/NOK"
+msgstr "比特币/挪威克朗"
+
 msgid "AUD/SEK"
 msgstr "澳元/瑞典克朗"
+
+#, fuzzy
+#| msgid "ETC/AUD"
+msgid "ETC/XAU"
+msgstr "以太币/澳元"
+
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/IDR"
+msgstr "莱特币/新西兰元"
 
 msgid "GBP/AUD"
 msgstr "英镑/澳元"
 
 msgid "GBP/IDR"
 msgstr "英镑/印度尼西亚卢比"
+
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/XPD"
+msgstr "莱特币/新西兰元"
 
 msgid "BTC/GBP"
 msgstr "比特币/英镑"
@@ -1950,6 +2212,21 @@ msgstr "以太币/墨西哥比索"
 
 msgid "USD/IDR"
 msgstr "美元/印度尼西亚卢比"
+
+#, fuzzy
+#| msgid "ETC/AUD"
+msgid "ETC/ZAR"
+msgstr "以太币/澳元"
+
+#, fuzzy
+#| msgid "EUR/TRY"
+msgid "ETC/TRY"
+msgstr "欧元/土耳其里拉"
+
+#, fuzzy
+#| msgid "EUR/INR"
+msgid "ETC/INR"
+msgstr "欧元/印度卢比"
 
 msgid "AUD/INR"
 msgstr "澳元/印度卢比"
@@ -1966,29 +2243,112 @@ msgstr "欧元/土耳其里拉"
 msgid "AUD/PLN"
 msgstr "澳元/波兰兹罗提"
 
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/INR"
+msgstr "莱特币/新西兰元"
+
 msgid "LTC/CHF"
 msgstr "莱特币/瑞士法郎"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/EGP"
+msgstr "以太币/英镑"
+
+#, fuzzy
+#| msgid "EUR/INR"
+msgid "ETH/INR"
+msgstr "欧元/印度卢比"
+
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/HKD"
+msgstr "以太币/美元"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/ZAR"
+msgstr "比特币/欧元"
+
+#, fuzzy
+#| msgid "BTC/GBP"
+msgid "BTC/EGP"
+msgstr "比特币/英镑"
 
 msgid "EUR/NOK"
 msgstr "欧元/挪威克朗"
 
+msgid "BCH/BRO"
+msgstr ""
+
 msgid "BTC/AUD"
 msgstr "比特币/澳元"
+
+#, fuzzy
+#| msgid "GBP/SAR"
+msgid "BCH/SAR"
+msgstr "英镑/沙特阿拉伯里亚尔"
 
 msgid "GBP/INR"
 msgstr "英镑/印度卢比"
 
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/BRO"
+msgstr "以太币/英镑"
+
+#, fuzzy
+#| msgid "ETC/AUD"
+msgid "ETC/AED"
+msgstr "以太币/澳元"
+
 msgid "EUR/PLN"
 msgstr "欧元/波兰兹罗提"
+
+#, fuzzy
+#| msgid "BTC/NZD"
+msgid "BCH/NZD"
+msgstr "比特币/新西兰元"
+
+#, fuzzy
+#| msgid "LTC/GBP"
+msgid "LTC/EGP"
+msgstr "莱特币/英镑"
 
 msgid "ETC/AUD"
 msgstr "以太币/澳元"
 
+#, fuzzy
+#| msgid "LTC/EUR"
+msgid "LTC/RUB"
+msgstr "莱特币/欧元"
+
+#, fuzzy
+#| msgid "BTC/CAD"
+msgid "BTC/CNY"
+msgstr "比特币/加元"
+
 msgid "NZDCHF"
 msgstr "新西兰元/瑞士法郎"
 
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/RUB"
+msgstr "以太币/英镑"
+
+#, fuzzy
+#| msgid "LTC/EUR"
+msgid "LTC/BRL"
+msgstr "莱特币/欧元"
+
 msgid "EUR/SGD"
 msgstr "欧元/新加坡元"
+
+#, fuzzy
+#| msgid "BTC/AUD"
+msgid "BCH/AUD"
+msgstr "比特币/澳元"
 
 msgid "LTC/EUR"
 msgstr "莱特币/欧元"
@@ -2002,20 +2362,73 @@ msgstr "以太币/波兰兹罗提"
 msgid "LTC/PLN"
 msgstr "莱特币/波兰兹罗提"
 
+#, fuzzy
+#| msgid "LTC/AUD"
+msgid "LTC/XAU"
+msgstr "莱特币/澳元"
+
 msgid "EUR/USD"
 msgstr "欧元/美元"
+
+msgid "BCH/XAU"
+msgstr ""
 
 msgid "AUD/SGD"
 msgstr "澳元/新加坡元"
 
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BCH/USD"
+msgstr "比特币/美元"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/TRY"
+msgstr "比特币/欧元"
+
 msgid "GBP/TRY"
 msgstr "英镑/土耳其里拉"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/SGD"
+msgstr "比特币/美元"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/ZAR"
+msgstr "以太币/澳元"
+
+#, fuzzy
+#| msgid "ETH/NOK"
+msgid "ETH/KRW"
+msgstr "以太币/挪威克朗"
 
 msgid "ETC/NZD"
 msgstr "以太币/新西兰元"
 
+#, fuzzy
+#| msgid "BTC/CHF"
+msgid "BCH/CHF"
+msgstr "比特币/瑞士法郎"
+
 msgid "AUD/NOK"
 msgstr "澳元/挪威克朗"
+
+#, fuzzy
+#| msgid "BTC/USD"
+msgid "BTC/KWD"
+msgstr "比特币/美元"
+
+#, fuzzy
+#| msgid "GBP/IDR"
+msgid "BCH/IDR"
+msgstr "英镑/印度尼西亚卢比"
+
+#, fuzzy
+#| msgid "ETC/USD"
+msgid "ETC/SGD"
+msgstr "以太币/美元"
 
 msgid "CAD/CHF"
 msgstr "加元/瑞士法郎"
@@ -2025,6 +2438,21 @@ msgstr "莱特币/加元"
 
 msgid "LTC/USD"
 msgstr "莱特币/美元"
+
+#, fuzzy
+#| msgid "LTC/USD"
+msgid "LTC/SGD"
+msgstr "莱特币/美元"
+
+#, fuzzy
+#| msgid "GBP/CNY"
+msgid "BCH/CNY"
+msgstr "英镑/人民币"
+
+#, fuzzy
+#| msgid "LTC/NOK"
+msgid "LTC/BRO"
+msgstr "莱特币/挪威克朗"
 
 msgid "ETH/SEK"
 msgstr "以太币/瑞典克朗"
@@ -2038,6 +2466,11 @@ msgstr "欧元/南非兰特"
 msgid "ETC/EUR"
 msgstr "以太币/欧元"
 
+#, fuzzy
+#| msgid "ETH/JPY"
+msgid "ETH/XPT"
+msgstr "以太币/日元"
+
 msgid "USD/INR"
 msgstr "美元/印度卢比"
 
@@ -2047,8 +2480,31 @@ msgstr "莱特币/日元"
 msgid "EUR Index"
 msgstr "欧元指数"
 
+msgid "BCH/XPD"
+msgstr ""
+
+#, fuzzy
+#| msgid "ETH/JPY"
+msgid "ETH/TRY"
+msgstr "以太币/日元"
+
 msgid "ETH/EUR"
 msgstr "以太币/欧元"
+
+#, fuzzy
+#| msgid "LTC/PLN"
+msgid "LTC/XPT"
+msgstr "莱特币/波兰兹罗提"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/XAU"
+msgstr "以太币/澳元"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/XPT"
+msgstr "以太币/英镑"
 
 msgid "ETH/PLN"
 msgstr "以太币/波兰兹罗提"
@@ -2056,14 +2512,69 @@ msgstr "以太币/波兰兹罗提"
 msgid "NZD/USD"
 msgstr "新西兰元/美元"
 
+#, fuzzy
+#| msgid "BTC/CAD"
+msgid "BCH/CAD"
+msgstr "比特币/加元"
+
 msgid "USD Index"
 msgstr "美元指数"
 
 msgid "BTC/SEK"
 msgstr "比特币/瑞典克朗"
 
+#, fuzzy
+#| msgid "BTC/AUD"
+msgid "BTC/XAU"
+msgstr "比特币/澳元"
+
+#, fuzzy
+#| msgid "BTC/JPY"
+msgid "BCH/JPY"
+msgstr "比特币/日元"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/XPD"
+msgstr "以太币/英镑"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/RUB"
+msgstr "比特币/欧元"
+
+#, fuzzy
+#| msgid "BTC/CAD"
+msgid "BTC/CZK"
+msgstr "比特币/加元"
+
+#, fuzzy
+#| msgid "GBP/ZAR"
+msgid "BCH/ZAR"
+msgstr "英镑/南非兰特"
+
 msgid "LTC/AUD"
 msgstr "莱特币/澳元"
+
+#, fuzzy
+#| msgid "BTC/AUD"
+msgid "BTC/AED"
+msgstr "比特币/澳元"
+
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/KWD"
+msgstr "莱特币/新西兰元"
+
+#, fuzzy
+#| msgid "BTC/SEK"
+msgid "BCH/SEK"
+msgstr "比特币/瑞典克朗"
+
+#, fuzzy
+#| msgid "BTC/MXN"
+msgid "BCH/MXN"
+msgstr "比特币/墨西哥比索"
 
 msgid "LTC/GBP"
 msgstr "莱特币/英镑"
@@ -2077,11 +2588,31 @@ msgstr "英镑/加元"
 msgid "USD/CHF"
 msgstr "美元/瑞士法郎"
 
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/HKD"
+msgstr "以太币/澳元"
+
 msgid "BTC/JPY"
 msgstr "比特币/日元"
 
+#, fuzzy
+#| msgid "ETC/CHF"
+msgid "ETC/CZK"
+msgstr "以太币/瑞士法郎"
+
+#, fuzzy
+#| msgid "ETH/NOK"
+msgid "ETH/BRO"
+msgstr "以太币/挪威克朗"
+
 msgid "ETC/CAD"
 msgstr "以太币/加元"
+
+#, fuzzy
+#| msgid "GBP/BRL"
+msgid "BCH/BRL"
+msgstr "英镑/巴西里尔"
 
 msgid "AUD/USD"
 msgstr "澳元/美元"
@@ -2092,20 +2623,64 @@ msgstr "英镑/瑞士法郎"
 msgid "EUR/GBP"
 msgstr "欧元/英镑"
 
+#, fuzzy
+#| msgid "ETH/GBP"
+msgid "ETH/EGP"
+msgstr "以太币/英镑"
+
+msgid "BCH/RUB"
+msgstr ""
+
+msgid "BCH/XPT"
+msgstr ""
+
 msgid "AUD/CAD"
 msgstr "澳元/加元"
 
 msgid "USD/HKD"
 msgstr "美元/港币"
 
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/ZAR"
+msgstr "莱特币/新西兰元"
+
 msgid "EUR/MXN"
 msgstr "欧元/墨西哥比索"
+
+#, fuzzy
+#| msgid "ETC/GBP"
+msgid "ETC/XAG"
+msgstr "以太币/英镑"
+
+msgid "BCH/XAG"
+msgstr ""
 
 msgid "GBP/HKD"
 msgstr "英镑/港币"
 
 msgid "ETC/JPY"
 msgstr "以太币/日元"
+
+#, fuzzy
+#| msgid "GBP/HKD"
+msgid "BCH/HKD"
+msgstr "英镑/港币"
+
+#, fuzzy
+#| msgid "LTC/CHF"
+msgid "LTC/CZK"
+msgstr "莱特币/瑞士法郎"
+
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/AED"
+msgstr "以太币/澳元"
+
+#, fuzzy
+#| msgid "BTC/GBP"
+msgid "BCH/GBP"
+msgstr "比特币/英镑"
 
 msgid "ETH/MXN"
 msgstr "以太币/墨西哥比索"
@@ -2116,11 +2691,26 @@ msgstr "比特币/波兰兹罗提"
 msgid "USD/TRY"
 msgstr "美元/土耳其里拉"
 
+#, fuzzy
+#| msgid "LTC/NZD"
+msgid "LTC/HKD"
+msgstr "莱特币/新西兰元"
+
 msgid "USD/PLN"
 msgstr "美元/波兰兹罗提"
 
+#, fuzzy
+#| msgid "ETH/AUD"
+msgid "ETH/RUB"
+msgstr "以太币/澳元"
+
 msgid "EUR/CAD"
 msgstr "欧元/加元"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/IDR"
+msgstr "比特币/欧元"
 
 msgid "EUR/HKD"
 msgstr "欧元/港币"
@@ -2134,11 +2724,21 @@ msgstr "美元/墨西哥比索"
 msgid "CHF/JPY"
 msgstr "瑞士法郎/日圆"
 
+#, fuzzy
+#| msgid "GBP/INR"
+msgid "BCH/INR"
+msgstr "英镑/印度卢比"
+
 msgid "ETH/NZD"
 msgstr "以太币/新西兰元"
 
 msgid "ETH/CAD"
 msgstr "以太币/加元"
+
+#, fuzzy
+#| msgid "BTC/EUR"
+msgid "BTC/BRL"
+msgstr "比特币/欧元"
 
 msgid "BTC/NOK"
 msgstr "比特币/挪威克朗"
@@ -3760,6 +4360,11 @@ msgstr "这期间不提供交易。"
 msgid "We could not process this contract at this time."
 msgstr "目前我们无法处理该合约。"
 
+#, fuzzy
+#| msgid "Invalid duration entered."
+msgid "Invalid duration (tick) for contract type (%1)."
+msgstr "输入的久期无效。"
+
 msgid "Trading is currently suspended due to configuration update."
 msgstr "由于数据配置更新，当前交易暂停。"
 
@@ -3772,7 +4377,9 @@ msgstr "由于市场数据丢失，交易暂停。"
 msgid "Expiry time cannot be equal to start time."
 msgstr "到期时间不可与开始时间相同。"
 
-msgid "Missing required contract parameters. (%1)"
+#, fuzzy
+#| msgid "Missing required contract parameters. (%1)"
+msgid "Missing required contract parameters (%1)."
 msgstr "遗漏所需合约参数。(%1)"
 
 msgid "Number of ticks must be between %1 and %2."
@@ -3898,7 +4505,9 @@ msgstr "期限超过24小时的市场内合约必须在同一交易日到期。"
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "远期起点合约的开始时间必须离现在5分钟以上。"
 
-msgid "Invalid barrier. (%1)"
+#, fuzzy
+#| msgid "Invalid barrier. (%1)"
+msgid "Invalid barrier (%1)."
 msgstr "无效障碍。 (%1)"
 
 msgid "This contract offers no return."
@@ -3936,6 +4545,21 @@ msgstr "由于市场数据丢失（波动率），交易暂停。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
+
+#~ msgid "App id is mandatory to access our api. Please register your application."
+#~ msgstr "访问api时必须有应用程序id。请注册您的应用程序。"
+
+#~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
+#~ msgstr "无效金额。最小转账金额为0.10，最多2个小数位。"
+
+#~ msgid "The account transfer is unavailable. Please deposit to your account."
+#~ msgstr "账户不可转账。请将资金存入您的账户。"
+
+#~ msgid "The page has timed out. This may be due to a slow Internet connection, or to excess load on our servers.  Please try again in a few moments."
+#~ msgstr "页面超时，可能是因为网络连接速度慢或服务器负载过高。请稍后重试。"
+
+#~ msgid "homepage"
+#~ msgstr "首页"
 
 #~ msgid "Invalid login attempt. Please log in with a social network instead."
 #~ msgstr "登录失败。请尝试通过社交网站登录。"
@@ -4154,12 +4778,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "USD/CNY"
 #~ msgstr "美元/人民币"
 
-#~ msgid "GBP/CNY"
-#~ msgstr "英镑/人民币"
-
-#~ msgid "GBP/BRL"
-#~ msgstr "英镑/巴西里尔"
-
 #~ msgid "EUR/ILS"
 #~ msgstr "欧元/以色列新谢克尔"
 
@@ -4174,9 +4792,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "EUR/BRL"
 #~ msgstr "欧元/巴西雷亚尔"
-
-#~ msgid "GBP/CZK"
-#~ msgstr "英镑/捷克克朗"
 
 #~ msgid "USD/ILS"
 #~ msgstr "美元/以色列新谢克尔"
@@ -4196,9 +4811,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "AUD/CNY"
 #~ msgstr "澳元/人民币"
 
-#~ msgid "GBP/SAR"
-#~ msgstr "英镑/沙特阿拉伯里亚尔"
-
 #~ msgid "USD/RUB"
 #~ msgstr "美元/俄国卢布"
 
@@ -4213,9 +4825,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "EUR/CZK"
 #~ msgstr "欧元/捷克克朗"
-
-#~ msgid "GBP/KRW"
-#~ msgstr "英镑/韩元"
 
 #~ msgid "USD/SAR"
 #~ msgstr "美元/沙特阿拉伯里亚尔"
@@ -5291,14 +5900,8 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "Please enter a number between %1."
 #~ msgstr "请输入%1之间的数字。"
 
-#~ msgid "Please enter a number between 0 and %1"
-#~ msgstr "请输入0和%1之间的数字"
-
 #~ msgid "Please enter a number greater or equal to %1."
 #~ msgstr "请输入大于或等于%1的数字。"
-
-#~ msgid "Please enter a valid amount."
-#~ msgstr "请输入有效金额。"
 
 #~ msgid "Please enter an integer value"
 #~ msgstr "请输入整数"
@@ -6077,9 +6680,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "is required. Current spread"
 #~ msgstr "必须。当前价差"
-
-#~ msgid "letters"
-#~ msgstr "信件"
 
 #~ msgid "loading..."
 #~ msgstr "加载中……"
@@ -11828,9 +12428,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "View open positions"
 #~ msgstr "查看未平仓头寸"
 
-#~ msgid "View payment methods"
-#~ msgstr "查看支付方式"
-
 #~ msgid "View progress"
 #~ msgstr "查看进展"
 
@@ -14494,9 +15091,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "The account transfer is unavailable as your account balance is less than 0.10. Please <a href=\"%1\">deposit</a> to your account."
 #~ msgstr "账户转账不可用，因为您的余额小于0.10。请将资金<a href=\"%1\">存入</a>您的账户。"
-
-#~ msgid "The account transfer is unavailable for %1 account."
-#~ msgstr "%1账户不可转账。"
 
 #~ msgid "The account transfer is unavailable for %1 and %2 accounts with different default currency."
 #~ msgstr "%1和%2账户不可用不同的预设货币转账。"
@@ -20599,9 +21193,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Error with price field"
 #~ msgstr "价格栏错误"
-
-#~ msgid "Invalid duration entered."
-#~ msgstr "输入的久期无效。"
 
 #~ msgid "Please enter a non-zero value for the contract parameters."
 #~ msgstr "请为交易参数输入一个非零值。"
