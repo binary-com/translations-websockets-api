@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-09-14 03:16+0000\n"
-"Last-Translator: Masanari Higashiyama <higashiyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
+"PO-Revision-Date: 2017-09-14 06:35+0000\n"
+"Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
+"websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,30 +133,20 @@ msgstr "年齢確認が必要です"
 msgid "Account not activated."
 msgstr "この口座は無効です。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for accounts with different default currency."
 msgid "Account transfer is not available for accounts with different currency."
 msgstr "既定通貨が異なるため、口座振替はできません。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for your account."
 msgid "Account transfer is not available for your account."
 msgstr "お客さまの口座への口座振替はできません。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for your account: %1."
 msgid "Account transfer is not available for your account: %1."
 msgstr "お客さまの%1口座への口座振替はできません。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for accounts with different default currency."
 msgid "Account transfer is not available within accounts with cryptocurrency as default currency."
-msgstr "既定通貨が異なるため、口座振替はできません。"
+msgstr "仮想通貨が既定通貨となっている口座に口座振替はできません。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for %1 account."
 msgid "Account transfer is not available within same account."
-msgstr "%1口座への口座振替はできません。"
+msgstr "同一口座間での口座振替はできません。"
 
 msgid "Account type"
 msgstr "口座種別"
@@ -289,12 +280,10 @@ msgid "Cross-company payment agent transfers are not allowed."
 msgstr "組織を横断する決済サービスでの送金は許可されていません。"
 
 msgid "Currency provided is different from account currency."
-msgstr ""
+msgstr "選択された通貨はお客様の口座既定通貨ではありません。"
 
-#, fuzzy
-#| msgid "The provided currency %1 is not applicable for this account."
 msgid "Currency provided is not valid for your account."
-msgstr "提供された通貨%1 はこのアカウントに対応していません。"
+msgstr "提供された通貨%1 はお客様の口座に対応していません。"
 
 msgid "Current"
 msgstr "当座"
@@ -651,8 +640,6 @@ msgstr "無効なアドレス"
 msgid "Invalid amount."
 msgstr "金額が無効です。"
 
-#, fuzzy
-#| msgid "Payout can not have more than %1 decimal places."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgstr "ペイアウトは、1ロットあたり1,000円です。"
 
@@ -957,15 +944,11 @@ msgstr "財務評価書にご記入をお願いします。"
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
 msgstr "出金や取引制限を解除するのに必要となる財務評価書にご記入をお願いします。"
 
-#, fuzzy
-#| msgid "Please authenticate your account."
 msgid "Please deposit to your account."
-msgstr "お客さまのアカウント認証をお願いします"
+msgstr "お客さまの口座へ入金をしてください。"
 
-#, fuzzy
-#| msgid "Please enter a number between 0 and %1"
 msgid "Please enter a number between %1 and %2"
-msgstr "0から%1の数字を入力してください"
+msgstr "%1から%2の数字を入力してください"
 
 msgid "Please enter a number between 0 and %1."
 msgstr "0から%1の数字を入力してください。"
@@ -1030,15 +1013,11 @@ msgstr "口座開設に必要な詳細情報をご入力ください。"
 msgid "Please provide some information about yourself and your proposed services"
 msgstr "自己紹介、及び提案されるサービスに関する情報をお知らせ下さい"
 
-#, fuzzy
-#| msgid "Please enter a valid amount."
 msgid "Please provide valid amount."
-msgstr "有効な値をご入力して下さい。"
+msgstr "有効な値をご入力ください。"
 
-#, fuzzy
-#| msgid "Please provide a valid email address."
 msgid "Please provide valid currency."
-msgstr "有効なEメールアドレスを入力して下さい。"
+msgstr "有効な通貨をご入力ください。"
 
 msgid "Please select"
 msgstr "選択して下さい"
@@ -1049,10 +1028,8 @@ msgstr "有効な決済サービスを選択してください。"
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "複数の口座を開設するには、既存の口座%1の通貨タイプを設定してください。"
 
-#, fuzzy
-#| msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgid "Please set the currency for your existing account %1."
-msgstr "複数の口座を開設するには、既存の口座%1の通貨タイプを設定してください。"
+msgstr "既存の口座%1の通貨タイプを設定してください。"
 
 msgid "Please set the currency."
 msgstr "通貨を設定してください。"
@@ -1090,10 +1067,8 @@ msgstr "%1として続行"
 msgid "Provided amount is not within permissible limits."
 msgstr "提示された金額は限度額を超えています。"
 
-#, fuzzy
-#| msgid "Provided amount is not within permissible limits."
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
-msgstr "提示された金額は限度額を超えています。"
+msgstr "提示された金額は限度額を超えています。選択された通貨の最小金額は%1です。"
 
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
 msgstr "ペイアウト限度額に達しているため新規注文をおこなえません。続行いただくには、保有ポジションを決済していただく必要があります。"
@@ -1119,10 +1094,8 @@ msgstr "各種キャンペーン情報に関する お知らせを受け取る"
 msgid "Reload page"
 msgstr "ページの再読込"
 
-#, fuzzy
-#| msgid "letters"
 msgid "Remitter"
-msgstr "文字"
+msgstr "送金者"
 
 msgid "Request timed out"
 msgstr "リクエストタイムアウト"
@@ -1513,10 +1486,8 @@ msgstr "ドメイン名が不明です"
 msgid "Unknown landing company."
 msgstr "不明のランディング会社（口座登録先）です"
 
-#, fuzzy
-#| msgid "View payment methods"
 msgid "Unknown payment method."
-msgstr "決済方法を確認"
+msgstr "決済方法が不明です。"
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "サポートされていないベットタイプ $bet_params->{bet_class}"
@@ -1853,31 +1824,23 @@ msgstr "公社債"
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "Binary株式会社<br>金融商品取引業者 関東財務局（金商） 第2949号<br>【加入協会】一般社団法人金融先物取引業協会<br>東京都渋谷区広尾 1-9-16 広尾宮田ビル3F<br>Eメール: support@binary.com"
 
-#, fuzzy
-#| msgid "ETH/GBP"
 msgid "ETH/BRL"
-msgstr "ETH/GBP"
+msgstr "ETH/BRL"
 
 msgid "BTC/MXN"
 msgstr "BTC/MXN"
 
-#, fuzzy
-#| msgid "LTC/SEK"
 msgid "LTC/SAR"
-msgstr "LTC/SEK"
+msgstr "LTC/SAR"
 
 msgid "ETC/GBP"
 msgstr "ETC/GBP"
 
-#, fuzzy
-#| msgid "LTC/AUD"
 msgid "LTC/AED"
-msgstr "LTC/AUD"
+msgstr "LTC/AED"
 
-#, fuzzy
-#| msgid "GBP/TRY"
 msgid "BCH/TRY"
-msgstr "GBP/TRY"
+msgstr "BCH/TRY"
 
 msgid "USDZAR"
 msgstr "USDZAR"
@@ -1903,10 +1866,8 @@ msgstr "ETC/USD"
 msgid "GBP/AED"
 msgstr "GBP/AED"
 
-#, fuzzy
-#| msgid "LTC/CAD"
 msgid "LTC/XAG"
-msgstr "LTC/CAD"
+msgstr "LTC/XAG"
 
 msgid "EUR/CHF"
 msgstr "EUR/CHF"
@@ -1920,39 +1881,29 @@ msgstr "ETC/SEK"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
-#, fuzzy
-#| msgid "ETC/SEK"
 msgid "ETC/SAR"
-msgstr "ETC/SEK"
+msgstr "ETC/SAR"
 
 msgid "GBP/USD"
 msgstr "GBP/USD"
 
-#, fuzzy
-#| msgid "LTC/EUR"
 msgid "LTC/TRY"
-msgstr "LTC/EUR"
+msgstr "LTC/TRY"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/IDR"
-msgstr "ETC/USD"
+msgstr "ETC/IDR"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/KWD"
-msgstr "ETC/USD"
+msgstr "ETC/KWD"
 
 msgid "AUD/AED"
 msgstr "AUD/AED"
 
-#, fuzzy
-#| msgid "GBP/SGD"
 msgid "BCH/SGD"
-msgstr "GBP/SGD"
+msgstr "BCH/SGD"
 
 msgid "EUR/INR"
 msgstr "EUR/INR"
