@@ -117,27 +117,17 @@ msgstr "La cuenta no ha sido activada."
 
 #, fuzzy
 #| msgid "The account transfer is unavailable for accounts with different default currency."
-msgid "Account transfer is not available for accounts with different currency."
+msgid "Account transfers are not available for accounts with different currencies."
 msgstr "La transferencia no se puede realizar entre cuentas con monedas por defecto diferentes."
 
 #, fuzzy
-#| msgid "The account transfer is unavailable for your account."
-msgid "Account transfer is not available for your account."
-msgstr "La transferencia no está disponible para su cuenta."
-
-#, fuzzy
-#| msgid "The account transfer is unavailable for your account: %1."
-msgid "Account transfer is not available for your account: %1."
-msgstr "La transferencia no está disponible para su cuenta: %1."
-
-#, fuzzy
 #| msgid "The account transfer is unavailable for accounts with different default currency."
-msgid "Account transfer is not available within accounts with cryptocurrency as default currency."
+msgid "Account transfers are not available within accounts with cryptocurrency as default currency."
 msgstr "La transferencia no se puede realizar entre cuentas con monedas por defecto diferentes."
 
 #, fuzzy
 #| msgid "The account transfer is unavailable for %1 account."
-msgid "Account transfer is not available within same account."
+msgid "Account transfers are not available within same account."
 msgstr "La transferencia de la cuenta no está disponible para cuenta %1."
 
 msgid "Account type"
@@ -163,18 +153,6 @@ msgstr "Acabamos de detectar un inicio de sesión adicional en su cuenta %1 desd
 
 msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3, browser: %4 and app: %5. If this additional sign-in was not performed by you, please contact our Customer Support team."
 msgstr "Acabamos de detectar un inicio de sesión adicional en su cuenta %1 desde la siguiente dirección IP: %2, país: %3, navegador: %4 y aplicación: %5. Si no ha sido usted, por favor póngase en contacto con nuestro equipo de Atención al Cliente."
-
-msgid "An error occurred while processing request. Please try again after one minute."
-msgstr "Ocurrió un problema al procesar la solicitud. Inténtelo de nuevo en un minuto."
-
-msgid "An error occurred while processing request. Please try again in one minute."
-msgstr "Ocurrió un problema al procesar la solicitud. Inténtelo de nuevo en un minuto."
-
-msgid "An error occurred while processing your payment agent transfer."
-msgstr "Ha ocurrido un error al procesar el pago a través de su agente de pago."
-
-msgid "An error occurred while processing your payment agent withdrawal."
-msgstr "Ha ocurrido un error al procesar el retiro a través de su agente de pago."
 
 #, fuzzy
 #| msgid "An error occurred while processing request. Please try again after one minute."
@@ -205,6 +183,9 @@ msgstr "Las barreras deben estar en cualquiera de los lados de la posición actu
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Datos del banco corresponsal o intermediario del beneficiario:"
 
+msgid "Binary ICO: cancelled bid"
+msgstr ""
+
 msgid "Binary K.K. Customer Account"
 msgstr ""
 
@@ -213,6 +194,9 @@ msgstr "Código de agencia"
 
 msgid "Branch name"
 msgstr "Nombre de agencia"
+
+msgid "Buy"
+msgstr "Comprar"
 
 msgid "Cancel"
 msgstr "Cancelar"
@@ -261,9 +245,6 @@ msgstr "País de residencia"
 
 msgid "Create one"
 msgstr "Crear uno"
-
-msgid "Cross-company payment agent transfers are not allowed."
-msgstr "Los pagos a través de agentes de pago entre las cuentas dentro de la misma compañía no están permitidos."
 
 msgid "Currency provided is different from account currency."
 msgstr ""
@@ -438,22 +419,20 @@ msgstr ""
 "\n"
 "Le queremos comunicar que hemos recibido su solicitud de bonificación. Por desgracia, no hemos podido procesar su solicitud por una de las siguientes razones:"
 
+#, fuzzy
+#| msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by clicking the link below:</p><p><a href=\"%1\">%1</a></p><p>If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgid ""
 "Dear Valued Customer,\n"
 "\n"
-"Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+"Before we can help you change your password, please help us to verify your identity by clicking the link below:\n"
 "\n"
-"Token: %1\n"
+"%1\n"
 "\n"
-"Password reset form: %2"
-msgstr ""
-"Estimado cliente,\n"
+"If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.\n"
 "\n"
-"Antes de que podamos ayudarle a cambiar su contraseña, por favor, ayúdenos a verificar su identidad introduciendo el siguiente token de verificación en el formulario para restablecer la contraseña:\n"
-"\n"
-"Token: %1\n"
-"\n"
-"Formulario para restablecer la contraseña: %2"
+"With regards,\n"
+"Binary.com"
+msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Estimado cliente,</p><p>Antes de que podamos ayudarle a cambiar su contraseña, por favor ayúdenos a verificar su identidad ingresando en el siguiente enlace:</p><p><a href=\"%1\">%1</a></p><p>Si el enlace no funciona, por favor copie y pegue la URL en una nueva ventana de su navegador.</p><p style=\"color:#333333;font-size:15px;\">Saludos cordiales,<br/>%2</p>"
 
 msgid "Deposit"
 msgstr "Depósito"
@@ -466,6 +445,16 @@ msgstr "El valor del depósito debe ser mayor que cero."
 
 msgid "Deposit confirmation"
 msgstr "Confirmación de depósito"
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Document ID is required."
+msgstr "%1 es obligatorio."
+
+#, fuzzy
+#| msgid "Quote not found"
+msgid "Document not found."
+msgstr "No se encontró la cotización"
 
 msgid "Documents are required to verify your identity"
 msgstr "Se requieren documentos para verificar su identidad"
@@ -517,6 +506,16 @@ msgstr "El tiempo de exclusión debe ser a partir de mañana."
 
 msgid "Exclusion time conversion error."
 msgstr "Error de conversión de tiempo de exclusión."
+
+#, fuzzy
+#| msgid "Expiry time cannot be equal to start time."
+msgid "Expiration date cannot be less than or equal to current date."
+msgstr "El tiempo de caducidad no puede ser igual al tiempo de inicio."
+
+#, fuzzy
+#| msgid "Date of birth is required."
+msgid "Expiration date is required."
+msgstr "Se requiere la fecha de nacimiento."
 
 msgid "Failed attempt to unlock cashier section"
 msgstr "Intento fallido de desbloquear la sección del cajero"
@@ -594,18 +593,6 @@ msgstr "Fallo de validación de entrada: address_postcode"
 msgid "Internal server error"
 msgstr "Error interno del servidor"
 
-msgid "Invalid URI for appstore."
-msgstr "URI para la tienda de aplicaciones no válido."
-
-msgid "Invalid URI for github."
-msgstr "URI para github no válido."
-
-msgid "Invalid URI for googleplay."
-msgstr "URI no válido para googleplay."
-
-msgid "Invalid URI for homepage."
-msgstr "URI no válido para la página de inicio."
-
 msgid "Invalid URL"
 msgstr "URL no válida"
 
@@ -632,14 +619,27 @@ msgstr "Monto invalido. El máximo es %1."
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "Monto invalido. El valor máximo permitido para retirar es %1."
 
+#, fuzzy
+#| msgid "Invalid amount. minimum is %1, maximum is %2."
+msgid "Invalid amount. Minimum is %1, maximum is %2."
+msgstr "Monto invalido. El monto mínimo es %1 y el máximo es %2."
+
 msgid "Invalid amount. Minimum is %1."
 msgstr "Monto inválido. El monto mínimo es %1."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Monto invalido. El monto mínimo permitido es %1."
 
-msgid "Invalid amount. minimum is %1, maximum is %2."
-msgstr "Monto invalido. El monto mínimo es %1 y el máximo es %2."
+#, fuzzy
+#| msgid "Invalid date of birth."
+msgid "Invalid date format."
+msgstr "Fecha de nacimiento incorrecta."
+
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr ""
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr ""
 
 msgid "Invalid loginid"
 msgstr "ID de inicio de sesión no válido"
@@ -745,6 +745,9 @@ msgstr "Máximo de pérdidas por un período de 7 días."
 
 msgid "Maximum aggregate loss per day."
 msgstr "Máximo de pérdidas por día."
+
+msgid "Maximum file size reached. Maximum allowed is %1"
+msgstr ""
 
 msgid "Maximum number of open positions"
 msgstr "Número máximo de posiciones abiertas"
@@ -863,20 +866,49 @@ msgstr "No se acepta la casilla de correo postal en una dirección."
 msgid "Password"
 msgstr "Contraseña"
 
-msgid "Password is not strong enough."
-msgstr "La contraseña no es lo suficientemente fuerte."
-
 msgid "Password not given."
 msgstr "No se ha escrito ninguna contraseña."
 
 msgid "Password should be at least six characters, including lower and uppercase letters with numbers."
 msgstr "La contraseña debe tener al menos seis caracteres, incluyendo letras minúsculas y mayúsculas con números."
 
-msgid "Payment Agent activity not currently authorized"
-msgstr "La actividad de agente de pago no está autorizada"
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent facilities are not available for this account."
+msgstr "Los agentes de pagos no están disponibles para su cuenta."
 
-msgid "Payment Agents are not available on this site."
-msgstr "Los agentes de pagos no están disponibles para este sitio."
+msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+msgstr ""
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are available for %1 currency only."
+msgstr "Los agentes de pagos no están disponibles para su cuenta."
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are not allowed for specified accounts."
+msgstr "Los agentes de pagos no están disponibles para su cuenta."
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are not allowed for the specified accounts."
+msgstr "Los agentes de pagos no están disponibles para su cuenta."
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for %1 account."
+msgid "Payment agent transfers are not allowed within the same account."
+msgstr "La transferencia de la cuenta no está disponible para cuenta %1."
+
+#, fuzzy
+#| msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
+msgstr "Lo sentimos, excedió el máximo de transacciones diarias permitidas."
+
+#, fuzzy
+#| msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgstr "Lo sentimos, excedió el monto máximo de transferencias permitido por hoy."
 
 msgid "Payment error"
 msgstr "Error en el pago"
@@ -945,8 +977,10 @@ msgstr "Por favor autentique su cuenta para continuar."
 msgid "Please enter a number between %1 and %2"
 msgstr "Ingrese un valor entre 0 y %1"
 
-msgid "Please enter a number between 0 and %1."
-msgstr "Por favor, ingrese un valor entre 0 y %1."
+#, fuzzy
+#| msgid "Please enter a number between 0 and %1"
+msgid "Please enter a number between %1 and %2."
+msgstr "Ingrese un valor entre 0 y %1"
 
 msgid "Please enter a numeric value."
 msgstr "Por favor, ingrese un valor numérico."
@@ -1066,11 +1100,6 @@ msgstr "Utilice la dirección anterior solo una vez."
 msgid "Postcode is required for UK residents."
 msgstr "Código Postal es obligatorio para los residentes del Reino Unido."
 
-#, fuzzy
-#| msgid "Proceed"
-msgid "Proceeded as %1"
-msgstr "Seguir"
-
 msgid "Provided amount is not within permissible limits."
 msgstr "El monto entregado está fuera de los límites permitidos."
 
@@ -1099,6 +1128,11 @@ msgstr "Deutsche Bank"
 msgid "Read user profile"
 msgstr "Leer el perfil de usuario"
 
+#, fuzzy
+#| msgid "Realtime quotes not available for %1"
+msgid "Realtime quotes not available for %1."
+msgstr "Cotizaciones en tiempo real no están disponibles para %1"
+
 msgid "Receive news and special offers"
 msgstr "Reciba noticias y ofertas especiales"
 
@@ -1125,6 +1159,9 @@ msgstr "Ahorros"
 msgid "Self-Exclusion Facilities"
 msgstr "Características de auto-exclusión"
 
+msgid "Sell"
+msgstr "Venta"
+
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "El límite de la duración de la sesión no puede ser superior a 6 semanas."
 
@@ -1137,15 +1174,6 @@ msgstr "Límite de la duración de la sesión, en minutos"
 msgid "Short summary of your Payment Agent service"
 msgstr "Breve resumen de su servicio de agente de pagos"
 
-msgid "Sorry, %1 is not default currency for client %2"
-msgstr "Lo sentimos, %1 no es la moneda por defecto del cliente %2"
-
-msgid "Sorry, %1 is not default currency for payment agent %2"
-msgstr "Lo sentimos, %1 no es la moneda por defecto de agente de pago %2"
-
-msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-msgstr "Lo sentimos, los pagos a través de agentes de pago están desactivados temporalmente por cuestiones de mantenimiento.  Inténtelo nuevamente dentro de 30 minutos."
-
 msgid "Sorry, account opening is unavailable."
 msgstr "Lo sentimos, apertura de una cuenta actualmente no está disponible."
 
@@ -1154,6 +1182,16 @@ msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su cuenta."
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su petición."
+
+#, fuzzy
+#| msgid "Sorry, an error occurred while processing your request."
+msgid "Sorry, an error occurred whilst processing your request."
+msgstr "Lo sentimos, ha ocurrido un error mientras se procesaba su petición."
+
+#, fuzzy
+#| msgid "An error occurred while processing request. Please try again in one minute."
+msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
+msgstr "Ocurrió un problema al procesar la solicitud. Inténtelo de nuevo en un minuto."
 
 #, fuzzy
 #| msgid "Sorry, an error has occurred, Please try accessing our Cashier again."
@@ -1173,20 +1211,11 @@ msgstr "Lo sentimos, nuestro servicio no está disponible para su país de resid
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "Lo sentimos, nuestro sistema de pago está temporalmente fuera de servicio por mantenimiento del sistema."
 
-msgid "Sorry, client balance will exceed limits with this payment."
-msgstr "Lo sentimos, el saldo del cliente superará los límites con este pago."
-
 msgid "Sorry, contracts on Financial Products are not available in your country of residence"
 msgstr "Lo sentimos, los contratos sobre productos financieros no están disponibles en su país de residencia"
 
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "Lo sentimos, los contratos sobre los Índices de Volatilidad no están disponibles en su país de residencia"
-
-msgid "Sorry, it is not allowed."
-msgstr "Lo sentimos, no está permitido."
-
-msgid "Sorry, only USD is allowed."
-msgstr "Lo sentimos, sólo se permiten dólares estadounidenses."
 
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "Lo sentimos, nuestro servicio no está disponible para su país de residencia."
@@ -1195,18 +1224,6 @@ msgstr "Lo sentimos, nuestro servicio no está disponible para su país de resid
 #| msgid "Sorry, OHLC is not available for %1."
 msgid "Sorry, the ICO is not available for copy trading."
 msgstr "Lo sentimos, OHLC no está disponible para %1."
-
-msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-msgstr "Lo sentimos, los retiros a través de agentes de pago están desactivados temporalmente por cuestiones de mantenimiento.  Inténtelo nuevamente dentro de 30 minutos."
-
-msgid "Sorry, the Payment Agent does not exist."
-msgstr "Lo sentimos, el agente de pagos no existe."
-
-msgid "Sorry, the Payment Agent is unavailable for your region."
-msgstr "Lo sentimos, no hay agentes de pagos disponibles para su región."
-
-msgid "Sorry, the Payment Agent's currency %1 is unavailable for Payment Agent Withdrawal"
-msgstr "Lo sentimos, la moneda de agente de pago %2 no está disponible para retiros a través del agente de pago"
 
 msgid "Sorry, the aggregate payouts of contracts on your account cannot exceed %1%2."
 msgstr "Lo sentimos, los pagos totales de contratos en su cuenta no pueden exceder %1%2."
@@ -1223,6 +1240,11 @@ msgstr "Lo sentimos, se produjo un error al validar su información personal con
 msgid "Sorry, there was a problem validating your personal information with our payment processor. Please verify that your date of birth was input correctly in your account settings."
 msgstr "Lo sentimos, se produjo un error al validar su información personal con nuestro procesador de pago. Verifique que introdujo su fecha de nacimiento correctamente en la configuración de su cuenta."
 
+#, fuzzy
+#| msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
+msgid "Sorry, this facility is temporarily disabled due to system maintenance."
+msgstr "Lo sentimos, nuestro sistema de pago está temporalmente fuera de servicio por mantenimiento del sistema."
+
 msgid "Sorry, this feature is available to virtual accounts only"
 msgstr "Lo sentimos, esta característica está disponible solo para cuentas virtuales"
 
@@ -1234,6 +1256,11 @@ msgstr "Lo sentimos, usted es muy joven para abrir una cuenta."
 
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please visit the statement page to automatically sell your expired contracts."
 msgstr "Lo sentimos, no puede retener más de %1 contratos al mismo tiempo. Por favor, visite su extracto para que los contratos expirados se cierren de forma automática."
+
+#, fuzzy
+#| msgid "Sorry, your account does not allow passwords because you use social media to log in."
+msgid "Sorry, you cannot reset your password because you logged in using a social network."
+msgstr "Lo sentimos, su cuenta no permite contraseñas porque inicia sesión a través de una red social."
 
 msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
 msgstr "Lo sentimos, no puede retirar fondos. El saldo de su cuenta es %1 %2."
@@ -1256,9 +1283,6 @@ msgstr "Lo sentimos, excedió el máximo de transacciones diarias permitidas."
 msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
 msgstr "Lo sentimos, excedió el monto máximo de transferencias de %1 permitido por hoy."
 
-msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
-msgstr "Lo sentimos, excedió el monto máximo de transferencias permitido por hoy."
-
 msgid "Sorry, you have excluded yourself from the website until %1."
 msgstr "Lo sentimos, estará excluido del sitio web hasta %1."
 
@@ -1279,9 +1303,6 @@ msgstr "Lo sentimos, su cuenta no permite contraseñas porque inicia sesión a t
 
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Lo sentimos, su cuenta no está autorizada para continuar con la compra de contratos."
-
-msgid "Sorry, your currency of %1 is unavailable for Payment Agent Withdrawal"
-msgstr "Lo sentimos, su moneda %1 no está disponible para retiros a través del agente de pago"
 
 msgid "Start time %1 must be before end time %2"
 msgstr "La hora de inicio %1 debe ser anterior a la hora de la finalización %2"
@@ -1307,6 +1328,11 @@ msgstr "La lista de bancos aceptados no es válida"
 msgid "Swift code"
 msgstr "Código Swift"
 
+#, fuzzy
+#| msgid "Symbol %1 invalid"
+msgid "Symbol %1 invalid."
+msgstr "Símbolo %1 no es válido"
+
 msgid "Tax identification number"
 msgstr "Número de identificación tributaria"
 
@@ -1329,9 +1355,6 @@ msgstr "El equipo de %1."
 #| msgid "Bidding for tokens in your country of residence is restricted to professional investors only. If you are a professional investor, please contact our Customer Support to certify your account as such."
 msgid "The ICO is only available to professional investors in your country of residence. If you are a professional investor, please contact our customer support team to verify your account status."
 msgstr "La oferta de tokens en su país de residencia está restringida a los inversionistas profesionales únicamente. Si es un inversionista profesional, póngase en contacto con nuestro servicio de atención al cliente para certificar su cuenta como tal."
-
-msgid "The Payment Agent facility is currently not available in your country."
-msgstr "Los agentes de pagos no están disponibles actualmente para su país."
 
 msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
 msgstr "La cuenta debe estar a su nombre y coincidir con los detalles de su cuenta de negociación. Introduzca a continuación los detalles de la cuenta que desea utilizar."
@@ -1365,6 +1388,21 @@ msgstr "La contraseña de la cuenta %1 ha sido cambiada. Esta petición se origi
 
 msgid "The password for your account %1 has been reset. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "La contraseña de su cuenta %1 ha sido cambiada. Si esta solicitud no fue realizada por usted, por favor póngase en contacto con nuestro Servicio de Atención al Cliente de inmediato."
+
+#, fuzzy
+#| msgid "Sorry, the Payment Agent does not exist."
+msgid "The payment agent account does not exist."
+msgstr "Lo sentimos, el agente de pagos no existe."
+
+#, fuzzy
+#| msgid "The Payment Agent facility is currently not available in your country."
+msgid "The payment agent facility is currently not available in your country."
+msgstr "Los agentes de pagos no están disponibles actualmente para su país."
+
+#, fuzzy
+#| msgid "The Payment Agent facility is currently not available in your country."
+msgid "The payment agent facility is not available for this account."
+msgstr "Los agentes de pagos no están disponibles actualmente para su país."
 
 msgid "The provided currency %1 is invalid."
 msgstr "La divisa proporcionada de %1 no es válida."
@@ -1402,9 +1440,6 @@ msgstr "Hubo un error al procesar la solicitud."
 msgid "These are the bank account details you provided previously. If you wish to register a different account then please contact customer support."
 msgstr "Estos son los datos bancarios que proporcionó anteriormente. Si desea registrar una cuenta diferente, póngase en contacto con nuestro servicio de atención al cliente."
 
-msgid "This Payment Agent cashier section is locked."
-msgstr "Esta sección de cajero del agente de pagos está bloqueada."
-
 msgid "This URL is invalid."
 msgstr "Esta URL no es válida."
 
@@ -1413,9 +1448,6 @@ msgstr "Esta cuenta ha sido desactivada."
 
 msgid "This account is unavailable."
 msgstr "Esta cuenta no está disponible."
-
-msgid "This client cashier section is locked."
-msgstr "Esta sección de cajero del cliente está bloqueada."
 
 msgid "This contract cannot be properly validated at this time."
 msgstr "En este momento, no es posible validar este contrato."
@@ -1426,20 +1458,46 @@ msgstr "Este contrato está limitado a "
 msgid "This contract is unavailable on this account."
 msgstr "Este contrato no está disponible para esta cuenta."
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "This contract type is not available for this acccount"
+msgstr "Este contrato no está disponible para esta cuenta."
+
 msgid "This contract was not found among your open positions."
 msgstr "Este contrato no se ha encontrado entre sus posiciones abiertas."
 
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "El precio del contrato es %1%2. Los contratos comprados de %3 tienen que tener el precio de compra mayor a %1%4. Por favor, aumente el monto del contrato para cumplir con esta condición del precio mínimo."
 
+#, fuzzy
+#| msgid "Your email address is unverified."
+msgid "This email address is invalid."
+msgstr "Su dirección de correo electrónico no está verificada."
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Esta es una cuenta de dinero virtual. Por favor cambie a una cuenta de dinero para acceder al sistema de pagos."
+
+#, fuzzy
+#| msgid "An error occurred while processing your payment agent transfer."
+msgid "This is an ICO-only account which does not support payment agent transfers."
+msgstr "Ha ocurrido un error al procesar el pago a través de su agente de pago."
+
+msgid "This is an ICO-only account which does not support transfers."
+msgstr ""
 
 msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
 msgstr "Este es un mensaje automático para alertarlo de que se hizo un cambio en su sección de ajustes del cajero de su cuenta %1 desde la dirección IP %2. Si usted no realizó este cambio, entre en los ajustes de configuración de la cuenta y actualícelos."
 
 msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
 msgstr "Este es un mensaje automático para alertarlo de que hubo un intento sin éxito de desbloquear la sección Cajero/Configuración de su cuenta %1 desde la dirección IP %2"
+
+#, fuzzy
+#| msgid "This feature is not relevant to virtual-money accounts."
+msgid "This is not supported on an ICO-only account."
+msgstr "Esta característica no es relevante para cuentas de dinero virtual."
+
+msgid "This market is presently closed."
+msgstr "Este mercado está cerrado."
 
 msgid "Timeout from the website until"
 msgstr "Pausa del sitio web hasta"
@@ -1476,6 +1534,11 @@ msgstr "ID de transacción: %1"
 
 msgid "Transactions"
 msgstr "Transacciones"
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Transfers between accounts are not available for your account."
+msgstr "Los agentes de pagos no están disponibles para su cuenta."
 
 msgid "URL should not have fragment"
 msgstr "URL no debe contener fragmentos"
@@ -1532,6 +1595,9 @@ msgstr "Verifique su solicitud de retirada."
 
 msgid "Verify your withdrawal request - %1"
 msgstr "Verifique su solicitud de retiro - %1"
+
+msgid "Virtual accounts don't require document uploads."
+msgstr ""
 
 msgid "Virtual money credit to account"
 msgstr "Crédito de dinero virtual a la cuenta"
@@ -1593,6 +1659,17 @@ msgstr ""
 "Le informamos que se ha procesado la solicitud de retiro de %1%2.\n"
 "La transacción %3 está pendiente de confirmación."
 
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that the withdrawal request of %1 %2 has been processed.\n"
+#| "Transaction %3 is confirmed."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been rejected.\n"
+"Your account is refunded."
+msgstr ""
+"Le informamos que se ha procesado la solicitud de retiro de %1%2.\n"
+"La transacción %3 ha sido confirmada."
+
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "Lo sentimos, la opción de auto-exclusión no está disponible para cuentas virtuales."
 
@@ -1643,16 +1720,101 @@ msgstr "Ya está suscrito a proposal_open_contract."
 msgid "You are already subscribed to transaction updates."
 msgstr "Usted ya está suscrito a las actualizaciones de sus transacciones."
 
-msgid "You are not a Payment Agent"
-msgstr "Usted no es un agente de pago"
+#, fuzzy
+#| msgid "You are not authorized for withdrawal via payment agent."
+msgid "You are not authorized for transfers via payment agents."
+msgstr "Usted no está autorizado para retirar dinero a través de agente de pago."
 
-msgid "You are not authorized for withdrawal via payment agent."
+#, fuzzy
+#| msgid "You are not authorized for withdrawal via payment agent."
+msgid "You are not authorized for withdrawals via payment agents."
 msgstr "Usted no está autorizado para retirar dinero a través de agente de pago."
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
 
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for payment agent %2"
+msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
+msgstr "Lo sentimos, %1 no es la moneda por defecto de agente de pago %2"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for client %2"
+msgid "You cannot perform this action, as %1 is not default currency for your account %2."
+msgstr "Lo sentimos, %1 no es la moneda por defecto del cliente %2"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for client %2"
+msgid "You cannot perform this action, as %1 is not the default account currency for client %2."
+msgstr "Lo sentimos, %1 no es la moneda por defecto del cliente %2"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for payment agent %2"
+msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
+msgstr "Lo sentimos, %1 no es la moneda por defecto de agente de pago %2"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account %1 is currently disabled."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is cashier locked."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is currently disabled."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is withdrawal locked."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+msgid "You cannot perform this action, as your verification documents have expired."
+msgstr ""
+
+msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
+msgstr ""
+
 msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their cashier is locked."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
 
 msgid "You have already claimed a bonus in the past."
@@ -1664,6 +1826,11 @@ msgid "You have created all accounts available to you."
 msgstr "Ha abierto una cuenta utilizando datos no válidos."
 
 msgid "You have exceeded the daily limit for contracts of this type."
+msgstr "Usted ha excedido el límite permitido para contratos de este tipo."
+
+#, fuzzy
+#| msgid "You have exceeded the daily limit for contracts of this type."
+msgid "You have exceeded the open position limit for contracts of this type."
 msgstr "Usted ha excedido el límite permitido para contratos de este tipo."
 
 msgid "You have exceeded your 30-day limit on losses of %1%2."
@@ -1697,6 +1864,11 @@ msgstr "Debe usar una cuenta bancaria designada para transferir fondos a su cuen
 
 msgid "You will be automatically logged out after such time."
 msgstr "Usted será automáticamente desconectado después de ese tiempo."
+
+#, fuzzy
+#| msgid "Your cashier is locked as per your request."
+msgid "Your %1 cashier is locked as per your request."
+msgstr "Su cajero está bloqueado según su petición."
 
 msgid "Your Details"
 msgstr "Sus Datos"
@@ -1734,6 +1906,11 @@ msgstr "Su cuenta está bloqueada para retiros."
 msgid "Your account is restricted to withdrawals only."
 msgstr "Su cuenta está restringida sólo a retiradas."
 
+#, fuzzy
+#| msgid "Your account does not require authentication at this time."
+msgid "Your account needs to be authenticated to perform payment agent transfers."
+msgstr "Su cuenta no requiere verificación en este momento."
+
 msgid "Your app_id is invalid."
 msgstr "Su app_id no es válido."
 
@@ -1743,17 +1920,14 @@ msgstr "Su saldo es superior a la cantidad permitida."
 msgid "Your bonus request - %1"
 msgstr "Su solicitud de bonificación - %1"
 
-msgid "Your cashier is locked as per your request"
-msgstr "Su cajero está bloqueado según su petición"
+msgid "Your cannot perform this action, as your account %1 cashier is locked as per request."
+msgstr ""
 
 msgid "Your cashier is locked as per your request."
 msgstr "Su cajero está bloqueado según su petición."
 
 msgid "Your cashier is locked."
 msgstr "Su cajero está bloqueado."
-
-msgid "Your cashier section is locked."
-msgstr "Su sección de cajero está bloqueada."
 
 msgid "Your cashier was locked."
 msgstr "Su cajero estaba bloqueado."
@@ -3017,9 +3191,6 @@ msgstr "Índice OTC Arabia Saudí"
 
 msgid "Swiss Index"
 msgstr "Índice Suiza"
-
-msgid "UK OTC Index"
-msgstr "Índice OTC de Reino Unido"
 
 msgid "Hong Kong Index"
 msgstr "Índice Hong Kong"
@@ -4391,6 +4562,14 @@ msgstr "punto de entrada positivo %1"
 msgid "entry spot minus %1"
 msgstr "punto de entrada negativo %1"
 
+msgid "Start Time"
+msgstr "Hora de comienzo"
+
+#, fuzzy
+#| msgid " and "
+msgid "%1 and %2"
+msgstr " y "
+
 msgid "close on %1"
 msgstr "cierre %1"
 
@@ -4403,8 +4582,22 @@ msgstr "punto de entrada positivo %plural(%1,%d pip, %d pips)"
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "punto de entrada negativo %plural(%1,%d pip, %d pips)"
 
+msgid "Entry Spot"
+msgstr "Punto de entrada"
+
+msgid "End Time"
+msgstr "Hora de finalización"
+
 msgid "entry spot"
 msgstr "punto de entrada"
+
+msgid "Exit Spot"
+msgstr "Punto de salida"
+
+#, fuzzy
+#| msgid "Closing Price"
+msgid "Closing Spot"
+msgstr "Precio de cierre"
 
 msgid "Absolute barrier cannot be zero."
 msgstr "Barrera absoluta no puede ser cero."
@@ -4423,9 +4616,6 @@ msgstr "No hemos podido procesar este contrato en estos momentos."
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Duración introducida no válida."
 
-msgid "Trading is currently suspended due to configuration update."
-msgstr "Las operaciones están actualmente suspendidas debido a una actualización de configuración."
-
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "La barrera superior se encuentra fuera del rango aceptable. Por favor, cambie la barrera superior."
 
@@ -4434,6 +4624,11 @@ msgstr "Las operaciones están suspendidas por falta de datos del mercado."
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "El tiempo de caducidad no puede ser igual al tiempo de inicio."
+
+#, fuzzy
+#| msgid "This market is presently closed."
+msgid "The ICO has not yet started."
+msgstr "Este mercado está cerrado."
 
 #, fuzzy
 #| msgid "Missing market data for contract period."
@@ -4507,11 +4702,13 @@ msgid "An error occurred during contract settlement."
 msgstr "Por favor, espere el establecimiento del contrato."
 
 #, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "The ICO is not available for the account."
+msgstr "Este contrato no está disponible para esta cuenta."
+
+#, fuzzy
 #| msgid "This market is presently closed."
 msgid "The ICO is now closed."
-msgstr "Este mercado está cerrado."
-
-msgid "This market is presently closed."
 msgstr "Este mercado está cerrado."
 
 #, fuzzy
@@ -4639,6 +4836,116 @@ msgstr "Las operaciones están suspendidas por falta de datos del mercado."
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Los contratos de este mercado con una duración inferior a 24 horas deben expirar el mismo día."
+
+#, fuzzy
+#~| msgid "The account transfer is unavailable for your account."
+#~ msgid "Account transfer is not available for your account."
+#~ msgstr "La transferencia no está disponible para su cuenta."
+
+#, fuzzy
+#~| msgid "The account transfer is unavailable for your account: %1."
+#~ msgid "Account transfer is not available for your account: %1."
+#~ msgstr "La transferencia no está disponible para su cuenta: %1."
+
+#~ msgid "An error occurred while processing request. Please try again after one minute."
+#~ msgstr "Ocurrió un problema al procesar la solicitud. Inténtelo de nuevo en un minuto."
+
+#~ msgid "An error occurred while processing your payment agent withdrawal."
+#~ msgstr "Ha ocurrido un error al procesar el retiro a través de su agente de pago."
+
+#~ msgid "Cross-company payment agent transfers are not allowed."
+#~ msgstr "Los pagos a través de agentes de pago entre las cuentas dentro de la misma compañía no están permitidos."
+
+#~ msgid ""
+#~ "Dear Valued Customer,\n"
+#~ "\n"
+#~ "Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+#~ "\n"
+#~ "Token: %1\n"
+#~ "\n"
+#~ "Password reset form: %2"
+#~ msgstr ""
+#~ "Estimado cliente,\n"
+#~ "\n"
+#~ "Antes de que podamos ayudarle a cambiar su contraseña, por favor, ayúdenos a verificar su identidad introduciendo el siguiente token de verificación en el formulario para restablecer la contraseña:\n"
+#~ "\n"
+#~ "Token: %1\n"
+#~ "\n"
+#~ "Formulario para restablecer la contraseña: %2"
+
+#~ msgid "Invalid URI for appstore."
+#~ msgstr "URI para la tienda de aplicaciones no válido."
+
+#~ msgid "Invalid URI for github."
+#~ msgstr "URI para github no válido."
+
+#~ msgid "Invalid URI for googleplay."
+#~ msgstr "URI no válido para googleplay."
+
+#~ msgid "Invalid URI for homepage."
+#~ msgstr "URI no válido para la página de inicio."
+
+#~ msgid "Password is not strong enough."
+#~ msgstr "La contraseña no es lo suficientemente fuerte."
+
+#~ msgid "Payment Agent activity not currently authorized"
+#~ msgstr "La actividad de agente de pago no está autorizada"
+
+#~ msgid "Payment Agents are not available on this site."
+#~ msgstr "Los agentes de pagos no están disponibles para este sitio."
+
+#~ msgid "Please enter a number between 0 and %1."
+#~ msgstr "Por favor, ingrese un valor entre 0 y %1."
+
+#, fuzzy
+#~| msgid "Proceed"
+#~ msgid "Proceeded as %1"
+#~ msgstr "Seguir"
+
+#~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+#~ msgstr "Lo sentimos, los pagos a través de agentes de pago están desactivados temporalmente por cuestiones de mantenimiento.  Inténtelo nuevamente dentro de 30 minutos."
+
+#~ msgid "Sorry, client balance will exceed limits with this payment."
+#~ msgstr "Lo sentimos, el saldo del cliente superará los límites con este pago."
+
+#~ msgid "Sorry, it is not allowed."
+#~ msgstr "Lo sentimos, no está permitido."
+
+#~ msgid "Sorry, only USD is allowed."
+#~ msgstr "Lo sentimos, sólo se permiten dólares estadounidenses."
+
+#~ msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+#~ msgstr "Lo sentimos, los retiros a través de agentes de pago están desactivados temporalmente por cuestiones de mantenimiento.  Inténtelo nuevamente dentro de 30 minutos."
+
+#~ msgid "Sorry, the Payment Agent is unavailable for your region."
+#~ msgstr "Lo sentimos, no hay agentes de pagos disponibles para su región."
+
+#~ msgid "Sorry, the Payment Agent's currency %1 is unavailable for Payment Agent Withdrawal"
+#~ msgstr "Lo sentimos, la moneda de agente de pago %2 no está disponible para retiros a través del agente de pago"
+
+#~ msgid "Sorry, your currency of %1 is unavailable for Payment Agent Withdrawal"
+#~ msgstr "Lo sentimos, su moneda %1 no está disponible para retiros a través del agente de pago"
+
+#~ msgid "This Payment Agent cashier section is locked."
+#~ msgstr "Esta sección de cajero del agente de pagos está bloqueada."
+
+#~ msgid "This client cashier section is locked."
+#~ msgstr "Esta sección de cajero del cliente está bloqueada."
+
+#~ msgid "You are not a Payment Agent"
+#~ msgstr "Usted no es un agente de pago"
+
+#~ msgid "Your cashier is locked as per your request"
+#~ msgstr "Su cajero está bloqueado según su petición"
+
+#~ msgid "Your cashier section is locked."
+#~ msgstr "Su sección de cajero está bloqueada."
+
+#~ msgid "UK OTC Index"
+#~ msgstr "Índice OTC de Reino Unido"
+
+#~ msgid "Trading is currently suspended due to configuration update."
+#~ msgstr "Las operaciones están actualmente suspendidas debido a una actualización de configuración."
 
 #~ msgid "App id is mandatory to access our api. Please register your application."
 #~ msgstr "La ID de la app es obligatoria para acceder a nuestra API. Por favor, registre su aplicación."
@@ -4873,11 +5180,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "%1 %2 payout for every point %3 rises from entry level, with stop loss of %4 points and stop profit of %5 points."
 #~ msgstr "Pago de %1 %2 por cada punto que %3 sube del nivel de entrada, con el stop loss de %4 puntos y el stop profit de %5 puntos."
-
-#, fuzzy
-#~| msgid "Date of birth is required."
-#~ msgid "Tax information is required."
-#~ msgstr "Se requiere la fecha de nacimiento."
 
 #~ msgid "Barrier must be at least "
 #~ msgstr "La barrera tiene que ser al menos "
@@ -5244,9 +5546,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 #~ msgid "Browser"
 #~ msgstr "Navegador"
 
-#~ msgid "Buy"
-#~ msgstr "Comprar"
-
 #~ msgid "Candlestick Chart"
 #~ msgstr "Gráfico de velas"
 
@@ -5433,17 +5732,11 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 #~ msgid "Education"
 #~ msgstr "Formación"
 
-#~ msgid "End Time"
-#~ msgstr "Hora de finalización"
-
 #~ msgid "Enter the barrier in terms of the difference from the spot price. If you enter +0.005, then you will be purchasing a contract with a barrier 0.005 higher than the entry spot. The entry spot will be the next tick after your order has been received"
 #~ msgstr "Introduzca el límite en términos de la diferencia con el precio al contado. Si usted introduce +0.005, estará adquiriendo un contrato con un límite 0.005 por encima del precio al contado. El precio al contado es el precio recibido una vez ejecutada la orden de la compra"
 
 #~ msgid "Entry Level"
 #~ msgstr "Nivel de entrada"
-
-#~ msgid "Entry Spot"
-#~ msgstr "Punto de entrada"
 
 #~ msgid "Estimated Net Worth"
 #~ msgstr "Valor neto estimado"
@@ -5459,9 +5752,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Exit Level"
 #~ msgstr "Nivel de salida"
-
-#~ msgid "Exit Spot"
-#~ msgstr "Punto de salida"
 
 #~ msgid "Exit Spot Time"
 #~ msgstr "Tiempo de Punto de Salida"
@@ -5630,9 +5920,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Internal Auditor"
 #~ msgstr "Auditor Interno"
-
-#~ msgid "Invalid date of birth."
-#~ msgstr "Fecha de nacimiento incorrecta."
 
 #~ msgid "Invalid period input! Please input the period between 0 and #1"
 #~ msgstr "¡Entrada de plazo no válida! Introduzca un período entre 0 y #1"
@@ -6219,9 +6506,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 #~ msgid "Self-Employed"
 #~ msgstr "Autónomo"
 
-#~ msgid "Sell"
-#~ msgstr "Venta"
-
 #~ msgid "Sell at market"
 #~ msgstr "Vender al precio del mercado actual"
 
@@ -6272,9 +6556,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Stake"
 #~ msgstr "Inversión"
-
-#~ msgid "Start Time"
-#~ msgstr "Hora de comienzo"
 
 #~ msgid "Start time"
 #~ msgstr "Hora de comienzo"
@@ -6437,9 +6718,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "This contract won"
 #~ msgstr "Este contrato ganó"
-
-#~ msgid "This feature is not relevant to virtual-money accounts."
-#~ msgstr "Esta característica no es relevante para cuentas de dinero virtual."
 
 #~ msgid "Thursday"
 #~ msgstr "Jueves"
@@ -13876,12 +14154,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 #~ msgid "Date expiry %1 invalid"
 #~ msgstr "Fecha de vencimiento %1 inválida"
 
-#~ msgid "Realtime quotes not available for %1"
-#~ msgstr "Cotizaciones en tiempo real no están disponibles para %1"
-
-#~ msgid "Symbol %1 invalid"
-#~ msgstr "Símbolo %1 no es válido"
-
 #~ msgid "Wrong pricing table arguments"
 #~ msgstr "Argumentos de la tabla de precios erróneos"
 
@@ -14281,9 +14553,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Payment Agent currency can only be in USD"
 #~ msgstr "La divisa de Agente de Pago sólo puede ser USD"
-
-#~ msgid "Payment Agents are not available for your account."
-#~ msgstr "Los agentes de pagos no están disponibles para su cuenta."
 
 #~ msgid "Please note that mobile telephone bills are not acceptable as evidence of address"
 #~ msgstr "Tenga en cuenta que las facturas de teléfonos móviles no son válidas como evidencia de domicilio"
@@ -16194,9 +16463,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 #~ msgid "This call will return the same JSON structure that can be previewed from the API Console Facility."
 #~ msgstr "Esta llamada devolverá la misma estructura JSON que se puede ver en la facilidad para la consola de API."
 
-#~ msgid "Your account does not require authentication at this time."
-#~ msgstr "Su cuenta no requiere verificación en este momento."
-
 #~ msgid "%1 provides <a href=\"%2\" class=\"pjaxload\">Self Exclusion</a> facilities which allow you to set limits on your account."
 #~ msgstr "%1 proporciona servicios de <a href=\"%2\" class=\"pjaxload\">autoexclusión</a> que le permiten determinar límites en su cuenta."
 
@@ -16256,9 +16522,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Candlesticks"
 #~ msgstr "Velas"
-
-#~ msgid "Closing Price"
-#~ msgstr "Precio de cierre"
 
 #~ msgid "Donchain Channel"
 #~ msgstr "Canal de Donchian"
@@ -17457,9 +17720,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Trading facilities (under development)"
 #~ msgstr "Opciones para operaciones (en desarrollo)"
-
-#~ msgid " and "
-#~ msgstr " y "
 
 #~ msgid "%1 offer you the chance to trade on a very short-term event and make money in seconds!"
 #~ msgstr "¡%1 le ofrece la oportunidad de comerciar en un evento de muy corta duración y hacer dinero en segundos!"
@@ -21355,9 +21615,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Quote is too old"
 #~ msgstr "Cotización demasiado antigua"
-
-#~ msgid "Quote not found"
-#~ msgstr "No se encontró la cotización"
 
 #~ msgid "Sorry, %1 cannot be played on this market at the moment, for the following reason: %1. Please try again in a few minutes time."
 #~ msgstr "Lo sentimos, no se puede jugar con %1 en este mercado por el momento, debido a: %1. Inténtelo nuevamente en unos minutos."

@@ -116,27 +116,17 @@ msgstr "账户未启用。"
 
 #, fuzzy
 #| msgid "The account transfer is unavailable for accounts with different default currency."
-msgid "Account transfer is not available for accounts with different currency."
+msgid "Account transfers are not available for accounts with different currencies."
 msgstr "账户不可用不同的预设货币转账。"
 
 #, fuzzy
-#| msgid "The account transfer is unavailable for your account."
-msgid "Account transfer is not available for your account."
-msgstr "您的账户不可转账。"
-
-#, fuzzy
-#| msgid "The account transfer is unavailable for your account: %1."
-msgid "Account transfer is not available for your account: %1."
-msgstr "您的账户不可转账：%1。"
-
-#, fuzzy
 #| msgid "The account transfer is unavailable for accounts with different default currency."
-msgid "Account transfer is not available within accounts with cryptocurrency as default currency."
+msgid "Account transfers are not available within accounts with cryptocurrency as default currency."
 msgstr "账户不可用不同的预设货币转账。"
 
 #, fuzzy
 #| msgid "The account transfer is unavailable for %1 account."
-msgid "Account transfer is not available within same account."
+msgid "Account transfers are not available within same account."
 msgstr "%1账户不可转账。"
 
 msgid "Account type"
@@ -162,18 +152,6 @@ msgstr "发现您的账户在以下IP地址: %2，国家: %3和浏览器: %4登�
 
 msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3, browser: %4 and app: %5. If this additional sign-in was not performed by you, please contact our Customer Support team."
 msgstr "发现您的账户在以下IP地址: %2，国家: %3，浏览器: %4和应用程序: %5登录。如您没有执行此操作，请联系客服部。"
-
-msgid "An error occurred while processing request. Please try again after one minute."
-msgstr "处理请求时出现错误。请一分钟后重试。"
-
-msgid "An error occurred while processing request. Please try again in one minute."
-msgstr "处理请求时出现错误。请一分钟后重试。"
-
-msgid "An error occurred while processing your payment agent transfer."
-msgstr "处理付款代理转账时发生错误。"
-
-msgid "An error occurred while processing your payment agent withdrawal."
-msgstr "处理付款代理取款时发生错误。"
 
 msgid "An error occurred while processing your request. Please try again later."
 msgstr "处理请求时出现错误。请稍后重试。"
@@ -202,6 +180,9 @@ msgstr "高和低障碍必须分别大于和小于现货价。"
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "受益人的中间代理银行详细资料："
 
+msgid "Binary ICO: cancelled bid"
+msgstr ""
+
 msgid "Binary K.K. Customer Account"
 msgstr "Binary K.K. 客户账户"
 
@@ -210,6 +191,9 @@ msgstr "分行代码"
 
 msgid "Branch name"
 msgstr "分行名称"
+
+msgid "Buy"
+msgstr "买入"
 
 msgid "Cancel"
 msgstr "取消"
@@ -260,9 +244,6 @@ msgstr "居住国"
 
 msgid "Create one"
 msgstr "创建一个"
-
-msgid "Cross-company payment agent transfers are not allowed."
-msgstr "不允许跨公司支付代理转账。"
 
 msgid "Currency provided is different from account currency."
 msgstr ""
@@ -438,22 +419,20 @@ msgstr ""
 "\n"
 "在此特别通知您，我们已收到您的奖金请求。但是很遗憾，由于以下某个原因，我们无法处理您的请求："
 
+#, fuzzy
+#| msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by clicking the link below:</p><p><a href=\"%1\">%1</a></p><p>If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgid ""
 "Dear Valued Customer,\n"
 "\n"
-"Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+"Before we can help you change your password, please help us to verify your identity by clicking the link below:\n"
 "\n"
-"Token: %1\n"
+"%1\n"
 "\n"
-"Password reset form: %2"
-msgstr ""
-"尊敬的客户，\n"
+"If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.\n"
 "\n"
-"在我们为您重置密码前，请在密码重置表格内输入以下验证令牌，以便我们对您的身份进行验证：\n"
-"\n"
-"令牌： %1\n"
-"\n"
-"密码重置表格： %2"
+"With regards,\n"
+"Binary.com"
+msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">尊敬的客户，</p><p>在我们协助您修改密码之前，请点击以下链接，以便我们对您的身份进行验证：</p><p><a href=\"%1\">%1</a></p><p>如果链接地址无法点击，请将URL复制并粘贴到一个新的浏览器窗口中。</p><p style=\"color:#333333;font-size:15px;\">此致，<br/>%2</p>"
 
 msgid "Deposit"
 msgstr "存款"
@@ -466,6 +445,16 @@ msgstr "存款金额必须大于零。"
 
 msgid "Deposit confirmation"
 msgstr "存款确认"
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Document ID is required."
+msgstr "%1为必填项。"
+
+#, fuzzy
+#| msgid "Quote not found"
+msgid "Document not found."
+msgstr "无法找到报价"
 
 msgid "Documents are required to verify your identity"
 msgstr "需提交文件验证您的身份"
@@ -517,6 +506,16 @@ msgstr "禁止时间必须在今日之后。"
 
 msgid "Exclusion time conversion error."
 msgstr "自我禁止时间转换出错。"
+
+#, fuzzy
+#| msgid "Expiry time cannot be equal to start time."
+msgid "Expiration date cannot be less than or equal to current date."
+msgstr "到期时间不可与开始时间相同。"
+
+#, fuzzy
+#| msgid "Tax information is required."
+msgid "Expiration date is required."
+msgstr "需要税务信息。"
 
 msgid "Failed attempt to unlock cashier section"
 msgstr "无法解锁收银台"
@@ -593,18 +592,6 @@ msgstr "输入验证失败： address_postcode"
 msgid "Internal server error"
 msgstr "内部服务器出错"
 
-msgid "Invalid URI for appstore."
-msgstr "应用商店URI无效。"
-
-msgid "Invalid URI for github."
-msgstr "github URI无效。"
-
-msgid "Invalid URI for googleplay."
-msgstr "googleplay URI无效。"
-
-msgid "Invalid URI for homepage."
-msgstr "主页URI无效。"
-
 msgid "Invalid URL"
 msgstr "无效 URL"
 
@@ -631,14 +618,27 @@ msgstr "无效金额。最大金额是%1。"
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "无效金额。最高允许取款限额是%1。"
 
+#, fuzzy
+#| msgid "Invalid amount. minimum is %1, maximum is %2."
+msgid "Invalid amount. Minimum is %1, maximum is %2."
+msgstr "无效金额。最小金额是%1，最大金额是%2。"
+
 msgid "Invalid amount. Minimum is %1."
 msgstr "无效金额。最小金额是%1。"
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "无效金额。最低允许取款限额是%1。"
 
-msgid "Invalid amount. minimum is %1, maximum is %2."
-msgstr "无效金额。最小金额是%1，最大金额是%2。"
+#, fuzzy
+#| msgid "Invalid date of birth."
+msgid "Invalid date format."
+msgstr "出生日期无效。"
+
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr "登录失败。请尝试通过社交网站登录。"
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr "登录失败。请尝试输入电子邮件和密码登录。"
 
 msgid "Invalid loginid"
 msgstr "无效登录id"
@@ -744,6 +744,9 @@ msgstr "7天期最大累计损失量。"
 
 msgid "Maximum aggregate loss per day."
 msgstr "每日最大累计损失量。"
+
+msgid "Maximum file size reached. Maximum allowed is %1"
+msgstr ""
 
 msgid "Maximum number of open positions"
 msgstr "最大未平仓头寸数目"
@@ -860,20 +863,49 @@ msgstr "不接受邮政信箱作为地址。"
 msgid "Password"
 msgstr "密码"
 
-msgid "Password is not strong enough."
-msgstr "密码安全度不够。"
-
 msgid "Password not given."
 msgstr "未输入密码。"
 
 msgid "Password should be at least six characters, including lower and uppercase letters with numbers."
 msgstr "密码至少为六位，由大小写字母和数字组成。"
 
-msgid "Payment Agent activity not currently authorized"
-msgstr "支付代理活动目前未经授权"
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent facilities are not available for this account."
+msgstr "您的账户无可用支付代理。"
 
-msgid "Payment Agents are not available on this site."
-msgstr "本网站无可用支付代理。"
+msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+msgstr ""
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are available for %1 currency only."
+msgstr "您的账户无可用支付代理。"
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are not allowed for specified accounts."
+msgstr "您的账户无可用支付代理。"
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are not allowed for the specified accounts."
+msgstr "您的账户无可用支付代理。"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for %1 account."
+msgid "Payment agent transfers are not allowed within the same account."
+msgstr "%1账户不可转账。"
+
+#, fuzzy
+#| msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
+msgstr "对不起，您已超过今日允许的最大交易数。"
+
+#, fuzzy
+#| msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgstr "对不起，您已超过今日允许的最大转账金额。"
 
 msgid "Payment error"
 msgstr "支付出错"
@@ -936,8 +968,10 @@ msgstr "请验证您的账户。"
 msgid "Please enter a number between %1 and %2"
 msgstr "请输入0和%1之间的数字"
 
-msgid "Please enter a number between 0 and %1."
-msgstr "请输入0和%1之间的数字。"
+#, fuzzy
+#| msgid "Please enter a number between 0 and %1"
+msgid "Please enter a number between %1 and %2."
+msgstr "请输入0和%1之间的数字"
 
 msgid "Please enter a numeric value."
 msgstr "请输入数字值。"
@@ -1053,9 +1087,6 @@ msgstr "以上地址只能使用一次。"
 msgid "Postcode is required for UK residents."
 msgstr "英国居民需提供邮政编码。"
 
-msgid "Proceeded as %1"
-msgstr "执行为%1"
-
 msgid "Provided amount is not within permissible limits."
 msgstr "输入的数目已超出允许范围。"
 
@@ -1081,6 +1112,11 @@ msgstr "乐天银行"
 
 msgid "Read user profile"
 msgstr "阅读用户个人资料"
+
+#, fuzzy
+#| msgid "Realtime quotes not available for %1"
+msgid "Realtime quotes not available for %1."
+msgstr "实时报价不可用于%1"
 
 msgid "Receive news and special offers"
 msgstr "收取新消息和特别优惠"
@@ -1108,6 +1144,9 @@ msgstr "设置"
 msgid "Self-Exclusion Facilities"
 msgstr "自我禁止工具"
 
+msgid "Sell"
+msgstr "卖出"
+
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "交易期限不能大于 6周。"
 
@@ -1120,15 +1159,6 @@ msgstr "交易期限，以分钟为单位"
 msgid "Short summary of your Payment Agent service"
 msgstr "您支付代理服务的简要概述"
 
-msgid "Sorry, %1 is not default currency for client %2"
-msgstr "对不起，%1不是客户%2的预设货币"
-
-msgid "Sorry, %1 is not default currency for payment agent %2"
-msgstr "对不起，%1不是支付代理%2的预设货币"
-
-msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-msgstr "对不起，由于系统维护，支付代理转账暂停使用。请在30分钟后重试。"
-
 msgid "Sorry, account opening is unavailable."
 msgstr "对不起，不可开立账户。"
 
@@ -1137,6 +1167,16 @@ msgstr "对不起，您的账户处理发生错误。"
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "对不起，您的请求处理发生错误。"
+
+#, fuzzy
+#| msgid "Sorry, an error occurred while processing your request."
+msgid "Sorry, an error occurred whilst processing your request."
+msgstr "对不起，您的请求处理发生错误。"
+
+#, fuzzy
+#| msgid "An error occurred while processing request. Please try again in one minute."
+msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
+msgstr "处理请求时出现错误。请一分钟后重试。"
 
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "对不起，出现错误。请重新尝试访问我们的收银台。"
@@ -1150,38 +1190,17 @@ msgstr "对不起，您所在的国家未开通加密货币投资(ICO)。"
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "对不起，由于系统维护，收银台暂停使用。"
 
-msgid "Sorry, client balance will exceed limits with this payment."
-msgstr "对不起，客户余额不足。"
-
 msgid "Sorry, contracts on Financial Products are not available in your country of residence"
 msgstr "对不起，您所在的国家无法使用金融产品合同"
 
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "对不起，您所在的国家无法使用波动率指数合同"
 
-msgid "Sorry, it is not allowed."
-msgstr "对不起，不允许使用。"
-
-msgid "Sorry, only USD is allowed."
-msgstr "对不起，只允许美元。"
-
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "对不起，我们不向您所在的国家提供服务。"
 
 msgid "Sorry, the ICO is not available for copy trading."
 msgstr "对不起，加密货币投资(ICO)不可复制交易。"
-
-msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-msgstr "对不起，由于系统维护，支付代理取款暂时不可用。请在30分钟后重试。"
-
-msgid "Sorry, the Payment Agent does not exist."
-msgstr "对不起，支付代理不存在。"
-
-msgid "Sorry, the Payment Agent is unavailable for your region."
-msgstr "对不起，支付代理在您的地区不可用。"
-
-msgid "Sorry, the Payment Agent's currency %1 is unavailable for Payment Agent Withdrawal"
-msgstr "对不起，支付代理提款的币种不能为%1"
 
 msgid "Sorry, the aggregate payouts of contracts on your account cannot exceed %1%2."
 msgstr "对不起，您账户的累计赔付额不能大于 %2%1 。"
@@ -1198,6 +1217,11 @@ msgstr "对不起，我们的支付处理器在验证您的个人信息时出现
 msgid "Sorry, there was a problem validating your personal information with our payment processor. Please verify that your date of birth was input correctly in your account settings."
 msgstr "对不起，我们的支付处理器在验证您的个人信息时出现了问题。请确认在账户设置时输入正确的出生日期。"
 
+#, fuzzy
+#| msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
+msgid "Sorry, this facility is temporarily disabled due to system maintenance."
+msgstr "对不起，由于系统维护，收银台暂停使用。"
+
 msgid "Sorry, this feature is available to virtual accounts only"
 msgstr "对不起，此功能仅适用于虚拟账户"
 
@@ -1209,6 +1233,11 @@ msgstr "对不起，您的年龄太小，不能开户。"
 
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please visit the statement page to automatically sell your expired contracts."
 msgstr "对不起，在既定时间内您持有的合约不可超过 %1 。请访问报表页面自动卖出您的到期合约。"
+
+#, fuzzy
+#| msgid "Sorry, your account does not allow passwords because you use social media to log in."
+msgid "Sorry, you cannot reset your password because you logged in using a social network."
+msgstr "对不起，由于您使用社交媒体登录，您的账户不允许输入密码。"
 
 msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
 msgstr "对不起，您不能提款。您的账户余额为%1 %2。"
@@ -1231,9 +1260,6 @@ msgstr "对不起，您已超过今日允许的最大交易数。"
 msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
 msgstr "对不起，您已超过今日允许的最大转账金额%1。"
 
-msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
-msgstr "对不起，您已超过今日允许的最大转账金额。"
-
 msgid "Sorry, you have excluded yourself from the website until %1."
 msgstr "对不起，您已禁止自己访问本网站，直到%1。"
 
@@ -1254,9 +1280,6 @@ msgstr "对不起，由于您使用社交媒体登录，您的账户不允许输
 
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "对不起，您的账户无权进一步买入任何合约。"
-
-msgid "Sorry, your currency of %1 is unavailable for Payment Agent Withdrawal"
-msgstr "抱歉，支付代理提款不可使用您的%1货币"
 
 msgid "Start time %1 must be before end time %2"
 msgstr "开始时间 %1 必须早于到期时间%2"
@@ -1282,6 +1305,11 @@ msgstr "所支持银行的列表无效"
 msgid "Swift code"
 msgstr "Swift 代码"
 
+#, fuzzy
+#| msgid "Symbol %1 invalid"
+msgid "Symbol %1 invalid."
+msgstr "%1 符号无效"
+
 msgid "Tax identification number"
 msgstr "税务识别号"
 
@@ -1302,9 +1330,6 @@ msgstr "%1 团队。"
 
 msgid "The ICO is only available to professional investors in your country of residence. If you are a professional investor, please contact our customer support team to verify your account status."
 msgstr "在您的居住国里，加密货币投资(ICO)仅限专业投资人。如您是专业投资人，请联系客服部并验证您的账户状态。"
-
-msgid "The Payment Agent facility is currently not available in your country."
-msgstr "您的国家无可用支付代理设施。"
 
 msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
 msgstr "账户须以您的姓名开立，并与您的交易账户细节相符。请在下方输入您要使用的账户详细资料。"
@@ -1338,6 +1363,21 @@ msgstr "您的账户%1密码已更改。此请求源自IP地址%2。如您并未
 
 msgid "The password for your account %1 has been reset. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "您的账户%1密码已重设。如您并没执行此项请求，请立刻联系客服部。"
+
+#, fuzzy
+#| msgid "Sorry, the Payment Agent does not exist."
+msgid "The payment agent account does not exist."
+msgstr "对不起，支付代理不存在。"
+
+#, fuzzy
+#| msgid "The Payment Agent facility is currently not available in your country."
+msgid "The payment agent facility is currently not available in your country."
+msgstr "您的国家无可用支付代理设施。"
+
+#, fuzzy
+#| msgid "The Payment Agent facility is currently not available in your country."
+msgid "The payment agent facility is not available for this account."
+msgstr "您的国家无可用支付代理设施。"
 
 msgid "The provided currency %1 is invalid."
 msgstr "所提供的货币 %1无效。"
@@ -1375,9 +1415,6 @@ msgstr "处理请求时出错。"
 msgid "These are the bank account details you provided previously. If you wish to register a different account then please contact customer support."
 msgstr "这些是您之前提供的银行账户资料。如欲注册另一账户，请联系客服部。"
 
-msgid "This Payment Agent cashier section is locked."
-msgstr "此支付代理的收银台部分已锁定。"
-
 msgid "This URL is invalid."
 msgstr "此 URL 无效。"
 
@@ -1386,9 +1423,6 @@ msgstr "此账户已禁用。"
 
 msgid "This account is unavailable."
 msgstr "此账户不可用。"
-
-msgid "This client cashier section is locked."
-msgstr "此客户的收银台部分已锁定。"
 
 msgid "This contract cannot be properly validated at this time."
 msgstr "目前该交易无法正确验证。"
@@ -1399,20 +1433,46 @@ msgstr "此合约只限于 "
 msgid "This contract is unavailable on this account."
 msgstr "此账户不可交易该合约。"
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "This contract type is not available for this acccount"
+msgstr "此账户不可交易该合约。"
+
 msgid "This contract was not found among your open positions."
 msgstr "您的未平仓头寸中未找到该合约。"
 
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "此合同价格为%1%2。从%3购入合同的价格必须高于%1%4。请增加合同金额以达到最低交易额。"
 
+#, fuzzy
+#| msgid "Your email address is unverified."
+msgid "This email address is invalid."
+msgstr "您的电子邮件未通过验证。"
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "这是虚拟账户。要访问收银台请转换到真实资金账户。"
+
+#, fuzzy
+#| msgid "An error occurred while processing your payment agent transfer."
+msgid "This is an ICO-only account which does not support payment agent transfers."
+msgstr "处理付款代理转账时发生错误。"
+
+msgid "This is an ICO-only account which does not support transfers."
+msgstr ""
 
 msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
 msgstr "这是一个自动消息，提醒您以下情况：您账户 %1的收银台/设置部分已被IP地址为%2的用户更改。如您并未进行此操作，请登入您的账户并检查设置。"
 
 msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
 msgstr "这是一个自动消息，提醒您以下情况：有一个来自 IP 地址 %2 的失败尝试，试图解除您账户 %1的收银台/设置部分的锁定"
+
+#, fuzzy
+#| msgid "This feature is not relevant to virtual-money accounts."
+msgid "This is not supported on an ICO-only account."
+msgstr "此功能不适用于虚拟资金账户。"
+
+msgid "This market is presently closed."
+msgstr "此市场目前已收市。"
 
 msgid "Timeout from the website until"
 msgstr "网站暂停，直到"
@@ -1449,6 +1509,11 @@ msgstr "交易 ID: %1"
 
 msgid "Transactions"
 msgstr "交易"
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Transfers between accounts are not available for your account."
+msgstr "您的账户无可用支付代理。"
 
 msgid "URL should not have fragment"
 msgstr "网址不可含片段"
@@ -1508,6 +1573,9 @@ msgstr "验证您的提款请求。"
 msgid "Verify your withdrawal request - %1"
 msgstr "验证您的提款请求 - %1"
 
+msgid "Virtual accounts don't require document uploads."
+msgstr ""
+
 msgid "Virtual money credit to account"
 msgstr "虚拟资金已经到账"
 
@@ -1557,6 +1625,17 @@ msgstr ""
 "我们特此通知您，您的%1%2取款请求已经处理。\n"
 "目前交易编号%3待确认。"
 
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
+#| "Transaction number %3 is confirmed."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been rejected.\n"
+"Your account is refunded."
+msgstr ""
+"我们特此通知您，您的%1%2取款请求已经处理。\n"
+"交易编号%3已确认。"
+
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "对不起，自我禁止工具对于虚拟账户不可用。"
 
@@ -1605,16 +1684,101 @@ msgstr "您已订阅未平仓合约提议。"
 msgid "You are already subscribed to transaction updates."
 msgstr "您已订阅交易提醒。"
 
-msgid "You are not a Payment Agent"
-msgstr "您不是支付代理"
+#, fuzzy
+#| msgid "You are not authorized for withdrawal via payment agent."
+msgid "You are not authorized for transfers via payment agents."
+msgstr "您无权通过付款代理取款。"
 
-msgid "You are not authorized for withdrawal via payment agent."
+#, fuzzy
+#| msgid "You are not authorized for withdrawal via payment agent."
+msgid "You are not authorized for withdrawals via payment agents."
 msgstr "您无权通过付款代理取款。"
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
 
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for payment agent %2"
+msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
+msgstr "对不起，%1不是支付代理%2的预设货币"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for client %2"
+msgid "You cannot perform this action, as %1 is not default currency for your account %2."
+msgstr "对不起，%1不是客户%2的预设货币"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for client %2"
+msgid "You cannot perform this action, as %1 is not the default account currency for client %2."
+msgstr "对不起，%1不是客户%2的预设货币"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for payment agent %2"
+msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
+msgstr "对不起，%1不是支付代理%2的预设货币"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account %1 is currently disabled."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is cashier locked."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is currently disabled."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is withdrawal locked."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+msgid "You cannot perform this action, as your verification documents have expired."
+msgstr ""
+
+msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
+msgstr ""
+
 msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their cashier is locked."
+msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "您不能转账至账户 %1，因为此账户目前已禁用。"
 
 msgid "You have already claimed a bonus in the past."
@@ -1624,6 +1788,11 @@ msgid "You have created all accounts available to you."
 msgstr "您已开立了所有可用账户。"
 
 msgid "You have exceeded the daily limit for contracts of this type."
+msgstr "您已超出此类合约的每日限额。"
+
+#, fuzzy
+#| msgid "You have exceeded the daily limit for contracts of this type."
+msgid "You have exceeded the open position limit for contracts of this type."
 msgstr "您已超出此类合约的每日限额。"
 
 msgid "You have exceeded your 30-day limit on losses of %1%2."
@@ -1655,6 +1824,11 @@ msgstr "您必须使用指定的银行账户将款项汇入您的%1交易账户�
 
 msgid "You will be automatically logged out after such time."
 msgstr "在该时间后您将自动退出登录。"
+
+#, fuzzy
+#| msgid "Your cashier is locked as per your request."
+msgid "Your %1 cashier is locked as per your request."
+msgstr "根据您的请求，您的收银台已锁定。"
 
 msgid "Your Details"
 msgstr "您的详细信息"
@@ -1692,6 +1866,11 @@ msgstr "您的账户取款功能已被锁。"
 msgid "Your account is restricted to withdrawals only."
 msgstr "您的账户只限于取款。"
 
+#, fuzzy
+#| msgid "Your account does not require authentication at this time."
+msgid "Your account needs to be authenticated to perform payment agent transfers."
+msgstr "目前您的账户不需要认证。"
+
 msgid "Your app_id is invalid."
 msgstr "您的app_id无效。"
 
@@ -1701,17 +1880,14 @@ msgstr "您的余款已超出允许金额。"
 msgid "Your bonus request - %1"
 msgstr "您的奖励请求- %1"
 
-msgid "Your cashier is locked as per your request"
-msgstr "根据您的请求，您的收银台已锁定"
+msgid "Your cannot perform this action, as your account %1 cashier is locked as per request."
+msgstr ""
 
 msgid "Your cashier is locked as per your request."
 msgstr "根据您的请求，您的收银台已锁定。"
 
 msgid "Your cashier is locked."
 msgstr "您的收银台已被锁定。"
-
-msgid "Your cashier section is locked."
-msgstr "您的收银台部分已被锁定。"
 
 msgid "Your cashier was locked."
 msgstr "您的收银台已被锁定。"
@@ -2961,9 +3137,6 @@ msgstr "沙特阿拉伯场外交易指数"
 
 msgid "Swiss Index"
 msgstr "瑞士指数"
-
-msgid "UK OTC Index"
-msgstr "英国场外交易指数"
 
 msgid "Hong Kong Index"
 msgstr "香港指数"
@@ -4333,6 +4506,14 @@ msgstr "入市现价加上 %1"
 msgid "entry spot minus %1"
 msgstr "入市现价减去 %1"
 
+msgid "Start Time"
+msgstr "开始时间"
+
+#, fuzzy
+#| msgid " and "
+msgid "%1 and %2"
+msgstr " 以及 "
+
 msgid "close on %1"
 msgstr "在%1关闭"
 
@@ -4345,8 +4526,22 @@ msgstr "入市现价加上 %plural(%1, %d 点)"
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "入市现价减去 %plural(%1, %d 点)"
 
+msgid "Entry Spot"
+msgstr "入市现价"
+
+msgid "End Time"
+msgstr "结束时间"
+
 msgid "entry spot"
 msgstr "入市现价"
+
+msgid "Exit Spot"
+msgstr "退出现价"
+
+#, fuzzy
+#| msgid "Closing Price"
+msgid "Closing Spot"
+msgstr "收盘价"
 
 msgid "Absolute barrier cannot be zero."
 msgstr "绝对障碍不可为零。"
@@ -4365,9 +4560,6 @@ msgstr "目前我们无法处理该合约。"
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "输入的久期无效。"
 
-msgid "Trading is currently suspended due to configuration update."
-msgstr "由于数据配置更新，当前交易暂停。"
-
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "高障碍价格不在可接受的范围内。请调整高障碍价格。"
 
@@ -4376,6 +4568,11 @@ msgstr "由于市场数据丢失，交易暂停。"
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "到期时间不可与开始时间相同。"
+
+#, fuzzy
+#| msgid "The ICO is now closed."
+msgid "The ICO has not yet started."
+msgstr "加密货币投资(ICO)目前已收市。"
 
 #, fuzzy
 #| msgid "Missing required contract parameters. (%1)"
@@ -4442,11 +4639,13 @@ msgstr "对不起，您的出价太低。允许标价最小为1美元 (或其他
 msgid "An error occurred during contract settlement."
 msgstr "合约结算时出错。"
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "The ICO is not available for the account."
+msgstr "此账户不可交易该合约。"
+
 msgid "The ICO is now closed."
 msgstr "加密货币投资(ICO)目前已收市。"
-
-msgid "This market is presently closed."
-msgstr "此市场目前已收市。"
 
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "由于市场数据丢失（红利），交易暂停。"
@@ -4546,6 +4745,114 @@ msgstr "由于市场数据丢失（波动率），交易暂停。"
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
+#, fuzzy
+#~| msgid "The account transfer is unavailable for your account."
+#~ msgid "Account transfer is not available for your account."
+#~ msgstr "您的账户不可转账。"
+
+#, fuzzy
+#~| msgid "The account transfer is unavailable for your account: %1."
+#~ msgid "Account transfer is not available for your account: %1."
+#~ msgstr "您的账户不可转账：%1。"
+
+#~ msgid "An error occurred while processing request. Please try again after one minute."
+#~ msgstr "处理请求时出现错误。请一分钟后重试。"
+
+#~ msgid "An error occurred while processing your payment agent withdrawal."
+#~ msgstr "处理付款代理取款时发生错误。"
+
+#~ msgid "Cross-company payment agent transfers are not allowed."
+#~ msgstr "不允许跨公司支付代理转账。"
+
+#~ msgid ""
+#~ "Dear Valued Customer,\n"
+#~ "\n"
+#~ "Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+#~ "\n"
+#~ "Token: %1\n"
+#~ "\n"
+#~ "Password reset form: %2"
+#~ msgstr ""
+#~ "尊敬的客户，\n"
+#~ "\n"
+#~ "在我们为您重置密码前，请在密码重置表格内输入以下验证令牌，以便我们对您的身份进行验证：\n"
+#~ "\n"
+#~ "令牌： %1\n"
+#~ "\n"
+#~ "密码重置表格： %2"
+
+#~ msgid "Invalid URI for appstore."
+#~ msgstr "应用商店URI无效。"
+
+#~ msgid "Invalid URI for github."
+#~ msgstr "github URI无效。"
+
+#~ msgid "Invalid URI for googleplay."
+#~ msgstr "googleplay URI无效。"
+
+#~ msgid "Invalid URI for homepage."
+#~ msgstr "主页URI无效。"
+
+#~ msgid "Password is not strong enough."
+#~ msgstr "密码安全度不够。"
+
+#~ msgid "Payment Agent activity not currently authorized"
+#~ msgstr "支付代理活动目前未经授权"
+
+#~ msgid "Payment Agents are not available on this site."
+#~ msgstr "本网站无可用支付代理。"
+
+#~ msgid "Please enter a number between 0 and %1."
+#~ msgstr "请输入0和%1之间的数字。"
+
+#~ msgid "Proceeded as %1"
+#~ msgstr "执行为%1"
+
+#~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+#~ msgstr "对不起，由于系统维护，支付代理转账暂停使用。请在30分钟后重试。"
+
+#~ msgid "Sorry, client balance will exceed limits with this payment."
+#~ msgstr "对不起，客户余额不足。"
+
+#~ msgid "Sorry, it is not allowed."
+#~ msgstr "对不起，不允许使用。"
+
+#~ msgid "Sorry, only USD is allowed."
+#~ msgstr "对不起，只允许美元。"
+
+#~ msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+#~ msgstr "对不起，由于系统维护，支付代理取款暂时不可用。请在30分钟后重试。"
+
+#~ msgid "Sorry, the Payment Agent is unavailable for your region."
+#~ msgstr "对不起，支付代理在您的地区不可用。"
+
+#~ msgid "Sorry, the Payment Agent's currency %1 is unavailable for Payment Agent Withdrawal"
+#~ msgstr "对不起，支付代理提款的币种不能为%1"
+
+#~ msgid "Sorry, your currency of %1 is unavailable for Payment Agent Withdrawal"
+#~ msgstr "抱歉，支付代理提款不可使用您的%1货币"
+
+#~ msgid "This Payment Agent cashier section is locked."
+#~ msgstr "此支付代理的收银台部分已锁定。"
+
+#~ msgid "This client cashier section is locked."
+#~ msgstr "此客户的收银台部分已锁定。"
+
+#~ msgid "You are not a Payment Agent"
+#~ msgstr "您不是支付代理"
+
+#~ msgid "Your cashier is locked as per your request"
+#~ msgstr "根据您的请求，您的收银台已锁定"
+
+#~ msgid "Your cashier section is locked."
+#~ msgstr "您的收银台部分已被锁定。"
+
+#~ msgid "UK OTC Index"
+#~ msgstr "英国场外交易指数"
+
+#~ msgid "Trading is currently suspended due to configuration update."
+#~ msgstr "由于数据配置更新，当前交易暂停。"
+
 #~ msgid "App id is mandatory to access our api. Please register your application."
 #~ msgstr "访问api时必须有应用程序id。请注册您的应用程序。"
 
@@ -4560,12 +4867,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "homepage"
 #~ msgstr "首页"
-
-#~ msgid "Invalid login attempt. Please log in with a social network instead."
-#~ msgstr "登录失败。请尝试通过社交网站登录。"
-
-#~ msgid "Invalid login attempt. Please log in with your email and password instead."
-#~ msgstr "登录失败。请尝试输入电子邮件和密码登录。"
 
 #~ msgid "Sorry, bidding for tokens is restricted in your country of residence."
 #~ msgstr "对不起，您所在的国家不可投标令牌交易。"
@@ -4765,9 +5066,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "%1 %2 payout for every point %3 rises from entry level, with stop loss of %4 points and stop profit of %5 points."
 #~ msgstr "%3入市价位每上涨一点即可获得%1%2赔付额，止损为%4点，止盈为%5点。"
-
-#~ msgid "Tax information is required."
-#~ msgstr "需要税务信息。"
 
 #~ msgid "Barrier must be at least "
 #~ msgstr "障碍必须大于或等于 "
@@ -5141,9 +5439,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "Browser"
 #~ msgstr "浏览器"
 
-#~ msgid "Buy"
-#~ msgstr "买入"
-
 #~ msgid "Candlestick Chart"
 #~ msgstr "K线图"
 
@@ -5333,17 +5628,11 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "Education"
 #~ msgstr "教育"
 
-#~ msgid "End Time"
-#~ msgstr "结束时间"
-
 #~ msgid "Enter the barrier in terms of the difference from the spot price. If you enter +0.005, then you will be purchasing a contract with a barrier 0.005 higher than the entry spot. The entry spot will be the next tick after your order has been received"
 #~ msgstr "请按与现货价格差额的形式输入障碍水平。如果您输入 +0.005 ，那么您将买入障碍水平比入市现价高 0.005 的合约。入市现价为收到您订单之后的下一个价格"
 
 #~ msgid "Entry Level"
 #~ msgstr "进场价位"
-
-#~ msgid "Entry Spot"
-#~ msgstr "入市现价"
 
 #~ msgid "Estimated Net Worth"
 #~ msgstr "估计净值"
@@ -5359,9 +5648,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Exit Level"
 #~ msgstr "退出价位"
-
-#~ msgid "Exit Spot"
-#~ msgstr "退出现价"
 
 #~ msgid "Exit Spot Time"
 #~ msgstr "退出现价时间"
@@ -5530,9 +5816,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Internal Auditor"
 #~ msgstr "内部审计员"
-
-#~ msgid "Invalid date of birth."
-#~ msgstr "出生日期无效。"
 
 #~ msgid "Invalid period input! Please input the period between 0 and #1"
 #~ msgstr "无效期限输入！请输入在 0 和 #1 之间的期限"
@@ -6122,9 +6405,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "Self-Employed"
 #~ msgstr "个体经营"
 
-#~ msgid "Sell"
-#~ msgstr "卖出"
-
 #~ msgid "Sell at market"
 #~ msgstr "按市价卖出"
 
@@ -6175,9 +6455,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Stake"
 #~ msgstr "投注资金"
-
-#~ msgid "Start Time"
-#~ msgstr "开始时间"
 
 #~ msgid "Start time"
 #~ msgstr "开始时间"
@@ -6342,9 +6619,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "This contract won"
 #~ msgstr "此合约获利"
-
-#~ msgid "This feature is not relevant to virtual-money accounts."
-#~ msgstr "此功能不适用于虚拟资金账户。"
 
 #~ msgid "Thursday"
 #~ msgstr "星期四"
@@ -13807,12 +14081,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "Date expiry %1 invalid"
 #~ msgstr "到期日 %1 无效"
 
-#~ msgid "Realtime quotes not available for %1"
-#~ msgstr "实时报价不可用于%1"
-
-#~ msgid "Symbol %1 invalid"
-#~ msgstr "%1 符号无效"
-
 #~ msgid "Wrong pricing table arguments"
 #~ msgstr "定价表参数不正确"
 
@@ -14212,9 +14480,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Payment Agent currency can only be in USD"
 #~ msgstr "支付代理仅可使用美元进行交易"
-
-#~ msgid "Payment Agents are not available for your account."
-#~ msgstr "您的账户无可用支付代理。"
 
 #~ msgid "Please note that mobile telephone bills are not acceptable as evidence of address"
 #~ msgstr "请注意，我们不接受手机账单作为地址证明"
@@ -16097,9 +16362,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "This call will return the same JSON structure that can be previewed from the API Console Facility."
 #~ msgstr "这个调用会返回相同的 JSON 结构，可以从 API 控制台设备进行预览。"
 
-#~ msgid "Your account does not require authentication at this time."
-#~ msgstr "目前您的账户不需要认证。"
-
 #~ msgid "%1 provides <a href=\"%2\" class=\"pjaxload\">Self Exclusion</a> facilities which allow you to set limits on your account."
 #~ msgstr "%1 提供 <a href=\"%2\" class=\"pjaxload\">自我禁止 (Self Exclusion)</a> 工具，方便您设置账户限额。"
 
@@ -16159,9 +16421,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Candlesticks"
 #~ msgstr "K线图"
-
-#~ msgid "Closing Price"
-#~ msgstr "收盘价"
 
 #~ msgid "Donchain Channel"
 #~ msgstr "唐奇安通道指标"
@@ -17379,9 +17638,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Trading facilities (under development)"
 #~ msgstr "交易设施（开发中）"
-
-#~ msgid " and "
-#~ msgstr " 以及 "
 
 #~ msgid "%1 offer you the chance to trade on a very short-term event and make money in seconds!"
 #~ msgstr "%1为您提供短期事件交易的机会，实现数秒之内赚钱!"
@@ -21205,9 +21461,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Quote is too old"
 #~ msgstr "报价过于陈旧"
-
-#~ msgid "Quote not found"
-#~ msgstr "无法找到报价"
 
 #~ msgid "Sorry, %1 cannot be played on this market at the moment, for the following reason: %1. Please try again in a few minutes time."
 #~ msgstr "抱歉，%1此刻在本市场上玩不成，原因如下：%1。请几分钟后再试一次。"
