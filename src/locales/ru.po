@@ -119,27 +119,17 @@ msgstr "Счёт не активирован."
 
 #, fuzzy
 #| msgid "The account transfer is unavailable for accounts with different default currency."
-msgid "Account transfer is not available for accounts with different currency."
+msgid "Account transfers are not available for accounts with different currencies."
 msgstr "Трансфер недоступен для счетов с другой валютой по умолчанию."
 
 #, fuzzy
-#| msgid "The account transfer is unavailable for your account."
-msgid "Account transfer is not available for your account."
-msgstr "Трансфер счета недоступен для Вашего счета."
-
-#, fuzzy
-#| msgid "The account transfer is unavailable for your account: %1."
-msgid "Account transfer is not available for your account: %1."
-msgstr "Трансфер счета недоступен для Вашего счета: %1."
-
-#, fuzzy
 #| msgid "The account transfer is unavailable for accounts with different default currency."
-msgid "Account transfer is not available within accounts with cryptocurrency as default currency."
+msgid "Account transfers are not available within accounts with cryptocurrency as default currency."
 msgstr "Трансфер недоступен для счетов с другой валютой по умолчанию."
 
 #, fuzzy
 #| msgid "The account transfer is unavailable for %1 account."
-msgid "Account transfer is not available within same account."
+msgid "Account transfers are not available within same account."
 msgstr "Трансфер недоступен для счета %1."
 
 msgid "Account type"
@@ -165,18 +155,6 @@ msgstr "На Ваш счёт %1 только что был выполнен до
 
 msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3, browser: %4 and app: %5. If this additional sign-in was not performed by you, please contact our Customer Support team."
 msgstr "На Ваш счёт %1 только что был выполнен дополнительный вход со следующего IP-адреса: %2, страны: %3, браузера: %4 и приложения: %5. Если Вы не входили на свой счёт, пожалуйста, свяжитесь с нашим отделом поддержки клиентов."
-
-msgid "An error occurred while processing request. Please try again after one minute."
-msgstr "При обработке Вашего запроса произошла ошибка. Пожалуйста, повторите попытку через минуту."
-
-msgid "An error occurred while processing request. Please try again in one minute."
-msgstr "При обработке Вашего запроса произошла ошибка. Пожалуйста, повторите попытку через минуту."
-
-msgid "An error occurred while processing your payment agent transfer."
-msgstr "Извините, при переводе средств через платёжного агента произошла ошибка."
-
-msgid "An error occurred while processing your payment agent withdrawal."
-msgstr "Извините, при выводе средств через платёжного агента произошла ошибка."
 
 msgid "An error occurred while processing your request. Please try again later."
 msgstr "При обработке запроса произошла ошибка. Пожалуйста, повторите попытку позже."
@@ -205,6 +183,9 @@ msgstr "Барьеры должны быть выше или ниже рыноч
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Данные банка-корреспондента:"
 
+msgid "Binary ICO: cancelled bid"
+msgstr ""
+
 msgid "Binary K.K. Customer Account"
 msgstr "Счёт Binary K.K."
 
@@ -213,6 +194,9 @@ msgstr "Код филиала"
 
 msgid "Branch name"
 msgstr "Название филиала"
+
+msgid "Buy"
+msgstr "Покупка"
 
 msgid "Cancel"
 msgstr "Отменить"
@@ -261,9 +245,6 @@ msgstr "Страна проживания"
 
 msgid "Create one"
 msgstr "Создать"
-
-msgid "Cross-company payment agent transfers are not allowed."
-msgstr "Переводы через платежного агента между счетами внутри компании не разрешены."
 
 msgid "Currency provided is different from account currency."
 msgstr ""
@@ -438,22 +419,20 @@ msgstr ""
 "\n"
 "Мы получили Ваш запрос на бонус. Однако, мы не смогли начислить бонус по одной из следующих причин:"
 
+#, fuzzy
+#| msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by clicking the link below:</p><p><a href=\"%1\">%1</a></p><p>If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgid ""
 "Dear Valued Customer,\n"
 "\n"
-"Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+"Before we can help you change your password, please help us to verify your identity by clicking the link below:\n"
 "\n"
-"Token: %1\n"
+"%1\n"
 "\n"
-"Password reset form: %2"
-msgstr ""
-"Уважаемый клиент,\n"
+"If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.\n"
 "\n"
-"Прежде, чем мы поможем Вам изменить пароль, просим Вас идентифицироваться путём введения следующего проверочного токена в форму для изменения пароля:\n"
-"\n"
-"Токен: %1\n"
-"\n"
-"Форма для изменения пароля: %2"
+"With regards,\n"
+"Binary.com"
+msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Уважаемый клиент!</p><p>Перед тем, как мы поможем Вам изменить пароль, пожалуйста пройдите аутентификацию личности, нажав на ссылку ниже:</p><p><a href=\"%1\">%1</a></p><p>Если ссылка не сработает, пожалуйста скопируйте следующий URL и вставьте его в новом открытом окне браузера.</p><p style=\"color:#333333;font-size:15px;\">С уважением,<br/>%2</p>"
 
 msgid "Deposit"
 msgstr "Пополнение"
@@ -466,6 +445,16 @@ msgstr "Сумма пополнения счёта должна быть бол�
 
 msgid "Deposit confirmation"
 msgstr "Подтверждение депозита"
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Document ID is required."
+msgstr "Требуется %1."
+
+#, fuzzy
+#| msgid "Quote not found"
+msgid "Document not found."
+msgstr "Котировка не найдена"
 
 msgid "Documents are required to verify your identity"
 msgstr "Документы для верификации личности"
@@ -517,6 +506,16 @@ msgstr "Время начала ограничения должно быть п�
 
 msgid "Exclusion time conversion error."
 msgstr "Ошибка при конвертации времени исключения."
+
+#, fuzzy
+#| msgid "Expiry time cannot be equal to start time."
+msgid "Expiration date cannot be less than or equal to current date."
+msgstr "Время истечения и начала контракта не может совпадать."
+
+#, fuzzy
+#| msgid "Tax information is required."
+msgid "Expiration date is required."
+msgstr "Необходимо указать информацию о налогах."
 
 msgid "Failed attempt to unlock cashier section"
 msgstr "Не удалось разблокировать раздел Касса"
@@ -593,18 +592,6 @@ msgstr "Проверка введенных данных не удалась: а
 msgid "Internal server error"
 msgstr "Внутренняя ошибка сервера"
 
-msgid "Invalid URI for appstore."
-msgstr "Неправильный URI для Appstore."
-
-msgid "Invalid URI for github."
-msgstr "Неправильный URI для GitHub."
-
-msgid "Invalid URI for googleplay."
-msgstr "Неправильный URI для Googleplay."
-
-msgid "Invalid URI for homepage."
-msgstr "Неправильный URI главной страницы."
-
 msgid "Invalid URL"
 msgstr "Неверная ссылка"
 
@@ -631,14 +618,27 @@ msgstr "Неправильная сумма. Максимум: %1."
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "Неправильная сумма. Максимальная сумма вывода: %1."
 
+#, fuzzy
+#| msgid "Invalid amount. minimum is %1, maximum is %2."
+msgid "Invalid amount. Minimum is %1, maximum is %2."
+msgstr "Неправильная сумма. Минимум: %1; максимум: %2."
+
 msgid "Invalid amount. Minimum is %1."
 msgstr "Неправильная сумма. Минимум: %1."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Неправильная сумма. Минимальная сумма вывода: %1."
 
-msgid "Invalid amount. minimum is %1, maximum is %2."
-msgstr "Неправильная сумма. Минимум: %1; максимум: %2."
+#, fuzzy
+#| msgid "Invalid date of birth."
+msgid "Invalid date format."
+msgstr "Неправильная дата рождения."
+
+msgid "Invalid login attempt. Please log in with a social network instead."
+msgstr "Не удалось войти на сайт. Пожалуйста, войдите через соц. сети."
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr "Не удалось войти на сайт. Пожалуйста, войдите через email и пароль."
 
 msgid "Invalid loginid"
 msgstr "Неправильный логин"
@@ -744,6 +744,9 @@ msgstr "Максимальная общая проигранная сумма з
 
 msgid "Maximum aggregate loss per day."
 msgstr "Максимальная общая проигранная сумма в день."
+
+msgid "Maximum file size reached. Maximum allowed is %1"
+msgstr ""
 
 msgid "Maximum number of open positions"
 msgstr "Максимальное количество открытых позиций"
@@ -860,20 +863,49 @@ msgstr "Адреса P.O.Box и а/я не принимаются."
 msgid "Password"
 msgstr "Пароль"
 
-msgid "Password is not strong enough."
-msgstr "Пароль недостаточно надёжный."
-
 msgid "Password not given."
 msgstr "Не указан пароль."
 
 msgid "Password should be at least six characters, including lower and uppercase letters with numbers."
 msgstr "Пароль должен содержать минимум шесть знаков, включая заглавные и строчные буквы и цифры."
 
-msgid "Payment Agent activity not currently authorized"
-msgstr "Нет авторизации для деятельности платежного агента"
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent facilities are not available for this account."
+msgstr "Секция Платежных Агентов недоступна для Вашего счета."
 
-msgid "Payment Agents are not available on this site."
-msgstr "Секция Платежных Агентов недоступна на сайте."
+msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+msgstr ""
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are available for %1 currency only."
+msgstr "Секция Платежных Агентов недоступна для Вашего счета."
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are not allowed for specified accounts."
+msgstr "Секция Платежных Агентов недоступна для Вашего счета."
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Payment agent transfers are not allowed for the specified accounts."
+msgstr "Секция Платежных Агентов недоступна для Вашего счета."
+
+#, fuzzy
+#| msgid "The account transfer is unavailable for %1 account."
+msgid "Payment agent transfers are not allowed within the same account."
+msgstr "Трансфер недоступен для счета %1."
+
+#, fuzzy
+#| msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
+msgstr "Извините, Вы превысили количество разрешенных транзакций в день."
+
+#, fuzzy
+#| msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgstr "Извините, Вы превысили сумму перевода на сегодня."
 
 msgid "Payment error"
 msgstr "Ошибка при оплате"
@@ -936,8 +968,10 @@ msgstr "Пожалуйста, пройдите процесс авторизац
 msgid "Please enter a number between %1 and %2"
 msgstr "Пожалуйста, введите цифру от 0 до %1"
 
-msgid "Please enter a number between 0 and %1."
-msgstr "Пожалуйста, введите цифру от 0 до %1."
+#, fuzzy
+#| msgid "Please enter a number between 0 and %1"
+msgid "Please enter a number between %1 and %2."
+msgstr "Пожалуйста, введите цифру от 0 до %1"
 
 msgid "Please enter a numeric value."
 msgstr "Пожалуйста, введите числовое значение."
@@ -1053,9 +1087,6 @@ msgstr "Пожалуйста, используйте вышеупомянуты�
 msgid "Postcode is required for UK residents."
 msgstr "Почтовый код требуется от резидентов Великобритании."
 
-msgid "Proceeded as %1"
-msgstr "Продолжено как %1"
-
 msgid "Provided amount is not within permissible limits."
 msgstr "Указанная сумма не соответствует установленным лимитам."
 
@@ -1081,6 +1112,11 @@ msgstr "Rakuten Bank"
 
 msgid "Read user profile"
 msgstr "Просмотреть профиль пользователя"
+
+#, fuzzy
+#| msgid "Realtime quotes not available for %1"
+msgid "Realtime quotes not available for %1."
+msgstr "Котировки в режиме реального времени недоступны для %1"
 
 msgid "Receive news and special offers"
 msgstr "Получать новости и спец. предложения"
@@ -1108,6 +1144,9 @@ msgstr "Сберегательный"
 msgid "Self-Exclusion Facilities"
 msgstr "Услуги по самоограничению"
 
+msgid "Sell"
+msgstr "Продажа"
+
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "Лимит на длительность сессии не может превышать 6 недель."
 
@@ -1120,15 +1159,6 @@ msgstr "Ограничение на длительность сессии, в м
 msgid "Short summary of your Payment Agent service"
 msgstr "Краткое описание Ваших услуг"
 
-msgid "Sorry, %1 is not default currency for client %2"
-msgstr "Извините, %1 не является валютой по умолчанию для клиента %2"
-
-msgid "Sorry, %1 is not default currency for payment agent %2"
-msgstr "Извините, %1 не является валютой по умолчанию для платежного агента %2"
-
-msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-msgstr "Извините, оплата через платежных агентов временно недоступна, ввиду технических работ в системе. Пожалуйста, попробуйте еще раз через 30 минут."
-
 msgid "Sorry, account opening is unavailable."
 msgstr "Извините, но открытие счёта недоступно."
 
@@ -1137,6 +1167,16 @@ msgstr "Извините, произошла ошибка."
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Извините, при обработке Вашего запроса произошла ошибка."
+
+#, fuzzy
+#| msgid "Sorry, an error occurred while processing your request."
+msgid "Sorry, an error occurred whilst processing your request."
+msgstr "Извините, при обработке Вашего запроса произошла ошибка."
+
+#, fuzzy
+#| msgid "An error occurred while processing request. Please try again in one minute."
+msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
+msgstr "При обработке Вашего запроса произошла ошибка. Пожалуйста, повторите попытку через минуту."
 
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "Извините, произошла ошибка. Попробуйте войти в кассу снова."
@@ -1150,38 +1190,17 @@ msgstr "Извините, ICO не разрешено для жителей Ва
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "Извините, касса временно недоступна, ввиду технических работ в системе."
 
-msgid "Sorry, client balance will exceed limits with this payment."
-msgstr "Извините, данный платёж превысит лимиты баланса клиента."
-
 msgid "Sorry, contracts on Financial Products are not available in your country of residence"
 msgstr "Извините, контракты на финансовые продукты недоступны в стране Вашего проживания"
 
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "Извините, контракты на Индексах волатильности недоступны в стране Вашего проживания"
 
-msgid "Sorry, it is not allowed."
-msgstr "Извините, данное действие не разрешено."
-
-msgid "Sorry, only USD is allowed."
-msgstr "Извините, только в USD."
-
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "Извините, мы не принимаем к регистрации резидентов Вашей страны."
 
 msgid "Sorry, the ICO is not available for copy trading."
 msgstr "Извините, ICO недоступно для копирования."
-
-msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-msgstr "Извините, вывод через платежных агентов временно невозможен, ввиду технических работ в системе. Пожалуйста, попробуйте еще раз через 30 минут."
-
-msgid "Sorry, the Payment Agent does not exist."
-msgstr "К сожалению, платежный агент не существует."
-
-msgid "Sorry, the Payment Agent is unavailable for your region."
-msgstr "К сожалению, платежный агент недоступен для Вашего региона."
-
-msgid "Sorry, the Payment Agent's currency %1 is unavailable for Payment Agent Withdrawal"
-msgstr "К сожалению, валюта платежного агента %1 недоступна для вывода платежным агентом"
 
 msgid "Sorry, the aggregate payouts of contracts on your account cannot exceed %1%2."
 msgstr "Извините, совокупные выплаты по контрактам на Вашем счете не могут превышать %1%2."
@@ -1198,6 +1217,11 @@ msgstr "Извините, возникла проблема с проверко�
 msgid "Sorry, there was a problem validating your personal information with our payment processor. Please verify that your date of birth was input correctly in your account settings."
 msgstr "Извините, возникла проблема с проверкой Вашей личной информации в нашей платёжной системе. Проверьте правильность даты Вашего рождения в настройках счёта."
 
+#, fuzzy
+#| msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
+msgid "Sorry, this facility is temporarily disabled due to system maintenance."
+msgstr "Извините, касса временно недоступна, ввиду технических работ в системе."
+
 msgid "Sorry, this feature is available to virtual accounts only"
 msgstr "Извините, эта опция доступна только для демо-счетов"
 
@@ -1209,6 +1233,11 @@ msgstr "Извините, но Ваш возраст не позволяет В�
 
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please visit the statement page to automatically sell your expired contracts."
 msgstr "Извините, у Вас не может быть более %1 контрактов на счету одновременно. Пожалуйста, посетите страницу История счета для автоматической продажи закончившихся контрактов на Вашем счету."
+
+#, fuzzy
+#| msgid "Sorry, your account does not allow passwords because you use social media to log in."
+msgid "Sorry, you cannot reset your password because you logged in using a social network."
+msgstr "Извините, но на Вашем счёте не разрешен пароль, так как Вы вошли на сайт через соц. сети."
 
 msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
 msgstr "Извините, Вы не можете вывести средства. Баланс Вашего счета составляет %1 %2."
@@ -1231,9 +1260,6 @@ msgstr "Извините, Вы превысили количество разр�
 msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
 msgstr "Извините, Вы превысили максимальную сумму перевода %1 на сегодня."
 
-msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
-msgstr "Извините, Вы превысили сумму перевода на сегодня."
-
 msgid "Sorry, you have excluded yourself from the website until %1."
 msgstr "Извините, Вы ограничили свой доступ на сайт до %1."
 
@@ -1254,9 +1280,6 @@ msgstr "Извините, но на Вашем счёте не разрешен 
 
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Извините, Ваш счет не авторизован для дальнейшей покупки контрактов."
-
-msgid "Sorry, your currency of %1 is unavailable for Payment Agent Withdrawal"
-msgstr "Извините, Ваша валюта %1 недоступна для вывода через платежного агента"
 
 # 86%
 # 100%
@@ -1284,6 +1307,11 @@ msgstr "Список поддерживаемых банков недейств�
 msgid "Swift code"
 msgstr "Swift-код"
 
+#, fuzzy
+#| msgid "Symbol %1 invalid"
+msgid "Symbol %1 invalid."
+msgstr "Символ %1 недействителен"
+
 msgid "Tax identification number"
 msgstr "Номер налогоплательщика"
 
@@ -1304,9 +1332,6 @@ msgstr "Команда %1."
 
 msgid "The ICO is only available to professional investors in your country of residence. If you are a professional investor, please contact our customer support team to verify your account status."
 msgstr "Ставки на токены ICO в Вашей стране проживания разрешены только для профессиональных инвесторов. Если Вы являетесь профессиональным инвестором, пожалуйста свяжитесь с отделом поддержки клиентов, чтобы изменить статус Вашего счета."
-
-msgid "The Payment Agent facility is currently not available in your country."
-msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны."
 
 msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
 msgstr "Счёт должен быть открыт на Ваше имя и его данные должны совпадать с информацией торгового счёта. Пожалуйста, введите данные счёта, которым Вы хотите воспользоваться."
@@ -1340,6 +1365,21 @@ msgstr "Пароль для Вашей учетной записи %1 был и�
 
 msgid "The password for your account %1 has been reset. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "Пароль к Вашему счету %1 был изменен. Если Вы не меняли пароль, пожалуйста, немедленно обратитесь в службу поддержки."
+
+#, fuzzy
+#| msgid "Sorry, the Payment Agent does not exist."
+msgid "The payment agent account does not exist."
+msgstr "К сожалению, платежный агент не существует."
+
+#, fuzzy
+#| msgid "The Payment Agent facility is currently not available in your country."
+msgid "The payment agent facility is currently not available in your country."
+msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны."
+
+#, fuzzy
+#| msgid "The Payment Agent facility is currently not available in your country."
+msgid "The payment agent facility is not available for this account."
+msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны."
 
 msgid "The provided currency %1 is invalid."
 msgstr "Предоставленная валюта %1 недействительна."
@@ -1379,9 +1419,6 @@ msgstr "Произошла ошибка при обработке запроса
 msgid "These are the bank account details you provided previously. If you wish to register a different account then please contact customer support."
 msgstr "Это данные счёта, который Вы указывали ранее. Если Вы хотите зарегистрировать другой счёт, свяжитесь с отделом поддержки клиентов."
 
-msgid "This Payment Agent cashier section is locked."
-msgstr "Секция КАССА данного платежного агента недоступна."
-
 msgid "This URL is invalid."
 msgstr "Неверный URL."
 
@@ -1390,9 +1427,6 @@ msgstr "Счёт деактивирован."
 
 msgid "This account is unavailable."
 msgstr "Данный счёт недоступен."
-
-msgid "This client cashier section is locked."
-msgstr "Секция Касса данного клиента недоступна."
 
 msgid "This contract cannot be properly validated at this time."
 msgstr "Покупка контракта не может быть завершена в настоящее время. Попробуйте снова."
@@ -1403,20 +1437,46 @@ msgstr "Контракт ограничен для "
 msgid "This contract is unavailable on this account."
 msgstr "Данный контракт недоступен для этого счета."
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "This contract type is not available for this acccount"
+msgstr "Данный контракт недоступен для этого счета."
+
 msgid "This contract was not found among your open positions."
 msgstr "Данный контракт не найден среди Ваших открытых позиций."
 
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "Цена контракта %1%2. Контракты, приобретенные у %3, должны иметь цену выше %1%4. Пожалуйста, увеличьте выигрыш контракта для удовлетворения этой минимальной ставки."
 
+#, fuzzy
+#| msgid "Your email address is unverified."
+msgid "This email address is invalid."
+msgstr "Ваш электронный адрес не подтвержден."
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Вы находитесь на демо-счету. Пожалуйста, переключитесь на реальный счет, чтобы получить доступ к кассе."
+
+#, fuzzy
+#| msgid "An error occurred while processing your payment agent transfer."
+msgid "This is an ICO-only account which does not support payment agent transfers."
+msgstr "Извините, при переводе средств через платёжного агента произошла ошибка."
+
+msgid "This is an ICO-only account which does not support transfers."
+msgstr ""
 
 msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
 msgstr "Это автоматическое сообщение для оповещения, что в настройках кассы Вашего счета %1 с адреса IP %2 были произведены изменения. Если это сделали не Вы, просим зайти на свой счет и обновить настройки."
 
 msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
 msgstr "Это автоматическое сообщение для оповещения, что на Вашем счету %1 была произведена неудачная попытка зайти в секцию Касса/Настройки с IP-адреса %2"
+
+#, fuzzy
+#| msgid "This feature is not relevant to virtual-money accounts."
+msgid "This is not supported on an ICO-only account."
+msgstr "Данная функция недоступна на демо-счетах."
+
+msgid "This market is presently closed."
+msgstr "Данный рынок сейчас закрыт."
 
 msgid "Timeout from the website until"
 msgstr "Ограничение доступа к сайту до"
@@ -1453,6 +1513,11 @@ msgstr "Номер транзакции: %1"
 
 msgid "Transactions"
 msgstr "Контракты"
+
+#, fuzzy
+#| msgid "Payment Agents are not available for your account."
+msgid "Transfers between accounts are not available for your account."
+msgstr "Секция Платежных Агентов недоступна для Вашего счета."
 
 msgid "URL should not have fragment"
 msgstr "URL не должен содержать фрагментов"
@@ -1510,6 +1575,9 @@ msgstr "Подтвердите свой запрос на вывод."
 msgid "Verify your withdrawal request - %1"
 msgstr "Подтвердите свой запрос на вывод - %1"
 
+msgid "Virtual accounts don't require document uploads."
+msgstr ""
+
 msgid "Virtual money credit to account"
 msgstr "Виртуальный кредит на счет"
 
@@ -1558,6 +1626,17 @@ msgid ""
 msgstr ""
 "Хотим сообщить, что Ваш запрос на вывод %1 %2 обработан.\n"
 "Транзакция %3 ожидает подтверждения."
+
+#, fuzzy
+#| msgid ""
+#| "We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
+#| "Transaction number %3 is confirmed."
+msgid ""
+"We would like to inform you that your withdrawal request of %1 %2 has been rejected.\n"
+"Your account is refunded."
+msgstr ""
+"Хотим сообщить, что Ваш запрос на вывод %1 %2 обработан.\n"
+"Транзакция %3 подтверждена."
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "Приносим извинения, но услуги по самоисключению не действуют на демо-счете."
@@ -1608,16 +1687,101 @@ msgstr "Вы уже подписаны на proposal_open_contract."
 msgid "You are already subscribed to transaction updates."
 msgstr "Вы уже подписаны на обновления о транзакциях."
 
-msgid "You are not a Payment Agent"
-msgstr "Вы не являетесь платежным агентом"
+#, fuzzy
+#| msgid "You are not authorized for withdrawal via payment agent."
+msgid "You are not authorized for transfers via payment agents."
+msgstr "Вы не можете выводить средства через платежного агента."
 
-msgid "You are not authorized for withdrawal via payment agent."
+#, fuzzy
+#| msgid "You are not authorized for withdrawal via payment agent."
+msgid "You are not authorized for withdrawals via payment agents."
 msgstr "Вы не можете выводить средства через платежного агента."
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
 
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for payment agent %2"
+msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
+msgstr "Извините, %1 не является валютой по умолчанию для платежного агента %2"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for client %2"
+msgid "You cannot perform this action, as %1 is not default currency for your account %2."
+msgstr "Извините, %1 не является валютой по умолчанию для клиента %2"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for client %2"
+msgid "You cannot perform this action, as %1 is not the default account currency for client %2."
+msgstr "Извините, %1 не является валютой по умолчанию для клиента %2"
+
+#, fuzzy
+#| msgid "Sorry, %1 is not default currency for payment agent %2"
+msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
+msgstr "Извините, %1 не является валютой по умолчанию для платежного агента %2"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account %1 is currently disabled."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is cashier locked."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is currently disabled."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot perform this action, as your account is withdrawal locked."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+msgid "You cannot perform this action, as your verification documents have expired."
+msgstr ""
+
+msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
+msgstr ""
+
 msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their cashier is locked."
+msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
 
 msgid "You have already claimed a bonus in the past."
@@ -1627,6 +1791,11 @@ msgid "You have created all accounts available to you."
 msgstr "Вы уже открыли все разрешенные счета."
 
 msgid "You have exceeded the daily limit for contracts of this type."
+msgstr "ВЫ превысили дневной лимит на покупку ставок этого типа."
+
+#, fuzzy
+#| msgid "You have exceeded the daily limit for contracts of this type."
+msgid "You have exceeded the open position limit for contracts of this type."
 msgstr "ВЫ превысили дневной лимит на покупку ставок этого типа."
 
 msgid "You have exceeded your 30-day limit on losses of %1%2."
@@ -1658,6 +1827,11 @@ msgstr "Вы должны пользоваться отдельным банко
 
 msgid "You will be automatically logged out after such time."
 msgstr "Вы автоматически будете выходить с сайта после данного времени."
+
+#, fuzzy
+#| msgid "Your cashier is locked as per your request."
+msgid "Your %1 cashier is locked as per your request."
+msgstr "Ваша касса закрыта по Вашему запросу."
 
 msgid "Your Details"
 msgstr "Ваши данные"
@@ -1695,6 +1869,11 @@ msgstr "Ваш счёт закрыт для вывода средств."
 msgid "Your account is restricted to withdrawals only."
 msgstr "На Вашем счету можно производить только вывод средств."
 
+#, fuzzy
+#| msgid "Your account does not require authentication at this time."
+msgid "Your account needs to be authenticated to perform payment agent transfers."
+msgstr "Ваш счет не требует верификации на настоящий момент."
+
 msgid "Your app_id is invalid."
 msgstr "Неправильный app_id."
 
@@ -1704,17 +1883,14 @@ msgstr "Ваш баланс выше позволенной суммы."
 msgid "Your bonus request - %1"
 msgstr "Ваш запрос на бонус - %1"
 
-msgid "Your cashier is locked as per your request"
-msgstr "Ваша касса закрыта по Вашему запросу"
+msgid "Your cannot perform this action, as your account %1 cashier is locked as per request."
+msgstr ""
 
 msgid "Your cashier is locked as per your request."
 msgstr "Ваша касса закрыта по Вашему запросу."
 
 msgid "Your cashier is locked."
 msgstr "Ваша КАССА заблокирована."
-
-msgid "Your cashier section is locked."
-msgstr "Ваша секция КАССА заблокирована."
 
 msgid "Your cashier was locked."
 msgstr "Ваша КАССА заблокирована."
@@ -2974,9 +3150,6 @@ msgstr "Внебирж. индекс Саудовской Аравии"
 
 msgid "Swiss Index"
 msgstr "Швейцарский индекс"
-
-msgid "UK OTC Index"
-msgstr "Внебирж. индекс Великобритании"
 
 msgid "Hong Kong Index"
 msgstr "Гонконгский индекс"
@@ -4348,6 +4521,14 @@ msgstr "входной спот-котировки плюс %1"
 msgid "entry spot minus %1"
 msgstr "входной спот-котировки минус %1"
 
+msgid "Start Time"
+msgstr "Время начала"
+
+#, fuzzy
+#| msgid " and "
+msgid "%1 and %2"
+msgstr " и "
+
 msgid "close on %1"
 msgstr "момента закрытия %1"
 
@@ -4360,8 +4541,22 @@ msgstr "входная спот-котировка плюс %plural(%1,%d пун
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "входная спот-котировка минус %plural(%1,%d пункт, %d пункта, %d пунктов)"
 
+msgid "Entry Spot"
+msgstr "Входная котировка"
+
+msgid "End Time"
+msgstr "Окончание"
+
 msgid "entry spot"
 msgstr "входная спот-котировка"
+
+msgid "Exit Spot"
+msgstr "Выходная котировка"
+
+#, fuzzy
+#| msgid "Closing Price"
+msgid "Closing Spot"
+msgstr "Цена закрытия"
 
 msgid "Absolute barrier cannot be zero."
 msgstr "Абсолютный барьер не может быть равен нулю."
@@ -4380,9 +4575,6 @@ msgstr "Мы не смогли обработать данный контрак�
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Действительное время продолжительности этой ставки может быть от %2 до %3."
 
-msgid "Trading is currently suspended due to configuration update."
-msgstr "Торговля временно приостановлена из-за обновления конфигурации."
-
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "Верхний барьер вне допустимых рамок. Пожалуйста, измените верхний барьер."
 
@@ -4391,6 +4583,11 @@ msgstr "Торговля приостановлена из-за отсутств
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "Время истечения и начала контракта не может совпадать."
+
+#, fuzzy
+#| msgid "The ICO is now closed."
+msgid "The ICO has not yet started."
+msgstr "Аукцион ICO закрыт."
 
 # 83%
 # 100%
@@ -4464,11 +4661,13 @@ msgstr "Извините, но Ваша цена бид слишком низк�
 msgid "An error occurred during contract settlement."
 msgstr "При расчёте контракта возникла ошибка."
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "The ICO is not available for the account."
+msgstr "Данный контракт недоступен для этого счета."
+
 msgid "The ICO is now closed."
 msgstr "Аукцион ICO закрыт."
-
-msgid "This market is presently closed."
-msgstr "Данный рынок сейчас закрыт."
 
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "Торговля приостановлена из-за отсутствия рыночных данных (дивидендов)."
@@ -4568,6 +4767,114 @@ msgstr "Торговля приостановлена из-за отсутств
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Контракты на данном рынке с длительностью менее 24 часов должны заканчиваться в тот же торговый день."
 
+#, fuzzy
+#~| msgid "The account transfer is unavailable for your account."
+#~ msgid "Account transfer is not available for your account."
+#~ msgstr "Трансфер счета недоступен для Вашего счета."
+
+#, fuzzy
+#~| msgid "The account transfer is unavailable for your account: %1."
+#~ msgid "Account transfer is not available for your account: %1."
+#~ msgstr "Трансфер счета недоступен для Вашего счета: %1."
+
+#~ msgid "An error occurred while processing request. Please try again after one minute."
+#~ msgstr "При обработке Вашего запроса произошла ошибка. Пожалуйста, повторите попытку через минуту."
+
+#~ msgid "An error occurred while processing your payment agent withdrawal."
+#~ msgstr "Извините, при выводе средств через платёжного агента произошла ошибка."
+
+#~ msgid "Cross-company payment agent transfers are not allowed."
+#~ msgstr "Переводы через платежного агента между счетами внутри компании не разрешены."
+
+#~ msgid ""
+#~ "Dear Valued Customer,\n"
+#~ "\n"
+#~ "Before we can help you change your password, please help us to verify your identity by entering the following verification token into the password reset form:\n"
+#~ "\n"
+#~ "Token: %1\n"
+#~ "\n"
+#~ "Password reset form: %2"
+#~ msgstr ""
+#~ "Уважаемый клиент,\n"
+#~ "\n"
+#~ "Прежде, чем мы поможем Вам изменить пароль, просим Вас идентифицироваться путём введения следующего проверочного токена в форму для изменения пароля:\n"
+#~ "\n"
+#~ "Токен: %1\n"
+#~ "\n"
+#~ "Форма для изменения пароля: %2"
+
+#~ msgid "Invalid URI for appstore."
+#~ msgstr "Неправильный URI для Appstore."
+
+#~ msgid "Invalid URI for github."
+#~ msgstr "Неправильный URI для GitHub."
+
+#~ msgid "Invalid URI for googleplay."
+#~ msgstr "Неправильный URI для Googleplay."
+
+#~ msgid "Invalid URI for homepage."
+#~ msgstr "Неправильный URI главной страницы."
+
+#~ msgid "Password is not strong enough."
+#~ msgstr "Пароль недостаточно надёжный."
+
+#~ msgid "Payment Agent activity not currently authorized"
+#~ msgstr "Нет авторизации для деятельности платежного агента"
+
+#~ msgid "Payment Agents are not available on this site."
+#~ msgstr "Секция Платежных Агентов недоступна на сайте."
+
+#~ msgid "Please enter a number between 0 and %1."
+#~ msgstr "Пожалуйста, введите цифру от 0 до %1."
+
+#~ msgid "Proceeded as %1"
+#~ msgstr "Продолжено как %1"
+
+#~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+#~ msgstr "Извините, оплата через платежных агентов временно недоступна, ввиду технических работ в системе. Пожалуйста, попробуйте еще раз через 30 минут."
+
+#~ msgid "Sorry, client balance will exceed limits with this payment."
+#~ msgstr "Извините, данный платёж превысит лимиты баланса клиента."
+
+#~ msgid "Sorry, it is not allowed."
+#~ msgstr "Извините, данное действие не разрешено."
+
+#~ msgid "Sorry, only USD is allowed."
+#~ msgstr "Извините, только в USD."
+
+#~ msgid "Sorry, the Payment Agent Withdrawal is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+#~ msgstr "Извините, вывод через платежных агентов временно невозможен, ввиду технических работ в системе. Пожалуйста, попробуйте еще раз через 30 минут."
+
+#~ msgid "Sorry, the Payment Agent is unavailable for your region."
+#~ msgstr "К сожалению, платежный агент недоступен для Вашего региона."
+
+#~ msgid "Sorry, the Payment Agent's currency %1 is unavailable for Payment Agent Withdrawal"
+#~ msgstr "К сожалению, валюта платежного агента %1 недоступна для вывода платежным агентом"
+
+#~ msgid "Sorry, your currency of %1 is unavailable for Payment Agent Withdrawal"
+#~ msgstr "Извините, Ваша валюта %1 недоступна для вывода через платежного агента"
+
+#~ msgid "This Payment Agent cashier section is locked."
+#~ msgstr "Секция КАССА данного платежного агента недоступна."
+
+#~ msgid "This client cashier section is locked."
+#~ msgstr "Секция Касса данного клиента недоступна."
+
+#~ msgid "You are not a Payment Agent"
+#~ msgstr "Вы не являетесь платежным агентом"
+
+#~ msgid "Your cashier is locked as per your request"
+#~ msgstr "Ваша касса закрыта по Вашему запросу"
+
+#~ msgid "Your cashier section is locked."
+#~ msgstr "Ваша секция КАССА заблокирована."
+
+#~ msgid "UK OTC Index"
+#~ msgstr "Внебирж. индекс Великобритании"
+
+#~ msgid "Trading is currently suspended due to configuration update."
+#~ msgstr "Торговля временно приостановлена из-за обновления конфигурации."
+
 #~ msgid "App id is mandatory to access our api. Please register your application."
 #~ msgstr "Необходимо указать ID приложения, чтобы получить доступ к нашему API. Пожалуйста, зарегистрируйте приложение."
 
@@ -4582,12 +4889,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "homepage"
 #~ msgstr "главная страница"
-
-#~ msgid "Invalid login attempt. Please log in with a social network instead."
-#~ msgstr "Не удалось войти на сайт. Пожалуйста, войдите через соц. сети."
-
-#~ msgid "Invalid login attempt. Please log in with your email and password instead."
-#~ msgstr "Не удалось войти на сайт. Пожалуйста, войдите через email и пароль."
 
 #~ msgid "Sorry, bidding for tokens is restricted in your country of residence."
 #~ msgstr "Извините, ставки на токены не разрешены для жителей Вашей страны."
@@ -4787,9 +5088,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "%1 %2 payout for every point %3 rises from entry level, with stop loss of %4 points and stop profit of %5 points."
 #~ msgstr "Выплата в размере %1 %2 за каждый пункт, на который %3 повышается от уровня входа, где стоп-лосс установлен на %4, а стоп-профит на %5."
-
-#~ msgid "Tax information is required."
-#~ msgstr "Необходимо указать информацию о налогах."
 
 #~ msgid "Barrier must be at least "
 #~ msgstr "Барьер должен быть по меньшей мере "
@@ -5163,9 +5461,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Browser"
 #~ msgstr "Браузер"
 
-#~ msgid "Buy"
-#~ msgstr "Покупка"
-
 #~ msgid "Candlestick Chart"
 #~ msgstr "Японские свечи"
 
@@ -5355,17 +5650,11 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Education"
 #~ msgstr "Обучение"
 
-#~ msgid "End Time"
-#~ msgstr "Окончание"
-
 #~ msgid "Enter the barrier in terms of the difference from the spot price. If you enter +0.005, then you will be purchasing a contract with a barrier 0.005 higher than the entry spot. The entry spot will be the next tick after your order has been received"
 #~ msgstr "Внесите барьер для изменения спот-котировки. Если Вы внесете +0.005, Вы покупаете контракт с барьером на 0.005 выше, чем спот-котировка. Спот-котировкой считается следующий тик после покупки контракта"
 
 #~ msgid "Entry Level"
 #~ msgstr "Уровень входа"
-
-#~ msgid "Entry Spot"
-#~ msgstr "Входная котировка"
 
 #~ msgid "Estimated Net Worth"
 #~ msgstr "Собственный капитал"
@@ -5381,9 +5670,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Exit Level"
 #~ msgstr "Уровень окончания"
-
-#~ msgid "Exit Spot"
-#~ msgstr "Выходная котировка"
 
 #~ msgid "Exit Spot Time"
 #~ msgstr "Время выходной котировки"
@@ -5552,9 +5838,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Internal Auditor"
 #~ msgstr "Внутренний аудитор"
-
-#~ msgid "Invalid date of birth."
-#~ msgstr "Неправильная дата рождения."
 
 #~ msgid "Invalid period input! Please input the period between 0 and #1"
 #~ msgstr "Неверно указан период. Введите период между 0 и #1"
@@ -6141,9 +6424,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Self-Employed"
 #~ msgstr "Частный предприниматель"
 
-#~ msgid "Sell"
-#~ msgstr "Продажа"
-
 #~ msgid "Sell at market"
 #~ msgstr "Продать по текущей цене"
 
@@ -6194,9 +6474,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Stake"
 #~ msgstr "Ставка"
-
-#~ msgid "Start Time"
-#~ msgstr "Время начала"
 
 #~ msgid "Start time"
 #~ msgstr "Время начала"
@@ -6361,9 +6638,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "This contract won"
 #~ msgstr "Контракт выиграл"
-
-#~ msgid "This feature is not relevant to virtual-money accounts."
-#~ msgstr "Данная функция недоступна на демо-счетах."
 
 #~ msgid "Thursday"
 #~ msgstr "Четверг"
@@ -13808,12 +14082,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Date expiry %1 invalid"
 #~ msgstr "Дата окончания %1 недействительна"
 
-#~ msgid "Realtime quotes not available for %1"
-#~ msgstr "Котировки в режиме реального времени недоступны для %1"
-
-#~ msgid "Symbol %1 invalid"
-#~ msgstr "Символ %1 недействителен"
-
 #~ msgid "Wrong pricing table arguments"
 #~ msgstr "Споры относительно ошибок в ценовой таблице"
 
@@ -14217,9 +14485,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Payment Agent currency can only be in USD"
 #~ msgstr "Валютой Платежного агента может быть лишь USD"
-
-#~ msgid "Payment Agents are not available for your account."
-#~ msgstr "Секция Платежных Агентов недоступна для Вашего счета."
 
 #~ msgid "Please note that mobile telephone bills are not acceptable as evidence of address"
 #~ msgstr "Обратите внимание, что счета за оплату сотовых телефонов не принимаются как подтверждение адреса"
@@ -16051,9 +16316,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "This call will return the same JSON structure that can be previewed from the API Console Facility."
 #~ msgstr "Этот вызов вернется с той же структурой JSON, которую можно посмотреть в консоли API Console Facility."
 
-#~ msgid "Your account does not require authentication at this time."
-#~ msgstr "Ваш счет не требует верификации на настоящий момент."
-
 #~ msgid "%1 provides <a href=\"%2\" class=\"pjaxload\">Self Exclusion</a> facilities which allow you to set limits on your account."
 #~ msgstr "%1 предоставляет услуги по <a href=\"%2\" class=\"pjaxload\">само-ограничению</a>, которые позволят Вам установить лимиты на Вашу деятельность на счете."
 
@@ -16113,9 +16375,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Candlesticks"
 #~ msgstr "Свечи"
-
-#~ msgid "Closing Price"
-#~ msgstr "Цена закрытия"
 
 #~ msgid "Donchain Channel"
 #~ msgstr "Каналы Дончиана"
@@ -17320,9 +17579,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Trading facilities (under development)"
 #~ msgstr "Торговые возможности (в разработке)"
-
-#~ msgid " and "
-#~ msgstr " и "
 
 #~ msgid "%1 offer you the chance to trade on a very short-term event and make money in seconds!"
 #~ msgstr "%1 предлагает Вам возможность приобретать контракты на очень коротких движениях рынков и заработать прибыль в секунды!"
@@ -21211,9 +21467,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Quote is too old"
 #~ msgstr "Последняя полученная котировка устарела, поэтому опцион не может быть рассчитан."
-
-#~ msgid "Quote not found"
-#~ msgstr "Котировка не найдена"
 
 #~ msgid "Sorry, %1 cannot be played on this market at the moment, for the following reason: %1. Please try again in a few minutes time."
 #~ msgstr "Извините, на данном рынке в настоящее время нельзя приобрести контракты по следующей причине: %1. Просим попробовать снова через несколько минут."
