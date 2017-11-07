@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-11-07 07:56+0000\n"
 "Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.18-dev\n"
 
 msgid ""
@@ -1164,9 +1162,7 @@ msgid "Sorry, there was a problem validating your personal information with our 
 msgstr "Извините, возникла проблема с проверкой Вашей личной информации в нашей платёжной системе. Проверьте правильность даты Вашего рождения в настройках счёта."
 
 msgid "Sorry, this facility is temporarily disabled due to system maintenance."
-msgstr ""
-"Извините, данная функция временно недоступна, ввиду технических работ в "
-"системе."
+msgstr "Извините, данная функция временно недоступна, ввиду технических работ в системе."
 
 msgid "Sorry, this feature is available to virtual accounts only"
 msgstr "Извините, эта опция доступна только для демо-счетов"
@@ -1312,8 +1308,7 @@ msgid "The payment agent account does not exist."
 msgstr "Данный платежный агент не существует."
 
 msgid "The payment agent facility is currently not available in your country."
-msgstr ""
-"Оплата через платежного агента в данный момент недоступна для Вашей страны. "
+msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны. "
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Оплата через платежного агента недоступна для Вашего счёта."
@@ -1681,8 +1676,7 @@ msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "ВЫ превысили дневной лимит на покупку ставок этого типа."
 
 msgid "You have exceeded the open position limit for contracts of this type."
-msgstr ""
-"Вы превысили лимит для открытых позиций на покупку контрактов этого типа."
+msgstr "Вы превысили лимит для открытых позиций на покупку контрактов этого типа."
 
 msgid "You have exceeded your 30-day limit on losses of %1%2."
 msgstr "Вы превысили 30-дневный лимит на убытки в размере %1%2."
@@ -2644,6 +2638,9 @@ msgstr "Португальский индекс"
 msgid "Brazilian OTC Index"
 msgstr "Бразильский внебирж. индекс"
 
+msgid "Wall Street Index"
+msgstr "Wall Street Index"
+
 # 75%
 # 100%
 msgid "Saudi Arabia Index"
@@ -2822,6 +2819,9 @@ msgstr "Внебирж. индекс Саудовской Аравии"
 msgid "Swiss Index"
 msgstr "Швейцарский индекс"
 
+msgid "UK OTC Index"
+msgstr "Внебирж. индекс Великобритании"
+
 msgid "Hong Kong Index"
 msgstr "Гонконгский индекс"
 
@@ -2934,6 +2934,9 @@ msgstr "Novartis"
 
 msgid "Berkshire Hathaway"
 msgstr "Berkshire Hathaway"
+
+msgid "Commonwealth Bank"
+msgstr "Commonwealth Bank"
 
 msgid "Anglo American plc"
 msgstr "Anglo American plc"
@@ -3115,6 +3118,9 @@ msgstr "Volkswagen AG"
 msgid "Barclays"
 msgstr "Barclays"
 
+msgid "Macquarie Group"
+msgstr "Macquarie Group"
+
 msgid "TELSTRA CORPORATION LIMITED"
 msgstr "TELSTRA CORPORATION LIMITED"
 
@@ -3295,8 +3301,14 @@ msgstr "SUNCORP GROUP LIMITED"
 msgid "Reliance Industries"
 msgstr "Reliance Industries"
 
+msgid "BHP Billiton"
+msgstr "BHP Billiton"
+
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
+
+msgid "Tata Motors"
+msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3453,6 +3465,9 @@ msgstr "IBM"
 
 msgid "Pfizer Inc"
 msgstr "Pfizer Inc"
+
+msgid "ANZ Banking Group"
+msgstr "ANZ Banking Group"
 
 msgid "British American Tobacco"
 msgstr "British American Tobacco"
@@ -3618,6 +3633,9 @@ msgstr "Palo Alto Networks Inc."
 
 msgid "Societe Generale"
 msgstr "Societe Generale"
+
+msgid "Qantas Airways"
+msgstr "Qantas Airways"
 
 msgid "General Electric Co"
 msgstr "General Electric Co"
@@ -4072,143 +4090,227 @@ msgstr "{JAPAN ONLY}Margin FX"
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
 
-msgid "Win payout if %3 is higher than or equal to %6 at %5 after %4."
+#, fuzzy
+#| msgid "Win payout if %3 is higher than or equal to %6 at %5 after %4."
+msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "Получить выплату, если %3 будет выше или равно %6 через %5 после %4."
 
-msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
+#, fuzzy
+#| msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
+msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
 msgstr "Получить выплату, если %3 выйдет за пределы %7 и %6 в любое время в течение %5 после %4."
 
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
+#, fuzzy
+#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
 msgstr "Получить выплату, если %3 после %plural(%5,%d тика,%d тиков,%d тиков) будет строго ниже, чем %6."
 
-msgid "Win payout if %3 does not touch %6 through %5 after %4."
+#, fuzzy
+#| msgid "Win payout if %3 does not touch %6 through %5 after %4."
+msgid "Win payout if %1 does not touch %4 through %3 after %2."
 msgstr "Получить выплату, если %3 не коснется %6 в течение %5 после %4."
-
-msgid "Win payout if %3 is lower than or equal to %6 at %5 after %4."
-msgstr "Получить выплату, если %3 будет ниже или равно %6 через %5 после %4."
-
-msgid "Win payout if %3 goes outside %7 to %6 through %5."
-msgstr "Получить выплату, если %3 выйдет за границы диапазона от %7 до %6 в любое время в течение %5."
-
-msgid "Win payout if %3 is strictly lower than %6 at %5."
-msgstr "Получить выплату, если %3 будет строго ниже, чем %6 во время %5."
-
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
-msgstr "Получить выплату, если %3 после %plural(%5,%d тика, %d тиков, %d тиков) будет выше или равно %6."
-
-msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
-msgstr "Получить выплату, если %3 будет строго выше, чем %6, через %5 после %4."
-
-msgid "Win payout if %3 ends outside %7 to %6 at %5."
-msgstr "Получить выплату, если %3 закончится вне диапазона от %7 до %6 во время %5."
-
-msgid "Win payout if the last digit of %3 is not %6 after %plural(%5,%d tick,%d ticks)."
-msgstr "Получить выплату, если последняя цифра %3 не будет %6 после %plural(%5,%d тика, %d тиков, %d тиков)."
-
-msgid "Win payout if the last digit of %3 is strictly higher than %6 after %5 ticks."
-msgstr "Получить выплату, если последняя цифра %3 будет строго выше %6 после %5 тиков."
-
-msgid "Win payout if the last digit of %3 is odd after %5 ticks."
-msgstr "Получить выплату, если последняя цифра %3 будет нечётным числом после %5 тиков."
-
-msgid "Win payout if the last digit of %3 is even after %5 ticks."
-msgstr "Получить выплату, если последняя цифра %3 будет чётным числом после %5 тиков."
-
-msgid "Win payout if %3 ends strictly between %7 to %6 at %5."
-msgstr "Получить выплату, если %3 будет строго между %7 и %6 во время %5."
-
-msgid "Win payout if %3 touches %6 through %5."
-msgstr "Получить выплату, если %3 коснется %6 в течение %5."
-
-msgid "Win payout if the last digit of %3 is strictly lower than %6 after %5 ticks."
-msgstr "Получить выплату, если последняя цифра %3 будет строго ниже, чем %6 после %5 тиков."
-
-msgid "Win payout if %3 is higher than or equal to %6 at %5."
-msgstr "Получить выплату, если %3 будет выше или равно %6 во время %5."
-
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is lower than or equal to %6."
-msgstr "Получить выплату, если %3 после %plural(%5,%d тика, %d тиков, %d тиков) будет ниже или равно %6."
-
-msgid "Win payout if %3 does not touch %6 through %5."
-msgstr "Получить выплату, если %3 не коснется %6 в течение %5."
-
-msgid "Win payout if %3 ends on or between %7 to %6 at %5 after %4."
-msgstr "Получить выплату, если %3 закончится на отметке или между %7 и %6 через %5 после %4."
-
-msgid "Win payout if %3 ends on or between %7 to %6 at %5."
-msgstr "Получить выплату, если %3 окончится на отметке или между %7 и %6 во время %5."
-
-msgid "Win payout if %3 stays between %7 to %6 through %5."
-msgstr "Получить выплату, если %3 останется между барьерами от %7 до %6 во время %5."
-
-msgid "Win payout if %3 stays between %7 and %6 through %5 after %4."
-msgstr "Получить выплату, если %3 останется строго между барьерами %7 и %6 в любое время в течение %5 после %4."
-
-msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
-msgstr "Получить выплату, если %3 окончится на отметке или вне диапазона от %7 до %6 на %5."
-
-msgid "Win payout if %3 is lower than or equal to %6 at %5."
-msgstr "Получить выплату, если %3 будет ниже или равно %6 во время %5."
-
-msgid "Win payout if the last tick of %3 is strictly lower than the average of the %plural(%5,%d tick,%d ticks)."
-msgstr "Получить выплату, если последняя котировка %3 будет строго ниже, чем общее среднее значение %plural(%5,%d тик, %d тика, %d тиков)."
-
-msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
-msgstr "Получить выплату, если %3 окончится на отметке или вне диапазона от %7 до %6 через %5 после %4."
-
-msgid "Legacy contract. No further information is available."
-msgstr "Нет дальнейшей информации."
-
-msgid "Win payout if %3 is strictly lower than %6 at %5 after %4."
-msgstr "Получить выплату, если %3 будет строго ниже, чем %6, через %5 после %4."
-
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
-msgstr "Получить выплату, если %3 после %plural(%5,%d тика, %d тиков, %d тиков) будет строго выше, чем %6."
-
-msgid "Win payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
-msgstr "Получить выплату, если последняя котировка %3 будет строго выше, чем общее среднее значение %plural(%5,%d тик,%d тика,%d тиков)."
-
-msgid "Win payout if %3 is strictly higher than %6 at %5."
-msgstr "Получить выплату, если %3 будет строго выше, чем %6 во время %5."
-
-msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
-msgstr "Получить выплату, если последняя цифра %3 будет %6 после %plural(%5,%d тика, %d тиков, %d тиков)."
-
-msgid "Win payout if %3 touches %6 through %5 after %4."
-msgstr "Получить выплату, если %3 коснется %6 в течение %5 после %4."
-
-msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
-msgstr "Получить выплату, если %3 будет строго между %7 и %6 через %5 после %4."
-
-msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
-msgstr "Получить выплату, если %3 закончится вне диапазона от %7 до %6 через %5 после %4."
-
-msgid "contract start time"
-msgstr "врем. начала контракта"
 
 msgid "entry spot plus %1"
 msgstr "входной спот-котировки плюс %1"
 
-msgid "entry spot minus %1"
-msgstr "входной спот-котировки минус %1"
+#, fuzzy
+#| msgid "Win payout if %3 is lower than or equal to %6 at %5 after %4."
+msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
+msgstr "Получить выплату, если %3 будет ниже или равно %6 через %5 после %4."
 
-msgid "Start Time"
-msgstr "Время начала"
+#, fuzzy
+#| msgid "Win payout if %3 goes outside %7 to %6 through %5."
+msgid "Win payout if %1 goes outside %5 to %4 through %3."
+msgstr "Получить выплату, если %3 выйдет за границы диапазона от %7 до %6 в любое время в течение %5."
 
-msgid "%1 and %2"
-msgstr "%1 и %2"
-
-msgid "close on %1"
-msgstr "момента закрытия %1"
+#, fuzzy
+#| msgid "Win payout if %3 is strictly lower than %6 at %5."
+msgid "Win payout if %1 is strictly lower than %4 at %3."
+msgstr "Получить выплату, если %3 будет строго ниже, чем %6 во время %5."
 
 msgid "first tick"
 msgstr "первая котировка"
 
+#, fuzzy
+#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
+msgstr "Получить выплату, если %3 после %plural(%5,%d тика, %d тиков, %d тиков) будет выше или равно %6."
+
+msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
+msgstr ""
+
 msgid "entry spot plus %plural(%1,%d pip, %d pips)"
 msgstr "входная спот-котировка плюс %plural(%1,%d пункт, %d пункта, %d пунктов)"
 
+#, fuzzy
+#| msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgstr "Получить выплату, если %3 будет строго выше, чем %6, через %5 после %4."
+
+#, fuzzy
+#| msgid "Win payout if %3 ends outside %7 to %6 at %5."
+msgid "Win payout if %1 ends outside %5 to %4 at %3."
+msgstr "Получить выплату, если %3 закончится вне диапазона от %7 до %6 во время %5."
+
+msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
+msgstr ""
+
+msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgstr ""
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %3 is not %6 after %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "Получить выплату, если последняя цифра %3 не будет %6 после %plural(%5,%d тика, %d тиков, %d тиков)."
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %3 is strictly higher than %6 after %5 ticks."
+msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
+msgstr "Получить выплату, если последняя цифра %3 будет строго выше %6 после %5 тиков."
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %3 is odd after %5 ticks."
+msgid "Win payout if the last digit of %1 is odd after %3 ticks."
+msgstr "Получить выплату, если последняя цифра %3 будет нечётным числом после %5 тиков."
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %3 is even after %5 ticks."
+msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgstr "Получить выплату, если последняя цифра %3 будет чётным числом после %5 тиков."
+
+#, fuzzy
+#| msgid "Win payout if %3 ends strictly between %7 to %6 at %5."
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
+msgstr "Получить выплату, если %3 будет строго между %7 и %6 во время %5."
+
+#, fuzzy
+#| msgid "Win payout if %3 touches %6 through %5."
+msgid "Win payout if %1 touches %4 through %3."
+msgstr "Получить выплату, если %3 коснется %6 в течение %5."
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %3 is strictly lower than %6 after %5 ticks."
+msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
+msgstr "Получить выплату, если последняя цифра %3 будет строго ниже, чем %6 после %5 тиков."
+
+msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+msgstr ""
+
+#, fuzzy
+#| msgid "Win payout if %3 is higher than or equal to %6 at %5."
+msgid "Win payout if %1 is higher than or equal to %4 at %3."
+msgstr "Получить выплату, если %3 будет выше или равно %6 во время %5."
+
+#, fuzzy
+#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is lower than or equal to %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
+msgstr "Получить выплату, если %3 после %plural(%5,%d тика, %d тиков, %d тиков) будет ниже или равно %6."
+
+#, fuzzy
+#| msgid "Win payout if %3 does not touch %6 through %5."
+msgid "Win payout if %1 does not touch %4 through %3."
+msgstr "Получить выплату, если %3 не коснется %6 в течение %5."
+
+#, fuzzy
+#| msgid "Win payout if %3 ends on or between %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
+msgstr "Получить выплату, если %3 закончится на отметке или между %7 и %6 через %5 после %4."
+
+msgid "entry spot"
+msgstr "входная спот-котировка"
+
+msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
+msgstr ""
+
+#, fuzzy
+#| msgid "Win payout if %3 ends on or between %7 to %6 at %5."
+msgid "Win payout if %1 ends on or between %5 to %4 at %3."
+msgstr "Получить выплату, если %3 окончится на отметке или между %7 и %6 во время %5."
+
+#, fuzzy
+#| msgid "Win payout if %3 stays between %7 to %6 through %5."
+msgid "Win payout if %1 stays between %5 to %4 through %3."
+msgstr "Получить выплату, если %3 останется между барьерами от %7 до %6 во время %5."
+
+#, fuzzy
+#| msgid "Win payout if %3 stays between %7 and %6 through %5 after %4."
+msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
+msgstr "Получить выплату, если %3 останется строго между барьерами %7 и %6 в любое время в течение %5 после %4."
+
+#, fuzzy
+#| msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
+msgstr "Получить выплату, если %3 окончится на отметке или вне диапазона от %7 до %6 на %5."
+
+#, fuzzy
+#| msgid "Win payout if %3 is lower than or equal to %6 at %5."
+msgid "Win payout if %1 is lower than or equal to %4 at %3."
+msgstr "Получить выплату, если %3 будет ниже или равно %6 во время %5."
+
+#, fuzzy
+#| msgid "Win payout if the last tick of %3 is strictly lower than the average of the %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Получить выплату, если последняя котировка %3 будет строго ниже, чем общее среднее значение %plural(%5,%d тик, %d тика, %d тиков)."
+
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "входная спот-котировка минус %plural(%1,%d пункт, %d пункта, %d пунктов)"
+
+msgid "Legacy contract. No further information is available."
+msgstr "Нет дальнейшей информации."
+
+#, fuzzy
+#| msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
+msgstr "Получить выплату, если %3 окончится на отметке или вне диапазона от %7 до %6 через %5 после %4."
+
+#, fuzzy
+#| msgid "Win payout if %3 is strictly lower than %6 at %5 after %4."
+msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
+msgstr "Получить выплату, если %3 будет строго ниже, чем %6, через %5 после %4."
+
+#, fuzzy
+#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgstr "Получить выплату, если %3 после %plural(%5,%d тика, %d тиков, %d тиков) будет строго выше, чем %6."
+
+#, fuzzy
+#| msgid "Win payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Получить выплату, если последняя котировка %3 будет строго выше, чем общее среднее значение %plural(%5,%d тик,%d тика,%d тиков)."
+
+#, fuzzy
+#| msgid "Win payout if %3 is strictly higher than %6 at %5."
+msgid "Win payout if %1 is strictly higher than %4 at %3."
+msgstr "Получить выплату, если %3 будет строго выше, чем %6 во время %5."
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "Получить выплату, если последняя цифра %3 будет %6 после %plural(%5,%d тика, %d тиков, %d тиков)."
+
+msgid "contract start time"
+msgstr "врем. начала контракта"
+
+msgid "entry spot minus %1"
+msgstr "входной спот-котировки минус %1"
+
+msgid "close on %1"
+msgstr "момента закрытия %1"
+
+#, fuzzy
+#| msgid "Win payout if %3 touches %6 through %5 after %4."
+msgid "Win payout if %1 touches %4 through %3 after %2."
+msgstr "Получить выплату, если %3 коснется %6 в течение %5 после %4."
+
+#, fuzzy
+#| msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
+msgstr "Получить выплату, если %3 будет строго между %7 и %6 через %5 после %4."
+
+#, fuzzy
+#| msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
+msgstr "Получить выплату, если %3 закончится вне диапазона от %7 до %6 через %5 после %4."
 
 msgid "Entry Spot"
 msgstr "Входная котировка"
@@ -4216,8 +4318,11 @@ msgstr "Входная котировка"
 msgid "End Time"
 msgstr "Окончание"
 
-msgid "entry spot"
-msgstr "входная спот-котировка"
+msgid "Start Time"
+msgstr "Время начала"
+
+msgid "%1 and %2"
+msgstr "%1 и %2"
 
 msgid "Exit Spot"
 msgstr "Выходная котировка"
@@ -4538,9 +4643,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Your cashier section is locked."
 #~ msgstr "Ваша секция КАССА заблокирована."
 
-#~ msgid "UK OTC Index"
-#~ msgstr "Внебирж. индекс Великобритании"
-
 #~ msgid "Trading is currently suspended due to configuration update."
 #~ msgstr "Торговля временно приостановлена из-за обновления конфигурации."
 
@@ -4823,9 +4925,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "AUD/KRW"
 #~ msgstr "AUD/KRW"
-
-#~ msgid "Tata Motors"
-#~ msgstr "Tata Motors"
 
 #~ msgid "1,000 - 1,000,000"
 #~ msgstr "1,000 - 1,000,000"
@@ -13373,21 +13472,6 @@ msgstr "Контракты на данном рынке с длительнос�
 #~ msgid "Your account is important to us. Please <a href=\"%1\">contact us</a> should you need further assistance."
 #~ msgstr "Ваш счет очень важен для нас. Если Вам необходима помощь, пожалуйста, свяжитесь с нашей <a href=\"%1\">службой поддержки</a>."
 
-#~ msgid "Commonwealth Bank"
-#~ msgstr "Commonwealth Bank"
-
-#~ msgid "Macquarie Group"
-#~ msgstr "Macquarie Group"
-
-#~ msgid "BHP Billiton"
-#~ msgstr "BHP Billiton"
-
-#~ msgid "ANZ Banking Group"
-#~ msgstr "ANZ Banking Group"
-
-#~ msgid "Qantas Airways"
-#~ msgstr "Qantas Airways"
-
 #~ msgid "Buy price must be between %1 and %2."
 #~ msgstr "Цена покупки должна быть от %1 до %2."
 
@@ -13400,9 +13484,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "The time is now %1 %2 and the market opening times (for the %3) are:"
 #~ msgstr "Текущее время %1 %2, а время открытия рынка (для %3) следующее:"
-
-#~ msgid "Wall Street Index"
-#~ msgstr "Wall Street Index"
 
 #~ msgid "Commbank (Australia)"
 #~ msgstr "Commbank (Australia)"
