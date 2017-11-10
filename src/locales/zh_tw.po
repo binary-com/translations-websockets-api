@@ -183,9 +183,6 @@ msgstr "高和低障礙必須分別大於和小於現貨價。"
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "受益人的中間代理銀行的詳細資料:"
 
-msgid "Binary ICO: cancelled bid"
-msgstr ""
-
 msgid "Binary K.K. Customer Account"
 msgstr "Binary K.K. 客戶帳戶"
 
@@ -791,6 +788,11 @@ msgstr "無"
 msgid "No further trading is allowed for the current trading session."
 msgstr "目前交易時段不允許進一步交易。"
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "No information is available for this contract."
+msgstr "此帳戶不可交易該合約。"
+
 msgid "Not Found"
 msgstr "無法找到"
 
@@ -1133,6 +1135,11 @@ msgstr "請求已到期"
 msgid "Request too frequent. Please try again later."
 msgstr "請求過於頻繁。請稍後重試。"
 
+#, fuzzy
+#| msgid "Market Professionals"
+msgid "Requested professional status"
+msgstr "市場專業人士"
+
 msgid "Review Permissions"
 msgstr "評估權限"
 
@@ -1382,6 +1389,9 @@ msgstr "所提供的貨幣 %1不是預設貨幣"
 
 msgid "The symbol is invalid."
 msgstr "此符號無效。"
+
+msgid "The system is currently under heavy load, and this call has been suspended temporarily. Please try again in a few minutes."
+msgstr ""
 
 msgid "The token is invalid."
 msgstr "權杖無效。"
@@ -2961,9 +2971,6 @@ msgstr "葡萄牙指數"
 msgid "Brazilian OTC Index"
 msgstr "巴西場外交易指數"
 
-msgid "Wall Street Index"
-msgstr "華爾街指數"
-
 msgid "Saudi Arabia Index"
 msgstr "沙地阿拉伯指數"
 
@@ -3132,9 +3139,6 @@ msgstr "沙地阿拉伯場外交易指數"
 msgid "Swiss Index"
 msgstr "瑞士指數"
 
-msgid "UK OTC Index"
-msgstr "英國場外交易指數"
-
 msgid "Hong Kong Index"
 msgstr "香港指數"
 
@@ -3245,9 +3249,6 @@ msgstr "諾華"
 
 msgid "Berkshire Hathaway"
 msgstr "伯克希爾哈撒韋"
-
-msgid "Commonwealth Bank"
-msgstr "聯邦銀行"
 
 msgid "Anglo American plc"
 msgstr "英美資源集團"
@@ -3429,9 +3430,6 @@ msgstr "福斯汽車"
 msgid "Barclays"
 msgstr "巴克萊銀行"
 
-msgid "Macquarie Group"
-msgstr "Macquarie 集團"
-
 msgid "TELSTRA CORPORATION LIMITED"
 msgstr "澳大利亞電信公司"
 
@@ -3612,14 +3610,8 @@ msgstr "澳洲Suncorp集團"
 msgid "Reliance Industries"
 msgstr "信實工業"
 
-msgid "BHP Billiton"
-msgstr "BHP Billiton"
-
 msgid "Applied Materials Inc."
 msgstr "應用材料公司"
-
-msgid "Tata Motors"
-msgstr "塔塔汽車公司"
 
 msgid "Youku Tudou Inc."
 msgstr "優酷土豆股份有限公司"
@@ -3776,9 +3768,6 @@ msgstr "IBM公司"
 
 msgid "Pfizer Inc"
 msgstr "Pfizer公司"
-
-msgid "ANZ Banking Group"
-msgstr "澳新銀行集團"
 
 msgid "British American Tobacco"
 msgstr "英美菸草商務股份有限公司"
@@ -3944,9 +3933,6 @@ msgstr "帕洛爾托網路有限公司"
 
 msgid "Societe Generale"
 msgstr "法國興業銀行"
-
-msgid "Qantas Airways"
-msgstr "澳洲航空公司"
 
 msgid "General Electric Co"
 msgstr "通用電氣公司"
@@ -4729,7 +4715,9 @@ msgstr "由於市場資料丟失(與現貨價相距太遠)，交易暫停。"
 msgid "Number of token placed must be between %1 and %2."
 msgstr "放置權杖數目須在%1 與 %2之間。"
 
-msgid "Sorry, but your bid is too low. The minimum bid allowed is USD1 (or its equivalent in another currency)."
+#, fuzzy
+#| msgid "Sorry, but your bid is too low. The minimum bid allowed is USD1 (or its equivalent in another currency)."
+msgid "Sorry, but your bid is too low. The minimum bid allowed is USD %1 (or its equivalent in another currency)."
 msgstr "對不起，您的標價太低。允許標價最小為1美元（或其他貨幣的等值）。"
 
 msgid "An error occurred during contract settlement."
@@ -4840,6 +4828,30 @@ msgstr "由於市場資料丟失(波動率)，交易暫停。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
+
+#~ msgid "Wall Street Index"
+#~ msgstr "華爾街指數"
+
+#~ msgid "UK OTC Index"
+#~ msgstr "英國場外交易指數"
+
+#~ msgid "Commonwealth Bank"
+#~ msgstr "聯邦銀行"
+
+#~ msgid "Macquarie Group"
+#~ msgstr "Macquarie 集團"
+
+#~ msgid "BHP Billiton"
+#~ msgstr "BHP Billiton"
+
+#~ msgid "Tata Motors"
+#~ msgstr "塔塔汽車公司"
+
+#~ msgid "ANZ Banking Group"
+#~ msgstr "澳新銀行集團"
+
+#~ msgid "Qantas Airways"
+#~ msgstr "澳洲航空公司"
 
 #~ msgid "Buy"
 #~ msgstr "買入"
@@ -10918,9 +10930,6 @@ msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
 
 #~ msgid "Market Opinions"
 #~ msgstr "市場觀點"
-
-#~ msgid "Market Professionals"
-#~ msgstr "市場專業人士"
 
 #~ msgid "Market exit price"
 #~ msgstr "平倉價"

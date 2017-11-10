@@ -185,9 +185,6 @@ msgstr "高和低障碍必须分别大于和小于现货价。"
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "受益人的中间代理银行详细资料："
 
-msgid "Binary ICO: cancelled bid"
-msgstr ""
-
 msgid "Binary K.K. Customer Account"
 msgstr "Binary K.K. 客户账户"
 
@@ -795,6 +792,11 @@ msgstr "无"
 msgid "No further trading is allowed for the current trading session."
 msgstr "当前交易时段不允许进一步交易。"
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "No information is available for this contract."
+msgstr "此账户不可交易该合约。"
+
 msgid "Not Found"
 msgstr "无法找到"
 
@@ -1137,6 +1139,11 @@ msgstr "请求已到期"
 msgid "Request too frequent. Please try again later."
 msgstr "请求过于频繁。请稍后重试。"
 
+#, fuzzy
+#| msgid "Market Professionals"
+msgid "Requested professional status"
+msgstr "市场专业人士"
+
 msgid "Review Permissions"
 msgstr "评估权限"
 
@@ -1386,6 +1393,11 @@ msgstr "所提供的货币 %1不是预设货币"
 
 msgid "The symbol is invalid."
 msgstr "此符号无效。"
+
+#, fuzzy
+#| msgid "The system is missing critical pricing information.  Please try again in a few minutes."
+msgid "The system is currently under heavy load, and this call has been suspended temporarily. Please try again in a few minutes."
+msgstr "系统丢失了关键定价信息。 请几分钟后再试一次。"
 
 msgid "The token is invalid."
 msgstr "令牌无效。"
@@ -2963,9 +2975,6 @@ msgstr "葡萄牙指数"
 msgid "Brazilian OTC Index"
 msgstr "巴西场外交易指数"
 
-msgid "Wall Street Index"
-msgstr "华尔街指数"
-
 msgid "Saudi Arabia Index"
 msgstr "沙特阿拉伯指数"
 
@@ -3134,9 +3143,6 @@ msgstr "沙特阿拉伯场外交易指数"
 msgid "Swiss Index"
 msgstr "瑞士指数"
 
-msgid "UK OTC Index"
-msgstr "英国场外交易指数"
-
 msgid "Hong Kong Index"
 msgstr "香港指数"
 
@@ -3247,9 +3253,6 @@ msgstr "诺华"
 
 msgid "Berkshire Hathaway"
 msgstr "伯克希尔哈撒韦"
-
-msgid "Commonwealth Bank"
-msgstr "联邦银行"
 
 msgid "Anglo American plc"
 msgstr "英美资源集团"
@@ -3431,9 +3434,6 @@ msgstr "大众集团"
 msgid "Barclays"
 msgstr "巴克莱银行"
 
-msgid "Macquarie Group"
-msgstr "Macquarie 集团"
-
 msgid "TELSTRA CORPORATION LIMITED"
 msgstr "Telstra澳电讯公司"
 
@@ -3614,14 +3614,8 @@ msgstr "新确集团有限公司"
 msgid "Reliance Industries"
 msgstr "信实工业"
 
-msgid "BHP Billiton"
-msgstr "必和必拓"
-
 msgid "Applied Materials Inc."
 msgstr "应用材料公司"
-
-msgid "Tata Motors"
-msgstr "塔塔汽车公司"
 
 msgid "Youku Tudou Inc."
 msgstr "优酷土豆股份有限公司"
@@ -3778,9 +3772,6 @@ msgstr "IBM公司"
 
 msgid "Pfizer Inc"
 msgstr "Pfizer公司"
-
-msgid "ANZ Banking Group"
-msgstr "澳新银行集团"
 
 msgid "British American Tobacco"
 msgstr "英美烟草"
@@ -3946,9 +3937,6 @@ msgstr "帕洛阿尔托网络公司"
 
 msgid "Societe Generale"
 msgstr "法国兴业银行"
-
-msgid "Qantas Airways"
-msgstr "澳洲航空公司"
 
 msgid "General Electric Co"
 msgstr "通用电气公司"
@@ -4737,7 +4725,9 @@ msgstr "由于市场数据丢失（与现货价相距太远），交易暂停。
 msgid "Number of token placed must be between %1 and %2."
 msgstr "放置令牌数目须在%1 与 %2之间。"
 
-msgid "Sorry, but your bid is too low. The minimum bid allowed is USD1 (or its equivalent in another currency)."
+#, fuzzy
+#| msgid "Sorry, but your bid is too low. The minimum bid allowed is USD1 (or its equivalent in another currency)."
+msgid "Sorry, but your bid is too low. The minimum bid allowed is USD %1 (or its equivalent in another currency)."
 msgstr "对不起，您的出价太低。允许标价最小为1美元 (或其他货币的等值 ）。"
 
 msgid "An error occurred during contract settlement."
@@ -4848,6 +4838,30 @@ msgstr "由于市场数据丢失（波动率），交易暂停。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
+
+#~ msgid "Wall Street Index"
+#~ msgstr "华尔街指数"
+
+#~ msgid "UK OTC Index"
+#~ msgstr "英国场外交易指数"
+
+#~ msgid "Commonwealth Bank"
+#~ msgstr "联邦银行"
+
+#~ msgid "Macquarie Group"
+#~ msgstr "Macquarie 集团"
+
+#~ msgid "BHP Billiton"
+#~ msgstr "必和必拓"
+
+#~ msgid "Tata Motors"
+#~ msgstr "塔塔汽车公司"
+
+#~ msgid "ANZ Banking Group"
+#~ msgstr "澳新银行集团"
+
+#~ msgid "Qantas Airways"
+#~ msgstr "澳洲航空公司"
 
 #~ msgid "Buy"
 #~ msgstr "买入"
@@ -10977,9 +10991,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Market Opinions"
 #~ msgstr "市场观点"
-
-#~ msgid "Market Professionals"
-#~ msgstr "市场专业人士"
 
 #~ msgid "Market exit price"
 #~ msgstr "平仓价"
@@ -23375,9 +23386,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "The system is currently unable to execute the selected conversion."
 #~ msgstr "系统当前不能执行选择的转换。"
-
-#~ msgid "The system is missing critical pricing information.  Please try again in a few minutes."
-#~ msgstr "系统丢失了关键定价信息。 请几分钟后再试一次。"
 
 #~ msgid "The transaction has been declined. We only accept AUD deposits from Australian residents."
 #~ msgstr "交易已被拒绝。我们只接受澳大利亚居民的澳元存款。"
