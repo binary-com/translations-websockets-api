@@ -118,10 +118,8 @@ msgstr "W przypadku tego konta wymagana jest weryfikacja wieku."
 msgid "Account not activated."
 msgstr "Konto nie jest aktywowane."
 
-#, fuzzy
-#| msgid "Sorry, %1 are currently suspended"
 msgid "Account transfers are currently suspended."
-msgstr "Przepraszamy, %1 są obecnie zawieszone"
+msgstr "Przenoszenie kont jest obecnie wstrzymane."
 
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "Przelewy środków są niedostępne dla kont prowadzonych w innych walutach."
@@ -182,9 +180,6 @@ msgstr "Limity muszą być po którejś ze stron ceny aktualnej."
 
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Dane pośredniczącego banku beneficjenta:"
-
-msgid "Binary ICO: cancelled bid"
-msgstr "Binary ICO: anulowane oferty zakupu"
 
 msgid "Binary K.K. Customer Account"
 msgstr "Konto klienta Binary K.K."
@@ -781,6 +776,11 @@ msgstr "Nie"
 msgid "No further trading is allowed for the current trading session."
 msgstr "Dalsze handlowanie w obecnej sesji handlowej nie jest dozwolone."
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "No information is available for this contract."
+msgstr "Ten kontrakt jest niedostępny dla tego konta."
+
 msgid "Not Found"
 msgstr "Nie znaleziono"
 
@@ -1091,10 +1091,8 @@ msgstr "Upłynął limit czasu dla żądania"
 msgid "Request too frequent. Please try again later."
 msgstr "Zbyt częste żądanie. Prosimy spróbować później."
 
-#, fuzzy
-#| msgid "Market Professionals"
 msgid "Requested professional status"
-msgstr "Profesjonalni gracze"
+msgstr "Poproszono o status profesjonalny"
 
 msgid "Review Permissions"
 msgstr "Przejrzyj pozwolenia"
@@ -1331,7 +1329,7 @@ msgid "The symbol is invalid."
 msgstr "Symbol jest niepoprawny."
 
 msgid "The system is currently under heavy load, and this call has been suspended temporarily. Please try again in a few minutes."
-msgstr ""
+msgstr "System jest obecnie bardzo obciążony, dlatego to połączenie zostało tymczasowo wstrzymane. Spróbuj ponownie za kilka minut."
 
 msgid "The token is invalid."
 msgstr "Token jest niepoprawny."
@@ -4069,213 +4067,225 @@ msgstr "{JAPAN ONLY}Other"
 
 #, fuzzy
 #| msgid "Win payout if %3 is higher than or equal to %6 at %5 after %4."
-msgid "Win payout if %3 is higher than or equal to %6 at %5 after %4."
+msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "Wypłata nastąpi pod warunkiem, że %3 jest wyższy lub równy %6: %5 po %4."
 
 #, fuzzy
 #| msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
-msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
+msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 przekroczy %7 i %6 w przeciągu: %5 po %4."
 
 #, fuzzy
 #| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
 msgstr "Wypłata nastąpi pod warunkiem, że %3 po %plural(%5,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny) będzie dokładnie niższy niż %6."
 
 #, fuzzy
 #| msgid "Win payout if %3 does not touch %6 through %5 after %4."
-msgid "Win payout if %3 does not touch %6 through %5 after %4."
+msgid "Win payout if %1 does not touch %4 through %3 after %2."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 nie osiągnie %6 w przeciągu %5 po %4."
+
+msgid "entry spot plus %1"
+msgstr "punkt wejściowy plus %1"
 
 #, fuzzy
 #| msgid "Win payout if %3 is lower than or equal to %6 at %5 after %4."
-msgid "Win payout if %3 is lower than or equal to %6 at %5 after %4."
+msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 jest niższy niż %6 lub równy tym wartościom: %5 po %4."
 
 #, fuzzy
 #| msgid "Win payout if %3 goes outside %7 to %6 through %5."
-msgid "Win payout if %3 goes outside %7 to %6 through %5."
+msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 przekroczy %7 do %6 przez: %5."
 
 #, fuzzy
 #| msgid "Win payout if %3 is strictly lower than %6 at %5."
-msgid "Win payout if %3 is strictly lower than %6 at %5."
+msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 będzie dokładnie niższy niż %6: %5."
+
+msgid "first tick"
+msgstr "pierwsza najmniejsza zmiana ceny"
 
 #, fuzzy
 #| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
 msgstr "Wypłata nastąpi pod warunkiem, że %3 po %plural(%5,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny) jest wyższy lub równy %6."
+
+msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
+msgstr ""
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "punkt wejściowy plus %plural(%1,%d wartość procentowa w pkt., %d wartości procentowe w pkt., %d wartości procentowych w pkt.)"
 
 #, fuzzy
 #| msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
-msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgstr "Wypłata nastąpi pod warunkiem, że %3 będzie dokładnie wyższy niż %6: %5 po %4."
 
 #, fuzzy
 #| msgid "Win payout if %3 ends outside %7 to %6 at %5."
-msgid "Win payout if %3 ends outside %7 to %6 at %5."
+msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6: %5."
+
+msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
+msgstr ""
+
+msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgstr ""
 
 #, fuzzy
 #| msgid "Win payout if the last digit of %3 is not %6 after %plural(%5,%d tick,%d ticks)."
-msgid "Win payout if the last digit of %3 is not %6 after %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia cyfra %3 nie wyniesie %6 po %plural(%5,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny)."
 
 #, fuzzy
 #| msgid "Win payout if the last digit of %3 is strictly higher than %6 after %5 ticks."
-msgid "Win payout if the last digit of %3 is strictly higher than %6 after %5 ticks."
+msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
 msgstr "Wypłata %2 %1 nastąpi pod warunkiem, że ostatnia cyfra %3 jest wyższa niż %6 po %5 najmniejszych zmianach ceny."
 
 #, fuzzy
 #| msgid "Win payout if the last digit of %3 is odd after %5 ticks."
-msgid "Win payout if the last digit of %3 is odd after %5 ticks."
+msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia cyfra %3 będzie nieparzysta po %5 najmniejszych zmianach ceny."
 
 #, fuzzy
 #| msgid "Win payout if the last digit of %3 is even after %5 ticks."
-msgid "Win payout if the last digit of %3 is even after %5 ticks."
+msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia cyfra %3 będzie parzysta po %5 najmniejszych zmianach ceny."
 
 #, fuzzy
 #| msgid "Win payout if %3 ends strictly between %7 to %6 at %5."
-msgid "Win payout if %3 ends strictly between %7 to %6 at %5."
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się dokładnie pomiędzy %7 a %6: %5."
 
 #, fuzzy
 #| msgid "Win payout if %3 touches %6 through %5."
-msgid "Win payout if %3 touches %6 through %5."
+msgid "Win payout if %1 touches %4 through %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 osiągnie %6 w przeciągu: %5."
 
 #, fuzzy
 #| msgid "Win payout if the last digit of %3 is strictly lower than %6 after %5 ticks."
-msgid "Win payout if the last digit of %3 is strictly lower than %6 after %5 ticks."
+msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia cyfra %3 będzie niższa niż %6 po %5 najmniejszych zmianach ceny."
+
+msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+msgstr ""
 
 #, fuzzy
 #| msgid "Win payout if %3 is higher than or equal to %6 at %5."
-msgid "Win payout if %3 is higher than or equal to %6 at %5."
+msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 jest wyższy lub równy %6: %5."
 
 #, fuzzy
 #| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is lower than or equal to %6."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is lower than or equal to %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
 msgstr "Wypłata nastąpi pod warunkiem, że %3 po %plural(%5,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny) jest niższy lub równy %6."
 
 #, fuzzy
 #| msgid "Win payout if %3 does not touch %6 through %5."
-msgid "Win payout if %3 does not touch %6 through %5."
+msgid "Win payout if %1 does not touch %4 through %3."
 msgstr "Wypłata nastąpi pod warunkiem, że %3 nie osiągnie wartości %6 w przeciągu: %5."
 
 #, fuzzy
 #| msgid "Win payout if %3 ends on or between %7 to %6 at %5 after %4."
-msgid "Win payout if %3 ends on or between %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się pomiędzy %7 a %6: %5 po %4."
+
+msgid "entry spot"
+msgstr "punkt wejściowy"
+
+msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
+msgstr ""
 
 #, fuzzy
 #| msgid "Win payout if %3 ends on or between %7 to %6 at %5."
-msgid "Win payout if %3 ends on or between %7 to %6 at %5."
+msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się pomiędzy %7 a %6: %5."
 
 #, fuzzy
 #| msgid "Win payout if %3 stays between %7 to %6 through %5."
-msgid "Win payout if %3 stays between %7 to %6 through %5."
+msgid "Win payout if %1 stays between %5 to %4 through %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 pozostanie pomiędzy %7 do %6 przez %5."
 
 #, fuzzy
 #| msgid "Win payout if %3 stays between %7 and %6 through %5 after %4."
-msgid "Win payout if %3 stays between %7 and %6 through %5 after %4."
+msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
 msgstr "Wypłata nastąpi, pod warunkiem, że %3 pozostanie pomiędzy %7 a %6 w przeciągu %5 po %4."
 
 #, fuzzy
-#| msgid "%1 %2 payout if %3 ends outside %7 to %6 at %5."
-msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
-msgstr "Wypłata %2 %1 nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6: %5."
+#| msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
+msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6 lub będzie równy tym wartościom: %5."
 
 #, fuzzy
 #| msgid "Win payout if %3 is lower than or equal to %6 at %5."
-msgid "Win payout if %3 is lower than or equal to %6 at %5."
+msgid "Win payout if %1 is lower than or equal to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 jest dokładnie niższy lub równy %6: %5."
 
 #, fuzzy
 #| msgid "Win payout if the last tick of %3 is strictly lower than the average of the %plural(%5,%d tick,%d ticks)."
-msgid "Win payout if the last tick of %3 is strictly lower than the average of the %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia najmniejsza zmiana ceny %3 będzie dokładnie niższa niż średnia %plural(%5,%d najmniejszej zmiany ceny,%d najmniejszych zmian ceny,%d najmniejszych zmian ceny)."
 
-#, fuzzy
-#| msgid "%1 %2 payout if %3 ends outside %7 to %6 at %5 after %4."
-msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
-msgstr "Wypłata %2 %1 nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6: %5 po %4."
+msgid "entry spot minus %plural(%1,%d pip, %d pips)"
+msgstr "punkt wejściowy minus %plural(%1,%d wartość procentowa w pkt., %d wartości procentowe w pkt., %d wartości procentowych w pkt.)"
 
 msgid "Legacy contract. No further information is available."
 msgstr "Stary kontrakt. Brak innych informacji."
 
 #, fuzzy
+#| msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
+msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się poza zakresem %7 do %6 lub będzie równy tym wartościom: %5 po %4."
+
+#, fuzzy
 #| msgid "Win payout if %3 is strictly lower than %6 at %5 after %4."
-msgid "Win payout if %3 is strictly lower than %6 at %5 after %4."
+msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 będzie dokładnie niższe niż %6: %5 po %4."
 
 #, fuzzy
 #| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
 msgstr "Wypłata nastąpi pod warunkiem, że %3 po %plural(%5,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny) będzie dokładnie wyższy niż %6."
 
 #, fuzzy
 #| msgid "Win payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
-msgid "Win payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia najmniejsza zmiana ceny %3 będzie dokładnie wyższa niż średnia %plural(%5,%d najmniejszej zmiany ceny,%d najmniejszych zmian ceny,%d najmniejszych zmian ceny)."
 
 #, fuzzy
 #| msgid "Win payout if %3 is strictly higher than %6 at %5."
-msgid "Win payout if %3 is strictly higher than %6 at %5."
+msgid "Win payout if %1 is strictly higher than %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %3 będzie dokładnie wyższy niż %6: %5."
 
 #, fuzzy
 #| msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
-msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
+msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia cyfra %3 wyniesie %6 po %plural(%5,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny)."
-
-#, fuzzy
-#| msgid "Win payout if %3 touches %6 through %5 after %4."
-msgid "Win payout if %3 touches %6 through %5 after %4."
-msgstr "Wypłata nastąpi, pod warunkiem że %3 osiągnie %6 w przeciągu: %5 po %4."
-
-#, fuzzy
-#| msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
-msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
-msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się dokładnie pomiędzy %7 a %6: %5 po %4."
-
-#, fuzzy
-#| msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
-msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
-msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6: %5 po %4."
 
 msgid "contract start time"
 msgstr "godzina rozpoczęcia kontraktu"
 
-msgid "entry spot plus %1"
-msgstr "punkt wejściowy plus %1"
-
 msgid "entry spot minus %1"
 msgstr "punkt wejściowy minus %1"
-
-msgid "Start Time"
-msgstr "Godzina rozpoczęcia"
-
-msgid "%1 and %2"
-msgstr "%1 i %2"
 
 msgid "close on %1"
 msgstr "zamykany %1"
 
-msgid "first tick"
-msgstr "pierwsza najmniejsza zmiana ceny"
+#, fuzzy
+#| msgid "Win payout if %3 touches %6 through %5 after %4."
+msgid "Win payout if %1 touches %4 through %3 after %2."
+msgstr "Wypłata nastąpi, pod warunkiem że %3 osiągnie %6 w przeciągu: %5 po %4."
 
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "punkt wejściowy plus %plural(%1,%d wartość procentowa w pkt., %d wartości procentowe w pkt., %d wartości procentowych w pkt.)"
+#, fuzzy
+#| msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
+msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się dokładnie pomiędzy %7 a %6: %5 po %4."
 
-msgid "entry spot minus %plural(%1,%d pip, %d pips)"
-msgstr "punkt wejściowy minus %plural(%1,%d wartość procentowa w pkt., %d wartości procentowe w pkt., %d wartości procentowych w pkt.)"
+#, fuzzy
+#| msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
+msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
+msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6: %5 po %4."
 
 msgid "Entry Spot"
 msgstr "Pozycja wejściowa"
@@ -4283,8 +4293,11 @@ msgstr "Pozycja wejściowa"
 msgid "End Time"
 msgstr "Zakończenie"
 
-msgid "entry spot"
-msgstr "punkt wejściowy"
+msgid "Start Time"
+msgstr "Godzina rozpoczęcia"
+
+msgid "%1 and %2"
+msgstr "%1 i %2"
 
 msgid "Exit Spot"
 msgstr "Punkt wyjściowy"
@@ -4486,6 +4499,9 @@ msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych (z
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasnąć podczas tej samej sesji."
 
+#~ msgid "Binary ICO: cancelled bid"
+#~ msgstr "Binary ICO: anulowane oferty zakupu"
+
 #~ msgid "Wall Street Index"
 #~ msgstr "Indeks Wall Street"
 
@@ -4509,16 +4525,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "Qantas Airways"
 #~ msgstr "Qantas Airways"
-
-#, fuzzy
-#~| msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
-#~ msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
-#~ msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6 lub będzie równy tym wartościom: %5."
-
-#, fuzzy
-#~| msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
-#~ msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
-#~ msgstr "Wypłata nastąpi, pod warunkiem że %3 zakończy się poza zakresem %7 do %6 lub będzie równy tym wartościom: %5 po %4."
 
 #~ msgid "Buy"
 #~ msgstr "Kup"
@@ -14373,6 +14379,16 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "email address"
 #~ msgstr "adres e-mail"
+
+#, fuzzy
+#~| msgid "%1 %2 payout if %3 ends outside %7 to %6 at %5."
+#~ msgid "%1 %2 payout if %3 ends on or outside %7 to %6 at %5."
+#~ msgstr "Wypłata %2 %1 nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6: %5."
+
+#, fuzzy
+#~| msgid "%1 %2 payout if %3 ends outside %7 to %6 at %5 after %4."
+#~ msgid "%1 %2 payout if %3 ends on or outside %7 to %6 at %5 after %4."
+#~ msgstr "Wypłata %2 %1 nastąpi, pod warunkiem że %3 zakończy się poza %7 do %6: %5 po %4."
 
 #~ msgid "Fall"
 #~ msgstr "Spadek"

@@ -180,9 +180,6 @@ msgstr "Batasan harus berada di kedua sisi spot."
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Keterangan Korespondensi Perantara Bank Penerima:"
 
-msgid "Binary ICO: cancelled bid"
-msgstr "ICO Binary: membatalkan penawaran"
-
 msgid "Binary K.K. Customer Account"
 msgstr "Akun Pelanggan Binary K.K"
 
@@ -780,6 +777,11 @@ msgstr "Tidak"
 msgid "No further trading is allowed for the current trading session."
 msgstr "Tidak tersedia trading lebih lanjut untuk sesi trading saat ini."
 
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "No information is available for this contract."
+msgstr "Kontrak ini tidak tersedia untuk akun ini."
+
 msgid "Not Found"
 msgstr "Tidak ditemukan"
 
@@ -1090,10 +1092,8 @@ msgstr "Permintaan time out"
 msgid "Request too frequent. Please try again later."
 msgstr "Permintaan terlalu sering. Silakan coba kembali lagi nanti."
 
-#, fuzzy
-#| msgid "Market Professionals"
 msgid "Requested professional status"
-msgstr "Pasar Profesional"
+msgstr "Meminta status profesional"
 
 msgid "Review Permissions"
 msgstr "Meninjau Perijinan"
@@ -1330,7 +1330,7 @@ msgid "The symbol is invalid."
 msgstr "Simbol ini tidak berlaku."
 
 msgid "The system is currently under heavy load, and this call has been suspended temporarily. Please try again in a few minutes."
-msgstr ""
+msgstr "Beban sistem saat ini sangat besar, dan call ini dihentikan untuk sementara. Silahkan coba kembali beberapa menit lagi."
 
 msgid "The token is invalid."
 msgstr "Token tidak berlaku."
@@ -4058,215 +4058,155 @@ msgstr "{JAPAN ONLY}Margin FX"
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
 
-#, fuzzy
-#| msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
-msgid "Win payout if %3 is higher than or equal to %6 at %5 after %4."
+msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "Dapatkan hasil jika %1 lebih tinggi atau sama dengan %4 pada %3 setelah %2."
 
-#, fuzzy
-#| msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
-msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
+msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
 msgstr "Dapatkan hasil jika %1 bergerak diluar %5 dan %6 melewati %3 setelah %2."
 
-#, fuzzy
-#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
 msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tik) pasti lebih rendah dari %4."
 
-#, fuzzy
-#| msgid "Win payout if %1 does not touch %4 through %3 after %2."
-msgid "Win payout if %3 does not touch %6 through %5 after %4."
+msgid "Win payout if %1 does not touch %4 through %3 after %2."
 msgstr "Dapatkan hasil jika %1 tidak menyentuh %4 melewati %3 setelah %2."
-
-#, fuzzy
-#| msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
-msgid "Win payout if %3 is lower than or equal to %6 at %5 after %4."
-msgstr "Dapatkan hasil jika %1 lebih rendah atau sama dengan %4 pada %3 setelah %2."
-
-#, fuzzy
-#| msgid "Win payout if %1 goes outside %5 to %4 through %3."
-msgid "Win payout if %3 goes outside %7 to %6 through %5."
-msgstr "Dapatkan hasil jika %1 bergerak diluar %5 hingga %4 melewati %3."
-
-#, fuzzy
-#| msgid "Win payout if %1 is strictly lower than %4 at %3."
-msgid "Win payout if %3 is strictly lower than %6 at %5."
-msgstr "Dapatkan hasil jika %1 pasti lebih rendah dari %4 pada %3."
-
-#, fuzzy
-#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
-msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tik) lebih tinggi dari atau sama dengan %4."
-
-#, fuzzy
-#| msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
-msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
-msgstr "Dapatkan hasil jika %1 pasti akan lebih tinggi dari %4 pada %3 setelah %2."
-
-#, fuzzy
-#| msgid "Win payout if %1 ends outside %5 to %4 at %3."
-msgid "Win payout if %3 ends outside %7 to %6 at %5."
-msgstr "Dapatkan hasil jika %1 berakhir diluar %5 hingga %4 pada %3."
-
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
-msgid "Win payout if the last digit of %3 is not %6 after %plural(%5,%d tick,%d ticks)."
-msgstr "Dapatkan hasil jika digit terakhir %1 bukan %4 setelah %plural(%3,%d tik)."
-
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
-msgid "Win payout if the last digit of %3 is strictly higher than %6 after %5 ticks."
-msgstr "Dapatkan hasil jika digit terakhir %1 harus lebih tinggi dari %4 setelah %3 tik."
-
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is odd after %3 ticks."
-msgid "Win payout if the last digit of %3 is odd after %5 ticks."
-msgstr "Dapatkan hasil jika digit terakhir dari %1 adalah ganjil setelah %3 tik."
-
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
-msgid "Win payout if the last digit of %3 is even after %5 ticks."
-msgstr "Dapatkan hasil jika digit terakhir %1 adalah genap setelah %3 tik."
-
-#, fuzzy
-#| msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
-msgid "Win payout if %3 ends strictly between %7 to %6 at %5."
-msgstr "Dapatkan hasil jika %1 berakhir pasti antara %5 hingga %4 pada %3."
-
-#, fuzzy
-#| msgid "Win payout if %1 touches %4 through %3."
-msgid "Win payout if %3 touches %6 through %5."
-msgstr "Dapatkan hasil jika %1 menyentuh %4 melewati %3."
-
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
-msgid "Win payout if the last digit of %3 is strictly lower than %6 after %5 ticks."
-msgstr "Dapatkan hasil jika digit terakhir %1 harus lebih rendah dari %4 setelah %3 tik."
-
-#, fuzzy
-#| msgid "Win payout if %1 is higher than or equal to %4 at %3."
-msgid "Win payout if %3 is higher than or equal to %6 at %5."
-msgstr "Dapatkan hasil jika %1 lebih tinggi atau sama dengan %4 pada %3."
-
-#, fuzzy
-#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is lower than or equal to %6."
-msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tik) lebih rendah atau sama dengan %4."
-
-#, fuzzy
-#| msgid "Win payout if %1 does not touch %4 through %3."
-msgid "Win payout if %3 does not touch %6 through %5."
-msgstr "Dapatkan hasil jika %1 tidak menyentuh %4 melewati %3."
-
-#, fuzzy
-#| msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
-msgid "Win payout if %3 ends on or between %7 to %6 at %5 after %4."
-msgstr "Dapatkan hasil jika %1 berakhir pada atau antara %5 hingga %4 pada %3 setelah %2."
-
-#, fuzzy
-#| msgid "Win payout if %1 ends on or between %5 to %4 at %3."
-msgid "Win payout if %3 ends on or between %7 to %6 at %5."
-msgstr "Dapatkan hasil jika %1 berakhir pada atau antara %5 hingga %4 pada %3."
-
-#, fuzzy
-#| msgid "Win payout if %1 stays between %5 to %4 through %3."
-msgid "Win payout if %3 stays between %7 to %6 through %5."
-msgstr "Dapatkan hasil jika %1 berada tetap antara %5 hingga %4 melalui %3."
-
-#, fuzzy
-#| msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
-msgid "Win payout if %3 stays between %7 and %6 through %5 after %4."
-msgstr "Dapatkan hasil jika %1 berada tetap antara %5 dan %4 melewati %3 setelah %2."
-
-#, fuzzy
-#| msgid "%1 %2 payout if %3 ends on or outside %7 to %6 at %5."
-msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
-msgstr "Hasil %1 %2 jika %3 berakhir pada atau diluar %7 hingga %6 pada %5."
-
-#, fuzzy
-#| msgid "Win payout if %1 is lower than or equal to %4 at %3."
-msgid "Win payout if %3 is lower than or equal to %6 at %5."
-msgstr "Dapatkan hasil jika %1 lebih rendah atau sama dengan %4 pada %3."
-
-#, fuzzy
-#| msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
-msgid "Win payout if the last tick of %3 is strictly lower than the average of the %plural(%5,%d tick,%d ticks)."
-msgstr "Dapatkan hasil jika tik terakhir %1 pasti akan lebih rendah dari rata-rata %plural(%3,%d tik)."
-
-#, fuzzy
-#| msgid "%1 %2 payout if %3 ends on or outside %7 to %6 at %5 after %4."
-msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
-msgstr "Hasil %1 %2 jika %3 berakhir pada atau diluar %7 hingga %6 pada %5 setelah %4."
-
-msgid "Legacy contract. No further information is available."
-msgstr "Kontrak Legasi. Tidak tersedia informasi lebih lanjut."
-
-#, fuzzy
-#| msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
-msgid "Win payout if %3 is strictly lower than %6 at %5 after %4."
-msgstr "Dapatkan hasil jika %1 pasti lebih rendah dari %4 pada %3 setelah %2."
-
-#, fuzzy
-#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
-msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
-msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tik) pasti lebih tinggi dari %4."
-
-#, fuzzy
-#| msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
-msgid "Win payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
-msgstr "Dapatkan hasil jika tik terakhir %1 pasti akan lebih tinggi dari rata-rata %plural(%3,%d tik)."
-
-#, fuzzy
-#| msgid "Win payout if %1 is strictly higher than %4 at %3."
-msgid "Win payout if %3 is strictly higher than %6 at %5."
-msgstr "Dapatkan hasil jika %1 pasti akan lebih tinggi dari %4 pada %3."
-
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
-msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
-msgstr "Dapatkan hasil jika digit terakhir %1 adalah %4 setelah %plural(%3,%d tik)."
-
-#, fuzzy
-#| msgid "Win payout if %1 touches %4 through %3 after %2."
-msgid "Win payout if %3 touches %6 through %5 after %4."
-msgstr "Dapatkan hasil jika %1 menyentuh %4 melewati %3 setelah %2."
-
-#, fuzzy
-#| msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
-msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
-msgstr "Dapatkan hasil jika %1 pasti berakhir antara %5 hingga %4 pada %3 setelah %2."
-
-#, fuzzy
-#| msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
-msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
-msgstr "Dapatkan hasil jika %1 berakhir diluar %5 hingga %4 pada %3 setelah %2."
-
-msgid "contract start time"
-msgstr "waktu mulai kontrak"
 
 msgid "entry spot plus %1"
 msgstr "spot masuk ditambah %1"
 
-msgid "entry spot minus %1"
-msgstr "spot masuk dikurangi %1"
+msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
+msgstr "Dapatkan hasil jika %1 lebih rendah atau sama dengan %4 pada %3 setelah %2."
 
-msgid "Start Time"
-msgstr "Waktu Mulai"
+msgid "Win payout if %1 goes outside %5 to %4 through %3."
+msgstr "Dapatkan hasil jika %1 bergerak diluar %5 hingga %4 melewati %3."
 
-msgid "%1 and %2"
-msgstr "%1 dan %2"
-
-msgid "close on %1"
-msgstr "tutup pada %1"
+msgid "Win payout if %1 is strictly lower than %4 at %3."
+msgstr "Dapatkan hasil jika %1 pasti lebih rendah dari %4 pada %3."
 
 msgid "first tick"
 msgstr "tik pertama"
 
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
+msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tik) lebih tinggi dari atau sama dengan %4."
+
+msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
+msgstr "Menerima selisih antara nilai maksimum %1 selama masa opsi berlangsung dan %4 pada %3 setelah %2."
+
 msgid "entry spot plus %plural(%1,%d pip, %d pips)"
 msgstr "spot masuk ditambah %plural(%1,%d pip)"
 
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgstr "Dapatkan hasil jika %1 pasti akan lebih tinggi dari %4 pada %3 setelah %2."
+
+msgid "Win payout if %1 ends outside %5 to %4 at %3."
+msgstr "Dapatkan hasil jika %1 berakhir diluar %5 hingga %4 pada %3."
+
+msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
+msgstr "Menerima selisih antara nilai akhir %1 dan nilai minimum selama opsi berlangsung pada %3 setelah %2."
+
+msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgstr "Menerima selisih antara jumlah maksimal nilai %1 selama opsi berlangsung dan nilai akhir pada %3 setelah %2."
+
+msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "Dapatkan hasil jika digit terakhir %1 bukan %4 setelah %plural(%3,%d tik)."
+
+msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
+msgstr "Dapatkan hasil jika digit terakhir %1 harus lebih tinggi dari %4 setelah %3 tik."
+
+msgid "Win payout if the last digit of %1 is odd after %3 ticks."
+msgstr "Dapatkan hasil jika digit terakhir dari %1 adalah ganjil setelah %3 tik."
+
+msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgstr "Dapatkan hasil jika digit terakhir %1 adalah genap setelah %3 tik."
+
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
+msgstr "Dapatkan hasil jika %1 berakhir pasti antara %5 hingga %4 pada %3."
+
+msgid "Win payout if %1 touches %4 through %3."
+msgstr "Dapatkan hasil jika %1 menyentuh %4 melewati %3."
+
+msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
+msgstr "Dapatkan hasil jika digit terakhir %1 harus lebih rendah dari %4 setelah %3 tik."
+
+msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+msgstr "Menerima selisih antara %4 dan nilai minimal selama opsi berlangsung pada %3 setelah %2.'"
+
+msgid "Win payout if %1 is higher than or equal to %4 at %3."
+msgstr "Dapatkan hasil jika %1 lebih tinggi atau sama dengan %4 pada %3."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
+msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tik) lebih rendah atau sama dengan %4."
+
+msgid "Win payout if %1 does not touch %4 through %3."
+msgstr "Dapatkan hasil jika %1 tidak menyentuh %4 melewati %3."
+
+msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
+msgstr "Dapatkan hasil jika %1 berakhir pada atau antara %5 hingga %4 pada %3 setelah %2."
+
+msgid "entry spot"
+msgstr "spot masuk"
+
+msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
+msgstr "Menerima selisih nilai maksimum dan minimum %1 selama opsi berlangsung pada %3 setelah %2."
+
+msgid "Win payout if %1 ends on or between %5 to %4 at %3."
+msgstr "Dapatkan hasil jika %1 berakhir pada atau antara %5 hingga %4 pada %3."
+
+msgid "Win payout if %1 stays between %5 to %4 through %3."
+msgstr "Dapatkan hasil jika %1 berada tetap antara %5 hingga %4 melalui %3."
+
+msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
+msgstr "Dapatkan hasil jika %1 berada tetap antara %5 dan %4 melewati %3 setelah %2."
+
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
+msgstr "Dapatkan hasil jika %1 berakhir pada atau diluar %5 hingga %4 pada %3."
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3."
+msgstr "Dapatkan hasil jika %1 lebih rendah atau sama dengan %4 pada %3."
+
+msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Dapatkan hasil jika tik terakhir %1 pasti akan lebih rendah dari rata-rata %plural(%3,%d tik)."
+
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "spot masuk dikurangi %plural(%1,%d pip)"
+
+msgid "Legacy contract. No further information is available."
+msgstr "Kontrak Legasi. Tidak tersedia informasi lebih lanjut."
+
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
+msgstr "Dapatkan hasil jika %1 berakhir pada atau diluar %5 hingga %4 pada %3 setelah %2."
+
+msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
+msgstr "Dapatkan hasil jika %1 pasti lebih rendah dari %4 pada %3 setelah %2."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tik) pasti lebih tinggi dari %4."
+
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Dapatkan hasil jika tik terakhir %1 pasti akan lebih tinggi dari rata-rata %plural(%3,%d tik)."
+
+msgid "Win payout if %1 is strictly higher than %4 at %3."
+msgstr "Dapatkan hasil jika %1 pasti akan lebih tinggi dari %4 pada %3."
+
+msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "Dapatkan hasil jika digit terakhir %1 adalah %4 setelah %plural(%3,%d tik)."
+
+msgid "contract start time"
+msgstr "waktu mulai kontrak"
+
+msgid "entry spot minus %1"
+msgstr "spot masuk dikurangi %1"
+
+msgid "close on %1"
+msgstr "tutup pada %1"
+
+msgid "Win payout if %1 touches %4 through %3 after %2."
+msgstr "Dapatkan hasil jika %1 menyentuh %4 melewati %3 setelah %2."
+
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
+msgstr "Dapatkan hasil jika %1 pasti berakhir antara %5 hingga %4 pada %3 setelah %2."
+
+msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
+msgstr "Dapatkan hasil jika %1 berakhir diluar %5 hingga %4 pada %3 setelah %2."
 
 msgid "Entry Spot"
 msgstr "Spot entri"
@@ -4274,8 +4214,11 @@ msgstr "Spot entri"
 msgid "End Time"
 msgstr "Waktu berakhir"
 
-msgid "entry spot"
-msgstr "spot masuk"
+msgid "Start Time"
+msgstr "Waktu Mulai"
+
+msgid "%1 and %2"
+msgstr "%1 dan %2"
 
 msgid "Exit Spot"
 msgstr "Spot akhir"
@@ -4477,6 +4420,9 @@ msgstr "Trading dihentikan sementara waktu berhubung gangguan data pasar (volati
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Kontrak pada pasar ini dengan durasi kurang dari 24 jam harus berakhir pada hari trading yang sama."
 
+#~ msgid "Binary ICO: cancelled bid"
+#~ msgstr "ICO Binary: membatalkan penawaran"
+
 #~ msgid "Wall Street Index"
 #~ msgstr "Indeks Wall Street"
 
@@ -4500,27 +4446,6 @@ msgstr "Kontrak pada pasar ini dengan durasi kurang dari 24 jam harus berakhir p
 
 #~ msgid "Qantas Airways"
 #~ msgstr "Qantas Airways"
-
-#~ msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
-#~ msgstr "Menerima selisih antara nilai maksimum %1 selama masa opsi berlangsung dan %4 pada %3 setelah %2."
-
-#~ msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
-#~ msgstr "Menerima selisih antara nilai akhir %1 dan nilai minimum selama opsi berlangsung pada %3 setelah %2."
-
-#~ msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
-#~ msgstr "Menerima selisih antara jumlah maksimal nilai %1 selama opsi berlangsung dan nilai akhir pada %3 setelah %2."
-
-#~ msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-#~ msgstr "Menerima selisih antara %4 dan nilai minimal selama opsi berlangsung pada %3 setelah %2.'"
-
-#~ msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
-#~ msgstr "Menerima selisih nilai maksimum dan minimum %1 selama opsi berlangsung pada %3 setelah %2."
-
-#~ msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
-#~ msgstr "Dapatkan hasil jika %1 berakhir pada atau diluar %5 hingga %4 pada %3."
-
-#~ msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
-#~ msgstr "Dapatkan hasil jika %1 berakhir pada atau diluar %5 hingga %4 pada %3 setelah %2."
 
 #~ msgid "Buy"
 #~ msgstr "Beli"
@@ -14426,6 +14351,12 @@ msgstr "Kontrak pada pasar ini dengan durasi kurang dari 24 jam harus berakhir p
 
 #~ msgid "email address"
 #~ msgstr "alamat email"
+
+#~ msgid "%1 %2 payout if %3 ends on or outside %7 to %6 at %5."
+#~ msgstr "Hasil %1 %2 jika %3 berakhir pada atau diluar %7 hingga %6 pada %5."
+
+#~ msgid "%1 %2 payout if %3 ends on or outside %7 to %6 at %5 after %4."
+#~ msgstr "Hasil %1 %2 jika %3 berakhir pada atau diluar %7 hingga %6 pada %5 setelah %4."
 
 #~ msgid "Fall"
 #~ msgstr "Turun"
