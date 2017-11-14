@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chinese (Taiwan) (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-09-08 07:22+0000\n"
+"PO-Revision-Date: 2017-11-14 05:43+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hant/>\n"
 "Language: zh_tw\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.17-dev\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 msgid ""
 "\n"
@@ -112,25 +112,17 @@ msgstr "帳戶需要通過年齡驗證。"
 msgid "Account not activated."
 msgstr "帳戶未啟用。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for %1 account."
 msgid "Account transfers are currently suspended."
-msgstr "%1帳戶不可轉帳。"
+msgstr "目前帳戶不可轉帳。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for accounts with different default currency."
 msgid "Account transfers are not available for accounts with different currencies."
-msgstr "帳戶不可用不同的預設貨幣轉帳。"
+msgstr "帳戶不可用不同貨幣轉帳。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for accounts with different default currency."
 msgid "Account transfers are not available within accounts with cryptocurrency as default currency."
-msgstr "帳戶不可用不同的預設貨幣轉帳。"
+msgstr "以加密貨幣作為預設貨幣的帳戶不可轉帳。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for %1 account."
 msgid "Account transfers are not available within same account."
-msgstr "%1帳戶不可轉帳。"
+msgstr "同一帳戶內不可轉帳。"
 
 msgid "Account type"
 msgstr "帳戶類型"
@@ -182,6 +174,11 @@ msgstr "高和低障礙必須分別大於和小於現貨價。"
 
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "受益人的中間代理銀行的詳細資料:"
+
+#, fuzzy
+#| msgid "Binary option"
+msgid "Binary ICO"
+msgstr "二元期權"
 
 msgid "Binary K.K. Customer Account"
 msgstr "Binary K.K. 客戶帳戶"
@@ -241,12 +238,10 @@ msgid "Create one"
 msgstr "新增一個"
 
 msgid "Currency provided is different from account currency."
-msgstr ""
+msgstr "提供貨幣與帳戶貨幣不相符。"
 
-#, fuzzy
-#| msgid "The provided currency %1 is not applicable for this account."
 msgid "Currency provided is not valid for your account."
-msgstr "所提供的貨幣 %1不可在此帳戶使用。"
+msgstr "所提供的貨幣不可在您的帳戶使用。"
 
 msgid "Current"
 msgstr "目前"
@@ -414,8 +409,6 @@ msgstr ""
 "↵\n"
 "特地在此通知您，我們已收到您的獎金要求。很遺憾，由於以下某個原因，我們無法處理您的要求："
 
-#, fuzzy
-#| msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by clicking the link below:</p><p><a href=\"%1\">%1</a></p><p>If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgid ""
 "Dear Valued Customer,\n"
 "\n"
@@ -427,7 +420,17 @@ msgid ""
 "\n"
 "With regards,\n"
 "Binary.com"
-msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">尊敬的客戶，</p><p>在我們協助您修改密碼之前，請按以下連結，以便我們對您的身份進行驗證：</p><p><a href=\"%1\">%1</a></p><p>如果連結地址無法按，請複製URL並貼到新的瀏覽器視窗。</p><p style=\"color:#333333;font-size:15px;\">此致，<br/>%2</p>"
+msgstr ""
+"尊敬的客戶，\n"
+"\n"
+"在我們協助您修改密碼之前，請按以下連結，以便我們對您的身份進行驗證：\n"
+"\n"
+"%1\n"
+"\n"
+"如果連結地址無法按，請複製URL並貼到新的瀏覽器視窗。\n"
+"\n"
+"此致，\n"
+"Binary.com"
 
 msgid "Deposit"
 msgstr "存款"
@@ -441,15 +444,11 @@ msgstr "存款金額必須大於零。"
 msgid "Deposit confirmation"
 msgstr "存款確認"
 
-#, fuzzy
-#| msgid "%1 is required."
 msgid "Document ID is required."
-msgstr "%1 為必填項。"
+msgstr "文件ID是必要的。"
 
-#, fuzzy
-#| msgid "Page not found"
 msgid "Document not found."
-msgstr "無法找到頁面"
+msgstr "無法找到文件。"
 
 msgid "Documents are required to verify your identity"
 msgstr "需要提交文件才能驗證您的身份"
@@ -502,15 +501,11 @@ msgstr "禁止時間必須在今日之後。"
 msgid "Exclusion time conversion error."
 msgstr "自我禁止時間轉換出錯。"
 
-#, fuzzy
-#| msgid "Expiry time cannot be equal to start time."
 msgid "Expiration date cannot be less than or equal to current date."
-msgstr "到期時間不可與開始時間相同。"
+msgstr "到期日不可早於或與目前日期相同。"
 
-#, fuzzy
-#| msgid "Tax information is required."
 msgid "Expiration date is required."
-msgstr "需要稅務資訊。"
+msgstr "到期日是必要的。"
 
 msgid "Failed attempt to unlock cashier section"
 msgstr "收銀台無法解鎖"
@@ -534,7 +529,7 @@ msgid "For subsequent deposits, please visit the cashier page again to generate 
 msgstr "後續存款時請再次存取收銀台增加新地址。"
 
 msgid "From account provided should be same as current authorized client."
-msgstr ""
+msgstr "帳戶所提供的必需與目前被授權客戶相符。"
 
 msgid "Further instructions must not exceed %1 characters."
 msgstr "詳細說明不能超過 %1 個字元。"
@@ -602,10 +597,8 @@ msgstr "無效的地址。"
 msgid "Invalid amount."
 msgstr "無效金額。"
 
-#, fuzzy
-#| msgid "Payout can not have more than %1 decimal places."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
-msgstr "賠付額的小數點後不可超過%1位數。"
+msgstr "無效金額。提供金額的小數點後不可超過%1位數"
 
 msgid "Invalid amount. Maximum is %1."
 msgstr "無效金額。最大金額是%1。"
@@ -613,8 +606,6 @@ msgstr "無效金額。最大金額是%1。"
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "無效金額。最大允許取款限額是%1。"
 
-#, fuzzy
-#| msgid "Invalid amount. minimum is %1, maximum is %2."
 msgid "Invalid amount. Minimum is %1, maximum is %2."
 msgstr "無效金額。最小金額是%1，最大金額是%2。"
 
@@ -624,10 +615,8 @@ msgstr "無效金額。最小金額是%1。"
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "無效金額。最小允許取款限額是%1。"
 
-#, fuzzy
-#| msgid "Invalid date of birth."
 msgid "Invalid date format."
-msgstr "出生日期無效。"
+msgstr "無效的日期格式。"
 
 msgid "Invalid login attempt. Please log in with a social network instead."
 msgstr "登入失敗。請嘗試通過社交網站登入。"
@@ -741,7 +730,7 @@ msgid "Maximum aggregate loss per day."
 msgstr "每日最大累計損失量。"
 
 msgid "Maximum file size reached. Maximum allowed is %1"
-msgstr ""
+msgstr "文件大小已達最大限額。允許最大限額為%1"
 
 msgid "Maximum number of open positions"
 msgstr "最大未平倉頭寸數目"
@@ -788,10 +777,8 @@ msgstr "無"
 msgid "No further trading is allowed for the current trading session."
 msgstr "目前交易時段不允許進一步交易。"
 
-#, fuzzy
-#| msgid "This contract is unavailable on this account."
 msgid "No information is available for this contract."
-msgstr "此帳戶不可交易該合約。"
+msgstr "此合約無可用資訊。"
 
 msgid "Not Found"
 msgstr "無法找到"
@@ -869,43 +856,29 @@ msgstr "未輸入密碼。"
 msgid "Password should be at least six characters, including lower and uppercase letters with numbers."
 msgstr "密碼至少須有六個大小寫字母和數字。"
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent facilities are not available for this account."
-msgstr "您的帳戶無可用支付代理。"
+msgstr "此帳戶無可用支付代理設施。"
 
 msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr ""
+msgstr "不允許付款代理處理指定金額，因帳戶%1餘額將超出允許的限額。"
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent transfers are available for %1 currency only."
-msgstr "您的帳戶無可用支付代理。"
+msgstr "支付代理僅可用%1貨幣轉帳。"
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent transfers are not allowed for specified accounts."
-msgstr "您的帳戶無可用支付代理。"
+msgstr "指定帳戶不允許支付代理轉帳。"
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent transfers are not allowed for the specified accounts."
-msgstr "您的帳戶無可用支付代理。"
+msgstr "指定帳戶不允許支付代理轉帳。"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for %1 account."
 msgid "Payment agent transfers are not allowed within the same account."
-msgstr "%1帳戶不可轉帳。"
+msgstr "同一帳戶內不允許支付代理轉帳。"
 
-#, fuzzy
-#| msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
-msgstr "對不起，您已超過今日允許的最大交易數。"
+msgstr "您已超過今日允許的最大交易數，不允許支付代理轉帳。"
 
-#, fuzzy
-#| msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
-msgstr "對不起，您已超過今日允許的最大轉帳金額。"
+msgstr "您已超過今日允許的最大轉帳金額，不允許支付代理轉帳。"
 
 msgid "Payment error"
 msgstr "支付出錯"
@@ -958,20 +931,14 @@ msgstr "請完成財務評估。"
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
 msgstr "請完成財務評估表格，以便提升取款和交易限額。"
 
-#, fuzzy
-#| msgid "Please authenticate your account."
 msgid "Please deposit to your account."
-msgstr "請驗證您的帳戶。"
+msgstr "請存款入帳戶。"
 
-#, fuzzy
-#| msgid "Please enter a number between 0 and %1"
 msgid "Please enter a number between %1 and %2"
-msgstr "請輸入0和%1之間的數字"
+msgstr "請輸入%1和%2之間的數字"
 
-#, fuzzy
-#| msgid "Please enter a number between 0 and %1"
 msgid "Please enter a number between %1 and %2."
-msgstr "請輸入0和%1之間的數字"
+msgstr "請輸入%1和%2之間的數字。"
 
 msgid "Please enter a numeric value."
 msgstr "請輸入數字值。"
@@ -1033,15 +1000,11 @@ msgstr "請提供開立帳戶的完整資料。"
 msgid "Please provide some information about yourself and your proposed services"
 msgstr "請提供關於您本人和服務的一些資訊"
 
-#, fuzzy
-#| msgid "Please enter a valid amount."
 msgid "Please provide valid amount."
-msgstr "請輸入有效金額。"
+msgstr "請提供有效金額。"
 
-#, fuzzy
-#| msgid "Please provide a valid email address."
 msgid "Please provide valid currency."
-msgstr "請提供有效的電郵地址。"
+msgstr "請提供有效的貨幣。"
 
 msgid "Please select"
 msgstr "請選擇"
@@ -1052,10 +1015,8 @@ msgstr "請選擇有效的支付方法。"
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "請設定您當前帳戶%1的貨幣以建立更多帳戶。"
 
-#, fuzzy
-#| msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgid "Please set the currency for your existing account %1."
-msgstr "請設定您當前帳戶%1的貨幣以建立更多帳戶。"
+msgstr "請設定您當前帳戶%1的貨幣。"
 
 msgid "Please set the currency."
 msgstr "請設定貨幣。"
@@ -1090,10 +1051,8 @@ msgstr "英國居民需提供郵遞區號。"
 msgid "Provided amount is not within permissible limits."
 msgstr "輸入的數目已超出允許範圍。"
 
-#, fuzzy
-#| msgid "Provided amount is not within permissible limits."
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
-msgstr "輸入的數目已超出允許範圍。"
+msgstr "輸入的數目已超出允許範圍。提供貨幣的最小轉帳金額是%1。"
 
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
 msgstr "購買此合約，您將超出我們對於此類未平倉合約的賠付額限制。請先賣出一些未平倉合約或改換合約類型，再繼續交易。"
@@ -1113,10 +1072,8 @@ msgstr "樂天銀行"
 msgid "Read user profile"
 msgstr "閱讀使用者個人資料"
 
-#, fuzzy
-#| msgid "Realtime quotes not available for %1"
 msgid "Realtime quotes not available for %1."
-msgstr "即時報價不可用於%1"
+msgstr "即時報價不可用於%1。"
 
 msgid "Receive news and special offers"
 msgstr "收取新消息和特別優惠"
@@ -1124,10 +1081,8 @@ msgstr "收取新消息和特別優惠"
 msgid "Reload page"
 msgstr "重新載入頁面"
 
-#, fuzzy
-#| msgid "letters"
 msgid "Remitter"
-msgstr "字母"
+msgstr "匯款人"
 
 msgid "Request timed out"
 msgstr "請求已到期"
@@ -1135,10 +1090,8 @@ msgstr "請求已到期"
 msgid "Request too frequent. Please try again later."
 msgstr "請求過於頻繁。請稍後重試。"
 
-#, fuzzy
-#| msgid "Market Professionals"
 msgid "Requested professional status"
-msgstr "市場專業人士"
+msgstr "請求的專業狀態"
 
 msgid "Review Permissions"
 msgstr "評估權限"
@@ -1170,15 +1123,11 @@ msgstr "對不起，在處理您的帳戶時出錯。"
 msgid "Sorry, an error occurred while processing your request."
 msgstr "對不起，在處理您的請求時發生錯誤。"
 
-#, fuzzy
-#| msgid "Sorry, an error occurred while processing your request."
 msgid "Sorry, an error occurred whilst processing your request."
 msgstr "對不起，在處理您的請求時發生錯誤。"
 
-#, fuzzy
-#| msgid "An error occurred while processing request. Please try again in one minute."
 msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
-msgstr "處理請求時出現錯誤。請一分鐘後重試。"
+msgstr "對不起，處理請求時出現錯誤。請一分鐘後重試。"
 
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "對不起，出現錯誤。請重新嘗試存取我們的收銀台。"
@@ -1216,10 +1165,8 @@ msgstr "對不起，我們的支付處理器在驗證您的個人資訊時出現
 msgid "Sorry, there was a problem validating your personal information with our payment processor. Please verify that your date of birth was input correctly in your account settings."
 msgstr "對不起，我們的支付處理器在驗證您的個人資訊時出現了問題。請確認在帳戶設定時輸入正確的出生日期。"
 
-#, fuzzy
-#| msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgid "Sorry, this facility is temporarily disabled due to system maintenance."
-msgstr "對不起，由於系統維護，收銀台暫停使用。"
+msgstr "對不起，由於系統維護，此設施暫停使用。"
 
 msgid "Sorry, this feature is available to virtual accounts only"
 msgstr "對不起，此功能僅適用虛擬帳戶"
@@ -1233,10 +1180,8 @@ msgstr "對不起，您的年齡太小，不能開戶。"
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please visit the statement page to automatically sell your expired contracts."
 msgstr "對不起，在指定時間內您不可持有超過%1 的合約。請存取報表頁面自動賣出您的到期合約。"
 
-#, fuzzy
-#| msgid "Sorry, your account does not allow passwords because you use social media to log in."
 msgid "Sorry, you cannot reset your password because you logged in using a social network."
-msgstr "對不起，由於您使用社交媒體登入，您的帳戶不允許輸入密碼。"
+msgstr "對不起，由於您使用社交網絡登入，無法重設密碼。"
 
 msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
 msgstr "對不起，您不能提款。您的帳戶餘額為%1 %2。"
@@ -1304,10 +1249,8 @@ msgstr "無效的支持銀行清單"
 msgid "Swift code"
 msgstr "銀行國際代碼"
 
-#, fuzzy
-#| msgid "Symbol %1 invalid"
 msgid "Symbol %1 invalid."
-msgstr "%1符號無效"
+msgstr "%1符號無效。"
 
 msgid "Tax identification number"
 msgstr "稅務識別號"
@@ -1363,20 +1306,14 @@ msgstr "您的帳戶%1密碼已更改。此要求源自IP地址%2。如您並沒
 msgid "The password for your account %1 has been reset. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "您的帳戶%1密碼已重設。如您並沒執行此項要求，請立刻聯繫客服部。"
 
-#, fuzzy
-#| msgid "Sorry, the Payment Agent does not exist."
 msgid "The payment agent account does not exist."
-msgstr "對不起，付款代理不存在。"
+msgstr "付款代理帳戶不存在。"
 
-#, fuzzy
-#| msgid "The Payment Agent facility is currently not available in your country."
 msgid "The payment agent facility is currently not available in your country."
 msgstr "目前您的國家無可用付款代理設施。"
 
-#, fuzzy
-#| msgid "The Payment Agent facility is currently not available in your country."
 msgid "The payment agent facility is not available for this account."
-msgstr "目前您的國家無可用付款代理設施。"
+msgstr "此帳戶無可用付款代理設施。"
 
 msgid "The provided currency %1 is invalid."
 msgstr "所提供的貨幣 %1無效。"
@@ -1391,7 +1328,7 @@ msgid "The symbol is invalid."
 msgstr "此符號無效。"
 
 msgid "The system is currently under heavy load, and this call has been suspended temporarily. Please try again in a few minutes."
-msgstr ""
+msgstr "系統當前超載，此請求目前暫時吊銷。請數分鐘後重試。"
 
 msgid "The token is invalid."
 msgstr "權杖無效。"
@@ -1435,10 +1372,8 @@ msgstr "此合約只限於 "
 msgid "This contract is unavailable on this account."
 msgstr "此帳戶不可交易該合約。"
 
-#, fuzzy
-#| msgid "This contract is unavailable on this account."
 msgid "This contract type is not available for this acccount"
-msgstr "此帳戶不可交易該合約。"
+msgstr "此合約類型不可用於此帳戶"
 
 msgid "This contract was not found among your open positions."
 msgstr "在您的未平倉頭寸中未找到該合約。"
@@ -1446,21 +1381,17 @@ msgstr "在您的未平倉頭寸中未找到該合約。"
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "此合同價格為%1%2。向%3購入之合同購入價必須高於%1%4。請相應增加合同金額以達到此最低交易金額。"
 
-#, fuzzy
-#| msgid "Your email address is unverified."
 msgid "This email address is invalid."
-msgstr "您的電子郵件地址未經驗證。"
+msgstr "此電子郵件地址無效。"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "這是虛擬帳戶。要存取收銀台請轉換到真實資金帳戶。"
 
-#, fuzzy
-#| msgid "An error occurred while processing your payment agent transfer."
 msgid "This is an ICO-only account which does not support payment agent transfers."
-msgstr "處理付款代理轉帳時出錯。"
+msgstr "此為ICO專用帳戶，不支持付款代理轉帳。"
 
 msgid "This is an ICO-only account which does not support transfers."
-msgstr ""
+msgstr "此帳戶僅供ICO用途，不支持轉帳。"
 
 msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
 msgstr "這是自動消息，提醒您下列情況：您帳戶%1的收銀台/設定部份已被來自IP地址%2進行了更改。如您並沒執行該項更新，請登入您的帳戶並對設定進行更新。"
@@ -1468,10 +1399,8 @@ msgstr "這是自動消息，提醒您下列情況：您帳戶%1的收銀台/設
 msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
 msgstr "這是自動消息，提醒您下列情況：有一個來自IP 地址%2 的失敗嘗試，試圖解除您帳戶%1的收銀台/設定部份的鎖定"
 
-#, fuzzy
-#| msgid "This feature is not relevant to virtual-money accounts."
 msgid "This is not supported on an ICO-only account."
-msgstr "此功能不適用於虛擬資金帳戶。"
+msgstr "ICO專用帳戶不支持此功能。"
 
 msgid "This market is presently closed."
 msgstr "此市場目前已收市。"
@@ -1512,10 +1441,8 @@ msgstr "交易 ID: %1"
 msgid "Transactions"
 msgstr "交易"
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Transfers between accounts are not available for your account."
-msgstr "您的帳戶無可用支付代理。"
+msgstr "您的帳戶不可進行帳戶間轉帳。"
 
 msgid "URL should not have fragment"
 msgstr "網址不可含分割資訊"
@@ -1547,10 +1474,8 @@ msgstr "未知網域名稱"
 msgid "Unknown landing company."
 msgstr "未知著陸公司。"
 
-#, fuzzy
-#| msgid "View payment methods"
 msgid "Unknown payment method."
-msgstr "檢視支付方式"
+msgstr "不明支付方式。"
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "不支持的投注類型$bet_params->{bet_class}"
@@ -1574,7 +1499,7 @@ msgid "Verify your withdrawal request - %1"
 msgstr "驗證您的提款要求 - %1"
 
 msgid "Virtual accounts don't require document uploads."
-msgstr ""
+msgstr "虛擬帳戶不需要上載文件。"
 
 msgid "Virtual money credit to account"
 msgstr "虛擬資金已經到帳"
@@ -1625,16 +1550,12 @@ msgstr ""
 "我們特此通知您，您的%1 %2取款要求已經處理。\n"
 "交易編號%3待確認。"
 
-#, fuzzy
-#| msgid ""
-#| "We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
-#| "Transaction number %3 is confirmed."
 msgid ""
 "We would like to inform you that your withdrawal request of %1 %2 has been rejected.\n"
 "Your account is refunded."
 msgstr ""
-"我們特此通知您，您的%1 %2取款要求已經處理。\n"
-"交易編號%3已確認。"
+"我們特此通知您，您的%1 %2取款要求已經被拒。\n"
+"帳戶已退款。"
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "對不起，自我禁止工具對於虛擬帳戶不可用。"
@@ -1684,102 +1605,68 @@ msgstr "您已訂閱未平倉合約提案。"
 msgid "You are already subscribed to transaction updates."
 msgstr "您已訂閱交易更新。"
 
-#, fuzzy
-#| msgid "You are not authorized for withdrawal via payment agent."
 msgid "You are not authorized for transfers via payment agents."
-msgstr "您未經授權通過付款代理取款。"
+msgstr "您未經授權通過付款代理轉帳。"
 
-#, fuzzy
-#| msgid "You are not authorized for withdrawal via payment agent."
 msgid "You are not authorized for withdrawals via payment agents."
 msgstr "您未經授權通過付款代理取款。"
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已禁用。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已被標記為不受歡迎。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能在帳戶%1取款，因為付款代理的收銀台已被鎖。"
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for payment agent %2"
 msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
-msgstr "對不起，%1 不是付款代理 %2的預設貨幣"
+msgstr "您不能執行此操作，因為%1 不是付款代理帳戶 %2的預設貨幣。"
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for client %2"
 msgid "You cannot perform this action, as %1 is not default currency for your account %2."
-msgstr "對不起，%1 不是客戶 %2的預設貨幣"
+msgstr "您不能執行此操作，因為%1 不是您的帳戶 %2的預設貨幣。"
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for client %2"
 msgid "You cannot perform this action, as %1 is not the default account currency for client %2."
-msgstr "對不起，%1 不是客戶 %2的預設貨幣"
+msgstr "您無法執行此操作，因為%1 不是客戶 %2的預設帳戶貨幣。"
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for payment agent %2"
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
-msgstr "對不起，%1 不是付款代理 %2的預設貨幣"
+msgstr "您不能執行此操作，因為%1 不是付款代理 %2的預設帳戶貨幣。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account %1 is currently disabled."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能執行此操作，因為您的帳戶%1目前已禁用。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能執行此操作，因為您的帳戶%1已被標記為不受歡迎。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account is cashier locked."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能執行此操作，因為您的帳戶收銀台已被鎖。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account is currently disabled."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能執行此操作，因為您的帳戶目前已禁用。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account is withdrawal locked."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能執行此操作，因為您的帳戶取款功能已被鎖。"
 
 msgid "You cannot perform this action, as your verification documents have expired."
-msgstr ""
+msgstr "無法繼續操作，因驗證文件已過期。"
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
-msgstr ""
+msgstr "%1帳戶無法提款，因付款代理的驗證文件已過期。"
 
 msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能轉帳至帳戶%1，因為該帳戶已被標記為不受歡迎。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot transfer to account %1, as their cashier is locked."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能轉帳至帳戶%1，因為其收銀台已被鎖。"
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot transfer to account %1, as their verification documents have expired."
-msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
+msgstr "您不能轉帳至帳戶%1，因為其驗證文件已過期。"
 
 msgid "You have already claimed a bonus in the past."
 msgstr "您此前已領取獎金。"
@@ -1790,10 +1677,8 @@ msgstr "您已開立所有可用帳戶。"
 msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "您已超出此類合約的每日限額。"
 
-#, fuzzy
-#| msgid "You have exceeded the daily limit for contracts of this type."
 msgid "You have exceeded the open position limit for contracts of this type."
-msgstr "您已超出此類合約的每日限額。"
+msgstr "您已超出此類合約的開倉限額。"
 
 msgid "You have exceeded your 30-day limit on losses of %1%2."
 msgstr "您已超出 %1%2的30天期損失限額。"
@@ -1825,10 +1710,8 @@ msgstr "您必須使用指定的銀行帳戶將款項匯入您的%1交易帳戶�
 msgid "You will be automatically logged out after such time."
 msgstr "在該時間後您將自動退出登入。"
 
-#, fuzzy
-#| msgid "Your cashier is locked as per your request."
 msgid "Your %1 cashier is locked as per your request."
-msgstr "您的收銀台已依照您的請求被鎖定。"
+msgstr "您的%1收銀台已依照您的請求被鎖定。"
 
 msgid "Your Details"
 msgstr "您的詳細資料"
@@ -1864,7 +1747,7 @@ msgid "Your account is restricted to withdrawals only."
 msgstr "您的帳戶只限於取款。"
 
 msgid "Your account needs to be authenticated to perform payment agent transfers."
-msgstr ""
+msgstr "帳戶需通過驗證才能進行付款代理轉帳。"
 
 msgid "Your app_id is invalid."
 msgstr "您的app_id無效。"
@@ -1876,7 +1759,7 @@ msgid "Your bonus request - %1"
 msgstr "您的獎勵請求- %1"
 
 msgid "Your cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr ""
+msgstr "無法繼續操作，因%1帳戶收銀台已按請求鎖上。"
 
 msgid "Your cashier is locked as per your request."
 msgstr "您的收銀台已依照您的請求被鎖定。"
@@ -2001,31 +1884,23 @@ msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "{JAPAN ONLY}footer text of email template for Japan"
 
-#, fuzzy
-#| msgid "ETH/GBP"
 msgid "ETH/BRL"
-msgstr "以太幣/英鎊"
+msgstr "以太幣/巴西雷亞爾"
 
 msgid "BTC/MXN"
 msgstr "比特幣/墨西哥披索"
 
-#, fuzzy
-#| msgid "LTC/SEK"
 msgid "LTC/SAR"
-msgstr "萊特幣/瑞典克朗"
+msgstr "萊特幣/沙烏地阿拉伯里亞爾"
 
 msgid "ETC/GBP"
 msgstr "以太幣/英鎊"
 
-#, fuzzy
-#| msgid "LTC/AUD"
 msgid "LTC/AED"
-msgstr "萊特幣/澳元"
+msgstr "萊特幣/阿聯酋迪拉姆"
 
-#, fuzzy
-#| msgid "GBP/TRY"
 msgid "BCH/TRY"
-msgstr "英鎊/土耳其里拉"
+msgstr "比特幣現金/土耳其里拉"
 
 msgid "USDZAR"
 msgstr "美元兌南非蘭特"
@@ -2051,10 +1926,8 @@ msgstr "以太幣/美元"
 msgid "GBP/AED"
 msgstr "英鎊/阿聯酋迪拉姆"
 
-#, fuzzy
-#| msgid "LTC/CAD"
 msgid "LTC/XAG"
-msgstr "萊特幣/加元"
+msgstr "萊特幣/白銀(盎司)"
 
 msgid "EUR/CHF"
 msgstr "歐元/瑞士法郎"
@@ -2069,39 +1942,29 @@ msgstr "以太幣/瑞典克朗"
 msgid "CAD/JPY"
 msgstr "加元/日圓"
 
-#, fuzzy
-#| msgid "ETC/SEK"
 msgid "ETC/SAR"
-msgstr "以太幣/瑞典克朗"
+msgstr "以太幣/沙地阿拉伯利雅"
 
 msgid "GBP/USD"
 msgstr "英鎊/美元"
 
-#, fuzzy
-#| msgid "LTC/EUR"
 msgid "LTC/TRY"
-msgstr "萊特幣/歐元"
+msgstr "萊特幣/土耳其里拉"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/IDR"
-msgstr "以太幣/美元"
+msgstr "以太幣/印度尼西亞盧比"
 
 msgid "BTC/USD"
 msgstr "比特幣/美元"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/KWD"
-msgstr "以太幣/美元"
+msgstr "以太幣/科威特第納爾"
 
 msgid "AUD/AED"
 msgstr "澳元/阿聯酋迪拉姆"
 
-#, fuzzy
-#| msgid "GBP/SGD"
 msgid "BCH/SGD"
-msgstr "英鎊/新加坡元"
+msgstr "比特幣現金/新加坡元"
 
 msgid "EUR/INR"
 msgstr "歐元/印度盧比"
@@ -2109,26 +1972,20 @@ msgstr "歐元/印度盧比"
 msgid "USD/JPY"
 msgstr "美元/日圓"
 
-#, fuzzy
-#| msgid "ETC/CHF"
 msgid "ETC/CNY"
-msgstr "以太幣/瑞士法郎"
+msgstr "以太幣/人民幣"
 
 msgid "USD/SGD"
 msgstr "美元/新加坡元"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/BRL"
-msgstr "以太幣/英鎊"
+msgstr "以太幣/巴西雷亞爾"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/XPD"
-msgstr "以太幣/澳元"
+msgstr "以太幣/鈀(盎司)"
 
 msgid "BCH/EGP"
-msgstr ""
+msgstr "比特幣現金/埃及鎊"
 
 msgid "EUR/AUD"
 msgstr "歐元/澳元"
@@ -2136,38 +1993,26 @@ msgstr "歐元/澳元"
 msgid "GBP/MXN"
 msgstr "英鎊/墨西哥披索"
 
-#, fuzzy
-#| msgid "GBP/AED"
 msgid "BCH/AED"
-msgstr "英鎊/阿聯酋迪拉姆"
+msgstr "比特幣現金/阿聯酋迪拉姆"
 
 msgid "AUDZAR"
 msgstr "澳元兌南非蘭特"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/BRO"
-msgstr "比特幣/歐元"
+msgstr "比特幣/音樂幣"
 
-#, fuzzy
-#| msgid "GBP/CZK"
 msgid "BCH/CZK"
-msgstr "英鎊/捷克克朗"
+msgstr "比特幣現金/捷克克朗"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/IDR"
-msgstr "以太幣/澳元"
+msgstr "以太幣/印度尼西亞盧比"
 
-#, fuzzy
-#| msgid "ETH/SEK"
 msgid "ETH/SAR"
-msgstr "以太幣/瑞典克朗"
+msgstr "以太幣/沙烏地阿拉伯里亞爾"
 
-#, fuzzy
-#| msgid "ETH/CHF"
 msgid "ETH/CNY"
-msgstr "以太幣/瑞士法郎"
+msgstr "以太幣/人民幣"
 
 msgid "EUR/SEK"
 msgstr "歐元/瑞典克朗"
@@ -2175,18 +2020,14 @@ msgstr "歐元/瑞典克朗"
 msgid "USD/AED"
 msgstr "美元/阿聯酋迪拉姆"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/XPD"
-msgstr "比特幣/墨西哥披索"
+msgstr "比特幣/鈀(盎司)"
 
 msgid "USD/NOK"
 msgstr "美元/挪威克朗"
 
-#, fuzzy
-#| msgid "BTC/SEK"
 msgid "BTC/SAR"
-msgstr "比特幣/瑞典克朗"
+msgstr "比特幣/沙烏地阿拉伯里亞爾"
 
 msgid "ETH/AUD"
 msgstr "以太幣/澳元"
@@ -2197,10 +2038,8 @@ msgstr "以太幣/瑞士法郎"
 msgid "ETH/CHF"
 msgstr "以太幣/瑞士法郎"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/XPT"
-msgstr "比特幣/墨西哥披索"
+msgstr "比特幣/鈀(盎司)"
 
 msgid "ETC/NOK"
 msgstr "以太幣/挪威克朗"
@@ -2214,10 +2053,8 @@ msgstr "比特幣/加元"
 msgid "LTC/SEK"
 msgstr "萊特幣/瑞典克朗"
 
-#, fuzzy
-#| msgid "ETH/CHF"
 msgid "ETH/CZK"
-msgstr "以太幣/瑞士法郎"
+msgstr "以太幣/捷克克朗"
 
 msgid "LTC/NOK"
 msgstr "萊特幣/挪威克朗"
@@ -2225,10 +2062,8 @@ msgstr "萊特幣/挪威克朗"
 msgid "AUD/NZD"
 msgstr "澳元/紐西蘭元"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/XAG"
-msgstr "以太幣/澳元"
+msgstr "以太幣/白銀(盎司)"
 
 msgid "GBP/SEK"
 msgstr "英鎊/瑞典克朗"
@@ -2239,10 +2074,8 @@ msgstr "澳元/墨西哥比索"
 msgid "ETH/NOK"
 msgstr "以太幣/挪威克朗"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/KWD"
-msgstr "以太幣/澳元"
+msgstr "以太幣/科威特第納爾"
 
 msgid "AUD/HKD"
 msgstr "澳元/港幣"
@@ -2251,22 +2084,16 @@ msgid "AUD/IDR"
 msgstr "澳元/印度尼西亞盧比"
 
 msgid "BCH/KWD"
-msgstr ""
+msgstr "比特幣現金/科威特第納爾"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BCH/EUR"
-msgstr "比特幣/歐元"
+msgstr "比特幣現金/歐元"
 
-#, fuzzy
-#| msgid "ETH/USD"
 msgid "ETH/SGD"
-msgstr "以太幣/美元"
+msgstr "以太幣/新加坡元"
 
-#, fuzzy
-#| msgid "BTC/PLN"
 msgid "BCH/PLN"
-msgstr "比特幣/波蘭茲羅提"
+msgstr "比特幣現金/波蘭茲羅提"
 
 msgid "EUR/IDR"
 msgstr "歐元/印度尼西亞盧比"
@@ -2274,28 +2101,20 @@ msgstr "歐元/印度尼西亞盧比"
 msgid "GBP/NOK"
 msgstr "英鎊/挪威克朗"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/XAG"
-msgstr "比特幣/墨西哥披索"
+msgstr "比特幣/白銀(盎司)"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/INR"
-msgstr "比特幣/墨西哥披索"
+msgstr "比特幣/印度盧比"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/KRW"
-msgstr "比特幣/歐元"
+msgstr "比特幣/韓元"
 
 msgid "AUD Index"
 msgstr "澳元指數"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BTC/HKD"
-msgstr "比特幣/美元"
+msgstr "比特幣/港元"
 
 msgid "USD/CAD"
 msgstr "美元/加元"
@@ -2303,10 +2122,8 @@ msgstr "美元/加元"
 msgid "GBP/JPY"
 msgstr "英鎊/日圓"
 
-#, fuzzy
-#| msgid "ETC/SEK"
 msgid "ETC/KRW"
-msgstr "以太幣/瑞典克朗"
+msgstr "以太幣/韓元"
 
 msgid "BTC/CHF"
 msgstr "比特幣/瑞士法郎"
@@ -2323,10 +2140,8 @@ msgstr "英鎊/紐西蘭元"
 msgid "ETH/USD"
 msgstr "以太幣/美元"
 
-#, fuzzy
-#| msgid "LTC/SEK"
 msgid "LTC/KRW"
-msgstr "萊特幣/瑞典克朗"
+msgstr "萊特幣/韓元"
 
 msgid "BTC/NZD"
 msgstr "比特幣/紐元"
@@ -2334,33 +2149,23 @@ msgstr "比特幣/紐元"
 msgid "NZD/JPY"
 msgstr "紐元/日圓"
 
-#, fuzzy
-#| msgid "LTC/CHF"
 msgid "LTC/CNY"
-msgstr "萊特幣/瑞士法郎"
+msgstr "萊特幣/人民幣"
 
-#, fuzzy
-#| msgid "GBP/KRW"
 msgid "BCH/KRW"
-msgstr "英鎊/韓元"
+msgstr "比特幣現金/韓元"
 
-#, fuzzy
-#| msgid "BTC/NOK"
 msgid "BCH/NOK"
-msgstr "比特幣/挪威克朗"
+msgstr "比特幣現金/挪威克朗"
 
 msgid "AUD/SEK"
 msgstr "澳元/瑞典克朗"
 
-#, fuzzy
-#| msgid "ETC/AUD"
 msgid "ETC/XAU"
-msgstr "以太幣/澳元"
+msgstr "以太幣/黃金(盎司)"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/IDR"
-msgstr "萊特幣/紐元"
+msgstr "萊特幣/印度尼西亞盧比"
 
 msgid "GBP/AUD"
 msgstr "英鎊/澳元"
@@ -2368,10 +2173,8 @@ msgstr "英鎊/澳元"
 msgid "GBP/IDR"
 msgstr "英鎊/印度尼西亞盧比"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/XPD"
-msgstr "萊特幣/紐元"
+msgstr "萊特幣/鈀(盎司)"
 
 msgid "BTC/GBP"
 msgstr "比特幣/英鎊"
@@ -2385,20 +2188,14 @@ msgstr "以太幣/墨西哥披索"
 msgid "USD/IDR"
 msgstr "美元/印度尼西亞盧比"
 
-#, fuzzy
-#| msgid "ETC/AUD"
 msgid "ETC/ZAR"
-msgstr "以太幣/澳元"
+msgstr "以太幣/南非蘭特"
 
-#, fuzzy
-#| msgid "EUR/TRY"
 msgid "ETC/TRY"
-msgstr "歐元/土耳其里拉"
+msgstr "以太幣/土耳其里拉"
 
-#, fuzzy
-#| msgid "EUR/INR"
 msgid "ETC/INR"
-msgstr "歐元/印度盧比"
+msgstr "以太幣/印度盧比"
 
 msgid "AUD/INR"
 msgstr "澳元/印度盧比"
@@ -2416,112 +2213,80 @@ msgstr "歐元/土耳其里拉"
 msgid "AUD/PLN"
 msgstr "澳元/波蘭兹羅提"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/INR"
-msgstr "萊特幣/紐元"
+msgstr "萊特幣/印度盧比"
 
 msgid "LTC/CHF"
 msgstr "萊特幣/瑞士法郎"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/EGP"
-msgstr "以太幣/英鎊"
+msgstr "以太幣/埃及磅"
 
-#, fuzzy
-#| msgid "EUR/INR"
 msgid "ETH/INR"
-msgstr "歐元/印度盧比"
+msgstr "以太幣/印度盧比"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/HKD"
-msgstr "以太幣/美元"
+msgstr "以太幣/港元"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/ZAR"
-msgstr "比特幣/歐元"
+msgstr "比特幣/南非蘭特"
 
-#, fuzzy
-#| msgid "BTC/GBP"
 msgid "BTC/EGP"
-msgstr "比特幣/英鎊"
+msgstr "比特幣/埃及磅"
 
 msgid "EUR/NOK"
 msgstr "歐元/挪威克朗"
 
 msgid "BCH/BRO"
-msgstr ""
+msgstr "比特幣現金/音樂幣"
 
 msgid "BTC/AUD"
 msgstr "比特幣/澳元"
 
-#, fuzzy
-#| msgid "GBP/SAR"
 msgid "BCH/SAR"
-msgstr "英鎊/沙特阿拉伯里亞爾"
+msgstr "比特幣現金/沙烏地阿拉伯里亞爾"
 
 msgid "GBP/INR"
 msgstr "英鎊/印度盧比"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/BRO"
-msgstr "以太幣/英鎊"
+msgstr "以太幣/音樂幣"
 
-#, fuzzy
-#| msgid "ETC/AUD"
 msgid "ETC/AED"
-msgstr "以太幣/澳元"
+msgstr "以太幣/阿聯酋迪拉姆"
 
 msgid "EUR/PLN"
 msgstr "歐元/波蘭茲羅提"
 
-#, fuzzy
-#| msgid "BTC/NZD"
 msgid "BCH/NZD"
-msgstr "比特幣/紐元"
+msgstr "比特幣現金/紐元"
 
-#, fuzzy
-#| msgid "LTC/GBP"
 msgid "LTC/EGP"
-msgstr "萊特幣/英鎊"
+msgstr "萊特幣/埃及磅"
 
 msgid "ETC/AUD"
 msgstr "以太幣/澳元"
 
-#, fuzzy
-#| msgid "LTC/EUR"
 msgid "LTC/RUB"
-msgstr "萊特幣/歐元"
+msgstr "萊特幣/俄羅斯盧布"
 
-#, fuzzy
-#| msgid "BTC/CAD"
 msgid "BTC/CNY"
-msgstr "比特幣/加元"
+msgstr "比特幣/人民幣"
 
 msgid "NZDCHF"
 msgstr "紐元/瑞士法郎"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/RUB"
-msgstr "以太幣/英鎊"
+msgstr "以太幣/俄羅斯盧布"
 
-#, fuzzy
-#| msgid "LTC/EUR"
 msgid "LTC/BRL"
-msgstr "萊特幣/歐元"
+msgstr "萊特幣/巴西雷亞爾"
 
 msgid "EUR/SGD"
 msgstr "歐元/新加坡元"
 
-#, fuzzy
-#| msgid "BTC/AUD"
 msgid "BCH/AUD"
-msgstr "比特幣/澳元"
+msgstr "比特幣現金/澳元"
 
 msgid "LTC/EUR"
 msgstr "萊特幣/歐元"
@@ -2535,73 +2300,53 @@ msgstr "以太幣/波蘭茲羅提"
 msgid "LTC/PLN"
 msgstr "萊特幣/波蘭茲羅提"
 
-#, fuzzy
-#| msgid "LTC/AUD"
 msgid "LTC/XAU"
-msgstr "萊特幣/澳元"
+msgstr "萊特幣/黃金(盎司)"
 
 msgid "EUR/USD"
 msgstr "歐元/美元"
 
 msgid "BCH/XAU"
-msgstr ""
+msgstr "比特幣現金/黃金盎司"
 
 msgid "AUD/SGD"
 msgstr "澳元/新加坡元"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BCH/USD"
-msgstr "比特幣/美元"
+msgstr "比特幣現金/美元"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/TRY"
-msgstr "比特幣/歐元"
+msgstr "比特幣/土耳其里拉"
 
 msgid "GBP/TRY"
 msgstr "英鎊/土耳其里拉"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BTC/SGD"
-msgstr "比特幣/美元"
+msgstr "比特幣/新加坡元"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/ZAR"
-msgstr "以太幣/澳元"
+msgstr "以太幣/南非蘭特"
 
-#, fuzzy
-#| msgid "ETH/NOK"
 msgid "ETH/KRW"
-msgstr "以太幣/挪威克朗"
+msgstr "以太幣/韓元"
 
 msgid "ETC/NZD"
 msgstr "以太幣/紐元"
 
-#, fuzzy
-#| msgid "BTC/CHF"
 msgid "BCH/CHF"
-msgstr "比特幣/瑞士法郎"
+msgstr "比特幣現金/瑞士法郎"
 
 msgid "AUD/NOK"
 msgstr "澳元/挪威克朗"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BTC/KWD"
-msgstr "比特幣/美元"
+msgstr "比特幣/韓元"
 
-#, fuzzy
-#| msgid "GBP/IDR"
 msgid "BCH/IDR"
-msgstr "英鎊/印度尼西亞盧比"
+msgstr "比特幣現金/印度尼西亞盧比"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/SGD"
-msgstr "以太幣/美元"
+msgstr "以太幣/新加坡元"
 
 msgid "CAD/CHF"
 msgstr "加元/瑞士法郎"
@@ -2612,20 +2357,14 @@ msgstr "萊特幣/加元"
 msgid "LTC/USD"
 msgstr "萊特幣/美元"
 
-#, fuzzy
-#| msgid "LTC/USD"
 msgid "LTC/SGD"
-msgstr "萊特幣/美元"
+msgstr "萊特幣/新加坡元"
 
-#, fuzzy
-#| msgid "GBP/CNY"
 msgid "BCH/CNY"
-msgstr "澳元/巴西雷亞爾"
+msgstr "比特幣現金/人民幣"
 
-#, fuzzy
-#| msgid "LTC/NOK"
 msgid "LTC/BRO"
-msgstr "萊特幣/挪威克朗"
+msgstr "萊特幣/音樂幣"
 
 msgid "ETH/SEK"
 msgstr "以太幣/瑞典克朗"
@@ -2639,10 +2378,8 @@ msgstr "歐元/南非蘭特"
 msgid "ETC/EUR"
 msgstr "以太幣/歐元"
 
-#, fuzzy
-#| msgid "ETH/JPY"
 msgid "ETH/XPT"
-msgstr "以太幣/日圓"
+msgstr "以太幣/鈀(盎司)"
 
 msgid "USD/INR"
 msgstr "美元/印度盧比"
@@ -2655,12 +2392,10 @@ msgid "EUR Index"
 msgstr "歐元指數"
 
 msgid "BCH/XPD"
-msgstr ""
+msgstr "比特幣現金/鈀盎司"
 
-#, fuzzy
-#| msgid "ETH/JPY"
 msgid "ETH/TRY"
-msgstr "以太幣/日圓"
+msgstr "以太幣/土耳其里拉"
 
 msgid "ETH/EUR"
 msgstr "以太幣/歐元"
@@ -2805,10 +2540,10 @@ msgid "ETH/EGP"
 msgstr "以太幣/英鎊"
 
 msgid "BCH/RUB"
-msgstr ""
+msgstr "比特幣現金/俄羅斯盧布"
 
 msgid "BCH/XPT"
-msgstr ""
+msgstr "比特幣現金/鉑盎司"
 
 msgid "AUD/CAD"
 msgstr "澳元/加元"
@@ -2830,7 +2565,7 @@ msgid "ETC/XAG"
 msgstr "以太幣/英鎊"
 
 msgid "BCH/XAG"
-msgstr ""
+msgstr "比特幣現金/白銀盎司"
 
 msgid "GBP/HKD"
 msgstr "英鎊/港幣"
@@ -4434,7 +4169,7 @@ msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equ
 msgstr "如果%3在%plural(%5,%d 跳動點)之後高於或等於%6，將獲得賠付額。"
 
 msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
-msgstr ""
+msgstr "選項有效期內於%3收取%2後%1的最大值與%4差額。"
 
 msgid "entry spot plus %plural(%1,%d pip, %d pips)"
 msgstr "入市現價加上 %plural(%1, %d 點)"
@@ -4450,10 +4185,10 @@ msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "如果%3在%5時收盤於%7至%6之外，將獲得賠付額。"
 
 msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
-msgstr ""
+msgstr "選項有效期內於%3收取%2後%1的最終值與最大值差額。"
 
 msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
-msgstr ""
+msgstr "選項有效期內於%3收取%2後%1的最大值與最終值差額。"
 
 #, fuzzy
 #| msgid "Win payout if the last digit of %3 is not %6 after %plural(%5,%d tick,%d ticks)."
@@ -4491,7 +4226,7 @@ msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 tic
 msgstr "如果%3的最後數字在%5跳動點之後嚴格低於%6，將獲得賠付額。"
 
 msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-msgstr ""
+msgstr "選項有效期內於%3收取%2後%4與%1的最小值差額。‘"
 
 #, fuzzy
 #| msgid "Win payout if %3 is higher than or equal to %6 at %5."
@@ -4517,7 +4252,7 @@ msgid "entry spot"
 msgstr "入市現價"
 
 msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
-msgstr ""
+msgstr "選項有效期內於%3收取%2後%1的最大值與最小值差額。"
 
 #, fuzzy
 #| msgid "Win payout if %3 ends on or between %7 to %6 at %5."
@@ -4619,13 +4354,13 @@ msgid "Start Time"
 msgstr "開始時間"
 
 msgid "%1 and %2"
-msgstr ""
+msgstr "%1 與 %2"
 
 msgid "Exit Spot"
 msgstr "退出現價"
 
 msgid "Closing Spot"
-msgstr ""
+msgstr "閉市現價"
 
 msgid "Absolute barrier cannot be zero."
 msgstr "絕對障礙不可為零。"
@@ -4640,7 +4375,7 @@ msgid "We could not process this contract at this time."
 msgstr "目前我們無法處理該合約。"
 
 msgid "Invalid duration (tick) for contract type (%1)."
-msgstr ""
+msgstr "合約類型(%1)無效持續時間(跳動點)。"
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "高障礙價格不在可接受的範圍內。請調整高障礙價格。"
@@ -4694,6 +4429,11 @@ msgstr "該合約期限內有太多市場假日。"
 msgid "Barriers could not be determined."
 msgstr "無法確定障礙。"
 
+#, fuzzy
+#| msgid "Sorry, your payment could not be processed at this time."
+msgid "Sorry, your request could not be processed at this moment."
+msgstr "對不起，此時不能處理您的支付。"
+
 msgid "Contract barrier must be positive."
 msgstr "合約障礙必須為正數。"
 
@@ -4717,7 +4457,7 @@ msgstr "放置權杖數目須在%1 與 %2之間。"
 
 #, fuzzy
 #| msgid "Sorry, but your bid is too low. The minimum bid allowed is USD1 (or its equivalent in another currency)."
-msgid "Sorry, but your bid is too low. The minimum bid allowed is USD %1 (or its equivalent in another currency)."
+msgid "Sorry, but the bid per token is too low. The minimum bid per token allowed is USD %1 (or its equivalent in another currency)."
 msgstr "對不起，您的標價太低。允許標價最小為1美元（或其他貨幣的等值）。"
 
 msgid "An error occurred during contract settlement."
@@ -8633,9 +8373,6 @@ msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
 
 #~ msgid "Binary opens Japan office"
 #~ msgstr "Binary 開設日本辦公室"
-
-#~ msgid "Binary option"
-#~ msgstr "二元期權"
 
 #~ msgid "Binary options are easy to understand. They’re called ‘binary’ because there can be only two outcomes – win or lose. If your prediction is correct, you receive a payout that is determined at the start of the trade. If not, you just lose your initial stake."
 #~ msgstr "二元期權很容易了解。它被稱為「二元」是因為只能有2種結果：贏或輸。如果預測正確，您會獲得交易開始時設定的賠付額。不然，您將損失起始資金。"
@@ -14267,9 +14004,6 @@ msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
 
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "對不起，您不能取款。"
-
-#~ msgid "Sorry, your payment could not be processed at this time."
-#~ msgstr "對不起，此時不能處理您的支付。"
 
 #~ msgid "Stays Between/Goes Outside"
 #~ msgstr "「保持在範圍之內/超出範圍之外」"
