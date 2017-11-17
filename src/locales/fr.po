@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: French (Binary)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-08-22 04:57+0000\n"
+"PO-Revision-Date: 2017-11-13 01:46+0000\n"
 "Last-Translator: Arnaud Malfoy <arnaud.malfoy@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/binary-websocket/translations/fr/>\n"
 "Language: fr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.17-dev\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 msgid ""
 "\n"
@@ -27,7 +27,7 @@ msgstr ""
 "%1"
 
 msgid "#1 Sales Division"
-msgstr ""
+msgstr "#1 Division des ventes"
 
 msgid "%1 New Password Request"
 msgstr "Demande de nouveau mot de passe %1"
@@ -113,25 +113,17 @@ msgstr "Ce compte requiert une vérification de l'âge."
 msgid "Account not activated."
 msgstr "Ce compte n'est pas activé."
 
-#, fuzzy
-#| msgid "Sorry, %1 are currently suspended"
 msgid "Account transfers are currently suspended."
-msgstr "Désolé, %1 sont actuellement suspendus"
+msgstr "Les comptes de transfert sont actuellement suspendus."
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for accounts with different default currency."
 msgid "Account transfers are not available for accounts with different currencies."
-msgstr "Le virement de compte à compte n'est pas disponible pour les comptes dont les devises par défaut diffèrent."
+msgstr "Les transferts de compte ne sont pas disponibles pour les comptes avec des monnaies différentes."
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for accounts with different default currency."
 msgid "Account transfers are not available within accounts with cryptocurrency as default currency."
-msgstr "Le virement de compte à compte n'est pas disponible pour les comptes dont les devises par défaut diffèrent."
+msgstr "Les transferts de comptes ne sont pas disponibles pour les comptes avec monnaie digitale comme devise par défaut."
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for %1 account."
 msgid "Account transfers are not available within same account."
-msgstr "Le transfert de compte est indisponible pour compte %1."
+msgstr "Les transferts de comptes ne sont pas disponibles au sein du même compte."
 
 msgid "Account type"
 msgstr "Ouverture de compte"
@@ -184,11 +176,13 @@ msgstr "Les barrières doivent se situer de part et d'autre du prix spot."
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Détails bancaires de l’intermédiaire du bénéficiaire :"
 
-msgid "Binary ICO: cancelled bid"
-msgstr ""
+#, fuzzy
+#| msgid "Binary option"
+msgid "Binary ICO"
+msgstr "Option binaire"
 
 msgid "Binary K.K. Customer Account"
-msgstr ""
+msgstr "Compte client K.K. Binary"
 
 msgid "Branch code"
 msgstr "Code guichet"
@@ -227,7 +221,7 @@ msgid "Commission (%) you want to take on withdrawals"
 msgstr "Commission (%) que vous souhaitez percevoir sur les retraits"
 
 msgid "Connection closed"
-msgstr ""
+msgstr "Connexion terminée"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr "Le montant d'investissement du contrat est supérieur au prix d'achat maximum."
@@ -245,12 +239,10 @@ msgid "Create one"
 msgstr "En créer un"
 
 msgid "Currency provided is different from account currency."
-msgstr ""
+msgstr "La devise fournie est différente de la devise du compte."
 
-#, fuzzy
-#| msgid "The provided currency %1 is not applicable for this account."
 msgid "Currency provided is not valid for your account."
-msgstr "La devise indiquée %1 n'est pas applicable pour ce compte."
+msgstr "La monnaie fournie n'est pas valide pour votre compte."
 
 msgid "Current"
 msgstr "Valeur actuelle"
@@ -416,8 +408,6 @@ msgstr ""
 "\n"
 "Nous vous informons que nous avons reçu votre demande de bonus. Malheureusement, nous n'avons pas été en mesure de traiter votre demande pour l'une des raisons suivantes :"
 
-#, fuzzy
-#| msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by clicking the link below:</p><p><a href=\"%1\">%1</a></p><p>If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgid ""
 "Dear Valued Customer,\n"
 "\n"
@@ -429,7 +419,17 @@ msgid ""
 "\n"
 "With regards,\n"
 "Binary.com"
-msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Cher/chère client(e),</p><p> Afin que nous puissions vous aider à modifier votre mot de passe, veuillez vérifier votre identité en cliquant sur le lien suivant : </p><p><a href=\"%1\">%1</a></p><p>  Si cliquer sur le lien ci-dessus ne fonctionne pas, veuillez copier et coller l'URL dans une nouvelle fenêtre.</p>0<p style=\"color:#333333;font-size:15px;\">Cordialement,<br/>%2</p>"
+msgstr ""
+"Cher client, \n"
+"\n"
+"Avant que nous puissions vous aider à changer votre mot de passe, veuillez nous aider à vérifier votre identité en cliquant sur le lien ci-dessous :\n"
+"\n"
+"%1\n"
+"\n"
+"Si cliquer sur le lien ci-dessus ne fonctionne pas, veuillez copier et coller l’URL dans une nouvelle fenêtre du navigateur à la place.\n"
+"\n"
+"Cordialement, \n"
+"Binary.com"
 
 msgid "Deposit"
 msgstr "Dépôt"
@@ -443,15 +443,11 @@ msgstr "Le montant de dépôt doit être supérieur à zéro."
 msgid "Deposit confirmation"
 msgstr "Confirmation de dépôt"
 
-#, fuzzy
-#| msgid "%1 is required."
 msgid "Document ID is required."
-msgstr "%1 est requis."
+msgstr "Une pièce d'identité est requise."
 
-#, fuzzy
-#| msgid "Quote not found"
 msgid "Document not found."
-msgstr "Cours non trouvé"
+msgstr "Document non trouvé."
 
 msgid "Documents are required to verify your identity"
 msgstr "Des documents sont requis pour vérifier votre identité"
@@ -504,15 +500,11 @@ msgstr "La période d'exclusion doit être ultérieure."
 msgid "Exclusion time conversion error."
 msgstr "Erreur de conversion de la période d'exclusion."
 
-#, fuzzy
-#| msgid "Expiry time cannot be equal to start time."
 msgid "Expiration date cannot be less than or equal to current date."
-msgstr "L'heure d'expiration ne peut être identique à l'heure de début."
+msgstr "La date d’expiration ne peut être inférieure ou égale à la date actuelle."
 
-#, fuzzy
-#| msgid "Tax information is required."
 msgid "Expiration date is required."
-msgstr "Des informations fiscales sont requises."
+msgstr "La date d’expiration est requise."
 
 msgid "Failed attempt to unlock cashier section"
 msgstr "Tentative infructueuse de déverrouillage de la section caisse"
@@ -536,7 +528,7 @@ msgid "For subsequent deposits, please visit the cashier page again to generate 
 msgstr "Pour des dépôts successifs, veuillez visiter de nouveau la page concernant le paiement afin de générer une nouvelle adresse."
 
 msgid "From account provided should be same as current authorized client."
-msgstr ""
+msgstr "Le compte fourni doit être correspondre à un client autorisé actuel."
 
 msgid "Further instructions must not exceed %1 characters."
 msgstr "Les instructions supplémentaires ne peuvent excéder %1 caractères."
@@ -604,10 +596,8 @@ msgstr "Email non valide."
 msgid "Invalid amount."
 msgstr "Montant invalide."
 
-#, fuzzy
-#| msgid "Payout can not have more than %1 decimal places."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
-msgstr "Le versement ne peut pas contenir plus de %1 décimales."
+msgstr "Montant invalide. Le montant fourni ne peut pas avoir plus de %1 décimales"
 
 msgid "Invalid amount. Maximum is %1."
 msgstr "Montant non valide. Le maximum est de %1."
@@ -615,10 +605,8 @@ msgstr "Montant non valide. Le maximum est de %1."
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "Montant non valide. Le montant de retrait maximum autorisé est de %1."
 
-#, fuzzy
-#| msgid "Invalid amount. minimum is %1, maximum is %2."
 msgid "Invalid amount. Minimum is %1, maximum is %2."
-msgstr "Montant non valide. Le minimum est de %1, le maximum est de %2."
+msgstr "Montant non valide. Le minimum est de %1, le maximum est de %2."
 
 msgid "Invalid amount. Minimum is %1."
 msgstr "Montant non valide. Le minimum est de %1."
@@ -626,10 +614,8 @@ msgstr "Montant non valide. Le minimum est de %1."
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Montant non valide. Le montant de retrait minimum autorisé est de %1."
 
-#, fuzzy
-#| msgid "Invalid date of birth."
 msgid "Invalid date format."
-msgstr "Date de naissance non valide."
+msgstr "Format de date non valide."
 
 msgid "Invalid login attempt. Please log in with a social network instead."
 msgstr "Tentative de connexion invalide. Veuillez vous connecter avec votre réseau social."
@@ -743,7 +729,7 @@ msgid "Maximum aggregate loss per day."
 msgstr "Maximum global des pertes par jour."
 
 msgid "Maximum file size reached. Maximum allowed is %1"
-msgstr ""
+msgstr "Taille de fichier maximale atteinte. Le Maximum autorisé est de %1"
 
 msgid "Maximum number of open positions"
 msgstr "Nombre maximal de positions ouvertes"
@@ -789,6 +775,9 @@ msgstr "Non"
 
 msgid "No further trading is allowed for the current trading session."
 msgstr "Aucune opération de trading supplémentaire n'est autorisée pour la session de trading actuelle."
+
+msgid "No information is available for this contract."
+msgstr "Aucune information n’est disponible pour ce contrat."
 
 msgid "Not Found"
 msgstr "Introuvable"
@@ -866,43 +855,29 @@ msgstr "Mot de passe non fourni."
 msgid "Password should be at least six characters, including lower and uppercase letters with numbers."
 msgstr "Le mot de passe doit contenir au moins six caractères et se composer de majuscules, de minuscules et de chiffres."
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent facilities are not available for this account."
-msgstr "Les Agents de Paiement ne sont pas disponibles pour votre compte."
+msgstr "Les facilités d'agent de paiement ne sont pas disponibles pour ce compte."
 
 msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr ""
+msgstr "Le transfert de l'Agent de paiement n'est pas autorisé avec la quantité spécifiée, puisque le solde du compte %1 dépasserait les limites autorisées."
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent transfers are available for %1 currency only."
-msgstr "Les Agents de Paiement ne sont pas disponibles pour votre compte."
+msgstr "Les virements d'agent de paiement ne sont disponibles que pour la devise %1."
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent transfers are not allowed for specified accounts."
-msgstr "Les Agents de Paiement ne sont pas disponibles pour votre compte."
+msgstr "Les transferts d’agent de paiement ne sont pas autorisés pour les comptes spécifiés."
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Payment agent transfers are not allowed for the specified accounts."
-msgstr "Les Agents de Paiement ne sont pas disponibles pour votre compte."
+msgstr "Les transferts d’agent de paiement ne sont pas autorisés pour les comptes spécifiés."
 
-#, fuzzy
-#| msgid "The account transfer is unavailable for %1 account."
 msgid "Payment agent transfers are not allowed within the same account."
-msgstr "Le transfert de compte est indisponible pour compte %1."
+msgstr "Les transferts d’agent de paiement ne sont pas autorisés à l'intérieur du même compte."
 
-#, fuzzy
-#| msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
-msgstr "Désolé, vous avez dépassé le maximum de transactions autorisé pour aujourd'hui."
+msgstr "Les transferts d’agent de paiement ne sont pas autorisés, car vous avez dépassé le nombre maximum de transactions admissibles pour aujourd'hui."
 
-#, fuzzy
-#| msgid "Sorry, you have exceeded the maximum allowable transfer amount for today."
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
-msgstr "Désolé, vous avez dépassé le montant maximal de transfert de fonds pour aujourd'hui."
+msgstr "Les transferts d’agent de paiement ne sont pas autorisés, car vous avez dépassé le montant maximal admissible transfert pour aujourd'hui."
 
 msgid "Payment error"
 msgstr "Erreur de paiement"
@@ -955,20 +930,14 @@ msgstr "Veuillez remplir le formulaire d'évaluation financière."
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
 msgstr "Veuillez remplir le formulaire d'évaluation financière pour lever vos limites de retrait et de trading."
 
-#, fuzzy
-#| msgid "Please authenticate your account."
 msgid "Please deposit to your account."
-msgstr "Veuillez authentifier votre compte."
+msgstr "Veuillez effectuer un dépôt sur votre compte."
 
-#, fuzzy
-#| msgid "Please enter a number between 0 and %1"
 msgid "Please enter a number between %1 and %2"
-msgstr "Veuillez saisir un chiffre entre 0 et %1"
+msgstr "Veuillez entrer un nombre entre %1 et %2"
 
-#, fuzzy
-#| msgid "Please enter a number between 0 and %1"
 msgid "Please enter a number between %1 and %2."
-msgstr "Veuillez saisir un chiffre entre 0 et %1"
+msgstr "Veuillez entrer un nombre entre %1 et %2."
 
 msgid "Please enter a numeric value."
 msgstr "Veuillez saisir une valeur numérique."
@@ -1030,15 +999,11 @@ msgstr "Veuillez fournir l'ensemble des informations nécessaires à l'ouverture
 msgid "Please provide some information about yourself and your proposed services"
 msgstr "Veuillez fournir des informations sur vous et sur les services que vous proposez"
 
-#, fuzzy
-#| msgid "Please enter a valid amount."
 msgid "Please provide valid amount."
-msgstr "Veuillez entrer un montant valide."
+msgstr "Veuillez fournir un montant valide."
 
-#, fuzzy
-#| msgid "Please provide a valid email address."
 msgid "Please provide valid currency."
-msgstr "Veuillez fournir une adresse e-mail valide."
+msgstr "Veuillez fournir une devise valide."
 
 msgid "Please select"
 msgstr "Sélection"
@@ -1049,10 +1014,8 @@ msgstr "Veuillez sélectionner une solution de paiement valide."
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Veuillez sélectionner une devise pour votre compte existant %1, afin de créer plus de comptes."
 
-#, fuzzy
-#| msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgid "Please set the currency for your existing account %1."
-msgstr "Veuillez sélectionner une devise pour votre compte existant %1, afin de créer plus de comptes."
+msgstr "Veuillez sélectionner une devise pour votre compte existant %1."
 
 msgid "Please set the currency."
 msgstr "Veuillez définir la monnaie."
@@ -1087,10 +1050,8 @@ msgstr "Le code postal est requis pour les résidents du Royaume-Uni."
 msgid "Provided amount is not within permissible limits."
 msgstr "Le montant fourni n'est pas à l'intérieur des limites permissibles."
 
-#, fuzzy
-#| msgid "Provided amount is not within permissible limits."
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
-msgstr "Le montant fourni n'est pas à l'intérieur des limites permissibles."
+msgstr "Le montant fourni n'est pas à l'intérieur des limites permises. Le montant minimal de transfert pour la devise fournie est %1."
 
 msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
 msgstr "En achetant ce contrat, vous dépasseriez notre limite de paiement pour les contrats ouverts de ce type. Pour continuer, vous pouvez vendre quelques-uns de vos contrats ouverts ou effectuer des opérations sur d'autres types de contrat."
@@ -1104,18 +1065,14 @@ msgstr "En achetant ce contrat, vous dépasseriez votre limite du volume des tra
 msgid "Purchasing this contract will cause you to exceed your daily turnover limit of %1%2."
 msgstr "En achetant ce contrat, vous dépasseriez votre limite du volume des transactions sur un jour de %2%1."
 
-#, fuzzy
-#| msgid "Deutsche Bank"
 msgid "Rakuten Bank"
-msgstr "Deutsche Bank"
+msgstr "Rakuten Bank"
 
 msgid "Read user profile"
 msgstr "Lire le profil utilisateur"
 
-#, fuzzy
-#| msgid "Realtime quotes not available for %1"
 msgid "Realtime quotes not available for %1."
-msgstr "Cotations en temps réel non disponibles pour %1"
+msgstr "Cotations en temps réel non disponibles pour %1."
 
 msgid "Receive news and special offers"
 msgstr "Recevez des bulletins d'information et des offres spéciales"
@@ -1123,16 +1080,17 @@ msgstr "Recevez des bulletins d'information et des offres spéciales"
 msgid "Reload page"
 msgstr "Recharger la page"
 
-#, fuzzy
-#| msgid "letters"
 msgid "Remitter"
-msgstr "lettres"
+msgstr "Versement"
 
 msgid "Request timed out"
 msgstr "La requête a expiré"
 
 msgid "Request too frequent. Please try again later."
 msgstr "Requête trop fréquente. Veuillez réessayer ultérieurement."
+
+msgid "Requested professional status"
+msgstr "Statut professionnel requis"
 
 msgid "Review Permissions"
 msgstr "Accéder aux permissions"
@@ -1164,23 +1122,17 @@ msgstr "Désolé, une erreur est survenue pendant le traitement de votre compte.
 msgid "Sorry, an error occurred while processing your request."
 msgstr "Désolé, une erreur est survenue pendant le traitement de votre demande."
 
-#, fuzzy
-#| msgid "Sorry, an error occurred while processing your request."
 msgid "Sorry, an error occurred whilst processing your request."
 msgstr "Désolé, une erreur est survenue pendant le traitement de votre demande."
 
-#, fuzzy
-#| msgid "An error occurred while processing request. Please try again in one minute."
 msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
-msgstr "Un erreur est survenue lors du traitement de votre requête. Veuillez réessayer après une minute."
+msgstr "Désolé, une erreur s’est produite lors du traitement de votre demande. Veuillez essayer à nouveau dans une minute."
 
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "Désolé, une erreur est survenue. Veuillez essayer d'accéder à notre caisse ultérieurement."
 
-#, fuzzy
-#| msgid "Sorry, our service is not available for your country of residence."
 msgid "Sorry, but the ICO is not available in your country of residence."
-msgstr "Désolé, notre service n'est pas disponible pour votre pays de résidence."
+msgstr "Désolé, mais l'ICO n'est pas disponible dans votre pays de résidence."
 
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "Désolé, la guichet est temporairement indisponible du fait d'une maintenance du système."
@@ -1194,10 +1146,8 @@ msgstr "Désolé, les contrats sur les indices de volatilité ne sont pas dispon
 msgid "Sorry, our service is not available for your country of residence."
 msgstr "Désolé, notre service n'est pas disponible pour votre pays de résidence."
 
-#, fuzzy
-#| msgid "Sorry, OHLC is not available for %1."
 msgid "Sorry, the ICO is not available for copy trading."
-msgstr "Désolé, OHLC n'est pas disponible pour %1."
+msgstr "Désolé, l'ICO n'est pas disponible pour le trading."
 
 msgid "Sorry, the aggregate payouts of contracts on your account cannot exceed %1%2."
 msgstr "Désolé, les paiements cumulés des contrats liés à votre compte ne peuvent excéder %2%1."
@@ -1214,8 +1164,6 @@ msgstr "Désolé, un problème est survenu durant la validation de vos informati
 msgid "Sorry, there was a problem validating your personal information with our payment processor. Please verify that your date of birth was input correctly in your account settings."
 msgstr "Désolé, un problème est survenu durant la validation de vos informations personnelles avec notre service de traitement des paiements. Veuillez vérifier que votre date de naissance est correcte dans les paramètres de votre compte."
 
-#, fuzzy
-#| msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgid "Sorry, this facility is temporarily disabled due to system maintenance."
 msgstr "Désolé, la guichet est temporairement indisponible du fait d'une maintenance du système."
 
@@ -1231,10 +1179,8 @@ msgstr "Désolé, vous êtes trop jeune pour ouvrir un compte."
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please visit the statement page to automatically sell your expired contracts."
 msgstr "Désolé, vous ne pouvez pas détenir plus de %1 contrats simultanément. Veuillez consulter la page dédiée à votre relevé de compte afin de vendre automatiquement vos contrats expirés."
 
-#, fuzzy
-#| msgid "Sorry, your account does not allow passwords because you use social media to log in."
 msgid "Sorry, you cannot reset your password because you logged in using a social network."
-msgstr "Désolé, votre compte n'autorise pas les mots de passe car vous utilisez un media social pour vous connecter."
+msgstr "Désolé, vous ne pouvez pas réinitialiser votre mot de passe car vous êtes connecté en utilisant un réseau social."
 
 msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
 msgstr "Désolé, vous ne pouvez pas effectuer de retrait. Le solde de votre compte est de %2 %1."
@@ -1302,10 +1248,8 @@ msgstr "La liste des banques compatibles n'est pas valide"
 msgid "Swift code"
 msgstr "Code SWIFT"
 
-#, fuzzy
-#| msgid "Symbol %1 invalid"
 msgid "Symbol %1 invalid."
-msgstr "Symbole %1 non valide"
+msgstr "Symbole %1 non valide."
 
 msgid "Tax identification number"
 msgstr "Numéro d'identification fiscale"
@@ -1325,10 +1269,8 @@ msgstr "L'acceptation des Conditions générales est requise."
 msgid "The %1 team."
 msgstr "L'équipe %1."
 
-#, fuzzy
-#| msgid "Bidding for tokens in your country of residence is restricted to professional investors only. If you are a professional investor, please contact our Customer Support to certify your account as such."
 msgid "The ICO is only available to professional investors in your country of residence. If you are a professional investor, please contact our customer support team to verify your account status."
-msgstr "Faire une enchère pour des tokens dans votre pays de résidence est seulement permis aux investisseurs. Si vous êtes un investisseur professionnel, veuillez contacter le Service Client pour certifier votre compte comme tel."
+msgstr "L'ICO est disponible uniquement auprès d'investisseurs professionnels dans votre pays de résidence. Si vous êtes un investisseur professionnel, veuillez contacter notre équipe de support client afin de vérifier l'état de votre compte."
 
 msgid "The account must be in your name and match your trading account details. Please input details of the account you wish to use below."
 msgstr "Le compte doit être en votre nom et correspondre aux détails de votre compte de trading. Entrez les détails du compte que vous souhaitez utiliser ci-dessous."
@@ -1363,20 +1305,14 @@ msgstr "Le mot de passe pour votre compte %1 a été modifié. Cette demande a �
 msgid "The password for your account %1 has been reset. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "Le mot de passe pour votre compte %1 a été réinitialisé. Si vous n'êtes pas à l'origine de cette demande, veuillez immédiatement contacter notre Service Clientèle."
 
-#, fuzzy
-#| msgid "Sorry, the Payment Agent does not exist."
 msgid "The payment agent account does not exist."
-msgstr "Désolé, l'Agent de paiement n'existe pas."
+msgstr "Le compte de l'agent de paiement n’existe pas."
 
-#, fuzzy
-#| msgid "The Payment Agent facility is currently not available in your country."
 msgid "The payment agent facility is currently not available in your country."
-msgstr "La fonction Agent de paiement n'est actuellement pas disponible dans votre pays.."
+msgstr "La fonction Agent de Paiement n'est actuellement pas disponible dans votre pays."
 
-#, fuzzy
-#| msgid "The Payment Agent facility is currently not available in your country."
 msgid "The payment agent facility is not available for this account."
-msgstr "La fonction Agent de paiement n'est actuellement pas disponible dans votre pays.."
+msgstr "La fonction Agent de Paiement n'est actuellement pas disponible dans votre pays."
 
 msgid "The provided currency %1 is invalid."
 msgstr "La devise indiquée %1 n'est pas valide."
@@ -1389,6 +1325,9 @@ msgstr "La devise indiquée %1 n'est pas la devise par défaut"
 
 msgid "The symbol is invalid."
 msgstr "Ce symbole n'est pas valide."
+
+msgid "The system is currently under heavy load, and this call has been suspended temporarily. Please try again in a few minutes."
+msgstr "Le système est actuellement sous une lourde charge, et cet appel a été suspendu temporairement. Merci d'essayer à nouveau dans quelques minutes."
 
 msgid "The token is invalid."
 msgstr "Le jeton n'est pas valide."
@@ -1432,10 +1371,8 @@ msgstr "Ce contrat est limité à "
 msgid "This contract is unavailable on this account."
 msgstr "Ce contrat est indisponible sur ce compte."
 
-#, fuzzy
-#| msgid "This contract is unavailable on this account."
 msgid "This contract type is not available for this acccount"
-msgstr "Ce contrat est indisponible sur ce compte."
+msgstr "Ce type de contrat n’est pas disponible pour ce compte"
 
 msgid "This contract was not found among your open positions."
 msgstr "Ce contrat n'a pas été trouvé parmi vos positions ouvertes."
@@ -1443,21 +1380,17 @@ msgstr "Ce contrat n'a pas été trouvé parmi vos positions ouvertes."
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "Le prix de ce contrat est de %2%1. Le prix des contrats achetés à %3 doit être supérieur à %4%1. Veuillez augmenter le montant du contrat pour respecter ce montant d'investissement minimum."
 
-#, fuzzy
-#| msgid "Your email address is unverified."
 msgid "This email address is invalid."
-msgstr "Votre adresse e-mail n'est pas vérifiée."
+msgstr "Cette adresse e-mail n’est pas valide."
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Ceci est un compte virtuel. Veuillez basculer vers un compte réel pour accéder au guichet."
 
-#, fuzzy
-#| msgid "An error occurred while processing your payment agent transfer."
 msgid "This is an ICO-only account which does not support payment agent transfers."
-msgstr "Une erreur est survenue pendant le traitement du transfert de l'agent payeur."
+msgstr "Il s’agit d’un compte ICO uniquement, qui ne supporte pas les transferts d’agent de paiement."
 
 msgid "This is an ICO-only account which does not support transfers."
-msgstr ""
+msgstr "Il s’agit d’un compte ICO uniquement, qui ne prend pas en charge les transferts."
 
 msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
 msgstr "Ceci est un message automatique vous avertissant qu'un changement a été effectué dans la section des paramètres de caisse de votre compte %1 depuis l'adresse IP %2. Si vous n'êtes pas à l'origine de cette mise à jour, veuillez vous connecter à votre compte et mettre à jour vos paramètres."
@@ -1465,10 +1398,8 @@ msgstr "Ceci est un message automatique vous avertissant qu'un changement a ét�
 msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
 msgstr "Ceci est un message automatique vous informant qu'une tentative infructueuse de déverrouillage de votre section Caisse/Paramètres a été enregistrée sur votre compte %1 depuis l'adresse IP %2"
 
-#, fuzzy
-#| msgid "This feature is not relevant to virtual-money accounts."
 msgid "This is not supported on an ICO-only account."
-msgstr "Cette fonction ne s'applique pas aux comptes virtuels."
+msgstr "Ce n’est pas supporté sur un compte ICO."
 
 msgid "This market is presently closed."
 msgstr "Ce marché est actuellement fermé."
@@ -1509,10 +1440,8 @@ msgstr "Identification de transaction: %1"
 msgid "Transactions"
 msgstr "Transactions"
 
-#, fuzzy
-#| msgid "Payment Agents are not available for your account."
 msgid "Transfers between accounts are not available for your account."
-msgstr "Les Agents de Paiement ne sont pas disponibles pour votre compte."
+msgstr "Les transferts entre les comptes ne sont pas disponibles pour votre compte."
 
 msgid "URL should not have fragment"
 msgstr "les URL ne doivent pas avoir de fragment"
@@ -1544,10 +1473,8 @@ msgstr "Nom de domaine inconnu"
 msgid "Unknown landing company."
 msgstr "Société de rattachement inconnue."
 
-#, fuzzy
-#| msgid "View payment methods"
 msgid "Unknown payment method."
-msgstr "Voir les moyens de paiement"
+msgstr "Mode de paiement inconnu."
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "Classe de pari non prise en charge $bet_params->{bet_class}"
@@ -1571,7 +1498,7 @@ msgid "Verify your withdrawal request - %1"
 msgstr "Vérifiez votre demande de retrait : %1"
 
 msgid "Virtual accounts don't require document uploads."
-msgstr ""
+msgstr "Les comptes virtuels ne nécessitent pas de téléchargements de document."
 
 msgid "Virtual money credit to account"
 msgstr "Crédit de fonds virtuels sur le compte"
@@ -1618,14 +1545,12 @@ msgid ""
 "Transaction number %3 is pending confirmation at this point."
 msgstr "Nous vous informons que votre demande de retrait de %2 %1 a été traité. Le numéro de transaction %3 est en attente de confirmation en ce moment."
 
-#, fuzzy
-#| msgid ""
-#| "We would like to inform you that your withdrawal request of %1 %2 has been completed.\n"
-#| "Transaction number %3 is confirmed."
 msgid ""
 "We would like to inform you that your withdrawal request of %1 %2 has been rejected.\n"
 "Your account is refunded."
-msgstr "Nous vous informons que votre demande de retrait de %2 %1 a été faite. Le numéro de transaction %3 est confirmé."
+msgstr ""
+"Nous tenons à vous informer que votre demande de retrait de %1 %2 a été rejetée.\n"
+"Votre compte est remboursé."
 
 msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 msgstr "Nous sommes désolés, mais notre fonction d'auto-exclusion n'est pas disponible pour les comptes virtuels."
@@ -1642,10 +1567,8 @@ msgstr "Retrait"
 msgid "Withdrawal"
 msgstr "Retrait"
 
-#, fuzzy
-#| msgid "Withdrawal amount exceeds your limits."
 msgid "Withdrawal amount exceeds client balance."
-msgstr "Le montant du retrait dépasse vos limites."
+msgstr "Le montant de retrait dépasse le solde client."
 
 msgid "Withdrawal amount must be greater than zero."
 msgstr "Le montant de retrait doit être supérieur à zéro."
@@ -1677,102 +1600,68 @@ msgstr "Vous êtes déjà inscrit(e) aux proposal_open_contract."
 msgid "You are already subscribed to transaction updates."
 msgstr "Vous êtes déjà inscrit(e) aux notifications de transaction."
 
-#, fuzzy
-#| msgid "You are not authorized for withdrawal via payment agent."
 msgid "You are not authorized for transfers via payment agents."
-msgstr "Vous n'avez pas l'autorisation d'effectuer des retraits par Agent de paiement."
+msgstr "Vous n'êtes pas autorisé pour les transferts via des agents de paiement."
 
-#, fuzzy
-#| msgid "You are not authorized for withdrawal via payment agent."
 msgid "You are not authorized for withdrawals via payment agents."
-msgstr "Vous n'avez pas l'autorisation d'effectuer des retraits par Agent de paiement."
+msgstr "Vous n'êtes pas autorisé pour les retraits via les agents de paiement."
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas effectuer le retrait sur le compte %1, comme l'agent de paiement du compte est désactivé."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas effectuer de retrait du compte %1, comme l'agent de paiement du compte est marqué comme indésirable."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez effectuer de retrait du compte 1 %, comme la fonction de caisse de l’agent de paiement est verrouillé."
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for payment agent %2"
 msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
-msgstr "Désolé, %1 n'est pas la devise par défaut pour l'agent de paiement %2"
+msgstr "Vous ne pouvez pas effectuer cette action, comme %1 n’est pas la devise par défaut pour le compte d’agent de paiement %2."
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for client %2"
 msgid "You cannot perform this action, as %1 is not default currency for your account %2."
-msgstr "Désolé, %1 n'est pas la devise par défaut pour le client %2"
+msgstr "Vous ne pouvez pas effectuer cette action, étant donné que %1 n'est pas la devise par défaut pour votre compte %2."
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for client %2"
 msgid "You cannot perform this action, as %1 is not the default account currency for client %2."
-msgstr "Désolé, %1 n'est pas la devise par défaut pour le client %2"
+msgstr "Vous ne pouvez pas effectuer cette action, puisque %1 n'est pas la valeur par défaut de la devise du compte client %2."
 
-#, fuzzy
-#| msgid "Sorry, %1 is not default currency for payment agent %2"
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
-msgstr "Désolé, %1 n'est pas la devise par défaut pour l'agent de paiement %2"
+msgstr "Vous ne pouvez pas effectuer cette action, puisque %1 n'est pas la devise par défaut du compte pour le paiement de l'agent %2."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account %1 is currently disabled."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas effectuer cette action, car votre compte %1 est actuellement désactivé."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas effectuer cette action, comme votre compte %1 est marqué comme indésirable."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account is cashier locked."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas effectuer cette action, car la caisse de votre compte est verrouillée."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account is currently disabled."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas effectuer cette action, car votre compte est actuellement désactivé."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot perform this action, as your account is withdrawal locked."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas effectuer cette action, car la fonction de retrait de votre compte est verrouillée."
 
 msgid "You cannot perform this action, as your verification documents have expired."
-msgstr ""
+msgstr "Vous ne pouvez pas exécuter cette action, car vos documents de vérification sont expirés."
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
-msgstr ""
+msgstr "Vous ne pouvez pas effectuer de retrait sur le compte %1, car les documents de vérification de l'agent payeur sont expirés."
 
 msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas transférer vers le compte %1, puisque leur compte est marqué comme indésirable."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot transfer to account %1, as their cashier is locked."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas transférer vers le compte %1, comme leur caisse est verrouillée."
 
-#, fuzzy
-#| msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgid "You cannot transfer to account %1, as their verification documents have expired."
-msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
+msgstr "Vous ne pouvez pas transférer sur le compte %1, car leurs documents de vérification ont expiré."
 
 msgid "You have already claimed a bonus in the past."
 msgstr "Vous avez déjà demandé un bonus auparavant."
@@ -1783,10 +1672,8 @@ msgstr "Vous avez ouvert tous les comptes possibles."
 msgid "You have exceeded the daily limit for contracts of this type."
 msgstr "Vous avez dépassé la limite quotidienne pour les contrats de ce type."
 
-#, fuzzy
-#| msgid "You have exceeded the daily limit for contracts of this type."
 msgid "You have exceeded the open position limit for contracts of this type."
-msgstr "Vous avez dépassé la limite quotidienne pour les contrats de ce type."
+msgstr "Vous avez dépassé la limite de position ouverte pour les contrats de ce type."
 
 msgid "You have exceeded your 30-day limit on losses of %1%2."
 msgstr "Vous avez dépassé votre limite des pertes sur 30 jours de %2%1."
@@ -1812,18 +1699,14 @@ msgstr "Vous avez effectué des inscriptions pour plus d'un compte."
 msgid "You must complete the knowledge test to activate this account."
 msgstr "Vous devez effectuer le test de connaissances pour activer ce compte."
 
-#, fuzzy
-#| msgid "You must use a designated bank account to transfer funds to your Binary.com trading account."
 msgid "You must use a designated bank account to transfer funds to your %1 trading account."
-msgstr "Vous devez utiliser un compte bancaire désigné pour transférer des fonds à votre compte de trading Binary.com."
+msgstr "Vous devez utiliser un compte bancaire désigné pour transférer des fonds sur votre compte de trading %1."
 
 msgid "You will be automatically logged out after such time."
 msgstr "Vous serez automatiquement déconnecté(e) à l'issue de ce délai."
 
-#, fuzzy
-#| msgid "Your cashier is locked as per your request."
 msgid "Your %1 cashier is locked as per your request."
-msgstr "Votre caisse est verrouillée conformément à votre demande."
+msgstr "Votre caisse %1 est verrouillée selon votre demande."
 
 msgid "Your Details"
 msgstr "Vos informations"
@@ -1858,10 +1741,8 @@ msgstr "Votre compte est verrouillé pour les retraits."
 msgid "Your account is restricted to withdrawals only."
 msgstr "Votre compte est restreint aux retraits uniquement."
 
-#, fuzzy
-#| msgid "Your account does not require authentication at this time."
 msgid "Your account needs to be authenticated to perform payment agent transfers."
-msgstr "Votre compte ne doit pas être authentifié en ce moment."
+msgstr "Votre compte doit être authentifié pour effectuer les transferts d'agent de paiement."
 
 msgid "Your app_id is invalid."
 msgstr "Votre identifiant d'application (app_id) n'est pas valide."
@@ -1873,7 +1754,7 @@ msgid "Your bonus request - %1"
 msgstr "Votre demande de bonus : %1"
 
 msgid "Your cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr ""
+msgstr "Vous ne pouvez pas effectuer cette action, car votre compte %1 de caisse est bloqué sur demande."
 
 msgid "Your cashier is locked as per your request."
 msgstr "Votre caisse est verrouillée conformément à votre demande."
@@ -1998,31 +1879,23 @@ msgstr "{JAPAN ONLY}Trading Experience for Public and corporation bond"
 msgid "{JAPAN ONLY}footer text of email template for Japan"
 msgstr "{JAPAN ONLY}footer text of email template for Japan"
 
-#, fuzzy
-#| msgid "ETH/GBP"
 msgid "ETH/BRL"
-msgstr "ETH/GBP"
+msgstr "ETH/BRL"
 
 msgid "BTC/MXN"
 msgstr "BTC/MXN"
 
-#, fuzzy
-#| msgid "LTC/SEK"
 msgid "LTC/SAR"
-msgstr "LTC/SEK"
+msgstr "LTC/SAR"
 
 msgid "ETC/GBP"
 msgstr "ETC/GBP"
 
-#, fuzzy
-#| msgid "LTC/AUD"
 msgid "LTC/AED"
-msgstr "LTC/AUD"
+msgstr "LTC/AED"
 
-#, fuzzy
-#| msgid "GBP/TRY"
 msgid "BCH/TRY"
-msgstr "GBP/TRY"
+msgstr "BCH/TRY"
 
 msgid "USDZAR"
 msgstr "USDZAR"
@@ -2048,10 +1921,8 @@ msgstr "ETC/USD"
 msgid "GBP/AED"
 msgstr "GBP/AED"
 
-#, fuzzy
-#| msgid "LTC/CAD"
 msgid "LTC/XAG"
-msgstr "LTC/CAD"
+msgstr "LTC/XAG"
 
 msgid "EUR/CHF"
 msgstr "EUR/CHF"
@@ -2065,39 +1936,29 @@ msgstr "ETC/SEK"
 msgid "CAD/JPY"
 msgstr "CAD/JPY"
 
-#, fuzzy
-#| msgid "ETC/SEK"
 msgid "ETC/SAR"
-msgstr "ETC/SEK"
+msgstr "ETC/SAR"
 
 msgid "GBP/USD"
 msgstr "GBP/USD"
 
-#, fuzzy
-#| msgid "LTC/EUR"
 msgid "LTC/TRY"
-msgstr "LTC/EUR"
+msgstr "LTC/TRY"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/IDR"
-msgstr "ETC/USD"
+msgstr "ETC/IDR"
 
 msgid "BTC/USD"
 msgstr "BTC/USD"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/KWD"
-msgstr "ETC/USD"
+msgstr "ETC/KWD"
 
 msgid "AUD/AED"
 msgstr "AUD/AED"
 
-#, fuzzy
-#| msgid "GBP/SGD"
 msgid "BCH/SGD"
-msgstr "GBP/SGD"
+msgstr "BCH/SGD"
 
 msgid "EUR/INR"
 msgstr "EUR/INR"
@@ -2105,26 +1966,20 @@ msgstr "EUR/INR"
 msgid "USD/JPY"
 msgstr "USD/JPY"
 
-#, fuzzy
-#| msgid "ETC/CHF"
 msgid "ETC/CNY"
-msgstr "ETC/CHF"
+msgstr "ETC/CNY"
 
 msgid "USD/SGD"
 msgstr "USD/SGD"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/BRL"
-msgstr "ETC/GBP"
+msgstr "ETC/BRL"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/XPD"
-msgstr "ETH/AUD"
+msgstr "ETH/XPD"
 
 msgid "BCH/EGP"
-msgstr ""
+msgstr "BCH/EGP"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -2132,38 +1987,26 @@ msgstr "EUR/AUD"
 msgid "GBP/MXN"
 msgstr "GBP/MXN"
 
-#, fuzzy
-#| msgid "GBP/AED"
 msgid "BCH/AED"
-msgstr "GBP/AED"
+msgstr "BCH/AED"
 
 msgid "AUDZAR"
 msgstr "AUDZAR"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/BRO"
-msgstr "BTC/EUR"
+msgstr "BTC/BRO"
 
-#, fuzzy
-#| msgid "GBP/CZK"
 msgid "BCH/CZK"
-msgstr "GBP/CZK"
+msgstr "BCH/CZK"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/IDR"
-msgstr "ETH/AUD"
+msgstr "ETH/IDR"
 
-#, fuzzy
-#| msgid "ETH/SEK"
 msgid "ETH/SAR"
-msgstr "ETH/SEK"
+msgstr "ETH/SAR"
 
-#, fuzzy
-#| msgid "ETH/CHF"
 msgid "ETH/CNY"
-msgstr "ETH/CHF"
+msgstr "ETH/CNY"
 
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
@@ -2171,18 +2014,14 @@ msgstr "EUR/SEK"
 msgid "USD/AED"
 msgstr "USD/AED"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/XPD"
-msgstr "BTC/MXN"
+msgstr "BTC/XPD"
 
 msgid "USD/NOK"
 msgstr "USD/NOK"
 
-#, fuzzy
-#| msgid "BTC/SEK"
 msgid "BTC/SAR"
-msgstr "BTC/SEK"
+msgstr "BTC/SAR"
 
 msgid "ETH/AUD"
 msgstr "ETH/AUD"
@@ -2193,10 +2032,8 @@ msgstr "ETC/CHF"
 msgid "ETH/CHF"
 msgstr "ETH/CHF"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/XPT"
-msgstr "BTC/MXN"
+msgstr "BTC/XPT"
 
 msgid "ETC/NOK"
 msgstr "ETC/NOK"
@@ -2210,10 +2047,8 @@ msgstr "BTC/CAD"
 msgid "LTC/SEK"
 msgstr "LTC/SEK"
 
-#, fuzzy
-#| msgid "ETH/CHF"
 msgid "ETH/CZK"
-msgstr "ETH/CHF"
+msgstr "ETH/CZK"
 
 msgid "LTC/NOK"
 msgstr "LTC/NOK"
@@ -2221,10 +2056,8 @@ msgstr "LTC/NOK"
 msgid "AUD/NZD"
 msgstr "AUD/NZD"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/XAG"
-msgstr "ETH/AUD"
+msgstr "ETH/XAG"
 
 msgid "GBP/SEK"
 msgstr "GBP/SEK"
@@ -2235,10 +2068,8 @@ msgstr "AUD/MXN"
 msgid "ETH/NOK"
 msgstr "ETH/NOK"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/KWD"
-msgstr "ETH/AUD"
+msgstr "ETH/KWD"
 
 msgid "AUD/HKD"
 msgstr "AUD/HKD"
@@ -2247,22 +2078,16 @@ msgid "AUD/IDR"
 msgstr "AUD/IDR"
 
 msgid "BCH/KWD"
-msgstr ""
+msgstr "BCH/KWD"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BCH/EUR"
-msgstr "BTC/EUR"
+msgstr "BCH/EUR"
 
-#, fuzzy
-#| msgid "ETH/USD"
 msgid "ETH/SGD"
-msgstr "ETH/USD"
+msgstr "ETH/SGD"
 
-#, fuzzy
-#| msgid "BTC/PLN"
 msgid "BCH/PLN"
-msgstr "BTC/PLN"
+msgstr "BCH/PLN"
 
 msgid "EUR/IDR"
 msgstr "EUR/IDR"
@@ -2270,28 +2095,20 @@ msgstr "EUR/IDR"
 msgid "GBP/NOK"
 msgstr "GBP/NOK"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/XAG"
-msgstr "BTC/MXN"
+msgstr "BTC/XAG"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BTC/INR"
-msgstr "BTC/MXN"
+msgstr "BTC/INR"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/KRW"
-msgstr "BTC/EUR"
+msgstr "BTC/KRW"
 
 msgid "AUD Index"
 msgstr "Indice AUD"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BTC/HKD"
-msgstr "BTC/USD"
+msgstr "BTC/HKD"
 
 msgid "USD/CAD"
 msgstr "USD/CAD"
@@ -2299,10 +2116,8 @@ msgstr "USD/CAD"
 msgid "GBP/JPY"
 msgstr "GBP/JPY"
 
-#, fuzzy
-#| msgid "ETC/SEK"
 msgid "ETC/KRW"
-msgstr "ETC/SEK"
+msgstr "ETC/KRW"
 
 msgid "BTC/CHF"
 msgstr "BTC/CHF"
@@ -2319,10 +2134,8 @@ msgstr "GBP/NZD"
 msgid "ETH/USD"
 msgstr "ETH/USD"
 
-#, fuzzy
-#| msgid "LTC/SEK"
 msgid "LTC/KRW"
-msgstr "LTC/SEK"
+msgstr "LTC/KRW"
 
 msgid "BTC/NZD"
 msgstr "BTC/NZD"
@@ -2330,33 +2143,23 @@ msgstr "BTC/NZD"
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
 
-#, fuzzy
-#| msgid "LTC/CHF"
 msgid "LTC/CNY"
-msgstr "LTC/CHF"
+msgstr "LTC/CNY"
 
-#, fuzzy
-#| msgid "GBP/KRW"
 msgid "BCH/KRW"
-msgstr "GBP/KRW"
+msgstr "BCH/KRW"
 
-#, fuzzy
-#| msgid "BTC/NOK"
 msgid "BCH/NOK"
-msgstr "BTC/NOK"
+msgstr "BCH/NOK"
 
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
 
-#, fuzzy
-#| msgid "ETC/AUD"
 msgid "ETC/XAU"
-msgstr "ETC/AUD"
+msgstr "ETC/XAU"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/IDR"
-msgstr "LTC/NZD"
+msgstr "LTC/IDR"
 
 msgid "GBP/AUD"
 msgstr "GBP/AUD"
@@ -2364,10 +2167,8 @@ msgstr "GBP/AUD"
 msgid "GBP/IDR"
 msgstr "GBP/IDR"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/XPD"
-msgstr "LTC/NZD"
+msgstr "LTC/XPD"
 
 msgid "BTC/GBP"
 msgstr "BTC/GBP"
@@ -2381,18 +2182,12 @@ msgstr "ETC/MXN"
 msgid "USD/IDR"
 msgstr "USD/IDR"
 
-#, fuzzy
-#| msgid "ETC/AUD"
 msgid "ETC/ZAR"
-msgstr "ETC/AUD"
+msgstr "ETC/ZAR"
 
-#, fuzzy
-#| msgid "EUR/TRY"
 msgid "ETC/TRY"
-msgstr "EUR/TRY"
+msgstr "ETC/TRY"
 
-#, fuzzy
-#| msgid "EUR/INR"
 msgid "ETC/INR"
 msgstr "EUR/INR"
 
@@ -2411,112 +2206,80 @@ msgstr "EUR/TRY"
 msgid "AUD/PLN"
 msgstr "AUD/PLN"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/INR"
-msgstr "LTC/NZD"
+msgstr "LTC/INR"
 
 msgid "LTC/CHF"
 msgstr "LTC/CHF"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/EGP"
-msgstr "ETC/GBP"
+msgstr "ETC/EGP"
 
-#, fuzzy
-#| msgid "EUR/INR"
 msgid "ETH/INR"
-msgstr "EUR/INR"
+msgstr "ETH/INR"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/HKD"
-msgstr "ETC/USD"
+msgstr "ETC/HKD"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/ZAR"
-msgstr "BTC/EUR"
+msgstr "BTC/ZAR"
 
-#, fuzzy
-#| msgid "BTC/GBP"
 msgid "BTC/EGP"
-msgstr "BTC/GBP"
+msgstr "BTC/EGP"
 
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
 msgid "BCH/BRO"
-msgstr ""
+msgstr "BCH/BRO"
 
 msgid "BTC/AUD"
 msgstr "BTC/AUD"
 
-#, fuzzy
-#| msgid "GBP/SAR"
 msgid "BCH/SAR"
-msgstr "GBP/SAR"
+msgstr "BCH/SAR"
 
 msgid "GBP/INR"
 msgstr "GBP/INR"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/BRO"
-msgstr "ETC/GBP"
+msgstr "ETC/BRO"
 
-#, fuzzy
-#| msgid "ETC/AUD"
 msgid "ETC/AED"
-msgstr "ETC/AUD"
+msgstr "ETC/AED"
 
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
 
-#, fuzzy
-#| msgid "BTC/NZD"
 msgid "BCH/NZD"
-msgstr "BTC/NZD"
+msgstr "BCH/NZD"
 
-#, fuzzy
-#| msgid "LTC/GBP"
 msgid "LTC/EGP"
-msgstr "LTC/GBP"
+msgstr "LTC/EGP"
 
 msgid "ETC/AUD"
 msgstr "ETC/AUD"
 
-#, fuzzy
-#| msgid "LTC/EUR"
 msgid "LTC/RUB"
-msgstr "LTC/EUR"
+msgstr "LTC/RUB"
 
-#, fuzzy
-#| msgid "BTC/CAD"
 msgid "BTC/CNY"
-msgstr "BTC/CAD"
+msgstr "BTC/CNY"
 
 msgid "NZDCHF"
 msgstr "NZDCHF"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/RUB"
-msgstr "ETC/GBP"
+msgstr "ETC/RUB"
 
-#, fuzzy
-#| msgid "LTC/EUR"
 msgid "LTC/BRL"
-msgstr "LTC/EUR"
+msgstr "LTC/BRL"
 
 msgid "EUR/SGD"
 msgstr "EUR/SGD"
 
-#, fuzzy
-#| msgid "BTC/AUD"
 msgid "BCH/AUD"
-msgstr "BTC/AUD"
+msgstr "BCH/AUD"
 
 msgid "LTC/EUR"
 msgstr "LTC/EUR"
@@ -2530,73 +2293,53 @@ msgstr "ETC/PLN"
 msgid "LTC/PLN"
 msgstr "LTC/PLN"
 
-#, fuzzy
-#| msgid "LTC/AUD"
 msgid "LTC/XAU"
-msgstr "LTC/AUD"
+msgstr "LTC/XAU"
 
 msgid "EUR/USD"
 msgstr "EUR/USD"
 
 msgid "BCH/XAU"
-msgstr ""
+msgstr "BCH/XAU"
 
 msgid "AUD/SGD"
 msgstr "AUD/SGD"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BCH/USD"
-msgstr "BTC/USD"
+msgstr "BCH/USD"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/TRY"
-msgstr "BTC/EUR"
+msgstr "BTC/TRY"
 
 msgid "GBP/TRY"
 msgstr "GBP/TRY"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BTC/SGD"
-msgstr "BTC/USD"
+msgstr "BTC/SGD"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/ZAR"
-msgstr "ETH/AUD"
+msgstr "ETH/ZAR"
 
-#, fuzzy
-#| msgid "ETH/NOK"
 msgid "ETH/KRW"
-msgstr "ETH/NOK"
+msgstr "ETH/KRW"
 
 msgid "ETC/NZD"
 msgstr "ETC/NZD"
 
-#, fuzzy
-#| msgid "BTC/CHF"
 msgid "BCH/CHF"
-msgstr "BTC/CHF"
+msgstr "BCH/CHF"
 
 msgid "AUD/NOK"
 msgstr "AUD/NOK"
 
-#, fuzzy
-#| msgid "BTC/USD"
 msgid "BTC/KWD"
-msgstr "BTC/USD"
+msgstr "BTC/KWD"
 
-#, fuzzy
-#| msgid "GBP/IDR"
 msgid "BCH/IDR"
-msgstr "GBP/IDR"
+msgstr "BCH/IDR"
 
-#, fuzzy
-#| msgid "ETC/USD"
 msgid "ETC/SGD"
-msgstr "ETC/USD"
+msgstr "ETC/SGD"
 
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
@@ -2607,20 +2350,14 @@ msgstr "LTC/CAD"
 msgid "LTC/USD"
 msgstr "LTC/USD"
 
-#, fuzzy
-#| msgid "LTC/USD"
 msgid "LTC/SGD"
-msgstr "LTC/USD"
+msgstr "LTC/SGD"
 
-#, fuzzy
-#| msgid "GBP/CNY"
 msgid "BCH/CNY"
-msgstr "GBP/CNY"
+msgstr "BCH/CNY"
 
-#, fuzzy
-#| msgid "LTC/NOK"
 msgid "LTC/BRO"
-msgstr "LTC/NOK"
+msgstr "LTC/BRO"
 
 msgid "ETH/SEK"
 msgstr "ETH/SEK"
@@ -2634,10 +2371,8 @@ msgstr "EUR/ZAR"
 msgid "ETC/EUR"
 msgstr "ETC/EUR"
 
-#, fuzzy
-#| msgid "ETH/JPY"
 msgid "ETH/XPT"
-msgstr "ETH/JPY"
+msgstr "ETH/XPT"
 
 msgid "USD/INR"
 msgstr "USD/INR"
@@ -2649,30 +2384,22 @@ msgid "EUR Index"
 msgstr "Indice EUR"
 
 msgid "BCH/XPD"
-msgstr ""
+msgstr "BCH/XPD"
 
-#, fuzzy
-#| msgid "ETH/JPY"
 msgid "ETH/TRY"
-msgstr "ETH/JPY"
+msgstr "ETH/TRY"
 
 msgid "ETH/EUR"
 msgstr "ETH/EUR"
 
-#, fuzzy
-#| msgid "LTC/PLN"
 msgid "LTC/XPT"
-msgstr "LTC/PLN"
+msgstr "LTC/XPT"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/XAU"
-msgstr "ETH/AUD"
+msgstr "ETH/XAU"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/XPT"
-msgstr "ETC/GBP"
+msgstr "ETC/XPT"
 
 msgid "ETH/PLN"
 msgstr "ETH/PLN"
@@ -2680,10 +2407,8 @@ msgstr "ETH/PLN"
 msgid "NZD/USD"
 msgstr "NZD/USD"
 
-#, fuzzy
-#| msgid "BTC/CAD"
 msgid "BCH/CAD"
-msgstr "BTC/CAD"
+msgstr "BCH/CAD"
 
 msgid "USD Index"
 msgstr "Indice USD"
@@ -2691,58 +2416,38 @@ msgstr "Indice USD"
 msgid "BTC/SEK"
 msgstr "BTC/SEK"
 
-#, fuzzy
-#| msgid "BTC/AUD"
 msgid "BTC/XAU"
-msgstr "BTC/AUD"
+msgstr "BTC/XAU"
 
-#, fuzzy
-#| msgid "BTC/JPY"
 msgid "BCH/JPY"
-msgstr "BTC/JPY"
+msgstr "BCH/JPY"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/XPD"
-msgstr "ETC/GBP"
+msgstr "ETC/XPD"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/RUB"
-msgstr "BTC/EUR"
+msgstr "BTC/RUB"
 
-#, fuzzy
-#| msgid "BTC/CAD"
 msgid "BTC/CZK"
-msgstr "BTC/CAD"
+msgstr "BTC/CZK"
 
-#, fuzzy
-#| msgid "GBP/ZAR"
 msgid "BCH/ZAR"
-msgstr "GBP/ZAR"
+msgstr "BCH/ZAR"
 
 msgid "LTC/AUD"
 msgstr "LTC/AUD"
 
-#, fuzzy
-#| msgid "BTC/AUD"
 msgid "BTC/AED"
-msgstr "BTC/AUD"
+msgstr "BTC/AED"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/KWD"
-msgstr "LTC/NZD"
+msgstr "LTC/KWD"
 
-#, fuzzy
-#| msgid "BTC/SEK"
 msgid "BCH/SEK"
-msgstr "BTC/SEK"
+msgstr "BCH/SEK"
 
-#, fuzzy
-#| msgid "BTC/MXN"
 msgid "BCH/MXN"
-msgstr "BTC/MXN"
+msgstr "BCH/MXN"
 
 msgid "LTC/GBP"
 msgstr "LTC/GBP"
@@ -2756,31 +2461,23 @@ msgstr "GBP/CAD"
 msgid "USD/CHF"
 msgstr "USD/CHF"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/HKD"
-msgstr "ETH/AUD"
+msgstr "ETH/HKD"
 
 msgid "BTC/JPY"
 msgstr "BTC/JPY"
 
-#, fuzzy
-#| msgid "ETC/CHF"
 msgid "ETC/CZK"
-msgstr "ETC/CHF"
+msgstr "ETC/CZK"
 
-#, fuzzy
-#| msgid "ETH/NOK"
 msgid "ETH/BRO"
-msgstr "ETH/NOK"
+msgstr "ETH/BRO"
 
 msgid "ETC/CAD"
 msgstr "ETC/CAD"
 
-#, fuzzy
-#| msgid "GBP/BRL"
 msgid "BCH/BRL"
-msgstr "GBP/BRL"
+msgstr "BCH/BRL"
 
 msgid "AUD/USD"
 msgstr "AUD/USD"
@@ -2791,16 +2488,14 @@ msgstr "GBP/CHF"
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
 
-#, fuzzy
-#| msgid "ETH/GBP"
 msgid "ETH/EGP"
-msgstr "ETH/GBP"
+msgstr "ETH/EGP"
 
 msgid "BCH/RUB"
-msgstr ""
+msgstr "BCH/RUB"
 
 msgid "BCH/XPT"
-msgstr ""
+msgstr "BCH/XPT"
 
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
@@ -2808,21 +2503,17 @@ msgstr "AUD/CAD"
 msgid "USD/HKD"
 msgstr "USD/HKD"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/ZAR"
-msgstr "LTC/NZD"
+msgstr "LTC/ZAR"
 
 msgid "EUR/MXN"
 msgstr "EUR/MXN"
 
-#, fuzzy
-#| msgid "ETC/GBP"
 msgid "ETC/XAG"
-msgstr "ETC/GBP"
+msgstr "ETC/XAG"
 
 msgid "BCH/XAG"
-msgstr ""
+msgstr "BCH/XAG"
 
 msgid "GBP/HKD"
 msgstr "GBP/HKD"
@@ -2830,25 +2521,17 @@ msgstr "GBP/HKD"
 msgid "ETC/JPY"
 msgstr "ETC/JPY"
 
-#, fuzzy
-#| msgid "GBP/HKD"
 msgid "BCH/HKD"
-msgstr "GBP/HKD"
+msgstr "BCH/HKD"
 
-#, fuzzy
-#| msgid "LTC/CHF"
 msgid "LTC/CZK"
-msgstr "LTC/CHF"
+msgstr "LTC/CZK"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/AED"
-msgstr "ETH/AUD"
+msgstr "ETH/AED"
 
-#, fuzzy
-#| msgid "BTC/GBP"
 msgid "BCH/GBP"
-msgstr "BTC/GBP"
+msgstr "BCH/GBP"
 
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
@@ -2859,26 +2542,20 @@ msgstr "BTC/PLN"
 msgid "USD/TRY"
 msgstr "USD/TRY"
 
-#, fuzzy
-#| msgid "LTC/NZD"
 msgid "LTC/HKD"
-msgstr "LTC/NZD"
+msgstr "LTC/HKD"
 
 msgid "USD/PLN"
 msgstr "USD/PLN"
 
-#, fuzzy
-#| msgid "ETH/AUD"
 msgid "ETH/RUB"
-msgstr "ETH/AUD"
+msgstr "ETH/RUB"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/IDR"
-msgstr "BTC/EUR"
+msgstr "BTC/IDR"
 
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
@@ -2892,10 +2569,8 @@ msgstr "USD/MXN"
 msgid "CHF/JPY"
 msgstr "CHF/JPY"
 
-#, fuzzy
-#| msgid "GBP/INR"
 msgid "BCH/INR"
-msgstr "GBP/INR"
+msgstr "BCH/INR"
 
 msgid "ETH/NZD"
 msgstr "ETH/NZD"
@@ -2903,10 +2578,8 @@ msgstr "ETH/NZD"
 msgid "ETH/CAD"
 msgstr "ETH/CAD"
 
-#, fuzzy
-#| msgid "BTC/EUR"
 msgid "BTC/BRL"
-msgstr "BTC/EUR"
+msgstr "BTC/BRL"
 
 msgid "BTC/NOK"
 msgstr "BTC/NOK"
@@ -2963,9 +2636,6 @@ msgstr "Indice Portugal"
 
 msgid "Brazilian OTC Index"
 msgstr "Indice OTC Brésil"
-
-msgid "Wall Street Index"
-msgstr "Indice Wall Street"
 
 msgid "Saudi Arabia Index"
 msgstr "Indice Arabie saoudite"
@@ -3041,10 +2711,8 @@ msgstr "Indice Istanbul"
 msgid "Irish OTC Index"
 msgstr "Indice OTC Irlande"
 
-#, fuzzy
-#| msgid "Euro 150 OTC Index"
 msgid "Euro 50 OTC Index"
-msgstr "Indice OTC Euro 150"
+msgstr "Indice Euro 50 OTC"
 
 msgid "Belgian Index"
 msgstr "Indice Belgique"
@@ -3104,10 +2772,8 @@ msgstr "Indice OTC Jakarta"
 msgid "Swedish Index"
 msgstr "Indice Suède"
 
-#, fuzzy
-#| msgid "US OTC Index"
 msgid "US 100 OTC Index"
-msgstr "Indice OTC États-Unis"
+msgstr "Indice US 100 OTC"
 
 msgid "Euro 100 OTC Index"
 msgstr "Indice OTC Euro 100"
@@ -3143,16 +2809,11 @@ msgstr "Indice OTC Arabie saoudite"
 msgid "Swiss Index"
 msgstr "Indice Suisse"
 
-msgid "UK OTC Index"
-msgstr "Indice OTC Royaume-Uni"
-
 msgid "Hong Kong Index"
 msgstr "Indice Hong-Kong"
 
-#, fuzzy
-#| msgid "South African Index"
 msgid "South African OTC Index"
-msgstr "Indice Afrique du Sud"
+msgstr "Indice OTC sud-africain"
 
 msgid "German Smart Index"
 msgstr "Indice Intelligent Allemagne"
@@ -3258,9 +2919,6 @@ msgstr "Novartis"
 
 msgid "Berkshire Hathaway"
 msgstr "Berkshire Hathaway"
-
-msgid "Commonwealth Bank"
-msgstr ""
 
 msgid "Anglo American plc"
 msgstr "Anglo American plc"
@@ -3442,9 +3100,6 @@ msgstr "Volkswagen AG"
 msgid "Barclays"
 msgstr "Barclays"
 
-msgid "Macquarie Group"
-msgstr ""
-
 msgid "TELSTRA CORPORATION LIMITED"
 msgstr "TELSTRA CORPORATION LIMITED"
 
@@ -3625,14 +3280,8 @@ msgstr "SUNCORP GROUP LIMITED"
 msgid "Reliance Industries"
 msgstr "Reliance Industries"
 
-msgid "BHP Billiton"
-msgstr "BHP Billiton"
-
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
-
-msgid "Tata Motors"
-msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3789,11 +3438,6 @@ msgstr "IBM"
 
 msgid "Pfizer Inc"
 msgstr "Pfizer Inc"
-
-#, fuzzy
-#| msgid "ANZ Banking Group Ltd"
-msgid "ANZ Banking Group"
-msgstr "ANZ Banking Group Ltd"
 
 msgid "British American Tobacco"
 msgstr "British American Tobacco"
@@ -3959,9 +3603,6 @@ msgstr "Palo Alto Networks Inc."
 
 msgid "Societe Generale"
 msgstr "Societe Generale"
-
-msgid "Qantas Airways"
-msgstr ""
 
 msgid "General Electric Co"
 msgstr "General Electric Co"
@@ -4416,167 +4057,113 @@ msgstr "{JAPAN ONLY}Margin FX"
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
 
-#, fuzzy
-#| msgid "Win payout if %3 is higher than or equal to %6 at %5 after %4."
 msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 est supérieur ou égal à %6 à %5, après %4."
+msgstr "Emportez un gain si %1 est supérieur ou égal de %4 à %3 après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 goes outside %7 and %6 through %5 after %4."
 msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
-msgstr "Vous percevez le paiement si %3 sort de la zone de %7 à %6 pendant la période allant jusqu'au %5, après %4."
+msgstr "Emportez un gain si %1 va à l'extérieur de %5 et %4 à travers %3 après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly lower than %6."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
-msgstr "Vous percevez le paiement si %3 est strictement inférieur à %6 après %plural(%5,%d tick,%d ticks)."
+msgstr "Vous percevez le versement si %1 après %plural(%3,%d tick,%d ticks) est strictement inférieure à %4."
 
-#, fuzzy
-#| msgid "Win payout if %3 does not touch %6 through %5 after %4."
 msgid "Win payout if %1 does not touch %4 through %3 after %2."
-msgstr "Vous percevez le paiement si %3 ne touche pas %6 pendant la période allant jusqu'au %5, après %4."
+msgstr "Vous percevez le paiement si %1 ne touche pas %4 pendant la période allant jusqu'au %3, après %2."
 
 msgid "entry spot plus %1"
 msgstr "point d'entrée plus %1"
 
-#, fuzzy
-#| msgid "Win payout if %3 is lower than or equal to %6 at %5 after %4."
 msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 est inférieur ou égal à %6 à %5, après %4."
+msgstr "Vous percevez le paiement si %1 est inférieur ou égal à %4 à %3, après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 goes outside %7 to %6 through %5."
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
-msgstr "Vous percevez le paiement si %3 sort de la zone de %7 à %6 pendant la période allant jusqu'au %5."
+msgstr "Vous percevez le paiement si %1 sort de la zone de %5 à %4 pendant la période allant jusqu'au %3."
 
-#, fuzzy
-#| msgid "Win payout if %3 is strictly lower than %6 at %5."
 msgid "Win payout if %1 is strictly lower than %4 at %3."
-msgstr "Vous percevez le paiement si %3 est strictement inférieur à %6 à %5."
+msgstr "Vous percevez le paiement si %1 est strictement inférieur à %4 à %3."
 
 msgid "first tick"
 msgstr "premier tick"
 
-#, fuzzy
-#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
-msgstr "Vous percevez le paiement si %3 après %plural(%5,%d tick,%d ticks) est supérieur ou égal à %6."
+msgstr "Vous percevez le paiement si %1 après %plural(%3,%d tick,%d ticks) est supérieur ou égal à %4."
 
 msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
-msgstr ""
+msgstr "Recevez la différence entre la valeur maximale de %1 pendant la durée de vie de l'option et %4 à %3 après %2."
 
 msgid "entry spot plus %plural(%1,%d pip, %d pips)"
 msgstr "point d'entrée plus %plural(%1,%d pip, %d pips)"
 
-#, fuzzy
-#| msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
 msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 est strictement supérieur à %6 à %5, après %4."
+msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 à %3, après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends outside %7 to %6 at %5."
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
-msgstr "Vous percevez le paiement si %3 termine hors de la zone de %7 à %6 à %5."
+msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 à %3."
 
 msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
-msgstr ""
+msgstr "Recevez la différence entre la valeur finale de %1 et sa valeur minimale au cours de la vie de l’option à %3 après 2 %."
 
 msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
-msgstr ""
+msgstr "Recevoir la différence entre la valeur maximale de %1 au cours de la vie de l’option et sa valeur finale à %3 après 2 %."
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %3 is not %6 after %plural(%5,%d tick,%d ticks)."
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
-msgstr "Vous percevez le paiement si le dernier chiffre de %3 n'est pas %6 après %plural(%5,%d tick,%d ticks)."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 n'est pas %4 après %plural(%3,%d tick,%d ticks)."
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %3 is strictly higher than %6 after %5 ticks."
 msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
-msgstr "Vous percevez le paiement si le dernier chiffre de %3 est strictement supérieur à %6 après %5 ticks."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 est strictement supérieur à %4 après %3 ticks."
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %3 is odd after %5 ticks."
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
-msgstr "Vous percevez le paiement si le dernier chiffre de %3 est impair après %5 ticks."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 est impair après %3 ticks."
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %3 is even after %5 ticks."
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
-msgstr "Vous percevez le paiement si le dernier chiffre de %3 est pair après %5 ticks."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 est pair après %3 ticks."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends strictly between %7 to %6 at %5."
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
-msgstr "Vous percevez le paiement si %3 termine strictement dans la zone de %7 à %6 à %5."
+msgstr "Vous percevez le paiement si %1 termine strictement dans la zone de %5 à %4 à %3."
 
-#, fuzzy
-#| msgid "Win payout if %3 touches %6 through %5."
 msgid "Win payout if %1 touches %4 through %3."
-msgstr "Vous percevez le paiement si %3 touche %6 pendant la période allant jusqu'au %5."
+msgstr "Vous percevez le paiement si %1 touche %4 pendant la période allant jusqu'au %3."
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %3 is strictly lower than %6 after %5 ticks."
 msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
-msgstr "Vous percevez le paiement si le dernier chiffre de %3 est strictement inférieur à %6 après %5 ticks."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 est strictement inférieur à %4 après %3 ticks."
 
 msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-msgstr ""
+msgstr "Recevez la différence entre la valeur finale de %1 et sa valeur minimale au cours de la vie de l’option à %3 après 2 %.'"
 
-#, fuzzy
-#| msgid "Win payout if %3 is higher than or equal to %6 at %5."
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
-msgstr "Vous percevez le paiement si %3 est supérieur ou égal à %6 à %5."
+msgstr "Vous percevez le paiement si %1 est supérieur ou égal à %4 à %3."
 
-#, fuzzy
-#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is lower than or equal to %6."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
-msgstr "Vous percevez le paiement si %3 après %plural(%5,%d tick,%d ticks) est inférieur ou égal à %6."
+msgstr "Vous percevez le paiement si %1 après %plural(%3,%d tick,%d ticks) est inférieur ou égal à %4."
 
-#, fuzzy
-#| msgid "Win payout if %3 does not touch %6 through %5."
 msgid "Win payout if %1 does not touch %4 through %3."
-msgstr "Vous percevez le paiement si %3 ne touche pas %6 pendant la période allant jusqu'au %5."
+msgstr "Vous percevez le paiement si %1 ne touche pas %4 pendant la période allant jusqu'au %3."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends on or between %7 to %6 at %5 after %4."
 msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 termine strictement sur ou entre %7 et %6 à %5, après %4."
+msgstr "Vous percevez le paiement si %1 termine strictement sur ou entre %5 et %4 à %3, après %2."
 
 msgid "entry spot"
 msgstr "point d'entrée"
 
 msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
-msgstr ""
+msgstr "Recevez la différence entre les valeurs maximum et minimum de %1 pendant la durée de vie de l'option à %3 après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends on or between %7 to %6 at %5."
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
-msgstr "Vous percevez le paiement si %3 termine strictement sur ou entre %7 et %6 à %5."
+msgstr "Vous percevez le paiement si %1 termine strictement sur ou entre %5 et %4 à %3."
 
-#, fuzzy
-#| msgid "Win payout if %3 stays between %7 to %6 through %5."
 msgid "Win payout if %1 stays between %5 to %4 through %3."
-msgstr "Vous percevez le paiement si %3 reste dans la zone de %7 à %6 pendant la période allant jusqu'au %5."
+msgstr "Vous percevez le paiement si %1 reste dans la zone de %5 à %4 pendant la période allant jusqu'au %3."
 
-#, fuzzy
-#| msgid "Win payout if %3 stays between %7 and %6 through %5 after %4."
 msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
-msgstr "Vous percevez le paiement si %3 reste dans la zone de %7 à %6 pendant la période allant jusqu'au %5, après %4."
+msgstr "Vous percevez le paiement si %1 reste dans la zone de %5 à %4 pendant la période allant jusqu'au %3, après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends on or outside %7 to %6 at %5."
 msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
-msgstr "Vous percevez le paiement si %3 termine hors de la zone de %7 à %6 ou sur ces valeurs limites, à %5."
+msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 ou sur ces valeurs limites, à %3."
 
-#, fuzzy
-#| msgid "Win payout if %3 is lower than or equal to %6 at %5."
 msgid "Win payout if %1 is lower than or equal to %4 at %3."
-msgstr "Vous percevez le paiement si %3 est inférieur ou égal à %6 à %5."
+msgstr "Vous percevez le paiement si %1 est inférieur ou égal à %4 à %3."
 
-#, fuzzy
-#| msgid "Win payout if the last tick of %3 is strictly lower than the average of the %plural(%5,%d tick,%d ticks)."
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "Vous percevez le paiement si le dernier tick de %3 est strictement inférieur à la moyenne des %plural(%5,%d tick,%d ticks)."
+msgstr "Vous percevez le paiement si le dernier tick de %1 est strictement inférieur à la moyenne des %plural(%3,%d tick,%d ticks)."
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "point d'entrée moins %plural(%1,%d pip, %d pips)"
@@ -4584,35 +4171,23 @@ msgstr "point d'entrée moins %plural(%1,%d pip, %d pips)"
 msgid "Legacy contract. No further information is available."
 msgstr "Contrat antérieur. Pas d'informations supplémentaires disponibles."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends on or outside %7 to %6 at %5 after %4."
 msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 termine hors de la zone de %7 à %6 ou sur ces valeurs limites, à %5 et après %4."
+msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 ou sur ces valeurs limites, à %3 et après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 is strictly lower than %6 at %5 after %4."
 msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 est strictement inférieur à %6 à %5, après %4."
+msgstr "Vous percevez le paiement si %1 est strictement inférieur à %4 à %3, après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
-msgstr "Vous percevez le paiement si %3 est strictement supérieur à %6 après %plural(%5,%d tick,%d ticks)."
+msgstr "Vous percevez le paiement si %1 est strictement supérieur à %3 après %plural(%4,%d tick,%d ticks)."
 
-#, fuzzy
-#| msgid "Win payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
 msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "Vous percevez le paiement si le dernier tick de %3 est strictement supérieur à la moyenne des %plural(%5,%d tick,%d ticks)."
+msgstr "Vous percevez le paiement si le dernier tick de %1 est strictement supérieur à la moyenne des %plural(%3,%d tick,%d ticks)."
 
-#, fuzzy
-#| msgid "Win payout if %3 is strictly higher than %6 at %5."
 msgid "Win payout if %1 is strictly higher than %4 at %3."
-msgstr "Vous percevez le paiement si %3 est strictement supérieur à %6 à %5."
+msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 à %3."
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %3 is %6 after %plural(%5,%d tick,%d ticks)."
 msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
-msgstr "Vous percevez le paiement si le dernier chiffre de %3 est %6 après %plural(%5,%d tick,%d ticks)."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 est %4 après %plural(%3,%d tick,%d ticks)."
 
 msgid "contract start time"
 msgstr "heure de début du contrat"
@@ -4623,20 +4198,14 @@ msgstr "point d'entrée moins %1"
 msgid "close on %1"
 msgstr "clôturer le %1"
 
-#, fuzzy
-#| msgid "Win payout if %3 touches %6 through %5 after %4."
 msgid "Win payout if %1 touches %4 through %3 after %2."
-msgstr "Vous percevez le paiement si %3 touche %6 pendant la période allant jusqu'au %5, après %4."
+msgstr "Vous percevez le paiement si %1 touche %4 pendant la période allant jusqu'au %3, après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends strictly between %7 to %6 at %5 after %4."
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 termine strictement dans la zone de %7 à %6 à %5, après %4."
+msgstr "Vous percevez le paiement si %1 termine strictement dans la zone de %5 à %4 à %3, après %2."
 
-#, fuzzy
-#| msgid "Win payout if %3 ends outside %7 to %6 at %5 after %4."
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %3 termine hors de la zone de %7 à %6 à %5, après %4."
+msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 à %3, après %2."
 
 msgid "Entry Spot"
 msgstr "Point d'Entrée"
@@ -4647,18 +4216,14 @@ msgstr "Moment de Fin"
 msgid "Start Time"
 msgstr "Heure de début"
 
-#, fuzzy
-#| msgid " and "
 msgid "%1 and %2"
-msgstr " et "
+msgstr "%1 et %2"
 
 msgid "Exit Spot"
 msgstr "Point de Sortie"
 
-#, fuzzy
-#| msgid "Closing Price"
 msgid "Closing Spot"
-msgstr "Prix de clôture"
+msgstr "Spot de clôture"
 
 msgid "Absolute barrier cannot be zero."
 msgstr "La barrière absolue ne peut pas être zéro."
@@ -4672,10 +4237,8 @@ msgstr "Cette opération n'est pas disponible pour cette durée."
 msgid "We could not process this contract at this time."
 msgstr "Nous n'avons pas pu traiter ce contrat pour le moment."
 
-#, fuzzy
-#| msgid "Invalid duration entered."
 msgid "Invalid duration (tick) for contract type (%1)."
-msgstr "Durée non valide entrée."
+msgstr "Durée invalide (tick) pour le type de contrat (%1)."
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "La barrière supérieure ne se situe pas dans la plage autorisée. Veuillez ajuster la barrière supérieure."
@@ -4686,15 +4249,11 @@ msgstr "Les activités de trading sont suspendues en raison de données de march
 msgid "Expiry time cannot be equal to start time."
 msgstr "L'heure d'expiration ne peut être identique à l'heure de début."
 
-#, fuzzy
-#| msgid "The ICO auction is already closed."
 msgid "The ICO has not yet started."
-msgstr "Les enchères ICO sont déjà fermées."
+msgstr "L’ICO n’a pas encore démarré."
 
-#, fuzzy
-#| msgid "Missing required contract parameters. (%1)"
 msgid "Missing required contract parameters (%1)."
-msgstr "Paramètres du contrat requis manquants. (%1)"
+msgstr "Paramètres de contrat requis manquants (1 %)."
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Le nombre de ticks doit se situer entre %1 et %2."
@@ -4729,6 +4288,11 @@ msgstr "Trop de jours fériés pendant la période de contrat."
 msgid "Barriers could not be determined."
 msgstr "Des barrières n'ont pas pu être établies."
 
+#, fuzzy
+#| msgid "Sorry, your payment could not be processed at this time."
+msgid "Sorry, your request could not be processed at this moment."
+msgstr "Désolé, votre paiement ne peut pas être traité pour le moment."
+
 msgid "Contract barrier must be positive."
 msgstr "La barrière doit être positive."
 
@@ -4751,22 +4315,18 @@ msgid "Number of token placed must be between %1 and %2."
 msgstr "Le nombre de jetons placés doit se situer entre %1 et %2."
 
 #, fuzzy
-#| msgid "Your bid price is too low, the minimum bid price is USD1 (or equivalent in other currency)."
-msgid "Sorry, but your bid is too low. The minimum bid allowed is USD1 (or its equivalent in another currency)."
-msgstr "Votre prix d'enchère est trop bas, le minimum de prix d'enchère est USD1 (ou équivalent dans une autre devise)."
+#| msgid "Sorry, but your bid is too low. The minimum bid allowed is USD %1 (or its equivalent in another currency)."
+msgid "Sorry, but the bid per token is too low. The minimum bid per token allowed is USD %1 (or its equivalent in another currency)."
+msgstr "Désolé, mais votre enchère est trop faible. L'offre minimal autorisée est de USD %1 (ou son équivalent dans une autre devise)."
 
 msgid "An error occurred during contract settlement."
 msgstr "Une erreur s’est produite au cours de l’établissement du contrat."
 
-#, fuzzy
-#| msgid "This contract is unavailable on this account."
 msgid "The ICO is not available for the account."
-msgstr "Ce contrat est indisponible sur ce compte."
+msgstr "L’ICO n’est pas disponible pour le compte."
 
-#, fuzzy
-#| msgid "The ICO auction is already closed."
 msgid "The ICO is now closed."
-msgstr "Les enchères ICO sont déjà fermées."
+msgstr "L'ICO est maintenant fermée."
 
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "La cotation est suspendue par manque de données sur le marché (dividende)."
@@ -4825,10 +4385,8 @@ msgstr "Les contrats négociés sur ce marché ayant une période d'activité de
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "Pour les contrats prenant effet dans le futur, l'heure de début doit être fixée plus de 5 minutes après l'heure actuelle."
 
-#, fuzzy
-#| msgid "Invalid barrier. (%1)"
 msgid "Invalid barrier (%1)."
-msgstr "Barrière non valide. (%1)"
+msgstr "Barrière non valide (%1)."
 
 msgid "This contract offers no return."
 msgstr "Ce contrat n'offre aucun retour sur investissement."
@@ -4865,6 +4423,23 @@ msgstr "Les activités de trading sont suspendues en raison de données de march
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Les contrats négociés sur ce marché ayant une période d'activité de moins de 24 heures doivent expirer au cours de la même séance."
+
+#~ msgid "Wall Street Index"
+#~ msgstr "Indice Wall Street"
+
+#~ msgid "UK OTC Index"
+#~ msgstr "Indice OTC Royaume-Uni"
+
+#~ msgid "BHP Billiton"
+#~ msgstr "BHP Billiton"
+
+#~ msgid "Tata Motors"
+#~ msgstr "Tata Motors"
+
+#, fuzzy
+#~| msgid "ANZ Banking Group Ltd"
+#~ msgid "ANZ Banking Group"
+#~ msgstr "ANZ Banking Group Ltd"
 
 #~ msgid "Buy"
 #~ msgstr "Acheter"
@@ -8674,9 +8249,6 @@ msgstr "Les contrats négociés sur ce marché ayant une période d'activité de
 #~ msgid "Binary opens Japan office"
 #~ msgstr "Binary ouvre une antenne au Japon"
 
-#~ msgid "Binary option"
-#~ msgstr "Option binaire"
-
 #~ msgid "Binary options are easy to understand. They’re called ‘binary’ because there can be only two outcomes – win or lose. If your prediction is correct, you receive a payout that is determined at the start of the trade. If not, you just lose your initial stake."
 #~ msgstr "Les Options Binaires sont simples à comprendre. Elles sont appelées 'binaires' parce qu'il ne peut y avoir seulement deux issues - gagner ou perdre. Si votre prédiction est correcte, vous recevez un gain qui est déterminé au début du trade. Sinon, vous perdez seulement votre mise initial"
 
@@ -10751,9 +10323,6 @@ msgstr "Les contrats négociés sur ce marché ayant une période d'activité de
 
 #~ msgid "Market Opinions"
 #~ msgstr "Opinions du marché"
-
-#~ msgid "Market Professionals"
-#~ msgstr "Professionnels du Marché"
 
 #~ msgid "Market exit price"
 #~ msgstr "Prix final du marché"
@@ -13758,9 +13327,6 @@ msgstr "Les contrats négociés sur ce marché ayant une période d'activité de
 
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "Désolé, vous ne pouvez pas retirer."
-
-#~ msgid "Sorry, your payment could not be processed at this time."
-#~ msgstr "Désolé, votre paiement ne peut pas être traité pour le moment."
 
 #~ msgid "Stays Between/Goes Outside"
 #~ msgstr "Reste Entre/Sort De"
