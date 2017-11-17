@@ -851,9 +851,6 @@ msgstr "Weryfikacja danych wyjściowych nie powiodła się: "
 msgid "P.O. Box is not accepted in address."
 msgstr "Adresy nie mogą zawierać numerów skrytek pocztowych."
 
-msgid "Parameters sanity check failed."
-msgstr "Sprawdzanie poprawności parametrów nie powiodło się."
-
 msgid "Password"
 msgstr "Hasło"
 
@@ -1100,9 +1097,6 @@ msgstr "Zbyt częste żądanie. Prosimy spróbować później."
 msgid "Requested professional status"
 msgstr "Poproszono o status profesjonalny"
 
-msgid "Response too large."
-msgstr "Odpowiedź jest za długa."
-
 msgid "Review Permissions"
 msgstr "Przejrzyj pozwolenia"
 
@@ -1289,9 +1283,6 @@ msgstr "Rachunek musi być założony na Twoje imię i nazwisko i odpowiadać da
 msgid "The address can be only used once. Please generate a new address."
 msgstr "Adres można wykorzystać tylko raz. Proszę wygenerować nowy adres."
 
-msgid "The application sent an invalid request."
-msgstr "Aplikacja wysłała niewłaściwe żądanie."
-
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Kontrakt %4 zmienił się z %2 %1 na %3 %1."
 
@@ -1418,11 +1409,6 @@ msgstr "Ta funkcja nie jest dostępna dla kont wyłącznie na potrzeby ICO."
 msgid "This market is presently closed."
 msgstr "Rynek jest obecnie zamknięty."
 
-#, fuzzy
-#| msgid "Time"
-msgid "Timeout"
-msgstr "Godzina"
-
 msgid "Timeout from the website until"
 msgstr "Wyłączenie z portalu do dnia"
 
@@ -1494,11 +1480,6 @@ msgstr "Spółka odpowiedzialna za prowadzenie konta jest nieznana."
 
 msgid "Unknown payment method."
 msgstr "Nieznana metoda płatności."
-
-#, fuzzy
-#| msgid "Unrecognised request."
-msgid "Unrecognised request"
-msgstr "Nie rozpoznano żądania."
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "Nieobsługiwana klasa zakładów $bet_params->{bet_class}"
@@ -4111,20 +4092,20 @@ msgstr "Wypłata nastąpi, pod warunkiem że %1 przekroczy %5 do %4 przez: %3."
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %1 będzie dokładnie niższy niż %4: %3."
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
-msgstr "Wypłata nastąpi pod warunkiem, że %1 po %plural(%3,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny) jest wyższy lub równy %4."
-
 msgid "first tick"
 msgstr "pierwsza najmniejsza zmiana ceny"
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
+msgstr "Wypłata nastąpi pod warunkiem, że %1 po %plural(%3,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny) jest wyższy lub równy %4."
 
 msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
 msgstr "Otrzymaj różnicę maksymalnej wartości %1 w czasie obowiązywania opcji i %4: %3 po %2."
 
-msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
-msgstr "Wypłata nastąpi pod warunkiem, że %1 będzie dokładnie wyższy niż %4 o %3 po %2."
-
 msgid "entry spot plus %plural(%1,%d pip, %d pips)"
 msgstr "punkt wejściowy plus %plural(%1,%d wartość procentowa w pkt., %d wartości procentowe w pkt., %d wartości procentowych w pkt.)"
+
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgstr "Wypłata nastąpi pod warunkiem, że %1 będzie dokładnie wyższy niż %4 o %3 po %2."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %1 zakończy się poza %5 do %4: %3."
@@ -4207,11 +4188,11 @@ msgstr "Wypłata nastąpi, pod warunkiem że %1 zakończy się poza zakresem %5 
 msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "Wypłata nastąpi, pod warunkiem że %1 będzie dokładnie niższe niż %4: %3 po %2."
 
-msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "Wypłata nastąpi, pod warunkiem że ostatnia najmniejsza zmiana ceny %1 będzie dokładnie wyższa niż średnia %plural(%3,%d najmniejszej zmiany ceny,%d najmniejszych zmian ceny,%d najmniejszych zmian ceny)."
-
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
 msgstr "Wypłata nastąpi pod warunkiem, że %1 po %plural(%3,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny) będzie dokładnie wyższy niż %4."
+
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Wypłata nastąpi, pod warunkiem że ostatnia najmniejsza zmiana ceny %1 będzie dokładnie wyższa niż średnia %plural(%3,%d najmniejszej zmiany ceny,%d najmniejszych zmian ceny,%d najmniejszych zmian ceny)."
 
 msgid "Win payout if %1 is strictly higher than %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %1 będzie dokładnie wyższy niż %4 o %3."
@@ -7136,6 +7117,18 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "Invalid candles request"
 #~ msgstr "Nieprawidłowe żądanie dot. wykresu świecowego"
+
+#~ msgid "Parameters sanity check failed."
+#~ msgstr "Sprawdzanie poprawności parametrów nie powiodło się."
+
+#~ msgid "Response too large."
+#~ msgstr "Odpowiedź jest za długa."
+
+#~ msgid "The application sent an invalid request."
+#~ msgstr "Aplikacja wysłała niewłaściwe żądanie."
+
+#~ msgid "Unrecognised request."
+#~ msgstr "Nie rozpoznano żądania."
 
 #~ msgid "Trading is suspended at the moment."
 #~ msgstr "Handel jest w tej chwili wstrzymany."
@@ -12119,6 +12112,9 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "Tier"
 #~ msgstr "Poziom"
+
+#~ msgid "Time"
+#~ msgstr "Godzina"
 
 #~ msgid "Times are changing. We increase payouts so our clients can make the most of their winning trades."
 #~ msgstr "Czasy się zmieniają. Zwiększamy wypłaty, dzięki czemu nasi klienci mogą maksymalnie korzystać ze swoich wygranych zakładów."
