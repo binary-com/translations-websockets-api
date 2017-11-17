@@ -853,6 +853,9 @@ msgstr "Fallo de validación del rendimiento: "
 msgid "P.O. Box is not accepted in address."
 msgstr "No se acepta la casilla de correo postal en una dirección."
 
+msgid "Parameters sanity check failed."
+msgstr "La comprobación de los parámetros de validez falló."
+
 msgid "Password"
 msgstr "Contraseña"
 
@@ -1101,6 +1104,9 @@ msgstr "Solicitud demasiado frecuente. Por favor Inténtalo más tarde."
 msgid "Requested professional status"
 msgstr "Situación profesional solicitada"
 
+msgid "Response too large."
+msgstr "Respuesta demasiado larga."
+
 msgid "Review Permissions"
 msgstr "Revisar Permisos"
 
@@ -1287,6 +1293,9 @@ msgstr "La cuenta debe estar a su nombre y coincidir con los detalles de su cuen
 msgid "The address can be only used once. Please generate a new address."
 msgstr "La dirección solo se puede usar una vez. Por favor, ingrese una nueva dirección."
 
+msgid "The application sent an invalid request."
+msgstr "La aplicación envió una solicitud no válida."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "El %4 de contrato ha cambiado a su favor de %1%2 a %1%3."
 
@@ -1421,6 +1430,11 @@ msgstr "Esta característica no es relevante para cuentas de dinero virtual."
 msgid "This market is presently closed."
 msgstr "Este mercado está cerrado."
 
+#, fuzzy
+#| msgid "Time"
+msgid "Timeout"
+msgstr "Hora"
+
 msgid "Timeout from the website until"
 msgstr "Pausa del sitio web hasta"
 
@@ -1496,6 +1510,11 @@ msgstr "Compañía de destino desconocida."
 #| msgid "View payment methods"
 msgid "Unknown payment method."
 msgstr "Ver las formas de pago"
+
+#, fuzzy
+#| msgid "Unrecognised request."
+msgid "Unrecognised request"
+msgstr "Solicitud no reconocida."
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "Clase de apuesta no compatible $bet_params->{bet_class}"
@@ -4399,24 +4418,24 @@ msgstr "Gane si %3 sale fuera del rango de %7 a %6 hasta el %5."
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "Gane si %3 es estrictamente inferior a %6 a la hora del %5."
 
-msgid "first tick"
-msgstr "primer intervalo"
-
 #, fuzzy
 #| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is higher than or equal to %6."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
 msgstr "Pago de %3 si después de los %plural(%5,%d intervalo,%d intervalos) es mayor o igual a %6."
 
+msgid "first tick"
+msgstr "primer intervalo"
+
 msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
 msgstr ""
-
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "punto de entrada positivo %plural(%1,%d pip, %d pips)"
 
 #, fuzzy
 #| msgid "Win payout if %3 is strictly higher than %6 at %5 after %4."
 msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgstr "Gane si %3 es estrictamente mayor a %6 a %5 después de %4."
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "punto de entrada positivo %plural(%1,%d pip, %d pips)"
 
 #, fuzzy
 #| msgid "Win payout if %3 ends outside %7 to %6 at %5."
@@ -4540,14 +4559,14 @@ msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "Gane si %3 es estrictamente inferior a %6 a la hora del %5 después de %4."
 
 #, fuzzy
-#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
-msgstr "Gane si %3 después de los %plural(%5,%d intervalo,%d intervalos) es estrictamente mayor a %6."
-
-#, fuzzy
 #| msgid "Win payout if the last tick of %3 is strictly higher than the average of the %plural(%5,%d tick,%d ticks)."
 msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "Gane si el último intervalo de %3 es estrictamente mayor a la media de los %plural(%5,%d intervalo,%d intervalos)."
+
+#, fuzzy
+#| msgid "Win payout if %3 after %plural(%5,%d tick,%d ticks) is strictly higher than %6."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgstr "Gane si %3 después de los %plural(%5,%d intervalo,%d intervalos) es estrictamente mayor a %6."
 
 #, fuzzy
 #| msgid "Win payout if %3 is strictly higher than %6 at %5."
@@ -7570,18 +7589,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Invalid candles request"
 #~ msgstr "Solicitud de velas no válida"
-
-#~ msgid "Parameters sanity check failed."
-#~ msgstr "La comprobación de los parámetros de validez falló."
-
-#~ msgid "Response too large."
-#~ msgstr "Respuesta demasiado larga."
-
-#~ msgid "The application sent an invalid request."
-#~ msgstr "La aplicación envió una solicitud no válida."
-
-#~ msgid "Unrecognised request."
-#~ msgstr "Solicitud no reconocida."
 
 #~ msgid "Trading is suspended at the moment."
 #~ msgstr "Por el momento, la comercialización está suspendida."
@@ -12566,9 +12573,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Tier"
 #~ msgstr "Nivel"
-
-#~ msgid "Time"
-#~ msgstr "Hora"
 
 #~ msgid "Times are changing. We increase payouts so our clients can make the most of their winning trades."
 #~ msgstr "Los tiempos están cambiando. Aumentamos los pagos para que nuestros clientes puedan sacar el máximo provecho de sus transacciones ganadoras."
