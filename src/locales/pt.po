@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-11-14 07:55+0000\n"
 "Last-Translator: Alcino Jorge <alcino@binary.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/binary-websocket/translations/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -846,6 +845,9 @@ msgstr "Falha na validação de saída: "
 msgid "P.O. Box is not accepted in address."
 msgstr "Caixas Postais ou Apartados não são aceitos como endereço."
 
+msgid "Parameters sanity check failed."
+msgstr "Falha na verificação de integridade de parâmetros."
+
 msgid "Password"
 msgstr "Senha"
 
@@ -1092,6 +1094,9 @@ msgstr "Solicitação muito frequente. Tente novamente mais tarde."
 msgid "Requested professional status"
 msgstr "Status profissional solicitado"
 
+msgid "Response too large."
+msgstr "Resposta demasiado grande."
+
 msgid "Review Permissions"
 msgstr "Rever permissões"
 
@@ -1278,6 +1283,9 @@ msgstr "A conta deve estar em seu nome e corresponder com os dados da sua conta 
 msgid "The address can be only used once. Please generate a new address."
 msgstr "O endereço só pode ser usado uma vez. Gere um novo endereço."
 
+msgid "The application sent an invalid request."
+msgstr "O aplicativo enviou uma solicitação inválida."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "O contrato %4 mudou a seu favor de %1%2 para %1%3."
 
@@ -1404,6 +1412,11 @@ msgstr "Isto não é compatível com uma conta somente para efeitos da OIM."
 msgid "This market is presently closed."
 msgstr "Este mercado está atualmente fechado."
 
+#, fuzzy
+#| msgid "Time"
+msgid "Timeout"
+msgstr "Tempo"
+
 msgid "Timeout from the website until"
 msgstr "Suspensão do website até"
 
@@ -1475,6 +1488,11 @@ msgstr "Empresa de destino desconhecida."
 
 msgid "Unknown payment method."
 msgstr "Método de pagamento desconhecido."
+
+#, fuzzy
+#| msgid "Unrecognised request."
+msgid "Unrecognised request"
+msgstr "Solicitação desconhecida."
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "Classe de aposta não suportado $bet_params->{bet_class}"
@@ -4085,20 +4103,20 @@ msgstr "Ganhe o prêmio se %1 sair fora de %5 a %4 até %3."
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "Ganhe o prêmio se %1 for estritamente inferior a %4 às %3."
 
-msgid "first tick"
-msgstr "primeiro tique-taque"
-
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
 msgstr "Ganhe o prêmio se %1 depois de %plural(%3,%d tique-taque,%d tique-taques) for superior ou igual a %4."
+
+msgid "first tick"
+msgstr "primeiro tique-taque"
 
 msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
 msgstr "Receba a diferença entre o valor máximo de %1 durante a vida da opção e %4 a %3 depois de %2."
 
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "preço inicial mais %plural(%1,%d pip, %d pips)"
-
 msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgstr "Ganhe o prêmio se %1 for estritamente superior a %4 às %3 depois de %2."
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "preço inicial mais %plural(%1,%d pip, %d pips)"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Ganhe o prêmio se %1 terminar fora de %5 a %4 às %3."
@@ -4181,11 +4199,11 @@ msgstr "Ganhe o prêmio se %1 terminar em ou fora de %5 a %4 às %3 depois de %2
 msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "Ganhe o prêmio se %1 for estritamente inferior a %4 às %3 depois de %2."
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
-msgstr "Ganhe o prêmio se %1 depois de %plural(%3,%d tique-taque,%d tique-taques) for estritamente superior a %4."
-
 msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "Ganhe o prêmio se o último tique-taque de %1 for estritamente superior à média de %plural(%3,%d tique-taque,%d tique-taques)."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgstr "Ganhe o prêmio se %1 depois de %plural(%3,%d tique-taque,%d tique-taques) for estritamente superior a %4."
 
 msgid "Win payout if %1 is strictly higher than %4 at %3."
 msgstr "Ganhe o prêmio se %1 for estritamente superior a %4 às %3."
@@ -4317,9 +4335,7 @@ msgid "Number of token placed must be between %1 and %2."
 msgstr "O número de tokens colocados deve ser entre %1 e %2."
 
 msgid "Sorry, but the bid per token is too low. The minimum bid per token allowed is USD %1 (or its equivalent in another currency)."
-msgstr ""
-"Lamentamos, mas a licitação por token é demasiado baixa. A licitação mínima "
-"permitida por token é %1 USD (ou o seu equivalente em outra moeda)."
+msgstr "Lamentamos, mas a licitação por token é demasiado baixa. A licitação mínima permitida por token é %1 USD (ou o seu equivalente em outra moeda)."
 
 msgid "An error occurred during contract settlement."
 msgstr "Ocorreu um erro durante a liquidação do contrato."
@@ -7125,18 +7141,6 @@ msgstr "Contratos neste mercado com uma duração inferior a um dia devem expira
 
 #~ msgid "Invalid candles request"
 #~ msgstr "Solicitação de candelabros inválida"
-
-#~ msgid "Parameters sanity check failed."
-#~ msgstr "Falha na verificação de integridade de parâmetros."
-
-#~ msgid "Response too large."
-#~ msgstr "Resposta demasiado grande."
-
-#~ msgid "The application sent an invalid request."
-#~ msgstr "O aplicativo enviou uma solicitação inválida."
-
-#~ msgid "Unrecognised request."
-#~ msgstr "Solicitação desconhecida."
 
 #~ msgid "Trading is suspended at the moment."
 #~ msgstr "A negociação está suspensa no momento."
@@ -12121,9 +12125,6 @@ msgstr "Contratos neste mercado com uma duração inferior a um dia devem expira
 
 #~ msgid "Tier"
 #~ msgstr "Nível"
-
-#~ msgid "Time"
-#~ msgstr "Tempo"
 
 #~ msgid "Times are changing. We increase payouts so our clients can make the most of their winning trades."
 #~ msgstr "Os tempos estão mudando. Nós aumentamos os pagamentos para que os nossos clientes possam aproveitar ao máximo suas negociações de sucesso."
