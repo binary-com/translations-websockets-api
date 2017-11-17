@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-11-14 08:37+0000\n"
 "Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.18-dev\n"
 
 msgid ""
@@ -851,6 +849,9 @@ msgstr "Проверка выходных данных не удалась: "
 msgid "P.O. Box is not accepted in address."
 msgstr "Адреса P.O.Box и а/я не принимаются."
 
+msgid "Parameters sanity check failed."
+msgstr "Не удалось проверить правильность параметров."
+
 msgid "Password"
 msgstr "Пароль"
 
@@ -1097,6 +1098,9 @@ msgstr "Слишком частые запросы. Пожалуйста, поп
 msgid "Requested professional status"
 msgstr "Запрошен профессиональный статус"
 
+msgid "Response too large."
+msgstr "Ответ слишком большой."
+
 msgid "Review Permissions"
 msgstr "Обзор права доступа"
 
@@ -1285,6 +1289,9 @@ msgstr "Счёт должен быть открыт на Ваше имя и ег
 msgid "The address can be only used once. Please generate a new address."
 msgstr "Адрес можно использовать только один раз. Сгенерируйте новый адрес."
 
+msgid "The application sent an invalid request."
+msgstr "Приложение отправило неверный запрос."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "%4 на контракт изменилась с %1%2 на %1%3."
 
@@ -1413,6 +1420,11 @@ msgstr "Данная функция недоступна на ICO-счетах."
 msgid "This market is presently closed."
 msgstr "Данный рынок сейчас закрыт."
 
+#, fuzzy
+#| msgid "Time"
+msgid "Timeout"
+msgstr "Время"
+
 msgid "Timeout from the website until"
 msgstr "Ограничение доступа к сайту до"
 
@@ -1484,6 +1496,11 @@ msgstr "Неизвестная компания."
 
 msgid "Unknown payment method."
 msgstr "Неправильно указан способ оплаты."
+
+#, fuzzy
+#| msgid "Unrecognised request."
+msgid "Unrecognised request"
+msgstr "Запрос не распознан."
 
 msgid "Unsupported bet class $bet_params->{bet_class}"
 msgstr "Неподдерживаемый вид ставки $bet_params->{bet_class}"
@@ -4101,20 +4118,20 @@ msgstr "Получить выплату, если %1 выйдет за гран�
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "Получить выплату, если %1 будет строго ниже, чем %4 во время %3."
 
-msgid "first tick"
-msgstr "первая котировка"
-
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
 msgstr "Получить выплату, если %1 после %plural(%3,%d тика, %d тиков, %d тиков) будет выше или равно %4."
+
+msgid "first tick"
+msgstr "первая котировка"
 
 msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
 msgstr "Получить разницу между макс. ценой %1 в течение длительности опциона и %4 через %3 после %2."
 
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "входная спот-котировка плюс %plural(%1,%d пункт, %d пункта, %d пунктов)"
-
 msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgstr "Получить выплату, если %1 будет строго выше, чем %4, через %3 после %2."
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "входная спот-котировка плюс %plural(%1,%d пункт, %d пункта, %d пунктов)"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Получить выплату, если %1 закончится вне диапазона от %5 до %4 во время %3."
@@ -4197,11 +4214,11 @@ msgstr "Получить выплату, если %1 окончится на о�
 msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "Получить выплату, если %1 будет строго ниже, чем %4, через %3 после %2."
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
-msgstr "Получить выплату, если %1 после %plural(%3,%d тика, %d тиков, %d тиков) будет строго выше, чем %4."
-
 msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "Получить выплату, если последняя котировка %1 будет строго выше, чем общее среднее значение %plural(%3,%d тик,%d тика,%d тиков)."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgstr "Получить выплату, если %1 после %plural(%3,%d тика, %d тиков, %d тиков) будет строго выше, чем %4."
 
 msgid "Win payout if %1 is strictly higher than %4 at %3."
 msgstr "Получить выплату, если %1 будет строго выше, чем %4 во время %3."
@@ -4340,9 +4357,7 @@ msgid "Number of token placed must be between %1 and %2."
 msgstr "Количество ключей должно быть от %1 до %2."
 
 msgid "Sorry, but the bid per token is too low. The minimum bid per token allowed is USD %1 (or its equivalent in another currency)."
-msgstr ""
-"Извините, но Ваша ставка за токен слишком низка. Минимальная ставка: USD %1 ("
-"или эквивалентная сумма в другой валюте)."
+msgstr "Извините, но Ваша ставка за токен слишком низка. Минимальная ставка: USD %1 (или эквивалентная сумма в другой валюте)."
 
 msgid "An error occurred during contract settlement."
 msgstr "При расчёте контракта возникла ошибка."
@@ -7159,18 +7174,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Invalid candles request"
 #~ msgstr "Неправильный запрос графика свечей"
-
-#~ msgid "Parameters sanity check failed."
-#~ msgstr "Не удалось проверить правильность параметров."
-
-#~ msgid "Response too large."
-#~ msgstr "Ответ слишком большой."
-
-#~ msgid "The application sent an invalid request."
-#~ msgstr "Приложение отправило неверный запрос."
-
-#~ msgid "Unrecognised request."
-#~ msgstr "Запрос не распознан."
 
 #~ msgid "Trading is suspended at the moment."
 #~ msgstr "В данный момент торги приостановлены."
@@ -12164,9 +12167,6 @@ msgstr "Контракты на данном рынке с длительнос�
 
 #~ msgid "Tier"
 #~ msgstr "Уровень"
-
-#~ msgid "Time"
-#~ msgstr "Время"
 
 #~ msgid "Times are changing. We increase payouts so our clients can make the most of their winning trades."
 #~ msgstr "Времена меняются. Мы увеличиваем выплаты, позволяя своим клиентам получить наилучший выигрыш от своих контрактов."
