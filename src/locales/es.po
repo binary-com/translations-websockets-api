@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-11-23 05:11+0000\n"
-"Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-websocket/translations/es/>\n"
+"PO-Revision-Date: 2017-11-25 16:04+0000\n"
+"Last-Translator: Camilo Diaz Barria <camilo.diaz@usach.cl>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-"
+"websocket/translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4137,6 +4138,8 @@ msgstr "Gane si el último dígito de %1 es estrictamente inferior a %4 después
 
 msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
 msgstr ""
+"Reciba la diferencia entre %4 y el valor mínimo de %1 durante la vida de la "
+"opción a %3 después de 2."
 
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "Gane si %1 es mayor o igual a %4 a %3."
@@ -4155,6 +4158,8 @@ msgstr "punto de entrada"
 
 msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
 msgstr ""
+"Reciba la diferencia entre el valor máximo y el valor mínimo de %1 durante "
+"la vida de la opción a %3 después de %2."
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "Gane si %1 finaliza en o entre %5 y %4 a la hora del %3."
@@ -4246,10 +4251,8 @@ msgstr "Operaciones no están disponibles para la duración elegida."
 msgid "We could not process this contract at this time."
 msgstr "No hemos podido procesar este contrato en estos momentos."
 
-#, fuzzy
-#| msgid "Invalid duration entered."
 msgid "Invalid duration (tick) for contract type (%1)."
-msgstr "Duración introducida no válida."
+msgstr "Duración inválida (intervalo) para el tipo de contrato (%1)."
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "La barrera superior se encuentra fuera del rango aceptable. Por favor, cambie la barrera superior."
@@ -4362,10 +4365,10 @@ msgstr "El pago no puede tener más de %1 decimales."
 msgid "Contract may not expire between %1 and %2."
 msgstr "Los contratos no pueden expirar entre %1 y %2."
 
-#, fuzzy
-#| msgid "Trading on this market is suspended due to missing market data."
 msgid "The buy price of this contract will be refunded due to missing market data."
-msgstr "Las operaciones en este mercado están suspendidas por falta de datos del mercado."
+msgstr ""
+"El precio de compra de este contrato será reembolsado por falta de datos del "
+"mercado."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Este comercio no está disponible temporalmente."
@@ -4373,18 +4376,18 @@ msgstr "Este comercio no está disponible temporalmente."
 msgid "This contract has been sold."
 msgstr "El contrato ha sido vendido."
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market data."
 msgid "Trading is suspended due to missing market (out-of-date volatility) data."
-msgstr "Las operaciones están suspendidas por falta de datos del mercado."
+msgstr ""
+"Las operaciones están suspendidas por falta de datos del mercado (datos de "
+"volatilidad desactualizados)."
 
 msgid "Digit must be in the range of %1 to %2."
 msgstr "El dígito se debe encontrar dentro del rango de %1 to %2."
 
-#, fuzzy
-#| msgid "Contracts of less than 24h in duration are not available between %1-23:59:59 GMT."
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
-msgstr "Los contratos con duración de menos de 24h no están disponibles entre %1-23:59:59 GMT."
+msgstr ""
+"Los contratos con una duración superior a 24 horas necesitan una barrera "
+"absoluta."
 
 msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgstr "Este mercado está actualmente cerrado. Pruebe los Índices de Volatilidad que están siempre disponibles."
@@ -4404,18 +4407,15 @@ msgstr "Límite no válido (%1)."
 msgid "This contract offers no return."
 msgstr "Este contrato no ofrece ganancias."
 
-#, fuzzy
-#| msgid "Contracts of less than 24h in duration are not available between %1-23:59:59 GMT."
 msgid "Contracts with predefined barrier would need an absolute barrier."
-msgstr "Los contratos con duración de menos de 24h no están disponibles entre %1-23:59:59 GMT."
+msgstr ""
+"Los contratos con duración inferior a 24h necesitan una barrera absoluta."
 
 msgid "The contract must expire on a trading day."
 msgstr "El contrato debe expirar en un día hábil."
 
-#, fuzzy
-#| msgid "The contract is not available after %1 GMT."
 msgid "Trading is not available from %1 to %2."
-msgstr "El contrato no está disponible después de %1 GMT."
+msgstr "No es posible operar entre %1 y %2."
 
 msgid "Intraday contracts may not cross market open."
 msgstr "Los contratos intradía no pueden cruzar al día siguiente."
@@ -4423,10 +4423,8 @@ msgstr "Los contratos intradía no pueden cruzar al día siguiente."
 msgid "Invalid stake/payout."
 msgstr "Apuesta no válida/pagos."
 
-#, fuzzy
-#| msgid "Absolute barrier cannot be zero"
 msgid "Lookbacks price cannot be zero."
-msgstr "Límite absoluto no puede ser cero"
+msgstr "El precio de análisis retroactivo no puede ser cero."
 
 msgid "Expiry time cannot be in the past."
 msgstr "El tiempo de caducidad no puede estar en el pasado."
@@ -4434,15 +4432,15 @@ msgstr "El tiempo de caducidad no puede estar en el pasado."
 msgid "High and low barriers must be different."
 msgstr "Las barreras inferiores y superiores deben ser diferentes."
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market data."
 msgid "Trading is suspended due to missing market (tick) data."
-msgstr "Las operaciones están suspendidas por falta de datos del mercado."
+msgstr ""
+"Las operaciones están suspendidas por falta de datos del mercado "
+"(intervalos)."
 
-#, fuzzy
-#| msgid "Trading is suspended due to missing market data."
 msgid "Trading is suspended due to missing market (volatility) data."
-msgstr "Las operaciones están suspendidas por falta de datos del mercado."
+msgstr ""
+"Las operaciones están suspendidas por falta de datos del mercado "
+"(volatilidad)."
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Los contratos de este mercado con una duración inferior a 24 horas deben expirar el mismo día."
