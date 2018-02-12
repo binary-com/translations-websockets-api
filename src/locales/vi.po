@@ -39,6 +39,24 @@ msgstr "%1 Yêu Cầu Mật khẩu Mới"
 msgid "%1 is required."
 msgstr "%1 là bắt buộc."
 
+msgid ""
+"%1 sama\n"
+"\n"
+"Please be advised we have processed the following %2.\n"
+"\n"
+"Account Type: Real Money Account\n"
+"\n"
+"Date of %2: %3\n"
+"\n"
+"Asset Type: Cash\n"
+"\n"
+"Currency: %4\n"
+"\n"
+"Amount: %5\n"
+"\n"
+"Ref ID: %6"
+msgstr ""
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "Giao dịch %1 có thể không được thực hiện với tài khoản này."
 
@@ -171,11 +189,19 @@ msgstr "Tên ngân hàng"
 msgid "Bank wire"
 msgstr "Điện chuyển khoản Ngân hàng"
 
+#, fuzzy
+#| msgid "Payout can not have more than %1 decimal places."
+msgid "Barrier can only be up to %1 decimal places."
+msgstr "Tiền thưởng không thể có nhiều hơn %1 chữ số thập phân."
+
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
 msgstr "Rào cản phải có ít nhất %plural(%1, %d pip, %d pips) ra khỏi vị trí."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Rào cản phải nằm trên một cạnh của giá giao ngay."
+
+msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+msgstr ""
 
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Chi tiết ngân hàng trung gian liên quan của người thụ hưởng:"
@@ -564,9 +590,6 @@ msgstr "Để bạn có thể đặt hợp đồng, chúng tôi cần bi
 msgid "In order to participate in the ICO, we need to know your country of residence. Please update your account settings accordingly."
 msgstr "Để có thể tham gia trong ICO, chúng tôi cần biết đất nước bạn đang cư trú. Vui lòng cập nhật thiết lập tài khoản của bạn một cách phù hợp."
 
-msgid "In what country do you want to offer your service"
-msgstr "Bạn muốn chào bán dịch vụ của mình tại quốc gia nào"
-
 msgid "Incorrect email or password."
 msgstr "Email hoặc mật khẩu không đúng."
 
@@ -603,6 +626,11 @@ msgstr "Tài khoản không hợp lệ."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgstr "Số tiền không hợp lệ. Số tiền nhập vào không thể có nhiều hơn %1 chữ số thập phân"
 
+#, fuzzy
+#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
+msgstr "Số tiền không hợp lệ. Số tiền nhập vào không thể có nhiều hơn %1 chữ số thập phân"
+
 msgid "Invalid amount. Maximum is %1."
 msgstr "Số tiền không hợp lệ. tối đa là %1."
 
@@ -629,6 +657,11 @@ msgstr "Đăng nhập không hợp lệ. Vui lòng thay vào đó đăng nhập 
 
 msgid "Invalid loginid"
 msgstr "ID đăng nhập không hợp lệ"
+
+#, fuzzy
+#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgstr "Số tiền không hợp lệ. Số tiền nhập vào không thể có nhiều hơn %1 chữ số thập phân"
 
 msgid "Invalid request."
 msgstr "Yêu cầu không hợp lệ."
@@ -692,6 +725,9 @@ msgstr "(%1) ID đăng nhập không tồn tại."
 
 msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "Đăng nhập vào tài khoản này tạm thời bị gián đoạn do bảo trì hệ thống. Xin vui lòng thử lại sau 30 phút."
+
+msgid "Lookback open positions limit exceeded."
+msgstr ""
 
 msgid "Lost Password?"
 msgstr "Bạn đã mất mật khẩu?"
@@ -776,6 +812,11 @@ msgstr "Giá trị mới: "
 
 msgid "No"
 msgstr "Không"
+
+#, fuzzy
+#| msgid "No further trading is allowed for the current trading session."
+msgid "No further trading is allowed at this moment."
+msgstr "Đã đạt giới hạn giao dịch tại phiên làm việc này."
 
 msgid "No further trading is allowed for the current trading session."
 msgstr "Đã đạt giới hạn giao dịch tại phiên làm việc này."
@@ -864,9 +905,6 @@ msgstr "Các tiện ích đại lý thanh toán không có sẵn cho tài khoả
 
 msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 msgstr "Không được phép chuyển khoản với số tiền trên, vì số dư tài khoản %1 sẽ vượt quá giới hạn cho phép."
-
-msgid "Payment agent transfers are available for %1 currency only."
-msgstr "Việc chuyển khoản đại lý thanh toán chỉ khả dụng đối với tiền tệ %1."
 
 msgid "Payment agent transfers are not allowed for specified accounts."
 msgstr "Việc chuyển khoản đại lý thanh toán không được phép đối với các tài khoản nhất định."
@@ -961,9 +999,6 @@ msgstr "Vui lòng nhập ngày ở định dạng YYYY-MM-DD hoặc YYYY-MM-DD h
 msgid "Please enter date in the format YYYY-MM-DD."
 msgstr "Vui lòng nhập ngày với định dạng YYYY-MM-DD."
 
-msgid "Please enter the country where you want to offer your service"
-msgstr "Vui lòng nhập quốc gia nơi bạn muốn cung cấp dịch vụ của bạn"
-
 msgid "Please enter your email address."
 msgstr "Vui lòng nhập địa chỉ email của bạn."
 
@@ -987,9 +1022,6 @@ msgstr "Vui lòng lưu ý: Khi thực hiện giao dịch, rất quan trọng là
 
 msgid "Please provide a valid email address."
 msgstr "Vui lòng cung cấp một địa chỉ email hợp lệ."
-
-msgid "Please provide a valid sub account loginid."
-msgstr "Vui lòng cung cấp một ID đăng nhập hợp lệ cho tài khoản phụ."
 
 msgid "Please provide an underlying symbol."
 msgstr "Vui lòng cung cấp một biểu tượng cơ bản."
@@ -1492,6 +1524,11 @@ msgstr "Thiết lập cập nhật"
 msgid "Value of account_opening_reason cannot be changed."
 msgstr "Giá trị của account_opening_reason không thể bị thay đổi."
 
+#, fuzzy
+#| msgid "Value of account_opening_reason cannot be changed."
+msgid "Value of place_of_birth cannot be changed."
+msgstr "Giá trị của account_opening_reason không thể bị thay đổi."
+
 msgid "Verify your email address - %1"
 msgstr "Xác nhận địa chỉ email của bạn - %1"
 
@@ -1584,7 +1621,9 @@ msgstr "Số tiền rút phải lớn hơn 0."
 msgid "Yes"
 msgstr "Có"
 
-msgid "You already have a %1 account %2"
+#, fuzzy
+#| msgid "You already have a %1 account %2"
+msgid "You already have a %1 account %2."
 msgstr "Bạn đã có một tài khoản %1 %2"
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
@@ -1725,7 +1764,9 @@ msgstr "ID đăng nhập của bạn: %1"
 msgid "Your account %1 cashier section was locked."
 msgstr "Tài khoản quỹ %1 của bạn đã bị khóa."
 
-msgid "Your account %1 has a different currency %2 than USD."
+#, fuzzy
+#| msgid "Your account %1 has a different currency %2 than USD."
+msgid "Your account %1 has a different currency %2 than USD/EUR."
 msgstr "Tài khoản %1 có loại tền tệ %2 khác với USD."
 
 msgid "Your account %1 was disabled."
@@ -1835,6 +1876,9 @@ msgstr "Số tiền"
 
 msgid "now."
 msgstr "bây giờ."
+
+msgid "of funds"
+msgstr ""
 
 msgid "or"
 msgstr "hoặc"
@@ -2676,9 +2720,6 @@ msgstr "Chỉ số Na Uy"
 msgid "Belgian OTC Index"
 msgstr "Chỉ số chứng khoán phi tập trung Bỉ"
 
-msgid "Australian OTC Index"
-msgstr "Chỉ số chứng khoán phi tập trung Úc"
-
 msgid "Japanese Index"
 msgstr "Chỉ số Nhật Bản"
 
@@ -2817,6 +2858,9 @@ msgstr "Chỉ số chứng khoán phi tập trung Ả Rập"
 msgid "Swiss Index"
 msgstr "Chỉ số chứng khoán Thụy Sĩ"
 
+msgid "UK OTC Index"
+msgstr "Chỉ số chứng khoán phi tập trung Anh quốc"
+
 msgid "Hong Kong Index"
 msgstr "Chỉ số chứng khoán Hồng Kông"
 
@@ -2927,6 +2971,9 @@ msgstr "Novartis"
 
 msgid "Berkshire Hathaway"
 msgstr "Berkshire Hathaway"
+
+msgid "Commonwealth Bank"
+msgstr "Ngân hàng Thịnh vượng chung"
 
 msgid "Anglo American plc"
 msgstr "Công ty mỏ Anglo American plc"
@@ -3108,6 +3155,9 @@ msgstr "Volkswagen AG"
 msgid "Barclays"
 msgstr "Barclays"
 
+msgid "Macquarie Group"
+msgstr "Tập đoàn Macquarie"
+
 msgid "TELSTRA CORPORATION LIMITED"
 msgstr "TELSTRA CORPORATION LIMITED"
 
@@ -3288,8 +3338,14 @@ msgstr "SUNCORP GROUP LIMITED"
 msgid "Reliance Industries"
 msgstr "Reliance Industries"
 
+msgid "BHP Billiton"
+msgstr "BHP Billiton"
+
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
+
+msgid "Tata Motors"
+msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3446,6 +3502,9 @@ msgstr "Tập đoàn IBM"
 
 msgid "Pfizer Inc"
 msgstr "Pfizer Inc"
+
+msgid "ANZ Banking Group"
+msgstr "Tập đoàn tài chính ANZ"
 
 msgid "British American Tobacco"
 msgstr "Thuốc lá British American Tobacco"
@@ -3611,6 +3670,9 @@ msgstr "Palo Alto Networks Inc."
 
 msgid "Societe Generale"
 msgstr "Hãng Societe Generale"
+
+msgid "Qantas Airways"
+msgstr "Hãng hàng không Qantas"
 
 msgid "General Electric Co"
 msgstr "Tập đoàn General Electric"
@@ -3909,14 +3971,24 @@ msgstr "Chữ số"
 msgid "Predict the last digit of the market price at expiration."
 msgstr "Dự đoán con số cuối cùng của giá thị trường tại thời điểm hết hạn."
 
-msgid "Ends In/Out"
-msgstr "Kết thúc Trong/Ngoài"
+#, fuzzy
+#| msgid "Ends Between/Outside"
+msgid "Ends Between/Ends Outside"
+msgstr "Kết thúc Giữa/Bên ngoài"
 
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Dự đoán mức thị trường kết thúc có liên quan tới 2 rào cản đã chọn."
 
-msgid "Stays In/Goes Out"
-msgstr "Vẫn ở trong /Đi ra Ngoài"
+msgid "Lookback Options"
+msgstr ""
+
+#, fuzzy
+#| msgid "Nokia Corporation"
+msgid "Lookback options"
+msgstr "Nokia Corporation"
+
+msgid "Stays Between/Goes Outside"
+msgstr "Giữ Ở giữa/Đi ra ngoài"
 
 msgid "Predict whether or not the market will touch either of 2 chosen levels before expiration."
 msgstr "Dự đoán thị trường sẽ chạm hay không chạm với 2 mức đã chọn trước khi hết hạn."
@@ -3937,6 +4009,11 @@ msgid "touches"
 msgstr "chạm"
 
 msgid "higher"
+msgstr "cao hơn"
+
+#, fuzzy
+#| msgid "higher"
+msgid "highlow"
 msgstr "cao hơn"
 
 msgid "asian down"
@@ -3963,11 +4040,21 @@ msgstr "không chạm"
 msgid "stays between"
 msgstr "nằm giữa"
 
+#, fuzzy
+#| msgid "higher"
+msgid "high"
+msgstr "cao hơn"
+
 msgid "odd"
 msgstr "Số lẻ"
 
 msgid "asian up"
 msgstr "lên kiểu châu Á"
+
+#, fuzzy
+#| msgid "lower"
+msgid "low"
+msgstr "thấp hơn"
 
 msgid "ends outside"
 msgstr "kết thúc bên ngoài"
@@ -4095,9 +4182,6 @@ msgstr "Thắng tiền thưởng nếu %1 sau %plural(%3,%d điểm biến độ
 msgid "first tick"
 msgstr "giây đầu tiên"
 
-msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
-msgstr "Nhận sự khác biệt về giá trị cực đại của %1 trong suốt thời gian sử dụng tùy chọn và %4 tại %3 sau %2."
-
 msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgstr "Chiến thắng tiền thưởng nếu %1 bắt buộc cao hơn %4 tại %3 sau %2."
 
@@ -4107,11 +4191,15 @@ msgstr "giá mở thị trường cộng %plural(%1, %d pip, %d pips)"
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Chiến thắng tiền thưởng nếu %1 kết thúc bên ngoài %5 tới %4 tại %3."
 
-msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
-msgstr "Nhận sự khác biệt về giá trị cuối cùng và giá trị tối thiểu của %1 trong suốt thời gian sử dụng tùy chọn ở %3 sau %2."
-
-msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+#, fuzzy
+#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
 msgstr "Nhận sự khác biệt về giá trị cực đại của %1 trong suốt thời hạn của lựa chọn và giá trị cuối cùng của nó ở %3 sau %2."
+
+#, fuzzy
+#| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+msgstr "Nhận sự khác biệt về giá trị tối thiểu của %4 và %1 trong suốt thời gian sử dụng tùy chọn ở %3 sau %2. '"
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Chiến thắng tiền thưởng nếu chữ số cuối cùng của %1 không phải là %4 sau %plural(%3,%d tick,%d ticks)."
@@ -4134,9 +4222,6 @@ msgstr "Chiến thắng tiền thưởng nếu %1 chạm %4 qua %3."
 msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
 msgstr "Chiến thắng tiền thưởng nếu chữ số cuối cùng của %1 bắt buộc thấp hơn %4 sau %3 bước giá."
 
-msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-msgstr "Nhận sự khác biệt về giá trị tối thiểu của %4 và %1 trong suốt thời gian sử dụng tùy chọn ở %3 sau %2. '"
-
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "Thắng tiền thưởng nếu %1 cao hơn hoặc bằng %4 tại %3."
 
@@ -4152,8 +4237,10 @@ msgstr "Thắng tiền thưởng nếu %1 kết thúc trên hoặc giữa %5 t�
 msgid "entry spot"
 msgstr "giá giao ngay nhập vào"
 
-msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
-msgstr "Nhận sự khác biệt về giá trị cực đại và tối thiểu %1 trong suốt thời gian sử dụng tùy chọn ở %3 sau %2."
+#, fuzzy
+#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+msgstr "Nhận sự khác biệt về giá trị cực đại của %1 trong suốt thời hạn của lựa chọn và giá trị cuối cùng của nó ở %3 sau %2."
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "Thắng tiền thưởng nếu %1 kết thúc trên hoặc giữa %5 tới %4 tại %3."
@@ -4242,6 +4329,9 @@ msgstr "Hợp đồng này đã hết hạn."
 msgid "Trading is not offered for this duration."
 msgstr "Giao dịch không được cung cấp trong thời gian này."
 
+msgid "%1 is not allowed for residence of %2."
+msgstr ""
+
 msgid "We could not process this contract at this time."
 msgstr "Chúng tôi không thể xử lý hợp đồng này vào lúc này."
 
@@ -4260,11 +4350,11 @@ msgstr "Thời điểm hết hạn không thể bằng với thời điểm b
 msgid "The ICO has not yet started."
 msgstr "ICO chưa bắt đầu."
 
-msgid "Missing required contract parameters (%1)."
-msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
-
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Số điểm cần phải ở giữa %1 và %2."
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr ""
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Giới hạn không được là số nguyên trong khoảng từ %1 đến %2."
@@ -4299,6 +4389,11 @@ msgstr "Không thể xác định được rào cản."
 msgid "Sorry, your request could not be processed at this moment."
 msgstr "Xin lỗi, yêu cầu của bạn không thể được thực hiện lúc này."
 
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (underlying)."
+msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
+
 msgid "Contract barrier must be positive."
 msgstr "Giới hạn hợp đồng phải là số dương."
 
@@ -4307,6 +4402,9 @@ msgstr "Thời gian bắt đầu trong tương lai."
 
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "Giao dịch trên các hợp đồng Forex với khoảng thời gian ít hơn 5 tiếng không khả dụng từ %1 tới %2"
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr ""
 
 msgid "High barrier must be higher than low barrier."
 msgstr "Giới hạn trên phải cao hơn giới hạn dưới."
@@ -4317,11 +4415,11 @@ msgstr "Việc bán lại hợp đồng này không được hỗ trợ 
 msgid "Trading is suspended due to missing market (spot too far) data."
 msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu thị trường (phát hiện quá xa)."
 
-msgid "Number of token placed must be between %1 and %2."
-msgstr "Số thẻ được đặt phải ở giữa %1 và %2."
-
 msgid "Sorry, but the bid per token is too low. The minimum bid per token allowed is USD %1 (or its equivalent in another currency)."
 msgstr "Rất tiếc, nhưng giá thầu cho mỗi mã thông báo quá thấp. Mức thầu tối thiểu cho mỗi mã hợp lệ là USD %1 (hoặc tương đương với loại tiền khác)."
+
+msgid "Number of token placed must be between %1 and %2."
+msgstr "Số thẻ được đặt phải ở giữa %1 và %2."
 
 msgid "An error occurred during contract settlement."
 msgstr "Một lỗi đã xảy ra trong khi quyết toán hợp đồng."
@@ -4341,11 +4439,29 @@ msgstr "Rào chắn không hợp lệ."
 msgid "Invalid expiry time."
 msgstr "Thời gian hết hạn không hợp lệ."
 
+msgid "Successful bids cannot be cancelled after the auction has ended."
+msgstr ""
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (currency)."
+msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
+
 msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
 msgstr "Hàng rào thấp nằm bên ngoài vùng được chấp thuận. Xin vui lòng điều chỉnh hàng rào thấp."
 
 msgid "Barrier must be an integer."
 msgstr "Giới hạn phải là một số nguyên."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (bet_type)."
+msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Trading is not offered for this asset."
+msgstr "Giao dịch không được cung cấp trong thời gian này."
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Xin đợi thiết lập hợp đồng. Giá thanh toán có thể thay đổi so với giá chỉ thị."
@@ -4371,6 +4487,11 @@ msgstr "Hợp đồng này đã được bán."
 msgid "Trading is suspended due to missing market (out-of-date volatility) data."
 msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (biến động hết hạn) thị trường."
 
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (date_start)."
+msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
+
 msgid "Digit must be in the range of %1 to %2."
 msgstr "Con số phải nằm trong phạm vi từ %1 đến %2."
 
@@ -4380,23 +4501,25 @@ msgstr "Những hợp đồng có thời gian hiệu lực trên 24 giờ đồn
 msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgstr "Thị trường này hiện đã bị đóng. Hãy thử các Chỉ số Biến động luôn luôn được mở."
 
-msgid "Barrier is out of acceptable range."
-msgstr "Rào cản ngoài ngưỡng được chấp nhận."
-
 msgid "Contracts on this market with a duration of more than 24 hours must expire at the end of a trading day."
 msgstr "Các hợp đồng trên thị trường này với kỳ hạn trên 24 giờ phải hết hạn vào cuối ngày giao dịch."
 
+msgid "Barrier is out of acceptable range."
+msgstr "Rào cản ngoài ngưỡng được chấp nhận."
+
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "Thời gian bắt đầu trên hợp đồng kỳ hạn cần phải nhiều hơn 5 phút tính từ bây giờ."
-
-msgid "Invalid barrier (%1)."
-msgstr "Rào chắn không hợp lệ (%1)."
 
 msgid "This contract offers no return."
 msgstr "Hợp đồng này chào bán không lợi nhuận."
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "Những hợp đồng có biên độ dao động được xác định trước cần có biên độ dao động cố định."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (date_expiry or duration)."
+msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
 
 msgid "The contract must expire on a trading day."
 msgstr "Hợp đồng phải hết hạn vào một ngày giao dịch."
@@ -4416,11 +4539,17 @@ msgstr "Giá nhìn lại không thể là 0."
 msgid "Expiry time cannot be in the past."
 msgstr "Thời gian hết hạn không thể ở quá khứ."
 
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr ""
+
 msgid "High and low barriers must be different."
 msgstr "Giới hạn trên và Giới hạn dưới phải khác nhau."
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (biến thiên) thị trường."
+
+msgid "Invalid barrier (Single barrier input is expected)."
+msgstr ""
 
 msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (biến động) thị trường."
@@ -4428,29 +4557,41 @@ msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (biến đ�
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 24 giờ phải hết hạn trong cùng ngày giao dịch."
 
+#~ msgid "In what country do you want to offer your service"
+#~ msgstr "Bạn muốn chào bán dịch vụ của mình tại quốc gia nào"
+
+#~ msgid "Payment agent transfers are available for %1 currency only."
+#~ msgstr "Việc chuyển khoản đại lý thanh toán chỉ khả dụng đối với tiền tệ %1."
+
+#~ msgid "Please enter the country where you want to offer your service"
+#~ msgstr "Vui lòng nhập quốc gia nơi bạn muốn cung cấp dịch vụ của bạn"
+
+#~ msgid "Please provide a valid sub account loginid."
+#~ msgstr "Vui lòng cung cấp một ID đăng nhập hợp lệ cho tài khoản phụ."
+
+#~ msgid "Australian OTC Index"
+#~ msgstr "Chỉ số chứng khoán phi tập trung Úc"
+
+#~ msgid "Ends In/Out"
+#~ msgstr "Kết thúc Trong/Ngoài"
+
+#~ msgid "Stays In/Goes Out"
+#~ msgstr "Vẫn ở trong /Đi ra Ngoài"
+
+#~ msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
+#~ msgstr "Nhận sự khác biệt về giá trị cực đại của %1 trong suốt thời gian sử dụng tùy chọn và %4 tại %3 sau %2."
+
+#~ msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
+#~ msgstr "Nhận sự khác biệt về giá trị cuối cùng và giá trị tối thiểu của %1 trong suốt thời gian sử dụng tùy chọn ở %3 sau %2."
+
+#~ msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
+#~ msgstr "Nhận sự khác biệt về giá trị cực đại và tối thiểu %1 trong suốt thời gian sử dụng tùy chọn ở %3 sau %2."
+
+#~ msgid "Invalid barrier (%1)."
+#~ msgstr "Rào chắn không hợp lệ (%1)."
+
 #~ msgid "Wall Street Index"
 #~ msgstr "Chỉ số phố Wall"
-
-#~ msgid "UK OTC Index"
-#~ msgstr "Chỉ số chứng khoán phi tập trung Anh quốc"
-
-#~ msgid "Commonwealth Bank"
-#~ msgstr "Ngân hàng Thịnh vượng chung"
-
-#~ msgid "Macquarie Group"
-#~ msgstr "Tập đoàn Macquarie"
-
-#~ msgid "BHP Billiton"
-#~ msgstr "BHP Billiton"
-
-#~ msgid "Tata Motors"
-#~ msgstr "Tata Motors"
-
-#~ msgid "ANZ Banking Group"
-#~ msgstr "Tập đoàn tài chính ANZ"
-
-#~ msgid "Qantas Airways"
-#~ msgstr "Hãng hàng không Qantas"
 
 #~ msgid "Buy"
 #~ msgstr "Mua"
@@ -13832,9 +13973,6 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 #~ msgid "Develop the digital marketing content that appears on the company’s website"
 #~ msgstr "Phát triển nội dung tiếp thị kỹ thuật số xuất hiện trên trang web của công ty"
 
-#~ msgid "Ends Between/Outside"
-#~ msgstr "Kết thúc Giữa/Bên ngoài"
-
 #~ msgid "Five years of progressively responsible managerial experience in the region"
 #~ msgstr "Xấp xỉ 5 năm kinh nghiệm chịu trách nhiệm quản lý"
 
@@ -13882,9 +14020,6 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "Xin lỗi, bạn không thể rút tiền."
-
-#~ msgid "Stays Between/Goes Outside"
-#~ msgstr "Giữ Ở giữa/Đi ra ngoài"
 
 #~ msgid "Strengthen relationships with our current client base"
 #~ msgstr "Tăng cường mối quan hệ với khách hàng hiện tại của chúng tôi"

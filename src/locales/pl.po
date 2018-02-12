@@ -40,6 +40,24 @@ msgstr "Prośba o nowe hasło do portalu %1"
 msgid "%1 is required."
 msgstr "Pole %1 jest wymagane."
 
+msgid ""
+"%1 sama\n"
+"\n"
+"Please be advised we have processed the following %2.\n"
+"\n"
+"Account Type: Real Money Account\n"
+"\n"
+"Date of %2: %3\n"
+"\n"
+"Asset Type: Cash\n"
+"\n"
+"Currency: %4\n"
+"\n"
+"Amount: %5\n"
+"\n"
+"Ref ID: %6"
+msgstr ""
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "Nie można wykonywać transakcji %1 z tego konta."
 
@@ -172,11 +190,19 @@ msgstr "Nazwa banku"
 msgid "Bank wire"
 msgstr "Przelew"
 
+#, fuzzy
+#| msgid "Payout can not have more than %1 decimal places."
+msgid "Barrier can only be up to %1 decimal places."
+msgstr "Kwota wypłaty nie może zawierać więcej niż %1 miejsc(a) po przecinku."
+
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
 msgstr "Limit musi różnić się od ceny spot co najmniej o następującą wartość: %plural(%1,%d wartość procentowa w pkt.,%d wartości procentowe w pkt.,%d wartości procentowych w pkt.)"
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Limity muszą być po którejś ze stron ceny aktualnej."
+
+msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+msgstr ""
 
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Dane pośredniczącego banku beneficjenta:"
@@ -563,9 +589,6 @@ msgstr "Aby umożliwić Ci zawieranie transakcji, musimy znać Twoje miejsce zam
 msgid "In order to participate in the ICO, we need to know your country of residence. Please update your account settings accordingly."
 msgstr "Aby móc uczestniczyć w ICO, musisz podać swój kraj zamieszkania. Uaktualnij odpowiednio ustawienia swojego konta."
 
-msgid "In what country do you want to offer your service"
-msgstr "W jakim kraju chcesz świadczyć usługę"
-
 msgid "Incorrect email or password."
 msgstr "Nieprawidłowy e-mail lub hasło."
 
@@ -602,6 +625,11 @@ msgstr "Nieprawidłowa kwota."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgstr "Nieprawidłowa kwota. Podana kwota wypłaty nie może zawierać więcej niż %1 miejsc(a) po przecinku"
 
+#, fuzzy
+#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
+msgstr "Nieprawidłowa kwota. Podana kwota wypłaty nie może zawierać więcej niż %1 miejsc(a) po przecinku"
+
 msgid "Invalid amount. Maximum is %1."
 msgstr "Nieprawidłowa kwota. Maksimum wynosi %1."
 
@@ -628,6 +656,11 @@ msgstr "Nieprawidłowa próba logowania. Zaloguj się za pomocą swojego adresu 
 
 msgid "Invalid loginid"
 msgstr "Nieprawidłowy login"
+
+#, fuzzy
+#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgstr "Nieprawidłowa kwota. Podana kwota wypłaty nie może zawierać więcej niż %1 miejsc(a) po przecinku"
 
 msgid "Invalid request."
 msgstr "Nieprawidłowe żądanie."
@@ -691,6 +724,9 @@ msgstr "Login (%1) nie istnieje."
 
 msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "Możliwość zalogowania się na to konto została tymczasowo wyłączona ze względu na konserwację systemu. Prosimy spróbować ponownie za 30 minut."
+
+msgid "Lookback open positions limit exceeded."
+msgstr ""
 
 msgid "Lost Password?"
 msgstr "Nie pamiętasz hasła?"
@@ -775,6 +811,11 @@ msgstr "Nowa wartość: "
 
 msgid "No"
 msgstr "Nie"
+
+#, fuzzy
+#| msgid "No further trading is allowed for the current trading session."
+msgid "No further trading is allowed at this moment."
+msgstr "Dalsze handlowanie w obecnej sesji handlowej nie jest dozwolone."
 
 msgid "No further trading is allowed for the current trading session."
 msgstr "Dalsze handlowanie w obecnej sesji handlowej nie jest dozwolone."
@@ -863,9 +904,6 @@ msgstr "Usługi pośredników płatności nie są dostępne dla tego konta."
 
 msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 msgstr "Przelew przez pośrednika płatności nie jest dozwolony przypadku niektórych kwot, gdyż spowodowałby przekroczenie limitów dozwolonych dla salda konta %1."
-
-msgid "Payment agent transfers are available for %1 currency only."
-msgstr "Przelewy przez pośredników płatności są dostępne wyłącznie dla waluty %1."
 
 msgid "Payment agent transfers are not allowed for specified accounts."
 msgstr "Przelewy przez pośredników płatności nie są dozwolone w przypadku niektórych kont."
@@ -960,9 +998,6 @@ msgstr "Wpisz datę w formacie RRRR-MM-DD lub RRRR-MM-DD gg::mm::ss. Zostanie za
 msgid "Please enter date in the format YYYY-MM-DD."
 msgstr "Wpisz datę w formacie RRRR-MM-DD."
 
-msgid "Please enter the country where you want to offer your service"
-msgstr "Wpisz kraj, w którym chcesz świadczyć usługi"
-
 msgid "Please enter your email address."
 msgstr "Wpisz swój adres e-mail."
 
@@ -986,9 +1021,6 @@ msgstr "Uwaga: Podczas wykonywania przelewu należy pamiętać o podaniu identyf
 
 msgid "Please provide a valid email address."
 msgstr "Proszę podać prawidłowy adres e-mail."
-
-msgid "Please provide a valid sub account loginid."
-msgstr "Proszę podać prawidłowy login do subkonta."
 
 msgid "Please provide an underlying symbol."
 msgstr "Proszę podać symbol aktywa bazowego."
@@ -1491,6 +1523,11 @@ msgstr "Uaktualnij ustawienia"
 msgid "Value of account_opening_reason cannot be changed."
 msgstr "Wartości sekcji powód_otwarcia_konta nie można zmienić."
 
+#, fuzzy
+#| msgid "Value of account_opening_reason cannot be changed."
+msgid "Value of place_of_birth cannot be changed."
+msgstr "Wartości sekcji powód_otwarcia_konta nie można zmienić."
+
 msgid "Verify your email address - %1"
 msgstr "Zweryfikuj swój adres e-mail - %1"
 
@@ -1585,7 +1622,9 @@ msgstr "Kwota wypłaty musi być wyższa niż zero."
 msgid "Yes"
 msgstr "Tak"
 
-msgid "You already have a %1 account %2"
+#, fuzzy
+#| msgid "You already have a %1 account %2"
+msgid "You already have a %1 account %2."
 msgstr "Masz już %1 konto %2"
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
@@ -1726,7 +1765,9 @@ msgstr "Twój login: %1"
 msgid "Your account %1 cashier section was locked."
 msgstr "Twoja sekcja Kasjer konta %1 była zablokowana."
 
-msgid "Your account %1 has a different currency %2 than USD."
+#, fuzzy
+#| msgid "Your account %1 has a different currency %2 than USD."
+msgid "Your account %1 has a different currency %2 than USD/EUR."
 msgstr "Twoje konto %1 jest kontem w innej walucie %2 niż USD."
 
 msgid "Your account %1 was disabled."
@@ -1836,6 +1877,9 @@ msgstr "kwota"
 
 msgid "now."
 msgstr "teraz."
+
+msgid "of funds"
+msgstr ""
 
 msgid "or"
 msgstr "lub"
@@ -2673,9 +2717,6 @@ msgstr "Indeks norweski"
 msgid "Belgian OTC Index"
 msgstr "Belgijski indeks OTC"
 
-msgid "Australian OTC Index"
-msgstr "Australijski indeks OTC"
-
 msgid "Japanese Index"
 msgstr "Indeks japoński"
 
@@ -2818,6 +2859,9 @@ msgstr "Indeks OTC Arabii Saudyjskiej"
 msgid "Swiss Index"
 msgstr "Indeks szwajcarski"
 
+msgid "UK OTC Index"
+msgstr "Brytyjski indeks OTC"
+
 msgid "Hong Kong Index"
 msgstr "Indeks hongkoński"
 
@@ -2928,6 +2972,9 @@ msgstr "Novartis"
 
 msgid "Berkshire Hathaway"
 msgstr "Berkshire Hathaway"
+
+msgid "Commonwealth Bank"
+msgstr "Commonwealth Bank"
 
 msgid "Anglo American plc"
 msgstr "Anglo American plc"
@@ -3109,6 +3156,9 @@ msgstr "Volkswagen AG"
 msgid "Barclays"
 msgstr "Barclays"
 
+msgid "Macquarie Group"
+msgstr "Macquarie Group"
+
 msgid "TELSTRA CORPORATION LIMITED"
 msgstr "TELSTRA CORPORATION LIMITED"
 
@@ -3289,8 +3339,14 @@ msgstr "SUNCORP GROUP LIMITED"
 msgid "Reliance Industries"
 msgstr "Reliance Industries"
 
+msgid "BHP Billiton"
+msgstr "BHP Billiton"
+
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
+
+msgid "Tata Motors"
+msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3447,6 +3503,9 @@ msgstr "IBM"
 
 msgid "Pfizer Inc"
 msgstr "Pfizer Inc"
+
+msgid "ANZ Banking Group"
+msgstr "ANZ Banking Group"
 
 msgid "British American Tobacco"
 msgstr "British American Tobacco"
@@ -3612,6 +3671,9 @@ msgstr "Palo Alto Networks Inc."
 
 msgid "Societe Generale"
 msgstr "Societe Generale"
+
+msgid "Qantas Airways"
+msgstr "Qantas Airways"
 
 msgid "General Electric Co"
 msgstr "General Electric Co"
@@ -3910,14 +3972,24 @@ msgstr "Cyfry"
 msgid "Predict the last digit of the market price at expiration."
 msgstr "Prognozuj ostatnią cyfrę ceny rynkowej w momencie wygaśnięcia."
 
-msgid "Ends In/Out"
-msgstr "Kończy się w/poza"
+#, fuzzy
+#| msgid "Ends Between/Outside"
+msgid "Ends Between/Ends Outside"
+msgstr "Zakończy się w/poza"
 
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Prognozuj końcową cenę rynkową względem 2 wybranych limitów."
 
-msgid "Stays In/Goes Out"
-msgstr "Pozostanie w/przekroczy"
+msgid "Lookback Options"
+msgstr ""
+
+#, fuzzy
+#| msgid "Nokia Corporation"
+msgid "Lookback options"
+msgstr "Nokia Corporation"
+
+msgid "Stays Between/Goes Outside"
+msgstr "Pozostanie pomiędzy/przekroczy"
 
 msgid "Predict whether or not the market will touch either of 2 chosen levels before expiration."
 msgstr "Prognozuj, czy cena rynkowa osiągnie któryś z 2 wybranych poziomów przed datą wygaśnięcia."
@@ -3938,6 +4010,11 @@ msgid "touches"
 msgstr "osiąga"
 
 msgid "higher"
+msgstr "wyższa"
+
+#, fuzzy
+#| msgid "higher"
+msgid "highlow"
 msgstr "wyższa"
 
 msgid "asian down"
@@ -3964,11 +4041,21 @@ msgstr "nie osiąga"
 msgid "stays between"
 msgstr "pozostaje pomiędzy"
 
+#, fuzzy
+#| msgid "higher"
+msgid "high"
+msgstr "wyższa"
+
 msgid "odd"
 msgstr "nieparzysta"
 
 msgid "asian up"
 msgstr "azjatyckie w górę"
+
+#, fuzzy
+#| msgid "lower"
+msgid "low"
+msgstr "niższa"
 
 msgid "ends outside"
 msgstr "kończy się poza"
@@ -4096,9 +4183,6 @@ msgstr "Wypłata nastąpi pod warunkiem, że %1 po %plural(%3,%d najmniejszej zm
 msgid "first tick"
 msgstr "pierwsza najmniejsza zmiana ceny"
 
-msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
-msgstr "Otrzymaj różnicę maksymalnej wartości %1 w czasie obowiązywania opcji i %4: %3 po %2."
-
 msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgstr "Wypłata nastąpi pod warunkiem, że %1 będzie dokładnie wyższy niż %4 o %3 po %2."
 
@@ -4108,11 +4192,15 @@ msgstr "punkt wejściowy plus %plural(%1,%d wartość procentowa w pkt., %d wart
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %1 zakończy się poza %5 do %4: %3."
 
-msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
-msgstr "Otrzymaj różnicę minimalnej wartości %1 w czasie obowiązywania opcji: %3 po %2."
-
-msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+#, fuzzy
+#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
 msgstr "Otrzymaj różnicę maksymalnej wartości %1 w czasie obowiązywania opcji i jej końcową wartość: %3 po %2."
+
+#, fuzzy
+#| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+msgstr "Otrzymaj różnicę maksymalnej wartości %4 i %1 w czasie obowiązywania opcji: %3 po %2."
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia cyfra %1 nie wyniesie %4 po %plural(%3,%d najmniejszej zmianie ceny,%d najmniejszych zmianach ceny,%d najmniejszych zmianach ceny)."
@@ -4135,9 +4223,6 @@ msgstr "Wypłata nastąpi, pod warunkiem że %1 osiągnie %4 w przeciągu: %3."
 msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
 msgstr "Wypłata nastąpi, pod warunkiem że ostatnia cyfra %1 będzie wyraźnie niższa niż %4 po %3 najmniejszych zmianach ceny."
 
-msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-msgstr "Otrzymaj różnicę maksymalnej wartości %4 i %1 w czasie obowiązywania opcji: %3 po %2."
-
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %1 jest wyższy lub równy %4: %3."
 
@@ -4153,8 +4238,10 @@ msgstr "Wypłata nastąpi, pod warunkiem że %1 zakończy się pomiędzy %5 a %4
 msgid "entry spot"
 msgstr "punkt wejściowy"
 
-msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
-msgstr "Otrzymaj różnicę maksymalnej i minimalnej wartości %1 w czasie obowiązywania opcji: %3 po %2."
+#, fuzzy
+#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+msgstr "Otrzymaj różnicę maksymalnej wartości %1 w czasie obowiązywania opcji i jej końcową wartość: %3 po %2."
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "Wypłata nastąpi, pod warunkiem że %1 zakończy się pomiędzy %5 a %4: %3."
@@ -4243,6 +4330,9 @@ msgstr "Ten kontrakt już wygasł."
 msgid "Trading is not offered for this duration."
 msgstr "Zakłady nie są oferowane dla tego okresu."
 
+msgid "%1 is not allowed for residence of %2."
+msgstr ""
+
 msgid "We could not process this contract at this time."
 msgstr "Przetworzenie tego kontraktu nie było możliwe tym razem."
 
@@ -4261,11 +4351,11 @@ msgstr "Czas wygaśnięcia nie może być taki sam jak czas rozpoczęcia."
 msgid "The ICO has not yet started."
 msgstr "ICO jeszcze się nie rozpoczęło."
 
-msgid "Missing required contract parameters (%1)."
-msgstr "Brakuje obowiązkowego parametru kontraktu (%1)."
-
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Liczba najmniejszych przyrostów ceny musi wynosić między %1 a %2."
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr ""
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Limit nie jest liczbą całkowitą w przedziale od %1 do %2."
@@ -4300,6 +4390,11 @@ msgstr "Nie można wyznaczyć limitów."
 msgid "Sorry, your request could not be processed at this moment."
 msgstr "Przepraszamy, Twoje żądanie nie może zostać przetworzone w obecnej chwili."
 
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (underlying)."
+msgstr "Brakuje obowiązkowego parametru kontraktu (%1)."
+
 msgid "Contract barrier must be positive."
 msgstr "Limit kontraktu musi być wartością dodatnią."
 
@@ -4308,6 +4403,9 @@ msgstr "Czas rozpoczęcia w przyszłości."
 
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "Zawieranie zakładów Forex o czasie trwania poniżej 5 godzin jest niedostępne od %1 do %2"
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr ""
 
 msgid "High barrier must be higher than low barrier."
 msgstr "Wysoki limit musi być wyższy nić niski limit."
@@ -4318,11 +4416,11 @@ msgstr "Odsprzedaż tego kontraktu nie jest dostępna z powodu świąt przypadaj
 msgid "Trading is suspended due to missing market (spot too far) data."
 msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych (zbyt odległy punkt spot)."
 
-msgid "Number of token placed must be between %1 and %2."
-msgstr "Liczba wysłanych tokenów musi mieścić się w przedziale od %1 do %2."
-
 msgid "Sorry, but the bid per token is too low. The minimum bid per token allowed is USD %1 (or its equivalent in another currency)."
 msgstr "Przepraszamy, ale wartość Twojej oferty kupna przypadająca na jeden token jest zbyt niska. Minimalna oferta kupna jednego tokenu to %1 USD (lub równowartość w innej walucie)."
+
+msgid "Number of token placed must be between %1 and %2."
+msgstr "Liczba wysłanych tokenów musi mieścić się w przedziale od %1 do %2."
 
 msgid "An error occurred during contract settlement."
 msgstr "Podczas rozliczania kontraktu wystąpił błąd."
@@ -4342,11 +4440,29 @@ msgstr "Nieprawidłowy limit."
 msgid "Invalid expiry time."
 msgstr "Nieprawidłowy czas wygaśnięcia."
 
+msgid "Successful bids cannot be cancelled after the auction has ended."
+msgstr ""
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (currency)."
+msgstr "Brakuje obowiązkowego parametru kontraktu (%1)."
+
 msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
 msgstr "Niski limit przekracza dozwolony zakres. Proszę zmienić limit odpowiednio."
 
 msgid "Barrier must be an integer."
 msgstr "Limit musi być liczbą całkowitą."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (bet_type)."
+msgstr "Brakuje obowiązkowego parametru kontraktu (%1)."
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Trading is not offered for this asset."
+msgstr "Zakłady nie są oferowane dla tego okresu."
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Proszę poczekać na rozliczenie kontraktu. Ostateczna cena rozliczenia może różnić się od ceny szacunkowej."
@@ -4372,6 +4488,11 @@ msgstr "Ten kontrakt został sprzedany."
 msgid "Trading is suspended due to missing market (out-of-date volatility) data."
 msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych (zmienność nieaktualna)."
 
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (date_start)."
+msgstr "Brakuje obowiązkowego parametru kontraktu (%1)."
+
 msgid "Digit must be in the range of %1 to %2."
 msgstr "Cyfry muszą mieścić się w przedziale od %1 do %2."
 
@@ -4381,23 +4502,25 @@ msgstr "Kontrakty o czasie trwania powyżej 24 godz. wymagają limitu absolutneg
 msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgstr "Ten rynek jest obecnie zamknięty. Wypróbuj wskaźniki zmienności, które są zawsze dostępne."
 
-msgid "Barrier is out of acceptable range."
-msgstr "Limit przekracza dopuszczalny zakres."
-
 msgid "Contracts on this market with a duration of more than 24 hours must expire at the end of a trading day."
 msgstr "Kontrakty na tym rynku z okresem trwania powyżej 24 godz. muszą wygasnąć pod koniec sesji giełdowej."
 
+msgid "Barrier is out of acceptable range."
+msgstr "Limit przekracza dopuszczalny zakres."
+
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "Czas rozpoczęcia kontraktów rozpoczynających się przyszłości musi przypadać na datę późniejszą niż 5 minut od teraz."
-
-msgid "Invalid barrier (%1)."
-msgstr "Nieprawidłowy limit (%1)."
 
 msgid "This contract offers no return."
 msgstr "Ten kontrakt nie daje zwrotu."
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "Kontrakty z wcześniej określonym limitem wymagają limitu absolutnego."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (date_expiry or duration)."
+msgstr "Brakuje obowiązkowego parametru kontraktu (%1)."
 
 msgid "The contract must expire on a trading day."
 msgstr "Kontrakt musi kończyć się przed zamknięciem sesji giełdowej."
@@ -4417,11 +4540,17 @@ msgstr "Cena opcji wstecznych nie może być równa zero."
 msgid "Expiry time cannot be in the past."
 msgstr "Czas wygaśnięcia nie może być datą przeszłą."
 
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr ""
+
 msgid "High and low barriers must be different."
 msgstr "Wysoki limit musi się różnić od niskiego limitu."
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych (najmniejsza zmiana ceny)."
+
+msgid "Invalid barrier (Single barrier input is expected)."
+msgstr ""
 
 msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych (zmienność)."
@@ -4429,32 +4558,44 @@ msgstr "Handel jest obecnie wstrzymany z powodu brakujących danych rynkowych (z
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasnąć podczas tej samej sesji."
 
+#~ msgid "In what country do you want to offer your service"
+#~ msgstr "W jakim kraju chcesz świadczyć usługę"
+
+#~ msgid "Payment agent transfers are available for %1 currency only."
+#~ msgstr "Przelewy przez pośredników płatności są dostępne wyłącznie dla waluty %1."
+
+#~ msgid "Please enter the country where you want to offer your service"
+#~ msgstr "Wpisz kraj, w którym chcesz świadczyć usługi"
+
+#~ msgid "Please provide a valid sub account loginid."
+#~ msgstr "Proszę podać prawidłowy login do subkonta."
+
+#~ msgid "Australian OTC Index"
+#~ msgstr "Australijski indeks OTC"
+
+#~ msgid "Ends In/Out"
+#~ msgstr "Kończy się w/poza"
+
+#~ msgid "Stays In/Goes Out"
+#~ msgstr "Pozostanie w/przekroczy"
+
+#~ msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
+#~ msgstr "Otrzymaj różnicę maksymalnej wartości %1 w czasie obowiązywania opcji i %4: %3 po %2."
+
+#~ msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
+#~ msgstr "Otrzymaj różnicę minimalnej wartości %1 w czasie obowiązywania opcji: %3 po %2."
+
+#~ msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
+#~ msgstr "Otrzymaj różnicę maksymalnej i minimalnej wartości %1 w czasie obowiązywania opcji: %3 po %2."
+
+#~ msgid "Invalid barrier (%1)."
+#~ msgstr "Nieprawidłowy limit (%1)."
+
 #~ msgid "Binary ICO: cancelled bid"
 #~ msgstr "Binary ICO: anulowane oferty zakupu"
 
 #~ msgid "Wall Street Index"
 #~ msgstr "Indeks Wall Street"
-
-#~ msgid "UK OTC Index"
-#~ msgstr "Brytyjski indeks OTC"
-
-#~ msgid "Commonwealth Bank"
-#~ msgstr "Commonwealth Bank"
-
-#~ msgid "Macquarie Group"
-#~ msgstr "Macquarie Group"
-
-#~ msgid "BHP Billiton"
-#~ msgstr "BHP Billiton"
-
-#~ msgid "Tata Motors"
-#~ msgstr "Tata Motors"
-
-#~ msgid "ANZ Banking Group"
-#~ msgstr "ANZ Banking Group"
-
-#~ msgid "Qantas Airways"
-#~ msgstr "Qantas Airways"
 
 #~ msgid "Buy"
 #~ msgstr "Kup"
@@ -13822,9 +13963,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 #~ msgid "Develop the digital marketing content that appears on the company’s website"
 #~ msgstr "Tworzenie cyfrowych treści marketingowych, które będą umieszczane na stronie internetowej firmy"
 
-#~ msgid "Ends Between/Outside"
-#~ msgstr "Zakończy się w/poza"
-
 #~ msgid "Five years of progressively responsible managerial experience in the region"
 #~ msgstr "5 lat doświadczenia w pracy na stanowisku kierowniczym w regionie"
 
@@ -13872,9 +14010,6 @@ msgstr "Kontrakty na tym rynku z okresem trwania poniżej 24 godz. muszą wygasn
 
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "Przepraszamy, nie możesz wypłacać środków."
-
-#~ msgid "Stays Between/Goes Outside"
-#~ msgstr "Pozostanie pomiędzy/przekroczy"
 
 #~ msgid "Strengthen relationships with our current client base"
 #~ msgstr "Wzmocnienie relacji z naszymi obecnymi klientami"

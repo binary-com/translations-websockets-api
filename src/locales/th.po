@@ -39,6 +39,24 @@ msgstr "%1 ต้องการรหัสผ่านใหม่"
 msgid "%1 is required."
 msgstr "%1 จำเป็นต้องมีค่า"
 
+msgid ""
+"%1 sama\n"
+"\n"
+"Please be advised we have processed the following %2.\n"
+"\n"
+"Account Type: Real Money Account\n"
+"\n"
+"Date of %2: %3\n"
+"\n"
+"Asset Type: Cash\n"
+"\n"
+"Currency: %4\n"
+"\n"
+"Amount: %5\n"
+"\n"
+"Ref ID: %6"
+msgstr ""
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "ธุรกรรม %1 ไม่สามารถดำเนินการได้กับบัญชีนี้"
 
@@ -171,11 +189,19 @@ msgstr "ชื่อธนาคาร"
 msgid "Bank wire"
 msgstr "การโอนเงินผ่านธนาคาร"
 
+#, fuzzy
+#| msgid "Payout can not have more than %1 decimal places."
+msgid "Barrier can only be up to %1 decimal places."
+msgstr "จำนวนเงินที่ชำระเป็นทศนิยมไม่เกิน %1 หลัก"
+
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
 msgstr "Barrier ต้องมีค่าอย่างน้อย %plural(%1,%d pip,%d pips) จากสปอต"
 
 msgid "Barriers must be on either side of the spot."
 msgstr "Barriers ต้องอยู่ข้างใดข้างหนึ่งของสปอต"
+
+msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+msgstr ""
 
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "รายละเอียดนายหน้าธนาคารผู้รับผลประโยชน์:"
@@ -565,9 +591,6 @@ msgstr "ในการดำเนินการสัญญาของท่
 msgid "In order to participate in the ICO, we need to know your country of residence. Please update your account settings accordingly."
 msgstr "ในการดำเนินการตาม ICO พวกเราต้องการทราบประเทศที่ท่านพำนักอยู่ โปรดเพิ่มข้อมูลของท่าน"
 
-msgid "In what country do you want to offer your service"
-msgstr "ท่านต้องการบริการในประเทศใด"
-
 msgid "Incorrect email or password."
 msgstr "รหัสผ่าน หรือ อีเมล์ ไม่ถูกต้อง"
 
@@ -604,6 +627,11 @@ msgstr "จำนวนเงินไม่ถูกต้อง"
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgstr "จำนวนไม่ถูกต้อง จำนวนมีเป็นทศนิยมไม่เกิน %1 หลัก"
 
+#, fuzzy
+#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
+msgstr "จำนวนไม่ถูกต้อง จำนวนมีเป็นทศนิยมไม่เกิน %1 หลัก"
+
 msgid "Invalid amount. Maximum is %1."
 msgstr "ตัวเลขไม่ถูกต้อง ค่าสูงสุด คือ %1"
 
@@ -630,6 +658,11 @@ msgstr "การเข้าสู่ระบบไม่ถูกต้อง
 
 msgid "Invalid loginid"
 msgstr "รหัสผู้ใช้งานไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
+msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgstr "จำนวนไม่ถูกต้อง จำนวนมีเป็นทศนิยมไม่เกิน %1 หลัก"
 
 msgid "Invalid request."
 msgstr "คำสั่งที่ร้องขอไม่ถูกต้อง"
@@ -693,6 +726,9 @@ msgstr "ไม่มีรหัสผู้ใช้งาน (%1)"
 
 msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "การเข้าสู่ระบบจากบัญชีนี้ถูกระงับชั่วคราวเนื่องจากการปรับปรุงระบบ กรุณาลองใหม่อีกครั้งใน 30 นาที"
+
+msgid "Lookback open positions limit exceeded."
+msgstr ""
 
 msgid "Lost Password?"
 msgstr "ลืมรหัสผ่าน?"
@@ -777,6 +813,11 @@ msgstr "ค่าใหม่: "
 
 msgid "No"
 msgstr "ไม่"
+
+#, fuzzy
+#| msgid "No further trading is allowed for the current trading session."
+msgid "No further trading is allowed at this moment."
+msgstr "การซื้อขายขั้นต่อไปไม่ได้รับอนุญาตสำหรับการเชื่อมต่อในปัจจุบัน"
 
 msgid "No further trading is allowed for the current trading session."
 msgstr "การซื้อขายขั้นต่อไปไม่ได้รับอนุญาตสำหรับการเชื่อมต่อในปัจจุบัน"
@@ -865,9 +906,6 @@ msgstr "ไม่สามารถใช้ตัวแทนรับชำร
 
 msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 msgstr "ตัวแทนรับชำระเงินโอนไม่ได้รับอนุญาตต่อจำนวนที่ประสงค์ เนื่องจากยอดคงเหลือ %1 เกินวงเงินที่ได้รับ"
-
-msgid "Payment agent transfers are available for %1 currency only."
-msgstr "ตัวแทนรับชำระเงินรองรับสกุลเงิน %1 เท่านั้น"
 
 msgid "Payment agent transfers are not allowed for specified accounts."
 msgstr "ไม่อนุญาตให้โอนตัวแทนรับชำระเงินสำหรับบัญชีที่กำหนดไว้"
@@ -962,9 +1000,6 @@ msgstr "โปรดป้อนวันที่ในรูปแบบ YYYY-
 msgid "Please enter date in the format YYYY-MM-DD."
 msgstr "โปรดป้อนวันที่ในรูปแบบ YYYY-MM-DD"
 
-msgid "Please enter the country where you want to offer your service"
-msgstr "โปรดป้อนประเทศที่ท่าใช้บริการ"
-
 msgid "Please enter your email address."
 msgstr "โปรดป้อนอีเมล์ของท่าน"
 
@@ -988,9 +1023,6 @@ msgstr "โปรดทราบ เมื่อท่านดำเนิน�
 
 msgid "Please provide a valid email address."
 msgstr "โปรดป้อนอีเมล์ที่ถูกต้องของท่าน"
-
-msgid "Please provide a valid sub account loginid."
-msgstr "โปรดให้ข้อมูลรหัสผู้ใช้งานของบัญชีย่อยที่ถูกต้อง"
 
 msgid "Please provide an underlying symbol."
 msgstr "โปรดแจ้งสัญลักษณ์ผลิตภัณฑ์อ้างอิง"
@@ -1493,6 +1525,11 @@ msgstr "ปรับปรุงการตั้งค่า"
 msgid "Value of account_opening_reason cannot be changed."
 msgstr "ไม่สามารถเปลี่ยนค่าของ account_opening_reason"
 
+#, fuzzy
+#| msgid "Value of account_opening_reason cannot be changed."
+msgid "Value of place_of_birth cannot be changed."
+msgstr "ไม่สามารถเปลี่ยนค่าของ account_opening_reason"
+
 msgid "Verify your email address - %1"
 msgstr "ตรวจสอบอีเมล์ของท่าน - %1"
 
@@ -1581,7 +1618,9 @@ msgstr "จำนวนเงินที่ถอนต้องมีค่า
 msgid "Yes"
 msgstr "ใช่"
 
-msgid "You already have a %1 account %2"
+#, fuzzy
+#| msgid "You already have a %1 account %2"
+msgid "You already have a %1 account %2."
 msgstr "ท่านมี %1 บัญชี %2 แล้ว"
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
@@ -1722,7 +1761,9 @@ msgstr "รหัสผู้ใช้งานของท่าน: %1"
 msgid "Your account %1 cashier section was locked."
 msgstr "บัญชีของท่าน %1 ในส่วนการรับ/ชำระเงินถูกล็อก"
 
-msgid "Your account %1 has a different currency %2 than USD."
+#, fuzzy
+#| msgid "Your account %1 has a different currency %2 than USD."
+msgid "Your account %1 has a different currency %2 than USD/EUR."
 msgstr "บัญชีของท่าน %1 มีสกุลเงินต่างกัน %2 กว่า USD"
 
 msgid "Your account %1 was disabled."
@@ -1832,6 +1873,9 @@ msgstr "จำนวนเงิน"
 
 msgid "now."
 msgstr "ขณะนี้"
+
+msgid "of funds"
+msgstr ""
 
 msgid "or"
 msgstr "หรือ"
@@ -2668,9 +2712,6 @@ msgstr "ดัชนีนอรเวย์"
 msgid "Belgian OTC Index"
 msgstr "ดัชนี Belgian OTC"
 
-msgid "Australian OTC Index"
-msgstr "ดัชนี Australian OTC"
-
 msgid "Japanese Index"
 msgstr "ดัชนีญี่ปุ่น"
 
@@ -2809,6 +2850,9 @@ msgstr "ดัชนีตลาดเจรจาต่อรองของซ
 msgid "Swiss Index"
 msgstr "ดัชนีสวิส"
 
+msgid "UK OTC Index"
+msgstr "ดัชนีตลาดเจรจาต่อรองของสหราชอาณาจักร"
+
 msgid "Hong Kong Index"
 msgstr "ดัชนีฮ่องกง"
 
@@ -2919,6 +2963,9 @@ msgstr "Novartis"
 
 msgid "Berkshire Hathaway"
 msgstr "Berkshire Hathaway"
+
+msgid "Commonwealth Bank"
+msgstr ""
 
 msgid "Anglo American plc"
 msgstr "Anglo American PLC"
@@ -3100,6 +3147,9 @@ msgstr "Volkswagen AG"
 msgid "Barclays"
 msgstr "Barclays"
 
+msgid "Macquarie Group"
+msgstr ""
+
 msgid "TELSTRA CORPORATION LIMITED"
 msgstr "Telstra Corporation Limited"
 
@@ -3280,8 +3330,14 @@ msgstr "SUNCORP GROUP LIMITED"
 msgid "Reliance Industries"
 msgstr "Reliance Industries"
 
+msgid "BHP Billiton"
+msgstr "BHP Billiton"
+
 msgid "Applied Materials Inc."
 msgstr "Applied Materials Inc."
+
+msgid "Tata Motors"
+msgstr "Tata Motors"
 
 msgid "Youku Tudou Inc."
 msgstr "Youku Tudou Inc."
@@ -3438,6 +3494,9 @@ msgstr "IBM"
 
 msgid "Pfizer Inc"
 msgstr "Pfizer Inc"
+
+msgid "ANZ Banking Group"
+msgstr "ANZ Banking Group"
 
 msgid "British American Tobacco"
 msgstr "British American Tobacco"
@@ -3603,6 +3662,9 @@ msgstr "Palo Alto Networks Inc."
 
 msgid "Societe Generale"
 msgstr "Societe Generale"
+
+msgid "Qantas Airways"
+msgstr "Qantas Airways"
 
 msgid "General Electric Co"
 msgstr "General Electric Co"
@@ -3901,14 +3963,24 @@ msgstr "ตัวเลข"
 msgid "Predict the last digit of the market price at expiration."
 msgstr "พยากรณ์เลขสุดท้ายของราคาตลาดที่จุดสิ้นสุด"
 
-msgid "Ends In/Out"
-msgstr "Ends In/Out"
+#, fuzzy
+#| msgid "Ends Between/Outside"
+msgid "Ends Between/Ends Outside"
+msgstr "สิ้นสุดระหว่าง/สิ้นสุดนอกขอบเขต"
 
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "พยากรณ์ระดับตลาดที่จะปิดที่สัมพันธ์กับ Barrier ที่กำหนดไว้ 2 ค่า"
 
-msgid "Stays In/Goes Out"
-msgstr "Stays In/Goes Out"
+msgid "Lookback Options"
+msgstr ""
+
+#, fuzzy
+#| msgid "Nokia Corporation"
+msgid "Lookback options"
+msgstr "Nokia Corporation"
+
+msgid "Stays Between/Goes Outside"
+msgstr "Stays Between/Goes Outside"
 
 msgid "Predict whether or not the market will touch either of 2 chosen levels before expiration."
 msgstr "พยากรณ์ว่าตลาดจะไปถึงค่าที่กำหนดหรือไม่ โดยกำหนดไว้ 2 ระดับก่อนการสิ้นสุด"
@@ -3929,6 +4001,11 @@ msgid "touches"
 msgstr "แตะ"
 
 msgid "higher"
+msgstr "สูงกว่า"
+
+#, fuzzy
+#| msgid "higher"
+msgid "highlow"
 msgstr "สูงกว่า"
 
 msgid "asian down"
@@ -3955,11 +4032,21 @@ msgstr "ไม่แตะ"
 msgid "stays between"
 msgstr "อยู่ระหว่าง"
 
+#, fuzzy
+#| msgid "higher"
+msgid "high"
+msgstr "สูงกว่า"
+
 msgid "odd"
 msgstr "คี่"
 
 msgid "asian up"
 msgstr "Asian Up"
+
+#, fuzzy
+#| msgid "lower"
+msgid "low"
+msgstr "ต่ำกว่า"
 
 msgid "ends outside"
 msgstr "สิ้นสุดภายนอก"
@@ -4087,9 +4174,6 @@ msgstr "ได้รับชำระเงิน หาก %1 หลังจ�
 msgid "first tick"
 msgstr "ช่วงราคาแรก"
 
-msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
-msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและ %4 ที่ %3 หลังจาก %2"
-
 msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgstr "ได้รับชำระเงิน หาก %1 มีค่าสูงกว่า %4 ที่ %3 หลังจาก %2"
 
@@ -4099,11 +4183,15 @@ msgstr "สปอตเริ่มต้นบวก %plural(%1,%d pip, %d pips
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "ชนะและได้รับชำระเงินเมื่อ %1 สิ้นสุดภายนอก %5 ถึง %4 ที่ %3"
 
-msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
-msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
-
-msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+#, fuzzy
+#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
 msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและค่าสุดท้ายที่ %3 หลังจาก %2"
+
+#, fuzzy
+#| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %4 และมูลค่าต่ำสุดของ %1 ในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "ได้รับชำระเงิน หากเลขหลักสุดท้ายของ %1 ไม่ใช่ %4 หลังจาก %plural(%3,%d ช่วงราคา,%d ช่วงราคา)"
@@ -4126,9 +4214,6 @@ msgstr "ได้รับชำระเงิน หาก %1 แตะ %4 ท
 msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
 msgstr "ได้รับชำระเงิน หากเลขหลักสุดท้ายของ %1 มีค่าต่ำกว่า %4 หลังจาก %3 ช่วงราคา"
 
-msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %4 และมูลค่าต่ำสุดของ %1 ในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
-
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "ได้รับชำระเงิน หาก %1 มีค่าสูงกว่า หรือเท่ากับ %4 ที่ %3"
 
@@ -4144,8 +4229,10 @@ msgstr "ได้รับชำระเงิน หาก %1 สิ้นส�
 msgid "entry spot"
 msgstr "สปอตเริ่มต้น"
 
-msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
-msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 และมูลค่าต่ำสุดในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
+#, fuzzy
+#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและค่าสุดท้ายที่ %3 หลังจาก %2"
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "ได้รับชำระเงิน หาก %1 สิ้นสุด หรือมีค่าระหว่าง %5 ถึง %4 ที่ %3"
@@ -4234,6 +4321,9 @@ msgstr "สัญญานี้หมดอายุแล้ว"
 msgid "Trading is not offered for this duration."
 msgstr "การซื้อขายไม่ถูกนำเสนอในช่วงเวลานี้"
 
+msgid "%1 is not allowed for residence of %2."
+msgstr ""
+
 msgid "We could not process this contract at this time."
 msgstr "เราไม่สามารถดำเนินการสัญญานี้ได้ในขณะนี้"
 
@@ -4252,11 +4342,11 @@ msgstr "เวลาที่หมดอายุไม่สามารถเ
 msgid "The ICO has not yet started."
 msgstr "ICO ยังไม่ได้เริ่มในขณะนี้"
 
-msgid "Missing required contract parameters (%1)."
-msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
-
 msgid "Number of ticks must be between %1 and %2."
 msgstr "จำนวนของช่วงราคาต้องอยู่ระหว่าง %1 และ %2"
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr ""
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "ค่า Barrier ไม่ได้เป็นเลขจำนวนใดๆ เต็มระหว่าง %1 ถึง %2"
@@ -4291,6 +4381,11 @@ msgstr "ไม่สามารถกำหนด Barrier ได้"
 msgid "Sorry, your request could not be processed at this moment."
 msgstr "ขออภัย ไม่สามารถดำเนินการตามคำขอของคุณได้ในขณะนี้"
 
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (underlying)."
+msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
+
 msgid "Contract barrier must be positive."
 msgstr "Barrier ของสัญญาต้องเป็นค่าบวก"
 
@@ -4299,6 +4394,9 @@ msgstr "เวลาเริ่มต้นอยู่ในอนาคต"
 
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "ไม่สามารถดำเนินการซื้อขายสัญญาฟอเร็กซ์ด้วยระยะเวลาน้อยกว่า 5 ชั่วโมง จาก %1 ถึง %2"
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr ""
 
 msgid "High barrier must be higher than low barrier."
 msgstr "Barrier สูงต้องมีค่ามากกว่า Barrier ต่ำ"
@@ -4309,11 +4407,11 @@ msgstr "การขายสัญญาจะไม่สามารถดำ
 msgid "Trading is suspended due to missing market (spot too far) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (ห่างสปอตเกินไป)"
 
-msgid "Number of token placed must be between %1 and %2."
-msgstr "จำนวนของโทเค่นต้องอยู่ระหว่าง %1 และ %2"
-
 msgid "Sorry, but the bid per token is too low. The minimum bid per token allowed is USD %1 (or its equivalent in another currency)."
 msgstr "ขออภัย ข้อเสนอราคาต่อโทเค่นต่ำเกินไป ข้อเสนอขั้นต่ำต่อโทเค่นที่กำหนด คือ %1 เหรียญสหรัฐ (หรือเทียบเท่าในสกุลเงินอื่น)"
+
+msgid "Number of token placed must be between %1 and %2."
+msgstr "จำนวนของโทเค่นต้องอยู่ระหว่าง %1 และ %2"
 
 msgid "An error occurred during contract settlement."
 msgstr "มีข้อผิดพลาดเกิดขึ้นระหว่างดำเนินการชำระเงินของสัญญา"
@@ -4333,11 +4431,29 @@ msgstr "Barrier ไม่ถูกต้อง"
 msgid "Invalid expiry time."
 msgstr "เวลาหมดอายุไม่ถูกต้อง"
 
+msgid "Successful bids cannot be cancelled after the auction has ended."
+msgstr ""
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (currency)."
+msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
+
 msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
 msgstr "Barrier ต่ำ อยู่นอกขอบเขตที่ยอมรับได้ โปรดปรับปรุงค่า Barrier ใหม่"
 
 msgid "Barrier must be an integer."
 msgstr "Barrier ต้องเป็นเลขจำนวนเต็ม"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (bet_type)."
+msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Trading is not offered for this asset."
+msgstr "การซื้อขายไม่ถูกนำเสนอในช่วงเวลานี้"
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "โปรดรอสักครู่เพื่อประมวลผลสัญญา ราคาสุดท้ายที่ปิดอาจจะแตกต่างจากราคาตามที่ปรากฎ"
@@ -4363,6 +4479,11 @@ msgstr "สัญญานี้ถูกขาย"
 msgid "Trading is suspended due to missing market (out-of-date volatility) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (ความผันผวนเป็นค่าที่ต้องปรับปรุงใหม่)"
 
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (date_start)."
+msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
+
 msgid "Digit must be in the range of %1 to %2."
 msgstr "ตัวเลขต้องอยู่ในช่วง %1 ถึง %2"
 
@@ -4372,23 +4493,25 @@ msgstr "สัญญาที่มีอายุมากว่า 24 ชั�
 msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgstr "ตลาดนี้ได้ปิดทำการขณะนี้ ลองพิจารณาซื้อขายดัชนีผันผวนซึ่งเปิดตลอดเวลา"
 
-msgid "Barrier is out of acceptable range."
-msgstr "Barrier อยู่นอกขอบเขตที่กำหนด"
-
 msgid "Contracts on this market with a duration of more than 24 hours must expire at the end of a trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลามากกว่า 24 ชั่วโมงจะหมดอายุเมื่อสิ้นวัน สิ้นสุดเวลาซื้อขาย"
 
+msgid "Barrier is out of acceptable range."
+msgstr "Barrier อยู่นอกขอบเขตที่กำหนด"
+
 msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
 msgstr "เวลาเริ่มต้นสำหรับสัญญาต้องมากกว่า 5 นาที จากปัจจุบัน"
-
-msgid "Invalid barrier (%1)."
-msgstr "Barrier ไม่ถูกต้อง (%1)"
 
 msgid "This contract offers no return."
 msgstr "สัญญานี้ไม่มีผลกำไร"
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "สัญญาที่มีค่า Barrier ที่กำหนดไว้ก่อน ต้องการค่าสัมบูรณ์ของ Barrier"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (date_expiry or duration)."
+msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
 
 msgid "The contract must expire on a trading day."
 msgstr "สัญญาจะหมดอายุในวันที่ซื้อขาย"
@@ -4408,11 +4531,17 @@ msgstr "ราคา Lookbacks ไม่สามารถมีค่าเป�
 msgid "Expiry time cannot be in the past."
 msgstr "เวลาที่หมดอายุไม่สามารถเป็นเวลาในอดีต"
 
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr ""
+
 msgid "High and low barriers must be different."
 msgstr "Barrier สูง และ Barrier ต่ำ ต้องแตกต่างกัน"
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (ช่วงราคา)"
+
+msgid "Invalid barrier (Single barrier input is expected)."
+msgstr ""
 
 msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (ความผันผวน)"
@@ -4420,23 +4549,41 @@ msgstr "การซื้อขายถูกพักชั่วคราว
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะหมดอายุภายในวันที่ซื้อขาย"
 
+#~ msgid "In what country do you want to offer your service"
+#~ msgstr "ท่านต้องการบริการในประเทศใด"
+
+#~ msgid "Payment agent transfers are available for %1 currency only."
+#~ msgstr "ตัวแทนรับชำระเงินรองรับสกุลเงิน %1 เท่านั้น"
+
+#~ msgid "Please enter the country where you want to offer your service"
+#~ msgstr "โปรดป้อนประเทศที่ท่าใช้บริการ"
+
+#~ msgid "Please provide a valid sub account loginid."
+#~ msgstr "โปรดให้ข้อมูลรหัสผู้ใช้งานของบัญชีย่อยที่ถูกต้อง"
+
+#~ msgid "Australian OTC Index"
+#~ msgstr "ดัชนี Australian OTC"
+
+#~ msgid "Ends In/Out"
+#~ msgstr "Ends In/Out"
+
+#~ msgid "Stays In/Goes Out"
+#~ msgstr "Stays In/Goes Out"
+
+#~ msgid "Receive the difference of %1's maximum value during the life of the option and %4 at %3 after %2."
+#~ msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและ %4 ที่ %3 หลังจาก %2"
+
+#~ msgid "Receive the difference of %1's final value and its minimum value during the life of the option at %3 after %2."
+#~ msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
+
+#~ msgid "Receive the difference of %1's maximum and minimum value during the life of the option at %3 after %2."
+#~ msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 และมูลค่าต่ำสุดในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
+
+#~ msgid "Invalid barrier (%1)."
+#~ msgstr "Barrier ไม่ถูกต้อง (%1)"
+
 #~ msgid "Wall Street Index"
 #~ msgstr "ดัชนีวอลล์สตรีท"
-
-#~ msgid "UK OTC Index"
-#~ msgstr "ดัชนีตลาดเจรจาต่อรองของสหราชอาณาจักร"
-
-#~ msgid "BHP Billiton"
-#~ msgstr "BHP Billiton"
-
-#~ msgid "Tata Motors"
-#~ msgstr "Tata Motors"
-
-#~ msgid "ANZ Banking Group"
-#~ msgstr "ANZ Banking Group"
-
-#~ msgid "Qantas Airways"
-#~ msgstr "Qantas Airways"
 
 #~ msgid "Buy"
 #~ msgstr "ซื้อ"
@@ -12240,9 +12387,6 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 #~ msgid "Develop the digital marketing content that appears on the company’s website"
 #~ msgstr "พัฒนาเนื้อหาการตลาดดิจิทัลซึ่งเผยแพร่ทางเว็บไซต์ของบริษัทฯ"
 
-#~ msgid "Ends Between/Outside"
-#~ msgstr "สิ้นสุดระหว่าง/สิ้นสุดนอกขอบเขต"
-
 #~ msgid "Five years of progressively responsible managerial experience in the region"
 #~ msgstr "มีประสบการณ์ห้าปีในหน้าที่ผู้บริหารในภูมิภาคอย่างต่อเนื่อง"
 
@@ -12272,9 +12416,6 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "ขออภัยค่ะ ท่านไม่สามารถถอนเงินได้"
-
-#~ msgid "Stays Between/Goes Outside"
-#~ msgstr "Stays Between/Goes Outside"
 
 #~ msgid "You have bought contracts with a combined purchase price of five times the bonus amount."
 #~ msgstr "ท่านได้ซื้อสัญญาด้วยราคา 5 เท่าของมูลค่าโบนัส"
