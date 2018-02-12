@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2018-01-22 06:10+0000\n"
-"Last-Translator: Raunak Kathuria <raunakkathuria@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
+"PO-Revision-Date: 2018-02-12 20:06+0000\n"
+"Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
+"websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,6 +56,21 @@ msgid ""
 "\n"
 "Ref ID: %6"
 msgstr ""
+"%1 様\n"
+"\n"
+"以下の%2を実行しましたのでお知らせ致します。\n"
+"\n"
+"口座タイプ: リアルマネー口座\n"
+"\n"
+"%2日: %3\n"
+"\n"
+"資産タイプ: Cash\n"
+"\n"
+"通貨: %4\n"
+"\n"
+"金額: %5\n"
+"\n"
+"約定番号: %6"
 
 msgid "%1 transactions may not be performed with this account."
 msgstr "％1のお取引は、このアカウントで実行されない場合があります。"
@@ -212,10 +228,8 @@ msgstr "金融機関名"
 msgid "Bank wire"
 msgstr "銀行振込"
 
-#, fuzzy
-#| msgid "Payout can not have more than %1 decimal places."
 msgid "Barrier can only be up to %1 decimal places."
-msgstr "ペイアウトは、1ロットあたり1,000円です。"
+msgstr "バリア値は小数点以下%1桁までご入力いただけます。"
 
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
 msgstr "このトレードでのバリア値は最低でもスポット価格より2pip離れている必要があります。"
@@ -224,7 +238,7 @@ msgid "Barriers must be on either side of the spot."
 msgstr "バリアの値は両方のスポット価格をカバーするように指定して下さい。"
 
 msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
-msgstr ""
+msgstr "続行される前に、%1口座の本人確認(KYC)を完了してください。"
 
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "受取人の中継銀行情報："
@@ -655,8 +669,6 @@ msgstr "金額が無効です。"
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgstr "ペイアウトは、1ロットあたり1,000円です。"
 
-#, fuzzy
-#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
 msgstr "ペイアウトは、1ロットあたり1,000円です。"
 
@@ -687,8 +699,6 @@ msgstr "無効なログインです。メールアドレスとパスワードで
 msgid "Invalid loginid"
 msgstr "ログインIDが無効です"
 
-#, fuzzy
-#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgid "Invalid price. Price provided can not have more than %1 decimal places."
 msgstr "ペイアウトは、1ロットあたり1,000円です。"
 
@@ -756,7 +766,7 @@ msgid "Login to this account has been temporarily disabled due to system mainten
 msgstr "申し訳ございませんがシステムメンテナンスのため、この口座へのアクセスは承っておりません。３０分後に改めてお手続きを進めて下さい。"
 
 msgid "Lookback open positions limit exceeded."
-msgstr ""
+msgstr "オープンにできるルックバックオプションの限度を超えました。"
 
 msgid "Lost Password?"
 msgstr "パスワードをお忘れの場合"
@@ -842,8 +852,6 @@ msgstr "%1を除く "
 msgid "No"
 msgstr "いいえ"
 
-#, fuzzy
-#| msgid "No further trading is allowed for the current trading session."
 msgid "No further trading is allowed at this moment."
 msgstr "当社が定める総取引額に到達したため新規注文は行えません"
 
@@ -1555,8 +1563,6 @@ msgstr "設定内容を更新"
 msgid "Value of account_opening_reason cannot be changed."
 msgstr "内容は変更できません"
 
-#, fuzzy
-#| msgid "Value of account_opening_reason cannot be changed."
 msgid "Value of place_of_birth cannot be changed."
 msgstr "内容は変更できません"
 
@@ -1642,10 +1648,8 @@ msgstr "出金額は0より大きい数字でご入力ください。"
 msgid "Yes"
 msgstr "はい"
 
-#, fuzzy
-#| msgid "You already have a %1 account %2"
 msgid "You already have a %1 account %2."
-msgstr "お客様は既に%1のご口座%2をお持ちです"
+msgstr "お客様は既に%1のご口座%2をお持ちです。"
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
 msgstr "既に金融口座をお持ちです。金融商品取引用の口座へ切り替えてください。"
@@ -1785,10 +1789,8 @@ msgstr "お客さまの口座番号：%1"
 msgid "Your account %1 cashier section was locked."
 msgstr "ご口座%1の入出金はロックされました。"
 
-#, fuzzy
-#| msgid "Your account %1 has a different currency %2 than USD."
 msgid "Your account %1 has a different currency %2 than USD/EUR."
-msgstr "口座%1はUSDとは異なる%2通貨です。"
+msgstr "口座%1はUSD/EURとは異なる通貨%2です。"
 
 msgid "Your account %1 was disabled."
 msgstr "この口座%1は無効です。"
@@ -1899,7 +1901,7 @@ msgid "now."
 msgstr "はこちら"
 
 msgid "of funds"
-msgstr ""
+msgstr "資金の"
 
 msgid "or"
 msgstr "または"
@@ -3992,21 +3994,17 @@ msgstr "数字"
 msgid "Predict the last digit of the market price at expiration."
 msgstr "満期時の市場価格下一桁を予測。"
 
-#, fuzzy
-#| msgid "Ends Between/Outside"
 msgid "Ends Between/Ends Outside"
-msgstr "レンジ内で終了/レンジ外で終了"
+msgstr "END-IN/END-OUT"
 
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "トレード終了時の市場価格を上下に設定したバリア値にて予想します。"
 
 msgid "Lookback Options"
-msgstr ""
+msgstr "ルックバック・オプション"
 
-#, fuzzy
-#| msgid "Nokia Corporation"
 msgid "Lookback options"
-msgstr "Nokia Corporation（ノキア）"
+msgstr "ルックバック・オプション"
 
 msgid "Stays Between/Goes Outside"
 msgstr "レンジ内に留まる/レンジ外となる"
@@ -4032,10 +4030,8 @@ msgstr "TOUCH"
 msgid "higher"
 msgstr "HIGH"
 
-#, fuzzy
-#| msgid "higher/lower"
 msgid "highlow"
-msgstr "Higher/Lower"
+msgstr "HighLow"
 
 msgid "asian down"
 msgstr "asian down"
@@ -4061,8 +4057,6 @@ msgstr "NO-TOUCH"
 msgid "stays between"
 msgstr "STAY-IN"
 
-#, fuzzy
-#| msgid "higher"
 msgid "high"
 msgstr "HIGH"
 
@@ -4072,8 +4066,6 @@ msgstr "奇数"
 msgid "asian up"
 msgstr "Asian アップ"
 
-#, fuzzy
-#| msgid "lower"
 msgid "low"
 msgstr "LOW"
 
@@ -4212,15 +4204,11 @@ msgstr "エントリー価格プラス %plural(%1,1 pip)"
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "%1のEND-OUTは、%3 GMTの判定時刻の時点で%4以上もしくは%5未満を予測"
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
 msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
-msgstr "取引期間中の%1の最大値と最終値の差額を%2後の判定時刻（%3）でお受け取りいただけます"
+msgstr "%1の判定レートと最低値の差１ポイントごとに%5を%2後の判定時刻（%3）でお受け取りいただけます。"
 
-#, fuzzy
-#| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
 msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
-msgstr "%4と取引期間中の%1の最小値との差額を%2後の判定時刻（%3）でお受け取りいただけます"
+msgstr "%1の最高値と判定レートの差１ポイント%5を%2後の判定時刻（%3）にお受け取りいただけます。"
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "%1の下一桁が%plural(%3,%d tick)後に%4ではない場合に、ペイアウトをお受け取りいただけます。"
@@ -4258,10 +4246,8 @@ msgstr "%1のEND-INは、%2後の判定時刻(%3)の時点で%4未満かつ%5以
 msgid "entry spot"
 msgstr "エントリー価格"
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
 msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
-msgstr "取引期間中の%1の最大値と最終値の差額を%2後の判定時刻（%3）でお受け取りいただけます"
+msgstr "%1の最高値と最小値の差１ポイント%5 を%2後の判定時刻（%3）でお受け取りいただけます。"
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上で終了を予測"
@@ -4351,7 +4337,7 @@ msgid "Trading is not offered for this duration."
 msgstr "この取引期間の新規注文及び売却取引は出来ません"
 
 msgid "%1 is not allowed for residence of %2."
-msgstr ""
+msgstr "%2の居住者は%1をご利用いただくことはできません。"
 
 msgid "We could not process this contract at this time."
 msgstr "この時間で当トレードを処理することは不可能でした。"
@@ -4375,7 +4361,7 @@ msgid "Number of ticks must be between %1 and %2."
 msgstr "ご利用いただけるTickは%1から%2の間です。"
 
 msgid "Invalid barrier (Double barrier input is expected)."
-msgstr ""
+msgstr "バリア値が無効です（２つのバリア値をご入力ください）。"
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "バリア値が%1から%2の間の値ではありません。"
@@ -4410,10 +4396,8 @@ msgstr "バリア値が適切ではありません。"
 msgid "Sorry, your request could not be processed at this moment."
 msgstr "申し訳ございませんが、この時点でお客様のリクエストを処理できませんでした。"
 
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (underlying)."
-msgstr "必要な取引パラメーターが不明です。(%1)"
+msgstr "必要な取引パラメーターが不明です。(原資産)"
 
 msgid "Contract barrier must be positive."
 msgstr "バリアは正の値を指定して下さい。"
@@ -4425,7 +4409,7 @@ msgid "Trading on forex contracts with duration less than 5 hours is not availab
 msgstr "取引時間が5時間未満であるトレードは、%1から%2をご利用いただけません"
 
 msgid "Invalid barrier (Contract can have only one type of barrier)."
-msgstr ""
+msgstr "バリア値が無効です（このトレードのバリアは１つです）"
 
 msgid "High barrier must be higher than low barrier."
 msgstr "上限バリアは下限バリア値より高い必要があります。"
@@ -4461,12 +4445,10 @@ msgid "Invalid expiry time."
 msgstr "有効期限が無効です。"
 
 msgid "Successful bids cannot be cancelled after the auction has ended."
-msgstr ""
+msgstr "オークション終了後は入札をキャンセルすることはできません。"
 
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (currency)."
-msgstr "必要な取引パラメーターが不明です。(%1)"
+msgstr "必要な取引パラメーターが不明です。(通貨)"
 
 msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
 msgstr "この下限バリアは、許容範囲外です。下限バリアを修正して下さい。"
@@ -4474,15 +4456,11 @@ msgstr "この下限バリアは、許容範囲外です。下限バリアを修
 msgid "Barrier must be an integer."
 msgstr "バリア値は整数です"
 
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (bet_type)."
-msgstr "必要な取引パラメーターが不明です。(%1)"
+msgstr "必要な取引パラメーターが不明です。(bet_type)"
 
-#, fuzzy
-#| msgid "Trading is not offered for this duration."
 msgid "Trading is not offered for this asset."
-msgstr "この取引期間の新規注文及び売却取引は出来ません"
+msgstr "この資産の新規注文及び売却取引は出来ません"
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "トレード決済中です。しばらくお待ちください。最終決済価格は、気配値と異なる場合があります。"
@@ -4508,10 +4486,8 @@ msgstr "このトレードは売却されました。"
 msgid "Trading is suspended due to missing market (out-of-date volatility) data."
 msgstr "現在、一時的にご利用出来ません。"
 
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (date_start)."
-msgstr "必要な取引パラメーターが不明です。(%1)"
+msgstr "必要な取引パラメーターが不明です。(date_start)"
 
 msgid "Digit must be in the range of %1 to %2."
 msgstr "数字は%1から%2の範囲でなければいけません"
@@ -4537,10 +4513,8 @@ msgstr "この取引条件では購入できません"
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "設定されたバリアは、基準値を基にそれぞれの設定間隔を算出されています。"
 
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "必要な取引パラメーターが不明です。(%1)"
+msgstr "必要な取引パラメーターが不明です。(date_expiry or 取引期間)"
 
 msgid "The contract must expire on a trading day."
 msgstr "トレードはトレード可能日に終了する必要があります。"
@@ -4561,7 +4535,7 @@ msgid "Expiry time cannot be in the past."
 msgstr "終了時間を過去の時間に設定することはできません。"
 
 msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr ""
+msgstr "バリア値が無効です（バリアタイプは二重バリアトレードと同じでなければいけません）"
 
 msgid "High and low barriers must be different."
 msgstr "上限バリアと下限バリアに同じ数値をご利用いただけません。"
@@ -4570,7 +4544,7 @@ msgid "Trading is suspended due to missing market (tick) data."
 msgstr "現在、一時的にご利用出来ません。"
 
 msgid "Invalid barrier (Single barrier input is expected)."
-msgstr ""
+msgstr "バリア値が無効です（シングルバリアの値を入力してください）"
 
 msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "現在、一時的にご利用出来ません"
