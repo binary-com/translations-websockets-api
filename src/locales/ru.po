@@ -7,15 +7,17 @@ msgstr ""
 "Project-Id-Version: BOM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-11-16 08:49+0000\n"
+"PO-Revision-Date: 2018-02-14 08:50+0000\n"
 "Last-Translator: Alina Demidova <alinademidova1@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-"
+"websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 msgid ""
 "\n"
@@ -56,6 +58,21 @@ msgid ""
 "\n"
 "Ref ID: %6"
 msgstr ""
+"%1 sama\n"
+"\n"
+"Please be advised we have processed the following %2.\n"
+"\n"
+"Account Type: Real Money Account\n"
+"\n"
+"Date of %2: %3\n"
+"\n"
+"Asset Type: Cash\n"
+"\n"
+"Currency: %4\n"
+"\n"
+"Amount: %5\n"
+"\n"
+"Ref ID: %6"
 
 msgid "%1 transactions may not be performed with this account."
 msgstr "Транзакции %1 не могут производиться на данном счету."
@@ -189,10 +206,8 @@ msgstr "Название банка"
 msgid "Bank wire"
 msgstr "Банковский перевод"
 
-#, fuzzy
-#| msgid "Payout can not have more than %1 decimal places."
 msgid "Barrier can only be up to %1 decimal places."
-msgstr "Сумма выплаты не может иметь более %1 десятичных."
+msgstr "Барьер может быть только до %1 десятичных."
 
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
 msgstr "Барьер должен находиться минимум на %plural(%1,%d пипс,%d пипса,%d пипсов) от спот-цены."
@@ -202,6 +217,8 @@ msgstr "Барьеры должны быть выше или ниже рыноч
 
 msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
 msgstr ""
+"Перед тем, как продолжить, пройдите процесс проверки личности (ЗСК) на Вашем "
+"счету %1."
 
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Данные банка-корреспондента:"
@@ -625,10 +642,9 @@ msgstr "Неправильная сумма."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgstr "Неправильная сумма. Разрешенная сумма не может иметь более %1 десятичных"
 
-#, fuzzy
-#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
-msgstr "Неправильная сумма. Разрешенная сумма не может иметь более %1 десятичных"
+msgstr ""
+"Неправильная сумма. Разрешенная сумма не может иметь более %1 десятичных."
 
 msgid "Invalid amount. Maximum is %1."
 msgstr "Неправильная сумма. Максимум: %1."
@@ -657,10 +673,8 @@ msgstr "Не удалось войти на сайт. Пожалуйста, во
 msgid "Invalid loginid"
 msgstr "Неправильный логин"
 
-#, fuzzy
-#| msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 msgid "Invalid price. Price provided can not have more than %1 decimal places."
-msgstr "Неправильная сумма. Разрешенная сумма не может иметь более %1 десятичных"
+msgstr "Неправильная цена. Разрешенная цена не может иметь более %1 десятичных."
 
 msgid "Invalid request."
 msgstr "Неправильный запрос."
@@ -726,7 +740,7 @@ msgid "Login to this account has been temporarily disabled due to system mainten
 msgstr "Вход на этот счет временно невозможен ввиду технических работ в системе. Пожалуйста, попробуйте еще раз через 30 минут."
 
 msgid "Lookback open positions limit exceeded."
-msgstr ""
+msgstr "Превышено разрешенное число открытых ретроспективных позиций."
 
 msgid "Lost Password?"
 msgstr "Забыли пароль?"
@@ -812,10 +826,8 @@ msgstr "Новое значение: "
 msgid "No"
 msgstr "Нет"
 
-#, fuzzy
-#| msgid "No further trading is allowed for the current trading session."
 msgid "No further trading is allowed at this moment."
-msgstr "Дальнейшая торговля в рамках текущей сессии запрещена."
+msgstr "Дальнейшая торговля запрещена в данное время."
 
 msgid "No further trading is allowed for the current trading session."
 msgstr "Дальнейшая торговля в рамках текущей сессии запрещена."
@@ -1527,10 +1539,8 @@ msgstr "Обновить настройки"
 msgid "Value of account_opening_reason cannot be changed."
 msgstr "Нельзя менять текст в поле Причина открытия счёта."
 
-#, fuzzy
-#| msgid "Value of account_opening_reason cannot be changed."
 msgid "Value of place_of_birth cannot be changed."
-msgstr "Нельзя менять текст в поле Причина открытия счёта."
+msgstr "Нельзя менять текст в поле place_of_birth."
 
 msgid "Verify your email address - %1"
 msgstr "Подтвердите свой электронный адрес - %1"
@@ -1625,10 +1635,8 @@ msgstr "Сумма вывода должна быть больше нуля."
 msgid "Yes"
 msgstr "Да"
 
-#, fuzzy
-#| msgid "You already have a %1 account %2"
 msgid "You already have a %1 account %2."
-msgstr "У Вас уже есть %1 счет %2"
+msgstr "У Вас уже есть %1 счет %2."
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
 msgstr "У Вас уже есть финансовый счёт. Пожалуйста, перейдите на счёт для торговли финансовыми продуктами."
@@ -1768,10 +1776,8 @@ msgstr "Ваш логин: %1"
 msgid "Your account %1 cashier section was locked."
 msgstr "Раздел Касса на Вашем счету заблокирован."
 
-#, fuzzy
-#| msgid "Your account %1 has a different currency %2 than USD."
 msgid "Your account %1 has a different currency %2 than USD/EUR."
-msgstr "На Вашем счету %1 другая валюта %2, не USD."
+msgstr "На Вашем счету %1 другая валюта %2, не USD/EUR."
 
 msgid "Your account %1 was disabled."
 msgstr "Ваш счет %1 деактивирован."
@@ -1882,7 +1888,7 @@ msgid "now."
 msgstr "сейчас."
 
 msgid "of funds"
-msgstr ""
+msgstr "средств"
 
 msgid "or"
 msgstr "или"
@@ -3979,21 +3985,17 @@ msgstr "Цифров."
 msgid "Predict the last digit of the market price at expiration."
 msgstr "Сделать прогноз последней цифры рыночной цены на момент окончания."
 
-#, fuzzy
-#| msgid "Ends Between/Outside"
 msgid "Ends Between/Ends Outside"
-msgstr "Закончится между/вне"
+msgstr "Закончится внутри/вне"
 
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Сделать прогноз, какой будет цена рынка на момент окончания по отношению к двум выбранным барьерам."
 
 msgid "Lookback Options"
-msgstr ""
+msgstr "Ретроспективные опционы"
 
-#, fuzzy
-#| msgid "Nokia Corporation"
 msgid "Lookback options"
-msgstr "Nokia Corporation"
+msgstr "Ретроспективные опционы"
 
 msgid "Stays Between/Goes Outside"
 msgstr "Останется между/Выйдет за пределы"
@@ -4019,8 +4021,6 @@ msgstr "коснется"
 msgid "higher"
 msgstr "выше"
 
-#, fuzzy
-#| msgid "higher/lower"
 msgid "highlow"
 msgstr "выше/ниже"
 
@@ -4048,8 +4048,6 @@ msgstr "не коснется"
 msgid "stays between"
 msgstr "останется между"
 
-#, fuzzy
-#| msgid "higher"
 msgid "high"
 msgstr "выше"
 
@@ -4059,8 +4057,6 @@ msgstr "нечётное число"
 msgid "asian up"
 msgstr "азиатские вверх"
 
-#, fuzzy
-#| msgid "lower"
 msgid "low"
 msgstr "ниже"
 
@@ -4199,15 +4195,15 @@ msgstr "входная спот-котировка плюс %plural(%1,%d пун
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Получить выплату, если %1 закончится вне диапазона от %5 до %4 во время %3."
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
 msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
-msgstr "Получить разницу между максимальной ценой %1 на протяжении длительности опциона и его итоговой ценой через %3 после %2."
+msgstr ""
+"Получить %5 за каждый пункт разницы между котировкой %1 на выходе и мин. "
+"ценой через %3 после %2."
 
-#, fuzzy
-#| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
 msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
-msgstr "Получить разницу между %4 и минимальной ценой %1 на протяжении длительности опциона через %3 после %2.'"
+msgstr ""
+"Получить %5 за каждый пункт разницы между макс. ценой %1 и спот-котировкой "
+"на выходе через %3 после %2."
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Получить выплату, если последняя цифра %1 не будет %4 после %plural(%3,%d тика, %d тиков, %d тиков)."
@@ -4222,7 +4218,8 @@ msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "Получить выплату, если последняя цифра %1 будет чётным числом после %3 тиков."
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
-msgstr "Получить выплату, если %1 будет строго между %5 и %4 во время %3."
+msgstr ""
+"Получить выплату, если %1 будет строго между уровнем %5 и %4 во время %3."
 
 msgid "Win payout if %1 touches %4 through %3."
 msgstr "Получить выплату, если %1 коснется %4 до %3."
@@ -4245,10 +4242,10 @@ msgstr "Получить выплату, если %1 закончится на �
 msgid "entry spot"
 msgstr "входная спот-котировка"
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
 msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
-msgstr "Получить разницу между максимальной ценой %1 на протяжении длительности опциона и его итоговой ценой через %3 после %2."
+msgstr ""
+"Получить %5 за каждый пункт разницы между макс. и мин. ценой %1 через %3 "
+"после %2."
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "Получить выплату, если %1 окончится на отметке или между %5 и %4 во время %3."
@@ -4305,7 +4302,9 @@ msgid "Win payout if %1 touches %4 through %3 after %2."
 msgstr "Получить выплату, если %1 коснется %4 до %3 после %2."
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
-msgstr "Получить выплату, если %1 будет строго между %5 и %4 через %3 после %2."
+msgstr ""
+"Получить выплату, если %1 будет строго между барьерами %5 и %4 через %3 "
+"после %2."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Получить выплату, если %1 закончится вне диапазона от %5 до %4 через %3 после %2."
@@ -4337,10 +4336,8 @@ msgstr "Этот контракт уже закончил свое действ�
 msgid "Trading is not offered for this duration."
 msgstr "Контракты не предлагаются на данный период."
 
-#, fuzzy
-#| msgid "Sorry, our service is not available for residents of %1."
 msgid "%1 is not allowed for residence of %2."
-msgstr "Извините, мы не принимаем к регистрации резидентов %1."
+msgstr "Извините, %1 не разрешен для резидентов %2."
 
 msgid "We could not process this contract at this time."
 msgstr "Мы не смогли обработать данный контракт в настоящее время."
@@ -4364,7 +4361,7 @@ msgid "Number of ticks must be between %1 and %2."
 msgstr "Количество тиков должно быть от %1 до %2."
 
 msgid "Invalid barrier (Double barrier input is expected)."
-msgstr ""
+msgstr "Недопустимый барьер (ожидается двойной барьер)."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Барьер не является целым числом от %1 до %2."
@@ -4404,10 +4401,8 @@ msgstr "Извините, Ваш запрос не может быть выпо�
 
 # 83%
 # 100%
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (underlying)."
-msgstr "Отсутствуют обязательные параметры контракта (%1)."
+msgstr "Отсутствуют обязательные параметры контракта (актив)."
 
 msgid "Contract barrier must be positive."
 msgstr "Барьер контракта должен быть положительным значением."
@@ -4419,7 +4414,7 @@ msgid "Trading on forex contracts with duration less than 5 hours is not availab
 msgstr "Торговля контрактами на Forex длительностью менее 5 часов временно недоступна с %1 до %2"
 
 msgid "Invalid barrier (Contract can have only one type of barrier)."
-msgstr ""
+msgstr "Недопустимый барьер (у контракта может быть только один вид барьеров)."
 
 msgid "High barrier must be higher than low barrier."
 msgstr "Верхний барьер должен быть выше нижнего барьера."
@@ -4457,14 +4452,12 @@ msgid "Invalid expiry time."
 msgstr "Неправильное время окончания."
 
 msgid "Successful bids cannot be cancelled after the auction has ended."
-msgstr ""
+msgstr "Успешные ставки нельзя отменить после окончания аукциона."
 
 # 83%
 # 100%
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (currency)."
-msgstr "Отсутствуют обязательные параметры контракта (%1)."
+msgstr "Отсутствуют обязательные параметры контракта (валюта)."
 
 msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
 msgstr "Нижний барьер вне приемлемых рамок. Пожалуйста, измените нижний барьер."
@@ -4474,15 +4467,11 @@ msgstr "Барьер должен быть целым числом."
 
 # 83%
 # 100%
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (bet_type)."
-msgstr "Отсутствуют обязательные параметры контракта (%1)."
+msgstr "Отсутствуют обязательные параметры контракта (bet_type)."
 
-#, fuzzy
-#| msgid "Trading is not offered for this duration."
 msgid "Trading is not offered for this asset."
-msgstr "Контракты не предлагаются на данный период."
+msgstr "Контракты не предлагаются на данном активе."
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Пожалуйста, дождитесь окончания действия контракта. Окончательная цена контракта может отличаться от ориентировочной цены."
@@ -4510,10 +4499,8 @@ msgstr "Торговля приостановлена из-за отсутств
 
 # 83%
 # 100%
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (date_start)."
-msgstr "Отсутствуют обязательные параметры контракта (%1)."
+msgstr "Отсутствуют обязательные параметры контракта (date_start)."
 
 msgid "Digit must be in the range of %1 to %2."
 msgstr "Число должно быть в диапазоне от %1 до %2."
@@ -4541,10 +4528,9 @@ msgstr "Контракты с заранее установленным барь
 
 # 83%
 # 100%
-#, fuzzy
-#| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Отсутствуют обязательные параметры контракта (%1)."
+msgstr ""
+"Отсутствуют обязательные параметры контракта (date_expiry или длительность)."
 
 msgid "The contract must expire on a trading day."
 msgstr "Контракт должен заканчиваться в рабочий торговый день."
@@ -4566,6 +4552,8 @@ msgstr "Время истечения контракта не может быт�
 
 msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
 msgstr ""
+"Недопустимый барьер (контракты с двойным барьером должны иметь только один "
+"вид барьера)."
 
 msgid "High and low barriers must be different."
 msgstr "Верхний и нижний барьеры должны быть разными."
@@ -4574,7 +4562,7 @@ msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Торговля приостановлена из-за отсутствия рыночных данных (тиков)."
 
 msgid "Invalid barrier (Single barrier input is expected)."
-msgstr ""
+msgstr "Недопустимый барьер (ожидается один барьер)."
 
 msgid "Trading is suspended due to missing market (volatility) data."
 msgstr "Торговля приостановлена из-за отсутствия рыночных данных (волатильности)."
