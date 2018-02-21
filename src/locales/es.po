@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-02-15 06:40+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-websocket/translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -878,6 +877,9 @@ msgstr "Operar con cuentas"
 
 msgid "Option %1 value must be zero or positive number."
 msgstr "El valor de la opción %1 debe ser cero o un número positivo."
+
+msgid "Or"
+msgstr ""
 
 msgid "Ordinary"
 msgstr "Común"
@@ -1897,9 +1899,6 @@ msgstr "ahora."
 msgid "of funds"
 msgstr ""
 
-msgid "or"
-msgstr "o"
-
 msgid "today"
 msgstr "hoy"
 
@@ -2846,9 +2845,6 @@ msgstr "Índice OTC Euro 100"
 
 msgid "Wall Street Smart Index"
 msgstr "Índice Smart Wall Street"
-
-msgid "Singapore Index"
-msgstr "Índice Singapur"
 
 msgid "Portuguese Smart Index"
 msgstr "Índice Smart Portugal"
@@ -3996,12 +3992,9 @@ msgstr "Finaliza Dentro/Fuera"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Haga una predicción sobre el nivel del mercado al vencimiento del contrato en relación a las dos barreras seleccionadas."
 
-msgid "Lookback Options"
-msgstr ""
-
 #, fuzzy
 #| msgid "Nokia Corporation"
-msgid "Lookback options"
+msgid "Lookbacks"
 msgstr "Nokia Corporation"
 
 msgid "Stays Between/Goes Outside"
@@ -4029,9 +4022,9 @@ msgid "higher"
 msgstr "superior"
 
 #, fuzzy
-#| msgid "higher/lower"
-msgid "highlow"
-msgstr "superiores/inferiores"
+#| msgid "High/Low"
+msgid "High-Low"
+msgstr "Alto/bajo"
 
 msgid "asian down"
 msgstr "asiáticas abajo"
@@ -4058,9 +4051,9 @@ msgid "stays between"
 msgstr "queda dentro"
 
 #, fuzzy
-#| msgid "higher"
-msgid "high"
-msgstr "superior"
+#| msgid "Close"
+msgid "High-Close"
+msgstr "Cierre"
 
 msgid "odd"
 msgstr "impar"
@@ -4069,9 +4062,9 @@ msgid "asian up"
 msgstr "asiáticos arriba"
 
 #, fuzzy
-#| msgid "lower"
-msgid "low"
-msgstr "inferior"
+#| msgid "Close"
+msgid "Close-Low"
+msgstr "Cierre"
 
 msgid "ends outside"
 msgstr "Finaliza fuera"
@@ -4208,15 +4201,11 @@ msgstr "punto de entrada positivo %plural(%1,%d pip, %d pips)"
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Gane si %1 finaliza fuera del rango de %5 a %4 a las %3."
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
-msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
-msgstr "Reciba la diferencia entre el valor máximo de %1 durante la vida de la opción y su valor final a %3 después de %2."
+msgid "Win %6 %5 times %1's close minus low over the next %3."
+msgstr ""
 
-#, fuzzy
-#| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
-msgstr "Reciba la diferencia entre %4 y el valor mínimo de %1 durante la vida de la opción a %3 después de 2."
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr ""
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Gane si el último dígito de %1 no es %4 después de %plural(%3,%d intervalo,%d intervalos)."
@@ -4227,8 +4216,14 @@ msgstr "Gane si el último dígito de %1 es estrictamente mayor a %4 después de
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "Gane si el último dígito de %1 es impar  después de %3 intervalos."
 
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr ""
+
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "Gane si el último dígito de %1 es par de %3 intervalos."
+
+msgid "Win %6 %5 times %1's close minus low at %3."
+msgstr ""
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
 msgstr "Gane si %1 finaliza estrictamente entre %5 y %4 a la hora del %3."
@@ -4254,10 +4249,8 @@ msgstr "Gane si %1 finaliza en o entre %5 y %4 a la hora del %3 después de %2."
 msgid "entry spot"
 msgstr "punto de entrada"
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
-msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
-msgstr "Reciba la diferencia entre el valor máximo de %1 durante la vida de la opción y su valor final a %3 después de %2."
+msgid "Win %6 %5 times %1's high minus low over the next %3."
+msgstr ""
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "Gane si %1 finaliza en o entre %5 y %4 a la hora del %3."
@@ -4276,6 +4269,9 @@ msgstr "Gane si %1 es inferior o igual a %4 a la hora del %3."
 
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "Gane si el último intervalo de %1 es estrictamente menor a la media de los %plural(%3,%d intervalo,%d intervalos)."
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr ""
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "punto de entrada negativo %plural(%1,%d pip, %d pips)"
@@ -4361,6 +4357,9 @@ msgstr "La barrera superior se encuentra fuera del rango aceptable. Por favor, c
 msgid "Trading is suspended due to missing market data."
 msgstr "Las operaciones están suspendidas por falta de datos del mercado."
 
+msgid "Minimum multiplier of"
+msgstr ""
+
 msgid "Expiry time cannot be equal to start time."
 msgstr "El tiempo de caducidad no puede ser igual al tiempo de inicio."
 
@@ -4420,11 +4419,11 @@ msgstr "La hora de inicio es en el futuro."
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "Las operaciones en Forex con una duración menor a 5 horas no están disponibles entre 1% y %2"
 
-msgid "Invalid barrier (Contract can have only one type of barrier)."
-msgstr ""
-
 msgid "High barrier must be higher than low barrier."
 msgstr "La barrera superior debe ser más alta que la barrera inferior."
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr ""
 
 msgid "Resale of this contract is not offered due to market holidays during contract period."
 msgstr "La reventa de este contraro no se oferece debido a los festivos durante el período del contrato."
@@ -4450,11 +4449,11 @@ msgstr "El ICO ahora está cerrado."
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "Las operaciones están suspendidas por falta de datos del mercado (dividendo)."
 
-msgid "Invalid barrier."
-msgstr "Límite no válido."
-
 msgid "Invalid expiry time."
 msgstr "Inválido vencimiento hora."
+
+msgid "Invalid barrier."
+msgstr "Límite no válido."
 
 msgid "Successful bids cannot be cancelled after the auction has ended."
 msgstr ""
@@ -4473,6 +4472,11 @@ msgstr "La barrera tiene que ser un número entero."
 #, fuzzy
 #| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (bet_type)."
+msgstr "Faltan los parámetros de contrato requeridos (%1)."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (multiplier)."
 msgstr "Faltan los parámetros de contrato requeridos (%1)."
 
 #, fuzzy
@@ -4511,6 +4515,11 @@ msgstr "Faltan los parámetros de contrato requeridos (%1)."
 
 msgid "Digit must be in the range of %1 to %2."
 msgstr "El dígito se debe encontrar dentro del rango de %1 to %2."
+
+#, fuzzy
+#| msgid "Max 30 tokens are allowed."
+msgid "Only 3 decimal places are allowed."
+msgstr "Se permite un máximo de 30 tokens."
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "Los contratos con una duración superior a 24 horas necesitan una barrera absoluta."
@@ -4556,11 +4565,11 @@ msgstr "El precio de análisis retroactivo no puede ser cero."
 msgid "Expiry time cannot be in the past."
 msgstr "El tiempo de caducidad no puede estar en el pasado."
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr ""
-
 msgid "High and low barriers must be different."
 msgstr "Las barreras inferiores y superiores deben ser diferentes."
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr ""
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Las operaciones están suspendidas por falta de datos del mercado (intervalos)."
@@ -4573,6 +4582,42 @@ msgstr "Las operaciones están suspendidas por falta de datos del mercado (volat
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Los contratos de este mercado con una duración inferior a 24 horas deben expirar el mismo día."
+
+#~ msgid "or"
+#~ msgstr "o"
+
+#~ msgid "Singapore Index"
+#~ msgstr "Índice Singapur"
+
+#, fuzzy
+#~| msgid "higher/lower"
+#~ msgid "highlow"
+#~ msgstr "superiores/inferiores"
+
+#, fuzzy
+#~| msgid "higher"
+#~ msgid "high"
+#~ msgstr "superior"
+
+#, fuzzy
+#~| msgid "lower"
+#~ msgid "low"
+#~ msgstr "inferior"
+
+#, fuzzy
+#~| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+#~ msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
+#~ msgstr "Reciba la diferencia entre el valor máximo de %1 durante la vida de la opción y su valor final a %3 después de %2."
+
+#, fuzzy
+#~| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+#~ msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+#~ msgstr "Reciba la diferencia entre %4 y el valor mínimo de %1 durante la vida de la opción a %3 después de 2."
+
+#, fuzzy
+#~| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+#~ msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+#~ msgstr "Reciba la diferencia entre el valor máximo de %1 durante la vida de la opción y su valor final a %3 después de %2."
 
 #~ msgid "In what country do you want to offer your service"
 #~ msgstr "En qué país desea ofrecer su servicio"
@@ -5351,9 +5396,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 #~ msgid "Chart Type"
 #~ msgstr "Tipo de gráfico"
 
-#~ msgid "Close"
-#~ msgstr "Cierre"
-
 #~ msgid "Close All"
 #~ msgstr "Cerrar todo"
 
@@ -5638,9 +5680,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "High barrier offset"
 #~ msgstr "Desplazamiento de la barrera superior"
-
-#~ msgid "High/Low"
-#~ msgstr "Alto/bajo"
 
 #~ msgid "Higher/Lower"
 #~ msgstr "Superior/Inferior"

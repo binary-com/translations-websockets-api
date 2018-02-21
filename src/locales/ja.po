@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-02-12 20:06+0000\n"
 "Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -899,6 +898,9 @@ msgstr "無料口座開設"
 
 msgid "Option %1 value must be zero or positive number."
 msgstr "オプション%1の値は正の値である必要があります。"
+
+msgid "Or"
+msgstr ""
 
 msgid "Ordinary"
 msgstr "普通"
@@ -1903,9 +1905,6 @@ msgstr "はこちら"
 msgid "of funds"
 msgstr "資金の"
 
-msgid "or"
-msgstr "または"
-
 msgid "today"
 msgstr "本日"
 
@@ -2852,9 +2851,6 @@ msgstr "ユーロ 100店頭インデックス"
 
 msgid "Wall Street Smart Index"
 msgstr "ウォールストリート スマートインデックス"
-
-msgid "Singapore Index"
-msgstr "シンガポール インデックス"
 
 msgid "Portuguese Smart Index"
 msgstr "ポルトガル スマートインデックス"
@@ -4000,10 +3996,9 @@ msgstr "END-IN/END-OUT"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "トレード終了時の市場価格を上下に設定したバリア値にて予想します。"
 
-msgid "Lookback Options"
-msgstr "ルックバック・オプション"
-
-msgid "Lookback options"
+#, fuzzy
+#| msgid "Lookback Options"
+msgid "Lookbacks"
 msgstr "ルックバック・オプション"
 
 msgid "Stays Between/Goes Outside"
@@ -4030,8 +4025,10 @@ msgstr "TOUCH"
 msgid "higher"
 msgstr "HIGH"
 
-msgid "highlow"
-msgstr "HighLow"
+#, fuzzy
+#| msgid "High/Low"
+msgid "High-Low"
+msgstr "ラダーHigh/ラダーLow"
 
 msgid "asian down"
 msgstr "asian down"
@@ -4057,8 +4054,10 @@ msgstr "NO-TOUCH"
 msgid "stays between"
 msgstr "STAY-IN"
 
-msgid "high"
-msgstr "HIGH"
+#, fuzzy
+#| msgid "Close"
+msgid "High-Close"
+msgstr "閉じる"
 
 msgid "odd"
 msgstr "奇数"
@@ -4066,8 +4065,10 @@ msgstr "奇数"
 msgid "asian up"
 msgstr "Asian アップ"
 
-msgid "low"
-msgstr "LOW"
+#, fuzzy
+#| msgid "Close"
+msgid "Close-Low"
+msgstr "閉じる"
 
 msgid "ends outside"
 msgstr "レンジ外で終了"
@@ -4204,11 +4205,11 @@ msgstr "エントリー価格プラス %plural(%1,1 pip)"
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "%1のEND-OUTは、%3 GMTの判定時刻の時点で%4以上もしくは%5未満を予測"
 
-msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
-msgstr "%1の判定レートと最低値の差１ポイントごとに%5を%2後の判定時刻（%3）でお受け取りいただけます。"
+msgid "Win %6 %5 times %1's close minus low over the next %3."
+msgstr ""
 
-msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
-msgstr "%1の最高値と判定レートの差１ポイント%5を%2後の判定時刻（%3）にお受け取りいただけます。"
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr ""
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "%1の下一桁が%plural(%3,%d tick)後に%4ではない場合に、ペイアウトをお受け取りいただけます。"
@@ -4219,8 +4220,14 @@ msgstr "%1の下一桁が%3 tickの時点で%4よりも正確に高い場合に�
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "%3 tick後に%1の下一桁の数が奇数である場合、ペイアウトをお受け取りいただけます。"
 
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr ""
+
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "%1の下一桁が %3 ticks以降もxxxである場合、ペイアウトをお受け取りいただけます。"
+
+msgid "Win %6 %5 times %1's close minus low at %3."
+msgstr ""
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
 msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上で終了を予測"
@@ -4246,8 +4253,8 @@ msgstr "%1のEND-INは、%2後の判定時刻(%3)の時点で%4未満かつ%5以
 msgid "entry spot"
 msgstr "エントリー価格"
 
-msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
-msgstr "%1の最高値と最小値の差１ポイント%5 を%2後の判定時刻（%3）でお受け取りいただけます。"
+msgid "Win %6 %5 times %1's high minus low over the next %3."
+msgstr ""
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上で終了を予測"
@@ -4266,6 +4273,9 @@ msgstr "%1のラダーLOWは、%3の判定時刻の時点で%4未満を予測"
 
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "%1の最後の値 が%plural(%3,%d tick)の平均よりも正確に低い場合に、ペイアウトをお受け取りいただけます。"
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr ""
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "エントリー価格プラス %plural(%1,1 pip)"
@@ -4351,6 +4361,9 @@ msgstr "高バリアは許容範囲外です。高バリアの調整をしてく
 msgid "Trading is suspended due to missing market data."
 msgstr "現在、一時的にご利用出来ません"
 
+msgid "Minimum multiplier of"
+msgstr ""
+
 msgid "Expiry time cannot be equal to start time."
 msgstr "終了時間を開始時間と同じ時間に設定することはできません。"
 
@@ -4408,11 +4421,11 @@ msgstr "開始時間が未来の値になっています。"
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "取引時間が5時間未満であるトレードは、%1から%2をご利用いただけません"
 
-msgid "Invalid barrier (Contract can have only one type of barrier)."
-msgstr "バリア値が無効です（このトレードのバリアは１つです）"
-
 msgid "High barrier must be higher than low barrier."
 msgstr "上限バリアは下限バリア値より高い必要があります。"
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr "バリア値が無効です（このトレードのバリアは１つです）"
 
 msgid "Resale of this contract is not offered due to market holidays during contract period."
 msgstr "市場の休場スケジュールの都合につき、このトレードの取引期間中にトレードを売ることは不可能です。"
@@ -4438,11 +4451,11 @@ msgstr "営業時間外のためご利用になれません。"
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "現在、一時的にご利用出来ません。"
 
-msgid "Invalid barrier."
-msgstr "バリア価格は無効です"
-
 msgid "Invalid expiry time."
 msgstr "有効期限が無効です。"
+
+msgid "Invalid barrier."
+msgstr "バリア価格は無効です"
 
 msgid "Successful bids cannot be cancelled after the auction has ended."
 msgstr "オークション終了後は入札をキャンセルすることはできません。"
@@ -4457,6 +4470,11 @@ msgid "Barrier must be an integer."
 msgstr "バリア値は整数です"
 
 msgid "Missing required contract parameters (bet_type)."
+msgstr "必要な取引パラメーターが不明です。(bet_type)"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (bet_type)."
+msgid "Missing required contract parameters (multiplier)."
 msgstr "必要な取引パラメーターが不明です。(bet_type)"
 
 msgid "Trading is not offered for this asset."
@@ -4491,6 +4509,11 @@ msgstr "必要な取引パラメーターが不明です。(date_start)"
 
 msgid "Digit must be in the range of %1 to %2."
 msgstr "数字は%1から%2の範囲でなければいけません"
+
+#, fuzzy
+#| msgid "Max 30 tokens are allowed."
+msgid "Only 3 decimal places are allowed."
+msgstr "最大30トークンが可能"
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "取引期間が24時間以上の取引は、基準値が必要となります。"
@@ -4534,11 +4557,11 @@ msgstr "ルックバック価格は0に設定することはできません。"
 msgid "Expiry time cannot be in the past."
 msgstr "終了時間を過去の時間に設定することはできません。"
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "バリア値が無効です（バリアタイプは二重バリアトレードと同じでなければいけません）"
-
 msgid "High and low barriers must be different."
 msgstr "上限バリアと下限バリアに同じ数値をご利用いただけません。"
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "バリア値が無効です（バリアタイプは二重バリアトレードと同じでなければいけません）"
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "現在、一時的にご利用出来ません。"
@@ -4551,6 +4574,33 @@ msgstr "現在、一時的にご利用出来ません"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "取引期間が24時間以内の回号での取引は、取引開始日と取引終了日は同日となります。"
+
+#~ msgid "or"
+#~ msgstr "または"
+
+#~ msgid "Singapore Index"
+#~ msgstr "シンガポール インデックス"
+
+#~ msgid "Lookback options"
+#~ msgstr "ルックバック・オプション"
+
+#~ msgid "highlow"
+#~ msgstr "HighLow"
+
+#~ msgid "high"
+#~ msgstr "HIGH"
+
+#~ msgid "low"
+#~ msgstr "LOW"
+
+#~ msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
+#~ msgstr "%1の判定レートと最低値の差１ポイントごとに%5を%2後の判定時刻（%3）でお受け取りいただけます。"
+
+#~ msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+#~ msgstr "%1の最高値と判定レートの差１ポイント%5を%2後の判定時刻（%3）にお受け取りいただけます。"
+
+#~ msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+#~ msgstr "%1の最高値と最小値の差１ポイント%5 を%2後の判定時刻（%3）でお受け取りいただけます。"
 
 #~ msgid "In what country do you want to offer your service"
 #~ msgstr "サービス提供を計画している国名"
@@ -5295,9 +5345,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 #~ msgid "Chart Type"
 #~ msgstr "チャート・タイプ"
 
-#~ msgid "Close"
-#~ msgstr "閉じる"
-
 #~ msgid "Close All"
 #~ msgstr "全て閉じる"
 
@@ -5582,9 +5629,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "High barrier offset"
 #~ msgstr "上限追加バリア値"
-
-#~ msgid "High/Low"
-#~ msgstr "ラダーHigh/ラダーLow"
 
 #~ msgid "Higher/Lower"
 #~ msgstr "ラダーHIGH/ラダーLOW"

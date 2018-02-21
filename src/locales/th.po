@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-02-15 06:40+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/binary-"
-"websocket/translations/th/>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/translations/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -879,6 +878,9 @@ msgstr "เปิดบัญชี"
 
 msgid "Option %1 value must be zero or positive number."
 msgstr "มูลค่าออปชั่น %1 ต้องเป็นศูนย์ หรือ มากกว่าศูนย์"
+
+msgid "Or"
+msgstr ""
 
 msgid "Ordinary"
 msgstr "ธรรมดา"
@@ -1893,9 +1895,6 @@ msgstr "ขณะนี้"
 msgid "of funds"
 msgstr ""
 
-msgid "or"
-msgstr "หรือ"
-
 msgid "today"
 msgstr "วันนี้"
 
@@ -2838,9 +2837,6 @@ msgstr "ดัชนีตลาดเจรจาต่อรองสกุล
 
 msgid "Wall Street Smart Index"
 msgstr "ดัชนีวอลล์สตรีท สมาร์ท"
-
-msgid "Singapore Index"
-msgstr "ดัชนีสิงคโปร์"
 
 msgid "Portuguese Smart Index"
 msgstr "ดัขนีโปรตุเกส สมาร์ท"
@@ -3987,12 +3983,9 @@ msgstr "สิ้นสุดระหว่าง/สิ้นสุดนอ�
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "พยากรณ์ระดับตลาดที่จะปิดที่สัมพันธ์กับ Barrier ที่กำหนดไว้ 2 ค่า"
 
-msgid "Lookback Options"
-msgstr ""
-
 #, fuzzy
 #| msgid "Nokia Corporation"
-msgid "Lookback options"
+msgid "Lookbacks"
 msgstr "Nokia Corporation"
 
 msgid "Stays Between/Goes Outside"
@@ -4020,9 +4013,9 @@ msgid "higher"
 msgstr "สูงกว่า"
 
 #, fuzzy
-#| msgid "higher"
-msgid "highlow"
-msgstr "สูงกว่า"
+#| msgid "High/Low"
+msgid "High-Low"
+msgstr "สูง/ต่ำ"
 
 msgid "asian down"
 msgstr "Asian Down"
@@ -4049,9 +4042,9 @@ msgid "stays between"
 msgstr "อยู่ระหว่าง"
 
 #, fuzzy
-#| msgid "higher"
-msgid "high"
-msgstr "สูงกว่า"
+#| msgid "Close"
+msgid "High-Close"
+msgstr "ปิด"
 
 msgid "odd"
 msgstr "คี่"
@@ -4060,9 +4053,9 @@ msgid "asian up"
 msgstr "Asian Up"
 
 #, fuzzy
-#| msgid "lower"
-msgid "low"
-msgstr "ต่ำกว่า"
+#| msgid "Close"
+msgid "Close-Low"
+msgstr "ปิด"
 
 msgid "ends outside"
 msgstr "สิ้นสุดภายนอก"
@@ -4199,15 +4192,11 @@ msgstr "สปอตเริ่มต้นบวก %plural(%1,%d pip, %d pips
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "ชนะและได้รับชำระเงินเมื่อ %1 สิ้นสุดภายนอก %5 ถึง %4 ที่ %3"
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
-msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
-msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและค่าสุดท้ายที่ %3 หลังจาก %2"
+msgid "Win %6 %5 times %1's close minus low over the next %3."
+msgstr ""
 
-#, fuzzy
-#| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
-msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
-msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %4 และมูลค่าต่ำสุดของ %1 ในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr ""
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "ได้รับชำระเงิน หากเลขหลักสุดท้ายของ %1 ไม่ใช่ %4 หลังจาก %plural(%3,%d ช่วงราคา,%d ช่วงราคา)"
@@ -4218,8 +4207,14 @@ msgstr "ได้รับชำระเงิน หากเลขหลั�
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "ได้รับชำระเงิน หากเลขหลักสุดท้ายของ %1 มีค่าเป็นเลขคี่ หลังจาก %3 ช่วงราคา"
 
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr ""
+
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "ได้รับชำระเงิน หากเลขหลักสุดท้ายของ %1 มีค่าเป็นเลขคู่หลังจาก %3 ช่วงราคา"
+
+msgid "Win %6 %5 times %1's close minus low at %3."
+msgstr ""
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
 msgstr "ได้รับชำระเงิน หาก %1 สิ้นสุดระหว่าง %5 ถึง %4 ที่ %3"
@@ -4245,10 +4240,8 @@ msgstr "ได้รับชำระเงิน หาก %1 สิ้นส�
 msgid "entry spot"
 msgstr "สปอตเริ่มต้น"
 
-#, fuzzy
-#| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
-msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
-msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและค่าสุดท้ายที่ %3 หลังจาก %2"
+msgid "Win %6 %5 times %1's high minus low over the next %3."
+msgstr ""
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "ได้รับชำระเงิน หาก %1 สิ้นสุด หรือมีค่าระหว่าง %5 ถึง %4 ที่ %3"
@@ -4267,6 +4260,9 @@ msgstr "ได้รับชำระเงิน หาก %1 มีค่า�
 
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "ได้รับการชำระเงิน หากช่วงราคาสุดท้ายของ %1 มีค่าต่ำกว่าค่าเฉลี่ยของ %plural(%3,%d ช่วงราคา,%d ช่วงราคา)"
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr ""
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "สปอตเริ่มต้นติดลบ %plural(%1,%d pip, %d pips)"
@@ -4352,6 +4348,9 @@ msgstr "Barrier สูง อยู่นอกขอบเขตที่ยอ
 msgid "Trading is suspended due to missing market data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด"
 
+msgid "Minimum multiplier of"
+msgstr ""
+
 msgid "Expiry time cannot be equal to start time."
 msgstr "เวลาที่หมดอายุไม่สามารถเป็นเวลาเดียวกับเวลาเริ่มต้น"
 
@@ -4411,11 +4410,11 @@ msgstr "เวลาเริ่มต้นอยู่ในอนาคต"
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "ไม่สามารถดำเนินการซื้อขายสัญญาฟอเร็กซ์ด้วยระยะเวลาน้อยกว่า 5 ชั่วโมง จาก %1 ถึง %2"
 
-msgid "Invalid barrier (Contract can have only one type of barrier)."
-msgstr ""
-
 msgid "High barrier must be higher than low barrier."
 msgstr "Barrier สูงต้องมีค่ามากกว่า Barrier ต่ำ"
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr ""
 
 msgid "Resale of this contract is not offered due to market holidays during contract period."
 msgstr "การขายสัญญาจะไม่สามารถดำเนินการได้ในช่วงวันหยุดของตลาดตลอดช่วงอายุของสัญญา"
@@ -4441,11 +4440,11 @@ msgstr "ICO ได้ปิดทำการขณะนี้"
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (เงินปันผล)"
 
-msgid "Invalid barrier."
-msgstr "Barrier ไม่ถูกต้อง"
-
 msgid "Invalid expiry time."
 msgstr "เวลาหมดอายุไม่ถูกต้อง"
+
+msgid "Invalid barrier."
+msgstr "Barrier ไม่ถูกต้อง"
 
 msgid "Successful bids cannot be cancelled after the auction has ended."
 msgstr ""
@@ -4464,6 +4463,11 @@ msgstr "Barrier ต้องเป็นเลขจำนวนเต็ม"
 #, fuzzy
 #| msgid "Missing required contract parameters (%1)."
 msgid "Missing required contract parameters (bet_type)."
+msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract parameters (multiplier)."
 msgstr "ไม่มีตัวแปรที่ต้องการในสัญญา (%1)"
 
 #, fuzzy
@@ -4502,6 +4506,11 @@ msgstr "ไม่มีตัวแปรที่ต้องการในส
 
 msgid "Digit must be in the range of %1 to %2."
 msgstr "ตัวเลขต้องอยู่ในช่วง %1 ถึง %2"
+
+#, fuzzy
+#| msgid "Max 30 tokens are allowed."
+msgid "Only 3 decimal places are allowed."
+msgstr "อนุญาตมากที่สุด 30 โทเค่น"
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "สัญญาที่มีอายุมากว่า 24 ชั่วโมง ต้องการค่าสัมบูรณ์ของ Barrier"
@@ -4547,11 +4556,11 @@ msgstr "ราคา Lookbacks ไม่สามารถมีค่าเป�
 msgid "Expiry time cannot be in the past."
 msgstr "เวลาที่หมดอายุไม่สามารถเป็นเวลาในอดีต"
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr ""
-
 msgid "High and low barriers must be different."
 msgstr "Barrier สูง และ Barrier ต่ำ ต้องแตกต่างกัน"
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr ""
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (ช่วงราคา)"
@@ -4564,6 +4573,42 @@ msgstr "การซื้อขายถูกพักชั่วคราว
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะหมดอายุภายในวันที่ซื้อขาย"
+
+#~ msgid "or"
+#~ msgstr "หรือ"
+
+#~ msgid "Singapore Index"
+#~ msgstr "ดัชนีสิงคโปร์"
+
+#, fuzzy
+#~| msgid "higher"
+#~ msgid "highlow"
+#~ msgstr "สูงกว่า"
+
+#, fuzzy
+#~| msgid "higher"
+#~ msgid "high"
+#~ msgstr "สูงกว่า"
+
+#, fuzzy
+#~| msgid "lower"
+#~ msgid "low"
+#~ msgstr "ต่ำกว่า"
+
+#, fuzzy
+#~| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+#~ msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
+#~ msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและค่าสุดท้ายที่ %3 หลังจาก %2"
+
+#, fuzzy
+#~| msgid "Receive the difference of %4 and %1's minimum value during the life of the option at %3 after %2.'"
+#~ msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+#~ msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %4 และมูลค่าต่ำสุดของ %1 ในช่วงเวลาของออปชันที่ %3 หลังจาก %2"
+
+#, fuzzy
+#~| msgid "Receive the difference of %1's maximum value during the life of the option and its final value at %3 after %2."
+#~ msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+#~ msgstr "มีความแตกต่างของมูลค่าสูงสุดของ %1 ในช่วงเวลาของออปชันและค่าสุดท้ายที่ %3 หลังจาก %2"
 
 #~ msgid "In what country do you want to offer your service"
 #~ msgstr "ท่านต้องการบริการในประเทศใด"
@@ -5299,9 +5344,6 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 #~ msgid "Chart Type"
 #~ msgstr "ประเภทของแผนภูมิ"
 
-#~ msgid "Close"
-#~ msgstr "ปิด"
-
 #~ msgid "Close All"
 #~ msgstr "ปิดทั้งหมด"
 
@@ -5580,9 +5622,6 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 
 #~ msgid "High barrier offset"
 #~ msgstr "Barrier สูง ที่หักกลบลบกัน"
-
-#~ msgid "High/Low"
-#~ msgstr "สูง/ต่ำ"
 
 #~ msgid "Higher/Lower"
 #~ msgstr "สูงกว่า/ต่ำกว่า"

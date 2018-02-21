@@ -773,6 +773,9 @@ msgstr ""
 msgid "Option %1 value must be zero or positive number."
 msgstr ""
 
+msgid "Or"
+msgstr ""
+
 msgid "Ordinary"
 msgstr ""
 
@@ -1760,9 +1763,6 @@ msgstr ""
 msgid "of funds"
 msgstr ""
 
-msgid "or"
-msgstr ""
-
 msgid "today"
 msgstr ""
 
@@ -2705,9 +2705,6 @@ msgid "Euro 100 OTC Index"
 msgstr ""
 
 msgid "Wall Street Smart Index"
-msgstr ""
-
-msgid "Singapore Index"
 msgstr ""
 
 msgid "Portuguese Smart Index"
@@ -3853,10 +3850,7 @@ msgstr ""
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr ""
 
-msgid "Lookback Options"
-msgstr ""
-
-msgid "Lookback options"
+msgid "Lookbacks"
 msgstr ""
 
 msgid "Stays Between/Goes Outside"
@@ -3883,7 +3877,7 @@ msgstr ""
 msgid "higher"
 msgstr ""
 
-msgid "highlow"
+msgid "High-Low"
 msgstr ""
 
 msgid "asian down"
@@ -3910,7 +3904,7 @@ msgstr ""
 msgid "stays between"
 msgstr ""
 
-msgid "high"
+msgid "High-Close"
 msgstr ""
 
 msgid "odd"
@@ -3919,7 +3913,7 @@ msgstr ""
 msgid "asian up"
 msgstr ""
 
-msgid "low"
+msgid "Close-Low"
 msgstr ""
 
 msgid "ends outside"
@@ -4057,10 +4051,10 @@ msgstr ""
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr ""
 
-msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
+msgid "Win %6 %5 times %1's close minus low over the next %3."
 msgstr ""
 
-msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+msgid "Win %6 %5 times %1's high minus close over the next %3."
 msgstr ""
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
@@ -4072,7 +4066,13 @@ msgstr ""
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr ""
 
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr ""
+
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgstr ""
+
+msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr ""
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
@@ -4099,7 +4099,7 @@ msgstr ""
 msgid "entry spot"
 msgstr ""
 
-msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+msgid "Win %6 %5 times %1's high minus low over the next %3."
 msgstr ""
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
@@ -4118,6 +4118,9 @@ msgid "Win payout if %1 is lower than or equal to %4 at %3."
 msgstr ""
 
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr ""
+
+msgid "Win %6 %5 times %1's high minus low at %3."
 msgstr ""
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
@@ -4204,6 +4207,9 @@ msgstr ""
 msgid "Trading is suspended due to missing market data."
 msgstr ""
 
+msgid "Minimum multiplier of"
+msgstr ""
+
 msgid "Expiry time cannot be equal to start time."
 msgstr ""
 
@@ -4261,10 +4267,10 @@ msgstr ""
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr ""
 
-msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgid "High barrier must be higher than low barrier."
 msgstr ""
 
-msgid "High barrier must be higher than low barrier."
+msgid "Invalid barrier (Contract can have only one type of barrier)."
 msgstr ""
 
 msgid "Resale of this contract is not offered due to market holidays during contract period."
@@ -4291,10 +4297,10 @@ msgstr ""
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr ""
 
-msgid "Invalid barrier."
+msgid "Invalid expiry time."
 msgstr ""
 
-msgid "Invalid expiry time."
+msgid "Invalid barrier."
 msgstr ""
 
 msgid "Successful bids cannot be cancelled after the auction has ended."
@@ -4310,6 +4316,9 @@ msgid "Barrier must be an integer."
 msgstr ""
 
 msgid "Missing required contract parameters (bet_type)."
+msgstr ""
+
+msgid "Missing required contract parameters (multiplier)."
 msgstr ""
 
 msgid "Trading is not offered for this asset."
@@ -4343,6 +4352,9 @@ msgid "Missing required contract parameters (date_start)."
 msgstr ""
 
 msgid "Digit must be in the range of %1 to %2."
+msgstr ""
+
+msgid "Only 3 decimal places are allowed."
 msgstr ""
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
@@ -4387,10 +4399,10 @@ msgstr ""
 msgid "Expiry time cannot be in the past."
 msgstr ""
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgid "High and low barriers must be different."
 msgstr ""
 
-msgid "High and low barriers must be different."
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
 msgstr ""
 
 msgid "Trading is suspended due to missing market (tick) data."
