@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-02-12 06:01+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects"
-"/binary-websocket/translations/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hans/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -869,6 +868,9 @@ msgstr "账户上操作"
 
 msgid "Option %1 value must be zero or positive number."
 msgstr "%1选项数值须为零或正数。"
+
+msgid "Or"
+msgstr ""
 
 msgid "Ordinary"
 msgstr "普通"
@@ -1883,9 +1885,6 @@ msgstr "现在。"
 msgid "of funds"
 msgstr "资金"
 
-msgid "or"
-msgstr "或"
-
 msgid "today"
 msgstr "今天"
 
@@ -2827,9 +2826,6 @@ msgstr "欧洲100场外交易指数"
 
 msgid "Wall Street Smart Index"
 msgstr "华尔街智能指数"
-
-msgid "Singapore Index"
-msgstr "新加坡指数"
 
 msgid "Portuguese Smart Index"
 msgstr "葡萄牙智能指数"
@@ -3974,10 +3970,9 @@ msgstr "收于范围之内/之外"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "预测相对于2个设定的障碍市场收盘价格的位置。"
 
-msgid "Lookback Options"
-msgstr "回顾选项"
-
-msgid "Lookback options"
+#, fuzzy
+#| msgid "Lookback Options"
+msgid "Lookbacks"
 msgstr "回顾选项"
 
 msgid "Stays Between/Goes Outside"
@@ -4004,8 +3999,10 @@ msgstr "触及"
 msgid "higher"
 msgstr "高于"
 
-msgid "highlow"
-msgstr "高低"
+#, fuzzy
+#| msgid "High/Low"
+msgid "High-Low"
+msgstr "最高/最低"
 
 msgid "asian down"
 msgstr "亚洲下跌"
@@ -4031,8 +4028,10 @@ msgstr "未触及"
 msgid "stays between"
 msgstr "位于区间之内"
 
-msgid "high"
-msgstr "高"
+#, fuzzy
+#| msgid "Close"
+msgid "High-Close"
+msgstr "收盘价"
 
 msgid "odd"
 msgstr "奇数"
@@ -4040,8 +4039,10 @@ msgstr "奇数"
 msgid "asian up"
 msgstr "亚洲上涨"
 
-msgid "low"
-msgstr "低"
+#, fuzzy
+#| msgid "Close"
+msgid "Close-Low"
+msgstr "收盘价"
 
 msgid "ends outside"
 msgstr "区间之外结束"
@@ -4178,11 +4179,11 @@ msgstr "入市现价加上 %plural(%1, %d 点)"
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "如果%1在%3时收盘于%5至%4之外，将获得赔付额。"
 
-msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
-msgstr "%3收取%2后%1的退出现货价与最小值间%5每点差额。"
+msgid "Win %6 %5 times %1's close minus low over the next %3."
+msgstr ""
 
-msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
-msgstr "%3收取%2后%1的最大值与现货退出价间%5每点差额。"
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr ""
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "如果%1的最后数字在%plural(%3,%d 跳动点) 后不是%4，将获得赔付额。"
@@ -4193,8 +4194,14 @@ msgstr "如果%1的最后数字在%3跳动点之后严格高于%4，将获得赔
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "如果%1的最后数字在%3跳动点之后为奇数，将获得赔付额。"
 
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr ""
+
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "如果%1的最后数字在%3跳动点之后为偶数，将获得赔付额。"
+
+msgid "Win %6 %5 times %1's close minus low at %3."
+msgstr ""
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
 msgstr "如果%1在%3时收盘严格处于%5至%4之间，将获得赔付额。"
@@ -4220,8 +4227,8 @@ msgstr "如果%1在%2之后的%3时收盘等于或处于%5至%4之间，将获�
 msgid "entry spot"
 msgstr "入市现价"
 
-msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
-msgstr "%3收取%2后%1的最大值与最小值间%5每点差额。"
+msgid "Win %6 %5 times %1's high minus low over the next %3."
+msgstr ""
 
 msgid "Win payout if %1 ends on or between %5 to %4 at %3."
 msgstr "如果%1在%3时收盘等于或处于%5至%4之间，将获得赔付额。"
@@ -4240,6 +4247,9 @@ msgstr "如果%1在%3时低于或等于%4，将获得赔付额。"
 
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "如果%1的最后跳动点严格低于%plural(%3,%d 跳动点) 的平均价位，将获得赔付额。"
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr ""
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "入市现价减去 %plural(%1, %d 点)"
@@ -4325,6 +4335,9 @@ msgstr "高障碍价格不在可接受的范围内。请调整高障碍价格。
 msgid "Trading is suspended due to missing market data."
 msgstr "由于市场数据丢失，交易暂停。"
 
+msgid "Minimum multiplier of"
+msgstr ""
+
 msgid "Expiry time cannot be equal to start time."
 msgstr "到期时间不可与开始时间相同。"
 
@@ -4382,11 +4395,11 @@ msgstr "开始时间是在未来。"
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "%1到%2期间内，持续时间少于5小时的外汇交易暂时停止"
 
-msgid "Invalid barrier (Contract can have only one type of barrier)."
-msgstr "无效障碍（此合约只能有一种障碍）。"
-
 msgid "High barrier must be higher than low barrier."
 msgstr "最高障碍必须高于最低障碍。"
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr "无效障碍（此合约只能有一种障碍）。"
 
 msgid "Resale of this contract is not offered due to market holidays during contract period."
 msgstr "由于合约期限内有市场假日，该合约不能转售。"
@@ -4412,11 +4425,11 @@ msgstr "加密货币投资(ICO)目前已收市。"
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "由于市场数据丢失（红利），交易暂停。"
 
-msgid "Invalid barrier."
-msgstr "无效障碍。"
-
 msgid "Invalid expiry time."
 msgstr "无效到期时间。"
+
+msgid "Invalid barrier."
+msgstr "无效障碍。"
 
 msgid "Successful bids cannot be cancelled after the auction has ended."
 msgstr "拍卖结束后，成功标价无法取消。"
@@ -4431,6 +4444,11 @@ msgid "Barrier must be an integer."
 msgstr "障碍必须是整数。"
 
 msgid "Missing required contract parameters (bet_type)."
+msgstr "遗漏所需合约参数(bet_type)。"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (bet_type)."
+msgid "Missing required contract parameters (multiplier)."
 msgstr "遗漏所需合约参数(bet_type)。"
 
 msgid "Trading is not offered for this asset."
@@ -4465,6 +4483,11 @@ msgstr "遗漏所需合约参数(date_start)。"
 
 msgid "Digit must be in the range of %1 to %2."
 msgstr "数字须在%1 至 %2之间。"
+
+#, fuzzy
+#| msgid "Max 30 tokens are allowed."
+msgid "Only 3 decimal places are allowed."
+msgstr "最多可拥有30个令牌。"
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "超过24小时持续期间的合约必须有个绝对障碍。"
@@ -4508,11 +4531,11 @@ msgstr "回顾价格不可为零。"
 msgid "Expiry time cannot be in the past."
 msgstr "到期时间不可在过去。"
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "无效障碍（双重障碍合约的障碍类型必须相同）。"
-
 msgid "High and low barriers must be different."
 msgstr "最高和最低障碍必须不同。"
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "无效障碍（双重障碍合约的障碍类型必须相同）。"
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "由于市场数据丢失（跳动点），交易暂停。"
@@ -4525,6 +4548,33 @@ msgstr "由于市场数据丢失（波动率），交易暂停。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
+
+#~ msgid "or"
+#~ msgstr "或"
+
+#~ msgid "Singapore Index"
+#~ msgstr "新加坡指数"
+
+#~ msgid "Lookback options"
+#~ msgstr "回顾选项"
+
+#~ msgid "highlow"
+#~ msgstr "高低"
+
+#~ msgid "high"
+#~ msgstr "高"
+
+#~ msgid "low"
+#~ msgstr "低"
+
+#~ msgid "Receive %5 per point difference between %1's exit spot and lowest value at %3 after %2."
+#~ msgstr "%3收取%2后%1的退出现货价与最小值间%5每点差额。"
+
+#~ msgid "Receive %5 per point difference between %1's highest value and exit spot at %3 after %2."
+#~ msgstr "%3收取%2后%1的最大值与现货退出价间%5每点差额。"
+
+#~ msgid "Receive %5 per point difference between %1's highest and lowest values at %3 after %2."
+#~ msgstr "%3收取%2后%1的最大值与最小值间%5每点差额。"
 
 #~ msgid "In what country do you want to offer your service"
 #~ msgstr "您要提供服务的国家"
@@ -5283,9 +5333,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "Chart Type"
 #~ msgstr "图表类型"
 
-#~ msgid "Close"
-#~ msgstr "收盘价"
-
 #~ msgid "Close All"
 #~ msgstr "关闭全部"
 
@@ -5573,9 +5620,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "High barrier offset"
 #~ msgstr "高障碍位移"
-
-#~ msgid "High/Low"
-#~ msgstr "最高/最低"
 
 #~ msgid "Higher/Lower"
 #~ msgstr "“高于/低于”"
