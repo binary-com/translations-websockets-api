@@ -277,6 +277,11 @@ msgstr "Contraseña del cajero actualizada"
 msgid "Change in account settings"
 msgstr "Cambiar en las preferencias de la cuenta"
 
+#, fuzzy
+#| msgid "Resend Verification Email"
+msgid "Checksum verification failed."
+msgstr "Volver a enviar el correo de verificación"
+
 msgid "Closes early (at %1)"
 msgstr "Cierre anticipado (a las %1)"
 
@@ -518,8 +523,10 @@ msgstr "Confirmación de depósito"
 msgid "Document ID is required."
 msgstr "El documento de identidad es obligatorio."
 
-msgid "Document not found."
-msgstr "No se encontró el documento."
+#, fuzzy
+#| msgid "Payments are suspended."
+msgid "Document already uploaded."
+msgstr "Los pagos están suspendidos."
 
 msgid "Documents are required to verify your identity"
 msgstr "Se requieren documentos para verificar su identidad"
@@ -898,6 +905,9 @@ msgstr "Operar con cuentas"
 msgid "Option %1 value must be zero or positive number."
 msgstr "El valor de la opción %1 debe ser cero o un número positivo."
 
+msgid "Or"
+msgstr "O"
+
 msgid "Ordinary"
 msgstr "Común"
 
@@ -1000,6 +1010,11 @@ msgstr "Autentique su cuenta para aumentar su límite diario de volumen de negoc
 
 msgid "Please authenticate your account."
 msgstr "Autentique su cuenta."
+
+#, fuzzy
+#| msgid "Sorry, you have open positions. Please close out all open positions before requesting additional funds."
+msgid "Please close out all open positions before requesting additional funds."
+msgstr "Lo sentimos, tiene posiciones abiertas. Cierre todas las posiciones abiertas antes de solicitar fondos adicionales."
 
 msgid "Please complete financial assessment."
 msgstr "Por favor complete la evaluación financiera."
@@ -1207,6 +1222,17 @@ msgstr "Lo sentimos, ocurrió un problema al procesar la solicitud. Inténtelo d
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "Lo sentimos, ha ocurrido un error. Por favor, intente acceder a nuestro cajero de nuevo."
 
+#, fuzzy
+#| msgid "We're sorry, but our system has been unable to authenticate your ID online due to connection problem. Please try again later."
+msgid "Sorry, but trading is unavailable until further notice due to an unexpected error. Please try again later."
+msgstr "Lo sentimos, el sistema no pudo autenticar su usuario en línea debido a un fallo en la conexión. Inténtelo nuevamente más tarde."
+
+msgid "Sorry, but we are experiencing a technical issue with our Cashier. Your funds are safe but deposits and withdrawals are unavailable for the time being."
+msgstr ""
+
+msgid "Sorry, but we are having a technical issue with our MT5 platform. Trading is unavailable for the time being."
+msgstr ""
+
 msgid "Sorry, but you have self-excluded yourself from the website until %1. If you are unable to place a trade or deposit after your self-exclusion period, please contact the Customer Support team for assistance."
 msgstr ""
 
@@ -1261,9 +1287,6 @@ msgstr "Lo sentimos, no puede retirar fondos. El saldo de su cuenta es %1 %2."
 msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
 msgstr "Lo sentimos, no puede retirar fondos. La cantidad que desea retirar %1 excede el límite de retirada %2."
 
-msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
-msgstr "Lo sentimos, ya tuvo demasiados intentos fallidos. Por favor, inténtelo de nuevo dentro de 5 minutos."
-
 msgid "Sorry, you have entered an incorrect cashier password"
 msgstr "Lo sentimos, ingresó una contraseña de cajero incorrecta"
 
@@ -1275,12 +1298,6 @@ msgstr "Lo sentimos, excedió el máximo de transacciones diarias permitidas."
 
 msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
 msgstr "Lo sentimos, excedió el monto máximo de transferencias de %1 permitido por hoy."
-
-msgid "Sorry, you have excluded yourself until %1."
-msgstr "Lo sentimos, usted se ha excluido hasta %1."
-
-msgid "Sorry, you have open positions. Please close out all open positions before requesting additional funds."
-msgstr "Lo sentimos, tiene posiciones abiertas. Cierre todas las posiciones abiertas antes de solicitar fondos adicionales."
 
 msgid "Sorry, you seem to already have a real money account with us. Perhaps you have used a different email address when you registered it. For legal reasons we are not allowed to open multiple real money accounts per person."
 msgstr "Lo sentimos, parece que ya tiene una cuenta de dinero real con nosotros. Tal vez ha utilizado una dirección de correo electrónico diferente cuando registró la cuenta. Por razones legales no se nos permite abrir varias cuentas de dinero real por persona."
@@ -1394,6 +1411,9 @@ msgstr "La divisa proporcionada de %1 no se ofrece para esta cuenta."
 
 msgid "The provided currency %1 is not the default currency"
 msgstr "La divisa proporcionada de %1 no es la moneda por defecto"
+
+msgid "The supplied tax residence \"%1\" is in a restricted country."
+msgstr ""
 
 msgid "The symbol is invalid."
 msgstr "El símbolo no es válido."
@@ -1574,6 +1594,15 @@ msgstr "Cuentas virtuales no requieren enviar documentos de verificación de ide
 msgid "Virtual money credit to account"
 msgstr "Crédito de dinero virtual a la cuenta"
 
+msgid "We are experiencing an unusually high load on our system. Some features and services may be unstable or temporarily unavailable. We hope to resolve this issue as soon as we can."
+msgstr ""
+
+msgid "We are having an issue with one or more of our data feeds. We are working to resolve the issue but some markets may be unavailable for the time being."
+msgstr ""
+
+msgid "We are updating our site in a short while. Some services may be temporarily unavailable."
+msgstr ""
+
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
@@ -1681,6 +1710,9 @@ msgstr "Usted no está autorizado para retirar dinero a través de agentes de pa
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
+
+msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Usted no puede retirar dinero hacia a la cuenta %1, dado que la cuenta del agente de pago se encuentra deshabilitada."
@@ -1829,9 +1861,6 @@ msgstr "Debe verificar su cuenta para realizar transferencias al agente de pago.
 msgid "Your app_id is invalid."
 msgstr "Su app_id no es válido."
 
-msgid "Your balance is higher than the permitted amount."
-msgstr "Su saldo es superior a la cantidad permitida."
-
 msgid "Your bonus request - %1"
 msgstr "Su solicitud de bonificación - %1"
 
@@ -1912,9 +1941,6 @@ msgstr "ahora."
 
 msgid "of funds"
 msgstr "de fondos"
-
-msgid "or"
-msgstr "o"
 
 msgid "today"
 msgstr "hoy"
@@ -4718,6 +4744,21 @@ msgstr "Las operaciones están suspendidas por falta de datos del mercado (volat
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Los contratos de este mercado con una duración inferior a 24 horas deben expirar el mismo día."
 
+#~ msgid "Document not found."
+#~ msgstr "No se encontró el documento."
+
+#~ msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
+#~ msgstr "Lo sentimos, ya tuvo demasiados intentos fallidos. Por favor, inténtelo de nuevo dentro de 5 minutos."
+
+#~ msgid "Sorry, you have excluded yourself until %1."
+#~ msgstr "Lo sentimos, usted se ha excluido hasta %1."
+
+#~ msgid "Your balance is higher than the permitted amount."
+#~ msgstr "Su saldo es superior a la cantidad permitida."
+
+#~ msgid "or"
+#~ msgstr "o"
+
 #~ msgid "asian down"
 #~ msgstr "asiáticas abajo"
 
@@ -4753,9 +4794,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "Only a maximum of two decimal points are allowed for the withdrawal amount."
 #~ msgstr "Se permite un máximo de dos puntos decimales en el valor a ser retirado."
-
-#~ msgid "Or"
-#~ msgstr "O"
 
 #~ msgid "Sorry, but the ICO is not available in your country of residence."
 #~ msgstr "Lo sentimos, la ICO no está disponible en su país de residencia."
@@ -11588,9 +11626,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 #~ msgid "Resale price"
 #~ msgstr "Precio de reventa"
 
-#~ msgid "Resend Verification Email"
-#~ msgstr "Volver a enviar el correo de verificación"
-
 #~ msgid "Resolve complex customer care issues in the best interest of our global clients and the company"
 #~ msgstr "Resolver los problemas complejos de atención al cliente en el mejor interés de nuestros clientes globales y de la empresa"
 
@@ -14351,9 +14386,6 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 #~ msgid "We could not authenticate your account online. Please proceed to the <a href=\"%1\">manual authentication section</a>. If you would like to register additional credit cards, please contact <a class=\"pjaxload\" href=\"%2\">customer support</a>."
 #~ msgstr "No es posible autenticar su cuenta en línea. por favor diríjase a la <a href=\"%1\">sección de verificación manual</a>. Si desea registrar otras tarjetas de crédito, póngase en contacto con el <a class=\"pjaxload\" href=\"%2\">servicio de atención al cliente</a>."
-
-#~ msgid "We're sorry, but our system has been unable to authenticate your ID online due to connection problem. Please try again later."
-#~ msgstr "Lo sentimos, el sistema no pudo autenticar su usuario en línea debido a un fallo en la conexión. Inténtelo nuevamente más tarde."
 
 #~ msgid "You have already attempted to authenticate your ID using our online verification procedure."
 #~ msgstr "Usted ya ha intentado autenticar su ID usando nuestro procedimiento de verificación en línea."

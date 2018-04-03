@@ -276,6 +276,11 @@ msgstr "Mật khẩu thu ngân đã được cập nhật"
 msgid "Change in account settings"
 msgstr "Thiết lập trong mục cài đặt tài khoản"
 
+#, fuzzy
+#| msgid "Resend Verification Email"
+msgid "Checksum verification failed."
+msgstr "Gửi lại Email Xác minh"
+
 msgid "Closes early (at %1)"
 msgstr "Kết thúc sớm (tại %1)"
 
@@ -518,8 +523,10 @@ msgstr "Xác nhận gửi tiền"
 msgid "Document ID is required."
 msgstr "ID Tài liệu là bắt buộc."
 
-msgid "Document not found."
-msgstr "Tài liệu không được tìm thấy."
+#, fuzzy
+#| msgid "Payments are suspended."
+msgid "Document already uploaded."
+msgstr "Thanh toán bị tạm ngừng."
 
 msgid "Documents are required to verify your identity"
 msgstr "Những loại giấy tờ được yêu cầu để xác minh danh tính của bạn"
@@ -898,6 +905,9 @@ msgstr "Hoạt động trên các tài khoản"
 msgid "Option %1 value must be zero or positive number."
 msgstr "Quyền chọn %1 phải là zero hoặc số dương."
 
+msgid "Or"
+msgstr "Hoặc"
+
 msgid "Ordinary"
 msgstr "Thông thường"
 
@@ -1000,6 +1010,11 @@ msgstr "Xin vui lòng xác thực tài khoản của bạn để gia tăng giớ
 
 msgid "Please authenticate your account."
 msgstr "Vui lòng xác thực tài khoản của bạn."
+
+#, fuzzy
+#| msgid "Sorry, you have open positions. Please close out all open positions before requesting additional funds."
+msgid "Please close out all open positions before requesting additional funds."
+msgstr "Xin lỗi, bạn đã có vị thế mở. Vui lòng đóng tất cả các vị thế mở trước khi được yêu cầu thêm tiền."
 
 msgid "Please complete financial assessment."
 msgstr "Vui lòng hoàn thành đánh giá tài chính."
@@ -1207,6 +1222,17 @@ msgstr "Đã xảy ra vấn đề khi xử lý yêu cầu. Vui lòng thử lại
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "Xin lỗi, một lỗi đã xảy ra, Vui lòng thử truy cập hệ thống thu ngân của chúng tôi một lần nữa."
 
+#, fuzzy
+#| msgid "We're sorry, but our system has been unable to authenticate your ID online due to connection problem. Please try again later."
+msgid "Sorry, but trading is unavailable until further notice due to an unexpected error. Please try again later."
+msgstr "Chúng tôi xin lỗi, nhưng hệ thống của chúng tôi không thể xác minh ID của bạn trực truyến do vấn đề kết nối. Xin vui lòng thử lại sau."
+
+msgid "Sorry, but we are experiencing a technical issue with our Cashier. Your funds are safe but deposits and withdrawals are unavailable for the time being."
+msgstr ""
+
+msgid "Sorry, but we are having a technical issue with our MT5 platform. Trading is unavailable for the time being."
+msgstr ""
+
 msgid "Sorry, but you have self-excluded yourself from the website until %1. If you are unable to place a trade or deposit after your self-exclusion period, please contact the Customer Support team for assistance."
 msgstr ""
 
@@ -1261,9 +1287,6 @@ msgstr "Xin lỗi, bạn không thể rút tiền. Số dư tài khoản của b
 msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
 msgstr "Xin lỗi, bạn không thể rút tiền. Số tiền %1 mà bạn đang rút vượt quá giới hạn rút tiền %2."
 
-msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
-msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thành công. XIn vui lòng thử lại sau 5 phút."
-
 msgid "Sorry, you have entered an incorrect cashier password"
 msgstr "Xin lỗi, bạn đã nhập sai mật khẩu thu ngân"
 
@@ -1275,12 +1298,6 @@ msgstr "Xin lỗi, bạn đã vượt quá số giao dịch cho phép tô�
 
 msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
 msgstr "Xin lỗi, bạn đã vượt quá lượng chuyển tiền cho phép tối đa %1 ngày hôm nay."
-
-msgid "Sorry, you have excluded yourself until %1."
-msgstr "Xin lỗi, bạn đã tự thoát ra trước khi %1."
-
-msgid "Sorry, you have open positions. Please close out all open positions before requesting additional funds."
-msgstr "Xin lỗi, bạn đã có vị thế mở. Vui lòng đóng tất cả các vị thế mở trước khi được yêu cầu thêm tiền."
 
 msgid "Sorry, you seem to already have a real money account with us. Perhaps you have used a different email address when you registered it. For legal reasons we are not allowed to open multiple real money accounts per person."
 msgstr "Xin lỗi, bạn đã có tài khoản tiền thực với chúng tôi. Có lẽ bạn đã dùng email khác để đăng ký. Vì lý do pháp lý chúng tôi không được phép mở nhiều tài khoản tiền thực cho cùng một người."
@@ -1394,6 +1411,9 @@ msgstr "Đồng tiền được cung cấp %1 không khả dụng cho tài k
 
 msgid "The provided currency %1 is not the default currency"
 msgstr "Đồng tiền được cung cấp %1 không phải là đồng tiền mặc định"
+
+msgid "The supplied tax residence \"%1\" is in a restricted country."
+msgstr ""
 
 msgid "The symbol is invalid."
 msgstr "Biểu tượng không hợp lệ."
@@ -1574,6 +1594,15 @@ msgstr "Tài khoản ảo không yêu cầu tải lên tài liệu."
 msgid "Virtual money credit to account"
 msgstr "Tín dụng tiền ảo vào tài khoản"
 
+msgid "We are experiencing an unusually high load on our system. Some features and services may be unstable or temporarily unavailable. We hope to resolve this issue as soon as we can."
+msgstr ""
+
+msgid "We are having an issue with one or more of our data feeds. We are working to resolve the issue but some markets may be unavailable for the time being."
+msgstr ""
+
+msgid "We are updating our site in a short while. Some services may be temporarily unavailable."
+msgstr ""
+
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
@@ -1680,6 +1709,9 @@ msgstr "Bạn không được quyền rút tiền qua đại lý thanh toán."
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
+
+msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Bạn không thể thực hiện việc rút tiền vào tài khoản% 1, vì tài khoản của đại lý thanh toán bị vô hiệu."
@@ -1828,9 +1860,6 @@ msgstr "Tài khoản của bạn cần được chứng thực để thực hi�
 msgid "Your app_id is invalid."
 msgstr "Tên đăng nhập ứng dụng của bạn không hợp lệ."
 
-msgid "Your balance is higher than the permitted amount."
-msgstr "Số dư của bạn cao hơn mức cho phép."
-
 msgid "Your bonus request - %1"
 msgstr "Yêu cầu tiền thưởng của bạn - %1"
 
@@ -1911,9 +1940,6 @@ msgstr "bây giờ."
 
 msgid "of funds"
 msgstr "của các quỹ"
-
-msgid "or"
-msgstr "hoặc"
 
 msgid "today"
 msgstr "hôm nay"
@@ -4699,6 +4725,21 @@ msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (biến đ�
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 24 giờ phải hết hạn trong cùng ngày giao dịch."
 
+#~ msgid "Document not found."
+#~ msgstr "Tài liệu không được tìm thấy."
+
+#~ msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
+#~ msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thành công. XIn vui lòng thử lại sau 5 phút."
+
+#~ msgid "Sorry, you have excluded yourself until %1."
+#~ msgstr "Xin lỗi, bạn đã tự thoát ra trước khi %1."
+
+#~ msgid "Your balance is higher than the permitted amount."
+#~ msgstr "Số dư của bạn cao hơn mức cho phép."
+
+#~ msgid "or"
+#~ msgstr "hoặc"
+
 #~ msgid "asian down"
 #~ msgstr "xuống kiểu châu Á"
 
@@ -4734,9 +4775,6 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 
 #~ msgid "Only a maximum of two decimal points are allowed for the withdrawal amount."
 #~ msgstr "Chỉ tối đa 2 điểm thập phân là hợp lệ cho tài khoản rút tiền."
-
-#~ msgid "Or"
-#~ msgstr "Hoặc"
 
 #~ msgid "Sorry, but the ICO is not available in your country of residence."
 #~ msgstr "Xin lỗi, nhưng ICO không khả dụng cho đất nước bạn cư trú."
@@ -11528,9 +11566,6 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 #~ msgid "Resale price"
 #~ msgstr "Giá bán lại"
 
-#~ msgid "Resend Verification Email"
-#~ msgstr "Gửi lại Email Xác minh"
-
 #~ msgid "Resolve complex customer care issues in the best interest of our global clients and the company"
 #~ msgstr "Giải quyết vấn đề chăm sóc khách hàng phức tạp vì lợi ích tốt nhất của khách hàng toàn cầu và công ty"
 
@@ -14285,9 +14320,6 @@ msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 2
 
 #~ msgid "We could not authenticate your account online. Please proceed to the <a href=\"%1\">manual authentication section</a>. If you would like to register additional credit cards, please contact <a class=\"pjaxload\" href=\"%2\">customer support</a>."
 #~ msgstr "Chúng tôi không thể xác minh tài khoản của bạn trực tuyến. Xin vui lòng xử lý<a href=\"%1\">ở khu vực xác nhận bằng tay</a>. Nếu bạn muốn đăng kí thêm thẻ tín dụng, xin vui lòng liên hệ với <a class=\"pjaxload\" href=\"%2\">đội ngũ hỗ trợ khách hàng</a>."
-
-#~ msgid "We're sorry, but our system has been unable to authenticate your ID online due to connection problem. Please try again later."
-#~ msgstr "Chúng tôi xin lỗi, nhưng hệ thống của chúng tôi không thể xác minh ID của bạn trực truyến do vấn đề kết nối. Xin vui lòng thử lại sau."
 
 #~ msgid "You have already attempted to authenticate your ID using our online verification procedure."
 #~ msgstr "Bạn đã cố gắng xác thực ID của bạn bằng cách sử dụng quy trình xác minh trực tuyến của chúng tôi."

@@ -276,6 +276,11 @@ msgstr "รหัสผ่านแคชเชียร์ปรับปรุ
 msgid "Change in account settings"
 msgstr "การแก้ไขการตั้งค่าของบัญชี"
 
+#, fuzzy
+#| msgid "Resend Verification Email"
+msgid "Checksum verification failed."
+msgstr "ส่งอีเมล์เพื่อการตรวจสอบอีกครั้ง"
+
 msgid "Closes early (at %1)"
 msgstr "ปิดก่อน (เมื่อ %1)"
 
@@ -519,8 +524,10 @@ msgstr "การยืนยันการฝาก"
 msgid "Document ID is required."
 msgstr "จำเป็นต้องมีค่า Document ID"
 
-msgid "Document not found."
-msgstr "ไม่พบเอกสารที่ต้องการ"
+#, fuzzy
+#| msgid "Payments are suspended."
+msgid "Document already uploaded."
+msgstr "การชำระเงินถูกระงับชั่วคราว"
 
 msgid "Documents are required to verify your identity"
 msgstr "เอกสารมีความจำเป็นเพื่อการตรวจสอบอัตลักษณ์ของท่าน"
@@ -899,6 +906,9 @@ msgstr "เปิดบัญชี"
 msgid "Option %1 value must be zero or positive number."
 msgstr "มูลค่าออปชั่น %1 ต้องเป็นศูนย์ หรือ มากกว่าศูนย์"
 
+msgid "Or"
+msgstr "หรือ"
+
 msgid "Ordinary"
 msgstr "ธรรมดา"
 
@@ -1001,6 +1011,11 @@ msgstr "โปรดยืนยันตัวตนของบัญชีข
 
 msgid "Please authenticate your account."
 msgstr "โปรดยืนยันตัวตนต่อบัญชีของท่าน"
+
+#, fuzzy
+#| msgid "Sorry, you have open positions. Please close out all open positions before requesting additional funds."
+msgid "Please close out all open positions before requesting additional funds."
+msgstr "ขออภัย ท่านได้เปิดโพซิชั่น โปรดปิดโพซิชั่นที่เปิดอยู่ก่อนดำเนินการขอหลักประกันเพิ่ม"
 
 msgid "Please complete financial assessment."
 msgstr "โปรดบันทึกผลการประเมินทางการเงินของท่าน"
@@ -1208,6 +1223,15 @@ msgstr "ขออภัย มีข้อผิดพลาดเกิดข�
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "ขออภัย พบข้อผิดพลาด โปรดพยายามติดต่อแคชเชียร์ของเราอีกครั้ง"
 
+msgid "Sorry, but trading is unavailable until further notice due to an unexpected error. Please try again later."
+msgstr ""
+
+msgid "Sorry, but we are experiencing a technical issue with our Cashier. Your funds are safe but deposits and withdrawals are unavailable for the time being."
+msgstr ""
+
+msgid "Sorry, but we are having a technical issue with our MT5 platform. Trading is unavailable for the time being."
+msgstr ""
+
 msgid "Sorry, but you have self-excluded yourself from the website until %1. If you are unable to place a trade or deposit after your self-exclusion period, please contact the Customer Support team for assistance."
 msgstr ""
 
@@ -1262,9 +1286,6 @@ msgstr "ขออภัยค่ะ ท่านไม่สามารถถ�
 msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
 msgstr "ขออภัยค่ะ ท่านไม่สามารถถอนเงินได้ บัญชีของท่านมียอดคงเหลือ %1 ซึ่งเกินกว่าวงเงินในการถอน %2"
 
-msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
-msgstr "ขออภัยค่ะ ท่านได้พยายามเข้าสู่ระบบแต่ไม่สำเร็จหลายครั้ง โปรดลองใหม่อีกครั้งในอีก 5 นาที"
-
 msgid "Sorry, you have entered an incorrect cashier password"
 msgstr "ขออภัย ท่านป้อนรหัสผ่านแคชเชียร์ไม่ถูกต้อง"
 
@@ -1276,12 +1297,6 @@ msgstr "ขออภัยค่ะ ท่านได้ใช้วงเง�
 
 msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
 msgstr "ขออภัยค่ะ ท่านได้โอนเงินเกินยอดสูงสุด %1 ของวันนี้แล้ว"
-
-msgid "Sorry, you have excluded yourself until %1."
-msgstr "ขออภัยค่ะ ท่านได้พักการใช้งานกระทั่ง %1"
-
-msgid "Sorry, you have open positions. Please close out all open positions before requesting additional funds."
-msgstr "ขออภัย ท่านได้เปิดโพซิชั่น โปรดปิดโพซิชั่นที่เปิดอยู่ก่อนดำเนินการขอหลักประกันเพิ่ม"
 
 msgid "Sorry, you seem to already have a real money account with us. Perhaps you have used a different email address when you registered it. For legal reasons we are not allowed to open multiple real money accounts per person."
 msgstr "ขออภัยค่ะ ดูเหมือนท่านจะมีบัญชีเงินจริงกับเราแล้ว บางที ท่านอาจจะใช้อีเมล์อื่นในการลงทะเบียนก่อนหน้านี้ ด้วยเหตุผลทางกฎหมายจึงไม่อนุญาตให้เปิดบัญชีเงินจริงหลายบัญชีในบุคคลนามเดียว"
@@ -1395,6 +1410,9 @@ msgstr "สกุลเงิน %1 ดังกล่าว ไม่สาม�
 
 msgid "The provided currency %1 is not the default currency"
 msgstr "สกุลเงิน %1 ดังกล่าว ไม่ใช่สกุลเงินที่เลือกไว้"
+
+msgid "The supplied tax residence \"%1\" is in a restricted country."
+msgstr ""
 
 msgid "The symbol is invalid."
 msgstr "สัญลักษณ์ไม่ถูกต้อง"
@@ -1575,6 +1593,15 @@ msgstr "บัญชีทดลองใช้ไม่ต้องอัพโ
 msgid "Virtual money credit to account"
 msgstr "ฝากเงินเสมือนในบัญชีของท่าน"
 
+msgid "We are experiencing an unusually high load on our system. Some features and services may be unstable or temporarily unavailable. We hope to resolve this issue as soon as we can."
+msgstr ""
+
+msgid "We are having an issue with one or more of our data feeds. We are working to resolve the issue but some markets may be unavailable for the time being."
+msgstr ""
+
+msgid "We are updating our site in a short while. Some services may be temporarily unavailable."
+msgstr ""
+
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
 "The funds have been credited into your account.\n"
@@ -1677,6 +1704,9 @@ msgstr "ท่านไม่ได้รับอนุญาตในการ
 
 msgid "You are not eligible for Japan knowledge test."
 msgstr "You are not eligible for Japan knowledge test."
+
+msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "ท่านไม่สามารถถอนเงินไปยังบัญชี %1 เนื่องจากบัญชีของตัวแทนรับชำระเงินไม่สามารถใช้งานได้ขณะนี้"
@@ -1825,9 +1855,6 @@ msgstr "บัญชีของท่านต้องได้รับกา
 msgid "Your app_id is invalid."
 msgstr "App_ID ของท่านไม่ถูกต้อง"
 
-msgid "Your balance is higher than the permitted amount."
-msgstr "ยอดคงเหลือของท่านสูงกว่าจำนวนเงินที่ต้องการ"
-
 msgid "Your bonus request - %1"
 msgstr "โบนัสของท่าน - %1"
 
@@ -1908,9 +1935,6 @@ msgstr "ขณะนี้"
 
 msgid "of funds"
 msgstr "ของเงินทุน"
-
-msgid "or"
-msgstr "หรือ"
 
 msgid "today"
 msgstr "วันนี้"
@@ -4691,6 +4715,21 @@ msgstr "การซื้อขายถูกพักชั่วคราว
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะหมดอายุภายในวันที่ซื้อขาย"
 
+#~ msgid "Document not found."
+#~ msgstr "ไม่พบเอกสารที่ต้องการ"
+
+#~ msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
+#~ msgstr "ขออภัยค่ะ ท่านได้พยายามเข้าสู่ระบบแต่ไม่สำเร็จหลายครั้ง โปรดลองใหม่อีกครั้งในอีก 5 นาที"
+
+#~ msgid "Sorry, you have excluded yourself until %1."
+#~ msgstr "ขออภัยค่ะ ท่านได้พักการใช้งานกระทั่ง %1"
+
+#~ msgid "Your balance is higher than the permitted amount."
+#~ msgstr "ยอดคงเหลือของท่านสูงกว่าจำนวนเงินที่ต้องการ"
+
+#~ msgid "or"
+#~ msgstr "หรือ"
+
 #~ msgid "differs"
 #~ msgstr "ต่างจาก"
 
@@ -4720,9 +4759,6 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 
 #~ msgid "Only a maximum of two decimal points are allowed for the withdrawal amount."
 #~ msgstr "จำนวนนี้ต้องการทศนิยม 2 หลัก"
-
-#~ msgid "Or"
-#~ msgstr "หรือ"
 
 #~ msgid "Sorry, but the ICO is not available in your country of residence."
 #~ msgstr "ขออภัย ไม่มี ICO ให้บริการในประเทศของท่าน"
@@ -11180,9 +11216,6 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 
 #~ msgid "Resale price"
 #~ msgstr "ราคาจำหน่ายต่อ"
-
-#~ msgid "Resend Verification Email"
-#~ msgstr "ส่งอีเมล์เพื่อการตรวจสอบอีกครั้ง"
 
 #~ msgid "Resolve complex customer care issues in the best interest of our global clients and the company"
 #~ msgstr "แก้ปัญหาที่ซับซ้อนของลูกค้าด้วยความใส่ใจอย่างดีที่สุดให้กับลูกค้าทั่วโลกและบริษัทฯ"
