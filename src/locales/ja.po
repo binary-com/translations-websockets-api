@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-04-04 21:38+0000\n"
 "Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -238,6 +237,11 @@ msgstr "サーバー接続時に問題が発生しました。しばらくたっ
 
 msgid "An unexpected error occurred"
 msgstr "予期せぬエラーが発生しました"
+
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Authenticate your account to continue trading on MT5"
+msgstr "お客さまのアカウント認証をお願いします"
 
 msgid "Authorize application"
 msgstr "認識済みアプリケーション"
@@ -1237,8 +1241,7 @@ msgid "Sorry, but trading is unavailable until further notice due to an unexpect
 msgstr "申し訳ございませんが接続の問題により、通知があるまでお取引ができません。後ほど改めてお試し下さい。"
 
 msgid "Sorry, but we are experiencing a technical issue with our Cashier. Your funds are safe but deposits and withdrawals are unavailable for the time being."
-msgstr ""
-"申し訳ありませんが、技術的問題が発生しているため只今入出金のご利用はできません。お客様のご資金は安全ですが、現時点で入出金手続きができない状態にあります。"
+msgstr "申し訳ありませんが、技術的問題が発生しているため只今入出金のご利用はできません。お客様のご資金は安全ですが、現時点で入出金手続きができない状態にあります。"
 
 msgid "Sorry, but we are having a technical issue with our MT5 platform. Trading is unavailable for the time being."
 msgstr "申し訳ありませんが、MT5プラットフォームにて技術的問題が発生しています。そのため、復旧までお取引をご利用いただけません。"
@@ -1531,6 +1534,11 @@ msgstr "トランザクションID:%1"
 msgid "Transactions"
 msgstr "トランザクション"
 
+#, fuzzy
+#| msgid "Input validation failed: %1"
+msgid "Transfer validation failed on %1."
+msgstr "入力確認ができません：%1"
+
 msgid "Transfers between accounts are not available for your account."
 msgstr "決済サービスはお客様の口座ではご利用いただけません。"
 
@@ -1601,9 +1609,7 @@ msgid "Virtual money credit to account"
 msgstr "バーチャルマネーを入金"
 
 msgid "We are experiencing an unusually high load on our system. Some features and services may be unstable or temporarily unavailable. We hope to resolve this issue as soon as we can."
-msgstr ""
-"当システムは常にかなりの負荷がかかっています。特定の機能またはサービスが不安定若しくは一時利用停止になることがあります。その場合は、少しでも迅速に解決でき"
-"るよう努めます。"
+msgstr "当システムは常にかなりの負荷がかかっています。特定の機能またはサービスが不安定若しくは一時利用停止になることがあります。その場合は、少しでも迅速に解決できるよう努めます。"
 
 msgid "We are having an issue with one or more of our data feeds. We are working to resolve the issue but some markets may be unavailable for the time being."
 msgstr "1つまたは複数のデータフィードに問題が発生しました。現在修復作業を行っているため、特定の市場がご利用いただけない場合があります。"
@@ -1828,6 +1834,11 @@ msgstr "この口座%1は無効です。"
 msgid "Your account balance (%1%2) is insufficient to buy this contract (%1%3)."
 msgstr "口座残高(¥%2)が不足しているため、このトレード(¥%3)の購入は不可能です"
 
+#, fuzzy
+#| msgid "Sorry, client balance will exceed limits with this payment."
+msgid "Your account balance will exceed set limits. Please specify a lower amount."
+msgstr "申し訳ございません。この出金は口座残高の制限を超えております。"
+
 msgid "Your account currency and trader currency must be same."
 msgstr "取引口座への入金は、日本円のみです"
 
@@ -1921,11 +1932,36 @@ msgstr "決済処理が完了しました。"
 msgid "Your website URL"
 msgstr "ウェブサイトURL"
 
+msgid ""
+"\\\n"
+"Dear %1,\n"
+"\n"
+"Thank you for registering your MetaTrader 5 account.\n"
+"\n"
+"We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"\n"
+"Valid driving licence, identity card, or passport\n"
+"Utility bill or bank statement issued within the past six months\n"
+"\n"
+"Please <a href='//www.binary.com/%2/user/authenticate.html'>upload scanned copies</a> of the above documents, or email them to support@binary.com within five days of receipt of this email to keep your account active.\n"
+"\n"
+"We look forward to hearing from you soon.\n"
+"\n"
+"Regard,\n"
+"\n"
+"Binary.com\n"
+msgstr ""
+
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "スペースやダッシュ（―）を含む英数字2-32文字"
 
 msgid "amount"
 msgstr "金額"
+
+#, fuzzy
+#| msgid "%1 is not allowed for residence of %2."
+msgid "barrier2 is not allowed for reset contract."
+msgstr "%2の居住者は%1をご利用いただくことはできません。"
 
 msgid "now."
 msgstr "はこちら"
@@ -4039,6 +4075,12 @@ msgstr "トレード終了時の市場価格を上下に設定したバリア値
 msgid "Lookbacks"
 msgstr "ルックバック"
 
+msgid "Reset Call/Reset Put"
+msgstr ""
+
+msgid "Reset the barrier if contract is out of the money at half the option lifetime."
+msgstr ""
+
 msgid "Stays Between/Goes Outside"
 msgstr "レンジ内に留まる/レンジ外となる"
 
@@ -4065,6 +4107,11 @@ msgstr "以上"
 
 msgid "High-Low"
 msgstr "ラダーHigh/ラダーLow"
+
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Reset Put"
+msgstr "パスワード再設定"
 
 msgid "Asian Down"
 msgstr "Asian Down"
@@ -4098,6 +4145,9 @@ msgstr "STAY-IN"
 
 msgid "High-Close"
 msgstr "高値-終値"
+
+msgid "Reset Call"
+msgstr ""
 
 msgid "Digit Odd"
 msgstr "Digit 奇数"
@@ -4210,23 +4260,14 @@ msgstr "外国為替証拠金取引"
 msgid "{JAPAN ONLY}Other"
 msgstr "その他"
 
-msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
-msgstr "%1のラダーHIGHは、%2後の判定時刻(%3)の時点で%4以上を予測"
-
 msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
 msgstr "%1のBREAK-OUTは、%2から%3 GMTまでの取引期間中に%4以上もしくは%5以下になったと予測"
 
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
 msgstr "%1が%plural(%3,%d tick)後に%4よりも正確に低い場合に、ペイアウトをお受け取りいただけます。"
 
-msgid "Win payout if %1 does not touch %4 through %3 after %2."
-msgstr "%1のNO-TOUCHは、%2から%3 GMTの取引が終了するまでに%4にタッチしないを予測"
-
 msgid "entry spot plus %1"
 msgstr "エントリー価格プラス%1"
-
-msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
-msgstr "%1のラダーLOWは、%2後の判定時刻(%3)の時点で%4未満を予測"
 
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "%1のBREAK-OUTは、%3 GMTまでの取引期間中に%4以上もしくは%5以下になったと予測"
@@ -4234,47 +4275,20 @@ msgstr "%1のBREAK-OUTは、%3 GMTまでの取引期間中に%4以上もしく�
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "%1のラダーLOWは、%3の判定時刻の時点で%4未満を予測"
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
-msgstr "%1が%plural(%3,%d tick)後に%4より高いかまたは同じ場合に、ペイアウトをお受け取りいただけます。"
-
-msgid "first tick"
-msgstr "最初のTick"
-
-msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
-msgstr "%1のラダーHIGHは、%2後の判定時刻(%3)の時点で%4以上を予測"
-
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "エントリー価格プラス %plural(%1,1 pip)"
-
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "%1のEND-OUTは、%3 GMTの判定時刻の時点で%4以上もしくは%5未満を予測"
 
 msgid "Win %6 %5 times %1's close minus low over the next %3."
 msgstr "Win %6 %5 times %1's close minus low over the next %3."
 
-msgid "Win %6 %5 times %1's high minus close over the next %3."
-msgstr "Win %6 %5 times %1's high minus close over the next %3."
-
-msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
-msgstr "%1の下一桁が%plural(%3,%d tick)後に%4ではない場合に、ペイアウトをお受け取りいただけます。"
-
-msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
-msgstr "%1の下一桁が%3 tickの時点で%4よりも正確に高い場合にペイアウトをお受け取りいただけます。"
-
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "%3 tick後に%1の下一桁の数が奇数である場合、ペイアウトをお受け取りいただけます。"
-
-msgid "Win %6 %5 times %1's high minus close at %3."
-msgstr "Win %6 %5 times %1's high minus close at %3."
 
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "%1の下一桁が %3 ticks以降もxxxである場合、ペイアウトをお受け取りいただけます。"
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Win %6 %5 times %1's close minus low at %3."
-
-msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
-msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上で終了を予測"
 
 msgid "Win payout if %1 touches %4 through %3."
 msgstr "%1のTOUCHは、%3 GMTまでの取引期間が終了するまで%4にタッチを予測"
@@ -4285,23 +4299,8 @@ msgstr "%1の下一桁が%3 tickの時点で正確に%4よりも低い場合、�
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "%1のラダーHIGHは、%3の判定時刻の時点で%4以上を予測"
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
-msgstr "%1が%plural(%3,%d tick)後に%4よりも低いかまたは同じ場合に、ペイアウトをお受け取りいただけます。"
-
-msgid "Win payout if %1 does not touch %4 through %3."
-msgstr "%1のNO-TOUCHは、%3 GMTまでの取引期間が終了までに%4にタッチしないを予測"
-
 msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
 msgstr "%1のEND-INは、%2後の判定時刻(%3)の時点で%4未満かつ%5以上で終了を予測"
-
-msgid "entry spot"
-msgstr "エントリー価格"
-
-msgid "Win %6 %5 times %1's high minus low over the next %3."
-msgstr "Win %6 %5 times %1's high minus low over the next %3."
-
-msgid "Win payout if %1 ends on or between %5 to %4 at %3."
-msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上で終了を予測"
 
 msgid "Win payout if %1 stays between %5 to %4 through %3."
 msgstr "%1のSTAY-INは、%3 GMTまでの取引期間中に%4未満かつ%5超過を維持すると予測"
@@ -4309,17 +4308,13 @@ msgstr "%1のSTAY-INは、%3 GMTまでの取引期間中に%4未満かつ%5超�
 msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
 msgstr "%1のSTAY-INは、%2から%3 GMTまでの取引期間中に%4未満かつ%5超過を維持すると予測"
 
-msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
-msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上を予測"
-
-msgid "Win payout if %1 is lower than or equal to %4 at %3."
-msgstr "%1のラダーLOWは、%3の判定時刻の時点で%4未満を予測"
-
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "%1の最後の値 が%plural(%3,%d tick)の平均よりも正確に低い場合に、ペイアウトをお受け取りいただけます。"
 
-msgid "Win %6 %5 times %1's high minus low at %3."
-msgstr "Win %6 %5 times %1's high minus low at %3."
+#, fuzzy
+#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than it was at either entry or %5 ticks."
+msgstr "%1が%plural(%3,%d tick)後に%4以上の場合、ペイアウトをお受け取りいただけます。"
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "エントリー価格プラス %plural(%1,1 pip)"
@@ -4333,9 +4328,6 @@ msgstr "%1のEND-INは、%2後の判定時刻(%3)の時点で%4未満かつ%5以
 msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "%1のラダーLOWは、%2後の判定時刻(%3)の時点で%4未満を予測"
 
-msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "%1の最後の値が%plural(%3,%d tick)の平均よりも正確に高い場合に、ペイアウトをお受け取りいただけます。"
-
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
 msgstr "%1が%plural(%3,%d tick)後に%4以上の場合、ペイアウトをお受け取りいただけます。"
 
@@ -4345,20 +4337,98 @@ msgstr "%1のラダーHIGHは、%3の判定時刻の時点で%4以上を予測"
 msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "%1の下一桁が%plural(%3,%d tick)後に%4である場合に、ペイアウトをお受け取りいただけます。"
 
-msgid "contract start time"
-msgstr "トレード開始時間"
-
 msgid "entry spot minus %1"
 msgstr "エントリー価格マイナス%1"
 
 msgid "close on %1"
 msgstr "%1"
 
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
+msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上で終了を予測"
+
 msgid "Win payout if %1 touches %4 through %3 after %2."
 msgstr "%1のTOUCHは、%2から%3 GMTの取引が終了するまでに%4にタッチを予測"
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
 msgstr "%1のEND-INは、%2後の判定時刻(%3)の時点で%4未満かつ%5以上で終了を予測"
+
+#, fuzzy
+#| msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
+msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
+msgstr "%1のラダーLOWは、%2後の判定時刻(%3)の時点で%4未満を予測"
+
+msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
+msgstr "%1のラダーHIGHは、%2後の判定時刻(%3)の時点で%4以上を予測"
+
+msgid "Win payout if %1 does not touch %4 through %3 after %2."
+msgstr "%1のNO-TOUCHは、%2から%3 GMTの取引が終了するまでに%4にタッチしないを予測"
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
+msgstr "%1のラダーLOWは、%2後の判定時刻(%3)の時点で%4未満を予測"
+
+msgid "first tick"
+msgstr "最初のTick"
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
+msgstr "%1が%plural(%3,%d tick)後に%4より高いかまたは同じ場合に、ペイアウトをお受け取りいただけます。"
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "エントリー価格プラス %plural(%1,1 pip)"
+
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgstr "%1のラダーHIGHは、%2後の判定時刻(%3)の時点で%4以上を予測"
+
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr "Win %6 %5 times %1's high minus close over the next %3."
+
+msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "%1の下一桁が%plural(%3,%d tick)後に%4ではない場合に、ペイアウトをお受け取りいただけます。"
+
+msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
+msgstr "%1の下一桁が%3 tickの時点で%4よりも正確に高い場合にペイアウトをお受け取りいただけます。"
+
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr "Win %6 %5 times %1's high minus close at %3."
+
+#, fuzzy
+#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
+msgstr "%1が%plural(%3,%d tick)後に%4よりも正確に低い場合に、ペイアウトをお受け取りいただけます。"
+
+msgid "entry spot"
+msgstr "エントリー価格"
+
+msgid "Win payout if %1 does not touch %4 through %3."
+msgstr "%1のNO-TOUCHは、%3 GMTまでの取引期間が終了までに%4にタッチしないを予測"
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
+msgstr "%1が%plural(%3,%d tick)後に%4よりも低いかまたは同じ場合に、ペイアウトをお受け取りいただけます。"
+
+msgid "Win %6 %5 times %1's high minus low over the next %3."
+msgstr "Win %6 %5 times %1's high minus low over the next %3."
+
+msgid "Win payout if %1 ends on or between %5 to %4 at %3."
+msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上で終了を予測"
+
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
+msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上を予測"
+
+#, fuzzy
+#| msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgid "Win payout if %1 after %3 is strictly higher than it was at either entry or %5."
+msgstr "%1のラダーHIGHは、%2後の判定時刻(%3)の時点で%4以上を予測"
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3."
+msgstr "%1のラダーLOWは、%3の判定時刻の時点で%4未満を予測"
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr "Win %6 %5 times %1's high minus low at %3."
+
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "%1の最後の値が%plural(%3,%d tick)の平均よりも正確に高い場合に、ペイアウトをお受け取りいただけます。"
+
+msgid "contract start time"
+msgstr "トレード開始時間"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "%1のEND-OUTは、%2後の判定時刻(%3)の時点で%4以上もしくは%7未満を予測"
@@ -4534,6 +4604,11 @@ msgstr "開始時間が未来の値になっています。"
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "取引時間が5時間未満であるトレードは、%1から%2をご利用いただけません"
 
+#, fuzzy
+#| msgid "Trading on this market is not offered for this contract type."
+msgid "Non atm barrier is not allowed for reset contract."
+msgstr "%1ではこちらのオプションタイプを提供しておりません"
+
 msgid "High barrier must be higher than low barrier."
 msgstr "上限バリアは下限バリア値より高い必要があります。"
 
@@ -4638,6 +4713,11 @@ msgstr "トレードはトレード可能日に終了する必要があります
 
 msgid "Trading is not available from %1 to %2."
 msgstr "%1から%2のお取引はご利用いただけません。"
+
+#, fuzzy
+#| msgid "Resale of this contract is not offered."
+msgid "Fixed expiry for reset contract is not allowed."
+msgstr "満期までの2分は売却取引不可"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "１日以内の取引はマーケット開始をまたぐことはできません。"
@@ -4892,9 +4972,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 #~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 #~ msgstr "申し訳ございませんが、決済サービスでの送金はシステムメンテナンスのため一時的にご利用いただけません。お手数をお掛けしますが、30分後に再度お試しください。"
 
-#~ msgid "Sorry, client balance will exceed limits with this payment."
-#~ msgstr "申し訳ございません。この出金は口座残高の制限を超えております。"
-
 #~ msgid "Sorry, it is not allowed."
 #~ msgstr "申し訳ございませんが、ご利用いただけません。"
 
@@ -5031,9 +5108,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 #~ msgid "If you wish to raise these limits, please authenticate your account."
 #~ msgstr "取引上限の引き上げを希望される場合は、取引上限の設定ページからせ限度額の設定をお願い致します。"
 
-#~ msgid "Input validation failed: %1"
-#~ msgstr "入力確認ができません：%1"
-
 #~ msgid "Stock Dividend"
 #~ msgstr "株式配当"
 
@@ -5093,9 +5167,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "The barriers are improperly entered for this contract."
 #~ msgstr "このトレードに入力されたバリア値が不適切です。"
-
-#~ msgid "Trading on this market is not offered for this contract type."
-#~ msgstr "%1ではこちらのオプションタイプを提供しておりません"
 
 #~ msgid "Trading on this market is suspended due to missing market (old) data."
 #~ msgstr "現在、一時的にご利用出来ません"
@@ -6352,9 +6423,6 @@ msgstr "取引期間が24時間以内の回号での取引は、取引開始日�
 
 #~ msgid "Represents the maximum volume of contracts that you may purchase in any given trading day."
 #~ msgstr "購入可能な１日あたりのトレードの総額を示します。"
-
-#~ msgid "Reset Password"
-#~ msgstr "パスワード再設定"
 
 #~ msgid "Retracement Percentages"
 #~ msgstr "Retracement率"

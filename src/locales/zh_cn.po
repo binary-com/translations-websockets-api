@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-04-10 08:28+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hans/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -207,6 +206,11 @@ msgstr "处理请求时出现错误。请稍后重试。"
 
 msgid "An unexpected error occurred"
 msgstr "发生不可预测的错误"
+
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Authenticate your account to continue trading on MT5"
+msgstr "请验证您的账户，以继续操作。"
 
 msgid "Authorize application"
 msgstr "授权应用程序"
@@ -1495,6 +1499,11 @@ msgstr "交易 ID: %1"
 msgid "Transactions"
 msgstr "交易"
 
+#, fuzzy
+#| msgid "Input validation failed: %1"
+msgid "Transfer validation failed on %1."
+msgstr "输入验证失败： %1"
+
 msgid "Transfers between accounts are not available for your account."
 msgstr "您的账户不可进行账户间转账。"
 
@@ -1802,6 +1811,11 @@ msgstr "您的账户 %1已被禁用。"
 msgid "Your account balance (%1%2) is insufficient to buy this contract (%1%3)."
 msgstr "您的账户余额(%1%2)不足以买入该合约 (%1%3)。"
 
+#, fuzzy
+#| msgid "Sorry, client balance will exceed limits with this payment."
+msgid "Your account balance will exceed set limits. Please specify a lower amount."
+msgstr "对不起，客户余额不足。"
+
 msgid "Your account currency and trader currency must be same."
 msgstr "您的账户货币必须与交易者货币相符。"
 
@@ -1895,11 +1909,36 @@ msgstr "您的交易已成功。"
 msgid "Your website URL"
 msgstr "您的网站 URL"
 
+msgid ""
+"\\\n"
+"Dear %1,\n"
+"\n"
+"Thank you for registering your MetaTrader 5 account.\n"
+"\n"
+"We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"\n"
+"Valid driving licence, identity card, or passport\n"
+"Utility bill or bank statement issued within the past six months\n"
+"\n"
+"Please <a href='//www.binary.com/%2/user/authenticate.html'>upload scanned copies</a> of the above documents, or email them to support@binary.com within five days of receipt of this email to keep your account active.\n"
+"\n"
+"We look forward to hearing from you soon.\n"
+"\n"
+"Regard,\n"
+"\n"
+"Binary.com\n"
+msgstr ""
+
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "允许输入字母数字组合、空格和划线，2-32个字符"
 
 msgid "amount"
 msgstr "金额"
+
+#, fuzzy
+#| msgid "%1 is not allowed for residence of %2."
+msgid "barrier2 is not allowed for reset contract."
+msgstr "%2的居民不可进行%1。"
 
 msgid "now."
 msgstr "现在。"
@@ -4007,6 +4046,12 @@ msgstr "预测相对于2个设定的障碍市场收盘价格的位置。"
 msgid "Lookbacks"
 msgstr "回顾"
 
+msgid "Reset Call/Reset Put"
+msgstr ""
+
+msgid "Reset the barrier if contract is out of the money at half the option lifetime."
+msgstr ""
+
 msgid "Stays Between/Goes Outside"
 msgstr "保持在范围内/超出范围"
 
@@ -4033,6 +4078,11 @@ msgstr "高于或等于"
 
 msgid "High-Low"
 msgstr "最高-最低"
+
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Reset Put"
+msgstr "重置密码"
 
 msgid "Asian Down"
 msgstr "亚洲下跌"
@@ -4066,6 +4116,9 @@ msgstr "位于区间之内"
 
 msgid "High-Close"
 msgstr "最高值-收盘值"
+
+msgid "Reset Call"
+msgstr ""
 
 msgid "Digit Odd"
 msgstr "数字是奇数"
@@ -4178,23 +4231,14 @@ msgstr "{JAPAN ONLY}Margin FX"
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
 
-msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
-msgstr "如果%1在%2之后到%3时高于或等于%4，将获得赔付额。"
-
 msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
 msgstr "如果%1在%2过后一直到%3时处于%5与%4之外，将获得赔付额。"
 
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
 msgstr "如果%1在%plural(%3,%d 跳动点) 之后严格低于%4，将获得赔付额。"
 
-msgid "Win payout if %1 does not touch %4 through %3 after %2."
-msgstr "如果%1在%2之后到%3时未触及%4，将获得赔付额。"
-
 msgid "entry spot plus %1"
 msgstr "入市现价加上 %1"
-
-msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
-msgstr "如果%1在%2之后的%3时低于或等于%4，将获得赔付额。"
 
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "如果%1一直到%3时处于%5至%4之外，将获得赔付额。"
@@ -4202,47 +4246,20 @@ msgstr "如果%1一直到%3时处于%5至%4之外，将获得赔付额。"
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "如果%1在%3严格低于%4，将获得赔付额。"
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
-msgstr "如果%1在%plural(%3,%d 跳动点) 之后高于或等于%4，将获得赔付额。"
-
-msgid "first tick"
-msgstr "首个跳动点"
-
-msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
-msgstr "如果%1在%2之后%3严格高于%4，将获得赔付额。"
-
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "入市现价加上 %plural(%1, %d 点)"
-
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "如果%1在%3时收盘于%5至%4之外，将获得赔付额。"
 
 msgid "Win %6 %5 times %1's close minus low over the next %3."
 msgstr "在接下来的%3内赢取%6 %5乘以%1的收盘值减最低值。"
 
-msgid "Win %6 %5 times %1's high minus close over the next %3."
-msgstr "在接下来的%3内赢取%6 %5乘以%1的最高值减收盘值。"
-
-msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
-msgstr "如果%1的最后数字在%plural(%3,%d 跳动点) 后不是%4，将获得赔付额。"
-
-msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
-msgstr "如果%1的最后数字在%3跳动点之后严格高于%4，将获得赔付额。"
-
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "如果%1的最后数字在%3跳动点之后为奇数，将获得赔付额。"
-
-msgid "Win %6 %5 times %1's high minus close at %3."
-msgstr "%3时赢取%6 %5乘以%1的最高值减收盘值。"
 
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "如果%1的最后数字在%3跳动点之后为偶数，将获得赔付额。"
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "%3时赢取%6 %5乘以%1的收盘值减最低值。"
-
-msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
-msgstr "如果%1在%3时收盘严格处于%5至%4之间，将获得赔付额。"
 
 msgid "Win payout if %1 touches %4 through %3."
 msgstr "如果%1一直到%3时触及%4，将获得赔付额。"
@@ -4253,23 +4270,8 @@ msgstr "如果%1的最后数字在%3跳动点之后严格低于%4，将获得赔
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "如果%1在%3时高于或等于%4，将获得赔付额。"
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
-msgstr "如果%1在%plural(%3,%d 跳动点) 之后低于或等于%4，将获得赔付额。"
-
-msgid "Win payout if %1 does not touch %4 through %3."
-msgstr "如果%1一直到%3时未触及%4，将获得赔付额。"
-
 msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
 msgstr "如果%1在%2之后的%3时收盘等于或处于%5至%4之间，将获得赔付额。"
-
-msgid "entry spot"
-msgstr "入市现价"
-
-msgid "Win %6 %5 times %1's high minus low over the next %3."
-msgstr "在接下来的%3内赢取%6 %5乘以%1的最高值减最低值。"
-
-msgid "Win payout if %1 ends on or between %5 to %4 at %3."
-msgstr "如果%1在%3时收盘等于或处于%5至%4之间，将获得赔付额。"
 
 msgid "Win payout if %1 stays between %5 to %4 through %3."
 msgstr "如果%1在%3时一直在%5至%4之间，将获赔付额。"
@@ -4277,17 +4279,13 @@ msgstr "如果%1在%3时一直在%5至%4之间，将获赔付额。"
 msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
 msgstr "如果%1在%2过后到%3时一直在%5与%4之间，将获得赔付额。"
 
-msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
-msgstr "如果%1在%3时收盘等于或处于%5至%4之外，将获得赔付额。"
-
-msgid "Win payout if %1 is lower than or equal to %4 at %3."
-msgstr "如果%1在%3时低于或等于%4，将获得赔付额。"
-
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "如果%1的最后跳动点严格低于%plural(%3,%d 跳动点) 的平均价位，将获得赔付额。"
 
-msgid "Win %6 %5 times %1's high minus low at %3."
-msgstr "%3时赢取%6 %5乘以%1的最高值减最低值。"
+#, fuzzy
+#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than it was at either entry or %5 ticks."
+msgstr "如果%1在%plural(%3,%d 跳动点) 之后严格高于%4，将获得赔付额。"
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "入市现价减去 %plural(%1, %d 点)"
@@ -4301,9 +4299,6 @@ msgstr "如果%1在%2过后的%3时收盘等于或处于%5至%4之外，将获�
 msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "如果%1在%2之后的%3严格低于%4，将获得赔付额。"
 
-msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "如果%1的最新跳动点严格高于%plural(%3,%d 跳动点) 的平均价格，将获得赔付额。"
-
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
 msgstr "如果%1在%plural(%3,%d 跳动点) 之后严格高于%4，将获得赔付额。"
 
@@ -4313,20 +4308,98 @@ msgstr "如果%1在%3严格高于%4，将获得赔付额。"
 msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "如果%1的最后数字在%plural(%3,%d 跳动点) 之后为%4，将获得赔付额。"
 
-msgid "contract start time"
-msgstr "合约开始时间"
-
 msgid "entry spot minus %1"
 msgstr "入市现价减去 %1"
 
 msgid "close on %1"
 msgstr "在%1关闭"
 
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
+msgstr "如果%1在%3时收盘严格处于%5至%4之间，将获得赔付额。"
+
 msgid "Win payout if %1 touches %4 through %3 after %2."
 msgstr "如果%1在%2过后一直到%3时触及%4，将获得赔付额。"
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
 msgstr "如果%1在%2之后的%3时收盘严格处于%5至%4之间，将获得赔付额。"
+
+#, fuzzy
+#| msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
+msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
+msgstr "如果%1在%2之后的%3严格低于%4，将获得赔付额。"
+
+msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
+msgstr "如果%1在%2之后到%3时高于或等于%4，将获得赔付额。"
+
+msgid "Win payout if %1 does not touch %4 through %3 after %2."
+msgstr "如果%1在%2之后到%3时未触及%4，将获得赔付额。"
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
+msgstr "如果%1在%2之后的%3时低于或等于%4，将获得赔付额。"
+
+msgid "first tick"
+msgstr "首个跳动点"
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
+msgstr "如果%1在%plural(%3,%d 跳动点) 之后高于或等于%4，将获得赔付额。"
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "入市现价加上 %plural(%1, %d 点)"
+
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgstr "如果%1在%2之后%3严格高于%4，将获得赔付额。"
+
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr "在接下来的%3内赢取%6 %5乘以%1的最高值减收盘值。"
+
+msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "如果%1的最后数字在%plural(%3,%d 跳动点) 后不是%4，将获得赔付额。"
+
+msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
+msgstr "如果%1的最后数字在%3跳动点之后严格高于%4，将获得赔付额。"
+
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr "%3时赢取%6 %5乘以%1的最高值减收盘值。"
+
+#, fuzzy
+#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
+msgstr "如果%1在%plural(%3,%d 跳动点) 之后严格低于%4，将获得赔付额。"
+
+msgid "entry spot"
+msgstr "入市现价"
+
+msgid "Win payout if %1 does not touch %4 through %3."
+msgstr "如果%1一直到%3时未触及%4，将获得赔付额。"
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
+msgstr "如果%1在%plural(%3,%d 跳动点) 之后低于或等于%4，将获得赔付额。"
+
+msgid "Win %6 %5 times %1's high minus low over the next %3."
+msgstr "在接下来的%3内赢取%6 %5乘以%1的最高值减最低值。"
+
+msgid "Win payout if %1 ends on or between %5 to %4 at %3."
+msgstr "如果%1在%3时收盘等于或处于%5至%4之间，将获得赔付额。"
+
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
+msgstr "如果%1在%3时收盘等于或处于%5至%4之外，将获得赔付额。"
+
+#, fuzzy
+#| msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgid "Win payout if %1 after %3 is strictly higher than it was at either entry or %5."
+msgstr "如果%1在%2之后%3严格高于%4，将获得赔付额。"
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3."
+msgstr "如果%1在%3时低于或等于%4，将获得赔付额。"
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr "%3时赢取%6 %5乘以%1的最高值减最低值。"
+
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "如果%1的最新跳动点严格高于%plural(%3,%d 跳动点) 的平均价格，将获得赔付额。"
+
+msgid "contract start time"
+msgstr "合约开始时间"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "如果%1在%2过后的%3时收盘于%5至%4之外，将获得赔付额。"
@@ -4502,6 +4575,11 @@ msgstr "开始时间是在未来。"
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "%1到%2期间内，持续时间少于5小时的外汇交易暂时停止"
 
+#, fuzzy
+#| msgid "Trading on this market is not offered for this contract type."
+msgid "Non atm barrier is not allowed for reset contract."
+msgstr "本市场不提供此类合约交易。"
+
 msgid "High barrier must be higher than low barrier."
 msgstr "最高障碍必须高于最低障碍。"
 
@@ -4606,6 +4684,11 @@ msgstr "合约到期日必须为交易日。"
 
 msgid "Trading is not available from %1 to %2."
 msgstr "%1到%2期间内交易暂停。"
+
+#, fuzzy
+#| msgid "Resale of this contract is not offered."
+msgid "Fixed expiry for reset contract is not allowed."
+msgstr "该合约不能转售。"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "日内合约不能跨越开市。"
@@ -4859,9 +4942,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 #~ msgstr "对不起，由于系统维护，支付代理转账暂停使用。请在30分钟后重试。"
 
-#~ msgid "Sorry, client balance will exceed limits with this payment."
-#~ msgstr "对不起，客户余额不足。"
-
 #~ msgid "Sorry, it is not allowed."
 #~ msgstr "对不起，不允许使用。"
 
@@ -4999,9 +5079,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 #~ msgid "If you wish to raise these limits, please authenticate your account."
 #~ msgstr "如果您想提高这些限额，请验证您的账户。"
 
-#~ msgid "Input validation failed: %1"
-#~ msgstr "输入验证失败： %1"
-
 #~ msgid "Stock Dividend"
 #~ msgstr "股息"
 
@@ -5072,9 +5149,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "The barriers are improperly entered for this contract."
 #~ msgstr "本合约的障碍水平输入错误。"
-
-#~ msgid "Trading on this market is not offered for this contract type."
-#~ msgstr "本市场不提供此类合约交易。"
 
 #~ msgid "Trading on this market is suspended due to missing market (old) data."
 #~ msgstr "由于市场数据（旧的）丢失，此市场交易暂停。"
@@ -6338,9 +6412,6 @@ msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
 #~ msgid "Represents the maximum volume of contracts that you may purchase in any given trading day."
 #~ msgstr "表示任一既定交易日您可以买入的最大合约数量。"
-
-#~ msgid "Reset Password"
-#~ msgstr "重置密码"
 
 #~ msgid "Retracement Percentages"
 #~ msgstr "回撤百分比"
