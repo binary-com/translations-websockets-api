@@ -206,6 +206,11 @@ msgstr "Un erreur est survenue lors du traitement de votre requête. Veuillez r�
 msgid "An unexpected error occurred"
 msgstr "Une erreur inattendue s'est produite"
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Authenticate your account to continue trading on MT5"
+msgstr "Veuillez authentifier votre compte pour continuer."
+
 msgid "Authorize application"
 msgstr "Autoriser l'application"
 
@@ -1497,6 +1502,11 @@ msgstr "Identification de transaction: %1"
 msgid "Transactions"
 msgstr "Transactions"
 
+#, fuzzy
+#| msgid "Input validation failed: %1"
+msgid "Transfer validation failed on %1."
+msgstr "Échec de validation de la saisie : 1%"
+
 msgid "Transfers between accounts are not available for your account."
 msgstr "Les transferts entre les comptes ne sont pas disponibles pour votre compte."
 
@@ -1798,6 +1808,11 @@ msgstr "Votre compte %1 est désactivé."
 msgid "Your account balance (%1%2) is insufficient to buy this contract (%1%3)."
 msgstr "Le solde de votre compte (%2%1) est insuffisant pour acheter ce contrat (%3%1)."
 
+#, fuzzy
+#| msgid "Sorry, client balance will exceed limits with this payment."
+msgid "Your account balance will exceed set limits. Please specify a lower amount."
+msgstr "Désolé, ce paiement engendrerait le dépassement du solde du client."
+
 msgid "Your account currency and trader currency must be same."
 msgstr "Votre compte de devise et trader de devise doivent être les mêmes."
 
@@ -1891,11 +1906,36 @@ msgstr "Votre transaction a bien été effectuée."
 msgid "Your website URL"
 msgstr "L'URL de votre site Web"
 
+msgid ""
+"\\\n"
+"Dear %1,\n"
+"\n"
+"Thank you for registering your MetaTrader 5 account.\n"
+"\n"
+"We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"\n"
+"Valid driving licence, identity card, or passport\n"
+"Utility bill or bank statement issued within the past six months\n"
+"\n"
+"Please <a href='//www.binary.com/%2/user/authenticate.html'>upload scanned copies</a> of the above documents, or email them to support@binary.com within five days of receipt of this email to keep your account active.\n"
+"\n"
+"We look forward to hearing from you soon.\n"
+"\n"
+"Regard,\n"
+"\n"
+"Binary.com\n"
+msgstr ""
+
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "Caractères alpha-numériques avec espace et tiret, 2 à 32 caractères"
 
 msgid "amount"
 msgstr "montant"
+
+#, fuzzy
+#| msgid "%1 is not allowed for residence of %2."
+msgid "barrier2 is not allowed for reset contract."
+msgstr "%1 n’est pas autorisé pour la résidence de %2."
 
 msgid "now."
 msgstr "maintenant."
@@ -4009,6 +4049,12 @@ msgstr "Prédisez le niveau final du marché par rapport à deux barrières de v
 msgid "Lookbacks"
 msgstr "Retrospectives"
 
+msgid "Reset Call/Reset Put"
+msgstr ""
+
+msgid "Reset the barrier if contract is out of the money at half the option lifetime."
+msgstr ""
+
 msgid "Stays Between/Goes Outside"
 msgstr "Reste Entre/Sort De"
 
@@ -4035,6 +4081,11 @@ msgstr "Supérieur ou égal"
 
 msgid "High-Low"
 msgstr "Haut-Bas"
+
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Reset Put"
+msgstr "Réinitialiser le Mot de Passe"
 
 msgid "Asian Down"
 msgstr "Asiatique en Baisse"
@@ -4068,6 +4119,9 @@ msgstr "Reste dans la zone"
 
 msgid "High-Close"
 msgstr "Clôture-Haute"
+
+msgid "Reset Call"
+msgstr ""
 
 msgid "Digit Odd"
 msgstr "Chiffre Impair"
@@ -4180,23 +4234,14 @@ msgstr "{JAPAN ONLY}Margin FX"
 msgid "{JAPAN ONLY}Other"
 msgstr "{JAPAN ONLY}Other"
 
-msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
-msgstr "Emportez un gain si %1 est supérieur ou égal de %4 à %3 après %2."
-
 msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
 msgstr "Emportez un gain si %1 va à l'extérieur de %5 et %4 à travers %3 après %2."
 
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
 msgstr "Vous percevez le versement si %1 après %plural(%3,%d tick,%d ticks) est strictement inférieure à %4."
 
-msgid "Win payout if %1 does not touch %4 through %3 after %2."
-msgstr "Vous percevez le paiement si %1 ne touche pas %4 pendant la période allant jusqu'au %3, après %2."
-
 msgid "entry spot plus %1"
 msgstr "point d'entrée plus %1"
-
-msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %1 est inférieur ou égal à %4 à %3, après %2."
 
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "Vous percevez le paiement si %1 sort de la zone de %5 à %4 pendant la période allant jusqu'au %3."
@@ -4204,47 +4249,20 @@ msgstr "Vous percevez le paiement si %1 sort de la zone de %5 à %4 pendant la 
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "Vous percevez le paiement si %1 est strictement inférieur à %4 à %3."
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
-msgstr "Vous percevez le paiement si %1 après %plural(%3,%d tick,%d ticks) est supérieur ou égal à %4."
-
-msgid "first tick"
-msgstr "premier tick"
-
-msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
-msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 à %3, après %2."
-
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "point d'entrée plus %plural(%1,%d pip, %d pips)"
-
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 à %3."
 
 msgid "Win %6 %5 times %1's close minus low over the next %3."
 msgstr "Gagner %6 %5 fois %1 clôture moins le plus bas au cours des prochains %3."
 
-msgid "Win %6 %5 times %1's high minus close over the next %3."
-msgstr "Gagner %6 %5 fois %1 plus haut moins la clôture au cours des prochaines %3."
-
-msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
-msgstr "Vous percevez le paiement si le dernier chiffre de %1 n'est pas %4 après %plural(%3,%d tick,%d ticks)."
-
-msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
-msgstr "Vous percevez le paiement si le dernier chiffre de %1 est strictement supérieur à %4 après %3 ticks."
-
 msgid "Win payout if the last digit of %1 is odd after %3 ticks."
 msgstr "Vous percevez le paiement si le dernier chiffre de %1 est impair après %3 ticks."
-
-msgid "Win %6 %5 times %1's high minus close at %3."
-msgstr "Gagner %6 %5 fois %1 haut moins la clôture à %3."
 
 msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgstr "Vous percevez le paiement si le dernier chiffre de %1 est pair après %3 ticks."
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Gagner %6 %5 fois %1 clôture moins le plus bas à %3."
-
-msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
-msgstr "Vous percevez le paiement si %1 termine strictement dans la zone de %5 à %4 à %3."
 
 msgid "Win payout if %1 touches %4 through %3."
 msgstr "Vous percevez le paiement si %1 touche %4 pendant la période allant jusqu'au %3."
@@ -4255,23 +4273,8 @@ msgstr "Vous percevez le paiement si le dernier chiffre de %1 est strictement in
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "Vous percevez le paiement si %1 est supérieur ou égal à %4 à %3."
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
-msgstr "Vous percevez le paiement si %1 après %plural(%3,%d tick,%d ticks) est inférieur ou égal à %4."
-
-msgid "Win payout if %1 does not touch %4 through %3."
-msgstr "Vous percevez le paiement si %1 ne touche pas %4 pendant la période allant jusqu'au %3."
-
 msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
 msgstr "Vous percevez le paiement si %1 termine strictement sur ou entre %5 et %4 à %3, après %2."
-
-msgid "entry spot"
-msgstr "point d'entrée"
-
-msgid "Win %6 %5 times %1's high minus low over the next %3."
-msgstr "Gagner %6 %5 fois %1 haut moins le plus bas au cours des prochaines %3."
-
-msgid "Win payout if %1 ends on or between %5 to %4 at %3."
-msgstr "Vous percevez le paiement si %1 termine strictement sur ou entre %5 et %4 à %3."
 
 msgid "Win payout if %1 stays between %5 to %4 through %3."
 msgstr "Vous percevez le paiement si %1 reste dans la zone de %5 à %4 pendant la période allant jusqu'au %3."
@@ -4279,17 +4282,13 @@ msgstr "Vous percevez le paiement si %1 reste dans la zone de %5 à %4 pendant 
 msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
 msgstr "Vous percevez le paiement si %1 reste dans la zone de %5 à %4 pendant la période allant jusqu'au %3, après %2."
 
-msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
-msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 ou sur ces valeurs limites, à %3."
-
-msgid "Win payout if %1 is lower than or equal to %4 at %3."
-msgstr "Vous percevez le paiement si %1 est inférieur ou égal à %4 à %3."
-
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "Vous percevez le paiement si le dernier tick de %1 est strictement inférieur à la moyenne des %plural(%3,%d tick,%d ticks)."
 
-msgid "Win %6 %5 times %1's high minus low at %3."
-msgstr "Gagner %6 %5 fois %1 haut moins le plus bas à %3."
+#, fuzzy
+#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than it was at either entry or %5 ticks."
+msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 après %plural(%3,%d tick,%d ticks)."
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "point d'entrée moins %plural(%1,%d pip, %d pips)"
@@ -4303,9 +4302,6 @@ msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 ou 
 msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgstr "Vous percevez le paiement si %1 est strictement inférieur à %4 à %3, après %2."
 
-msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "Vous percevez le paiement si le dernier tick de %1 est strictement supérieur à la moyenne des %plural(%3,%d tick,%d ticks)."
-
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
 msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 après %plural(%3,%d tick,%d ticks)."
 
@@ -4315,20 +4311,98 @@ msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 à %3.
 msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Vous percevez le paiement si le dernier chiffre de %1 est %4 après %plural(%3,%d tick,%d ticks)."
 
-msgid "contract start time"
-msgstr "heure de début du contrat"
-
 msgid "entry spot minus %1"
 msgstr "point d'entrée moins %1"
 
 msgid "close on %1"
 msgstr "clôturer le %1"
 
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
+msgstr "Vous percevez le paiement si %1 termine strictement dans la zone de %5 à %4 à %3."
+
 msgid "Win payout if %1 touches %4 through %3 after %2."
 msgstr "Vous percevez le paiement si %1 touche %4 pendant la période allant jusqu'au %3, après %2."
 
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
 msgstr "Vous percevez le paiement si %1 termine strictement dans la zone de %5 à %4 à %3, après %2."
+
+#, fuzzy
+#| msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
+msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
+msgstr "Vous percevez le paiement si %1 est strictement inférieur à %4 à %3, après %2."
+
+msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
+msgstr "Emportez un gain si %1 est supérieur ou égal de %4 à %3 après %2."
+
+msgid "Win payout if %1 does not touch %4 through %3 after %2."
+msgstr "Vous percevez le paiement si %1 ne touche pas %4 pendant la période allant jusqu'au %3, après %2."
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
+msgstr "Vous percevez le paiement si %1 est inférieur ou égal à %4 à %3, après %2."
+
+msgid "first tick"
+msgstr "premier tick"
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
+msgstr "Vous percevez le paiement si %1 après %plural(%3,%d tick,%d ticks) est supérieur ou égal à %4."
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "point d'entrée plus %plural(%1,%d pip, %d pips)"
+
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 à %3, après %2."
+
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr "Gagner %6 %5 fois %1 plus haut moins la clôture au cours des prochaines %3."
+
+msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 n'est pas %4 après %plural(%3,%d tick,%d ticks)."
+
+msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
+msgstr "Vous percevez le paiement si le dernier chiffre de %1 est strictement supérieur à %4 après %3 ticks."
+
+msgid "Win %6 %5 times %1's high minus close at %3."
+msgstr "Gagner %6 %5 fois %1 haut moins la clôture à %3."
+
+#, fuzzy
+#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
+msgstr "Vous percevez le versement si %1 après %plural(%3,%d tick,%d ticks) est strictement inférieure à %4."
+
+msgid "entry spot"
+msgstr "point d'entrée"
+
+msgid "Win payout if %1 does not touch %4 through %3."
+msgstr "Vous percevez le paiement si %1 ne touche pas %4 pendant la période allant jusqu'au %3."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
+msgstr "Vous percevez le paiement si %1 après %plural(%3,%d tick,%d ticks) est inférieur ou égal à %4."
+
+msgid "Win %6 %5 times %1's high minus low over the next %3."
+msgstr "Gagner %6 %5 fois %1 haut moins le plus bas au cours des prochaines %3."
+
+msgid "Win payout if %1 ends on or between %5 to %4 at %3."
+msgstr "Vous percevez le paiement si %1 termine strictement sur ou entre %5 et %4 à %3."
+
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
+msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 ou sur ces valeurs limites, à %3."
+
+#, fuzzy
+#| msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgid "Win payout if %1 after %3 is strictly higher than it was at either entry or %5."
+msgstr "Vous percevez le paiement si %1 est strictement supérieur à %4 à %3, après %2."
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3."
+msgstr "Vous percevez le paiement si %1 est inférieur ou égal à %4 à %3."
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr "Gagner %6 %5 fois %1 haut moins le plus bas à %3."
+
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Vous percevez le paiement si le dernier tick de %1 est strictement supérieur à la moyenne des %plural(%3,%d tick,%d ticks)."
+
+msgid "contract start time"
+msgstr "heure de début du contrat"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Vous percevez le paiement si %1 termine hors de la zone de %5 à %4 à %3, après %2."
@@ -4504,6 +4578,11 @@ msgstr "L'heure de début doit être ultérieure."
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "Les transactions sur les contrats de forex dont la durée est inférieure à 5 heures n’est pas disponible de %1 à %2"
 
+#, fuzzy
+#| msgid "Trading on this market is not offered for this contract type."
+msgid "Non atm barrier is not allowed for reset contract."
+msgstr "L'accès à ce marché n'est pas disponible pour ce type de contrat."
+
 msgid "High barrier must be higher than low barrier."
 msgstr "La barrière supérieure doit être supérieure à la barrière inférieure."
 
@@ -4608,6 +4687,11 @@ msgstr "Le contrat doit expirer au cours d'une séance boursière."
 
 msgid "Trading is not available from %1 to %2."
 msgstr "Le trading n'est pas disponible de %1 à %2."
+
+#, fuzzy
+#| msgid "Resale of this contract is not offered."
+msgid "Fixed expiry for reset contract is not allowed."
+msgstr "La revente de ce contrat n'est pas proposée."
 
 msgid "Intraday contracts may not cross market open."
 msgstr "Les contrats intrajournaliers ne peuvent excéder les horaires d'ouverture du marché."
@@ -4865,9 +4949,6 @@ msgstr "Les contrats relatifs à ce marché ayant une période d'activité de mo
 #~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 #~ msgstr "Désolé, la connexion à ce compte a été temporairement désactivée car le système est en cours de maintenance. Veuillez réessayer dans 30 minutes."
 
-#~ msgid "Sorry, client balance will exceed limits with this payment."
-#~ msgstr "Désolé, ce paiement engendrerait le dépassement du solde du client."
-
 #~ msgid "Sorry, it is not allowed."
 #~ msgstr "Désolé, cette action n'est pas autorisée."
 
@@ -5012,9 +5093,6 @@ msgstr "Les contrats relatifs à ce marché ayant une période d'activité de mo
 #~ msgid "If you wish to raise these limits, please authenticate your account."
 #~ msgstr "Si vous souhaitez augmenter ces limites, veuillez authentifier votre compte."
 
-#~ msgid "Input validation failed: %1"
-#~ msgstr "Échec de validation de la saisie : 1%"
-
 #~ msgid "Stock Dividend"
 #~ msgstr "Dividende en actions"
 
@@ -5074,9 +5152,6 @@ msgstr "Les contrats relatifs à ce marché ayant une période d'activité de mo
 
 #~ msgid "The barriers are improperly entered for this contract."
 #~ msgstr "Les barrières ne sont pas correctement définies pour ce contrat."
-
-#~ msgid "Trading on this market is not offered for this contract type."
-#~ msgstr "L'accès à ce marché n'est pas disponible pour ce type de contrat."
 
 #~ msgid "Trading on this market is suspended due to missing market (old) data."
 #~ msgstr "L'accès à ce marché est suspendu en raison de données de marché manquantes (obsolètes)."
@@ -6403,9 +6478,6 @@ msgstr "Les contrats relatifs à ce marché ayant une période d'activité de mo
 
 #~ msgid "Represents the maximum volume of contracts that you may purchase in any given trading day."
 #~ msgstr "Représente le volume maximal de contrats que vous pouvez acheter au cours d'une journée de trading donnée."
-
-#~ msgid "Reset Password"
-#~ msgstr "Réinitialiser le Mot de Passe"
 
 #~ msgid "Retracement Percentages"
 #~ msgstr "Pourcentages de retracement"
