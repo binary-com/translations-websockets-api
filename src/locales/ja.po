@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2018-04-04 21:38+0000\n"
-"Last-Translator: Fumio Miyama <miyama@regentmarkets.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
+"PO-Revision-Date: 2018-04-13 10:57+0000\n"
+"Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 msgid ""
 "\n"
@@ -238,8 +239,6 @@ msgstr "サーバー接続時に問題が発生しました。しばらくたっ
 msgid "An unexpected error occurred"
 msgstr "予期せぬエラーが発生しました"
 
-#, fuzzy
-#| msgid "Please authenticate your account to continue."
 msgid "Authenticate your account to continue trading on MT5"
 msgstr "お客さまのアカウント認証をお願いします"
 
@@ -1534,10 +1533,8 @@ msgstr "トランザクションID:%1"
 msgid "Transactions"
 msgstr "トランザクション"
 
-#, fuzzy
-#| msgid "Input validation failed: %1"
 msgid "Transfer validation failed on %1."
-msgstr "入力確認ができません：%1"
+msgstr "%1により送金確認に失敗しました。"
 
 msgid "Transfers between accounts are not available for your account."
 msgstr "決済サービスはお客様の口座ではご利用いただけません。"
@@ -1834,10 +1831,8 @@ msgstr "この口座%1は無効です。"
 msgid "Your account balance (%1%2) is insufficient to buy this contract (%1%3)."
 msgstr "口座残高(¥%2)が不足しているため、このトレード(¥%3)の購入は不可能です"
 
-#, fuzzy
-#| msgid "Sorry, client balance will exceed limits with this payment."
 msgid "Your account balance will exceed set limits. Please specify a lower amount."
-msgstr "申し訳ございません。この出金は口座残高の制限を超えております。"
+msgstr "口座残高が設定された制限を越えようとしています。数値を下げてください。"
 
 msgid "Your account currency and trader currency must be same."
 msgstr "取引口座への入金は、日本円のみです"
@@ -1951,6 +1946,21 @@ msgid ""
 "\n"
 "Binary.com\n"
 msgstr ""
+"\\\n"
+"%1様\n"
+"\n"
+"MetaTrader 5 口座にご登録いただき誠にありがとうございます。\n"
+"\n"
+"法令に基づき、本人確認と住所確認が必要となります。認証のために以下の本人確認書のご提示をお願いいたします。\n"
+"- 有効な運転免許証・マイナンバーカード・パスポートのうち１つ\n"
+"- ６ヶ月以内の公共料金領収書または銀行口座明細書\n"
+"\n"
+"このメールの受信から５日以内に上記書類の<a href='//www.binary.com/%2/user/"
+"authenticate.html'>コピーをアップロード</a>されるか、support@binary.comまでメールにてご送付ください。\n"
+"\n"
+"ご対応のほど、よろしくお願いいたします。\n"
+"\n"
+"Binary.com\n"
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "スペースやダッシュ（―）を含む英数字2-32文字"
@@ -1958,10 +1968,8 @@ msgstr "スペースやダッシュ（―）を含む英数字2-32文字"
 msgid "amount"
 msgstr "金額"
 
-#, fuzzy
-#| msgid "%1 is not allowed for residence of %2."
 msgid "barrier2 is not allowed for reset contract."
-msgstr "%2の居住者は%1をご利用いただくことはできません。"
+msgstr "RESETトーレドにバリア２はご利用いただけません。"
 
 msgid "now."
 msgstr "はこちら"
@@ -4076,10 +4084,10 @@ msgid "Lookbacks"
 msgstr "ルックバック"
 
 msgid "Reset Call/Reset Put"
-msgstr ""
+msgstr "RESETコール/RESETプット"
 
 msgid "Reset the barrier if contract is out of the money at half the option lifetime."
-msgstr ""
+msgstr "オプション期間の半分の時点でトレードがアウトオブザマネーの場合は、バリアをリセットしてください。"
 
 msgid "Stays Between/Goes Outside"
 msgstr "レンジ内に留まる/レンジ外となる"
@@ -4108,10 +4116,8 @@ msgstr "以上"
 msgid "High-Low"
 msgstr "ラダーHigh/ラダーLow"
 
-#, fuzzy
-#| msgid "Reset Password"
 msgid "Reset Put"
-msgstr "パスワード再設定"
+msgstr "RESETプット"
 
 msgid "Asian Down"
 msgstr "Asian Down"
@@ -4147,7 +4153,7 @@ msgid "High-Close"
 msgstr "高値-終値"
 
 msgid "Reset Call"
-msgstr ""
+msgstr "RESETコール"
 
 msgid "Digit Odd"
 msgstr "Digit 奇数"
@@ -4311,10 +4317,8 @@ msgstr "%1のSTAY-INは、%2から%3 GMTまでの取引期間中に%4未満か�
 msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
 msgstr "%1の最後の値 が%plural(%3,%d tick)の平均よりも正確に低い場合に、ペイアウトをお受け取りいただけます。"
 
-#, fuzzy
-#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than it was at either entry or %5 ticks."
-msgstr "%1が%plural(%3,%d tick)後に%4以上の場合、ペイアウトをお受け取りいただけます。"
+msgstr "%1が%plural(%3,%d tick)後に取引時レートまたは%5 ticksよりも高い場合に、ペイアウトをお受け取りいただけます。"
 
 msgid "entry spot minus %plural(%1,%d pip, %d pips)"
 msgstr "エントリー価格プラス %plural(%1,1 pip)"
@@ -4352,10 +4356,8 @@ msgstr "%1のTOUCHは、%2から%3 GMTの取引が終了するまでに%4にタ�
 msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
 msgstr "%1のEND-INは、%2後の判定時刻(%3)の時点で%4未満かつ%5以上で終了を予測"
 
-#, fuzzy
-#| msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
 msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
-msgstr "%1のラダーLOWは、%2後の判定時刻(%3)の時点で%4未満を予測"
+msgstr "%3後に%1が取引時レートまたは%5よりも低い場合に、ペイアウトをお受け取りいただけます。"
 
 msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "%1のラダーHIGHは、%2後の判定時刻(%3)の時点で%4以上を予測"
@@ -4390,10 +4392,8 @@ msgstr "%1の下一桁が%3 tickの時点で%4よりも正確に高い場合に�
 msgid "Win %6 %5 times %1's high minus close at %3."
 msgstr "Win %6 %5 times %1's high minus close at %3."
 
-#, fuzzy
-#| msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
-msgstr "%1が%plural(%3,%d tick)後に%4よりも正確に低い場合に、ペイアウトをお受け取りいただけます。"
+msgstr "%1が%plural(%3,%d tick)後に取引時レートまたは%5 tickよりも低い場合に、ペイアウトをお受け取りいただけます。"
 
 msgid "entry spot"
 msgstr "エントリー価格"
@@ -4413,10 +4413,8 @@ msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上
 msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
 msgstr "%1のEND-INは、%3 GMTの判定時刻の時点で%4未満かつ%5以上を予測"
 
-#, fuzzy
-#| msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
 msgid "Win payout if %1 after %3 is strictly higher than it was at either entry or %5."
-msgstr "%1のラダーHIGHは、%2後の判定時刻(%3)の時点で%4以上を予測"
+msgstr "%3後に%1が取引時レートまたは%5よりも高い場合に、ペイアウトをお受け取りいただけます。"
 
 msgid "Win payout if %1 is lower than or equal to %4 at %3."
 msgstr "%1のラダーLOWは、%3の判定時刻の時点で%4未満を予測"
@@ -4604,10 +4602,8 @@ msgstr "開始時間が未来の値になっています。"
 msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
 msgstr "取引時間が5時間未満であるトレードは、%1から%2をご利用いただけません"
 
-#, fuzzy
-#| msgid "Trading on this market is not offered for this contract type."
 msgid "Non atm barrier is not allowed for reset contract."
-msgstr "%1ではこちらのオプションタイプを提供しておりません"
+msgstr "RESETトーレドではNon-ATMバリアはご利用いただけません。"
 
 msgid "High barrier must be higher than low barrier."
 msgstr "上限バリアは下限バリア値より高い必要があります。"
@@ -4714,10 +4710,8 @@ msgstr "トレードはトレード可能日に終了する必要があります
 msgid "Trading is not available from %1 to %2."
 msgstr "%1から%2のお取引はご利用いただけません。"
 
-#, fuzzy
-#| msgid "Resale of this contract is not offered."
 msgid "Fixed expiry for reset contract is not allowed."
-msgstr "満期までの2分は売却取引不可"
+msgstr "RESETトレードの期間変更はできません。"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "１日以内の取引はマーケット開始をまたぐことはできません。"
