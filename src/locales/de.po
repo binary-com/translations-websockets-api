@@ -545,6 +545,9 @@ msgstr "Geben Sie einen Betrag ein"
 msgid "Enter your address"
 msgstr "Geben Sie Ihre Adresse ein"
 
+msgid "Exchange rates are not currently available."
+msgstr ""
+
 msgid "Exclude me from the website until"
 msgstr "Schließen Sie mich von der Website aus, bis"
 
@@ -673,6 +676,9 @@ msgstr "Ungültiger Betrag. Das Minimum ist %1."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Ungültiger Betrag. Das Minimum der erlaubten Abhebung ist %1."
+
+msgid "Invalid currency."
+msgstr "Ungültige Währung."
 
 msgid "Invalid date format."
 msgstr "Falsches Datumsformat."
@@ -930,9 +936,6 @@ msgstr "Für dieses Konto sind keine Zahlungsagenten-Einrichtungen vorhanden."
 msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 msgstr "Eine Zahlungsagenten-Überweisung ist mit dem angegebenen Betrag nicht erlaubt, da der %1 Kontostand das erlaubte Limit überschreiten würde."
 
-msgid "Payment agent transfers are not allowed for specified accounts."
-msgstr "Zahlungsagenten-Überweisungen sind für angegebene Konten nicht erlaubt."
-
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Zahlungsagenten-Überweisungen sind für die angegebenen Konten nicht erlaubt."
 
@@ -944,6 +947,11 @@ msgstr "Zahlungsagenten-Überweisungen sind nicht erlaubt, da Sie das erlaubte M
 
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
 msgstr "Zahlungsagenten-Überweisungen sind nicht erlaubt, da Sie für heute das erlaubte Maximum des erlaubten Transferbetrags überschritten haben."
+
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed for specified accounts."
+msgid "Payment agent withdrawals are not allowed for specified accounts."
+msgstr "Zahlungsagenten-Überweisungen sind für angegebene Konten nicht erlaubt."
 
 msgid "Payment error"
 msgstr "Zahlungsfehler"
@@ -1738,6 +1746,11 @@ msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Kass
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Verifikationsdokumente abgelaufen sind."
+
+#, fuzzy
+#| msgid "Send the funds to the Payment Agent."
+msgid "You cannot withdraw funds to the same account."
+msgstr "Schicken Sie die Gelder an den Zahlungsagent."
 
 msgid "You have already claimed a bonus in the past."
 msgstr "Sie haben in der Vergangenheit schon einen Bonus beantragt."
@@ -4716,11 +4729,11 @@ msgstr "Der Handel ist aufgrund fehlender Marktdaten (Volatilität) ausgesetzt."
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Verträge für diesen Markt mit Laufzeiten von unter 24 Stunden müssen an dem gleichen Börsenhandelstag ablaufen."
 
+msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
+msgstr "Es tut uns leid, aber Sie haben zu oft erfolglos versucht, sich einzuloggen. Bitte versuchen Sie es in 5 Minuten wieder."
+
 #~ msgid "Document not found."
 #~ msgstr "Dokument nicht gefunden."
-
-#~ msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
-#~ msgstr "Es tut uns leid, aber Sie haben zu oft erfolglos versucht, sich einzuloggen. Bitte versuchen Sie es in 5 Minuten wieder."
 
 #~ msgid "Sorry, you have excluded yourself until %1."
 #~ msgstr "Es tut uns leid, aber Sie haben sich selbst bis zum %1 ausgeschlossen."
@@ -5036,9 +5049,6 @@ msgstr "Verträge für diesen Markt mit Laufzeiten von unter 24 Stunden müssen 
 
 #~ msgid "If you need help, please contact our customer support team at"
 #~ msgstr "Sollten Sie Hilfe benötigen, setzten Sie sich bitte mit unserem Kundenbetreuungsteam in Verbindung über"
-
-#~ msgid "Invalid currency."
-#~ msgstr "Ungültige Währung."
 
 #~ msgid "Please contact customer support for more information."
 #~ msgstr "Für weitere Informationen, setzen Sie sich bitte mit unserer Kundenbetreuung in Verbindung."
@@ -18015,9 +18025,6 @@ msgstr "Verträge für diesen Markt mit Laufzeiten von unter 24 Stunden müssen 
 
 #~ msgid "Select the payment method that you would like to use and contact the Payment Agent directly for more information on:"
 #~ msgstr "Wählen Sie die Zahlungsart die Sie benutzen wollen und kontaktieren Sie direkt den Zahlungsagenten für mehrere Informationen unter:"
-
-#~ msgid "Send the funds to the Payment Agent."
-#~ msgstr "Schicken Sie die Gelder an den Zahlungsagent."
 
 #~ msgid "The commission fees that the Agent will charge."
 #~ msgstr "Die Provisionsgebühren, die der Händler berechnen wird."
