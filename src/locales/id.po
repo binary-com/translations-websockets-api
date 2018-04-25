@@ -234,9 +234,6 @@ msgstr "Batasan untuk kontrak ini setidaknya berjarak %plural(%1,%d pip) dari sp
 msgid "Barriers must be on either side of the spot."
 msgstr "Batasan harus berada di kedua sisi spot."
 
-msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
-msgstr "Sebelum melanjutkan, lengkapi proses verifikasi identitas (KYC) pada akun %1 Anda."
-
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Keterangan Korespondensi Perantara Bank Penerima:"
 
@@ -4066,6 +4063,16 @@ msgstr "Ends Between/Ends Outside"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Analisa tingkat akhir pasar berdasarkan 2 batasan terpilih."
 
+#, fuzzy
+#| msgid "High-Low"
+msgid "High/Low Ticks"
+msgstr "High-Low"
+
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predict which tick is the highest/lowest at expiration."
+msgstr "Menganalisa digit terakhir pada penutupan pasar."
+
 msgid "Lookbacks"
 msgstr "Lookbacks"
 
@@ -4111,6 +4118,11 @@ msgstr "Asian Down"
 msgid "Ends Between or equal"
 msgstr "Ends Between or equal"
 
+#, fuzzy
+#| msgid "High"
+msgid "High Tick"
+msgstr "Tinggi"
+
 msgid "Digit Differs"
 msgstr "Digit Differs"
 
@@ -4135,6 +4147,11 @@ msgstr "Higher"
 msgid "Stays Between"
 msgstr "Stays Between"
 
+#, fuzzy
+#| msgid "Last Tick"
+msgid "Low Tick"
+msgstr "Tik Terakhir"
+
 msgid "High-Close"
 msgstr "High-Close"
 
@@ -4144,11 +4161,11 @@ msgstr "Reset Call"
 msgid "Digit Odd"
 msgstr "Digit Odd"
 
-msgid "Lower"
-msgstr "Lower"
-
 msgid "Asian Up"
 msgstr "Asian Up"
+
+msgid "Lower"
+msgstr "Lower"
 
 msgid "Close-Low"
 msgstr "Close-Low"
@@ -4381,6 +4398,11 @@ msgstr "Hasil %6 %5 dikali nilai high %1 dikurangi nilai close pada %3."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
 msgstr "Dapatkan hasil jika %1 setelah %plural(%3,%d tick,%d ticks) pasti lebih rendah dari sebelumnya pada saat mulai atau %5 tik."
 
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
+msgstr "Dapatkan hasil jika digit terakhir %1 adalah genap setelah %3 tik."
+
 msgid "entry spot"
 msgstr "spot masuk"
 
@@ -4413,6 +4435,11 @@ msgstr "Dapatkan hasil jika tik terakhir %1 pasti akan lebih tinggi dari rata-ra
 
 msgid "contract start time"
 msgstr "waktu mulai kontrak"
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
+msgstr "Dapatkan hasil jika digit terakhir %1 adalah genap setelah %3 tik."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Dapatkan hasil jika %1 berakhir diluar %5 hingga %4 pada %3 setelah %2."
@@ -4540,11 +4567,11 @@ msgstr "Waktu akhir tidak bisa sama dengan waktu mulai."
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Durasi harus antara %1 hingga %2."
 
-msgid "Invalid barrier (Double barrier input is expected)."
-msgstr "Barrier salah (Diperlukan barrier ganda)."
-
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Batas adalah bukan bilangan bulat antara %1 hingga %2."
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr "Barrier salah (Diperlukan barrier ganda)."
 
 msgid "Resale of this contract is not offered."
 msgstr "Penjualan kembali untuk kontrak ini tidak ditawarkan."
@@ -4609,11 +4636,16 @@ msgstr "Terjadi error selama penyelesaian kontrak."
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "Trading dihentikan sementara waktu berhubung gangguan data pasar (dividen)."
 
-msgid "Invalid barrier."
-msgstr "Batasan tidak berlaku."
+#, fuzzy
+#| msgid "Barrier must be an integer."
+msgid "Selected tick must be an integer."
+msgstr "Batas harus berupa bilangan bulat."
 
 msgid "Invalid expiry time."
 msgstr "Waktu berakhir tidak berlaku."
+
+msgid "Invalid barrier."
+msgstr "Batasan tidak berlaku."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Parameter kontrak yang diperlukan menghilang (mata uang)."
@@ -4644,6 +4676,11 @@ msgstr "Hasil tidak dapat memiliki lebih dari %1 dua desimal."
 
 msgid "Contract may not expire between %1 and %2."
 msgstr "Kontrak tidak dapat berakhir antara %1 dan %2."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (currency)."
+msgid "Missing required contract parameters (selected tick)."
+msgstr "Parameter kontrak yang diperlukan menghilang (mata uang)."
 
 msgid "The buy price of this contract will be refunded due to missing market data."
 msgstr "Harga beli kontrak ini akan dikembalikan berhubung data pasar yang hilang."
@@ -4711,11 +4748,11 @@ msgstr "Harga terdahulu tidak dapat berupa nol."
 msgid "Expiry time cannot be in the past."
 msgstr "Waktu berakhir tidak bisa di masa lalu."
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "Barrier salah (Jenis barrier harus sama untuk kontrak barrier-dobel)."
-
 msgid "High and low barriers must be different."
 msgstr "Batasan tinggi dan rendah harus berbeda."
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "Barrier salah (Jenis barrier harus sama untuk kontrak barrier-dobel)."
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Trading dihentikan sementara waktu berhubung gangguan data pasar."
@@ -4729,8 +4766,16 @@ msgstr "Trading dihentikan sementara waktu berhubung gangguan data pasar (volati
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Kontrak pada pasar ini dengan durasi kurang dari 24 jam harus berakhir pada hari trading yang sama."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "%1 is not a valid input for contract type %2."
+msgstr "Durasi (tik) tidak berlaku untuk jenis kontrak (%1)."
+
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Maaf, Anda telah gagal mengakses beberapa kali. Silakan coba kembali dalam waktu 5 menit lagi."
+
+#~ msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+#~ msgstr "Sebelum melanjutkan, lengkapi proses verifikasi identitas (KYC) pada akun %1 Anda."
 
 #~ msgid "Document not found."
 #~ msgstr "Dokumen tidak ditemukan."
@@ -18641,9 +18686,6 @@ msgstr "Maaf, Anda telah gagal mengakses beberapa kali. Silakan coba kembali dal
 
 #~ msgid "Flash Up"
 #~ msgstr "Flash Naik"
-
-#~ msgid "Last Tick"
-#~ msgstr "Tik Terakhir"
 
 #~ msgid "Legal Section"
 #~ msgstr "Bagian Legalisasi"

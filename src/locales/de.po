@@ -230,9 +230,6 @@ msgstr "Die Grenze muss mindestens %plural(%1,%d Pip,%d Pips) vom Punkt entfernt
 msgid "Barriers must be on either side of the spot."
 msgstr "Schwellen müssen oberhalb und unterhalb des Kassakurses liegen."
 
-msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
-msgstr "Bevor Sie fortfahren, schließen Sie bitte den Identitätsverifikationsprozess (KYC) für Ihr %1 Konto ab."
-
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Bankangaben der Vermittlungsstelle des Empfängers:"
 
@@ -4066,6 +4063,16 @@ msgstr "Schließt Zwischen/Schließt Außerhalb"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Sagen Sie den Kursschlussstand im Verhältnis zu 2 ausgewählten Schwellen voraus."
 
+#, fuzzy
+#| msgid "High-Low"
+msgid "High/Low Ticks"
+msgstr "Hoch-Tief"
+
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predict which tick is the highest/lowest at expiration."
+msgstr "Sagen Sie die letzte Stelle des Marktkurses zum Ablauf voraus."
+
 msgid "Lookbacks"
 msgstr "Lookbacks"
 
@@ -4111,6 +4118,11 @@ msgstr "Asiatisches Tief"
 msgid "Ends Between or equal"
 msgstr "Schließt Zwischen oder gleich"
 
+#, fuzzy
+#| msgid "High"
+msgid "High Tick"
+msgstr "Hoch"
+
 msgid "Digit Differs"
 msgstr "Ziffer unterschiedlich"
 
@@ -4135,6 +4147,11 @@ msgstr "Höher"
 msgid "Stays Between"
 msgstr "Bleibt Zwischen"
 
+#, fuzzy
+#| msgid "Last Tick"
+msgid "Low Tick"
+msgstr "Letzter Tick"
+
 msgid "High-Close"
 msgstr "Hoch-Schließen"
 
@@ -4144,11 +4161,11 @@ msgstr "Aufruf Zurücksetzen"
 msgid "Digit Odd"
 msgstr "Ziffer ungerade"
 
-msgid "Lower"
-msgstr "Niedriger"
-
 msgid "Asian Up"
 msgstr "Asiatisches Hoch"
+
+msgid "Lower"
+msgstr "Niedriger"
 
 msgid "Close-Low"
 msgstr "Schließen-Tief"
@@ -4381,6 +4398,11 @@ msgstr "Gewinnen Sie %5 %6 mal %1s Hoch minus dem Schluss zu %3."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
 msgstr "Gewinnen Sie eine Auszahlung, wenn %1 nach dem/den %plural(%3,%d Tick,%d Ticks) eindeutig niedriger ist, als es beim Einstieg oder %5 Ticks war."
 
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
+msgstr "Gewinnen Sie eine Auszahlung, wenn die letzte Stelle von %1 nach %3 Ticks gleich ist."
+
 msgid "entry spot"
 msgstr "Startkurs"
 
@@ -4413,6 +4435,11 @@ msgstr "Gewinnen Sie eine Auszahlung, wenn der letzte Tick von %1 eindeutig höh
 
 msgid "contract start time"
 msgstr "Startzeit des Kontrakts"
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
+msgstr "Gewinnen Sie eine Auszahlung, wenn die letzte Stelle von %1 nach %3 Ticks gleich ist."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Gewinnen Sie eine Auszahlung, wenn %1 außerhalb von %5 bis %4 bei %3 nach %2 endet."
@@ -4540,11 +4567,11 @@ msgstr "Die Ablaufzeit darf nicht gleich der Startzeit sein."
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Die Anzahl der Ticks muss zwischen %1 und %2 liegen."
 
-msgid "Invalid barrier (Double barrier input is expected)."
-msgstr "Ungültige Schwelle (Doppel-Schwellen Eingabe ist erwartet)."
-
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Die Schwelle ist keine ganze Zahl im Beriech von %1 bis %2."
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr "Ungültige Schwelle (Doppel-Schwellen Eingabe ist erwartet)."
 
 msgid "Resale of this contract is not offered."
 msgstr "Ein Wiederverkauf dieses Kontrakts wird nicht angeboten."
@@ -4609,11 +4636,16 @@ msgstr "Es ist während der Kontraktabrechnung ein Fehler aufgetreten."
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "Das Handeln ist aufgrund fehlender Kursdaten (Dividende) ausgesetzt."
 
-msgid "Invalid barrier."
-msgstr "Ungültige Schwelle."
+#, fuzzy
+#| msgid "Barrier must be an integer."
+msgid "Selected tick must be an integer."
+msgstr "Schwelle muss eine ganze Zahl sein."
 
 msgid "Invalid expiry time."
 msgstr "Ungültiges Ablaufdatum."
+
+msgid "Invalid barrier."
+msgstr "Ungültige Schwelle."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Notwendige Kontrakt-Parameter fehlen (Währung)."
@@ -4644,6 +4676,11 @@ msgstr "Die Auszahlung kann nicht mehr als %1 Dezimalstellen enthalten."
 
 msgid "Contract may not expire between %1 and %2."
 msgstr "Der Kontrakt läuft nicht unbedingt zwischen %1 und %2 ab."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (currency)."
+msgid "Missing required contract parameters (selected tick)."
+msgstr "Notwendige Kontrakt-Parameter fehlen (Währung)."
 
 msgid "The buy price of this contract will be refunded due to missing market data."
 msgstr "Das Kaufpreis dieses Kontrakts wird aufgrund fehlender Kursdaten zurückerstattet."
@@ -4711,11 +4748,11 @@ msgstr "Lookbacks Preis kann nicht Null sein."
 msgid "Expiry time cannot be in the past."
 msgstr "Die Ablaufzeit darf nicht in der Vergangenheit sein."
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "Ungültige Schwelle (Schwellenart muss für Doppel-Schwellen Kontrakte die selbe sein)."
-
 msgid "High and low barriers must be different."
 msgstr "Die oberen und unteren Grenzen müssen unterschiedlich sein."
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "Ungültige Schwelle (Schwellenart muss für Doppel-Schwellen Kontrakte die selbe sein)."
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Der Handel ist aufgrund fehlender Marktdaten (Tick) ausgesetzt."
@@ -4729,8 +4766,16 @@ msgstr "Der Handel ist aufgrund fehlender Marktdaten (Volatilität) ausgesetzt."
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Verträge für diesen Markt mit Laufzeiten von unter 24 Stunden müssen an dem gleichen Börsenhandelstag ablaufen."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "%1 is not a valid input for contract type %2."
+msgstr "Ungültige Laufzeit (Tick) für Kontrakttyp (%1)."
+
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Es tut uns leid, aber Sie haben zu oft erfolglos versucht, sich einzuloggen. Bitte versuchen Sie es in 5 Minuten wieder."
+
+#~ msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+#~ msgstr "Bevor Sie fortfahren, schließen Sie bitte den Identitätsverifikationsprozess (KYC) für Ihr %1 Konto ab."
 
 #~ msgid "Document not found."
 #~ msgstr "Dokument nicht gefunden."
@@ -18409,9 +18454,6 @@ msgstr "Es tut uns leid, aber Sie haben zu oft erfolglos versucht, sich einzulog
 
 #~ msgid "Flash Up"
 #~ msgstr "Flash Up"
-
-#~ msgid "Last Tick"
-#~ msgstr "Letzter Tick"
 
 #~ msgid "Legal Section"
 #~ msgstr "Legaler Abschnitt"

@@ -231,9 +231,6 @@ msgstr "障碍与现货价的距离必须至少%plural(%1,%d pip,%d pips)。"
 msgid "Barriers must be on either side of the spot."
 msgstr "高和低障碍必须分别大于和小于现货价。"
 
-msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
-msgstr "继续操作前，请完成%1账户的身份证明验证（KYC）。"
-
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "受益人的中间代理银行详细资料："
 
@@ -4067,6 +4064,16 @@ msgstr "收于范围之内/之外"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "预测相对于2个设定的障碍市场收盘价格的位置。"
 
+#, fuzzy
+#| msgid "High-Low"
+msgid "High/Low Ticks"
+msgstr "最高-最低"
+
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predict which tick is the highest/lowest at expiration."
+msgstr "预测到期时市场价格的最后一个数字。"
+
 msgid "Lookbacks"
 msgstr "回顾"
 
@@ -4112,6 +4119,11 @@ msgstr "亚洲下跌"
 msgid "Ends Between or equal"
 msgstr "收于范围之内或同价"
 
+#, fuzzy
+#| msgid "High"
+msgid "High Tick"
+msgstr "最高"
+
 msgid "Digit Differs"
 msgstr "数字不相符"
 
@@ -4136,6 +4148,11 @@ msgstr "高于"
 msgid "Stays Between"
 msgstr "位于区间之内"
 
+#, fuzzy
+#| msgid "Last Tick"
+msgid "Low Tick"
+msgstr "上一跳动点"
+
 msgid "High-Close"
 msgstr "最高值-收盘值"
 
@@ -4145,11 +4162,11 @@ msgstr "重设买权"
 msgid "Digit Odd"
 msgstr "数字是奇数"
 
-msgid "Lower"
-msgstr "低于"
-
 msgid "Asian Up"
 msgstr "亚洲上涨"
+
+msgid "Lower"
+msgstr "低于"
 
 msgid "Close-Low"
 msgstr "收盘值-最低值"
@@ -4382,6 +4399,11 @@ msgstr "%3时赢取%6 %5乘以%1的最高值减收盘值。"
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
 msgstr "如果%1在%plural(%3,%d 跳动点) 之后严格低于入场价或%5跳动点，将获得赔付额。"
 
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
+msgstr "如果%1的最后数字在%3跳动点之后为偶数，将获得赔付额。"
+
 msgid "entry spot"
 msgstr "入市现价"
 
@@ -4414,6 +4436,11 @@ msgstr "如果%1的最新跳动点严格高于%plural(%3,%d 跳动点) 的平均
 
 msgid "contract start time"
 msgstr "合约开始时间"
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
+msgstr "如果%1的最后数字在%3跳动点之后为偶数，将获得赔付额。"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "如果%1在%2过后的%3时收盘于%5至%4之外，将获得赔付额。"
@@ -4541,11 +4568,11 @@ msgstr "到期时间不可与开始时间相同。"
 msgid "Number of ticks must be between %1 and %2."
 msgstr "跳动点数目须在%1 与 %2之间。"
 
-msgid "Invalid barrier (Double barrier input is expected)."
-msgstr "无效障碍（须输入双重障碍）。"
-
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "障碍必须是%1至%2之间的整数。"
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr "无效障碍（须输入双重障碍）。"
 
 msgid "Resale of this contract is not offered."
 msgstr "该合约不能转售。"
@@ -4610,11 +4637,16 @@ msgstr "合约结算时出错。"
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "由于市场数据丢失（红利），交易暂停。"
 
-msgid "Invalid barrier."
-msgstr "无效障碍。"
+#, fuzzy
+#| msgid "Barrier must be an integer."
+msgid "Selected tick must be an integer."
+msgstr "障碍必须是整数。"
 
 msgid "Invalid expiry time."
 msgstr "无效到期时间。"
+
+msgid "Invalid barrier."
+msgstr "无效障碍。"
 
 msgid "Missing required contract parameters (currency)."
 msgstr "遗漏所需合约参数(货币)。"
@@ -4645,6 +4677,11 @@ msgstr "赔付额的小数点后不得超过%1位。"
 
 msgid "Contract may not expire between %1 and %2."
 msgstr "合约不可在%1 与 %2之间到期。"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (currency)."
+msgid "Missing required contract parameters (selected tick)."
+msgstr "遗漏所需合约参数(货币)。"
 
 msgid "The buy price of this contract will be refunded due to missing market data."
 msgstr "由于市场数据丢失，此合约的购入价将退还。"
@@ -4712,11 +4749,11 @@ msgstr "回顾价格不可为零。"
 msgid "Expiry time cannot be in the past."
 msgstr "到期时间不可在过去。"
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "无效障碍（双重障碍合约的障碍类型必须相同）。"
-
 msgid "High and low barriers must be different."
 msgstr "最高和最低障碍必须不同。"
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "无效障碍（双重障碍合约的障碍类型必须相同）。"
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "由于市场数据丢失（跳动点），交易暂停。"
@@ -4730,8 +4767,16 @@ msgstr "由于市场数据丢失（波动率），交易暂停。"
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小于24小时的市场内合约必须在同一交易日到期。"
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "%1 is not a valid input for contract type %2."
+msgstr "合约类型（%1）的持久期（跳动点）无效。"
+
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "对不起，您的失败次数过多。请5分钟后再试。"
+
+#~ msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+#~ msgstr "继续操作前，请完成%1账户的身份证明验证（KYC）。"
 
 #~ msgid "Document not found."
 #~ msgstr "无法找到文件。"
@@ -18542,9 +18587,6 @@ msgstr "对不起，您的失败次数过多。请5分钟后再试。"
 
 #~ msgid "Flash Up"
 #~ msgstr "闪升"
-
-#~ msgid "Last Tick"
-#~ msgstr "上一跳动点"
 
 #~ msgid "Legal Section"
 #~ msgstr "法律"

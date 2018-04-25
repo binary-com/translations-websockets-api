@@ -229,9 +229,6 @@ msgstr "La barriera deve essere almeno a %plural(%1,%d pip, %d pip) dallo spot."
 msgid "Barriers must be on either side of the spot."
 msgstr "La barriera deve essere su una delle estremità dello spot."
 
-msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
-msgstr "Prima di procedere, ti chiediamo di completare il processo di verifica dell' identità (KYC) per il tuo account %1."
-
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Dettagli della banca di intermediazione del beneficiario:"
 
@@ -4065,6 +4062,16 @@ msgstr "Ends Between (Termina dentro)/Ends Outside (Termina fuori)"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Prevedi il livello di mercato finale relativo alle 2 barriere scelte."
 
+#, fuzzy
+#| msgid "High-Low"
+msgid "High/Low Ticks"
+msgstr "High-Low"
+
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predict which tick is the highest/lowest at expiration."
+msgstr "Prevedi l'ultima cifra del prezzo di mercato alla scadenza."
+
 msgid "Lookbacks"
 msgstr "Lookbacks"
 
@@ -4110,6 +4117,11 @@ msgstr "Ribasso Asiatiche"
 msgid "Ends Between or equal"
 msgstr "Termina dentro o uguale"
 
+#, fuzzy
+#| msgid "High"
+msgid "High Tick"
+msgstr "Alto"
+
 msgid "Digit Differs"
 msgstr "Cifra Diversa"
 
@@ -4134,6 +4146,11 @@ msgstr "Superiore"
 msgid "Stays Between"
 msgstr "Resta Dentro"
 
+#, fuzzy
+#| msgid "Tick"
+msgid "Low Tick"
+msgstr "Tick"
+
 msgid "High-Close"
 msgstr "High-Close"
 
@@ -4143,11 +4160,11 @@ msgstr "Reimposta opzione Call"
 msgid "Digit Odd"
 msgstr "Cifra Dispari"
 
-msgid "Lower"
-msgstr "Inferiore"
-
 msgid "Asian Up"
 msgstr "Rialzo Asiatiche"
+
+msgid "Lower"
+msgstr "Inferiore"
 
 msgid "Close-Low"
 msgstr "Close-Low"
@@ -4380,6 +4397,11 @@ msgstr "Vinci %6 %5 volte %1 high meno close a %3."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
 msgstr "Vinci il payout se %1 dopo %plural (%3,%d tick,%d tick) è notevolmente inferiore rispetto all'ingresso o a %5 tick."
 
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
+msgstr "Vinci il payout se l'ultima cifra di %1 è pari dopo %3 tick."
+
 msgid "entry spot"
 msgstr "spot d'entrata"
 
@@ -4412,6 +4434,11 @@ msgstr "Vinci il payout se l'ultimo tick di %1 è notevolmente superiore alla me
 
 msgid "contract start time"
 msgstr "orario d'inizio dei contratti"
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
+msgstr "Vinci il payout se l'ultima cifra di %1 è pari dopo %3 tick."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Vinci il payout se %1 termina fuori da %5 o %4 alle %3 dopo l'inizio alle %2."
@@ -4539,11 +4566,11 @@ msgstr "L'orario di scadenza non può essere uguale a quello d'inizio."
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Il numero di tick deve essere compreso tra %1 e %2."
 
-msgid "Invalid barrier (Double barrier input is expected)."
-msgstr "Barriera non valida (deve essere inserita una doppia barriera)."
-
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "La barriera non è un numero intero tra %1 e %2."
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr "Barriera non valida (deve essere inserita una doppia barriera)."
 
 msgid "Resale of this contract is not offered."
 msgstr "La rivendita di questo contratto non è disponibile."
@@ -4608,11 +4635,16 @@ msgstr "Si è verificato un errore durante la liquidazione del contratto."
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "Il trading è sospeso a causa di dati di mercato (dividendi) mancanti."
 
-msgid "Invalid barrier."
-msgstr "Barriera non valida."
+#, fuzzy
+#| msgid "Barrier must be an integer."
+msgid "Selected tick must be an integer."
+msgstr "La barriera deve contenere un numero intero."
 
 msgid "Invalid expiry time."
 msgstr "Orario di scadenza non valido."
+
+msgid "Invalid barrier."
+msgstr "Barriera non valida."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Parametri richiesti del contratto mancanti (valuta)."
@@ -4643,6 +4675,11 @@ msgstr "Il payout non può avere più di %1 decimali."
 
 msgid "Contract may not expire between %1 and %2."
 msgstr "Il contratto può non scadere tra %1 e %2."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (currency)."
+msgid "Missing required contract parameters (selected tick)."
+msgstr "Parametri richiesti del contratto mancanti (valuta)."
 
 msgid "The buy price of this contract will be refunded due to missing market data."
 msgstr "Il prezzo di acquisto di questo contratto verrà rimborsato a causa di dati di mercato mancanti."
@@ -4710,11 +4747,11 @@ msgstr "I prezzi vecchi non possono essere zero."
 msgid "Expiry time cannot be in the past."
 msgstr "L'orario di scadenza non può essere impostato nel passato."
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "Barriera non valida (Il tipo di barriera deve essere lo stesso per i contratti con doppia barriera)."
-
 msgid "High and low barriers must be different."
 msgstr "La barriera superiore e quella inferiore devono essere diverse."
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "Barriera non valida (Il tipo di barriera deve essere lo stesso per i contratti con doppia barriera)."
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Il trading è sospeso a causa di dati di mercato (tick) mancanti."
@@ -4728,8 +4765,16 @@ msgstr "Il trading è sospeso a causa di dati di mercato (volatilità) mancanti.
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "I contratti su questo mercato con durate inferiori alle 24 ore devono scadere nello stesso giorno di trading."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "%1 is not a valid input for contract type %2."
+msgstr "Durata invalida (tick) per la tipologia di contratto (%1)."
+
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Siamo spiacenti, hai già fatto troppi tentativi falliti. Riprova fra 5 minuti."
+
+#~ msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+#~ msgstr "Prima di procedere, ti chiediamo di completare il processo di verifica dell' identità (KYC) per il tuo account %1."
 
 #~ msgid "Document not found."
 #~ msgstr "Documento non trovato."
@@ -6672,9 +6717,6 @@ msgstr "Siamo spiacenti, hai già fatto troppi tentativi falliti. Riprova fra 5 
 
 #~ msgid "Thursday"
 #~ msgstr "Giovedì"
-
-#~ msgid "Tick"
-#~ msgstr "Tick"
 
 #~ msgid "Tile"
 #~ msgstr "Tile"

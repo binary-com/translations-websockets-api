@@ -234,9 +234,6 @@ msgstr "Giới hạn phải có ít nhất %plural(%1, %d pip, %d pips) ra khỏ
 msgid "Barriers must be on either side of the spot."
 msgstr "Giới hạn phải nằm trên một cạnh của giá giao ngay."
 
-msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
-msgstr "Trước khi tiếp tục, xin vui lòng hoàn tất quá trình xác minh danh tính (KYC) cho tài khoản %1 của bạn."
-
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "Chi tiết ngân hàng trung gian liên quan của người thụ hưởng:"
 
@@ -4070,6 +4067,16 @@ msgstr "Kết thúc Giữa/Kết thúc bên ngoài"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "Dự đoán mức thị trường kết thúc có liên quan tới 2 rào cản đã chọn."
 
+#, fuzzy
+#| msgid "High-Low"
+msgid "High/Low Ticks"
+msgstr "Cao-Thấp"
+
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predict which tick is the highest/lowest at expiration."
+msgstr "Dự đoán con số cuối cùng của giá thị trường tại thời điểm hết hạn."
+
 msgid "Lookbacks"
 msgstr "Nhìn lại"
 
@@ -4115,6 +4122,11 @@ msgstr "Châu Á Giảm"
 msgid "Ends Between or equal"
 msgstr "Kết Thúc Giữa hoặc Bằng"
 
+#, fuzzy
+#| msgid "High"
+msgid "High Tick"
+msgstr "Cao"
+
 msgid "Digit Differs"
 msgstr "Số Khác Nhau"
 
@@ -4139,6 +4151,11 @@ msgstr "Cao Hơn"
 msgid "Stays Between"
 msgstr "Nằm Giữa"
 
+#, fuzzy
+#| msgid "Tick"
+msgid "Low Tick"
+msgstr "Giây"
+
 msgid "High-Close"
 msgstr "Cao-Đóng"
 
@@ -4148,11 +4165,11 @@ msgstr "Hủy mua"
 msgid "Digit Odd"
 msgstr "Số Lẻ"
 
-msgid "Lower"
-msgstr "Thấp Hơn"
-
 msgid "Asian Up"
 msgstr "Châu Á Tăng"
+
+msgid "Lower"
+msgstr "Thấp Hơn"
 
 msgid "Close-Low"
 msgstr "Đóng-Thấp"
@@ -4385,6 +4402,11 @@ msgstr "Thắng %6 %5 lần cao trừ đóng hơn của 1% tại 3%."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
 msgstr "Chiến thắng tiền thưởng nếu %1 sau %plural(%3,%d tick,%d ticks) thấp hơn hẳn so với giá khởi điểm hoặc giây %5."
 
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
+msgstr "Chiến thắng tiền thưởng nếu chữ số cuối cùng của %1 là số chẵn sau %3 bước giá."
+
 msgid "entry spot"
 msgstr "giá giao ngay nhập vào"
 
@@ -4417,6 +4439,11 @@ msgstr "Chiến thắng tiền thưởng nếu bước giá cuối cùng của %
 
 msgid "contract start time"
 msgstr "thời gian bắt đầu hợp đồng"
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
+msgstr "Chiến thắng tiền thưởng nếu chữ số cuối cùng của %1 là số chẵn sau %3 bước giá."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Chiến thắng tiền thưởng nếu %1 kết thúc bên ngoài %5 tới %4 tại %3 sau %2."
@@ -4544,11 +4571,11 @@ msgstr "Thời điểm hết hạn không thể bằng với thời điểm b
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Số điểm cần phải ở giữa %1 và %2."
 
-msgid "Invalid barrier (Double barrier input is expected)."
-msgstr "Hàng rào không hợp lệ (dự kiến tăng gấp đôi hàng rào đầu vào)."
-
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Giới hạn không được là số nguyên trong khoảng từ %1 đến %2."
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr "Hàng rào không hợp lệ (dự kiến tăng gấp đôi hàng rào đầu vào)."
 
 msgid "Resale of this contract is not offered."
 msgstr "Không hỗ trợ việc bán lại hợp đồng này."
@@ -4613,11 +4640,16 @@ msgstr "Một lỗi đã xảy ra trong khi quyết toán hợp đồng."
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (cổ tức) thị trường."
 
-msgid "Invalid barrier."
-msgstr "Giới hạn không hợp lệ."
+#, fuzzy
+#| msgid "Barrier must be an integer."
+msgid "Selected tick must be an integer."
+msgstr "Giới hạn phải là một số nguyên."
 
 msgid "Invalid expiry time."
 msgstr "Thời gian hết hạn không hợp lệ."
+
+msgid "Invalid barrier."
+msgstr "Giới hạn không hợp lệ."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Thiếu các thông số hợp đồng đã yêu cầu (tiền tệ)."
@@ -4648,6 +4680,11 @@ msgstr "Khoảng được trả không thể có nhiều hơn %1 chữ số 
 
 msgid "Contract may not expire between %1 and %2."
 msgstr "Hợp đồng có thể không hết hạn trong khoảng %1 và %2."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (currency)."
+msgid "Missing required contract parameters (selected tick)."
+msgstr "Thiếu các thông số hợp đồng đã yêu cầu (tiền tệ)."
 
 msgid "The buy price of this contract will be refunded due to missing market data."
 msgstr "Giá mua của hợp đồng này sẽ được hoàn trả do thiếu dữ liệu thị trường."
@@ -4715,11 +4752,11 @@ msgstr "Giá nhìn lại không thể là 0."
 msgid "Expiry time cannot be in the past."
 msgstr "Thời gian hết hạn không thể ở quá khứ."
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "Giới hạn không hợp lệ (loại giới hạn phải giống nhau cho các hợp đồng giới hạn đôi)."
-
 msgid "High and low barriers must be different."
 msgstr "Giới hạn trên và Giới hạn dưới phải khác nhau."
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "Giới hạn không hợp lệ (loại giới hạn phải giống nhau cho các hợp đồng giới hạn đôi)."
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (giao động) thị trường."
@@ -4733,8 +4770,16 @@ msgstr "Giao dịch đang bị tạm ngừng do mất dữ liệu (biến đ�
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Các hợp đồng trên thị trường này với kỳ hạn dưới 24 giờ phải hết hạn trong cùng ngày giao dịch."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "%1 is not a valid input for contract type %2."
+msgstr "Thời hạn (tick) không hợp lệ cho loại hợp đồng (%1)."
+
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thành công. XIn vui lòng thử lại sau 5 phút."
+
+#~ msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+#~ msgstr "Trước khi tiếp tục, xin vui lòng hoàn tất quá trình xác minh danh tính (KYC) cho tài khoản %1 của bạn."
 
 #~ msgid "Document not found."
 #~ msgstr "Tài liệu không được tìm thấy."
@@ -6688,9 +6733,6 @@ msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thàn
 
 #~ msgid "Thursday"
 #~ msgstr "Thứ Năm"
-
-#~ msgid "Tick"
-#~ msgstr "Giây"
 
 #~ msgid "Tile"
 #~ msgstr "Công nghệ Tile"

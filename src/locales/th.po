@@ -234,9 +234,6 @@ msgstr "Barrier ต้องมีค่าอย่างน้อย %plural(%
 msgid "Barriers must be on either side of the spot."
 msgstr "Barriers ต้องอยู่ข้างใดข้างหนึ่งของสปอต"
 
-msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
-msgstr "ก่อนดำเนินการขั้นต่อไป โปรดให้ข้อมูลตามกระบวนการตรวจสอบอัตลักษณ์ (KYC) สำหรับบัญชี ％1 ของท่าน"
-
 msgid "Beneficiary’s Intermediary Correspondent Bank Details:"
 msgstr "รายละเอียดนายหน้าธนาคารผู้รับผลประโยชน์:"
 
@@ -4063,6 +4060,16 @@ msgstr "สิ้นสุดระหว่าง/สิ้นสุดนอ�
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "พยากรณ์ระดับตลาดที่จะปิดที่สัมพันธ์กับ Barrier ที่กำหนดไว้ 2 ค่า"
 
+#, fuzzy
+#| msgid "High-Low"
+msgid "High/Low Ticks"
+msgstr "สูง-ต่ำ"
+
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predict which tick is the highest/lowest at expiration."
+msgstr "พยากรณ์เลขสุดท้ายของราคาตลาดที่จุดสิ้นสุด"
+
 msgid "Lookbacks"
 msgstr "Lookbacks"
 
@@ -4108,6 +4115,11 @@ msgstr "Asian Down"
 msgid "Ends Between or equal"
 msgstr "สิ้นสุดระหว่าง หรือ เท่ากับ"
 
+#, fuzzy
+#| msgid "High"
+msgid "High Tick"
+msgstr "สูง"
+
 msgid "Digit Differs"
 msgstr "ตัวเลขแตกต่าง"
 
@@ -4132,6 +4144,11 @@ msgstr "สูงกว่า"
 msgid "Stays Between"
 msgstr "อยู่ระหว่าง"
 
+#, fuzzy
+#| msgid "Tick"
+msgid "Low Tick"
+msgstr "Tick"
+
 msgid "High-Close"
 msgstr "ปิดสูง"
 
@@ -4141,11 +4158,11 @@ msgstr "ตั้งค่า Call ใหม่"
 msgid "Digit Odd"
 msgstr "ตัวเลขคี่"
 
-msgid "Lower"
-msgstr "ต่ำกว่า"
-
 msgid "Asian Up"
 msgstr "Asian Up"
+
+msgid "Lower"
+msgstr "ต่ำกว่า"
 
 msgid "Close-Low"
 msgstr "ปิดต่ำ"
@@ -4378,6 +4395,11 @@ msgstr "ชนะ %6 %5 ครั้ง ของ %1 ปิดลบสูงเ
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
 msgstr "ได้รับชำระเงิน หาก %1 หลังจาก %plural(%3,%d ช่วงราคา,%d ช่วงราคา) อยู่ต่ำกว่าค่าปัจจุบันที่ค่าเริ่มต้น หรือ %5 ช่วงราคา"
 
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
+msgstr "ได้รับชำระเงิน หากเลขหลักสุดท้ายของ %1 มีค่าเป็นเลขคู่หลังจาก %3 ช่วงราคา"
+
 msgid "entry spot"
 msgstr "สปอตเริ่มต้น"
 
@@ -4410,6 +4432,11 @@ msgstr "ได้รับการชำระเงิน หากช่ว�
 
 msgid "contract start time"
 msgstr "เวลาเริ่มต้นของสัญญา"
+
+#, fuzzy
+#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
+msgstr "ได้รับชำระเงิน หากเลขหลักสุดท้ายของ %1 มีค่าเป็นเลขคู่หลังจาก %3 ช่วงราคา"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "ได้รับชำระเงิน หาก %1 สิ้นสุดนอกขอบเขต %5 ถึง %4 ที่ %3 หลังจาก %2"
@@ -4537,11 +4564,11 @@ msgstr "เวลาที่หมดอายุไม่สามารถเ
 msgid "Number of ticks must be between %1 and %2."
 msgstr "จำนวนของช่วงราคาต้องอยู่ระหว่าง %1 และ %2"
 
-msgid "Invalid barrier (Double barrier input is expected)."
-msgstr "ค่า Barrier ไม่ถูกต้อง (ต้องเป็นค่า Barrier 2 เท่า)"
-
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "ค่า Barrier ไม่ได้เป็นเลขจำนวนใดๆ เต็มระหว่าง %1 ถึง %2"
+
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr "ค่า Barrier ไม่ถูกต้อง (ต้องเป็นค่า Barrier 2 เท่า)"
 
 msgid "Resale of this contract is not offered."
 msgstr "การขายสัญญาจะไม่สามารถดำเนินการได้"
@@ -4606,11 +4633,16 @@ msgstr "มีข้อผิดพลาดเกิดขึ้นระหว
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (เงินปันผล)"
 
-msgid "Invalid barrier."
-msgstr "Barrier ไม่ถูกต้อง"
+#, fuzzy
+#| msgid "Barrier must be an integer."
+msgid "Selected tick must be an integer."
+msgstr "Barrier ต้องเป็นเลขจำนวนเต็ม"
 
 msgid "Invalid expiry time."
 msgstr "เวลาหมดอายุไม่ถูกต้อง"
+
+msgid "Invalid barrier."
+msgstr "Barrier ไม่ถูกต้อง"
 
 msgid "Missing required contract parameters (currency)."
 msgstr "ไม่มีตัวแปร (สกุลเงิน) ที่ต้องการในสัญญา"
@@ -4641,6 +4673,11 @@ msgstr "จำนวนเงินที่ชำระเป็นทศนิ
 
 msgid "Contract may not expire between %1 and %2."
 msgstr "สัญญายังไม่หมดอายุในระหว่าง %1 และ %2"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (currency)."
+msgid "Missing required contract parameters (selected tick)."
+msgstr "ไม่มีตัวแปร (สกุลเงิน) ที่ต้องการในสัญญา"
 
 msgid "The buy price of this contract will be refunded due to missing market data."
 msgstr "ราคาซื้อขายของสัญญานี้จะถูกคืนมูลค่าให้เนื่องจากขาดข้อมูลการตลาด"
@@ -4708,11 +4745,11 @@ msgstr "ราคา Lookbacks ไม่สามารถมีค่าเป�
 msgid "Expiry time cannot be in the past."
 msgstr "เวลาที่หมดอายุไม่สามารถเป็นเวลาในอดีต"
 
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "ค่า Barrier ไม่ถูกต้อง (ประเภทของ Barrier ต้องเป็นประเภทเดียวกันสำหรับสัญญา Barrier 2 เท่า)"
-
 msgid "High and low barriers must be different."
 msgstr "Barrier สูง และ Barrier ต่ำ ต้องแตกต่างกัน"
+
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "ค่า Barrier ไม่ถูกต้อง (ประเภทของ Barrier ต้องเป็นประเภทเดียวกันสำหรับสัญญา Barrier 2 เท่า)"
 
 msgid "Trading is suspended due to missing market (tick) data."
 msgstr "การซื้อขายถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (ช่วงราคา)"
@@ -4726,8 +4763,16 @@ msgstr "การซื้อขายถูกพักชั่วคราว
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะหมดอายุภายในวันที่ซื้อขาย"
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "%1 is not a valid input for contract type %2."
+msgstr "ช่วงเวลาไม่ถูกต้อง (ช่วงราคา) สำหรับประเภทสัญญา (%1)"
+
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "ขออภัยค่ะ ท่านได้พยายามเข้าสู่ระบบแต่ไม่สำเร็จหลายครั้ง โปรดลองใหม่อีกครั้งในอีก 5 นาที"
+
+#~ msgid "Before proceeding, please complete the identity verification process (KYC) for your %1 account."
+#~ msgstr "ก่อนดำเนินการขั้นต่อไป โปรดให้ข้อมูลตามกระบวนการตรวจสอบอัตลักษณ์ (KYC) สำหรับบัญชี ％1 ของท่าน"
 
 #~ msgid "Document not found."
 #~ msgstr "ไม่พบเอกสารที่ต้องการ"
@@ -6637,9 +6682,6 @@ msgstr "ขออภัยค่ะ ท่านได้พยายามเ�
 
 #~ msgid "Thursday"
 #~ msgstr "วันพฤหัสบดี"
-
-#~ msgid "Tick"
-#~ msgstr "Tick"
 
 #~ msgid "Tile"
 #~ msgstr "Tile"
