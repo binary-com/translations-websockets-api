@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2018-04-13 10:57+0000\n"
+"PO-Revision-Date: 2018-05-03 07:38+0000\n"
 "Last-Translator: Haruna Sekiya <hrnmyrn@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/binary-websocket/translations/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"binary-websocket/translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -579,7 +580,7 @@ msgid "Enter your address"
 msgstr "アドレスをご入力して下さい。"
 
 msgid "Exchange rates are not currently available."
-msgstr ""
+msgstr "為替レートは現在ご利用いただけません"
 
 msgid "Exclude me from the website until"
 msgstr "特定日まで利用禁止（日時単位）"
@@ -983,8 +984,6 @@ msgstr "申し訳ございませんが、本日のお取引上限金額を超え
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
 msgstr "申し訳ございませんが、本日処理できる金額の上限を超えてしまいました。"
 
-#, fuzzy
-#| msgid "Payment agent transfers are not allowed for specified accounts."
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "決済サービスはお客様の口座ではご利用いただけません。"
 
@@ -1772,10 +1771,8 @@ msgstr "お客さまの口座がロックされているため、口座%1へ送�
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "口座%1は現在無効であるため、送金できません。"
 
-#, fuzzy
-#| msgid "Send the funds to the Payment Agent."
 msgid "You cannot withdraw funds to the same account."
-msgstr "Send the funds to the Payment Agent."
+msgstr "同じ口座に資金を出金することはできません。"
 
 msgid "You have already claimed a bonus in the past."
 msgstr "過去にボーナス申請履歴があります。"
@@ -4088,15 +4085,11 @@ msgstr "END-IN/END-OUT"
 msgid "Predict the ending market level relative to 2 chosen barriers."
 msgstr "トレード終了時の市場価格を上下に設定したバリア値にて予想します。"
 
-#, fuzzy
-#| msgid "High-Low"
 msgid "High/Low Ticks"
-msgstr "ラダーHigh/ラダーLow"
+msgstr "HIGH/LOW Tick"
 
-#, fuzzy
-#| msgid "Predict the last digit of the market price at expiration."
 msgid "Predict which tick is the highest/lowest at expiration."
-msgstr "満期時の市場価格下一桁を予測。"
+msgstr "満期時にどのTickが最も高値/安値かを予測します。"
 
 msgid "Lookbacks"
 msgstr "ルックバック"
@@ -4143,10 +4136,8 @@ msgstr "Asian Down"
 msgid "Ends Between or equal"
 msgstr "範囲内で終了"
 
-#, fuzzy
-#| msgid "High"
 msgid "High Tick"
-msgstr "High"
+msgstr "HIGH Tick"
 
 msgid "Digit Differs"
 msgstr "Digit アンマッチ"
@@ -4172,10 +4163,8 @@ msgstr "HIGH"
 msgid "Stays Between"
 msgstr "STAY-IN"
 
-#, fuzzy
-#| msgid "Last Tick"
 msgid "Low Tick"
-msgstr "最後のTick"
+msgstr "LOW Tick"
 
 msgid "High-Close"
 msgstr "高値-終値"
@@ -4423,10 +4412,8 @@ msgstr "Win %6 %5 times %1's high minus close at %3."
 msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
 msgstr "%1が%plural(%3,%d tick)後に取引時レートまたは%5 tickよりも低い場合に、ペイアウトをお受け取りいただけます。"
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
-msgstr "%1の下一桁が %3 ticks以降もxxxである場合、ペイアウトをお受け取りいただけます。"
+msgstr "%1の%5Tickが %3 Tickの次に高い場合、ペイアウトをお受け取りいただけます。"
 
 msgid "entry spot"
 msgstr "エントリー価格"
@@ -4461,10 +4448,8 @@ msgstr "%1の最後の値が%plural(%3,%d tick)の平均よりも正確に高い
 msgid "contract start time"
 msgstr "トレード開始時間"
 
-#, fuzzy
-#| msgid "Win payout if the last digit of %1 is even after %3 ticks."
 msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
-msgstr "%1の下一桁が %3 ticks以降もxxxである場合、ペイアウトをお受け取りいただけます。"
+msgstr "%1の%5Tickが %3 Tickの次に低い場合、ペイアウトをお受け取りいただけます。"
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "%1のEND-OUTは、%2後の判定時刻(%3)の時点で%4以上もしくは%7未満を予測"
@@ -4661,10 +4646,8 @@ msgstr "トレードの決済中にエラーが発生しました。"
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "現在、一時的にご利用出来ません。"
 
-#, fuzzy
-#| msgid "Barrier must be an integer."
 msgid "Selected tick must be an integer."
-msgstr "バリア値は整数です"
+msgstr "選択されたTickは整数でなければいけません。"
 
 msgid "Invalid expiry time."
 msgstr "有効期限が無効です。"
@@ -4702,10 +4685,8 @@ msgstr "ペイアウトは、1ロットあたり1,000円です。"
 msgid "Contract may not expire between %1 and %2."
 msgstr "トレードは%1から%2の間の期間である必要があります。"
 
-#, fuzzy
-#| msgid "Missing required contract parameters (currency)."
 msgid "Missing required contract parameters (selected tick)."
-msgstr "必要な取引パラメーターが不明です。(通貨)"
+msgstr "必要な取引パラメーターが不明です。(選択されたTick)"
 
 msgid "The buy price of this contract will be refunded due to missing market data."
 msgstr "現在、一時的にご利用出来ません"
@@ -4791,10 +4772,8 @@ msgstr "現在、一時的にご利用出来ません"
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "取引期間が24時間以内の回号での取引は、取引開始日と取引終了日は同日となります。"
 
-#, fuzzy
-#| msgid "Invalid duration (tick) for contract type (%1)."
 msgid "%1 is not a valid input for contract type %2."
-msgstr "不適切な取引期間が入力されました。"
+msgstr "%1はトレードタイプ%2の有効な内容ではありません。"
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr ""
