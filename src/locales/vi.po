@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-05-03 02:47+0000\n"
 "Last-Translator: Lê Trần Mỹ Ngọc <letranmyngoc2502@gmail.com>\n"
-"Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/vi/>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/binary-websocket/translations/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -190,13 +189,17 @@ msgstr "Cho phép sao chép"
 msgid "Amount"
 msgstr "Số tiền"
 
-msgid "Amount must be greater than 1 %1."
+#, fuzzy
+#| msgid "Amount must be greater than 1 %1."
+msgid "Amount must be greater than %1 %2."
 msgstr "Số tiền phải lớn hơn 0."
 
 msgid "Amount must be greater than zero."
 msgstr "Số tiền phải lớn hơn 0."
 
-msgid "Amount must be less than 20000 %1."
+#, fuzzy
+#| msgid "Amount must be less than 20000 %1."
+msgid "Amount must be less than %1 %2."
 msgstr "Số tiền trên Điểm cần phải ở giữa %1 và %2 %3."
 
 msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3 and browser: %4. If this additional sign-in was not performed by you, please contact our Customer Support team."
@@ -856,6 +859,11 @@ msgstr "Không được phép giao dịch thêm tại thời điểm này."
 msgid "No further trading is allowed for the current trading session."
 msgstr "Đã đạt giới hạn giao dịch tại phiên giao dịch này."
 
+#, fuzzy
+#| msgid "No further trading is allowed for the current trading session."
+msgid "No further trading is allowed on this contract type for the current trading session."
+msgstr "Đã đạt giới hạn giao dịch tại phiên giao dịch này."
+
 msgid "No information is available for this contract."
 msgstr "Không có thông tin nào có sẵn cho hợp đồng này."
 
@@ -951,8 +959,7 @@ msgid "Payment agent transfers are not allowed, as you have exceeded the maximum
 msgstr "Việc chuyển khoản đại lý thanh toán không được phép, vì bạn đã vượt quá số tiền chuyển khoản cho phép tối đa cho ngày hôm nay."
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
-msgstr ""
-"Đại lý thanh toán không được phép rút tiền đối với các tài khoản nhất định."
+msgstr "Đại lý thanh toán không được phép rút tiền đối với các tài khoản nhất định."
 
 msgid "Payment error"
 msgstr "Lỗi thanh toán"
@@ -980,6 +987,9 @@ msgstr "Quyền hạn bị từ chối, đọc yêu cầu phạm vi."
 
 msgid "Permission denied."
 msgstr "Quyền hạn bị từ chối."
+
+msgid "Permission error. MT5 manager accounts are not allowed to withdraw as payments are processed manually."
+msgstr ""
 
 msgid "Place of birth"
 msgstr "Nơi sinh"
@@ -1497,6 +1507,11 @@ msgstr "Nhà giao dịch không được phép sao chép giao dịch."
 msgid "Trading"
 msgstr "Giao dịch"
 
+#, fuzzy
+#| msgid "Trading is suspended at the moment."
+msgid "Trading is suspended for this instrument."
+msgstr "Giao dịch đang bị tạm ngừng trong thời gian hiện tại."
+
 msgid "Transaction ID: %1"
 msgstr "ID Giao dịch: %1"
 
@@ -1583,6 +1598,9 @@ msgstr "Chúng tôi đang gặp sự cố với một hoặc nhiều nguồn c�
 
 msgid "We are updating our site in a short while. Some services may be temporarily unavailable."
 msgstr "Chúng tôi đang cập nhật trang web của chúng tôi trong một thời gian ngắn. Một số dịch vụ có thể tạm thời không khả dụng."
+
+msgid "We cannot get open positions for this account."
+msgstr ""
 
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
@@ -1789,6 +1807,9 @@ msgstr "Bạn phải hoàn tất bài kiểm tra kiến thức để kích hoạ
 
 msgid "You must use a designated bank account to transfer funds to your %1 trading account."
 msgstr "Bạn phải dùng một tài khoản ngân hàng để chuyển khoản các quỹ tới tài khoản giao dịch %1 của bạn."
+
+msgid "You need to ensure that you don't have open positions and withdraw your MT5 account balance before revoking the manager associated with your account."
+msgstr ""
 
 msgid "You will be automatically logged out after such time."
 msgstr "Bạn sẽ bị tự động đăng xuất sau khoảng thời gian này."
@@ -2034,6 +2055,11 @@ msgstr "BCH/TRY"
 msgid "USDZAR"
 msgstr "USD/ZAR"
 
+#, fuzzy
+#| msgid "CAD/CHF"
+msgid "DAI/CHF"
+msgstr "CAD/CHF"
+
 msgid "LTC/NZD"
 msgstr "LTC/NZD"
 
@@ -2083,8 +2109,18 @@ msgstr "LTC/TRY"
 msgid "ETC/IDR"
 msgstr "ETC/IDR"
 
+#, fuzzy
+#| msgid "USD/RUB"
+msgid "DAI/RUB"
+msgstr "USD/RUB"
+
 msgid "BTC/USD"
 msgstr "BTC/USD"
+
+#, fuzzy
+#| msgid "AUD/SEK"
+msgid "DAI/SEK"
+msgstr "AUD/SEK"
 
 msgid "ETC/KWD"
 msgstr "ETC/KWD"
@@ -2095,11 +2131,21 @@ msgstr "AUD/AED"
 msgid "BCH/SGD"
 msgstr "BCH/SGD"
 
+#, fuzzy
+#| msgid "USD/KRW"
+msgid "DAI/KRW"
+msgstr "USD/KRW"
+
 msgid "EUR/INR"
 msgstr "EUR/INR"
 
 msgid "USD/JPY"
 msgstr "USD/JPY"
+
+#, fuzzy
+#| msgid "XPD/GBP"
+msgid "DAI/GBP"
+msgstr "XPD/GBP"
 
 msgid "ETC/CNY"
 msgstr "ETC/CNY"
@@ -2115,6 +2161,16 @@ msgstr "ETH/XPD"
 
 msgid "BCH/EGP"
 msgstr "BCH/EGP"
+
+#, fuzzy
+#| msgid "AUD/IDR"
+msgid "DAI/IDR"
+msgstr "AUD/IDR"
+
+#, fuzzy
+#| msgid "AUD/TRY"
+msgid "DAI/TRY"
+msgstr "AUD/TRY"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -2161,6 +2217,9 @@ msgstr "BTC/SAR"
 msgid "ETH/AUD"
 msgstr "ETH/AUD"
 
+msgid "DAI/KWD"
+msgstr ""
+
 msgid "ETC/CHF"
 msgstr "ETC/CHF"
 
@@ -2200,8 +2259,16 @@ msgstr "GBP/SEK"
 msgid "AUD/MXN"
 msgstr "AUD/MXN"
 
+#, fuzzy
+#| msgid "AUD/NZD"
+msgid "DAI/NZD"
+msgstr "AUD/NZD"
+
 msgid "ETH/NOK"
 msgstr "ETH/NOK"
+
+msgid "DAI/XPD"
+msgstr ""
 
 msgid "ETH/KWD"
 msgstr "ETH/KWD"
@@ -2221,8 +2288,18 @@ msgstr "BCH/EUR"
 msgid "ETH/SGD"
 msgstr "ETH/SGD"
 
+#, fuzzy
+#| msgid "USD/SGD"
+msgid "DAI/SGD"
+msgstr "USD/SGD"
+
 msgid "BCH/PLN"
 msgstr "BCH/PLN"
+
+#, fuzzy
+#| msgid "USD/CZK"
+msgid "DAI/CZK"
+msgstr "USD/CZK"
 
 msgid "EUR/IDR"
 msgstr "EUR/IDR"
@@ -2245,7 +2322,15 @@ msgstr "Chỉ số AUD"
 msgid "BTC/HKD"
 msgstr "BTC/HKD"
 
+msgid "DAI/XAG"
+msgstr ""
+
 msgid "USD/CAD"
+msgstr "USD/CAD"
+
+#, fuzzy
+#| msgid "USD/CAD"
+msgid "DAI/CAD"
 msgstr "USD/CAD"
 
 msgid "GBP/JPY"
@@ -2284,6 +2369,11 @@ msgstr "LTC/CNY"
 msgid "BCH/KRW"
 msgstr "BCH/KRW"
 
+#, fuzzy
+#| msgid "USD/CNY"
+msgid "DAI/CNY"
+msgstr "USD/CNY"
+
 msgid "BCH/NOK"
 msgstr "BCH/NOK"
 
@@ -2319,6 +2409,9 @@ msgstr "USD/IDR"
 
 msgid "ETC/ZAR"
 msgstr "ETC/ZAR"
+
+msgid "DAI/XPT"
+msgstr ""
 
 msgid "ETC/TRY"
 msgstr "ETC/TRY"
@@ -2363,6 +2456,11 @@ msgstr "BTC/ZAR"
 msgid "BTC/EGP"
 msgstr "BTC/EGP"
 
+#, fuzzy
+#| msgid "XAG/EUR"
+msgid "DAI/EUR"
+msgstr "XAG/EUR"
+
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
@@ -2387,6 +2485,11 @@ msgstr "ETC/AED"
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
 
+#, fuzzy
+#| msgid "AUD/MXN"
+msgid "DAI/MXN"
+msgstr "AUD/MXN"
+
 msgid "BCH/NZD"
 msgstr "BCH/NZD"
 
@@ -2395,6 +2498,11 @@ msgstr "LTC/EGP"
 
 msgid "ETC/AUD"
 msgstr "ETC/AUD"
+
+#, fuzzy
+#| msgid "AUD/SAR"
+msgid "DAI/SAR"
+msgstr "AUD/SAR"
 
 msgid "LTC/RUB"
 msgstr "LTC/RUB"
@@ -2435,8 +2543,16 @@ msgstr "LTC/XAU"
 msgid "EUR/USD"
 msgstr "EUR/USD"
 
+#, fuzzy
+#| msgid "AUD/INR"
+msgid "DAI/INR"
+msgstr "AUD/INR"
+
 msgid "BCH/XAU"
 msgstr "BCH/XAU"
+
+msgid "DAI/BRO"
+msgstr ""
 
 msgid "AUD/SGD"
 msgstr "AUD/SGD"
@@ -2474,8 +2590,16 @@ msgstr "BTC/KWD"
 msgid "BCH/IDR"
 msgstr "BCH/IDR"
 
+#, fuzzy
+#| msgid "USD/NOK"
+msgid "DAI/NOK"
+msgstr "USD/NOK"
+
 msgid "ETC/SGD"
 msgstr "ETC/SGD"
+
+msgid "DAI/XAU"
+msgstr ""
 
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
@@ -2514,6 +2638,12 @@ msgid "USD/INR"
 msgstr "USD/INR"
 
 # Start of extra_translations
+#, fuzzy
+#| msgid "CAD/JPY"
+msgid "DAI/JPY"
+msgstr "CAD/JPY"
+
+# Start of extra_translations
 msgid "LTC/JPY"
 msgstr "LTC/JPY"
 
@@ -2544,11 +2674,22 @@ msgstr "ETH/PLN"
 msgid "NZD/USD"
 msgstr "NZD/USD"
 
+msgid "DAI/ZAR"
+msgstr ""
+
 msgid "BCH/CAD"
 msgstr "BCH/CAD"
 
+msgid "DAI/EGP"
+msgstr ""
+
 msgid "USD Index"
 msgstr "Chỉ số USD"
+
+#, fuzzy
+#| msgid "USD/BRL"
+msgid "DAI/BRL"
+msgstr "USD/BRL"
 
 msgid "BTC/SEK"
 msgstr "BTC/SEK"
@@ -2609,6 +2750,11 @@ msgstr "BTC/JPY"
 msgid "ETC/CZK"
 msgstr "ETC/CZK"
 
+#, fuzzy
+#| msgid "AUD/AED"
+msgid "DAI/AED"
+msgstr "AUD/AED"
+
 msgid "ETH/BRO"
 msgstr "ETH/BRO"
 
@@ -2639,6 +2785,11 @@ msgstr "BCH/XPT"
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
 
+#, fuzzy
+#| msgid "NZD/USD"
+msgid "DAI/USD"
+msgstr "NZD/USD"
+
 msgid "USD/HKD"
 msgstr "USD/HKD"
 
@@ -2650,6 +2801,11 @@ msgstr "EUR/MXN"
 
 msgid "ETC/XAG"
 msgstr "ETC/XAG"
+
+#, fuzzy
+#| msgid "AUD/PLN"
+msgid "DAI/PLN"
+msgstr "AUD/PLN"
 
 msgid "BCH/XAG"
 msgstr "BCH/XAG"
@@ -2697,6 +2853,11 @@ msgstr "EUR/CAD"
 msgid "BTC/IDR"
 msgstr "BTC/IDR"
 
+#, fuzzy
+#| msgid "AUD/HKD"
+msgid "DAI/HKD"
+msgstr "AUD/HKD"
+
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
 
@@ -2714,6 +2875,11 @@ msgstr "BCH/INR"
 
 msgid "ETH/NZD"
 msgstr "ETH/NZD"
+
+#, fuzzy
+#| msgid "XAG/AUD"
+msgid "DAI/AUD"
+msgstr "XAG/AUD"
 
 msgid "ETH/CAD"
 msgstr "ETH/CAD"
@@ -4393,9 +4559,7 @@ msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower tha
 msgstr "Chiến thắng tiền thưởng nếu %1 sau %plural(%3,%d tick,%d ticks) thấp hơn hẳn so với giá khởi điểm hoặc giây %5."
 
 msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
-msgstr ""
-"Chiến thắng tiền thưởng nếu tick của %1 có giá trị cao nhất trong %3 tick "
-"tiếp theo."
+msgstr "Chiến thắng tiền thưởng nếu tick của %1 có giá trị cao nhất trong %3 tick tiếp theo."
 
 msgid "entry spot"
 msgstr "giá giao ngay nhập vào"
@@ -4431,9 +4595,7 @@ msgid "contract start time"
 msgstr "thời gian bắt đầu hợp đồng"
 
 msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
-msgstr ""
-"Chiến thắng tiền thưởng nếu tick của %1 có giá trị thấp nhất trong %3 tick "
-"tiếp theo."
+msgstr "Chiến thắng tiền thưởng nếu tick của %1 có giá trị thấp nhất trong %3 tick tiếp theo."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Chiến thắng tiền thưởng nếu %1 kết thúc bên ngoài %5 tới %4 tại %3 sau %2."
@@ -5230,17 +5392,8 @@ msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thàn
 #~ msgid "EUR/RUB"
 #~ msgstr "EUR/RUB"
 
-#~ msgid "USD/CNY"
-#~ msgstr "USD/CNY"
-
 #~ msgid "EUR/ILS"
 #~ msgstr "EUR/ILS"
-
-#~ msgid "AUD/SAR"
-#~ msgstr "AUD/SAR"
-
-#~ msgid "USD/CZK"
-#~ msgstr "USD/CZK"
 
 #~ msgid "EUR/SAR"
 #~ msgstr "EUR/SAR"
@@ -5254,9 +5407,6 @@ msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thàn
 #~ msgid "GBP/ILS"
 #~ msgstr "GBP/ILS"
 
-#~ msgid "USD/KRW"
-#~ msgstr "USD/KRW"
-
 #~ msgid "AUD/CZK"
 #~ msgstr "AUD/CZK"
 
@@ -5266,17 +5416,11 @@ msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thàn
 #~ msgid "AUD/CNY"
 #~ msgstr "AUD/CNY"
 
-#~ msgid "USD/RUB"
-#~ msgstr "USD/RUB"
-
 #~ msgid "EUR/CNY"
 #~ msgstr "EUR/CNY"
 
 #~ msgid "AUD/ILS"
 #~ msgstr "AUD/ILS"
-
-#~ msgid "USD/BRL"
-#~ msgstr "USD/BRL"
 
 #~ msgid "EUR/CZK"
 #~ msgstr "EUR/CZK"
@@ -7530,9 +7674,6 @@ msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động chưa thàn
 
 #~ msgid "Unrecognised request."
 #~ msgstr "Yêu cầu không rõ."
-
-#~ msgid "Trading is suspended at the moment."
-#~ msgstr "Giao dịch đang bị tạm ngừng trong thời gian hiện tại."
 
 #~ msgid ""
 #~ "Dear Valued Customer,\n"

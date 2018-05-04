@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-04-29 14:13+0000\n"
 "Last-Translator: Valentina Grassi <vale.grassi11@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/translations/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -185,13 +184,17 @@ msgstr "Consenti copie"
 msgid "Amount"
 msgstr "Importo"
 
-msgid "Amount must be greater than 1 %1."
+#, fuzzy
+#| msgid "Amount must be greater than 1 %1."
+msgid "Amount must be greater than %1 %2."
 msgstr "L'importo deve essere maggiore di 1 %1."
 
 msgid "Amount must be greater than zero."
 msgstr "L'importo deve essere maggiore di zero."
 
-msgid "Amount must be less than 20000 %1."
+#, fuzzy
+#| msgid "Amount must be less than 20000 %1."
+msgid "Amount must be less than %1 %2."
 msgstr "L'importo deve essere minore di 20000 %1."
 
 msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3 and browser: %4. If this additional sign-in was not performed by you, please contact our Customer Support team."
@@ -851,6 +854,11 @@ msgstr "In questo momento non è consentito nessun altro trade."
 msgid "No further trading is allowed for the current trading session."
 msgstr "Non è consentito nessun altro trade per l'attuale sessione di trading."
 
+#, fuzzy
+#| msgid "No further trading is allowed for the current trading session."
+msgid "No further trading is allowed on this contract type for the current trading session."
+msgstr "Non è consentito nessun altro trade per l'attuale sessione di trading."
+
 msgid "No information is available for this contract."
 msgstr "Per questo contratto non è disponibile alcuna informazione."
 
@@ -946,9 +954,7 @@ msgid "Payment agent transfers are not allowed, as you have exceeded the maximum
 msgstr "I trasferimenti degli agenti di pagamento non sono consentiti poiché hai superato l'importo massimo di trasferimenti ammissibili per oggi."
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
-msgstr ""
-"I prelievi tramite agenti di pagamento non sono consentiti per i conti "
-"indicati."
+msgstr "I prelievi tramite agenti di pagamento non sono consentiti per i conti indicati."
 
 msgid "Payment error"
 msgstr "Errore nel pagamento"
@@ -976,6 +982,9 @@ msgstr "Autorizzazione negata, richiede lo scopo."
 
 msgid "Permission denied."
 msgstr "Autorizzazione negata."
+
+msgid "Permission error. MT5 manager accounts are not allowed to withdraw as payments are processed manually."
+msgstr ""
 
 msgid "Place of birth"
 msgstr "Luogo di nascita"
@@ -1493,6 +1502,11 @@ msgstr "Ai trader non è consentito copiare i trade."
 msgid "Trading"
 msgstr "Trading"
 
+#, fuzzy
+#| msgid "Trading is suspended at the moment."
+msgid "Trading is suspended for this instrument."
+msgstr "Al momento il trading è sospeso."
+
 msgid "Transaction ID: %1"
 msgstr "ID della transazione: %1"
 
@@ -1579,6 +1593,9 @@ msgstr "Si sono verificati problemi con uno o più feed di dati. Stiamo lavorand
 
 msgid "We are updating our site in a short while. Some services may be temporarily unavailable."
 msgstr "Aggiorneremo il nostro sito a breve. Alcuni servizi potrebbero essere temporaneamente non disponibili."
+
+msgid "We cannot get open positions for this account."
+msgstr ""
 
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
@@ -1785,6 +1802,9 @@ msgstr "Per attivare questo account, devi completare il test di conoscenza."
 
 msgid "You must use a designated bank account to transfer funds to your %1 trading account."
 msgstr "Per trasferire i fondi sul tuo account di trading %1, devi utilizzare il conto corrente bancario indicato."
+
+msgid "You need to ensure that you don't have open positions and withdraw your MT5 account balance before revoking the manager associated with your account."
+msgstr ""
 
 msgid "You will be automatically logged out after such time."
 msgstr "Dopo tale periodo, verrà effettuato automaticamente il logout."
@@ -2030,6 +2050,11 @@ msgstr "BCH/TRY"
 msgid "USDZAR"
 msgstr "USDZAR"
 
+#, fuzzy
+#| msgid "CAD/CHF"
+msgid "DAI/CHF"
+msgstr "CAD/CHF"
+
 msgid "LTC/NZD"
 msgstr "LTC/NZD"
 
@@ -2079,8 +2104,18 @@ msgstr "LTC/TRY"
 msgid "ETC/IDR"
 msgstr "ETC/IDR"
 
+#, fuzzy
+#| msgid "USD/RUB"
+msgid "DAI/RUB"
+msgstr "USD/RUB"
+
 msgid "BTC/USD"
 msgstr "BTC/USD"
+
+#, fuzzy
+#| msgid "AUD/SEK"
+msgid "DAI/SEK"
+msgstr "AUD/SEK"
 
 msgid "ETC/KWD"
 msgstr "ETC/KWD"
@@ -2091,11 +2126,21 @@ msgstr "AUD/AED"
 msgid "BCH/SGD"
 msgstr "BCH/SGD"
 
+#, fuzzy
+#| msgid "USD/KRW"
+msgid "DAI/KRW"
+msgstr "USD/KRW"
+
 msgid "EUR/INR"
 msgstr "EUR/INR"
 
 msgid "USD/JPY"
 msgstr "USD/JPY"
+
+#, fuzzy
+#| msgid "XPD/GBP"
+msgid "DAI/GBP"
+msgstr "XPD/GBP"
 
 msgid "ETC/CNY"
 msgstr "ETC/CNY"
@@ -2111,6 +2156,16 @@ msgstr "ETH/XPD"
 
 msgid "BCH/EGP"
 msgstr "BCH/EGP"
+
+#, fuzzy
+#| msgid "AUD/IDR"
+msgid "DAI/IDR"
+msgstr "AUD/IDR"
+
+#, fuzzy
+#| msgid "AUD/TRY"
+msgid "DAI/TRY"
+msgstr "AUD/TRY"
 
 msgid "EUR/AUD"
 msgstr "EUR/AUD"
@@ -2157,6 +2212,9 @@ msgstr "BTC/SAR"
 msgid "ETH/AUD"
 msgstr "ETH/AUD"
 
+msgid "DAI/KWD"
+msgstr ""
+
 msgid "ETC/CHF"
 msgstr "ETC/CHF"
 
@@ -2196,8 +2254,16 @@ msgstr "GBP/SEK"
 msgid "AUD/MXN"
 msgstr "AUD/MXN"
 
+#, fuzzy
+#| msgid "AUD/NZD"
+msgid "DAI/NZD"
+msgstr "AUD/NZD"
+
 msgid "ETH/NOK"
 msgstr "ETH/NOK"
+
+msgid "DAI/XPD"
+msgstr ""
 
 msgid "ETH/KWD"
 msgstr "ETH/KWD"
@@ -2217,8 +2283,18 @@ msgstr "BCH/EUR"
 msgid "ETH/SGD"
 msgstr "ETH/SGD"
 
+#, fuzzy
+#| msgid "USD/SGD"
+msgid "DAI/SGD"
+msgstr "USD/SGD"
+
 msgid "BCH/PLN"
 msgstr "BCH/PLN"
+
+#, fuzzy
+#| msgid "USD/CZK"
+msgid "DAI/CZK"
+msgstr "USD/CZK"
 
 msgid "EUR/IDR"
 msgstr "EUR/IDR"
@@ -2241,7 +2317,15 @@ msgstr "Indice AUD"
 msgid "BTC/HKD"
 msgstr "BTC/HKD"
 
+msgid "DAI/XAG"
+msgstr ""
+
 msgid "USD/CAD"
+msgstr "USD/CAD"
+
+#, fuzzy
+#| msgid "USD/CAD"
+msgid "DAI/CAD"
 msgstr "USD/CAD"
 
 msgid "GBP/JPY"
@@ -2280,6 +2364,11 @@ msgstr "LTC/CNY"
 msgid "BCH/KRW"
 msgstr "BCH/KRW"
 
+#, fuzzy
+#| msgid "USD/CNY"
+msgid "DAI/CNY"
+msgstr "USD/CNY"
+
 msgid "BCH/NOK"
 msgstr "BCH/NOK"
 
@@ -2315,6 +2404,9 @@ msgstr "USD/IDR"
 
 msgid "ETC/ZAR"
 msgstr "ETC/ZAR"
+
+msgid "DAI/XPT"
+msgstr ""
 
 msgid "ETC/TRY"
 msgstr "ETC/TRY"
@@ -2359,6 +2451,11 @@ msgstr "BTC/ZAR"
 msgid "BTC/EGP"
 msgstr "BTC/EGP"
 
+#, fuzzy
+#| msgid "XAG/EUR"
+msgid "DAI/EUR"
+msgstr "XAG/EUR"
+
 msgid "EUR/NOK"
 msgstr "EUR/NOK"
 
@@ -2383,6 +2480,11 @@ msgstr "ETC/AED"
 msgid "EUR/PLN"
 msgstr "EUR/PLN"
 
+#, fuzzy
+#| msgid "AUD/MXN"
+msgid "DAI/MXN"
+msgstr "AUD/MXN"
+
 msgid "BCH/NZD"
 msgstr "BCH/NZD"
 
@@ -2391,6 +2493,11 @@ msgstr "LTC/EGP"
 
 msgid "ETC/AUD"
 msgstr "ETC/AUD"
+
+#, fuzzy
+#| msgid "AUD/SAR"
+msgid "DAI/SAR"
+msgstr "AUD/SAR"
 
 msgid "LTC/RUB"
 msgstr "LTC/RUB"
@@ -2431,8 +2538,16 @@ msgstr "LTC/XAU"
 msgid "EUR/USD"
 msgstr "EUR/USD"
 
+#, fuzzy
+#| msgid "AUD/INR"
+msgid "DAI/INR"
+msgstr "AUD/INR"
+
 msgid "BCH/XAU"
 msgstr "BCH/XAU"
+
+msgid "DAI/BRO"
+msgstr ""
 
 msgid "AUD/SGD"
 msgstr "AUD/SGD"
@@ -2470,8 +2585,16 @@ msgstr "BTC/KWD"
 msgid "BCH/IDR"
 msgstr "BCH/IDR"
 
+#, fuzzy
+#| msgid "USD/NOK"
+msgid "DAI/NOK"
+msgstr "USD/NOK"
+
 msgid "ETC/SGD"
 msgstr "ETC/SGD"
+
+msgid "DAI/XAU"
+msgstr ""
 
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
@@ -2510,6 +2633,12 @@ msgid "USD/INR"
 msgstr "USD/INR"
 
 # Start of extra_translations
+#, fuzzy
+#| msgid "CAD/JPY"
+msgid "DAI/JPY"
+msgstr "CAD/JPY"
+
+# Start of extra_translations
 msgid "LTC/JPY"
 msgstr "LTC/JPY"
 
@@ -2540,11 +2669,22 @@ msgstr "ETH/PLN"
 msgid "NZD/USD"
 msgstr "NZD/USD"
 
+msgid "DAI/ZAR"
+msgstr ""
+
 msgid "BCH/CAD"
 msgstr "BCH/CAD"
 
+msgid "DAI/EGP"
+msgstr ""
+
 msgid "USD Index"
 msgstr "Indice USD"
+
+#, fuzzy
+#| msgid "USD/BRL"
+msgid "DAI/BRL"
+msgstr "USD/BRL"
 
 msgid "BTC/SEK"
 msgstr "BTC/SEK"
@@ -2605,6 +2745,11 @@ msgstr "BTC/JPY"
 msgid "ETC/CZK"
 msgstr "ETC/CZK"
 
+#, fuzzy
+#| msgid "AUD/AED"
+msgid "DAI/AED"
+msgstr "AUD/AED"
+
 msgid "ETH/BRO"
 msgstr "ETH/BRO"
 
@@ -2635,6 +2780,11 @@ msgstr "BCH/XPT"
 msgid "AUD/CAD"
 msgstr "AUD/CAD"
 
+#, fuzzy
+#| msgid "NZD/USD"
+msgid "DAI/USD"
+msgstr "NZD/USD"
+
 msgid "USD/HKD"
 msgstr "USD/HKD"
 
@@ -2646,6 +2796,11 @@ msgstr "EUR/MXN"
 
 msgid "ETC/XAG"
 msgstr "ETC/XAG"
+
+#, fuzzy
+#| msgid "AUD/PLN"
+msgid "DAI/PLN"
+msgstr "AUD/PLN"
 
 msgid "BCH/XAG"
 msgstr "BCH/XAG"
@@ -2693,6 +2848,11 @@ msgstr "EUR/CAD"
 msgid "BTC/IDR"
 msgstr "BTC/IDR"
 
+#, fuzzy
+#| msgid "AUD/HKD"
+msgid "DAI/HKD"
+msgstr "AUD/HKD"
+
 msgid "EUR/HKD"
 msgstr "EUR/HKD"
 
@@ -2710,6 +2870,11 @@ msgstr "BCH/INR"
 
 msgid "ETH/NZD"
 msgstr "ETH/NZD"
+
+#, fuzzy
+#| msgid "XAG/AUD"
+msgid "DAI/AUD"
+msgstr "XAG/AUD"
 
 msgid "ETH/CAD"
 msgstr "ETH/CAD"
@@ -4389,9 +4554,7 @@ msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower tha
 msgstr "Vinci il payout se %1 dopo %plural (%3,%d tick,%d tick) è notevolmente inferiore rispetto all'ingresso o a %5 tick."
 
 msgid "Win payout if tick %5 of %1 has the highest value in the next %3 ticks."
-msgstr ""
-"Vinci il payout se %5 tick di %1 raggiunge il valore più alto nei successivi "
-"%3 tick."
+msgstr "Vinci il payout se %5 tick di %1 raggiunge il valore più alto nei successivi %3 tick."
 
 msgid "entry spot"
 msgstr "spot d'entrata"
@@ -4427,9 +4590,7 @@ msgid "contract start time"
 msgstr "orario d'inizio dei contratti"
 
 msgid "Win payout if tick %5 of %1 has the lowest value in the next %3 ticks."
-msgstr ""
-"Vinci il payout se %5 tick di %1 raggiunge il valore più basso nei "
-"successivi %3 tick."
+msgstr "Vinci il payout se %5 tick di %1 raggiunge il valore più basso nei successivi %3 tick."
 
 msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
 msgstr "Vinci il payout se %1 termina fuori da %5 o %4 alle %3 dopo l'inizio alle %2."
@@ -5216,17 +5377,8 @@ msgstr "Siamo spiacenti, hai già fatto troppi tentativi falliti. Riprova fra 5 
 #~ msgid "EUR/RUB"
 #~ msgstr "EUR/RUB"
 
-#~ msgid "USD/CNY"
-#~ msgstr "USD/CNY"
-
 #~ msgid "EUR/ILS"
 #~ msgstr "EUR/ILS"
-
-#~ msgid "AUD/SAR"
-#~ msgstr "AUD/SAR"
-
-#~ msgid "USD/CZK"
-#~ msgstr "USD/CZK"
 
 #~ msgid "EUR/SAR"
 #~ msgstr "EUR/SAR"
@@ -5240,9 +5392,6 @@ msgstr "Siamo spiacenti, hai già fatto troppi tentativi falliti. Riprova fra 5 
 #~ msgid "GBP/ILS"
 #~ msgstr "GBP/ILS"
 
-#~ msgid "USD/KRW"
-#~ msgstr "USD/KRW"
-
 #~ msgid "AUD/CZK"
 #~ msgstr "AUD/CZK"
 
@@ -5252,17 +5401,11 @@ msgstr "Siamo spiacenti, hai già fatto troppi tentativi falliti. Riprova fra 5 
 #~ msgid "AUD/CNY"
 #~ msgstr "AUD/CNY"
 
-#~ msgid "USD/RUB"
-#~ msgstr "USD/RUB"
-
 #~ msgid "EUR/CNY"
 #~ msgstr "EUR/CNY"
 
 #~ msgid "AUD/ILS"
 #~ msgstr "AUD/ILS"
-
-#~ msgid "USD/BRL"
-#~ msgstr "USD/BRL"
 
 #~ msgid "EUR/CZK"
 #~ msgstr "EUR/CZK"
@@ -7513,9 +7656,6 @@ msgstr "Siamo spiacenti, hai già fatto troppi tentativi falliti. Riprova fra 5 
 
 #~ msgid "Unrecognised request."
 #~ msgstr "Richiesta non riconosciuta."
-
-#~ msgid "Trading is suspended at the moment."
-#~ msgstr "Al momento il trading è sospeso."
 
 #~ msgid ""
 #~ "Dear Valued Customer,\n"
