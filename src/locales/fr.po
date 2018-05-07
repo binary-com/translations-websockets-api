@@ -867,6 +867,16 @@ msgstr "Introuvable"
 msgid "Note: You will be able to withdraw your bonus of %1%2 only once your aggregate volume of trades exceeds %1%3. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
 msgstr "Remarque : vous ne pourrez retirer votre bonus de %2%1 qu'une fois que le volume global de vos transactions aura dépassé %3%1. Cette restriction s'applique uniquement au bonus et aux profits qui en sont dérivés. Tous les autres dépôts et profits dérivés de ces dépôts peuvent être retirés à tout moment."
 
+#, fuzzy
+#| msgid "Email Verification"
+msgid "OTP Verification"
+msgstr "Vérification de Mail"
+
+#, fuzzy
+#| msgid "Checksum verification failed."
+msgid "OTP verification failed"
+msgstr "La vérification de la somme de contrôle a échoué."
+
 msgid "Old password is wrong."
 msgstr "L'ancien mot de passe est erroné."
 
@@ -1044,6 +1054,11 @@ msgstr "Veuillez saisir la date au format AAAA-MM-JJ."
 msgid "Please enter your email address."
 msgstr "Veuillez saisir votre adresse e-mail."
 
+#, fuzzy
+#| msgid "Please enter your first name."
+msgid "Please enter your verification code"
+msgstr "Veuillez entrer votre prénom."
+
 msgid "Please log in."
 msgstr "Veuillez vous connecter."
 
@@ -1127,6 +1142,11 @@ msgstr "Veuillez utiliser l'adresse ci-dessus seulement une fois."
 
 msgid "Postcode is required for UK residents."
 msgstr "Le code postal est requis pour les résidents du Royaume-Uni."
+
+#, fuzzy
+#| msgid "Proceeded as %1"
+msgid "Proceed"
+msgstr "Traité en tant que %1"
 
 msgid "Provided amount is not within permissible limits."
 msgstr "Le montant fourni n'est pas à l'intérieur des limites permissibles."
@@ -1325,6 +1345,12 @@ msgstr "Code SWIFT"
 
 msgid "Symbol %1 invalid."
 msgstr "Symbole %1 non valide."
+
+msgid "TOTP based 2FA is already disabled."
+msgstr ""
+
+msgid "TOTP based 2FA is already enabled."
+msgstr ""
 
 msgid "Tax identification number"
 msgstr "Numéro d'identification fiscale"
@@ -1570,6 +1596,11 @@ msgstr "La valeur de account_opening_reason ne peut être changée."
 
 msgid "Value of place_of_birth cannot be changed."
 msgstr "La valeur de place_of_birth ne peut être changée."
+
+#, fuzzy
+#| msgid "Verification Token"
+msgid "Verification Code"
+msgstr "Jeton de vérification"
 
 msgid "Verify your email address - %1"
 msgstr "Veuillez saisir votre adresse e-mail : %1"
@@ -4523,6 +4554,11 @@ msgstr "Vous percevez le paiement si %1 termine strictement dans la zone de %5 �
 msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
 msgstr "Gagnez le paiement si %1 après %3 est strictement inférieur à ce qu'il était à l'entrée ou %5."
 
+#, fuzzy
+#| msgid "Win payout if %1 does not touch %4 through %3 after %2."
+msgid "Win payout if %1 does not touch %4 through %plural(%3,%d tick,%d ticks) after %2."
+msgstr "Vous percevez le paiement si %1 ne touche pas %4 pendant la période allant jusqu'au %3, après %2."
+
 msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "Emportez un gain si %1 est supérieur ou égal de %4 à %3 après %2."
 
@@ -4549,6 +4585,11 @@ msgstr "Gagner %6 %5 fois %1 plus haut moins la clôture au cours des prochaines
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Vous percevez le paiement si le dernier chiffre de %1 n'est pas %4 après %plural(%3,%d tick,%d ticks)."
+
+#, fuzzy
+#| msgid "Win payout if %1 touches %4 through %3 after %2."
+msgid "Win payout if %1 touches %4 through %plural(%3,%d tick,%d ticks) after %2."
+msgstr "Vous percevez le paiement si %1 touche %4 pendant la période allant jusqu'au %3, après %2."
 
 msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
 msgstr "Vous percevez le paiement si le dernier chiffre de %1 est strictement supérieur à %4 après %3 ticks."
@@ -4707,11 +4748,11 @@ msgstr "Cette opération n'est pas disponible pour cette durée."
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 n’est pas autorisé pour la résidence de %2."
 
-msgid "We could not process this contract at this time."
-msgstr "Nous n'avons pas pu traiter ce contrat pour le moment."
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Durée invalide (tick) pour le type de contrat (%1)."
+
+msgid "We could not process this contract at this time."
+msgstr "Nous n'avons pas pu traiter ce contrat pour le moment."
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "La barrière supérieure ne se situe pas dans la plage autorisée. Veuillez ajuster la barrière supérieure."
@@ -4794,6 +4835,9 @@ msgstr "Les activités de trading sont suspendues en raison de données de march
 msgid "An error occurred during contract settlement."
 msgstr "Une erreur s’est produite au cours de l’établissement du contrat."
 
+msgid "Invalid barrier."
+msgstr "Barrière non valide."
+
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "La cotation est suspendue par manque de données sur le marché (dividende)."
 
@@ -4804,9 +4848,6 @@ msgstr "La barrière doit être un nombre entier."
 
 msgid "Invalid expiry time."
 msgstr "Prix non valide."
-
-msgid "Invalid barrier."
-msgstr "Barrière non valide."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Paramètres de contrat requis manquants (devise)."
@@ -5154,9 +5195,6 @@ msgstr "Désolé, vous avez déjà effectué trop de tentatives infructueuses. V
 
 #~ msgid "Please enter a number between 0 and %1."
 #~ msgstr "Veuillez saisir un chiffre entre 0 et %1."
-
-#~ msgid "Proceeded as %1"
-#~ msgstr "Traité en tant que %1"
 
 #~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 #~ msgstr "Désolé, la connexion à ce compte a été temporairement désactivée car le système est en cours de maintenance. Veuillez réessayer dans 30 minutes."
@@ -7054,10 +7092,6 @@ msgstr "Désolé, vous avez déjà effectué trop de tentatives infructueuses. V
 
 #~ msgid "Update"
 #~ msgstr "Mise à Jour"
-
-#~| msgid "Verification of identity"
-#~ msgid "Verification Token"
-#~ msgstr "Jeton de vérification"
 
 #~| msgid "Verification of identity"
 #~ msgid "Verification code format incorrect."
@@ -9505,9 +9539,6 @@ msgstr "Désolé, vous avez déjà effectué trop de tentatives infructueuses. V
 
 #~ msgid "Eliminating Antisocial Forces"
 #~ msgstr "Eliminating Antisocial Forces"
-
-#~ msgid "Email Verification"
-#~ msgstr "Vérification de Mail"
 
 #~ msgid "Email: "
 #~ msgstr "E-mail : "
@@ -13561,9 +13592,6 @@ msgstr "Désolé, vous avez déjà effectué trop de tentatives infructueuses. V
 
 #~ msgid "Please enter the first line of your home address."
 #~ msgstr "Veuillez entrer la première ligne de votre adresse du domicile."
-
-#~ msgid "Please enter your first name."
-#~ msgstr "Veuillez entrer votre prénom."
 
 #~ msgid "Please enter your last name."
 #~ msgstr "Veuillez entrer votre nom de famille."

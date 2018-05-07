@@ -872,6 +872,16 @@ msgstr "Информация не найдена"
 msgid "Note: You will be able to withdraw your bonus of %1%2 only once your aggregate volume of trades exceeds %1%3. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
 msgstr "Примечание: Вы можете снять со счета бесплатный бонус %1%2 только когда оборот на счете превысит %1%3. Это ограничение распространяется только на бонус и всю прибыль, полученную в результате бонусной торговли. Все другие средства и прибыль могут быть выведены со счета в любое время."
 
+#, fuzzy
+#| msgid "Email Verification"
+msgid "OTP Verification"
+msgstr "Верификация эл.адреса"
+
+#, fuzzy
+#| msgid "Checksum verification failed."
+msgid "OTP verification failed"
+msgstr "Неправильная сумма."
+
 msgid "Old password is wrong."
 msgstr "Старый пароль неверный."
 
@@ -1049,6 +1059,11 @@ msgstr "Пожалуйста, внесите дату в формате ГГГГ
 msgid "Please enter your email address."
 msgstr "Пожалуйста, введите Ваш email."
 
+#, fuzzy
+#| msgid "Please enter your first name."
+msgid "Please enter your verification code"
+msgstr "Пожалуйста, введите Ваше имя."
+
 msgid "Please log in."
 msgstr "Пожалуйста, войдите в систему."
 
@@ -1132,6 +1147,11 @@ msgstr "Пожалуйста, используйте вышеупомянуты�
 
 msgid "Postcode is required for UK residents."
 msgstr "Почтовый код требуется от резидентов Великобритании."
+
+#, fuzzy
+#| msgid "Proceeded as %1"
+msgid "Proceed"
+msgstr "Продолжено как %1"
 
 msgid "Provided amount is not within permissible limits."
 msgstr "Указанная сумма не соответствует установленным лимитам."
@@ -1332,6 +1352,12 @@ msgstr "Swift-код"
 
 msgid "Symbol %1 invalid."
 msgstr "Символ %1 не разрешен"
+
+msgid "TOTP based 2FA is already disabled."
+msgstr ""
+
+msgid "TOTP based 2FA is already enabled."
+msgstr ""
 
 msgid "Tax identification number"
 msgstr "Номер налогоплательщика"
@@ -1579,6 +1605,11 @@ msgstr "Нельзя менять текст в поле Причина откр
 
 msgid "Value of place_of_birth cannot be changed."
 msgstr "Нельзя менять текст в поле place_of_birth."
+
+#, fuzzy
+#| msgid "Verification Token"
+msgid "Verification Code"
+msgstr "Проверочный токен"
 
 msgid "Verify your email address - %1"
 msgstr "Подтвердите свой электронный адрес - %1"
@@ -4543,6 +4574,11 @@ msgstr "Получить выплату, если %1 будет строго м�
 msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
 msgstr "Получить выплату, если %1 после %3 будет строго ниже, чем в момент начала или %5."
 
+#, fuzzy
+#| msgid "Win payout if %1 does not touch %4 through %3 after %2."
+msgid "Win payout if %1 does not touch %4 through %plural(%3,%d tick,%d ticks) after %2."
+msgstr "Получить выплату, если %1 не коснется %4 до %3 после %2."
+
 msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "Получить выплату, если %1 будет выше или равно %4 через %3 после %2."
 
@@ -4569,6 +4605,11 @@ msgstr "Выиграйте %6, помноженные на %5 от макс. ц�
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "Получить выплату, если последняя цифра %1 не будет %4 после %plural(%3,%d тика, %d тиков, %d тиков)."
+
+#, fuzzy
+#| msgid "Win payout if %1 touches %4 through %3 after %2."
+msgid "Win payout if %1 touches %4 through %plural(%3,%d tick,%d ticks) after %2."
+msgstr "Получить выплату, если %1 коснется %4 до %3 после %2."
 
 msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
 msgstr "Получить выплату, если последняя цифра %1 будет строго выше %4 после %3 тиков."
@@ -4727,11 +4768,11 @@ msgstr "Контракты не предлагаются на данный пе�
 msgid "%1 is not allowed for residence of %2."
 msgstr "Извините, %1 не разрешен для резидентов %2."
 
-msgid "We could not process this contract at this time."
-msgstr "Мы не смогли обработать данный контракт в настоящее время."
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Неправильная длительность (тики) для данного типа контракта (%1)."
+
+msgid "We could not process this contract at this time."
+msgstr "Мы не смогли обработать данный контракт в настоящее время."
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "Верхний барьер вне допустимых рамок. Пожалуйста, измените верхний барьер."
@@ -4821,6 +4862,9 @@ msgstr "Торговля приостановлена из-за отсутств
 msgid "An error occurred during contract settlement."
 msgstr "При расчёте контракта возникла ошибка."
 
+msgid "Invalid barrier."
+msgstr "Неправильный барьер."
+
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "Торговля приостановлена из-за отсутствия рыночных данных (дивидендов)."
 
@@ -4831,9 +4875,6 @@ msgstr "Барьер должен быть целым числом."
 
 msgid "Invalid expiry time."
 msgstr "Неправильное время окончания."
-
-msgid "Invalid barrier."
-msgstr "Неправильный барьер."
 
 # 83%
 # 100%
@@ -5192,9 +5233,6 @@ msgstr "Извините, у Вас уже было слишком много н
 
 #~ msgid "Please enter a number between 0 and %1."
 #~ msgstr "Пожалуйста, введите цифру от 0 до %1."
-
-#~ msgid "Proceeded as %1"
-#~ msgstr "Продолжено как %1"
 
 #~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 #~ msgstr "Извините, оплата через платежных агентов временно недоступна, ввиду технических работ в системе. Пожалуйста, попробуйте еще раз через 30 минут."
@@ -7019,9 +7057,6 @@ msgstr "Извините, у Вас уже было слишком много н
 
 #~ msgid "Update"
 #~ msgstr "Обновить"
-
-#~ msgid "Verification Token"
-#~ msgstr "Проверочный токен"
 
 #~ msgid "Verification code format incorrect."
 #~ msgstr "Неправильный формат кода проверки личности."
@@ -9652,9 +9687,6 @@ msgstr "Извините, у Вас уже было слишком много н
 
 #~ msgid "Eliminating Antisocial Forces"
 #~ msgstr "Eliminating Antisocial Forces"
-
-#~ msgid "Email Verification"
-#~ msgstr "Верификация эл.адреса"
 
 #~ msgid "Email: "
 #~ msgstr "Email: "
@@ -14132,9 +14164,6 @@ msgstr "Извините, у Вас уже было слишком много н
 
 #~ msgid "Please enter the first line of your home address."
 #~ msgstr "Пожалуйста, введите первую строку Вашего домашнего адреса."
-
-#~ msgid "Please enter your first name."
-#~ msgstr "Пожалуйста, введите Ваше имя."
 
 #~ msgid "Please enter your last name."
 #~ msgstr "Пожалуйста, введите Вашу фамилию."

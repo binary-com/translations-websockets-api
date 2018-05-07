@@ -868,6 +868,16 @@ msgstr "無法找到"
 msgid "Note: You will be able to withdraw your bonus of %1%2 only once your aggregate volume of trades exceeds %1%3. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
 msgstr "注：僅當您的交易總額超過%1%3時，您才能夠提取您的獎金%1%2。此限制僅適用於由此產生的獎金和收益。由此產生的所有其他存款和收益可隨時提取。"
 
+#, fuzzy
+#| msgid "Email Verification"
+msgid "OTP Verification"
+msgstr "電子郵件驗證"
+
+#, fuzzy
+#| msgid "Checksum verification failed."
+msgid "OTP verification failed"
+msgstr "校驗和驗證失敗。"
+
 msgid "Old password is wrong."
 msgstr "舊密碼不正確。"
 
@@ -1043,6 +1053,11 @@ msgstr "請輸入日期，格式為年-月-日。"
 msgid "Please enter your email address."
 msgstr "請輸入您的電郵地址。"
 
+#, fuzzy
+#| msgid "Please enter your first name."
+msgid "Please enter your verification code"
+msgstr "請輸入您的名。"
+
 msgid "Please log in."
 msgstr "請登入。"
 
@@ -1126,6 +1141,11 @@ msgstr "以上地址僅能使用一次。"
 
 msgid "Postcode is required for UK residents."
 msgstr "英國居民需提供郵遞區號。"
+
+#, fuzzy
+#| msgid "Proceeded as %1"
+msgid "Proceed"
+msgstr "執行為%1"
 
 msgid "Provided amount is not within permissible limits."
 msgstr "輸入的數目已超出允許範圍。"
@@ -1324,6 +1344,12 @@ msgstr "銀行國際代碼"
 
 msgid "Symbol %1 invalid."
 msgstr "%1符號無效。"
+
+msgid "TOTP based 2FA is already disabled."
+msgstr ""
+
+msgid "TOTP based 2FA is already enabled."
+msgstr ""
 
 msgid "Tax identification number"
 msgstr "稅務識別號"
@@ -1569,6 +1595,11 @@ msgstr "account_opening_reason值無法修改。"
 
 msgid "Value of place_of_birth cannot be changed."
 msgstr "place_of_birth值無法修改。"
+
+#, fuzzy
+#| msgid "Verification Token"
+msgid "Verification Code"
+msgstr "驗證權杖"
 
 msgid "Verify your email address - %1"
 msgstr "驗證您的電子郵件地址 - %1"
@@ -4525,6 +4556,11 @@ msgstr "如果%1在%2之後的%3時收盤嚴格處於%5至%4之間，將獲得�
 msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
 msgstr "如果%1在%3之後嚴格低於入場價或%5，將獲得賠付額。"
 
+#, fuzzy
+#| msgid "Win payout if %1 does not touch %4 through %3 after %2."
+msgid "Win payout if %1 does not touch %4 through %plural(%3,%d tick,%d ticks) after %2."
+msgstr "如果%1在%2之後到%3時未觸及%4，將獲得賠付額。"
+
 msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "如果%1在%2之後到%3時高於或等於%4，將獲得賠付額。"
 
@@ -4551,6 +4587,11 @@ msgstr "在接下來的%3內贏取%6 %5乘以%1的最高值減收盤值。"
 
 msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
 msgstr "如果%1的最後數字在%plural(%3,%d 跳動點)後不是%4，將獲得賠付額。"
+
+#, fuzzy
+#| msgid "Win payout if %1 touches %4 through %3 after %2."
+msgid "Win payout if %1 touches %4 through %plural(%3,%d tick,%d ticks) after %2."
+msgstr "如果%1在%2過後一直到%3時觸及%4，將獲得賠付額。"
 
 msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
 msgstr "如果%1的最後數字在%3跳動點之後嚴格高於%4，將獲得賠付額。"
@@ -4709,11 +4750,11 @@ msgstr "不在此段期間提供交易。"
 msgid "%1 is not allowed for residence of %2."
 msgstr "%2居民不可進行%1。"
 
-msgid "We could not process this contract at this time."
-msgstr "目前我們無法處理該合約。"
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "合約類型(%1)無效持續時間(跳動點)。"
+
+msgid "We could not process this contract at this time."
+msgstr "目前我們無法處理該合約。"
 
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "高障礙價格不在可接受的範圍內。請調整高障礙價格。"
@@ -4796,6 +4837,9 @@ msgstr "由於市場資料丟失(與現貨價相距太遠)，交易暫停。"
 msgid "An error occurred during contract settlement."
 msgstr "合約結算時出錯。"
 
+msgid "Invalid barrier."
+msgstr "無效障礙。"
+
 msgid "Trading is suspended due to missing market (dividend) data."
 msgstr "由於市場資料丟失(紅利)，交易暫停。"
 
@@ -4806,9 +4850,6 @@ msgstr "障礙至少必須是整數。"
 
 msgid "Invalid expiry time."
 msgstr "無效到期時間。"
-
-msgid "Invalid barrier."
-msgstr "無效障礙。"
 
 msgid "Missing required contract parameters (currency)."
 msgstr "遺漏所需合約參數(貨幣)。"
@@ -5149,9 +5190,6 @@ msgstr "對不起，您的失敗嘗試次數過多。請5分鐘後再試。"
 
 #~ msgid "Please enter a number between 0 and %1."
 #~ msgstr "請輸入0和%1之間的數字。"
-
-#~ msgid "Proceeded as %1"
-#~ msgstr "執行為%1"
 
 #~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
 #~ msgstr "對不起，由於系統維護，支付代理轉帳暫停使用。請在30分鐘後重試。"
@@ -6942,9 +6980,6 @@ msgstr "對不起，您的失敗嘗試次數過多。請5分鐘後再試。"
 
 #~ msgid "Update"
 #~ msgstr "更新"
-
-#~ msgid "Verification Token"
-#~ msgstr "驗證權杖"
 
 #~ msgid "Verification code format incorrect."
 #~ msgstr "驗證碼格式不正確。"
@@ -9563,9 +9598,6 @@ msgstr "對不起，您的失敗嘗試次數過多。請5分鐘後再試。"
 
 #~ msgid "Eliminating Antisocial Forces"
 #~ msgstr "Eliminating Antisocial Forces"
-
-#~ msgid "Email Verification"
-#~ msgstr "電子郵件驗證"
 
 #~ msgid "Email: "
 #~ msgstr "電子郵件: "
@@ -14033,9 +14065,6 @@ msgstr "對不起，您的失敗嘗試次數過多。請5分鐘後再試。"
 
 #~ msgid "Please enter the first line of your home address."
 #~ msgstr "請輸入您家庭地址的第一行。"
-
-#~ msgid "Please enter your first name."
-#~ msgstr "請輸入您的名。"
 
 #~ msgid "Please enter your last name."
 #~ msgstr "請輸入您的姓。"
