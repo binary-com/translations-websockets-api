@@ -212,6 +212,9 @@ msgstr "Thay đổi trong thiết lập tài khoản"
 msgid "Checksum verification failed."
 msgstr "Kiểm tra xác minh thất bại."
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "Kết thúc sớm (tại %1)"
 
@@ -565,9 +568,6 @@ msgstr "Xác thực đầu vào thất bại: address_postcode"
 msgid "Internal server error"
 msgstr "Lỗi máy chủ nội bộ"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "Đơn vị tiền tệ MT5 không hợp lệ - có %1 và nên là USD hoặc EUR."
-
 msgid "Invalid URL"
 msgstr "Đường dẫn không hợp lệ"
 
@@ -678,6 +678,11 @@ msgstr "Bạn đã mất mật khẩu?"
 
 msgid "MT5 API calls are suspended."
 msgstr "Cuộc gọi API MT5 bị tạm ngưng."
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid "MT5 account is locked"
+msgstr "Tài khoản của bạn bị vô hiệu hóa."
 
 msgid "Max 30 tokens are allowed."
 msgstr "Tối đa 30 token được cho phép."
@@ -967,6 +972,11 @@ msgstr "Vui lòng chọn"
 
 msgid "Please set currency for existsing account %1."
 msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản %1 đã tồn tại ."
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
+msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản đã tồn tại của bạn %1."
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản %1 đã tồn tại của bạn, để có thể tạo thêm tài khoản."
@@ -1366,6 +1376,9 @@ msgstr "Nhà giao dịch không được phép sao chép giao dịch."
 
 msgid "Trading"
 msgstr "Giao dịch"
+
+msgid "Trading is not offered for this duration."
+msgstr "Giao dịch không được cung cấp trong thời gian này."
 
 msgid "Trading is suspended for this instrument."
 msgstr "Giao dịch cho công cụ này hiện đang bị tạm ngừng."
@@ -1859,9 +1872,6 @@ msgstr "EUR/TRY"
 
 msgid "DAI/CHF"
 msgstr "DAI/CHF"
-
-msgid "AUD/PLN"
-msgstr "AUD/PLN"
 
 msgid "LTC/INR"
 msgstr "LTC/INR"
@@ -2420,11 +2430,11 @@ msgstr "EUR/GBP"
 msgid "BTC/INR"
 msgstr "BTC/INR"
 
-msgid "BTC/KRW"
-msgstr "BTC/KRW"
-
 msgid "AUD Index"
 msgstr "Chỉ số AUD"
+
+msgid "BTC/KRW"
+msgstr "BTC/KRW"
 
 msgid "ETH/EGP"
 msgstr "ETH/EGP"
@@ -2505,14 +2515,14 @@ msgstr "ETH/JPY"
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
 
-msgid "BTC/PLN"
-msgstr "BTC/PLN"
-
 msgid "GBP Index"
 msgstr "Chỉ số GBP"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
+
+msgid "BTC/PLN"
+msgstr "BTC/PLN"
 
 msgid "LTC/HKD"
 msgstr "LTC/HKD"
@@ -2547,11 +2557,11 @@ msgstr "BCH/KRW"
 msgid "DAI/CNY"
 msgstr "DAI/CNY"
 
-msgid "BCH/NOK"
-msgstr "BCH/NOK"
-
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+msgid "BCH/NOK"
+msgstr "BCH/NOK"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
@@ -2583,11 +2593,11 @@ msgstr "GBP/IDR"
 msgid "LTC/XPD"
 msgstr "LTC/XPD"
 
-msgid "BTC/GBP"
-msgstr "BTC/GBP"
-
 msgid "USD/SEK"
 msgstr "USD/SEK"
+
+msgid "BTC/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETC/MXN"
 msgstr "ETC/MXN"
@@ -2628,11 +2638,11 @@ msgstr "BTC/BRL"
 msgid "ETC/INR"
 msgstr "ETC/INR"
 
-msgid "BTC/NOK"
-msgstr "BTC/NOK"
-
 msgid "AUD/INR"
 msgstr "AUD/INR"
+
+msgid "BTC/NOK"
+msgstr "BTC/NOK"
 
 msgid "Wall Street OTC Index"
 msgstr "Chỉ số chứng khoán phi tập trung phố Wall"
@@ -2651,9 +2661,6 @@ msgstr "AP thông thường"
 
 msgid "French Smart Index"
 msgstr "Chỉ số thông minh Pháp"
-
-msgid "Jakarta Index"
-msgstr "Chỉ số chứng khoán Jakarta"
 
 msgid "US OTC Index"
 msgstr "Chỉ số chứng khoán phi tập trung Hoa Kỳ"
@@ -2711,9 +2718,6 @@ msgstr "Chỉ số chứng khoán Bồ Đào Nha"
 
 msgid "Swiss OTC Index"
 msgstr "Chỉ số chứng khoán phi tập trung Thụy Sỹ"
-
-msgid "Wall Street Index"
-msgstr "Chỉ số chứng khoán phố Wall"
 
 msgid "Saudi Arabia Index"
 msgstr "Chỉ số chứng khoán Ả Rập"
@@ -2937,14 +2941,8 @@ msgstr "Chỉ số"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "Các chỉ số đại diện cho giá trị tính theo tỉ trọng của các công ty giao dịch trên cùng một thị trường."
 
-msgid "Futures"
-msgstr "Tương lai"
-
 msgid "Energy"
 msgstr "Năng lượng"
-
-msgid "Asia/Oceania Future"
-msgstr "Tương lai châu Á/châu Đại Dương"
 
 msgid "Smart FX"
 msgstr "Thị trường ngoại hối Thông minh"
@@ -2960,9 +2958,6 @@ msgstr "Chỉ số tổng hợp"
 
 msgid "Synthetic Indices"
 msgstr "Những chỉ số tổng hợp"
-
-msgid "Americas Future"
-msgstr "Hợp đồng tương lai Mỹ"
 
 msgid "Major Pairs"
 msgstr "Cặp tiền tệ chính"
@@ -3008,9 +3003,6 @@ msgstr "Liên kết với một số đại diện cho sự biến động tươ
 
 msgid "Metals"
 msgstr "Kim loại"
-
-msgid "Europe/Africa Future"
-msgstr "Hợp đồng Tương lai Châu Âu/Châu Phi"
 
 msgid "config-only"
 msgstr "Cấu hình-chỉ"
@@ -3441,9 +3433,6 @@ msgstr "Rào chắn tuyệt đối không thể là 0."
 msgid "This contract has already expired."
 msgstr "Hợp đồng này đã hết hạn."
 
-msgid "Trading is not offered for this duration."
-msgstr "Giao dịch không được cung cấp trong thời gian này."
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 không được phép cho dân cư của %2."
 
@@ -3744,6 +3733,11 @@ msgstr "Phù hợp/Khác"
 msgid "Low"
 msgstr "Thấp"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "Giá giao ngay hiện tại"
+
 msgid "Fridays"
 msgstr "Thứ Sáu"
 
@@ -3752,6 +3746,11 @@ msgstr "Hòa vốn/ Số dư"
 
 msgid "Entry Spot"
 msgstr "Giá khởi điểm"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "Giá Giao ngay thoát ra"
 
 msgid "ATM"
 msgstr "ATM"
@@ -3800,6 +3799,30 @@ msgstr "Chưa nhập email."
 
 msgid "Password not given."
 msgstr "Chưa nhập mật khẩu."
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "Đơn vị tiền tệ MT5 không hợp lệ - có %1 và nên là USD hoặc EUR."
+
+#~ msgid "AUD/PLN"
+#~ msgstr "AUD/PLN"
+
+#~ msgid "Jakarta Index"
+#~ msgstr "Chỉ số chứng khoán Jakarta"
+
+#~ msgid "Wall Street Index"
+#~ msgstr "Chỉ số chứng khoán phố Wall"
+
+#~ msgid "Futures"
+#~ msgstr "Tương lai"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "Tương lai châu Á/châu Đại Dương"
+
+#~ msgid "Americas Future"
+#~ msgstr "Hợp đồng tương lai Mỹ"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "Hợp đồng Tương lai Châu Âu/Châu Phi"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "Xin vui lòng xác thực tài khoản của bạn để gia tăng giới hạn doanh thu ngày của bạn."
@@ -13826,9 +13849,6 @@ msgstr "Chưa nhập mật khẩu."
 
 #~ msgid "Cash Dividend"
 #~ msgstr "Cổ tức chia bằng tiền mặt"
-
-#~ msgid "Current Spot"
-#~ msgstr "Giá giao ngay hiện tại"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "Thời điểm giao ngay thông dụng"
