@@ -209,6 +209,9 @@ msgstr "Changement dans les paramètres du compte"
 msgid "Checksum verification failed."
 msgstr "La vérification de la somme de contrôle a échoué."
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "Ferme tôt (à %1)"
 
@@ -558,9 +561,6 @@ msgstr "Échec de validation de la saisie : address_postcode"
 msgid "Internal server error"
 msgstr "Erreur interne du serveur"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "Monnaie MT5 non valide - a %1 et devrait être en USD ou en EUR."
-
 msgid "Invalid URL"
 msgstr "URL non valide"
 
@@ -671,6 +671,11 @@ msgstr "Mot de passe perdu ?"
 
 msgid "MT5 API calls are suspended."
 msgstr "Les appels d'API MT5 sont suspendus."
+
+#, fuzzy
+#| msgid "Your account is closed."
+msgid "MT5 account is locked"
+msgstr "Votre compte est clôturé."
 
 msgid "Max 30 tokens are allowed."
 msgstr "Un maximum de 30 jetons est autorisé."
@@ -959,6 +964,11 @@ msgid "Please select"
 msgstr "Sélection"
 
 msgid "Please set currency for existsing account %1."
+msgstr "Veuillez sélectionner une devise pour votre compte existant %1."
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
 msgstr "Veuillez sélectionner une devise pour votre compte existant %1."
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
@@ -1359,6 +1369,9 @@ msgstr "Les traders ne sont pas autorisés à utiliser le copy trading."
 
 msgid "Trading"
 msgstr "Trading"
+
+msgid "Trading is not offered for this duration."
+msgstr "Cette opération n'est pas disponible pour cette durée."
 
 msgid "Trading is suspended for this instrument."
 msgstr "Le trading est suspendu pour cet instrument."
@@ -1844,9 +1857,6 @@ msgstr "EUR/TRY"
 
 msgid "DAI/CHF"
 msgstr "DAI/CHF"
-
-msgid "AUD/PLN"
-msgstr "AUD/PLN"
 
 msgid "LTC/INR"
 msgstr "LTC/INR"
@@ -2400,11 +2410,11 @@ msgstr "EUR/GBP"
 msgid "BTC/INR"
 msgstr "BTC/INR"
 
-msgid "BTC/KRW"
-msgstr "BTC/KRW"
-
 msgid "AUD Index"
 msgstr "Indice AUD"
+
+msgid "BTC/KRW"
+msgstr "BTC/KRW"
 
 msgid "ETH/EGP"
 msgstr "ETH/EGP"
@@ -2484,14 +2494,14 @@ msgstr "ETH/JPY"
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
 
-msgid "BTC/PLN"
-msgstr "BTC/PLN"
-
 msgid "GBP Index"
 msgstr "Indice GBP"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
+
+msgid "BTC/PLN"
+msgstr "BTC/PLN"
 
 msgid "LTC/HKD"
 msgstr "LTC/HKD"
@@ -2526,11 +2536,11 @@ msgstr "BCH/KRW"
 msgid "DAI/CNY"
 msgstr "DAI/CNY"
 
-msgid "BCH/NOK"
-msgstr "BCH/NOK"
-
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+msgid "BCH/NOK"
+msgstr "BCH/NOK"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
@@ -2562,11 +2572,11 @@ msgstr "GBP/IDR"
 msgid "LTC/XPD"
 msgstr "LTC/XPD"
 
-msgid "BTC/GBP"
-msgstr "BTC/GBP"
-
 msgid "USD/SEK"
 msgstr "USD/SEK"
+
+msgid "BTC/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETC/MXN"
 msgstr "ETC/MXN"
@@ -2607,11 +2617,11 @@ msgstr "BTC/BRL"
 msgid "ETC/INR"
 msgstr "EUR/INR"
 
-msgid "BTC/NOK"
-msgstr "BTC/NOK"
-
 msgid "AUD/INR"
 msgstr "AUD/INR"
+
+msgid "BTC/NOK"
+msgstr "BTC/NOK"
 
 msgid "Wall Street OTC Index"
 msgstr "Indice OTC Wall Street"
@@ -2630,9 +2640,6 @@ msgstr "AP Ordinaire"
 
 msgid "French Smart Index"
 msgstr "Indice Intelligent France"
-
-msgid "Jakarta Index"
-msgstr "Indice Jakarta"
 
 msgid "US OTC Index"
 msgstr "Indice OTC États-Unis"
@@ -2692,9 +2699,6 @@ msgstr "Indice Portugal"
 
 msgid "Swiss OTC Index"
 msgstr "Indice OTC Suisse"
-
-msgid "Wall Street Index"
-msgstr "Indice Wall Street"
 
 msgid "Saudi Arabia Index"
 msgstr "Indice Arabie saoudite"
@@ -2920,14 +2924,8 @@ msgstr "Indices"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "Les indices représentent la valeur pondérée d'un ensemble de sociétés habituellement négociées sur le même marché."
 
-msgid "Futures"
-msgstr "Contrats à terme"
-
 msgid "Energy"
 msgstr "Énergie"
-
-msgid "Asia/Oceania Future"
-msgstr "Contrat à terme Asie/Océanie"
 
 msgid "Smart FX"
 msgstr "FX Intelligent"
@@ -2943,9 +2941,6 @@ msgstr "Indice Synthétique"
 
 msgid "Synthetic Indices"
 msgstr "Indices Synthétiques"
-
-msgid "Americas Future"
-msgstr "Contrat à terme Amérique"
 
 msgid "Major Pairs"
 msgstr "Paires majeures"
@@ -2991,9 +2986,6 @@ msgstr "Associé à un nombre qui représente la volatilité relative du marché
 
 msgid "Metals"
 msgstr "Métaux"
-
-msgid "Europe/Africa Future"
-msgstr "Contrat à terme Europe/Afrique"
 
 msgid "config-only"
 msgstr "config-only"
@@ -3424,9 +3416,6 @@ msgstr "La barrière absolue ne peut pas être zéro."
 msgid "This contract has already expired."
 msgstr "Ce contrat a déjà expiré."
 
-msgid "Trading is not offered for this duration."
-msgstr "Cette opération n'est pas disponible pour cette durée."
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 n’est pas autorisé pour la résidence de %2."
 
@@ -3727,6 +3716,11 @@ msgstr "Égal/Différent"
 msgid "Low"
 msgstr "Inférieur"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "Au comptant courant"
+
 msgid "Fridays"
 msgstr "Vendredis"
 
@@ -3735,6 +3729,11 @@ msgstr "Pair/Impair"
 
 msgid "Entry Spot"
 msgstr "Point d'Entrée"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "Point de Sortie"
 
 msgid "ATM"
 msgstr "ATM"
@@ -3783,6 +3782,30 @@ msgstr "E-mail non fourni."
 
 msgid "Password not given."
 msgstr "Mot de passe non fourni."
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "Monnaie MT5 non valide - a %1 et devrait être en USD ou en EUR."
+
+#~ msgid "AUD/PLN"
+#~ msgstr "AUD/PLN"
+
+#~ msgid "Jakarta Index"
+#~ msgstr "Indice Jakarta"
+
+#~ msgid "Wall Street Index"
+#~ msgstr "Indice Wall Street"
+
+#~ msgid "Futures"
+#~ msgstr "Contrats à terme"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "Contrat à terme Asie/Océanie"
+
+#~ msgid "Americas Future"
+#~ msgstr "Contrat à terme Amérique"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "Contrat à terme Europe/Afrique"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "Veuillez authentifier votre compte afin d'augmenter votre limite de chiffre d'affaires quotidienne."
@@ -13341,9 +13364,6 @@ msgstr "Mot de passe non fourni."
 #~ msgid "Cash Dividend"
 #~ msgstr "Dividende en espèces"
 
-#~ msgid "Current Spot"
-#~ msgstr "Au comptant courant"
-
 #~ msgid "Current Spot Time"
 #~ msgstr "Dernier cours au comptant"
 
@@ -17181,9 +17201,6 @@ msgstr "Mot de passe non fourni."
 
 #~ msgid "You can raise any unresolved disputes you might have with Binary (Europe) Ltd with the Lotteries and Gaming Authority at complaints@lga.com.mt and any disputes with Binary (IOM) Ltd with the alternative dispute resolution entity. The alternative dispute resolution entity for Binary (IOM) Ltd is the Isle of Man Gambling Supervision Commission at gaming@gov.im. In the event of any differences between the English version of this website and any other language, the English version shall prevail."
 #~ msgstr "Vous pouvez soulever n'importe quelle dispute non-résolue que vous pourriez avoir avec Regent Markets (Malte) Ltd avec l’Autorité des Loteries et des Jeux à complaints@lga.com.mt et n'importe quelles disputes avec Binary (IOM) Ltd avec l'entité alternative de résolution de dispute. L'entité alternative de résolution de dispute pour Binary (IOM) Ltd est la Isle of Man Gambling Supervision Commission à gaming@gov.im. Dans le cas de problèmes entre la version anglaise de ce site et n'importe quelle autre langue, la version anglaise l'emportera."
-
-#~ msgid "Your account is closed."
-#~ msgstr "Votre compte est clôturé."
 
 #~ msgid "Account management facilities (under development)"
 #~ msgstr "Compte de la gestion des installations (en cours de développement)"

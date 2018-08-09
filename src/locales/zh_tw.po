@@ -207,6 +207,9 @@ msgstr "帳戶設定更改"
 msgid "Checksum verification failed."
 msgstr "校驗和驗證失敗。"
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "收盤提前（至%1）"
 
@@ -558,9 +561,6 @@ msgstr "輸入驗證失敗: address_postcode"
 msgid "Internal server error"
 msgstr "內部伺服器出錯"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "無效MT5貨幣- 含%1 ，且必須是美元或歐元。"
-
 msgid "Invalid URL"
 msgstr "無效網址"
 
@@ -671,6 +671,11 @@ msgstr "丟失密碼？"
 
 msgid "MT5 API calls are suspended."
 msgstr "MT5 API 通話暫停。"
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid "MT5 account is locked"
+msgstr "您的帳戶已被禁用。"
 
 msgid "Max 30 tokens are allowed."
 msgstr "最多可擁有30個權杖。"
@@ -960,6 +965,11 @@ msgstr "請選擇"
 
 msgid "Please set currency for existsing account %1."
 msgstr "請設定當前帳戶%1的貨幣。"
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
+msgstr "請設定您當前帳戶%1的貨幣。"
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "請設定您當前帳戶%1的貨幣以建立更多帳戶。"
@@ -1359,6 +1369,9 @@ msgstr "交易者不可複製交易。"
 
 msgid "Trading"
 msgstr "交易"
+
+msgid "Trading is not offered for this duration."
+msgstr "不在此段期間提供交易。"
 
 msgid "Trading is suspended for this instrument."
 msgstr "此工具目前暫停交易。"
@@ -1846,9 +1859,6 @@ msgstr "歐元/土耳其里拉"
 
 msgid "DAI/CHF"
 msgstr "DAI/瑞士法郎"
-
-msgid "AUD/PLN"
-msgstr "澳元/波蘭兹羅提"
 
 msgid "LTC/INR"
 msgstr "萊特幣/印度盧比"
@@ -2407,11 +2417,11 @@ msgstr "歐元/英鎊"
 msgid "BTC/INR"
 msgstr "比特幣/印度盧比"
 
-msgid "BTC/KRW"
-msgstr "比特幣/韓元"
-
 msgid "AUD Index"
 msgstr "澳元指數"
+
+msgid "BTC/KRW"
+msgstr "比特幣/韓元"
 
 msgid "ETH/EGP"
 msgstr "以太幣/埃及磅"
@@ -2492,14 +2502,14 @@ msgstr "以太幣/日圓"
 msgid "ETH/MXN"
 msgstr "以太幣/墨西哥披索"
 
-msgid "BTC/PLN"
-msgstr "比特幣/波蘭茲羅提"
-
 msgid "GBP Index"
 msgstr "英鎊指數"
 
 msgid "USD/TRY"
 msgstr "美元/土耳其里拉"
+
+msgid "BTC/PLN"
+msgstr "比特幣/波蘭茲羅提"
 
 msgid "LTC/HKD"
 msgstr "萊特幣/港元"
@@ -2534,11 +2544,11 @@ msgstr "比特幣現金/韓元"
 msgid "DAI/CNY"
 msgstr "DAi/人民幣"
 
-msgid "BCH/NOK"
-msgstr "比特幣現金/挪威克朗"
-
 msgid "AUD/SEK"
 msgstr "澳元/瑞典克朗"
+
+msgid "BCH/NOK"
+msgstr "比特幣現金/挪威克朗"
 
 msgid "EUR/CAD"
 msgstr "歐元/加元"
@@ -2570,11 +2580,11 @@ msgstr "英鎊/印度尼西亞盧比"
 msgid "LTC/XPD"
 msgstr "萊特幣/鈀(盎司)"
 
-msgid "BTC/GBP"
-msgstr "比特幣/英鎊"
-
 msgid "USD/SEK"
 msgstr "美元/瑞典克朗"
+
+msgid "BTC/GBP"
+msgstr "比特幣/英鎊"
 
 msgid "ETC/MXN"
 msgstr "以太幣/墨西哥披索"
@@ -2615,11 +2625,11 @@ msgstr "比特幣/巴西雷亞爾"
 msgid "ETC/INR"
 msgstr "以太幣/印度盧比"
 
-msgid "BTC/NOK"
-msgstr "比特幣/挪威克朗"
-
 msgid "AUD/INR"
 msgstr "澳元/印度盧比"
+
+msgid "BTC/NOK"
+msgstr "比特幣/挪威克朗"
 
 msgid "Wall Street OTC Index"
 msgstr "華爾街場外交易指數"
@@ -2638,9 +2648,6 @@ msgstr "AP普通股票指數"
 
 msgid "French Smart Index"
 msgstr "法國智慧指數"
-
-msgid "Jakarta Index"
-msgstr "雅加達指數"
 
 msgid "US OTC Index"
 msgstr "美國場外交易指數"
@@ -2698,9 +2705,6 @@ msgstr "葡萄牙指數"
 
 msgid "Swiss OTC Index"
 msgstr "瑞士場外交易指數"
-
-msgid "Wall Street Index"
-msgstr "華爾街指數"
 
 msgid "Saudi Arabia Index"
 msgstr "沙地阿拉伯指數"
@@ -2924,14 +2928,8 @@ msgstr "指數"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "指數是指一籃子公司的加權價值，這些公司通常在同一交易所上市交易。"
 
-msgid "Futures"
-msgstr "期貨"
-
 msgid "Energy"
 msgstr "能源"
-
-msgid "Asia/Oceania Future"
-msgstr "亞洲/大洋洲期貨"
 
 msgid "Smart FX"
 msgstr "智慧外匯"
@@ -2947,9 +2945,6 @@ msgstr "綜合指數"
 
 msgid "Synthetic Indices"
 msgstr "綜合指數"
-
-msgid "Americas Future"
-msgstr "美洲期貨"
 
 msgid "Major Pairs"
 msgstr "主要貨幣對"
@@ -2995,9 +2990,6 @@ msgstr "與代表市場相對波動率的數字相關聯。比如，波動率100
 
 msgid "Metals"
 msgstr "金屬"
-
-msgid "Europe/Africa Future"
-msgstr "歐洲/非洲期貨"
 
 msgid "config-only"
 msgstr "僅設定"
@@ -3428,9 +3420,6 @@ msgstr "絕對障礙不可為零。"
 msgid "This contract has already expired."
 msgstr "合約已經到期。"
 
-msgid "Trading is not offered for this duration."
-msgstr "不在此段期間提供交易。"
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "%2居民不可進行%1。"
 
@@ -3731,6 +3720,11 @@ msgstr "相符/差異"
 msgid "Low"
 msgstr "低"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "目前現貨價格"
+
 msgid "Fridays"
 msgstr "星期五"
 
@@ -3739,6 +3733,11 @@ msgstr "偶/奇"
 
 msgid "Entry Spot"
 msgstr "入市現價"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "退出現價"
 
 msgid "ATM"
 msgstr "ATM"
@@ -3787,6 +3786,30 @@ msgstr "未輸入電子郵件地址 。"
 
 msgid "Password not given."
 msgstr "未輸入密碼。"
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "無效MT5貨幣- 含%1 ，且必須是美元或歐元。"
+
+#~ msgid "AUD/PLN"
+#~ msgstr "澳元/波蘭兹羅提"
+
+#~ msgid "Jakarta Index"
+#~ msgstr "雅加達指數"
+
+#~ msgid "Wall Street Index"
+#~ msgstr "華爾街指數"
+
+#~ msgid "Futures"
+#~ msgstr "期貨"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "亞洲/大洋洲期貨"
+
+#~ msgid "Americas Future"
+#~ msgstr "美洲期貨"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "歐洲/非洲期貨"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "如要增加每日交易限額，請驗證您的帳戶。"
@@ -13788,9 +13811,6 @@ msgstr "未輸入密碼。"
 
 #~ msgid "Cash Dividend"
 #~ msgstr "現金紅利"
-
-#~ msgid "Current Spot"
-#~ msgstr "目前現貨價格"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "目前現貨時間"
