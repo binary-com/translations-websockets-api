@@ -212,6 +212,9 @@ msgstr "Perubahan pengaturan akun"
 msgid "Checksum verification failed."
 msgstr "Pengecekan verifikasi gagal."
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "Ditutup awal (pada %1)"
 
@@ -563,9 +566,6 @@ msgstr "Validasi input gagal: address_postcode"
 msgid "Internal server error"
 msgstr "Error server internal"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "Mata uang MT5 tidak valid - memiliki %1 dan harus dalam USD atau EUR."
-
 msgid "Invalid URL"
 msgstr "URL salah"
 
@@ -676,6 +676,11 @@ msgstr "Lupa Kata Sandi?"
 
 msgid "MT5 API calls are suspended."
 msgstr "Panggilan API MT5 dibatalkan."
+
+#, fuzzy
+#| msgid "Your account is closed."
+msgid "MT5 account is locked"
+msgstr "Akun anda ditutup."
 
 msgid "Max 30 tokens are allowed."
 msgstr "Max 30 token diperbolehkan."
@@ -965,6 +970,11 @@ msgstr "Tolong pilih"
 
 msgid "Please set currency for existsing account %1."
 msgstr "Silahkan pilih mata uang pada akun %1 Anda."
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
+msgstr "Silahkan pilih mata uang untuk akun %1 Anda."
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Pilih mata uang pada akun %1 Anda yang sudah ada, untuk membuat akun akun lainnya."
@@ -1364,6 +1374,9 @@ msgstr "Trader tidak dibenarkan untuk mengcopy trading."
 
 msgid "Trading"
 msgstr "Trading"
+
+msgid "Trading is not offered for this duration."
+msgstr "Trading tidak ditawarkan untuk durasi ini."
 
 msgid "Trading is suspended for this instrument."
 msgstr "Trading ditangguhkan untuk instrumen ini."
@@ -2405,11 +2418,11 @@ msgstr "EUR/GBP"
 msgid "BTC/INR"
 msgstr "BTC/INR"
 
-msgid "BTC/KRW"
-msgstr "BTC/KRW"
-
 msgid "AUD Index"
 msgstr "Indeks AUD"
+
+msgid "BTC/KRW"
+msgstr "BTC/KRW"
 
 msgid "ETH/EGP"
 msgstr "ETH/EGP"
@@ -2489,14 +2502,14 @@ msgstr "ETH/JPY"
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
 
-msgid "BTC/PLN"
-msgstr "BTC/PLN"
-
 msgid "GBP Index"
 msgstr "Indeks GBP"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
+
+msgid "BTC/PLN"
+msgstr "BTC/PLN"
 
 msgid "LTC/HKD"
 msgstr "LTC/HKD"
@@ -2531,11 +2544,11 @@ msgstr "BCH/KRW"
 msgid "DAI/CNY"
 msgstr "DAI/CNY"
 
-msgid "BCH/NOK"
-msgstr "BCH/NOK"
-
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+msgid "BCH/NOK"
+msgstr "BCH/NOK"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
@@ -2567,11 +2580,11 @@ msgstr "GBP/IDR"
 msgid "LTC/XPD"
 msgstr "LTC/XPD"
 
-msgid "BTC/GBP"
-msgstr "BTC/GBP"
-
 msgid "USD/SEK"
 msgstr "USD/SEK"
+
+msgid "BTC/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETC/MXN"
 msgstr "ETC/MXN"
@@ -2612,11 +2625,11 @@ msgstr "BTC/BRL"
 msgid "ETC/INR"
 msgstr "ETC/INR"
 
-msgid "BTC/NOK"
-msgstr "BTC/NOK"
-
 msgid "AUD/INR"
 msgstr "AUD/INR"
+
+msgid "BTC/NOK"
+msgstr "BTC/NOK"
 
 msgid "Wall Street OTC Index"
 msgstr "Indeks OTC Wall Street"
@@ -2921,14 +2934,8 @@ msgstr "Indeks"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "Indeks merupakan pertimbangan nilai beberapa perusahaan, biasanya diperdagangkan pada bursa yang sama."
 
-msgid "Futures"
-msgstr "Fasilitas"
-
 msgid "Energy"
 msgstr "Energi"
-
-msgid "Asia/Oceania Future"
-msgstr "Berjangka Asia/Oceania"
 
 msgid "Smart FX"
 msgstr "FX Smart"
@@ -2944,9 +2951,6 @@ msgstr "Indeks Sintetis"
 
 msgid "Synthetic Indices"
 msgstr "Indeks Sintetis"
-
-msgid "Americas Future"
-msgstr "Berjangka Amerika"
 
 msgid "Major Pairs"
 msgstr "Pasangan Utama"
@@ -2992,9 +2996,6 @@ msgstr "Berhubungan dengan angka yang mewakili volatilitas pasar. Sebagai contoh
 
 msgid "Metals"
 msgstr "Logam"
-
-msgid "Europe/Africa Future"
-msgstr "Berjangka Eropa/Afrika"
 
 msgid "config-only"
 msgstr "konfigurasi-saja"
@@ -3425,9 +3426,6 @@ msgstr "Batasan mutlak tidak boleh nol."
 msgid "This contract has already expired."
 msgstr "Kontrak ini telah berakhir."
 
-msgid "Trading is not offered for this duration."
-msgstr "Trading tidak ditawarkan untuk durasi ini."
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 tidak tersedia bagi penduduk %2."
 
@@ -3784,6 +3782,21 @@ msgstr "Email belum diberikan."
 
 msgid "Password not given."
 msgstr "Kata sandi tidak diberikan."
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "Mata uang MT5 tidak valid - memiliki %1 dan harus dalam USD atau EUR."
+
+#~ msgid "Futures"
+#~ msgstr "Fasilitas"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "Berjangka Asia/Oceania"
+
+#~ msgid "Americas Future"
+#~ msgstr "Berjangka Amerika"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "Berjangka Eropa/Afrika"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "Silakan otentikasi akun Anda untuk meningkatkan batas turnover harian Anda."
@@ -17900,9 +17913,6 @@ msgstr "Kata sandi tidak diberikan."
 
 #~ msgid "You can raise any unresolved disputes you might have with Binary (Europe) Ltd with the Lotteries and Gaming Authority at complaints@lga.com.mt and any disputes with Binary (IOM) Ltd with the alternative dispute resolution entity. The alternative dispute resolution entity for Binary (IOM) Ltd is the Isle of Man Gambling Supervision Commission at gaming@gov.im. In the event of any differences between the English version of this website and any other language, the English version shall prevail."
 #~ msgstr "Anda dapat membawa permasalahan yang belum terselesaikan yang mungkin anda miliki dengan Binary (Europe) Ltd kepada Lotteries dan Gaming Authority melalui email di complaints@lga.com.mt dan permasalahan dengan Binary (IOM) Ltd sebagai lembaga alternatif penyelesaian perkara. Alternatif entitas penyelesaian perkara bagi Binary (IOM) Ltd adalah Komisi Pengawasan Trading Isle of Man di gaming@gov.im. Dalam hal terjadi perbedaan antara versi bahasa Inggris pada situs ini dengan bahasa lain, maka versi bahasa Inggris yang akan berlaku."
-
-#~ msgid "Your account is closed."
-#~ msgstr "Akun anda ditutup."
 
 #~ msgid "Account management facilities (under development)"
 #~ msgstr "Fasilitas Manajemen Akun (dalam pembangunan)"

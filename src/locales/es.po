@@ -213,6 +213,9 @@ msgstr "Cambiar en las preferencias de la cuenta"
 msgid "Checksum verification failed."
 msgstr "Error en la verificación de la suma de chequeo."
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "Cierre anticipado (a las %1)"
 
@@ -563,9 +566,6 @@ msgstr "Fallo de validación de entrada: address_postcode"
 msgid "Internal server error"
 msgstr "Error interno del servidor"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "Moneda MT5 inválida - era %1 y debe ser USD o EUR."
-
 msgid "Invalid URL"
 msgstr "URL no válida"
 
@@ -676,6 +676,11 @@ msgstr "¿Olvidó su Contraseña?"
 
 msgid "MT5 API calls are suspended."
 msgstr "Las llamadas de la API MT5 están suspendidas."
+
+#, fuzzy
+#| msgid "Your account is closed."
+msgid "MT5 account is locked"
+msgstr "Su cuenta está cerrada."
 
 msgid "Max 30 tokens are allowed."
 msgstr "Se permite un máximo de 30 tokens."
@@ -965,6 +970,11 @@ msgstr "Seleccione"
 
 msgid "Please set currency for existsing account %1."
 msgstr "Por favor, seleccione la moneda para su cuenta %1 existente."
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
+msgstr "Por favor, seleccione la divisa para su cuenta %1 existente."
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Defina la moneda de su cuenta %1 existente, para poder crear más cuentas."
@@ -1364,6 +1374,9 @@ msgstr "Está prohibido para los negociadores operar a través de copy trading."
 
 msgid "Trading"
 msgstr "Operar"
+
+msgid "Trading is not offered for this duration."
+msgstr "Operaciones no están disponibles para la duración elegida."
 
 msgid "Trading is suspended for this instrument."
 msgstr "Las operaciones para este instrumento se encuentran suspendidas."
@@ -2406,11 +2419,11 @@ msgstr "EUR/GBP"
 msgid "BTC/INR"
 msgstr "BTC/INR"
 
-msgid "BTC/KRW"
-msgstr "BTC/KRW"
-
 msgid "AUD Index"
 msgstr "Índice AUD"
+
+msgid "BTC/KRW"
+msgstr "BTC/KRW"
 
 msgid "ETH/EGP"
 msgstr "ETH/EGP"
@@ -2490,14 +2503,14 @@ msgstr "ETH/JPY"
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
 
-msgid "BTC/PLN"
-msgstr "BTC/PLN"
-
 msgid "GBP Index"
 msgstr "Índice GBP"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
+
+msgid "BTC/PLN"
+msgstr "BTC/PLN"
 
 msgid "LTC/HKD"
 msgstr "LTC/HKD"
@@ -2532,11 +2545,11 @@ msgstr "BCH/KRW"
 msgid "DAI/CNY"
 msgstr "DAI/CNY"
 
-msgid "BCH/NOK"
-msgstr "BCH/NOK"
-
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+msgid "BCH/NOK"
+msgstr "BCH/NOK"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
@@ -2568,11 +2581,11 @@ msgstr "GBP/IDR"
 msgid "LTC/XPD"
 msgstr "LTC/XPD"
 
-msgid "BTC/GBP"
-msgstr "BTC/GBP"
-
 msgid "USD/SEK"
 msgstr "USD/SEK"
+
+msgid "BTC/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETC/MXN"
 msgstr "ETC/MXN"
@@ -2613,11 +2626,11 @@ msgstr "BTC/BRL"
 msgid "ETC/INR"
 msgstr "ETC/INR"
 
-msgid "BTC/NOK"
-msgstr "BTC/NOK"
-
 msgid "AUD/INR"
 msgstr "AUD/INR"
+
+msgid "BTC/NOK"
+msgstr "BTC/NOK"
 
 msgid "Wall Street OTC Index"
 msgstr "Índice OTC de Wall Street"
@@ -2926,14 +2939,8 @@ msgstr "Índices"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "Los Índices representan el valor ponderado de un conjunto de empresas, normalmente negociadas en la misma bolsa."
 
-msgid "Futures"
-msgstr "Futuros"
-
 msgid "Energy"
 msgstr "Energía"
-
-msgid "Asia/Oceania Future"
-msgstr "Asia/Oceania Future"
 
 msgid "Smart FX"
 msgstr "Smart FX"
@@ -2949,9 +2956,6 @@ msgstr "Índice Synthetic"
 
 msgid "Synthetic Indices"
 msgstr "Índices Synthetic"
-
-msgid "Americas Future"
-msgstr "Americas Future"
 
 msgid "Major Pairs"
 msgstr "Pares mayores"
@@ -2997,9 +3001,6 @@ msgstr "Asociados con un número que representa la volatilidad relativa del merc
 
 msgid "Metals"
 msgstr "Metales"
-
-msgid "Europe/Africa Future"
-msgstr "Europa/Africa Future"
 
 msgid "config-only"
 msgstr "sólo configuración"
@@ -3430,9 +3431,6 @@ msgstr "Barrera absoluta no puede ser cero."
 msgid "This contract has already expired."
 msgstr "Este contrato ya expiró."
 
-msgid "Trading is not offered for this duration."
-msgstr "Operaciones no están disponibles para la duración elegida."
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 no está disponible para residentes de %2."
 
@@ -3789,6 +3787,21 @@ msgstr "No nos ha facilitado su email."
 
 msgid "Password not given."
 msgstr "No se ha escrito ninguna contraseña."
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "Moneda MT5 inválida - era %1 y debe ser USD o EUR."
+
+#~ msgid "Futures"
+#~ msgstr "Futuros"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "Asia/Oceania Future"
+
+#~ msgid "Americas Future"
+#~ msgstr "Americas Future"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "Europa/Africa Future"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "Autentique su cuenta para aumentar su límite diario de volumen de negocios."
@@ -17807,9 +17820,6 @@ msgstr "No se ha escrito ninguna contraseña."
 
 #~ msgid "You can raise any unresolved disputes you might have with Binary (Europe) Ltd with the Lotteries and Gaming Authority at complaints@lga.com.mt and any disputes with Binary (IOM) Ltd with the alternative dispute resolution entity. The alternative dispute resolution entity for Binary (IOM) Ltd is the Isle of Man Gambling Supervision Commission at gaming@gov.im. In the event of any differences between the English version of this website and any other language, the English version shall prevail."
 #~ msgstr "Puede presentar las disputas no resueltas que pueda tener con Regent Mercados (Malta) Ltd ante la Autoridad de Loterías y Juegos de Malta (Lotteries and Gaming Authority) a través de correo electrónico complaints@lga.com.mt y cualquier disputa con Regent Mercados (IOM) Ltd con una entidad de resolución de disputas alternativa. La entidad de resolución de disputas alternativa para Regent Mercados (IOM) Ltd es Isle of Man Gambling Supervision Commission con correo gaming@gov.im. En el caso de haber diferencias entre la versión en inglés de este sitio web y cualquier otro idioma, prevalecerá la versión en inglés."
-
-#~ msgid "Your account is closed."
-#~ msgstr "Su cuenta está cerrada."
 
 #~ msgid "Account management facilities (under development)"
 #~ msgstr "Opciones de gestión de cuentas (en desarrollo)"

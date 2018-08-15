@@ -212,6 +212,9 @@ msgstr "Изменение настроек счета"
 msgid "Checksum verification failed."
 msgstr "Неправильная сумма."
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "Закрывается рано (в %1)"
 
@@ -562,9 +565,6 @@ msgstr "Проверка введенных данных не удалась: а
 msgid "Internal server error"
 msgstr "Внутренняя ошибка сервера"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "Неправильная валюта для MT5 - было %1 и должно быть USD или EUR."
-
 msgid "Invalid URL"
 msgstr "Неверная ссылка"
 
@@ -675,6 +675,11 @@ msgstr "Забыли пароль?"
 
 msgid "MT5 API calls are suspended."
 msgstr "Вызовы MT5 API приостановлены."
+
+#, fuzzy
+#| msgid "Your account is closed."
+msgid "MT5 account is locked"
+msgstr "Ваш счет закрыт."
 
 msgid "Max 30 tokens are allowed."
 msgstr "Максимально разрешено 30 кодов подтверждения."
@@ -964,6 +969,11 @@ msgstr "Выберите"
 
 msgid "Please set currency for existsing account %1."
 msgstr "Пожалуйста, укажите валюту для текущего счёта %1."
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
+msgstr "Пожалуйста, укажите валюту для Вашего текущего счёта %1."
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Пожалуйста, укажите валюту для Вашего текущего счёта %1, чтобы открыть больше счетов."
@@ -1367,6 +1377,9 @@ msgstr "Трейдерам запрещено копирование контр�
 
 msgid "Trading"
 msgstr "Контракты"
+
+msgid "Trading is not offered for this duration."
+msgstr "Контракты не предлагаются на данный период."
 
 msgid "Trading is suspended for this instrument."
 msgstr "Торговля на данном инструменте приостановлена."
@@ -2410,11 +2423,11 @@ msgstr "EUR/GBP"
 msgid "BTC/INR"
 msgstr "BTC/INR"
 
-msgid "BTC/KRW"
-msgstr "BTC/KRW"
-
 msgid "AUD Index"
 msgstr "AUD индекс"
+
+msgid "BTC/KRW"
+msgstr "BTC/KRW"
 
 msgid "ETH/EGP"
 msgstr "ETH/EGP"
@@ -2494,14 +2507,14 @@ msgstr "ETH/JPY"
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
 
-msgid "BTC/PLN"
-msgstr "BTC/PLN"
-
 msgid "GBP Index"
 msgstr "GBP индекс"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
+
+msgid "BTC/PLN"
+msgstr "BTC/PLN"
 
 msgid "LTC/HKD"
 msgstr "LTC/HKD"
@@ -2536,11 +2549,11 @@ msgstr "BCH/KRW"
 msgid "DAI/CNY"
 msgstr "DAI/CNY"
 
-msgid "BCH/NOK"
-msgstr "BCH/NOK"
-
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+msgid "BCH/NOK"
+msgstr "BCH/NOK"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
@@ -2572,11 +2585,11 @@ msgstr "GBP/IDR"
 msgid "LTC/XPD"
 msgstr "LTC/XPD"
 
-msgid "BTC/GBP"
-msgstr "BTC/GBP"
-
 msgid "USD/SEK"
 msgstr "USD/SEK"
+
+msgid "BTC/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETC/MXN"
 msgstr "ETC/MXN"
@@ -2617,11 +2630,11 @@ msgstr "BTC/BRL"
 msgid "ETC/INR"
 msgstr "ETC/INR"
 
-msgid "BTC/NOK"
-msgstr "BTC/NOK"
-
 msgid "AUD/INR"
 msgstr "AUD/INR"
+
+msgid "BTC/NOK"
+msgstr "BTC/NOK"
 
 msgid "Wall Street OTC Index"
 msgstr "Внебиржевой индекс Wall Street"
@@ -2934,14 +2947,8 @@ msgstr "Индексы"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "Индексы представляют собой взвешенную стоимость группы компаний, которые обычно котируются на одной бирже."
 
-msgid "Futures"
-msgstr "Фьючерсы"
-
 msgid "Energy"
 msgstr "Энергия"
-
-msgid "Asia/Oceania Future"
-msgstr "Asia/Oceania Future"
 
 msgid "Smart FX"
 msgstr "Smart FX"
@@ -2957,9 +2964,6 @@ msgstr "Индекс Синтетик"
 
 msgid "Synthetic Indices"
 msgstr "Индексы Синтетик"
-
-msgid "Americas Future"
-msgstr "Americas Future"
 
 msgid "Major Pairs"
 msgstr "Основные пары"
@@ -3005,9 +3009,6 @@ msgstr "Ассоциируется с номером, который отраж�
 
 msgid "Metals"
 msgstr "Металлы"
-
-msgid "Europe/Africa Future"
-msgstr "Europe/Africa Future"
 
 msgid "config-only"
 msgstr "только для конфигурации"
@@ -3438,9 +3439,6 @@ msgstr "Абсолютный барьер не может быть равен н
 msgid "This contract has already expired."
 msgstr "Этот контракт уже закончил свое действие."
 
-msgid "Trading is not offered for this duration."
-msgstr "Контракты не предлагаются на данный период."
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "Извините, %1 не разрешен для резидентов %2."
 
@@ -3816,6 +3814,21 @@ msgstr "Не предоставлен эл.адрес."
 
 msgid "Password not given."
 msgstr "Не указан пароль."
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "Неправильная валюта для MT5 - было %1 и должно быть USD или EUR."
+
+#~ msgid "Futures"
+#~ msgstr "Фьючерсы"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "Asia/Oceania Future"
+
+#~ msgid "Americas Future"
+#~ msgstr "Americas Future"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "Europe/Africa Future"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "Для увеличения лимита на объём покупок, пожалуйста, пройдите аутентификацию счёта."
@@ -17755,9 +17768,6 @@ msgstr "Не указан пароль."
 
 #~ msgid "You can raise any unresolved disputes you might have with Binary (Europe) Ltd with the Lotteries and Gaming Authority at complaints@lga.com.mt and any disputes with Binary (IOM) Ltd with the alternative dispute resolution entity. The alternative dispute resolution entity for Binary (IOM) Ltd is the Isle of Man Gambling Supervision Commission at gaming@gov.im. In the event of any differences between the English version of this website and any other language, the English version shall prevail."
 #~ msgstr "Вы можете поднять любой из нерешенных исков, которые могут быть у Вас с Binary (Europe) Ltd также с Управлением по лотереям и азартным играм Мальты (Lotteries and Gaming Authority) по адресу complaints@lga.com.mt и любой из исков к Binary (IOM) Ltd - с Комиссией по надзору за азартными играми Острова Мэн (Isle of Man Gambling Supervision Commission) по gaming@gov.im. В случае любого несоответствия на сайте текста между английским и любым другим языком, английская версия будет считаться правильной."
-
-#~ msgid "Your account is closed."
-#~ msgstr "Ваш счет закрыт."
 
 #~ msgid "Account management facilities (under development)"
 #~ msgstr "Средства для управления счетом (в разработке)"

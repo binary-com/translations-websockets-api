@@ -212,6 +212,9 @@ msgstr "การแก้ไขการตั้งค่าของบัญ
 msgid "Checksum verification failed."
 msgstr "การตรวจสอบผลลัพธ์ล้มเหลว (ไม่สามารถดำเนินการต่อ)"
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "ปิดก่อน (เมื่อ %1)"
 
@@ -564,9 +567,6 @@ msgstr "การตรวจสอบข้อมูลนำเข้าล้
 msgid "Internal server error"
 msgstr "มีความผิดพลาดในระบบงาน"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "สกุลเงิน MT5 ไม่ถูกต้อง - %1 และควรจะเป็น USD หรือ EUR"
-
 msgid "Invalid URL"
 msgstr "URL ไม่ถูกต้อง"
 
@@ -677,6 +677,11 @@ msgstr "ลืมรหัสผ่าน?"
 
 msgid "MT5 API calls are suspended."
 msgstr "การเรียก API ประเภท MT5 ถูกระงับชั่วคราว"
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid "MT5 account is locked"
+msgstr "บัญชีของท่านถูกระงับ"
 
 msgid "Max 30 tokens are allowed."
 msgstr "อนุญาตมากที่สุด 30 โทเค่น"
@@ -966,6 +971,11 @@ msgstr "โปรดระบุ"
 
 msgid "Please set currency for existsing account %1."
 msgstr "โปรดตั้งค่าสกุลเงินสำหรับบัญชีเดิม %1"
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
+msgstr "โปรดระบุสกุลเงินสำหรับบัญชีเดิมของท่าน %1"
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชีเดิมของท่าน %1 เพื่อดำเนินการเปิดบัญชีใหม่"
@@ -1365,6 +1375,9 @@ msgstr "ผู้ทำการซื้อขายไม่ได้รับ
 
 msgid "Trading"
 msgstr "การซื้อขาย"
+
+msgid "Trading is not offered for this duration."
+msgstr "การซื้อขายไม่ถูกนำเสนอในช่วงเวลานี้"
 
 msgid "Trading is suspended for this instrument."
 msgstr "การซื้อขายถูกพักชั่วคราวสำหรับเครื่องมือนี้"
@@ -2413,11 +2426,11 @@ msgstr "EUR/GBP"
 msgid "BTC/INR"
 msgstr "BTC/INR"
 
-msgid "BTC/KRW"
-msgstr "BTC/KRW"
-
 msgid "AUD Index"
 msgstr "ดัชนีดอลลาร์ออสเตรเลีย"
+
+msgid "BTC/KRW"
+msgstr "BTC/KRW"
 
 msgid "ETH/EGP"
 msgstr "ETH/EGP"
@@ -2497,14 +2510,14 @@ msgstr "ETH/JPY"
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
 
-msgid "BTC/PLN"
-msgstr "BTC/PLN"
-
 msgid "GBP Index"
 msgstr "ดัชนีปอนด์สเตอริง"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
+
+msgid "BTC/PLN"
+msgstr "BTC/PLN"
 
 msgid "LTC/HKD"
 msgstr "LTC/HKD"
@@ -2539,11 +2552,11 @@ msgstr "BCH/KRW"
 msgid "DAI/CNY"
 msgstr "DAI/CNY"
 
-msgid "BCH/NOK"
-msgstr "BCH/NOK"
-
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+msgid "BCH/NOK"
+msgstr "BCH/NOK"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
@@ -2575,11 +2588,11 @@ msgstr "GBP/IDR"
 msgid "LTC/XPD"
 msgstr "LTC/XPD"
 
-msgid "BTC/GBP"
-msgstr "BTC/GBP"
-
 msgid "USD/SEK"
 msgstr "USD/SEK"
+
+msgid "BTC/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETC/MXN"
 msgstr "ETC/MXN"
@@ -2620,11 +2633,11 @@ msgstr "BTC/BRL"
 msgid "ETC/INR"
 msgstr "ETC/INR"
 
-msgid "BTC/NOK"
-msgstr "BTC/NOK"
-
 msgid "AUD/INR"
 msgstr "AUD/INR"
+
+msgid "BTC/NOK"
+msgstr "BTC/NOK"
 
 msgid "Wall Street OTC Index"
 msgstr "ดัชนี Wall Street OTC"
@@ -2929,14 +2942,8 @@ msgstr "ดัชนี"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "ดัชนีต่างๆ แสดงมูลค่าของน้ำหนักของบริษัทฯ ที่อยู่ในเงื่อนไข โดยทั่วไปซื้อขายแลกเปลี่ยนในกลุ่มเดียวกัน"
 
-msgid "Futures"
-msgstr "ฟิวเจอร์"
-
 msgid "Energy"
 msgstr "พลังงาน"
-
-msgid "Asia/Oceania Future"
-msgstr "ฟิวเจอร์ Asia/Oceania"
 
 msgid "Smart FX"
 msgstr "Smart FX"
@@ -2952,9 +2959,6 @@ msgstr "ดัชนีสังเคราะห์"
 
 msgid "Synthetic Indices"
 msgstr "ดัชนีสังเคราะห์"
-
-msgid "Americas Future"
-msgstr "ฟิวเจอร์ Americas"
 
 msgid "Major Pairs"
 msgstr "คู่หลัก"
@@ -3000,9 +3004,6 @@ msgstr "เกี่ยวข้องกับตัวเลขที่แส
 
 msgid "Metals"
 msgstr "โลหะ"
-
-msgid "Europe/Africa Future"
-msgstr "ฟิวเจอร์ Europe/Africa"
 
 msgid "config-only"
 msgstr "ตั้งค่าเท่านั้น"
@@ -3433,9 +3434,6 @@ msgstr "ค่าสัมบูรณ์ของ Barrier มีค่าเป
 msgid "This contract has already expired."
 msgstr "สัญญานี้หมดอายุแล้ว"
 
-msgid "Trading is not offered for this duration."
-msgstr "การซื้อขายไม่ถูกนำเสนอในช่วงเวลานี้"
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 ไม่ได้รับอนุญาตในการพำนักที่ %2"
 
@@ -3792,6 +3790,21 @@ msgstr "ไม่ได้แจ้งอีเมล์ไว้"
 
 msgid "Password not given."
 msgstr "ไม่ได้กำหนดรหัสผ่าน"
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "สกุลเงิน MT5 ไม่ถูกต้อง - %1 และควรจะเป็น USD หรือ EUR"
+
+#~ msgid "Futures"
+#~ msgstr "ฟิวเจอร์"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "ฟิวเจอร์ Asia/Oceania"
+
+#~ msgid "Americas Future"
+#~ msgstr "ฟิวเจอร์ Americas"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "ฟิวเจอร์ Europe/Africa"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "โปรดยืนยันตัวตนของบัญชีของท่านเพื่อเพิ่มวงเงินซื้อขายต่อวันของท่าน"

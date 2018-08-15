@@ -235,6 +235,9 @@ msgstr "登録情報変更完了のお知らせ【Binary株式会社】"
 msgid "Checksum verification failed."
 msgstr "チェックサム認証に失敗しました。"
 
+msgid "Citizen"
+msgstr ""
+
 msgid "Closes early (at %1)"
 msgstr "取引時間終了の短縮（%1）"
 
@@ -594,9 +597,6 @@ msgstr "入力確認ができません。 （住所＿郵便番号）"
 msgid "Internal server error"
 msgstr "内部サーバーエラー"
 
-msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
-msgstr "無効なMT5通貨です - %1でUSDまたはEURであり必要があります。"
-
 msgid "Invalid URL"
 msgstr "無効なURL"
 
@@ -707,6 +707,11 @@ msgstr "パスワードをお忘れの場合"
 
 msgid "MT5 API calls are suspended."
 msgstr "MT5 APIの呼び出しが中断されました"
+
+#, fuzzy
+#| msgid "Your account balance"
+msgid "MT5 account is locked"
+msgstr "ご口座残高"
 
 msgid "Max 30 tokens are allowed."
 msgstr "最大30トークンが可能"
@@ -997,6 +1002,11 @@ msgid "Please select"
 msgstr "選択して下さい"
 
 msgid "Please set currency for existsing account %1."
+msgstr "既存の口座%1の通貨タイプを設定してください。"
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set the currency for your existing account"
 msgstr "既存の口座%1の通貨タイプを設定してください。"
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
@@ -1403,6 +1413,9 @@ msgstr "トレーダーはトレードのコピーを許可されていません
 
 msgid "Trading"
 msgstr "トレード"
+
+msgid "Trading is not offered for this duration."
+msgstr "この取引期間の新規注文及び売却取引は出来ません"
 
 msgid "Trading is suspended for this instrument."
 msgstr "現在、こちらのツールは一時的に利用を停止しております。"
@@ -2467,11 +2480,11 @@ msgstr "EUR/GBP"
 msgid "BTC/INR"
 msgstr "BTC/INR"
 
-msgid "BTC/KRW"
-msgstr "BTC/KRW"
-
 msgid "AUD Index"
 msgstr "AUD インデックス"
+
+msgid "BTC/KRW"
+msgstr "BTC/KRW"
 
 msgid "ETH/EGP"
 msgstr "ETH/EGP"
@@ -2551,14 +2564,14 @@ msgstr "ETH/JPY"
 msgid "ETH/MXN"
 msgstr "ETH/MXN"
 
-msgid "BTC/PLN"
-msgstr "BTC/PLN"
-
 msgid "GBP Index"
 msgstr "GBP インデックス"
 
 msgid "USD/TRY"
 msgstr "USD/TRY"
+
+msgid "BTC/PLN"
+msgstr "BTC/PLN"
 
 msgid "LTC/HKD"
 msgstr "LTC/HKD"
@@ -2593,11 +2606,11 @@ msgstr "BCH/KRW"
 msgid "DAI/CNY"
 msgstr "DAI/CNY"
 
-msgid "BCH/NOK"
-msgstr "BCH/NOK"
-
 msgid "AUD/SEK"
 msgstr "AUD/SEK"
+
+msgid "BCH/NOK"
+msgstr "BCH/NOK"
 
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
@@ -2629,11 +2642,11 @@ msgstr "GBP/IDR"
 msgid "LTC/XPD"
 msgstr "LTC/XPD"
 
-msgid "BTC/GBP"
-msgstr "BTC/GBP"
-
 msgid "USD/SEK"
 msgstr "USD/SEK"
+
+msgid "BTC/GBP"
+msgstr "BTC/GBP"
 
 msgid "ETC/MXN"
 msgstr "ETC/MXN"
@@ -2674,11 +2687,11 @@ msgstr "BTC/BRL"
 msgid "ETC/INR"
 msgstr "ETC/INR"
 
-msgid "BTC/NOK"
-msgstr "BTC/NOK"
-
 msgid "AUD/INR"
 msgstr "AUD/INR"
+
+msgid "BTC/NOK"
+msgstr "BTC/NOK"
 
 msgid "Wall Street OTC Index"
 msgstr "ウォールストリート 店頭インデックス"
@@ -2989,14 +3002,8 @@ msgstr "インデックス"
 msgid "Indices represent the weighted value of a basket of companies, typically traded on the same exchange."
 msgstr "各指数とは、基本的に同じ為替相場でトレードされた企業の集合体の加重値を示します。"
 
-msgid "Futures"
-msgstr "先物取引"
-
 msgid "Energy"
 msgstr "エネルギー関連"
-
-msgid "Asia/Oceania Future"
-msgstr "アジア/オセアニア 先物取引"
 
 msgid "Smart FX"
 msgstr "スマート FX"
@@ -3012,9 +3019,6 @@ msgstr "複合 インデックス"
 
 msgid "Synthetic Indices"
 msgstr "複合 インデックス"
-
-msgid "Americas Future"
-msgstr "アメリカ 先物取引"
 
 msgid "Major Pairs"
 msgstr "主要ペア"
@@ -3060,9 +3064,6 @@ msgstr "市場での変動を再現できるような乱数に関連がありま
 
 msgid "Metals"
 msgstr "金属関連"
-
-msgid "Europe/Africa Future"
-msgstr "ヨーロッパ/アフリカ 先物取引"
 
 msgid "config-only"
 msgstr "コンフィグ専用"
@@ -3511,9 +3512,6 @@ msgstr "バリア値は0に設定することはできません。"
 msgid "This contract has already expired."
 msgstr "このトレードは既に終了しました。"
 
-msgid "Trading is not offered for this duration."
-msgstr "この取引期間の新規注文及び売却取引は出来ません"
-
 msgid "%1 is not allowed for residence of %2."
 msgstr "%2の居住者は%1をご利用いただくことはできません。"
 
@@ -3888,6 +3886,21 @@ msgstr "Eメールアドレスが入力されていません。"
 
 msgid "Password not given."
 msgstr "パスワードが入力されませんでした。"
+
+#~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
+#~ msgstr "無効なMT5通貨です - %1でUSDまたはEURであり必要があります。"
+
+#~ msgid "Futures"
+#~ msgstr "先物取引"
+
+#~ msgid "Asia/Oceania Future"
+#~ msgstr "アジア/オセアニア 先物取引"
+
+#~ msgid "Americas Future"
+#~ msgstr "アメリカ 先物取引"
+
+#~ msgid "Europe/Africa Future"
+#~ msgstr "ヨーロッパ/アフリカ 先物取引"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "1日の取引数量限度額を増額されたい場合は、カスタマーサポートまでご連絡下さい。"
@@ -17971,11 +17984,6 @@ msgstr "パスワードが入力されませんでした。"
 
 #~ msgid "Download tick data"
 #~ msgstr "Tickデータをダウンロード"
-
-#, fuzzy
-#~| msgid "Your account balance"
-#~ msgid "Your account is closed."
-#~ msgstr "ご口座残高"
 
 #~ msgid "Account management facilities (under development)"
 #~ msgstr "口座管理ツール（開発中）"
