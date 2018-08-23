@@ -137,9 +137,6 @@ msgstr "Необходима проверка возраста."
 msgid "Account not activated."
 msgstr "Счёт не активирован."
 
-msgid "Account transfers are currently suspended."
-msgstr "Переводы со счёта в данный момент приостановлены."
-
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "Трансфер недоступен для счетов с другими валютами."
 
@@ -148,6 +145,9 @@ msgstr "Трансфер недоступен для счетов, на кото
 
 msgid "Account transfers are not available within same account."
 msgstr "Трансфер в пределах одного счёта недоступен."
+
+msgid "Account transfers for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Acknowledgement of Money Transfer"
 msgstr "Подтверждение денежного перевода"
@@ -214,6 +214,11 @@ msgstr "Неправильная сумма."
 
 msgid "Citizen"
 msgstr ""
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Citizenship is required"
+msgstr "Требуется %1."
 
 msgid "Closes early (at %1)"
 msgstr "Закрывается рано (в %1)"
@@ -444,6 +449,11 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Пополнение"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Deposits for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "Извините, платежи приостановлены ввиду технических работ в системе.  Пожалуйста, попробуйте еще раз через 30 минут."
 
 msgid "Document ID is required."
 msgstr "Необходим документ, удостоверяющий личность."
@@ -750,9 +760,6 @@ msgstr "Новое значение: "
 msgid "No"
 msgstr "Нет"
 
-msgid "No further trading is allowed at this moment."
-msgstr "Дальнейшая торговля запрещена в данное время."
-
 msgid "No further trading is allowed for the current trading session."
 msgstr "Дальнейшая торговля в рамках текущей сессии запрещена."
 
@@ -840,9 +847,6 @@ msgstr "Пароль должен содержать минимум шесть �
 
 msgid "Payment agent facilities are not available for this account."
 msgstr "Раздел Платежных агентов недоступен для Вашего счета."
-
-msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr "Перевод указанной суммы через платёжного агента не разрешен, т. к. баланс счёта %1 превысит разрешенный лимит."
 
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "перевод через Платежных агентов недоступен для указанных счетов."
@@ -967,6 +971,11 @@ msgstr "Пожалуйста, укажите правильную валюту."
 msgid "Please select"
 msgstr "Выберите"
 
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "Please set citizenship for your account."
+msgstr "Пожалуйста, укажите валюту Вашего счёта."
+
 msgid "Please set currency for existsing account %1."
 msgstr "Пожалуйста, укажите валюту для текущего счёта %1."
 
@@ -1022,9 +1031,6 @@ msgstr "Указанная сумма не соответствует устан
 
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
 msgstr "Указанная сумма не соответствует установленным лимитам. Мин. сумма перевода в данной валюте: %1."
-
-msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "Покупка этого контракта приведет к превышению нашего предела выплат для открытых контрактов данного типа. Чтобы продолжить, пожалуйста, продайте часть Ваших открытых контрактов или выберите другой тип контрактов."
 
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
 msgstr "Покупка данного контракта приведет к превышению 30-дневного лимита на объём покупок %1%2."
@@ -1243,6 +1249,11 @@ msgstr "Контракт закончился"
 
 msgid "The email address and date of birth do not match."
 msgstr "Эл. адрес и дата рождения не совпадают."
+
+#, fuzzy
+#| msgid "View your financial assessment settings."
+msgid "The financial assessment is not complete"
+msgstr "Смотрите настройки своей финансовой оценки."
 
 msgid "The given URL is not http(s)"
 msgstr "Указанный URL не в формате http(s)"
@@ -1507,6 +1518,17 @@ msgstr "Вывод"
 # 100%
 msgid "Withdrawal"
 msgstr "Вывод"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "Извините, платежи приостановлены ввиду технических работ в системе.  Пожалуйста, попробуйте еще раз через 30 минут."
+
+msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
+msgstr ""
+
+msgid "Withdrawal is disabled."
+msgstr "Вывод средств недоступен."
 
 msgid "Yes"
 msgstr "Да"
@@ -3758,6 +3780,11 @@ msgstr "Совпадение/отличие"
 msgid "Low"
 msgstr "Низшее значение"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "Текущая спот-цена"
+
 msgid "Fridays"
 msgstr "пятница"
 
@@ -3766,6 +3793,11 @@ msgstr "Чётное/Нечётное"
 
 msgid "Entry Spot"
 msgstr "Входная котировка"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "Выходная котировка"
 
 msgid "ATM"
 msgstr "Банкомат"
@@ -3814,6 +3846,18 @@ msgstr "Не предоставлен эл.адрес."
 
 msgid "Password not given."
 msgstr "Не указан пароль."
+
+#~ msgid "Account transfers are currently suspended."
+#~ msgstr "Переводы со счёта в данный момент приостановлены."
+
+#~ msgid "No further trading is allowed at this moment."
+#~ msgstr "Дальнейшая торговля запрещена в данное время."
+
+#~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+#~ msgstr "Перевод указанной суммы через платёжного агента не разрешен, т. к. баланс счёта %1 превысит разрешенный лимит."
+
+#~ msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
+#~ msgstr "Покупка этого контракта приведет к превышению нашего предела выплат для открытых контрактов данного типа. Чтобы продолжить, пожалуйста, продайте часть Ваших открытых контрактов или выберите другой тип контрактов."
 
 #~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
 #~ msgstr "Неправильная валюта для MT5 - было %1 и должно быть USD или EUR."
@@ -4809,9 +4853,6 @@ msgstr "Не указан пароль."
 
 #~ msgid "#1 Sales Division"
 #~ msgstr "Отдел продаж #1"
-
-#~ msgid "%1 is required."
-#~ msgstr "Требуется %1."
 
 #~ msgid "Account Number"
 #~ msgstr "Номер счёта"
@@ -12981,9 +13022,6 @@ msgstr "Не указан пароль."
 #~ msgid "View the operating hours of the markets you can trade."
 #~ msgstr "Просмотрите время открытия и закрытия всех рынков, на которых можно работать."
 
-#~ msgid "View your financial assessment settings."
-#~ msgstr "Смотрите настройки своей финансовой оценки."
-
 #~ msgid "View your historical transactions."
 #~ msgstr "Просмотрите свою историю транзакций."
 
@@ -13895,9 +13933,6 @@ msgstr "Не указан пароль."
 
 #~ msgid "Cash Dividend"
 #~ msgstr "Денежные дивиденды"
-
-#~ msgid "Current Spot"
-#~ msgstr "Текущая спот-цена"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "Текущее спот-время"
@@ -17544,14 +17579,8 @@ msgstr "Не указан пароль."
 #~ msgid "The contract payout has changed from %1%2 to %1%3."
 #~ msgstr "Выплата по контракту изменилась с %1%2 на %1%3."
 
-#~ msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
-#~ msgstr "Извините, платежи приостановлены ввиду технических работ в системе.  Пожалуйста, попробуйте еще раз через 30 минут."
-
 #~ msgid "Withdrawal amount (%1 %2) is greater than your balance (%3 %4)."
 #~ msgstr "Сумма к выводу (%1 %2) выше, чем баланс счета (%3 %4)."
-
-#~ msgid "Withdrawal is disabled."
-#~ msgstr "Вывод средств недоступен."
 
 #~ msgid "Your balance is over your allowed limit."
 #~ msgstr "Баланс Вашего счета превышает допустимый лимит."

@@ -133,9 +133,6 @@ msgstr "A conta requer verificação de idade."
 msgid "Account not activated."
 msgstr "A conta não está ativada."
 
-msgid "Account transfers are currently suspended."
-msgstr "Tranferências de contas estão suspensas no momento."
-
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "Transferências de contas estão suspensas no momento."
 
@@ -144,6 +141,9 @@ msgstr "A transferência de conta não está disponível entre contas que têm c
 
 msgid "Account transfers are not available within same account."
 msgstr "A transferência de conta não está disponível entre a mesma conta."
+
+msgid "Account transfers for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Acknowledgement of Money Transfer"
 msgstr "Confirmação de Transferência de Dinheiro"
@@ -210,6 +210,11 @@ msgstr "Falha na verificação da soma de verificação."
 
 msgid "Citizen"
 msgstr ""
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Citizenship is required"
+msgstr "%1 é obrigatório."
 
 msgid "Closes early (at %1)"
 msgstr "Fechamento antecipado (às %1)"
@@ -440,6 +445,11 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Depositar"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Deposits for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "Lamentamos, os pagamentos estão suspensos devido à manutenção do sistema. Tente novamente em 30 minutos."
 
 msgid "Document ID is required."
 msgstr "O documento de identidade é obrigatório."
@@ -746,9 +756,6 @@ msgstr "Novo valor: "
 msgid "No"
 msgstr "Não"
 
-msgid "No further trading is allowed at this moment."
-msgstr "Não são permitidas negociações adicionais neste momento."
-
 msgid "No further trading is allowed for the current trading session."
 msgstr "Não são permitidas negociações adicionais durante a sessão de negociação atual."
 
@@ -836,9 +843,6 @@ msgstr "A senha deve conter no mínimo seis caracteres, incluindo letras minúsc
 
 msgid "Payment agent facilities are not available for this account."
 msgstr "Recursos de agentes de pagamentos não estão disponíveis para esta conta."
-
-msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr "A transferência por agente de pagamentos não é permitida com o valor especificado, visto que o saldo da conta %1 iria exceder os limites permitidos."
 
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Transferências para o agente de pagamento não são permitidas para as contas especificadas."
@@ -963,6 +967,11 @@ msgstr "Por favor, forneça uma moeda válida."
 msgid "Please select"
 msgstr "Selecione"
 
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "Please set citizenship for your account."
+msgstr "Defina a moeda da sua conta."
+
 msgid "Please set currency for existsing account %1."
 msgstr "Por favor, defina a moeda para a conta existente %1."
 
@@ -1018,9 +1027,6 @@ msgstr "O montante fornecido não está dentro dos limites permitidos."
 
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
 msgstr "O montante fornecido não está dentro dos limites permitidos. A transferência mínima para a moeda fornecida é %1."
-
-msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "A aquisição deste contrato fará com que você exceda o nosso limite de retorno para contratos abertos deste tipo. Para continuar, considere vender alguns dos seus contratos abertos ou negocie tipos de contratos diferentes."
 
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
 msgstr "A aquisição deste contrato fará com que você exceda o seu limite de 30 dias de volume de negócios de %1%2."
@@ -1237,6 +1243,11 @@ msgstr "O contrato expirou"
 
 msgid "The email address and date of birth do not match."
 msgstr "O endereço de e-mail e a data de nascimento não correspondem."
+
+#, fuzzy
+#| msgid "View your financial assessment settings."
+msgid "The financial assessment is not complete"
+msgstr "Ver as suas configurações de avaliação financeira."
 
 msgid "The given URL is not http(s)"
 msgstr "O URL fornecido não é http(s)"
@@ -1498,6 +1509,17 @@ msgstr "Retirar"
 
 msgid "Withdrawal"
 msgstr "Retirada"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "Lamentamos, os pagamentos estão suspensos devido à manutenção do sistema. Tente novamente em 30 minutos."
+
+msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
+msgstr ""
+
+msgid "Withdrawal is disabled."
+msgstr "As retiradas de fundos estão desativadas."
 
 msgid "Yes"
 msgstr "Sim"
@@ -3726,6 +3748,11 @@ msgstr "Combina/Difere"
 msgid "Low"
 msgstr "Baixa"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "Preço Atual de Mercado"
+
 msgid "Fridays"
 msgstr "Sexta-feira"
 
@@ -3734,6 +3761,11 @@ msgstr "Par/Ímpar"
 
 msgid "Entry Spot"
 msgstr "Preço de entrada"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "Preço de saída"
 
 msgid "ATM"
 msgstr "Caixa automático"
@@ -3782,6 +3814,18 @@ msgstr "E-mail não fornecido."
 
 msgid "Password not given."
 msgstr "Senha não dada."
+
+#~ msgid "Account transfers are currently suspended."
+#~ msgstr "Tranferências de contas estão suspensas no momento."
+
+#~ msgid "No further trading is allowed at this moment."
+#~ msgstr "Não são permitidas negociações adicionais neste momento."
+
+#~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+#~ msgstr "A transferência por agente de pagamentos não é permitida com o valor especificado, visto que o saldo da conta %1 iria exceder os limites permitidos."
+
+#~ msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
+#~ msgstr "A aquisição deste contrato fará com que você exceda o nosso limite de retorno para contratos abertos deste tipo. Para continuar, considere vender alguns dos seus contratos abertos ou negocie tipos de contratos diferentes."
 
 #~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
 #~ msgstr "Moeda de MT5 inválida - era %1 e devia ser USD ou EUR."
@@ -4775,9 +4819,6 @@ msgstr "Senha não dada."
 
 #~ msgid "#1 Sales Division"
 #~ msgstr "Divisão comercial principal"
-
-#~ msgid "%1 is required."
-#~ msgstr "%1 é obrigatório."
 
 #~ msgid "Account Number"
 #~ msgstr "Número de conta"
@@ -12927,9 +12968,6 @@ msgstr "Senha não dada."
 #~ msgid "View the operating hours of the markets you can trade."
 #~ msgstr "Veja os horários de funcionamento dos mercados nos quais você pode negociar."
 
-#~ msgid "View your financial assessment settings."
-#~ msgstr "Ver as suas configurações de avaliação financeira."
-
 #~ msgid "View your historical transactions."
 #~ msgstr "Veja o seu histórico de transações."
 
@@ -13841,9 +13879,6 @@ msgstr "Senha não dada."
 
 #~ msgid "Cash Dividend"
 #~ msgstr "Dividendo (Lucro)"
-
-#~ msgid "Current Spot"
-#~ msgstr "Preço Atual de Mercado"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "Hora do preço atual de mercado"
@@ -17446,14 +17481,8 @@ msgstr "Senha não dada."
 #~ msgid "The contract payout has changed from %1%2 to %1%3."
 #~ msgstr "O pagamento do contrato mudou de %1%2 para %1%3."
 
-#~ msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
-#~ msgstr "Lamentamos, os pagamentos estão suspensos devido à manutenção do sistema. Tente novamente em 30 minutos."
-
 #~ msgid "Withdrawal amount (%1 %2) is greater than your balance (%3 %4)."
 #~ msgstr "A quantia da retirada (%1 %2) é superior ao seu saldo (%3 %4)."
-
-#~ msgid "Withdrawal is disabled."
-#~ msgstr "As retiradas de fundos estão desativadas."
 
 #~ msgid "Your balance is over your allowed limit."
 #~ msgstr "O saldo da sua conta está acima do seu limite permitido."
