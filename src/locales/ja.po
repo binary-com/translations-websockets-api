@@ -160,9 +160,6 @@ msgstr "年齢確認が必要です"
 msgid "Account not activated."
 msgstr "この口座は無効です。"
 
-msgid "Account transfers are currently suspended."
-msgstr "入出金サービスは現在一時的に停止しております。"
-
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "既定通貨が異なるため、口座振替はできません。"
 
@@ -171,6 +168,9 @@ msgstr "仮想通貨が既定通貨となっている口座に口座振替はで
 
 msgid "Account transfers are not available within same account."
 msgstr "同一口座間での口座振替はできません。"
+
+msgid "Account transfers for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Acknowledgement of Money Transfer"
 msgstr "送金確認"
@@ -237,6 +237,11 @@ msgstr "チェックサム認証に失敗しました。"
 
 msgid "Citizen"
 msgstr ""
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Citizenship is required"
+msgstr "%1は必須です。"
 
 msgid "Closes early (at %1)"
 msgstr "取引時間終了の短縮（%1）"
@@ -474,6 +479,11 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "入金"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Deposits for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "申し訳ございませんが、システムメンテナンスのため決済を承ることができません。３０分後に改めてお手続きを進めて下さい。"
 
 msgid "Document ID is required."
 msgstr "Document IDは必須です。"
@@ -782,9 +792,6 @@ msgstr "%1を除く "
 msgid "No"
 msgstr "いいえ"
 
-msgid "No further trading is allowed at this moment."
-msgstr "当社が定める総取引額に到達したため新規注文は行えません"
-
 msgid "No further trading is allowed for the current trading session."
 msgstr "ペイアウト総額が当社の定める限度額に達したため"
 
@@ -874,9 +881,6 @@ msgstr "パスワードは小文字と大文字を含む英字と数字を組み
 
 msgid "Payment agent facilities are not available for this account."
 msgstr "決済サービスはお客様の口座ではご利用いただけません。"
-
-msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "決済サービスはお客様の口座ではご利用いただけません。"
@@ -1001,6 +1005,11 @@ msgstr "有効な通貨をご入力ください。"
 msgid "Please select"
 msgstr "選択して下さい"
 
+#, fuzzy
+#| msgid "Please set the currency for your existing account %1."
+msgid "Please set citizenship for your account."
+msgstr "既存の口座%1の通貨タイプを設定してください。"
+
 msgid "Please set currency for existsing account %1."
 msgstr "既存の口座%1の通貨タイプを設定してください。"
 
@@ -1058,9 +1067,6 @@ msgstr "提示された金額は限度額を超えています。"
 
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
 msgstr "提示された金額は限度額を超えています。選択された通貨の最小金額は%1です。"
-
-msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "ペイアウト限度額に達しているため新規注文をおこなえません。続行いただくには、保有ポジションを決済していただく必要があります。"
 
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
 msgstr "30日の取引限度額%1%2に到達したため購入できません。"
@@ -1281,6 +1287,11 @@ msgstr "このトレードは終了しました"
 
 msgid "The email address and date of birth do not match."
 msgstr "メールアドレスと生年月日が一致しません。"
+
+#, fuzzy
+#| msgid "View your financial assessment settings."
+msgid "The financial assessment is not complete"
+msgstr "財務評価設定を確認する"
 
 msgid "The given URL is not http(s)"
 msgstr "指定されたURLはhttpではありません"
@@ -1542,6 +1553,17 @@ msgstr "出金"
 
 msgid "Withdrawal"
 msgstr "出金"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "申し訳ございませんが、システムメンテナンスのため決済を承ることができません。３０分後に改めてお手続きを進めて下さい。"
+
+msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
+msgstr ""
+
+msgid "Withdrawal is disabled."
+msgstr "ご出金を承ることができません。"
 
 msgid "Yes"
 msgstr "はい"
@@ -3820,6 +3842,11 @@ msgstr "マッチ/アンマッチ"
 msgid "Low"
 msgstr "Low"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "現在のスポット価格"
+
 msgid "Fridays"
 msgstr "金曜日"
 
@@ -3828,6 +3855,11 @@ msgstr "偶数/奇数"
 
 msgid "Entry Spot"
 msgstr "エントリー価格"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "判定時レート"
 
 msgid "ATM"
 msgstr "ATM"
@@ -3886,6 +3918,18 @@ msgstr "Eメールアドレスが入力されていません。"
 
 msgid "Password not given."
 msgstr "パスワードが入力されませんでした。"
+
+#~ msgid "Account transfers are currently suspended."
+#~ msgstr "入出金サービスは現在一時的に停止しております。"
+
+#~ msgid "No further trading is allowed at this moment."
+#~ msgstr "当社が定める総取引額に到達したため新規注文は行えません"
+
+#~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+#~ msgstr "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+
+#~ msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
+#~ msgstr "ペイアウト限度額に達しているため新規注文をおこなえません。続行いただくには、保有ポジションを決済していただく必要があります。"
 
 #~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
 #~ msgstr "無効なMT5通貨です - %1でUSDまたはEURであり必要があります。"
@@ -4878,9 +4922,6 @@ msgstr "パスワードが入力されませんでした。"
 
 #~ msgid "#1 Sales Division"
 #~ msgstr "第一営業支店"
-
-#~ msgid "%1 is required."
-#~ msgstr "%1は必須です。"
 
 #~ msgid "Account Number"
 #~ msgstr "口座番号"
@@ -13184,9 +13225,6 @@ msgstr "パスワードが入力されませんでした。"
 #~ msgid "View the operating hours of the markets you can trade."
 #~ msgstr "こちらから各市場のトレード可能時間を参照しましょう。"
 
-#~ msgid "View your financial assessment settings."
-#~ msgstr "財務評価設定を確認する"
-
 #~ msgid "View your historical transactions."
 #~ msgstr "取引履歴を表示"
 
@@ -14148,9 +14186,6 @@ msgstr "パスワードが入力されませんでした。"
 
 #~ msgid "Cash Dividend"
 #~ msgstr "配当金"
-
-#~ msgid "Current Spot"
-#~ msgstr "現在のスポット価格"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "現在のスポットタイム"
@@ -17766,14 +17801,8 @@ msgstr "パスワードが入力されませんでした。"
 #~ msgid "touch/no-touch"
 #~ msgstr "Touch/No-Touch"
 
-#~ msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
-#~ msgstr "申し訳ございませんが、システムメンテナンスのため決済を承ることができません。３０分後に改めてお手続きを進めて下さい。"
-
 #~ msgid "Withdrawal amount (%1 %2) is greater than your balance (%3 %4)."
 #~ msgstr "ご出金希望金額が(%1 %2)ご口座残高(%3 %4)を上回っています。"
-
-#~ msgid "Withdrawal is disabled."
-#~ msgstr "ご出金を承ることができません。"
 
 #, fuzzy
 #~| msgid "We've noticed that the balance of your account is over your allowed limit:"

@@ -138,9 +138,6 @@ msgstr "บัญชีจำเป็นต้องตรวจสอบอา
 msgid "Account not activated."
 msgstr "บัญชียังไม่ได้เริ่มใช้งาน"
 
-msgid "Account transfers are currently suspended."
-msgstr "ขณะนี้ การโอนบัญชีถูกระงับดำเนินการ"
-
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "การโอนบัญชีไม่สามารถดำเนินการได้กับบัญชีที่ใช้สกุลเงินต่างกัน"
 
@@ -149,6 +146,9 @@ msgstr "การโอนบัญชีไม่สามารถดำเน
 
 msgid "Account transfers are not available within same account."
 msgstr "การโอนบัญชีไม่สามารถดำเนินการในบัญชีเดียวกัน"
+
+msgid "Account transfers for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Acknowledgement of Money Transfer"
 msgstr "การตอบรับของการโอนเงิน"
@@ -215,6 +215,11 @@ msgstr "การตรวจสอบผลลัพธ์ล้มเหลว
 
 msgid "Citizen"
 msgstr "พลเมือง"
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Citizenship is required"
+msgstr "%1 จำเป็นต้องมีค่า"
 
 msgid "Closes early (at %1)"
 msgstr "ปิดก่อน (เมื่อ %1)"
@@ -447,6 +452,9 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "ฝาก"
+
+msgid "Deposits for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Document ID is required."
 msgstr "จำเป็นต้องมีค่า Document ID"
@@ -751,9 +759,6 @@ msgstr "ค่าใหม่: "
 msgid "No"
 msgstr "ไม่"
 
-msgid "No further trading is allowed at this moment."
-msgstr "การซื้อขายขั้นต่อไปไม่ได้รับอนุญาตในขณะนี้"
-
 msgid "No further trading is allowed for the current trading session."
 msgstr "การซื้อขายขั้นต่อไปไม่ได้รับอนุญาตสำหรับการเชื่อมต่อในปัจจุบัน"
 
@@ -841,9 +846,6 @@ msgstr "รหัสผ่านควรมีอย่างน้อย 6 อ
 
 msgid "Payment agent facilities are not available for this account."
 msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับบัญชีนี้"
-
-msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr "ตัวแทนรับชำระเงินโอนไม่ได้รับอนุญาตต่อจำนวนที่ประสงค์ เนื่องจากยอดคงเหลือ %1 เกินวงเงินที่ได้รับ"
 
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "ไม่อนุญาตให้โอนตัวแทนรับชำระเงินสำหรับบัญชีที่กำหนดไว้"
@@ -968,6 +970,11 @@ msgstr "โปรดป้อนสกุลเงินที่ถูกต้
 msgid "Please select"
 msgstr "โปรดระบุ"
 
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "Please set citizenship for your account."
+msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
+
 msgid "Please set currency for existsing account %1."
 msgstr "โปรดตั้งค่าสกุลเงินสำหรับบัญชีเดิม %1"
 
@@ -1021,9 +1028,6 @@ msgstr "จำนวนเงินที่ได้รับไม่ได้
 
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
 msgstr "จำนวนเงินที่ได้รับไม่ได้อยู่ในวงเงินที่ได้รับ มมูลค่าขั้นต่ำในการโอนสำหรับสกุลเงินนี้ คือ %1"
-
-msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "การซื้อสัญญานี้จะทำให้เกินวงเงินของท่านในการเปิดสัญญาประเภทนี้ โปรดขายสัญญาอื่น หรือซื้อขายสัญญาประเภทอื่น"
 
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
 msgstr "การซื้อสัญญานี้จะทำให้เกินวงเงินซื้อขายในระยะ 30 วัน ของ %1%2 ของท่าน"
@@ -1240,6 +1244,11 @@ msgstr "สัญญาหมดอายุ"
 
 msgid "The email address and date of birth do not match."
 msgstr "อีเมล์และวันเกิดไม่ตรงกัน"
+
+#, fuzzy
+#| msgid "Financial Assessment"
+msgid "The financial assessment is not complete"
+msgstr "การประเมินทางการเงิน"
 
 msgid "The given URL is not http(s)"
 msgstr "URL ไม่ได้ใช้ http(s)"
@@ -1501,6 +1510,17 @@ msgstr "ถอนเงิน"
 
 msgid "Withdrawal"
 msgstr "การถอนเงิน"
+
+msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
+
+msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
+msgstr ""
+
+#, fuzzy
+#| msgid "Account is disabled."
+msgid "Withdrawal is disabled."
+msgstr "บัญชีถูกระงับ"
 
 msgid "Yes"
 msgstr "ใช่"
@@ -3731,6 +3751,11 @@ msgstr "Matches/Differs"
 msgid "Low"
 msgstr "ต่ำ"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "สปอตปัจจุบัน"
+
 msgid "Fridays"
 msgstr "ทุกวันศุกร์"
 
@@ -3739,6 +3764,11 @@ msgstr "คู่/คี่"
 
 msgid "Entry Spot"
 msgstr "สปอตเริ่มต้น"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "สปอตสิ้นสุด"
 
 msgid "ATM"
 msgstr "ATM"
@@ -3787,6 +3817,18 @@ msgstr "ไม่ได้แจ้งอีเมล์ไว้"
 
 msgid "Password not given."
 msgstr "ไม่ได้กำหนดรหัสผ่าน"
+
+#~ msgid "Account transfers are currently suspended."
+#~ msgstr "ขณะนี้ การโอนบัญชีถูกระงับดำเนินการ"
+
+#~ msgid "No further trading is allowed at this moment."
+#~ msgstr "การซื้อขายขั้นต่อไปไม่ได้รับอนุญาตในขณะนี้"
+
+#~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+#~ msgstr "ตัวแทนรับชำระเงินโอนไม่ได้รับอนุญาตต่อจำนวนที่ประสงค์ เนื่องจากยอดคงเหลือ %1 เกินวงเงินที่ได้รับ"
+
+#~ msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
+#~ msgstr "การซื้อสัญญานี้จะทำให้เกินวงเงินของท่านในการเปิดสัญญาประเภทนี้ โปรดขายสัญญาอื่น หรือซื้อขายสัญญาประเภทอื่น"
 
 #~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
 #~ msgstr "สกุลเงิน MT5 ไม่ถูกต้อง - %1 และควรจะเป็น USD หรือ EUR"
@@ -4778,9 +4820,6 @@ msgstr "ไม่ได้กำหนดรหัสผ่าน"
 
 #~ msgid "#1 Sales Division"
 #~ msgstr "#1 ฝ่ายขาย"
-
-#~ msgid "%1 is required."
-#~ msgstr "%1 จำเป็นต้องมีค่า"
 
 #~ msgid "Account Number"
 #~ msgstr "เลขที่บัญชี"
@@ -5952,9 +5991,6 @@ msgstr "ไม่ได้กำหนดรหัสผ่าน"
 
 #~ msgid "Finance"
 #~ msgstr "การเงิน"
-
-#~ msgid "Financial Assessment"
-#~ msgstr "การประเมินทางการเงิน"
 
 #~ msgid "Finish"
 #~ msgstr "เสร็จสิ้น"
@@ -12371,9 +12407,6 @@ msgstr "ไม่ได้กำหนดรหัสผ่าน"
 
 #~ msgid "Cash Dividend"
 #~ msgstr "เงินปันผลเงินสด"
-
-#~ msgid "Current Spot"
-#~ msgstr "สปอตปัจจุบัน"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "เวลาปัจจุบันของสปอต"

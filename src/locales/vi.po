@@ -137,9 +137,6 @@ msgstr "Tài khoản cần xác minh tuổi."
 msgid "Account not activated."
 msgstr "Tài khoản không được kích hoạt."
 
-msgid "Account transfers are currently suspended."
-msgstr "Chuyển khoản qua tài khoản hiện không khả dụng."
-
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "Chuyển khoản không khả dụng cho những tài khoản với loại tiền tệ mặc định khác nhau."
 
@@ -148,6 +145,9 @@ msgstr "Chuyển khoản không khả dụng cho những tài khoản với ti�
 
 msgid "Account transfers are not available within same account."
 msgstr "Chuyển khoản qua tài khoản không khả dụng cho cùng một tài khoản."
+
+msgid "Account transfers for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Acknowledgement of Money Transfer"
 msgstr "Xác Nhận Chuyển Tiền"
@@ -214,6 +214,11 @@ msgstr "Kiểm tra xác minh thất bại."
 
 msgid "Citizen"
 msgstr ""
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Citizenship is required"
+msgstr "%1 là bắt buộc."
 
 msgid "Closes early (at %1)"
 msgstr "Kết thúc sớm (tại %1)"
@@ -445,6 +450,9 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Gửi tiền"
+
+msgid "Deposits for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Document ID is required."
 msgstr "ID Tài liệu là bắt buộc."
@@ -751,9 +759,6 @@ msgstr "Giá trị mới: "
 msgid "No"
 msgstr "Không"
 
-msgid "No further trading is allowed at this moment."
-msgstr "Không được phép giao dịch thêm tại thời điểm này."
-
 msgid "No further trading is allowed for the current trading session."
 msgstr "Đã đạt giới hạn giao dịch tại phiên giao dịch này."
 
@@ -841,9 +846,6 @@ msgstr "Mật khẩu phải có ít nhất 6 ký tự bao gồm chữ thường,
 
 msgid "Payment agent facilities are not available for this account."
 msgstr "Các tiện ích đại lý thanh toán không có sẵn cho tài khoản này."
-
-msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr "Không được phép chuyển khoản với số tiền trên, vì số dư tài khoản %1 sẽ vượt quá giới hạn cho phép."
 
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Việc chuyển khoản đại lý thanh toán không được phép đối với các tài khoản nhất định."
@@ -968,6 +970,11 @@ msgstr "Vui lòng cung cấp đơn vị tiền tệ hợp lệ."
 msgid "Please select"
 msgstr "Vui lòng chọn"
 
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "Please set citizenship for your account."
+msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản của bạn."
+
 msgid "Please set currency for existsing account %1."
 msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản %1 đã tồn tại ."
 
@@ -1023,9 +1030,6 @@ msgstr "Lượng tiền sau đây không nằm trong các giới hạn cho phép
 
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
 msgstr "Lượng tiền sau đây không nằm trong các giới hạn cho phép. Số tiền chuyển tối thiểu cho đơn vị tiền tệ này là %1."
-
-msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "Mua hợp đồng này sẽ khiến bạn vượt quá giới hạn thanh toán của chúng tôi cho các hợp đồng mở loại này. Để tiếp tục, xin vui lòng bán một số hợp đồng của bạn mở hoặc trao đổi các loại hợp đồng khác."
 
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
 msgstr "Mua hợp đồng này sẽ dẫn đến tình trạng vượt quá giới hạn doanh thu 30 ngày của %1%2."
@@ -1242,6 +1246,11 @@ msgstr "Hợp đồng đã hết hạn"
 
 msgid "The email address and date of birth do not match."
 msgstr "Địa chỉ email và ngày sinh không trùng khớp."
+
+#, fuzzy
+#| msgid "View your financial assessment settings."
+msgid "The financial assessment is not complete"
+msgstr "Xem cài đặt giám định tài chính của bạn."
 
 msgid "The given URL is not http(s)"
 msgstr "URL hiện có không phải là http(s)"
@@ -1503,6 +1512,17 @@ msgstr "Rút tiền"
 
 msgid "Withdrawal"
 msgstr "Rút tiền"
+
+msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
+
+msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
+msgstr ""
+
+#, fuzzy
+#| msgid "Withdrawal Limits"
+msgid "Withdrawal is disabled."
+msgstr "Giới hạn Rút tiền"
 
 msgid "Yes"
 msgstr "Có"
@@ -3740,6 +3760,11 @@ msgstr "Phù hợp/Khác"
 msgid "Low"
 msgstr "Thấp"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "Giá giao ngay hiện tại"
+
 msgid "Fridays"
 msgstr "Thứ Sáu"
 
@@ -3748,6 +3773,11 @@ msgstr "Hòa vốn/ Số dư"
 
 msgid "Entry Spot"
 msgstr "Giá khởi điểm"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "Giá Giao ngay thoát ra"
 
 msgid "ATM"
 msgstr "ATM"
@@ -3796,6 +3826,18 @@ msgstr "Chưa nhập email."
 
 msgid "Password not given."
 msgstr "Chưa nhập mật khẩu."
+
+#~ msgid "Account transfers are currently suspended."
+#~ msgstr "Chuyển khoản qua tài khoản hiện không khả dụng."
+
+#~ msgid "No further trading is allowed at this moment."
+#~ msgstr "Không được phép giao dịch thêm tại thời điểm này."
+
+#~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+#~ msgstr "Không được phép chuyển khoản với số tiền trên, vì số dư tài khoản %1 sẽ vượt quá giới hạn cho phép."
+
+#~ msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
+#~ msgstr "Mua hợp đồng này sẽ khiến bạn vượt quá giới hạn thanh toán của chúng tôi cho các hợp đồng mở loại này. Để tiếp tục, xin vui lòng bán một số hợp đồng của bạn mở hoặc trao đổi các loại hợp đồng khác."
 
 #~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
 #~ msgstr "Đơn vị tiền tệ MT5 không hợp lệ - có %1 và nên là USD hoặc EUR."
@@ -4787,9 +4829,6 @@ msgstr "Chưa nhập mật khẩu."
 
 #~ msgid "#1 Sales Division"
 #~ msgstr "Bộ phận bán hàng #1"
-
-#~ msgid "%1 is required."
-#~ msgstr "%1 là bắt buộc."
 
 #~ msgid "Account Number"
 #~ msgstr "Số Tài Khoản"
@@ -7039,9 +7078,6 @@ msgstr "Chưa nhập mật khẩu."
 
 #~ msgid "Windows"
 #~ msgstr "Cửa sổ"
-
-#~ msgid "Withdrawal Limits"
-#~ msgstr "Giới hạn Rút tiền"
 
 #~ msgid "Workspace"
 #~ msgstr "Vùng làm việc"
@@ -12921,9 +12957,6 @@ msgstr "Chưa nhập mật khẩu."
 #~ msgid "View the operating hours of the markets you can trade."
 #~ msgstr "Xem giờ hoạt động của thị trường bạn có thể giao dịch."
 
-#~ msgid "View your financial assessment settings."
-#~ msgstr "Xem cài đặt giám định tài chính của bạn."
-
 #~ msgid "View your historical transactions."
 #~ msgstr "Xem lịch sử giao dịch của bạn."
 
@@ -13837,9 +13870,6 @@ msgstr "Chưa nhập mật khẩu."
 
 #~ msgid "Cash Dividend"
 #~ msgstr "Cổ tức chia bằng tiền mặt"
-
-#~ msgid "Current Spot"
-#~ msgstr "Giá giao ngay hiện tại"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "Thời điểm giao ngay thông dụng"

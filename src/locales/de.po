@@ -134,9 +134,6 @@ msgstr "Konto benötigt einen Altersnachweis."
 msgid "Account not activated."
 msgstr "Konto ist nicht aktiviert."
 
-msgid "Account transfers are currently suspended."
-msgstr "Kontoüberweisungen sind momentan suspendiert."
-
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "Banküberweisungen für Konten mit unterschiedlichen Währungen sind nicht möglich."
 
@@ -145,6 +142,9 @@ msgstr "Banküberweisungen innerhalb von Konten mit Kryptowährung als Standardw
 
 msgid "Account transfers are not available within same account."
 msgstr "Kontoüberweisungen innerhalb desselben Kontos sind nicht möglich."
+
+msgid "Account transfers for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr ""
 
 msgid "Acknowledgement of Money Transfer"
 msgstr "Bestätigung der Geldüberweisung"
@@ -211,6 +211,11 @@ msgstr "Prüfsummen-Verifikation fehlgeschlagen."
 
 msgid "Citizen"
 msgstr "Staatsbürger"
+
+#, fuzzy
+#| msgid "%1 is required."
+msgid "Citizenship is required"
+msgstr "%1 ist erforderlich."
 
 msgid "Closes early (at %1)"
 msgstr "Schließt früh (um %1)"
@@ -442,6 +447,11 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Einzahlung"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Deposits for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "Es tut uns leid, aber die Zahlungen sind aufgrund von Systemwartung suspendiert. Bitte versuchen Sie es in 30 Minuten erneut."
 
 msgid "Document ID is required."
 msgstr "Identitätsdokument ist erforderlich."
@@ -746,9 +756,6 @@ msgstr "Neuer Wert: "
 msgid "No"
 msgstr "Nein"
 
-msgid "No further trading is allowed at this moment."
-msgstr "Im Moment ist kein weiterer Handel erlaubt."
-
 msgid "No further trading is allowed for the current trading session."
 msgstr "Für die aktuelle Handelssitzung, ist kein weiterer Handel erlaubt."
 
@@ -836,9 +843,6 @@ msgstr "Das Passwort muss mindestens aus sechs Zeichen, einschließlich Klein- u
 
 msgid "Payment agent facilities are not available for this account."
 msgstr "Für dieses Konto sind keine Zahlungsagenten-Einrichtungen vorhanden."
-
-msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
-msgstr "Eine Zahlungsagenten-Überweisung ist mit dem angegebenen Betrag nicht erlaubt, da der %1 Kontostand das erlaubte Limit überschreiten würde."
 
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Zahlungsagenten-Überweisungen sind für die angegebenen Konten nicht erlaubt."
@@ -963,6 +967,11 @@ msgstr "Bitte geben Sie eine gültige Währung an."
 msgid "Please select"
 msgstr "Bitte wählen Sie"
 
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "Please set citizenship for your account."
+msgstr "Bitte legen Sie die Währung für Ihr Konto fest."
+
 msgid "Please set currency for existsing account %1."
 msgstr "Bitte die Währung für das existierende Konto %1 festlegen."
 
@@ -1016,9 +1025,6 @@ msgstr "Angegebener Betrag befindet sich nicht innerhalb der zulässigen Limits.
 
 msgid "Provided amount is not within permissible limits. Minimum transfer amount for provided currency is %1."
 msgstr "Angegebener Betrag befindet sich nicht innerhalb der zulässigen Limits. Der minimale Überweisungsbetrag für die angegebene Währung ist %1."
-
-msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
-msgstr "Der Erwerb dieses Kontrakts wird verursachen, dass Sie unser Auszahlungslimit für offene Kontrakte dieser Art überschreiten. Damit Sie fortfahren können, verkaufen Sie bitte einige Ihrer offenen Kontrakte oder handeln Sie andere Kontraktarten."
 
 msgid "Purchasing this contract will cause you to exceed your 30-day turnover limit of %1%2."
 msgstr "Der Kauf dieses Kontrakts wird zur Überschreitung Ihres täglichen 30-Tage Umsatzlimits von %2 %1 führen."
@@ -1235,6 +1241,11 @@ msgstr "Der Kontrakt ist abgelaufen"
 
 msgid "The email address and date of birth do not match."
 msgstr "Die E-Mail Adresse und das Geburtsdatum stimmen nicht überein."
+
+#, fuzzy
+#| msgid "View your financial assessment settings."
+msgid "The financial assessment is not complete"
+msgstr "Sehen Sie sich Ihre Finanzbeurteilungseinstellungen an."
 
 msgid "The given URL is not http(s)"
 msgstr "Die gegebene URL ist keine http(s)"
@@ -1496,6 +1507,17 @@ msgstr "Abheben"
 
 msgid "Withdrawal"
 msgstr "Auszahlung"
+
+#, fuzzy
+#| msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
+msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
+msgstr "Es tut uns leid, aber die Zahlungen sind aufgrund von Systemwartung suspendiert. Bitte versuchen Sie es in 30 Minuten erneut."
+
+msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
+msgstr ""
+
+msgid "Withdrawal is disabled."
+msgstr "Die Auszahlung ist deaktiviert."
 
 msgid "Yes"
 msgstr "Ja"
@@ -3724,6 +3746,11 @@ msgstr "Gleich/Verschieden"
 msgid "Low"
 msgstr "Niedrig"
 
+#, fuzzy
+#| msgid "Current Spot"
+msgid "Lowest Spot"
+msgstr "Aktueller Kassakurs"
+
 msgid "Fridays"
 msgstr "Freitage"
 
@@ -3732,6 +3759,11 @@ msgstr "Gerade/ungerade"
 
 msgid "Entry Spot"
 msgstr "Startkurs"
+
+#, fuzzy
+#| msgid "Exit Spot"
+msgid "Highest Spot"
+msgstr "Schlusskurs"
 
 msgid "ATM"
 msgstr "ATM"
@@ -3780,6 +3812,18 @@ msgstr "E-Mail nicht angegeben."
 
 msgid "Password not given."
 msgstr "Passwort nicht angegeben."
+
+#~ msgid "Account transfers are currently suspended."
+#~ msgstr "Kontoüberweisungen sind momentan suspendiert."
+
+#~ msgid "No further trading is allowed at this moment."
+#~ msgstr "Im Moment ist kein weiterer Handel erlaubt."
+
+#~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
+#~ msgstr "Eine Zahlungsagenten-Überweisung ist mit dem angegebenen Betrag nicht erlaubt, da der %1 Kontostand das erlaubte Limit überschreiten würde."
+
+#~ msgid "Purchasing this contract will cause you to exceed our payout limit for open contracts of this type. To continue, please sell some of your open contracts or trade in different contract types."
+#~ msgstr "Der Erwerb dieses Kontrakts wird verursachen, dass Sie unser Auszahlungslimit für offene Kontrakte dieser Art überschreiten. Damit Sie fortfahren können, verkaufen Sie bitte einige Ihrer offenen Kontrakte oder handeln Sie andere Kontraktarten."
 
 #~ msgid "Invalid MT5 currency - had %1 and should be USD or EUR."
 #~ msgstr "Ungültige MT5 Währung - hat %1 und sollte in USD oder EUR sein."
@@ -4773,9 +4817,6 @@ msgstr "Passwort nicht angegeben."
 
 #~ msgid "#1 Sales Division"
 #~ msgstr "%1 Vertriebsabteilung"
-
-#~ msgid "%1 is required."
-#~ msgstr "%1 ist erforderlich."
 
 #~ msgid "Account Number"
 #~ msgstr "Kontonummer"
@@ -12933,9 +12974,6 @@ msgstr "Passwort nicht angegeben."
 #~ msgid "View the operating hours of the markets you can trade."
 #~ msgstr "Die Öffnungszeiten der Börsen anzeigen, auf denen Sie handeln können."
 
-#~ msgid "View your financial assessment settings."
-#~ msgstr "Sehen Sie sich Ihre Finanzbeurteilungseinstellungen an."
-
 #~ msgid "View your historical transactions."
 #~ msgstr "Ihre bisherigen Überweisungen anzeigen."
 
@@ -13853,9 +13891,6 @@ msgstr "Passwort nicht angegeben."
 
 #~ msgid "Cash Dividend"
 #~ msgstr "Bardividende"
-
-#~ msgid "Current Spot"
-#~ msgstr "Aktueller Kassakurs"
 
 #~ msgid "Current Spot Time"
 #~ msgstr "Aktueller Kassakurs"
@@ -17551,14 +17586,8 @@ msgstr "Passwort nicht angegeben."
 #~ msgid "The contract payout has changed from %1%2 to %1%3."
 #~ msgstr "Die Vertragsauszahlung hat sich von %1%2 auf %1%3 geändert."
 
-#~ msgid "Sorry, payments are suspended due to system maintenance.  Please try again in 30 minutes time."
-#~ msgstr "Es tut uns leid, aber die Zahlungen sind aufgrund von Systemwartung suspendiert. Bitte versuchen Sie es in 30 Minuten erneut."
-
 #~ msgid "Withdrawal amount (%1 %2) is greater than your balance (%3 %4)."
 #~ msgstr "Der Betrag der Auszahlung (%2 %1) ist höher als Ihr Kontostand (%4 %3)."
-
-#~ msgid "Withdrawal is disabled."
-#~ msgstr "Die Auszahlung ist deaktiviert."
 
 #~ msgid "Your balance is over your allowed limit."
 #~ msgstr "Ihr Kontostand liegt über Ihrem erlaubten Limit."
