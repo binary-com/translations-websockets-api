@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2018-10-24 09:31+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/translations/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,6 +96,11 @@ msgstr "Il conto è stato disabilitato."
 msgid "Account needs age verification."
 msgstr "Il conto richiede la verifica dell'età."
 
+#, fuzzy
+#| msgid "Account transfers are not available within same account."
+msgid "Account transfers are not available between %1 and %2"
+msgstr "I trasferimenti relativi al conto non sono disponibili dello stesso conto."
+
 msgid "Account transfers are not available for accounts with different currencies."
 msgstr "I trasferimenti tra conti non sono disponibili per i conti con diverse valute."
 
@@ -150,6 +154,11 @@ msgstr "La barriera deve essere almeno a %plural(%1,%d pip, %d pip) dallo spot."
 
 msgid "Barriers must be on either side of the spot."
 msgstr "La barriera deve essere su una delle estremità dello spot."
+
+#, fuzzy
+#| msgid "Your app_id is invalid."
+msgid "Brand is invalid."
+msgstr "L'ID della tua app non è valido."
 
 msgid "Cancel"
 msgstr "Cancella"
@@ -238,6 +247,11 @@ msgstr "Il limite giornaliero di turnover è attualmente impostato a <strong>%1 
 msgid "Date"
 msgstr "Data"
 
+#, fuzzy
+#| msgid "Date of birth is invalid"
+msgid "Date first contact is invalid."
+msgstr "La data di nascita non è valida"
+
 msgid "Date of birth is invalid"
 msgstr "La data di nascita non è valida"
 
@@ -250,6 +264,23 @@ msgstr "Gentile"
 msgid "Dear %1 %2 %3,"
 msgstr "Gentile %1 %2 %3,"
 
+#, fuzzy
+#| msgid ""
+#| "Dear %1,\n"
+#| "\n"
+#| "We are writing to you regarding your account with %2.\n"
+#| "\n"
+#| "We are legally required to verify that clients are over the age of 18, and so we request that you forward scanned copies of one of the following to %3:\n"
+#| "\n"
+#| "- Valid Passport or Driving licence or National ID card\n"
+#| "\n"
+#| "In order to comply with licencing regulations, you will be unable to make further deposits or withdrawals or to trade on the account until we receive this document.\n"
+#| "\n"
+#| "We look forward to hearing from you soon.\n"
+#| "\n"
+#| "Kind regards,\n"
+#| "\n"
+#| "%2\n"
 msgid ""
 "Dear %1,\n"
 "\n"
@@ -259,7 +290,7 @@ msgid ""
 "\n"
 "- Valid Passport or Driving licence or National ID card\n"
 "\n"
-"In order to comply with licencing regulations, you will be unable to make further deposits or withdrawals or to trade on the account until we receive this document.\n"
+"In order to comply with licencing regulations, you will be unable to make further deposits or withdrawals or to trade with your account until we receive this document.\n"
 "\n"
 "We look forward to hearing from you soon.\n"
 "\n"
@@ -438,6 +469,9 @@ msgstr "Per i depositi successivi, visita di nuovo la pagina della cassa per gen
 
 msgid "From account provided should be same as current authorized client."
 msgstr "L'account fornito deve essere uguale all'attuale cliente autorizzato."
+
+msgid "From date must be before To date for sending statement"
+msgstr ""
 
 msgid "Further instructions must not exceed %1 characters."
 msgstr "Le ulteriori istruzioni non devono superare i %1 caratteri."
@@ -619,6 +653,11 @@ msgstr "Numero massimo di posizioni aperte"
 msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
 msgstr "Il numero massimo di posizioni aperte è attualmente impostato a <strong>%1</strong>"
 
+#, fuzzy
+#| msgid "Maximum aggregate loss per day."
+msgid "Maximum of %1 transfers allowed per day."
+msgstr "Perdita totale massima al giorno."
+
 msgid "Min trade stake should be lower than max trade stake."
 msgstr "La puntata minima del trade deve essere inferiore alla puntata massima."
 
@@ -784,9 +823,6 @@ msgstr "Per continuare, convalida il tuo account."
 
 msgid "Please authenticate your account."
 msgstr "Convalida il tuo account."
-
-msgid "Please close out all open positions before requesting additional funds."
-msgstr "Prima di richiedere altri fondi, chiudi tutte le posizioni aperte."
 
 msgid "Please complete financial assessment."
 msgstr "Completa la valutazione finanziaria."
@@ -959,7 +995,9 @@ msgstr "Esamina le autorizzazioni"
 msgid "Self-Exclusion Facilities"
 msgstr "Funzioni di auto esclusione"
 
-msgid "Send your %1 to this address:"
+#, fuzzy
+#| msgid "Send your %1 to this address:"
+msgid "Send your %1 (%2) to this address:"
 msgstr "Invia il tuo %1 al seguente indirizzo:"
 
 msgid "Session duration limit cannot be more than 6 weeks."
@@ -1292,14 +1330,16 @@ msgstr "Il trading è sospeso per questo strumento."
 msgid "Transactions"
 msgstr "Transazioni"
 
-msgid "Transfer between accounts is currently suspended."
-msgstr "I trasferimenti tra conti sono momentaneamente sospesi."
-
 msgid "Transfer validation failed on %1."
 msgstr "Convalida trasferimento non riuscita su %1."
 
 msgid "Transfers between accounts are not available for your account."
 msgstr "I trasferimenti tra gli account non sono disponibili per il tuo account."
+
+#, fuzzy
+#| msgid "Transfer between accounts is currently suspended."
+msgid "Transfers between fiat and crypto accounts are currently disabled."
+msgstr "I trasferimenti tra conti sono momentaneamente sospesi."
 
 msgid "URL should not have fragment"
 msgstr "L'URL non deve essere suddiviso"
@@ -1700,91 +1740,71 @@ msgstr "ora."
 msgid "today"
 msgstr "oggi"
 
-msgid "EUR/AUD"
-msgstr "EUR/AUD"
+msgid "NZDCHF"
+msgstr "NZDCHF"
+
+msgid "CHF/JPY"
+msgstr "CHF/JPY"
+
+msgid "GBP/USD"
+msgstr "GBP/USD"
 
 msgid "GBP/SEK"
 msgstr "GBP/SEK"
 
-msgid "USD/JPY"
-msgstr "USD/JPY"
+msgid "USDZAR"
+msgstr "USDZAR"
 
-msgid "EUR/MXN"
-msgstr "EUR/MXN"
+msgid "NZD/USD"
+msgstr "NZD/USD"
 
 msgid "GBP/ZAR"
 msgstr "GBP/ZAR"
 
+msgid "EUR/TRY"
+msgstr "EUR/TRY"
+
+msgid "AUD/HKD"
+msgstr "AUD/HKD"
+
+msgid "AUD Index"
+msgstr "Indice AUD"
+
+msgid "EUR/JPY"
+msgstr "EUR/JPY"
+
 msgid "GBP/AUD"
 msgstr "GBP/AUD"
-
-msgid "AUD/SGD"
-msgstr "AUD/SGD"
-
-msgid "AUD/NOK"
-msgstr "AUD/NOK"
-
-msgid "GBP/IDR"
-msgstr "GBP/IDR"
-
-msgid "EUR Index"
-msgstr "Indice EUR"
-
-# Start of extra_translations
-msgid "AUD/JPY"
-msgstr "AUD/JPY"
-
-# Start of extra_translations
-msgid "CAD/JPY"
-msgstr "CAD/JPY"
-
-msgid "GBP/NOK"
-msgstr "GBP/NOK"
-
-msgid "AUD/INR"
-msgstr "AUD/INR"
-
-msgid "USD Index"
-msgstr "Indice USD"
-
-msgid "GBP/TRY"
-msgstr "GBP/TRY"
-
-msgid "USD/SEK"
-msgstr "USD/SEK"
 
 msgid "GBP/CAD"
 msgstr "GBP/CAD"
 
-msgid "AUD/NZD"
-msgstr "AUD/NZD"
+msgid "USD/SEK"
+msgstr "USD/SEK"
 
-msgid "AUD/AED"
-msgstr "AUD/AED"
+msgid "GBP/NZD"
+msgstr "GBP/NZD"
 
-msgid "EUR/ZAR"
-msgstr "EUR/ZAR"
+msgid "USD Index"
+msgstr "Indice USD"
+
+msgid "AUD/IDR"
+msgstr "AUD/IDR"
 
 msgid "AUDZAR"
 msgstr "AUDZAR"
 
-msgid "AUD/CAD"
-msgstr "AUD/CAD"
+msgid "EUR Index"
+msgstr "Indice EUR"
 
-msgid "GBP/SGD"
-msgstr "GBP/SGD"
+msgid "USD/PLN"
+msgstr "USD/PLN"
 
-msgid "USD/HKD"
-msgstr "USD/HKD"
+msgid "EUR/PLN"
+msgstr "EUR/PLN"
 
-msgid "EUR/CHF"
-msgstr "EUR/CHF"
-
-msgid "GBP/JPY"
-msgstr "GBP/JPY"
-
-msgid "USD/TRY"
-msgstr "USD/TRY"
+msgid "USD/NOK"
+msgstr "USD/NOK"
 
 msgid "EUR/IDR"
 msgstr "EUR/IDR"
@@ -1792,305 +1812,319 @@ msgstr "EUR/IDR"
 msgid "USD/INR"
 msgstr "USD/INR"
 
-msgid "NZD/USD"
-msgstr "NZD/USD"
-
-msgid "AUD/CHF"
-msgstr "AUD/CHF"
-
-msgid "AUD/MXN"
-msgstr "AUD/MXN"
-
-msgid "EUR/NZD"
-msgstr "EUR/NZD"
-
-msgid "GBP/USD"
-msgstr "GBP/USD"
-
-msgid "AUD/SEK"
-msgstr "AUD/SEK"
-
-msgid "EUR/JPY"
-msgstr "EUR/JPY"
-
-msgid "USD/MXN"
-msgstr "USD/MXN"
-
-msgid "EUR/PLN"
-msgstr "EUR/PLN"
-
-msgid "GBP/AED"
-msgstr "GBP/AED"
-
-msgid "USD/NOK"
-msgstr "USD/NOK"
-
-msgid "GBP/MXN"
-msgstr "GBP/MXN"
-
-msgid "USDZAR"
-msgstr "USDZAR"
-
-msgid "AUD Index"
-msgstr "Indice AUD"
-
-msgid "GBP/NZD"
-msgstr "GBP/NZD"
-
-msgid "GBP/PLN"
-msgstr "GBP/PLN"
-
-msgid "GBP/INR"
-msgstr "GBP/INR"
-
 msgid "EUR/GBP"
 msgstr "EUR/GBP"
 
-msgid "EUR/NOK"
-msgstr "EUR/NOK"
-
-msgid "AUD/TRY"
-msgstr "AUD/TRY"
-
-msgid "USD/CAD"
-msgstr "USD/CAD"
-
-msgid "AUD/IDR"
-msgstr "AUD/IDR"
-
-msgid "USD/CHF"
-msgstr "USD/CHF"
-
-msgid "EUR/SGD"
-msgstr "EUR/SGD"
+msgid "EUR/CHF"
+msgstr "EUR/CHF"
 
 msgid "EUR/SEK"
 msgstr "EUR/SEK"
 
-msgid "AUD/USD"
-msgstr "AUD/USD"
+msgid "USD/IDR"
+msgstr "USD/IDR"
 
-msgid "NZDCHF"
-msgstr "NZDCHF"
-
-msgid "NZD/JPY"
-msgstr "NZD/JPY"
-
-msgid "AUD/HKD"
-msgstr "AUD/HKD"
-
-msgid "GBP/CHF"
-msgstr "GBP/CHF"
-
-msgid "EUR/USD"
-msgstr "EUR/USD"
-
-msgid "USD/PLN"
-msgstr "USD/PLN"
+msgid "USD/CHF"
+msgstr "USD/CHF"
 
 msgid "USD/AED"
 msgstr "USD/AED"
 
-msgid "EUR/AED"
-msgstr "EUR/AED"
+msgid "USD/HKD"
+msgstr "USD/HKD"
 
-msgid "USD/SGD"
-msgstr "USD/SGD"
+msgid "EUR/MXN"
+msgstr "EUR/MXN"
 
-msgid "CHF/JPY"
-msgstr "CHF/JPY"
+msgid "EUR/USD"
+msgstr "EUR/USD"
 
-msgid "EUR/INR"
-msgstr "EUR/INR"
+msgid "EUR/SGD"
+msgstr "EUR/SGD"
 
-msgid "USD/IDR"
-msgstr "USD/IDR"
-
-msgid "GBP/HKD"
-msgstr "GBP/HKD"
-
-msgid "EUR/TRY"
-msgstr "EUR/TRY"
-
-msgid "EUR/HKD"
-msgstr "EUR/HKD"
+msgid "GBP/MXN"
+msgstr "GBP/MXN"
 
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
+msgid "AUD/USD"
+msgstr "AUD/USD"
+
+msgid "AUD/SEK"
+msgstr "AUD/SEK"
+
+msgid "AUD/NZD"
+msgstr "AUD/NZD"
+
+msgid "USD/TRY"
+msgstr "USD/TRY"
+
+msgid "EUR/AED"
+msgstr "EUR/AED"
+
+msgid "GBP/CHF"
+msgstr "GBP/CHF"
+
+msgid "GBP/JPY"
+msgstr "GBP/JPY"
+
+msgid "GBP/INR"
+msgstr "GBP/INR"
+
+msgid "AUD/MXN"
+msgstr "AUD/MXN"
+
+msgid "GBP/IDR"
+msgstr "GBP/IDR"
+
+msgid "USD/MXN"
+msgstr "USD/MXN"
+
+# Start of extra_translations
+msgid "CAD/JPY"
+msgstr "CAD/JPY"
+
+msgid "GBP/SGD"
+msgstr "GBP/SGD"
+
+msgid "GBP/NOK"
+msgstr "GBP/NOK"
+
+# Start of extra_translations
+msgid "AUD/JPY"
+msgstr "AUD/JPY"
+
+msgid "GBP/AED"
+msgstr "GBP/AED"
+
+msgid "AUD/CHF"
+msgstr "AUD/CHF"
+
+msgid "AUD/CAD"
+msgstr "AUD/CAD"
+
+msgid "USD/SGD"
+msgstr "USD/SGD"
+
+msgid "AUD/AED"
+msgstr "AUD/AED"
+
+msgid "EUR/HKD"
+msgstr "EUR/HKD"
+
 msgid "EUR/CAD"
 msgstr "EUR/CAD"
+
+msgid "USD/CAD"
+msgstr "USD/CAD"
+
+msgid "AUD/SGD"
+msgstr "AUD/SGD"
+
+msgid "USD/JPY"
+msgstr "USD/JPY"
+
+msgid "EUR/NOK"
+msgstr "EUR/NOK"
+
+msgid "EUR/INR"
+msgstr "EUR/INR"
+
+msgid "AUD/TRY"
+msgstr "AUD/TRY"
+
+msgid "EUR/NZD"
+msgstr "EUR/NZD"
+
+msgid "NZD/JPY"
+msgstr "NZD/JPY"
+
+msgid "AUD/NOK"
+msgstr "AUD/NOK"
+
+msgid "AUD/INR"
+msgstr "AUD/INR"
+
+msgid "GBP/HKD"
+msgstr "GBP/HKD"
+
+msgid "EUR/AUD"
+msgstr "EUR/AUD"
+
+msgid "GBP/TRY"
+msgstr "GBP/TRY"
 
 msgid "GBP Index"
 msgstr "Indice GBP"
 
-msgid "AUD/PLN"
-msgstr "AUD/PLN"
-
-msgid "German Index"
-msgstr "Indice tedesco"
-
-msgid "US Tech 100 Index"
-msgstr "Indice US Tech 100"
-
-msgid "UK Index"
-msgstr "Indice del Regno Unito"
-
-msgid "Singapore Index"
-msgstr "Indice Singapore"
-
-msgid "Euro 50 Index"
-msgstr "Indice Euro 50"
-
-msgid "French Index"
-msgstr "Indice Francia"
-
-msgid "US Smart Index"
-msgstr "Indice Smart USA"
-
-msgid "Abu Dhabi Index"
-msgstr "Indice di Abu Dhabi"
-
-msgid "Euro 100 Index"
-msgstr "Indice Euro 100"
-
-msgid "US Index"
-msgstr "Indice USA"
-
-msgid "Brazilian Index"
-msgstr "Indice brasiliano"
-
-msgid "Wall Street Index"
-msgstr "Indice Wall Street"
-
-msgid "South African Index"
-msgstr "Indice del Sudafrica"
-
-msgid "Saudi Arabia Index"
-msgstr "Indice dell'Arabia Saudita"
-
-msgid "Irish Index"
-msgstr "Indice irlandese"
-
-msgid "Spanish Index"
-msgstr "Indice spagnolo"
-
-msgid "Australian Index"
-msgstr "Indice Australia"
+msgid "EUR/ZAR"
+msgstr "EUR/ZAR"
 
 msgid "Hong Kong Index"
 msgstr "Indice di Hong Kong"
 
-msgid "US Tech Index"
-msgstr "Indice US Tech"
-
-msgid "Korean Index"
-msgstr "Indice della Corea"
-
-msgid "Dutch Smart Index"
-msgstr "Indice Smart olandese"
-
-msgid "German Smart Index"
-msgstr "Indice Smart tedesco"
-
-msgid "Jakarta Index"
-msgstr "Indice Jakarta"
-
-msgid "Swiss Index"
-msgstr "Indice svizzero"
-
-msgid "Dutch Index"
-msgstr "Indice olandese"
-
-msgid "Bombay Index"
-msgstr "Indice di Bombay"
-
-msgid "Hang Seng China"
-msgstr "Hang Seng China"
-
-msgid "Japanese Index"
-msgstr "Indice giapponese"
-
-msgid "Italian Index"
-msgstr "Indice italiano"
-
-msgid "Shenzhen Index"
-msgstr "Indice di Shenzhen"
-
-msgid "Italian 30 Index"
-msgstr "Indice Italia 30"
-
-msgid "AP Ordinary"
-msgstr "AP Ordinario"
-
-msgid "US Tech Composite Index"
-msgstr "Indice composto US Tech"
-
-msgid "Euro 150 Index"
-msgstr "Indice Euro 150"
-
-msgid "Euro 50 Smart Index"
-msgstr "Indice Smart Euro 50"
-
-msgid "Swedish Index"
-msgstr "Indice Svezia"
-
-msgid "Portuguese Smart Index"
-msgstr "Indice Smart Portogallo"
-
-msgid "Wall Street Smart Index"
-msgstr "Indice Smart Wall Street"
-
-msgid "Norwegian Index"
-msgstr "Indice della Norvegia"
-
-msgid "Egypt Index"
-msgstr "Indice dell'Egitto"
-
-msgid "Japanese Smart Index"
-msgstr "Indice Smart Giappone"
-
-msgid "Russian Regular Index"
-msgstr "Indice regolare russo"
-
-msgid "French Smart Index"
-msgstr "Indice Smart francese"
+msgid "Euro 50 Index"
+msgstr "Indice Euro 50"
 
 msgid "Shanghai Index"
 msgstr "Indice Shanghai"
 
-msgid "UK Smart Index"
-msgstr "Indice Smart Regno Unito"
+msgid "French Index"
+msgstr "Indice Francia"
 
-msgid "Istanbul Index"
-msgstr "Indice di Instanbul"
+msgid "Wall Street Index"
+msgstr "Indice Wall Street"
 
-msgid "Swiss Smart Index"
-msgstr "Indice Smart svizzero"
-
-msgid "Canadian Index"
-msgstr "Indice canadese"
-
-msgid "Dubai Index"
-msgstr "Indice di Dubai"
+msgid "Japanese Index"
+msgstr "Indice giapponese"
 
 msgid "Portuguese Index"
 msgstr "Indice Portogallo"
 
-msgid "Belgian Index"
-msgstr "Indice belga"
+msgid "Singapore Index"
+msgstr "Indice Singapore"
+
+msgid "US Tech Index"
+msgstr "Indice US Tech"
+
+msgid "Abu Dhabi Index"
+msgstr "Indice di Abu Dhabi"
+
+msgid "Euro 50 Smart Index"
+msgstr "Indice Smart Euro 50"
+
+msgid "Istanbul Index"
+msgstr "Indice di Instanbul"
+
+msgid "Spanish Index"
+msgstr "Indice spagnolo"
+
+msgid "German Index"
+msgstr "Indice tedesco"
+
+msgid "US Index"
+msgstr "Indice USA"
+
+msgid "Hang Seng China"
+msgstr "Hang Seng China"
+
+msgid "UK Index"
+msgstr "Indice del Regno Unito"
+
+msgid "French Smart Index"
+msgstr "Indice Smart francese"
+
+msgid "US Tech 100 Index"
+msgstr "Indice US Tech 100"
+
+msgid "UK Smart Index"
+msgstr "Indice Smart Regno Unito"
+
+msgid "Swedish Index"
+msgstr "Indice Svezia"
+
+msgid "Japanese Smart Index"
+msgstr "Indice Smart Giappone"
+
+msgid "Euro 150 Index"
+msgstr "Indice Euro 150"
+
+msgid "Wall Street Smart Index"
+msgstr "Indice Smart Wall Street"
+
+msgid "Saudi Arabia Index"
+msgstr "Indice dell'Arabia Saudita"
+
+msgid "Brazilian Index"
+msgstr "Indice brasiliano"
+
+msgid "Korean Index"
+msgstr "Indice della Corea"
+
+msgid "Portuguese Smart Index"
+msgstr "Indice Smart Portogallo"
+
+msgid "US Smart Index"
+msgstr "Indice Smart USA"
+
+msgid "Swiss Smart Index"
+msgstr "Indice Smart svizzero"
+
+msgid "Shenzhen Index"
+msgstr "Indice di Shenzhen"
+
+msgid "Australian Index"
+msgstr "Indice Australia"
+
+msgid "Russian Regular Index"
+msgstr "Indice regolare russo"
+
+msgid "Dutch Index"
+msgstr "Indice olandese"
+
+msgid "Egypt Index"
+msgstr "Indice dell'Egitto"
+
+msgid "AP Ordinary"
+msgstr "AP Ordinario"
+
+msgid "Italian Index"
+msgstr "Indice italiano"
+
+msgid "US Tech Composite Index"
+msgstr "Indice composto US Tech"
+
+msgid "Swiss Index"
+msgstr "Indice svizzero"
+
+msgid "German Smart Index"
+msgstr "Indice Smart tedesco"
+
+msgid "Dutch Smart Index"
+msgstr "Indice Smart olandese"
+
+msgid "Italian 30 Index"
+msgstr "Indice Italia 30"
+
+msgid "Euro 100 Index"
+msgstr "Indice Euro 100"
+
+msgid "Oil/AUD"
+msgstr "Petrolio/AUD"
+
+msgid "XPD/AUD"
+msgstr "XPD/AUD"
+
+msgid "XAG/AUD"
+msgstr "XAG/AUD"
+
+msgid "Gold/GBP"
+msgstr "Oro/GBP"
+
+msgid "XPT/EUR"
+msgstr "XPT/EUR"
 
 msgid "Oil/GBP"
 msgstr "Petrolio/GBP"
 
-msgid "Silver/USD"
-msgstr "Argento/USD"
+msgid "XPT/AUD"
+msgstr "XPT/AUD"
+
+msgid "Palladium/USD"
+msgstr "Palladio/USD"
+
+msgid "Oil/EUR"
+msgstr "Petrolio/EUR"
+
+msgid "Platinum/USD"
+msgstr "Platino/USD"
 
 msgid "XPD/EUR"
 msgstr "XPD/EUR"
 
-msgid "XPD/AUD"
-msgstr "XPD/AUD"
+msgid "XPT/GBP"
+msgstr "XPT/GBP"
 
 msgid "Gold/AUD"
 msgstr "Oro/AUD"
@@ -2098,86 +2132,44 @@ msgstr "Oro/AUD"
 msgid "XPD/GBP"
 msgstr "XPD/GBP"
 
-msgid "Oil/EUR"
-msgstr "Petrolio/EUR"
-
-msgid "Oil/AUD"
-msgstr "Petrolio/AUD"
-
-msgid "Gold/EUR"
-msgstr "Oro/EUR"
+msgid "Silver/USD"
+msgstr "Argento/USD"
 
 msgid "Gold/USD"
 msgstr "Oro/USD"
 
-msgid "XAG/AUD"
-msgstr "XAG/AUD"
-
-msgid "XPT/GBP"
-msgstr "XPT/GBP"
-
-msgid "Platinum/USD"
-msgstr "Platino/USD"
-
-msgid "XPT/EUR"
-msgstr "XPT/EUR"
-
-msgid "Palladium/USD"
-msgstr "Palladio/USD"
-
-msgid "XAG/GBP"
-msgstr "XAG/GBP"
-
-msgid "XPT/AUD"
-msgstr "XPT/AUD"
+msgid "XAG/EUR"
+msgstr "XAG/EUR"
 
 msgid "Oil/USD"
 msgstr "Petrolio/USD"
 
-msgid "XAG/EUR"
-msgstr "XAG/EUR"
+msgid "Gold/EUR"
+msgstr "Oro/EUR"
 
-msgid "Gold/GBP"
-msgstr "Oro/GBP"
+msgid "XAG/GBP"
+msgstr "XAG/GBP"
 
 msgid "Volatility 100 Index"
 msgstr "Indice Volatility 100"
 
-msgid "Volatility 50 Index"
-msgstr "Indice Volatility 50"
-
 msgid "Bull Market Index"
 msgstr "Indice Bull Market"
-
-msgid "Volatility 10 Index"
-msgstr "Indice Volatility 10"
-
-msgid "Volatility 75 Index"
-msgstr "Indice Volatility 75"
 
 msgid "Bear Market Index"
 msgstr "Indice Bear Market"
 
+msgid "Volatility 10 Index"
+msgstr "Indice Volatility 10"
+
 msgid "Volatility 25 Index"
 msgstr "Indice Volatility 25"
 
-msgid "Cryptocurrency"
-msgstr "Criptovaluta"
+msgid "Volatility 50 Index"
+msgstr "Indice Volatility 50"
 
-msgid "Cryptocurrency represents the value of a digital asset in fiat currency."
-msgstr "Le criptovalute rappresentano il valore di un asset digitale in valuta fiat."
-
-msgid "Commodities"
-msgstr "Materie prime"
-
-msgid "Commodities are traded items with directly usable qualities."
-msgstr "Le materie prime sono prodotti negoziati con qualità direttamente utilizzabili."
-
-msgid "Forex"
-msgstr "Forex"
-
-msgid "Forex (or foreign exchange) represents the ratio between the values of two currencies."
-msgstr "Il Forex (anche detto foreign exchange) rappresenta il rapporto tra il valore di due valute."
+msgid "Volatility 75 Index"
+msgstr "Indice Volatility 75"
 
 msgid "Indices"
 msgstr "Indici"
@@ -2197,23 +2189,29 @@ msgstr "Indici di volatilità"
 msgid "The volatility indices simulate various real market situations and provide an ideal platform for getting used to trading and testing strategies under various market conditions."
 msgstr "Gli indici di volatilità simulano varie situazioni dei mercati reali e forniscono una piattaforma ideale per abituarsi al trading e testare le strategie in varie condizioni di mercato."
 
-msgid "Europe/Africa"
-msgstr "Europa/Africa"
+msgid "Commodities"
+msgstr "Materie prime"
 
-msgid "Stable Coin"
-msgstr "Moneta stabile"
+msgid "Commodities are traded items with directly usable qualities."
+msgstr "Le materie prime sono prodotti negoziati con qualità direttamente utilizzabili."
 
-msgid "USD pegged coins"
-msgstr "Monete ancorate all'USD"
+msgid "Forex"
+msgstr "Forex"
 
-msgid "Energy"
-msgstr "Energia"
+msgid "Forex (or foreign exchange) represents the ratio between the values of two currencies."
+msgstr "Il Forex (anche detto foreign exchange) rappresenta il rapporto tra il valore di due valute."
 
-msgid "Daily Reset Indices"
-msgstr "Indici di Reset giornalieri"
+msgid "Cryptocurrency"
+msgstr "Criptovaluta"
 
-msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT)."
-msgstr "Rappresentano un singolo giorno di trading con diversi fattori di mercato. Vengono riavviati all'inizio di ogni giornata di trading (00:00 GMT)."
+msgid "Cryptocurrency represents the value of a digital asset in fiat currency."
+msgstr "Le criptovalute rappresentano il valore di un asset digitale in valuta fiat."
+
+msgid "Asia/Oceania"
+msgstr "Asia/Oceania"
+
+msgid "Americas"
+msgstr "America"
 
 msgid "Minor Pairs"
 msgstr "Coppie minori"
@@ -2221,29 +2219,10 @@ msgstr "Coppie minori"
 msgid "Forex pairs of interest, but with less liquid international markets."
 msgstr "Coppie Forex di interesse ma con mercati internazionali meno liquidi."
 
-msgid "Middle East"
-msgstr "Medio Oriente"
-
-msgid "Americas"
-msgstr "America"
-
-msgid "Metals"
-msgstr "Metalli"
-
-msgid "Smart Indices"
-msgstr "Indici Smart"
-
-msgid "Synthetic Index"
-msgstr "Indice Sintetico"
-
-msgid "Synthetic Indices"
-msgstr "Indici Sintetici"
-
-msgid "config-only"
-msgstr "solo configurazione"
-
-msgid "Non-Stable Coin"
-msgstr "Moneta instabile"
+#, fuzzy
+#| msgid "Eurotech"
+msgid "Europe"
+msgstr "Eurotech"
 
 msgid "Smart FX"
 msgstr "Smart FX"
@@ -2251,8 +2230,35 @@ msgstr "Smart FX"
 msgid "Smart FX indices"
 msgstr "Indici Smart FX"
 
-msgid "Asia/Oceania"
-msgstr "Asia/Oceania"
+msgid "Smart Indices"
+msgstr "Indici Smart"
+
+msgid "Daily Reset Indices"
+msgstr "Indici di Reset giornalieri"
+
+msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT)."
+msgstr "Rappresentano un singolo giorno di trading con diversi fattori di mercato. Vengono riavviati all'inizio di ogni giornata di trading (00:00 GMT)."
+
+msgid "Major Pairs"
+msgstr "Coppie principali"
+
+msgid "The most widely traded and liquid forex pairs."
+msgstr "Le coppie Forex più ampiamente negoziate e liquide."
+
+msgid "config-only"
+msgstr "solo configurazione"
+
+msgid "Stable Coin"
+msgstr "Moneta stabile"
+
+msgid "USD pegged coins"
+msgstr "Monete ancorate all'USD"
+
+msgid "Synthetic Index"
+msgstr "Indice Sintetico"
+
+msgid "Synthetic Indices"
+msgstr "Indici Sintetici"
 
 msgid "Nocturnes"
 msgstr "Notturni"
@@ -2260,17 +2266,23 @@ msgstr "Notturni"
 msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (12:00GMT)."
 msgstr "Rappresenta un singolo giorno di trading con diversi fattori di mercato. Vengono riavviati all'inizio di ogni giorno di trading (12:00 GMT)."
 
+msgid "Non-Stable Coin"
+msgstr "Moneta instabile"
+
 msgid "Continuous Indices"
 msgstr "Indici continui"
 
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "Associati a un numero che rappresenta la volatilità relativa del mercato. Ad esempio, l'Indice Volatility 100 è due volte più volatile dell'Indice Volatility 50."
 
-msgid "Major Pairs"
-msgstr "Coppie principali"
+msgid "Energy"
+msgstr "Energia"
 
-msgid "The most widely traded and liquid forex pairs."
-msgstr "Le coppie Forex più ampiamente negoziate e liquide."
+msgid "Middle East"
+msgstr "Medio Oriente"
+
+msgid "Metals"
+msgstr "Metalli"
 
 msgid "Asians"
 msgstr "Asiatiche"
@@ -2329,71 +2341,62 @@ msgstr "Touch/No touch"
 msgid "Predict whether or not the market will touch a chosen level before expiration."
 msgstr "Prevedi se il mercato toccherà o meno un dato livello prima della scadenza."
 
-msgid "Digit Over"
-msgstr "Cifra Superiore"
-
-msgid "Does Not Touch"
-msgstr "Non Tocca"
-
-msgid "Touches"
-msgstr "Tocca"
-
-msgid "Ends Outside"
-msgstr "Termina Fuori"
-
-msgid "Goes Outside"
-msgstr "Esce"
-
-msgid "Ends Outside or equal"
-msgstr "Termina Fuori o uguale"
+msgid "Ends Between or equal"
+msgstr "Termina dentro o uguale"
 
 msgid "Higher"
 msgstr "Superiore"
 
-msgid "Ends Between"
-msgstr "Termina Dentro"
-
 msgid "Lower"
 msgstr "Inferiore"
 
-msgid "Reset Put"
-msgstr "Reimposta opzione Put"
+msgid "High-Low"
+msgstr "High-Low"
 
 msgid "Reset Call"
 msgstr "Reimposta opzione Call"
 
-msgid "Low Tick"
-msgstr "Tick basso"
+msgid "High-Close"
+msgstr "High-Close"
 
-msgid "Digit Odd"
-msgstr "Cifra Dispari"
-
-msgid "High Tick"
-msgstr "Tick alto"
-
-msgid "Ends Between or equal"
-msgstr "Termina dentro o uguale"
-
-msgid "Digit Under"
-msgstr "Cifra Inferiore"
-
-msgid "Call Spread"
-msgstr "Call Spread"
-
-msgid "Stays Between"
-msgstr "Resta Dentro"
-
-msgid "Digit Matches"
-msgstr "Cifra Uguale"
+msgid "Goes Outside"
+msgstr "Esce"
 
 msgid "Digit Differs"
 msgstr "Cifra Diversa"
 
-msgid "High-Close"
-msgstr "High-Close"
+msgid "Asian Down"
+msgstr "Ribasso Asiatiche"
 
-msgid "High-Low"
-msgstr "High-Low"
+msgid "Touches"
+msgstr "Tocca"
+
+msgid "Reset Put"
+msgstr "Reimposta opzione Put"
+
+msgid "Digit Even"
+msgstr "Cifra Pari"
+
+msgid "Low Tick"
+msgstr "Tick basso"
+
+msgid "Digit Under"
+msgstr "Cifra Inferiore"
+
+msgid "Digit Matches"
+msgstr "Cifra Uguale"
+
+msgid "Asian Up"
+msgstr "Rialzo Asiatiche"
+
+msgid "Ends Between"
+msgstr "Termina Dentro"
+
+msgid "Ends Outside or equal"
+msgstr "Termina Fuori o uguale"
+
+msgid "High Tick"
+msgstr "Tick alto"
 
 msgid "Put Spread"
 msgstr "Put Spread"
@@ -2401,64 +2404,59 @@ msgstr "Put Spread"
 msgid "Close-Low"
 msgstr "Close-Low"
 
-msgid "Asian Down"
-msgstr "Ribasso Asiatiche"
+msgid "Digit Over"
+msgstr "Cifra Superiore"
 
-msgid "Asian Up"
-msgstr "Rialzo Asiatiche"
+msgid "Does Not Touch"
+msgstr "Non Tocca"
 
-msgid "Digit Even"
-msgstr "Cifra Pari"
+msgid "Ends Outside"
+msgstr "Termina Fuori"
 
-msgid "Win payout if %1 is lower than or equal to %4 at %3."
-msgstr "Vinci il payout se %1 è inferiore o uguale a %4 alle %3."
+msgid "Call Spread"
+msgstr "Call Spread"
+
+msgid "Stays Between"
+msgstr "Resta Dentro"
+
+msgid "Digit Odd"
+msgstr "Cifra Dispari"
+
+msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
+msgstr "Vinci il payout se %1 rimane tra %5 e %4 dalle %3 dopo %2."
+
+msgid "Legacy contract. No further information is available."
+msgstr "Contratto d'eredità. Non è disponibile nessun'altra informazione."
+
+msgid "contract start time"
+msgstr "orario d'inizio dei contratti"
+
+msgid "entry spot"
+msgstr "spot d'entrata"
 
 msgid "Win payout if %1 stays between %5 to %4 through %3."
 msgstr "Vinci il payout se %1 rimane fra %5 e %4 fino alle %3."
 
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
-msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è notevolmente superiore di %4."
+msgid "Win up to %7 %6 if %1's exit tick is between %5 and %4 at %3."
+msgstr "Vinci fino a %7 %6 se il tick di uscita di %1 è tra %5 e %4 alle %3."
 
-msgid "entry spot plus %plural(%1,%d pip, %d pips)"
-msgstr "spot d'entrata più %plural(%1,%d pip, %d pip)"
-
-msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
-msgstr "Vinci il payout se %1 finisce saldamente tra %5 e %4 alle %3."
-
-msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "Vinci il payout se l'ultimo tick di %1 è notevolmente inferiore a quello della media di %plural(%3,%d tick,%d tick)."
-
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than it was at either entry or %5 ticks."
-msgstr ""
-"Vinci il payout se %1 dopo %plural(%3,%d tick, più tick %d) è notevolmente "
-"superiore rispetto all'ingresso o a %5 tick."
-
-msgid "close on %1"
-msgstr "chiusura il %1"
-
-msgid "Win payout if %1 is strictly higher than %4 at %3."
-msgstr "Vinci il payout se %1 è notevolmente superiore di %4 a %3."
-
-msgid "Win %6 %5 times %1's close minus low at %3."
-msgstr "Vinci %6 %5 volte %1 close meno low a %3."
+msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
+msgstr "Vinci il payout se %1 termina a o tra %5 e %4 alle %3 dopo %2."
 
 msgid "Win payout if %1 is higher than or equal to %4 at %3 after %2."
 msgstr "Vinci il payout se %1 è superiore o uguale a %4 a %3 dopo %2."
 
-msgid "Win payout if %1 does not touch %4 through %3."
-msgstr "Vinci il payout se %1 non tocca %4 fino alle %3."
-
 msgid "Win payout if %1 is higher than or equal to %4 at %3."
 msgstr "Vinci il payout se %1 è superiore o uguale a %4 a %3."
+
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
+msgstr "Vinci il payout se %1 termina su o fuori da %5 o %4 alle %3 dopo l'inizio alle %2."
 
 msgid "Win payout if %1 touches %4 through %plural(%3,%d tick,%d ticks) after %2."
 msgstr "Vinci il payout se %1 tocca %4 passando per %plural(%3,%d tick,%d tick) dopo %2."
 
-msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
-msgstr "Vinci il payout se %1 è notevolmente inferiore di %4 alle %3, dopo le %2."
-
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
-msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è notevolmente inferiore a %4."
+msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 at %3."
+msgstr "Vinci fino a %7 %6 se il tick di uscita di %1 è tra %4 e %5 alle %3."
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Vinci il payout se %5 tick di %1 è il più basso tra tutti i tick %3."
@@ -2466,374 +2464,242 @@ msgstr "Vinci il payout se %5 tick di %1 è il più basso tra tutti i tick %3."
 msgid "Win payout if %1 is strictly lower than %4 at %3."
 msgstr "Vinci il payout se %1 è notevolmente inferiore di %4 alle %3."
 
-msgid "Win payout if %1 ends on or between %5 to %4 at %3 after %2."
-msgstr "Vinci il payout se %1 termina a o tra %5 e %4 alle %3 dopo %2."
-
-msgid "Win payout if %1 ends on or between %5 to %4 at %3."
-msgstr "Vinci il payout se %1 finisce tra %5 e %4 alle %3."
-
-msgid "entry spot minus %1"
-msgstr "spot d'entrata meno %1"
-
-msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
-msgstr "Vinci il payout se %1 esce fuori da %5 e %4 dalle %3 alle %2."
-
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
-msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è superiore o uguale a %4."
+msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
+msgstr "Vinci il payout se %1 termina fuori da %5 o %4 alle %3 dopo l'inizio alle %2."
 
 msgid "Win %6 %5 times %1's high minus low over the next %3."
 msgstr "Vinci %6 %5 volte %1 high meno low sui prossimi %3."
 
-msgid "first tick"
-msgstr "primo tick"
-
-msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
-msgstr "Vinci il payout se l'ultima cifra di %1 è %4 dopo %plural(%3,%d tick,%d tick)."
-
-msgid "Win payout if %1 goes outside %5 to %4 through %3."
-msgstr "Vinci il payout se %1 esce fuori da %5 a %4 entro le %3."
-
-msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
-msgstr "Vinci il payout se l'ultima cifra di %1 non è %4 dopo %plural(%3,%d tick,%d tick)."
-
-msgid "Win payout if %1 after %3 is strictly higher than it was at either entry or %5."
-msgstr "Vinci il payout se %1 dopo %3 è notevolmente superiore rispetto all'ingresso o a %5."
-
-msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
-msgstr "Vinci il payout se %1 dopo %3 è notevolmente inferiore rispetto all'ingresso o a %5."
-
-msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
-msgstr "Vinci il payout se %1 termina su o fuori da %5 o %4 alle %3."
-
-msgid "Win payout if %1 ends outside %5 to %4 at %3 after %2."
-msgstr "Vinci il payout se %1 termina fuori da %5 o %4 alle %3 dopo l'inizio alle %2."
+msgid "Win payout if %1 touches %4 through %3."
+msgstr "Vinci il payout se %1 tocca %4 entro le %3."
 
 msgid "Win payout if the last digit of %1 is strictly lower than %4 after %3 ticks."
 msgstr "Vinci il payout se l'ultima cifra di %1 è notevolmente inferiore di %4 dopo %3 tick."
 
+msgid "Win payout if the last digit of %1 is not %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "Vinci il payout se l'ultima cifra di %1 non è %4 dopo %plural(%3,%d tick,%d tick)."
+
 msgid "Win payout if %1 ends outside %5 to %4 at %3."
 msgstr "Vinci il payout se %1 termina fuori da %5 o %4 alle %3."
 
-msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
-msgstr "Vinci il payout se %1 è inferiore o uguale a %4 alle %3, dopo le %2."
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3."
+msgstr "Vinci il payout se %1 finisce saldamente tra %5 e %4 alle %3."
 
-msgid "entry spot minus %plural(%1,%d pip, %d pips)"
-msgstr "spot d'entrata meno %plural(%1,%d pip, %d pip)"
-
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
-msgstr "Vinci il payout se %1 dopo %plural (%3,%d tick,%d tick) è notevolmente inferiore rispetto all'ingresso o a %5 tick."
-
-msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 at %3."
-msgstr "Vinci fino a %7 %6 se il tick di uscita di %1 è tra %4 e %5 alle %3."
-
-msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
-msgstr "Vinci il payout se %1 è notevolmente superiore di %4 a %3 dopo %2."
-
-msgid "Win %6 %5 times %1's high minus close over the next %3."
-msgstr "Vinci %6 %5 volte %1 high meno close sui prossimi %3."
-
-msgid "entry spot plus %1"
-msgstr "spot d'entrata più %1"
-
-msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
-msgstr "Vinci il payout se l'ultima cifra di %1 è notevolmente superiore di %4 dopo %3 tick."
-
-msgid "Win up to %7 %6 if %1's exit tick is between %5 and %4 at %3."
-msgstr "Vinci fino a %7 %6 se il tick di uscita di %1 è tra %5 e %4 alle %3."
-
-msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
-msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è inferiore o uguale a %4."
-
-msgid "Win payout if %1 touches %4 through %3 after %2."
-msgstr "Vinci il payout se %1 tocca %4 entro le %3 dall'inizio alle %2."
-
-msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
-msgstr "Vinci il payout se %1 termina saldamente tra %5 e %4 alle %3 con inizio alle %2."
-
-msgid "Win payout if %1 touches %4 through %3."
-msgstr "Vinci il payout se %1 tocca %4 entro le %3."
-
-msgid "Win payout if the last digit of %1 is odd after %3 ticks."
-msgstr "Vinci il payout se l'ultima cifra di %1 è dispari dopo %3 tick."
-
-msgid "Win %6 %5 times %1's close minus low over the next %3."
-msgstr "Vinci %6 %5 volte %1 close meno low sui prossimi %3."
-
-msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
-msgstr "Vinci il payout se l'ultimo tick di %1 è notevolmente superiore alla media di %plural(%3,%d tick,%d tick)."
-
-msgid "Win payout if tick %5 of %1 is the highest among all %3 ticks."
-msgstr "Vinci il payout se %5 tick di %1 è il più alto tra i tick %3."
-
-msgid "contract start time"
-msgstr "orario d'inizio dei contratti"
-
-msgid "Win payout if the last digit of %1 is even after %3 ticks."
-msgstr "Vinci il payout se l'ultima cifra di %1 è pari dopo %3 tick."
-
-msgid "Win payout if %1 does not touch %4 through %3 after %2."
-msgstr "Vinci il payout se %1 non tocca %4 dalle %3 alle %2."
-
-msgid "Legacy contract. No further information is available."
-msgstr "Contratto d'eredità. Non è disponibile nessun'altra informazione."
-
-msgid "entry spot"
-msgstr "spot d'entrata"
-
-msgid "Win payout if %1 ends on or outside %5 to %4 at %3 after %2."
-msgstr "Vinci il payout se %1 termina su o fuori da %5 o %4 alle %3 dopo l'inizio alle %2."
-
-msgid "Win payout if %1 stays between %5 and %4 through %3 after %2."
-msgstr "Vinci il payout se %1 rimane tra %5 e %4 dalle %3 dopo %2."
-
-msgid "Win %6 %5 times %1's high minus low at %3."
-msgstr "Vinci %6 %5 volte %1 high meno low a %3."
-
-msgid "Win payout if %1 does not touch %4 through %plural(%3,%d tick,%d ticks) after %2."
-msgstr "Vinci il payout se %1 non tocca %4 passando per %plural(%3,%d tick,%d tick) dopo %2."
-
-msgid "Win up to %7 %6 if %1's exit tick is between %5 and %4 at %3 after %2."
-msgstr "Vinci fino a %7 %6 se il tick di uscita di %1 è tra %5 e %4 alle %3 dopo %2."
+msgid "Win payout if %1 does not touch %4 through %3."
+msgstr "Vinci il payout se %1 non tocca %4 fino alle %3."
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 at %3 after %2."
 msgstr "Vinci fino a %7 %6 se il tick di uscita di %1 è tra %4 e %5 alle %3 dopo %2."
 
+msgid "Win payout if %1 is lower than or equal to %4 at %3."
+msgstr "Vinci il payout se %1 è inferiore o uguale a %4 alle %3."
+
+msgid "Win payout if %1 is strictly higher than %4 at %3."
+msgstr "Vinci il payout se %1 è notevolmente superiore di %4 a %3."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than %4."
+msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è notevolmente inferiore a %4."
+
+msgid "Win payout if %1 ends strictly between %5 to %4 at %3 after %2."
+msgstr "Vinci il payout se %1 termina saldamente tra %5 e %4 alle %3 con inizio alle %2."
+
+msgid "Win %6 %5 times %1's close minus low at %3."
+msgstr "Vinci %6 %5 volte %1 close meno low a %3."
+
+msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Vinci il payout se l'ultimo tick di %1 è notevolmente superiore alla media di %plural(%3,%d tick,%d tick)."
+
+msgid "Win %6 %5 times %1's high minus low at %3."
+msgstr "Vinci %6 %5 volte %1 high meno low a %3."
+
+msgid "Win %6 %5 times %1's close minus low over the next %3."
+msgstr "Vinci %6 %5 volte %1 close meno low sui prossimi %3."
+
+msgid "first tick"
+msgstr "primo tick"
+
+msgid "Win payout if %1 is strictly higher than %4 at %3 after %2."
+msgstr "Vinci il payout se %1 è notevolmente superiore di %4 a %3 dopo %2."
+
+msgid "entry spot plus %1"
+msgstr "spot d'entrata più %1"
+
+msgid "Win payout if the last digit of %1 is %4 after %plural(%3,%d tick,%d ticks)."
+msgstr "Vinci il payout se l'ultima cifra di %1 è %4 dopo %plural(%3,%d tick,%d tick)."
+
+msgid "entry spot plus %plural(%1,%d pip, %d pips)"
+msgstr "spot d'entrata più %plural(%1,%d pip, %d pip)"
+
+msgid "Win payout if the last digit of %1 is even after %3 ticks."
+msgstr "Vinci il payout se l'ultima cifra di %1 è pari dopo %3 tick."
+
+msgid "Win payout if %1 goes outside %5 to %4 through %3."
+msgstr "Vinci il payout se %1 esce fuori da %5 a %4 entro le %3."
+
+msgid "Win payout if %1 is strictly lower than %4 at %3 after %2."
+msgstr "Vinci il payout se %1 è notevolmente inferiore di %4 alle %3, dopo le %2."
+
+msgid "Win payout if %1 ends on or outside %5 to %4 at %3."
+msgstr "Vinci il payout se %1 termina su o fuori da %5 o %4 alle %3."
+
+msgid "Win payout if tick %5 of %1 is the highest among all %3 ticks."
+msgstr "Vinci il payout se %5 tick di %1 è il più alto tra i tick %3."
+
+msgid "Win %6 %5 times %1's high minus close over the next %3."
+msgstr "Vinci %6 %5 volte %1 high meno close sui prossimi %3."
+
+msgid "Win payout if %1 after %3 is strictly higher than it was at either entry or %5."
+msgstr "Vinci il payout se %1 dopo %3 è notevolmente superiore rispetto all'ingresso o a %5."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly lower than it was at either entry or %5 ticks."
+msgstr "Vinci il payout se %1 dopo %plural (%3,%d tick,%d tick) è notevolmente inferiore rispetto all'ingresso o a %5 tick."
+
+msgid "close on %1"
+msgstr "chiusura il %1"
+
+msgid "Win payout if %1 goes outside %5 and %4 through %3 after %2."
+msgstr "Vinci il payout se %1 esce fuori da %5 e %4 dalle %3 alle %2."
+
+msgid "Win up to %7 %6 if %1's exit tick is between %5 and %4 at %3 after %2."
+msgstr "Vinci fino a %7 %6 se il tick di uscita di %1 è tra %5 e %4 alle %3 dopo %2."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than %4."
+msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è notevolmente superiore di %4."
+
+msgid "Win payout if the last digit of %1 is odd after %3 ticks."
+msgstr "Vinci il payout se l'ultima cifra di %1 è dispari dopo %3 tick."
+
+msgid "Win payout if %1 does not touch %4 through %3 after %2."
+msgstr "Vinci il payout se %1 non tocca %4 dalle %3 alle %2."
+
+msgid "entry spot minus %plural(%1,%d pip, %d pips)"
+msgstr "spot d'entrata meno %plural(%1,%d pip, %d pip)"
+
+msgid "Win payout if %1 does not touch %4 through %plural(%3,%d tick,%d ticks) after %2."
+msgstr "Vinci il payout se %1 non tocca %4 passando per %plural(%3,%d tick,%d tick) dopo %2."
+
+msgid "Win payout if the last digit of %1 is strictly higher than %4 after %3 ticks."
+msgstr "Vinci il payout se l'ultima cifra di %1 è notevolmente superiore di %4 dopo %3 tick."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is higher than or equal to %4."
+msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è superiore o uguale a %4."
+
+msgid "Win payout if %1 ends on or between %5 to %4 at %3."
+msgstr "Vinci il payout se %1 finisce tra %5 e %4 alle %3."
+
+msgid "Win payout if %1 is lower than or equal to %4 at %3 after %2."
+msgstr "Vinci il payout se %1 è inferiore o uguale a %4 alle %3, dopo le %2."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is lower than or equal to %4."
+msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick,%d tick) è inferiore o uguale a %4."
+
+msgid "Win payout if %1 after %plural(%3,%d tick,%d ticks) is strictly higher than it was at either entry or %5 ticks."
+msgstr "Vinci il payout se %1 dopo %plural(%3,%d tick, più tick %d) è notevolmente superiore rispetto all'ingresso o a %5 tick."
+
+msgid "Win payout if %1 after %3 is strictly lower than it was at either entry or %5."
+msgstr "Vinci il payout se %1 dopo %3 è notevolmente inferiore rispetto all'ingresso o a %5."
+
+msgid "entry spot minus %1"
+msgstr "spot d'entrata meno %1"
+
+msgid "Win payout if %1 touches %4 through %3 after %2."
+msgstr "Vinci il payout se %1 tocca %4 entro le %3 dall'inizio alle %2."
+
 msgid "Win %6 %5 times %1's high minus close at %3."
 msgstr "Vinci %6 %5 volte %1 high meno close a %3."
 
-msgid "Trading is not available from %1 to %2."
-msgstr "Il trading non è disponibile dalle %1 alle %2."
-
-msgid "Number of ticks must be between %1 and %2."
-msgstr "Il numero di tick deve essere compreso tra %1 e %2."
-
-msgid "Contracts more than 24 hours in duration would need an absolute barrier."
-msgstr "I contratti con durata superiore alle 24 ore avranno bisogno di una barriera assoluta."
-
-msgid "Resale of this contract is not offered due to market holidays during contract period."
-msgstr "La rivendita di questo contratto non è disponibile a causa delle festività del mercato durante il periodo del contratto."
-
-msgid "Intraday contracts may not cross market open."
-msgstr "I contratti intraday non possono estendersi al giorno di trading successivo."
-
-msgid "Selected tick must be an integer."
-msgstr "Il tick selezionato deve contenere un numero intero."
-
-msgid "Trading is suspended due to missing market (volatility) data."
-msgstr "Il trading è sospeso a causa di dati di mercato (volatilità) mancanti."
-
-msgid "Absolute barrier cannot be zero."
-msgstr "La barriera assoluta non può essere zero."
-
-msgid "Missing required contract parameters (bet_type)."
-msgstr "Parametri richiesti del contratto mancanti (tipo di puntata)."
-
-msgid "The buy price of this contract will be refunded due to missing market data."
-msgstr "Il prezzo di acquisto di questo contratto verrà rimborsato a causa di dati di mercato mancanti."
-
-msgid "Missing required contract parameters (currency)."
-msgstr "Parametri richiesti del contratto mancanti (valuta)."
-
-msgid "Missing required contract parameters (underlying)."
-msgstr "Parametri richiesti del contratto mancanti (sottostante)."
-
-msgid "The contract must expire on a trading day."
-msgstr "Il contratto deve scadere nella giornata di trading."
-
-msgid "High barrier is out of acceptable range. Please adjust the high barrier."
-msgstr "La barriera superiore è al di fuori del range accettabile. Si prega di regolare la barriera superiore."
-
-msgid "Payout can not have more than %1 decimal places."
-msgstr "Il payout non può avere più di %1 decimali."
-
-msgid "Barrier is not an integer in range of %1 to %2."
-msgstr "La barriera non è un numero intero tra %1 e %2."
-
-msgid "An error occurred during contract settlement."
-msgstr "Si è verificato un errore durante la liquidazione del contratto."
-
-msgid "Digit must be in the range of %1 to %2."
-msgstr "La cifra deve essere compresa tra %1 e %2."
-
-msgid "Trading is suspended due to missing market (out-of-date volatility) data."
-msgstr "Il trading è sospeso a causa di dati di mercato mancanti (volatilità superata)."
-
-msgid "Only 3 decimal places are allowed."
-msgstr "Sono consentiti solamente 3 decimali."
-
-msgid "This contract has been sold."
-msgstr "Questo contratto è stato venduto."
-
-msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
-msgstr "Il trading sui contratti Forex con una durata inferiore a 5 ore non sono disponibili dal %1 al %2"
-
-msgid "High barrier must be higher than low barrier."
-msgstr "La barriera superiore deve essere più alta di quella inferiore."
-
-msgid "Trading is suspended due to missing market (dividend) data."
-msgstr "Il trading è sospeso a causa di dati di mercato (dividendi) mancanti."
-
-msgid "Trading is suspended due to missing market (spot too far) data."
-msgstr "Il trading è sospeso a causa di dati di mercato mancanti (spot troppo distante)."
-
-msgid "Trading is suspended due to missing market (tick) data."
-msgstr "Il trading è sospeso a causa di dati di mercato (tick) mancanti."
-
-msgid "Missing required contract parameters (last digit prediction for digit contracts)."
-msgstr "Parametri mancanti richiesti nel contratto (previsione dell'ultima cifra per i contratti digitali)."
-
-msgid "This trade is temporarily unavailable."
-msgstr "Questo trade non è temporaneamente disponibile."
-
-msgid "Contracts on this market with a duration of more than 24 hours must expire at the end of a trading day."
-msgstr "I contratti su questo mercato con una durata superiore alle 24 ore devono scadere alla fine di un giorno di trading."
-
-msgid "Basis must be %1 for this contract."
-msgstr "La base per questo contratto deve essere %1."
-
-msgid "Minimum stake of %1 and maximum payout of %2."
-msgstr "Puntata minima di %1 e payout massimo di %2."
-
-msgid "Invalid barrier."
-msgstr "Barriera non valida."
-
-msgid "High and low barriers must be different."
-msgstr "La barriera superiore e quella inferiore devono essere diverse."
-
-msgid "Invalid barrier (Double barrier input is expected)."
-msgstr "Barriera non valida (deve essere inserita una doppia barriera)."
-
-msgid "Contract market price is too close to final payout."
-msgstr "Il prezzo di mercato del contratto è troppo vicino al payout finale."
-
-msgid "Non atm barrier is not allowed for reset contract."
-msgstr "Le barriere non-atm non sono consentite per annullare il contratto."
-
-msgid "Start time is in the future."
-msgstr "L'orario di inizio è nel futuro."
+msgid "Win payout if the last tick of %1 is strictly lower than the average of the %plural(%3,%d tick,%d ticks)."
+msgstr "Vinci il payout se l'ultimo tick di %1 è notevolmente inferiore a quello della media di %plural(%3,%d tick,%d tick)."
 
 msgid "Minimum multiplier of"
 msgstr "Moltiplicatore minimo di"
 
-msgid "Contract barrier must be positive."
-msgstr "Il limite del contratto deve essere un valore positivo."
-
-msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgstr "Barriera non valida (Il tipo di barriera deve essere lo stesso per i contratti con doppia barriera)."
-
-msgid "Resale of this contract is not offered."
-msgstr "La rivendita di questo contratto non è disponibile."
-
-msgid "Invalid payout currency"
-msgstr "Valuta di payout non valida"
-
-msgid "Missing required contract parameters (date_start)."
-msgstr "Parametri richiesti del contratto mancanti (data di inizio)."
-
-msgid "Invalid stake/payout."
-msgstr "Puntata/payout non validi."
-
-msgid "Barrier must be an integer."
-msgstr "La barriera deve contenere un numero intero."
-
-msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
-msgstr "Attendere la liquidazione del contratto. Il prezzo della liquidazione finale può differire rispetto al prezzo indicativo."
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Parametri richiesti del contratto mancanti (dara di scadenza o durata)."
-
-msgid "We could not process this contract at this time."
-msgstr "Impossibile elaborare questo contratto in questo momento."
-
-msgid "Invalid expiry time."
-msgstr "Orario di scadenza non valido."
-
-msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
-msgstr "La barriera inferiore è al di fuori del range accettabile. Si prega di regolare la barriera inferiore."
-
-msgid "%1 is not allowed for residence of %2."
-msgstr "%1 non è permesso per la residenza di %2."
-
-msgid "This market is presently closed. Try out the Volatility Indices which are always open."
-msgstr "Questo mercato è attualmente chiuso. Prova con gli Indici di volatilità che sono sempre aperti."
-
-msgid "Barriers could not be determined."
-msgstr "Impossibile definire delle barriere."
-
-msgid "Invalid barrier (Single barrier input is expected)."
-msgstr "Barriera non valida (Inserisci una sola barriera)."
-
-msgid "Invalid barrier (Contract can have only one type of barrier)."
-msgstr "Barriera non valida (Il contratto può avere solo un tipo di barriera)."
-
-msgid "Barrier is out of acceptable range."
-msgstr "La barriera è al di fuori dell'intervallo accettabile."
-
-msgid "Trading is suspended due to missing market (old) data."
-msgstr "Il trading è sospeso a causa di dati di mercato mancanti (vecchi)."
-
-msgid "%1 is not a valid input for contract type %2."
-msgstr "%1 non è un input valido per la tipologia di contratto %2."
-
-msgid "Expiry time cannot be equal to start time."
-msgstr "L'orario di scadenza non può essere uguale a quello d'inizio."
-
-msgid "The market must be open at the start time."
-msgstr "Il mercato deve essere aperto all'orario di inizio."
-
-msgid "Maximum payout allowed is %1."
-msgstr "Il massimo payout consentito è %1."
-
-msgid "Contract price cannot be zero."
-msgstr "Il prezzo contrattuale non può essere pari a zero."
-
-msgid "This contract offers no return."
-msgstr "Questo contratto non offre alcun rendimento."
-
 msgid "Contract must expire during trading hours."
 msgstr "Il contratto deve scadere durante l'orario di trading."
 
-msgid "Stake can not have more than %1 decimal places."
-msgstr "La puntata non può avere più di %1 decimali."
-
-msgid "Contract may not expire between %1 and %2."
-msgstr "Il contratto può non scadere tra %1 e %2."
-
-msgid "Basis can either be %1 or %2 for this contract."
-msgstr "La base per questo contratto può essere %1 o %2."
-
-msgid "Expiry time cannot be in the past."
-msgstr "L'orario di scadenza non può essere impostato nel passato."
-
-msgid "The market must be open at the start time. Try out the Volatility Indices which are always open."
-msgstr "Il mercato deve essere aperto all'orario di inizio. Prova con gli Indici di volatilità che sono sempre aperti."
-
-msgid "Missing required contract parameters (selected tick)."
-msgstr "Parametri del contratto richiesti mancanti (tick selezionato)."
-
-msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
-msgstr "L'orario di inizio dei contratti con partenza posticipata deve essere a più di 5 minuti a partire da adesso."
-
-msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
-msgstr "I contratti su questo mercato con durate inferiori alle 24 ore devono scadere nello stesso giorno di trading."
-
-msgid "Fixed expiry for reset contract is not allowed."
-msgstr "Non è consentita una scadenza prestabilita per l'annullamento del contratto."
+msgid "Trading is suspended due to missing market (spot too far) data."
+msgstr "Il trading è sospeso a causa di dati di mercato mancanti (spot troppo distante)."
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "I contratti con barriera predefinita avranno bisogno di una barriera assoluta."
 
+msgid "Invalid stake/payout."
+msgstr "Puntata/payout non validi."
+
+msgid "This market is presently closed. Try out the Volatility Indices which are always open."
+msgstr "Questo mercato è attualmente chiuso. Prova con gli Indici di volatilità che sono sempre aperti."
+
+msgid "Missing required contract parameters (bet_type)."
+msgstr "Parametri richiesti del contratto mancanti (tipo di puntata)."
+
+msgid "Non atm barrier is not allowed for reset contract."
+msgstr "Le barriere non-atm non sono consentite per annullare il contratto."
+
+msgid "Resale of this contract is not offered due to market holidays during contract period."
+msgstr "La rivendita di questo contratto non è disponibile a causa delle festività del mercato durante il periodo del contratto."
+
+msgid "Stake can not have more than %1 decimal places."
+msgstr "La puntata non può avere più di %1 decimali."
+
+msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
+msgstr "La barriera inferiore è al di fuori del range accettabile. Si prega di regolare la barriera inferiore."
+
+msgid "Resale of this contract is not offered."
+msgstr "La rivendita di questo contratto non è disponibile."
+
+msgid "%1 is not allowed for residence of %2."
+msgstr "%1 non è permesso per la residenza di %2."
+
+msgid "Missing required contract parameters (currency)."
+msgstr "Parametri richiesti del contratto mancanti (valuta)."
+
+msgid "Trading is suspended due to missing market (tick) data."
+msgstr "Il trading è sospeso a causa di dati di mercato (tick) mancanti."
+
+msgid "Invalid barrier (Contract can have only one type of barrier)."
+msgstr "Barriera non valida (Il contratto può avere solo un tipo di barriera)."
+
+msgid "%1 is not a valid input for contract type %2."
+msgstr "%1 non è un input valido per la tipologia di contratto %2."
+
+msgid "Barrier is out of acceptable range."
+msgstr "La barriera è al di fuori dell'intervallo accettabile."
+
+msgid "Contracts on this market with a duration of more than 24 hours must expire at the end of a trading day."
+msgstr "I contratti su questo mercato con una durata superiore alle 24 ore devono scadere alla fine di un giorno di trading."
+
 msgid "This contract has already expired."
 msgstr "Questo contratto è già scaduto."
 
-msgid "Too many market holidays during the contract period."
-msgstr "Troppe festività del mercato durante il periodo del contratto."
+msgid "High barrier must be higher than low barrier."
+msgstr "La barriera superiore deve essere più alta di quella inferiore."
 
-msgid "Trading is suspended due to missing market data."
-msgstr "Il trading è sospeso a causa di dati di mercato mancanti."
+msgid "Intraday contracts may not cross market open."
+msgstr "I contratti intraday non possono estendersi al giorno di trading successivo."
 
-msgid "Invalid duration (tick) for contract type (%1)."
-msgstr "Durata invalida (tick) per la tipologia di contratto (%1)."
+msgid "Contract barrier must be positive."
+msgstr "Il limite del contratto deve essere un valore positivo."
+
+msgid "Digit must be in the range of %1 to %2."
+msgstr "La cifra deve essere compresa tra %1 e %2."
+
+msgid "Missing required contract parameters (last digit prediction for digit contracts)."
+msgstr "Parametri mancanti richiesti nel contratto (previsione dell'ultima cifra per i contratti digitali)."
+
+msgid "This contract offers no return."
+msgstr "Questo contratto non offre alcun rendimento."
+
+msgid "High and low barriers must be different."
+msgstr "La barriera superiore e quella inferiore devono essere diverse."
+
+msgid "An error occurred during contract settlement."
+msgstr "Si è verificato un errore durante la liquidazione del contratto."
+
+msgid "Number of ticks must be between %1 and %2."
+msgstr "Il numero di tick deve essere compreso tra %1 e %2."
+
+msgid "Minimum stake of %1 and maximum payout of %2."
+msgstr "Puntata minima di %1 e payout massimo di %2."
 
 msgid "Missing required contract parameters (multiplier)."
 msgstr "Parametri richiesti del contratto mancanti (moltiplicatore)."
@@ -2841,65 +2707,182 @@ msgstr "Parametri richiesti del contratto mancanti (moltiplicatore)."
 msgid "Waiting for entry tick."
 msgstr "In attesa del tick d'ingresso."
 
+msgid "Invalid barrier (Double barrier input is expected)."
+msgstr "Barriera non valida (deve essere inserita una doppia barriera)."
+
+msgid "Invalid barrier."
+msgstr "Barriera non valida."
+
+msgid "Too many market holidays during the contract period."
+msgstr "Troppe festività del mercato durante il periodo del contratto."
+
+msgid "The market must be open at the start time."
+msgstr "Il mercato deve essere aperto all'orario di inizio."
+
+msgid "Trading is suspended due to missing market (dividend) data."
+msgstr "Il trading è sospeso a causa di dati di mercato (dividendi) mancanti."
+
+msgid "Contract price cannot be zero."
+msgstr "Il prezzo contrattuale non può essere pari a zero."
+
+msgid "Basis must be %1 for this contract."
+msgstr "La base per questo contratto deve essere %1."
+
 msgid "Trading is not offered for this asset."
 msgstr "Il trading non è offerto per questo asset."
 
-msgid "Rise/Fall"
-msgstr "Rialzo/Ribasso"
+msgid "This contract has been sold."
+msgstr "Questo contratto è stato venduto."
 
-msgid "In/Out"
-msgstr "Dentro/Fuori"
+msgid "The market must be open at the start time. Try out the Volatility Indices which are always open."
+msgstr "Il mercato deve essere aperto all'orario di inizio. Prova con gli Indici di volatilità che sono sempre aperti."
 
-msgid "Closes early (at 18:00)"
-msgstr "Chiude in anticipo (alle 18:00)"
+msgid "Contract market price is too close to final payout."
+msgstr "Il prezzo di mercato del contratto è troppo vicino al payout finale."
 
-msgid "%1 and %2"
-msgstr "%1 e %2"
+msgid "Barrier is not an integer in range of %1 to %2."
+msgstr "La barriera non è un numero intero tra %1 e %2."
 
-msgid "Buy"
-msgstr "Acquista"
+msgid "Trading on forex contracts with duration less than 5 hours is not available from %1 to %2"
+msgstr "Il trading sui contratti Forex con una durata inferiore a 5 ore non sono disponibili dal %1 al %2"
 
-msgid "Highest Spot"
-msgstr "Punto più alto"
+msgid "Invalid duration (tick) for contract type (%1)."
+msgstr "Durata invalida (tick) per la tipologia di contratto (%1)."
 
-msgid "Entry Spot"
-msgstr "Punto d'ingresso"
+msgid "Start time on forward-starting contracts must be more than 5 minutes from now."
+msgstr "L'orario di inizio dei contratti con partenza posticipata deve essere a più di 5 minuti a partire da adesso."
 
-msgid "Even/Odd"
-msgstr "Pari/Dispari"
+msgid "Barriers could not be determined."
+msgstr "Impossibile definire delle barriere."
 
-msgid "New Year's Day"
-msgstr "Primo dell'Anno"
+msgid "Trading is not available from %1 to %2."
+msgstr "Il trading non è disponibile dalle %1 alle %2."
 
-msgid "Start Time"
-msgstr "Orario di inizio"
+msgid "Start time is in the future."
+msgstr "L'orario di inizio è nel futuro."
 
-msgid "There was a problem accessing the server during purchase."
-msgstr "Durante l'acquisto si è verificato un problema d'accesso al server."
+msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
+msgstr "I contratti su questo mercato con durate inferiori alle 24 ore devono scadere nello stesso giorno di trading."
 
-msgid "Sell"
-msgstr "Vendi"
+msgid "Contracts more than 24 hours in duration would need an absolute barrier."
+msgstr "I contratti con durata superiore alle 24 ore avranno bisogno di una barriera assoluta."
 
-msgid "There was a problem accessing the server."
-msgstr "Si è verificato un problema d'accesso al server."
+msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgstr "Barriera non valida (Il tipo di barriera deve essere lo stesso per i contratti con doppia barriera)."
 
-msgid "Matches/Differs"
-msgstr "Combacia/Differisce"
+msgid "Selected tick must be an integer."
+msgstr "Il tick selezionato deve contenere un numero intero."
+
+msgid "Invalid payout currency"
+msgstr "Valuta di payout non valida"
+
+msgid "Missing required contract parameters (date_start)."
+msgstr "Parametri richiesti del contratto mancanti (data di inizio)."
+
+msgid "Trading is suspended due to missing market (out-of-date volatility) data."
+msgstr "Il trading è sospeso a causa di dati di mercato mancanti (volatilità superata)."
+
+msgid "The buy price of this contract will be refunded due to missing market data."
+msgstr "Il prezzo di acquisto di questo contratto verrà rimborsato a causa di dati di mercato mancanti."
+
+msgid "Invalid expiry time."
+msgstr "Orario di scadenza non valido."
+
+msgid "Invalid barrier (Single barrier input is expected)."
+msgstr "Barriera non valida (Inserisci una sola barriera)."
+
+msgid "Trading is suspended due to missing market data."
+msgstr "Il trading è sospeso a causa di dati di mercato mancanti."
+
+msgid "Only 3 decimal places are allowed."
+msgstr "Sono consentiti solamente 3 decimali."
+
+msgid "Missing required contract parameters (underlying)."
+msgstr "Parametri richiesti del contratto mancanti (sottostante)."
+
+msgid "High barrier is out of acceptable range. Please adjust the high barrier."
+msgstr "La barriera superiore è al di fuori del range accettabile. Si prega di regolare la barriera superiore."
+
+msgid "The contract must expire on a trading day."
+msgstr "Il contratto deve scadere nella giornata di trading."
+
+msgid "Barrier must be an integer."
+msgstr "La barriera deve contenere un numero intero."
+
+msgid "Expiry time cannot be equal to start time."
+msgstr "L'orario di scadenza non può essere uguale a quello d'inizio."
+
+msgid "Basis can either be %1 or %2 for this contract."
+msgstr "La base per questo contratto può essere %1 o %2."
+
+msgid "Trading is suspended due to missing market (volatility) data."
+msgstr "Il trading è sospeso a causa di dati di mercato (volatilità) mancanti."
+
+msgid "Payout can not have more than %1 decimal places."
+msgstr "Il payout non può avere più di %1 decimali."
+
+msgid "We could not process this contract at this time."
+msgstr "Impossibile elaborare questo contratto in questo momento."
+
+msgid "This trade is temporarily unavailable."
+msgstr "Questo trade non è temporaneamente disponibile."
+
+msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
+msgstr "Attendere la liquidazione del contratto. Il prezzo della liquidazione finale può differire rispetto al prezzo indicativo."
+
+msgid "Expiry time cannot be in the past."
+msgstr "L'orario di scadenza non può essere impostato nel passato."
+
+msgid "Absolute barrier cannot be zero."
+msgstr "La barriera assoluta non può essere zero."
+
+msgid "Contract may not expire between %1 and %2."
+msgstr "Il contratto può non scadere tra %1 e %2."
+
+msgid "Missing required contract parameters (selected tick)."
+msgstr "Parametri del contratto richiesti mancanti (tick selezionato)."
+
+msgid "Maximum payout allowed is %1."
+msgstr "Il massimo payout consentito è %1."
+
+msgid "Fixed expiry for reset contract is not allowed."
+msgstr "Non è consentita una scadenza prestabilita per l'annullamento del contratto."
+
+msgid "Missing required contract parameters (date_expiry or duration)."
+msgstr "Parametri richiesti del contratto mancanti (dara di scadenza o durata)."
+
+msgid "Trading is suspended due to missing market (old) data."
+msgstr "Il trading è sospeso a causa di dati di mercato mancanti (vecchi)."
+
+msgid "ATM"
+msgstr "ATM"
 
 msgid "High"
 msgstr "Alto"
 
-msgid "Fridays"
-msgstr "Venerdì"
+msgid "Rise/Fall"
+msgstr "Rialzo/Ribasso"
 
-msgid "Higher/Lower"
-msgstr "High/Low"
+msgid "There was a problem accessing the server."
+msgstr "Si è verificato un problema d'accesso al server."
+
+msgid "today, Fridays"
+msgstr "oggi, Venerdì"
 
 msgid "Lowest Spot"
 msgstr "Punto più basso"
 
-msgid "Over/Under"
-msgstr "Sopra/Sotto"
+msgid "There was a problem accessing the server during purchase."
+msgstr "Durante l'acquisto si è verificato un problema d'accesso al server."
+
+msgid "Fridays"
+msgstr "Venerdì"
+
+msgid "Christmas Day"
+msgstr "Natale"
+
+msgid "Sell"
+msgstr "Vendi"
 
 msgid "Duration up to 7 days"
 msgstr "Durata fino a 7 giorni"
@@ -2907,38 +2890,68 @@ msgstr "Durata fino a 7 giorni"
 msgid "Close"
 msgstr "Chiuso"
 
-msgid "Exit Spot"
-msgstr "Prezzo di uscita"
+msgid "Low"
+msgstr "Low"
 
-msgid "Non-ATM"
-msgstr "Non-ATM"
-
-msgid "Closes early (at 21:00)"
-msgstr "Chiude in anticipo (alle 21:00)"
-
-msgid "Duration above 7 days"
-msgstr "Durata superiore a 7 giorni"
-
-msgid "End Time"
-msgstr "Orario di fine"
-
-msgid "Christmas Day"
-msgstr "Natale"
-
-msgid "ATM"
-msgstr "ATM"
+msgid "Higher/Lower"
+msgstr "High/Low"
 
 msgid "Payoff"
 msgstr "Risultato"
 
+msgid "Entry Spot"
+msgstr "Punto d'ingresso"
+
+msgid "Matches/Differs"
+msgstr "Combacia/Differisce"
+
+msgid "In/Out"
+msgstr "Dentro/Fuori"
+
+msgid "Exit Spot"
+msgstr "Prezzo di uscita"
+
+msgid "Closes early (at 21:00)"
+msgstr "Chiude in anticipo (alle 21:00)"
+
+msgid "Start Time"
+msgstr "Orario di inizio"
+
+msgid "End Time"
+msgstr "Orario di fine"
+
+msgid "Over/Under"
+msgstr "Sopra/Sotto"
+
+msgid "New Year's Day"
+msgstr "Primo dell'Anno"
+
+msgid "Closes early (at 18:00)"
+msgstr "Chiude in anticipo (alle 18:00)"
+
+msgid "Buy"
+msgstr "Acquista"
+
+msgid "Highest Spot"
+msgstr "Punto più alto"
+
+msgid "Even/Odd"
+msgstr "Pari/Dispari"
+
+msgid "Duration above 7 days"
+msgstr "Durata superiore a 7 giorni"
+
+msgid "%1 and %2"
+msgstr "%1 e %2"
+
+msgid "Non-ATM"
+msgstr "Non-ATM"
+
 msgid "Closing Spot"
 msgstr "Spot di chiusura"
 
-msgid "today, Fridays"
-msgstr "oggi, Venerdì"
-
-msgid "Low"
-msgstr "Low"
+msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
+msgstr "L'accesso a questo account è stato momentaneamente disabilitato per questioni di manutenzione del sistema. Si prega di riprovare fra 30 minuti."
 
 msgid "Incorrect email or password. Please check if you previously logged in via a social network."
 msgstr "Indirizzo e-mail o password non corretti. Verifica se in precedenza hai effettuato il login tramite un social network."
@@ -2946,38 +2959,71 @@ msgstr "Indirizzo e-mail o password non corretti. Verifica se in precedenza hai 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Siamo spiacenti, hai già fatto troppi tentativi falliti. Riprova fra 5 minuti."
 
-msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
-msgstr "L'accesso a questo account è stato momentaneamente disabilitato per questioni di manutenzione del sistema. Si prega di riprovare fra 30 minuti."
-
-msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3, browser: %4 and app: %5. If this additional sign-in was not performed by you, please contact our Customer Support team."
-msgstr "È appena stato rilevato un altro accesso sul tuo account %1 dal seguente indirizzo IP: %2, paese: %3, browser: %4 e app: %5. Nel caso in cui tale accesso non sia stato effettuato da parte tua, contatta la nostra Assistenza Clienti."
-
 msgid "Failed to get user identity."
 msgstr "Impossibile ottenere l'identità dell'utente."
-
-msgid "Invalid user."
-msgstr "Utente non valido."
-
-msgid "New Sign-In Activity Detected"
-msgstr "Rilevata nuova attività di accesso"
 
 msgid "Password not given."
 msgstr "Password non fornita."
 
-msgid "This account has been disabled."
-msgstr "Questo account è stato disattivato."
-
-msgid "The user did not authenticate successfully."
-msgstr "L'autenticazione dell'utente non è andata a buon fine."
-
-msgid "Invalid login attempt. Please log in with your email and password instead."
-msgstr "Tentativo di login non valido. Accedere invece con la tua email e password."
+msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3, browser: %4 and app: %5. If this additional sign-in was not performed by you, please contact our Customer Support team."
+msgstr "È appena stato rilevato un altro accesso sul tuo account %1 dal seguente indirizzo IP: %2, paese: %3, browser: %4 e app: %5. Nel caso in cui tale accesso non sia stato effettuato da parte tua, contatta la nostra Assistenza Clienti."
 
 msgid "An additional sign-in has just been detected on your account %1 from the following IP address: %2, country: %3 and browser: %4. If this additional sign-in was not performed by you, please contact our Customer Support team."
 msgstr "È appena stato rilevato un altro accesso sul tuo account %1 dal seguente indirizzo IP: %2, paese: %3 e browser: %4. Nel caso in cui tale accesso non sia stato effettuato da parte tua, contatta la nostra Assistenza Clienti."
 
 msgid "Email not given."
 msgstr "indirizzo email non fornito."
+
+msgid "Invalid login attempt. Please log in with your email and password instead."
+msgstr "Tentativo di login non valido. Accedere invece con la tua email e password."
+
+msgid "The user did not authenticate successfully."
+msgstr "L'autenticazione dell'utente non è andata a buon fine."
+
+msgid "New Sign-In Activity Detected"
+msgstr "Rilevata nuova attività di accesso"
+
+msgid "This account has been disabled."
+msgstr "Questo account è stato disattivato."
+
+msgid "Invalid user."
+msgstr "Utente non valido."
+
+#~ msgid "Please close out all open positions before requesting additional funds."
+#~ msgstr "Prima di richiedere altri fondi, chiudi tutte le posizioni aperte."
+
+#~ msgid "GBP/PLN"
+#~ msgstr "GBP/PLN"
+
+#~ msgid "AUD/PLN"
+#~ msgstr "AUD/PLN"
+
+#~ msgid "South African Index"
+#~ msgstr "Indice del Sudafrica"
+
+#~ msgid "Irish Index"
+#~ msgstr "Indice irlandese"
+
+#~ msgid "Jakarta Index"
+#~ msgstr "Indice Jakarta"
+
+#~ msgid "Bombay Index"
+#~ msgstr "Indice di Bombay"
+
+#~ msgid "Norwegian Index"
+#~ msgstr "Indice della Norvegia"
+
+#~ msgid "Canadian Index"
+#~ msgstr "Indice canadese"
+
+#~ msgid "Dubai Index"
+#~ msgstr "Indice di Dubai"
+
+#~ msgid "Belgian Index"
+#~ msgstr "Indice belga"
+
+#~ msgid "Europe/Africa"
+#~ msgstr "Europa/Africa"
 
 #~ msgid "Sorry, you cannot reset your password because you logged in using a social network."
 #~ msgstr "Siamo spiacenti, non è possibile ripristinare la password perchè hai effettuato l'accesso utilizzando un social network."
@@ -15079,9 +15125,6 @@ msgstr "indirizzo email non fornito."
 
 #~ msgid "GAS NATURAL SDG"
 #~ msgstr "GAS NATURAL SDG"
-
-#~ msgid "Eurotech"
-#~ msgstr "Eurotech"
 
 #~ msgid "Shiseido Company Tokyo"
 #~ msgstr "Shiseido Company Tokyo"
