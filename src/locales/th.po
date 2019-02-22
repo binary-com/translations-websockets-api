@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: I 18N\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-02-21 16:47+0000\n"
+"PO-Revision-Date: 2019-02-22 11:06+0000\n"
 "Last-Translator: Monruthai Sukthavorn <monruthai@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/translations/th/>\n"
 "Language: th\n"
@@ -1209,7 +1209,7 @@ msgid "Tax identification number"
 msgstr "เลขประจำตัวผู้เสียภาษี"
 
 msgid "Tax information cannot be removed once it has been set."
-msgstr ""
+msgstr "เมื่อได้ใส่ข้อมูลภาษีแล้ว ไม่สามารถลบออกได้"
 
 msgid "Tax residence"
 msgstr "ประเทศที่เป็นแหล่งกำเนิดรายได้"
@@ -1451,45 +1451,29 @@ msgstr "อนุญาตให้ใช้มากที่สุด 100 โ�
 msgid "Update Settings"
 msgstr "ปรับปรุงการตั้งค่า"
 
-#, fuzzy
-#| msgid "Value of account_opening_reason cannot be changed."
 msgid "Value of account opening reason cannot be changed after authentication."
-msgstr "ไม่สามารถเปลี่ยนค่าของ account_opening_reason"
+msgstr "ไม่สามารถเปลี่ยนค่าของเหตุผลในการเปิดบัญชีได้หลังจากได้ยืนยันบัญชีแล้ว"
 
-#, fuzzy
-#| msgid "Value of place_of_birth cannot be changed."
 msgid "Value of citizen cannot be changed after authentication."
-msgstr "ไม่สามารถเปลี่ยนค่าของ place_of_birth ได้"
+msgstr "ไม่สามารถเปลี่ยนค่าของสัญชาติได้หลังจากได้ยืนยันบัญชีแล้ว"
 
-#, fuzzy
-#| msgid "Value of place_of_birth cannot be changed."
 msgid "Value of date of birth cannot be changed after authentication."
-msgstr "ไม่สามารถเปลี่ยนค่าของ place_of_birth ได้"
+msgstr "ไม่สามารถเปลี่ยนค่าของวันเกิดได้หลังจากได้ยืนยันบัญชีแล้ว"
 
-#, fuzzy
-#| msgid "Date of birth is required."
 msgid "Value of date of birth is below the minimum age required."
-msgstr "จำเป็นต้องระบุ วันเกิด"
+msgstr "ค่าของวันเกิดต่ำกว่าอายุขั้นต่ำที่กำหนด"
 
-#, fuzzy
-#| msgid "Value of place_of_birth cannot be changed."
 msgid "Value of first name cannot be changed after authentication."
-msgstr "ไม่สามารถเปลี่ยนค่าของ place_of_birth ได้"
+msgstr "ไม่สามารถเปลี่ยนค่าของชื่อต้นได้หลังจากได้ยืนยันบัญชีแล้ว"
 
-#, fuzzy
-#| msgid "Value of place_of_birth cannot be changed."
 msgid "Value of last name cannot be changed after authentication."
-msgstr "ไม่สามารถเปลี่ยนค่าของ place_of_birth ได้"
+msgstr "ไม่สามารถเปลี่ยนค่าของนามสกุลได้หลังจากได้ยืนยันบัญชีแล้ว"
 
-#, fuzzy
-#| msgid "Value of place_of_birth cannot be changed."
 msgid "Value of place of birth cannot be changed after authentication."
-msgstr "ไม่สามารถเปลี่ยนค่าของ place_of_birth ได้"
+msgstr "ไม่สามารถเปลี่ยนค่าของสถานที่เกิดได้หลังจากได้ยืนยันบัญชีแล้ว"
 
-#, fuzzy
-#| msgid "Value of account_opening_reason cannot be changed."
 msgid "Value of salutation cannot be changed after authentication."
-msgstr "ไม่สามารถเปลี่ยนค่าของ account_opening_reason"
+msgstr "ไม่สามารถเปลี่ยนค่าของคำขึ้นต้นชื่อได้หลังจากได้ยืนยันบัญชีแล้ว"
 
 msgid "Verification Code"
 msgstr "รหัสตรวจสอบ"
@@ -1528,6 +1512,8 @@ msgstr "เราไม่สามารถใช้โพซิชั่นเ
 
 msgid "We recently sent you an email requesting documents to authenticate your MT5 real money account."
 msgstr ""
+"เราได้ส่งอีเมล์ถึงท่านเพื่อขอเอกสารในการยืนยันตัวบุคคลกับบัญชีเงินจริงบนแพลตฟ"
+"อร์ม MT5 ของท่าน"
 
 msgid ""
 "We would like to inform you that the transfer of %1 %2 via %3 has been processed.\n"
@@ -1572,6 +1558,8 @@ msgstr "จำนวนเงินที่ถอนสูงกว่าจำ
 
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %4"
 msgstr ""
+"ท่านได้ขอถอนเงินจำนวน %1 %2 ซึ่งเกินวงเงินในการถอนจากบัญชีของท่านที่จำนวน %3 "
+"%4"
 
 msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
 msgstr "การถอนเงิน %1 %2 แต่มียอดคงเหลือ %3 รวมโบนัส %4"
@@ -1725,13 +1713,16 @@ msgid "You have signed up for more than one account."
 msgstr "ท่านได้ลงทะเบียนมากกว่าหนึ่งบัญชี"
 
 msgid "You may ignore this email if you have sent us your documents."
-msgstr ""
+msgstr "หากท่านได้ส่งเอกสารให้เราแล้ว กรุณาเพิกเฉยต่ออีเมล์ฉบับนี้"
 
 msgid "You may ignore this email if you have sent us your documents. We shall process your documents in due time."
 msgstr ""
+"หากท่านได้ส่งเอกสารให้เราแล้ว กรุณาเพิกเฉยต่ออีเมล์ฉบับนี้ "
+"เราจะทำการตรวจสอบเอกสารของท่านตามเวลา"
 
 msgid "You may upload the copies of all required documents directly from your real money account at"
 msgstr ""
+"ท่านสามารถอัพโหลดสำเนาเอกสารทั้งหมดที่กำหนดได้โดยตรงในบัญชีเงินจริงของท่านที่"
 
 msgid "You need to ensure that you don't have open positions and withdraw your MT5 account balance before revoking the manager associated with your account."
 msgstr "ท่านต้องแน่ใจว่า ท่านไม่ได้เปิดโพซิชั่นและถอนเงินจากบัญชี MT5 ของท่าน ก่อนยกเลิกผู้จัดการของบัญชีท่าน"
