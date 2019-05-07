@@ -1088,17 +1088,11 @@ msgstr "無效金額。"
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
 msgstr "無效金額。提供金額的小數點後不可超過%1位數。"
 
-msgid "Invalid amount. Maximum is %1."
-msgstr "無效金額。最大金額是%1。"
-
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "無效金額。最大允許取款限額是%1。"
 
 msgid "Invalid amount. Minimum is %1, maximum is %2."
 msgstr "無效金額。最小金額是%1，最大金額是%2。"
-
-msgid "Invalid amount. Minimum is %1."
-msgstr "無效金額。最小金額是%1。"
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "無效金額。最小允許取款限額是%1。"
@@ -1635,6 +1629,11 @@ msgstr "請輸入%1和%2之間的數字。"
 msgid "Please enter a numeric value."
 msgstr "請輸入數字值。"
 
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a positive numeric value."
+msgstr "請輸入數字值。"
+
 msgid "Please enter a valid name."
 msgstr "請輸入有效姓名。"
 
@@ -1980,6 +1979,11 @@ msgstr "對不起，您的居住國無法使用金融產品合同"
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "對不起，您的居住國無法使用波動率指數合同"
 
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "您不能執行此操作，因為您的帳戶目前已禁用。"
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr "很抱歉，看來您已經有了真實資金帳戶。每個客戶只能開立一個真實資金帳戶。"
 
@@ -2019,6 +2023,11 @@ msgstr "對不起，此功能不可用。"
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "對不起，目前無法轉帳。請稍後重試。"
 
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently disabled."
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "法定貨幣和加密貨幣帳戶間目前不可轉帳。"
+
 msgid "Sorry, you are too young to open an account."
 msgstr "對不起，您的年齡太小，不能開戶。"
 
@@ -2055,7 +2064,9 @@ msgstr "對不起，由於您使用社交媒體登入，您的帳戶不允許輸
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "對不起，您的帳戶沒有進一步買入任何合約的權限。"
 
-msgid "Sorry, your account is not authorized to access this application."
+#, fuzzy
+#| msgid "Sorry, your account is not authorized to access this application."
+msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "對不起，您的帳戶無權存取此應用程式。"
 
 msgid "South African Index"
@@ -2216,9 +2227,6 @@ msgstr "您的帳戶%1密碼已重設。如您並沒執行此項要求，請立�
 
 msgid "The payment agent account does not exist."
 msgstr "付款代理帳戶不存在。"
-
-msgid "The payment agent facility is currently not available in your country."
-msgstr "目前您的國家無可用付款代理設施。"
 
 msgid "The payment agent facility is not available for this account."
 msgstr "此帳戶無可用付款代理設施。"
@@ -2928,6 +2936,11 @@ msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已禁用。"
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已被標記為不受歡迎。"
 
+#, fuzzy
+#| msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is not authorized."
+msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已禁用。"
+
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "您不能在帳戶%1取款，因為付款代理的收銀台已被鎖。"
 
@@ -2960,6 +2973,11 @@ msgstr "您不能執行此操作，因為您的帳戶取款功能已被鎖。"
 
 msgid "You cannot perform this action, as your verification documents have expired."
 msgstr "無法繼續操作，因驗證文件已過期。"
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is cashier locked."
+msgid "You cannot perform this action, please set your residence."
+msgstr "您不能執行此操作，因為您的帳戶收銀台已被鎖。"
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "%1帳戶無法提款，因付款代理的驗證文件已過期。"
@@ -8753,6 +8771,12 @@ msgstr "多重障礙合約必須有trading_period_start。"
 #~ msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 #~ msgstr "無效金額。提供金額的小數點後不可超過%1位數"
 
+#~ msgid "Invalid amount. Maximum is %1."
+#~ msgstr "無效金額。最大金額是%1。"
+
+#~ msgid "Invalid amount. Minimum is %1."
+#~ msgstr "無效金額。最小金額是%1。"
+
 #~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
 #~ msgstr "無效金額。最小轉帳金額為0.10，最多2個小數位。"
 
@@ -13307,6 +13331,9 @@ msgstr "多重障礙合約必須有trading_period_start。"
 
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "該專利意味著Regent Markets 為公認的二元投注先驅。這項專利有助於保護我們的創新。"
+
+#~ msgid "The payment agent facility is currently not available in your country."
+#~ msgstr "目前您的國家無可用付款代理設施。"
 
 #~ msgid "The payout is the amount paid to an options trader if their prediction is correct."
 #~ msgstr "賠付金額即期權交易者預測正確所獲得的金額。"

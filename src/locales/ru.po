@@ -1093,17 +1093,11 @@ msgstr "Неправильная сумма."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
 msgstr "Неправильная сумма. Разрешенная сумма не может иметь более %1 десятичных."
 
-msgid "Invalid amount. Maximum is %1."
-msgstr "Неправильная сумма. Максимум: %1."
-
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "Неправильная сумма. Максимальная сумма вывода: %1."
 
 msgid "Invalid amount. Minimum is %1, maximum is %2."
 msgstr "Неправильная сумма. Минимум: %1; максимум: %2."
-
-msgid "Invalid amount. Minimum is %1."
-msgstr "Неправильная сумма. Минимум: %1."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Неправильная сумма. Минимальная сумма вывода: %1."
@@ -1656,6 +1650,11 @@ msgstr "Пожалуйста, введите цифру от %1 до %2."
 msgid "Please enter a numeric value."
 msgstr "Пожалуйста, введите числовое значение."
 
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a positive numeric value."
+msgstr "Пожалуйста, введите числовое значение."
+
 msgid "Please enter a valid name."
 msgstr "Пожалуйста, внесите правильное имя."
 
@@ -2005,6 +2004,11 @@ msgstr "Извините, контракты на финансовые прод�
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "Извините, контракты на Индексах волатильности недоступны в стране Вашего проживания"
 
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "Вы не можете выполнить данное действие, так как Ваш счёт в настоящий момент неактивен."
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr "Извините, но у Вас уже есть реальный счёт на нашей платформе. Клиентам разрешено иметь только один реальный счёт."
 
@@ -2044,6 +2048,11 @@ msgstr "Извините, данная функция недоступна."
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "Извините, но переводы временно недоступны. Пожалуйста, попробуйте позже."
 
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently disabled."
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "Переводы между счетами в фидуциарных и криптовалютах временно приостановлены."
+
 msgid "Sorry, you are too young to open an account."
 msgstr "Извините, но Ваш возраст не позволяет Вам открыть счет."
 
@@ -2080,7 +2089,9 @@ msgstr "Извините, но на Вашем счёте не разрешен 
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Извините, Ваш счет не авторизован для дальнейшей покупки контрактов."
 
-msgid "Sorry, your account is not authorized to access this application."
+#, fuzzy
+#| msgid "Sorry, your account is not authorized to access this application."
+msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "Извините, Ваш счёт не имеет доступа к данному приложению."
 
 # 75%
@@ -2245,9 +2256,6 @@ msgstr "Пароль к Вашему счету %1 был изменен. Есл
 
 msgid "The payment agent account does not exist."
 msgstr "Данный платежный агент не существует."
-
-msgid "The payment agent facility is currently not available in your country."
-msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны."
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Оплата через платежного агента недоступна для Вашего счёта."
@@ -2963,6 +2971,11 @@ msgstr "Вы не можете перевести средства на счет
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 msgstr "Вы не можете перевести средства на счет %1, поскольку счет платежного агента отмечен как неблагонадёжный."
 
+#, fuzzy
+#| msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is not authorized."
+msgstr "Вы не можете перевести средства на счет %1, так как счет платежного агента в данный момент недоступен."
+
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "Вы не можете перевести средства на счет %1, поскольку касса платежного агента в настоящий момент недоступна."
 
@@ -2995,6 +3008,11 @@ msgstr "Вы не можете выполнить данное действие,
 
 msgid "You cannot perform this action, as your verification documents have expired."
 msgstr "Вы не можете выполнить данное действие, так как срок действия Ваших документов, подтверждающих личность, истёк."
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is cashier locked."
+msgid "You cannot perform this action, please set your residence."
+msgstr "Вы не можете выполнить данное действие, т. к. касса на Вашем счету заблокирована."
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "Вы не можете выполнит перевод на счёт %1, т. к. истёк срок действия документов платёжного агента."
@@ -12343,6 +12361,12 @@ msgstr "Необходимо указать trading_period_start для муль
 #~ msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 #~ msgstr "Неправильная сумма. Разрешенная сумма не может иметь более %1 десятичных"
 
+#~ msgid "Invalid amount. Maximum is %1."
+#~ msgstr "Неправильная сумма. Максимум: %1."
+
+#~ msgid "Invalid amount. Minimum is %1."
+#~ msgstr "Неправильная сумма. Минимум: %1."
+
 #~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
 #~ msgstr "Неверная сумма. Минимальная сумма перевода составляет 0.10 и до 2 знаков после запятой."
 
@@ -18543,6 +18567,9 @@ msgstr "Необходимо указать trading_period_start для муль
 
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "Патент означает признание Regent Markets пионером бинарного беттинга. Он способствует защите наших инноваций."
+
+#~ msgid "The payment agent facility is currently not available in your country."
+#~ msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны."
 
 #~ msgid "The payout is the amount paid to an options trader if their prediction is correct."
 #~ msgstr "Выплата - это сумма, которую трейдер получит в случае своего правильного прогноза."

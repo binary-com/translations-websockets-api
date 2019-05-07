@@ -1093,17 +1093,11 @@ msgstr "Số lượng không hợp lệ."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
 msgstr "Số tiền không hợp lệ. Số tiền nhập vào không thể có nhiều hơn %1 chữ số thập phân."
 
-msgid "Invalid amount. Maximum is %1."
-msgstr "Số tiền không hợp lệ. Tối đa là %1."
-
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "Số tiền không hợp lệ. Số tiền rút tối đa là %1."
 
 msgid "Invalid amount. Minimum is %1, maximum is %2."
 msgstr "Số tiền không hợp lệ. Tối thiểu là %1 và tối đa là %2."
-
-msgid "Invalid amount. Minimum is %1."
-msgstr "Số tiền không hợp lệ. Tối thiểu là %1."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Số tiền không hợp lệ. Số tiền rút tối thiểu là %1."
@@ -1640,6 +1634,11 @@ msgstr "Vui lòng nhập một số từ %1 đến %2."
 msgid "Please enter a numeric value."
 msgstr "Vui lòng nhập giá trị số."
 
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a positive numeric value."
+msgstr "Vui lòng nhập giá trị số."
+
 msgid "Please enter a valid name."
 msgstr "Vui lòng nhập tên hợp lệ."
 
@@ -1985,6 +1984,11 @@ msgstr "Rất tiếc, hợp đồng cho các Sản Phẩm Tài Chính không có
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "Rất tiếc, Hợp đồng Chỉ số Biến động không khả dụng tại đất nước bạn cư trú"
 
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "Bạn không thể thực hiện hành động này vì tài khoản của bạn hiện đã bị vô hiệu."
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr "Rất tiếc, hình như bạn đã sở hữu sẵn một tài khoản tiền thật của chúng tôi. Mỗi khách hàng chỉ được phép sở hữu duy nhất một tài khoản tiền thật."
 
@@ -2024,6 +2028,11 @@ msgstr "Xin lỗi, chức năng này không khả dụng."
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "Rất tiếc, chuyển khoản hiện không khả dụng. Vui lòng thử lại sau."
 
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently disabled."
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "Chuyển khoản giữa các tài khoản fiat và crypto hiện đang bị vô hiệu hóa."
+
 msgid "Sorry, you are too young to open an account."
 msgstr "Rất tiếc, bạn chưa đủ tuổi để mở tài khoản."
 
@@ -2060,7 +2069,9 @@ msgstr "Rất tiếc, tài khoản của bạn không cho phép đặt mật kh�
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Rất tiếc, tài khoản của bạn không có quyền mua thêm hợp đồng."
 
-msgid "Sorry, your account is not authorized to access this application."
+#, fuzzy
+#| msgid "Sorry, your account is not authorized to access this application."
+msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "Rất tiếc, tài khoản của bạn không có quyền truy cập vào ứng dụng này."
 
 msgid "South African Index"
@@ -2221,9 +2232,6 @@ msgstr "Mật khẩu cho tài khoản %1 của bạn đã được thiết 
 
 msgid "The payment agent account does not exist."
 msgstr "Tài khoản đại lý thanh toán không tồn tại."
-
-msgid "The payment agent facility is currently not available in your country."
-msgstr "Cơ sở đại lý thanh toán hiện không khả dụng ở nước bạn."
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Cơ sở đại lý thanh toán không khả dụng cho tài khoản này."
@@ -2933,6 +2941,11 @@ msgstr "Bạn không thể thực hiện việc rút tiền từ tài khoản% 1
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 msgstr "Bạn không thể thực hiện việc rút tiền từ tài khoản% 1, vì tài khoản của đại lý thanh toán được đánh dấu là không tin cậy."
 
+#, fuzzy
+#| msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is not authorized."
+msgstr "Bạn không thể thực hiện việc rút tiền từ tài khoản% 1, vì tài khoản của đại lý thanh toán đã bị vô hiệu."
+
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "Bạn không thể rút tiền từ tài khoản %1, vì thu ngân của đại lý thanh toán đã bị khóa."
 
@@ -2965,6 +2978,11 @@ msgstr "Bạn không thể thực hiện tác vụ này vì tài khoản của b
 
 msgid "You cannot perform this action, as your verification documents have expired."
 msgstr "Bạn không thể thực hiện tác vụ này vì tài liệu xác minh của bạn đã hết hạn."
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is cashier locked."
+msgid "You cannot perform this action, please set your residence."
+msgstr "Bạn không thể thực hiện hành động này vì tài khoản của bạn đã bị khoá thu ngân."
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "Bạn không thể thực hiện việc rút tiền tài khoản% 1, do các tài liệu xác minh của đại lý thanh toán đã hết hạn."
@@ -9065,6 +9083,12 @@ msgstr "trading_period_start phải được cung cấp cho hợp đồng đa gi
 #~ msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 #~ msgstr "Số tiền không hợp lệ. Số tiền nhập vào không thể có nhiều hơn %1 chữ số thập phân"
 
+#~ msgid "Invalid amount. Maximum is %1."
+#~ msgstr "Số tiền không hợp lệ. Tối đa là %1."
+
+#~ msgid "Invalid amount. Minimum is %1."
+#~ msgstr "Số tiền không hợp lệ. Tối thiểu là %1."
+
 #~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
 #~ msgstr "Số tiền không hợp lệ. Số tiền chuyển khoản tối thiểu là 0.10 và lên tới 2 chữ số thập phân."
 
@@ -13851,6 +13875,9 @@ msgstr "trading_period_start phải được cung cấp cho hợp đồng đa gi
 
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "Bằng sáng chế có nghĩa là Regent Markets là nhà tiên phong được công nhận trong cá cược nhị phân. Bằng sáng chế giúp bảo vệ những đổi mới của chúng tôi."
+
+#~ msgid "The payment agent facility is currently not available in your country."
+#~ msgstr "Cơ sở đại lý thanh toán hiện không khả dụng ở nước bạn."
 
 #~ msgid "The payout is the amount paid to an options trader if their prediction is correct."
 #~ msgstr "Tiền lãi là số tiền được trả cho một nhà giao dịch quyền chọn nếu dự đoán của mình là đúng."

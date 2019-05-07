@@ -1209,17 +1209,11 @@ msgstr "金額が無効です。"
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
 msgstr "ペイアウトは、1ロットあたり1,000円です。"
 
-msgid "Invalid amount. Maximum is %1."
-msgstr "無効な値です。最大は%1です。"
-
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "無効な値です。最大出金額は%1です。"
 
 msgid "Invalid amount. Minimum is %1, maximum is %2."
 msgstr "無効な値です。最小%1・最大%2です。"
-
-msgid "Invalid amount. Minimum is %1."
-msgstr "無効な値です。最小は%1です。"
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "無効な値です。最小出金額は%1です。"
@@ -1796,6 +1790,11 @@ msgstr "%1から%2の数字を入力してください"
 msgid "Please enter a numeric value."
 msgstr "半角で数値をご入力して下さい。"
 
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a positive numeric value."
+msgstr "半角で数値をご入力して下さい。"
+
 msgid "Please enter a valid name."
 msgstr "有効なお名前をご入力して下さい。"
 
@@ -2187,6 +2186,11 @@ msgstr "申し訳ございませんが、お客様の居住地域ではボラテ
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "申し訳ございませんが、お客様の居住地域ではボラティリティインデックスの取引はできません。"
 
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "口座%1は現在無効であるため、送金できません。"
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr ""
 
@@ -2232,6 +2236,11 @@ msgstr "申し訳ございませんが、この機能はご利用いただけま
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "全ての市場は現在閉鎖しています。後ほどお試しください。"
 
+#, fuzzy
+#| msgid "Account transfers are currently suspended."
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "入出金サービスは現在一時的に停止しております。"
+
 msgid "Sorry, you are too young to open an account."
 msgstr "申し訳ございません。当社の年齢基準を満たしていないため、口座を開設することができません。"
 
@@ -2274,7 +2283,7 @@ msgstr "申し訳ございませんが、これ以上のトレードの購入を
 
 #, fuzzy
 #| msgid "Sorry, your account is not authorised for any further contract purchases."
-msgid "Sorry, your account is not authorized to access this application."
+msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "申し訳ございませんが、これ以上のトレードの購入を可能にする権限がお客さまのご口座に存在しておりません。"
 
 msgid "South African Index"
@@ -2441,9 +2450,6 @@ msgstr "%1のパスワードは再設定されました。本メールにお心�
 
 msgid "The payment agent account does not exist."
 msgstr "申し訳ございませんが、ご選択いただいた決済サービスは存在しません。"
-
-msgid "The payment agent facility is currently not available in your country."
-msgstr "その決済サービスは、お客さまのお住まいの国では現在ご利用いただけません。"
 
 msgid "The payment agent facility is not available for this account."
 msgstr "その決済サービスは、お客さまのお住まいの国では現在ご利用いただけません。"
@@ -3219,6 +3225,11 @@ msgstr "決済サービスが無効のため、口座%1に送金を行えませ�
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 msgstr "お客さまの口座がロックされているため、口座%1へ送金できません。"
 
+#, fuzzy
+#| msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is not authorized."
+msgstr "決済サービスが無効のため、口座%1に送金を行えません。"
+
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "決済サービスがロックされているため、口座%1に送金できません。"
 
@@ -3251,6 +3262,11 @@ msgstr "出金先口座がロックされているため、お客さまの操作
 
 msgid "You cannot perform this action, as your verification documents have expired."
 msgstr "You cannot perform this action, as your verification documents have expired."
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is cashier locked."
+msgid "You cannot perform this action, please set your residence."
+msgstr "決済サービスがロックされているため口座%1に、送金できません。"
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
@@ -11773,6 +11789,12 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 #~ msgstr "ペイアウトは、1ロットあたり1,000円です。"
 
+#~ msgid "Invalid amount. Maximum is %1."
+#~ msgstr "無効な値です。最大は%1です。"
+
+#~ msgid "Invalid amount. Minimum is %1."
+#~ msgstr "無効な値です。最小は%1です。"
+
 #~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
 #~ msgstr "無効な値です。最小量は0.10で小数点以下２桁までです。"
 
@@ -17857,6 +17879,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "この特許により、Regent Marketsはバイナリー取引におけるパイオニアと認識される。特許取得により、より一層の進化を遂げる。"
+
+#~ msgid "The payment agent facility is currently not available in your country."
+#~ msgstr "その決済サービスは、お客さまのお住まいの国では現在ご利用いただけません。"
 
 #~ msgid "The payout is the amount paid to an options trader if their prediction is correct."
 #~ msgstr "払い戻し金額とは、トレードに勝った際に支払われる金額のことです。"

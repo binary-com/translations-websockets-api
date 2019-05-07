@@ -1095,17 +1095,11 @@ msgstr "Valor inválido."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
 msgstr "Monto inválido. El monto proporcionado no puede tener más de %1 decimales."
 
-msgid "Invalid amount. Maximum is %1."
-msgstr "Monto invalido. El máximo es %1."
-
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "Monto invalido. El valor máximo permitido para retirar es %1."
 
 msgid "Invalid amount. Minimum is %1, maximum is %2."
 msgstr "Monto invalido. El monto mínimo es %1 y el máximo es %2."
-
-msgid "Invalid amount. Minimum is %1."
-msgstr "Monto inválido. El monto mínimo es %1."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Monto invalido. El monto mínimo permitido es %1."
@@ -1642,6 +1636,11 @@ msgstr "Por favor, ingrese un valor entre %1 y %2."
 msgid "Please enter a numeric value."
 msgstr "Por favor, ingrese un valor numérico."
 
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a positive numeric value."
+msgstr "Por favor, ingrese un valor numérico."
+
 msgid "Please enter a valid name."
 msgstr "Ingrese un nombre válido."
 
@@ -1987,6 +1986,11 @@ msgstr "Lo sentimos, los contratos sobre productos financieros no están disponi
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "Lo sentimos, los contratos sobre los Índices de Volatilidad no están disponibles en su país de residencia"
 
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "No es posible realizar esta acción, dado que su cuenta se encuentra momentáneamente deshabilitada."
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr "Lo sentimos, parece que ya tiene una cuenta de dinero real con nosotros. Se permite solo una cuenta de dinero real para cada cliente."
 
@@ -2026,6 +2030,11 @@ msgstr "Esta funcionalidad no está disponible."
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "Lo sentimos, las transferencias no están disponibles de momento. Inténtelo más tarde."
 
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently disabled."
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "Las transferencias entre cuentas fiat y cripto se encuentran momentáneamente inhabilitadas."
+
 msgid "Sorry, you are too young to open an account."
 msgstr "Lo sentimos, usted es muy joven para abrir una cuenta."
 
@@ -2062,7 +2071,9 @@ msgstr "Lo sentimos, su cuenta no permite contraseñas porque inicia sesión a t
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Lo sentimos, su cuenta no está autorizada para continuar con la compra de contratos."
 
-msgid "Sorry, your account is not authorized to access this application."
+#, fuzzy
+#| msgid "Sorry, your account is not authorized to access this application."
+msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "Lo sentimos, su cuenta no está autorizada para acceder a esta aplicación."
 
 msgid "South African Index"
@@ -2223,9 +2234,6 @@ msgstr "La contraseña de su cuenta %1 ha sido cambiada. Si esta solicitud no fu
 
 msgid "The payment agent account does not exist."
 msgstr "La cuenta del agente de pagos no existe."
-
-msgid "The payment agent facility is currently not available in your country."
-msgstr "La opción de agentes de pagos no está disponible actualmente en su país."
 
 msgid "The payment agent facility is not available for this account."
 msgstr "La opción de agente de pagos no está disponible para esta cuenta."
@@ -2936,6 +2944,11 @@ msgstr "Usted no puede retirar dinero hacia a la cuenta %1, dado que la cuenta d
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 msgstr "Usted no puede retirar dinero hacia la cuenta %1, dado que la cuenta del agente de pago está marcada como no deseada."
 
+#, fuzzy
+#| msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is not authorized."
+msgstr "Usted no puede retirar dinero hacia a la cuenta %1, dado que la cuenta del agente de pago se encuentra deshabilitada."
+
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "Usted no puede retirar dinero hacia la cuenta %1, dado que el cajero del agente de pago se encuentra bloqueado."
 
@@ -2968,6 +2981,11 @@ msgstr "No es posible realizar esta acción, ya que los retiros de su cuenta se 
 
 msgid "You cannot perform this action, as your verification documents have expired."
 msgstr "No puede realizar esta acción, ya que sus documentos de verificación han expirado."
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is cashier locked."
+msgid "You cannot perform this action, please set your residence."
+msgstr "No es posible realizar esta acción, dado que el cajero de su cuenta se encuentra bloqueado."
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "No puede retirar dinero a la cuenta %1, ya que los documentos de verificación del agente de pagos han expirado."
@@ -11573,6 +11591,12 @@ msgstr "trading_period_start debe suministrarse para contratos de múltiples bar
 #~ msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 #~ msgstr "Monto inválido. El monto proporcionado no puede tener más de %1 decimales"
 
+#~ msgid "Invalid amount. Maximum is %1."
+#~ msgstr "Monto invalido. El máximo es %1."
+
+#~ msgid "Invalid amount. Minimum is %1."
+#~ msgstr "Monto inválido. El monto mínimo es %1."
+
 #~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
 #~ msgstr "Cantidad no válida. Monto de la transferencia mínima es de 0,10 y hasta 2 decimales."
 
@@ -17712,6 +17736,9 @@ msgstr "trading_period_start debe suministrarse para contratos de múltiples bar
 
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "La patente significa que Regent Markets es reconocida como pionera de apuestas binarias. La patente ayuda a proteger nuestras innovaciones."
+
+#~ msgid "The payment agent facility is currently not available in your country."
+#~ msgstr "La opción de agentes de pagos no está disponible actualmente en su país."
 
 #~ msgid "The payout is the amount paid to an options trader if their prediction is correct."
 #~ msgstr "El pago es el monto pagado al inversor si su predicción es correcta."

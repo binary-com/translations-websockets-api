@@ -1091,17 +1091,11 @@ msgstr "Jumlah tidak valid."
 msgid "Invalid amount. Amount provided can not have more than %1 decimal places."
 msgstr "Jumlah tidak berlaku. Jumlah yang diberikan tidak boleh lebih dari %1 desimal."
 
-msgid "Invalid amount. Maximum is %1."
-msgstr "Jumlah tidak berlaku. Maksimum %1."
-
 msgid "Invalid amount. Maximum withdrawal allowed is %1."
 msgstr "Jumlah tidak berlaku, maksimal penarikan adalah %1."
 
 msgid "Invalid amount. Minimum is %1, maximum is %2."
 msgstr "Jumlah tidak berlaku. Minimum adalah %1, maksimum adalah %2."
-
-msgid "Invalid amount. Minimum is %1."
-msgstr "Jumlah tidak berlaku. Minimal %1."
 
 msgid "Invalid amount. Minimum withdrawal allowed is %1."
 msgstr "Jumlah tidak berlaku. Minimal penarikan yang dibenarkan %1."
@@ -1638,6 +1632,11 @@ msgstr "Silakan masukkan nomor antara %1 dan %2."
 msgid "Please enter a numeric value."
 msgstr "Masukkan nilai numerik."
 
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a positive numeric value."
+msgstr "Masukkan nilai numerik."
+
 msgid "Please enter a valid name."
 msgstr "Silahkan masukkan nama yang berlaku."
 
@@ -1983,6 +1982,11 @@ msgstr "Maaf, kontrak pada Produk Keuangan tidak tersedia untuk negara domisili 
 msgid "Sorry, contracts on Volatility Indices are not available in your country of residence"
 msgstr "Maaf, kontrak pada Indeks Volatilitas tidak tersedia untuk negara domisili Anda"
 
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "Anda tidak dapat melakukan transaksi ini, karena akun Anda saat ini dibatalkan."
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr "Maaf, sepertinya Anda sudah memiliki akun uang riil bersama kami. Hanya satu akun uang riil yang diperbolehkan untuk setiap klien."
 
@@ -2022,6 +2026,11 @@ msgstr "Maaf, fasilitas ini tidak tersedia."
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "Maaf, transfer saat ini tidak tersedia. Silakan coba lagi nanti."
 
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently disabled."
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "Transfer antara akun fiat dan kripto saat ini dinonaktifkan."
+
 msgid "Sorry, you are too young to open an account."
 msgstr "Maaf, Anda terlalu muda untuk mendaftar akun."
 
@@ -2058,7 +2067,9 @@ msgstr "Maaf, akun Anda tidak membenarkan penggunaan kata sandi berhubung Anda m
 msgid "Sorry, your account is not authorised for any further contract purchases."
 msgstr "Maaf, akun Anda tidak dapat membeli kontrak selanjutnya."
 
-msgid "Sorry, your account is not authorized to access this application."
+#, fuzzy
+#| msgid "Sorry, your account is not authorized to access this application."
+msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "Maaf, akun Anda tidak diizinkan untuk mengakses aplikasi ini."
 
 msgid "South African Index"
@@ -2219,9 +2230,6 @@ msgstr "Kata sandi akun %1 Anda telah dirubah. Jika permohonan ini bukan berasal
 
 msgid "The payment agent account does not exist."
 msgstr "Akun agen pembayaran tidak tersedia."
-
-msgid "The payment agent facility is currently not available in your country."
-msgstr "Fasilitas agen pembayaran saat ini tidak tersedia di negara Anda."
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Fasilitas agen pembayaran tidak tersedia untuk akun ini."
@@ -2931,6 +2939,11 @@ msgstr "Anda tidak dapat melakukan penarikan ke akun %1, berhubung akun agen pem
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 msgstr "Anda tidak dapat melakukan penarikan ke akun %1, karena akun agen pembayaran dinyatakan sebagai tidak aktif."
 
+#, fuzzy
+#| msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
+msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is not authorized."
+msgstr "Anda tidak dapat melakukan penarikan ke akun %1, berhubung akun agen pembayaran telah dinonaktifkan."
+
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "Anda tidak dapat melakukan penarikan ke akun %1, berhubung kasir agen pembayaran terkunci."
 
@@ -2963,6 +2976,11 @@ msgstr "Anda tidak dapat melakukan transaksi ini, karena penarikan akun Anda ter
 
 msgid "You cannot perform this action, as your verification documents have expired."
 msgstr "Anda tidak dapat melakukan aksi ini, berhubung dokumen verifikasi Anda telah kedaluwarsa."
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is cashier locked."
+msgid "You cannot perform this action, please set your residence."
+msgstr "Anda tidak dapat melakukan transaksi ini, berhubung kasir akun Anda terkunci."
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "Anda tidak dapat melakukan penarikan kedalam akun %1, berhubung dokumen verifikasi agen pembayaran sudah kadaluarsa."
@@ -12555,6 +12573,12 @@ msgstr "trading_period_start harus disediakan untuk kontrak multi barrier."
 #~ msgid "Invalid amount. Amount provided can not have more than %1 decimal places"
 #~ msgstr "Jumlah tidak berlaku. Jumlah yang diberikan tidak boleh lebih dari %1 desimal"
 
+#~ msgid "Invalid amount. Maximum is %1."
+#~ msgstr "Jumlah tidak berlaku. Maksimum %1."
+
+#~ msgid "Invalid amount. Minimum is %1."
+#~ msgstr "Jumlah tidak berlaku. Minimal %1."
+
 #~ msgid "Invalid amount. Minimum transfer amount is 0.10, and up to 2 decimal places."
 #~ msgstr "Jumlah salah. Minimum transfer adalah 0.10 hingga 2 angka desimal."
 
@@ -19373,6 +19397,9 @@ msgstr "trading_period_start harus disediakan untuk kontrak multi barrier."
 
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "Paten berarti Regent Markets diakui sebagai perintis trading binary. Paten ini membantu melindungi inovasi kami."
+
+#~ msgid "The payment agent facility is currently not available in your country."
+#~ msgstr "Fasilitas agen pembayaran saat ini tidak tersedia di negara Anda."
 
 #~ msgid "The payout is the amount paid to an options trader if their prediction is correct."
 #~ msgstr "Hasil adalah jumlah yang dibayarkan pada opsi trader jika analisa tepat."
