@@ -366,6 +366,9 @@ msgstr "Binary.comアカデミー"
 msgid "Bombay Index"
 msgstr "ボンベイ インデックス"
 
+msgid "Both max_deposit and max_deposit_end_date must be provided to activate deposit limit."
+msgstr ""
+
 #, fuzzy
 #| msgid "Your app_id is invalid."
 msgid "Brand is invalid."
@@ -693,6 +696,16 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "入金"
+
+#, fuzzy
+#| msgid "Exclude time cannot be for more than five years."
+msgid "Deposit exclusion period cannot be for more than five years."
+msgstr "6年以上の除外期間は設定することはできません。"
+
+#, fuzzy
+#| msgid "Exclude time must be after today."
+msgid "Deposit exclusion period must be after today."
+msgstr "制限時間は明日以降として設定して下さい。"
 
 #, fuzzy
 #| msgid "Payments are suspended."
@@ -1436,6 +1449,24 @@ msgstr "7日間の最大損失 (半角)"
 msgid "Maximum aggregate loss per day."
 msgstr "1日の最大損失 (半角)"
 
+#, fuzzy
+#| msgid "Min-Max Deposit"
+msgid "Maximum deposit"
+msgstr "最低ー最高　ご入金額"
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit expires on <strong>%1.</strong>"
+msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
+
+msgid "Maximum deposit limit expiry date"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit is set to <strong>%1.</strong>"
+msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "最大サイズに達しました。最大サイズは%1です。"
 
@@ -1616,6 +1647,11 @@ msgstr "Oil/USD"
 
 msgid "Old password is wrong."
 msgstr "旧パスワードの値が不正です。"
+
+#, fuzzy
+#| msgid "Once this limit is reached, you may no longer deposit."
+msgid "Once maximum deposit limit is reached the client may longer deposit."
+msgstr "上限額以上の入金はできません。"
 
 msgid "Once this limit is reached, you may no longer deposit."
 msgstr "上限額以上の入金はできません。"
@@ -1937,7 +1973,7 @@ msgstr "この原資産で取引されるには、口座をお切り替えいた
 
 #, fuzzy
 #| msgid "Please deposit to your account."
-msgid "Please switch to your MF account to access MT5."
+msgid "Please switch your account to access MT5."
 msgstr "お客さまの口座へ入金をしてください。"
 
 msgid "Please try again after one minute."
@@ -3474,15 +3510,6 @@ msgstr "認証コードの有効期限が切れています。"
 msgid "Your website URL"
 msgstr "ウェブサイトURL"
 
-msgid ""
-"\\\n"
-"        <p><b>We're sorry you're leaving.</b></p>\n"
-"        <p>You have requested to close your Binary.com accounts. This is to confirm that all your accounts have been terminated successfully.</p>\n"
-"        <p>Thank you.</p>\n"
-"        Team Binary.com\n"
-"        "
-msgstr ""
-
 #, fuzzy
 #| msgid ""
 #| "\\\n"
@@ -3504,16 +3531,16 @@ msgstr ""
 #| "Binary.com\n"
 msgid ""
 "\\\n"
-"        <p>Dear %1,</p>\n"
-"    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
-"    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
-"    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
-"    </p>\n"
-"    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
-"    <p>We look forward to hearing from you soon.</p>\n"
-"    <p>Regards,</p>\n"
-"    Binary.com\n"
-"    "
+"            <p>Dear %1,</p>\n"
+"        <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+"        <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"        <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+"        </p>\n"
+"        <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+"        <p>We look forward to hearing from you soon.</p>\n"
+"        <p>Regards,</p>\n"
+"        Binary.com\n"
+"        "
 msgstr ""
 "\\\n"
 "%1様\n"
@@ -3529,6 +3556,15 @@ msgstr ""
 "ご対応のほど、よろしくお願いいたします。\n"
 "\n"
 "Binary.com\n"
+
+msgid ""
+"\\\n"
+"        <p><b>We're sorry you're leaving.</b></p>\n"
+"        <p>You have requested to close your Binary.com accounts. This is to confirm that all your accounts have been terminated successfully.</p>\n"
+"        <p>Thank you.</p>\n"
+"        Team Binary.com\n"
+"        "
+msgstr ""
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "スペースやダッシュ（―）を含む英数字2-32文字"
@@ -13327,9 +13363,6 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Min %1 Max %2"
 #~ msgstr "最小 %1 最大 %2"
-
-#~ msgid "Min-Max Deposit"
-#~ msgstr "最低ー最高　ご入金額"
 
 #~ msgid "Min-Max Withdrawal"
 #~ msgstr "最低ー最高　ご出金額"

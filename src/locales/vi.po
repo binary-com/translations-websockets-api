@@ -312,6 +312,9 @@ msgstr "Binary.com"
 msgid "Bombay Index"
 msgstr "Chỉ số chứng khoán Bombay"
 
+msgid "Both max_deposit and max_deposit_end_date must be provided to activate deposit limit."
+msgstr ""
+
 msgid "Brand is invalid."
 msgstr "Nhãn hiệu không hợp lệ."
 
@@ -606,6 +609,16 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Gửi tiền"
+
+#, fuzzy
+#| msgid "Exclude time cannot be for more than five years."
+msgid "Deposit exclusion period cannot be for more than five years."
+msgstr "Thời gian loại trừ không thể nhiều hơn 5 năm."
+
+#, fuzzy
+#| msgid "Exclude time must be after today."
+msgid "Deposit exclusion period must be after today."
+msgstr "Thời gian loại trừ cần phải sau ngày hôm nay."
 
 msgid "Deposits are suspended."
 msgstr "Gửi tiền bị tạm ngừng."
@@ -1306,6 +1319,24 @@ msgstr "Tổng thua lỗ tối đa với kì hạn 7 ngày."
 msgid "Maximum aggregate loss per day."
 msgstr "Tổng thua lỗ tối đa trong một ngày."
 
+#, fuzzy
+#| msgid "Min-Max Deposit"
+msgid "Maximum deposit"
+msgstr "Số tiền gửi Tối đa-Tối thiểu"
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit expires on <strong>%1.</strong>"
+msgstr "Số phiên mở tối đa hiện đang được thiết lập tới <strong>%1</strong>"
+
+msgid "Maximum deposit limit expiry date"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit is set to <strong>%1.</strong>"
+msgstr "Số phiên mở tối đa hiện đang được thiết lập tới <strong>%1</strong>"
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "Đã đạt kích thước tối đa. Tối đa cho phép %1"
 
@@ -1470,6 +1501,11 @@ msgstr "Dầu/USD"
 
 msgid "Old password is wrong."
 msgstr "Mật khẩu cũ không đúng."
+
+#, fuzzy
+#| msgid "Once this limit is reached, you may no longer deposit."
+msgid "Once maximum deposit limit is reached the client may longer deposit."
+msgstr "Khi chạm tới giới hạn này, bạn sẽ không cần gửi thêm tiền nữa."
 
 msgid "Once this limit is reached, you may no longer deposit."
 msgstr "Khi chạm tới giới hạn này, bạn sẽ không cần gửi thêm tiền nữa."
@@ -1751,7 +1787,9 @@ msgstr "Vui lòng chuyển đổi tài khoản để giao dịch thị trư
 msgid "Please switch accounts to trade this underlying."
 msgstr "Vui lòng chuyển đổi tài khoản để giao dịch với đơn vị cơ sở này."
 
-msgid "Please switch to your MF account to access MT5."
+#, fuzzy
+#| msgid "Please switch to your MF account to access MT5."
+msgid "Please switch your account to access MT5."
 msgstr "Vui lòng chuyển sang tài khoản MF của bạn để truy cập MT5."
 
 msgid "Please try again after one minute."
@@ -3170,6 +3208,44 @@ msgstr "Thẻ token của bạn đã hết hạn hoặc không hợp lệ."
 msgid "Your website URL"
 msgstr "URL trang web của bạn"
 
+#, fuzzy
+#| msgid ""
+#| "\\\n"
+#| "        <p>Dear %1,</p>\n"
+#| "    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+#| "    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+#| "    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+#| "    </p>\n"
+#| "    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+#| "    <p>We look forward to hearing from you soon.</p>\n"
+#| "    <p>Regards,</p>\n"
+#| "    Binary.com\n"
+#| "    "
+msgid ""
+"\\\n"
+"            <p>Dear %1,</p>\n"
+"        <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+"        <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"        <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+"        </p>\n"
+"        <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+"        <p>We look forward to hearing from you soon.</p>\n"
+"        <p>Regards,</p>\n"
+"        Binary.com\n"
+"        "
+msgstr ""
+"\\\n"
+"        <p>%1 thân mến,</p>\n"
+"    <p>Cảm ơn bạn đã đăng ký tài khoản MetaTrader 5.</p>\n"
+"    <p>Chúng tôi được yêu cầu theo quy định Pháp Luật để xác minh danh tính và địa chỉ của mỗi khách hàng. Do đó, chúng tôi cần bạn vui lòng xác thực tài khoản bằng cách gửi các tài liệu sau:\n"
+"    <ul><li>Bản sao còn hiệu lực của bằng lái xe, căn cước, hoặc hộ chiếu (cả mặt trước và sau)</li><li>Một bản sao hóa đơn thanh toán hoặc một bản sao kê ngân hàng có thời hạn không quá 6 tháng</li><li>Một bức ảnh có bản thân đang cầm bằng lái, căn cước hoặc hộ chiếu</li></ul>\n"
+"    </p>\n"
+"    <p>Vui lòng <a href=\"https://www.binary.com/%2/user/authenticate.html\">tải lên các bản sao được quét</a> của những tài liệu trên trong vòng 5 ngày kể từ ngày nhận được email này để duy trì tài khoản MT5 của bạn.</p>\n"
+"    <p>Chúng tôi mong bạn sớm hồi âm.</p>\n"
+"    <p>Thân gửi,</p>\n"
+"    Binary.com\n"
+"    "
+
 msgid ""
 "\\\n"
 "        <p><b>We're sorry you're leaving.</b></p>\n"
@@ -3183,31 +3259,6 @@ msgstr ""
 "        <p>cảm ơn.</p>\n"
 "        Đội ngũ Binary.com\n"
 "        "
-
-msgid ""
-"\\\n"
-"        <p>Dear %1,</p>\n"
-"    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
-"    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
-"    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
-"    </p>\n"
-"    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
-"    <p>We look forward to hearing from you soon.</p>\n"
-"    <p>Regards,</p>\n"
-"    Binary.com\n"
-"    "
-msgstr ""
-"\\\n"
-"        <p>%1 thân mến,</p>\n"
-"    <p>Cảm ơn bạn đã đăng ký tài khoản MetaTrader 5.</p>\n"
-"    <p>Chúng tôi được yêu cầu theo quy định Pháp Luật để xác minh danh tính và địa chỉ của mỗi khách hàng. Do đó, chúng tôi cần bạn vui lòng xác thực tài khoản bằng cách gửi các tài liệu sau:\n"
-"    <ul><li>Bản sao còn hiệu lực của bằng lái xe, căn cước, hoặc hộ chiếu (cả mặt trước và sau)</li><li>Một bản sao hóa đơn thanh toán hoặc một bản sao kê ngân hàng có thời hạn không quá 6 tháng</li><li>Một bức ảnh có bản thân đang cầm bằng lái, căn cước hoặc hộ chiếu</li></ul>\n"
-"    </p>\n"
-"    <p>Vui lòng <a href=\"https://www.binary.com/%2/user/authenticate.html\">tải lên các bản sao được quét</a> của những tài liệu trên trong vòng 5 ngày kể từ ngày nhận được email này để duy trì tài khoản MT5 của bạn.</p>\n"
-"    <p>Chúng tôi mong bạn sớm hồi âm.</p>\n"
-"    <p>Thân gửi,</p>\n"
-"    Binary.com\n"
-"    "
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "Chữ, số, khoảng trắng và dấu gạch ngang, 2-32 kí tự"
@@ -10430,9 +10481,6 @@ msgstr "trading_period_start phải được cung cấp cho hợp đồng đa gi
 
 #~ msgid "Min %1 Max %2"
 #~ msgstr "Tối thiểu: % 1 Tối đa: %2"
-
-#~ msgid "Min-Max Deposit"
-#~ msgstr "Số tiền gửi Tối đa-Tối thiểu"
 
 #~ msgid "Min-Max Withdrawal"
 #~ msgstr "Khoản rút tiền Tối đa-Tối thiểu"

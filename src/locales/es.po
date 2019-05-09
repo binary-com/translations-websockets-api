@@ -312,6 +312,9 @@ msgstr "Binary.com"
 msgid "Bombay Index"
 msgstr "Índice Bombay"
 
+msgid "Both max_deposit and max_deposit_end_date must be provided to activate deposit limit."
+msgstr ""
+
 msgid "Brand is invalid."
 msgstr "La márca no es válida."
 
@@ -605,6 +608,16 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Depósito"
+
+#, fuzzy
+#| msgid "Exclude time cannot be for more than five years."
+msgid "Deposit exclusion period cannot be for more than five years."
+msgstr "El tiempo de exclusión no puede ser mayor a cinco años."
+
+#, fuzzy
+#| msgid "Exclude time must be after today."
+msgid "Deposit exclusion period must be after today."
+msgstr "El tiempo de exclusión debe ser a partir de mañana."
 
 msgid "Deposits are suspended."
 msgstr "Los depósitos están suspendidos."
@@ -1308,6 +1321,24 @@ msgstr "Máximo de pérdidas por un período de 7 días."
 msgid "Maximum aggregate loss per day."
 msgstr "Máximo de pérdidas por día."
 
+#, fuzzy
+#| msgid "Min-Max Deposit"
+msgid "Maximum deposit"
+msgstr "Depósito mín-máx"
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit expires on <strong>%1.</strong>"
+msgstr "El número máximo de posiciones abiertas establecido actualmente es <strong>%1</strong>"
+
+msgid "Maximum deposit limit expiry date"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit is set to <strong>%1.</strong>"
+msgstr "El número máximo de posiciones abiertas establecido actualmente es <strong>%1</strong>"
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "El tamaño del archivo es muy grande. El máximo permitido es %1"
 
@@ -1472,6 +1503,11 @@ msgstr "Petróleo/USD"
 
 msgid "Old password is wrong."
 msgstr "Su antigua contraseña es incorrecta."
+
+#, fuzzy
+#| msgid "Once this limit is reached, you may no longer deposit."
+msgid "Once maximum deposit limit is reached the client may longer deposit."
+msgstr "Una vez que se alcance este límite ya no podrá depositar."
 
 msgid "Once this limit is reached, you may no longer deposit."
 msgstr "Una vez que se alcance este límite ya no podrá depositar."
@@ -1753,7 +1789,9 @@ msgstr "Por favor, cambie la cuenta para operar en este mercado."
 msgid "Please switch accounts to trade this underlying."
 msgstr "Por favor cambie la cuenta para operar con este subyacente."
 
-msgid "Please switch to your MF account to access MT5."
+#, fuzzy
+#| msgid "Please switch to your MF account to access MT5."
+msgid "Please switch your account to access MT5."
 msgstr "Por favor, cambie a su cuenta MF para acceder a MT5."
 
 msgid "Please try again after one minute."
@@ -3173,6 +3211,44 @@ msgstr "Su token ha caducado o no es válido."
 msgid "Your website URL"
 msgstr "URL de su sitio web"
 
+#, fuzzy
+#| msgid ""
+#| "\\\n"
+#| "        <p>Dear %1,</p>\n"
+#| "    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+#| "    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+#| "    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+#| "    </p>\n"
+#| "    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+#| "    <p>We look forward to hearing from you soon.</p>\n"
+#| "    <p>Regards,</p>\n"
+#| "    Binary.com\n"
+#| "    "
+msgid ""
+"\\\n"
+"            <p>Dear %1,</p>\n"
+"        <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+"        <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"        <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+"        </p>\n"
+"        <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+"        <p>We look forward to hearing from you soon.</p>\n"
+"        <p>Regards,</p>\n"
+"        Binary.com\n"
+"        "
+msgstr ""
+"\\\n"
+"        <p>Estimado %1,</p>\n"
+"    <p>Gracias por registrar su cuenta MetaTrader 5.</p>\n"
+"    <p>Estamos obligados legalmente a verificar la identidad y dirección de cada cliente. Por lo tanto, le rogamos que autentifique su cuenta enviando los siguientes documentos:\n"
+"    <ul><li>Una copia válida de licencia de conducir, cédula de identidad o pasaporte (anverso y reverso)</li><li>Una copia de recibo de servicios públicos o extracto bancario emitido en los últimos seis meses</li><li>Una foto de usted (selfie) sosteniendo en las manos su licencia de conducir, documento de identidad o pasaporte.</li></ul>\n"
+"    </p>\n"
+"    <p>Por favor <a href=\"https://www.binary.com/%2/user/authenticate.html\">suba copias escaneadas</a> de estos documentos dentro de los cinco días siguientes a la recepción de este correo para mantener su cuenta MT5 activa.</p>\n"
+"    <p>Esperamos tener noticias suyas pronto.</p>\n"
+"    <p>Atentamente,</p>\n"
+"    Binary.com\n"
+"    "
+
 msgid ""
 "\\\n"
 "        <p><b>We're sorry you're leaving.</b></p>\n"
@@ -3187,31 +3263,6 @@ msgstr ""
 "        <p>Muchas gracias.</p>\n"
 "        El Equipo Binary.com\n"
 "        "
-
-msgid ""
-"\\\n"
-"        <p>Dear %1,</p>\n"
-"    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
-"    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
-"    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
-"    </p>\n"
-"    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
-"    <p>We look forward to hearing from you soon.</p>\n"
-"    <p>Regards,</p>\n"
-"    Binary.com\n"
-"    "
-msgstr ""
-"\\\n"
-"        <p>Estimado %1,</p>\n"
-"    <p>Gracias por registrar su cuenta MetaTrader 5.</p>\n"
-"    <p>Estamos obligados legalmente a verificar la identidad y dirección de cada cliente. Por lo tanto, le rogamos que autentifique su cuenta enviando los siguientes documentos:\n"
-"    <ul><li>Una copia válida de licencia de conducir, cédula de identidad o pasaporte (anverso y reverso)</li><li>Una copia de recibo de servicios públicos o extracto bancario emitido en los últimos seis meses</li><li>Una foto de usted (selfie) sosteniendo en las manos su licencia de conducir, documento de identidad o pasaporte.</li></ul>\n"
-"    </p>\n"
-"    <p>Por favor <a href=\"https://www.binary.com/%2/user/authenticate.html\">suba copias escaneadas</a> de estos documentos dentro de los cinco días siguientes a la recepción de este correo para mantener su cuenta MT5 activa.</p>\n"
-"    <p>Esperamos tener noticias suyas pronto.</p>\n"
-"    <p>Atentamente,</p>\n"
-"    Binary.com\n"
-"    "
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "alfanumérico con espacio y guión, de 2 a 32 caracteres"
@@ -13124,9 +13175,6 @@ msgstr "trading_period_start debe suministrarse para contratos de múltiples bar
 #~| msgid "Min: %1 Max: %2"
 #~ msgid "Min %1 Max %2"
 #~ msgstr "Min: %1 Max: %2"
-
-#~ msgid "Min-Max Deposit"
-#~ msgstr "Depósito mín-máx"
 
 #~ msgid "Min-Max Withdrawal"
 #~ msgstr "Retiro mín-máx"

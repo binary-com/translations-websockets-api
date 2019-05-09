@@ -307,6 +307,9 @@ msgstr "Binary.com"
 msgid "Bombay Index"
 msgstr "孟買指數"
 
+msgid "Both max_deposit and max_deposit_end_date must be provided to activate deposit limit."
+msgstr ""
+
 msgid "Brand is invalid."
 msgstr "品牌無效。"
 
@@ -601,6 +604,16 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "存款"
+
+#, fuzzy
+#| msgid "Exclude time cannot be for more than five years."
+msgid "Deposit exclusion period cannot be for more than five years."
+msgstr "禁止時間不能超過五年。"
+
+#, fuzzy
+#| msgid "Exclude time must be after today."
+msgid "Deposit exclusion period must be after today."
+msgstr "禁止時間必須在今日之後。"
 
 msgid "Deposits are suspended."
 msgstr "存款已暫停。"
@@ -1301,6 +1314,24 @@ msgstr "7天期最大累計損失量。"
 msgid "Maximum aggregate loss per day."
 msgstr "每日最大累計損失量。"
 
+#, fuzzy
+#| msgid "Min-Max Deposit"
+msgid "Maximum deposit"
+msgstr "存款金額範圍"
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit expires on <strong>%1.</strong>"
+msgstr "最大未平倉頭寸數目當前設定為<strong>%1</strong>"
+
+msgid "Maximum deposit limit expiry date"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit is set to <strong>%1.</strong>"
+msgstr "最大未平倉頭寸數目當前設定為<strong>%1</strong>"
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "文件大小已達最大限額。允許最大限額為%1"
 
@@ -1465,6 +1496,11 @@ msgstr "原油/美元"
 
 msgid "Old password is wrong."
 msgstr "舊密碼不正確。"
+
+#, fuzzy
+#| msgid "Once this limit is reached, you may no longer deposit."
+msgid "Once maximum deposit limit is reached the client may longer deposit."
+msgstr "達到此限額後，您不能再存款。"
 
 msgid "Once this limit is reached, you may no longer deposit."
 msgstr "達到此限額後，您不能再存款。"
@@ -1746,7 +1782,9 @@ msgstr "請換一個帳戶進行此市場交易。"
 msgid "Please switch accounts to trade this underlying."
 msgstr "請換一個帳戶進行此標的交易。"
 
-msgid "Please switch to your MF account to access MT5."
+#, fuzzy
+#| msgid "Please switch to your MF account to access MT5."
+msgid "Please switch your account to access MT5."
 msgstr "要存取MT5，請切換到MF帳戶。"
 
 msgid "Please try again after one minute."
@@ -3165,6 +3203,44 @@ msgstr "您的權杖已經過期或無效。"
 msgid "Your website URL"
 msgstr "您的網站URL"
 
+#, fuzzy
+#| msgid ""
+#| "\\\n"
+#| "        <p>Dear %1,</p>\n"
+#| "    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+#| "    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+#| "    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+#| "    </p>\n"
+#| "    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+#| "    <p>We look forward to hearing from you soon.</p>\n"
+#| "    <p>Regards,</p>\n"
+#| "    Binary.com\n"
+#| "    "
+msgid ""
+"\\\n"
+"            <p>Dear %1,</p>\n"
+"        <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+"        <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"        <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+"        </p>\n"
+"        <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+"        <p>We look forward to hearing from you soon.</p>\n"
+"        <p>Regards,</p>\n"
+"        Binary.com\n"
+"        "
+msgstr ""
+"\\\n"
+"        <p>尊敬的%1，</p>\n"
+"    <p>謝謝您注冊 MetaTrader 5 帳戶。</p>\n"
+"    <p>根據法律規定，我們必須對每個客戶的身份和地址進行驗證。因此，我們請求您提交以下文件，以進行驗證:\n"
+"    <ul><li>有效的駕照、身份證或護照前後影印本</li><li>水電煤帳單或銀行月結單(日期不得超過6個月)影印本</li><li>您手持駕照、身份證或護照的自拍照片</li></ul>\n"
+"    </p>\n"
+"    <p>請在收到此郵件後五天內<a href=\"https://www.binary.com/%2/user/authenticate.html\">上傳以上文件的掃描件</a>，以便保留您的MT5帳戶繼續生效。</p>\n"
+"    <p>期待您的快速回覆。</p>\n"
+"    <p>此致，</p>\n"
+"    Binary.com\n"
+"    "
+
 msgid ""
 "\\\n"
 "        <p><b>We're sorry you're leaving.</b></p>\n"
@@ -3179,31 +3255,6 @@ msgstr ""
 "        <p>謝謝。</p>\n"
 "        Binary.com團隊\n"
 "        "
-
-msgid ""
-"\\\n"
-"        <p>Dear %1,</p>\n"
-"    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
-"    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
-"    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
-"    </p>\n"
-"    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
-"    <p>We look forward to hearing from you soon.</p>\n"
-"    <p>Regards,</p>\n"
-"    Binary.com\n"
-"    "
-msgstr ""
-"\\\n"
-"        <p>尊敬的%1，</p>\n"
-"    <p>謝謝您注冊 MetaTrader 5 帳戶。</p>\n"
-"    <p>根據法律規定，我們必須對每個客戶的身份和地址進行驗證。因此，我們請求您提交以下文件，以進行驗證:\n"
-"    <ul><li>有效的駕照、身份證或護照前後影印本</li><li>水電煤帳單或銀行月結單(日期不得超過6個月)影印本</li><li>您手持駕照、身份證或護照的自拍照片</li></ul>\n"
-"    </p>\n"
-"    <p>請在收到此郵件後五天內<a href=\"https://www.binary.com/%2/user/authenticate.html\">上傳以上文件的掃描件</a>，以便保留您的MT5帳戶繼續生效。</p>\n"
-"    <p>期待您的快速回覆。</p>\n"
-"    <p>此致，</p>\n"
-"    Binary.com\n"
-"    "
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "允許輸入英數字元和空格虛線，2-32個字元"
@@ -10067,9 +10118,6 @@ msgstr "多重障礙合約必須有trading_period_start。"
 
 #~ msgid "Min %1 Max %2"
 #~ msgstr "最小 %1 最大 %2"
-
-#~ msgid "Min-Max Deposit"
-#~ msgstr "存款金額範圍"
 
 #~ msgid "Min-Max Withdrawal"
 #~ msgstr "存款金額範圍"

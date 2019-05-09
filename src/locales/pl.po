@@ -312,6 +312,9 @@ msgstr "Binary.com"
 msgid "Bombay Index"
 msgstr "Indeks bombajski"
 
+msgid "Both max_deposit and max_deposit_end_date must be provided to activate deposit limit."
+msgstr ""
+
 msgid "Brand is invalid."
 msgstr "Marka jest nieprawidłowa."
 
@@ -603,6 +606,16 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Wpłata"
+
+#, fuzzy
+#| msgid "Exclude time cannot be for more than five years."
+msgid "Deposit exclusion period cannot be for more than five years."
+msgstr "Czas wyłączenia nie może być dłuższy niż 5 lat."
+
+#, fuzzy
+#| msgid "Exclude time must be after today."
+msgid "Deposit exclusion period must be after today."
+msgstr "Czas wyłączenia musi zaczynać się jutro lub później."
 
 msgid "Deposits are suspended."
 msgstr "Dokonywanie wpłat zostało zawieszone."
@@ -1306,6 +1319,24 @@ msgstr "Maksymalna łączna strata w okresie 7-dniowym."
 msgid "Maximum aggregate loss per day."
 msgstr "Maksymalna łączna strata dzienna."
 
+#, fuzzy
+#| msgid "Min-Max Deposit"
+msgid "Maximum deposit"
+msgstr "Wpłata min-max"
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit expires on <strong>%1.</strong>"
+msgstr "Maksymalna dzienna liczba otwartych pozycji jest obecnie ustawiona na poziomie <strong>%1</strong>"
+
+msgid "Maximum deposit limit expiry date"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit is set to <strong>%1.</strong>"
+msgstr "Maksymalna dzienna liczba otwartych pozycji jest obecnie ustawiona na poziomie <strong>%1</strong>"
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "Osiągnięto maksymalny rozmiar pliku. Maksymalny dozwolony rozmiar to %1"
 
@@ -1470,6 +1501,11 @@ msgstr "Ropa/USD"
 
 msgid "Old password is wrong."
 msgstr "Stare hasło jest nieprawidłowe."
+
+#, fuzzy
+#| msgid "Once this limit is reached, you may no longer deposit."
+msgid "Once maximum deposit limit is reached the client may longer deposit."
+msgstr "Po osiągnięciu tego limitu nie można dokonywać dalszych wpłat."
 
 msgid "Once this limit is reached, you may no longer deposit."
 msgstr "Po osiągnięciu tego limitu nie można dokonywać dalszych wpłat."
@@ -1751,7 +1787,9 @@ msgstr "Proszę skorzystać z drugiego konta, aby handlować na tym rynku."
 msgid "Please switch accounts to trade this underlying."
 msgstr "Proszę skorzystać z drugiego konta, aby handlować tym aktywem bazownym."
 
-msgid "Please switch to your MF account to access MT5."
+#, fuzzy
+#| msgid "Please switch to your MF account to access MT5."
+msgid "Please switch your account to access MT5."
 msgstr "Aby uzyskać dostęp do MT5, przejdź do swojego konta MF."
 
 msgid "Please try again after one minute."
@@ -3170,33 +3208,31 @@ msgstr "Twój token wygasł lub jest nieważny."
 msgid "Your website URL"
 msgstr "Adres URL Twojej strony"
 
+#, fuzzy
+#| msgid ""
+#| "\\\n"
+#| "        <p>Dear %1,</p>\n"
+#| "    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+#| "    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+#| "    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+#| "    </p>\n"
+#| "    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+#| "    <p>We look forward to hearing from you soon.</p>\n"
+#| "    <p>Regards,</p>\n"
+#| "    Binary.com\n"
+#| "    "
 msgid ""
 "\\\n"
-"        <p><b>We're sorry you're leaving.</b></p>\n"
-"        <p>You have requested to close your Binary.com accounts. This is to confirm that all your accounts have been terminated successfully.</p>\n"
-"        <p>Thank you.</p>\n"
-"        Team Binary.com\n"
+"            <p>Dear %1,</p>\n"
+"        <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+"        <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"        <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+"        </p>\n"
+"        <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+"        <p>We look forward to hearing from you soon.</p>\n"
+"        <p>Regards,</p>\n"
+"        Binary.com\n"
 "        "
-msgstr ""
-"\\\n"
-"        <p><b>Przykro nam, że nas opuszczasz.</b></p>\n"
-"        <p>Złożyłeś/-aś wniosek o zamknięcie swoich kont. Ta wiadomość ma na celu potwierdzenie, że wszystkie Twoje konta zostały zamknięte.</p>\n"
-"        <p>Dziękujemy.</p>\n"
-"        Zespół Binary.com\n"
-"        "
-
-msgid ""
-"\\\n"
-"        <p>Dear %1,</p>\n"
-"    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
-"    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
-"    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
-"    </p>\n"
-"    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
-"    <p>We look forward to hearing from you soon.</p>\n"
-"    <p>Regards,</p>\n"
-"    Binary.com\n"
-"    "
 msgstr ""
 "\\\n"
 "        <p>Witaj, %1,</p>\n"
@@ -3216,6 +3252,21 @@ msgstr ""
 "\n"
 "    Binary.com\n"
 "    "
+
+msgid ""
+"\\\n"
+"        <p><b>We're sorry you're leaving.</b></p>\n"
+"        <p>You have requested to close your Binary.com accounts. This is to confirm that all your accounts have been terminated successfully.</p>\n"
+"        <p>Thank you.</p>\n"
+"        Team Binary.com\n"
+"        "
+msgstr ""
+"\\\n"
+"        <p><b>Przykro nam, że nas opuszczasz.</b></p>\n"
+"        <p>Złożyłeś/-aś wniosek o zamknięcie swoich kont. Ta wiadomość ma na celu potwierdzenie, że wszystkie Twoje konta zostały zamknięte.</p>\n"
+"        <p>Dziękujemy.</p>\n"
+"        Zespół Binary.com\n"
+"        "
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "2-32 znaki alfanumeryczne ze spacją i myślnikiem"
@@ -12250,9 +12301,6 @@ msgstr "W przypadku kontraktów z wieloma limitami musi zostać podany trading_p
 
 #~ msgid "Min %1 Max %2"
 #~ msgstr "Min %1 Max %2"
-
-#~ msgid "Min-Max Deposit"
-#~ msgstr "Wpłata min-max"
 
 #~ msgid "Min-Max Withdrawal"
 #~ msgstr "Wypłata min-max"

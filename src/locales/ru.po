@@ -313,6 +313,9 @@ msgstr "Binary.com"
 msgid "Bombay Index"
 msgstr "Бомбейский индекс"
 
+msgid "Both max_deposit and max_deposit_end_date must be provided to activate deposit limit."
+msgstr ""
+
 msgid "Brand is invalid."
 msgstr "Ошибка в названии."
 
@@ -606,6 +609,16 @@ msgstr ""
 
 msgid "Deposit"
 msgstr "Пополнение"
+
+#, fuzzy
+#| msgid "Exclude time cannot be for more than five years."
+msgid "Deposit exclusion period cannot be for more than five years."
+msgstr "Период ограничения не может быть больше пяти лет."
+
+#, fuzzy
+#| msgid "Exclude time must be after today."
+msgid "Deposit exclusion period must be after today."
+msgstr "Время начала ограничения должно быть позднее сегодняшней даты."
 
 msgid "Deposits are suspended."
 msgstr "Пополнение счетов приостановлено."
@@ -1306,6 +1319,24 @@ msgstr "Максимальная общая проигранная сумма з
 msgid "Maximum aggregate loss per day."
 msgstr "Максимальная общая проигранная сумма в день."
 
+#, fuzzy
+#| msgid "Min-Max Deposit"
+msgid "Maximum deposit"
+msgstr "Мин.-макс. пополнение"
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit expires on <strong>%1.</strong>"
+msgstr "Максимальное количество открытых позиций в настоящее время составляет <strong>%1</strong>"
+
+msgid "Maximum deposit limit expiry date"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+msgid "Maximum deposit limit is set to <strong>%1.</strong>"
+msgstr "Максимальное количество открытых позиций в настоящее время составляет <strong>%1</strong>"
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "Вы достигли максимального размера файла. Макс. размер %1"
 
@@ -1486,6 +1517,11 @@ msgstr "Нефть/USD"
 
 msgid "Old password is wrong."
 msgstr "Старый пароль неверный."
+
+#, fuzzy
+#| msgid "Once this limit is reached, you may no longer deposit."
+msgid "Once maximum deposit limit is reached the client may longer deposit."
+msgstr "Когда данный лимит будет достигнут, Вы не сможете вносить средства."
 
 msgid "Once this limit is reached, you may no longer deposit."
 msgstr "Когда данный лимит будет достигнут, Вы не сможете вносить средства."
@@ -1769,7 +1805,9 @@ msgstr "Пожалуйста, переключите счета для рабо�
 msgid "Please switch accounts to trade this underlying."
 msgstr "Пожалуйста, переключите счета для торговли данным активом."
 
-msgid "Please switch to your MF account to access MT5."
+#, fuzzy
+#| msgid "Please switch to your MF account to access MT5."
+msgid "Please switch your account to access MT5."
 msgstr "Пожалуйста, перейдите на счёт MF, чтобы получить доступ к MT5."
 
 msgid "Please try again after one minute."
@@ -3212,6 +3250,44 @@ msgstr "Ваш код подтверждения истёк или недейс�
 msgid "Your website URL"
 msgstr "URL Вашего сайта"
 
+#, fuzzy
+#| msgid ""
+#| "\\\n"
+#| "        <p>Dear %1,</p>\n"
+#| "    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+#| "    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+#| "    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+#| "    </p>\n"
+#| "    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+#| "    <p>We look forward to hearing from you soon.</p>\n"
+#| "    <p>Regards,</p>\n"
+#| "    Binary.com\n"
+#| "    "
+msgid ""
+"\\\n"
+"            <p>Dear %1,</p>\n"
+"        <p>Thank you for registering your MetaTrader 5 account.</p>\n"
+"        <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
+"        <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
+"        </p>\n"
+"        <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
+"        <p>We look forward to hearing from you soon.</p>\n"
+"        <p>Regards,</p>\n"
+"        Binary.com\n"
+"        "
+msgstr ""
+"\\\n"
+"       <p>Уважаемый(ая) %1!</p>\n"
+"<p>Спасибо за регистрацию счёта MetaTrader 5.</p>\n"
+"<p>Действующее законодательство требует от нас проверять личность и адрес каждого клиента. Поэтому просим Вас пройти процесс аутентификации счёта, предоставив нам следующие документы:\n"
+"<ul><li>Копия действующих водительских прав, ID-карты (лицевой и оборотной стороны) или паспорта.</li><li>Фото счёта за коммунальные услуги или банковской выписки с указанием адреса, выданных не позднее шести месяцев назад.</li><li>Ваше фото (селфи) с водительским удостоверением, паспортом или ID-картой в руках</li></ul>\n"
+"</p>\n"
+"<p>Пожалуйста, <a href=\"https://www.binary.com/%2/user/authenticate.html\">загрузите отсканированные копии</a> вышеперечисленных документов в течение пяти дней после получения данного письма, чтобы счёт MT5 оставался активным.</p>\n"
+"<p>Спасибо за Вашу помощь и взаимодействие.</p>\n"
+"<p>С уважением,</p>\n"
+"Binary.com\n"
+"    "
+
 msgid ""
 "\\\n"
 "        <p><b>We're sorry you're leaving.</b></p>\n"
@@ -3226,31 +3302,6 @@ msgstr ""
 "        <p>Спасибо.</p>\n"
 "       Команда Binary.com\n"
 "        "
-
-msgid ""
-"\\\n"
-"        <p>Dear %1,</p>\n"
-"    <p>Thank you for registering your MetaTrader 5 account.</p>\n"
-"    <p>We are legally required to verify each client's identity and address. Therefore, we kindly request that you authenticate your account by submitting the following documents:\n"
-"    <ul><li>A copy of a valid driving licence, identity card, or passport (front and back)</li><li>A copy of a utility bill or bank statement issued within the past six months</li><li>A photo of yourself (selfie) holding your driving licence, identity card, or passport</li></ul>\n"
-"    </p>\n"
-"    <p>Please <a href=\"https://www.binary.com/%2/user/authenticate.html\">upload scanned copies</a> of the above documents within five days of receipt of this email to keep your MT5 account active.</p>\n"
-"    <p>We look forward to hearing from you soon.</p>\n"
-"    <p>Regards,</p>\n"
-"    Binary.com\n"
-"    "
-msgstr ""
-"\\\n"
-"       <p>Уважаемый(ая) %1!</p>\n"
-"<p>Спасибо за регистрацию счёта MetaTrader 5.</p>\n"
-"<p>Действующее законодательство требует от нас проверять личность и адрес каждого клиента. Поэтому просим Вас пройти процесс аутентификации счёта, предоставив нам следующие документы:\n"
-"<ul><li>Копия действующих водительских прав, ID-карты (лицевой и оборотной стороны) или паспорта.</li><li>Фото счёта за коммунальные услуги или банковской выписки с указанием адреса, выданных не позднее шести месяцев назад.</li><li>Ваше фото (селфи) с водительским удостоверением, паспортом или ID-картой в руках</li></ul>\n"
-"</p>\n"
-"<p>Пожалуйста, <a href=\"https://www.binary.com/%2/user/authenticate.html\">загрузите отсканированные копии</a> вышеперечисленных документов в течение пяти дней после получения данного письма, чтобы счёт MT5 оставался активным.</p>\n"
-"<p>Спасибо за Вашу помощь и взаимодействие.</p>\n"
-"<p>С уважением,</p>\n"
-"Binary.com\n"
-"    "
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "2-32 буквенно-цифровых символов с пробелами и тире"
@@ -13903,9 +13954,6 @@ msgstr "Необходимо указать trading_period_start для муль
 
 #~ msgid "Min %1 Max %2"
 #~ msgstr "Мин %1 Макс %2"
-
-#~ msgid "Min-Max Deposit"
-#~ msgstr "Мин.-макс. пополнение"
 
 # 100%
 #~ msgid "Min-Max Withdrawal"
