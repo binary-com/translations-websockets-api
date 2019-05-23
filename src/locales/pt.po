@@ -166,9 +166,6 @@ msgstr "AUDZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "AGENTE DE PAGAMENTOS AUTORIZADO?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "Barreira absoluta não pode ser zero."
-
 msgid "Abu Dhabi Index"
 msgstr "Índice de Abu Dhabi"
 
@@ -270,6 +267,16 @@ msgstr "Autorizar aplicativo"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "A barreira não pode conter mais do que %1 casas decimais."
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "Barreira absoluta não pode ser zero."
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "barreira2 não é permitida em contratos redefiníveis."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "A barreira não é um número inteiro no intervalo de %1 a %2."
@@ -1337,7 +1344,9 @@ msgstr "A aposta mínima de negociação deve ser inferior à aposta máxima de 
 msgid "Min withdrawal limit"
 msgstr "Limite mínimo de retirada"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "Multiplicador mínimo de"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1362,9 +1371,6 @@ msgstr "Parâmetros de contrato necessários em falta (tipo_de_aposta)."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Parâmetros de contrato necessários em falta (moeda)."
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Parâmetros de contrato necessários em falta (data_de_expiração ou duração)."
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "Parâmetros de contrato necessários em falta (data_de_início)."
@@ -1752,6 +1758,16 @@ msgstr "Defina o seu limite de volume de negócios de 30 dias no nosso recurso d
 
 msgid "Please set your country of residence."
 msgstr "Defina o seu país de residência."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "Especifique o seu país."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "Especifique o seu país."
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "Indique as razões que motivaram o encerramento das suas contas."
@@ -13157,6 +13173,9 @@ msgstr "trading_period_start deve ser fornecido para contratos de barreiras múl
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "Falta de informações do Mercado<strong>***</strong>"
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "Parâmetros de contrato necessários em falta (data_de_expiração ou duração)."
+
 #~ msgid "Mizuho Financial"
 #~ msgstr "Mizuho Financial"
 
@@ -14532,9 +14551,6 @@ msgstr "trading_period_start deve ser fornecido para contratos de barreiras múl
 #~| msgid "Please send this email to %1."
 #~ msgid "Please send this by email to %1."
 #~ msgstr "Por favor mande este e-mail para %1."
-
-#~ msgid "Please specify your country."
-#~ msgstr "Especifique o seu país."
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Especifique o seu intervalo preferido para o balanço da realidade em minutos "

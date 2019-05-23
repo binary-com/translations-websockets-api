@@ -166,9 +166,6 @@ msgstr "澳元兌南非蘭特"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "授權支付代理?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "絕對障礙不可為零。"
-
 msgid "Abu Dhabi Index"
 msgstr "阿布達比指數"
 
@@ -270,6 +267,16 @@ msgstr "授權應用程式"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "障礙的小數點後不可超過%1位數。"
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "絕對障礙不可為零。"
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "barrier2 不可重設合約。"
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "障礙至少必須是%1至%2之間的整數。"
@@ -1328,7 +1335,9 @@ msgstr "最小交易投注額必須低於最大交易投注額。"
 msgid "Min withdrawal limit"
 msgstr "最小取款限額"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "最小倍數值"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1353,9 +1362,6 @@ msgstr "遺漏所需合約參數(bet_type)。"
 
 msgid "Missing required contract parameters (currency)."
 msgstr "遺漏所需合約參數(貨幣)。"
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "遺漏所需合約參數(date_expiry或期限)。"
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "遺漏所需合約參數(date_start)。"
@@ -1743,6 +1749,16 @@ msgstr "請到自我禁止工具設定30天交易限額，以存取收銀台。"
 
 msgid "Please set your country of residence."
 msgstr "請設定您的居住國。"
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "請指定您的國家。"
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "請指定您的國家。"
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "請註明關閉帳戶的原因。"
@@ -10162,6 +10178,9 @@ msgstr "多重障礙合約必須有trading_period_start。"
 #~ msgid "Missing market data."
 #~ msgstr "遺漏市場資料。"
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "遺漏所需合約參數(date_expiry或期限)。"
+
 #, fuzzy
 #~| msgid "Shinhan Financial"
 #~ msgid "Mizuho Financial"
@@ -11166,9 +11185,6 @@ msgstr "多重障礙合約必須有trading_period_start。"
 
 #~ msgid "Please select valid payment solution."
 #~ msgstr "請選擇有效的支付方法。"
-
-#~ msgid "Please specify your country."
-#~ msgstr "請指定您的國家。"
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "請指定您的優選實況調查間隔時間分鐘數 "

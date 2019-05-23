@@ -167,9 +167,6 @@ msgstr "澳元兑南非兰特"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "授权支付代理？"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "绝对障碍不可为零。"
-
 msgid "Abu Dhabi Index"
 msgstr "阿布达比指数"
 
@@ -271,6 +268,16 @@ msgstr "授权应用程序"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "障碍的小数点后不得超过%1位。"
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "绝对障碍不可为零。"
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "barrier2不可重设合约。"
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "障碍必须是%1至%2之间的整数。"
@@ -1330,7 +1337,9 @@ msgstr "最小交易投注额必须低于最大交易投注额。"
 msgid "Min withdrawal limit"
 msgstr "最小取款限额"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "最小倍数值"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1355,9 +1364,6 @@ msgstr "遗漏所需合约参数(bet_type)。"
 
 msgid "Missing required contract parameters (currency)."
 msgstr "遗漏所需合约参数(货币)。"
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "遗漏所需合约参数(date_expiry或期限)。"
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "遗漏所需合约参数(date_start)。"
@@ -1745,6 +1751,16 @@ msgstr "请到自我禁止工具设置30天交易限额，以访问收银台。"
 
 msgid "Please set your country of residence."
 msgstr "请设置您的居住国。"
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "请指明您的国家。"
+
+#, fuzzy
+#| msgid "Please specify your bank address."
+msgid "Please specify either payout or stake."
+msgstr "请指定您的银行地址。"
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "请注明关闭账户的原因。"
@@ -14252,6 +14268,9 @@ msgstr "多重障碍合约必须有trading_period_start。"
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "遗漏市场数据<strong>***</strong>"
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "遗漏所需合约参数(date_expiry或期限)。"
+
 #~ msgid "Mitchells & Butlers"
 #~ msgstr "Mitchells & Butlers"
 
@@ -16012,12 +16031,6 @@ msgstr "多重障碍合约必须有trading_period_start。"
 
 #~ msgid "Please specify your bank account number."
 #~ msgstr "请指定您的银行帐号。"
-
-#~ msgid "Please specify your bank address."
-#~ msgstr "请指定您的银行地址。"
-
-#~ msgid "Please specify your country."
-#~ msgstr "请指明您的国家。"
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "请指定您的优选实况调查间隔时间分钟数 "

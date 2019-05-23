@@ -171,9 +171,6 @@ msgstr "AUDZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "AUTORYZOWANY POŚREDNIK PŁATNOŚCI?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "Limit absolutny nie może być równy zeru."
-
 msgid "Abu Dhabi Index"
 msgstr "Indeks Abu Zabi"
 
@@ -275,6 +272,16 @@ msgstr "Zatwierdź aplikację"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "Limit może zawierać do %1 miejsc(a) po przecinku."
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "Limit absolutny nie może być równy zeru."
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "limit2 nie jest dozwolony w celu zresetowania kontraktu."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Limit nie jest liczbą całkowitą w przedziale od %1 do %2."
@@ -1333,7 +1340,9 @@ msgstr "Minimalna stawka zakładu powinna być niższa niż maksymalna stawka za
 msgid "Min withdrawal limit"
 msgstr "Minimalny limit wypłat"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "Minimalny mnożnik"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1356,9 +1365,6 @@ msgstr "Brakuje obowiązkowego parametru kontraktu (rodzaju_zakładu)."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Brakuje obowiązkowego parametru kontraktu (waluty)."
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Brakuje obowiązkowego parametru kontraktu (data_wygaśnięcia lub czas trwania)."
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "Brakuje obowiązkowego parametru kontraktu (data_rozpoczęcia)."
@@ -1744,6 +1750,16 @@ msgstr "Aby uzyskać dostęp do sekcji Kasjer, ustaw 30-dniowy limit obrotów w 
 
 msgid "Please set your country of residence."
 msgstr "Proszę podać kraj zamieszkania."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "Podaj swój kraj."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "Podaj swój kraj."
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "Proszę podać powód zamknięcia swoich kont."
@@ -12346,6 +12362,9 @@ msgstr "W przypadku kontraktów z wieloma limitami musi zostać podany trading_p
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "Brakujące dane rynkowe<strong>***</strong>"
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "Brakuje obowiązkowego parametru kontraktu (data_wygaśnięcia lub czas trwania)."
+
 #~ msgid "Mitsubishi UFJ"
 #~ msgstr "Mitsubishi UFJ"
 
@@ -13656,9 +13675,6 @@ msgstr "W przypadku kontraktów z wieloma limitami musi zostać podany trading_p
 
 #~ msgid "Please send this by email to %1."
 #~ msgstr "Proszę wysłać to drogą e-mailową do %1."
-
-#~ msgid "Please specify your country."
-#~ msgstr "Podaj swój kraj."
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Proszę określić w minutach preferowany odstęp czasu pomiędzy sprawdzaniem kont "

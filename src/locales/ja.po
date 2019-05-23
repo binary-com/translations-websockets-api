@@ -199,9 +199,6 @@ msgstr "AUDZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "認可された決済サービスエージェントですか？"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "バリア値は0に設定することはできません。"
-
 msgid "Abu Dhabi Index"
 msgstr "アブダビ インデックス"
 
@@ -323,6 +320,16 @@ msgstr "認識済みアプリケーション"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "バリア値は小数点以下%1桁までご入力いただけます。"
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "バリア値は0に設定することはできません。"
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "RESETトーレドにバリア２はご利用いただけません。"
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "バリア値が%1から%2の間の値ではありません。"
@@ -1460,7 +1467,9 @@ msgstr "最小購入金額は最大購入金額よりも低い値でご入力く
 msgid "Min withdrawal limit"
 msgstr "最小出金限度額"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "最小乗数"
 
 #, fuzzy
@@ -1489,9 +1498,6 @@ msgstr "必要な取引パラメーターが不明です。(bet_type)"
 
 msgid "Missing required contract parameters (currency)."
 msgstr "必要な取引パラメーターが不明です。(通貨)"
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "必要な取引パラメーターが不明です。(date_expiry or 取引期間)"
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "必要な取引パラメーターが不明です。(date_start)"
@@ -1923,6 +1929,16 @@ msgstr "キャッシャーにアクセスいただくには、取引上限の設
 
 msgid "Please set your country of residence."
 msgstr "居住国を選択して下さい。"
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "居住国をご指定下さい。"
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "居住国をご指定下さい。"
 
 #, fuzzy
 #| msgid "Please set the currency for your existing account %1."
@@ -13433,6 +13449,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "マーケットデータが不明です<strong>***</strong>"
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "必要な取引パラメーターが不明です。(date_expiry or 取引期間)"
+
 #, fuzzy
 #~| msgid "Shinhan Financial"
 #~ msgid "Mizuho Financial"
@@ -14828,9 +14847,6 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~| msgid "Please send this email to %1."
 #~ msgid "Please send this by email to %1."
 #~ msgstr "このメールを%1まで送信して下さい。"
-
-#~ msgid "Please specify your country."
-#~ msgstr "居住国をご指定下さい。"
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "ご希望のリアリティチェック間隔を分単位で指定してください。 "

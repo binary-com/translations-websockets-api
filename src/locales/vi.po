@@ -171,9 +171,6 @@ msgstr "AUD/ZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "ĐẠI LÝ THANH TOÁN ỦY QUYỀN?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "Rào chắn tuyệt đối không thể là 0."
-
 msgid "Abu Dhabi Index"
 msgstr "Chỉ số chứng khoán Abu Dhabi"
 
@@ -275,6 +272,16 @@ msgstr "Ứng dụng được cho phép"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "Giới hạn không thể có nhiều hơn %1 chữ số thập phân."
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "Rào chắn tuyệt đối không thể là 0."
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "giới hạn 2 không được phép thiết lập lại hợp đồng."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Giới hạn không được là số nguyên trong khoảng từ %1 đến %2."
@@ -1341,7 +1348,9 @@ msgstr "Cổ phần giao dịch tối thiểu phải thấp hơn mức cổ ph�
 msgid "Min withdrawal limit"
 msgstr "Giới hạn rút tiền tối thiểu"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "Các hệ số tối thiểu của"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1366,9 +1375,6 @@ msgstr "Thiếu các thông số hợp đồng đã yêu cầu (bet_type)."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Thiếu các thông số hợp đồng đã yêu cầu (tiền tệ)."
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Thiếu các thông số hợp đồng đã yêu cầu (date_expiry hoặc thời lượng)."
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "Thiếu các thông số hợp đồng đã yêu cầu (date_start)."
@@ -1756,6 +1762,16 @@ msgstr "Vui lòng đặt giới hạn doanh thu 30 ngày trong các công cụ
 
 msgid "Please set your country of residence."
 msgstr "Vui lòng thiết lập quốc gia cư trú của bạn."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "Vui lòng điền tên quốc gia của bạn."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "Vui lòng điền tên quốc gia của bạn."
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "Nêu rõ lý do bạn muốn đóng tài khoản."
@@ -10548,6 +10564,9 @@ msgstr "trading_period_start phải được cung cấp cho hợp đồng đa gi
 #~ msgid "Missing market data."
 #~ msgstr "Thiếu dữ liệu thị trường."
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "Thiếu các thông số hợp đồng đã yêu cầu (date_expiry hoặc thời lượng)."
+
 #~ msgid "Mitsubishi UFJ"
 #~ msgstr "Mitsubishi UFJ"
 
@@ -11607,9 +11626,6 @@ msgstr "trading_period_start phải được cung cấp cho hợp đồng đa gi
 
 #~ msgid "Please send this by email to %1."
 #~ msgstr "Vui lòng gửi cái này qua email tới %1."
-
-#~ msgid "Please specify your country."
-#~ msgstr "Vui lòng điền tên quốc gia của bạn."
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Hãy chỉ rõ khoảng thời gian kiểm tra thực tế ưa thích của bạn vào biên bản "

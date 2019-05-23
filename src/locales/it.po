@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2019-05-23 20:04+0000\n"
 "Last-Translator: Valentina Grassi <vale.grassi11@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/translations/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -167,9 +166,6 @@ msgstr "AUDZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "AGENTE DI PAGAMENTO AUTORIZZATO?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "La barriera assoluta non può essere zero."
-
 msgid "Abu Dhabi Index"
 msgstr "Indice di Abu Dhabi"
 
@@ -271,6 +267,16 @@ msgstr "Autorizza la richiesta"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "La barriera non può avere più di %1 decimali."
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "La barriera assoluta non può essere zero."
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "barrier2 non è permesso per annullare il contratto."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "La barriera non è un numero intero tra %1 e %2."
@@ -529,15 +535,12 @@ msgstr ""
 "\n"
 "Ti ringraziamo per aver creato il conto %2.\n"
 "\n"
-"Il prossimo passo sarà l'autenticazione del tuo conto sulla base della tua "
-"identità e del tuo indirizzo;  per farlo, ti invitiamo a inviare a %3 i "
-"seguenti documenti:\n"
+"Il prossimo passo sarà l'autenticazione del tuo conto sulla base della tua identità e del tuo indirizzo;  per farlo, ti invitiamo a inviare a %3 i seguenti documenti:\n"
 "\n"
 "- passaport, patente o carta di identità validi \n"
 "- estratto conto bancario o bollette (escluse quelle telefoniche)\n"
 "\n"
-"Una volta completata l'autenticazione, il tuo conto sarà abilitato per "
-"effettuare trading, depositi e prelievi..\n"
+"Una volta completata l'autenticazione, il tuo conto sarà abilitato per effettuare trading, depositi e prelievi..\n"
 "\n"
 "Grazie per aver scelto %2!\n"
 "\n"
@@ -1346,7 +1349,9 @@ msgstr "La puntata minima del trade deve essere inferiore alla puntata massima."
 msgid "Min withdrawal limit"
 msgstr "Limite minimo sui prelievi"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "Moltiplicatore minimo di"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1369,9 +1374,6 @@ msgstr "Parametri richiesti del contratto mancanti (tipo di puntata)."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Parametri richiesti del contratto mancanti (valuta)."
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Parametri richiesti del contratto mancanti (dara di scadenza o durata)."
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "Parametri richiesti del contratto mancanti (data di inizio)."
@@ -1757,6 +1759,16 @@ msgstr "Per accedere alla cassa, imposta il tuo limite di turnover di 30 giorni 
 
 msgid "Please set your country of residence."
 msgstr "Imposta il tuo paese di residenza."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "Specifica il tuo paese."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "Specifica il tuo paese."
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "Specificare i motivi collegati alla chiusura dei conti."
@@ -9902,6 +9914,9 @@ msgstr "Fornire trading_period_start per i contratti multi-barriera."
 #~ msgid "Missing market data."
 #~ msgstr "Dati di mercato mancanti."
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "Parametri richiesti del contratto mancanti (dara di scadenza o durata)."
+
 #~| msgid "Shinhan Financial"
 #~ msgid "Mizuho Financial"
 #~ msgstr "Mizuho Financial"
@@ -10833,9 +10848,6 @@ msgstr "Fornire trading_period_start per i contratti multi-barriera."
 
 #~ msgid "Please select valid payment solution."
 #~ msgstr "Seleziona una soluzione di pagamento valida."
-
-#~ msgid "Please specify your country."
-#~ msgstr "Specifica il tuo paese."
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Specifica il tuo intervallo preferito di verifica della realtà in minuti "

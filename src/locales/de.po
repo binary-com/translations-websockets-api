@@ -172,9 +172,6 @@ msgstr "AUD/ZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "ZUGELASSENER ZAHLUNGSAGENT?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "Absolute Grenze kann nicht Null sein."
-
 msgid "Abu Dhabi Index"
 msgstr "Abu Dhabi Index"
 
@@ -286,6 +283,16 @@ msgstr "Anwendung erlauben"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "Die Schwelle kann nur bis zu %1 Dezimalstellen enthalten."
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "Absolute Grenze kann nicht Null sein."
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "barrier2 ist nicht erlaubt, um den Kontrakt zu erneuern."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Die Schwelle ist keine ganze Zahl im Beriech von %1 bis %2."
@@ -1382,7 +1389,9 @@ msgstr "Der minimale Handelseinsatz muss weniger als der maximale Handelseinsatz
 msgid "Min withdrawal limit"
 msgstr "Min Abhebelimit"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "Minimaler Multiplikator von"
 
 #, fuzzy
@@ -1411,9 +1420,6 @@ msgstr "Notwendige Kontrakt-Parameter fehlen (bet_type)."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Notwendige Kontrakt-Parameter fehlen (Währung)."
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Notwendige Kontrakt-Parameter fehlen (date_expiry oder Laufzeit)."
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "Notwendige Kontrakt-Parameter fehlen (date_start)."
@@ -1827,6 +1833,16 @@ msgstr "Bitte legen Sie Ihr 30-tägiges Umsatzlimit in Ihren Selbstausschluss-Ei
 
 msgid "Please set your country of residence."
 msgstr "Bitte geben Sie Ihr Wohnsitzland an."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "Bitte geben Sie Ihr Land an."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "Bitte geben Sie Ihr Land an."
 
 #, fuzzy
 #| msgid "Please set citizenship for your account."
@@ -13291,6 +13307,9 @@ msgstr "Ungültige Schwelle (Schwellenart muss für Doppel-Schwellen Kontrakte d
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "Fehlende Marktdaten<strong>***</strong>"
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "Notwendige Kontrakt-Parameter fehlen (date_expiry oder Laufzeit)."
+
 #, fuzzy
 #~| msgid "Shinhan Financial"
 #~ msgid "Mizuho Financial"
@@ -14675,9 +14694,6 @@ msgstr "Ungültige Schwelle (Schwellenart muss für Doppel-Schwellen Kontrakte d
 
 #~ msgid "Please send this by email to %1."
 #~ msgstr "Bitte senden Sie dies via E-Mail an %1."
-
-#~ msgid "Please specify your country."
-#~ msgstr "Bitte geben Sie Ihr Land an."
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Bitte geben Sie Ihren bevorzugten Reality-Check Intervall in Minuten an"

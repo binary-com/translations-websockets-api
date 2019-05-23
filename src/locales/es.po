@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2019-05-23 20:05+0000\n"
 "Last-Translator: Aleksandra Žužić <aleksandra@binary.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-websocket/translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -172,9 +171,6 @@ msgstr "AUD/ZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "¿AGENTE DE PAGO AUTORIZADO?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "Barrera absoluta no puede ser cero."
-
 msgid "Abu Dhabi Index"
 msgstr "Índice Abu Dhabi"
 
@@ -276,6 +272,16 @@ msgstr "Autorizar aplicación"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "La barrera no puede tener más de %1 decimales."
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "Barrera absoluta no puede ser cero."
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "La barrera2 no está permitida para la anulación del contrato."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "La barrera no es un número entero en el intervalo de %1 a %2."
@@ -533,16 +539,12 @@ msgstr ""
 "\n"
 "¡Gracias por crear su cuenta de %2!\n"
 "\n"
-"Como próximo paso, tenemos que autenticar su cuenta con una prueba de "
-"identidad y de domicilio. Para ayudarnos con esto, envíe copias escaneadas "
-"de lo siguiente a %3:\n"
+"Como próximo paso, tenemos que autenticar su cuenta con una prueba de identidad y de domicilio. Para ayudarnos con esto, envíe copias escaneadas de lo siguiente a %3:\n"
 "\n"
 "- Pasaporte válido, carnet de conducir o de identidad.\n"
-"- Extracto del banco o factura de servicios públicos (no se aceptan facturas "
-"de teléfono)\n"
+"- Extracto del banco o factura de servicios públicos (no se aceptan facturas de teléfono)\n"
 "\n"
-"Una vez completada la autenticación, su cuenta se habilitará para "
-"operaciones, depósitos y retiros.\n"
+"Una vez completada la autenticación, su cuenta se habilitará para operaciones, depósitos y retiros.\n"
 "\n"
 "¡Gracias por elegir %2!\n"
 "\n"
@@ -1354,7 +1356,9 @@ msgstr "La apuesta mínima de negociación debe ser inferior a la apuesta máxim
 msgid "Min withdrawal limit"
 msgstr "Límite mínimo de retiro"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "Multiplicador mínimo de"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1377,9 +1381,6 @@ msgstr "Faltan los parámetros de contrato requeridos (tipo_de_apuesta)."
 
 msgid "Missing required contract parameters (currency)."
 msgstr "Faltan los parámetros de contrato requeridos (moneda)."
-
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Faltan los parámetros de contrato requeridos (fecha_de_término o duración)."
 
 msgid "Missing required contract parameters (date_start)."
 msgstr "Faltan los parámetros de contrato requeridos (fecha_de_inicio)."
@@ -1765,6 +1766,16 @@ msgstr "Defina su límite de volumen de negocios de 30 días a través de nuestr
 
 msgid "Please set your country of residence."
 msgstr "Por favor, establezca su país de residencia."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "Especifique su país."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "Especifique su país."
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "Por favor especifique las razones para cerrar sus cuentas."
@@ -13240,6 +13251,9 @@ msgstr "trading_period_start debe suministrarse para contratos de múltiples bar
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "Faltan los datos del mercado <strong>***</strong>"
 
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "Faltan los parámetros de contrato requeridos (fecha_de_término o duración)."
+
 #~ msgid "Mitsubishi UFJ"
 #~ msgstr "Mitsubishi UFJ"
 
@@ -14652,9 +14666,6 @@ msgstr "trading_period_start debe suministrarse para contratos de múltiples bar
 
 #~ msgid "Please send this by email to %1."
 #~ msgstr "Por favor envíelo por correo a %1."
-
-#~ msgid "Please specify your country."
-#~ msgstr "Especifique su país."
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Por favor indique su intervalo de la verificacón de realidad preferido en minutos "

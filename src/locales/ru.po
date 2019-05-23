@@ -170,9 +170,6 @@ msgstr "AUDZAR"
 msgid "AUTHORISED PAYMENT AGENT?"
 msgstr "ВЫ – АВТОРИЗОВАННЫЙ ПЛАТЁЖНЫЙ АГЕНТ?"
 
-msgid "Absolute barrier cannot be zero."
-msgstr "Абсолютный барьер не может быть равен нулю."
-
 msgid "Abu Dhabi Index"
 msgstr "Индекс Абу-Даби"
 
@@ -276,6 +273,16 @@ msgstr "Авторизовать приложение"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "Барьер может быть только до %1 десятичных."
+
+#, fuzzy
+#| msgid "Absolute barrier cannot be zero."
+msgid "Barrier cannot be zero."
+msgstr "Абсолютный барьер не может быть равен нулю."
+
+#, fuzzy
+#| msgid "barrier2 is not allowed for reset contract."
+msgid "Barrier is not allowed for this contract type."
+msgstr "barrier2 не разрешен для индексов Reset."
 
 msgid "Barrier is not an integer in range of %1 to %2."
 msgstr "Барьер не является целым числом от %1 до %2."
@@ -1341,7 +1348,9 @@ msgstr "Минимальная торговая ставка должна быт
 msgid "Min withdrawal limit"
 msgstr "Минимальный лимит на вывод"
 
-msgid "Minimum multiplier of"
+#, fuzzy
+#| msgid "Minimum multiplier of"
+msgid "Minimum multiplier of %1."
 msgstr "Мин. множитель"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
@@ -1370,11 +1379,6 @@ msgstr "Отсутствуют обязательные параметры ко�
 # 100%
 msgid "Missing required contract parameters (currency)."
 msgstr "Отсутствуют обязательные параметры контракта (валюта)."
-
-# 83%
-# 100%
-msgid "Missing required contract parameters (date_expiry or duration)."
-msgstr "Отсутствуют обязательные параметры контракта (date_expiry или длительность)."
 
 # 83%
 # 100%
@@ -1774,6 +1778,16 @@ msgstr "Чтобы открыть доступ к кассе, установит
 
 msgid "Please set your country of residence."
 msgstr "Пожалуйста, укажите страну проживания."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either duration or date_expiry."
+msgstr "Вы забыли указать Ваше гражданство."
+
+#, fuzzy
+#| msgid "Please specify your country."
+msgid "Please specify either payout or stake."
+msgstr "Вы забыли указать Ваше гражданство."
 
 msgid "Please specify the reasons for closing your accounts."
 msgstr "Пожалуйста, укажите причину закрытия Ваших счетов."
@@ -14030,6 +14044,11 @@ msgstr "Необходимо указать trading_period_start для муль
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "Отсутствие рыночных данных<strong>***</strong>"
 
+# 83%
+# 100%
+#~ msgid "Missing required contract parameters (date_expiry or duration)."
+#~ msgstr "Отсутствуют обязательные параметры контракта (date_expiry или длительность)."
+
 #, fuzzy
 #~| msgid "Shinhan Financial"
 #~ msgid "Mizuho Financial"
@@ -15445,9 +15464,6 @@ msgstr "Необходимо указать trading_period_start для муль
 
 #~ msgid "Please send this by email to %1."
 #~ msgstr "Пожалуйста, вышлите нам эл.сообщение на %1."
-
-#~ msgid "Please specify your country."
-#~ msgstr "Вы забыли указать Ваше гражданство."
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "Пожалуйста, укажите желаемый интервал для проверки реальности в минутах "
