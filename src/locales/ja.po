@@ -29,32 +29,21 @@ msgstr "%1はトレードタイプ%2の有効な内容ではありません。"
 msgid "%1 is not allowed for residence of %2."
 msgstr "%2の居住者は%1をご利用いただくことはできません。"
 
+#, fuzzy
+#| msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
+msgid "%1 must be supplied for multi barrier contracts."
+msgstr "バリア値が無効です（バリアタイプは二重バリアトレードと同じでなければいけません）"
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "％1のお取引は、このアカウントで実行されない場合があります。"
 
 msgid "%1 would like permission to access your account %2"
 msgstr "%1があなたの口座 %2へのアクセス許可を求めています"
 
-msgid "30-day limit on losses"
-msgstr "30日間の損失制限"
-
-msgid "30-day turnover limit"
-msgstr "30日の取引限度額"
-
-msgid "7-Day limit on losses is currently set to <strong>%1 %2</strong>"
-msgstr "7日間の損失制限は、現在 <strong>%1 %2</strong>に設定されています"
-
-msgid "7-Day turnover limit is currently set to <strong>%1 %2</strong>"
-msgstr "7日の取引限度額は、現在<strong>%1 %2</strong>に設定されています"
-
-msgid "7-day limit on losses"
-msgstr "7日間の損失制限"
-
-msgid "7-day turnover limit"
-msgstr "7日の取引限度額"
-
-msgid "<option value=\"\"></option><option value=\"01\">Jan</option><option value=\"02\">Feb</option><option value=\"03\">Mar</option><option value=\"04\">Apr</option><option value=\"05\">May</option><option value=\"06\">Jun</option><option value=\"07\">Jul</option><option value=\"08\">Aug</option><option value=\"09\">Sep</option><option value=\"10\">Oct</option><option value=\"11\">Nov</option><option value=\"12\">Dec</option>"
-msgstr "<option value=\"\"></option><option value=\"01\">1月</option><option value=\"02\">2月</option><option value=\"03\">3月</option><option value=\"04\">4月</option><option value=\"05\">5月</option><option value=\"06\">6月</option><option value=\"07\">7月</option><option value=\"08\">8月</option><option value=\"09\">9月</option><option value=\"10\">10月</option><option value=\"11\">11月</option><option value=\"12\">12月</option>"
+#, fuzzy
+#| msgid "Create free account now"
+msgid "%1Create one%2 now."
+msgstr "ご口座開設はこちら"
 
 msgid "<p style=\"font-weight: bold;\">Thank you for signing up for a virtual account!</p><p>Click the following link to verify your account:</p><p><a href=\"%1\">%1</a></p><p>If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.</p><p>Enjoy trading with us on %2.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgstr "<p style=\"font-weight: bold;\">口座開設ありがとうございます</p><p> 認証の為、下記のリンクを1時間以内にクリックしてください。</p><p><a href=\"%1\"> %1 </a></p> <p> リンクが機能しない場合は、URLをコピーした上で、ご利用されているブラウザのURLバーに張り付けてページを開いてください。</p> <p>ご不明な点等がございましたら、当社カスタマーサポートまでご連絡ください。</p>"
@@ -195,9 +184,6 @@ msgstr "AUD/USD"
 
 msgid "AUDZAR"
 msgstr "AUDZAR"
-
-msgid "AUTHORISED PAYMENT AGENT?"
-msgstr "認可された決済サービスエージェントですか？"
 
 msgid "Abu Dhabi Index"
 msgstr "アブダビ インデックス"
@@ -353,11 +339,6 @@ msgstr "ベアマーケットインデックス"
 msgid "Belgian Index"
 msgstr "ベルギー インデックス"
 
-#, fuzzy
-#| msgid "Binary.com academy"
-msgid "Binary.com"
-msgstr "Binary.comアカデミー"
-
 msgid "Bombay Index"
 msgstr "ボンベイ インデックス"
 
@@ -466,15 +447,6 @@ msgstr "取引時間終了の短縮（at 21:00）"
 msgid "Closing Spot"
 msgstr "終値"
 
-msgid "Comment must not exceed %1 characters. Please resubmit."
-msgstr "コメントは%1文字以内で送信して下さい。"
-
-msgid "Commission (%) you want to take on deposits"
-msgstr "手数料 (%) 入金の際の差し引きをご希望"
-
-msgid "Commission (%) you want to take on withdrawals"
-msgstr "手数料 (%) 出金の際の差し引きをご希望"
-
 msgid "Commodities"
 msgstr "コモディティ"
 
@@ -536,9 +508,6 @@ msgstr "居住国"
 msgid "Crash/Boom Indices"
 msgstr "ランダムインデックス"
 
-msgid "Create one"
-msgstr "口座開設"
-
 #, fuzzy
 #| msgid "Currency"
 msgid "Cryptocurrency"
@@ -563,18 +532,6 @@ msgstr "パスワードはEメールと同じものにはできません。"
 msgid "Daily Reset Indices"
 msgstr "デイリーリセットインデックス"
 
-msgid "Daily limit on losses"
-msgstr "損失限度額（1日）"
-
-msgid "Daily limit on losses is currently set to <strong>%1 %2</strong>"
-msgstr "１日の損失限度額は、現在<strong>%1 %2</strong>に設定されています。"
-
-msgid "Daily turnover limit"
-msgstr "1日の取引限度額"
-
-msgid "Daily turnover limit is currently set to <strong>%1 %2</strong>"
-msgstr "1日の取引限度額は、現在<strong>%1 %2</strong>に設定されています。"
-
 msgid "Date"
 msgstr "日付"
 
@@ -590,9 +547,6 @@ msgstr "生年月日が無効です"
 
 msgid "Date of birth is required."
 msgstr "生年月日をご入力ください。"
-
-msgid "Dear"
-msgstr "様"
 
 msgid "Dear %1 %2 %3,"
 msgstr "%3様"
@@ -734,7 +688,9 @@ msgstr "ご本人様確認のために書類の送付が必要です"
 msgid "Does Not Touch"
 msgstr "NO-TOUCH"
 
-msgid "Don't have a Binary.com account?"
+#, fuzzy
+#| msgid "Don't have a Binary.com account?"
+msgid "Don't have a %1 account?"
 msgstr "まだ口座をお持ちでないお客さま"
 
 # Start of extra_translations
@@ -904,9 +860,6 @@ msgstr "偶数/奇数"
 
 msgid "Exchange rates are not currently available."
 msgstr "為替レートは現在ご利用いただけません"
-
-msgid "Exclude me from the website until"
-msgstr "特定日まで利用禁止（日時単位）"
 
 msgid "Exclude time cannot be for more than five years."
 msgstr "6年以上の除外期間は設定することはできません。"
@@ -1090,7 +1043,7 @@ msgid ""
 "Not you? Unsure? Please let us know right away at https://www.binary.com/en/contact.html.\n"
 "\n"
 "Thank you for trading with us.\n"
-"Team Binary.com"
+"Team %3"
 msgstr ""
 
 msgid ""
@@ -1100,21 +1053,18 @@ msgid ""
 "\n"
 "Before we proceed, we noticed you are logged in using your (Google/Facebook) account. Please note that if you reset your password, your social account login will be deactivated. If you wish to keep your social account login, you would need to remember your (Google/Facebook) account password.\n"
 "\n"
-"If you’re ready, reset your password now. \n"
+"If you’re ready, reset your password now.\n"
 "\n"
 "%2\n"
 "\n"
 "Not you? Unsure? Please let us know right away at https://www.binary.com/en/contact.html.\n"
 "\n"
 "Thank you for trading with us.\n"
-"Team Binary.com"
+"Team %1"
 msgstr ""
 
 msgid "Hello%1,<br/><br/>We detected a new sign-in on your account."
 msgstr ""
-
-msgid "Hello, World!"
-msgstr "Hello, World!"
 
 msgid "High"
 msgstr "High"
@@ -1214,11 +1164,13 @@ msgstr "入力確認ができません。 "
 
 #, fuzzy
 #| msgid "Input validation failed: "
-msgid "Input validation failed: %1."
+msgid "Input validation failed: %1"
 msgstr "入力確認ができません。 "
 
-msgid "Input validation failed: address_postcode"
-msgstr "入力確認ができません。 （住所＿郵便番号）"
+#, fuzzy
+#| msgid "Input validation failed: "
+msgid "Input validation failed: %1."
+msgstr "入力確認ができません。 "
 
 msgid "Internal server error"
 msgstr "内部サーバーエラー"
@@ -1313,15 +1265,6 @@ msgstr "購入価格/ペイアウトが無効です。"
 msgid "Invalid sub account type."
 msgstr "無効なサブ口座タイプです。"
 
-msgid "Invalid telephone number (too long)."
-msgstr "入力されたお電話番号は長過ぎるので無効です。"
-
-msgid "Invalid telephone number (too short)."
-msgstr "入力されたお電話番号は短か過ぎるので無効です。"
-
-msgid "Invalid telephone number."
-msgstr "入力されたお電話番号は無効です。"
-
 msgid "Invalid token"
 msgstr "無効なトークンです"
 
@@ -1366,11 +1309,6 @@ msgstr ""
 
 msgid "Korean Index"
 msgstr "Korean Index"
-
-#, fuzzy
-#| msgid "AUTHORISED PAYMENT AGENT?"
-msgid "LISTED PAYMENT AGENT?"
-msgstr "認可された決済サービスエージェントですか？"
 
 msgid "Legacy Contract"
 msgstr "レガシートレード"
@@ -1443,59 +1381,8 @@ msgstr "マッチ/アンマッチ"
 msgid "Max 30 tokens are allowed."
 msgstr "最大30トークンが可能"
 
-msgid "Max withdrawal limit"
-msgstr "最大出金限度額"
-
-msgid "Maximum account cash balance"
-msgstr "入金限度額"
-
-msgid "Maximum account cash balance is currently set to <strong>%1 %2</strong>"
-msgstr "現在の口座預託額の上限は、<strong>%1 %2</strong>です。"
-
-msgid "Maximum aggregate contract purchases over a 30-day period."
-msgstr "30日の最大取引数量 (半角)"
-
-msgid "Maximum aggregate contract purchases over a 7-day period."
-msgstr "7日間の最大取引数量 (半角)"
-
-msgid "Maximum aggregate contract purchases per day."
-msgstr "1日の最大取引数量 (半角)"
-
-msgid "Maximum aggregate loss over a 30-day period."
-msgstr "30日間の最大損失 (半角)"
-
-msgid "Maximum aggregate loss over a 7-day period."
-msgstr "7日間の最大損失 (半角)"
-
-msgid "Maximum aggregate loss per day."
-msgstr "1日の最大損失 (半角)"
-
-#, fuzzy
-#| msgid "Min-Max Deposit"
-msgid "Maximum deposit"
-msgstr "最低ー最高　ご入金額"
-
-#, fuzzy
-#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
-msgid "Maximum deposit limit expires on <strong>%1.</strong>"
-msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
-
-msgid "Maximum deposit limit expiry date"
-msgstr ""
-
-#, fuzzy
-#| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
-msgid "Maximum deposit limit is set to <strong>%1.</strong>"
-msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
-
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "最大サイズに達しました。最大サイズは%1です。"
-
-msgid "Maximum number of open positions"
-msgstr "最大保有ポジション"
-
-msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
-msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
 
 #, fuzzy
 #| msgid "Maximum aggregate loss per day."
@@ -1515,9 +1402,6 @@ msgstr "中東"
 
 msgid "Min trade stake should be lower than max trade stake."
 msgstr "最小購入金額は最大購入金額よりも低い値でご入力ください。"
-
-msgid "Min withdrawal limit"
-msgstr "最小出金限度額"
 
 #, fuzzy
 #| msgid "Minimum multiplier of"
@@ -1545,28 +1429,18 @@ msgstr "マイナーペア"
 msgid "Miss"
 msgstr "Miss"
 
-msgid "Missing required contract parameters (bet_type)."
+#, fuzzy
+#| msgid "Missing required contract parameters (bet_type)."
+msgid "Missing required contract parameters (%1)."
 msgstr "必要な取引パラメーターが不明です。(bet_type)"
-
-msgid "Missing required contract parameters (currency)."
-msgstr "必要な取引パラメーターが不明です。(通貨)"
-
-msgid "Missing required contract parameters (date_start)."
-msgstr "必要な取引パラメーターが不明です。(date_start)"
 
 #, fuzzy
 #| msgid "Missing required contract parameters (date_expiry or duration)."
 msgid "Missing required contract parameters (last digit prediction for digit contracts)."
 msgstr "必要な取引パラメーターが不明です。(date_expiry or 取引期間)"
 
-msgid "Missing required contract parameters (multiplier)."
-msgstr "必要な取引パラメーターが不明です。(乗数)"
-
 msgid "Missing required contract parameters (selected tick)."
 msgstr "必要な取引パラメーターが不明です。(選択されたTick)"
-
-msgid "Missing required contract parameters (underlying)."
-msgstr "必要な取引パラメーターが不明です。(原資産)"
 
 msgid "Mr"
 msgstr "Mr"
@@ -1666,14 +1540,6 @@ msgstr "Oil/USD"
 
 msgid "Old password is wrong."
 msgstr "旧パスワードの値が不正です。"
-
-#, fuzzy
-#| msgid "Once this limit is reached, you may no longer deposit."
-msgid "Once maximum deposit limit is reached the client may no longer deposit."
-msgstr "上限額以上の入金はできません。"
-
-msgid "Once this limit is reached, you may no longer deposit."
-msgstr "上限額以上の入金はできません。"
 
 msgid "Only 3 decimal places are allowed."
 msgstr "小数点以下第三位のみご入力いただけます。"
@@ -1851,41 +1717,15 @@ msgstr "続行する前に、お客さまの取引明細書をご確認くださ
 msgid "Please enter a number between %1 and %2."
 msgstr "%1から%2の数字を入力してください"
 
-msgid "Please enter a numeric value."
-msgstr "半角で数値をご入力して下さい。"
-
-#, fuzzy
-#| msgid "Please enter a numeric value."
-msgid "Please enter a positive numeric value."
-msgstr "半角で数値をご入力して下さい。"
-
-msgid "Please enter a valid name."
-msgstr "有効なお名前をご入力して下さい。"
-
 #, fuzzy
 #| msgid "Please enter a valid name."
 msgid "Please enter a valid place of birth."
 msgstr "有効なお名前をご入力して下さい。"
 
-msgid "Please enter an integer value."
-msgstr "半角で数値をご入力して下さい。"
-
-msgid "Please enter date in the format YYYY-MM-DD or YYYY-MM-DD hh::mm::ss"
-msgstr "ご希望の日付を選択して下さい。"
-
-msgid "Please enter date in the format YYYY-MM-DD or YYYY-MM-DD hh::mm::ss. It will save in GMT format."
-msgstr "ご希望の日付を選択して下さい。GMT（グリニッジ標準時）で保存されます。"
-
-msgid "Please enter date in the format YYYY-MM-DD."
-msgstr "ご希望の日付を選択して下さい。"
-
 #, fuzzy
 #| msgid "Please enter the Login ID to transfer funds."
 msgid "Please enter the amount you wish to transfer."
 msgstr "資金を送金するには、ログインIDを入力してください。"
-
-msgid "Please enter your email address."
-msgstr "メールアドレスをご入力して下さい。"
 
 msgid "Please enter your verification code"
 msgstr "有効なワンタイムパスワードをご入力ください"
@@ -1938,9 +1778,6 @@ msgstr "ご希望される自己制限の対象を少なくとも１点選択し
 msgid "Please provide complete details for account opening."
 msgstr "口座開設に必要な詳細情報をご入力ください。"
 
-msgid "Please provide some information about yourself and your proposed services"
-msgstr "自己紹介、及び提案されるサービスに関する情報をお知らせ下さい"
-
 msgid "Please provide valid amount."
 msgstr "有効な値をご入力ください。"
 
@@ -1987,12 +1824,7 @@ msgstr "居住国を選択して下さい。"
 
 #, fuzzy
 #| msgid "Please specify your country."
-msgid "Please specify either duration or date_expiry."
-msgstr "居住国をご指定下さい。"
-
-#, fuzzy
-#| msgid "Please specify your country."
-msgid "Please specify either payout or stake."
+msgid "Please specify either %1 or %2."
 msgstr "居住国をご指定下さい。"
 
 #, fuzzy
@@ -2108,9 +1940,6 @@ msgstr "各種キャンペーン情報に関する お知らせを受け取る"
 msgid "Regards,"
 msgstr "敬具"
 
-msgid "Reload page"
-msgstr "ページの再読込"
-
 msgid "Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT)."
 msgstr "異なる市場での要素と共に一日のトレードを示します。１日１回、00:00GMTに価格がリセットされます。"
 
@@ -2154,11 +1983,6 @@ msgstr "オプション期間の半分の時点でトレードがアウトオブ
 msgid "Reset your %1 account password"
 msgstr "パスワード再入力"
 
-#, fuzzy
-#| msgid "Insert your login ID and password"
-msgid "Reset your Binary.com account password"
-msgstr "ログインIDとパスワードをご入力して下さい。"
-
 msgid "Review Permissions"
 msgstr "アクセス許可"
 
@@ -2187,9 +2011,6 @@ msgstr ""
 msgid "Selected tick must be an integer."
 msgstr "選択されたTickは整数でなければいけません。"
 
-msgid "Self-Exclusion Facilities"
-msgstr "取引上限の設定"
-
 msgid "Sell"
 msgstr "売却"
 
@@ -2201,20 +2022,11 @@ msgstr "マンション（建物）名"
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "セッション期間制限は7週間以上に設定できません。"
 
-msgid "Session duration limit is currently set to <strong>%1 minutes.</strong>"
-msgstr "セッション期間として現在、<strong>%1分</strong>が指定されています。"
-
-msgid "Session duration limit, in minutes"
-msgstr "取引継続時間の制限(分単位)"
-
 msgid "Shanghai Index"
 msgstr "上海インデックス"
 
 msgid "Shenzhen Index"
 msgstr "深センインデックス"
-
-msgid "Short summary of your Payment Agent service"
-msgstr "お客さまの決済サービス概要"
 
 msgid "Should you wish to reactivate your MT5 account, please %1update your tax information%3 and %2authenticate your account%3."
 msgstr ""
@@ -2355,9 +2167,6 @@ msgstr ""
 msgid "Sorry, you have entered an incorrect cashier password"
 msgstr "申し訳ございませんが、ご入力頂いた入出金パスワードに誤りがあります"
 
-msgid "Sorry, you have entered an incorrect email address."
-msgstr "申し訳ございませんが、入力されたメールアドレスに誤りがあります。"
-
 msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgstr "申し訳ございませんが、本日のお取引上限金額を超えてしまいまいた。"
 
@@ -2423,15 +2232,6 @@ msgstr "このシンボルのストリーミングはライセンス制限のた
 
 msgid "Style %1 invalid"
 msgstr "スタイル %1 が無効です"
-
-msgid "Submit"
-msgstr "送信"
-
-msgid "Supported banks"
-msgstr "提携銀行"
-
-msgid "Supported banks list is invalid"
-msgstr "提携銀行のリストが無効です。"
 
 msgid "Swedish Index"
 msgstr "Swedish Index"
@@ -2615,9 +2415,6 @@ msgstr "お客さまのメールアドレスの確認に問題が発生しまし
 msgid "There was an error processing the request."
 msgstr "リクエスト処理時にエラーが発生しました。"
 
-msgid "This URL is invalid."
-msgstr "このURLは無効です。"
-
 msgid "This account has been disabled."
 msgstr "このアカウントはご利用できません。"
 
@@ -2683,9 +2480,6 @@ msgstr "このトレードは一時的にご利用いただけません。"
 #| msgid "Buy price must be between %1 and %2."
 msgid "Tick prediction must be between %1 and %2."
 msgstr "購入金額は%1から%2の間である必要があります。"
-
-msgid "Timeout from the website until"
-msgstr "特定日まで利用禁止（日時単位）"
 
 msgid "Timeout time cannot be more than 6 weeks."
 msgstr "セッション期間制限は7週間以上に設定できません。"
@@ -2893,9 +2687,6 @@ msgstr "最大100トークンまで可能"
 msgid "Up/Down"
 msgstr "ラダー"
 
-msgid "Update Settings"
-msgstr "設定内容を更新"
-
 #, fuzzy
 #| msgid "Value of account_opening_reason cannot be changed."
 msgid "Value of account opening reason cannot be changed after authentication."
@@ -3024,20 +2815,6 @@ msgstr "%3 %4さまによる出金リクエスト%1%2 が処理されました�
 
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "お客さまのリクエスト（%1）を承りました。"
-
-#, fuzzy
-#| msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
-msgid "We're sorry but the Affiliate Token is not available for this type of Accounts."
-msgstr "デモ口座では取引制限の機能を提供しておりません。"
-
-msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
-msgstr "デモ口座では取引制限の機能を提供しておりません。"
-
-msgid "Website Timeout until is currently set to <strong>%1.</strong>"
-msgstr "トレードの自己制限として、<strong>%1</strong>まで当社サイトへのアクセスができない設定となっております。"
-
-msgid "Website exclusion is currently set to <strong>%1.</strong>"
-msgstr "トレードの自己制限として、<strong>%1</strong>まで当社サイトへのアクセスができない設定が施されています。"
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Win %6 %5 times %1's close minus low at %3."
@@ -3294,20 +3071,10 @@ msgstr "既に金融口座をお持ちです。金融商品取引用の口座へ
 msgid "You are already subscribed to %1"
 msgstr "既に%1にご登録されています。"
 
-msgid "You are already subscribed to balance updates."
-msgstr "既に残高更新のお知らせにご登録頂いています。"
-
-msgid "You are already subscribed to proposal."
-msgstr "既に提案にご登録されています。"
-
-msgid "You are already subscribed to proposal_array."
-msgstr "既に提案配列にご登録されています。"
-
-msgid "You are already subscribed to proposal_open_contract."
-msgstr "既にproposal_open_contractにご登録されています。"
-
-msgid "You are already subscribed to transaction updates."
-msgstr "最新の取引情報が反映されています。"
+#, fuzzy
+#| msgid "You are already subscribed to %1"
+msgid "You are already subscribed to %1."
+msgstr "既に%1にご登録されています。"
 
 msgid "You are not authorized for transfers via payment agents."
 msgstr "お客さまは決済サービスでのご出金が許可されていません。"
@@ -3448,8 +3215,10 @@ msgstr ""
 msgid "You need to ensure that you don't have open positions and withdraw your MT5 account balance before revoking the manager associated with your account."
 msgstr "ご自身の口座にリンクしているマネージャーを取り消す前に、オープンポジションの保有がないこをとご確認いただき、MT５口座の残高の出金行うようにしてください。"
 
-msgid "You will be automatically logged out after such time."
-msgstr "設定時間を過ぎると自動的にログアウトします。（例）　10分の場合、10と記入して下さい。(半角)"
+#, fuzzy
+#| msgid "Your app_id is invalid."
+msgid "Your %1 is invalid."
+msgstr "お客様のログインIDが無効です"
 
 msgid "Your Details"
 msgstr "ログイン情報"
@@ -3493,9 +3262,6 @@ msgstr "お客さまのご口座では現在ご出金機能のみご利用頂く
 msgid "Your account needs to be authenticated to perform payment agent transfers."
 msgstr "決済サービスをご利用になりたい場合、口座認証を行っていただく必要があります。"
 
-msgid "Your app_id is invalid."
-msgstr "お客様のログインIDが無効です"
-
 msgid "Your bonus request - %1"
 msgstr "ボーナスリクエスト：%1"
 
@@ -3516,9 +3282,6 @@ msgstr "入出金はロックされていません"
 
 msgid "Your current cashier session has expired. Please start again."
 msgstr "入出金処理の期限が切れました。初めからやり直してください。"
-
-msgid "Your email address"
-msgstr "お客さまのメールアドレス"
 
 msgid "Your email address is unverified."
 msgstr "お客さまのメールアドレスは無効です。"
@@ -3554,17 +3317,11 @@ msgstr ""
 msgid "Your login ID is missing."
 msgstr "お客様のログインID: <br><br>%1"
 
-msgid "Your name/company"
-msgstr "お名前／会社名"
-
 msgid "Your password has been changed."
 msgstr "パスワード変更を承りました【Binary株式会社】"
 
 msgid "Your password has been reset."
 msgstr "パスワード再設定【Binary株式会社】"
-
-msgid "Your phone number"
-msgstr "お客さまのお電話番号"
 
 msgid "Your profile appears to be incomplete. Please update your personal details to continue."
 msgstr ""
@@ -3574,9 +3331,6 @@ msgstr "ご入力いただいたメールアドレスは既に他のログイン
 
 msgid "Your token has expired or is invalid."
 msgstr "認証コードの有効期限が切れています。"
-
-msgid "Your website URL"
-msgstr "ウェブサイトURL"
 
 msgid "Your withdrawal will be processed within 24 hours."
 msgstr ""
@@ -3622,12 +3376,6 @@ msgstr "最初のTick"
 msgid "iphone"
 msgstr "電話番号"
 
-msgid "ls -al /"
-msgstr ""
-
-msgid "now."
-msgstr "はこちら"
-
 msgid "ticks"
 msgstr "Tick"
 
@@ -3636,11 +3384,6 @@ msgstr "本日"
 
 msgid "today, Fridays"
 msgstr "本日：金曜日"
-
-#, fuzzy
-#| msgid "Invalid barrier (Barrier type must be the same for double-barrier contracts)."
-msgid "trading_period_start must be supplied for multi barrier contracts."
-msgstr "バリア値が無効です（バリアタイプは二重バリアトレードと同じでなければいけません）"
 
 #~ msgid ""
 #~ "\n"
@@ -4538,6 +4281,12 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "3. duration"
 #~ msgstr "3. 取引期間"
 
+#~ msgid "30-day limit on losses"
+#~ msgstr "30日間の損失制限"
+
+#~ msgid "30-day turnover limit"
+#~ msgstr "30日の取引限度額"
+
 #~ msgid "30-day turnover limit "
 #~ msgstr "30日の取引数量限度額 "
 
@@ -4585,6 +4334,18 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "6h"
 #~ msgstr "６時間"
+
+#~ msgid "7-Day limit on losses is currently set to <strong>%1 %2</strong>"
+#~ msgstr "7日間の損失制限は、現在 <strong>%1 %2</strong>に設定されています"
+
+#~ msgid "7-Day turnover limit is currently set to <strong>%1 %2</strong>"
+#~ msgstr "7日の取引限度額は、現在<strong>%1 %2</strong>に設定されています"
+
+#~ msgid "7-day limit on losses"
+#~ msgstr "7日間の損失制限"
+
+#~ msgid "7-day turnover limit"
+#~ msgstr "7日の取引限度額"
 
 #~ msgid "8h%ctx(hours)"
 #~ msgstr "8h%ctx(時間)"
@@ -5290,6 +5051,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "<li>copy of current valid passport; or</li><li>copy of current Driving Licence (Provisional or Full)</li>"
 #~ msgstr "<li>有効期限内のパスポートのスキャン、</li><li>有効期限内の運転免許証のスキャン</li>"
+
+#~ msgid "<option value=\"\"></option><option value=\"01\">Jan</option><option value=\"02\">Feb</option><option value=\"03\">Mar</option><option value=\"04\">Apr</option><option value=\"05\">May</option><option value=\"06\">Jun</option><option value=\"07\">Jul</option><option value=\"08\">Aug</option><option value=\"09\">Sep</option><option value=\"10\">Oct</option><option value=\"11\">Nov</option><option value=\"12\">Dec</option>"
+#~ msgstr "<option value=\"\"></option><option value=\"01\">1月</option><option value=\"02\">2月</option><option value=\"03\">3月</option><option value=\"04\">4月</option><option value=\"05\">5月</option><option value=\"06\">6月</option><option value=\"07\">7月</option><option value=\"08\">8月</option><option value=\"09\">9月</option><option value=\"10\">10月</option><option value=\"11\">11月</option><option value=\"12\">12月</option>"
 
 #~ msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Before we can help you change your password, please help us to verify your identity by clicking the link below:</p><p><a href=\"%1\">%1</a></p><p>If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead.</p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 #~ msgstr ""
@@ -6048,6 +5812,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "AUD/KRW"
 #~ msgstr "AUD/KRW"
+
+#~ msgid "AUTHORISED PAYMENT AGENT?"
+#~ msgstr "認可された決済サービスエージェントですか？"
 
 #~ msgid "AUTHORISED PAYMENT AGENT? (this field visible from office only)"
 #~ msgstr "許可された決済サービスエージェントですか？ (このフィールドはオフィスIPまたはVPNからのみご覧いただけます)"
@@ -7473,6 +7240,11 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Binary's Maltese subsidiary Binary Investments (Europe) Ltd. is granted a Category 3 Investment Services license by the Malta Financial Services Authority."
 #~ msgstr "Binaryのマルタ子会社 Binary Investments (Europe) Ltdはマルタ金融サービス庁によってカテゴリー3投資サービスライセンスが付与されています。"
 
+#, fuzzy
+#~| msgid "Binary.com academy"
+#~ msgid "Binary.com"
+#~ msgstr "Binary.comアカデミー"
+
 #~ msgid "Binary.com - Trading Times"
 #~ msgstr "Binary.com - 取引時間"
 
@@ -8176,8 +7948,17 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Commbank (Australia)"
 #~ msgstr "Commbank （オーストラリア・コモンウェルス銀行）"
 
+#~ msgid "Comment must not exceed %1 characters. Please resubmit."
+#~ msgstr "コメントは%1文字以内で送信して下さい。"
+
 #~ msgid "Commerzbank"
 #~ msgstr "Commerzbank（コルメツ銀行）"
+
+#~ msgid "Commission (%) you want to take on deposits"
+#~ msgstr "手数料 (%) 入金の際の差し引きをご希望"
+
+#~ msgid "Commission (%) you want to take on withdrawals"
+#~ msgstr "手数料 (%) 出金の際の差し引きをご希望"
 
 #~ msgid "Commission Rates"
 #~ msgstr "報酬還元率"
@@ -8559,11 +8340,6 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Create a new virtual account ready for trading"
 #~ msgstr "お取引のために新しいバーチャル口座を作成する"
 
-#, fuzzy
-#~| msgid "Create free account now"
-#~ msgid "Create account now"
-#~ msgstr "ご口座開設はこちら"
-
 #~ msgid "Create clear, concise and engaging content for display on the company’s website, blog, social media outlets, and marketing materials"
 #~ msgstr "当ウェブサイト、ブログ、メディア、マーケティング資料に表示する明確かつ魅力的なコンテンツの作成"
 
@@ -8575,6 +8351,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Create free account"
 #~ msgstr "無料で口座を開設"
+
+#~ msgid "Create one"
+#~ msgstr "口座開設"
 
 #~ msgid "Create the graphics required to support our global marketing and advertising campaigns. The team's creative efforts span a number of channels, including online marketing, affiliate networks, print advertising, tradeshows, special events, and promotional projects."
 #~ msgstr "グローバルマーケティング及び広告キャンペーンに必要なグラフィックを作成します。チームの創造的な取り組みはオンラインマーケティング、アフィリエイトネットワーク、印刷広告、トレードショー、プロモーションプロジェクトなど多岐に及びます。"
@@ -8811,8 +8590,20 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Daily Reset Indices replicate markets with a bullish and bearish trend, with a constant volatility."
 #~ msgstr "デイリーリセットインデックスは一定のボラティリティで強気と弱気の傾向にある市場を再現しています。"
 
+#~ msgid "Daily limit on losses"
+#~ msgstr "損失限度額（1日）"
+
+#~ msgid "Daily limit on losses is currently set to <strong>%1 %2</strong>"
+#~ msgstr "１日の損失限度額は、現在<strong>%1 %2</strong>に設定されています。"
+
+#~ msgid "Daily turnover limit"
+#~ msgstr "1日の取引限度額"
+
 #~ msgid "Daily turnover limit cannot be more than %1"
 #~ msgstr "１日あたりのトレード購入額が%1を超過することはできません。"
+
+#~ msgid "Daily turnover limit is currently set to <strong>%1 %2</strong>"
+#~ msgstr "1日の取引限度額は、現在<strong>%1 %2</strong>に設定されています。"
 
 #~ msgid "Daimler"
 #~ msgstr "ダイムラー"
@@ -8849,6 +8640,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Days to display"
 #~ msgstr "表示日数"
+
+#~ msgid "Dear"
+#~ msgstr "様"
 
 #~ msgid "Dear %1 %2 %3, We would like to inform you that your %5 Withdrawal has been processed. Kind Regards, %4"
 #~ msgstr "%1 %2 %3様へ：お客様のご出金リクエスト（%5）を承りました。当社サービスをご利用頂きましてありがとうございます。%4"
@@ -10163,6 +9957,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Exclude Tick Trades"
 #~ msgstr "Tickトレードを除いた結果を検索する"
 
+#~ msgid "Exclude me from the website until"
+#~ msgstr "特定日まで利用禁止（日時単位）"
+
 #~ msgid "Exclude time cannot be for more than 5 years."
 #~ msgstr "6年以上の除外期間は設定することはできません。"
 
@@ -11055,6 +10852,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Hello World"
 #~ msgstr "Hello World"
 
+#~ msgid "Hello, World!"
+#~ msgstr "Hello, World!"
+
 #~ msgid "Help"
 #~ msgstr "ヘルプ"
 
@@ -11798,6 +11598,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Input validation failed: account opening reason"
 #~ msgstr "入力確認ができません。"
 
+#~ msgid "Input validation failed: address_postcode"
+#~ msgstr "入力確認ができません。 （住所＿郵便番号）"
+
 #~ msgid "Insert your client’s name or login ID (under Party Name), and their token as shown in the image below. This will activate their API token."
 #~ msgstr "APIトークンをアクティブにするために、お客様のクライアントネームとログインID（パーティーネームの下）を入力してください。"
 
@@ -11989,8 +11792,17 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Invalid telephone number"
 #~ msgstr "入力されたお電話番号は無効です"
 
+#~ msgid "Invalid telephone number (too long)."
+#~ msgstr "入力されたお電話番号は長過ぎるので無効です。"
+
+#~ msgid "Invalid telephone number (too short)."
+#~ msgstr "入力されたお電話番号は短か過ぎるので無効です。"
+
 #~ msgid "Invalid telephone number (you did not input the country code)."
 #~ msgstr "ご入力頂いたお電話番号には国番号が含まれないので無効です。"
+
+#~ msgid "Invalid telephone number."
+#~ msgstr "入力されたお電話番号は無効です。"
 
 #~ msgid "Invalid underlying"
 #~ msgstr "無効な取引対象です"
@@ -12791,6 +12603,11 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "L'Oreal"
 #~ msgstr "L'Oreal（ロレアル）"
 
+#, fuzzy
+#~| msgid "AUTHORISED PAYMENT AGENT?"
+#~ msgid "LISTED PAYMENT AGENT?"
+#~ msgstr "認可された決済サービスエージェントですか？"
+
 #~ msgid "LOG OUT"
 #~ msgstr "ログアウト"
 
@@ -13381,11 +13198,38 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Max"
 #~ msgstr "最大値"
 
+#~ msgid "Max withdrawal limit"
+#~ msgstr "最大出金限度額"
+
 #~ msgid "Max:"
 #~ msgstr "最大："
 
 #~ msgid "Maximum"
 #~ msgstr "最大値"
+
+#~ msgid "Maximum account cash balance"
+#~ msgstr "入金限度額"
+
+#~ msgid "Maximum account cash balance is currently set to <strong>%1 %2</strong>"
+#~ msgstr "現在の口座預託額の上限は、<strong>%1 %2</strong>です。"
+
+#~ msgid "Maximum aggregate contract purchases over a 30-day period."
+#~ msgstr "30日の最大取引数量 (半角)"
+
+#~ msgid "Maximum aggregate contract purchases over a 7-day period."
+#~ msgstr "7日間の最大取引数量 (半角)"
+
+#~ msgid "Maximum aggregate contract purchases per day."
+#~ msgstr "1日の最大取引数量 (半角)"
+
+#~ msgid "Maximum aggregate loss over a 30-day period."
+#~ msgstr "30日間の最大損失 (半角)"
+
+#~ msgid "Maximum aggregate loss over a 7-day period."
+#~ msgstr "7日間の最大損失 (半角)"
+
+#~ msgid "Maximum aggregate loss per day."
+#~ msgstr "1日の最大損失 (半角)"
 
 #~ msgid "Maximum aggregate payouts on open positions"
 #~ msgstr "オープン中ポジションに対する払い戻し金額の最高総額"
@@ -13396,11 +13240,32 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Maximum daily turnover"
 #~ msgstr "１日あたりのトレード購入可能金額"
 
+#, fuzzy
+#~| msgid "Min-Max Deposit"
+#~ msgid "Maximum deposit"
+#~ msgstr "最低ー最高　ご入金額"
+
+#, fuzzy
+#~| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+#~ msgid "Maximum deposit limit expires on <strong>%1.</strong>"
+#~ msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
+
+#, fuzzy
+#~| msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+#~ msgid "Maximum deposit limit is set to <strong>%1.</strong>"
+#~ msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
+
 #~ msgid "Maximum number of attempts exceeded. Please try again after 10 minutes."
 #~ msgstr "最大試行回数を超えまた。10分後にもう一度お試しください。"
 
+#~ msgid "Maximum number of open positions"
+#~ msgstr "最大保有ポジション"
+
 #~ msgid "Maximum number of open positions cannot be more than %1"
 #~ msgstr "%1件以上のオープン中のポジションを保有することはできません。"
+
+#~ msgid "Maximum number of open positions is currently set to <strong>%1</strong>"
+#~ msgstr "現在、保有可能なオープン中ポジションの総数は<strong>%1</strong>件です。"
 
 #~ msgid "Maximum withdrawal by all other means:"
 #~ msgstr "他の全ての方法での出金最大金額："
@@ -13465,6 +13330,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Min %1 Max %2"
 #~ msgstr "最小 %1 最大 %2"
 
+#~ msgid "Min withdrawal limit"
+#~ msgstr "最小出金限度額"
+
 #~ msgid "Min-Max Withdrawal"
 #~ msgstr "最低ー最高　ご出金額"
 
@@ -13507,8 +13375,20 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Missing market data<strong>***</strong>"
 #~ msgstr "マーケットデータが不明です<strong>***</strong>"
 
+#~ msgid "Missing required contract parameters (currency)."
+#~ msgstr "必要な取引パラメーターが不明です。(通貨)"
+
 #~ msgid "Missing required contract parameters (date_expiry or duration)."
 #~ msgstr "必要な取引パラメーターが不明です。(date_expiry or 取引期間)"
+
+#~ msgid "Missing required contract parameters (date_start)."
+#~ msgstr "必要な取引パラメーターが不明です。(date_start)"
+
+#~ msgid "Missing required contract parameters (multiplier)."
+#~ msgstr "必要な取引パラメーターが不明です。(乗数)"
+
+#~ msgid "Missing required contract parameters (underlying)."
+#~ msgstr "必要な取引パラメーターが不明です。(原資産)"
 
 #, fuzzy
 #~| msgid "Shinhan Financial"
@@ -14079,11 +13959,19 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "On-time Payments Every Time"
 #~ msgstr "報酬は期日までに確実に支払われます"
 
+#, fuzzy
+#~| msgid "Once this limit is reached, you may no longer deposit."
+#~ msgid "Once maximum deposit limit is reached the client may no longer deposit."
+#~ msgstr "上限額以上の入金はできません。"
+
 #~ msgid "Once the bonus is credited to your account, you may withdraw the bonus and any winnings generated from it at any time."
 #~ msgstr "このタイプのボーナスが一旦付与されると、ボーナス自体、及びボーナスから得られた利益をいつでもご出金できます。"
 
 #~ msgid "Once the white-label is live, you will earn standard affiliate commissions on clients trading via the white-label."
 #~ msgstr "ホワイトレーベルの公開後、そのホワイトレーベル経由でトレードが行われた場合にアフィリエイト収入を得られるようになります。"
+
+#~ msgid "Once this limit is reached, you may no longer deposit."
+#~ msgstr "上限額以上の入金はできません。"
 
 #~ msgid "Once we receive your application, one of our affiliate managers will contact you to follow up with the next steps in the application process (this will include asking you to submit several documents)."
 #~ msgstr "申請を受け取りましたら、申請プロセスの次のステップの案内をさせていただくために、当社アフィリエイトマネージャーがお客さまにご連絡をさせていただきます。（同時に書類の提出をお願いさせていただきます。）"
@@ -14764,8 +14652,16 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Please enter a number greater than 0"
 #~ msgstr "0より大きい数字を入力してください。"
 
+#~ msgid "Please enter a numeric value."
+#~ msgstr "半角で数値をご入力して下さい。"
+
 #~ msgid "Please enter a password."
 #~ msgstr "パスワードをご入力して下さい。"
+
+#, fuzzy
+#~| msgid "Please enter a numeric value."
+#~ msgid "Please enter a positive numeric value."
+#~ msgstr "半角で数値をご入力して下さい。"
 
 #~ msgid "Please enter a stronger password."
 #~ msgstr "より複雑なパスワードをご指定下さい。"
@@ -14773,20 +14669,38 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Please enter a town or city."
 #~ msgstr "都市または街の名前をご入力して下さい。"
 
+#~ msgid "Please enter a valid name."
+#~ msgstr "有効なお名前をご入力して下さい。"
+
 #~ msgid "Please enter an epoch time."
 #~ msgstr "エポックタイムをご入力ください。"
 
 #~ msgid "Please enter an integer value"
 #~ msgstr "半角で数値をご入力して下さい"
 
+#~ msgid "Please enter an integer value."
+#~ msgstr "半角で数値をご入力して下さい。"
+
 #~ msgid "Please enter date in the format YYY-MM-DD."
 #~ msgstr "日付を年-月-年（YYY-MM-DD）の順で半角で入力して下さい。"
+
+#~ msgid "Please enter date in the format YYYY-MM-DD or YYYY-MM-DD hh::mm::ss"
+#~ msgstr "ご希望の日付を選択して下さい。"
+
+#~ msgid "Please enter date in the format YYYY-MM-DD or YYYY-MM-DD hh::mm::ss. It will save in GMT format."
+#~ msgstr "ご希望の日付を選択して下さい。GMT（グリニッジ標準時）で保存されます。"
+
+#~ msgid "Please enter date in the format YYYY-MM-DD."
+#~ msgstr "ご希望の日付を選択して下さい。"
 
 #~ msgid "Please enter the country where you want to offer your service"
 #~ msgstr "サービスを展開される予定の国名をご入力して下さい"
 
 #~ msgid "Please enter the first line of your home address."
 #~ msgstr "ご住所情報の１行目をご入力して下さい。"
+
+#~ msgid "Please enter your email address."
+#~ msgstr "メールアドレスをご入力して下さい。"
 
 #~ msgid "Please enter your last name."
 #~ msgstr "氏名(全角)をご入力して下さい。"
@@ -14857,6 +14771,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Please provide a valid sub account loginid."
 #~ msgstr "有効なサブ口座ログインIDをご入力ください。"
 
+#~ msgid "Please provide some information about yourself and your proposed services"
+#~ msgstr "自己紹介、及び提案されるサービスに関する情報をお知らせ下さい"
+
 #~ msgid "Please provide the following contact information and we will call you free of charge as soon as a representative is free."
 #~ msgstr "下記のご入力フォームからリクエストを送信して下さい。迅速に折り返しお電話をさせて頂きます。"
 
@@ -14911,6 +14828,11 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~| msgid "Please send this email to %1."
 #~ msgid "Please send this by email to %1."
 #~ msgstr "このメールを%1まで送信して下さい。"
+
+#, fuzzy
+#~| msgid "Please specify your country."
+#~ msgid "Please specify either duration or date_expiry."
+#~ msgstr "居住国をご指定下さい。"
 
 #~ msgid "Please specify your preferred reality-check interval in minutes "
 #~ msgstr "ご希望のリアリティチェック間隔を分単位で指定してください。 "
@@ -15655,6 +15577,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Reload Chart"
 #~ msgstr "チャートの再読込"
 
+#~ msgid "Reload page"
+#~ msgstr "ページの再読込"
+
 #~ msgid "Remaining Time"
 #~ msgstr "残り時間"
 
@@ -15708,6 +15633,11 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Resale prices are on a best-efforts basis and may not be available at all times after purchase."
 #~ msgstr "転売価格はお客様にとって最大限有利になる価格を提供しておりますが、全てのトレードにトレード転売の権利は付与されることはありません。"
+
+#, fuzzy
+#~| msgid "Insert your login ID and password"
+#~ msgid "Reset your Binary.com account password"
+#~ msgstr "ログインIDとパスワードをご入力して下さい。"
 
 #~ msgid "Resolve complex customer care issues in the best interest of our global clients and the company"
 #~ msgstr "世界中の顧客および企業が直面する複雑な問題を解決します"
@@ -16168,6 +16098,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Self-Employed"
 #~ msgstr "自営業"
 
+#~ msgid "Self-Exclusion Facilities"
+#~ msgstr "取引上限の設定"
+
 #~ msgid "Sell (ahead of contract expiry) one of the currently open positions from the Portfolio"
 #~ msgstr "ポートフォリオから現在オープンポジションの1つを（契約期限前に）売る"
 
@@ -16239,6 +16172,12 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "ServiceNow Inc."
 #~ msgstr "サービスナウ（ServiceNow Inc.）"
 
+#~ msgid "Session duration limit is currently set to <strong>%1 minutes.</strong>"
+#~ msgstr "セッション期間として現在、<strong>%1分</strong>が指定されています。"
+
+#~ msgid "Session duration limit, in minutes"
+#~ msgstr "取引継続時間の制限(分単位)"
+
 #~ msgid "Session duration:"
 #~ msgstr "セッション継続時間:"
 
@@ -16288,6 +16227,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Short"
 #~ msgstr "ショート"
+
+#~ msgid "Short summary of your Payment Agent service"
+#~ msgstr "お客さまの決済サービス概要"
 
 #~ msgid "Should a disruption occur in the data feeds which cannot be readily rectified by the Company, the Company reserves the right to refund the contract purchase."
 #~ msgstr "当社にて容易に矯正できないような干渉がデータフィードに発生した場合、当社にはトレードの購入価格を返金する権利があります。"
@@ -16660,6 +16602,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Sorry, you have already had too many unsuccessful attempts.<br>Please contact Customer Support."
 #~ msgstr "申し訳ございませんが、所定回数以上、不正なデータを入力されたご様子です。<br>カスタマーサポートまでご連絡下さい。"
+
+#~ msgid "Sorry, you have entered an incorrect email address."
+#~ msgstr "申し訳ございませんが、入力されたメールアドレスに誤りがあります。"
 
 #~ msgid "Sorry, you have exceeded a BOUNDARY contract daily PAYOUT of USD%1 on %2 which is the maximum daily PAYOUT allowed. Please place a contract on a different underlying or lower your stake."
 #~ msgstr "申し訳ございませんが、%2での１日あたりの最大払い戻し金額：USD%1を超過してしまいました。"
@@ -17051,6 +16996,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Subject to any specific instructions which may be provided by you, when executing client orders, we will take all reasonable steps to obtain the best possible results for you. The best possible results will be determined in terms of total consideration, that is, the price of the instrument and the costs related to execution which shall include all expenses incurred by you that are directly related to the execution of the order."
 #~ msgstr "クライアントの注文が実行される際に、お客さまによって提供された特定の指示に従うことを条件として　当社は可能な限り最良な結果をお客さまが得られるようあらゆる適切な措置を取らせていただきます。可能な限りの最良の結果とは、対価総額の観点から決まります。すなわち、お客さまによって被った全費用を含む実行への関連費用は、直接オーダーの実行に関係します。"
 
+#~ msgid "Submit"
+#~ msgstr "送信"
+
 #~ msgid "Submit your CV and Cover Letter"
 #~ msgstr "履歴書とカバーレターを提出してください"
 
@@ -17090,8 +17038,14 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Supply identity and address information to upgrade a Virtual Account to a Real trading account"
 #~ msgstr "デモ口座からリアル口座へアップグレードするために身元や住所の情報を提供する"
 
+#~ msgid "Supported banks"
+#~ msgstr "提携銀行"
+
 #~ msgid "Supported banks (this field visible from office only) **"
 #~ msgstr "サポートされている銀行（このフィールドはオフィスIP・VPNからのみご覧いただけます）**"
+
+#~ msgid "Supported banks list is invalid"
+#~ msgstr "提携銀行のリストが無効です。"
 
 #~ msgid "Supporting the Group’s global recruiting and talent management needs"
 #~ msgstr "グループのグローバルな人材募集や人材管理のニーズをサポート"
@@ -18338,6 +18292,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "This Payment Agent cashier section is locked."
 #~ msgstr "この決済サービスの入出金はロックされました。"
 
+#~ msgid "This URL is invalid."
+#~ msgstr "このURLは無効です。"
+
 #~ msgid "This acccount is unavailable."
 #~ msgstr "このアカウントはご利用いただけません"
 
@@ -18636,6 +18593,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Time offset"
 #~ msgstr "経過時間"
+
+#~ msgid "Timeout from the website until"
+#~ msgstr "特定日まで利用禁止（日時単位）"
 
 #~ msgid "Times are changing. We increase payouts so our clients can make the most of their winning trades."
 #~ msgstr "時代のニーズを汲み、払い戻し価格を増大させることで顧客の利益拡大を目指します。"
@@ -19354,6 +19314,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Update"
 #~ msgstr "更新"
 
+#~ msgid "Update Settings"
+#~ msgstr "設定内容を更新"
+
 #~ msgid "Update the Anti-Fraud Manual and other related documents"
 #~ msgstr "詐欺対策マニュアルおよびその他関連ドキュメントの更新"
 
@@ -19922,6 +19885,14 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "We'll then send you an e-mail asking you to verify your identity. If you don't receive the e-mail within a few minutes, please check your junk/spam mail folder."
 #~ msgstr "認証手続きメールを送信いたします。もし、数分以内にメールの受信をご確認できない場合は迷惑メールフォルダもご確認下さい。"
 
+#, fuzzy
+#~| msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
+#~ msgid "We're sorry but the Affiliate Token is not available for this type of Accounts."
+#~ msgstr "デモ口座では取引制限の機能を提供しておりません。"
+
+#~ msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
+#~ msgstr "デモ口座では取引制限の機能を提供しておりません。"
+
 #~ msgid "We've noticed that your account was opened some time ago and certain information that we require is missing. To use our service, kindly contact our customer support team at <a href=\"mailto:%1\">%1</a> to provide them with this missing information."
 #~ msgstr "過去にご口座を開設された際に必要な情報を全てご提供して頂かなかったことをお知らせ致します。当社サービスをご利用になるためには<a href=\"mailto:%1\">%1</a>までご連絡頂き、必要な情報をご提供下さいますようお願い申し上げます。"
 
@@ -19948,6 +19919,12 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Website"
 #~ msgstr "ウェブサイト"
+
+#~ msgid "Website Timeout until is currently set to <strong>%1.</strong>"
+#~ msgstr "トレードの自己制限として、<strong>%1</strong>まで当社サイトへのアクセスができない設定となっております。"
+
+#~ msgid "Website exclusion is currently set to <strong>%1.</strong>"
+#~ msgstr "トレードの自己制限として、<strong>%1</strong>まで当社サイトへのアクセスができない設定が施されています。"
 
 #~ msgid "Websockets API"
 #~ msgstr "Websockets API"
@@ -20501,9 +20478,24 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "You are advised that the Binary Options offered by %1 are not traded under the rules of any recognised, designated or regulated exchange. Consequently, engaging in Binary Options trading may expose you to substantially greater risks than investments which are so traded."
 #~ msgstr "%1によって提供されたバイナリーオプションは、認識、指定、統制された為替のルールの下で取引をされないことをお勧めいたします。結果として、バイナリーオプションをはじめることは取引されている投資よりも実質的に大きなリスクを課せられる可能性があります。"
 
+#~ msgid "You are already subscribed to balance updates."
+#~ msgstr "既に残高更新のお知らせにご登録頂いています。"
+
 #~| msgid "You are already subscribed to transaction updates."
 #~ msgid "You are already subscribed to pricing table."
 #~ msgstr "取引レートは正常に稼働しています。"
+
+#~ msgid "You are already subscribed to proposal."
+#~ msgstr "既に提案にご登録されています。"
+
+#~ msgid "You are already subscribed to proposal_array."
+#~ msgstr "既に提案配列にご登録されています。"
+
+#~ msgid "You are already subscribed to proposal_open_contract."
+#~ msgstr "既にproposal_open_contractにご登録されています。"
+
+#~ msgid "You are already subscribed to transaction updates."
+#~ msgstr "最新の取引情報が反映されています。"
 
 #~ msgid "You are being given the better price."
 #~ msgstr "より有利な価格が提供されつつあります。"
@@ -20829,6 +20821,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "You should read these ST&Cs carefully as well as the Summary Order Execution Policy and Summary Conflicts Policy, the applicable Contract Details together with the Risk Disclosure Notice and any other documents that we have supplied or in the future do supply to you."
 #~ msgstr "リスク開示通知と当社が提供する、または将来お客さまに適用させていただくその他文書と共に適用される、契約の詳細にあたるオーダー実行ポリシーの概要と利益相反ポリシーの概要同様にこれらST&Cs（特別条件と事業条件）も熟読ください。"
 
+#~ msgid "You will be automatically logged out after such time."
+#~ msgstr "設定時間を過ぎると自動的にログアウトします。（例）　10分の場合、10と記入して下さい。(半角)"
+
 #~ msgid "You will be provided with all the tools, to turn your traffic into a lucrative revenue stream"
 #~ msgstr "サイト訪問数を収入に転化するツールを提供"
 
@@ -21077,6 +21072,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 #~ msgid "Your details have been updated."
 #~ msgstr "お客さまの詳細が更新されました。"
 
+#~ msgid "Your email address"
+#~ msgstr "お客さまのメールアドレス"
+
 #~ msgid "Your email address verification link is: "
 #~ msgstr "お客様のメールアドレス認証リンク： "
 
@@ -21100,6 +21098,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Your name, email address and contact number"
 #~ msgstr "氏名、メールアドレス、電話番号"
+
+#~ msgid "Your name/company"
+#~ msgstr "お名前／会社名"
 
 #~ msgid "Your new account balance is %s %s"
 #~ msgstr "最新のご口座残高は%s %sです"
@@ -21150,6 +21151,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Your personal information is used primarily as a way of authenticating you as the proper owner of your account and as the person to whom withdrawal payments may be made, and to process trades. We collect personal data relating to you directly from you when you fill in the account opening form. In the event of any doubt as to the authenticity of your account details or of any withdrawal request, the company reserves the right to request further authentication information as may be deemed appropriate under the circumstances."
 #~ msgstr "お客さまの個人情報の利用の第一義は、当社サービスの口座保持者として適切かどうか認証させて頂くこと、及びご出金時と取引過程の身分確証にあります。当社はご口座開設時に個人情報をご入力して頂くことで、お客さまの個人情報をお客さま個人から直接入手します。尚、ご口座に関する詳細情報の認証時、またはご出金リクエスト時に、より詳細な個人情報のご提出を求める権利を当社は有しております。"
+
+#~ msgid "Your phone number"
+#~ msgstr "お客さまのお電話番号"
 
 #~ msgid "Your prediction"
 #~ msgstr "予想値"
@@ -21228,6 +21232,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "Your violation of any applicable law, rule or regulation;"
 #~ msgstr "適用される法律、規則、規制への違反行為；"
+
+#~ msgid "Your website URL"
+#~ msgstr "ウェブサイトURL"
 
 #~ msgid "Your website URL (if you have one)"
 #~ msgstr "ウェブサイトURL（お持ちの場合）"
@@ -21686,6 +21693,9 @@ msgstr "バリア値が無効です（バリアタイプは二重バリアトレ
 
 #~ msgid "not available"
 #~ msgstr "利用不可"
+
+#~ msgid "now."
+#~ msgstr "はこちら"
 
 #~ msgid "numbers"
 #~ msgstr "数字"
