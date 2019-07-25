@@ -57,7 +57,9 @@ msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">尊敬的客
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Dear Valued Customer,</p><p>Please help us to verify your identity by entering the following verification token into the payment withdrawal form:<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">With regards,<br/>%2</p>"
 msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\">尊敬的客戶，</p><p>請在付款提款表格輸入以下驗證權杖，以便我們驗證您的身份:<p><span id=\"token\" style=\"background: #f2f2f2; padding: 10px; line-height: 50px;\">%1</span></p></p><p style=\"color:#333333;font-size:15px;\">此致，<br/>%2</p>"
 
-msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Hello %1,</p><p>We received a request to reset your password. If it was you, we'd be glad to help.</p><p>Before we proceed, we noticed you are logged in using your &#91Google/Facebook&#93 account. Please note that if you reset your password, your social account login will be deactivated. If you wish to keep your social account login, you would need to remember your &#91Google/Facebook&#93 account password.</p><p>If you're ready, <a href=\"%2\">reset your password now.<a></p><p>Not you? Unsure? <a href=\"https://www.binary.com/en/contact.html\">Please let us know right away.</a></p><p style=\"color:#333333;font-size:15px;\">Thank you for trading with us.<br/>%3</p>"
+#, fuzzy
+#| msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Hello %1,</p><p>We received a request to reset your password. If it was you, we'd be glad to help.</p><p>Before we proceed, we noticed you are logged in using your &#91Google/Facebook&#93 account. Please note that if you reset your password, your social account login will be deactivated. If you wish to keep your social account login, you would need to remember your &#91Google/Facebook&#93 account password.</p><p>If you're ready, <a href=\"%2\">reset your password now.<a></p><p>Not you? Unsure? <a href=\"https://www.binary.com/en/contact.html\">Please let us know right away.</a></p><p style=\"color:#333333;font-size:15px;\">Thank you for trading with us.<br/>%3</p>"
+msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Hello %1,</p><p>We received a request to reset your password. If it was you, we'd be glad to help.</p><p>Before we proceed, we noticed you are logged in using your (Google/Facebook) account. Please note that if you reset your password, your social account login will be deactivated. If you wish to keep your social account login, you would need to remember your (Google/Facebook) account password.</p><p>If you're ready, <a href=\"%2\">reset your password now.<a></p><p>Not you? Unsure? <a href=\"https://www.binary.com/en/contact.html\">Please let us know right away.</a></p><p style=\"color:#333333;font-size:15px;\">Thank you for trading with us.<br/>%3</p>"
 msgstr "<p style=\"line-height:200%;color:#333333;font-size:15px;\"> %1您好，</p><p>我們收到您的密碼重設請求。如果是您提出的，我們將樂意提供幫忙。</p><p>在我們繼續操作前，我們留意您是用您的 &#91Google/Facebook&#93 帳戶登入的。請注意，如果要重設密碼，您的社交帳戶登入將失效。如果要繼續保留社交帳戶登入狀態，您必須記住您的 &#91Google/Facebook&#93帳戶密碼。</p><p>如果已經準備好，<a href=\"%2\">請現在重設密碼。<a></p><p>您沒有提出要求？不能確定？<a href=\"https://www.binary.com/en/contact.html\">請立刻通知我們。</a></p><p style=\"color:#333333;font-size:15px;\">謝謝您使用我們的交易服務。<br/>%3</p>"
 
 msgid "<p style=\"line-height:200%;color:#333333;font-size:15px;\">Hello %1,</p><p>We received a request to reset your password. If it was you, you may <a href=\"%2\">reset your password now.<a></p><p>Not you? Unsure? <a href=\"https://www.binary.com/en/contact.html\">Please let us know right away.</a></p><p style=\"color:#333333;font-size:15px;\">Thank you for trading with us.<br/>%3</p>"
@@ -2519,11 +2521,27 @@ msgstr "我們的系統當前的負載量非常高。某些功能和服務可能
 msgid "We are having an issue with one or more of our data feeds. We are working to resolve the issue but some markets may be unavailable for the time being."
 msgstr "我們正面對一個或多個數據匯入的問題。目前正在努力解決這個問題，但一些市場可能暫時無法使用。"
 
+msgid "We are unable to do that because your account has been restricted. If you need help, let us know."
+msgstr ""
+
+#, fuzzy
+#| msgid "We would like to inform you that your %1 has been processed."
+msgid "We are unable to transfer to %1 because that account has been restricted."
+msgstr "我們特此通知您，您的%1已處理。"
+
+msgid "We are unable to transfer to %1, because that account has been restricted."
+msgstr ""
+
 msgid "We are updating our site in a short while. Some services may be temporarily unavailable."
 msgstr "我們的網站將於短時間內更新。某些服務可能暫時不可用。"
 
 msgid "We cannot get open positions for this account."
 msgstr "此帳戶無法開倉。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their cashier is locked."
+msgid "We cannot transfer to account %1. Please select another payment agent."
+msgstr "您不能轉帳至帳戶%1，因為其收銀台已被鎖。"
 
 msgid "We could not process this contract at this time."
 msgstr "目前我們無法處理該合約。"
@@ -2801,9 +2819,6 @@ msgstr "您的虛擬帳戶餘額必須低於％1％2才能請求額外資金。"
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已禁用。"
 
-msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
-msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已被標記為不受歡迎。"
-
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is not authorized."
 msgstr "您不能在帳戶%1取款，因為付款代理的帳戶無此權限。"
 
@@ -2822,11 +2837,13 @@ msgstr "您無法執行此操作，因為%1 不是客戶 %2的預設帳戶貨幣
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
 msgstr "您不能執行此操作，因為%1 不是付款代理 %2的預設帳戶貨幣。"
 
+#, fuzzy
+#| msgid "Your cannot perform this action, as your account %1 cashier is locked as per request."
+msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
+msgstr "無法繼續操作，因%1帳戶收銀台已按請求鎖上。"
+
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "您不能執行此操作，因為您的帳戶%1目前已禁用。"
-
-msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
-msgstr "您不能執行此操作，因為您的帳戶%1已被標記為不受歡迎。"
 
 msgid "You cannot perform this action, as your account is cashier locked."
 msgstr "您不能執行此操作，因為您的帳戶收銀台已被鎖。"
@@ -2851,9 +2868,6 @@ msgstr "您不能轉帳給不同國家居民的客戶。"
 
 msgid "You cannot transfer to account %1, as their account is currently disabled."
 msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
-
-msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
-msgstr "您不能轉帳至帳戶%1，因為該帳戶已被標記為不受歡迎。"
 
 msgid "You cannot transfer to account %1, as their cashier is locked."
 msgstr "您不能轉帳至帳戶%1，因為其收銀台已被鎖。"
@@ -2962,9 +2976,6 @@ msgstr "帳戶需通過驗證才能進行付款代理轉帳。"
 
 msgid "Your bonus request - %1"
 msgstr "您的獎勵請求- %1"
-
-msgid "Your cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr "無法繼續操作，因%1帳戶收銀台已按請求鎖上。"
 
 msgid "Your cashier is locked as per your request."
 msgstr "您的收銀台已依照您的請求被鎖定。"
@@ -15259,6 +15270,15 @@ msgstr "今天，每星期五"
 
 #~ msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 #~ msgstr "對於不受 %1  支持的支付方式或本地貨幣， 您可使用授權支付代理輕鬆處理存款和取款。"
+
+#~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
+#~ msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已被標記為不受歡迎。"
+
+#~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
+#~ msgstr "您不能執行此操作，因為您的帳戶%1已被標記為不受歡迎。"
+
+#~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
+#~ msgstr "您不能轉帳至帳戶%1，因為該帳戶已被標記為不受歡迎。"
 
 #~ msgid "You did not change anything."
 #~ msgstr "您沒做任何更改。"
