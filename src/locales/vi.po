@@ -86,6 +86,9 @@ msgstr "Bản sao hợp lệ giấy phép lái xe, chứng minh nhân dân ho�
 msgid "A general error has occurred."
 msgstr "Đã có lỗi xảy ra."
 
+msgid "A new device accessed your Deriv account."
+msgstr ""
+
 msgid "A photo of yourself (selfie) holding your driving licence, identity card, or passport"
 msgstr "Một ảnh tự chụp trong đó bạn đang cầm bằng lái xe, chứng minh nhân dân hoặc hộ chiếu"
 
@@ -394,9 +397,6 @@ msgstr "Hàng hóa là những thứ được mang ra trao đổi buôn bán, c�
 msgid "Connection closed"
 msgstr "Kết nối đã đóng"
 
-msgid "Contact us via our %1Help Centre"
-msgstr "Liên hệ với chúng tôi qua %1Trung Tâm Hỗ Trợ"
-
 msgid "Continuous Indices"
 msgstr "Các chỉ số liên tiếp"
 
@@ -471,9 +471,6 @@ msgstr "Ngày liên hệ đầu tiên không hợp lệ."
 
 msgid "Date of birth is invalid."
 msgstr "Ngày sinh không hợp lệ."
-
-msgid "Date of birth is required."
-msgstr "Cần nhập ngày sinh của bạn."
 
 msgid "Dear %1 %2 %3,"
 msgstr "%1 %2 %3 thân mến,"
@@ -1052,17 +1049,14 @@ msgstr "LƯU Ý: Chúng tôi đang khóa tài khoản MT5 thực của bạn"
 msgid "IP address:"
 msgstr "Địa chỉ IP:"
 
-msgid "If this was you, no action is required."
-msgstr "Nếu đây đúng là bạn,  không cần thực hiện thêm các bước khác."
+msgid "If this was you, great! You don't need to do anything."
+msgstr ""
 
 msgid "If this wasn't you, please <a href=\"https://www.binary.com/en/contact.html\">let us know</a> right away."
 msgstr "Nếu đây không phải bạn, vui lòng <a href=\"https://www.binary.com/en/contact.html\">báo cho chúng tôi</a> ngay lập tức."
 
 msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
 msgstr "Nếu bạn cho rằng không có lý do nào trong số những lý do này phù hợp với trường hợp của bạn và bạn muốn yêu cầu tiền thưởng được chuyển vào tài khoản của mình, vui lòng cung cấp cho chúng tôi:"
-
-msgid "If you have any questions or concerns, we’re here to help."
-msgstr "Nếu bạn có bất kỳ thắc mắc hoặc lo ngại nào, chúng luôn tôi sẵn sàng  giúp đỡ."
 
 msgid "If you have not sent us your documents thus far, your MT5 real money account will be disabled shortly. This will close any open positions you may have. Your remaining MT5 real money account balance will also be transferred back to your binary options real money account."
 msgstr "Nếu cho đến nay bạn vẫn chưa gửi cho chúng tôi các tài liệu xác minh cần thiết, tài khoản thực MT5 của bạn sẽ sớm bị khóa. Điều này có nghĩa là chúng tôi sẽ đóng bất kỳ phiên mở nào bạn có thể có. Số dư tài khoản thực MT5 còn lại cũng sẽ được chuyển trở lại tài khoản thực binary options của bạn."
@@ -1265,9 +1259,6 @@ msgstr "Đăng nhập"
 msgid "Login ID (%1) does not exist."
 msgstr "ID đăng nhập (%1) không tồn tại."
 
-msgid "Login country:"
-msgstr "Quốc gia đăng nhập:"
-
 msgid "Login to this account has been temporarily disabled due to system maintenance. Please try again in 30 minutes."
 msgstr "Đăng nhập vào tài khoản tạm thời bị gián đoạn do bảo trì hệ thống. Xin vui lòng thử lại sau 30 phút."
 
@@ -1385,11 +1376,13 @@ msgstr "NZD/CHF"
 msgid "Need both secret question and secret answer."
 msgstr "Cần cả secret-question và secret-answer."
 
-msgid "New Device Login"
-msgstr "Đăng Nhập Thiết Bị Mới"
-
 msgid "New Year's Day"
 msgstr "Ngày Tết Tây"
+
+#, fuzzy
+#| msgid "New Device Login"
+msgid "New device login"
+msgstr "Đăng Nhập Thiết Bị Mới"
 
 msgid "New password is same as old password."
 msgstr "Mật khẩu mới chùng mật khẩu cũ."
@@ -1572,6 +1565,16 @@ msgstr "Các giao dịch đang chờ xử lý"
 
 msgid "Perhaps you signed up with a social account?"
 msgstr "Có lẽ bạn đã đăng ký bằng một tài khoản mạng xã hội?"
+
+#, fuzzy
+#| msgid "Permission denied, requires read scope."
+msgid "Permission denied, balance of other account requires oauth token"
+msgstr "Quyền hạn bị từ chối, đọc yêu cầu phạm vi."
+
+#, fuzzy
+#| msgid "Permission denied, requires read scope."
+msgid "Permission denied, balances of all accounts require oauth token"
+msgstr "Quyền hạn bị từ chối, đọc yêu cầu phạm vi."
 
 msgid "Permission denied, requires %1 scope."
 msgstr "Quyền hạn bị từ chối, yêu cầu phạm vi %1."
@@ -2398,9 +2401,6 @@ msgstr "Chuyển khoản giữa các tài khoản không khả dụng đối v�
 msgid "Transfers between fiat and crypto accounts are currently disabled."
 msgstr "Chuyển khoản giữa các tài khoản fiat và crypto hiện đang bị vô hiệu hóa."
 
-msgid "Type of device:"
-msgstr "Loại thiết bị:"
-
 msgid "UC"
 msgstr "Tập đoàn UC"
 
@@ -2875,6 +2875,11 @@ msgstr "Bạn đã có một tài khoản tài chính tiền tệ. Vui lòng đ�
 msgid "You are already subscribed to %1"
 msgstr "Bạn đã đăng ký với %1"
 
+#, fuzzy
+#| msgid "You are already subscribed to %1."
+msgid "You are already subscribed to %1 balance."
+msgstr "Bạn đã đăng ký với %1."
+
 msgid "You are already subscribed to %1."
 msgstr "Bạn đã đăng ký với %1."
 
@@ -3006,9 +3011,6 @@ msgstr "Bạn cần đảm bảo rằng bạn không có phiên mở và rút s�
 
 msgid "Your %1 is invalid."
 msgstr "%1 của bạn không hợp lệ."
-
-msgid "Your Deriv account was used to login on the following device."
-msgstr "Tài khoản Deriv của bạn được sử dụng để đăng nhập vào thiết bị sau."
 
 msgid "Your Details"
 msgstr "Thông tin của bạn"
@@ -6306,6 +6308,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Contact us"
 #~ msgstr "Liên hệ"
 
+#~ msgid "Contact us via our %1Help Centre"
+#~ msgstr "Liên hệ với chúng tôi qua %1Trung Tâm Hỗ Trợ"
+
 #~ msgid "Continue"
 #~ msgstr "Tiếp tục"
 
@@ -6729,6 +6734,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Date of Birth"
 #~ msgstr "Ngày sinh"
+
+#~ msgid "Date of birth is required."
+#~ msgstr "Cần nhập ngày sinh của bạn."
 
 #~ msgid "Davide Campari-Milano S.p.A"
 #~ msgstr "Davide Campari-Milano S.p.A"
@@ -8635,6 +8643,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "If this error persists, please contact customer support."
 #~ msgstr "Nếu lỗi này vẫn lặp lại, vui lòng liên hệ nhân viên hỗ trợ khách hàng."
 
+#~ msgid "If this was you, no action is required."
+#~ msgstr "Nếu đây đúng là bạn,  không cần thực hiện thêm các bước khác."
+
 #~ msgid "If we’re happy with your results, we’ll contact you for an interview and then do background and reference checks."
 #~ msgstr "Nếu chúng tôi hài lòng với kết quả của bạn, chúng tôi sẽ liên hệ với bạn để phỏng vấn và sau đó sẽ kiểm tra trình độ hiểu biết của bạn."
 
@@ -8661,6 +8672,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "If you don't receive the email within the next few minutes, please check your junk/spam mail folder."
 #~ msgstr "Nếu bạn không nhận được email trong vòng vài phút tới, xin vui lòng kiểm tra hòm thư rác."
+
+#~ msgid "If you have any questions or concerns, we’re here to help."
+#~ msgstr "Nếu bạn có bất kỳ thắc mắc hoặc lo ngại nào, chúng luôn tôi sẵn sàng  giúp đỡ."
 
 #~ msgid "If you have clients who would like to authorize you to place trades on their behalf, feel free to contact our affiliate managers via <a href='mailto:affiliates@binary.com'>affiliates@binary.com</a> to ask questions or set things up."
 #~ msgstr "Nếu bạn có khách hàng cho bạn quyền thay mặt đặt giao dịch, hãy liên hệ với người quản lý liên kết của chúng tôi thông qua <a href='mailto:affiliates@binary.com'>affiliates@binary.com</a> để đưa ra câu hỏi hoặc cài đặt một số thứ."
@@ -10218,6 +10232,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Login Trouble"
 #~ msgstr "Gặp rắc rối về Đăng nhập"
+
+#~ msgid "Login country:"
+#~ msgstr "Quốc gia đăng nhập:"
 
 #~ msgid "Login time:"
 #~ msgstr "Thời gian đăng nhập:"
@@ -14823,6 +14840,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Twitter Inc."
 #~ msgstr "Twitter Inc."
 
+#~ msgid "Type of device:"
+#~ msgstr "Loại thiết bị:"
+
 #~ msgid "Typical Price"
 #~ msgstr "Giá Tiêu biểu"
 
@@ -16257,6 +16277,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Your Client will receive an email notification informing him/her that the transfer has been processed."
 #~ msgstr "Khách hàng của bạn sẽ nhận được một email thông báo rằng việc chuyển tiền đã được xử lý."
+
+#~ msgid "Your Deriv account was used to login on the following device."
+#~ msgstr "Tài khoản Deriv của bạn được sử dụng để đăng nhập vào thiết bị sau."
 
 #~ msgid "Your ID will be stored in a cookie and identified every time a prospect clicks on your affiliate link and lands on %1 and in that event, opens an account with us."
 #~ msgstr "ID của bạn sẽ được lưu giữ trong cookie và được nhận diện mọi lúc khi bạn nhấp chuột vào đường dẫn liên kết của mình và truy cập vào %1 và lúc đó, mở một tài khoản với chúng tôi."
