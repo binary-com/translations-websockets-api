@@ -344,9 +344,6 @@ msgstr "Не удалось утвердить контракт."
 msgid "Cashier"
 msgstr "Касса"
 
-msgid "Cashier password updated"
-msgstr "Пароль кассы обновлён"
-
 msgid "Change in account settings"
 msgstr "Изменение настроек счета"
 
@@ -405,6 +402,11 @@ msgstr "Непрерывные индексы"
 
 msgid "Contract barrier must be positive."
 msgstr "Барьер контракта должен быть положительным значением."
+
+#, fuzzy
+#| msgid "This contract cannot be purchased within the last %1 of trading."
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "Извините, контракт не может быть куплен в последние %1 торговой сессии."
 
 # 100%
 msgid "Contract market price is too close to final payout."
@@ -821,9 +823,6 @@ msgstr "Время истечения и начала контракта не м
 msgid "Expiry time cannot be in the past."
 msgstr "Время истечения контракта не может быть в прошлом."
 
-msgid "Failed attempt to unlock cashier section"
-msgstr "Не удалось разблокировать раздел Касса"
-
 msgid "Failed to get user identity."
 msgstr "Не удалось идентифицировать пользователя."
 
@@ -1180,9 +1179,6 @@ msgstr "Проверка введенных данных не удалась: %1
 
 msgid "Input validation failed: %1."
 msgstr "Проверка введенных данных не удалась: %1."
-
-msgid "Internal server error"
-msgstr "Внутренняя ошибка сервера"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "Внутридневные контракты не могут переходить на следующий рабочий день."
@@ -1825,9 +1821,6 @@ msgstr "Пожалуйста, переключите счета для рабо�
 msgid "Please switch accounts to trade this underlying."
 msgstr "Пожалуйста, переключите счета для торговли данным активом."
 
-msgid "Please use a different password than your login password."
-msgstr "Пожалуйста, используйте другой пароль, отличный от пароля для входа в систему."
-
 msgid "Please use the address above only once."
 msgstr "Пожалуйста, используйте вышеупомянутый адрес только один раз."
 
@@ -2138,9 +2131,6 @@ msgstr "Извините, Вы не можете вывести средства
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Извините, у Вас уже было слишком много неудачных попыток. Попробуйте через пять минут."
-
-msgid "Sorry, you have entered an incorrect cashier password"
-msgstr "Извините, Вы ввели неверный пароль для раздела Касса"
 
 msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgstr "Извините, Вы превысили количество разрешенных транзакций в день."
@@ -2470,12 +2460,6 @@ msgstr "Данный email занят."
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Вы находитесь на демо-счету. Пожалуйста, переключитесь на реальный счет, чтобы получить доступ к кассе."
-
-msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
-msgstr "Это автоматическое сообщение для оповещения, что в настройках кассы Вашего счета %1 с адреса IP %2 были произведены изменения. Если это сделали не Вы, просим зайти на свой счет и обновить настройки."
-
-msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
-msgstr "Это автоматическое сообщение для оповещения, что на Вашем счету %1 была произведена неудачная попытка зайти в секцию Касса/Настройки с IP-адреса %2"
 
 msgid "This market is presently closed."
 msgstr "Данный рынок сейчас закрыт."
@@ -3106,9 +3090,6 @@ msgstr "Вы не можете выполнить данное действие,
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
 msgstr "Вы не можете выполнить данное действие, т. к. %1 не является валютой по умолчанию для платежного агента %2."
 
-msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr "Вы не можете выполнить данное действие, так как раздел касса на Вашем счёте %1 закрыт по Вашему запросу."
-
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "Вы не можете выполнить данное действие, т.к. счет %1 в настоящий момент неактивен."
 
@@ -3241,17 +3222,8 @@ msgstr "Вам необходимо пройти аутентификацию д
 msgid "Your bonus request - %1"
 msgstr "Ваш запрос на бонус - %1"
 
-msgid "Your cashier is locked as per your request."
-msgstr "Ваша касса закрыта по Вашему запросу."
-
 msgid "Your cashier is locked."
 msgstr "Ваша КАССА заблокирована."
-
-msgid "Your cashier was locked."
-msgstr "Ваша КАССА заблокирована."
-
-msgid "Your cashier was not locked."
-msgstr "Ваша КАССА не заблокирована."
 
 msgid "Your current cashier session has expired. Please start again."
 msgstr "Сессия в разделе КАССА истекла. Пожалуйста, возобновите сессию."
@@ -8869,6 +8841,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Cashier password"
 #~ msgstr "Пароль кассы"
 
+#~ msgid "Cashier password updated"
+#~ msgstr "Пароль кассы обновлён"
+
 #~ msgid "Caterpillar"
 #~ msgstr "Caterpillar"
 
@@ -11499,6 +11474,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Failed"
 #~ msgstr "Возникла ошибка"
 
+#~ msgid "Failed attempt to unlock cashier section"
+#~ msgstr "Не удалось разблокировать раздел Касса"
+
 #~ msgid "Failed to reset password. %1, please retry."
 #~ msgstr "Не удалось изменить пароль. %1, пожалуйста, попробуйте ещё раз."
 
@@ -13073,6 +13051,9 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "Internal Auditor"
 #~ msgstr "Внутренний аудитор"
+
+#~ msgid "Internal server error"
+#~ msgstr "Внутренняя ошибка сервера"
 
 #~ msgid "Internal token issue failure"
 #~ msgstr "Ошибка при авторизации"
@@ -16344,6 +16325,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Please upload image (*.jpg, *.jpeg, *.png) only."
 #~ msgstr "Просим загрузить файл только в одном из этих форматов (*.jpg, *.jpeg, *.png)."
 
+#~ msgid "Please use a different password than your login password."
+#~ msgstr "Пожалуйста, используйте другой пароль, отличный от пароля для входа в систему."
+
 #~ msgid "Please use only alphanumeric characters or spaces."
 #~ msgstr "Пожалуйста, вводите только буквы, цифры или пробелы."
 
@@ -18179,6 +18163,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Sorry, you have already had too many unsuccessful attempts.<br>Please contact Customer Support."
 #~ msgstr "Извините, но у Вас уже было несколько неудачных попыток.<br>Попробуйте еще раз позднее."
 
+#~ msgid "Sorry, you have entered an incorrect cashier password"
+#~ msgstr "Извините, Вы ввели неверный пароль для раздела Касса"
+
 #~ msgid "Sorry, you have entered an incorrect email address."
 #~ msgstr "Ошибка: Вы ввели неправильный email адрес. Пожалуйста, вернитесь и попробуйте еще раз."
 
@@ -19876,9 +19863,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "This contract cannot be priced at the moment"
 #~ msgstr "Этот контракт не может быть рассчитан в данный момент"
 
-#~ msgid "This contract cannot be purchased within the last %1 of trading."
-#~ msgstr "Извините, контракт не может быть куплен в последние %1 торговой сессии."
-
 #~ msgid "This contract cannot be purchased within the last hour of trading."
 #~ msgstr "Извините, ставка не может быть продана во время последнего часа торговой сессии."
 
@@ -19950,6 +19934,12 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "This is an ICO-only account which does not support transfers."
 #~ msgstr "Данный счёт предназначен только для ICO и не поддерживает переводы средств."
+
+#~ msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
+#~ msgstr "Это автоматическое сообщение для оповещения, что в настройках кассы Вашего счета %1 с адреса IP %2 были произведены изменения. Если это сделали не Вы, просим зайти на свой счет и обновить настройки."
+
+#~ msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
+#~ msgstr "Это автоматическое сообщение для оповещения, что на Вашем счету %1 была произведена неудачная попытка зайти в секцию Касса/Настройки с IP-адреса %2"
 
 #~ msgid "This is an automatically generated email message to notify you that someone has attempted to log into your account %1 from IP address %2. Since this IP address is not on your authorised IP network (as specified in the IP Security section of your account settings), login was denied."
 #~ msgstr "Это автоматическое сообщение для оповещения, что на Вашем счету %1 была зарегистрирована попытка входа с IP-адреса %2. Поскольку данный IP-адрес не совпадает с указанным при регистрации, вход на счет не был разрешен."
@@ -22176,6 +22166,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
 #~ msgstr "Вы не можете выполнить данное действие, так как Ваш счёт закрыт для переводов с/на MT5. Пожалуйста, свяжитесь с нами: %1"
 
+#~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
+#~ msgstr "Вы не можете выполнить данное действие, так как раздел касса на Вашем счёте %1 закрыт по Вашему запросу."
+
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Вы не можете выполнить данное действие, т. к. счет %1 отмечен как неблагонадёжный."
 
@@ -22664,11 +22657,20 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Your cashier is locked as per your request - to unlock it, please enter the password."
 #~ msgstr "Ваша касса закрыта по Вашему запросу - для открытия, пожалуйста, внесите пароль."
 
+#~ msgid "Your cashier is locked as per your request."
+#~ msgstr "Ваша касса закрыта по Вашему запросу."
+
 #~ msgid "Your cashier section is disabled at the moment. Please contact <a href=\"%1\">Customer Support</a> for assistance."
 #~ msgstr "Ваша секция КАССА временно недоступна. Просим связаться с нашей <a href=\"%1\">службой поддержки</a>."
 
 #~ msgid "Your cashier section is locked."
 #~ msgstr "Ваша секция КАССА заблокирована."
+
+#~ msgid "Your cashier was locked."
+#~ msgstr "Ваша КАССА заблокирована."
+
+#~ msgid "Your cashier was not locked."
+#~ msgstr "Ваша КАССА не заблокирована."
 
 #~ msgid "Your changes have been updated."
 #~ msgstr "Ваши изменения внесены успешно."

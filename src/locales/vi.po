@@ -345,9 +345,6 @@ msgstr "Không thể xác thực hợp đồng."
 msgid "Cashier"
 msgstr "Thu Ngân"
 
-msgid "Cashier password updated"
-msgstr "Mật khẩu thu ngân đã được cập nhật"
-
 msgid "Change in account settings"
 msgstr "Thay đổi trong thiết lập tài khoản"
 
@@ -404,6 +401,11 @@ msgstr "Các chỉ số liên tiếp"
 
 msgid "Contract barrier must be positive."
 msgstr "Giới hạn hợp đồng phải là số dương."
+
+#, fuzzy
+#| msgid "This contract cannot be properly validated at this time."
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "Hợp đồng này không thể được xác minh vào thời gian này."
 
 msgid "Contract market price is too close to final payout."
 msgstr "Giá thị trường của hợp đồng quá thấp để có thể hoàn tất thanh toán."
@@ -817,9 +819,6 @@ msgstr "Thời điểm hết hạn không thể chùng với thời điểm 
 msgid "Expiry time cannot be in the past."
 msgstr "Thời gian hết hạn không thể ở quá khứ."
 
-msgid "Failed attempt to unlock cashier section"
-msgstr "Mở khóa thu ngân thất bại"
-
 msgid "Failed to get user identity."
 msgstr "Không thể lấy được danh tính người sử dụng."
 
@@ -1170,9 +1169,6 @@ msgstr "Xác thực đầu vào thất bại: %1"
 
 msgid "Input validation failed: %1."
 msgstr "Xác thực đầu vào thất bại: %1."
-
-msgid "Internal server error"
-msgstr "Lỗi máy chủ nội bộ"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "Hợp đồng giao dịch trong ngày có thể không giao với giờ mở cửa thị trường."
@@ -1805,9 +1801,6 @@ msgstr "Vui lòng chuyển đổi tài khoản để giao dịch thị trư
 msgid "Please switch accounts to trade this underlying."
 msgstr "Vui lòng chuyển đổi tài khoản để giao dịch với đơn vị cơ sở này."
 
-msgid "Please use a different password than your login password."
-msgstr "Vui lòng sử dụng một mật khẩu khác với mật khẩu đăng nhập của bạn."
-
 msgid "Please use the address above only once."
 msgstr "Vui lòng chỉ sử dụng địa chỉ trên duy nhất một lần."
 
@@ -2110,9 +2103,6 @@ msgstr "Rất tiếc, bạn không thể rút tiền. Số tiền %1 mà bạn �
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động không thành công. Xin vui lòng thử lại sau 5 phút."
-
-msgid "Sorry, you have entered an incorrect cashier password"
-msgstr "Rất tiếc, bạn đã nhập sai mật khẩu thu ngân"
 
 msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgstr "Rất tiếc, bạn đã vượt quá số giao dịch cho phép tối đa trong ngày hôm nay."
@@ -2433,12 +2423,6 @@ msgstr "Email nhập vào đã được sử dụng từ trước"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Đây là một tài khoản tiền ảo. Vui lòng chuyển sang một tài khoản tiền thực để truy cập thu ngân."
-
-msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
-msgstr "Đây là tin nhắn tự động thông báo đã có thay đổi trong mục cài đặt thu ngân ở tài khoản %1 của bạn từ địa chỉ IP %2. Nếu bạn không phải là người thực hiện cập nhật này, vui lòng đăng nhập vào tài khoản để thay đổi lại cài đặt cài đặt."
-
-msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
-msgstr "Đây là tin nhắn tự động thông báo cho bạn rằng đã có một cố gắng không thành công trong việc mở chức năng Cài Đặt/Thu ngân trong tài khoản %1 của bạn từ địa chỉ IP %2"
 
 msgid "This market is presently closed."
 msgstr "Thị trường này hiện đang đóng."
@@ -3066,9 +3050,6 @@ msgstr "Bạn không thể thực hiện hành động này, vì %1 không phả
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
 msgstr "Bạn không thể thực hiện hành động này, vì %1 không phải là đơn vị tiền tệ mặc định cho cho đại lý thanh toán %2."
 
-msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr "Bạn không thể thực hiện hành động này vì tài khoản %1 của bạn đã bị khoá thu ngân theo yêu cầu."
-
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "Bạn không thể thực hiện hành động này vì tài khoản %1 của bạn hiện đang bị vô hiệu."
 
@@ -3201,17 +3182,8 @@ msgstr "Tài khoản của bạn cần được chứng thực để thực hi�
 msgid "Your bonus request - %1"
 msgstr "Yêu cầu tiền thưởng của bạn - %1"
 
-msgid "Your cashier is locked as per your request."
-msgstr "Thu ngân của bạn đã được khóa theo yêu cầu của bạn."
-
 msgid "Your cashier is locked."
 msgstr "Thu ngân của bạn đã bị khoá."
-
-msgid "Your cashier was locked."
-msgstr "Thu ngân của bạn đã bị khóa."
-
-msgid "Your cashier was not locked."
-msgstr "Thu ngân của bạn không bị khóa."
 
 msgid "Your current cashier session has expired. Please start again."
 msgstr "Phiên thu ngân hiện tại của bạn đã hết hạn. Vui lòng bắt đầu lại."
@@ -6657,6 +6629,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Cashier password"
 #~ msgstr "Mật khẩu Thu ngân"
 
+#~ msgid "Cashier password updated"
+#~ msgstr "Mật khẩu thu ngân đã được cập nhật"
+
 #~ msgid "Casio Computer Co. Tokyo"
 #~ msgstr "Casio Computer Co. Tokyo"
 
@@ -8637,6 +8612,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Failed"
 #~ msgstr "Thất bại"
 
+#~ msgid "Failed attempt to unlock cashier section"
+#~ msgstr "Mở khóa thu ngân thất bại"
+
 #~ msgid "Failed to reset password. %1, please retry."
 #~ msgstr "Thiết lập lại mật khẩu thất bại. %1, vui lòng thử lại."
 
@@ -9805,6 +9783,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Internal Auditor"
 #~ msgstr "Kiểm Toán viên Nội bộ"
+
+#~ msgid "Internal server error"
+#~ msgstr "Lỗi máy chủ nội bộ"
 
 #~ msgid "International Consolidated Airlines Group SA"
 #~ msgstr "International Consolidated Airlines Group SA"
@@ -12495,6 +12476,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Please type your chosen password twice into the fields below:"
 #~ msgstr "Vui lòng nhập hai lần mật khẩu đã chọn vào các ô dưới đây:"
 
+#~ msgid "Please use a different password than your login password."
+#~ msgstr "Vui lòng sử dụng một mật khẩu khác với mật khẩu đăng nhập của bạn."
+
 #~ msgid "Please use only alphanumeric characters or spaces."
 #~ msgstr "Vui lòng chỉ sử dụng kí tự chữ và số hoặc dấu cách."
 
@@ -13783,6 +13767,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
 #~ msgstr "Xin lỗi, bạn không thể rút tiền. Số tiền rút %1 của bạn vượt quá giới hạn tiền rút%2. Vui lòng liên hệ <a href=\"%3\">bộ phận hỗ trợ khách hàng</a> để xác thực tài khoản của bạn."
+
+#~ msgid "Sorry, you have entered an incorrect cashier password"
+#~ msgstr "Rất tiếc, bạn đã nhập sai mật khẩu thu ngân"
 
 #~ msgid "Sorry, you have entered an incorrect email address."
 #~ msgstr "Rất tiếc, bạn đã nhập sai địa chỉ email."
@@ -15122,6 +15109,12 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "This is an ICO-only account which does not support transfers."
 #~ msgstr "Đây là tài khoản ICO không hỗ trợ chuyển tiền."
+
+#~ msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
+#~ msgstr "Đây là tin nhắn tự động thông báo đã có thay đổi trong mục cài đặt thu ngân ở tài khoản %1 của bạn từ địa chỉ IP %2. Nếu bạn không phải là người thực hiện cập nhật này, vui lòng đăng nhập vào tài khoản để thay đổi lại cài đặt cài đặt."
+
+#~ msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
+#~ msgstr "Đây là tin nhắn tự động thông báo cho bạn rằng đã có một cố gắng không thành công trong việc mở chức năng Cài Đặt/Thu ngân trong tài khoản %1 của bạn từ địa chỉ IP %2"
 
 #~ msgid "This is an indicative barrier. Actual barrier will be the entry spot plus the barrier offset."
 #~ msgstr "Đây là giới hạn được chỉ định. Giới hạn thực sẽ là giá giao ngay đầu vào cộng với độ lệch của giới hạn."
@@ -16825,6 +16818,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
 #~ msgstr "Bạn không thể thực hiện hành động này vì tài khoản của bạn đã bị khóa các giao dịch MT5. Vui lòng liên hệ tới chúng tôi tại %1"
 
+#~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
+#~ msgstr "Bạn không thể thực hiện hành động này vì tài khoản %1 của bạn đã bị khoá thu ngân theo yêu cầu."
+
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Bạn không thể thực hiện hành động này vì tài khoản %1 của bạn được đánh dấu là không tin cậy."
 
@@ -17188,8 +17184,17 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Your cashier is locked as per your request - to unlock it, please enter the password."
 #~ msgstr "Quỹ đã được khóa theo yêu cầu của bạn - để mở khóa, vui lòng điền mật khẩu."
 
+#~ msgid "Your cashier is locked as per your request."
+#~ msgstr "Thu ngân của bạn đã được khóa theo yêu cầu của bạn."
+
 #~ msgid "Your cashier section is locked."
 #~ msgstr "Khoản quỹ của bạn bị khóa."
+
+#~ msgid "Your cashier was locked."
+#~ msgstr "Thu ngân của bạn đã bị khóa."
+
+#~ msgid "Your cashier was not locked."
+#~ msgstr "Thu ngân của bạn không bị khóa."
 
 #~ msgid "Your changes have been updated."
 #~ msgstr "Những thay đổi của bạn đã được cập nhật."

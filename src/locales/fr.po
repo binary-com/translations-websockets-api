@@ -344,9 +344,6 @@ msgstr "Le contrat ne peut être validé."
 msgid "Cashier"
 msgstr "Caisse"
 
-msgid "Cashier password updated"
-msgstr "Le mot de passe de la Caisse a été mis à jour"
-
 msgid "Change in account settings"
 msgstr "Changement dans les paramètres du compte"
 
@@ -405,6 +402,11 @@ msgstr "Indices continus"
 
 msgid "Contract barrier must be positive."
 msgstr "La barrière doit être positive."
+
+#, fuzzy
+#| msgid "This contract cannot be purchased within the last %1 of trading."
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "Ce contrat ne peut pas être acheté au cours de la dernière %1 de trading."
 
 msgid "Contract market price is too close to final payout."
 msgstr "Le prix de marché du contrat est trop proche du montant de paiement final."
@@ -823,9 +825,6 @@ msgstr "L'heure d'expiration ne peut être identique à l'heure de début."
 msgid "Expiry time cannot be in the past."
 msgstr "L'heure d'expiration ne peut être antérieure."
 
-msgid "Failed attempt to unlock cashier section"
-msgstr "Tentative infructueuse de déverrouillage de la section caisse"
-
 msgid "Failed to get user identity."
 msgstr "L'identité de l'utilisateur n'a pas pu être obtenue."
 
@@ -1180,9 +1179,6 @@ msgstr "Échec de validation de la saisie : %1"
 
 msgid "Input validation failed: %1."
 msgstr "Échec de validation de la saisie : %1."
-
-msgid "Internal server error"
-msgstr "Erreur interne du serveur"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "Les contrats intrajournaliers ne peuvent excéder les horaires d'ouverture du marché."
@@ -1817,9 +1813,6 @@ msgstr "Veuillez changer de compte pour négocier ce marché."
 msgid "Please switch accounts to trade this underlying."
 msgstr "Veuillez changer de compte pour négocier ce sous-jacent."
 
-msgid "Please use a different password than your login password."
-msgstr "Veuillez utiliser un mot de passe différent de votre mot de passe de connexion."
-
 msgid "Please use the address above only once."
 msgstr "Veuillez utiliser l'adresse ci-dessus seulement une fois."
 
@@ -2124,9 +2117,6 @@ msgstr "Désolé, vous ne pouvez pas effectuer de retrait. Le montant de votre r
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Désolé, vous avez déjà effectué trop de tentatives infructueuses. Veuillez réessayer dans 5 minutes."
-
-msgid "Sorry, you have entered an incorrect cashier password"
-msgstr "Désolé, vous avez saisi un mot de passe de caisse incorrect"
 
 msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgstr "Désolé, vous avez dépassé le maximum de transactions autorisé pour aujourd'hui."
@@ -2447,12 +2437,6 @@ msgstr "Cet e-mail est déjà pris"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Ceci est un compte virtuel. Veuillez basculer vers un compte réel pour accéder au guichet."
-
-msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
-msgstr "Ceci est un message automatique vous avertissant qu'un changement a été effectué dans la section des paramètres de caisse de votre compte %1 depuis l'adresse IP %2. Si vous n'êtes pas à l'origine de cette mise à jour, veuillez vous connecter à votre compte et mettre à jour vos paramètres."
-
-msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
-msgstr "Ceci est un message automatique vous informant qu'une tentative infructueuse de déverrouillage de votre section Caisse/Paramètres a été enregistrée sur votre compte %1 depuis l'adresse IP %2"
 
 msgid "This market is presently closed."
 msgstr "Ce marché est actuellement fermé."
@@ -3080,9 +3064,6 @@ msgstr "Vous ne pouvez pas effectuer cette action, puisque %1 n'est pas la valeu
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
 msgstr "Vous ne pouvez pas effectuer cette action, puisque %1 n'est pas la devise par défaut du compte pour le paiement de l'agent %2."
 
-msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr "Vous ne pouvez pas effectuer cette action, car la caisse de votre compte %1 est bloquée  sur demande."
-
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "Vous ne pouvez pas effectuer cette action, car votre compte %1 est actuellement désactivé."
 
@@ -3215,17 +3196,8 @@ msgstr "Votre compte doit être authentifié pour effectuer les transferts d'age
 msgid "Your bonus request - %1"
 msgstr "Votre demande de bonus : %1"
 
-msgid "Your cashier is locked as per your request."
-msgstr "Votre caisse est verrouillée conformément à votre demande."
-
 msgid "Your cashier is locked."
 msgstr "Votre caisse est verrouillée."
-
-msgid "Your cashier was locked."
-msgstr "Votre caisse était verrouillée."
-
-msgid "Your cashier was not locked."
-msgstr "Votre caisse n'était pas verrouillée."
 
 msgid "Your current cashier session has expired. Please start again."
 msgstr "Votre session de caisse actuelle a expiré. Veuillez recommencer."
@@ -7954,6 +7926,9 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "Cashier password"
 #~ msgstr "Mot de passe Caisse"
 
+#~ msgid "Cashier password updated"
+#~ msgstr "Le mot de passe de la Caisse a été mis à jour"
+
 #~ msgid "Caterpillar"
 #~ msgstr "Caterpillar"
 
@@ -10367,6 +10342,9 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "Failed"
 #~ msgstr "Échec"
 
+#~ msgid "Failed attempt to unlock cashier section"
+#~ msgstr "Tentative infructueuse de déverrouillage de la section caisse"
+
 #~ msgid "Failed to reset password. %1, please retry."
 #~ msgstr "Échec de la réinitialisation du mot de passe. %1, veuillez réessayer."
 
@@ -11901,6 +11879,9 @@ msgstr "aujourd'hui, Vendredis"
 #~| msgid "Internal Audit"
 #~ msgid "Internal Auditor"
 #~ msgstr "Auditeur interne"
+
+#~ msgid "Internal server error"
+#~ msgstr "Erreur interne du serveur"
 
 #~ msgid "Internal token issue failure"
 #~ msgstr "Échec interne d'un problème concernant votre token"
@@ -15139,6 +15120,9 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "Please upload image (*.jpg, *.jpeg, *.png) only."
 #~ msgstr "Veuillez charger uniquement des images (*.jpg, *.jpeg, *.png)."
 
+#~ msgid "Please use a different password than your login password."
+#~ msgstr "Veuillez utiliser un mot de passe différent de votre mot de passe de connexion."
+
 #~ msgid "Please use only alphanumeric characters or spaces."
 #~ msgstr "Veuillez utiliser uniquement des caractères alphanumériques ou des espaces."
 
@@ -16809,6 +16793,9 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "Sorry, you have already had too many unsuccessful attempts.<br>Please contact Customer Support."
 #~ msgstr "Désolé, vous avez déjà effectué trop de tentatives infructueuses.<br>Veuillez contacter le Service Clientèle."
 
+#~ msgid "Sorry, you have entered an incorrect cashier password"
+#~ msgstr "Désolé, vous avez saisi un mot de passe de caisse incorrect"
+
 #~ msgid "Sorry, you have entered an incorrect email address."
 #~ msgstr "Désolé, vous avez saisi une adresse e-mail incorrecte."
 
@@ -18384,9 +18371,6 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "This contract cannot be priced at the moment"
 #~ msgstr "Ce contrat ne peut pas être tarifié pour le moment"
 
-#~ msgid "This contract cannot be purchased within the last %1 of trading."
-#~ msgstr "Ce contrat ne peut pas être acheté au cours de la dernière %1 de trading."
-
 #~| msgid "This contract has expired."
 #~ msgid "This contract has LOST"
 #~ msgstr "Ce contrat a été PERDU"
@@ -18459,6 +18443,12 @@ msgstr "aujourd'hui, Vendredis"
 
 #~ msgid "This is an ICO-only account which does not support transfers."
 #~ msgstr "Il s’agit d’un compte ICO uniquement, qui ne prend pas en charge les transferts."
+
+#~ msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
+#~ msgstr "Ceci est un message automatique vous avertissant qu'un changement a été effectué dans la section des paramètres de caisse de votre compte %1 depuis l'adresse IP %2. Si vous n'êtes pas à l'origine de cette mise à jour, veuillez vous connecter à votre compte et mettre à jour vos paramètres."
+
+#~ msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
+#~ msgstr "Ceci est un message automatique vous informant qu'une tentative infructueuse de déverrouillage de votre section Caisse/Paramètres a été enregistrée sur votre compte %1 depuis l'adresse IP %2"
 
 #~ msgid "This is an automatically generated email message to notify you that someone has attempted to log into your account %1 from IP address %2. Since this IP address is not on your authorised IP network (as specified in the IP Security section of your account settings), login was denied."
 #~ msgstr "Ceci est un email généré automatiquement vous indiquant que quelqu'un a essayé de se connecter à votre compte %1 depuis l'adresse IP %2. Etant donné que cette adresse IP ne figure pas sur votre réseau IP autorisé (comme défini dans la section de Sécurité IP dans les paramètres de votre compte), la connexion a été refusée."
@@ -20603,6 +20593,9 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
 #~ msgstr "Vous ne pouvez pas effectuer cette action parce que votre compte a été bloqué pour les transferts MT5. Veuillez nous contacter via %1"
 
+#~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
+#~ msgstr "Vous ne pouvez pas effectuer cette action, car la caisse de votre compte %1 est bloquée  sur demande."
+
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Vous ne pouvez pas effectuer cette action, comme votre compte %1 est marqué comme indésirable."
 
@@ -21028,11 +21021,20 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "Your cashier is locked as per your request - to unlock it, please enter the password."
 #~ msgstr "Votre caisse est verrouillée conformément à votre demande - si vous souhaitez la déverrouiller, veuillez saisir le mot de passe."
 
+#~ msgid "Your cashier is locked as per your request."
+#~ msgstr "Votre caisse est verrouillée conformément à votre demande."
+
 #~ msgid "Your cashier section is disabled at the moment. Please contact <a href=\"%1\">Customer Support</a> for assistance."
 #~ msgstr "Votre section caisse est désactivée pour le moment. Veuillez contacter le <a href=\"%1\">Service Clientèle</a> pour obtenir de l'aide."
 
 #~ msgid "Your cashier section is locked."
 #~ msgstr "Votre section caisse est verrouillée."
+
+#~ msgid "Your cashier was locked."
+#~ msgstr "Votre caisse était verrouillée."
+
+#~ msgid "Your cashier was not locked."
+#~ msgstr "Votre caisse n'était pas verrouillée."
 
 #~| msgid "Your details have been updated."
 #~ msgid "Your changes have been updated."

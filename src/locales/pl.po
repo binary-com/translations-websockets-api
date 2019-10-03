@@ -339,9 +339,6 @@ msgstr "Nie udało się potwierdzić kontraktu."
 msgid "Cashier"
 msgstr "Kasjer"
 
-msgid "Cashier password updated"
-msgstr "Hasło do sekcji Kasjer zostało zaktualizowane"
-
 msgid "Change in account settings"
 msgstr "Zmiana w ustawieniach konta"
 
@@ -398,6 +395,11 @@ msgstr "Wskaźniki ciągłe"
 
 msgid "Contract barrier must be positive."
 msgstr "Limit kontraktu musi być wartością dodatnią."
+
+#, fuzzy
+#| msgid "This contract cannot be properly validated at this time."
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "Ten kontrakt nie może być obecnie prawidłowo zweryfikowany."
 
 msgid "Contract market price is too close to final payout."
 msgstr "Cena rynkowa kontraktu jest zbyt zbliżona do ostatecznej wysokości wypłaty."
@@ -816,9 +818,6 @@ msgstr "Czas wygaśnięcia nie może być taki sam jak czas rozpoczęcia."
 msgid "Expiry time cannot be in the past."
 msgstr "Czas wygaśnięcia nie może być datą przeszłą."
 
-msgid "Failed attempt to unlock cashier section"
-msgstr "Nieudana próba odblokowania sekcji Kasjer"
-
 msgid "Failed to get user identity."
 msgstr "Nie udało się zweryfikować tożsamość użytkownika."
 
@@ -1173,9 +1172,6 @@ msgstr "Weryfikacja danych wejściowych nie powiodła się: %1"
 
 msgid "Input validation failed: %1."
 msgstr "Weryfikacja danych wejściowych nie powiodła się: %1."
-
-msgid "Internal server error"
-msgstr "Błąd serwera"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "Kontrakty dzienne nie mogą być zawierane na okres dłuższy niż do momentu otwarcia rynku następnego dnia."
@@ -1810,9 +1806,6 @@ msgstr "Proszę skorzystać z drugiego konta, aby handlować na tym rynku."
 msgid "Please switch accounts to trade this underlying."
 msgstr "Proszę skorzystać z drugiego konta, aby handlować tym aktywem bazownym."
 
-msgid "Please use a different password than your login password."
-msgstr "Proszę użyć innego hasła niż hasło logowania."
-
 msgid "Please use the address above only once."
 msgstr "Proszę użyć powyższego adresu tylko raz."
 
@@ -2117,9 +2110,6 @@ msgstr "Przepraszamy, ale nie można dokonać wypłaty. Podana kwota wypłaty %1
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Przepraszamy, wykonano zbyt wiele prób zakończonych niepowodzeniem. Prosimy spróbować ponownie za 5 minut."
-
-msgid "Sorry, you have entered an incorrect cashier password"
-msgstr "Przepraszamy, wpisano nieprawidłowe hasło do kasjera"
 
 msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgstr "Przepraszamy, przekroczono maksymalną dozwoloną na dziś liczbę transakcji."
@@ -2440,12 +2430,6 @@ msgstr "Ten adres e-mail już w użyciu"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "To jest konto z wirtualnymi pieniędzmi. Proszę przejść do konta z prawdziwymi pieniędzmi, aby uzyskać dostęp do sekcji Kasjer."
-
-msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
-msgstr "To jest wiadomość automatyczna wysłana w celu powiadomienia, że dokonano zmiany w ustawieniach na Twoim koncie %1 z adresu IP %2. Jeśli to nie Ty dokonałeś/aś tej zmiany, prosimy zalogować się na swoje konto i zmienić ustawienia."
-
-msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
-msgstr "To jest wiadomość automatyczna wysłana w celu powiadomienia, że dokonano zakończonej niepowodzeniem próby odblokowania sekcji Kasjer/Ustawienia na Twoim koncie %1 z adresu IP %2"
 
 msgid "This market is presently closed."
 msgstr "Rynek jest obecnie zamknięty."
@@ -3073,9 +3057,6 @@ msgstr "Nie możesz wykonać tej czynności, ponieważ %1 nie jest domyślną wa
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
 msgstr "Nie możesz wykonać tej czynności, ponieważ %1 nie jest domyślną walutą dla pośrednika płatności %2."
 
-msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr "Nie możesz wykonać tej czynności, ponieważ sekcja Kasjer powiązana z Twoim kontem %1 została zablokowana na Twoją prośbę."
-
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "Nie możesz wykonać tej czynności, ponieważ konto %1 jest obecnie wyłączone."
 
@@ -3208,17 +3189,8 @@ msgstr "Aby dokonywać przelewów przez pośrednika płatności, Twoje konto mus
 msgid "Your bonus request - %1"
 msgstr "Twój wniosek o bonus - %1"
 
-msgid "Your cashier is locked as per your request."
-msgstr "Twoja sekcja Kasjer została zablokowana na Twoją prośbę."
-
 msgid "Your cashier is locked."
 msgstr "Twoja sekcja Kasjer jest zablokowana."
-
-msgid "Your cashier was locked."
-msgstr "Twoja sekcja Kasjer została zablokowana."
-
-msgid "Your cashier was not locked."
-msgstr "Twoja sekcja Kasjer nie została zablokowana."
 
 msgid "Your current cashier session has expired. Please start again."
 msgstr "Twoja obecna sesja w sekcji Kasjer wygasła/ Spróbuj ponownie."
@@ -7579,6 +7551,9 @@ msgstr "dziś, piątki"
 #~ msgid "Cashier password"
 #~ msgstr "Hasło do sekcji Kasjer"
 
+#~ msgid "Cashier password updated"
+#~ msgstr "Hasło do sekcji Kasjer zostało zaktualizowane"
+
 #~ msgid "Casio Computer Co. Tokyo"
 #~ msgstr "Casio Computer Co. Tokyo"
 
@@ -10041,6 +10016,9 @@ msgstr "dziś, piątki"
 #~ msgid "Failed"
 #~ msgstr "Zakończone niepowodzeniem"
 
+#~ msgid "Failed attempt to unlock cashier section"
+#~ msgstr "Nieudana próba odblokowania sekcji Kasjer"
+
 #~ msgid "Failed to reset password. %1, please retry."
 #~ msgstr "Nie udało się zresetować hasła. %1, spróbuj ponownie."
 
@@ -11463,6 +11441,9 @@ msgstr "dziś, piątki"
 
 #~ msgid "Internal Auditor"
 #~ msgstr "Audytor wewnętrzny"
+
+#~ msgid "Internal server error"
+#~ msgstr "Błąd serwera"
 
 #~ msgid "International Consolidated Airlines Group SA"
 #~ msgstr "International Consolidated Airlines Group SA"
@@ -14571,6 +14552,9 @@ msgstr "dziś, piątki"
 #~ msgid "Please upload image (*.jpg, *.jpeg, *.png) only."
 #~ msgstr "Dodaj obraz (tylko w formacie *.jpg, *.jpeg lub *.png)."
 
+#~ msgid "Please use a different password than your login password."
+#~ msgstr "Proszę użyć innego hasła niż hasło logowania."
+
 #~ msgid "Please use only alphanumeric characters or spaces."
 #~ msgstr "Prosimy używać tylko znaków alfanumerycznych lub spacji."
 
@@ -16139,6 +16123,9 @@ msgstr "dziś, piątki"
 
 #~ msgid "Sorry, you have already had too many unsuccessful attempts.<br>Please contact Customer Support."
 #~ msgstr "Przepraszamy, wykonano zbyt wiele prób zakończonych niepowodzeniem.<br>Prosimy o kontakt z obsługą klienta."
+
+#~ msgid "Sorry, you have entered an incorrect cashier password"
+#~ msgstr "Przepraszamy, wpisano nieprawidłowe hasło do kasjera"
 
 #~ msgid "Sorry, you have entered an incorrect email address."
 #~ msgstr "Przepraszamy, wpisano nieprawidłowy adres e-mail."
@@ -17728,6 +17715,12 @@ msgstr "dziś, piątki"
 
 #~ msgid "This is an ICO-only account which does not support transfers."
 #~ msgstr "To konto wyłącznie na potrzeby ICO, które nie obsługuje dokonywania przelewów."
+
+#~ msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
+#~ msgstr "To jest wiadomość automatyczna wysłana w celu powiadomienia, że dokonano zmiany w ustawieniach na Twoim koncie %1 z adresu IP %2. Jeśli to nie Ty dokonałeś/aś tej zmiany, prosimy zalogować się na swoje konto i zmienić ustawienia."
+
+#~ msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
+#~ msgstr "To jest wiadomość automatyczna wysłana w celu powiadomienia, że dokonano zakończonej niepowodzeniem próby odblokowania sekcji Kasjer/Ustawienia na Twoim koncie %1 z adresu IP %2"
 
 #~ msgid "This is an automatically generated email message to notify you that someone has attempted to log into your account %1 from IP address %2. Since this IP address is not on your authorised IP network (as specified in the IP Security section of your account settings), login was denied."
 #~ msgstr "To jest wiadomość automatyczna wysłana w celu powiadomienia, że dokonano zakończonej niepowodzeniem próby odblokowania sekcji Kasjer/Ustawienia Twojego konta %1 z adresu IP %2. Ponieważ ten adres IP nie znajduje się w Twojej sieci upoważnionych adresów IP (określonej w sekcji Bezpieczeństwo w ustawieniach Twojego konta), odmówiono logowania."
@@ -19781,6 +19774,9 @@ msgstr "dziś, piątki"
 #~ msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
 #~ msgstr "Nie możesz wykonać tej czynności, ponieważ przelewy MT5 zostały zablokowane na Twoim koncie. Skontaktuj się z nami pod adresem %1"
 
+#~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
+#~ msgstr "Nie możesz wykonać tej czynności, ponieważ sekcja Kasjer powiązana z Twoim kontem %1 została zablokowana na Twoją prośbę."
+
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Nie możesz wykonać tej czynności, ponieważ Twoje konto %1 jest oznaczone jako niepożądane."
 
@@ -20209,11 +20205,20 @@ msgstr "dziś, piątki"
 #~ msgid "Your cashier is locked as per your request - to unlock it, please enter the password."
 #~ msgstr "Sekcja Kasjer została zablokowana na Twoją prośbę - jeśli chcesz ją odblokować, prosimy o podanie hasła."
 
+#~ msgid "Your cashier is locked as per your request."
+#~ msgstr "Twoja sekcja Kasjer została zablokowana na Twoją prośbę."
+
 #~ msgid "Your cashier section is disabled at the moment. Please contact <a href=\"%1\">Customer Support</a> for assistance."
 #~ msgstr "Twój wybór kasjera jest w tej chwili wyłączony. Skontaktuj się z <a href=\"%1\">obsługa klienta</a>, aby uzyskać pomoc."
 
 #~ msgid "Your cashier section is locked."
 #~ msgstr "Twoja sekcja Kasjer jest zablokowana."
+
+#~ msgid "Your cashier was locked."
+#~ msgstr "Twoja sekcja Kasjer została zablokowana."
+
+#~ msgid "Your cashier was not locked."
+#~ msgstr "Twoja sekcja Kasjer nie została zablokowana."
 
 #~ msgid "Your changes have been updated."
 #~ msgstr "Twoje zmiany zostały wprowadzone."

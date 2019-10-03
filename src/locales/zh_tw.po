@@ -335,9 +335,6 @@ msgstr "無法驗證合約。"
 msgid "Cashier"
 msgstr "收銀台"
 
-msgid "Cashier password updated"
-msgstr "收銀台密碼已更新"
-
 msgid "Change in account settings"
 msgstr "帳戶設定更改"
 
@@ -394,6 +391,11 @@ msgstr "連續指數"
 
 msgid "Contract barrier must be positive."
 msgstr "合約障礙必須為正數。"
+
+#, fuzzy
+#| msgid "This contract cannot be properly validated at this time."
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "目前該交易無法正確驗證。"
 
 msgid "Contract market price is too close to final payout."
 msgstr "合約市場價格離最終賠付額太近。"
@@ -807,9 +809,6 @@ msgstr "到期時間不可與開始時間相同。"
 msgid "Expiry time cannot be in the past."
 msgstr "到期時間不可在過去。"
 
-msgid "Failed attempt to unlock cashier section"
-msgstr "收銀台無法解鎖"
-
 msgid "Failed to get user identity."
 msgstr "無法獲取使用者身份。"
 
@@ -1160,9 +1159,6 @@ msgstr "輸入驗證失敗: %1"
 
 msgid "Input validation failed: %1."
 msgstr "輸入驗證失敗: %1。"
-
-msgid "Internal server error"
-msgstr "內部伺服器出錯"
 
 msgid "Intraday contracts may not cross market open."
 msgstr "日內合約不能跨越開市。"
@@ -1795,9 +1791,6 @@ msgstr "請換一個帳戶進行此市場交易。"
 msgid "Please switch accounts to trade this underlying."
 msgstr "請換一個帳戶進行此標的交易。"
 
-msgid "Please use a different password than your login password."
-msgstr "請使用與登入密碼不同的密碼。"
-
 msgid "Please use the address above only once."
 msgstr "以上地址僅能使用一次。"
 
@@ -2100,9 +2093,6 @@ msgstr "對不起，您不能提款。您的提款金額%1超過提款限額%2�
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "對不起，您的失敗嘗試次數過多。請5分鐘後再試。"
-
-msgid "Sorry, you have entered an incorrect cashier password"
-msgstr "對不起，您輸入的收銀台密碼不正確"
 
 msgid "Sorry, you have exceeded the maximum allowable transactions for today."
 msgstr "對不起，您已超過今日允許的最大交易數。"
@@ -2423,12 +2413,6 @@ msgstr "此電子郵件已被使用"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "這是虛擬帳戶。要存取收銀台請轉換到真實資金帳戶。"
-
-msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
-msgstr "這是自動消息，提醒您下列情況：您帳戶%1的收銀台/設定部份已被來自IP地址%2進行了更改。如您並沒執行該項更新，請登入您的帳戶並對設定進行更新。"
-
-msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
-msgstr "這是自動消息，提醒您下列情況：有一個來自IP 地址%2 的失敗嘗試，試圖解除您帳戶%1的收銀台/設定部份的鎖定"
 
 msgid "This market is presently closed."
 msgstr "此市場目前已收市。"
@@ -3056,9 +3040,6 @@ msgstr "您無法執行此操作，因為%1 不是客戶 %2的預設帳戶貨幣
 msgid "You cannot perform this action, as %1 is not the default account currency for payment agent %2."
 msgstr "您不能執行此操作，因為%1 不是付款代理 %2的預設帳戶貨幣。"
 
-msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
-msgstr "無法繼續操作，因%1帳戶收銀台已按請求鎖上。"
-
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "您不能執行此操作，因為您的帳戶%1目前已禁用。"
 
@@ -3191,17 +3172,8 @@ msgstr "帳戶需通過驗證才能進行付款代理轉帳。"
 msgid "Your bonus request - %1"
 msgstr "您的獎勵請求- %1"
 
-msgid "Your cashier is locked as per your request."
-msgstr "您的收銀台已依照您的請求被鎖定。"
-
 msgid "Your cashier is locked."
 msgstr "您的收銀台已被鎖定。"
-
-msgid "Your cashier was locked."
-msgstr "您的收銀台已被鎖定。"
-
-msgid "Your cashier was not locked."
-msgstr "您的收銀台沒有被鎖定。"
 
 msgid "Your current cashier session has expired. Please start again."
 msgstr "您目前的收銀台工作階段已經過期。請重新開始。"
@@ -6465,6 +6437,9 @@ msgstr "今天，每星期五"
 #~ msgid "Cashier password"
 #~ msgstr "收銀台密碼"
 
+#~ msgid "Cashier password updated"
+#~ msgstr "收銀台密碼已更新"
+
 #~ msgid "Caterpillar"
 #~ msgstr "開拓重工"
 
@@ -8369,6 +8344,9 @@ msgstr "今天，每星期五"
 #~ msgid "Failed"
 #~ msgstr "失敗"
 
+#~ msgid "Failed attempt to unlock cashier section"
+#~ msgstr "收銀台無法解鎖"
+
 #~ msgid "Failed to reset password. %1, please retry."
 #~ msgstr "無法重設密碼。%1，請重試。"
 
@@ -9501,6 +9479,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Internal Auditor"
 #~ msgstr "內部審計員"
+
+#~ msgid "Internal server error"
+#~ msgstr "內部伺服器出錯"
 
 #~ msgid "International Consolidated Airlines Group SA"
 #~ msgstr "國際航空集團"
@@ -12079,6 +12060,9 @@ msgstr "今天，每星期五"
 #~ msgid "Please type your chosen password twice into the fields below:"
 #~ msgstr "請在以下欄位輸入您設定的密碼兩次："
 
+#~ msgid "Please use a different password than your login password."
+#~ msgstr "請使用與登入密碼不同的密碼。"
+
 #~ msgid "Please use only alphanumeric characters or spaces."
 #~ msgstr "請僅使用字母或空格。"
 
@@ -13299,6 +13283,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
 #~ msgstr "對不起，您不能提款。您的提款額 %1 超出提款限額%2。請聯繫<a href=\"%3\">客服部</a>驗證您的帳戶。"
+
+#~ msgid "Sorry, you have entered an incorrect cashier password"
+#~ msgstr "對不起，您輸入的收銀台密碼不正確"
 
 #~ msgid "Sorry, you have entered an incorrect email address."
 #~ msgstr "對不起，您輸入的電郵地址不正確。"
@@ -14545,6 +14532,12 @@ msgstr "今天，每星期五"
 
 #~ msgid "This is an ICO-only account which does not support transfers."
 #~ msgstr "此帳戶僅供ICO用途，不支持轉帳。"
+
+#~ msgid "This is an automated message to alert you that a change was made to your cashier settings section of your account %1 from IP address %2. If you did not perform this update please login to your account and update settings."
+#~ msgstr "這是自動消息，提醒您下列情況：您帳戶%1的收銀台/設定部份已被來自IP地址%2進行了更改。如您並沒執行該項更新，請登入您的帳戶並對設定進行更新。"
+
+#~ msgid "This is an automated message to alert you to the fact that there was a failed attempt to unlock the Cashier/Settings section of your account %1 from IP address %2"
+#~ msgstr "這是自動消息，提醒您下列情況：有一個來自IP 地址%2 的失敗嘗試，試圖解除您帳戶%1的收銀台/設定部份的鎖定"
 
 #~ msgid "This is an indicative barrier. Actual barrier will be the entry spot plus the barrier offset."
 #~ msgstr "這是一個指示性的障礙。實際障礙將是入市現價加上障礙距離。"
@@ -16172,6 +16165,9 @@ msgstr "今天，每星期五"
 #~ msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
 #~ msgstr "無法繼續操作，因為您的帳戶已被鎖上，無法進行MT5轉帳。請到%1與我們聯繫。"
 
+#~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
+#~ msgstr "無法繼續操作，因%1帳戶收銀台已按請求鎖上。"
+
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "您不能執行此操作，因為您的帳戶%1已被標記為不受歡迎。"
 
@@ -16530,8 +16526,17 @@ msgstr "今天，每星期五"
 #~ msgid "Your cashier is locked as per your request - to unlock it, please enter the password."
 #~ msgstr "根據您的請求，您的收銀台已被鎖定- 如需解除鎖定，請輸入密碼。"
 
+#~ msgid "Your cashier is locked as per your request."
+#~ msgstr "您的收銀台已依照您的請求被鎖定。"
+
 #~ msgid "Your cashier section is locked."
 #~ msgstr "您的收銀台區段已被鎖定。"
+
+#~ msgid "Your cashier was locked."
+#~ msgstr "您的收銀台已被鎖定。"
+
+#~ msgid "Your cashier was not locked."
+#~ msgstr "您的收銀台沒有被鎖定。"
 
 #~ msgid "Your changes have been updated."
 #~ msgstr "您的更改已成功更新。"
