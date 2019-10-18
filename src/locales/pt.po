@@ -604,17 +604,6 @@ msgstr "O período de exclusão de depósitos tem que ser depois de hoje."
 msgid "Device:"
 msgstr "Dispositivo:"
 
-#, fuzzy
-#| msgid "Forgot password?"
-msgid "Did you try to reset your Deriv password?"
-msgstr "Esqueceu a senha?"
-
-msgid "Did you try to sign up with Deriv?"
-msgstr ""
-
-msgid "Did you try to verify an email for Deriv?"
-msgstr ""
-
 msgid "Digit Differs"
 msgstr "Dígito difere"
 
@@ -2376,11 +2365,6 @@ msgstr "A equipe da %1."
 msgid "The %1 team."
 msgstr "A equipe da %1."
 
-#, fuzzy
-#| msgid "This account has been disabled."
-msgid "The account has since been closed."
-msgstr "Esta conta foi desativada."
-
 msgid "The address can be only used once. Please generate a new address."
 msgstr "O endereço só pode ser usado uma vez. Gere um novo endereço."
 
@@ -2906,16 +2890,31 @@ msgstr ""
 msgid "We received a request to change the password for the account with the email %1."
 msgstr ""
 
-#, fuzzy
-#| msgid "These are the bank account details you provided previously. If you wish to register a different account then please contact customer support."
-msgid "We received a request to open a new account for this email (%1), which belongs to a closed account. If you would like to reactivate your account, please contact customer support."
-msgstr "Estes são os dados bancários que você forneceu anteriormente. Caso deseje registrar uma conta diferente, entre em contato com o apoio ao cliente."
-
 msgid "We received a request to reset your password."
 msgstr ""
 
 msgid "We recently sent you an email requesting documents to authenticate your MT5 real money account."
 msgstr "Enviamos-lhe um pedido de documentação por e-mail recentemente para autenticar a sua conta de dinheiro real na MT5."
+
+msgid "We were unable to send you a password reset link"
+msgstr ""
+
+msgid "We were unable to send you a password reset link because your email is associated with a closed account."
+msgstr ""
+
+msgid "We were unable to sign you up"
+msgstr ""
+
+msgid "We were unable to sign you up because this email is associated with a closed account."
+msgstr ""
+
+#, fuzzy
+#| msgid "Please re-enter your email"
+msgid "We were unable to verify your email"
+msgstr "Redigite o seu endereço de e-mail"
+
+msgid "We were unable to verify your email because it is associated with a closed account."
+msgstr ""
 
 #, fuzzy
 #| msgid "We would like to inform you that your %1 has been processed."
@@ -3379,21 +3378,6 @@ msgstr "A sua conta pode fazer apenas retiradas."
 
 msgid "Your account needs to be authenticated to perform payment agent transfers."
 msgstr "A sua conta precisa ser autenticada para realizar transferências para o agente de pagamento."
-
-msgid "Your attempt to create a new account was unsuccessful because you have already created a %1 account with this email."
-msgstr ""
-
-msgid "Your attempt to reset a password was unsuccessful, because the account that was registered using this email has been closed."
-msgstr ""
-
-msgid "Your attempt to verify an email was unsuccessful, because the account that was registered using this email has been closed."
-msgstr ""
-
-msgid "Your attempt was unsuccessful because the account that was registered using this email has been closed."
-msgstr ""
-
-msgid "Your attempt was unsuccessful because you have already created a Deriv account with this email."
-msgstr ""
 
 msgid "Your bonus request - %1"
 msgstr "O seu pedido de bônus - %1"
@@ -9899,6 +9883,11 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Dialog Semiconductor plc"
 #~ msgstr "Dialog Semiconductor plc"
 
+#, fuzzy
+#~| msgid "Forgot password?"
+#~ msgid "Did you try to reset your Deriv password?"
+#~ msgstr "Esqueceu a senha?"
+
 #~ msgid "Differences with other data feeds"
 #~ msgstr "Diferenças com outros feeds de dados"
 
@@ -15558,9 +15547,6 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Please provide your email address and password to open a virtual money account and start practicing."
 #~ msgstr "Forneça o seu endereço de e-mail e senha para abrir uma conta de dinheiro virtual e começar a praticar."
 
-#~ msgid "Please re-enter your email"
-#~ msgstr "Redigite o seu endereço de e-mail"
-
 #~ msgid "Please read our <a href=\"%1\" target=\"_blank\">FAQs</a> for answers to common questions. If you still require assistance, please contact us by clicking live chat, or via email, or phone as per below."
 #~ msgstr "Leias as nossas <a href=\"%1\" target=\"_blank\">FAQs</a> para consultar as respostas às perguntas comuns. Se ainda precisar de assistência, contate-nos clicando no chat em tempo real, por e-mail, ou por telefone de acordo com a informações abaixo."
 
@@ -18453,6 +18439,11 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "The access-token retrieved earlier has a limited lifetime.  In the case of Auth-Code Flow only, it can be renewed."
 #~ msgstr "O acess-token anteriormente recuperado tem uma vida útil limitada. No caso de apenas Auth-Code Flow, ele pode ser renovado."
 
+#, fuzzy
+#~| msgid "This account has been disabled."
+#~ msgid "The account has since been closed."
+#~ msgstr "Esta conta foi desativada."
+
 #~ msgid "The account must be in your name and match your binary.com account details. This will be the only account to which we will make payments if you wish to withdraw funds. If your bank account details change in future, please contact customer support who will need to verify your ID and new back account details."
 #~ msgstr "A conta deve ser no seu nome e os dados devem corresponder aos dados da sua conta na Binary.com. Esta será a única conta para qual enviaremos pagamentos no caso de você querer retirar fundos. Caso os dados da sua conta bancária se alterem no futuro, contate o apoio ao cliente que irá precisar verificar a sua ID e os novos dados da sua conta bancária."
 
@@ -20486,6 +20477,11 @@ msgstr "hoje, sextas-feiras"
 
 #~ msgid "We rebrand BetOnMarkets.com as <a target=\"_blank\" href=\"%1\">www.binary.com</a>. The rebranding is a natural evolution for the platform as it continues to grow market share in the highly competitive field of binary trading. The new brand reflects the nature of the business, and our new tagline – Sharp Prices, Smart Trading – communicates our ethos and commitment to our clients."
 #~ msgstr "Nós renomeamos a BetOnMarkets.com como <a target=\"_blank\" href=\"%1\">www.binary.com</a>. A mudança no nome da marca é uma evolução natural para a plataforma que continua a aumentar a sua quota no mercado altamente competitivo de negociação binária. A nova marca reflete a natureza do nosso negócio, e o nosso slogan - Preços afiados, negociações inteligentes - comunica a nossa ética e compromisso com os nossos clientes."
+
+#, fuzzy
+#~| msgid "These are the bank account details you provided previously. If you wish to register a different account then please contact customer support."
+#~ msgid "We received a request to open a new account for this email (%1), which belongs to a closed account. If you would like to reactivate your account, please contact customer support."
+#~ msgstr "Estes são os dados bancários que você forneceu anteriormente. Caso deseje registrar uma conta diferente, entre em contato com o apoio ao cliente."
 
 #~ msgid "We recognize the importance of protecting your personal and financial information."
 #~ msgstr "Reconhecemos a importância de proteger as suas informações pessoais e financeiras."
