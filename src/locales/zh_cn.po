@@ -1548,6 +1548,11 @@ msgstr "挪威指数"
 msgid "Not Found"
 msgstr "无法找到"
 
+#, fuzzy
+#| msgid "Not Found"
+msgid "Not found"
+msgstr "无法找到"
+
 msgid "Not you? Unsure?"
 msgstr "不是您本人？不确定？"
 
@@ -1565,6 +1570,11 @@ msgstr "备注不能超过 %1 个字符。"
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "跳动点数目须在%1 与 %2之间。"
+
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "OTC cashier functionality is not available on demo accounts"
+msgstr "此账户不可交易该合约。"
 
 msgid "OTP Verification"
 msgstr "OTP验证"
@@ -2126,6 +2136,11 @@ msgstr "对不起，您的请求处理发生错误。"
 msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
 msgstr "对不起，处理请求时出现错误。请一分钟后重试。"
 
+#, fuzzy
+#| msgid "Sorry, an error occurred"
+msgid "Sorry, an error occurred."
+msgstr "对不起，出错了"
+
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "对不起，出现错误。请重新尝试访问我们的收银台。"
 
@@ -2348,6 +2363,11 @@ msgstr "%1 团队。"
 msgid "The %1 team."
 msgstr "%1 团队。"
 
+#, fuzzy
+#| msgid "TOTP based 2FA is already disabled."
+msgid "The OTC cashier is currently disabled"
+msgstr "基于TOTP的2FA已禁用。"
+
 msgid "The address can be only used once. Please generate a new address."
 msgstr "此地址仅可使用一次。请设定新地址。"
 
@@ -2402,6 +2422,9 @@ msgstr "您可转汇的最大金额为：%1。"
 #| msgid "The account transfer is unavailable. Please deposit to your account."
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
 msgstr "账户不可转账。请将资金存入您的账户。"
+
+msgid "The minimum amount requirements are not met"
+msgstr ""
 
 msgid "The minimum withdrawal amount allowed is %1 %2."
 msgstr "最低允许取款限额是%1%2。"
@@ -2503,8 +2526,16 @@ msgstr "此账户不可用。"
 msgid "This address can only be used once to make a deposit."
 msgstr "作为存款用途，此地址仅可使用一次。"
 
+#, fuzzy
+#| msgid "Payment Agent activity not currently authorized"
+msgid "This agent account is not currently active"
+msgstr "支付代理活动目前未经授权"
+
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "此数额过低，请输入至少%1 %2。"
+
+msgid "This cannot be cancelled since the order is already in progress"
+msgstr ""
 
 msgid "This contract cannot be properly validated at this time."
 msgstr "目前该交易无法正确验证。"
@@ -2536,6 +2567,14 @@ msgstr "您的未平仓头寸中未找到该合约。"
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "此合同价格为%1%2。从%3购入合同的价格必须高于%1%4。请增加合同金额以达到最低交易额。"
 
+msgid "This country is not enabled for OTC cashier functionality"
+msgstr ""
+
+#, fuzzy
+#| msgid "The provided currency %1 is not applicable for this account."
+msgid "This currency is not enabled for OTC cashier functionality"
+msgstr "所提供的货币 %1不可在此账户使用。"
+
 msgid "This email address is invalid."
 msgstr "此电子邮件地址无效。"
 
@@ -2548,11 +2587,22 @@ msgstr "此电子邮件已被使用"
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "这是虚拟账户。要访问收银台请转换到真实资金账户。"
 
+msgid "This is above the maximum limit"
+msgstr ""
+
 msgid "This market is presently closed."
 msgstr "此市场目前已收市。"
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "此市场已关闭。您可以试试一直开放的综合指数。"
+
+msgid "This order is already complete and no changes can be made"
+msgstr ""
+
+#, fuzzy
+#| msgid "The token is invalid."
+msgid "This payment method is invalid"
+msgstr "令牌无效。"
 
 msgid "This trade is temporarily unavailable."
 msgstr "此交易暂时不可用。"
@@ -3262,6 +3312,16 @@ msgid "You are not authorized for withdrawals via payment agents."
 msgstr "您无权通过付款代理取款。"
 
 #, fuzzy
+#| msgid "You are not a Payment Agent"
+msgid "You are not logged in"
+msgstr "您不是支付代理"
+
+#, fuzzy
+#| msgid "Your account is registered as a Payment Agent."
+msgid "You are not yet registered as an OTC agent"
+msgstr "您的账户注册为支付代理。"
+
+#, fuzzy
 #| msgid "To perform this action, please upgrade to Binary.com real account."
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "要执行此操作，请先升级为Binary.com真实账户。"
@@ -3334,6 +3394,11 @@ msgstr "您不能向不同国家居民的支付代理提款。"
 msgid "You cannot withdraw funds to the same account."
 msgstr "不可转账到相同账户。"
 
+#, fuzzy
+#| msgid "You do not have enough funds available to use this option."
+msgid "You do not have permission for this action"
+msgstr "您的资金不足，不可使用此选项。"
+
 msgid "You have already claimed a bonus in the past."
 msgstr "您此前已领取奖金。"
 
@@ -3357,6 +3422,11 @@ msgstr "您已超出%1%2的每日损失限额。"
 
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "您还没有达到奖金入账的交易额要求。"
+
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "You have not yet selected a currency for your account"
+msgstr "请设置您账户的货币。"
 
 msgid "You have opened an account using invalid details."
 msgstr "您使用无效信息开立了账户。"
@@ -16529,9 +16599,6 @@ msgstr "今天，每星期五"
 #~ msgid "Payment Agent Withdrawal Verification"
 #~ msgstr "支付代理取款验证"
 
-#~ msgid "Payment Agent activity not currently authorized"
-#~ msgstr "支付代理活动目前未经授权"
-
 #~ msgid "Payment Agent currency can only be in USD"
 #~ msgstr "支付代理仅可使用美元进行交易"
 
@@ -18916,9 +18983,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Sorry, an error occured with this trade.  Please try again in a few minutes.  If the problem persists, please contact customer support."
 #~ msgstr "对不起，此交易发生错误。请几分钟后再试。如果问题持续出现，请联系客服人员。"
-
-#~ msgid "Sorry, an error occurred"
-#~ msgstr "对不起，出错了"
 
 #~ msgid "Sorry, an error occurred while processing your account."
 #~ msgstr "对不起，您的账户处理发生错误。"
@@ -23473,9 +23537,6 @@ msgstr "今天，每星期五"
 #~ msgid "You are in default or breach of any covenant, obligation or condition contained in this Agreement, and if such default is not cured within seven days of receipt of written notice from the Company;"
 #~ msgstr "您已违犯或违反本协议所包含的条款、义务或条件，如果收到本公司书面通知7天内您没对该项错误作出修正；"
 
-#~ msgid "You are not a Payment Agent"
-#~ msgstr "您不是支付代理"
-
 #~ msgid "You are not allowed to rebate any part commission payment onto your referrals and should the company realise you are engaged in such actions; your affiliate account shall be revoked immediately."
 #~ msgstr "您不能使用佣金作为给推荐人的回扣，一旦被公司发现，您的账户将立即被撤销。"
 
@@ -23616,9 +23677,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "You did not correctly input your order. Please try again."
 #~ msgstr "您没有正确输入您的指令，请再试一次。"
-
-#~ msgid "You do not have enough funds available to use this option."
-#~ msgstr "您的资金不足，不可使用此选项。"
 
 #~ msgid "You don't need to deposit any money to open an account, but you need to deposit funds before you can start trading."
 #~ msgstr "开户无需存入资金，但您前需要在正式交易前入金。"
@@ -24096,9 +24154,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Your account is not fully authenticated. Please visit the <a href=\"%1\">authentication</a> page for more information."
 #~ msgstr "您的账户未完全验证。欲知详情请访问<a href=\"%1\">验证</a>页面。"
-
-#~ msgid "Your account is registered as a Payment Agent."
-#~ msgstr "您的账户注册为支付代理。"
 
 #~ msgid "Your account number is"
 #~ msgstr "您的帐号是"

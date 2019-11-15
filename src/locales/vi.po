@@ -1552,6 +1552,11 @@ msgstr "Chỉ số chứng khoán Na Uy"
 msgid "Not Found"
 msgstr "Không tìm thấy"
 
+#, fuzzy
+#| msgid "Not Found"
+msgid "Not found"
+msgstr "Không tìm thấy"
+
 msgid "Not you? Unsure?"
 msgstr "Không phải bạn? Chưa chắc chắn?"
 
@@ -1569,6 +1574,11 @@ msgstr "Ghi chú không được vượt quá %1 kí tự."
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Số tick cần phải ở giữa %1 và %2."
+
+#, fuzzy
+#| msgid "This contract is unavailable on this account."
+msgid "OTC cashier functionality is not available on demo accounts"
+msgstr "Hợp đồng này không khả dụng cho tài khoản này."
 
 msgid "OTP Verification"
 msgstr "Xác minh OTP"
@@ -2130,6 +2140,11 @@ msgstr "Rất tiếc, đã xảy ra lỗi khi đang xử lý yêu cầu của b�
 msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
 msgstr "Rất tiếc, đã xảy ra lỗi khi xử lý yêu cầu của bạn. Vui lòng thử lại sau vài phút."
 
+#, fuzzy
+#| msgid "Sorry, an error occurred"
+msgid "Sorry, an error occurred."
+msgstr "Xin lỗi, có lỗi xảy ra"
+
 msgid "Sorry, an error occurred. Please try accessing our cashier again."
 msgstr "Rất tiếc, đã xảy ra lỗi, Vui lòng thử truy cập hệ thống thu ngân của chúng tôi một lần nữa."
 
@@ -2352,6 +2367,11 @@ msgstr "Đội ngũ %1."
 msgid "The %1 team."
 msgstr "Nhóm %1."
 
+#, fuzzy
+#| msgid "TOTP based 2FA is already disabled."
+msgid "The OTC cashier is currently disabled"
+msgstr "TOTP dựa trên 2FA đã bị khóa."
+
 msgid "The address can be only used once. Please generate a new address."
 msgstr "Địa chỉ được sử dụng duy nhất một lần. Vui lòng nhập một địa chỉ mới."
 
@@ -2406,6 +2426,9 @@ msgstr "Lượng tiền tối đa bạn có thể chuyển khoản là: %1."
 #| msgid "The account transfer is unavailable. Please deposit to your account."
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
 msgstr "Chuyển giữa hai tài khoản không khả dụng. Vui lòng nạp tiền vào tài khoản."
+
+msgid "The minimum amount requirements are not met"
+msgstr ""
 
 msgid "The minimum withdrawal amount allowed is %1 %2."
 msgstr "Số tiền rút tối thiểu được cho phép là %1 %2."
@@ -2507,8 +2530,16 @@ msgstr "Tài khoản này không khả dụng."
 msgid "This address can only be used once to make a deposit."
 msgstr "Địa chỉ được sử dụng duy nhất một lần cho một lần gửi tiền."
 
+#, fuzzy
+#| msgid "Payment Agent activity not currently authorized"
+msgid "This agent account is not currently active"
+msgstr "Hoạt động của Đại lý Thanh toán hiện không được cho phép"
+
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Số tiền quá thấp. Vui lòng nhập tối thiểu %1 %2."
+
+msgid "This cannot be cancelled since the order is already in progress"
+msgstr ""
 
 msgid "This contract cannot be properly validated at this time."
 msgstr "Hợp đồng này không thể được xác minh vào thời gian này."
@@ -2540,6 +2571,14 @@ msgstr "Không tìm thấy hợp đồng này trong phiên mở của bạ
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "Giá hợp đồng này là %1%2. Hợp đồng được mua từ %3 phải có giá mua trên %1%4. Vui lòng tăng giá trị hợp đồng để đạt mức tối thiểu."
 
+msgid "This country is not enabled for OTC cashier functionality"
+msgstr ""
+
+#, fuzzy
+#| msgid "The provided currency %1 is not applicable for this account."
+msgid "This currency is not enabled for OTC cashier functionality"
+msgstr "Đơn vị tiền tệ %1 được cung cấp không khả dụng cho tài khoản này."
+
 msgid "This email address is invalid."
 msgstr "Địa chỉ email không hợp lệ."
 
@@ -2552,11 +2591,22 @@ msgstr "Email nhập vào đã được sử dụng từ trước"
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Đây là một tài khoản tiền ảo. Vui lòng chuyển sang một tài khoản tiền thực để truy cập thu ngân."
 
+msgid "This is above the maximum limit"
+msgstr ""
+
 msgid "This market is presently closed."
 msgstr "Thị trường này hiện đang đóng."
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Thị trường này hiện đã đóng. Hãy thử Chỉ Số Biến Động, thị trường này luôn mở."
+
+msgid "This order is already complete and no changes can be made"
+msgstr ""
+
+#, fuzzy
+#| msgid "The token is invalid."
+msgid "This payment method is invalid"
+msgstr "Token không hợp lệ."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Giao dịch này tạm thời không khả dụng."
@@ -3264,6 +3314,16 @@ msgid "You are not authorized for withdrawals via payment agents."
 msgstr "Bạn không được quyền rút tiền qua đại lý thanh toán."
 
 #, fuzzy
+#| msgid "You are not a Payment Agent"
+msgid "You are not logged in"
+msgstr "Bạn không phải là Đại lý Thanh toán"
+
+#, fuzzy
+#| msgid "Your account is registered as a Payment Agent."
+msgid "You are not yet registered as an OTC agent"
+msgstr "Tài khoản của bạn được đăng kí như là một Đại lý Thanh toán."
+
+#, fuzzy
 #| msgid "To perform this action, please upgrade to Binary.com real account."
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "Để thực hiện hành động này, vui long nâng cấp lên tài khoản thực Binary.com."
@@ -3336,6 +3396,11 @@ msgstr "Bạn không thể rút tiền từ một đại lý thanh toán thuộ
 msgid "You cannot withdraw funds to the same account."
 msgstr "Bạn không thể rút quỹ từ cùng một tài khoản."
 
+#, fuzzy
+#| msgid "We cannot get open positions for this account."
+msgid "You do not have permission for this action"
+msgstr "Chúng tôi không thể thực hiện phiên mở cho tài khoản này."
+
 msgid "You have already claimed a bonus in the past."
 msgstr "Bạn đã nhận một khoản tiền thưởng trong quá khứ."
 
@@ -3359,6 +3424,11 @@ msgstr "Bạn đã vượt quá giới hạn thua lỗ cho phép trong ngày c�
 
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "Bạn chưa đạt doanh thu yêu cầu để được ghi vào tiền thưởng."
+
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "You have not yet selected a currency for your account"
+msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản."
 
 msgid "You have opened an account using invalid details."
 msgstr "Bạn đã mở tài khoản sử dụng các chi tiết không hợp lệ."
@@ -12430,9 +12500,6 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Payment Agent Withdrawal Verification"
 #~ msgstr "Xác Minh Rút Tiền tại Đại Lý Thanh Toán"
 
-#~ msgid "Payment Agent activity not currently authorized"
-#~ msgstr "Hoạt động của Đại lý Thanh toán hiện không được cho phép"
-
 #~ msgid "Payment Agent currency can only be in USD"
 #~ msgstr "Đơn vị tiền tệ của Đại Lý Thanh Toán chỉ có thể là USD"
 
@@ -13964,9 +14031,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Sorry, an error occured with this trade.  Please try again in a few minutes.  If the problem persists, please contact customer support."
 #~ msgstr "Xin lỗi, Lỗi xảy ra với giao dịch này. Xin vui lòng thử lại sau ít phút. Nếu lỗi còn diễn ra, xin vui lòng liên hệ với đội ngũ chăm sóc khách hàng."
-
-#~ msgid "Sorry, an error occurred"
-#~ msgstr "Xin lỗi, có lỗi xảy ra"
 
 #~ msgid "Sorry, an error occurred while processing your account."
 #~ msgstr "Rất tiếc, đã xảy ra lỗi trong quá trình xử lý tài khoản của bạn."
@@ -16408,9 +16472,6 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "We are required to take a number of factors into account when considering how to give you best execution. We have rated price as the most important followed by: (a) costs; (b) size, (c) liquidity of the underlying market, (d) speed and (e) likelihood of execution and settlement. The main way in which we will ensure that you obtain best execution is by ensuring that in our calculation of our bid/offer prices, we pay due consideration to the market price for the underlying reference product to which your Contract relates. We have access to a number of different data sources in order to ascertain the market price, which is our objective view of the bids and offers available to arms' length traders."
 #~ msgstr "Chúng tôi được yêu cầu sử dụng một số yếu tố khi cân nhắc việc làm sao để mang lại cho bạn sự chấp hành cao nhất. Chúng tôi có giá đã được xếp loại theo mức quan trọng như sau: (a) chi phí; (b) mức độ, (c) tính thanh khoản của thị trường cơ sở, (d), tốc độ và (e) khả năng thực hiện và định giá. Cách chính mà chúng tôi bảo đảm bạn có thể đạt được thực hiện tốt nhất đó là đảm bảo việc tính toán giá mua vào/bán ra của chúng tôi, chúng tôi sẽ cân nhắc việc thanh toán giá thị trường cho sản phẩm thay thế tài sản cơ sở có trong Hợp đồng. Chúng tôi có tiếp cận một số nguồn dữ liệu khác nhau để xác định giá thị trường, giá mua luôn khách quan và giá bán luôn ở trong tầm tay nhà đầu tư."
 
-#~ msgid "We cannot get open positions for this account."
-#~ msgstr "Chúng tôi không thể thực hiện phiên mở cho tài khoản này."
-
 #~ msgid "We could not authenticate your account online. Please proceed to the <a href=\"%1\">manual authentication section</a>. If you would like to register additional credit cards, please contact <a class=\"pjaxload\" href=\"%2\">customer support</a>."
 #~ msgstr "Chúng tôi không thể xác minh tài khoản của bạn trực tuyến. Xin vui lòng xử lý<a href=\"%1\">ở khu vực xác nhận bằng tay</a>. Nếu bạn muốn đăng kí thêm thẻ tín dụng, xin vui lòng liên hệ với <a class=\"pjaxload\" href=\"%2\">đội ngũ hỗ trợ khách hàng</a>."
 
@@ -17038,9 +17099,6 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "You are in default or breach of any covenant, obligation or condition contained in this Agreement, and if such default is not cured within seven days of receipt of written notice from the Company;"
 #~ msgstr "Nếu bạn thực hiện không đầy đủ hoặc vi phạm bất kỳ điều khoản, quy định hay điều kiện nào của Thỏa thuận này, và nếu sự vi phạm này không được xử lý trong vòng bảy ngày kể từ ngày nhận được biên bản thông báo của Công ty chúng tôi;"
 
-#~ msgid "You are not a Payment Agent"
-#~ msgstr "Bạn không phải là Đại lý Thanh toán"
-
 #~ msgid "You are not allowed to rebate any part commission payment onto your referrals and should the company realise you are engaged in such actions; your affiliate account shall be revoked immediately."
 #~ msgstr "Bạn không được phép giảm bất kỳ khoản hoa hồng nào cho người giới thiệu của mình, nếu như công ty nhận thấy bạn đang làm điều đó; tài khoản liên kết của bạn sẽ bị thu hồi ngay lập tức."
 
@@ -17418,9 +17476,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Your account is not fully authenticated. Please visit the <a href=\"%1\">authentication</a> page for more information."
 #~ msgstr "Tài khoản của bạn không được chứng thực đầy đủ. Vui lòng tuy cập trang <a href=\"%1\">xác thực</a> để biết thêm thông tin."
-
-#~ msgid "Your account is registered as a Payment Agent."
-#~ msgstr "Tài khoản của bạn được đăng kí như là một Đại lý Thanh toán."
 
 #~ msgid "Your account should not be used as a banking facility and deposits should only be made with a view to using funds to place contracts. The Company is not a financial institution, Clients will not receive interest on deposits. Should you make repeated deposits and withdrawals without commensurate contracts being placed, we reserve the right to pass on to your accounts, without prior notice, any bank charges we have incurred before closing the account."
 #~ msgstr "Tài khoản của bạn không nên được sử dụng như một thiết bị ngân hàng và bạn chỉ nên gửi tiền với mục đích sử dụng nó để đặt hợp đồng. Công ty không phải là tổ chức tài chính, Khách hàng cũng không nhận được lãi suất từ tiền gửi. Nếu bạn gửi tiền và rút tiền nhiều lần mà không đặt hợp đồng tương xứng, chúng tôi có quyền thu hồi tài khoản của bạn, mà không cần thông báo trước, bất kỳ khoản phí ngân hàng nào chúng tôi sẽ thu của bạn trước khi đóng tài khoản."
