@@ -278,6 +278,11 @@ msgstr "Basis dapat berupa %1 atau %2 untuk kontrak ini."
 msgid "Basis must be %1 for this contract."
 msgstr "Basis harus %1 untuk kontrak ini."
 
+#, fuzzy
+#| msgid "Barriers could not be determined."
+msgid "Basis spot is not defined."
+msgstr "Batasan tidak dapat ditentukan."
+
 msgid "Bear Market Index"
 msgstr "Indeks Pasar Bear"
 
@@ -401,6 +406,9 @@ msgstr "Ditutup lebih awal (pukul 20:55)"
 msgid "Closing Spot"
 msgstr "Spot Penutupan"
 
+msgid "Commission is not defined for %1."
+msgstr ""
+
 msgid "Commodities"
 msgstr "Komoditas"
 
@@ -422,6 +430,14 @@ msgstr "Batasan kontrak harus bernilai positif."
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "Kontrak tidak dapat dijual saat ini. Silakan coba lagi."
 
+#, fuzzy
+#| msgid "Contract expired"
+msgid "Contract has expired."
+msgstr "Kontrak berakhir"
+
+msgid "Contract id is required to update contract"
+msgstr ""
+
 msgid "Contract market price is too close to final payout."
 msgstr "Harga kontrak berbeda tipis dengan hasil akhir."
 
@@ -431,8 +447,16 @@ msgstr "Kontrak tidak dapat berakhir antara %1 dan %2."
 msgid "Contract must expire during trading hours."
 msgstr "Kontrak hanya dapat berakhir selama waktu trading."
 
+msgid "Contract not found for contract id: %1."
+msgstr ""
+
 msgid "Contract price cannot be zero."
 msgstr "Harga kontrak tidak boleh nol."
+
+#, fuzzy
+#| msgid "Contract period"
+msgid "Contract update failed."
+msgstr "Masa kontrak"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr "Jumlah harga kontrak melebihi jumlah harga pembelian maksimal."
@@ -1279,6 +1303,11 @@ msgstr "Durasi (tik) tidak berlaku untuk jenis kontrak (%1)."
 msgid "Invalid expiry time."
 msgstr "Waktu berakhir tidak berlaku."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
+msgstr "Durasi (tik) tidak berlaku untuk jenis kontrak (%1)."
+
 msgid "Invalid login attempt. Please log in with your email and password instead."
 msgstr "Percobaan masuk gagal. Silahkan masuk menggunakan email dan kata sandi."
 
@@ -1299,6 +1328,20 @@ msgstr "Sesi tidak berlaku."
 
 msgid "Invalid stake/payout."
 msgstr "Modal/hasil tidak berlaku."
+
+msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgstr ""
+
+msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+msgstr "Harga salah. Harga yang diberikan tidak boleh lebih dari %1 desimal."
+
+msgid "Invalid take profit. Take profit must be higher than %1."
+msgstr ""
 
 msgid "Invalid token"
 msgstr "Token tidak berlaku"
@@ -1363,6 +1406,11 @@ msgstr "Kontrak Legasi. Tidak tersedia informasi lebih lanjut."
 msgid "Let’s get you a new one."
 msgstr "Dapatkan kata sandi baru."
 
+#, fuzzy
+#| msgid "Barrier cannot be zero."
+msgid "Limit order amount cannot be zero."
+msgstr "Batasan tidak boleh nol."
+
 msgid "Location:"
 msgstr "Lokasi:"
 
@@ -1413,6 +1461,9 @@ msgstr "Akun MT5 %1 belum tersedia di negara Anda."
 
 msgid "MT5 is currently unavailable. Please try again later."
 msgstr "MT5 saat ini tidak tersedia. Silakan coba kembali nanti."
+
+msgid "MULTUP and MULTDOWN are not supported."
+msgstr ""
 
 msgid "Major Pairs"
 msgstr "Pasangan Mayor"
@@ -1476,6 +1527,22 @@ msgstr "Ibu"
 
 msgid "Ms"
 msgstr "Sdri."
+
+#, fuzzy
+#| msgid "Barrier is out of acceptable range."
+msgid "Multiplier is not in acceptable range. Accepts %1."
+msgstr "Batasan adalah diluar rentang yang diterima."
+
+#, fuzzy
+#| msgid "Only Downs"
+msgid "Multiply Down"
+msgstr "Only Down"
+
+msgid "Multiply Up"
+msgstr ""
+
+msgid "Multiply Up/Multiply Down"
+msgstr ""
 
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
@@ -1584,6 +1651,11 @@ msgstr "Maksimal dua angka desimal yang diperbolehkan untuk jumlah tersebut."
 
 msgid "Only one Deriv account can be created with one email address."
 msgstr "Satu alamat email hanya dapat didaftarkan pada satu akun Deriv."
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only one update per second is allowed."
+msgstr "Hanya 3 angka desimal yang dibenarkan."
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Hanya port 80 dan 443 yang dibenarkan"
@@ -1920,6 +1992,11 @@ msgstr "Analisa apakah pasar akan menyentuh salah satu dari 2 tingkatan yang dip
 msgid "Predict which tick is the highest/lowest at expiration."
 msgstr "Analisa tik mana yang tertinggi/terendah pada saat akhir."
 
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predicts if the market is going to up or down."
+msgstr "Menganalisa digit terakhir pada penutupan pasar."
+
 msgid "Predicts if the next n ticks will be consecutively higher or lower than the previous tick."
 msgstr "Menganalisa apakah n tik berikutnya akan secara berurutan lebih tinggi atau lebih rendah dari tik sebelumnya."
 
@@ -2042,6 +2119,9 @@ msgstr "Tik yang dipilih harus berupa bilangan bulat."
 
 msgid "Sell"
 msgstr "Jual"
+
+msgid "Sell failed because contract was updated."
+msgstr ""
 
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "Kirim %1 (%2) ke alamat ini untuk mendanai akun Anda"
@@ -2217,6 +2297,11 @@ msgstr "Koin Stabil (Stable Coin)"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "Modal tidak dapat memiliki lebih dari %1 angka desimal."
 
+#, fuzzy
+#| msgid "Barrier must be at least "
+msgid "Stake must be at least %1 1."
+msgstr "Batasan setidaknya "
+
 msgid "Start Time"
 msgstr "Waktu Mulai"
 
@@ -2250,6 +2335,21 @@ msgstr "Indeks Step"
 msgid "Step Indices"
 msgstr "Indeks Step"
 
+#, fuzzy
+#| msgid "Stop-loss"
+msgid "Stop Loss"
+msgstr "Stop-loss"
+
+#, fuzzy
+#| msgid "Log Out"
+msgid "Stop Out"
+msgstr "Keluar"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Stop loss can not have more than %1 decimal places."
+msgstr "Modal tidak dapat memiliki lebih dari %1 angka desimal."
+
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Streaming untuk simbol ini tidak tersedia berhubung keterbatasan lisensi."
 
@@ -2273,6 +2373,16 @@ msgstr "TOTP berbasis 2FA sudah dinonaktifkan."
 
 msgid "TOTP based 2FA is already enabled."
 msgstr "TOTP berbasis 2FA sudah diaktifkan."
+
+#, fuzzy
+#| msgid "Profit"
+msgid "Take Profit"
+msgstr "Keuntungan"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Take profit can not have more than %1 decimal places."
+msgstr "Modal tidak dapat memiliki lebih dari %1 angka desimal."
 
 msgid "Tax identification number"
 msgstr "Nomor Pokok Wajib Pajak"
@@ -2775,6 +2885,22 @@ msgstr "Hingga 100 token diperbolehkan."
 msgid "Up/Down"
 msgstr "Up/Down"
 
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract."
+msgstr "Batasan tidak dibenarkan pada jenis kontrak ini."
+
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract. Allowed updates %1"
+msgstr "Batasan tidak dibenarkan pada jenis kontrak ini."
+
+msgid "Update only accepts hash reference as input parameter."
+msgstr ""
+
+msgid "Update value accepts number or null"
+msgstr ""
+
 msgid "Use it to play around with different contracts and to test your trading strategies⁠- without risking real money."
 msgstr "Gunakan untuk berlatih dengan kontrak yang berbeda dan untuk menguji strategi trading Anda - tanpa mengambil risiko dana nyata."
 
@@ -2978,6 +3104,12 @@ msgstr "Selamat datang pada Deriv"
 
 msgid "Welcome to Deriv!"
 msgstr "Selamat datang pada Deriv!"
+
+msgid "Win %5% of your stake for every 1% fall in the market price."
+msgstr ""
+
+msgid "Win %5% of your stake for every 1% rise in the market price."
+msgstr ""
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Hasil %6 %5 dikali nilai close %1 dikurangi nilai low pada %3."
@@ -8290,9 +8422,6 @@ msgstr "hari ini, Jumat"
 #~ msgid "Barrier may not be adjusted."
 #~ msgstr "Batasan tidak dapat dirubah."
 
-#~ msgid "Barrier must be at least "
-#~ msgstr "Batasan setidaknya "
-
 #~ msgid "Barrier offset"
 #~ msgstr "Diluar Batasan"
 
@@ -9551,9 +9680,6 @@ msgstr "hari ini, Jumat"
 #~ msgid "Contract discovery and pricing"
 #~ msgstr "Penemuan kontrak dan harga"
 
-#~ msgid "Contract expired"
-#~ msgstr "Kontrak berakhir"
-
 #~ msgid "Contract has already expired."
 #~ msgstr "Kontrak telah berakhir."
 
@@ -9585,9 +9711,6 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Contract payouts shall be determined by the Company by reference to the daily high/low/close values reported on this website relevant to the underlying index(ices) of the contract(s) or from the interbank trading data received by the Company for forex quotes or commodities prices as displayed on the website, subject that the Company shall have the right to make corrections to such data in the event of mis-priced or typographically incorrect data. Customers should note that the different markets may close at different times during the day due to local trading hours and time zones. In the case of single stock and stock index prices, the final closing price as reported by the relevant Exchange shall apply for all settlements (this final settlement price may, at times, be reported by the Exchange 30-90 minutes after the official closing time of the market). For forex quotes the closing times are defined by the Company as shown in the Market Opening Times section of the website. In the event of any dispute regarding market or settlement values, the decision of the Company shall be final and binding. Customers should note that certain markets (such as stocks and stock indices) are not open throughout the day and that trading may not be available when the markets are closed."
 #~ msgstr "Payout kontrak akan ditentukan oleh Perusahaan dengan mengacu pada nilai harian tinggi / rendah / akhir pada website ini yang relevan dengan indeks yang digunakan dari kontrak atau dari data perdagangan antar bank yang diterima oleh Perusahaan penawaran forex atau harga komoditas seperti terlihat pada website, subjek bahwa Perusahaan berhak untuk melakukan koreksi data seperti dalam hal data yang tidak benar harga salah atau salah ketik. Pelanggan harus mencatat bahwa market yang berbeda mungkin akan menutup pada waktu yang berbeda selama hari karena jam perdagangan lokal dan zona waktu. Dalam kasus saham tunggal dan indeks harga saham, harga penutupan akhir seperti yang dilaporkan oleh Bursa relevan berlaku bagi semua permukiman (ini harga penyelesaian akhir dapat, kali, dilaporkan oleh Bursa 30-90 menit setelah waktu penutupan resmi dari pasar). Untuk data penutupan forex didefinisikan oleh Perusahaan seperti yang ditunjukkan dalam bagian Waktu Pembukaan Market pada website. Dalam hal terjadi sengketa mengenai market atau nilai penyelesaian, keputusan Perusahaan bersifat mutlak dan mengikat. Pelanggan harus mengingat bahwa market tertentu (seperti saham dan indeks saham) tidak dibuka sepanjang hari dan bahwa perdagangan mungkin tidak tersedia pada saat market ditutup."
-
-#~ msgid "Contract period"
-#~ msgstr "Masa kontrak"
 
 #~ msgid "Contract purchase (approved applications only)"
 #~ msgstr "Pembelian kontrak (yang disetujui saja)"
@@ -14914,9 +15037,6 @@ msgstr "hari ini, Jumat"
 #~ msgid "Log In"
 #~ msgstr "Masuk"
 
-#~ msgid "Log Out"
-#~ msgstr "Keluar"
-
 #~ msgid "Log Scale"
 #~ msgstr "Skala Log"
 
@@ -17527,9 +17647,6 @@ msgstr "hari ini, Jumat"
 #~ msgid "Proficiency in a second language (oral and written) is preferred"
 #~ msgstr "Kemahiran dalam bahasa kedua (lisan dan tulisan) lebih diutamakan"
 
-#~ msgid "Profit"
-#~ msgstr "Keuntungan"
-
 #~ msgid "Profit / Loss"
 #~ msgstr "Untung/Rugi"
 
@@ -19505,9 +19622,6 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "Stop Profit harus antara %1 dan %2 %3"
-
-#~ msgid "Stop-loss"
-#~ msgstr "Stop-loss"
 
 #~ msgid "Stop-loss:"
 #~ msgstr "Stop-loss:"

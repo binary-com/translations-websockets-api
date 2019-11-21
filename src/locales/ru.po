@@ -284,6 +284,11 @@ msgstr "Базис на данный контракт может быть рав
 msgid "Basis must be %1 for this contract."
 msgstr "Базис на данном контракте должен быть равен %1."
 
+#, fuzzy
+#| msgid "Barriers could not be determined."
+msgid "Basis spot is not defined."
+msgstr "Барьеры не могут быть установлены."
+
 msgid "Bear Market Index"
 msgstr "Индекс медвежьего рынка"
 
@@ -407,6 +412,9 @@ msgstr "Закрывается рано (в 20:55)"
 msgid "Closing Spot"
 msgstr "Котировка закрытия"
 
+msgid "Commission is not defined for %1."
+msgstr ""
+
 msgid "Commodities"
 msgstr "Сырьевые товары"
 
@@ -428,6 +436,14 @@ msgstr "Барьер контракта должен быть положител
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "Извините, но контракт не может быть продан в данное время. Пожалуйста, попробуйте позже."
 
+#, fuzzy
+#| msgid "Contract expired"
+msgid "Contract has expired."
+msgstr "Контракт закончился"
+
+msgid "Contract id is required to update contract"
+msgstr ""
+
 # 100%
 msgid "Contract market price is too close to final payout."
 msgstr "Значение рыночной цены слишком близко к значению желаемой выплаты."
@@ -438,8 +454,16 @@ msgstr "Контракт не должен истекать между %1 и %2.
 msgid "Contract must expire during trading hours."
 msgstr "Контракт должен заканчиваться в торговые часы."
 
+msgid "Contract not found for contract id: %1."
+msgstr ""
+
 msgid "Contract price cannot be zero."
 msgstr "Цена контракта не может быть равна нулю."
+
+#, fuzzy
+#| msgid "Contract period"
+msgid "Contract update failed."
+msgstr "Период контракта"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr "Сумма ставки за контракт превышает превышает максимальную цену покупки контракта."
@@ -1290,6 +1314,11 @@ msgstr "Неправильная длительность (тики) для да
 msgid "Invalid expiry time."
 msgstr "Неправильное время окончания."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
+msgstr "Неправильная длительность (тики) для данного типа контракта (%1)."
+
 msgid "Invalid login attempt. Please log in with your email and password instead."
 msgstr "Не удалось войти на сайт. Пожалуйста, войдите через email и пароль."
 
@@ -1310,6 +1339,20 @@ msgstr "Неправильная сессия."
 
 msgid "Invalid stake/payout."
 msgstr "Неправильная ставка/выплата."
+
+msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgstr ""
+
+msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+msgstr "Неправильная цена. Разрешенная цена не может иметь более %1 десятичных."
+
+msgid "Invalid take profit. Take profit must be higher than %1."
+msgstr ""
 
 msgid "Invalid token"
 msgstr "Неправильный код"
@@ -1378,6 +1421,11 @@ msgstr "Нет дальнейшей информации."
 msgid "Let’s get you a new one."
 msgstr "Давайте создадим новый."
 
+#, fuzzy
+#| msgid "Barrier cannot be zero."
+msgid "Limit order amount cannot be zero."
+msgstr "Барьер не может быть равен нулю."
+
 msgid "Location:"
 msgstr "Местоположение:"
 
@@ -1432,6 +1480,9 @@ msgstr "Платежный Агент недоступен в Вашей стр�
 #| msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgid "MT5 is currently unavailable. Please try again later."
 msgstr "Извините, но переводы временно недоступны. Пожалуйста, попробуйте позже."
+
+msgid "MULTUP and MULTDOWN are not supported."
+msgstr ""
 
 msgid "Major Pairs"
 msgstr "Основные пары"
@@ -1501,6 +1552,22 @@ msgstr "Госпожа"
 
 msgid "Ms"
 msgstr "Госпожа"
+
+#, fuzzy
+#| msgid "Barrier is out of acceptable range."
+msgid "Multiplier is not in acceptable range. Accepts %1."
+msgstr "Барьер находится вне приемлемых рамок."
+
+#, fuzzy
+#| msgid "Only Downs"
+msgid "Multiply Down"
+msgstr "Только вниз"
+
+msgid "Multiply Up"
+msgstr ""
+
+msgid "Multiply Up/Multiply Down"
+msgstr ""
 
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
@@ -1613,6 +1680,11 @@ msgstr "Разрешена лишь сумма с 2 десятичными."
 
 msgid "Only one Deriv account can be created with one email address."
 msgstr "С одного электронного адреса можно открыть только один счёт на Deriv."
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only one update per second is allowed."
+msgstr "Разрешены лишь 3 десятичные."
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Разрешены лишь порты 80 и 443"
@@ -1955,6 +2027,11 @@ msgstr "Сделать прогноз, коснется или нет рынок
 msgid "Predict which tick is the highest/lowest at expiration."
 msgstr "Сделайте прогноз, какой тик будет самым высоким/низким по истечении контракта."
 
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predicts if the market is going to up or down."
+msgstr "Сделать прогноз последней цифры рыночной цены на момент окончания."
+
 msgid "Predicts if the next n ticks will be consecutively higher or lower than the previous tick."
 msgstr "Прогнозирует, будут ли следующие n тиков последовательно выше или ниже предыдущего тика."
 
@@ -2081,6 +2158,9 @@ msgstr "Выбранный тик должен быть целым числом.
 
 msgid "Sell"
 msgstr "Продажа"
+
+msgid "Sell failed because contract was updated."
+msgstr ""
 
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "Чтобы пополнить счёт, отправьте %1 (%2) на данный адрес:"
@@ -2260,6 +2340,11 @@ msgstr "Стейблкоин"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "Ставка не может иметь более %1 десятичных."
 
+#, fuzzy
+#| msgid "Barrier must be at least "
+msgid "Stake must be at least %1 1."
+msgstr "Барьер должен быть по меньшей мере "
+
 msgid "Start Time"
 msgstr "Время начала"
 
@@ -2295,6 +2380,21 @@ msgstr "Индексы Step"
 msgid "Step Indices"
 msgstr "Step-индексы"
 
+#, fuzzy
+#| msgid "Stop-loss"
+msgid "Stop Loss"
+msgstr "Стоп-лосс"
+
+#, fuzzy
+#| msgid "Log Out"
+msgid "Stop Out"
+msgstr "Выход"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Stop loss can not have more than %1 decimal places."
+msgstr "Ставка не может иметь более %1 десятичных."
+
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Потоковые котировки для данного символа недоступны, в связи с ограничениями лицензии."
 
@@ -2318,6 +2418,16 @@ msgstr "2FA на основе TOTP уже запрещён."
 
 msgid "TOTP based 2FA is already enabled."
 msgstr "2FA на основе TOTP уже разрешен."
+
+#, fuzzy
+#| msgid "Profit"
+msgid "Take Profit"
+msgstr "Прибыль"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Take profit can not have more than %1 decimal places."
+msgstr "Ставка не может иметь более %1 десятичных."
 
 msgid "Tax identification number"
 msgstr "Номер налогоплательщика"
@@ -2847,6 +2957,22 @@ msgstr "Разрешено до 100 кодов подтверждения."
 msgid "Up/Down"
 msgstr "Вверх/Вниз"
 
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract."
+msgstr "Барьер не разрешен на данном виде контрактов."
+
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract. Allowed updates %1"
+msgstr "Барьер не разрешен на данном виде контрактов."
+
+msgid "Update only accepts hash reference as input parameter."
+msgstr ""
+
+msgid "Update value accepts number or null"
+msgstr ""
+
 msgid "Use it to play around with different contracts and to test your trading strategies⁠- without risking real money."
 msgstr "Воспользуйтесь данным инструментом для знакомства с различными контрактами и создания собственных торговых стратегий без риска потерять реальные деньги."
 
@@ -3058,6 +3184,12 @@ msgstr "Добро пожаловать на Deriv"
 
 msgid "Welcome to Deriv!"
 msgstr "Добро пожаловать на Deriv!"
+
+msgid "Win %5% of your stake for every 1% fall in the market price."
+msgstr ""
+
+msgid "Win %5% of your stake for every 1% rise in the market price."
+msgstr ""
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Выиграйте %6, помноженные на %5 от цены закрытия %1 минус мин. цена на момент %3."
@@ -8507,9 +8639,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Barrier may not be adjusted."
 #~ msgstr "Барьер не может быть изменен."
 
-#~ msgid "Barrier must be at least "
-#~ msgstr "Барьер должен быть по меньшей мере "
-
 #~ msgid "Barrier offset"
 #~ msgstr "Изменение барьера"
 
@@ -9741,9 +9870,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Contract discovery and pricing"
 #~ msgstr "Контракты и цены"
 
-#~ msgid "Contract expired"
-#~ msgstr "Контракт закончился"
-
 #~ msgid "Contract has already expired."
 #~ msgstr "Контракт уже закончил свое действие."
 
@@ -9770,9 +9896,6 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "Contract payouts shall be determined by the Company by reference to the daily high/low/close values reported on this website relevant to the underlying index(ices) of the contract(s) or from the interbank trading data received by the Company for forex quotes or commodities prices as displayed on the website, subject that the Company shall have the right to make corrections to such data in the event of mis-priced or typographically incorrect data. Clients should note that the different markets may close at different times during the day due to local trading hours and time zones."
 #~ msgstr "Выплата по контрактам будет определяться Компанией по высшим/низшим дневным значениям и значениям закрытия рынков, указанным на данном сайте в отношении соответствующих индексов, или по межбанковской торговой информации, полученной Компанией по котировкам для рынка Форекс или по ценам на сырьевые товары, как указано на данном сайте, с правом внесения коррективов в случае неправильных котировок или типографических ошибок в данных. Клиенты должны обратить внимание, что различные рынки могут закрываться в разное время в течение дня, в связи с разницей во времени открытия и часовыми зонами."
-
-#~ msgid "Contract period"
-#~ msgstr "Период контракта"
 
 #~ msgid "Contract purchase (approved applications only)"
 #~ msgstr "Покупка контракта (только утвержденные приложения)"
@@ -14663,9 +14786,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Log In"
 #~ msgstr "Вход"
 
-#~ msgid "Log Out"
-#~ msgstr "Выход"
-
 #~ msgid "Log Scale"
 #~ msgstr "Логарифмическая шкала"
 
@@ -16867,9 +16987,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Proficiency in a second language (oral and written) is preferred"
 #~ msgstr "Знание второго языка (устно и письменно) является предпочтительным"
 
-#~ msgid "Profit"
-#~ msgstr "Прибыль"
-
 #~ msgid "Profit / Loss"
 #~ msgstr "Плюс/Минус"
 
@@ -18785,9 +18902,6 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "Стоп-профит должен находиться между %1 и %2 %3"
-
-#~ msgid "Stop-loss"
-#~ msgstr "Стоп-лосс"
 
 #~ msgid "Stop-loss:"
 #~ msgstr "Стоп-лосс:"

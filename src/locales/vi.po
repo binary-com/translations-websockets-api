@@ -283,6 +283,11 @@ msgstr "Thông tin cơ bản cho hợp đồng này có thể là %1 hoặc %2."
 msgid "Basis must be %1 for this contract."
 msgstr "Thông tin cơ sở phải là %1 cho hợp đồng này."
 
+#, fuzzy
+#| msgid "Barriers could not be determined."
+msgid "Basis spot is not defined."
+msgstr "Không thể xác định được rào cản."
+
 msgid "Bear Market Index"
 msgstr "Chỉ số Thị trường Giá giảm"
 
@@ -407,6 +412,9 @@ msgstr "Kết thúc sớm (tại 20:55)"
 msgid "Closing Spot"
 msgstr "Điểm đóng"
 
+msgid "Commission is not defined for %1."
+msgstr ""
+
 msgid "Commodities"
 msgstr "Hàng hóa"
 
@@ -428,6 +436,14 @@ msgstr "Giới hạn hợp đồng phải là số dương."
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "Hợp đồng không thể được bán vào thời điểm này. Vui lòng thử lại sau."
 
+#, fuzzy
+#| msgid "Contract expired"
+msgid "Contract has expired."
+msgstr "Hợp đồng đã hết hạn"
+
+msgid "Contract id is required to update contract"
+msgstr ""
+
 msgid "Contract market price is too close to final payout."
 msgstr "Giá thị trường của hợp đồng quá thấp để có thể hoàn tất thanh toán."
 
@@ -437,8 +453,16 @@ msgstr "Hợp đồng sẽ không hết hạn trong khoảng %1 và %2."
 msgid "Contract must expire during trading hours."
 msgstr "Hợp đồng phải hết hạn trong suốt thời gian giao dịch."
 
+msgid "Contract not found for contract id: %1."
+msgstr ""
+
 msgid "Contract price cannot be zero."
 msgstr "Giá hợp đồng không thể bằng 0."
+
+#, fuzzy
+#| msgid "Contract period"
+msgid "Contract update failed."
+msgstr "Thời hạn hợp đồng"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr "Số lượng cổ phần của hợp đồng nhiều hơn so với giá mua tối đa."
@@ -1289,6 +1313,11 @@ msgstr "Thời hạn (tick) không hợp lệ cho loại hợp đồng (%1)."
 msgid "Invalid expiry time."
 msgstr "Thời gian hết hạn không hợp lệ."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
+msgstr "Thời hạn (tick) không hợp lệ cho loại hợp đồng (%1)."
+
 msgid "Invalid login attempt. Please log in with your email and password instead."
 msgstr "Đăng nhập không hợp lệ. Vui lòng đăng nhập bằng email và mật khẩu của bạn."
 
@@ -1309,6 +1338,20 @@ msgstr "Phiên không hợp lệ."
 
 msgid "Invalid stake/payout."
 msgstr "Số tiền đặt cọc/thanh toán không hợp lệ."
+
+msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgstr ""
+
+msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+msgstr "Giá tiền không hợp lệ. Giá tiền nhập vào không thể có nhiều hơn %1 chữ số thập phân."
+
+msgid "Invalid take profit. Take profit must be higher than %1."
+msgstr ""
 
 msgid "Invalid token"
 msgstr "Token không hợp lệ"
@@ -1377,6 +1420,11 @@ msgstr "Hợp đồng kế thừa di sản. Không có thêm thông tin."
 msgid "Let’s get you a new one."
 msgstr "Hãy tạo một cái mới cho bạn."
 
+#, fuzzy
+#| msgid "Barrier cannot be zero."
+msgid "Limit order amount cannot be zero."
+msgstr "Rào chắn không thể có giá trị là 0."
+
 msgid "Location:"
 msgstr "Vị trí:"
 
@@ -1431,6 +1479,9 @@ msgstr "Đại lý thanh toán không khả dụng trong quốc gia của bạ
 #| msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgid "MT5 is currently unavailable. Please try again later."
 msgstr "Rất tiếc, chuyển khoản hiện không khả dụng. Vui lòng thử lại sau."
+
+msgid "MULTUP and MULTDOWN are not supported."
+msgstr ""
 
 msgid "Major Pairs"
 msgstr "Cặp tiền tệ chính"
@@ -1494,6 +1545,22 @@ msgstr "Bà"
 
 msgid "Ms"
 msgstr "Cô"
+
+#, fuzzy
+#| msgid "Barrier is out of acceptable range."
+msgid "Multiplier is not in acceptable range. Accepts %1."
+msgstr "Giới hạn vượt ngưỡng được chấp nhận."
+
+#, fuzzy
+#| msgid "Only Downs"
+msgid "Multiply Down"
+msgstr "Chỉ Giảm"
+
+msgid "Multiply Up"
+msgstr ""
+
+msgid "Multiply Up/Multiply Down"
+msgstr ""
 
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
@@ -1606,6 +1673,11 @@ msgstr "Chỉ tối đa 2 điểm thập phân là hợp lệ cho tài khoản."
 
 msgid "Only one Deriv account can be created with one email address."
 msgstr "Với một địa chỉ email bạn chỉ được tạo một tài khoản Deriv."
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only one update per second is allowed."
+msgstr "Chỉ 3 chữ số thập phân được cho phép."
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Chỉ có cổng 80 và 443 là hợp lệ"
@@ -1954,6 +2026,11 @@ msgstr "Dự đoán thị trường sẽ chạm hay không chạm với 2 m�
 msgid "Predict which tick is the highest/lowest at expiration."
 msgstr "Dự đoán tick nào cao nhất/thấp nhất ở thời điểm hết hạn hợp đồng."
 
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predicts if the market is going to up or down."
+msgstr "Dự đoán con số cuối cùng của giá thị trường tại thời điểm hết hạn."
+
 msgid "Predicts if the next n ticks will be consecutively higher or lower than the previous tick."
 msgstr "Dự đoán n tick tiếp theo sẽ liên tiếp cao hơn hoặc thấp hơn tick trước đó."
 
@@ -2076,6 +2153,9 @@ msgstr "Tick được chọn phải là một số nguyên."
 
 msgid "Sell"
 msgstr "Bán"
+
+msgid "Sell failed because contract was updated."
+msgstr ""
 
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "Gửi %1 (%2) của bạn đến địa chỉ này để chuyển tiền vào tài khoản"
@@ -2253,6 +2333,11 @@ msgstr "Xu ổn định"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "Tiền cược không thể có nhiều hơn %1 chữ số thập phân."
 
+#, fuzzy
+#| msgid "Barrier must be at least "
+msgid "Stake must be at least %1 1."
+msgstr "Rào cản phải là tối thiểu "
+
 msgid "Start Time"
 msgstr "Thời gian bắt đầu"
 
@@ -2286,6 +2371,19 @@ msgstr "Chỉ số bước"
 msgid "Step Indices"
 msgstr "Chỉ số bước"
 
+#, fuzzy
+#| msgid "Stop-loss"
+msgid "Stop Loss"
+msgstr "Thua lỗ -Tới hạn"
+
+msgid "Stop Out"
+msgstr ""
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Stop loss can not have more than %1 decimal places."
+msgstr "Tiền cược không thể có nhiều hơn %1 chữ số thập phân."
+
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Việc truyền tải biểu tượng này không khả dụng vì lý do quy định về bản quyền."
 
@@ -2309,6 +2407,16 @@ msgstr "TOTP dựa trên 2FA đã bị khóa."
 
 msgid "TOTP based 2FA is already enabled."
 msgstr "TOTP dựa trên 2FA đã được mở."
+
+#, fuzzy
+#| msgid "Profit"
+msgid "Take Profit"
+msgstr "Lợi nhuận"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Take profit can not have more than %1 decimal places."
+msgstr "Tiền cược không thể có nhiều hơn %1 chữ số thập phân."
 
 msgid "Tax identification number"
 msgstr "Mã số thuế"
@@ -2835,6 +2943,22 @@ msgstr "Tối đa 100 token được cho phép."
 msgid "Up/Down"
 msgstr "Lên/Xuống"
 
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract."
+msgstr "giới hạn không được phép thiết lập lại hợp đồng."
+
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract. Allowed updates %1"
+msgstr "giới hạn không được phép thiết lập lại hợp đồng."
+
+msgid "Update only accepts hash reference as input parameter."
+msgstr ""
+
+msgid "Update value accepts number or null"
+msgstr ""
+
 msgid "Use it to play around with different contracts and to test your trading strategies⁠- without risking real money."
 msgstr "Sử dụng chúng để giao dịch thử các loại hợp đồng khác nhau và kiểm tra các chiến lược giao dịch của bạn- mà không chịu rủi ro thua lỗ thực tế."
 
@@ -3046,6 +3170,12 @@ msgstr "Chào mừng đến Deriv"
 
 msgid "Welcome to Deriv!"
 msgstr "Chào mừng đến với Deriv!"
+
+msgid "Win %5% of your stake for every 1% fall in the market price."
+msgstr ""
+
+msgid "Win %5% of your stake for every 1% rise in the market price."
+msgstr ""
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Thắng %6 %5 lần 1% đóng trừ thấp hơn tại 3%."
@@ -6478,9 +6608,6 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Barrier may not be adjusted."
 #~ msgstr "Rào cản có thể không được điều chỉnh."
 
-#~ msgid "Barrier must be at least "
-#~ msgstr "Rào cản phải là tối thiểu "
-
 #~ msgid "Barrier offset"
 #~ msgstr "Bù đắp Rào cản"
 
@@ -7419,9 +7546,6 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Contract discovery and pricing"
 #~ msgstr "Tìm hiểu Hợp đồng và định giá"
 
-#~ msgid "Contract expired"
-#~ msgstr "Hợp đồng đã hết hạn"
-
 #~ msgid "Contract has already expired."
 #~ msgstr "Hợp đồng đã hết hạn."
 
@@ -7436,9 +7560,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Contract payouts shall be determined by the Company by reference to the daily high/low/close values reported on this website relevant to the underlying index(ices) of the contract(s) or from the interbank trading data received by the Company for forex quotes or commodities prices as displayed on the website, subject that the Company shall have the right to make corrections to such data in the event of mis-priced or typographically incorrect data. Clients should note that the different markets may close at different times during the day due to local trading hours and time zones."
 #~ msgstr "Công ty sẽ quyết định mức tiền thưởng của hợp đồng bằng cách tham khảo giá cao/ thấp/gần được báo cáo trên trang web có liên quan tới chỉ số tài sản cơ sở của hợp đồng hoặc từ dữ liệu giao dịch yết giá ngoại tệ của liên ngân hàng hoặc giá hàng hóa được thể hiện trên trang web. Công ty có quyền chỉnh sửa dữ liệu này trong trường hợp dữ liệu bị nhầm giá hoặc bị đánh máy sai. Khách hàng nên lưu ý rằng thị trường khác nhau thì có thể đóng cửa ở thời điểm khác nhau trong ngày phụ thuộc vào giờ giao dịch và múi giờ."
-
-#~ msgid "Contract period"
-#~ msgstr "Thời hạn hợp đồng"
 
 #~ msgid "Contract purchase (approved applications only)"
 #~ msgstr "Hợp đồng mua (chỉ các ứng tuyển đã phê duyệt)"
@@ -13000,9 +13121,6 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Proficiency in a second language (oral and written) is preferred"
 #~ msgstr "Ưu tiên ứng viên thông thạo một ngôn ngữ thứ 2 (đọc và viết)"
 
-#~ msgid "Profit"
-#~ msgstr "Lợi nhuận"
-
 #~ msgid "Profit / Loss"
 #~ msgstr "Lợi nhuận/Thua lỗ"
 
@@ -14294,9 +14412,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "Lợi nhuận Tới hạn cần phải ở giữa %1 và %2 %3"
-
-#~ msgid "Stop-loss"
-#~ msgstr "Thua lỗ -Tới hạn"
 
 #~ msgid "Stop-loss:"
 #~ msgstr "Thua lỗ -Tới hạn:"

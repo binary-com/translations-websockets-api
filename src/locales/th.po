@@ -293,6 +293,11 @@ msgstr "พื้นฐานสามารถเป็น %1 หรือ %2 �
 msgid "Basis must be %1 for this contract."
 msgstr "พื้นฐานต้องเป็น %1 สำหรับสัญญานี้"
 
+#, fuzzy
+#| msgid "Barriers could not be determined."
+msgid "Basis spot is not defined."
+msgstr "ไม่สามารถกำหนด Barrier ได้"
+
 msgid "Bear Market Index"
 msgstr "ดัชนีตลาดหมี"
 
@@ -452,6 +457,9 @@ msgstr "ปิดก่อนเวลา (เมื่อ 20:55)"
 msgid "Closing Spot"
 msgstr "สปอตสิ้นสุด"
 
+msgid "Commission is not defined for %1."
+msgstr ""
+
 msgid "Commodities"
 msgstr "สินค้าโภคภัณฑ์"
 
@@ -475,6 +483,14 @@ msgstr "แบร์ริเออร์ของสัญญาต้องเ
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "สัญญานี้ไม่สามารถดำเนินการตรวจสอบในขณะนี้"
 
+#, fuzzy
+#| msgid "Contract expired"
+msgid "Contract has expired."
+msgstr "สัญญาหมดอายุ"
+
+msgid "Contract id is required to update contract"
+msgstr ""
+
 msgid "Contract market price is too close to final payout."
 msgstr "ราคาตลาดของสัญญาใกล้เคียงกับการชำระเงินสุดท้าย"
 
@@ -484,8 +500,16 @@ msgstr "สัญญายังไม่หมดอายุในระหว
 msgid "Contract must expire during trading hours."
 msgstr "สัญญาต้องหมดอายุระหว่างชั่วโมงการซื้อขาย"
 
+msgid "Contract not found for contract id: %1."
+msgstr ""
+
 msgid "Contract price cannot be zero."
 msgstr "ราคาของสัญญาไม่สามารถมีค่าเป็นศูนย์"
+
+#, fuzzy
+#| msgid "Contract period"
+msgid "Contract update failed."
+msgstr "ระยะเวลาสัญญา"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr "จำนวนเงินที่วางในสัญญาต้องมากกว่าราคาซื้อสูงสุด"
@@ -1367,6 +1391,11 @@ msgstr "ช่วงเวลาไม่ถูกต้อง (ช่วงร�
 msgid "Invalid expiry time."
 msgstr "เวลาหมดอายุไม่ถูกต้อง"
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
+msgstr "ช่วงเวลาไม่ถูกต้อง (ช่วงราคา) สำหรับประเภทสัญญา (%1)"
+
 msgid "Invalid login attempt. Please log in with your email and password instead."
 msgstr "การเข้าสู่ระบบไม่ถูกต้อง โปรดเข้าสู่ระบบด้วยการใช้อีเมล์และรหัสผ่านของท่าน"
 
@@ -1387,6 +1416,20 @@ msgstr "เซสชันไม่ถูกต้อง"
 
 msgid "Invalid stake/payout."
 msgstr "การวางเงิน/การชำระเงินไม่ถูกต้อง"
+
+msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgstr ""
+
+msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+msgstr "ราคาไม่ถูกต้อง ราคามีทศนิยมไม่เกิน %1 หลัก"
+
+msgid "Invalid take profit. Take profit must be higher than %1."
+msgstr ""
 
 msgid "Invalid token"
 msgstr "โทเค่นไม่ถูกต้อง"
@@ -1457,6 +1500,11 @@ msgstr "สัญญามรดก ไม่มีข้อมูลที่�
 msgid "Let’s get you a new one."
 msgstr ""
 
+#, fuzzy
+#| msgid "Barrier cannot be zero."
+msgid "Limit order amount cannot be zero."
+msgstr "Barrier มีค่าเป็นศูนย์ไม่ได้"
+
 msgid "Location:"
 msgstr "สถานที่:"
 
@@ -1511,6 +1559,9 @@ msgstr "ขออภัย ไม่มี ICO ให้บริการใน
 #| msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgid "MT5 is currently unavailable. Please try again later."
 msgstr "ขออภัย ไม่สามารถโอนได้ในขณะนี้ กรุณาทำรายการใหม่ภายหลัง"
+
+msgid "MULTUP and MULTDOWN are not supported."
+msgstr ""
 
 msgid "Major Pairs"
 msgstr "คู่หลัก"
@@ -1576,6 +1627,22 @@ msgstr "นาง"
 
 msgid "Ms"
 msgstr "นางสาว"
+
+#, fuzzy
+#| msgid "Barrier is out of acceptable range."
+msgid "Multiplier is not in acceptable range. Accepts %1."
+msgstr "Barrier อยู่นอกขอบเขตที่กำหนด"
+
+#, fuzzy
+#| msgid "Only Downs"
+msgid "Multiply Down"
+msgstr "ต่ำลงอย่างต่อเนื่อง"
+
+msgid "Multiply Up"
+msgstr ""
+
+msgid "Multiply Up/Multiply Down"
+msgstr ""
 
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
@@ -1688,6 +1755,11 @@ msgstr "จำนวนนี้ต้องการทศนิยม 2 หล
 
 msgid "Only one Deriv account can be created with one email address."
 msgstr ""
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only one update per second is allowed."
+msgstr "ใช้ทศนิยมได้ 3 หลัก"
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "อนุญาตเฉพาะพอร์ตเลขที่ 80 และ 443"
@@ -2086,6 +2158,11 @@ msgstr "พยากรณ์ว่าตลาดจะไปถึงค่า
 msgid "Predict which tick is the highest/lowest at expiration."
 msgstr "พยากรณ์ช่วงราคาสูงที่สุด/ต่ำที่สุดที่จุดสิ้นสุด"
 
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predicts if the market is going to up or down."
+msgstr "พยากรณ์เลขสุดท้ายของราคาตลาดที่จุดสิ้นสุด"
+
 msgid "Predicts if the next n ticks will be consecutively higher or lower than the previous tick."
 msgstr "คาดการณ์ว่า ราคาอีก n ราคาต่อไปจะสูงขึ้นหรือต่ำลงอย่างต่อเนื่องจากราคาก่อนหน้านี้"
 
@@ -2218,6 +2295,9 @@ msgstr "ช่วงราคาที่เลือกต้องเป็น
 
 msgid "Sell"
 msgstr "ขาย"
+
+msgid "Sell failed because contract was updated."
+msgstr ""
 
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "โปรดส่ง %1 (%2) ไปตามที่อยู่เพื่อฝากเงินในบัญชีท่าน"
@@ -2399,6 +2479,11 @@ msgstr "เงินดิจิทัลมีมูลค่าคงที่
 msgid "Stake can not have more than %1 decimal places."
 msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
+#, fuzzy
+#| msgid "Barrier must be at least "
+msgid "Stake must be at least %1 1."
+msgstr "Barrier ต้องมีค่าอย่างน้อย "
+
 msgid "Start Time"
 msgstr "เวลาเริ่ม"
 
@@ -2436,6 +2521,19 @@ msgstr "ดัชนีสเต็ป"
 msgid "Step Indices"
 msgstr "ดัชนีสเต็ป"
 
+#, fuzzy
+#| msgid "Stop-loss"
+msgid "Stop Loss"
+msgstr "การระงับขาดทุน"
+
+msgid "Stop Out"
+msgstr ""
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Stop loss can not have more than %1 decimal places."
+msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
+
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "ไม่มีสตรีมมิ่งของสัญลักษณ์นี้ เนื่องจากข้อจำกัดของไลเซนส์"
 
@@ -2459,6 +2557,16 @@ msgstr "TOTP based 2FA ได้ปิดการใช้งานแล้ว
 
 msgid "TOTP based 2FA is already enabled."
 msgstr "TOTP based 2FA ถูกเปิดใช้งานแล้ว"
+
+#, fuzzy
+#| msgid "Profit"
+msgid "Take Profit"
+msgstr "กำไร"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Take profit can not have more than %1 decimal places."
+msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
 msgid "Tax identification number"
 msgstr "เลขประจำตัวผู้เสียภาษี"
@@ -3013,6 +3121,22 @@ msgstr "อนุญาตให้ใช้มากที่สุด 100 โ�
 msgid "Up/Down"
 msgstr "ขึ้น/ลง"
 
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract."
+msgstr "ไม่สามารถใช้ Barrier กับสัญญานี้"
+
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract. Allowed updates %1"
+msgstr "ไม่สามารถใช้ Barrier กับสัญญานี้"
+
+msgid "Update only accepts hash reference as input parameter."
+msgstr ""
+
+msgid "Update value accepts number or null"
+msgstr ""
+
 msgid "Use it to play around with different contracts and to test your trading strategies⁠- without risking real money."
 msgstr ""
 
@@ -3248,6 +3372,12 @@ msgstr "เข้าสู่ระบบ Deriv"
 #| msgid "Log in to Deriv"
 msgid "Welcome to Deriv!"
 msgstr "เข้าสู่ระบบ Deriv"
+
+msgid "Win %5% of your stake for every 1% fall in the market price."
+msgstr ""
+
+msgid "Win %5% of your stake for every 1% rise in the market price."
+msgstr ""
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "ชนะ %6 %5 ครั้ง ของ %1 ปิดลบต่ำเมื่อ %3"
@@ -6258,9 +6388,6 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Barrier Change"
 #~ msgstr "การเปลี่ยนแปลง Barrier"
 
-#~ msgid "Barrier must be at least "
-#~ msgstr "Barrier ต้องมีค่าอย่างน้อย "
-
 #~ msgid "Barrier offset"
 #~ msgstr "Barrier ออฟเซ็ท"
 
@@ -7063,9 +7190,6 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Contract category %1 invalid"
 #~ msgstr "ประเภทของสัญญา %1 ไม่ถูกต้อง"
 
-#~ msgid "Contract expired"
-#~ msgstr "สัญญาหมดอายุ"
-
 #~ msgid "Contract has already expired."
 #~ msgstr "สัญญาหมดอายุลงแล้ว"
 
@@ -7074,9 +7198,6 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Contract must be held for %1 before resale is offered."
 #~ msgstr "สัญญาต้องถือสำหรับ %1 ก่อนการจำหน่ายอีกครั้ง"
-
-#~ msgid "Contract period"
-#~ msgstr "ระยะเวลาสัญญา"
 
 #~ msgid "Contract started"
 #~ msgstr "สัญญาเริ่มเมื่อ"
@@ -11472,9 +11593,6 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Proficiency in a second language (oral and written) is preferred"
 #~ msgstr "มีความเชี่ยวชาญในภาษาที่สอง ทั้งพูดและเขียน จะได้รับการพิจารณาเป็นพิเศษ"
 
-#~ msgid "Profit"
-#~ msgstr "กำไร"
-
 #~ msgid "Profit / Loss"
 #~ msgstr "กำไร / ขาดทุน"
 
@@ -12404,9 +12522,6 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "การระงับกำไรต้องมีค่าระหว่าง %1 และ %2 %3"
-
-#~ msgid "Stop-loss"
-#~ msgstr "การระงับขาดทุน"
 
 #~ msgid "Stop-type"
 #~ msgstr "ประเภทของการระงับ"

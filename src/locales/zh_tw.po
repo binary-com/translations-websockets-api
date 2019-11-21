@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2019-11-21 20:14+0000\n"
 "Last-Translator: Choong Mee Yun <meeyun@binary.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hant/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -275,6 +274,11 @@ msgstr "本合約的基準可為%1或%2。"
 msgid "Basis must be %1 for this contract."
 msgstr "此合約的基準必須是%1。"
 
+#, fuzzy
+#| msgid "Barriers could not be determined."
+msgid "Basis spot is not defined."
+msgstr "無法確定障礙。"
+
 msgid "Bear Market Index"
 msgstr "熊市指數"
 
@@ -399,6 +403,9 @@ msgstr "收盤提前（於20:55）"
 msgid "Closing Spot"
 msgstr "閉市現價"
 
+msgid "Commission is not defined for %1."
+msgstr ""
+
 msgid "Commodities"
 msgstr "商品"
 
@@ -420,6 +427,14 @@ msgstr "合約障礙必須為正數。"
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "此時不能賣出合約。請重試。"
 
+#, fuzzy
+#| msgid "Contract expired"
+msgid "Contract has expired."
+msgstr "合約已到期"
+
+msgid "Contract id is required to update contract"
+msgstr ""
+
 msgid "Contract market price is too close to final payout."
 msgstr "合約市場價格離最終賠付額太近。"
 
@@ -429,8 +444,16 @@ msgstr "合約不可在%1 與 %2之間到期。"
 msgid "Contract must expire during trading hours."
 msgstr "合約必須在交易時段內到期。"
 
+msgid "Contract not found for contract id: %1."
+msgstr ""
+
 msgid "Contract price cannot be zero."
 msgstr "合約價格不可為零。"
+
+#, fuzzy
+#| msgid "Contract period"
+msgid "Contract update failed."
+msgstr "合約期間"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr "合約投注額大於最大購入價。"
@@ -1277,6 +1300,11 @@ msgstr "合約類型(%1)無效持續時間(跳動點)。"
 msgid "Invalid expiry time."
 msgstr "無效到期時間。"
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
+msgstr "合約類型(%1)無效持續時間(跳動點)。"
+
 msgid "Invalid login attempt. Please log in with your email and password instead."
 msgstr "登入失敗。請嘗試輸入電子郵件和密碼登入。"
 
@@ -1297,6 +1325,20 @@ msgstr "無效工作階段。"
 
 msgid "Invalid stake/payout."
 msgstr "無效投注/賠付金額。"
+
+msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgstr ""
+
+msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+msgstr "無效價格。提供價格的小數點後不可超過%1位數。"
+
+msgid "Invalid take profit. Take profit must be higher than %1."
+msgstr ""
 
 msgid "Invalid token"
 msgstr "無效權杖"
@@ -1361,6 +1403,11 @@ msgstr "舊版合約，無其他資訊。"
 msgid "Let’s get you a new one."
 msgstr "讓我們向您提供新的。"
 
+#, fuzzy
+#| msgid "Barrier cannot be zero."
+msgid "Limit order amount cannot be zero."
+msgstr "障礙不可為零。"
+
 msgid "Location:"
 msgstr "位置:"
 
@@ -1411,6 +1458,9 @@ msgstr "您的國家還不能使用MT5 %1帳戶。"
 
 msgid "MT5 is currently unavailable. Please try again later."
 msgstr "MT5目前無法使用。請稍後重試。"
+
+msgid "MULTUP and MULTDOWN are not supported."
+msgstr ""
 
 msgid "Major Pairs"
 msgstr "主要貨幣對"
@@ -1474,6 +1524,22 @@ msgstr "太太"
 
 msgid "Ms"
 msgstr "女士"
+
+#, fuzzy
+#| msgid "Barrier is out of acceptable range."
+msgid "Multiplier is not in acceptable range. Accepts %1."
+msgstr "障礙不在可接受範圍內。"
+
+#, fuzzy
+#| msgid "Only Downs"
+msgid "Multiply Down"
+msgstr "持續下跌"
+
+msgid "Multiply Up"
+msgstr ""
+
+msgid "Multiply Up/Multiply Down"
+msgstr ""
 
 msgid "NZD/JPY"
 msgstr "紐元/日圓"
@@ -1582,6 +1648,11 @@ msgstr "金額只允許至多小數點后兩位。"
 
 msgid "Only one Deriv account can be created with one email address."
 msgstr "一個電子郵件地址只能開立一個Deriv帳戶。"
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only one update per second is allowed."
+msgstr "只允許3個小數點。"
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "只允許連接埠80與443"
@@ -1918,6 +1989,11 @@ msgstr "預測市場是否會在到期前觸及2個選定價格水平中的任�
 msgid "Predict which tick is the highest/lowest at expiration."
 msgstr "預測到期時跳動點的最高/最低價。"
 
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predicts if the market is going to up or down."
+msgstr "預測到期時市場價格的最後一個數字。"
+
 msgid "Predicts if the next n ticks will be consecutively higher or lower than the previous tick."
 msgstr "預測接下來n個價格變動點是否連續高於或低於前個價格變動點。"
 
@@ -2040,6 +2116,9 @@ msgstr "選取跳動點必須是整數。"
 
 msgid "Sell"
 msgstr "賣出"
+
+msgid "Sell failed because contract was updated."
+msgstr ""
 
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "請將您的%1(%2) 送到此地址，以便把資金存入帳戶"
@@ -2215,6 +2294,11 @@ msgstr "穩定幣種"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "投注額的小數點後不可超過%1位數。"
 
+#, fuzzy
+#| msgid "Barrier must be at least "
+msgid "Stake must be at least %1 1."
+msgstr "障礙至少必須 "
+
 msgid "Start Time"
 msgstr "開始時間"
 
@@ -2248,6 +2332,19 @@ msgstr "Step指數"
 msgid "Step Indices"
 msgstr "分階指數"
 
+#, fuzzy
+#| msgid "Stop-loss"
+msgid "Stop Loss"
+msgstr "止損"
+
+msgid "Stop Out"
+msgstr ""
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Stop loss can not have more than %1 decimal places."
+msgstr "投注額的小數點後不可超過%1位數。"
+
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "由於許可證限制，此符號串流不可用。"
 
@@ -2271,6 +2368,16 @@ msgstr "基於TOTP的2FA已禁用。"
 
 msgid "TOTP based 2FA is already enabled."
 msgstr "基於TOTP的2FA已啟用。"
+
+#, fuzzy
+#| msgid "Profit"
+msgid "Take Profit"
+msgstr "利潤"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Take profit can not have more than %1 decimal places."
+msgstr "投注額的小數點後不可超過%1位數。"
 
 msgid "Tax identification number"
 msgstr "稅務識別號"
@@ -2773,6 +2880,22 @@ msgstr "可擁有多達100個權杖。"
 msgid "Up/Down"
 msgstr "漲/跌"
 
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract."
+msgstr "此類合約不可設障礙。"
+
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract. Allowed updates %1"
+msgstr "此類合約不可設障礙。"
+
+msgid "Update only accepts hash reference as input parameter."
+msgstr ""
+
+msgid "Update value accepts number or null"
+msgstr ""
+
 msgid "Use it to play around with different contracts and to test your trading strategies⁠- without risking real money."
 msgstr "使用它來體驗各種不同的合約並測試您的交易策略，不需要用到真實資金。"
 
@@ -2976,6 +3099,12 @@ msgstr "歡迎來到Deriv"
 
 msgid "Welcome to Deriv!"
 msgstr "歡迎來到Deriv！"
+
+msgid "Win %5% of your stake for every 1% fall in the market price."
+msgstr ""
+
+msgid "Win %5% of your stake for every 1% rise in the market price."
+msgstr ""
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "%3時贏取%6 %5乘以%1的收盤值減最低值。"
@@ -6223,9 +6352,6 @@ msgstr "今天，每星期五"
 #~ msgid "Barrier Step format error"
 #~ msgstr "障礙步驟格式錯誤"
 
-#~ msgid "Barrier must be at least "
-#~ msgstr "障礙至少必須 "
-
 #~ msgid "Barrier offset"
 #~ msgstr "障礙位移"
 
@@ -7126,9 +7252,6 @@ msgstr "今天，每星期五"
 #~ msgid "Contract discovery and pricing"
 #~ msgstr "合約發現與報價"
 
-#~ msgid "Contract expired"
-#~ msgstr "合約已到期"
-
 #~ msgid "Contract has already expired."
 #~ msgstr "合約已經到期。"
 
@@ -7143,9 +7266,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Contract payouts shall be determined by the Company by reference to the daily high/low/close values reported on this website relevant to the underlying index(ices) of the contract(s) or from the interbank trading data received by the Company for forex quotes or commodities prices as displayed on the website, subject that the Company shall have the right to make corrections to such data in the event of mis-priced or typographically incorrect data. Clients should note that the different markets may close at different times during the day due to local trading hours and time zones."
 #~ msgstr "公司將參考本網站上公佈的與合約標的指數有關的每日最高價/最低價/收盤價或者公司收到的關於外匯報價或商品價格的銀行間交易資料（如網站所顯示）確定合約賠付額。但是公司有權修正錯誤標價或排印錯誤的資料。客戶需注意，由於交易時段和時區不同，不同市場的收盤時間也不一樣。"
-
-#~ msgid "Contract period"
-#~ msgstr "合約期間"
 
 #~ msgid "Contract purchase (approved applications only)"
 #~ msgstr "合約買入(僅限於獲批准的申請)"
@@ -12497,9 +12617,6 @@ msgstr "今天，每星期五"
 #~ msgid "Proficiency in a second language (oral and written) is preferred"
 #~ msgstr "熟練掌握第二語言 (口頭和書面) 者優先聘用"
 
-#~ msgid "Profit"
-#~ msgstr "利潤"
-
 #~ msgid "Profit / Loss"
 #~ msgstr "利潤 / 虧損"
 
@@ -13717,9 +13834,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "止盈須在%1 與 %2 %3之間"
-
-#~ msgid "Stop-loss"
-#~ msgstr "止損"
 
 #~ msgid "Stop-loss:"
 #~ msgstr "止損:"

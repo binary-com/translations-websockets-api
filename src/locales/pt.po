@@ -274,6 +274,11 @@ msgstr "A base pode ser %1 ou %2 neste contrato."
 msgid "Basis must be %1 for this contract."
 msgstr "A base deve ser %1 neste contrato."
 
+#, fuzzy
+#| msgid "Barriers could not be determined."
+msgid "Basis spot is not defined."
+msgstr "Não foi possível determinar barreiras."
+
 msgid "Bear Market Index"
 msgstr "Índice \"Mercado em Baixa\""
 
@@ -397,6 +402,9 @@ msgstr "Fecha cedo (às 20:55)"
 msgid "Closing Spot"
 msgstr "Preço de fechamento"
 
+msgid "Commission is not defined for %1."
+msgstr ""
+
 msgid "Commodities"
 msgstr "Matérias-primas"
 
@@ -418,6 +426,14 @@ msgstr "As barreiras do contrato devem ser positivas."
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "O contrato não pode ser vendido no momento. Por favor, tente novamente."
 
+#, fuzzy
+#| msgid "Contract expired"
+msgid "Contract has expired."
+msgstr "Contrato expirado"
+
+msgid "Contract id is required to update contract"
+msgstr ""
+
 msgid "Contract market price is too close to final payout."
 msgstr "O preço de mercado do contrato é demasiado próximo do prêmio final."
 
@@ -427,8 +443,16 @@ msgstr "O contrato não pode expirar entre %1 e %2."
 msgid "Contract must expire during trading hours."
 msgstr "O contrato deve expirar durante os horários de negociação."
 
+msgid "Contract not found for contract id: %1."
+msgstr ""
+
 msgid "Contract price cannot be zero."
 msgstr "O preço do contrato não pode ser zero."
+
+#, fuzzy
+#| msgid "Contract period"
+msgid "Contract update failed."
+msgstr "Período do contrato"
 
 msgid "Contract's stake amount is more than the maximum purchase price."
 msgstr "A valor da aposta do contrato é superior ao preço de aquisição máximo."
@@ -1314,6 +1338,11 @@ msgstr "Duração inválida (tique-taque) para o tipo de contrato %1."
 msgid "Invalid expiry time."
 msgstr "Prazo de validade inválido."
 
+#, fuzzy
+#| msgid "Invalid duration (tick) for contract type (%1)."
+msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
+msgstr "Duração inválida (tique-taque) para o tipo de contrato %1."
+
 msgid "Invalid login attempt. Please log in with your email and password instead."
 msgstr "Tentativa de login inválida. Conecte-se antes usando o seu e-mail e a sua senha."
 
@@ -1334,6 +1363,20 @@ msgstr "Sessão inválida."
 
 msgid "Invalid stake/payout."
 msgstr "Prêmio/Aposta inválido/a."
+
+msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgstr ""
+
+msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+msgstr "Preço inválido. O preço fornecido não pode conter mais do que %1 casas decimais."
+
+msgid "Invalid take profit. Take profit must be higher than %1."
+msgstr ""
 
 msgid "Invalid token"
 msgstr "Token inválido"
@@ -1404,6 +1447,11 @@ msgstr "Contrato de patrimônio. Sem mais informações disponíveis."
 msgid "Let’s get you a new one."
 msgstr ""
 
+#, fuzzy
+#| msgid "Barrier cannot be zero."
+msgid "Limit order amount cannot be zero."
+msgstr "O valor da barreira não pode ser zero."
+
 msgid "Location:"
 msgstr "Local:"
 
@@ -1458,6 +1506,9 @@ msgstr "Este agente de pagamentos não está disponível no seu país."
 #| msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgid "MT5 is currently unavailable. Please try again later."
 msgstr "Lamentamos, as transferências estão atualmente indisponíveis. Tente novamente mais tarde."
+
+msgid "MULTUP and MULTDOWN are not supported."
+msgstr ""
 
 msgid "Major Pairs"
 msgstr "Pares Principais"
@@ -1523,6 +1574,22 @@ msgstr "Sra."
 
 msgid "Ms"
 msgstr "Sra."
+
+#, fuzzy
+#| msgid "Barrier is out of acceptable range."
+msgid "Multiplier is not in acceptable range. Accepts %1."
+msgstr "A barreira está fora do intervalo aceitável."
+
+#, fuzzy
+#| msgid "Only Downs"
+msgid "Multiply Down"
+msgstr "Sempre abaixo"
+
+msgid "Multiply Up"
+msgstr ""
+
+msgid "Multiply Up/Multiply Down"
+msgstr ""
 
 msgid "NZD/JPY"
 msgstr "NZD/JPY"
@@ -1635,6 +1702,11 @@ msgstr "É permitido um máximo de apenas 2 pontos decimais no valor."
 
 msgid "Only one Deriv account can be created with one email address."
 msgstr ""
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only one update per second is allowed."
+msgstr "Apenas 3 casas decimais são permitidas."
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Apenas portas 80 e 443 são permitidas"
@@ -2035,6 +2107,11 @@ msgstr "Preveja se o mercado vai tocar ou não qualquer um dos 2 níveis escolhi
 msgid "Predict which tick is the highest/lowest at expiration."
 msgstr "Preveja qual o tique-taque será mais alto/baixo na expiração."
 
+#, fuzzy
+#| msgid "Predict the last digit of the market price at expiration."
+msgid "Predicts if the market is going to up or down."
+msgstr "Preveja o último dígito do preço do mercado na sua expiração."
+
 msgid "Predicts if the next n ticks will be consecutively higher or lower than the previous tick."
 msgstr "Prevê se os próximos n ticks serão consecutivamente mais altos ou mais baixos que o tick anterior."
 
@@ -2165,6 +2242,9 @@ msgstr "O tique-taque selecionado deve ser um número inteiro."
 
 msgid "Sell"
 msgstr "Vender"
+
+msgid "Sell failed because contract was updated."
+msgstr ""
 
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "Envie seu %1 (%2) para este endereço para depositar fundos na sua conta"
@@ -2346,6 +2426,11 @@ msgstr "Moeda estável"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "A aposta não pode conter mais do que %1 casas decimais."
 
+#, fuzzy
+#| msgid "Barrier must be at least "
+msgid "Stake must be at least %1 1."
+msgstr "A barreira deve ser de ao menos "
+
 msgid "Start Time"
 msgstr "Hora de Início"
 
@@ -2385,6 +2470,21 @@ msgstr "Índices Step"
 msgid "Step Indices"
 msgstr "Índices Step"
 
+#, fuzzy
+#| msgid "Stop-loss"
+msgid "Stop Loss"
+msgstr "Limite de perdas"
+
+#, fuzzy
+#| msgid "Log Out"
+msgid "Stop Out"
+msgstr "Terminar Sessão"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Stop loss can not have more than %1 decimal places."
+msgstr "A aposta não pode conter mais do que %1 casas decimais."
+
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "A transmissão contínua deste símbolo não está disponível devido às restrições de licença."
 
@@ -2408,6 +2508,16 @@ msgstr "A A2F baseada em TOTP já está desabilitada."
 
 msgid "TOTP based 2FA is already enabled."
 msgstr "A A2F baseada em TOTP já está habilitada."
+
+#, fuzzy
+#| msgid "Profit"
+msgid "Take Profit"
+msgstr "Lucro"
+
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "Take profit can not have more than %1 decimal places."
+msgstr "A aposta não pode conter mais do que %1 casas decimais."
 
 msgid "Tax identification number"
 msgstr "Número de identificação fiscal"
@@ -2964,6 +3074,22 @@ msgstr "Até 100 tokens são permitidos."
 msgid "Up/Down"
 msgstr "Acima/Abaixo"
 
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract."
+msgstr "Barreiras não são permitidas para este tipo de contrato."
+
+#, fuzzy
+#| msgid "Barrier is not allowed for this contract type."
+msgid "Update is not allowed for this contract. Allowed updates %1"
+msgstr "Barreiras não são permitidas para este tipo de contrato."
+
+msgid "Update only accepts hash reference as input parameter."
+msgstr ""
+
+msgid "Update value accepts number or null"
+msgstr ""
+
 msgid "Use it to play around with different contracts and to test your trading strategies⁠- without risking real money."
 msgstr ""
 
@@ -3199,6 +3325,12 @@ msgstr "Conecte-se no Deriv"
 #| msgid "Log in to Deriv"
 msgid "Welcome to Deriv!"
 msgstr "Conecte-se no Deriv"
+
+msgid "Win %5% of your stake for every 1% fall in the market price."
+msgstr ""
+
+msgid "Win %5% of your stake for every 1% rise in the market price."
+msgstr ""
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Ganhe %6 %5 vezes o fechamento de %1 menos a baixa às %3."
@@ -8003,9 +8135,6 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Barrier may not be adjusted."
 #~ msgstr "A barreira não pode ser ajustada."
 
-#~ msgid "Barrier must be at least "
-#~ msgstr "A barreira deve ser de ao menos "
-
 #~ msgid "Barrier offset"
 #~ msgstr "Compensação de Barreira"
 
@@ -9173,9 +9302,6 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Contract discovery and pricing"
 #~ msgstr "Descoberta do contrato e preço"
 
-#~ msgid "Contract expired"
-#~ msgstr "Contrato expirado"
-
 #~ msgid "Contract has already expired."
 #~ msgstr "O contrato já expirou."
 
@@ -9199,9 +9325,6 @@ msgstr "hoje, sextas-feiras"
 
 #~ msgid "Contract payouts shall be determined by the Company by reference to the daily high/low/close values reported on this website relevant to the underlying index(ices) of the contract(s) or from the interbank trading data received by the Company for forex quotes or commodities prices as displayed on the website, subject that the Company shall have the right to make corrections to such data in the event of mis-priced or typographically incorrect data. Clients should note that the different markets may close at different times during the day due to local trading hours and time zones."
 #~ msgstr "Os pagamentos dos contratos devem ser determinados pela empresa com base nos valores diários de alta/queda/término comunicados neste website, referentes ao(s) índice(s) subjacente(s) ao(s) contrato(s), ou a partir dos dados de negociação interbancária recebidos pela empresa, referentes às cotações forex ou aos preços das matérias primas, conforme apresentados no website, estando sujeitos ao fato da empresa ter o direito de corrigir tais dados no caso de preços incorretamente definidos ou de dados tipograficamente incorretos. Os clientes devem observar que os diferentes mercados podem fechar em horários distintos durante o dia, devido às horas de negociação e fusos horários locais."
-
-#~ msgid "Contract period"
-#~ msgstr "Período do contrato"
 
 #~ msgid "Contract purchase (approved applications only)"
 #~ msgstr "Compra de contratos (somente solicitações aprovadas)"
@@ -13995,9 +14118,6 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Log In"
 #~ msgstr "Inciar Sessão"
 
-#~ msgid "Log Out"
-#~ msgstr "Terminar Sessão"
-
 #~ msgid "Log Scale"
 #~ msgstr "Escala Logarítmica"
 
@@ -16131,9 +16251,6 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Proficiency in a second language (oral and written) is preferred"
 #~ msgstr "Proficiência numa segunda língua (oral e escrita) é fator preferencial"
 
-#~ msgid "Profit"
-#~ msgstr "Lucro"
-
 #~ msgid "Profit / Loss"
 #~ msgstr "Lucro / Perda"
 
@@ -17985,9 +18102,6 @@ msgstr "hoje, sextas-feiras"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "O limite de ganhos deve estar entre %1 e %2 %3"
-
-#~ msgid "Stop-loss"
-#~ msgstr "Limite de perdas"
 
 #~ msgid "Stop-loss:"
 #~ msgstr "Limite de perdas:"
