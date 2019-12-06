@@ -360,6 +360,9 @@ msgstr "Nie można utworzyć wnioskodawcy dla %1."
 msgid "Cannot create contract"
 msgstr "Nie można utworzyć kontraktu"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "Nie udało się wygenerować tokenu dla %1."
 
@@ -1266,6 +1269,11 @@ msgstr "Weryfikacja danych wejściowych nie powiodła się: %1"
 msgid "Input validation failed: %1."
 msgstr "Weryfikacja danych wejściowych nie powiodła się: %1."
 
+#, fuzzy
+#| msgid "Invalid client account."
+msgid "Insufficient funds in account"
+msgstr "Nieprawidłowe konto klienta."
+
 msgid "Intraday contracts may not cross market open."
 msgstr "Kontrakty dzienne nie mogą być zawierane na okres dłuższy niż do momentu otwarcia rynku następnego dnia."
 
@@ -1277,6 +1285,11 @@ msgstr "Nieprawidłowy rachunek."
 
 msgid "Invalid address."
 msgstr "Nieprawidłowy adres."
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "Nieprawidłowy kod weryfikacyjny"
 
 msgid "Invalid amount."
 msgstr "Nieprawidłowa kwota."
@@ -1330,6 +1343,11 @@ msgstr "Nieprawidłowa próba logowania. Zaloguj się za pomocą swojego adresu 
 
 msgid "Invalid loginid"
 msgstr "Nieprawidłowy login"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "Nieprawidłowa waluta."
 
 msgid "Invalid payout currency"
 msgstr "Nieprawidłowa waluta wypłaty"
@@ -1646,6 +1664,11 @@ msgid "Number of ticks must be between %1 and %2."
 msgstr "Liczba najmniejszych przyrostów ceny musi wynosić między %1 a %2."
 
 #, fuzzy
+#| msgid "Document not found."
+msgid "OTC Agent not found"
+msgstr "Nie znaleziono dokumentu."
+
+#, fuzzy
 #| msgid "This contract is unavailable on this account."
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "Ten kontrakt jest niedostępny dla tego konta."
@@ -1655,6 +1678,11 @@ msgstr "Weryfikacja OTP"
 
 msgid "OTP verification failed"
 msgstr "Weryfikacja OTP nie powiodła się"
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Offer not found"
+msgstr "Nie znaleziono"
 
 msgid "Oil/AUD"
 msgstr "Ropa/AUD"
@@ -1713,6 +1741,35 @@ msgstr "Lub"
 #| msgid "Log in using social account"
 msgid "Or use your social account"
 msgstr "Zaloguj się przy użyciu konta w mediach społecznościowych"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "Data wygaśnięcia nie może być taka sama ani wcześniejsza niż aktualna data."
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "Data wygaśnięcia nie może być taka sama ani wcześniejsza niż aktualna data."
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "Podana waluta nie jest zgodna z walutą konta."
+
+msgid "Order has not been confirmed by agent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Order not found"
+msgstr "Nie znaleziono"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2503,6 +2560,11 @@ msgstr "Uwierzytelnianie dwuskładnikowe oparte na TOTP zostało już wyłączon
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "Adres można wykorzystać tylko raz. Proszę wygenerować nowy adres."
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "Weryfikacja Klienta nie została jeszcze zakończona."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Kontrakt %4 zmienił się z %2 %1 na %3 %1."
 
@@ -2567,6 +2629,26 @@ msgstr "Najczęściej sprzedawane i kupowane oraz płynne pary walut."
 msgid "The name is taken."
 msgstr "Nazwa jest już w użyciu."
 
+#, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "Kontrakt wygasł"
+
+#, fuzzy
+#| msgid "Value of salutation cannot be changed after authentication."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "Zwrotu grzecznościowego nie można zmienić po zakończeniu weryfikacji."
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "Twoje hasło zostało zmienione."
+
+#, fuzzy
+#| msgid "Value of citizen cannot be changed after authentication."
+msgid "The offer is inactive and cannot be changed."
+msgstr "Obywatelstwa nie można zmienić po zakończeniu weryfikacji."
+
 msgid "The password for %1 has been successfully changed."
 msgstr "Twoje hasło do %1 zostało zmienione."
 
@@ -2578,6 +2660,11 @@ msgstr "Hasło dla Twojego konta %1 zostało zresetowane. Jeśli to nie Ty wysł
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Usługi pośredników płatności są niedostępne dla tego konta."
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "Obecnie nie jest możliwe wybranie waluty %1."
 
 msgid "The provided currency %1 is invalid."
 msgstr "Podana waluta %1 jest nieprawidłowa."
@@ -2652,16 +2739,16 @@ msgstr "Przelew środków jest niemożliwy. Proszę wpłacić środki na konto."
 msgid "This account has been disabled."
 msgstr "To konto zostało wyłączone."
 
+#, fuzzy
+#| msgid "Your account is registered as a Payment Agent."
+msgid "This account is not registered as an OTC agent"
+msgstr "Twoje konto zostało zarejestrowane jako konto pośrednika płatności."
+
 msgid "This account is unavailable."
 msgstr "To konto jest niedostępne."
 
 msgid "This address can only be used once to make a deposit."
 msgstr "Ten adres może użyć tylko raz podczas dokonywania wpłaty."
-
-#, fuzzy
-#| msgid "Payment Agent activity not currently authorized"
-msgid "This agent account is not currently active"
-msgstr "Aktualnie brak autoryzacji aktywności pośrednika płatności"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Ta kwota jest zbyt niska. Wprowadź kwotę wynoszącą minimum %2 %1."
@@ -2727,9 +2814,6 @@ msgstr "Rynek jest obecnie zamknięty."
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Ten rynek jest obecnie zamknięty. Wypróbuj wskaźniki syntetyczne, które są zawsze dostępne."
-
-msgid "This order is already complete and no changes can be made"
-msgstr ""
 
 #, fuzzy
 #| msgid "The token is invalid."
@@ -3467,6 +3551,9 @@ msgstr "Dziennie możesz wykonać transakcje w maksymalnej liczbie %1 . Spróbuj
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Możesz ubiegać się o dodatkowe środki, wyłącznie jeśli saldo Twojego wirtualnego konta jest niższe niż %2 %1."
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Nie możesz dokonać wypłaty na konto %1, ponieważ konto pośrednika płatności jest wyłączone."
@@ -8279,9 +8366,6 @@ msgstr "dziś, piątki"
 #~ msgid "Client email not set."
 #~ msgstr "Nie ustawiono adresu e-mail Klienta."
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "Weryfikacja Klienta nie została jeszcze zakończona."
-
 #~ msgid "Client record fetch failure"
 #~ msgstr "Błąd w pozyskiwaniu danych klienta"
 
@@ -9619,9 +9703,6 @@ msgstr "dziś, piątki"
 
 #~ msgid "Document department processes, to enhance the marketing team’s ability to execute repeated tasks efficiently and effectively"
 #~ msgstr "Przetwarzanie dokumentów danego działu w celu umożliwienia zespołowi ds. marketingu skuteczne i wydajne wykonywanie powtarzalnych czynności"
-
-#~ msgid "Document not found."
-#~ msgstr "Nie znaleziono dokumentu."
 
 #~ msgid "Don't buy contract using master password!"
 #~ msgstr "Nie kupuj kontraktu używając hasła głównego!"
@@ -12049,9 +12130,6 @@ msgstr "dziś, piątki"
 
 #~ msgid "Invalid candles request"
 #~ msgstr "Nieprawidłowe żądanie dot. wykresu świecowego"
-
-#~ msgid "Invalid client account."
-#~ msgstr "Nieprawidłowe konto klienta."
 
 #~ msgid "Invalid contract start time selected."
 #~ msgstr "Wybrano nieprawidłową datę rozpoczęcia kontraktu."
@@ -18121,6 +18199,11 @@ msgstr "dziś, piątki"
 
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "To konto jest niedostępne. W przypadku pytań prosimy o kontakt z działem obsługi klienta."
+
+#, fuzzy
+#~| msgid "Payment Agent activity not currently authorized"
+#~ msgid "This agent account is not currently active"
+#~ msgstr "Aktualnie brak autoryzacji aktywności pośrednika płatności"
 
 #~ msgid "This bonus code has expired."
 #~ msgstr "Kod bonusowy wygasł."

@@ -350,6 +350,9 @@ msgstr "Impossibile generare la richiesta per %1."
 msgid "Cannot create contract"
 msgstr "Impossibile creare contratto"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "Impossibile generare token %1."
 
@@ -1243,6 +1246,11 @@ msgstr "Convalida input non riuscita: %1"
 msgid "Input validation failed: %1."
 msgstr "Convalida input non riuscita: %1."
 
+#, fuzzy
+#| msgid "Invalid client account."
+msgid "Insufficient funds in account"
+msgstr "Account del cliente non valido."
+
 msgid "Intraday contracts may not cross market open."
 msgstr "I contratti intraday non possono estendersi al giorno di trading successivo."
 
@@ -1254,6 +1262,11 @@ msgstr "Account non valido."
 
 msgid "Invalid address."
 msgstr "Indirizzo email non valido."
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "Codice di autenticazione non valido"
 
 msgid "Invalid amount."
 msgstr "Importo non valido."
@@ -1305,6 +1318,11 @@ msgstr "Tentativo di login non valido. Accedere invece con la tua email e passwo
 
 msgid "Invalid loginid"
 msgstr "ID d'accesso non valido"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "Valuta non valida."
 
 msgid "Invalid payout currency"
 msgstr "Valuta di payout non valida"
@@ -1602,6 +1620,11 @@ msgstr "Le note non devono superare i %1 caratteri."
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Il numero di tick deve essere compreso tra %1 e %2."
 
+#, fuzzy
+#| msgid "Document not found."
+msgid "OTC Agent not found"
+msgstr "Documento non trovato."
+
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "La funzione di cassa OTC non è disponibile sui conti di prova"
 
@@ -1610,6 +1633,11 @@ msgstr "Verifica OTP"
 
 msgid "OTP verification failed"
 msgstr "Verifica OTP non riuscita"
+
+#, fuzzy
+#| msgid "Not found"
+msgid "Offer not found"
+msgstr "Elemento non trovato"
 
 msgid "Oil/AUD"
 msgstr "Petrolio/AUD"
@@ -1666,6 +1694,35 @@ msgstr "O"
 #| msgid "Log in using social account"
 msgid "Or use your social account"
 msgstr "Accedi usando il tuo conto social"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "La data di scadenza non può essere inferiore o uguale alla data attuale."
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "La data di scadenza non può essere inferiore o uguale alla data attuale."
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "La valuta fornita è diversa dalla valuta dell'account."
+
+msgid "Order has not been confirmed by agent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not found"
+msgid "Order not found"
+msgstr "Elemento non trovato"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2424,6 +2481,11 @@ msgstr "La cassa OTC è momentaneamente disabilitata"
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "L'indirizzo può essere utilizzato solo una volta quando è in sospeso. Genera un nuovo indirizzo."
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "Il cliente non è pienamente autenticato."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Il contratto %4 è stato modificato da %1%2 a %1%3."
 
@@ -2484,6 +2546,26 @@ msgstr "Le coppie Forex più ampiamente negoziate e liquide."
 msgid "The name is taken."
 msgstr "Il nome è gia utilizzato."
 
+#, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "Il contratto è scaduto"
+
+#, fuzzy
+#| msgid "Your salutation cannot be changed."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "Non è possibile modificare l'intestazione."
+
+#, fuzzy
+#| msgid "Your secret answer cannot be changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "Non è possibile modificare la risposta segreta."
+
+#, fuzzy
+#| msgid "Your citizen cannot be changed."
+msgid "The offer is inactive and cannot be changed."
+msgstr "Non è possibile cambiare la cittadinanza."
+
 msgid "The password for %1 has been successfully changed."
 msgstr "La password di %1 è stata modificata."
 
@@ -2495,6 +2577,11 @@ msgstr "La password per il tuo account %1 è stata ripristinata. Se tale richies
 
 msgid "The payment agent facility is not available for this account."
 msgstr "La funzione dell'agente di pagamento non è disponibile per questo account."
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "Al momento la valuta %1 fornita non è selezionabile."
 
 msgid "The provided currency %1 is invalid."
 msgstr "La valuta %1 fornita non è valida."
@@ -2565,14 +2652,16 @@ msgstr "Questo conto non è abilitato per il trading su MT5. Accedi al conto cor
 msgid "This account has been disabled."
 msgstr "Questo account è stato disattivato."
 
+#, fuzzy
+#| msgid "You are not yet registered as an OTC agent"
+msgid "This account is not registered as an OTC agent"
+msgstr "Non sei ancora registrato come agente OTC"
+
 msgid "This account is unavailable."
 msgstr "Questo account non è disponibile."
 
 msgid "This address can only be used once to make a deposit."
 msgstr "L'indirizzo può essere utilizzato solo una volta per effettuare un deposito."
-
-msgid "This agent account is not currently active"
-msgstr "Al momento questo conto non è attivo"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "L'importo è troppo basso: ti invitiamo a inserire un minimo di %1 %2."
@@ -2636,9 +2725,6 @@ msgstr "Questo mercato è attualmente chiuso."
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Questo mercato è attualmente chiuso. Prova con gli indici sintetici che sono sempre aperti."
-
-msgid "This order is already complete and no changes can be made"
-msgstr "L'ordine è già stato completato, non è possibile modificarlo"
 
 msgid "This payment method is invalid"
 msgstr "Metodo di pagamento non valido"
@@ -3346,6 +3432,9 @@ msgstr "Puoi effettuare un massimo di %1 trasferimenti al giorno. Ti invitiamo a
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Puoi richiedere fondi aggiuntivi esclusivamente se il saldo del tuo conto virtuale scende al di sotto di %1 %2."
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Non è possibile effettuare il prelievo sull'account %1 poiché l'account dell'agente di pagamento è disabilitato."
@@ -6782,9 +6871,6 @@ msgstr "oggi, Venerdì"
 #~ msgid "Client email not set."
 #~ msgstr "Email al cliente non inviata."
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "Il cliente non è pienamente autenticato."
-
 #~ msgid "Client's Liability"
 #~ msgstr "Responsabilità del cliente"
 
@@ -7802,9 +7888,6 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "Document department processes, to enhance the marketing team’s ability to execute repeated tasks efficiently and effectively"
 #~ msgstr "Documentare le procedure del dipartimento per migliorare la capacità del team addetto al marketing di eseguire attività ripetitive in modo efficiente"
-
-#~ msgid "Document not found."
-#~ msgstr "Documento non trovato."
 
 #~ msgid "Don't limit yourself! Whatever your market view, Binary.com allows you to put your strategy to work and profit from your predictions."
 #~ msgstr "Non ti limitare! Qualunque sia la tua visione del mercato, Binary.com ti consente di mettere in pratica la tua strategia e guadagnare dalle tue previsioni."
@@ -9687,9 +9770,6 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "Invalid candles request"
 #~ msgstr "Richiesta del grafico a candele non valida"
-
-#~ msgid "Invalid client account."
-#~ msgstr "Account del cliente non valido."
 
 #~ msgid "Invalid email and password combination."
 #~ msgstr "Combinazione di email e password non valida."
@@ -14391,6 +14471,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "Questo account non è disponibile. Per qualsiasi domanda contattare l'Assistenza Clienti."
 
+#~ msgid "This agent account is not currently active"
+#~ msgstr "Al momento questo conto non è attivo"
+
 #~ msgid "This bonus is only available to new clients. Existing or former clients do not qualify. New clients are eligible for this type of bonus only once. This bonus is available only once per household."
 #~ msgstr "Questo bonus è disponibile solo per i nuovi clienti. I clienti esistenti o precedenti non ne hanno diritto. I nuovi clienti hanno diritto a questa tipologia di bonus solo una volta. Questo bonus è disponibile solo una volta per nucleo familiare."
 
@@ -14492,6 +14575,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "This offer cannot be used in conjunction with any other offer."
 #~ msgstr "Questa offerta non può essere utilizzata insieme a qualsiasi altra offerta."
+
+#~ msgid "This order is already complete and no changes can be made"
+#~ msgstr "L'ordine è già stato completato, non è possibile modificarlo"
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "Questa promozione è valida solo per i nuovi Clienti. I clienti già esistenti o antecedenti non ne hanno diritto. È disponibile solo una volta per ogni Cliente."

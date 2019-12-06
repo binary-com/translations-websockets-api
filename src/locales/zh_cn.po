@@ -352,6 +352,9 @@ msgstr "无法为%1创建申请人。"
 msgid "Cannot create contract"
 msgstr "无法创建合约"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "无法为%1生成令牌。"
 
@@ -1252,6 +1255,11 @@ msgstr "输入验证失败：%1"
 msgid "Input validation failed: %1."
 msgstr "输入验证失败：%1。"
 
+#, fuzzy
+#| msgid "Deposit funds into your account"
+msgid "Insufficient funds in account"
+msgstr "将资金存入您的账户"
+
 msgid "Intraday contracts may not cross market open."
 msgstr "日内合约不能跨越开市。"
 
@@ -1263,6 +1271,11 @@ msgstr "无效账户。"
 
 msgid "Invalid address."
 msgstr "无效的地址。"
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "无效的验证代码"
 
 msgid "Invalid amount."
 msgstr "无效金额。"
@@ -1316,6 +1329,11 @@ msgstr "登录失败。请尝试输入电子邮件和密码登录。"
 
 msgid "Invalid loginid"
 msgstr "无效登录id"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "无效货币。"
 
 msgid "Invalid payout currency"
 msgstr "无效赔付币种"
@@ -1621,6 +1639,11 @@ msgstr "备注不能超过 %1 个字符。"
 msgid "Number of ticks must be between %1 and %2."
 msgstr "跳动点数目须在%1 与 %2之间。"
 
+#, fuzzy
+#| msgid "Page not found"
+msgid "OTC Agent not found"
+msgstr "无法找到页面"
+
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "模拟账户无法使用场外交易收银台功能"
 
@@ -1629,6 +1652,11 @@ msgstr "OTP验证"
 
 msgid "OTP verification failed"
 msgstr "OTP验证失败"
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Offer not found"
+msgstr "无法找到页面"
 
 msgid "Oil/AUD"
 msgstr "原油/澳元"
@@ -1687,6 +1715,37 @@ msgstr "或"
 #| msgid "Log in using social account"
 msgid "Or use your social account"
 msgstr "使用社交网站账户登录"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "到期日不可早于或与当前日期相同。"
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "到期日不可早于或与当前日期相同。"
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "提供货币与账户货币不相符。"
+
+#, fuzzy
+#| msgid "Your card has not been credited."
+msgid "Order has not been confirmed by agent"
+msgstr "您的卡未被记入贷方。"
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Order not found"
+msgstr "无法找到页面"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2459,6 +2518,11 @@ msgstr "场外交易收银台目前已禁用"
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "等待期间此地址仅可使用一次。请设定新地址。"
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "客户端验证不充分。"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "合约 %4 已从 %1%2 变为 %1%3。"
 
@@ -2519,6 +2583,26 @@ msgstr "交易最活跃、流动性最高的货币对。"
 msgid "The name is taken."
 msgstr "此名已被注册。"
 
+#, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "合约已到期"
+
+#, fuzzy
+#| msgid "Value of salutation cannot be changed after authentication."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "验证后称呼无法修改。"
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "您的密码已更改。"
+
+#, fuzzy
+#| msgid "Value of citizen cannot be changed after authentication."
+msgid "The offer is inactive and cannot be changed."
+msgstr "验证后国籍无法修改。"
+
 msgid "The password for %1 has been successfully changed."
 msgstr "%1的密码已成功更改。"
 
@@ -2530,6 +2614,11 @@ msgstr "您的账户%1密码已重设。如您并没执行此项请求，请立�
 
 msgid "The payment agent facility is not available for this account."
 msgstr "此账户无可用支付代理设施。"
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "所提供的货币 %1目前不可选用。"
 
 msgid "The provided currency %1 is invalid."
 msgstr "所提供的货币 %1无效。"
@@ -2600,14 +2689,16 @@ msgstr "此账户不允许MT5交易。请到正确的账户登录。"
 msgid "This account has been disabled."
 msgstr "此账户已禁用。"
 
+#, fuzzy
+#| msgid "You are not yet registered as an OTC agent"
+msgid "This account is not registered as an OTC agent"
+msgstr "您还未注册为OTC代理"
+
 msgid "This account is unavailable."
 msgstr "此账户不可用。"
 
 msgid "This address can only be used once to make a deposit."
 msgstr "作为存款用途，此地址仅可使用一次。"
-
-msgid "This agent account is not currently active"
-msgstr "此代理账户目前没在使用"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "此数额过低，请输入至少%1 %2。"
@@ -2671,9 +2762,6 @@ msgstr "此市场目前已收市。"
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "此市场已关闭。您可以试试一直开放的综合指数。"
-
-msgid "This order is already complete and no changes can be made"
-msgstr "此订单已完成，因此无法作任何变更"
 
 msgid "This payment method is invalid"
 msgstr "此付款方式无效"
@@ -3387,6 +3475,9 @@ msgstr "一天最多只能转账%1次。请明天重新尝试。"
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "您的虚拟账户余额必须低于％1％2才能请求额外资金。"
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "您不能在账户 %1取款，因为付款代理的账户已禁用。"
@@ -9287,9 +9378,6 @@ msgstr "今天，每星期五"
 #~ msgid "Client email not set."
 #~ msgstr "用户端电子邮件未设置。"
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "客户端验证不充分。"
-
 #~ msgid "Client record fetch failure"
 #~ msgstr "客户记录获取失败"
 
@@ -10532,9 +10620,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Deposit confirmation"
 #~ msgstr "存款确认"
-
-#~ msgid "Deposit funds into your account"
-#~ msgstr "将资金存入您的账户"
 
 #~ msgid "Deposit funds into your account with Instadebit"
 #~ msgstr "通过 Instadebit 将资金存入您的账户"
@@ -16535,9 +16620,6 @@ msgstr "今天，每星期五"
 #~ msgid "Page %1 of %2"
 #~ msgstr "第%1页，共%2页"
 
-#~ msgid "Page not found"
-#~ msgstr "无法找到页面"
-
 #~ msgid "Palo Alto Networks Inc."
 #~ msgstr "帕洛阿尔托网络公司"
 
@@ -21143,6 +21225,9 @@ msgstr "今天，每星期五"
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "此账户不可用。如有问题，请联系客服人员。"
 
+#~ msgid "This agent account is not currently active"
+#~ msgstr "此代理账户目前没在使用"
+
 #~ msgid "This bonus code has expired."
 #~ msgstr "此奖金代码已过期。"
 
@@ -21304,6 +21389,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "This offer cannot be used in conjunction with any other offer."
 #~ msgstr "本优惠不能和其他任何优惠一起使用。"
+
+#~ msgid "This order is already complete and no changes can be made"
+#~ msgstr "此订单已完成，因此无法作任何变更"
 
 #~ msgid "This page has moved to"
 #~ msgstr "此页面已移至"
@@ -24266,9 +24354,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Your card deposit has been declined because you've reached the maximum number of transactions that you may carry out on a daily basis."
 #~ msgstr "您的卡存款已被拒绝，因为您已到达允许的每日最大交易数。"
-
-#~ msgid "Your card has not been credited."
-#~ msgstr "您的卡未被记入贷方。"
 
 #~ msgid "Your cashier is locked as per your request"
 #~ msgstr "根据您的请求，您的收银台已锁定"

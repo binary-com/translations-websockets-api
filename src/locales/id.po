@@ -353,6 +353,9 @@ msgstr "Tidak dapat mendaftar pemohon untuk %1."
 msgid "Cannot create contract"
 msgstr "Tidak dapat menyediakan kontrak"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "Tidak dapat menghasilkan token untuk %1."
 
@@ -1246,6 +1249,11 @@ msgstr "Validasi input gagal: %1"
 msgid "Input validation failed: %1."
 msgstr "Validasi input gagal: %1."
 
+#, fuzzy
+#| msgid "Deposit funds into your account"
+msgid "Insufficient funds in account"
+msgstr "Deposit dana kedalam akun Anda"
+
 msgid "Intraday contracts may not cross market open."
 msgstr "Kontrak intraday mungkin tidak melewati pembukaan pasar."
 
@@ -1257,6 +1265,11 @@ msgstr "Akun tidak berlaku."
 
 msgid "Invalid address."
 msgstr "Alamat tidak valid."
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "Kode otentikasi tidak berlaku"
 
 msgid "Invalid amount."
 msgstr "Jumlah tidak valid."
@@ -1308,6 +1321,11 @@ msgstr "Percobaan masuk gagal. Silahkan masuk menggunakan email dan kata sandi."
 
 msgid "Invalid loginid"
 msgstr "Loginid tidak berlaku"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "Mata uang salah."
 
 msgid "Invalid payout currency"
 msgstr "Mata uang hasil tidak berlaku"
@@ -1603,6 +1621,11 @@ msgstr "Catatan tidak boleh melebihi %1 karakter."
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Durasi harus antara %1 hingga %2."
 
+#, fuzzy
+#| msgid "Page not found"
+msgid "OTC Agent not found"
+msgstr "Halaman tidak ditemukan"
+
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "Fasilitas kasir OTC tidak tersedia pada akun demo"
 
@@ -1611,6 +1634,11 @@ msgstr "Verifikasi OTP"
 
 msgid "OTP verification failed"
 msgstr "Verifikasi OTP gagal"
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Offer not found"
+msgstr "Halaman tidak ditemukan"
 
 msgid "Oil/AUD"
 msgstr "Minyak/AUD"
@@ -1665,6 +1693,35 @@ msgstr "Atau"
 
 msgid "Or use your social account"
 msgstr "Atau gunakan akun sosial"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "Tanggal kadaluwarsa tidak boleh kurang dari atau sama dengan tanggal sekarang."
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "Tanggal kadaluwarsa tidak boleh kurang dari atau sama dengan tanggal sekarang."
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "Mata uang yang diberikan berbeda dengan mata uang pada akun."
+
+msgid "Order has not been confirmed by agent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Order not found"
+msgstr "Halaman tidak ditemukan"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2421,6 +2478,11 @@ msgstr "Kasir OTC saat ini dinonaktifkan"
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "Alamat hanya dapat digunakan sekali saat menunggu keputusan. Silakan buat alamat baru."
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "Klien tidak sepenuhnya terkonfirmasi."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Kontrak %4 telah berubah dari %1%2 ke %1%3."
 
@@ -2481,6 +2543,26 @@ msgstr "Pasangan forex yang paling sering ditradingkan."
 msgid "The name is taken."
 msgstr "Nama sudah diambil."
 
+#, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "Kontrak telah berakhir"
+
+#, fuzzy
+#| msgid "Your salutation cannot be changed."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "Gelar Anda tidak dapat diubah."
+
+#, fuzzy
+#| msgid "Your secret answer cannot be changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "Jawaban rahasia Anda tidak dapat diubah."
+
+#, fuzzy
+#| msgid "Your citizen cannot be changed."
+msgid "The offer is inactive and cannot be changed."
+msgstr "Warga negara Anda tidak dapat diubah."
+
 msgid "The password for %1 has been successfully changed."
 msgstr "Kata sandi %1 telah berhasil dirubah."
 
@@ -2492,6 +2574,11 @@ msgstr "Kata sandi akun %1 Anda telah dirubah. Jika permohonan ini bukan berasal
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Fasilitas agen pembayaran tidak tersedia untuk akun ini."
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "Mata uang yang disediakan %1 tidak dapat dipilih saat ini."
 
 msgid "The provided currency %1 is invalid."
 msgstr "Mata uang yang disediakan %1 tidak berlaku."
@@ -2562,14 +2649,16 @@ msgstr "Trading MT5 tidak dapat dilakukan pada akun ini. Mohon akses akun yang b
 msgid "This account has been disabled."
 msgstr "Akun ini telah dibatalkan."
 
+#, fuzzy
+#| msgid "You are not yet registered as an OTC agent"
+msgid "This account is not registered as an OTC agent"
+msgstr "Anda tidak terdaftar sebagai agen OTC"
+
 msgid "This account is unavailable."
 msgstr "Akun ini tidak tersedia."
 
 msgid "This address can only be used once to make a deposit."
 msgstr "Alamat ini hanya dapat digunakan satu kali saja untuk melakukan deposit."
-
-msgid "This agent account is not currently active"
-msgstr "Akun agen ini tidak aktif"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Jumlah ini terlalu rendah. Silakan masukkan jumlah minimum %1 %2."
@@ -2633,9 +2722,6 @@ msgstr "Pasar ini sedang ditutup."
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Pasar ini sedang ditutup. Silahkan coba Indeks Sintetis yang selalu tersedia."
-
-msgid "This order is already complete and no changes can be made"
-msgstr "Order ini sudah terproses dan tidak ada perubahan yang dapat dilakukan"
 
 msgid "This payment method is invalid"
 msgstr "Metode pembayaran ini tidak berlaku"
@@ -3341,6 +3427,9 @@ msgstr "Anda hanya dapat melakukan transfer hingga %1 per hari. Silakan coba kem
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Anda hanya dapat meminta dana tambahan jika saldo akun virtual Anda dibawah %1 %2."
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Anda tidak dapat melakukan penarikan ke akun %1, berhubung akun agen pembayaran telah dinonaktifkan."
@@ -9323,9 +9412,6 @@ msgstr "hari ini, Jumat"
 #~ msgid "Client email not set."
 #~ msgstr "Email klien tidak diatur."
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "Klien tidak sepenuhnya terkonfirmasi."
-
 #~ msgid "Client record fetch failure"
 #~ msgstr "Pengambilan data Klien gagal"
 
@@ -10562,9 +10648,6 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Deposit confirmation"
 #~ msgstr "Konfirmasi deposit"
-
-#~ msgid "Deposit funds into your account"
-#~ msgstr "Deposit dana kedalam akun Anda"
 
 #~ msgid "Deposit funds into your account with Instadebit"
 #~ msgstr "Deposit dana kedalam akun melalui Instadebit"
@@ -16590,9 +16673,6 @@ msgstr "hari ini, Jumat"
 #~ msgid "Page %1 of %2"
 #~ msgstr "Halaman %1 dari %2"
 
-#~ msgid "Page not found"
-#~ msgstr "Halaman tidak ditemukan"
-
 #~ msgid "Palo Alto Networks Inc."
 #~ msgstr "Palo Alto Networks Inc."
 
@@ -20956,6 +21036,9 @@ msgstr "hari ini, Jumat"
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "Akun ini untuk sementara dibatalkan, silahkan hubungi Customer Support."
 
+#~ msgid "This agent account is not currently active"
+#~ msgstr "Akun agen ini tidak aktif"
+
 #~ msgid "This bonus code has expired."
 #~ msgstr "Kode Bonus tidak berlaku."
 
@@ -21111,6 +21194,9 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "This offer cannot be used in conjunction with any other offer."
 #~ msgstr "Penawaran ini tidak dapat digunakan bersamaan pada penawaran lainnya."
+
+#~ msgid "This order is already complete and no changes can be made"
+#~ msgstr "Order ini sudah terproses dan tidak ada perubahan yang dapat dilakukan"
 
 #~ msgid "This page is unavailable when impersonating user"
 #~ msgstr "Kontrak ini tidak tersedia ketika akun diduplikat"

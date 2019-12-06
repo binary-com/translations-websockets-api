@@ -354,6 +354,9 @@ msgstr "No se puede crear un solicitante para %1."
 msgid "Cannot create contract"
 msgstr "No se puede crear el contrato"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "No se puede generar el token para %1."
 
@@ -1250,6 +1253,11 @@ msgstr "Fallo de validación de entrada: %1"
 msgid "Input validation failed: %1."
 msgstr "Fallo de validación de entrada: %1."
 
+#, fuzzy
+#| msgid "Deposit funds into your account"
+msgid "Insufficient funds in account"
+msgstr "Depositar fondos en su cuenta"
+
 msgid "Intraday contracts may not cross market open."
 msgstr "Los contratos intradía no pueden cruzar al día siguiente."
 
@@ -1261,6 +1269,11 @@ msgstr "Cuenta inválida."
 
 msgid "Invalid address."
 msgstr "Dirección inválida."
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "Código de autenticación inválido"
 
 msgid "Invalid amount."
 msgstr "Valor inválido."
@@ -1312,6 +1325,11 @@ msgstr "Intento de inicio de sesión inválido. Conéctese con su correo electr�
 
 msgid "Invalid loginid"
 msgstr "ID de inicio de sesión no válido"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "Divisa no válida."
 
 msgid "Invalid payout currency"
 msgstr "Divisa no válida"
@@ -1607,6 +1625,11 @@ msgstr "Las notas no deben superar los %1 caracteres."
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Número de los intervalos tiene que ser entre %1 y %2."
 
+#, fuzzy
+#| msgid "Page not found"
+msgid "OTC Agent not found"
+msgstr "Página no encontrada"
+
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "La funcionalidad de cajero OTC no está disponible en cuentas demo"
 
@@ -1615,6 +1638,11 @@ msgstr "Autenticación con contraseña OTP"
 
 msgid "OTP verification failed"
 msgstr "Error en la autenticación con contraseña OTP"
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Offer not found"
+msgstr "Página no encontrada"
 
 msgid "Oil/AUD"
 msgstr "Petróleo/AUD"
@@ -1669,6 +1697,35 @@ msgstr "O"
 
 msgid "Or use your social account"
 msgstr "O usa su cuenta social"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "El tiempo de caducidad no puede ser igual o menor a la fecha actual."
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "El tiempo de caducidad no puede ser igual o menor a la fecha actual."
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "La moneda proporcionada es diferencia a la moneda de la cuenta."
+
+msgid "Order has not been confirmed by agent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Order not found"
+msgstr "Página no encontrada"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2425,6 +2482,11 @@ msgstr "El cajero OTC está actualmente deshabilitado"
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "La dirección solo se puede usar una vez mientras está pendiente. Por favor, ingrese una nueva dirección."
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "El cliente no se ha autenticado completamente."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "El %4 de contrato ha cambiado a su favor de %1%2 a %1%3."
 
@@ -2485,6 +2547,26 @@ msgstr "Los pares de divisas más negociadas y líquidas."
 msgid "The name is taken."
 msgstr "El nombre ya está ocupado."
 
+#, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "El contrato ha vencido"
+
+#, fuzzy
+#| msgid "Your salutation cannot be changed."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "Su saludo no se puede cambiar."
+
+#, fuzzy
+#| msgid "Your secret answer cannot be changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "Su respuesta secreta no se puede cambiar."
+
+#, fuzzy
+#| msgid "Your citizen cannot be changed."
+msgid "The offer is inactive and cannot be changed."
+msgstr "Su ciudadanía no se puede cambiar."
+
 msgid "The password for %1 has been successfully changed."
 msgstr "La contraseña de %1 se ha cambiado correctamente."
 
@@ -2496,6 +2578,11 @@ msgstr "La contraseña de su cuenta %1 ha sido cambiada. Si esta solicitud no fu
 
 msgid "The payment agent facility is not available for this account."
 msgstr "La opción de agente de pagos no está disponible para esta cuenta."
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "La moneda proporcionada de %1 no puede ser seleccionada en este momento."
 
 msgid "The provided currency %1 is invalid."
 msgstr "La divisa proporcionada de %1 no es válida."
@@ -2566,14 +2653,16 @@ msgstr "Esta cuenta no permite el comercio MT5. Inicie sesión en la cuenta corr
 msgid "This account has been disabled."
 msgstr "Esta cuenta ha sido desactivada."
 
+#, fuzzy
+#| msgid "You are not yet registered as an OTC agent"
+msgid "This account is not registered as an OTC agent"
+msgstr "Aún no está registrado como agente OTC"
+
 msgid "This account is unavailable."
 msgstr "Esta cuenta no está disponible."
 
 msgid "This address can only be used once to make a deposit."
 msgstr "Esta dirección solo se puede usar una vez para hacer deposito."
-
-msgid "This agent account is not currently active"
-msgstr "Esta cuenta de agente no está activa actualmente"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Esta cantidad es demasiado baja. Por favor, introduzca un mínimo de %1 %2."
@@ -2637,9 +2726,6 @@ msgstr "Este mercado está cerrado."
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Este mercado está actualmente cerrado. Pruebe los Índices sintéticos que están siempre disponibles."
-
-msgid "This order is already complete and no changes can be made"
-msgstr "Este pedido ya está completo y no se pueden realizar cambios"
 
 msgid "This payment method is invalid"
 msgstr "Este método de pago no es válido"
@@ -3345,6 +3431,9 @@ msgstr "Solo puede realizar hasta %1 transferencias por día. Por favor intente 
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Sólo puede solicitar fondos adicionales si su cuenta virtual cae por debajo de %2 %1."
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Usted no puede retirar dinero hacia a la cuenta %1, dado que la cuenta del agente de pago se encuentra deshabilitada."
@@ -8741,9 +8830,6 @@ msgstr "hoy, viernes"
 #~ msgid "Client email not set."
 #~ msgstr "Correo electrónico del cliente no enviado."
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "El cliente no se ha autenticado completamente."
-
 #~ msgid "Client record fetch failure"
 #~ msgstr "No se han encontrado datos del cliente"
 
@@ -9910,9 +9996,6 @@ msgstr "hoy, viernes"
 
 #~ msgid "Deposit confirmation"
 #~ msgstr "Confirmación de depósito"
-
-#~ msgid "Deposit funds into your account"
-#~ msgstr "Depositar fondos en su cuenta"
 
 #~ msgid "Deposit funds into your account with Instadebit"
 #~ msgstr "Depositar fondos en su cuenta con Instadebit"
@@ -15319,9 +15402,6 @@ msgstr "hoy, viernes"
 #~ msgid "Page %1 of %2"
 #~ msgstr "Página %1 de %2"
 
-#~ msgid "Page not found"
-#~ msgstr "Página no encontrada"
-
 #~ msgid "Palo Alto Networks Inc."
 #~ msgstr "Palo Alto Networks Inc."
 
@@ -19298,6 +19378,9 @@ msgstr "hoy, viernes"
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "Esta cuenta no está disponible. Ante alguna duda comuníquese con el servicio de atención al cliente."
 
+#~ msgid "This agent account is not currently active"
+#~ msgstr "Esta cuenta de agente no está activa actualmente"
+
 #~ msgid "This bonus code has expired."
 #~ msgstr "Este código de bonificación ha caducado."
 
@@ -19450,6 +19533,9 @@ msgstr "hoy, viernes"
 
 #~ msgid "This offer cannot be used in conjunction with any other offer."
 #~ msgstr "Esta oferta no se puede usar en combinación con otras ofertas."
+
+#~ msgid "This order is already complete and no changes can be made"
+#~ msgstr "Este pedido ya está completo y no se pueden realizar cambios"
 
 #~ msgid "This page is unavailable when impersonating user"
 #~ msgstr "Esta página no está disponible cuando uno la intenta ver personificando al usuario"

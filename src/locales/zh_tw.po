@@ -350,6 +350,9 @@ msgstr "無法為%1建立申請人。"
 msgid "Cannot create contract"
 msgstr "無法建立合約"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "無法為%1生成權杖。"
 
@@ -1249,6 +1252,11 @@ msgstr "輸入驗證失敗: %1"
 msgid "Input validation failed: %1."
 msgstr "輸入驗證失敗: %1。"
 
+#, fuzzy
+#| msgid "Invalid client account."
+msgid "Insufficient funds in account"
+msgstr "無效客戶帳戶。"
+
 msgid "Intraday contracts may not cross market open."
 msgstr "日內合約不能跨越開市。"
 
@@ -1260,6 +1268,11 @@ msgstr "無效帳戶。"
 
 msgid "Invalid address."
 msgstr "無效的地址。"
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "無效驗證代碼"
 
 msgid "Invalid amount."
 msgstr "無效金額。"
@@ -1313,6 +1326,11 @@ msgstr "登入失敗。請嘗試輸入電子郵件和密碼登入。"
 
 msgid "Invalid loginid"
 msgstr "無效登入id"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "無效工作階段。"
 
 msgid "Invalid payout currency"
 msgstr "無效賠付幣種"
@@ -1618,6 +1636,11 @@ msgstr "備註不能超過 %1 個字元。"
 msgid "Number of ticks must be between %1 and %2."
 msgstr "跳動點數目須在%1 與 %2之間。"
 
+#, fuzzy
+#| msgid "Document not found."
+msgid "OTC Agent not found"
+msgstr "無法找到文件。"
+
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "模擬帳戶無法使用場外交易收銀台功能"
 
@@ -1626,6 +1649,11 @@ msgstr "OTP驗證"
 
 msgid "OTP verification failed"
 msgstr "OTP驗證失敗"
+
+#, fuzzy
+#| msgid "Not found"
+msgid "Offer not found"
+msgstr "無法找到"
 
 msgid "Oil/AUD"
 msgstr "原油/澳元"
@@ -1684,6 +1712,35 @@ msgstr "或"
 #| msgid "Log in using social account"
 msgid "Or use your social account"
 msgstr "使用社交帳戶登入"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "到期日不可早於或與目前日期相同。"
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "到期日不可早於或與目前日期相同。"
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "提供貨幣與帳戶貨幣不相符。"
+
+msgid "Order has not been confirmed by agent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not found"
+msgid "Order not found"
+msgstr "無法找到"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2454,6 +2511,11 @@ msgstr "場外交易收銀台目前已禁用"
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "等待期間此地址僅可使用一次。請另設新地址。"
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "客戶未完成身份驗證。"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "合約 %4 已從 %1%2 變更為 %1%3。"
 
@@ -2514,6 +2576,26 @@ msgstr "交易最活躍、流動性最高的貨幣對。"
 msgid "The name is taken."
 msgstr "此名字已被使用。"
 
+#, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "合約已到期"
+
+#, fuzzy
+#| msgid "Value of salutation cannot be changed after authentication."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "驗證後稱呼無法修改。"
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "您的密碼已更改。"
+
+#, fuzzy
+#| msgid "Value of citizen cannot be changed after authentication."
+msgid "The offer is inactive and cannot be changed."
+msgstr "驗證後國籍無法修改。"
+
 msgid "The password for %1 has been successfully changed."
 msgstr "%1的密碼已成功更改。"
 
@@ -2525,6 +2607,11 @@ msgstr "您的帳戶%1密碼已重設。如您並沒執行此項要求，請立�
 
 msgid "The payment agent facility is not available for this account."
 msgstr "此帳戶無可用付款代理設施。"
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "所提供的貨幣 %1目前不可選用。"
 
 msgid "The provided currency %1 is invalid."
 msgstr "所提供的貨幣 %1無效。"
@@ -2595,14 +2682,16 @@ msgstr "此帳戶不允許MT5交易。請到正確的帳戶登入。"
 msgid "This account has been disabled."
 msgstr "此帳戶已禁用。"
 
+#, fuzzy
+#| msgid "You are not yet registered as an OTC agent"
+msgid "This account is not registered as an OTC agent"
+msgstr "您還未註冊為OTC代理"
+
 msgid "This account is unavailable."
 msgstr "此帳戶不可使用。"
 
 msgid "This address can only be used once to make a deposit."
 msgstr "作為存款用途，此地址僅可使用一次。"
-
-msgid "This agent account is not currently active"
-msgstr "此代理帳戶目前沒在使用"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "此數額過低，請輸入至少%1 %2。"
@@ -2666,9 +2755,6 @@ msgstr "此市場目前已收市。"
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "目前此市場已經關閉。 嘗試始終開放的綜合指數。"
-
-msgid "This order is already complete and no changes can be made"
-msgstr "此訂單已完成，因此無法作任何變更"
 
 msgid "This payment method is invalid"
 msgstr "此付款方式無效"
@@ -3380,6 +3466,9 @@ msgstr "一天最多只能轉帳%1次。請明天再重試。"
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "您的虛擬帳戶餘額必須低於％1％2才能請求額外資金。"
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已禁用。"
@@ -7035,9 +7124,6 @@ msgstr "今天，每星期五"
 #~ msgid "Client email not set."
 #~ msgstr "使用者電子郵件未設定。"
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "客戶未完成身份驗證。"
-
 #~ msgid "Client's Liability"
 #~ msgstr "客戶的責任"
 
@@ -8078,9 +8164,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Document department processes, to enhance the marketing team’s ability to execute repeated tasks efficiently and effectively"
 #~ msgstr "通過文檔部門流程提高行銷隊伍有效執行重複任務的能力"
-
-#~ msgid "Document not found."
-#~ msgstr "無法找到文件。"
 
 #~ msgid "Don't limit yourself! Whatever your market view, Binary.com allows you to put your strategy to work and profit from your predictions."
 #~ msgstr "不要局限自己！無論您的市場觀點如何，Binary.com 都能讓您的交易策略實現價值，讓您能通過預測市場獲利。"
@@ -9987,9 +10070,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Invalid candles request"
 #~ msgstr "無效K線圖請求"
-
-#~ msgid "Invalid client account."
-#~ msgstr "無效客戶帳戶。"
 
 #~ msgid "Invalid email and password combination."
 #~ msgstr "無效的電子郵件地址和密碼組合。"
@@ -14884,6 +14964,9 @@ msgstr "今天，每星期五"
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "此帳戶不可用。如有任何問題，請聯繫客服人員。"
 
+#~ msgid "This agent account is not currently active"
+#~ msgstr "此代理帳戶目前沒在使用"
+
 #~ msgid "This bonus is only available to new clients. Existing or former clients do not qualify. New clients are eligible for this type of bonus only once. This bonus is available only once per household."
 #~ msgstr "本獎金僅適用於新客戶。現有或以往客戶不符合條件。此類獎金新客戶只能獲取一次。此獎金每一個家庭僅能獲得一次。"
 
@@ -14997,6 +15080,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "This offer cannot be used in conjunction with any other offer."
 #~ msgstr "本優惠不能和其他任何優惠一起使用。"
+
+#~ msgid "This order is already complete and no changes can be made"
+#~ msgstr "此訂單已完成，因此無法作任何變更"
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "本促銷活動僅適用於新客戶。目前或以往客戶不符合條件。每一客戶僅能獲得一次。"

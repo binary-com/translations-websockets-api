@@ -406,6 +406,9 @@ msgstr "ไม่สามารถสร้างทะเบียนผู้
 msgid "Cannot create contract"
 msgstr "ไม่สามารถเพิ่มสัญญา"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "ไม่สามารถสร้างโทเค่นสำหรับ% 1"
 
@@ -1342,6 +1345,11 @@ msgstr "การตรวจสอบข้อมูลนำเข้าล้
 msgid "Input validation failed: %1."
 msgstr "การตรวจสอบข้อมูลนำเข้าล้มเหลว: %1"
 
+#, fuzzy
+#| msgid "Insufficient balance"
+msgid "Insufficient funds in account"
+msgstr "ยอดคงเหลือไม่เพียงพอ"
+
 msgid "Intraday contracts may not cross market open."
 msgstr "สัญญาระหว่างวันอาจจะไม่ทำกำไรขณะตลาดเปิด"
 
@@ -1353,6 +1361,11 @@ msgstr "บัญชีไม่ถูกต้อง"
 
 msgid "Invalid address."
 msgstr "ที่อยู่ไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "รหัสการระบุตัวตนไม่ถูกต้อง"
 
 msgid "Invalid amount."
 msgstr "จำนวนเงินไม่ถูกต้อง"
@@ -1406,6 +1419,11 @@ msgstr "การเข้าสู่ระบบไม่ถูกต้อง
 
 msgid "Invalid loginid"
 msgstr "รหัสผู้ใช้งานไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "สกุลเงินไม่ถูกต้อง"
 
 msgid "Invalid payout currency"
 msgstr "สกุลเงินไม่ถูกต้อง"
@@ -1726,6 +1744,11 @@ msgid "Number of ticks must be between %1 and %2."
 msgstr "จำนวนของช่วงราคาต้องอยู่ระหว่าง %1 และ %2"
 
 #, fuzzy
+#| msgid "Document not found."
+msgid "OTC Agent not found"
+msgstr "ไม่พบเอกสารที่ต้องการ"
+
+#, fuzzy
 #| msgid "This contract is unavailable on this account."
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "สัญญานี้ไม่สามารถใช้งานได้กับบัญชีนี้"
@@ -1735,6 +1758,11 @@ msgstr "การตรวจสอบ OTP"
 
 msgid "OTP verification failed"
 msgstr "การตรวจสอบ OTP ล้มเหลว (ไม่สามารถดำเนินการต่อ)"
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Offer not found"
+msgstr "ไม่พบ"
 
 msgid "Oil/AUD"
 msgstr "Oil/AUD"
@@ -1793,6 +1821,35 @@ msgstr "หรือ"
 #| msgid "Log in using social account"
 msgid "Or use your social account"
 msgstr "ลงชื่อเข้าใช้โดยใช้บัญชีเครือข่ายสังคมออนไลน์"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "สกุลเงินที่เลือกต่างจากสกุลเงินของบัญชี"
+
+msgid "Order has not been confirmed by agent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Order not found"
+msgstr "ไม่พบ"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2657,6 +2714,11 @@ msgstr "TOTP based 2FA ได้ปิดการใช้งานแล้ว
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "ที่อยู่สามารถถูกอ้างอิงเพียงครั้งเดียว โปรดแจ้งที่อยู่ใหม่"
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "สัญญา %4 ได้ถูกเปลี่ยนจาก %1%2 เป็น %1%3"
 
@@ -2730,6 +2792,26 @@ msgid "The name is taken."
 msgstr "ชื่อนี้ถูกใช้แล้ว"
 
 #, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "สัญญาหมดอายุ"
+
+#, fuzzy
+#| msgid "Value of salutation cannot be changed after authentication."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "ไม่สามารถเปลี่ยนค่าของคำขึ้นต้นชื่อได้หลังจากได้ยืนยันบัญชีแล้ว"
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
+
+#, fuzzy
+#| msgid "Value of citizen cannot be changed after authentication."
+msgid "The offer is inactive and cannot be changed."
+msgstr "ไม่สามารถเปลี่ยนค่าของสัญชาติได้หลังจากได้ยืนยันบัญชีแล้ว"
+
+#, fuzzy
 #| msgid "Your password has been changed."
 msgid "The password for %1 has been successfully changed."
 msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
@@ -2742,6 +2824,11 @@ msgstr "รหัสผ่านของบัญชีท่าน %1 มี�
 
 msgid "The payment agent facility is not available for this account."
 msgstr "ไม่มีบริการตัวแทนรับชำระเงินสำหรับบัญชีนี้"
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
 
 msgid "The provided currency %1 is invalid."
 msgstr "สกุลเงิน %1 ดังกล่าวไม่ถูกต้อง"
@@ -2816,16 +2903,16 @@ msgstr "การโอนบัญชีไม่สามารถทำได
 msgid "This account has been disabled."
 msgstr "บัญชีนี้ถูกห้ามใช้งาน"
 
+#, fuzzy
+#| msgid "Your account is registered as a Payment Agent."
+msgid "This account is not registered as an OTC agent"
+msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
+
 msgid "This account is unavailable."
 msgstr "บัญชีนี้ไม่สามารถใช้งานได้"
 
 msgid "This address can only be used once to make a deposit."
 msgstr "ที่อยู่ถูกใช้ได้เพียงครั้งเดียวต่อการฝากหนึ่งครั้ง"
-
-#, fuzzy
-#| msgid "Payment Agent activity not currently authorized"
-msgid "This agent account is not currently active"
-msgstr "รายการของตัวแทนรับชำระเงินยังไม่ได้รับการตรวจสอบ"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "จำนวนเงินต่ำเกินไป โปรดป้อนจำนวนเงินขั้นต่ำ %1 %2"
@@ -2897,9 +2984,6 @@ msgstr "ตลาดนี้ได้ปิดทำการขณะนี้
 #| msgid "This market is presently closed. Try out the Volatility Indices which are always open."
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "ตลาดนี้ได้ปิดทำการขณะนี้ ลองพิจารณาซื้อขายดัชนีผันผวนซึ่งเปิดตลอดเวลา"
-
-msgid "This order is already complete and no changes can be made"
-msgstr ""
 
 #, fuzzy
 #| msgid "The token is invalid."
@@ -3665,6 +3749,9 @@ msgstr "ท่านสามารถดำเนินการได้ %1 �
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "ท่านสามารถขอเงินเพิ่มได้ หากบัญชีเสมือนของท่านมีเงินต่ำกว่า %1 %2"
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "ท่านไม่สามารถถอนเงินไปยังบัญชี %1 เนื่องจากบัญชีของตัวแทนรับชำระเงินไม่สามารถใช้งานได้ขณะนี้"
@@ -7006,9 +7093,6 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Client email not set."
 #~ msgstr "อีเมล์ลูกค้ายังไม่ได้ระบุ"
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
-
 #~ msgid "Client's Liability"
 #~ msgstr "หนี้สินของลูกค้า"
 
@@ -7960,9 +8044,6 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Document department processes, to enhance the marketing team’s ability to execute repeated tasks efficiently and effectively"
 #~ msgstr "บริหารจัดการกระบวนการเอกสารของแผนกเพื่อเพิ่มความสามารถของทีมการตลาดในการดำเนินการงานซ้ำๆ ให้มีประสิทธิผลอย่างมีประสิทธิภาพ"
-
-#~ msgid "Document not found."
-#~ msgstr "ไม่พบเอกสารที่ต้องการ"
 
 #~ msgid "Donchian Channel Width"
 #~ msgstr "ความกว้างของ Donchian Channel"
@@ -9408,9 +9489,6 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Instruments"
 #~ msgstr "เครื่องมือ"
-
-#~ msgid "Insufficient balance"
-#~ msgstr "ยอดคงเหลือไม่เพียงพอ"
 
 #~ msgid "Intel"
 #~ msgstr "Intel"
@@ -13008,6 +13086,11 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "บัญชีนี้ไม่สามารถใช้งานได้ หากท่านมีข้อสงสัยประการใด โปรดติดต่อเจ้าหน้าที่ลูกค้าสัมพันธ์"
+
+#, fuzzy
+#~| msgid "Payment Agent activity not currently authorized"
+#~ msgid "This agent account is not currently active"
+#~ msgstr "รายการของตัวแทนรับชำระเงินยังไม่ได้รับการตรวจสอบ"
 
 #~ msgid "This bonus is only available to new clients. Existing or former clients do not qualify. New clients are eligible for this type of bonus only once. This bonus is available only once per household."
 #~ msgstr "โบนัสประเภทนี้สำหรับลูกค้าใหม่เท่านั้น ลูกค้าปัจจุบันไม่สามารถเข้าร่วมการส่งเสริมการตลาดนี้ ลูกค้ารายใหม่มีสิทธิ์ได้รับโบนัสประเภทนี้เพียงครั้งเดียว และได้รับสิทธิ์เพียง 1 ครั้ง ต่อครัวเรือน"

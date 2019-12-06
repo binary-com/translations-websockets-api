@@ -361,6 +361,9 @@ msgstr "Не удалось создать пользователя на %1."
 msgid "Cannot create contract"
 msgstr "Не удалось создать контракт"
 
+msgid "Cannot create order for your own offer"
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "Не удалось создать ключ для %1."
 
@@ -1265,6 +1268,11 @@ msgstr "Проверка введенных данных не удалась: %1
 msgid "Input validation failed: %1."
 msgstr "Проверка введенных данных не удалась: %1."
 
+#, fuzzy
+#| msgid "Deposit funds into your account"
+msgid "Insufficient funds in account"
+msgstr "Пополните счет"
+
 msgid "Intraday contracts may not cross market open."
 msgstr "Внутридневные контракты не могут переходить на следующий рабочий день."
 
@@ -1276,6 +1284,11 @@ msgstr "Неправильный счёт."
 
 msgid "Invalid address."
 msgstr "Недействительный адрес."
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid amount for creating an order"
+msgstr "Недействительный код авторизации"
 
 msgid "Invalid amount."
 msgstr "Неправильная сумма."
@@ -1329,6 +1342,11 @@ msgstr "Не удалось войти на сайт. Пожалуйста, во
 
 msgid "Invalid loginid"
 msgstr "Неправильный логин"
+
+#, fuzzy
+#| msgid "Invalid currency."
+msgid "Invalid offer currency"
+msgstr "Недействительная валюта."
 
 msgid "Invalid payout currency"
 msgstr "Недействительная валюта"
@@ -1651,6 +1669,11 @@ msgid "Number of ticks must be between %1 and %2."
 msgstr "Количество тиков должно быть от %1 до %2."
 
 #, fuzzy
+#| msgid "Page not found"
+msgid "OTC Agent not found"
+msgstr "Страница не найдена"
+
+#, fuzzy
 #| msgid "This contract is unavailable on this account."
 msgid "OTC cashier functionality is not available on demo accounts"
 msgstr "Данный контракт недоступен для этого счета."
@@ -1660,6 +1683,11 @@ msgstr "Верификация одноразового пароля"
 
 msgid "OTP verification failed"
 msgstr "Не удалось пройти проверку одноразового пароля"
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Offer not found"
+msgstr "Страница не найдена"
 
 msgid "Oil/AUD"
 msgstr "Нефть/AUD"
@@ -1718,6 +1746,35 @@ msgstr "Или"
 #| msgid "Log in using social account"
 msgid "Or use your social account"
 msgstr "Войдите через аккаунт в соц сетях"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be agent confirmed in its current state"
+msgstr "Время окончания не может быть меньше или равно текущей дате."
+
+msgid "Order cannot be cancelled in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state"
+msgstr "Время окончания не может быть меньше или равно текущей дате."
+
+msgid "Order cannot be completed in its current state"
+msgstr ""
+
+#, fuzzy
+#| msgid "Currency provided is different from account currency."
+msgid "Order currency is different from account currency"
+msgstr "Указанная валюта отличается от валюты счёта."
+
+msgid "Order has not been confirmed by agent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Order not found"
+msgstr "Страница не найдена"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2510,6 +2567,11 @@ msgstr "2FA на основе TOTP уже запрещён."
 msgid "The address can be only used once while pending. Please generate a new address."
 msgstr "Адрес можно использовать только один раз. Сгенерируйте новый адрес."
 
+#, fuzzy
+#| msgid "Client is not fully authenticated."
+msgid "The agent is not authenticated"
+msgstr "Личность Клиента установлена не полностью."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "%4 на контракт изменилась с %1%2 на %1%3."
 
@@ -2574,6 +2636,26 @@ msgstr "Самые широко торгуемые и ликвидные пар�
 msgid "The name is taken."
 msgstr "Данное имя уже занято."
 
+#, fuzzy
+#| msgid "The contract has expired"
+msgid "The offer has expired."
+msgstr "Контракт закончился"
+
+#, fuzzy
+#| msgid "Value of salutation cannot be changed after authentication."
+msgid "The offer has no available amount and cannot be changed."
+msgstr "Нельзя менять текст приветствия после аутентификации."
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "The offer is expired and cannot be changed."
+msgstr "Пароль был изменен."
+
+#, fuzzy
+#| msgid "Value of citizen cannot be changed after authentication."
+msgid "The offer is inactive and cannot be changed."
+msgstr "Невозможно изменить указанное гражданство после аутентификации."
+
 msgid "The password for %1 has been successfully changed."
 msgstr "Пароль на %1 изменён успешно."
 
@@ -2585,6 +2667,11 @@ msgstr "Пароль к Вашему счету %1 был изменен. Есл
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Оплата через платежного агента недоступна для Вашего счёта."
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "The provided agent ID does not belong to an active agent"
+msgstr "Указанная валюта %1 в данный момент недоступна."
 
 msgid "The provided currency %1 is invalid."
 msgstr "Предоставленная валюта %1 недействительна."
@@ -2662,16 +2749,16 @@ msgstr "Трансфер недоступен. Пожалуйста, попол�
 msgid "This account has been disabled."
 msgstr "Счёт деактивирован."
 
+#, fuzzy
+#| msgid "Your account is registered as a Payment Agent."
+msgid "This account is not registered as an OTC agent"
+msgstr "Вы зарегистрировали счет в качестве Платежного Агента."
+
 msgid "This account is unavailable."
 msgstr "Данный счёт недоступен."
 
 msgid "This address can only be used once to make a deposit."
 msgstr "Данный адрес можно использовать только один раз для пополнения счёта."
-
-#, fuzzy
-#| msgid "Payment Agent activity not currently authorized"
-msgid "This agent account is not currently active"
-msgstr "Нет авторизации для деятельности платежного агента"
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Слишком маленькая сумма. Минимальная сумма составляет %1 %2."
@@ -2737,9 +2824,6 @@ msgstr "Данный рынок сейчас закрыт."
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Данный рынок в настоящее время закрыт. Попробуйте Синтетические индексы, торговля на которых всегда открыта."
-
-msgid "This order is already complete and no changes can be made"
-msgstr ""
 
 #, fuzzy
 #| msgid "The token is invalid."
@@ -3478,6 +3562,9 @@ msgstr "Вы можете выполнить до %1 переводов в де�
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Если баланс Вашего демо-счёта опустится ниже %1 %2, Вы можете запросить дополнительное пополнение."
+
+msgid "You cannot create an order for your own offer."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Вы не можете перевести средства на счет %1, так как счет платежного агента в данный момент недоступен."
@@ -9574,9 +9661,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Client email not set."
 #~ msgstr "Не указан электронный адрес Клиента."
 
-#~ msgid "Client is not fully authenticated."
-#~ msgstr "Личность Клиента установлена не полностью."
-
 #~ msgid "Client record fetch failure"
 #~ msgstr "Неудачное восстановление записи клиента"
 
@@ -10806,9 +10890,6 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "Deposit confirmation"
 #~ msgstr "Подтверждение депозита"
-
-#~ msgid "Deposit funds into your account"
-#~ msgstr "Пополните счет"
 
 #~ msgid "Deposit funds into your account with Instadebit"
 #~ msgstr "Пополнение через Instadebit"
@@ -16236,9 +16317,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Page %1 of %2"
 #~ msgstr "Страница %1 of %2"
 
-#~ msgid "Page not found"
-#~ msgstr "Страница не найдена"
-
 #~ msgid "Palo Alto Networks Inc."
 #~ msgstr "Palo Alto Networks Inc."
 
@@ -20287,6 +20365,11 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "Этот счет в данный момент недоступен. Пожалуйста, свяжитесь с нашей службой поддержки."
+
+#, fuzzy
+#~| msgid "Payment Agent activity not currently authorized"
+#~ msgid "This agent account is not currently active"
+#~ msgstr "Нет авторизации для деятельности платежного агента"
 
 #~ msgid "This bonus code has expired."
 #~ msgstr "Бонус-код недействителен."
