@@ -421,7 +421,7 @@ msgstr "ไม่สามารถสร้างทะเบียนผู้
 msgid "Cannot create contract"
 msgstr "ไม่สามารถเพิ่มสัญญา"
 
-msgid "Cannot create order for your own offer"
+msgid "Cannot create order for your own offer."
 msgstr ""
 
 msgid "Cannot generate token for %1."
@@ -1385,7 +1385,7 @@ msgstr "ที่อยู่ไม่ถูกต้อง"
 
 #, fuzzy
 #| msgid "Invalid authentication code"
-msgid "Invalid amount for creating an order"
+msgid "Invalid amount for creating an order."
 msgstr "รหัสการระบุตัวตนไม่ถูกต้อง"
 
 msgid "Invalid amount."
@@ -1441,16 +1441,16 @@ msgstr "การเข้าสู่ระบบไม่ถูกต้อง
 msgid "Invalid loginid"
 msgstr "รหัสผู้ใช้งานไม่ถูกต้อง"
 
-#, fuzzy
-#| msgid "Invalid currency."
-msgid "Invalid offer currency"
-msgstr "สกุลเงินไม่ถูกต้อง"
-
 msgid "Invalid payout currency"
 msgstr "สกุลเงินไม่ถูกต้อง"
 
 msgid "Invalid price. Price provided can not have more than %1 decimal places."
 msgstr "ราคาไม่ถูกต้อง ราคามีทศนิยมไม่เกิน %1 หลัก"
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid rate for creating an order."
+msgstr "รหัสการระบุตัวตนไม่ถูกต้อง"
 
 msgid "Invalid request."
 msgstr "คำสั่งที่ร้องขอไม่ถูกต้อง"
@@ -1755,7 +1755,7 @@ msgstr "ไม่พบ"
 
 #, fuzzy
 #| msgid "Not Found"
-msgid "Not found"
+msgid "Not found."
 msgstr "ไม่พบ"
 
 msgid "Not you? Unsure?"
@@ -1785,6 +1785,11 @@ msgstr "การตรวจสอบ OTP ล้มเหลว (ไม่ส�
 #, fuzzy
 #| msgid "Not Found"
 msgid "Offer not found"
+msgstr "ไม่พบ"
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Offer not found."
 msgstr "ไม่พบ"
 
 #, fuzzy
@@ -1852,31 +1857,42 @@ msgstr "ลงชื่อเข้าใช้โดยใช้บัญชี
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
-msgid "Order cannot be agent confirmed in its current state"
+msgid "Order cannot be agent confirmed in its current state."
 msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
-
-msgid "Order cannot be cancelled in its current state"
-msgstr ""
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
-msgid "Order cannot be client confirmed in its current state"
+msgid "Order cannot be cancelled in its current state."
 msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
 
-msgid "Order cannot be completed in its current state"
-msgstr ""
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state."
+msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be completed in its current state."
+msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
 
 #, fuzzy
 #| msgid "Currency provided is different from account currency."
-msgid "Order currency is different from account currency"
+msgid "Order currency is different from account currency."
 msgstr "สกุลเงินที่เลือกต่างจากสกุลเงินของบัญชี"
 
-msgid "Order has not been confirmed by agent"
-msgstr ""
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order has not been confirmed by agent."
+msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
 
 #, fuzzy
 #| msgid "Not Found"
 msgid "Order not found"
+msgstr "ไม่พบ"
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Order not found."
 msgstr "ไม่พบ"
 
 msgid ""
@@ -1907,12 +1923,12 @@ msgstr "ไม่สามารถใช้ ตู้ปณ. ในข้อม
 
 #, fuzzy
 #| msgid "Document not found."
-msgid "P2P Agent not found"
+msgid "P2P Agent not found."
 msgstr "ไม่พบเอกสารที่ต้องการ"
 
 #, fuzzy
 #| msgid "This contract is unavailable on this account."
-msgid "P2P cashier functionality is not available on demo accounts"
+msgid "P2P cashier functionality is not available on demo accounts."
 msgstr "สัญญานี้ไม่สามารถใช้งานได้กับบัญชีนี้"
 
 msgid "Palladium/USD"
@@ -2764,12 +2780,12 @@ msgstr "ทีมงาท %1"
 
 #, fuzzy
 #| msgid "TOTP based 2FA is already disabled."
-msgid "The P2P cashier is currently disabled"
+msgid "The P2P cashier is currently disabled."
 msgstr "TOTP based 2FA ได้ปิดการใช้งานแล้ว"
 
 #, fuzzy
 #| msgid "Client is not fully authenticated."
-msgid "The agent is not authenticated"
+msgid "The agent is not authenticated."
 msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
 
 msgid "The contract %4 has changed from %1%2 to %1%3."
@@ -2847,8 +2863,10 @@ msgstr "จำนวนเงินที่ท่านสามารถโอ
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
-msgid "The minimum amount requirements are not met"
-msgstr ""
+#, fuzzy
+#| msgid "The maximum amount you may transfer is: %1."
+msgid "The minimum amount requirements are not met."
+msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
 
 msgid "The minimum withdrawal amount allowed is %1 %2."
 msgstr "มูลค่าต่ำสุดที่ถอนได้ คือ %1 %2"
@@ -2860,19 +2878,9 @@ msgid "The name is taken."
 msgstr "ชื่อนี้ถูกใช้แล้ว"
 
 #, fuzzy
-#| msgid "The contract has expired"
-msgid "The offer has expired."
-msgstr "สัญญาหมดอายุ"
-
-#, fuzzy
 #| msgid "Value of salutation cannot be changed after authentication."
 msgid "The offer has no available amount and cannot be changed."
 msgstr "ไม่สามารถเปลี่ยนค่าของคำขึ้นต้นชื่อได้หลังจากได้ยืนยันบัญชีแล้ว"
-
-#, fuzzy
-#| msgid "Your password has been changed."
-msgid "The offer is expired and cannot be changed."
-msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
 
 #, fuzzy
 #| msgid "Value of citizen cannot be changed after authentication."
@@ -2883,6 +2891,11 @@ msgstr "ไม่สามารถเปลี่ยนค่าของสั
 #| msgid "Expiration date cannot be less than or equal to current date."
 msgid "The order cannot be confirmed in its current state."
 msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "The order has expired and cannot be changed."
+msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
 
 #, fuzzy
 #| msgid "Your password has been changed."
@@ -2910,7 +2923,7 @@ msgstr "ไม่มีบริการตัวแทนรับชำระ
 
 #, fuzzy
 #| msgid "The provided currency %1 is not selectable at the moment."
-msgid "The provided agent ID does not belong to an active agent"
+msgid "The provided agent ID does not belong to an active agent."
 msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
 
 msgid "The provided currency %1 is invalid."
@@ -2988,7 +3001,7 @@ msgstr "บัญชีนี้ถูกห้ามใช้งาน"
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "This account is not registered as an P2P agent"
+msgid "This account is not registered as an P2P agent."
 msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
 
 msgid "This account is unavailable."
@@ -3000,7 +3013,7 @@ msgstr "ที่อยู่ถูกใช้ได้เพียงครั
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "จำนวนเงินต่ำเกินไป โปรดป้อนจำนวนเงินขั้นต่ำ %1 %2"
 
-msgid "This cannot be cancelled since the order is already in progress"
+msgid "This cannot be cancelled since the order is already in progress."
 msgstr ""
 
 msgid "This contract cannot be properly validated at this time."
@@ -3037,12 +3050,12 @@ msgstr "ราคาของสัญญานี้ คือ %1%2 สัญ�
 
 #, fuzzy
 #| msgid "The provided currency %1 is not applicable for this account."
-msgid "This country is not enabled for P2P cashier functionality"
+msgid "This country is not enabled for P2P cashier functionality."
 msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถใช้กับบัญชีนี้ได้"
 
 #, fuzzy
 #| msgid "The provided currency %1 is not applicable for this account."
-msgid "This currency is not enabled for P2P cashier functionality"
+msgid "This currency is not enabled for P2P cashier functionality."
 msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถใช้กับบัญชีนี้ได้"
 
 msgid "This email address is invalid."
@@ -3059,7 +3072,7 @@ msgstr "อีเมล์นี้ถูกใช้แล้ว"
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "นี้คือ บัญชีทดลองใช้ โปรดเปลี่ยนกลับไปบัญชีเงินจริงเพื่อดำเนินการ"
 
-msgid "This is above the maximum limit"
+msgid "This is above the maximum limit."
 msgstr ""
 
 msgid "This market is presently closed."
@@ -3072,7 +3085,7 @@ msgstr "ตลาดนี้ได้ปิดทำการขณะนี้
 
 #, fuzzy
 #| msgid "The token is invalid."
-msgid "This payment method is invalid"
+msgid "This payment method is invalid."
 msgstr "โทเค่นไม่ถูกต้อง"
 
 msgid "This trade is temporarily unavailable."
@@ -3428,7 +3441,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Please set the currency of your account."
-msgid "We are unable to determine the local currency for your country"
+msgid "We are unable to determine the local currency for your country."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
 
 msgid "We are unable to do that because your account has been restricted. If you need help, let us know."
@@ -3829,12 +3842,12 @@ msgstr "ท่านไม่ได้รับอนุญาตในการ
 
 #, fuzzy
 #| msgid "You are not a Payment Agent"
-msgid "You are not logged in"
+msgid "You are not logged in."
 msgstr "ท่านไม่ใช่ตัวแทนรับชำระเงิน"
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "You are not yet registered as an P2P agent"
+msgid "You are not yet registered as an P2P agent."
 msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
 
 #, fuzzy
@@ -3918,7 +3931,7 @@ msgstr "ท่านไม่สามารถถอนเงินไปยั
 
 #, fuzzy
 #| msgid "We cannot get open positions for this account."
-msgid "You do not have permission for this action"
+msgid "You do not have permission for this action."
 msgstr "เราไม่สามารถใช้โพซิชั่นเปิดสำหรับบัญชีนี้"
 
 msgid "You have already claimed a bonus in the past."
@@ -3947,7 +3960,7 @@ msgstr "ท่านยังไม่บรรลุมูลค่าการ
 
 #, fuzzy
 #| msgid "Please set the currency of your account."
-msgid "You have not yet selected a currency for your account"
+msgid "You have not yet selected a currency for your account."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
 
 msgid "You have opened an account using invalid details."
@@ -3989,7 +4002,7 @@ msgstr "ท่านไม่สามารถเปลี่ยนแปลง
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "ท่านสามารถอัพโหลดสำเนาเอกสารทั้งหมดที่กำหนดได้โดยตรงในบัญชีเงินจริงของท่านที่ %1"
 
-msgid "You need to set your residence in order to use this feature"
+msgid "You need to set your residence in order to use this feature."
 msgstr ""
 
 msgid "You won't need to worry about running out. You can top up your virtual money every time your balance falls below USD 1,000."
@@ -9691,6 +9704,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Invalid loginid - %1."
 #~ msgstr "รหัสผู้ใช้งานไม่ถูกต้อง - %1"
 
+#, fuzzy
+#~| msgid "Invalid currency."
+#~ msgid "Invalid offer currency"
+#~ msgstr "สกุลเงินไม่ถูกต้อง"
+
 #~ msgid "Invalid period input! Please input the period between 0 and #1"
 #~ msgstr "ข้อมูลช่วงเวลาไม่ถูกต้อง! โปรดป้อนช่วงเวลาโดยเป็นค่าระหว่าง 0 และ #1"
 
@@ -13104,6 +13122,11 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "The future of trading on %1"
 #~ msgstr "อนาคตของการซื้อขายกับ %1"
+
+#, fuzzy
+#~| msgid "The contract has expired"
+#~ msgid "The offer has expired."
+#~ msgstr "สัญญาหมดอายุ"
 
 #, fuzzy
 #~| msgid "Expiration date cannot be less than or equal to current date."

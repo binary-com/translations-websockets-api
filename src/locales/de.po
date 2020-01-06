@@ -410,7 +410,7 @@ msgstr "Bewerber kann nicht angelegt werden für %1."
 msgid "Cannot create contract"
 msgstr "Kann den Kontrakt nicht erstellen"
 
-msgid "Cannot create order for your own offer"
+msgid "Cannot create order for your own offer."
 msgstr ""
 
 msgid "Cannot generate token for %1."
@@ -1408,7 +1408,7 @@ msgstr "Falsche Adresse."
 
 #, fuzzy
 #| msgid "Invalid authentication code"
-msgid "Invalid amount for creating an order"
+msgid "Invalid amount for creating an order."
 msgstr "Ungültiger Authentifizierungscode"
 
 msgid "Invalid amount."
@@ -1464,16 +1464,16 @@ msgstr "Ungültiger Anmeldeversuch. Bitte melden Sie sich stattdessen mit Ihrer 
 msgid "Invalid loginid"
 msgstr "Ungültige Log-in ID"
 
-#, fuzzy
-#| msgid "Invalid currency."
-msgid "Invalid offer currency"
-msgstr "Ungültige Währung."
-
 msgid "Invalid payout currency"
 msgstr "Ungültige Auszahlungswährung"
 
 msgid "Invalid price. Price provided can not have more than %1 decimal places."
 msgstr "Ungültiger Kurs. Der angegebene Kurs kann nicht mehr als %1 Dezimalstellen enthalten."
+
+#, fuzzy
+#| msgid "Invalid authentication code"
+msgid "Invalid rate for creating an order."
+msgstr "Ungültiger Authentifizierungscode"
 
 msgid "Invalid request."
 msgstr "Ungültige Anforderung."
@@ -1778,7 +1778,7 @@ msgstr "Nicht gefunden"
 
 #, fuzzy
 #| msgid "Not Found"
-msgid "Not found"
+msgid "Not found."
 msgstr "Nicht gefunden"
 
 msgid "Not you? Unsure?"
@@ -1810,6 +1810,11 @@ msgstr "OTP-Verifikation fehlgeschlagen"
 #, fuzzy
 #| msgid "Not Found"
 msgid "Offer not found"
+msgstr "Nicht gefunden"
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Offer not found."
 msgstr "Nicht gefunden"
 
 #, fuzzy
@@ -1877,31 +1882,42 @@ msgstr "Anmelden mit dem Sozialkonto"
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
-msgid "Order cannot be agent confirmed in its current state"
+msgid "Order cannot be agent confirmed in its current state."
 msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
-
-msgid "Order cannot be cancelled in its current state"
-msgstr ""
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
-msgid "Order cannot be client confirmed in its current state"
+msgid "Order cannot be cancelled in its current state."
 msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
 
-msgid "Order cannot be completed in its current state"
-msgstr ""
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be client confirmed in its current state."
+msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
+
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order cannot be completed in its current state."
+msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
 
 #, fuzzy
 #| msgid "Currency provided is different from account currency."
-msgid "Order currency is different from account currency"
+msgid "Order currency is different from account currency."
 msgstr "Die angegebene Währung ist eine andere als die Kontowährung."
 
-msgid "Order has not been confirmed by agent"
-msgstr ""
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "Order has not been confirmed by agent."
+msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
 
 #, fuzzy
 #| msgid "Not Found"
 msgid "Order not found"
+msgstr "Nicht gefunden"
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Order not found."
 msgstr "Nicht gefunden"
 
 msgid ""
@@ -1932,12 +1948,12 @@ msgstr "Postfach ist als Adresse nicht gestattet."
 
 #, fuzzy
 #| msgid "Document not found."
-msgid "P2P Agent not found"
+msgid "P2P Agent not found."
 msgstr "Dokument nicht gefunden."
 
 #, fuzzy
 #| msgid "This contract is unavailable on this account."
-msgid "P2P cashier functionality is not available on demo accounts"
+msgid "P2P cashier functionality is not available on demo accounts."
 msgstr "Dieser Vertrag ist in diesem Konto nicht vorhanden."
 
 msgid "Palladium/USD"
@@ -2817,12 +2833,12 @@ msgstr "Das %1 Team."
 
 #, fuzzy
 #| msgid "TOTP based 2FA is already disabled."
-msgid "The P2P cashier is currently disabled"
+msgid "The P2P cashier is currently disabled."
 msgstr "TOTP basierte 2FA ist bereits gesperrt."
 
 #, fuzzy
 #| msgid "Client is not fully authenticated."
-msgid "The agent is not authenticated"
+msgid "The agent is not authenticated."
 msgstr "Kunde ist nicht vollständig authentifiziert."
 
 msgid "The contract %4 has changed from %1%2 to %1%3."
@@ -2902,8 +2918,10 @@ msgstr "Der Höchstbetrag, den Sie überweisen können, ist: %1."
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
 msgstr "Die Kontoüberweisung ist nicht möglich. Bitte zahlen Sie auf Ihr Konto ein."
 
-msgid "The minimum amount requirements are not met"
-msgstr ""
+#, fuzzy
+#| msgid "The maximum amount you may transfer is: %1."
+msgid "The minimum amount requirements are not met."
+msgstr "Der Höchstbetrag, den Sie überweisen können, ist: %1."
 
 msgid "The minimum withdrawal amount allowed is %1 %2."
 msgstr "Der minimale erlaubte Abhebungsbetrag ist %1 %2."
@@ -2915,19 +2933,9 @@ msgid "The name is taken."
 msgstr "Der Name ist vergeben."
 
 #, fuzzy
-#| msgid "The contract has expired"
-msgid "The offer has expired."
-msgstr "Der Kontrakt ist abgelaufen"
-
-#, fuzzy
 #| msgid "Value of salutation cannot be changed after authentication."
 msgid "The offer has no available amount and cannot be changed."
 msgstr "Der Wert der Anrede kann nach der Authentifizierung nicht mehr geändert werden."
-
-#, fuzzy
-#| msgid "Your password has been changed."
-msgid "The offer is expired and cannot be changed."
-msgstr "Ihr Passwort wurde geändert."
 
 #, fuzzy
 #| msgid "Value of citizen cannot be changed after authentication."
@@ -2938,6 +2946,11 @@ msgstr "Der Wert des Bürgers kann nach der Authentifizierung nicht mehr geände
 #| msgid "Expiration date cannot be less than or equal to current date."
 msgid "The order cannot be confirmed in its current state."
 msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "The order has expired and cannot be changed."
+msgstr "Ihr Passwort wurde geändert."
 
 #, fuzzy
 #| msgid "Your password has been changed."
@@ -2965,7 +2978,7 @@ msgstr "Die Zahlungsabwicklereinrichtung ist für dieses Konto nicht verfügbar.
 
 #, fuzzy
 #| msgid "The provided currency %1 is not selectable at the moment."
-msgid "The provided agent ID does not belong to an active agent"
+msgid "The provided agent ID does not belong to an active agent."
 msgstr "Die angegebene Währung %1 kann im Moment nicht ausgewählt werden."
 
 msgid "The provided currency %1 is invalid."
@@ -3045,7 +3058,7 @@ msgstr "Dieses Konto wurde gesperrt."
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "This account is not registered as an P2P agent"
+msgid "This account is not registered as an P2P agent."
 msgstr "Ihr Konto ist als Zahlungsagent registriert."
 
 msgid "This account is unavailable."
@@ -3059,7 +3072,7 @@ msgstr "Die Adresse kann nur einmal verwendet werden. Bitte generieren Sie eine 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Dieser Betrag ist zu niedrig. Bitte geben Sie mindestens %2 %1 ein."
 
-msgid "This cannot be cancelled since the order is already in progress"
+msgid "This cannot be cancelled since the order is already in progress."
 msgstr ""
 
 msgid "This contract cannot be properly validated at this time."
@@ -3096,12 +3109,12 @@ msgstr "Der Preis für diesen Kontrakt berägt %2 %1. Von %3 gekaufte Kontrakte 
 
 #, fuzzy
 #| msgid "The provided currency %1 is not applicable for this account."
-msgid "This country is not enabled for P2P cashier functionality"
+msgid "This country is not enabled for P2P cashier functionality."
 msgstr "Die angegebene Währung %1 steht für dieses Konto nicht zur Verfügung."
 
 #, fuzzy
 #| msgid "The provided currency %1 is not applicable for this account."
-msgid "This currency is not enabled for P2P cashier functionality"
+msgid "This currency is not enabled for P2P cashier functionality."
 msgstr "Die angegebene Währung %1 steht für dieses Konto nicht zur Verfügung."
 
 msgid "This email address is invalid."
@@ -3120,7 +3133,7 @@ msgstr "Der Name ist vergeben."
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Dies ist ein virtuelles Geldkonto. Bitte wechseln Sie zum Echtgeldkonto, um Zugang zur Kasse zu haben."
 
-msgid "This is above the maximum limit"
+msgid "This is above the maximum limit."
 msgstr ""
 
 msgid "This market is presently closed."
@@ -3133,7 +3146,7 @@ msgstr "Diese Börse ist derzeit geschlossen. Probieren Sie die Volatilität Ind
 
 #, fuzzy
 #| msgid "The token is invalid."
-msgid "This payment method is invalid"
+msgid "This payment method is invalid."
 msgstr "Der Token ist ungültig."
 
 msgid "This trade is temporarily unavailable."
@@ -3495,7 +3508,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Please set the currency of your account."
-msgid "We are unable to determine the local currency for your country"
+msgid "We are unable to determine the local currency for your country."
 msgstr "Bitte legen Sie die Währung für Ihr Konto fest."
 
 msgid "We are unable to do that because your account has been restricted. If you need help, let us know."
@@ -3904,12 +3917,12 @@ msgstr "Sie sind nicht befugt, Auszahlungen über Zahlungsagenten zu tätigen."
 
 #, fuzzy
 #| msgid "You are not a Payment Agent"
-msgid "You are not logged in"
+msgid "You are not logged in."
 msgstr "Sie sind kein Zahlungsagent"
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "You are not yet registered as an P2P agent"
+msgid "You are not yet registered as an P2P agent."
 msgstr "Ihr Konto ist als Zahlungsagent registriert."
 
 #, fuzzy
@@ -3997,7 +4010,7 @@ msgstr "Sie können keine Gelder vom selben Konto beheben."
 
 #, fuzzy
 #| msgid "We cannot get open positions for this account."
-msgid "You do not have permission for this action"
+msgid "You do not have permission for this action."
 msgstr "Wir können für dieses Konto keine offenen Positionen erhalten."
 
 msgid "You have already claimed a bonus in the past."
@@ -4026,7 +4039,7 @@ msgstr "Sie haben den erforderlichen Umsatz für die Bonusgutschrift noch nicht 
 
 #, fuzzy
 #| msgid "Please set the currency of your account."
-msgid "You have not yet selected a currency for your account"
+msgid "You have not yet selected a currency for your account."
 msgstr "Bitte legen Sie die Währung für Ihr Konto fest."
 
 msgid "You have opened an account using invalid details."
@@ -4068,7 +4081,7 @@ msgstr "Sie dürfen diese Kontodaten nicht ändern."
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "Sie können die Kopien aller erforderlichen Dokumente direkt von Ihrem Echtgeldkonto hochladen unter %1."
 
-msgid "You need to set your residence in order to use this feature"
+msgid "You need to set your residence in order to use this feature."
 msgstr ""
 
 msgid "You won't need to worry about running out. You can top up your virtual money every time your balance falls below USD 1,000."
@@ -12772,6 +12785,11 @@ msgstr "heute, Freitags"
 #~ msgid "Invalid loginid - %1."
 #~ msgstr "Ungültige Log-in ID - %1."
 
+#, fuzzy
+#~| msgid "Invalid currency."
+#~ msgid "Invalid offer currency"
+#~ msgstr "Ungültige Währung."
+
 #~ msgid "Invalid period input! Please input the period between 0 and #1"
 #~ msgstr "Ungültige Zeitraumeingabe! Bitte geben Sie einen Zeitraum zwischen 0 und #1 ein"
 
@@ -18935,6 +18953,11 @@ msgstr "heute, Freitags"
 
 #~ msgid "The moving average period of the signal line"
 #~ msgstr "Der gleitende Mittelwert Zeitraum der Signallinie"
+
+#, fuzzy
+#~| msgid "The contract has expired"
+#~ msgid "The offer has expired."
+#~ msgstr "Der Kontrakt ist abgelaufen"
 
 #, fuzzy
 #~| msgid "Expiration date cannot be less than or equal to current date."

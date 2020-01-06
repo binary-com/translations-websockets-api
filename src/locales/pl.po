@@ -365,7 +365,7 @@ msgstr "Nie można utworzyć wnioskodawcy dla %1."
 msgid "Cannot create contract"
 msgstr "Nie można utworzyć kontraktu"
 
-msgid "Cannot create order for your own offer"
+msgid "Cannot create order for your own offer."
 msgstr ""
 
 msgid "Cannot generate token for %1."
@@ -1285,7 +1285,9 @@ msgstr "Nieprawidłowy rachunek."
 msgid "Invalid address."
 msgstr "Nieprawidłowy adres."
 
-msgid "Invalid amount for creating an order"
+#, fuzzy
+#| msgid "Invalid amount for creating an order"
+msgid "Invalid amount for creating an order."
 msgstr "Nieprawidłowa kwota do stworzenia zlecenia"
 
 msgid "Invalid amount."
@@ -1339,14 +1341,16 @@ msgstr "Nieprawidłowa próba logowania. Zaloguj się za pomocą swojego adresu 
 msgid "Invalid loginid"
 msgstr "Nieprawidłowy login"
 
-msgid "Invalid offer currency"
-msgstr "Nieprawidłowa waluta oferty"
-
 msgid "Invalid payout currency"
 msgstr "Nieprawidłowa waluta wypłaty"
 
 msgid "Invalid price. Price provided can not have more than %1 decimal places."
 msgstr "Nieprawidłowa cena. Podana cena nie może zawierać więcej niż %1 miejsc(a) po przecinku."
+
+#, fuzzy
+#| msgid "Invalid amount for creating an order"
+msgid "Invalid rate for creating an order."
+msgstr "Nieprawidłowa kwota do stworzenia zlecenia"
 
 msgid "Invalid request."
 msgstr "Nieprawidłowe żądanie."
@@ -1629,7 +1633,9 @@ msgstr "Indeks norweski"
 msgid "Not Found"
 msgstr "Nie znaleziono"
 
-msgid "Not found"
+#, fuzzy
+#| msgid "Not found"
+msgid "Not found."
 msgstr "Nie znaleziono"
 
 msgid "Not you? Unsure?"
@@ -1657,6 +1663,11 @@ msgid "OTP verification failed"
 msgstr "Weryfikacja OTP nie powiodła się"
 
 msgid "Offer not found"
+msgstr "Nie znaleziono oferty"
+
+#, fuzzy
+#| msgid "Offer not found"
+msgid "Offer not found."
 msgstr "Nie znaleziono oferty"
 
 msgid "Offering for the currency is not available at the moment."
@@ -1716,25 +1727,42 @@ msgstr "Lub"
 msgid "Or use your social account"
 msgstr "Lub skorzystaj z konta w mediach społecznościowych"
 
-msgid "Order cannot be agent confirmed in its current state"
+#, fuzzy
+#| msgid "Order cannot be agent confirmed in its current state"
+msgid "Order cannot be agent confirmed in its current state."
 msgstr "Agent nie może w zatwierdzić zlecenia na jego obecnym etapie"
 
-msgid "Order cannot be cancelled in its current state"
-msgstr ""
+#, fuzzy
+#| msgid "Order cannot be agent confirmed in its current state"
+msgid "Order cannot be cancelled in its current state."
+msgstr "Agent nie może w zatwierdzić zlecenia na jego obecnym etapie"
 
-msgid "Order cannot be client confirmed in its current state"
+#, fuzzy
+#| msgid "Order cannot be client confirmed in its current state"
+msgid "Order cannot be client confirmed in its current state."
 msgstr "Klient nie może w zatwierdzić zlecenia na jego obecnym etapie"
 
-msgid "Order cannot be completed in its current state"
-msgstr ""
+#, fuzzy
+#| msgid "Order cannot be client confirmed in its current state"
+msgid "Order cannot be completed in its current state."
+msgstr "Klient nie może w zatwierdzić zlecenia na jego obecnym etapie"
 
-msgid "Order currency is different from account currency"
+#, fuzzy
+#| msgid "Order currency is different from account currency"
+msgid "Order currency is different from account currency."
 msgstr "Waluta zlecenia różni się od waluty konta"
 
-msgid "Order has not been confirmed by agent"
-msgstr ""
+#, fuzzy
+#| msgid "Order cannot be agent confirmed in its current state"
+msgid "Order has not been confirmed by agent."
+msgstr "Agent nie może w zatwierdzić zlecenia na jego obecnym etapie"
 
 msgid "Order not found"
+msgstr "Nie znaleziono zlecenia"
+
+#, fuzzy
+#| msgid "Order not found"
+msgid "Order not found."
 msgstr "Nie znaleziono zlecenia"
 
 msgid ""
@@ -1763,10 +1791,14 @@ msgstr "Ponad/poniżej"
 msgid "P.O. Box is not accepted in address."
 msgstr "Adresy nie mogą zawierać numerów skrytek pocztowych."
 
-msgid "P2P Agent not found"
+#, fuzzy
+#| msgid "P2P Agent not found"
+msgid "P2P Agent not found."
 msgstr "Nie znaleziono agenta P2P"
 
-msgid "P2P cashier functionality is not available on demo accounts"
+#, fuzzy
+#| msgid "P2P cashier functionality is not available on demo accounts"
+msgid "P2P cashier functionality is not available on demo accounts."
 msgstr "Funkcja kasjera P2P jest niedostępna na kontach demonstracyjnych"
 
 msgid "Palladium/USD"
@@ -2504,10 +2536,14 @@ msgstr "Zespół %1."
 msgid "The %1 team."
 msgstr "Zespół %1."
 
-msgid "The P2P cashier is currently disabled"
+#, fuzzy
+#| msgid "The P2P cashier is currently disabled"
+msgid "The P2P cashier is currently disabled."
 msgstr "Kasjer P2P jest obecnie wyłączony"
 
-msgid "The agent is not authenticated"
+#, fuzzy
+#| msgid "The agent is not authenticated"
+msgid "The agent is not authenticated."
 msgstr "Agent nie ma uprawnień"
 
 msgid "The contract %4 has changed from %1%2 to %1%3."
@@ -2567,8 +2603,10 @@ msgstr "Maksymalna kwota dla tej oferty to: %2 %1."
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
 msgstr "Minimalna kwota przelewu to: %2 %1. Popraw kwotę."
 
-msgid "The minimum amount requirements are not met"
-msgstr ""
+#, fuzzy
+#| msgid "The minimum amount for this offer is %1 %2."
+msgid "The minimum amount requirements are not met."
+msgstr "Maksymalna kwota dla tej oferty to: %2 %1."
 
 msgid "The minimum withdrawal amount allowed is %1 %2."
 msgstr "Minimalna dozwolona kwota wypłaty to %2 %1."
@@ -2579,22 +2617,21 @@ msgstr "Najczęściej sprzedawane i kupowane oraz płynne pary walut."
 msgid "The name is taken."
 msgstr "Nazwa jest już w użyciu."
 
-msgid "The offer has expired."
-msgstr "Oferta wygasła."
-
 #, fuzzy
 #| msgid "Value of salutation cannot be changed after authentication."
 msgid "The offer has no available amount and cannot be changed."
 msgstr "Zwrotu grzecznościowego nie można zmienić po zakończeniu weryfikacji."
-
-msgid "The offer is expired and cannot be changed."
-msgstr "Oferta wygasła i nie można jej zmienić."
 
 msgid "The offer is inactive and cannot be changed."
 msgstr "Oferta jest nieaktywna i nie można jej zmienić."
 
 msgid "The order cannot be confirmed in its current state."
 msgstr "Nie można potwierdzić zlecenia na jego obecnym etapie."
+
+#, fuzzy
+#| msgid "The offer is expired and cannot be changed."
+msgid "The order has expired and cannot be changed."
+msgstr "Oferta wygasła i nie można jej zmienić."
 
 msgid "The order is already cancelled."
 msgstr "Zlecenie zostało już anulowane."
@@ -2614,7 +2651,9 @@ msgstr "Hasło dla Twojego konta %1 zostało zresetowane. Jeśli to nie Ty wysł
 msgid "The payment agent facility is not available for this account."
 msgstr "Usługi pośredników płatności są niedostępne dla tego konta."
 
-msgid "The provided agent ID does not belong to an active agent"
+#, fuzzy
+#| msgid "The provided agent ID does not belong to an active agent"
+msgid "The provided agent ID does not belong to an active agent."
 msgstr "Podane ID agenta nie jest przypisane do żadnego aktywnego agenta"
 
 msgid "The provided currency %1 is invalid."
@@ -2688,7 +2727,9 @@ msgstr "Handlowanie MT5 nie jest możliwe na tym koncie. Proszę zalogować się
 msgid "This account has been disabled."
 msgstr "To konto zostało wyłączone."
 
-msgid "This account is not registered as an P2P agent"
+#, fuzzy
+#| msgid "This account is not registered as an P2P agent"
+msgid "This account is not registered as an P2P agent."
 msgstr "To konto nie jest zarejestrowane jako konto P2P"
 
 msgid "This account is unavailable."
@@ -2700,7 +2741,7 @@ msgstr "Ten adres może użyć tylko raz podczas dokonywania wpłaty."
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Ta kwota jest zbyt niska. Wprowadź kwotę wynoszącą minimum %2 %1."
 
-msgid "This cannot be cancelled since the order is already in progress"
+msgid "This cannot be cancelled since the order is already in progress."
 msgstr ""
 
 msgid "This contract cannot be properly validated at this time."
@@ -2733,10 +2774,14 @@ msgstr "Nie znaleziono tego kontraktu wśród Twoich otwartych pozycji."
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "Cena tego kontraktu wynosi: %2 %1. Cena zakupu kontraktów nabywanych z %3 musi być wyższa niż %4 %1. Proszę odpowiednio zwiększyć liczbę kontraktów, aby uzyskać minimalną stawkę."
 
-msgid "This country is not enabled for P2P cashier functionality"
+#, fuzzy
+#| msgid "This country is not enabled for P2P cashier functionality"
+msgid "This country is not enabled for P2P cashier functionality."
 msgstr "W tym kraju nie jest możliwe korzystanie z funkcji kasjera P2P"
 
-msgid "This currency is not enabled for P2P cashier functionality"
+#, fuzzy
+#| msgid "This currency is not enabled for P2P cashier functionality"
+msgid "This currency is not enabled for P2P cashier functionality."
 msgstr "Tej waluty nie można używać w funkcji kasjera P2P"
 
 msgid "This email address is invalid."
@@ -2751,7 +2796,7 @@ msgstr "Ten adres e-mail już w użyciu"
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "To jest konto z wirtualnymi pieniędzmi. Proszę przejść do konta z prawdziwymi pieniędzmi, aby uzyskać dostęp do sekcji Kasjer."
 
-msgid "This is above the maximum limit"
+msgid "This is above the maximum limit."
 msgstr ""
 
 msgid "This market is presently closed."
@@ -2760,7 +2805,9 @@ msgstr "Rynek jest obecnie zamknięty."
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Ten rynek jest obecnie zamknięty. Wypróbuj wskaźniki syntetyczne, które są zawsze dostępne."
 
-msgid "This payment method is invalid"
+#, fuzzy
+#| msgid "This payment method is invalid"
+msgid "This payment method is invalid."
 msgstr "Ta metoda płatności jest nieprawidłowa"
 
 msgid "This trade is temporarily unavailable."
@@ -3092,7 +3139,9 @@ msgstr ""
 msgid "We are retrieving your MT5 details. Please give us a few more seconds."
 msgstr ""
 
-msgid "We are unable to determine the local currency for your country"
+#, fuzzy
+#| msgid "We are unable to determine the local currency for your country"
+msgid "We are unable to determine the local currency for your country."
 msgstr "Nie jesteśmy w stanie określić lokalnej waluty dla tego kraju"
 
 msgid "We are unable to do that because your account has been restricted. If you need help, let us know."
@@ -3465,10 +3514,14 @@ msgstr "Nie jesteś upoważniony do dokonywania przelewów przez pośredników p
 msgid "You are not authorized for withdrawals via payment agents."
 msgstr "Nie jesteś upoważniony do dokonywania wypłat przez pośredników płatności."
 
-msgid "You are not logged in"
+#, fuzzy
+#| msgid "You are not logged in"
+msgid "You are not logged in."
 msgstr "Nie jesteś zalogowany"
 
-msgid "You are not yet registered as an P2P agent"
+#, fuzzy
+#| msgid "You are not yet registered as an P2P agent"
+msgid "You are not yet registered as an P2P agent."
 msgstr "Nie jesteś jeszcze zarejestrowany jako agent P2P"
 
 #, fuzzy
@@ -3548,7 +3601,9 @@ msgstr "Nie możesz dokonać wypłaty środków, korzystając z usług pośredni
 msgid "You cannot withdraw funds to the same account."
 msgstr "Nie można wypłacić środków na to samo konto."
 
-msgid "You do not have permission for this action"
+#, fuzzy
+#| msgid "You do not have permission for this action"
+msgid "You do not have permission for this action."
 msgstr "Nie masz uprawnień do wykonania tej czynności"
 
 msgid "You have already claimed a bonus in the past."
@@ -3575,7 +3630,9 @@ msgstr "Przekroczono dzienny limit straty: %2 %1."
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "Nie osiągnięto jeszcze obrotu wymaganego do otrzymania bonusu."
 
-msgid "You have not yet selected a currency for your account"
+#, fuzzy
+#| msgid "You have not yet selected a currency for your account"
+msgid "You have not yet selected a currency for your account."
 msgstr "Nie wybrałeś jeszcze waluty dla swojego konta"
 
 msgid "You have opened an account using invalid details."
@@ -3611,7 +3668,7 @@ msgstr "Nie można zmienić tych szczegółów konta."
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "Możesz przesłać kopie wszystkich wymaganych dokumentów bezpośrednio z Twojego konta z prawdziwymi pieniędzmi na %1."
 
-msgid "You need to set your residence in order to use this feature"
+msgid "You need to set your residence in order to use this feature."
 msgstr ""
 
 msgid "You won't need to worry about running out. You can top up your virtual money every time your balance falls below USD 1,000."
@@ -12085,6 +12142,9 @@ msgstr "dziś, piątki"
 #~ msgid "Invalid loginid - %1."
 #~ msgstr "Nieprawidłowy login - %1."
 
+#~ msgid "Invalid offer currency"
+#~ msgstr "Nieprawidłowa waluta oferty"
+
 #~ msgid "Invalid period input! Please input the period between 0 and #1"
 #~ msgstr "Nieprawidłowo wpisany okres! Proszę wpisać okres między 0 a #1"
 
@@ -17858,6 +17918,9 @@ msgstr "dziś, piątki"
 
 #~ msgid "The moving average period of the signal line"
 #~ msgstr "Okres średniej kroczącej linii sygnału"
+
+#~ msgid "The offer has expired."
+#~ msgstr "Oferta wygasła."
 
 #, fuzzy
 #~| msgid "Expiration date cannot be less than or equal to current date."
