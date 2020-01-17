@@ -1287,9 +1287,6 @@ msgstr "Индексы представляют собой взвешенную 
 msgid "Input validation failed: "
 msgstr "Проверка введенных данных не удалась: "
 
-msgid "Input validation failed: %1"
-msgstr "Проверка введенных данных не удалась: %1"
-
 msgid "Input validation failed: %1."
 msgstr "Проверка введенных данных не удалась: %1."
 
@@ -1678,6 +1675,9 @@ msgstr "Верификация одноразового пароля"
 
 msgid "OTP verification failed"
 msgstr "Не удалось пройти проверку одноразового пароля"
+
+msgid "Offer is inactive."
+msgstr ""
 
 #, fuzzy
 #| msgid "Offer not found"
@@ -2571,6 +2571,11 @@ msgstr "Касса P2P в данное время недоступна"
 msgid "The agent is not authenticated."
 msgstr "Агент не аутентифицирован"
 
+#, fuzzy
+#| msgid "This is above the maximum limit"
+msgid "The amount exceeds the maximum limit."
+msgstr "Превышен максимальный лимит"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "%4 на контракт изменилась с %1%2 на %1%3."
 
@@ -2613,6 +2618,11 @@ msgstr "Рынок должен быть открыт на момент нача
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Максимальная сумма пополнения: %1 %2. Пожалуйста, измените сумму."
 
+#, fuzzy
+#| msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "Минимальная сумма пополнения: %1 %2. Пожалуйста, измените сумму."
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "Максимальная сумма для перевода: %1."
 
@@ -2651,11 +2661,10 @@ msgstr "Самые широко торгуемые и ликвидные пар�
 msgid "The name is taken."
 msgstr "Данное имя уже занято."
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr ""
-
-msgid "The offer has no available amount and cannot be changed."
-msgstr "Сумма оффера недоступна и он не может быть изменён."
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "Время окончания не может быть меньше или равно текущей дате."
 
 msgid "The offer is inactive and cannot be changed."
 msgstr "Оффер не активен и не может быть изменён."
@@ -2837,11 +2846,6 @@ msgstr "Данный email занят."
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Вы находитесь на демо-счету. Пожалуйста, переключитесь на реальный счет, чтобы получить доступ к кассе."
-
-#, fuzzy
-#| msgid "This is above the maximum limit"
-msgid "This is above the maximum limit."
-msgstr "Превышен максимальный лимит"
 
 msgid "This market is presently closed."
 msgstr "Данный рынок сейчас закрыт."
@@ -13578,6 +13582,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "Проверка введенных данных не удалась: $field"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "Проверка введенных данных не удалась: %1"
+
 #, fuzzy
 #~| msgid "Input validation failed: account_opening_reason"
 #~ msgid "Input validation failed: account opening reason"
@@ -20080,6 +20087,9 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "The offer has expired."
 #~ msgstr "Оффер истёк."
+
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "Сумма оффера недоступна и он не может быть изменён."
 
 #~ msgid "The order cannot be confirmed by client in its current state."
 #~ msgstr "В данной ситуации ордер не может быть подтверждён агентом."

@@ -1288,9 +1288,6 @@ msgstr "Các chỉ số đại diện cho giá trị tính theo tỉ trọng c�
 msgid "Input validation failed: "
 msgstr "Xác thực đầu vào thất bại: "
 
-msgid "Input validation failed: %1"
-msgstr "Xác thực đầu vào thất bại: %1"
-
 msgid "Input validation failed: %1."
 msgstr "Xác thực đầu vào thất bại: %1."
 
@@ -1673,6 +1670,9 @@ msgstr "Xác minh OTP"
 
 msgid "OTP verification failed"
 msgstr "Xác minh OTP không thành công"
+
+msgid "Offer is inactive."
+msgstr ""
 
 #, fuzzy
 #| msgid "Offer not found"
@@ -2560,6 +2560,11 @@ msgstr "Thu ngân P2P hiện tại đang bị vô hiệu hóa"
 msgid "The agent is not authenticated."
 msgstr "Đại lý chưa được xác thực"
 
+#, fuzzy
+#| msgid "This is above the maximum limit"
+msgid "The amount exceeds the maximum limit."
+msgstr "Giá trị này vượt quá giới hạn tối đa"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Hợp đồng %4 đã thay đổi từ %1%2 thành %1%3."
 
@@ -2602,6 +2607,11 @@ msgstr "Thị trường này phải được mở tại thời điểm bắt �
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Tiền gửi tối đa là %1%2. Vui lòng nhập lại số lượng."
 
+#, fuzzy
+#| msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "Số tiền gửi tối thiểu là %1 %2. Vui lòng nhập lại số lượng."
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "Lượng tiền tối đa bạn có thể chuyển khoản là: %1."
 
@@ -2640,11 +2650,10 @@ msgstr "Cặp tiền tệ được giao dịch và có tính luân chuyển rộ
 msgid "The name is taken."
 msgstr "Tên đã được sử dụng."
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr ""
-
-msgid "The offer has no available amount and cannot be changed."
-msgstr "Đơn hàng không có giá trị và không thể thay đổi."
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "Thời điểm hết hạn không thể trùng hoặc trước thời điểm hiện tại."
 
 msgid "The offer is inactive and cannot be changed."
 msgstr "Đơn hàng không hoạt động và không thể thay đổi."
@@ -2825,11 +2834,6 @@ msgstr "Email nhập vào đã được sử dụng từ trước"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Đây là một tài khoản tiền ảo. Vui lòng chuyển sang một tài khoản tiền thực để truy cập thu ngân."
-
-#, fuzzy
-#| msgid "This is above the maximum limit"
-msgid "This is above the maximum limit."
-msgstr "Giá trị này vượt quá giới hạn tối đa"
 
 msgid "This market is presently closed."
 msgstr "Thị trường này hiện đang đóng."
@@ -10360,6 +10364,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "Xác thực đầu vào thất bại: $field"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "Xác thực đầu vào thất bại: %1"
+
 #~ msgid "Input validation failed: account opening reason"
 #~ msgstr "Xác thực đầu vào không thành công: lý do mở tài khoản"
 
@@ -15418,6 +15425,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "The offer has expired."
 #~ msgstr "Đơn hàng đã hết hạn."
+
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "Đơn hàng không có giá trị và không thể thay đổi."
 
 #, fuzzy
 #~| msgid "Order cannot be agent confirmed in its current state"

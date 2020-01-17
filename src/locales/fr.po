@@ -1279,9 +1279,6 @@ msgstr "Les indices représentent la valeur pondérée d'un ensemble de sociét�
 msgid "Input validation failed: "
 msgstr "Échec de validation de la saisie : "
 
-msgid "Input validation failed: %1"
-msgstr "Échec de validation de la saisie : %1"
-
 msgid "Input validation failed: %1."
 msgstr "Échec de validation de la saisie : %1."
 
@@ -1660,6 +1657,9 @@ msgstr "Vérification OTP"
 
 msgid "OTP verification failed"
 msgstr "La vérification OTP a échoué"
+
+msgid "Offer is inactive."
+msgstr ""
 
 #, fuzzy
 #| msgid "Offer not found"
@@ -2543,6 +2543,11 @@ msgstr "La caisse P2P est actuellement désactivée"
 msgid "The agent is not authenticated."
 msgstr "L'agent n'est pas authentifié"
 
+#, fuzzy
+#| msgid "This is above the maximum limit"
+msgid "The amount exceeds the maximum limit."
+msgstr "Ceci est au-dessus de la limite maximale"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Le contrat %4 est passé de %1%2 à %1%3."
 
@@ -2585,6 +2590,11 @@ msgstr "Le marché doit être ouvert au début. Essayez les Indices Synthétique
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Le montant maximum pour les dépôts est de %1 %2. Veuillez ajuster votre montant."
 
+#, fuzzy
+#| msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "Le montant minimum pour les transferts est de %1 %2. Veuillez ajuster votre montant."
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "Le montant maximal que vous pouvez convertir est : %1."
 
@@ -2619,11 +2629,10 @@ msgstr "Les paires les plus échangées et les plus liquides sur le Forex."
 msgid "The name is taken."
 msgstr "Ce nom est déjà utilisé."
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr ""
-
-msgid "The offer has no available amount and cannot be changed."
-msgstr "L'offre n'a pas de montant disponible et ne peut être modifiée."
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "La date d’expiration ne peut être inférieure ou égale à la date actuelle."
 
 msgid "The offer is inactive and cannot be changed."
 msgstr "L'offre est inactive et ne peut pas être modifiée."
@@ -2802,11 +2811,6 @@ msgstr "Cet e-mail est déjà pris"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Ceci est un compte virtuel. Veuillez basculer vers un compte réel pour accéder au guichet."
-
-#, fuzzy
-#| msgid "This is above the maximum limit"
-msgid "This is above the maximum limit."
-msgstr "Ceci est au-dessus de la limite maximale"
 
 msgid "This market is presently closed."
 msgstr "Ce marché est actuellement fermé."
@@ -12397,6 +12401,9 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "Échec de validation de la saisie : $field"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "Échec de validation de la saisie : %1"
+
 #, fuzzy
 #~| msgid "Input validation failed: account_opening_reason"
 #~ msgid "Input validation failed: account opening reason"
@@ -18621,6 +18628,9 @@ msgstr "aujourd'hui, Vendredis"
 
 #~ msgid "The offer has expired."
 #~ msgstr "L'offre a expiré."
+
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "L'offre n'a pas de montant disponible et ne peut être modifiée."
 
 #~ msgid "The order cannot be confirmed by client in its current state."
 #~ msgstr "La commande ne peut être confirmée par le client dans son état actuel."

@@ -1253,9 +1253,6 @@ msgstr "Gli Indici rappresentano il valore ponderato di un paniere di società, 
 msgid "Input validation failed: "
 msgstr "Convalida input non riuscita: "
 
-msgid "Input validation failed: %1"
-msgstr "Convalida input non riuscita: %1"
-
 msgid "Input validation failed: %1."
 msgstr "Convalida input non riuscita: %1."
 
@@ -1630,6 +1627,9 @@ msgstr "Verifica OTP"
 
 msgid "OTP verification failed"
 msgstr "Verifica OTP non riuscita"
+
+msgid "Offer is inactive."
+msgstr ""
 
 msgid "Offer not found."
 msgstr "Offerta non trovata."
@@ -2487,6 +2487,11 @@ msgstr "La cassa P2P è momentaneamente disabilitata."
 msgid "The agent is not authenticated."
 msgstr "Il cliente non è autenticato."
 
+#, fuzzy
+#| msgid "This is above the maximum limit."
+msgid "The amount exceeds the maximum limit."
+msgstr "Limite massimo superato."
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Il contratto %4 è stato modificato da %1%2 a %1%3."
 
@@ -2529,6 +2534,11 @@ msgstr "Il mercato deve essere aperto all'orario di inizio. Prova con gli indici
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "L'importo massimo depositabile è %1 %2. Correggi l'importo selezionato."
 
+#, fuzzy
+#| msgid "The minimum amount should be less than or equal to maximum amount."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "L'importo minimo deve essere inferiore o uguale all'importo massimo."
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "L'importo massimo che puoi trasferire è: 1%."
 
@@ -2559,11 +2569,10 @@ msgstr "Le coppie Forex più ampiamente negoziate e liquide."
 msgid "The name is taken."
 msgstr "Il nome è gia utilizzato."
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr "L'importo dell'offerta deve essere superiore o uguale all'importo massimo."
-
-msgid "The offer has no available amount and cannot be changed."
-msgstr "Impossibile cambiare l'offerta: nessun importo disponibile."
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "La data di scadenza non può essere inferiore o uguale alla data attuale."
 
 msgid "The offer is inactive and cannot be changed."
 msgstr "L'offerta è inattiva e non può essere cambiata."
@@ -2726,9 +2735,6 @@ msgstr "Questo indirizzo e-mail è già stato utilizzato"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Questo è un account virtuale. Passa all'account reale per accedere alla cassa."
-
-msgid "This is above the maximum limit."
-msgstr "Limite massimo superato."
 
 msgid "This market is presently closed."
 msgstr "Questo mercato è attualmente chiuso."
@@ -9697,6 +9703,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "Convalida input non riuscita: $field"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "Convalida input non riuscita: %1"
+
 #, fuzzy
 #~| msgid "Input validation failed: account_opening_reason"
 #~ msgid "Input validation failed: account opening reason"
@@ -14326,8 +14335,14 @@ msgstr "oggi, Venerdì"
 #~ msgid "The maximum loss that may be incurred by any Client is the amount of money paid by oneself to the Company."
 #~ msgstr "La perdita massima che può essere subita da qualsiasi Cliente è pari all'importo pagato alla Società."
 
+#~ msgid "The offer amount should be greater than or equal to maximum amount."
+#~ msgstr "L'importo dell'offerta deve essere superiore o uguale all'importo massimo."
+
 #~ msgid "The offer has expired."
 #~ msgstr "L'offerta è scaduta."
+
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "Impossibile cambiare l'offerta: nessun importo disponibile."
 
 #~ msgid "The order cannot be confirmed by client in its current state."
 #~ msgstr "L'ordine non può essere confermato dall'agente nel suo stato attuale."

@@ -1383,9 +1383,6 @@ msgstr "Indizes stellen den gewichteten Wert eines Korbs von Unternehmen dar, di
 msgid "Input validation failed: "
 msgstr "Eingabewertprüfung fehlgeschlagen: "
 
-msgid "Input validation failed: %1"
-msgstr "Eingabewertprüfung fehlgeschlagen: %1"
-
 msgid "Input validation failed: %1."
 msgstr "Eingabewertprüfung fehlgeschlagen: %1."
 
@@ -1796,6 +1793,9 @@ msgstr "OTP Prüfung"
 
 msgid "OTP verification failed"
 msgstr "OTP-Verifikation fehlgeschlagen"
+
+msgid "Offer is inactive."
+msgstr ""
 
 #, fuzzy
 #| msgid "Not Found"
@@ -2819,6 +2819,9 @@ msgstr "TOTP basierte 2FA ist bereits gesperrt."
 msgid "The agent is not authenticated."
 msgstr "Kunde ist nicht vollständig authentifiziert."
 
+msgid "The amount exceeds the maximum limit."
+msgstr ""
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Der Kontrakt %4 hat sich von %2 %1 auf %3 %1 verändert."
 
@@ -2873,6 +2876,11 @@ msgstr "Die Börse muss zur Startzeit geöffnet sein. Probieren Sie die Volatili
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Die Kontoüberweisung ist nicht möglich. Bitte zahlen Sie auf Ihr Konto ein."
 
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "Die Kontoüberweisung ist nicht möglich. Bitte zahlen Sie auf Ihr Konto ein."
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "Der Höchstbetrag, den Sie überweisen können, ist: %1."
 
@@ -2915,13 +2923,10 @@ msgstr "Die meistgehandelten und liquiden Devisenpaare."
 msgid "The name is taken."
 msgstr "Der Name ist vergeben."
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr ""
-
 #, fuzzy
-#| msgid "Value of salutation cannot be changed after authentication."
-msgid "The offer has no available amount and cannot be changed."
-msgstr "Der Wert der Anrede kann nach der Authentifizierung nicht mehr geändert werden."
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
 
 #, fuzzy
 #| msgid "Value of citizen cannot be changed after authentication."
@@ -3118,9 +3123,6 @@ msgstr "Der Name ist vergeben."
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Dies ist ein virtuelles Geldkonto. Bitte wechseln Sie zum Echtgeldkonto, um Zugang zur Kasse zu haben."
-
-msgid "This is above the maximum limit."
-msgstr ""
 
 msgid "This market is presently closed."
 msgstr "Diese Börse ist zur Zeit geschlossen."
@@ -12597,6 +12599,9 @@ msgstr "heute, Freitags"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "Eingabewertprüfung fehlgeschlagen: $Feld"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "Eingabewertprüfung fehlgeschlagen: %1"
+
 #, fuzzy
 #~| msgid "Input validation failed: account_opening_reason"
 #~ msgid "Input validation failed: account opening reason"
@@ -18991,6 +18996,11 @@ msgstr "heute, Freitags"
 #~| msgid "The contract has expired"
 #~ msgid "The offer has expired."
 #~ msgstr "Der Kontrakt ist abgelaufen"
+
+#, fuzzy
+#~| msgid "Value of salutation cannot be changed after authentication."
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "Der Wert der Anrede kann nach der Authentifizierung nicht mehr geändert werden."
 
 #, fuzzy
 #~| msgid "Expiration date cannot be less than or equal to current date."

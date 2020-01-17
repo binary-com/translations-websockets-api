@@ -1380,9 +1380,6 @@ msgstr "ดัชนีต่างๆ แสดงมูลค่าของ�
 msgid "Input validation failed: "
 msgstr "การตรวจสอบข้อมูลนำเข้าล้มเหลว: "
 
-msgid "Input validation failed: %1"
-msgstr "การตรวจสอบข้อมูลนำเข้าล้มเหลว: %1"
-
 msgid "Input validation failed: %1."
 msgstr "การตรวจสอบข้อมูลนำเข้าล้มเหลว: %1"
 
@@ -1791,6 +1788,9 @@ msgstr "การตรวจสอบ OTP"
 
 msgid "OTP verification failed"
 msgstr "การตรวจสอบ OTP ล้มเหลว (ไม่สามารถดำเนินการต่อ)"
+
+msgid "Offer is inactive."
+msgstr ""
 
 #, fuzzy
 #| msgid "Not Found"
@@ -2786,6 +2786,9 @@ msgstr "TOTP based 2FA ได้ปิดการใช้งานแล้ว
 msgid "The agent is not authenticated."
 msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
 
+msgid "The amount exceeds the maximum limit."
+msgstr ""
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "สัญญา %4 ได้ถูกเปลี่ยนจาก %1%2 เป็น %1%3"
 
@@ -2838,6 +2841,11 @@ msgstr "ตลาดจะเปิดทำการที่เวลาเร
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
 
@@ -2880,13 +2888,10 @@ msgstr "คู่อัตราแลกเปลี่ยนที่นิย
 msgid "The name is taken."
 msgstr "ชื่อนี้ถูกใช้แล้ว"
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr ""
-
 #, fuzzy
-#| msgid "Value of salutation cannot be changed after authentication."
-msgid "The offer has no available amount and cannot be changed."
-msgstr "ไม่สามารถเปลี่ยนค่าของคำขึ้นต้นชื่อได้หลังจากได้ยืนยันบัญชีแล้ว"
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
 
 #, fuzzy
 #| msgid "Value of citizen cannot be changed after authentication."
@@ -3077,9 +3082,6 @@ msgstr "อีเมล์นี้ถูกใช้แล้ว"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "นี้คือ บัญชีทดลองใช้ โปรดเปลี่ยนกลับไปบัญชีเงินจริงเพื่อดำเนินการ"
-
-msgid "This is above the maximum limit."
-msgstr ""
 
 msgid "This market is presently closed."
 msgstr "ตลาดนี้ได้ปิดทำการขณะนี้"
@@ -9625,6 +9627,9 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "การตรวจสอบข้อมูลนำเข้าล้มเหลว: $field"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "การตรวจสอบข้อมูลนำเข้าล้มเหลว: %1"
+
 #~ msgid "Input validation failed: account opening reason"
 #~ msgstr "การตรวจสอบข้อมูลนำเข้าล้มเหลว: account opening reason"
 
@@ -13180,6 +13185,11 @@ msgstr "วันนี้ วันศุกร์"
 #~| msgid "The contract has expired"
 #~ msgid "The offer has expired."
 #~ msgstr "สัญญาหมดอายุ"
+
+#, fuzzy
+#~| msgid "Value of salutation cannot be changed after authentication."
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "ไม่สามารถเปลี่ยนค่าของคำขึ้นต้นชื่อได้หลังจากได้ยืนยันบัญชีแล้ว"
 
 #, fuzzy
 #~| msgid "Expiration date cannot be less than or equal to current date."

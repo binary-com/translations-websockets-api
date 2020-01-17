@@ -1255,9 +1255,6 @@ msgstr "指數是指一籃子公司的加權價值，這些公司通常在同一
 msgid "Input validation failed: "
 msgstr "輸入驗證失敗: "
 
-msgid "Input validation failed: %1"
-msgstr "輸入驗證失敗: %1"
-
 msgid "Input validation failed: %1."
 msgstr "輸入驗證失敗: %1。"
 
@@ -1632,6 +1629,9 @@ msgstr "OTP驗證"
 
 msgid "OTP verification failed"
 msgstr "OTP驗證失敗"
+
+msgid "Offer is inactive."
+msgstr ""
 
 msgid "Offer not found."
 msgstr "無法找到報價。"
@@ -2489,6 +2489,11 @@ msgstr "P2P收銀台目前已禁用。"
 msgid "The agent is not authenticated."
 msgstr "代理未經驗證。"
 
+#, fuzzy
+#| msgid "This is above the maximum limit."
+msgid "The amount exceeds the maximum limit."
+msgstr "已超過最大限值。"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "合約 %4 已從 %1%2 變更為 %1%3。"
 
@@ -2531,6 +2536,11 @@ msgstr "此市場須於開始時間開啟。 嘗試始終開放的綜合指數�
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "最大存款金額為%1 %2。請更改金額。"
 
+#, fuzzy
+#| msgid "The minimum amount should be less than or equal to maximum amount."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "最小金額須小於或相等於最大金額。"
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "可轉匯的最大金額是:%1。"
 
@@ -2561,11 +2571,10 @@ msgstr "交易最活躍、流動性最高的貨幣對。"
 msgid "The name is taken."
 msgstr "此名字已被使用。"
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr "報價金額須大於或相等於最大金額。"
-
-msgid "The offer has no available amount and cannot be changed."
-msgstr "報價無可用金額且無法修改。"
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "到期日不可早於或與目前日期相同。"
 
 msgid "The offer is inactive and cannot be changed."
 msgstr "報價已失效且無法修改。"
@@ -2728,9 +2737,6 @@ msgstr "此電子郵件已被使用"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "這是虛擬帳戶。要存取收銀台請轉換到真實資金帳戶。"
-
-msgid "This is above the maximum limit."
-msgstr "已超過最大限值。"
 
 msgid "This market is presently closed."
 msgstr "此市場目前已收市。"
@@ -9946,6 +9952,9 @@ msgstr "今天，每星期五"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "輸入驗證失敗: $field"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "輸入驗證失敗: %1"
+
 #~ msgid "Input validation failed: account opening reason"
 #~ msgstr "輸入驗證失敗: 開立帳戶原因"
 
@@ -14764,8 +14773,14 @@ msgstr "今天，每星期五"
 #~ msgid "The most important benefit of using OAuth2.0 is that the end-users, who already have valid logins at %1, are able to leverage new applications to execute various trading activities, without these applications needing to know or \"see\" the end-users security credentials."
 #~ msgstr "使用OAuth2.0 最大的好處是，已在%1 擁有有效登入名的最終使用者將能夠利用新應用程式執行各種交易活動，而這些應用程式無需知道或「看到」最終使用者的安全憑據。"
 
+#~ msgid "The offer amount should be greater than or equal to maximum amount."
+#~ msgstr "報價金額須大於或相等於最大金額。"
+
 #~ msgid "The offer has expired."
 #~ msgstr "報價已到期。"
+
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "報價無可用金額且無法修改。"
 
 #, fuzzy
 #~| msgid "Order cannot be agent confirmed in its current state"

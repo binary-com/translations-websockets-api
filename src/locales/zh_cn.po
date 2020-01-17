@@ -1257,9 +1257,6 @@ msgstr "指数是指一篮子公司的加权价值，这些公司通常在同一
 msgid "Input validation failed: "
 msgstr "输入验证失败： "
 
-msgid "Input validation failed: %1"
-msgstr "输入验证失败：%1"
-
 msgid "Input validation failed: %1."
 msgstr "输入验证失败：%1。"
 
@@ -1634,6 +1631,9 @@ msgstr "OTP验证"
 
 msgid "OTP verification failed"
 msgstr "OTP验证失败"
+
+msgid "Offer is inactive."
+msgstr ""
 
 msgid "Offer not found."
 msgstr "无法找到报价。"
@@ -2491,6 +2491,11 @@ msgstr "P2P收银台目前已禁用。"
 msgid "The agent is not authenticated."
 msgstr "代理未经验证。"
 
+#, fuzzy
+#| msgid "This is above the maximum limit."
+msgid "The amount exceeds the maximum limit."
+msgstr "已超过最大限值。"
+
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "合约 %4 已从 %1%2 变为 %1%3。"
 
@@ -2533,6 +2538,11 @@ msgstr "此市场须于开始时间开启。您可以试试一直开放的综合
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "最大存款金额为%1 %2。请更改金额。"
 
+#, fuzzy
+#| msgid "The minimum amount should be less than or equal to maximum amount."
+msgid "The maximum amount should be less than or equal to the offer amount."
+msgstr "最小金额须小于或相等于最大金额。"
+
 msgid "The maximum amount you may transfer is: %1."
 msgstr "您可转汇的最大金额为：%1。"
 
@@ -2563,11 +2573,10 @@ msgstr "交易最活跃、流动性最高的货币对。"
 msgid "The name is taken."
 msgstr "此名已被注册。"
 
-msgid "The offer amount should be greater than or equal to maximum amount."
-msgstr "报价金额须大于或相等于最大金额。"
-
-msgid "The offer has no available amount and cannot be changed."
-msgstr "报价无可用金额且无法修改。"
+#, fuzzy
+#| msgid "Expiration date cannot be less than or equal to current date."
+msgid "The new amount cannot be less than the value of current orders against this offer."
+msgstr "到期日不可早于或与当前日期相同。"
 
 msgid "The offer is inactive and cannot be changed."
 msgstr "报价已失效且无法修改。"
@@ -2730,9 +2739,6 @@ msgstr "此电子邮件已被使用"
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "这是虚拟账户。要访问收银台请转换到真实资金账户。"
-
-msgid "This is above the maximum limit."
-msgstr "已超过最大限值。"
 
 msgid "This market is presently closed."
 msgstr "此市场目前已收市。"
@@ -13571,6 +13577,9 @@ msgstr "今天，每星期五"
 #~ msgid "Input validation failed: $field"
 #~ msgstr "输入验证失败： $field"
 
+#~ msgid "Input validation failed: %1"
+#~ msgstr "输入验证失败：%1"
+
 #~ msgid "Input validation failed: account opening reason"
 #~ msgstr "输入验证失败： 开立账户原因"
 
@@ -20843,8 +20852,14 @@ msgstr "今天，每星期五"
 #~ msgid "The moving average period of the signal line"
 #~ msgstr "信号线的移动平均周期"
 
+#~ msgid "The offer amount should be greater than or equal to maximum amount."
+#~ msgstr "报价金额须大于或相等于最大金额。"
+
 #~ msgid "The offer has expired."
 #~ msgstr "报价已到期。"
+
+#~ msgid "The offer has no available amount and cannot be changed."
+#~ msgstr "报价无可用金额且无法修改。"
 
 #~ msgid "The order ID of the transaction is %1."
 #~ msgstr "此交易的订单 ID 是 %1。"
