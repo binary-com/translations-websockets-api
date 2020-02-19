@@ -191,6 +191,21 @@ msgstr "广告费率不可大于%1。请更改数值。"
 msgid "Address"
 msgstr "地址"
 
+#, fuzzy
+#| msgid "Offer is inactive."
+msgid "Advert is inactive."
+msgstr "报价已停用。"
+
+#, fuzzy
+#| msgid "Order not found."
+msgid "Advert not found."
+msgstr "无法找到订单。"
+
+#, fuzzy
+#| msgid "Offering for the currency is not available at the moment."
+msgid "Advertising for the currency is not available at the moment."
+msgstr "所提供的货币报价目前不可用。"
+
 msgid "Age and identity verification"
 msgstr "年龄和身份验证"
 
@@ -1647,15 +1662,6 @@ msgstr "OTP验证"
 msgid "OTP verification failed"
 msgstr "OTP验证失败"
 
-msgid "Offer is inactive."
-msgstr "报价已停用。"
-
-msgid "Offer not found."
-msgstr "无法找到报价。"
-
-msgid "Offering for the currency is not available at the moment."
-msgstr "所提供的货币报价目前不可用。"
-
 msgid "Oil/AUD"
 msgstr "原油/澳元"
 
@@ -1739,7 +1745,9 @@ msgstr "大于/小于"
 msgid "P.O. Box is not accepted in address."
 msgstr "不接受邮政信箱作为地址。"
 
-msgid "P2P Agent not found."
+#, fuzzy
+#| msgid "P2P Agent not found."
+msgid "P2P advertiser not found."
 msgstr "无法找到P2P代理。"
 
 msgid "P2P cashier functionality is not available on demo accounts."
@@ -2483,10 +2491,19 @@ msgstr "%1 团队。"
 msgid "The P2P cashier is currently disabled."
 msgstr "P2P收银台目前已禁用。"
 
-msgid "The agent is not approved."
+#, fuzzy
+#| msgid "The offer is inactive and cannot be changed."
+msgid "The advert is inactive and cannot be changed."
+msgstr "报价已失效且无法修改。"
+
+#, fuzzy
+#| msgid "The agent is not approved."
+msgid "The advertiser is not approved."
 msgstr "代理未经批准。"
 
-msgid "The agent name cannot be blank."
+#, fuzzy
+#| msgid "The agent name cannot be blank."
+msgid "The advertiser name cannot be blank."
 msgstr "代理名称不可为空。"
 
 msgid "The amount exceeds the maximum limit."
@@ -2537,19 +2554,27 @@ msgstr "最大金额大于每个订单最大金额（%1 %2）。请更改数值�
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "最大存款金额为%1 %2。请更改金额。"
 
-msgid "The maximum amount should be less than or equal to the offer amount."
+#, fuzzy
+#| msgid "The maximum amount should be less than or equal to the offer amount."
+msgid "The maximum amount should be less than or equal to the advert amount."
 msgstr "最大金额须小于或相等于报价金额。"
 
 msgid "The maximum amount you may transfer is: %1."
 msgstr "您可转汇的最大金额为：%1。"
 
-msgid "The maximum available amount for this offer is %1 %2 at the moment."
+#, fuzzy
+#| msgid "The maximum available amount for this offer is %1 %2 at the moment."
+msgid "The maximum available amount for this advert is %1 %2 at the moment."
 msgstr "此报价当前的最大金额为%1 %2。"
 
-msgid "The maximum limit of active offers reached."
+#, fuzzy
+#| msgid "The maximum limit of active offers reached."
+msgid "The maximum limit of active adverts reached."
 msgstr "有效报价已达最大限数。"
 
-msgid "The minimum amount for this offer is %1 %2."
+#, fuzzy
+#| msgid "The minimum amount for this offer is %1 %2."
+msgid "The minimum amount for this advert is %1 %2."
 msgstr "此报价的最小金额为%1 %2。"
 
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
@@ -2570,11 +2595,10 @@ msgstr "交易最活跃、流动性最高的货币对。"
 msgid "The name is taken."
 msgstr "此名已被注册。"
 
-msgid "The new amount cannot be less than the value of current orders against this offer."
+#, fuzzy
+#| msgid "The new amount cannot be less than the value of current orders against this offer."
+msgid "The new amount cannot be less than the value of current orders against this advert."
 msgstr "新的金额不可小于当前针对此报价的订单金额。"
-
-msgid "The offer is inactive and cannot be changed."
-msgstr "报价已失效且无法修改。"
 
 msgid "The order cannot be confirmed in its current state."
 msgstr "订单当前状态不可确认。"
@@ -2600,7 +2624,9 @@ msgstr "您的账户%1密码已重设。如您并没执行此项请求，请立�
 msgid "The payment agent facility is not available for this account."
 msgstr "此账户无可用支付代理设施。"
 
-msgid "The provided agent ID does not belong to an active agent."
+#, fuzzy
+#| msgid "The provided agent ID does not belong to an active agent."
+msgid "The provided advertiser ID does not belong to an active advertiser."
 msgstr "所提供的代理ID非有效代理。"
 
 msgid "The provided currency %1 is invalid."
@@ -2672,7 +2698,9 @@ msgstr "此账户不允许MT5交易。请到正确的账户登录。"
 msgid "This account has been disabled."
 msgstr "此账户已禁用。"
 
-msgid "This account is not registered as an P2P agent."
+#, fuzzy
+#| msgid "This account is not registered as an P2P agent."
+msgid "This account is not registered as a P2P advertiser."
 msgstr "此账户还未注册为P2P代理。"
 
 msgid "This account is unavailable."
@@ -3445,7 +3473,9 @@ msgstr "您无权通过付款代理取款。"
 msgid "You are not logged in."
 msgstr "您还未登录。"
 
-msgid "You are not yet registered as an P2P agent."
+#, fuzzy
+#| msgid "You are not yet registered as an P2P agent."
+msgid "You are not yet registered as a P2P advertiser."
 msgstr "您还未注册为P2P代理。"
 
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
@@ -3460,7 +3490,9 @@ msgstr "一天最多只能转账%1次。请明天重新尝试。"
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "您的虚拟账户余额必须低于％1％2才能请求额外资金。"
 
-msgid "You cannot create an order for your own offer."
+#, fuzzy
+#| msgid "You cannot create an order for your own offer."
+msgid "You cannot create an order for your own advert."
 msgstr "您不可为自己的报价下订单。"
 
 msgid "You cannot create an order with a different currency than your account."
@@ -16216,6 +16248,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Offer not found"
 #~ msgstr "无法找到报价"
+
+#~ msgid "Offer not found."
+#~ msgstr "无法找到报价。"
 
 #~ msgid "Offering is unavailable on this symbol."
 #~ msgstr "优惠不适用于此符号。"

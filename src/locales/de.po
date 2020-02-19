@@ -210,6 +210,19 @@ msgstr "Die Kontoüberweisung ist nicht möglich. Bitte zahlen Sie auf Ihr Konto
 msgid "Address"
 msgstr "Adresse"
 
+msgid "Advert is inactive."
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Advert not found."
+msgstr "Nicht gefunden"
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "Advertising for the currency is not available at the moment."
+msgstr "Die angegebene Währung %1 kann im Moment nicht ausgewählt werden."
+
 #, fuzzy
 #| msgid "Account needs age verification"
 msgid "Age and identity verification"
@@ -1825,19 +1838,6 @@ msgstr "OTP Prüfung"
 msgid "OTP verification failed"
 msgstr "OTP-Verifikation fehlgeschlagen"
 
-msgid "Offer is inactive."
-msgstr ""
-
-#, fuzzy
-#| msgid "Not Found"
-msgid "Offer not found."
-msgstr "Nicht gefunden"
-
-#, fuzzy
-#| msgid "The provided currency %1 is not selectable at the moment."
-msgid "Offering for the currency is not available at the moment."
-msgstr "Die angegebene Währung %1 kann im Moment nicht ausgewählt werden."
-
 msgid "Oil/AUD"
 msgstr "Öl/AUD"
 
@@ -1929,7 +1929,7 @@ msgstr "Postfach ist als Adresse nicht gestattet."
 
 #, fuzzy
 #| msgid "Document not found."
-msgid "P2P Agent not found."
+msgid "P2P advertiser not found."
 msgstr "Dokument nicht gefunden."
 
 #, fuzzy
@@ -2814,13 +2814,18 @@ msgid "The P2P cashier is currently disabled."
 msgstr "TOTP basierte 2FA ist bereits gesperrt."
 
 #, fuzzy
+#| msgid "Value of citizen cannot be changed after authentication."
+msgid "The advert is inactive and cannot be changed."
+msgstr "Der Wert des Bürgers kann nach der Authentifizierung nicht mehr geändert werden."
+
+#, fuzzy
 #| msgid "Client is not fully authenticated."
-msgid "The agent is not approved."
+msgid "The advertiser is not approved."
 msgstr "Kunde ist nicht vollständig authentifiziert."
 
 #, fuzzy
 #| msgid "Value of last name cannot be changed after authentication."
-msgid "The agent name cannot be blank."
+msgid "The advertiser name cannot be blank."
 msgstr "Der Wert des Nachnamens kann nach der Authentifizierung nicht mehr geändert werden."
 
 msgid "The amount exceeds the maximum limit."
@@ -2889,7 +2894,7 @@ msgstr "Die Kontoüberweisung ist nicht möglich. Bitte zahlen Sie auf Ihr Konto
 
 #, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The maximum amount should be less than or equal to the offer amount."
+msgid "The maximum amount should be less than or equal to the advert amount."
 msgstr "Die Kontoüberweisung ist nicht möglich. Bitte zahlen Sie auf Ihr Konto ein."
 
 msgid "The maximum amount you may transfer is: %1."
@@ -2897,17 +2902,17 @@ msgstr "Der Höchstbetrag, den Sie überweisen können, ist: %1."
 
 #, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The maximum available amount for this offer is %1 %2 at the moment."
+msgid "The maximum available amount for this advert is %1 %2 at the moment."
 msgstr "Die Kontoüberweisung ist nicht möglich. Bitte zahlen Sie auf Ihr Konto ein."
 
 #, fuzzy
 #| msgid "The maximum number of tokens (%1) has been reached."
-msgid "The maximum limit of active offers reached."
+msgid "The maximum limit of active adverts reached."
 msgstr "Die Höchstzahl an Token (%1) wurde erreicht."
 
 #, fuzzy
 #| msgid "The maximum amount you may transfer is: %1."
-msgid "The minimum amount for this offer is %1 %2."
+msgid "The minimum amount for this advert is %1 %2."
 msgstr "Der Höchstbetrag, den Sie überweisen können, ist: %1."
 
 #, fuzzy
@@ -2936,13 +2941,8 @@ msgstr "Der Name ist vergeben."
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
-msgid "The new amount cannot be less than the value of current orders against this offer."
+msgid "The new amount cannot be less than the value of current orders against this advert."
 msgstr "Das Ablaufdatum darf nicht vor dem aktuellen Datum sein, oder mit diesem übereinstimmen."
-
-#, fuzzy
-#| msgid "Value of citizen cannot be changed after authentication."
-msgid "The offer is inactive and cannot be changed."
-msgstr "Der Wert des Bürgers kann nach der Authentifizierung nicht mehr geändert werden."
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
@@ -2980,7 +2980,7 @@ msgstr "Die Zahlungsabwicklereinrichtung ist für dieses Konto nicht verfügbar.
 
 #, fuzzy
 #| msgid "The provided currency %1 is not selectable at the moment."
-msgid "The provided agent ID does not belong to an active agent."
+msgid "The provided advertiser ID does not belong to an active advertiser."
 msgstr "Die angegebene Währung %1 kann im Moment nicht ausgewählt werden."
 
 msgid "The provided currency %1 is invalid."
@@ -3060,7 +3060,7 @@ msgstr "Dieses Konto wurde gesperrt."
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "This account is not registered as an P2P agent."
+msgid "This account is not registered as a P2P advertiser."
 msgstr "Ihr Konto ist als Zahlungsagent registriert."
 
 msgid "This account is unavailable."
@@ -3925,7 +3925,7 @@ msgstr "Sie sind kein Zahlungsagent"
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "You are not yet registered as an P2P agent."
+msgid "You are not yet registered as a P2P advertiser."
 msgstr "Ihr Konto ist als Zahlungsagent registriert."
 
 #, fuzzy
@@ -3946,8 +3946,10 @@ msgstr "Umrechnungen heute. Bitte versuchen Sie es morgen wieder"
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Sie können zusätzliche Gelder nur dann beantragen, wenn Ihr virtuelles Kontoguthaben unter %1 %2 fällt."
 
-msgid "You cannot create an order for your own offer."
-msgstr ""
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "You cannot create an order for your own advert."
+msgstr "Bitte legen Sie die Währung für Ihr Konto fest."
 
 #, fuzzy
 #| msgid "Please set the currency of your account."
@@ -15006,6 +15008,11 @@ msgstr "heute, Freitags"
 #, fuzzy
 #~| msgid "Not Found"
 #~ msgid "Offer not found"
+#~ msgstr "Nicht gefunden"
+
+#, fuzzy
+#~| msgid "Not Found"
+#~ msgid "Offer not found."
 #~ msgstr "Nicht gefunden"
 
 #~ msgid "Offering is unavailable on this symbol."

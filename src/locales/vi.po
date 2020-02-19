@@ -197,6 +197,21 @@ msgstr "Mức tỉ lệ quảng cáo phải lớn hơn %1. Vui lòng nhập 
 msgid "Address"
 msgstr "Địa chỉ"
 
+#, fuzzy
+#| msgid "Offer is inactive."
+msgid "Advert is inactive."
+msgstr "Đơn hàng đang không hoạt động."
+
+#, fuzzy
+#| msgid "Order not found."
+msgid "Advert not found."
+msgstr "Không tìm thấy lệnh."
+
+#, fuzzy
+#| msgid "Offering for the currency is not available at the moment."
+msgid "Advertising for the currency is not available at the moment."
+msgstr "Đơn hàng cho loại tiền tệ này hiện không có sẵn."
+
 msgid "Age and identity verification"
 msgstr "Chứng thực tuổi và nhân dạng"
 
@@ -1662,15 +1677,6 @@ msgstr "Xác minh OTP"
 msgid "OTP verification failed"
 msgstr "Xác minh OTP không thành công"
 
-msgid "Offer is inactive."
-msgstr "Đơn hàng đang không hoạt động."
-
-msgid "Offer not found."
-msgstr "Không tìm thấy đơn hàng."
-
-msgid "Offering for the currency is not available at the moment."
-msgstr "Đơn hàng cho loại tiền tệ này hiện không có sẵn."
-
 msgid "Oil/AUD"
 msgstr "Dầu/AUD"
 
@@ -1754,7 +1760,9 @@ msgstr "Trên/Dưới"
 msgid "P.O. Box is not accepted in address."
 msgstr "Hòm thư cá nhân không được chấp nhận tại địa chỉ."
 
-msgid "P2P Agent not found."
+#, fuzzy
+#| msgid "P2P Agent not found."
+msgid "P2P advertiser not found."
 msgstr "Không tìm thấy đại lý P2P."
 
 msgid "P2P cashier functionality is not available on demo accounts."
@@ -2502,10 +2510,19 @@ msgstr "Nhóm %1."
 msgid "The P2P cashier is currently disabled."
 msgstr "Thu ngân P2P hiện tại đang bị vô hiệu hóa."
 
-msgid "The agent is not approved."
+#, fuzzy
+#| msgid "The offer is inactive and cannot be changed."
+msgid "The advert is inactive and cannot be changed."
+msgstr "Đơn hàng không hoạt động và không thể thay đổi."
+
+#, fuzzy
+#| msgid "The agent is not approved."
+msgid "The advertiser is not approved."
 msgstr "Đại lý chưa được phê duyệt."
 
-msgid "The agent name cannot be blank."
+#, fuzzy
+#| msgid "The agent name cannot be blank."
+msgid "The advertiser name cannot be blank."
 msgstr "Tên Đại Lý không thể để trống."
 
 msgid "The amount exceeds the maximum limit."
@@ -2556,19 +2573,27 @@ msgstr "Mức tiền tối đa vượt ngưỡng tối đa cho mỗi đơn
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Tiền gửi tối đa là %1%2. Vui lòng nhập lại số lượng."
 
-msgid "The maximum amount should be less than or equal to the offer amount."
+#, fuzzy
+#| msgid "The maximum amount should be less than or equal to the offer amount."
+msgid "The maximum amount should be less than or equal to the advert amount."
 msgstr "Số tiền tối đa phải thấp hơn hoặc bằng số tiền đề nghị."
 
 msgid "The maximum amount you may transfer is: %1."
 msgstr "Lượng tiền tối đa bạn có thể chuyển khoản là: %1."
 
-msgid "The maximum available amount for this offer is %1 %2 at the moment."
+#, fuzzy
+#| msgid "The maximum available amount for this offer is %1 %2 at the moment."
+msgid "The maximum available amount for this advert is %1 %2 at the moment."
 msgstr "Tại thời điểm hiện tại mức tiền tối đa cho đơn hàng này là %1 %2."
 
-msgid "The maximum limit of active offers reached."
+#, fuzzy
+#| msgid "The maximum limit of active offers reached."
+msgid "The maximum limit of active adverts reached."
 msgstr "Đã đạt đến số lượng tối đa các đơn hàng đang có hiệu lực."
 
-msgid "The minimum amount for this offer is %1 %2."
+#, fuzzy
+#| msgid "The minimum amount for this offer is %1 %2."
+msgid "The minimum amount for this advert is %1 %2."
 msgstr "Mức tiền tối thiểu cho đơn hàng này là %1 %2."
 
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
@@ -2589,11 +2614,10 @@ msgstr "Cặp tiền tệ được giao dịch và có tính luân chuyển rộ
 msgid "The name is taken."
 msgstr "Tên đã được sử dụng."
 
-msgid "The new amount cannot be less than the value of current orders against this offer."
+#, fuzzy
+#| msgid "The new amount cannot be less than the value of current orders against this offer."
+msgid "The new amount cannot be less than the value of current orders against this advert."
 msgstr "Mức tiền mơi nhập vào không được phép thấp hơn giá trị của các đơn hàng hiện tại đối với đề nghị này."
-
-msgid "The offer is inactive and cannot be changed."
-msgstr "Đơn hàng không hoạt động và không thể thay đổi."
 
 msgid "The order cannot be confirmed in its current state."
 msgstr "Lệnh không thể được xác nhận tại thời điểm hiện tại."
@@ -2619,7 +2643,9 @@ msgstr "Mật khẩu cho tài khoản %1 của bạn đã được thiết 
 msgid "The payment agent facility is not available for this account."
 msgstr "Cơ sở đại lý thanh toán không khả dụng cho tài khoản này."
 
-msgid "The provided agent ID does not belong to an active agent."
+#, fuzzy
+#| msgid "The provided agent ID does not belong to an active agent."
+msgid "The provided advertiser ID does not belong to an active advertiser."
 msgstr "ID đại lý vừa được cung cấp không thuộc về bất kỳ đại lý nào đang hoạt động."
 
 msgid "The provided currency %1 is invalid."
@@ -2691,7 +2717,9 @@ msgstr "Tài khoản này không cho phép giao dịch MT5. Vui lòng đăng nh�
 msgid "This account has been disabled."
 msgstr "Tài khoản này đã bị vô hiệu hóa."
 
-msgid "This account is not registered as an P2P agent."
+#, fuzzy
+#| msgid "This account is not registered as an P2P agent."
+msgid "This account is not registered as a P2P advertiser."
 msgstr "Tài khoản này vẫn chưa đăng ký làm một đại lý P2P."
 
 msgid "This account is unavailable."
@@ -3464,7 +3492,9 @@ msgstr "Bạn không được quyền rút tiền qua đại lý thanh toán."
 msgid "You are not logged in."
 msgstr "Bạn chưa đăng nhập."
 
-msgid "You are not yet registered as an P2P agent."
+#, fuzzy
+#| msgid "You are not yet registered as an P2P agent."
+msgid "You are not yet registered as a P2P advertiser."
 msgstr "Bạn vẫn chưa đăng ký làm một đại lý P2P."
 
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
@@ -3479,7 +3509,9 @@ msgstr "Bạn chỉ có thể thực hiện tối đa %1 lần chuyển k
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Bạn chỉ có thể yêu cầu thêm tiền nếu số dư tài khoản ảo của bạn dưới% 1% 2."
 
-msgid "You cannot create an order for your own offer."
+#, fuzzy
+#| msgid "You cannot create an order for your own offer."
+msgid "You cannot create an order for your own advert."
 msgstr "Bạn không thể tạo một lệnh cho đơn hàng của chính mình."
 
 msgid "You cannot create an order with a different currency than your account."
@@ -12295,6 +12327,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Offer not found"
 #~ msgstr "Không tìm thấy đơn hàng"
+
+#~ msgid "Offer not found."
+#~ msgstr "Không tìm thấy đơn hàng."
 
 #~ msgid "Offering is unavailable on this symbol."
 #~ msgstr "Phiếu mua hàng không khả dụng cho ký hiệu này."

@@ -195,6 +195,21 @@ msgstr "Stawka reklamy nie powinna być wyższa niż %1. Popraw wartość."
 msgid "Address"
 msgstr "Adres"
 
+#, fuzzy
+#| msgid "Offer is inactive."
+msgid "Advert is inactive."
+msgstr "Oferta jest nieaktywna."
+
+#, fuzzy
+#| msgid "Order not found."
+msgid "Advert not found."
+msgstr "Nie znaleziono zlecenia."
+
+#, fuzzy
+#| msgid "Offering for the currency is not available at the moment."
+msgid "Advertising for the currency is not available at the moment."
+msgstr "Składanie ofert dla tej waluty jest obecnie niedostępne."
+
 msgid "Age and identity verification"
 msgstr "Weryfikacja wieku i tożsamości"
 
@@ -1658,15 +1673,6 @@ msgstr "Weryfikacja OTP"
 msgid "OTP verification failed"
 msgstr "Weryfikacja OTP nie powiodła się"
 
-msgid "Offer is inactive."
-msgstr "Oferta jest nieaktywna."
-
-msgid "Offer not found."
-msgstr "Nie znaleziono oferty."
-
-msgid "Offering for the currency is not available at the moment."
-msgstr "Składanie ofert dla tej waluty jest obecnie niedostępne."
-
 msgid "Oil/AUD"
 msgstr "Ropa/AUD"
 
@@ -1750,7 +1756,9 @@ msgstr "Ponad/poniżej"
 msgid "P.O. Box is not accepted in address."
 msgstr "Adresy nie mogą zawierać numerów skrytek pocztowych."
 
-msgid "P2P Agent not found."
+#, fuzzy
+#| msgid "P2P Agent not found."
+msgid "P2P advertiser not found."
 msgstr "Nie znaleziono agenta P2P."
 
 msgid "P2P cashier functionality is not available on demo accounts."
@@ -2496,10 +2504,19 @@ msgstr "Zespół %1."
 msgid "The P2P cashier is currently disabled."
 msgstr "Kasjer P2P jest obecnie wyłączony."
 
-msgid "The agent is not approved."
+#, fuzzy
+#| msgid "The offer is inactive and cannot be changed."
+msgid "The advert is inactive and cannot be changed."
+msgstr "Oferta jest nieaktywna i nie można jej zmienić."
+
+#, fuzzy
+#| msgid "The agent is not approved."
+msgid "The advertiser is not approved."
 msgstr "Agent nie jest zatwierdzony."
 
-msgid "The agent name cannot be blank."
+#, fuzzy
+#| msgid "The agent name cannot be blank."
+msgid "The advertiser name cannot be blank."
 msgstr "Nazwa agenta nie może być pusta."
 
 msgid "The amount exceeds the maximum limit."
@@ -2550,19 +2567,27 @@ msgstr "Maksymalna kwota przekracza maksymalną kwotę na zlecenie (%2 %1). Popr
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Maksymalna kwota wpłaty to %2 %1. Popraw kwotę."
 
-msgid "The maximum amount should be less than or equal to the offer amount."
+#, fuzzy
+#| msgid "The maximum amount should be less than or equal to the offer amount."
+msgid "The maximum amount should be less than or equal to the advert amount."
 msgstr "Maksymalna kwota powinna być równa kwocie ofertowej lub niższa od niej."
 
 msgid "The maximum amount you may transfer is: %1."
 msgstr "Maksymalna kwota, którą możesz przelać to: %1."
 
-msgid "The maximum available amount for this offer is %1 %2 at the moment."
+#, fuzzy
+#| msgid "The maximum available amount for this offer is %1 %2 at the moment."
+msgid "The maximum available amount for this advert is %1 %2 at the moment."
 msgstr "W obecnej chwili maksymalna dostępna kwotadla tej oferty to %2 %1."
 
-msgid "The maximum limit of active offers reached."
+#, fuzzy
+#| msgid "The maximum limit of active offers reached."
+msgid "The maximum limit of active adverts reached."
 msgstr "Osiągnięto maksymalny limit aktywnych ofert."
 
-msgid "The minimum amount for this offer is %1 %2."
+#, fuzzy
+#| msgid "The minimum amount for this offer is %1 %2."
+msgid "The minimum amount for this advert is %1 %2."
 msgstr "Maksymalna kwota dla tej oferty to: %2 %1."
 
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
@@ -2583,11 +2608,10 @@ msgstr "Najczęściej sprzedawane i kupowane oraz płynne pary walut."
 msgid "The name is taken."
 msgstr "Nazwa jest już w użyciu."
 
-msgid "The new amount cannot be less than the value of current orders against this offer."
+#, fuzzy
+#| msgid "The new amount cannot be less than the value of current orders against this offer."
+msgid "The new amount cannot be less than the value of current orders against this advert."
 msgstr "Nowa kwota nie może być niższa od kwoty obecnych zleceń w stosunku do tej oferty."
-
-msgid "The offer is inactive and cannot be changed."
-msgstr "Oferta jest nieaktywna i nie można jej zmienić."
 
 msgid "The order cannot be confirmed in its current state."
 msgstr "Nie można potwierdzić zlecenia na jego obecnym etapie."
@@ -2613,7 +2637,9 @@ msgstr "Hasło dla Twojego konta %1 zostało zresetowane. Jeśli to nie Ty wysł
 msgid "The payment agent facility is not available for this account."
 msgstr "Usługi pośredników płatności są niedostępne dla tego konta."
 
-msgid "The provided agent ID does not belong to an active agent."
+#, fuzzy
+#| msgid "The provided agent ID does not belong to an active agent."
+msgid "The provided advertiser ID does not belong to an active advertiser."
 msgstr "Podane ID agenta nie jest przypisane do żadnego aktywnego agenta."
 
 msgid "The provided currency %1 is invalid."
@@ -2685,7 +2711,9 @@ msgstr "Handlowanie MT5 nie jest możliwe na tym koncie. Proszę zalogować się
 msgid "This account has been disabled."
 msgstr "To konto zostało wyłączone."
 
-msgid "This account is not registered as an P2P agent."
+#, fuzzy
+#| msgid "This account is not registered as an P2P agent."
+msgid "This account is not registered as a P2P advertiser."
 msgstr "To konto nie jest zarejestrowane jako konto P2P."
 
 msgid "This account is unavailable."
@@ -3458,7 +3486,9 @@ msgstr "Nie jesteś upoważniony do dokonywania wypłat przez pośredników pła
 msgid "You are not logged in."
 msgstr "Nie jesteś zalogowany."
 
-msgid "You are not yet registered as an P2P agent."
+#, fuzzy
+#| msgid "You are not yet registered as an P2P agent."
+msgid "You are not yet registered as a P2P advertiser."
 msgstr "Nie jesteś jeszcze zarejestrowany jako agent P2P."
 
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
@@ -3473,7 +3503,9 @@ msgstr "Dziennie możesz wykonać transakcje w maksymalnej liczbie %1 . Spróbuj
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Możesz ubiegać się o dodatkowe środki, wyłącznie jeśli saldo Twojego wirtualnego konta jest niższe niż %2 %1."
 
-msgid "You cannot create an order for your own offer."
+#, fuzzy
+#| msgid "You cannot create an order for your own offer."
+msgid "You cannot create an order for your own advert."
 msgstr "Nie możesz utworzyć zlecenia dla swojej własnej oferty."
 
 msgid "You cannot create an order with a different currency than your account."
@@ -14229,6 +14261,9 @@ msgstr "dziś, piątki"
 
 #~ msgid "Offer not found"
 #~ msgstr "Nie znaleziono oferty"
+
+#~ msgid "Offer not found."
+#~ msgstr "Nie znaleziono oferty."
 
 #~ msgid "Offering is unavailable on this symbol."
 #~ msgstr "W przypadku tego symbolu oferty są niedostępne."

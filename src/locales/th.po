@@ -211,6 +211,19 @@ msgstr "การโอนบัญชีไม่สามารถทำได
 msgid "Address"
 msgstr "ที่อยู่"
 
+msgid "Advert is inactive."
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Found"
+msgid "Advert not found."
+msgstr "ไม่พบ"
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "Advertising for the currency is not available at the moment."
+msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
+
 msgid "Age and identity verification"
 msgstr "การตรวจสอบอายุและอัตลักษณ์บุคคล"
 
@@ -1818,19 +1831,6 @@ msgstr "การตรวจสอบ OTP"
 msgid "OTP verification failed"
 msgstr "การตรวจสอบ OTP ล้มเหลว (ไม่สามารถดำเนินการต่อ)"
 
-msgid "Offer is inactive."
-msgstr ""
-
-#, fuzzy
-#| msgid "Not Found"
-msgid "Offer not found."
-msgstr "ไม่พบ"
-
-#, fuzzy
-#| msgid "The provided currency %1 is not selectable at the moment."
-msgid "Offering for the currency is not available at the moment."
-msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
-
 msgid "Oil/AUD"
 msgstr "Oil/AUD"
 
@@ -1922,7 +1922,7 @@ msgstr "ไม่สามารถใช้ ตู้ปณ. ในข้อม
 
 #, fuzzy
 #| msgid "Document not found."
-msgid "P2P Agent not found."
+msgid "P2P advertiser not found."
 msgstr "ไม่พบเอกสารที่ต้องการ"
 
 #, fuzzy
@@ -2783,13 +2783,18 @@ msgid "The P2P cashier is currently disabled."
 msgstr "TOTP based 2FA ได้ปิดการใช้งานแล้ว"
 
 #, fuzzy
+#| msgid "Value of citizen cannot be changed after authentication."
+msgid "The advert is inactive and cannot be changed."
+msgstr "ไม่สามารถเปลี่ยนค่าของสัญชาติได้หลังจากได้ยืนยันบัญชีแล้ว"
+
+#, fuzzy
 #| msgid "Client is not fully authenticated."
-msgid "The agent is not approved."
+msgid "The advertiser is not approved."
 msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
 
 #, fuzzy
 #| msgid "Value of last name cannot be changed after authentication."
-msgid "The agent name cannot be blank."
+msgid "The advertiser name cannot be blank."
 msgstr "ไม่สามารถเปลี่ยนค่าของนามสกุลได้หลังจากได้ยืนยันบัญชีแล้ว"
 
 msgid "The amount exceeds the maximum limit."
@@ -2856,7 +2861,7 @@ msgstr "การโอนบัญชีไม่สามารถทำได
 
 #, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The maximum amount should be less than or equal to the offer amount."
+msgid "The maximum amount should be less than or equal to the advert amount."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
 msgid "The maximum amount you may transfer is: %1."
@@ -2864,17 +2869,17 @@ msgstr "จำนวนเงินที่ท่านสามารถโอ
 
 #, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The maximum available amount for this offer is %1 %2 at the moment."
+msgid "The maximum available amount for this advert is %1 %2 at the moment."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
 #, fuzzy
 #| msgid "The maximum number of tokens (%1) has been reached."
-msgid "The maximum limit of active offers reached."
+msgid "The maximum limit of active adverts reached."
 msgstr "จำนวนมากที่สุดของโทเค่น (%1) ถูกใช้หมดแล้ว"
 
 #, fuzzy
 #| msgid "The maximum amount you may transfer is: %1."
-msgid "The minimum amount for this offer is %1 %2."
+msgid "The minimum amount for this advert is %1 %2."
 msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
 
 #, fuzzy
@@ -2903,13 +2908,8 @@ msgstr "ชื่อนี้ถูกใช้แล้ว"
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
-msgid "The new amount cannot be less than the value of current orders against this offer."
+msgid "The new amount cannot be less than the value of current orders against this advert."
 msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
-
-#, fuzzy
-#| msgid "Value of citizen cannot be changed after authentication."
-msgid "The offer is inactive and cannot be changed."
-msgstr "ไม่สามารถเปลี่ยนค่าของสัญชาติได้หลังจากได้ยืนยันบัญชีแล้ว"
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
@@ -2947,7 +2947,7 @@ msgstr "ไม่มีบริการตัวแทนรับชำระ
 
 #, fuzzy
 #| msgid "The provided currency %1 is not selectable at the moment."
-msgid "The provided agent ID does not belong to an active agent."
+msgid "The provided advertiser ID does not belong to an active advertiser."
 msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
 
 msgid "The provided currency %1 is invalid."
@@ -3025,7 +3025,7 @@ msgstr "บัญชีนี้ถูกห้ามใช้งาน"
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "This account is not registered as an P2P agent."
+msgid "This account is not registered as a P2P advertiser."
 msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
 
 msgid "This account is unavailable."
@@ -3872,7 +3872,7 @@ msgstr "ท่านไม่ใช่ตัวแทนรับชำระเ
 
 #, fuzzy
 #| msgid "Your account is registered as a Payment Agent."
-msgid "You are not yet registered as an P2P agent."
+msgid "You are not yet registered as a P2P advertiser."
 msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
 
 #, fuzzy
@@ -3889,8 +3889,10 @@ msgstr "ท่านสามารถดำเนินการได้ %1 �
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "ท่านสามารถขอเงินเพิ่มได้ หากบัญชีเสมือนของท่านมีเงินต่ำกว่า %1 %2"
 
-msgid "You cannot create an order for your own offer."
-msgstr ""
+#, fuzzy
+#| msgid "Please set the currency of your account."
+msgid "You cannot create an order for your own advert."
+msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
 
 #, fuzzy
 #| msgid "Please set the currency of your account."
@@ -11265,6 +11267,11 @@ msgstr "วันนี้ วันศุกร์"
 #, fuzzy
 #~| msgid "Not Found"
 #~ msgid "Offer not found"
+#~ msgstr "ไม่พบ"
+
+#, fuzzy
+#~| msgid "Not Found"
+#~ msgid "Offer not found."
 #~ msgstr "ไม่พบ"
 
 #~ msgid "Offering is unavailable on this symbol."

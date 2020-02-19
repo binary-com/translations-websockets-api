@@ -202,6 +202,19 @@ msgstr "Jumlah deposit maksimum adalah %1 %2. Mohon sesuaikan jumlah Anda."
 msgid "Address"
 msgstr "Alamat"
 
+msgid "Advert is inactive."
+msgstr ""
+
+#, fuzzy
+#| msgid "Page not found"
+msgid "Advert not found."
+msgstr "Halaman tidak ditemukan"
+
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "Advertising for the currency is not available at the moment."
+msgstr "Mata uang yang disediakan %1 tidak dapat dipilih saat ini."
+
 msgid "Age and identity verification"
 msgstr "Verifikasi umur dan identitas"
 
@@ -1704,19 +1717,6 @@ msgstr "Verifikasi OTP"
 msgid "OTP verification failed"
 msgstr "Verifikasi OTP gagal"
 
-msgid "Offer is inactive."
-msgstr ""
-
-#, fuzzy
-#| msgid "Offer not found"
-msgid "Offer not found."
-msgstr "Penawaran tidak ditemukan"
-
-#, fuzzy
-#| msgid "The provided currency %1 is not selectable at the moment."
-msgid "Offering for the currency is not available at the moment."
-msgstr "Mata uang yang disediakan %1 tidak dapat dipilih saat ini."
-
 msgid "Oil/AUD"
 msgstr "Minyak/AUD"
 
@@ -1804,7 +1804,7 @@ msgstr "Alamat P.O. Box tidak dibenarkan."
 
 #, fuzzy
 #| msgid "OTC Agent not found"
-msgid "P2P Agent not found."
+msgid "P2P advertiser not found."
 msgstr "Agen OTC tidak ditemukan"
 
 #, fuzzy
@@ -2567,13 +2567,18 @@ msgid "The P2P cashier is currently disabled."
 msgstr "Kasir OTC saat ini dinonaktifkan"
 
 #, fuzzy
+#| msgid "Your citizen cannot be changed."
+msgid "The advert is inactive and cannot be changed."
+msgstr "Warga negara Anda tidak dapat diubah."
+
+#, fuzzy
 #| msgid "Client is not fully authenticated."
-msgid "The agent is not approved."
+msgid "The advertiser is not approved."
 msgstr "Klien tidak sepenuhnya terkonfirmasi."
 
 #, fuzzy
 #| msgid "Your last name cannot be changed."
-msgid "The agent name cannot be blank."
+msgid "The advertiser name cannot be blank."
 msgstr "Nama belakang Anda tidak dapat diubah."
 
 #, fuzzy
@@ -2632,7 +2637,7 @@ msgstr "Jumlah deposit maksimum adalah %1 %2. Mohon sesuaikan jumlah Anda."
 
 #, fuzzy
 #| msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
-msgid "The maximum amount should be less than or equal to the offer amount."
+msgid "The maximum amount should be less than or equal to the advert amount."
 msgstr "Jumlah deposit minimum adalah %1 %2. Mohon sesuaikan jumlah Anda."
 
 msgid "The maximum amount you may transfer is: %1."
@@ -2640,17 +2645,17 @@ msgstr "Jumlah maksimal yang dapat Anda transfer adalah: %1."
 
 #, fuzzy
 #| msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
-msgid "The maximum available amount for this offer is %1 %2 at the moment."
+msgid "The maximum available amount for this advert is %1 %2 at the moment."
 msgstr "Jumlah deposit minimum adalah %1 %2. Mohon sesuaikan jumlah Anda."
 
 #, fuzzy
 #| msgid "The maximum number of tokens (%1) has been reached."
-msgid "The maximum limit of active offers reached."
+msgid "The maximum limit of active adverts reached."
 msgstr "Jumlah maksimum token (%1) telah tercapai."
 
 #, fuzzy
 #| msgid "The maximum amount you may transfer is: %1."
-msgid "The minimum amount for this offer is %1 %2."
+msgid "The minimum amount for this advert is %1 %2."
 msgstr "Jumlah maksimal yang dapat Anda transfer adalah: %1."
 
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
@@ -2677,13 +2682,8 @@ msgstr "Nama sudah diambil."
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
-msgid "The new amount cannot be less than the value of current orders against this offer."
+msgid "The new amount cannot be less than the value of current orders against this advert."
 msgstr "Tanggal kadaluwarsa tidak boleh kurang dari atau sama dengan tanggal sekarang."
-
-#, fuzzy
-#| msgid "Your citizen cannot be changed."
-msgid "The offer is inactive and cannot be changed."
-msgstr "Warga negara Anda tidak dapat diubah."
 
 #, fuzzy
 #| msgid "Expiration date cannot be less than or equal to current date."
@@ -2719,7 +2719,7 @@ msgstr "Fasilitas agen pembayaran tidak tersedia untuk akun ini."
 
 #, fuzzy
 #| msgid "The provided currency %1 is not selectable at the moment."
-msgid "The provided agent ID does not belong to an active agent."
+msgid "The provided advertiser ID does not belong to an active advertiser."
 msgstr "Mata uang yang disediakan %1 tidak dapat dipilih saat ini."
 
 msgid "The provided currency %1 is invalid."
@@ -2793,7 +2793,7 @@ msgstr "Akun ini telah dibatalkan."
 
 #, fuzzy
 #| msgid "You are not yet registered as an OTC agent"
-msgid "This account is not registered as an P2P agent."
+msgid "This account is not registered as a P2P advertiser."
 msgstr "Anda tidak terdaftar sebagai agen OTC"
 
 msgid "This account is unavailable."
@@ -3588,7 +3588,7 @@ msgstr "Anda belum mengakses"
 
 #, fuzzy
 #| msgid "You are not yet registered as an OTC agent"
-msgid "You are not yet registered as an P2P agent."
+msgid "You are not yet registered as a P2P advertiser."
 msgstr "Anda tidak terdaftar sebagai agen OTC"
 
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
@@ -3603,8 +3603,10 @@ msgstr "Anda hanya dapat melakukan transfer hingga %1 per hari. Silakan coba kem
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Anda hanya dapat meminta dana tambahan jika saldo akun virtual Anda dibawah %1 %2."
 
-msgid "You cannot create an order for your own offer."
-msgstr ""
+#, fuzzy
+#| msgid "Cannot create order for your own offer"
+msgid "You cannot create an order for your own advert."
+msgstr "Order tidak dapat dibuat untuk penawaran sendiri"
 
 #, fuzzy
 #| msgid "You have not yet selected a currency for your account"
@@ -9319,11 +9321,6 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Candlesticks"
 #~ msgstr "Batang lilin"
-
-#, fuzzy
-#~| msgid "Cannot create order for your own offer"
-#~ msgid "Cannot create order for your own offer."
-#~ msgstr "Order tidak dapat dibuat untuk penawaran sendiri"
 
 #~ msgid "Cannot validate contract"
 #~ msgstr "Tidak dapat memvalidasi kontrak"
@@ -16492,6 +16489,11 @@ msgstr "hari ini, Jumat"
 #~ msgstr "Nonaktif"
 
 #~ msgid "Offer not found"
+#~ msgstr "Penawaran tidak ditemukan"
+
+#, fuzzy
+#~| msgid "Offer not found"
+#~ msgid "Offer not found."
 #~ msgstr "Penawaran tidak ditemukan"
 
 #~ msgid "Offering is unavailable on this symbol."
