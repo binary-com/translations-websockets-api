@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2020-02-28 20:05+0000\n"
 "Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0-dev\n"
 
 msgid "%1"
@@ -54,6 +52,16 @@ msgstr "%1 просит Вас разрешить доступ к:"
 
 msgid "%1Create one%2 now."
 msgstr "%1Создайте его%2 сейчас."
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid ", as their account is disabled."
+msgstr "Ваш счет недоступен."
+
+#, fuzzy
+#| msgid "Your cashier is locked."
+msgid ", as their cashier is locked."
+msgstr "Ваша КАССА заблокирована."
 
 msgid "A connection error happened while we were completing your request. Please try again later."
 msgstr "При обработке запроса произошла ошибка соединения. Пожалуйста, повторите попытку позже."
@@ -194,9 +202,7 @@ msgid "Advert is inactive."
 msgstr "Адверт неактивен."
 
 msgid "Advert minimum price is zero, Please adjust minimum amount or rate."
-msgstr ""
-"Минимальная цена адверта равна нулю. Пожалуйста, скорректируйте минимальную "
-"сумму или ставку."
+msgstr "Минимальная цена адверта равна нулю. Пожалуйста, скорректируйте минимальную сумму или ставку."
 
 msgid "Advert not found."
 msgstr "Адверт не найден."
@@ -205,12 +211,10 @@ msgid "Advert payment information is required for sell adverts."
 msgstr ""
 
 msgid "Advert rate should not be less than %1. Please adjust the value."
-msgstr ""
-"Ставка адверта не должна быть менее %1. Пожалуйста, скорректируйте значение."
+msgstr "Ставка адверта не должна быть менее %1. Пожалуйста, скорректируйте значение."
 
 msgid "Advert rate should not be more than %1. Please adjust the value."
-msgstr ""
-"Ставка адверта не должна быть более %1. Пожалуйста, скорректируйте значение."
+msgstr "Ставка адверта не должна быть более %1. Пожалуйста, скорректируйте значение."
 
 msgid "Advertising for the currency is not available at the moment."
 msgstr "Указанная валюта в данный момент недоступна."
@@ -2534,6 +2538,9 @@ msgstr "Команда %1."
 msgid "The P2P cashier is currently disabled."
 msgstr "Касса P2P в данное время недоступна."
 
+msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
+msgstr ""
+
 msgid "The advert is inactive and cannot be changed."
 msgstr "Адверт неактивен и не может быть изменён."
 
@@ -3425,9 +3432,6 @@ msgstr "Сумма вывода %1 %2 превышает Ваш лимит на 
 msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
 msgstr "Вывод %1 %2, но баланс %3 включает временно замороженный бонус %4."
 
-msgid "Withdrawal is disabled."
-msgstr "Вывод средств недоступен."
-
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Извините, но вывод временно недоступен. Пожалуйста, попробуйте позже."
 
@@ -3569,11 +3573,10 @@ msgstr "Вы не можете выполнит перевод на счёт %1,
 msgid "You cannot transfer to a client in a different country of residence."
 msgstr "Вы не можете перевести средства клиенту, проживающему в другой стране."
 
-msgid "You cannot transfer to account %1, as their account is currently disabled."
-msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
-
-msgid "You cannot transfer to account %1, as their cashier is locked."
-msgstr "Вы не можете перевести средства на счет %1, т. к. раздел касса заблокирован."
+#, fuzzy
+#| msgid "Transfer to account %1"
+msgid "You cannot transfer to account %1"
+msgstr "Перевод на счет %1"
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Вы не можете перевести средства на счет %1, поскольку истек срок действия документов, подтверждающих личность владельца счёта."
@@ -21078,9 +21081,6 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Transfer to Payment Agent"
 #~ msgstr "Перевод платежному агенту"
 
-#~ msgid "Transfer to account %1"
-#~ msgstr "Перевод на счет %1"
-
 #~ msgid "Transfer to another account"
 #~ msgstr "Перевести на другой счет"
 
@@ -22431,6 +22431,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Извините, но вывод средств в данной валюте приостановлен, ввиду изменения валютных курсов. Пожалуйста, повторите попытку, когда рынок будет открыт."
 
+#~ msgid "Withdrawal is disabled."
+#~ msgstr "Вывод средств недоступен."
+
 #~ msgid "Withdrawal limits"
 #~ msgstr "Лимиты на вывод"
 
@@ -22708,8 +22711,14 @@ msgstr "сегодня, по пятницам"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Вы не можете выполнить данное действие, т. к. счет %1 отмечен как неблагонадёжный."
 
+#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
+#~ msgstr "Вы не можете перевести средства на счет %1, поскольку этот счет в настоящий момент недоступен."
+
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Вы не можете перевести средства на счет %1, т. к. этот счет отмечен как ненадёжный."
+
+#~ msgid "You cannot transfer to account %1, as their cashier is locked."
+#~ msgstr "Вы не можете перевести средства на счет %1, т. к. раздел касса заблокирован."
 
 #~ msgid "You clicked on an expired link. If you have already clicked on this link, it has been <b>disabled for security reasons</b>. Please re request change of password.<br /><br /> Your account is important to us. If you require further assistance, please contact our <a href=\"%1\" target=\"_blank\"><strong>Customer Support</strong></a>."
 #~ msgstr "Вы нажали на просроченную ссылку. Если Вы уже нажимали на данную ссылку, она была <b>удалена из соображений безопасности</b>. Пожалуйста, запросите смену пароля заново.<br /><br /> Если Вам требуется дальнейшая помощь, просим связаться с нашей <a href=\"%1\" target=\"_blank\"><strong>службой поддержки</strong></a>."

@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2020-02-28 20:05+0000\n"
 "Last-Translator: Ewelina Bruździak <e.bruzdziak@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/binary-websocket/translations/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -55,6 +53,16 @@ msgstr "Użytkownik %1 chce uzyskać pozwolenie na:"
 
 msgid "%1Create one%2 now."
 msgstr "%1Utwórz%2 teraz."
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid ", as their account is disabled."
+msgstr "Twoje konto jest wyłączone."
+
+#, fuzzy
+#| msgid "Your cashier is locked."
+msgid ", as their cashier is locked."
+msgstr "Twoja sekcja Kasjer jest zablokowana."
 
 msgid "A connection error happened while we were completing your request. Please try again later."
 msgstr "Podczas przetwarzania Twojego żądania wystąpił błąd połączenia. Spróbuj ponownie później."
@@ -189,23 +197,19 @@ msgid "Address"
 msgstr "Adres"
 
 msgid "Advert contact information is required for sell adverts."
-msgstr ""
-"Dane kontaktowe w przypadku reklamy są wymagane do prowadzenia jej sprzedaży."
+msgstr "Dane kontaktowe w przypadku reklamy są wymagane do prowadzenia jej sprzedaży."
 
 msgid "Advert is inactive."
 msgstr "Reklama jest nieaktywna."
 
 msgid "Advert minimum price is zero, Please adjust minimum amount or rate."
-msgstr ""
-"Minimalna cena reklamy wynosi zero. Dostosuj kwotę minimalną lub stawkę."
+msgstr "Minimalna cena reklamy wynosi zero. Dostosuj kwotę minimalną lub stawkę."
 
 msgid "Advert not found."
 msgstr "Nie znaleziono reklamy."
 
 msgid "Advert payment information is required for sell adverts."
-msgstr ""
-"Dane dot. płatności w przypadku reklamy są wymagane do prowadzenia jej "
-"sprzedaży."
+msgstr "Dane dot. płatności w przypadku reklamy są wymagane do prowadzenia jej sprzedaży."
 
 msgid "Advert rate should not be less than %1. Please adjust the value."
 msgstr "Stawka reklamy nie powinna być niższa niż %1. Popraw wartość."
@@ -1728,17 +1732,13 @@ msgid "Or use your social account"
 msgstr "Lub skorzystaj z konta w mediach społecznościowych"
 
 msgid "Order contact information is required for sell orders."
-msgstr ""
-"Dane kontaktowe w przypadku zlecenia są wymagane do prowadzenia sprzedaży "
-"zleceń."
+msgstr "Dane kontaktowe w przypadku zlecenia są wymagane do prowadzenia sprzedaży zleceń."
 
 msgid "Order not found."
 msgstr "Nie znaleziono zlecenia."
 
 msgid "Order payment information is required for sell orders."
-msgstr ""
-"Dane dot. płatności w przypadku zlecenia są wymagane do prowadzenia "
-"sprzedaży zleceń."
+msgstr "Dane dot. płatności w przypadku zlecenia są wymagane do prowadzenia sprzedaży zleceń."
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -1812,14 +1812,10 @@ msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "Wypłaty przy udziale pośredników płatności nie są dozwolone w przypadku niektórych kont."
 
 msgid "Payment and contact information cannot be specified for buy advert."
-msgstr ""
-"Dane kontaktowe i dane dot. płatności nie mogą być podane w przypadku zakupu "
-"reklamy."
+msgstr "Dane kontaktowe i dane dot. płatności nie mogą być podane w przypadku zakupu reklamy."
 
 msgid "Payment and contact information cannot be specified for buy order."
-msgstr ""
-"Dane kontaktowe i dane dot. płatności nie mogą być podane w przypadku "
-"zlecenia zakupu."
+msgstr "Dane kontaktowe i dane dot. płatności nie mogą być podane w przypadku zlecenia zakupu."
 
 msgid "Payments"
 msgstr "Płatności"
@@ -2528,6 +2524,9 @@ msgstr "Zespół %1."
 
 msgid "The P2P cashier is currently disabled."
 msgstr "Kasjer P2P jest obecnie wyłączony."
+
+msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
+msgstr ""
 
 msgid "The advert is inactive and cannot be changed."
 msgstr "Reklama jest nieaktywna i nie można jej zmienić."
@@ -3414,9 +3413,6 @@ msgstr "Kwota wypłaty: %1 %2 przekracza limit wypłat na Twoim koncie wynosząc
 msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
 msgstr "Kwota wypłaty wynosi %2 %1, ale saldo %3 zawiera zamrożone środki %4."
 
-msgid "Withdrawal is disabled."
-msgstr "Wypłata jest niemożliwa."
-
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Wypłaty są obecnie niedostępne. Prosimy spróbować później."
 
@@ -3511,9 +3507,7 @@ msgid "You cannot create an order with a different currency than your account."
 msgstr "Nie możesz utworzyć zlecenia w innej walucie niż waluta prowadzenia Twojego konta."
 
 msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
-msgstr ""
-"Nie można usunąć reklamy z otwartymi zleceniami. Upewnij się, że reklama "
-"jest dezaktywowana i poczekaj, aż wszystkie zlecenia zostaną zamknięte."
+msgstr "Nie można usunąć reklamy z otwartymi zleceniami. Upewnij się, że reklama jest dezaktywowana i poczekaj, aż wszystkie zlecenia zostaną zamknięte."
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Nie możesz dokonać wypłaty na konto %1, ponieważ konto pośrednika płatności jest wyłączone."
@@ -3560,11 +3554,10 @@ msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ upłynęła ważn
 msgid "You cannot transfer to a client in a different country of residence."
 msgstr "Nie możesz przelać pieniędzy do klienta w innym państwie zamieszkania."
 
-msgid "You cannot transfer to account %1, as their account is currently disabled."
-msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ jest ono obecnie wyłączone."
-
-msgid "You cannot transfer to account %1, as their cashier is locked."
-msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ sekcja Kasjer z nim powiązana jest zablokowana."
+#, fuzzy
+#| msgid "Transfer to account %1"
+msgid "You cannot transfer to account %1"
+msgstr "Przelew na konto %1"
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ upłynęła ważność powiązanych z nim dokumentów weryfikacyjnych."
@@ -18863,9 +18856,6 @@ msgstr "dziś, piątki"
 #~ msgid "Transfer to Payment Agent"
 #~ msgstr "Przelew dla pośrednika płatności"
 
-#~ msgid "Transfer to account %1"
-#~ msgstr "Przelew na konto %1"
-
 #~ msgid "Transfer to another account"
 #~ msgstr "Przelew na inne konto"
 
@@ -20098,6 +20088,9 @@ msgstr "dziś, piątki"
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Wypłaty w tej walucie zostały zawieszone w związku z kursem wymiany walut. Prosimy spróbować ponownie, gdy rynek będzie otwarty."
 
+#~ msgid "Withdrawal is disabled."
+#~ msgstr "Wypłata jest niemożliwa."
+
 #~ msgid "Withdrawal limits"
 #~ msgstr "Limity wypłat"
 
@@ -20357,8 +20350,14 @@ msgstr "dziś, piątki"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Nie możesz wykonać tej czynności, ponieważ Twoje konto %1 jest oznaczone jako niepożądane."
 
+#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
+#~ msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ jest ono obecnie wyłączone."
+
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ jest ono oznaczone jako niepożądane."
+
+#~ msgid "You cannot transfer to account %1, as their cashier is locked."
+#~ msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ sekcja Kasjer z nim powiązana jest zablokowana."
 
 #~ msgid "You clicked on an expired link. If you have already clicked on this link, it has been <b>disabled for security reasons</b>. Please re request change of password.<br /><br /> Your account is important to us. If you require further assistance, please contact our <a href=\"%1\" target=\"_blank\"><strong>Customer Support</strong></a>."
 #~ msgstr "Kliknąłeś/kliknęłaś na nieaktualny link. Jeżeli już na niego kliknąłeś/kliknęłaś, został on <b>wyłączony ze względów bezpieczeństwa</b>. Poproś ponownie o zmianę hasła.<br /><br /> Twoje konto ma dla nas duże znaczenie. Jeśli potrzebujesz pomocy, skontaktuj się z naszym <a href=\"%1\" target=\"_blank\"><strong>działem obsługi klienta</strong></a>."

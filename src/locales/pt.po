@@ -49,6 +49,16 @@ msgstr "%1 gostaria de permissão para:"
 msgid "%1Create one%2 now."
 msgstr "%1Abra uma%2 agora."
 
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid ", as their account is disabled."
+msgstr "A sua conta está desabilitada."
+
+#, fuzzy
+#| msgid "Your cashier is locked."
+msgid ", as their cashier is locked."
+msgstr "O seu caixa está bloqueado."
+
 msgid "A connection error happened while we were completing your request. Please try again later."
 msgstr "Ocorreu um erro de conexão enquanto estávamos concluindo sua solicitação. Por favor, tente novamente mais tarde."
 
@@ -2522,6 +2532,9 @@ msgstr "A equipe da %1."
 msgid "The P2P cashier is currently disabled."
 msgstr "O caixa P2P está desativado no momento."
 
+msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
+msgstr ""
+
 msgid "The advert is inactive and cannot be changed."
 msgstr "O anúncio está inativo e não pode ser alterado."
 
@@ -3407,9 +3420,6 @@ msgstr "O valor de retirada de %1 %2 é superior ao limite de retirada de %3 %4 
 msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
 msgstr "O valor da retirada é %1 %2 mas o saldo %3 inclui um bônus congelado de %4."
 
-msgid "Withdrawal is disabled."
-msgstr "As retiradas de fundos estão desativadas."
-
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "As retiradas não estão disponíveis no momento. Por favor, tente novamente mais tarde."
 
@@ -3551,11 +3561,10 @@ msgstr "Não é possível efetuar uma retirada para a conta %1, visto que os doc
 msgid "You cannot transfer to a client in a different country of residence."
 msgstr "Não é possível efetuar transferências para clientes situados em países de residência diferentes."
 
-msgid "You cannot transfer to account %1, as their account is currently disabled."
-msgstr "Não pode transferir para a conta %1, porque essa conta está de momento desativada."
-
-msgid "You cannot transfer to account %1, as their cashier is locked."
-msgstr "Você não pode transferir para a conta %1, porque o caixa desta conta está bloqueado."
+#, fuzzy
+#| msgid "Transfer to account %1"
+msgid "You cannot transfer to account %1"
+msgstr "Transferir para a conta %1"
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Você não pode transferir para a conta %1, porque os documentos de verificação expiraram."
@@ -20047,9 +20056,6 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Transfer to Payment Agent"
 #~ msgstr "Transferir para Agente de Pagamentos"
 
-#~ msgid "Transfer to account %1"
-#~ msgstr "Transferir para a conta %1"
-
 #~ msgid "Transfer to another account"
 #~ msgstr "Transferir para outra conta"
 
@@ -21370,6 +21376,9 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Retiradas nesta moeda estão suspensas devido às taxas de câmbio. Tente novamente quando o mercado estiver aberto."
 
+#~ msgid "Withdrawal is disabled."
+#~ msgstr "As retiradas de fundos estão desativadas."
+
 #~ msgid "Withdrawal limits"
 #~ msgstr "Limites de retirada"
 
@@ -21641,8 +21650,14 @@ msgstr "hoje, sextas-feiras"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Você não pode executar esta ação, uma vez que a sua conta %1 está marcada como inadequada."
 
+#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
+#~ msgstr "Não pode transferir para a conta %1, porque essa conta está de momento desativada."
+
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Você não pode transferir para a conta %1, uma vez que esta conta está marcada como inadequada."
+
+#~ msgid "You cannot transfer to account %1, as their cashier is locked."
+#~ msgstr "Você não pode transferir para a conta %1, porque o caixa desta conta está bloqueado."
 
 #~ msgid "You clicked on an expired link. If you have already clicked on this link, it has been <b>disabled for security reasons</b>. Please re request change of password.<br /><br /> Your account is important to us. If you require further assistance, please contact our <a href=\"%1\" target=\"_blank\"><strong>Customer Support</strong></a>."
 #~ msgstr "você clicou  em um link que expirou. Se já tiver clicado neste link, o mesmo foi <b>desativado por motivos de segurança</b>. Por favor, peça novamente a alteração da senha.<br /><br />A sua conta é importante para nós. Se precisar de mais ajuda, entre em contato com o nosso <a href=\"%1\" target=\"_blank\"><strong>Atendimento ao Cliente</strong></a>."

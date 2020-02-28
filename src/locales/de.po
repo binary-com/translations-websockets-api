@@ -54,6 +54,16 @@ msgid "%1Create one%2 now."
 msgstr "%1Erstelle jetzt%2 einen."
 
 #, fuzzy
+#| msgid "Your account is disabled."
+msgid ", as their account is disabled."
+msgstr "Ihr Konto ist gesperrt."
+
+#, fuzzy
+#| msgid "Your cashier is locked."
+msgid ", as their cashier is locked."
+msgstr "Ihre Kasse ist gesperrt."
+
+#, fuzzy
 #| msgid "An error occurred while processing your request. Please try again later."
 msgid "A connection error happened while we were completing your request. Please try again later."
 msgstr "Beim Bearbeiten Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut."
@@ -2846,6 +2856,9 @@ msgstr "Das %1 Team."
 msgid "The P2P cashier is currently disabled."
 msgstr "TOTP basierte 2FA ist bereits gesperrt."
 
+msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
+msgstr ""
+
 #, fuzzy
 #| msgid "Value of citizen cannot be changed after authentication."
 msgid "The advert is inactive and cannot be changed."
@@ -3867,9 +3880,6 @@ msgstr "Der Auszahlungsbetrag von %1 %2 überschreitet Ihre Auszahlungsgrenze vo
 msgid "Withdrawal is %1 %2 but balance %3 includes frozen bonus %4."
 msgstr "Die Behebung ist %1 %2, aber der Kontostand %3 schließt gefrorene Anleihen %4 mit ein."
 
-msgid "Withdrawal is disabled."
-msgstr "Die Auszahlung ist deaktiviert."
-
 #, fuzzy
 #| msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgid "Withdrawals are currently unavailable. Please try again later."
@@ -4039,11 +4049,10 @@ msgstr "Sie können keine Behebung auf das Konto %1 vornehmen, da die Verifikati
 msgid "You cannot transfer to a client in a different country of residence."
 msgstr "Sie können keine Überweisung zu einem Kunden mit einem anderen Wohnsitzland vornehmen."
 
-msgid "You cannot transfer to account %1, as their account is currently disabled."
-msgstr "Sie können für das Konto %1 keine Überweisungen vornehmen, da ihr Konto zur Zeit deaktiviert ist."
-
-msgid "You cannot transfer to account %1, as their cashier is locked."
-msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Kasse gesperrt ist."
+#, fuzzy
+#| msgid "Transfer to account %1"
+msgid "You cannot transfer to account %1"
+msgstr "Überweisung zum Konto %1"
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Verifikationsdokumente abgelaufen sind."
@@ -20107,9 +20116,6 @@ msgstr "heute, Freitags"
 #~ msgid "Transfer to Payment Agent"
 #~ msgstr "Überweisung an den Zahlungsagent"
 
-#~ msgid "Transfer to account %1"
-#~ msgstr "Überweisung zum Konto %1"
-
 #~ msgid "Transfer to another account"
 #~ msgstr "Überweisung auf ein anderes Konto"
 
@@ -21430,6 +21436,9 @@ msgstr "heute, Freitags"
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Behebungen in dieser Währung sind aufgrund von Wechselkursen suspendiert. Bitte versuchen Sie es erneut, sobald der Markt geöffnet hat."
 
+#~ msgid "Withdrawal is disabled."
+#~ msgstr "Die Auszahlung ist deaktiviert."
+
 #~ msgid "Withdrawal limits"
 #~ msgstr "Auszahlungslimits"
 
@@ -21708,8 +21717,14 @@ msgstr "heute, Freitags"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Sie können diese Aktion nicht durchführen, da ihr Konto %1 als unwillkommen markiert ist."
 
+#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
+#~ msgstr "Sie können für das Konto %1 keine Überweisungen vornehmen, da ihr Konto zur Zeit deaktiviert ist."
+
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Konto als unwillkommen markiert ist."
+
+#~ msgid "You cannot transfer to account %1, as their cashier is locked."
+#~ msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Kasse gesperrt ist."
 
 #~ msgid "You clicked on an expired link. If you have already clicked on this link, it has been <b>disabled for security reasons</b>. Please re request change of password.<br /><br /> Your account is important to us. If you require further assistance, please contact our <a href=\"%1\" target=\"_blank\"><strong>Customer Support</strong></a>."
 #~ msgstr "Sie haben einen abgelaufenen Link angeklickt. Wenn Sie den Link bereits angeklickt haben, wurde er <b>aus Sicherheitsgründen deaktiviert</b>. Bitte beantragen Sie erneut eine Passwortänderung.<br /><br /> Ihr Konto ist uns wichtig. Wenn Sie weitere Hilfe benötigen,setzen Sie sich bitte mit unserer <a href=\"%1\" target=\"_blank\"><strong>Kundenbetreuung</strong></a> in Verbindung."
