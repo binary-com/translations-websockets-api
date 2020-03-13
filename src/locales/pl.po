@@ -450,9 +450,6 @@ msgstr "Zamykane wcześnie (o 20:55)"
 msgid "Closing Spot"
 msgstr "Punkt zamknięcia"
 
-msgid "Commission is not defined for %1."
-msgstr "Nie określono prowizji dla %1."
-
 msgid "Commodities"
 msgstr "Towary"
 
@@ -474,6 +471,11 @@ msgstr "W chwili obecnej nie można sprzedać kontraktu. Spróbuj ponownie póź
 msgid "Contract has expired."
 msgstr "Kontrakt wygasł."
 
+#, fuzzy
+#| msgid "Contract id is required to update contract"
+msgid "Contract id is required to cancel contract"
+msgstr "Aby zaktualizować kontrakt, wymagany jest identyfikator kontraktu"
+
 msgid "Contract id is required to update contract"
 msgstr "Aby zaktualizować kontrakt, wymagany jest identyfikator kontraktu"
 
@@ -485,6 +487,11 @@ msgstr "Data wygaśnięcia kontraktu nie może przekraczać okresu od %1 do %2."
 
 msgid "Contract must expire during trading hours."
 msgstr "Kontrakt musi kończyć się w porze handlowej."
+
+#, fuzzy
+#| msgid "No open contract found for contract id: %1."
+msgid "Contract not found for contract id: %1."
+msgstr "Nie znaleziono żadnego otwartego kontraktu o numerze ID: %1."
 
 msgid "Contract price cannot be zero."
 msgstr "Cena kontraktu nie może wynosić zero."
@@ -563,6 +570,19 @@ msgstr "Data urodzenia"
 
 msgid "Date of birth is invalid."
 msgstr "Data urodzenia jest nieprawidłowa."
+
+#, fuzzy
+#| msgid "No information is available for this contract."
+msgid "Deal cancellation is not available for this contract."
+msgstr "Brak informacji dotyczących tego kontraktu."
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Deal cancellation is not offered at this duration."
+msgstr "Zakłady nie są oferowane dla tego okresu."
+
+msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
+msgstr ""
 
 msgid "Dear %1 %2 %3,"
 msgstr "Szanowny użytkowniku %1 %2 %3,"
@@ -1373,17 +1393,18 @@ msgstr "Nieprawidłowa sesja."
 msgid "Invalid stake/payout."
 msgstr "Nieprawidłowa stawka/ kwota wypłaty."
 
-msgid "Invalid stop loss. Stop loss must be lower than %1."
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss cannot be more than stake."
+msgstr "Nieprawidłowy poziom Stop stratom. Poziom Stop stratom musi być niższy niż %1."
+
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
 msgstr "Nieprawidłowy poziom Stop stratom. Poziom Stop stratom musi być niższy niż %1."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Nieprawidłowy poziom Stop out. Poziom Stop out musi być %1 niż obecna cena spot. Dostosuj stawkę i mnożnik."
-
-msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
-msgstr "Nieprawidłowy poziom zysku do wypłaty. Zysk do wypłaty nie może przekraczać 100-krotności stawki."
-
-msgid "Invalid take profit. Take profit must be higher than %1."
-msgstr "Nieprawidłowy poziom zysku do wypłaty. Poziom zysku do wypłaty musi być wyższy niż %1."
 
 msgid "Invalid token"
 msgstr "Nieprawidłowy token"
@@ -1453,9 +1474,6 @@ msgstr "Stary kontrakt. Brak innych informacji."
 
 msgid "Let’s get you a new one."
 msgstr "Wygenerujmy nowe."
-
-msgid "Limit order amount cannot be zero."
-msgstr "Kwota limitu zleceń nie może być równa zeru."
 
 msgid "Location:"
 msgstr "Lokalizacja:"
@@ -1622,9 +1640,6 @@ msgstr "Dalsze handlowanie tym rodzajem kontraktu w obecnej sesji handlowej nie 
 msgid "No information is available for this contract."
 msgstr "Brak informacji dotyczących tego kontraktu."
 
-msgid "No open contract found for contract id: %1."
-msgstr "Nie znaleziono żadnego otwartego kontraktu o numerze ID: %1."
-
 msgid "No such category or event. Please check the provided value."
 msgstr "Nie ma takiej kategorii lub zdarzenia. Sprawdź wprowadzoną wartość."
 
@@ -1685,6 +1700,11 @@ msgstr "Ropa/GBP"
 msgid "Oil/USD"
 msgstr "Ropa/USD"
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places allowed."
+msgstr "Dozwolone są tylko 3 miejsca po przecinku."
+
 msgid "Only 3 decimal places are allowed."
 msgstr "Dozwolone są tylko 3 miejsca po przecinku."
 
@@ -1697,6 +1717,11 @@ msgstr "Tylko wzrosty"
 msgid "Only Ups/Only Downs"
 msgstr "Tylko wzrosty/ Tylko spadki"
 
+#, fuzzy
+#| msgid "Update only accepts hash reference as input parameter."
+msgid "Only a hash reference input is accepted."
+msgstr "Aktualizacja akceptuje wyłącznie odnośniki skrótu jako parametr wejściowy."
+
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr "W przypadku tej kwoty dozwolone są tylko dwa miejsca po przecinku."
 
@@ -1708,6 +1733,11 @@ msgstr "Dozwolona jest tylko jedna aktualizacja na sekundę."
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Dozwolone są tylko porty 80 i 443"
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only updates to these parameters are allowed %1."
+msgstr "Dozwolone są tylko 3 miejsca po przecinku."
 
 msgid "Open an Account"
 msgstr "Otwórz konto"
@@ -1882,6 +1912,11 @@ msgstr "Aby kontynuować, proszę zweryfikować swoje konto."
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr "Zweryfikuj swoje konto, aby móc dokonywać wypłat i przelewów"
 
+#, fuzzy
+#| msgid "Please authenticate your account to enable withdrawals and transfers"
+msgid "Please authenticate your account to proceed with withdrawals."
+msgstr "Zweryfikuj swoje konto, aby móc dokonywać wypłat i przelewów"
+
 msgid "Please authenticate your account."
 msgstr "Zweryfikuj swoje konto."
 
@@ -1905,6 +1940,36 @@ msgstr "Zanim przejdziesz dalej upewnij się, że wszystkie pozycje na Twoich ko
 
 msgid "Please enter a number between %1 and %2."
 msgstr "Proszę wpisać liczbę od %1 do %2."
+
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a number or a null value."
+msgstr "Wpisz wartość liczbową."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a payout amount that's at least %1."
+msgstr "Wpisz poprawną kwotę przelewu."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stake amount that's at least %1."
+msgstr "Wpisz poprawną kwotę przelewu."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stop loss amount that's higher than %1."
+msgstr "Wpisz poprawną kwotę przelewu."
+
+#, fuzzy
+#| msgid "Invalid take profit. Take profit must be higher than %1."
+msgid "Please enter a take profit amount that's higher than %1."
+msgstr "Nieprawidłowy poziom zysku do wypłaty. Poziom zysku do wypłaty musi być wyższy niż %1."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a take profit amount that's lower than %1."
+msgstr "Wpisz poprawną kwotę przelewu."
 
 msgid "Please enter a valid address between 25 and 64 characters"
 msgstr "Wprowadź prawidłowy adres e-mail zawierający od 25 do 64 znaków"
@@ -2389,9 +2454,6 @@ msgstr "Stabilna moneta"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "Stawka nie może zawierać więcej niż %1 miejsc(a) po przecinku."
 
-msgid "Stake must be at least %1 1."
-msgstr "Stawka musi wynosić co najmniej %1 1."
-
 msgid "Start Time"
 msgstr "Godzina rozpoczęcia"
 
@@ -2419,17 +2481,13 @@ msgstr "Wskaźnik Step"
 msgid "Step Indices"
 msgstr "Wskaźniki Step"
 
-msgid "Stop Loss"
-msgstr "Stop-stratom"
-
-msgid "Stop Out"
-msgstr "Stop Out"
-
 msgid "Stop loss"
 msgstr "Stop stratom"
 
-msgid "Stop loss can not have more than %1 decimal places."
-msgstr "Limit „Stop Out” nie może zawierać więcej niż %1 miejsc(a) po przecinku."
+#, fuzzy
+#| msgid "Stop Out"
+msgid "Stop out"
+msgstr "Stop Out"
 
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Przesyłanie strumieniowe jest niedostępne dla tego symbolu z powodu ograniczeń licencyjnych."
@@ -2458,14 +2516,8 @@ msgstr "Uwierzytelnianie dwuskładnikowe oparte na TOTP zostało już wyłączon
 msgid "TOTP based 2FA is already enabled."
 msgstr "Uwierzytelnianie dwuskładnikowe oparte na TOTP zostało już włączone."
 
-msgid "Take Profit"
-msgstr "Odbierz zysk"
-
 msgid "Take profit"
 msgstr "Odbierz zysk"
-
-msgid "Take profit can not have more than %1 decimal places."
-msgstr "Limit „Odbierz zysk” nie może zawierać więcej niż %1 miejsc(a) po przecinku."
 
 msgid "Tax identification number"
 msgstr "Numer identyfikacji podatkowej"
@@ -2668,6 +2720,9 @@ msgstr "Podana waluta %1 nie jest walutą domyślną"
 msgid "The requested service is unavailable at the moment."
 msgstr "Żądana usługa jest w tym momencie niedostępna."
 
+msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
+msgstr ""
+
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "Podana rezydencja podatkowa \"%1\" znajduje się w kraju z ograniczonym dostępem."
 
@@ -2742,6 +2797,12 @@ msgstr "Nie można cofnąć tej czynności, gdyż zlecenie jest już w trakcie r
 msgid "This contract cannot be properly validated at this time."
 msgstr "Ten kontrakt nie może być obecnie prawidłowo zweryfikowany."
 
+msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
+msgstr ""
+
+msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
+msgstr ""
+
 msgid "This contract has already expired."
 msgstr "Ten kontrakt już wygasł."
 
@@ -2795,6 +2856,11 @@ msgstr "Ten rynek jest obecnie zamknięty. Wypróbuj wskaźniki syntetyczne, kt�
 
 msgid "This payment method is invalid."
 msgstr "Ta metoda płatności jest nieprawidłowa."
+
+#, fuzzy
+#| msgid "This account is unavailable."
+msgid "This symbol is not available."
+msgstr "To konto jest niedostępne."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Ten zakład jest tymczasowo niedostępny."
@@ -3029,18 +3095,6 @@ msgstr "Dozwolonych jest do 100 tokenów."
 
 msgid "Up/Down"
 msgstr "Góra/dół"
-
-msgid "Update is not allowed for this contract."
-msgstr "Aktualizacja nie jest możliwa dla tego kontraktu."
-
-msgid "Update is not allowed for this contract. Allowed updates %1"
-msgstr "Aktualizacja tego kontraktu nie jest dozwolona. Dozwolone aktualizacje: %1"
-
-msgid "Update only accepts hash reference as input parameter."
-msgstr "Aktualizacja akceptuje wyłącznie odnośniki skrótu jako parametr wejściowy."
-
-msgid "Update value accepts number or null"
-msgstr "Akceptowalna wartość aktualizacji to liczba lub zero"
 
 msgid "Update your personal details."
 msgstr "Zaktualizuj swoje dane osobowe."
@@ -3641,8 +3695,17 @@ msgstr "Nie można zmienić tych szczegółów konta."
 msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr "Przepraszamy, wystąpił błąd. Spróbuj ponownie później."
 
+msgid "You may update your stop loss amount after deal cancellation has expired."
+msgstr ""
+
+msgid "You may update your take profit amount after deal cancellation has expired."
+msgstr ""
+
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "Możesz przesłać kopie wszystkich wymaganych dokumentów bezpośrednio z Twojego konta z prawdziwymi pieniędzmi na %1."
+
+msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
+msgstr ""
 
 msgid "You need to set your residence in order to use this feature."
 msgstr "Aby korzystać z te funkcji, musisz określić swoje miejsce zamieszkania."
@@ -8427,6 +8490,9 @@ msgstr "dziś, piątki"
 #~ msgid "Commission Rates"
 #~ msgstr "Stawki prowizji"
 
+#~ msgid "Commission is not defined for %1."
+#~ msgstr "Nie określono prowizji dla %1."
+
 #~ msgid "Commission on deposits"
 #~ msgstr "Prowizja od wpłat"
 
@@ -12132,6 +12198,9 @@ msgstr "dziś, piątki"
 #~ msgid "Invalid sub account type."
 #~ msgstr "Nieprawidłowy rodzaj subkonta."
 
+#~ msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+#~ msgstr "Nieprawidłowy poziom zysku do wypłaty. Zysk do wypłaty nie może przekraczać 100-krotności stawki."
+
 #~ msgid "Invalid telephone number"
 #~ msgstr "Nieprawidłowy nr telefonu"
 
@@ -13174,6 +13243,9 @@ msgstr "dziś, piątki"
 
 #~ msgid "Limit"
 #~ msgstr "Limit"
+
+#~ msgid "Limit order amount cannot be zero."
+#~ msgstr "Kwota limitu zleceń nie może być równa zeru."
 
 #~ msgid "Limit</strong><br>(per currency)"
 #~ msgstr "Limit</strong><br>(wg waluty)"
@@ -14930,9 +15002,6 @@ msgstr "dziś, piątki"
 
 #~ msgid "Please enter a number greater or equal to %1."
 #~ msgstr "Proszę wpisać liczbę większą lub równą %1."
-
-#~ msgid "Please enter a numeric value."
-#~ msgstr "Wpisz wartość liczbową."
 
 #~ msgid "Please enter a positive numeric value."
 #~ msgstr "Wprowadź dodatnią wartość liczbową."
@@ -16826,6 +16895,9 @@ msgstr "dziś, piątki"
 #~ msgid "Stake %1 is too small"
 #~ msgstr "Stawka %1 jest za niska"
 
+#~ msgid "Stake must be at least %1 1."
+#~ msgstr "Stawka musi wynosić co najmniej %1 1."
+
 #~ msgid "Stake must be at least <strong>%1</strong>."
 #~ msgstr "Stawka musi wynosić co najmniej <strong>%1</strong>."
 
@@ -16982,6 +17054,9 @@ msgstr "dziś, piątki"
 #~ msgid "Stocks trading frequency"
 #~ msgstr "Częstość handlowania akcjami"
 
+#~ msgid "Stop Loss"
+#~ msgstr "Stop-stratom"
+
 #~ msgid "Stop Loss Level"
 #~ msgstr "Poziom Stop stratom"
 
@@ -16993,6 +17068,9 @@ msgstr "dziś, piątki"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "Limit Stop zyskom musi mieścić się między %1 a %2 %3"
+
+#~ msgid "Stop loss can not have more than %1 decimal places."
+#~ msgstr "Limit „Stop Out” nie może zawierać więcej niż %1 miejsc(a) po przecinku."
 
 #~ msgid "Stop-loss:"
 #~ msgstr "Stop-stratom:"
@@ -17168,8 +17246,14 @@ msgstr "dziś, piątki"
 #~ msgid "Table"
 #~ msgstr "Tabela"
 
+#~ msgid "Take Profit"
+#~ msgstr "Odbierz zysk"
+
 #~ msgid "Take advantage of %1's 'no slippage, no gap risk, no hidden fees' platform."
 #~ msgstr "Korzystaj z platformy %1, gdzie nie ma żadnych błędów, ryzyka wynikającego z różnicy ani ukrytych opłat."
+
+#~ msgid "Take profit can not have more than %1 decimal places."
+#~ msgstr "Limit „Odbierz zysk” nie może zawierać więcej niż %1 miejsc(a) po przecinku."
 
 #~ msgid "Talk to us"
 #~ msgstr "Porozmawiaj z nami"
@@ -19157,8 +19241,17 @@ msgstr "dziś, piątki"
 #~ msgid "Update Settings"
 #~ msgstr "Uaktualnij ustawienia"
 
+#~ msgid "Update is not allowed for this contract."
+#~ msgstr "Aktualizacja nie jest możliwa dla tego kontraktu."
+
+#~ msgid "Update is not allowed for this contract. Allowed updates %1"
+#~ msgstr "Aktualizacja tego kontraktu nie jest dozwolona. Dozwolone aktualizacje: %1"
+
 #~ msgid "Update the Anti-Fraud Manual and other related documents"
 #~ msgstr "Uaktualnianie instrukcji dotyczących przeciwdziałaniu oszustwom oraz innych powiązanych dokumentów"
+
+#~ msgid "Update value accepts number or null"
+#~ msgstr "Akceptowalna wartość aktualizacji to liczba lub zero"
 
 #~ msgid "Upgrade"
 #~ msgstr "Uaktualnienie"

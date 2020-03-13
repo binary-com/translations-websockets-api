@@ -267,7 +267,13 @@ msgstr ""
 msgid "Contract has expired."
 msgstr ""
 
+msgid "Contract id is required to cancel contract"
+msgstr ""
+
 msgid "Contract id is required to update contract"
+msgstr ""
+
+msgid "Contract not found for contract id: %1."
 msgstr ""
 
 msgid "Contract update failed."
@@ -817,9 +823,6 @@ msgstr ""
 msgid "No information is available for this contract."
 msgstr ""
 
-msgid "No open contract found for contract id: %1."
-msgstr ""
-
 msgid "No such category or event. Please check the provided value."
 msgstr ""
 
@@ -853,6 +856,9 @@ msgstr ""
 msgid "OTP verification failed"
 msgstr ""
 
+msgid "Only a hash reference input is accepted."
+msgstr ""
+
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr ""
 
@@ -863,6 +869,9 @@ msgid "Only one update per second is allowed."
 msgstr ""
 
 msgid "Only ports 80 and 443 are allowed"
+msgstr ""
+
+msgid "Only updates to these parameters are allowed %1."
 msgstr ""
 
 msgid "Open an Account"
@@ -1013,6 +1022,9 @@ msgstr ""
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr ""
 
+msgid "Please authenticate your account to proceed with withdrawals."
+msgstr ""
+
 msgid "Please authenticate your account."
 msgstr ""
 
@@ -1035,6 +1047,9 @@ msgid "Please ensure all positions in your account(s) are closed before proceedi
 msgstr ""
 
 msgid "Please enter a number between %1 and %2."
+msgstr ""
+
+msgid "Please enter a number or a null value."
 msgstr ""
 
 msgid "Please enter a valid address between 25 and 64 characters"
@@ -1652,6 +1667,9 @@ msgstr ""
 msgid "This contract cannot be properly validated at this time."
 msgstr ""
 
+msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
+msgstr ""
+
 msgid "This contract is currently unavailable due to market conditions"
 msgstr ""
 
@@ -1797,18 +1815,6 @@ msgid "Unsupported bet class %1."
 msgstr ""
 
 msgid "Up to 100 tokens are allowed."
-msgstr ""
-
-msgid "Update is not allowed for this contract."
-msgstr ""
-
-msgid "Update is not allowed for this contract. Allowed updates %1"
-msgstr ""
-
-msgid "Update only accepts hash reference as input parameter."
-msgstr ""
-
-msgid "Update value accepts number or null"
 msgstr ""
 
 msgid "Update your personal details."
@@ -2172,6 +2178,12 @@ msgid "You may not change these account details."
 msgstr ""
 
 msgid "You may only place %1 orders every 24 hours. Please try again later."
+msgstr ""
+
+msgid "You may update your stop loss amount after deal cancellation has expired."
+msgstr ""
+
+msgid "You may update your take profit amount after deal cancellation has expired."
 msgstr ""
 
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
@@ -3322,7 +3334,13 @@ msgstr ""
 msgid "Barrier is out of acceptable range."
 msgstr ""
 
-msgid "Commission is not defined for %1."
+msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
+msgstr ""
+
+msgid "Deal cancellation is not available for this contract."
+msgstr ""
+
+msgid "This symbol is not available."
 msgstr ""
 
 msgid "This contract has been sold."
@@ -3337,7 +3355,16 @@ msgstr ""
 msgid "Intraday contracts may not cross market open."
 msgstr ""
 
+msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
+msgstr ""
+
+msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
+msgstr ""
+
 msgid "Digit must be in the range of %1 to %2."
+msgstr ""
+
+msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
 msgstr ""
 
 msgid "Waiting for entry tick."
@@ -3379,6 +3406,9 @@ msgstr ""
 msgid "Invalid contract type."
 msgstr ""
 
+msgid "Deal cancellation is not offered at this duration."
+msgstr ""
+
 msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
 msgstr ""
 
@@ -3391,6 +3421,9 @@ msgstr ""
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr ""
 
+msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
+msgstr ""
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr ""
 
@@ -3400,7 +3433,10 @@ msgstr ""
 msgid "Low barrier is out of acceptable range. Please adjust the low barrier."
 msgstr ""
 
-msgid "Stake must be at least %1 1."
+msgid "Please enter a payout amount that's at least %1."
+msgstr ""
+
+msgid "Please enter a stake amount that's at least %1."
 msgstr ""
 
 msgid "Contract price cannot be zero."
@@ -3412,19 +3448,22 @@ msgstr ""
 msgid "Invalid stake/payout."
 msgstr ""
 
-msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Please enter a stop loss amount that's higher than %1."
 msgstr ""
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr ""
 
-msgid "Invalid take profit. Take profit must be higher than %1."
+msgid "Please enter a take profit amount that's higher than %1."
 msgstr ""
 
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr ""
 
 msgid "We could not process this contract at this time."
+msgstr ""
+
+msgid "Only %1 decimal places allowed."
 msgstr ""
 
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
@@ -3547,13 +3586,10 @@ msgstr ""
 msgid "Minimum stake of %1 and maximum payout of %2. Current stake is %3."
 msgstr ""
 
-msgid "Stop loss can not have more than %1 decimal places."
+msgid "Invalid stop loss. Stop loss cannot be more than stake."
 msgstr ""
 
-msgid "Take profit can not have more than %1 decimal places."
-msgstr ""
-
-msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+msgid "Please enter a take profit amount that's lower than %1."
 msgstr ""
 
 msgid "Number of ticks must be between %1 and %2."
@@ -3593,9 +3629,6 @@ msgid "Basis can either be %1 or %2 for this contract."
 msgstr ""
 
 msgid "Barrier cannot be zero."
-msgstr ""
-
-msgid "Limit order amount cannot be zero."
 msgstr ""
 
 msgid "Duration above 7 days"
@@ -3682,13 +3715,7 @@ msgstr ""
 msgid "Start Time"
 msgstr ""
 
-msgid "Stop Loss"
-msgstr ""
-
-msgid "Stop Out"
-msgstr ""
-
-msgid "Take Profit"
+msgid "Stop out"
 msgstr ""
 
 msgid "%1 and %2"

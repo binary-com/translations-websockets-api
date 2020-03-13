@@ -451,9 +451,6 @@ msgstr "Kết thúc sớm (tại 20:55)"
 msgid "Closing Spot"
 msgstr "Điểm đóng"
 
-msgid "Commission is not defined for %1."
-msgstr "Hoa hồng chưa được xác định cho %1."
-
 msgid "Commodities"
 msgstr "Hàng hóa"
 
@@ -475,6 +472,11 @@ msgstr "Hợp đồng không thể được bán vào thời điểm na�
 msgid "Contract has expired."
 msgstr "Hợp đồng đã hết hạn."
 
+#, fuzzy
+#| msgid "Contract id is required to update contract"
+msgid "Contract id is required to cancel contract"
+msgstr "Cần id hợp đồng để cập nhật thông tin"
+
 msgid "Contract id is required to update contract"
 msgstr "Cần id hợp đồng để cập nhật thông tin"
 
@@ -486,6 +488,11 @@ msgstr "Hợp đồng sẽ không hết hạn trong khoảng %1 và %2."
 
 msgid "Contract must expire during trading hours."
 msgstr "Hợp đồng phải hết hạn trong suốt thời gian giao dịch."
+
+#, fuzzy
+#| msgid "No open contract found for contract id: %1."
+msgid "Contract not found for contract id: %1."
+msgstr "Không tìm thấy hợp đồng mở có id: %1."
 
 msgid "Contract price cannot be zero."
 msgstr "Giá hợp đồng không thể bằng 0."
@@ -564,6 +571,19 @@ msgstr "Ngày sinh"
 
 msgid "Date of birth is invalid."
 msgstr "Ngày sinh không hợp lệ."
+
+#, fuzzy
+#| msgid "No information is available for this contract."
+msgid "Deal cancellation is not available for this contract."
+msgstr "Không có thông tin có sẵn cho hợp đồng này."
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Deal cancellation is not offered at this duration."
+msgstr "Giao dịch không được cung cấp trong thời gian này."
+
+msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
+msgstr ""
 
 msgid "Dear %1 %2 %3,"
 msgstr "%1 %2 %3 thân mến,"
@@ -1371,17 +1391,18 @@ msgstr "Phiên không hợp lệ."
 msgid "Invalid stake/payout."
 msgstr "Số tiền đặt cọc/thanh toán không hợp lệ."
 
-msgid "Invalid stop loss. Stop loss must be lower than %1."
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss cannot be more than stake."
+msgstr "Dừng lỗ không hợp lệ. Dừng lỗ phải thấp hơn% 1."
+
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
 msgstr "Dừng lỗ không hợp lệ. Dừng lỗ phải thấp hơn% 1."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Dừng lại không hợp lệ. Dừng lại phải ở ngưỡng % 1 so với giá giao ngay hiện tại. Vui lòng điều chỉnh cổ phần hoặc số nhân."
-
-msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
-msgstr "Nhận lợi nhuận không hợp lệ. Lấy lợi nhuận không thể nhiều hơn 100 lần cổ phần."
-
-msgid "Invalid take profit. Take profit must be higher than %1."
-msgstr "Lấy lợi nhuận không khả dụng. Lấy lợi nhuận phải lớn hơn %1."
 
 msgid "Invalid token"
 msgstr "Token không hợp lệ"
@@ -1451,9 +1472,6 @@ msgstr "Hợp đồng kế thừa di sản. Không có thêm thông tin."
 
 msgid "Let’s get you a new one."
 msgstr "Hãy tạo một cái mới cho bạn."
-
-msgid "Limit order amount cannot be zero."
-msgstr "Số giớ hạn lệnh không thể có giá trị là 0."
 
 msgid "Location:"
 msgstr "Vị trí:"
@@ -1620,9 +1638,6 @@ msgstr "Không có giao dịch nào khác được cho phép với loại hợp 
 msgid "No information is available for this contract."
 msgstr "Không có thông tin có sẵn cho hợp đồng này."
 
-msgid "No open contract found for contract id: %1."
-msgstr "Không tìm thấy hợp đồng mở có id: %1."
-
 msgid "No such category or event. Please check the provided value."
 msgstr "Trường dữ liệu nhập không hợp lệ, vui lòng kiểm tra các dữ liệu được cung cấp."
 
@@ -1683,6 +1698,11 @@ msgstr "Dầu/GBP"
 msgid "Oil/USD"
 msgstr "Dầu/USD"
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places allowed."
+msgstr "Chỉ 3 chữ số thập phân được cho phép."
+
 msgid "Only 3 decimal places are allowed."
 msgstr "Chỉ 3 chữ số thập phân được cho phép."
 
@@ -1695,6 +1715,11 @@ msgstr "Chỉ Tăng"
 msgid "Only Ups/Only Downs"
 msgstr "Chỉ Tăng/Chỉ Giảm"
 
+#, fuzzy
+#| msgid "Update only accepts hash reference as input parameter."
+msgid "Only a hash reference input is accepted."
+msgstr "Cập nhật chỉ cho phép các tham chiếu chia nhỏ như tham số đầu vào."
+
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr "Chỉ tối đa 2 điểm thập phân là hợp lệ cho tài khoản."
 
@@ -1706,6 +1731,11 @@ msgstr "Chỉ cho phép một cập nhật mỗi giây."
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Chỉ có cổng 80 và 443 là hợp lệ"
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only updates to these parameters are allowed %1."
+msgstr "Chỉ 3 chữ số thập phân được cho phép."
 
 msgid "Open an Account"
 msgstr "Mở Tài Khoản"
@@ -1880,6 +1910,11 @@ msgstr "Vui lòng xác thực tài khoản của bạn để tiếp tục."
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr "Vui lòng xác thực tài khoản của bạn để có thể thực hiện việc rút và chuyển tiền"
 
+#, fuzzy
+#| msgid "Please authenticate your account to enable withdrawals and transfers"
+msgid "Please authenticate your account to proceed with withdrawals."
+msgstr "Vui lòng xác thực tài khoản của bạn để có thể thực hiện việc rút và chuyển tiền"
+
 msgid "Please authenticate your account."
 msgstr "Vui lòng xác thực tài khoản của bạn."
 
@@ -1903,6 +1938,36 @@ msgstr "Vui lòng đảm bảo các giao dịch này đã được đóng 
 
 msgid "Please enter a number between %1 and %2."
 msgstr "Vui lòng nhập một số từ %1 đến %2."
+
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a number or a null value."
+msgstr "Vui lòng nhập giá trị số."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a payout amount that's at least %1."
+msgstr "Vui lòng nhập số tiền thích hợp để chuyển khoản."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stake amount that's at least %1."
+msgstr "Vui lòng nhập số tiền thích hợp để chuyển khoản."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stop loss amount that's higher than %1."
+msgstr "Vui lòng nhập số tiền thích hợp để chuyển khoản."
+
+#, fuzzy
+#| msgid "Invalid take profit. Take profit must be higher than %1."
+msgid "Please enter a take profit amount that's higher than %1."
+msgstr "Lấy lợi nhuận không khả dụng. Lấy lợi nhuận phải lớn hơn %1."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a take profit amount that's lower than %1."
+msgstr "Vui lòng nhập số tiền thích hợp để chuyển khoản."
 
 msgid "Please enter a valid address between 25 and 64 characters"
 msgstr "Vui lòng nhập địa chỉ phù hợp từ 25 đến 64 ký tự"
@@ -2387,9 +2452,6 @@ msgstr "Xu ổn định"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "Tiền cược không thể có nhiều hơn %1 chữ số thập phân."
 
-msgid "Stake must be at least %1 1."
-msgstr "Cổ phần phải tối thiểu ở mức %1 1."
-
 msgid "Start Time"
 msgstr "Thời gian bắt đầu"
 
@@ -2417,17 +2479,13 @@ msgstr "Chỉ số bước"
 msgid "Step Indices"
 msgstr "Chỉ số bước"
 
-msgid "Stop Loss"
-msgstr "Dừng thua"
-
-msgid "Stop Out"
-msgstr "Dừng bán ra"
-
 msgid "Stop loss"
 msgstr "Dừng lỗ"
 
-msgid "Stop loss can not have more than %1 decimal places."
-msgstr "Dừng thua không thể có nhiều hơn %1 chữ số thập phân."
+#, fuzzy
+#| msgid "Stop Out"
+msgid "Stop out"
+msgstr "Dừng bán ra"
 
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Việc truyền tải biểu tượng này không khả dụng vì lý do quy định về bản quyền."
@@ -2456,14 +2514,8 @@ msgstr "TOTP dựa trên 2FA đã bị khóa."
 msgid "TOTP based 2FA is already enabled."
 msgstr "TOTP dựa trên 2FA đã được mở."
 
-msgid "Take Profit"
-msgstr "Lấy Lợi Nhuận"
-
 msgid "Take profit"
 msgstr "Thu lợi nhuận"
-
-msgid "Take profit can not have more than %1 decimal places."
-msgstr "Lấy Lợi Nhuận không thể có nhiều hơn %1 chữ số thập phân."
 
 msgid "Tax identification number"
 msgstr "Mã số thuế"
@@ -2666,6 +2718,9 @@ msgstr "Đơn vị tiền tệ %1 được cung cấp không phải là đơn
 msgid "The requested service is unavailable at the moment."
 msgstr "Dịch vụ được yêu cầu hiện đang không khả dụng."
 
+msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
+msgstr ""
+
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "Thuế cư trú \"% 1\" nằm ở một quốc gia bị hạn chế."
 
@@ -2740,6 +2795,12 @@ msgstr "Việc này không thể bị hủy vì đơn đặt hàng đã được
 msgid "This contract cannot be properly validated at this time."
 msgstr "Hợp đồng này không thể được xác minh vào thời gian này."
 
+msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
+msgstr ""
+
+msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
+msgstr ""
+
 msgid "This contract has already expired."
 msgstr "Hợp đồng này đã hết hạn."
 
@@ -2793,6 +2854,11 @@ msgstr "Thị trường này hiện đã đóng. Hãy thử Chỉ Số Bi�
 
 msgid "This payment method is invalid."
 msgstr "Hình thức thanh toán này không hợp lệ."
+
+#, fuzzy
+#| msgid "This account is unavailable."
+msgid "This symbol is not available."
+msgstr "Tài khoản này không khả dụng."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Giao dịch này tạm thời không khả dụng."
@@ -3027,18 +3093,6 @@ msgstr "Tối đa 100 token được cho phép."
 
 msgid "Up/Down"
 msgstr "Lên/Xuống"
-
-msgid "Update is not allowed for this contract."
-msgstr "Cập nhật không thể thực hiện cho hợp đồng này."
-
-msgid "Update is not allowed for this contract. Allowed updates %1"
-msgstr "Cập nhật không thê được thực hiện cho hợp đồng này. Cho phép cập nhật %1"
-
-msgid "Update only accepts hash reference as input parameter."
-msgstr "Cập nhật chỉ cho phép các tham chiếu chia nhỏ như tham số đầu vào."
-
-msgid "Update value accepts number or null"
-msgstr "Giá trị cập nhật cho phép số hoặc trống"
 
 msgid "Update your personal details."
 msgstr "Cập nhật thông tin cá nhân của bạn."
@@ -3637,8 +3691,17 @@ msgstr "Bạn không thể thay đổi các chi tiết của tài khoản này."
 msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr "Bạn có thể đặt các đơn hàng %1 mỗi 24 giờ. Vui lòng thử lại sau."
 
+msgid "You may update your stop loss amount after deal cancellation has expired."
+msgstr ""
+
+msgid "You may update your take profit amount after deal cancellation has expired."
+msgstr ""
+
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "Bạn có thể tải lên các bản sao của tất cả các tài liệu cần thiết trực tiếp từ tài khoản thực của bạn tại %1."
+
+msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
+msgstr ""
 
 msgid "You need to set your residence in order to use this feature."
 msgstr "Bạn phải nhập địa chỉ để có thể sử dụng tính năng này."
@@ -7457,6 +7520,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Commission Rates"
 #~ msgstr "Tỉ lệ Hoa hồng"
 
+#~ msgid "Commission is not defined for %1."
+#~ msgstr "Hoa hồng chưa được xác định cho %1."
+
 #~ msgid "Commission on deposits"
 #~ msgstr "Hoa hồng gửi tiền"
 
@@ -10449,6 +10515,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Invalid sub account type."
 #~ msgstr "Loại tài khoản phụ không hợp lệ."
 
+#~ msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+#~ msgstr "Nhận lợi nhuận không hợp lệ. Lấy lợi nhuận không thể nhiều hơn 100 lần cổ phần."
+
 #~ msgid "Invalid telephone number"
 #~ msgstr "Số điện thoại không hợp lệ"
 
@@ -11436,6 +11505,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Limit"
 #~ msgstr "Giới hạn"
+
+#~ msgid "Limit order amount cannot be zero."
+#~ msgstr "Số giớ hạn lệnh không thể có giá trị là 0."
 
 #~ msgid "Limitations on Liability"
 #~ msgstr "Các giới hạn về Trách nhiệm pháp lý"
@@ -12886,9 +12958,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Please enter a number greater or equal to %1."
 #~ msgstr "Vui lòng nhập một số lớn hơn hoặc bằng %1."
-
-#~ msgid "Please enter a numeric value."
-#~ msgstr "Vui lòng nhập giá trị số."
 
 #~ msgid "Please enter a positive numeric value."
 #~ msgstr "Vui lòng nhập một giá trị số dương."
@@ -14412,6 +14481,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Stake"
 #~ msgstr "Đơn vị vốn, cổ phiếu"
 
+#~ msgid "Stake must be at least %1 1."
+#~ msgstr "Cổ phần phải tối thiểu ở mức %1 1."
+
 #~ msgid "Standard Chartered"
 #~ msgstr "Standard Chartered"
 
@@ -14526,6 +14598,9 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Stocks trading frequency"
 #~ msgstr "Tần suất giao dịch Chứng khoán"
 
+#~ msgid "Stop Loss"
+#~ msgstr "Dừng thua"
+
 #~ msgid "Stop Loss Level"
 #~ msgstr "Mức Thua lỗ Tới hạn"
 
@@ -14537,6 +14612,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "Lợi nhuận Tới hạn cần phải ở giữa %1 và %2 %3"
+
+#~ msgid "Stop loss can not have more than %1 decimal places."
+#~ msgstr "Dừng thua không thể có nhiều hơn %1 chữ số thập phân."
 
 #~ msgid "Stop-loss:"
 #~ msgstr "Thua lỗ -Tới hạn:"
@@ -14702,6 +14780,12 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Table"
 #~ msgstr "Bảng"
+
+#~ msgid "Take Profit"
+#~ msgstr "Lấy Lợi Nhuận"
+
+#~ msgid "Take profit can not have more than %1 decimal places."
+#~ msgstr "Lấy Lợi Nhuận không thể có nhiều hơn %1 chữ số thập phân."
 
 #~ msgid "Talk to us"
 #~ msgstr "Nói với chúng tôi"
@@ -16383,8 +16467,17 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Update Settings"
 #~ msgstr "Cập nhật cài đặt"
 
+#~ msgid "Update is not allowed for this contract."
+#~ msgstr "Cập nhật không thể thực hiện cho hợp đồng này."
+
+#~ msgid "Update is not allowed for this contract. Allowed updates %1"
+#~ msgstr "Cập nhật không thê được thực hiện cho hợp đồng này. Cho phép cập nhật %1"
+
 #~ msgid "Update the Anti-Fraud Manual and other related documents"
 #~ msgstr "Cập nhật hướng dẫn chống gian lận và những tài liệu liên quan khác"
+
+#~ msgid "Update value accepts number or null"
+#~ msgstr "Giá trị cập nhật cho phép số hoặc trống"
 
 #~ msgid "Upgrade"
 #~ msgstr "Nâng cấp"

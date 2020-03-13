@@ -448,9 +448,6 @@ msgstr "收盘提前（于 20:55）"
 msgid "Closing Spot"
 msgstr "收盘现价"
 
-msgid "Commission is not defined for %1."
-msgstr "未界定%1佣金。"
-
 msgid "Commodities"
 msgstr "大宗商品"
 
@@ -472,6 +469,11 @@ msgstr "此时不能卖出合约。请重试。"
 msgid "Contract has expired."
 msgstr "合约已到期。"
 
+#, fuzzy
+#| msgid "Contract id is required to update contract"
+msgid "Contract id is required to cancel contract"
+msgstr "需要合约ID以更新合约"
+
 msgid "Contract id is required to update contract"
 msgstr "需要合约ID以更新合约"
 
@@ -483,6 +485,11 @@ msgstr "合约不可在%1 与 %2之间到期。"
 
 msgid "Contract must expire during trading hours."
 msgstr "合约必须在交易时段内到期。"
+
+#, fuzzy
+#| msgid "No open contract found for contract id: %1."
+msgid "Contract not found for contract id: %1."
+msgstr "未找到合约ID：%1的未平仓合约。"
 
 msgid "Contract price cannot be zero."
 msgstr "合约价格不可为零。"
@@ -561,6 +568,19 @@ msgstr "出生日期"
 
 msgid "Date of birth is invalid."
 msgstr "出生日期无效。"
+
+#, fuzzy
+#| msgid "No information is available for this contract."
+msgid "Deal cancellation is not available for this contract."
+msgstr "此合约无可用信息。"
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Deal cancellation is not offered at this duration."
+msgstr "这期间不提供交易。"
+
+msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
+msgstr ""
 
 msgid "Dear %1 %2 %3,"
 msgstr "尊敬的 %1 %2 %3,"
@@ -1368,17 +1388,18 @@ msgstr "无效时段。"
 msgid "Invalid stake/payout."
 msgstr "无效投注/赔付金额。"
 
-msgid "Invalid stop loss. Stop loss must be lower than %1."
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss cannot be more than stake."
+msgstr "止损无效。止损须低于%1。"
+
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
 msgstr "止损无效。止损须低于%1。"
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "强制平仓无效。强制平仓须低于当前现货价%1。请调整投注资金或倍数值。"
-
-msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
-msgstr "止盈无效。止盈不得超过投注金的100倍。"
-
-msgid "Invalid take profit. Take profit must be higher than %1."
-msgstr "止盈无效。止盈必须大于%1。"
 
 msgid "Invalid token"
 msgstr "无效令牌"
@@ -1448,9 +1469,6 @@ msgstr "遗留合约，无其他信息。"
 
 msgid "Let’s get you a new one."
 msgstr "让我们向您提供新的。"
-
-msgid "Limit order amount cannot be zero."
-msgstr "限价单金额不可为零。"
 
 msgid "Location:"
 msgstr "位置："
@@ -1617,9 +1635,6 @@ msgstr "当前交易时段不允许此合约类型进一步交易。"
 msgid "No information is available for this contract."
 msgstr "此合约无可用信息。"
 
-msgid "No open contract found for contract id: %1."
-msgstr "未找到合约ID：%1的未平仓合约。"
-
 msgid "No such category or event. Please check the provided value."
 msgstr "无此类型或事件。请检查提供值。"
 
@@ -1680,6 +1695,11 @@ msgstr "原油/英镑"
 msgid "Oil/USD"
 msgstr "原油/美元"
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places allowed."
+msgstr "只允许3个小数位。"
+
 msgid "Only 3 decimal places are allowed."
 msgstr "只允许3个小数位。"
 
@@ -1692,6 +1712,11 @@ msgstr "持续上涨"
 msgid "Only Ups/Only Downs"
 msgstr "持续上涨/持续下跌"
 
+#, fuzzy
+#| msgid "Update only accepts hash reference as input parameter."
+msgid "Only a hash reference input is accepted."
+msgstr "更新仅接受散列参考值为输入参数。"
+
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr "金额只允许至多 2 个小数位。"
 
@@ -1703,6 +1728,11 @@ msgstr "每秒钟只允许一次更新。"
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "只允许端口80与443"
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only updates to these parameters are allowed %1."
+msgstr "只允许3个小数位。"
 
 msgid "Open an Account"
 msgstr "开设账户"
@@ -1877,6 +1907,11 @@ msgstr "请验证您的账户，以继续操作。"
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr "请验证账户，以启用取款和转账"
 
+#, fuzzy
+#| msgid "Please authenticate your account to enable withdrawals and transfers"
+msgid "Please authenticate your account to proceed with withdrawals."
+msgstr "请验证账户，以启用取款和转账"
+
 msgid "Please authenticate your account."
 msgstr "请验证您的账户。"
 
@@ -1900,6 +1935,36 @@ msgstr "继续操作前请确保您账户的所有头寸都已平仓：%1。"
 
 msgid "Please enter a number between %1 and %2."
 msgstr "请输入%1和%2之间的数字。"
+
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a number or a null value."
+msgstr "请输入数字值。"
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a payout amount that's at least %1."
+msgstr "请输入有效的转账金额。"
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stake amount that's at least %1."
+msgstr "请输入有效的转账金额。"
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stop loss amount that's higher than %1."
+msgstr "请输入有效的转账金额。"
+
+#, fuzzy
+#| msgid "Invalid take profit. Take profit must be higher than %1."
+msgid "Please enter a take profit amount that's higher than %1."
+msgstr "止盈无效。止盈必须大于%1。"
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a take profit amount that's lower than %1."
+msgstr "请输入有效的转账金额。"
 
 msgid "Please enter a valid address between 25 and 64 characters"
 msgstr "请输入字符数介于25和64之间的有效地址"
@@ -2384,9 +2449,6 @@ msgstr "稳定币种"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "投注额的小数点后不得超过%1位。"
 
-msgid "Stake must be at least %1 1."
-msgstr "投注金必须大于或等于 %1 1。"
-
 msgid "Start Time"
 msgstr "开始时间"
 
@@ -2414,17 +2476,13 @@ msgstr "Step指数"
 msgid "Step Indices"
 msgstr "分阶指数"
 
-msgid "Stop Loss"
-msgstr "止损"
-
-msgid "Stop Out"
-msgstr "强制平仓"
-
 msgid "Stop loss"
 msgstr "止损"
 
-msgid "Stop loss can not have more than %1 decimal places."
-msgstr "止损额的小数点后不得超过%1位。"
+#, fuzzy
+#| msgid "Stop Out"
+msgid "Stop out"
+msgstr "强制平仓"
 
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "由于许可证限制，无法串流此符号。"
@@ -2453,14 +2511,8 @@ msgstr "基于TOTP的2FA已禁用。"
 msgid "TOTP based 2FA is already enabled."
 msgstr "基于TOTP的2FA已启用。"
 
-msgid "Take Profit"
-msgstr "止盈"
-
 msgid "Take profit"
 msgstr "止盈"
-
-msgid "Take profit can not have more than %1 decimal places."
-msgstr "止盈额的小数点后不得超过%1位。"
 
 msgid "Tax identification number"
 msgstr "税务识别号"
@@ -2663,6 +2715,9 @@ msgstr "所提供的货币 %1不是预设货币"
 msgid "The requested service is unavailable at the moment."
 msgstr "要求的服务目前不可用。"
 
+msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
+msgstr ""
+
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "所提供的税金居住地\"%1\"属于受限制国家。"
 
@@ -2737,6 +2792,12 @@ msgstr "由于订单正在进行，因此无法取消。"
 msgid "This contract cannot be properly validated at this time."
 msgstr "目前该交易无法正确验证。"
 
+msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
+msgstr ""
+
+msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
+msgstr ""
+
 msgid "This contract has already expired."
 msgstr "合约已经到期。"
 
@@ -2790,6 +2851,11 @@ msgstr "此市场已关闭。您可以试试一直开放的综合指数。"
 
 msgid "This payment method is invalid."
 msgstr "此付款方式无效。"
+
+#, fuzzy
+#| msgid "This account is unavailable."
+msgid "This symbol is not available."
+msgstr "此账户不可用。"
 
 msgid "This trade is temporarily unavailable."
 msgstr "此交易暂时不可用。"
@@ -3026,18 +3092,6 @@ msgstr "可拥有多达100个令牌。"
 
 msgid "Up/Down"
 msgstr "涨/跌"
-
-msgid "Update is not allowed for this contract."
-msgstr "此合约不可更新。"
-
-msgid "Update is not allowed for this contract. Allowed updates %1"
-msgstr "此合约不可更新。允许更新%1"
-
-msgid "Update only accepts hash reference as input parameter."
-msgstr "更新仅接受散列参考值为输入参数。"
-
-msgid "Update value accepts number or null"
-msgstr "接受数字或空值为更新数值"
 
 msgid "Update your personal details."
 msgstr "更新您的个人资料。"
@@ -3636,8 +3690,17 @@ msgstr "此些账户资料不可修改。"
 msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr "每24小时只能下 %1 个订单。请稍后重试。"
 
+msgid "You may update your stop loss amount after deal cancellation has expired."
+msgstr ""
+
+msgid "You may update your take profit amount after deal cancellation has expired."
+msgstr ""
+
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "所有必需文件影印本可直接从您在此网站的真实资金账户透过%1上传。"
+
+msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
+msgstr ""
 
 msgid "You need to set your residence in order to use this feature."
 msgstr "您须设置居住地以便使用此功能。"
@@ -9521,6 +9584,9 @@ msgstr "今天，每星期五"
 #~ msgid "Commission Rates"
 #~ msgstr "佣金费率"
 
+#~ msgid "Commission is not defined for %1."
+#~ msgstr "未界定%1佣金。"
+
 #~ msgid "Commission on deposits"
 #~ msgstr "存款佣金"
 
@@ -13880,6 +13946,9 @@ msgstr "今天，每星期五"
 #~ msgid "Invalid sub account type."
 #~ msgstr "无效子账户类型。"
 
+#~ msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+#~ msgstr "止盈无效。止盈不得超过投注金的100倍。"
+
 #~ msgid "Invalid telephone number"
 #~ msgstr "无效电话号码"
 
@@ -14993,6 +15062,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Limit"
 #~ msgstr "限额"
+
+#~ msgid "Limit order amount cannot be zero."
+#~ msgstr "限价单金额不可为零。"
 
 #~ msgid "Limit your risk up front"
 #~ msgstr "预先限定您的风险"
@@ -17110,9 +17182,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Please enter a number greater or equal to %1."
 #~ msgstr "请输入大于或等于%1的数字。"
-
-#~ msgid "Please enter a numeric value."
-#~ msgstr "请输入数字值。"
 
 #~ msgid "Please enter a positive numeric value."
 #~ msgstr "请输入正数字值。"
@@ -19599,6 +19668,9 @@ msgstr "今天，每星期五"
 #~ msgid "Stake %1 is too small"
 #~ msgstr "%1 交易额太小"
 
+#~ msgid "Stake must be at least %1 1."
+#~ msgstr "投注金必须大于或等于 %1 1。"
+
 #~ msgid "Stake must be at least <strong>%1</strong>."
 #~ msgstr "交易额必须至少<strong>%1</strong>。"
 
@@ -19784,6 +19856,9 @@ msgstr "今天，每星期五"
 #~ msgid "Stocks trading frequency"
 #~ msgstr "股票交易频率"
 
+#~ msgid "Stop Loss"
+#~ msgstr "止损"
+
 #~ msgid "Stop Loss Level"
 #~ msgstr "止损价位"
 
@@ -19795,6 +19870,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "止盈须在%1 与 %2 %3之间"
+
+#~ msgid "Stop loss can not have more than %1 decimal places."
+#~ msgstr "止损额的小数点后不得超过%1位。"
 
 #~ msgid "Stop-loss:"
 #~ msgstr "止损："
@@ -19997,8 +20075,14 @@ msgstr "今天，每星期五"
 #~ msgid "Table format"
 #~ msgstr "表格式"
 
+#~ msgid "Take Profit"
+#~ msgstr "止盈"
+
 #~ msgid "Take advantage of %1's 'no slippage, no gap risk, no hidden fees' platform."
 #~ msgstr "利用 %1的‘无滑脱，无缺口风险，无隐藏费用’平台。"
+
+#~ msgid "Take profit can not have more than %1 decimal places."
+#~ msgstr "止盈额的小数点后不得超过%1位。"
 
 #~ msgid "Talk to us"
 #~ msgstr "联系我们"
@@ -22415,8 +22499,17 @@ msgstr "今天，每星期五"
 #~ msgid "Update failed.  Request support."
 #~ msgstr "更新失败。请求支援。"
 
+#~ msgid "Update is not allowed for this contract."
+#~ msgstr "此合约不可更新。"
+
+#~ msgid "Update is not allowed for this contract. Allowed updates %1"
+#~ msgstr "此合约不可更新。允许更新%1"
+
 #~ msgid "Update the Anti-Fraud Manual and other related documents"
 #~ msgstr "更新反欺诈手册和其他相关文件"
+
+#~ msgid "Update value accepts number or null"
+#~ msgstr "接受数字或空值为更新数值"
 
 #~ msgid "Upgrade"
 #~ msgstr "升级"

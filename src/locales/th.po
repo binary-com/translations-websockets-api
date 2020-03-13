@@ -522,9 +522,6 @@ msgstr "ปิดก่อนเวลา (เมื่อ 20:55)"
 msgid "Closing Spot"
 msgstr "สปอตสิ้นสุด"
 
-msgid "Commission is not defined for %1."
-msgstr ""
-
 msgid "Commodities"
 msgstr "สินค้าโภคภัณฑ์"
 
@@ -550,6 +547,9 @@ msgstr "สัญญานี้ไม่สามารถดำเนินก
 msgid "Contract has expired."
 msgstr "สัญญาหมดอายุ"
 
+msgid "Contract id is required to cancel contract"
+msgstr ""
+
 msgid "Contract id is required to update contract"
 msgstr ""
 
@@ -561,6 +561,9 @@ msgstr "สัญญายังไม่หมดอายุในระหว
 
 msgid "Contract must expire during trading hours."
 msgstr "สัญญาต้องหมดอายุระหว่างชั่วโมงการซื้อขาย"
+
+msgid "Contract not found for contract id: %1."
+msgstr ""
 
 msgid "Contract price cannot be zero."
 msgstr "ราคาของสัญญาไม่สามารถมีค่าเป็นศูนย์"
@@ -649,6 +652,19 @@ msgstr "วันเกิด"
 
 msgid "Date of birth is invalid."
 msgstr "วันเกิดไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "No information is available for this contract."
+msgid "Deal cancellation is not available for this contract."
+msgstr "ไม่มีข้อมูลของสัญญาฉบับน้ี"
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Deal cancellation is not offered at this duration."
+msgstr "การซื้อขายไม่ถูกนำเสนอในช่วงเวลานี้"
+
+msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
+msgstr ""
 
 msgid "Dear %1 %2 %3,"
 msgstr "เรียน %1 %2 %3"
@@ -1513,18 +1529,15 @@ msgstr "เซสชันไม่ถูกต้อง"
 msgid "Invalid stake/payout."
 msgstr "การวางเงิน/การชำระเงินไม่ถูกต้อง"
 
-msgid "Invalid stop loss. Stop loss must be lower than %1."
+#, fuzzy
+#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
+msgid "Invalid stop loss. Stop loss cannot be more than stake."
+msgstr "ราคาไม่ถูกต้อง ราคามีทศนิยมไม่เกิน %1 หลัก"
+
+msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
 msgstr ""
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
-msgstr ""
-
-#, fuzzy
-#| msgid "Invalid price. Price provided can not have more than %1 decimal places."
-msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
-msgstr "ราคาไม่ถูกต้อง ราคามีทศนิยมไม่เกิน %1 หลัก"
-
-msgid "Invalid take profit. Take profit must be higher than %1."
 msgstr ""
 
 msgid "Invalid token"
@@ -1605,11 +1618,6 @@ msgstr "สัญญามรดก ไม่มีข้อมูลที่�
 
 msgid "Let’s get you a new one."
 msgstr ""
-
-#, fuzzy
-#| msgid "Barrier cannot be zero."
-msgid "Limit order amount cannot be zero."
-msgstr "Barrier มีค่าเป็นศูนย์ไม่ได้"
 
 msgid "Location:"
 msgstr "สถานที่:"
@@ -1792,9 +1800,6 @@ msgstr "การซื้อขายขั้นต่อไปไม่ได
 msgid "No information is available for this contract."
 msgstr "ไม่มีข้อมูลของสัญญาฉบับน้ี"
 
-msgid "No open contract found for contract id: %1."
-msgstr ""
-
 msgid "No such category or event. Please check the provided value."
 msgstr "ไม่มีหมวดหมู่หรือรายการดังกล่าว โปรดตรวจสอบคำค้นอีกครั้ง"
 
@@ -1859,6 +1864,11 @@ msgstr "Oil/GBP"
 msgid "Oil/USD"
 msgstr "Oil/USD"
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places allowed."
+msgstr "ใช้ทศนิยมได้ 3 หลัก"
+
 msgid "Only 3 decimal places are allowed."
 msgstr "ใช้ทศนิยมได้ 3 หลัก"
 
@@ -1870,6 +1880,9 @@ msgstr "สูงขึ้นอย่างต่อเนื่อง"
 
 msgid "Only Ups/Only Downs"
 msgstr "สูงขึ้นอย่างต่อเนื่อง/ต่ำลงอย่างต่อเนื่อง"
+
+msgid "Only a hash reference input is accepted."
+msgstr ""
 
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr "จำนวนนี้ต้องการทศนิยม 2 หลัก"
@@ -1884,6 +1897,11 @@ msgstr "ใช้ทศนิยมได้ 3 หลัก"
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "อนุญาตเฉพาะพอร์ตเลขที่ 80 และ 443"
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only updates to these parameters are allowed %1."
+msgstr "ใช้ทศนิยมได้ 3 หลัก"
 
 msgid "Open an Account"
 msgstr "เปิดบัญชี"
@@ -2078,6 +2096,11 @@ msgstr "โปรดดำเนินการยืนยันตัวตน
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr "โปรดดำเนินการยืนยันตัวตนของท่านเพื่อดำเนินการต่อ"
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Please authenticate your account to proceed with withdrawals."
+msgstr "โปรดดำเนินการยืนยันตัวตนของท่านเพื่อดำเนินการต่อ"
+
 msgid "Please authenticate your account."
 msgstr "โปรดยืนยันตัวตนต่อบัญชีของท่าน"
 
@@ -2105,6 +2128,36 @@ msgstr "โปรดปิดสัญญาทั้งหมดในบัญ
 
 msgid "Please enter a number between %1 and %2."
 msgstr "โปรดป้อนตัวเลขระหว่าง %1 และ %2"
+
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a number or a null value."
+msgstr "โปรดป้อนค่าที่เป็นตัวเลข"
+
+#, fuzzy
+#| msgid "Please enter the amount you wish to transfer."
+msgid "Please enter a payout amount that's at least %1."
+msgstr "โปรดป้อนจำนวนเงินที่ท่านต้องการโอน"
+
+#, fuzzy
+#| msgid "Please enter the amount you wish to transfer."
+msgid "Please enter a stake amount that's at least %1."
+msgstr "โปรดป้อนจำนวนเงินที่ท่านต้องการโอน"
+
+#, fuzzy
+#| msgid "Please enter the amount you wish to transfer."
+msgid "Please enter a stop loss amount that's higher than %1."
+msgstr "โปรดป้อนจำนวนเงินที่ท่านต้องการโอน"
+
+#, fuzzy
+#| msgid "Please enter the amount you wish to transfer."
+msgid "Please enter a take profit amount that's higher than %1."
+msgstr "โปรดป้อนจำนวนเงินที่ท่านต้องการโอน"
+
+#, fuzzy
+#| msgid "Please enter the amount you wish to transfer."
+msgid "Please enter a take profit amount that's lower than %1."
+msgstr "โปรดป้อนจำนวนเงินที่ท่านต้องการโอน"
 
 #, fuzzy
 #| msgid "Please enter a number between %1 and %2"
@@ -2665,11 +2718,6 @@ msgstr "เงินดิจิทัลมีมูลค่าคงที่
 msgid "Stake can not have more than %1 decimal places."
 msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
-#, fuzzy
-#| msgid "Barrier must be at least "
-msgid "Stake must be at least %1 1."
-msgstr "Barrier ต้องมีค่าอย่างน้อย "
-
 msgid "Start Time"
 msgstr "เวลาเริ่ม"
 
@@ -2701,21 +2749,13 @@ msgstr "ดัชนีสเต็ป"
 
 #, fuzzy
 #| msgid "Stop-loss"
-msgid "Stop Loss"
-msgstr "การระงับขาดทุน"
-
-msgid "Stop Out"
-msgstr ""
-
-#, fuzzy
-#| msgid "Stop-loss"
 msgid "Stop loss"
 msgstr "การระงับขาดทุน"
 
 #, fuzzy
-#| msgid "Stake can not have more than %1 decimal places."
-msgid "Stop loss can not have more than %1 decimal places."
-msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
+#| msgid "Stop-loss"
+msgid "Stop out"
+msgstr "การระงับขาดทุน"
 
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "ไม่มีสตรีมมิ่งของสัญลักษณ์นี้ เนื่องจากข้อจำกัดของไลเซนส์"
@@ -2746,18 +2786,8 @@ msgstr "TOTP based 2FA ถูกเปิดใช้งานแล้ว"
 
 #, fuzzy
 #| msgid "Profit"
-msgid "Take Profit"
-msgstr "กำไร"
-
-#, fuzzy
-#| msgid "Profit"
 msgid "Take profit"
 msgstr "กำไร"
-
-#, fuzzy
-#| msgid "Stake can not have more than %1 decimal places."
-msgid "Take profit can not have more than %1 decimal places."
-msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
 msgid "Tax identification number"
 msgstr "เลขประจำตัวผู้เสียภาษี"
@@ -3020,6 +3050,9 @@ msgstr "สกุลเงิน %1 ดังกล่าว ไม่ใช่�
 msgid "The requested service is unavailable at the moment."
 msgstr "ขออภัย ไม่สามารถให้บริการดังกล่าวได้ในขณะนี้"
 
+msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
+msgstr ""
+
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "สถานที่อ้างอิงสำหรับการแจ้งชำระภาษี \"%1\" อยู่ในประเทศที่ถูกจำกัด"
 
@@ -3100,6 +3133,12 @@ msgstr ""
 msgid "This contract cannot be properly validated at this time."
 msgstr "สัญญานี้ไม่สามารถดำเนินการตรวจสอบในขณะนี้"
 
+msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
+msgstr ""
+
+msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
+msgstr ""
+
 msgid "This contract has already expired."
 msgstr "สัญญานี้หมดอายุแล้ว"
 
@@ -3165,6 +3204,11 @@ msgstr "ตลาดนี้ได้ปิดทำการขณะนี้
 #| msgid "The token is invalid."
 msgid "This payment method is invalid."
 msgstr "โทเค่นไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "This account is unavailable."
+msgid "This symbol is not available."
+msgstr "บัญชีนี้ไม่สามารถใช้งานได้"
 
 msgid "This trade is temporarily unavailable."
 msgstr "การซื้อขายนี้ไม่สามารถใช้การได้ชั่วคราว"
@@ -3413,22 +3457,6 @@ msgstr "อนุญาตให้ใช้มากที่สุด 100 โ�
 
 msgid "Up/Down"
 msgstr "ขึ้น/ลง"
-
-#, fuzzy
-#| msgid "Barrier is not allowed for this contract type."
-msgid "Update is not allowed for this contract."
-msgstr "ไม่สามารถใช้ Barrier กับสัญญานี้"
-
-#, fuzzy
-#| msgid "Barrier is not allowed for this contract type."
-msgid "Update is not allowed for this contract. Allowed updates %1"
-msgstr "ไม่สามารถใช้ Barrier กับสัญญานี้"
-
-msgid "Update only accepts hash reference as input parameter."
-msgstr ""
-
-msgid "Update value accepts number or null"
-msgstr ""
 
 #, fuzzy
 #| msgid "There was a problem validating your personal details."
@@ -4095,8 +4123,17 @@ msgstr "ท่านไม่สามารถเปลี่ยนแปลง
 msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr "ขออภัย พบข้อผิดพลาด โปรดพยายามใหม่ภายหลัง"
 
+msgid "You may update your stop loss amount after deal cancellation has expired."
+msgstr ""
+
+msgid "You may update your take profit amount after deal cancellation has expired."
+msgstr ""
+
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "ท่านสามารถอัพโหลดสำเนาเอกสารทั้งหมดที่กำหนดได้โดยตรงในบัญชีเงินจริงของท่านที่ %1"
+
+msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
+msgstr ""
 
 msgid "You need to set your residence in order to use this feature."
 msgstr ""
@@ -10665,6 +10702,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Limit"
 #~ msgstr "วงเงิน"
 
+#, fuzzy
+#~| msgid "Barrier cannot be zero."
+#~ msgid "Limit order amount cannot be zero."
+#~ msgstr "Barrier มีค่าเป็นศูนย์ไม่ได้"
+
 #~ msgid "Limitations on Liability"
 #~ msgstr "ข้อจำกัดของหนี้สิน"
 
@@ -11724,9 +11766,6 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Please enter a number greater or equal to %1."
 #~ msgstr "โปรดป้อนตัวเลขมากกว่า หรือ เท่ากับ %1"
-
-#~ msgid "Please enter a numeric value."
-#~ msgstr "โปรดป้อนค่าที่เป็นตัวเลข"
 
 #~ msgid "Please enter a positive numeric value."
 #~ msgstr "โปรดป้อนค่าที่เป็นตัวเลขบวก"
@@ -12831,6 +12870,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Stake"
 #~ msgstr "วางเงิน"
 
+#, fuzzy
+#~| msgid "Barrier must be at least "
+#~ msgid "Stake must be at least %1 1."
+#~ msgstr "Barrier ต้องมีค่าอย่างน้อย "
+
 #~ msgid "Standard Chartered"
 #~ msgstr "Standard Chartered"
 
@@ -12937,6 +12981,11 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "การระงับกำไรต้องมีค่าระหว่าง %1 และ %2 %3"
+
+#, fuzzy
+#~| msgid "Stake can not have more than %1 decimal places."
+#~ msgid "Stop loss can not have more than %1 decimal places."
+#~ msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
 #~ msgid "Stop-type"
 #~ msgstr "ประเภทของการระงับ"
@@ -13048,6 +13097,16 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Table"
 #~ msgstr "ตาราง"
+
+#, fuzzy
+#~| msgid "Profit"
+#~ msgid "Take Profit"
+#~ msgstr "กำไร"
+
+#, fuzzy
+#~| msgid "Stake can not have more than %1 decimal places."
+#~ msgid "Take profit can not have more than %1 decimal places."
+#~ msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
 #~ msgid "Talk to us"
 #~ msgstr "พูดคุยกับเรา"
@@ -13890,6 +13949,16 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Update Settings"
 #~ msgstr "ปรับปรุงการตั้งค่า"
+
+#, fuzzy
+#~| msgid "Barrier is not allowed for this contract type."
+#~ msgid "Update is not allowed for this contract."
+#~ msgstr "ไม่สามารถใช้ Barrier กับสัญญานี้"
+
+#, fuzzy
+#~| msgid "Barrier is not allowed for this contract type."
+#~ msgid "Update is not allowed for this contract. Allowed updates %1"
+#~ msgstr "ไม่สามารถใช้ Barrier กับสัญญานี้"
 
 #~ msgid "Upgrade to Binary.com Financial account"
 #~ msgstr "อัพเกรดเป็นบัญชีซื้อขาย Binary.com"

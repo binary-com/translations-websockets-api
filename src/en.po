@@ -450,9 +450,6 @@ msgstr ""
 msgid "Closing Spot"
 msgstr ""
 
-msgid "Commission is not defined for %1."
-msgstr ""
-
 msgid "Commodities"
 msgstr ""
 
@@ -474,6 +471,9 @@ msgstr ""
 msgid "Contract has expired."
 msgstr ""
 
+msgid "Contract id is required to cancel contract"
+msgstr ""
+
 msgid "Contract id is required to update contract"
 msgstr ""
 
@@ -484,6 +484,9 @@ msgid "Contract may not expire between %1 and %2."
 msgstr ""
 
 msgid "Contract must expire during trading hours."
+msgstr ""
+
+msgid "Contract not found for contract id: %1."
 msgstr ""
 
 msgid "Contract price cannot be zero."
@@ -562,6 +565,15 @@ msgid "Date of birth"
 msgstr ""
 
 msgid "Date of birth is invalid."
+msgstr ""
+
+msgid "Deal cancellation is not available for this contract."
+msgstr ""
+
+msgid "Deal cancellation is not offered at this duration."
+msgstr ""
+
+msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
 msgstr ""
 
 msgid "Dear %1 %2 %3,"
@@ -1309,16 +1321,13 @@ msgstr ""
 msgid "Invalid stake/payout."
 msgstr ""
 
-msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss cannot be more than stake."
+msgstr ""
+
+msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
 msgstr ""
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
-msgstr ""
-
-msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
-msgstr ""
-
-msgid "Invalid take profit. Take profit must be higher than %1."
 msgstr ""
 
 msgid "Invalid token"
@@ -1388,9 +1397,6 @@ msgid "Legacy contract. No further information is available."
 msgstr ""
 
 msgid "Let’s get you a new one."
-msgstr ""
-
-msgid "Limit order amount cannot be zero."
 msgstr ""
 
 msgid "Location:"
@@ -1558,9 +1564,6 @@ msgstr ""
 msgid "No information is available for this contract."
 msgstr ""
 
-msgid "No open contract found for contract id: %1."
-msgstr ""
-
 msgid "No such category or event. Please check the provided value."
 msgstr ""
 
@@ -1621,6 +1624,9 @@ msgstr ""
 msgid "Oil/USD"
 msgstr ""
 
+msgid "Only %1 decimal places allowed."
+msgstr ""
+
 msgid "Only 3 decimal places are allowed."
 msgstr ""
 
@@ -1633,6 +1639,9 @@ msgstr ""
 msgid "Only Ups/Only Downs"
 msgstr ""
 
+msgid "Only a hash reference input is accepted."
+msgstr ""
+
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr ""
 
@@ -1643,6 +1652,9 @@ msgid "Only one update per second is allowed."
 msgstr ""
 
 msgid "Only ports 80 and 443 are allowed"
+msgstr ""
+
+msgid "Only updates to these parameters are allowed %1."
 msgstr ""
 
 msgid "Open an Account"
@@ -1811,6 +1823,9 @@ msgstr ""
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr ""
 
+msgid "Please authenticate your account to proceed with withdrawals."
+msgstr ""
+
 msgid "Please authenticate your account."
 msgstr ""
 
@@ -1833,6 +1848,24 @@ msgid "Please ensure all positions in your account(s) are closed before proceedi
 msgstr ""
 
 msgid "Please enter a number between %1 and %2."
+msgstr ""
+
+msgid "Please enter a number or a null value."
+msgstr ""
+
+msgid "Please enter a payout amount that's at least %1."
+msgstr ""
+
+msgid "Please enter a stake amount that's at least %1."
+msgstr ""
+
+msgid "Please enter a stop loss amount that's higher than %1."
+msgstr ""
+
+msgid "Please enter a take profit amount that's higher than %1."
+msgstr ""
+
+msgid "Please enter a take profit amount that's lower than %1."
 msgstr ""
 
 msgid "Please enter a valid address between 25 and 64 characters"
@@ -2318,9 +2351,6 @@ msgstr ""
 msgid "Stake can not have more than %1 decimal places."
 msgstr ""
 
-msgid "Stake must be at least %1 1."
-msgstr ""
-
 msgid "Start Time"
 msgstr ""
 
@@ -2348,16 +2378,10 @@ msgstr ""
 msgid "Step Indices"
 msgstr ""
 
-msgid "Stop Loss"
-msgstr ""
-
-msgid "Stop Out"
-msgstr ""
-
 msgid "Stop loss"
 msgstr ""
 
-msgid "Stop loss can not have more than %1 decimal places."
+msgid "Stop out"
 msgstr ""
 
 msgid "Streaming for this symbol is not available due to license restrictions."
@@ -2387,13 +2411,7 @@ msgstr ""
 msgid "TOTP based 2FA is already enabled."
 msgstr ""
 
-msgid "Take Profit"
-msgstr ""
-
 msgid "Take profit"
-msgstr ""
-
-msgid "Take profit can not have more than %1 decimal places."
 msgstr ""
 
 msgid "Tax identification number"
@@ -2597,6 +2615,9 @@ msgstr ""
 msgid "The requested service is unavailable at the moment."
 msgstr ""
 
+msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
+msgstr ""
+
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr ""
 
@@ -2669,6 +2690,12 @@ msgstr ""
 msgid "This contract cannot be properly validated at this time."
 msgstr ""
 
+msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
+msgstr ""
+
+msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
+msgstr ""
+
 msgid "This contract has already expired."
 msgstr ""
 
@@ -2721,6 +2748,9 @@ msgid "This market is presently closed. Try out the Synthetic Indices which are 
 msgstr ""
 
 msgid "This payment method is invalid."
+msgstr ""
+
+msgid "This symbol is not available."
 msgstr ""
 
 msgid "This trade is temporarily unavailable."
@@ -2956,18 +2986,6 @@ msgid "Up to 100 tokens are allowed."
 msgstr ""
 
 msgid "Up/Down"
-msgstr ""
-
-msgid "Update is not allowed for this contract."
-msgstr ""
-
-msgid "Update is not allowed for this contract. Allowed updates %1"
-msgstr ""
-
-msgid "Update only accepts hash reference as input parameter."
-msgstr ""
-
-msgid "Update value accepts number or null"
 msgstr ""
 
 msgid "Update your personal details."
@@ -3567,7 +3585,16 @@ msgstr ""
 msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr ""
 
+msgid "You may update your stop loss amount after deal cancellation has expired."
+msgstr ""
+
+msgid "You may update your take profit amount after deal cancellation has expired."
+msgstr ""
+
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
+msgstr ""
+
+msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
 msgstr ""
 
 msgid "You need to set your residence in order to use this feature."

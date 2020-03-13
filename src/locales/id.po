@@ -473,9 +473,6 @@ msgstr "Ditutup lebih awal (pukul 20:55)"
 msgid "Closing Spot"
 msgstr "Spot Penutupan"
 
-msgid "Commission is not defined for %1."
-msgstr "Komisi belum ditentukan untuk %1."
-
 msgid "Commodities"
 msgstr "Komoditas"
 
@@ -497,6 +494,11 @@ msgstr "Kontrak tidak dapat dijual saat ini. Silakan coba lagi."
 msgid "Contract has expired."
 msgstr "Kontrak telah berakhir."
 
+#, fuzzy
+#| msgid "Contract id is required to update contract"
+msgid "Contract id is required to cancel contract"
+msgstr "Id kontrak diperlukan untuk memperbarui kontrak"
+
 msgid "Contract id is required to update contract"
 msgstr "Id kontrak diperlukan untuk memperbarui kontrak"
 
@@ -508,6 +510,11 @@ msgstr "Kontrak tidak dapat berakhir antara %1 dan %2."
 
 msgid "Contract must expire during trading hours."
 msgstr "Kontrak hanya dapat berakhir selama waktu trading."
+
+#, fuzzy
+#| msgid "Contract not found for contract id: %1."
+msgid "Contract not found for contract id: %1."
+msgstr "Kontrak tidak ditemukan untuk id: %1."
 
 msgid "Contract price cannot be zero."
 msgstr "Harga kontrak tidak boleh nol."
@@ -588,6 +595,19 @@ msgstr "Tanggal Lahir"
 
 msgid "Date of birth is invalid."
 msgstr "Tanggal lahir tidak berlaku."
+
+#, fuzzy
+#| msgid "No information is available for this contract."
+msgid "Deal cancellation is not available for this contract."
+msgstr "Tidak ada informasi yang tersedia untuk kontrak ini."
+
+#, fuzzy
+#| msgid "Trading is not offered for this duration."
+msgid "Deal cancellation is not offered at this duration."
+msgstr "Trading tidak ditawarkan untuk durasi ini."
+
+msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
+msgstr ""
 
 msgid "Dear %1 %2 %3,"
 msgstr "Kepada Yth. %1 %2 %3,"
@@ -1419,17 +1439,18 @@ msgstr "Sesi tidak berlaku."
 msgid "Invalid stake/payout."
 msgstr "Modal/hasil tidak berlaku."
 
-msgid "Invalid stop loss. Stop loss must be lower than %1."
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss cannot be more than stake."
+msgstr "Stop loss tidak berlaku. Stop loss harus lebih rendah dari %1."
+
+#, fuzzy
+#| msgid "Invalid stop loss. Stop loss must be lower than %1."
+msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
 msgstr "Stop loss tidak berlaku. Stop loss harus lebih rendah dari %1."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Stop out tidak berlaku. Stop out harus %1 dari harga spot terkini. Mohon sesuaikan modal atau multiplier."
-
-msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
-msgstr "Take profit tidak berlaku. Take profit tidak dapat lebig dari 100 kali modal."
-
-msgid "Invalid take profit. Take profit must be higher than %1."
-msgstr "Take profit tidak berlaku. Take profit harus lebih tinggi dari %1."
 
 msgid "Invalid token"
 msgstr "Token tidak berlaku"
@@ -1503,9 +1524,6 @@ msgstr "Kontrak Legasi. Tidak tersedia informasi lebih lanjut."
 
 msgid "Let’s get you a new one."
 msgstr "Dapatkan kata sandi baru."
-
-msgid "Limit order amount cannot be zero."
-msgstr "Jumlah limit order tidak boleh nol."
 
 msgid "Location:"
 msgstr "Lokasi:"
@@ -1676,11 +1694,6 @@ msgstr "Trading lebih lanjut tidak tersedia untuk jenis kontrak ini pada sesi tr
 msgid "No information is available for this contract."
 msgstr "Tidak ada informasi yang tersedia untuk kontrak ini."
 
-#, fuzzy
-#| msgid "Contract not found for contract id: %1."
-msgid "No open contract found for contract id: %1."
-msgstr "Kontrak tidak ditemukan untuk id: %1."
-
 msgid "No such category or event. Please check the provided value."
 msgstr "Tidak ditemukan kategori atau acara tersebut. Silakan cek kembali informasi yang diberikan."
 
@@ -1745,6 +1758,11 @@ msgstr "Minyak/GBP"
 msgid "Oil/USD"
 msgstr "Oil/USD"
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places allowed."
+msgstr "Hanya 3 angka desimal yang dibenarkan."
+
 msgid "Only 3 decimal places are allowed."
 msgstr "Hanya 3 angka desimal yang dibenarkan."
 
@@ -1757,6 +1775,11 @@ msgstr "Only Up"
 msgid "Only Ups/Only Downs"
 msgstr "Only Up/Only Down"
 
+#, fuzzy
+#| msgid "Update only accepts hash reference as input parameter."
+msgid "Only a hash reference input is accepted."
+msgstr "Pembaruan hanya menerima referensi hash sebagai parameter input."
+
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr "Maksimal dua angka desimal yang diperbolehkan untuk jumlah tersebut."
 
@@ -1768,6 +1791,11 @@ msgstr "Hanya satu pembaruan per detik yang diizinkan."
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Hanya port 80 dan 443 yang dibenarkan"
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only updates to these parameters are allowed %1."
+msgstr "Hanya 3 angka desimal yang dibenarkan."
 
 msgid "Open an Account"
 msgstr "Daftar Akun"
@@ -1954,6 +1982,11 @@ msgstr "Silahkan otentikasi akun Anda untuk melanjutkan."
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr "Silahkan otentikasi akun Anda untuk melanjutkan."
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "Please authenticate your account to proceed with withdrawals."
+msgstr "Silahkan otentikasi akun Anda untuk melanjutkan."
+
 msgid "Please authenticate your account."
 msgstr "Silahkan otentikasi akun Anda."
 
@@ -1977,6 +2010,36 @@ msgstr "Mohon pastikan semua posisi pada akun Anda telah ditutup sebelum melanju
 
 msgid "Please enter a number between %1 and %2."
 msgstr "Silakan masukkan nomor antara %1 dan %2."
+
+#, fuzzy
+#| msgid "Please enter a numeric value."
+msgid "Please enter a number or a null value."
+msgstr "Masukkan nilai numerik."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a payout amount that's at least %1."
+msgstr "Silakan masukkan jumlah transfer yang berlaku."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stake amount that's at least %1."
+msgstr "Silakan masukkan jumlah transfer yang berlaku."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a stop loss amount that's higher than %1."
+msgstr "Silakan masukkan jumlah transfer yang berlaku."
+
+#, fuzzy
+#| msgid "Invalid take profit. Take profit must be higher than %1."
+msgid "Please enter a take profit amount that's higher than %1."
+msgstr "Take profit tidak berlaku. Take profit harus lebih tinggi dari %1."
+
+#, fuzzy
+#| msgid "Please enter a valid amount to transfer."
+msgid "Please enter a take profit amount that's lower than %1."
+msgstr "Silakan masukkan jumlah transfer yang berlaku."
 
 msgid "Please enter a valid address between 25 and 64 characters"
 msgstr "Silakan masukkan alamat yang berlaku antara 25 hingga 64 karakter"
@@ -2471,9 +2534,6 @@ msgstr "Koin Stabil (Stable Coin)"
 msgid "Stake can not have more than %1 decimal places."
 msgstr "Modal tidak dapat memiliki lebih dari %1 angka desimal."
 
-msgid "Stake must be at least %1 1."
-msgstr "Modal minimal %1 1."
-
 msgid "Start Time"
 msgstr "Waktu Mulai"
 
@@ -2501,19 +2561,15 @@ msgstr "Indeks Step"
 msgid "Step Indices"
 msgstr "Indeks Step"
 
-msgid "Stop Loss"
-msgstr "Stop Loss"
-
-msgid "Stop Out"
-msgstr "Stop Out"
-
 #, fuzzy
 #| msgid "Stop Loss"
 msgid "Stop loss"
 msgstr "Stop Loss"
 
-msgid "Stop loss can not have more than %1 decimal places."
-msgstr "Stop loss tidak dapat memiliki lebih dari %1 desimal."
+#, fuzzy
+#| msgid "Stop Out"
+msgid "Stop out"
+msgstr "Stop Out"
 
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Streaming untuk simbol ini tidak tersedia berhubung keterbatasan lisensi."
@@ -2542,16 +2598,10 @@ msgstr "TOTP berbasis 2FA sudah dinonaktifkan."
 msgid "TOTP based 2FA is already enabled."
 msgstr "TOTP berbasis 2FA sudah diaktifkan."
 
-msgid "Take Profit"
-msgstr "Take Profit"
-
 #, fuzzy
 #| msgid "Take Profit"
 msgid "Take profit"
 msgstr "Take Profit"
-
-msgid "Take profit can not have more than %1 decimal places."
-msgstr "Take profit tidak boleh memiliki lebih dari %1 desimal."
 
 msgid "Tax identification number"
 msgstr "Nomor Pokok Wajib Pajak"
@@ -2792,6 +2842,9 @@ msgstr "Mata uang %1 bukan merupakan mata uang asal"
 msgid "The requested service is unavailable at the moment."
 msgstr "Layanan yang diminta saat ini tidak tersedia."
 
+msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
+msgstr ""
+
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "Pajak tempat tinggal yang diberikan \"%1\" adalah negara terbatas."
 
@@ -2870,6 +2923,12 @@ msgstr "Ini tidak dapat dibatalkan karena order sudah terproses"
 msgid "This contract cannot be properly validated at this time."
 msgstr "Kontrak tidak dapat divalidasi untuk saat ini."
 
+msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
+msgstr ""
+
+msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
+msgstr ""
+
 msgid "This contract has already expired."
 msgstr "Kontrak ini telah berakhir."
 
@@ -2929,6 +2988,11 @@ msgstr "Pasar ini sedang ditutup. Silahkan coba Indeks Sintetis yang selalu ters
 #| msgid "This payment method is invalid"
 msgid "This payment method is invalid."
 msgstr "Metode pembayaran ini tidak berlaku"
+
+#, fuzzy
+#| msgid "This account is unavailable."
+msgid "This symbol is not available."
+msgstr "Akun ini tidak tersedia."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Kontrak ini sementara tidak tersedia."
@@ -3167,18 +3231,6 @@ msgstr "Hingga 100 token diperbolehkan."
 
 msgid "Up/Down"
 msgstr "Up/Down"
-
-msgid "Update is not allowed for this contract."
-msgstr "Pembaruan tidak diizinkan untuk kontrak ini."
-
-msgid "Update is not allowed for this contract. Allowed updates %1"
-msgstr "Pembaruan tidak diizinkan untuk kontrak ini. Pembaruan yang diizinkan %1"
-
-msgid "Update only accepts hash reference as input parameter."
-msgstr "Pembaruan hanya menerima referensi hash sebagai parameter input."
-
-msgid "Update value accepts number or null"
-msgstr "Nilai pembaruan menerima angka atau nol"
 
 #, fuzzy
 #| msgid "There was a problem validating your personal details."
@@ -3801,8 +3853,17 @@ msgstr "Anda tidak dapat mengubah detail akun ini."
 msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr "Maaf, terjadi kesalahan. Silakan coba kembali nanti."
 
+msgid "You may update your stop loss amount after deal cancellation has expired."
+msgstr ""
+
+msgid "You may update your take profit amount after deal cancellation has expired."
+msgstr ""
+
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "Anda dapat mengunggah salinan semua dokumen yang diperlukan langsung dari akun uang riil Anda di %1."
+
+msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
+msgstr ""
 
 msgid "You need to set your residence in order to use this feature."
 msgstr ""
@@ -9785,6 +9846,9 @@ msgstr "hari ini, Jumat"
 #~ msgid "Commission Rates"
 #~ msgstr "Kadar Komisi"
 
+#~ msgid "Commission is not defined for %1."
+#~ msgstr "Komisi belum ditentukan untuk %1."
+
 #~ msgid "Commission on deposits"
 #~ msgstr "Komisi pada deposit"
 
@@ -14160,6 +14224,9 @@ msgstr "hari ini, Jumat"
 #~ msgid "Invalid sub account type."
 #~ msgstr "Jenis sub akun tidak berlaku."
 
+#~ msgid "Invalid take profit. Take profit cannot be more than 100 times of stake."
+#~ msgstr "Take profit tidak berlaku. Take profit tidak dapat lebig dari 100 kali modal."
+
 #~ msgid "Invalid telephone number"
 #~ msgstr "Nomor telepon salah"
 
@@ -15275,6 +15342,9 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Limit"
 #~ msgstr "Batas"
+
+#~ msgid "Limit order amount cannot be zero."
+#~ msgstr "Jumlah limit order tidak boleh nol."
 
 #~ msgid "Limit your risk up front"
 #~ msgstr "Batasi resiko anda awal"
@@ -17407,9 +17477,6 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Please enter a number greater or equal to %1."
 #~ msgstr "Masukkan angka lebih besar atau sama dengan %1."
-
-#~ msgid "Please enter a numeric value."
-#~ msgstr "Masukkan nilai numerik."
 
 #~ msgid "Please enter a positive numeric value."
 #~ msgstr "Silakan masukkan nilai numerik positif."
@@ -19836,6 +19903,9 @@ msgstr "hari ini, Jumat"
 #~ msgid "Stake %1 is too small"
 #~ msgstr "Modal %1 terlalu rendah"
 
+#~ msgid "Stake must be at least %1 1."
+#~ msgstr "Modal minimal %1 1."
+
 #~ msgid "Stake must be at least <strong>%1</strong>."
 #~ msgstr "Modal minimal harus <strong>%1</strong>."
 
@@ -20002,6 +20072,9 @@ msgstr "hari ini, Jumat"
 #~ msgid "Stocks trading frequency"
 #~ msgstr "Frekuensi trading saham"
 
+#~ msgid "Stop Loss"
+#~ msgstr "Stop Loss"
+
 #~ msgid "Stop Loss Level"
 #~ msgstr "Tingkat Stop Loss"
 
@@ -20013,6 +20086,9 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Stop Profit must be between %1 and %2 %3"
 #~ msgstr "Stop Profit harus antara %1 dan %2 %3"
+
+#~ msgid "Stop loss can not have more than %1 decimal places."
+#~ msgstr "Stop loss tidak dapat memiliki lebih dari %1 desimal."
 
 #~ msgid "Stop-loss:"
 #~ msgstr "Stop-loss:"
@@ -20212,8 +20288,14 @@ msgstr "hari ini, Jumat"
 #~ msgid "Table format"
 #~ msgstr "Format Tabel"
 
+#~ msgid "Take Profit"
+#~ msgstr "Take Profit"
+
 #~ msgid "Take advantage of %1's 'no slippage, no gap risk, no hidden fees' platform."
 #~ msgstr "Gunakan kelebihan platform %1 tanpa slippage, tanpa resiko gap, tanpa biaya tambahan."
+
+#~ msgid "Take profit can not have more than %1 decimal places."
+#~ msgstr "Take profit tidak boleh memiliki lebih dari %1 desimal."
 
 #~ msgid "Talk to us"
 #~ msgstr "Hubungi kami"
@@ -22407,8 +22489,17 @@ msgstr "hari ini, Jumat"
 #~ msgid "Update failed.  Request support."
 #~ msgstr "Pembaruan gagal.  Mohon bantuan."
 
+#~ msgid "Update is not allowed for this contract."
+#~ msgstr "Pembaruan tidak diizinkan untuk kontrak ini."
+
+#~ msgid "Update is not allowed for this contract. Allowed updates %1"
+#~ msgstr "Pembaruan tidak diizinkan untuk kontrak ini. Pembaruan yang diizinkan %1"
+
 #~ msgid "Update the Anti-Fraud Manual and other related documents"
 #~ msgstr "Memperbarui panduan Anti-Penipuan dan dokumen terkait lainnya"
+
+#~ msgid "Update value accepts number or null"
+#~ msgstr "Nilai pembaruan menerima angka atau nol"
 
 #~ msgid "Upgrade"
 #~ msgstr "Peningkatan"
