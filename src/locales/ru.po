@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: BOM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2020-03-03 20:06+0000\n"
+"PO-Revision-Date: 2020-03-14 21:25+0000\n"
 "Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/"
+"translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0-dev\n"
 
 msgid "%1"
@@ -472,10 +474,8 @@ msgstr "Извините, но контракт не может быть про�
 msgid "Contract has expired."
 msgstr "Контракт закончился."
 
-#, fuzzy
-#| msgid "Contract id is required to update contract"
 msgid "Contract id is required to cancel contract"
-msgstr "Для обновления контракта необходимо указать его номер"
+msgstr "Для отмены контракта необходимо указать его номер"
 
 msgid "Contract id is required to update contract"
 msgstr "Для обновления контракта необходимо указать его номер"
@@ -490,10 +490,8 @@ msgstr "Контракт не должен истекать между %1 и %2.
 msgid "Contract must expire during trading hours."
 msgstr "Контракт должен заканчиваться в торговые часы."
 
-#, fuzzy
-#| msgid "No open contract found for contract id: %1."
 msgid "Contract not found for contract id: %1."
-msgstr "Не удалось найти открытый контракт под номером: %1."
+msgstr "Не удалось найти контракт под номером: %1."
 
 msgid "Contract price cannot be zero."
 msgstr "Цена контракта не может быть равна нулю."
@@ -573,18 +571,16 @@ msgstr "Дата рождения"
 msgid "Date of birth is invalid."
 msgstr "Дата рождения недействительна."
 
-#, fuzzy
-#| msgid "No information is available for this contract."
 msgid "Deal cancellation is not available for this contract."
-msgstr "Информация о данном контракте недоступна."
+msgstr "Для данного контракта опция отмены недоступна."
 
-#, fuzzy
-#| msgid "Trading is not offered for this duration."
 msgid "Deal cancellation is not offered at this duration."
-msgstr "Контракты не предлагаются на данный период."
+msgstr "Опция отмены недоступна для выбранной длительности."
 
 msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
 msgstr ""
+"Срок отмены сделки истек. Ваш контракт может быть отменен только при "
+"активной функции отмены сделки."
 
 msgid "Dear %1 %2 %3,"
 msgstr "Уважаемый(ая) %1 %2 %3,"
@@ -1392,15 +1388,12 @@ msgstr "Неправильная сессия."
 msgid "Invalid stake/payout."
 msgstr "Неправильная ставка/выплата."
 
-#, fuzzy
-#| msgid "Invalid stop loss. Stop loss must be lower than %1."
 msgid "Invalid stop loss. Stop loss cannot be more than stake."
-msgstr "Неправильный стоп-лосс. Уровень стоп-лосс должен быть ниже %1."
+msgstr "Неправильный стоп-лосс. Стоп-лосс не может быть больше ставки."
 
-#, fuzzy
-#| msgid "Invalid stop loss. Stop loss must be lower than %1."
 msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "Неправильный стоп-лосс. Уровень стоп-лосс должен быть ниже %1."
+msgstr ""
+"Неправильный стоп-лосс. Уровень стоп-лосс должен быть выше комиссии (%1)."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Неправильный стоп-аут. Размер стоп-аута должен быть %1 текущей спот-цены. Пожалуйста, настройте ставку или множитель."
@@ -1705,10 +1698,8 @@ msgstr "Нефть/GBP"
 msgid "Oil/USD"
 msgstr "Нефть/USD"
 
-#, fuzzy
-#| msgid "Only 3 decimal places are allowed."
 msgid "Only %1 decimal places allowed."
-msgstr "Разрешены лишь 3 десятичные."
+msgstr "Разрешены только %1 десятичных."
 
 msgid "Only 3 decimal places are allowed."
 msgstr "Разрешены лишь 3 десятичные."
@@ -1722,10 +1713,8 @@ msgstr "Только вверх"
 msgid "Only Ups/Only Downs"
 msgstr "Только вверх/Только вниз"
 
-#, fuzzy
-#| msgid "Update only accepts hash reference as input parameter."
 msgid "Only a hash reference input is accepted."
-msgstr "Обновления допускают только hash reference в качестве параметра ввода."
+msgstr "Допускается только hash reference в качестве параметра ввода."
 
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr "Разрешена лишь сумма с 2 десятичными."
@@ -1739,10 +1728,8 @@ msgstr "Разрешено только одно обновление в сек�
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Разрешены лишь порты 80 и 443"
 
-#, fuzzy
-#| msgid "Only 3 decimal places are allowed."
 msgid "Only updates to these parameters are allowed %1."
-msgstr "Разрешены лишь 3 десятичные."
+msgstr "Допускается обновление только этих параметров %1."
 
 msgid "Open an Account"
 msgstr "Открыть счет"
@@ -1917,10 +1904,10 @@ msgstr "Чтобы продолжить, пройдите процесс авт�
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr "Чтобы продолжить, пройдите процесс авторизации счёта"
 
-#, fuzzy
-#| msgid "Please authenticate your account to enable withdrawals and transfers"
 msgid "Please authenticate your account to proceed with withdrawals."
-msgstr "Чтобы продолжить, пройдите процесс авторизации счёта"
+msgstr ""
+"Чтобы продолжить вывод средств, пожалуйста, пройдите процесс авторизации "
+"счёта."
 
 msgid "Please authenticate your account."
 msgstr "Пожалуйста, пройдите процесс авторизации счёта."
@@ -1946,10 +1933,8 @@ msgstr "Перед тем, как продолжить, пожалуйста, у
 msgid "Please enter a number between %1 and %2."
 msgstr "Пожалуйста, введите цифру от %1 до %2."
 
-#, fuzzy
-#| msgid "Please enter a numeric value."
 msgid "Please enter a number or a null value."
-msgstr "Пожалуйста, введите числовое значение."
+msgstr "Пожалуйста, введите числовое или нулевое значение."
 
 #, fuzzy
 #| msgid "Please enter a valid amount to transfer."
@@ -2497,8 +2482,6 @@ msgstr "Step-индексы"
 msgid "Stop loss"
 msgstr "Стоп-лосс"
 
-#, fuzzy
-#| msgid "Stop Out"
 msgid "Stop out"
 msgstr "Стоп-аут"
 
@@ -2591,6 +2574,8 @@ msgstr "Этот адрес используется для депозитной
 
 msgid "The address you entered appears to be the same as the account you're withdrawing from. Please enter a different account address."
 msgstr ""
+"Введенный вами адрес совпадает с адресом, с которого вы совершаете вывод. "
+"Пожалуйста, введите другой адрес."
 
 msgid "The advert is inactive and cannot be changed."
 msgstr "Адверт неактивен и не может быть изменён."
@@ -2602,7 +2587,7 @@ msgid "The advertiser name cannot be blank."
 msgstr "Имя адверта не может быть пустым."
 
 msgid "The advertiser name is already taken. Please choose another."
-msgstr ""
+msgstr "Это имя адвертайзера уже занято. Пожалуйста, выберите другое имя."
 
 msgid "The amount exceeds the maximum limit."
 msgstr "Сумма превышает максимальный лимит."
@@ -2735,6 +2720,9 @@ msgstr "Запрошенный сервис в данный момент нед�
 
 msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
 msgstr ""
+"Спот-цена изменилась. Мы не закрыли этот контракт, потому что ваша прибыль "
+"отрицательна, и функция отмена сделки активна. Отмените контракт, чтобы "
+"вернуть свою полную ставку."
 
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "Налоговая регистрация \"%1\" находится в запрещённой стране."
@@ -2787,10 +2775,8 @@ msgstr "На счёте MT5 указана неправильная основн
 msgid "This account does not allow MT5 trading. Please log in to the correct account."
 msgstr "Данный счёт не разрешает работу на MT5. Пожалуйста, войдите на правильный счёт."
 
-#, fuzzy
-#| msgid "This account is not registered as a P2P advertiser."
 msgid "This account has already been registered as a P2P advertiser."
-msgstr "Данный счёт не зарегистрирован на адвертайзера P2P."
+msgstr "Данный счёт уже зарегистрирован на адвертайзера P2P."
 
 msgid "This account has been disabled."
 msgstr "Счёт деактивирован."
@@ -2815,9 +2801,13 @@ msgstr "Покупка контракта не может быть заверш�
 
 msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
 msgstr ""
+"Вы не можете обновить параметры контракта после его покупки. Данная функция "
+"недоступна для этого вида контрактов."
 
 msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
 msgstr ""
+"Функция отмены недоступна на этом контракте. Вы можете выбрать и "
+"активировать функцию отмены контракта только до его покупки."
 
 msgid "This contract has already expired."
 msgstr "Этот контракт уже закончил свое действие."
@@ -2873,10 +2863,8 @@ msgstr "Данный рынок в настоящее время закрыт. �
 msgid "This payment method is invalid."
 msgstr "Данный платёжный метод недействителен."
 
-#, fuzzy
-#| msgid "This account is unavailable."
 msgid "This symbol is not available."
-msgstr "Данный счёт недоступен."
+msgstr "Данный символ недоступен."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Данный контракт временно недоступен."
@@ -3709,10 +3697,10 @@ msgstr "Вы можете проигнорировать данное сообщ
 msgid "You may not change these account details."
 msgstr "Вы не можете изменить данные счёта."
 
-#, fuzzy
-#| msgid "Sorry, an error occurred. Please try again later."
 msgid "You may only place %1 orders every 24 hours. Please try again later."
-msgstr "Извините, произошла ошибка. Пожалуйста, повторите попытку позже."
+msgstr ""
+"Вы можете размещать только %1 ордеров каждые 24 часа. Пожалуйста, повторите "
+"попытку позже."
 
 msgid "You may update your stop loss amount after deal cancellation has expired."
 msgstr ""
@@ -3725,6 +3713,8 @@ msgstr "Вы можете загрузить копии всех необход�
 
 msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
 msgstr ""
+"Вы не можете одновременно использовать стоп-лосс и отмену сделки. "
+"Пожалуйста, выберите одну из функций."
 
 msgid "You need to set your residence in order to use this feature."
 msgstr "Чтобы воспользоваться данной функцией, необходимо указать страну проживания."
