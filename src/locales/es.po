@@ -192,9 +192,6 @@ msgstr "Reconocimiento de la solicitud de retirada"
 msgid "Address"
 msgstr "Domicilio"
 
-msgid "Advert contact information is required for sell adverts."
-msgstr "La información de contacto del anuncio es necesaria para vender anuncios."
-
 msgid "Advert is inactive."
 msgstr "Anuncio está inactivo."
 
@@ -203,9 +200,6 @@ msgstr "El precio mínimo del anuncio es cero. Ajuste la cantidad o tasa mínima
 
 msgid "Advert not found."
 msgstr "Anuncio no encontrado."
-
-msgid "Advert payment information is required for sell adverts."
-msgstr "Se requiere información de pago de anuncios para vender anuncios."
 
 msgid "Advert rate should not be less than %1. Please adjust the value."
 msgstr "La tasa de anuncio no debe ser inferior a %1. Por favor, ajuste el valor."
@@ -458,6 +452,16 @@ msgstr "Las materias primas son productos de comercialización con cualidades di
 
 msgid "Connection closed"
 msgstr "Conexión cerrada"
+
+#, fuzzy
+#| msgid "Payment agent facilities are not available for this account."
+msgid "Contact and payment information are not applicable for this ad."
+msgstr "Los recursos de agentes de pagos no están disponibles para esta cuenta."
+
+#, fuzzy
+#| msgid "Order payment information is required for sell orders."
+msgid "Contact and payment information are not applicable for this order."
+msgstr "Se requiere información de pago de la orden para las órdenes de venta."
 
 msgid "Continuous Indices"
 msgstr "Índices Continuos"
@@ -1739,14 +1743,8 @@ msgstr "O"
 msgid "Or use your social account"
 msgstr "O usa su cuenta social"
 
-msgid "Order contact information is required for sell orders."
-msgstr "Se requiere la información de contacto de la orden para las órdenes de venta."
-
 msgid "Order not found."
 msgstr "Orden no encontrada."
-
-msgid "Order payment information is required for sell orders."
-msgstr "Se requiere información de pago de la orden para las órdenes de venta."
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -1818,12 +1816,6 @@ msgstr "Las transferencias de agentes de pagos se encuentran temporalmente no di
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "Los retiros a través de agentes de pagos no están permitidos para las cuentas especificadas."
-
-msgid "Payment and contact information cannot be specified for buy advert."
-msgstr "El pago y la información de contacto no se pueden especificar para comprar anuncios."
-
-msgid "Payment and contact information cannot be specified for buy order."
-msgstr "La información de pago y contacto no se puede especificar para la orden de compra."
 
 msgid "Payments"
 msgstr "Pagos"
@@ -1977,6 +1969,16 @@ msgstr "Ayúdenos a verificar su identidad ingresando el siguiente token de veri
 
 msgid "Please help us to verify your identity by entering the following verification token into the payment withdrawal form:"
 msgstr "Ayúdenos a verificar su identidad ingresando el siguiente token de verificación en el formulario de retiro de pago:"
+
+#, fuzzy
+#| msgid "Read your trading information"
+msgid "Please include your contact information."
+msgstr "Lea su información comercial"
+
+#, fuzzy
+#| msgid "Read your trading information"
+msgid "Please include your payment information."
+msgstr "Lea su información comercial"
 
 msgid "Please let us know right away."
 msgstr "Por favor, háganos saber de inmediato."
@@ -2749,6 +2751,9 @@ msgstr "Esta cuenta no está disponible."
 msgid "This address can only be used once to make a deposit."
 msgstr "Esta dirección solo se puede usar una vez para hacer deposito."
 
+msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
+msgstr ""
+
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Esta cantidad es demasiado baja. Por favor, introduzca un mínimo de %1 %2."
 
@@ -3229,6 +3234,12 @@ msgstr "Nos complace informarle que hemos verificado su edad e identidad."
 msgid "We're sorry you're leaving"
 msgstr "Sentimos que se vaya"
 
+msgid "We're unable to process this transfer because the client's resident country is not within your portfolio. Please contact %1 for more info."
+msgstr ""
+
+msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
+msgstr ""
+
 msgid "We've completed"
 msgstr "Hemos finalizado"
 
@@ -3528,9 +3539,6 @@ msgstr "No puede crear una orden para su propio anuncio."
 msgid "You cannot create an order with a different currency than your account."
 msgstr "No puede crear una orden con una moneda diferente a su cuenta."
 
-msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
-msgstr "No puede eliminar un anuncio con órdenes abiertas. Asegúrese de que el anuncio esté desactivado y espere hasta que se cierren todas las órdenes."
-
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Usted no puede retirar dinero hacia a la cuenta %1, dado que la cuenta del agente de pago se encuentra deshabilitada."
 
@@ -3573,17 +3581,11 @@ msgstr "No es posible realizar esta acción, por favor, ajuste su residencia."
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "No puede retirar dinero a la cuenta %1, ya que los documentos de verificación del agente de pagos han expirado."
 
-msgid "You cannot transfer to a client in a different country of residence."
-msgstr "Usted no puede realizar transferencias a un cliente con un país de residencia diferente."
-
 msgid "You cannot transfer to account %1"
 msgstr "No puede transferir a la cuenta %1"
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Usted no puede transferir a la cuenta %1, dado que los documentos de verificación expiraron."
-
-msgid "You cannot withdraw from a payment agent in a different country of residence."
-msgstr "Usted no puede efectuar retiros de un agente de pagos de un país de residencia diferente."
 
 msgid "You cannot withdraw funds to the same account."
 msgstr "No es posible retirar fondos para la misma cuenta."
@@ -7116,6 +7118,12 @@ msgstr "hoy, viernes"
 
 #~ msgid "Advanced tool for active traders"
 #~ msgstr "Herramienta avanzada para comerciantes activos"
+
+#~ msgid "Advert contact information is required for sell adverts."
+#~ msgstr "La información de contacto del anuncio es necesaria para vender anuncios."
+
+#~ msgid "Advert payment information is required for sell adverts."
+#~ msgstr "Se requiere información de pago de anuncios para vender anuncios."
 
 #~ msgid "Advising senior managers regarding salary negotiations and job offers"
 #~ msgstr "Asesoramiento de los altos directivos relacionado con las negociaciones salariales y ofertas de trabajo"
@@ -15378,6 +15386,9 @@ msgstr "hoy, viernes"
 #~ msgid "Order cannot be completed in its current state."
 #~ msgstr "La orden no puede completarse en su estado actual."
 
+#~ msgid "Order contact information is required for sell orders."
+#~ msgstr "Se requiere la información de contacto de la orden para las órdenes de venta."
+
 #~ msgid "Order currency is different from account currency."
 #~ msgstr "La moneda de la orden es diferente de la moneda de la cuenta."
 
@@ -15689,6 +15700,12 @@ msgstr "hoy, viernes"
 
 #~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 #~ msgstr "La transferencia del agente de pagos no está permitida en la cantidad especificada, dado que el saldo de la cuenta %1 excedería los límites establecidos."
+
+#~ msgid "Payment and contact information cannot be specified for buy advert."
+#~ msgstr "El pago y la información de contacto no se pueden especificar para comprar anuncios."
+
+#~ msgid "Payment and contact information cannot be specified for buy order."
+#~ msgstr "La información de pago y contacto no se puede especificar para la orden de compra."
 
 #~ msgid "Payment error"
 #~ msgstr "Error en el pago"
@@ -21896,6 +21913,9 @@ msgstr "hoy, viernes"
 #~ msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 #~ msgstr "Puede usar los agentes de pagos para realizar depósitos y retiros de dinero con métodos de pago o en divisas locales que no se admiten en %1. Es sencillo."
 
+#~ msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
+#~ msgstr "No puede eliminar un anuncio con órdenes abiertas. Asegúrese de que el anuncio esté desactivado y espere hasta que se cierren todas las órdenes."
+
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "Usted no puede retirar dinero hacia la cuenta %1, dado que la cuenta del agente de pago está marcada como no deseada."
 
@@ -21908,6 +21928,9 @@ msgstr "hoy, viernes"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "No es posible realizar esta acción, dado que su cuenta %1 está marcada como no deseada."
 
+#~ msgid "You cannot transfer to a client in a different country of residence."
+#~ msgstr "Usted no puede realizar transferencias a un cliente con un país de residencia diferente."
+
 #~ msgid "You cannot transfer to account %1, as their account is currently disabled."
 #~ msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
 
@@ -21916,6 +21939,9 @@ msgstr "hoy, viernes"
 
 #~ msgid "You cannot transfer to account %1, as their cashier is locked."
 #~ msgstr "Usted no puede transferir a la cuenta %1, dado que el cajero de esta cuenta se encuentra bloqueado."
+
+#~ msgid "You cannot withdraw from a payment agent in a different country of residence."
+#~ msgstr "Usted no puede efectuar retiros de un agente de pagos de un país de residencia diferente."
 
 #~ msgid "You clicked on an expired link. If you have already clicked on this link, it has been <b>disabled for security reasons</b>. Please re request change of password.<br /><br /> Your account is important to us. If you require further assistance, please contact our <a href=\"%1\" target=\"_blank\"><strong>Customer Support</strong></a>."
 #~ msgstr "Usted ha hecho clic en un enlace expirado. Si usted ya hizo clic en él, este ha sido <b>deshabilitado por razones de seguridad</b>. Por favor, vuelva a solicitar un cambio de contraseña. <br /><br /> Su cuenta es importante para nosotros. En caso de requerir más asistencia, por favor comuníquese con nuestro <a href=\"%1\" target=\"_blank\"><strong>servicio de atención al cliente</strong></a>."

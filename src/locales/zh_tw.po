@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2020-03-24 20:06+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hant/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -188,9 +187,6 @@ msgstr "確認提款要求"
 msgid "Address"
 msgstr "地址"
 
-msgid "Advert contact information is required for sell adverts."
-msgstr "銷售廣告需有廣告聯繫訊息。"
-
 msgid "Advert is inactive."
 msgstr "廣告已停用。"
 
@@ -199,9 +195,6 @@ msgstr "廣告最低價為零。請調整最小金額或費率。"
 
 msgid "Advert not found."
 msgstr "無法找到廣告。"
-
-msgid "Advert payment information is required for sell adverts."
-msgstr "銷售廣告需有廣告付款訊息。"
 
 msgid "Advert rate should not be less than %1. Please adjust the value."
 msgstr "廣告費率不可小於%1。請更改數值。"
@@ -455,6 +448,16 @@ msgstr "商品是指可直接使用的交易品種。"
 
 msgid "Connection closed"
 msgstr "連接已關閉"
+
+#, fuzzy
+#| msgid "Payment agent facilities are not available for this account."
+msgid "Contact and payment information are not applicable for this ad."
+msgstr "此帳戶無可用支付代理設施。"
+
+#, fuzzy
+#| msgid "Order payment information is required for sell orders."
+msgid "Contact and payment information are not applicable for this order."
+msgstr "銷售訂單需有訂單付款訊息。"
 
 msgid "Continuous Indices"
 msgstr "連續指數"
@@ -1733,14 +1736,8 @@ msgstr "或"
 msgid "Or use your social account"
 msgstr "或使用社交帳戶"
 
-msgid "Order contact information is required for sell orders."
-msgstr "銷售訂單需有訂單聯繫訊息。"
-
 msgid "Order not found."
 msgstr "無法找到訂單。"
-
-msgid "Order payment information is required for sell orders."
-msgstr "銷售訂單需有訂單付款訊息。"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -1812,12 +1809,6 @@ msgstr "客戶居住國暫時不能用支付代理轉帳。"
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "指定帳戶不允許支付代理提款。"
-
-msgid "Payment and contact information cannot be specified for buy advert."
-msgstr "買入廣告不可指定付款和聯繫訊息。"
-
-msgid "Payment and contact information cannot be specified for buy order."
-msgstr "買入訂單不可指定付款和聯繫訊息。"
 
 msgid "Payments"
 msgstr "支付"
@@ -1971,6 +1962,16 @@ msgstr "請在付款代理取款表格內輸入以下驗證權杖，以便我們
 
 msgid "Please help us to verify your identity by entering the following verification token into the payment withdrawal form:"
 msgstr "請在取款表格內輸入以下驗證權杖，以便我們對您的身份進行驗證："
+
+#, fuzzy
+#| msgid "Read your trading information"
+msgid "Please include your contact information."
+msgstr "閱讀您的交易資訊"
+
+#, fuzzy
+#| msgid "Read your trading information"
+msgid "Please include your payment information."
+msgstr "閱讀您的交易資訊"
 
 msgid "Please let us know right away."
 msgstr "請立刻通知我們。"
@@ -2743,6 +2744,9 @@ msgstr "此帳戶不可使用。"
 msgid "This address can only be used once to make a deposit."
 msgstr "作為存款用途，此地址僅可使用一次。"
 
+msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
+msgstr ""
+
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "此數額過低，請輸入至少%1 %2。"
 
@@ -3223,6 +3227,12 @@ msgstr "很高興通知您，您的年齡和身份已通過驗證。"
 msgid "We're sorry you're leaving"
 msgstr "您決定離開，我們很遺憾"
 
+msgid "We're unable to process this transfer because the client's resident country is not within your portfolio. Please contact %1 for more info."
+msgstr ""
+
+msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
+msgstr ""
+
 msgid "We've completed"
 msgstr "我們已完成"
 
@@ -3520,9 +3530,6 @@ msgstr "您不可為自己的廣告下訂單。"
 msgid "You cannot create an order with a different currency than your account."
 msgstr "不可用與帳戶不同的貨幣下訂單。"
 
-msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
-msgstr "您無法刪除未結訂單的廣告。 請確保停止廣告，然後等待所有訂單平倉。"
-
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已禁用。"
 
@@ -3565,17 +3572,11 @@ msgstr "您不能執行此操作，請先設定您的居住地。"
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "%1帳戶無法提款，因付款代理的驗證文件已過期。"
 
-msgid "You cannot transfer to a client in a different country of residence."
-msgstr "您不能轉帳給不同國家居民的客戶。"
-
 msgid "You cannot transfer to account %1"
 msgstr "您不能轉帳至帳戶%1"
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "您不能轉帳至帳戶%1，因為其驗證文件已過期。"
-
-msgid "You cannot withdraw from a payment agent in a different country of residence."
-msgstr "您不能向不同國家居民的支付代理提款。"
 
 msgid "You cannot withdraw funds to the same account."
 msgstr "不可轉帳到相同帳戶。"
@@ -5726,6 +5727,12 @@ msgstr "今天，每星期五"
 
 #~ msgid "Advanced tool for active traders"
 #~ msgstr "活躍交易員專用的高級工具"
+
+#~ msgid "Advert contact information is required for sell adverts."
+#~ msgstr "銷售廣告需有廣告聯繫訊息。"
+
+#~ msgid "Advert payment information is required for sell adverts."
+#~ msgstr "銷售廣告需有廣告付款訊息。"
 
 #~ msgid "Advising senior managers regarding salary negotiations and job offers"
 #~ msgstr "向高級管理人員提供關於薪金協商和錄取人員的建議"
@@ -12128,6 +12135,9 @@ msgstr "今天，每星期五"
 #~ msgid "Order cannot be completed in its current state."
 #~ msgstr "訂單目前狀態不可完成。"
 
+#~ msgid "Order contact information is required for sell orders."
+#~ msgstr "銷售訂單需有訂單聯繫訊息。"
+
 #~ msgid "Order currency is different from account currency."
 #~ msgstr "訂單貨幣與帳戶貨幣不相符。"
 
@@ -12362,6 +12372,12 @@ msgstr "今天，每星期五"
 
 #~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 #~ msgstr "不允許付款代理處理指定金額，因帳戶%1餘額將超出允許的限額。"
+
+#~ msgid "Payment and contact information cannot be specified for buy advert."
+#~ msgstr "買入廣告不可指定付款和聯繫訊息。"
+
+#~ msgid "Payment and contact information cannot be specified for buy order."
+#~ msgstr "買入訂單不可指定付款和聯繫訊息。"
 
 #~ msgid "Payment error"
 #~ msgstr "支付出錯"
@@ -16822,6 +16838,9 @@ msgstr "今天，每星期五"
 #~ msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 #~ msgstr "對於不受 %1  支持的支付方式或本地貨幣， 您可使用授權支付代理輕鬆處理存款和取款。"
 
+#~ msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
+#~ msgstr "您無法刪除未結訂單的廣告。 請確保停止廣告，然後等待所有訂單平倉。"
+
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已被標記為不受歡迎。"
 
@@ -16834,11 +16853,17 @@ msgstr "今天，每星期五"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "您不能執行此操作，因為您的帳戶%1已被標記為不受歡迎。"
 
+#~ msgid "You cannot transfer to a client in a different country of residence."
+#~ msgstr "您不能轉帳給不同國家居民的客戶。"
+
 #~ msgid "You cannot transfer to account %1, as their account is currently disabled."
 #~ msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
 
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "您不能轉帳至帳戶%1，因為該帳戶已被標記為不受歡迎。"
+
+#~ msgid "You cannot withdraw from a payment agent in a different country of residence."
+#~ msgstr "您不能向不同國家居民的支付代理提款。"
 
 #~ msgid "You did not change anything."
 #~ msgstr "您沒做任何更改。"

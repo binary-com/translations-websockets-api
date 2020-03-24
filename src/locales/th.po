@@ -208,9 +208,6 @@ msgstr "การตอบรับของการแจ้งถอนเง
 msgid "Address"
 msgstr "ที่อยู่"
 
-msgid "Advert contact information is required for sell adverts."
-msgstr ""
-
 msgid "Advert is inactive."
 msgstr ""
 
@@ -221,9 +218,6 @@ msgstr ""
 #| msgid "Not Found"
 msgid "Advert not found."
 msgstr "ไม่พบ"
-
-msgid "Advert payment information is required for sell adverts."
-msgstr ""
 
 #, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
@@ -530,6 +524,16 @@ msgstr "สินค้าโภคภัณฑ์ถูกซื้อขาย
 
 msgid "Connection closed"
 msgstr "ปิดการเชื่อมต่อ"
+
+#, fuzzy
+#| msgid "Payment agent facilities are not available for this account."
+msgid "Contact and payment information are not applicable for this ad."
+msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับบัญชีนี้"
+
+#, fuzzy
+#| msgid "Payment agent facilities are not available for this account."
+msgid "Contact and payment information are not applicable for this order."
+msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับบัญชีนี้"
 
 msgid "Continuous Indices"
 msgstr "ดัชนีต่อเนื่อง"
@@ -1923,16 +1927,10 @@ msgstr "หรือ"
 msgid "Or use your social account"
 msgstr "ลงชื่อเข้าใช้โดยใช้บัญชีเครือข่ายสังคมออนไลน์"
 
-msgid "Order contact information is required for sell orders."
-msgstr ""
-
 #, fuzzy
 #| msgid "Not Found"
 msgid "Order not found."
 msgstr "ไม่พบ"
-
-msgid "Order payment information is required for sell orders."
-msgstr ""
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2010,12 +2008,6 @@ msgstr "ไม่สามารถใช้บริการการโอน
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "ไม่อนุญาตให้ตัวแทนชำระเงินถอนเงินสำหรับบัญชีที่กำหนดไว้"
-
-msgid "Payment and contact information cannot be specified for buy advert."
-msgstr ""
-
-msgid "Payment and contact information cannot be specified for buy order."
-msgstr ""
 
 msgid "Payments"
 msgstr "การชำระเงิน"
@@ -2243,6 +2235,16 @@ msgstr ""
 "โทเค่น: %1\n"
 "\n"
 "แบบฟอร์มการตั้งรหัสผ่านใหม่: %2"
+
+#, fuzzy
+#| msgid "update your tax information"
+msgid "Please include your contact information."
+msgstr "ปรับปรุงแก้ไขข้อมูลภาษีของท่าน"
+
+#, fuzzy
+#| msgid "update your tax information"
+msgid "Please include your payment information."
+msgstr "ปรับปรุงแก้ไขข้อมูลภาษีของท่าน"
 
 msgid "Please let us know right away."
 msgstr ""
@@ -3121,6 +3123,9 @@ msgstr "บัญชีนี้ไม่สามารถใช้งานไ
 msgid "This address can only be used once to make a deposit."
 msgstr "ที่อยู่ถูกใช้ได้เพียงครั้งเดียวต่อการฝากหนึ่งครั้ง"
 
+msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
+msgstr ""
+
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "จำนวนเงินต่ำเกินไป โปรดป้อนจำนวนเงินขั้นต่ำ %1 %2"
 
@@ -3659,6 +3664,12 @@ msgstr "เรายินดีที่จะแจ้งให้ท่าน
 msgid "We're sorry you're leaving"
 msgstr "เป็นความเสียใจของเราที่ทราบว่า ท่านต้องการยุติการใช้งาน"
 
+msgid "We're unable to process this transfer because the client's resident country is not within your portfolio. Please contact %1 for more info."
+msgstr ""
+
+msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
+msgstr ""
+
 msgid "We've completed"
 msgstr ""
 
@@ -3980,9 +3991,6 @@ msgstr "โปรดระบุสกุลเงินสำหรับบั
 msgid "You cannot create an order with a different currency than your account."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
 
-msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
-msgstr ""
-
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "ท่านไม่สามารถถอนเงินไปยังบัญชี %1 เนื่องจากบัญชีของตัวแทนรับชำระเงินไม่สามารถใช้งานได้ขณะนี้"
 
@@ -4027,9 +4035,6 @@ msgstr "ท่านไม่สามารถดำเนินการดั
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "ท่านไม่สามารถดำเนินการถอนเงินไปยังบัญชี %1 ได้ เนื่องจากเอกสารตัวแทนชำระเงินที่ได้รับการตรวจสอบหมดอายุ"
 
-msgid "You cannot transfer to a client in a different country of residence."
-msgstr "ท่านไม่สามารถดำเนินการโอนไปยังลูกค้าที่อยู่ต่างประเทศ"
-
 #, fuzzy
 #| msgid "You cannot transfer to account %1, as their cashier is locked."
 msgid "You cannot transfer to account %1"
@@ -4037,9 +4042,6 @@ msgstr "ท่านไม่สามารถดำเนินการโอ
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "ท่านไม่สามารถดำเนินการโอนไปยังบัญชี %1 เนื่องจากเอกสารที่ได้รับการตรวจสอบของบัญชีของเขาหมดอายุ"
-
-msgid "You cannot withdraw from a payment agent in a different country of residence."
-msgstr "ท่านไม่สามารถดำเนินการถอนเงินจากตัวแทนรับชำระเงินที่อยู่ต่างประเทศ"
 
 msgid "You cannot withdraw funds to the same account."
 msgstr "ท่านไม่สามารถถอนเงินไปยังบัญชีเดียวกัน"
@@ -14273,11 +14275,17 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "ท่านไม่สามารถดำเนินการดังกล่าวได้ เนื่องจากบัญชีของท่าน %1 ถูกตั้งสถานะปฏิเสธการดำเนินการ"
 
+#~ msgid "You cannot transfer to a client in a different country of residence."
+#~ msgstr "ท่านไม่สามารถดำเนินการโอนไปยังลูกค้าที่อยู่ต่างประเทศ"
+
 #~ msgid "You cannot transfer to account %1, as their account is currently disabled."
 #~ msgstr "ท่านไม่สามารถโอนไปบัญชี %1 เนื่องจากบัญชีของเขาไม่สามารถใช้งานได้ขณะนี้"
 
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "ท่านไม่สามารถดำเนินการโอนไปยังบัญชี %1 เนื่องจากบัญชีของเขาถูกกำหนดสถานะปฏิเสธการดำเนินการ"
+
+#~ msgid "You cannot withdraw from a payment agent in a different country of residence."
+#~ msgstr "ท่านไม่สามารถดำเนินการถอนเงินจากตัวแทนรับชำระเงินที่อยู่ต่างประเทศ"
 
 #~ msgid "You did not change anything."
 #~ msgstr "ท่านไม่ได้เปลี่ยนแปลงค่าใดๆ"

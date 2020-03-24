@@ -207,9 +207,6 @@ msgstr "Bestätigung des Auszahlungsantrags"
 msgid "Address"
 msgstr "Adresse"
 
-msgid "Advert contact information is required for sell adverts."
-msgstr ""
-
 msgid "Advert is inactive."
 msgstr ""
 
@@ -220,9 +217,6 @@ msgstr ""
 #| msgid "Not Found"
 msgid "Advert not found."
 msgstr "Nicht gefunden"
-
-msgid "Advert payment information is required for sell adverts."
-msgstr ""
 
 #, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
@@ -523,6 +517,16 @@ msgstr "Handelswaren sind gehandelte Artikel mit unmittelbar nutzbaren Qualität
 
 msgid "Connection closed"
 msgstr "Verbindung geschlossen"
+
+#, fuzzy
+#| msgid "Payment agent facilities are not available for this account."
+msgid "Contact and payment information are not applicable for this ad."
+msgstr "Für dieses Konto sind keine Zahlungsagenten-Einrichtungen vorhanden."
+
+#, fuzzy
+#| msgid "Payment agent facilities are not available for this account."
+msgid "Contact and payment information are not applicable for this order."
+msgstr "Für dieses Konto sind keine Zahlungsagenten-Einrichtungen vorhanden."
 
 msgid "Continuous Indices"
 msgstr "Laufende Indizes"
@@ -1930,16 +1934,10 @@ msgstr "Oder"
 msgid "Or use your social account"
 msgstr "Anmelden mit dem Sozialkonto"
 
-msgid "Order contact information is required for sell orders."
-msgstr ""
-
 #, fuzzy
 #| msgid "Not Found"
 msgid "Order not found."
 msgstr "Nicht gefunden"
-
-msgid "Order payment information is required for sell orders."
-msgstr ""
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -2019,12 +2017,6 @@ msgstr "Zahlungsagenten-Überweisungen sind im Wohnsitzland des Kunden vorüberg
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "Zahlungsagenten-Behebungen sind für angegebene Konten nicht erlaubt."
-
-msgid "Payment and contact information cannot be specified for buy advert."
-msgstr ""
-
-msgid "Payment and contact information cannot be specified for buy order."
-msgstr ""
 
 msgid "Payments"
 msgstr "Zahlungen"
@@ -2262,6 +2254,16 @@ msgstr ""
 "Token: %1\n"
 "\n"
 "Passwort Rücksetzungsformular: %2"
+
+#, fuzzy
+#| msgid "Further information"
+msgid "Please include your contact information."
+msgstr "Weitere Informationen"
+
+#, fuzzy
+#| msgid "Further information"
+msgid "Please include your payment information."
+msgstr "Weitere Informationen"
 
 #, fuzzy
 #| msgid "Please enter a town or city."
@@ -3156,6 +3158,9 @@ msgstr "Dieses Konto ist nicht vorhanden."
 msgid "This address can only be used once to make a deposit."
 msgstr "Die Adresse kann nur einmal verwendet werden. Bitte generieren Sie eine neue Adresse."
 
+msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
+msgstr ""
+
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Dieser Betrag ist zu niedrig. Bitte geben Sie mindestens %2 %1 ein."
 
@@ -3706,6 +3711,12 @@ msgstr ""
 msgid "We're sorry you're leaving"
 msgstr "Wir bedauern, dass Sie uns verlassen"
 
+msgid "We're unable to process this transfer because the client's resident country is not within your portfolio. Please contact %1 for more info."
+msgstr ""
+
+msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
+msgstr ""
+
 msgid "We've completed"
 msgstr ""
 
@@ -4035,9 +4046,6 @@ msgstr "Bitte legen Sie die Währung für Ihr Konto fest."
 msgid "You cannot create an order with a different currency than your account."
 msgstr "Bitte legen Sie die Währung für Ihr Konto fest."
 
-msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
-msgstr ""
-
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Sie können keine Behebung auf das Konto %1 vornehmen, da das Zahlungsagentenkonto deaktiviert ist."
 
@@ -4082,9 +4090,6 @@ msgstr "Du kannst diese Aktion nicht durchführen, bitte setze deinen Wohnsitz f
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "Sie können keine Behebung auf das Konto %1 vornehmen, da die Verifikationsdokumente des Zahlungsagenten abgelaufen sind."
 
-msgid "You cannot transfer to a client in a different country of residence."
-msgstr "Sie können keine Überweisung zu einem Kunden mit einem anderen Wohnsitzland vornehmen."
-
 #, fuzzy
 #| msgid "Transfer to account %1"
 msgid "You cannot transfer to account %1"
@@ -4092,9 +4097,6 @@ msgstr "Überweisung zum Konto %1"
 
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Verifikationsdokumente abgelaufen sind."
-
-msgid "You cannot withdraw from a payment agent in a different country of residence."
-msgstr "Sie können von einem Zahlungsagenten in einem anderen Wohnsitzland keine Behebungen vornehmen."
 
 msgid "You cannot withdraw funds to the same account."
 msgstr "Sie können keine Gelder vom selben Konto beheben."
@@ -21807,6 +21809,9 @@ msgstr "heute, Freitags"
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Sie können diese Aktion nicht durchführen, da ihr Konto %1 als unwillkommen markiert ist."
 
+#~ msgid "You cannot transfer to a client in a different country of residence."
+#~ msgstr "Sie können keine Überweisung zu einem Kunden mit einem anderen Wohnsitzland vornehmen."
+
 #~ msgid "You cannot transfer to account %1, as their account is currently disabled."
 #~ msgstr "Sie können für das Konto %1 keine Überweisungen vornehmen, da ihr Konto zur Zeit deaktiviert ist."
 
@@ -21815,6 +21820,9 @@ msgstr "heute, Freitags"
 
 #~ msgid "You cannot transfer to account %1, as their cashier is locked."
 #~ msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Kasse gesperrt ist."
+
+#~ msgid "You cannot withdraw from a payment agent in a different country of residence."
+#~ msgstr "Sie können von einem Zahlungsagenten in einem anderen Wohnsitzland keine Behebungen vornehmen."
 
 #~ msgid "You clicked on an expired link. If you have already clicked on this link, it has been <b>disabled for security reasons</b>. Please re request change of password.<br /><br /> Your account is important to us. If you require further assistance, please contact our <a href=\"%1\" target=\"_blank\"><strong>Customer Support</strong></a>."
 #~ msgstr "Sie haben einen abgelaufenen Link angeklickt. Wenn Sie den Link bereits angeklickt haben, wurde er <b>aus Sicherheitsgründen deaktiviert</b>. Bitte beantragen Sie erneut eine Passwortänderung.<br /><br /> Ihr Konto ist uns wichtig. Wenn Sie weitere Hilfe benötigen,setzen Sie sich bitte mit unserer <a href=\"%1\" target=\"_blank\"><strong>Kundenbetreuung</strong></a> in Verbindung."
