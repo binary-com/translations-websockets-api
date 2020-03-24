@@ -2,9 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2020-03-03 20:06+0000\n"
+"PO-Revision-Date: 2020-03-24 20:06+0000\n"
 "Last-Translator: Valentina Grassi <vale.grassi11@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/translations/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/binary-websocket/"
+"translations/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -467,10 +468,8 @@ msgstr "Non è possibile vendere il contratto in questo orario. Riprova nuovamen
 msgid "Contract has expired."
 msgstr "Il contratto è scaduto."
 
-#, fuzzy
-#| msgid "Contract id is required to update contract"
 msgid "Contract id is required to cancel contract"
-msgstr "L'id relativa al contratto è necessaria per aggiornarlo"
+msgstr "L'id relativa al contratto è necessaria per annullarlo"
 
 msgid "Contract id is required to update contract"
 msgstr "L'id relativa al contratto è necessaria per aggiornarlo"
@@ -484,10 +483,8 @@ msgstr "Il contratto può non scadere tra %1 e %2."
 msgid "Contract must expire during trading hours."
 msgstr "Il contratto deve scadere durante l'orario di trading."
 
-#, fuzzy
-#| msgid "No open contract found for contract id: %1."
 msgid "Contract not found for contract id: %1."
-msgstr "Nessun contratto aperto trovato con l'id: %1."
+msgstr "Nessun contratto trovato per id: %1."
 
 msgid "Contract price cannot be zero."
 msgstr "Il prezzo contrattuale non può essere pari a zero."
@@ -567,18 +564,16 @@ msgstr "Data di nascita"
 msgid "Date of birth is invalid."
 msgstr "La data di nascita non è valida."
 
-#, fuzzy
-#| msgid "No information is available for this contract."
 msgid "Deal cancellation is not available for this contract."
-msgstr "Per questo contratto non è disponibile alcuna informazione."
+msgstr "Per questo contratto non è disponibile alcuna opzione di annullamento."
 
-#, fuzzy
-#| msgid "Trading is not offered for this duration."
 msgid "Deal cancellation is not offered at this duration."
-msgstr "Il trading non è offerto con questa durata."
+msgstr "La durata del contratto non consente alcuna opzione di annullamento."
 
 msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
 msgstr ""
+"Il periodo di annullamento del contratto è terminato: ora non è più "
+"possibile annullarlo."
 
 msgid "Dear %1 %2 %3,"
 msgstr "Gentile %1 %2 %3,"
@@ -1384,15 +1379,11 @@ msgstr "Sessione non valida."
 msgid "Invalid stake/payout."
 msgstr "Puntata/payout non validi."
 
-#, fuzzy
-#| msgid "Invalid stop loss. Stop loss must be lower than %1."
 msgid "Invalid stop loss. Stop loss cannot be more than stake."
-msgstr "Stop Loss non valida: non può superare %1."
+msgstr "Stop Loss non valida: non può superare la puntata."
 
-#, fuzzy
-#| msgid "Invalid stop loss. Stop loss must be lower than %1."
 msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "Stop Loss non valida: non può superare %1."
+msgstr "Stop Loss non valida: deve superare la commissione (%1)."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Stop Out non valido: deve essere %1 rispetto al prezzo spot attuale. Modifica la quotazione o il moltiplicatore."
@@ -1691,10 +1682,8 @@ msgstr "Petrolio/GBP"
 msgid "Oil/USD"
 msgstr "Petrolio/USD"
 
-#, fuzzy
-#| msgid "Only 3 decimal places are allowed."
 msgid "Only %1 decimal places allowed."
-msgstr "Sono consentiti solamente 3 decimali."
+msgstr "Sono consentiti solamente %1 decimali."
 
 msgid "Only 3 decimal places are allowed."
 msgstr "Sono consentiti solamente 3 decimali."
@@ -1708,10 +1697,8 @@ msgstr "Solo ascendenti"
 msgid "Only Ups/Only Downs"
 msgstr "Solo ascendenti/Solo discendenti"
 
-#, fuzzy
-#| msgid "Update only accepts hash reference as input parameter."
 msgid "Only a hash reference input is accepted."
-msgstr "Gli aggiornamenti accettano solo valori di riferimento Hash come parametri di input."
+msgstr "Si accetta solo un input riferimento Hash."
 
 msgid "Only a maximum of two decimal points are allowed for the amount."
 msgstr "Sono consentite solo un massimo di due cifre decimali per l'importo."
@@ -1725,10 +1712,8 @@ msgstr "È consentito un solo aggiornamento al secondo."
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Sono consentite solo porte 80 e 443"
 
-#, fuzzy
-#| msgid "Only 3 decimal places are allowed."
 msgid "Only updates to these parameters are allowed %1."
-msgstr "Sono consentiti solamente 3 decimali."
+msgstr "Sono consentiti esclusivamente aggiornamenti per questi parametri %1."
 
 msgid "Open an Account"
 msgstr "Apri un account"
@@ -1903,10 +1888,8 @@ msgstr "Per continuare, convalida il tuo account."
 msgid "Please authenticate your account to enable withdrawals and transfers"
 msgstr "Autentica il tuo conto per effettuare prelievi e trasferimenti"
 
-#, fuzzy
-#| msgid "Please authenticate your account to enable withdrawals and transfers"
 msgid "Please authenticate your account to proceed with withdrawals."
-msgstr "Autentica il tuo conto per effettuare prelievi e trasferimenti"
+msgstr "Autentica il tuo conto per effettuare prelievi."
 
 msgid "Please authenticate your account."
 msgstr "Convalida il tuo account."
@@ -1932,35 +1915,23 @@ msgstr "Prima di procedere, accertarsi che tutte le posizioni relative al/i cont
 msgid "Please enter a number between %1 and %2."
 msgstr "Inserisci un numero compreso tra %1 e %2."
 
-#, fuzzy
-#| msgid "Please enter a numeric value."
 msgid "Please enter a number or a null value."
-msgstr "Inserisci un valore numerico."
+msgstr "Inserisci un valore numerico o nullo."
 
-#, fuzzy
-#| msgid "Please enter a valid amount to transfer."
 msgid "Please enter a payout amount that's at least %1."
-msgstr "Inserisci un importo valido da trasferire."
+msgstr "Inserisci un importo per il payout di almeno %1."
 
-#, fuzzy
-#| msgid "Please enter a valid amount to transfer."
 msgid "Please enter a stake amount that's at least %1."
-msgstr "Inserisci un importo valido da trasferire."
+msgstr "Inserisci un importo per la puntata di almeno %1."
 
-#, fuzzy
-#| msgid "Please enter a valid amount to transfer."
 msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "Inserisci un importo valido da trasferire."
+msgstr "Inserisci un importo per Stop Loss che sia superiore a %1."
 
-#, fuzzy
-#| msgid "Invalid take profit. Take profit must be higher than %1."
 msgid "Please enter a take profit amount that's higher than %1."
-msgstr "Take Profit non valido: deve superare %1."
+msgstr "Inserisci un importo per il profitto che sia superiore a %1."
 
-#, fuzzy
-#| msgid "Please enter a valid amount to transfer."
 msgid "Please enter a take profit amount that's lower than %1."
-msgstr "Inserisci un importo valido da trasferire."
+msgstr "Inserisci un importo per la Take Profit che sia inferiore a %1."
 
 msgid "Please enter a valid address between 25 and 64 characters"
 msgstr "Inserisci un indirizzo valido con 25-64 caratteri"
@@ -2475,10 +2446,8 @@ msgstr "Indici Step"
 msgid "Stop loss"
 msgstr "Stop loss"
 
-#, fuzzy
-#| msgid "Stop Out"
 msgid "Stop out"
-msgstr "Stop Out"
+msgstr "Stop out"
 
 msgid "Streaming for this symbol is not available due to license restrictions."
 msgstr "Per questo simbolo non è disponibile lo streaming a causa delle restrizioni delle licenze."
@@ -2578,6 +2547,7 @@ msgstr "Il nome dell'inserzionista non può restare vuoto."
 
 msgid "The advertiser name is already taken. Please choose another."
 msgstr ""
+"Il nome dell'inserzionista è già stato utilizzato: scegli un altro nome."
 
 msgid "The amount exceeds the maximum limit."
 msgstr "L'importo supera il limite massimo."
@@ -2710,6 +2680,9 @@ msgstr "Il servizio richiesto non è momentaneamente disponibile."
 
 msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
 msgstr ""
+"Il prezzo spot è cambiato. Non abbiamo chiuso il contratto perché il tuo "
+"profitto è negato ed è attivo l'annullamento dello contratto stesso. Annulla "
+"il contratto per riavere la puntata intera."
 
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "La residenza fiscale fornita \"%1\" si riferisce a un paese sottoposto a restrizioni."
@@ -2759,10 +2732,8 @@ msgstr "Il conto MT5 ha una Società d'appoggio non valida."
 msgid "This account does not allow MT5 trading. Please log in to the correct account."
 msgstr "Questo conto non è abilitato per il trading su MT5. Accedi al conto corretto."
 
-#, fuzzy
-#| msgid "This account is not registered as a P2P advertiser."
 msgid "This account has already been registered as a P2P advertiser."
-msgstr "Questo conto non è registrato come inserzionista P2P."
+msgstr "Questo conto è già stato registrato come inserzionista P2P."
 
 msgid "This account has been disabled."
 msgstr "Questo account è stato disattivato."
@@ -2787,9 +2758,13 @@ msgstr "Questo contratto non può essere convalidato correttamente in questo mom
 
 msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
 msgstr ""
+"Questo contratto non può essere aggiornato dopo l'acquisto. L'opzione non è "
+"disponibile per questo tipo di contratto."
 
 msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
 msgstr ""
+"Questo contratto non comprende l'annullamento dello stesso: puoi annullarlo "
+"solo selezionando questa opzione durante l'acquisto."
 
 msgid "This contract has already expired."
 msgstr "Questo contratto è già scaduto."
@@ -2845,10 +2820,8 @@ msgstr "Questo mercato è attualmente chiuso. Prova con gli indici sintetici che
 msgid "This payment method is invalid."
 msgstr "Metodo di pagamento non valido."
 
-#, fuzzy
-#| msgid "This account is unavailable."
 msgid "This symbol is not available."
-msgstr "Questo account non è disponibile."
+msgstr "Questo simbolo non è disponibile."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Questo trade non è temporaneamente disponibile."
