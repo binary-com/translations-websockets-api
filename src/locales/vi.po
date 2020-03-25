@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2020-03-25 20:06+0000\n"
 "Last-Translator: Thuy Nguyen <thuy@regentmarkets.com>\n"
-"Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/vi/>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/binary-websocket/translations/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -189,6 +188,9 @@ msgstr "Xác Nhận Chuyển Tiền"
 
 msgid "Acknowledgement of Withdrawal Request"
 msgstr "Xác Nhận Yêu Cầu Rút tiền"
+
+msgid "Action"
+msgstr "Hành động"
 
 msgid "Address"
 msgstr "Địa chỉ"
@@ -576,9 +578,7 @@ msgid "Deal cancellation is not offered at this duration."
 msgstr "Hủy thỏa thuận không thể thực hiện trong thời gian này."
 
 msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
-msgstr ""
-"Thời gian hủy thỏa thuận đã hết hạn. Hợp đồng của bạn chỉ có thể được hủy "
-"khi thời gian hủy thỏa thuận vẫn còn hiệu lực."
+msgstr "Thời gian hủy thỏa thuận đã hết hạn. Hợp đồng của bạn chỉ có thể được hủy khi thời gian hủy thỏa thuận vẫn còn hiệu lực."
 
 msgid "Dear %1 %2 %3,"
 msgstr "%1 %2 %3 thân mến,"
@@ -2114,6 +2114,11 @@ msgstr "Trước đây đã đăng ký với %1 sử dụng cùng một �
 msgid "Proceed"
 msgstr "Tiến hành"
 
+#, fuzzy
+#| msgid "Processing Time"
+msgid "Processing"
+msgstr "Thời gian Xử lý"
+
 msgid "Professional status is not applicable to your account."
 msgstr "Danh hiệu chuyên nghiệp chưa được áp dụng cho tài khoản của bạn."
 
@@ -2303,7 +2308,9 @@ msgstr "Rất tiếc, đã xảy ra lỗi, Vui lòng thử truy cập hệ thố
 msgid "Sorry, an error occurred. Please try again later."
 msgstr "Rất tiếc, đã xảy ra lỗi. Vui lòng thử lại sau."
 
-msgid "Sorry, but this address is no longer valid due to the last rejected payment. Please use another address."
+#, fuzzy
+#| msgid "Sorry, but this address is no longer valid due to the last rejected payment. Please use another address."
+msgid "Sorry, but this address is no longer valid due to the last rejected/cancelled payment. Please use another address."
 msgstr "Rất tiếc, địa chỉ này không còn khả dụng do bị từ chối từ lần thanh khoản trước. Vui lòng sử dụng một địa chỉ khác."
 
 msgid "Sorry, but trading is unavailable until further notice due to an unexpected error. Please try again later."
@@ -2404,6 +2411,9 @@ msgstr "Rất tiếc, tài khoản của bạn không có quyền mua thêm h
 
 msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "Rất tiếc, tài khoản của bạn không có quyền truy cập vào ứng dụng này. Hiện tại, chỉ các tài khoản USD được phép truy cập."
+
+msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
+msgstr ""
 
 msgid "South African Index"
 msgstr "Chỉ số chứng khoán Nam Phi"
@@ -2679,10 +2689,7 @@ msgid "The requested service is unavailable at the moment."
 msgstr "Dịch vụ được yêu cầu hiện đang không khả dụng."
 
 msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
-msgstr ""
-"Điểm giá đã di chuyển. Chúng tôi chưa đóng hợp đồng này vì lợi nhuận của bạn "
-"đang âm và hủy giao dịch vẫn còn hiệu lực. Hủy hợp đồng để nhận về đủ số "
-"tiền cược của bạn."
+msgstr "Điểm giá đã di chuyển. Chúng tôi chưa đóng hợp đồng này vì lợi nhuận của bạn đang âm và hủy giao dịch vẫn còn hiệu lực. Hủy hợp đồng để nhận về đủ số tiền cược của bạn."
 
 msgid "The supplied tax residence \"%1\" is in a restricted country."
 msgstr "Thuế cư trú \"% 1\" nằm ở một quốc gia bị hạn chế."
@@ -2748,10 +2755,7 @@ msgid "This address can only be used once to make a deposit."
 msgstr "Địa chỉ được sử dụng duy nhất một lần cho một lần gửi tiền."
 
 msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
-msgstr ""
-"Quảng cáo không thể xóa vì vẫn còn các đơn hàng mở. Vui lòng đợi đến khi các "
-"đơn hàng hoàn tất và thử lại. Nếu bạn muốn dừng nhận đơn hàng mới, bạn có "
-"thể tắt quảng cáo của mình."
+msgstr "Quảng cáo không thể xóa vì vẫn còn các đơn hàng mở. Vui lòng đợi đến khi các đơn hàng hoàn tất và thử lại. Nếu bạn muốn dừng nhận đơn hàng mới, bạn có thể tắt quảng cáo của mình."
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Số tiền quá thấp. Vui lòng nhập tối thiểu %1 %2."
@@ -2763,14 +2767,10 @@ msgid "This contract cannot be properly validated at this time."
 msgstr "Hợp đồng này không thể được xác minh vào thời gian này."
 
 msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
-msgstr ""
-"Hợp đồng này không thể cập nhật sau khi bạn hoàn tất việc mua. Tính năng này "
-"không khả dụng cho loại hợp đồng này."
+msgstr "Hợp đồng này không thể cập nhật sau khi bạn hoàn tất việc mua. Tính năng này không khả dụng cho loại hợp đồng này."
 
 msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
-msgstr ""
-"Hợp đồng này không bao gồm thỏa thuận hủy. Hợp đồng của bạn chỉ có thể được "
-"hủy khi bạn chọn mục thỏa thuận hủy trong giao dịch mua của mình."
+msgstr "Hợp đồng này không bao gồm thỏa thuận hủy. Hợp đồng của bạn chỉ có thể được hủy khi bạn chọn mục thỏa thuận hủy trong giao dịch mua của mình."
 
 msgid "This contract has already expired."
 msgstr "Hợp đồng này đã hết hạn."
@@ -3238,16 +3238,10 @@ msgid "We're sorry you're leaving"
 msgstr "Chúng tôi rất tiếc khi bạn muốn rời đi"
 
 msgid "We're unable to process this transfer because the client's resident country is not within your portfolio. Please contact %1 for more info."
-msgstr ""
-"Chúng tôi không thể xử lý việc chuyển khoản này vì quốc gia cư trú của khách "
-"hàng không nằm trong danh mục đầu tư của bạn. Vui lòng liên hệ với %1 để "
-"biết thêm chi tiết."
+msgstr "Chúng tôi không thể xử lý việc chuyển khoản này vì quốc gia cư trú của khách hàng không nằm trong danh mục đầu tư của bạn. Vui lòng liên hệ với %1 để biết thêm chi tiết."
 
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
-msgstr ""
-"Chúng tôi không thể xử lý việc rút tiền này vì quốc gia cư trú của bạn không "
-"nằm trong danh mục đầu tư của đại lý thanh toán. Vui lòng liên hệ %1 để biết "
-"thêm thông tin."
+msgstr "Chúng tôi không thể xử lý việc rút tiền này vì quốc gia cư trú của bạn không nằm trong danh mục đầu tư của đại lý thanh toán. Vui lòng liên hệ %1 để biết thêm thông tin."
 
 msgid "We've completed"
 msgstr "Chúng tôi đã xử lý xong"
@@ -3676,9 +3670,7 @@ msgid "You may upload the copies of all required documents directly from your re
 msgstr "Bạn có thể tải lên các bản sao của tất cả các tài liệu cần thiết trực tiếp từ tài khoản thực của bạn tại %1."
 
 msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
-msgstr ""
-"Bạn có thể chọn một trong hai, dừng lỗ hoặc hủy giao dịch. Vui lòng chỉ chọn "
-"một."
+msgstr "Bạn có thể chọn một trong hai, dừng lỗ hoặc hủy giao dịch. Vui lòng chỉ chọn một."
 
 msgid "You need to set your residence in order to use this feature."
 msgstr "Bạn phải nhập địa chỉ để có thể sử dụng tính năng này."
@@ -3814,6 +3806,11 @@ msgstr "Thẻ token của bạn đã hết hạn hoặc không hợp lệ."
 
 msgid "Your withdrawal is unsuccessful. Please make sure you have enough funds in your account."
 msgstr "Yêu cầu rút tiền cảu bạn không thành công. Hãy đảm bảo bạn có đủ tiền trong tài khoản."
+
+#, fuzzy
+#| msgid "Your transaction was cancelled."
+msgid "Your withdrawal transaction for address: %1 has been cancelled."
+msgstr "Giao dịch của bạn đã bị hủy bỏ."
 
 msgid "Your withdrawal will be processed within 24 hours."
 msgstr "Việc rút tiền sẽ được thực hiện sau 24 giờ."
@@ -5804,9 +5801,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Acquisition of financial contracts through this site must be effected in accordance with the terms and conditions presented on the pages of this site. Acquisition of a financial contract is completed when the financial contract has been customised, the premium (or the payout, as the case may be) has been calculated and payment has been verified."
 #~ msgstr "Lãi của hợp đồng tài chính trên trang này phải phù hợp điều kiện của điều khoản được thể hiện trên trang web này. Lãi của hợp đồng tài chính được xác nhận khi hợp đồng được thông qua, lãi (hoặc tiền thưởng tùy trường hợp) đã được tính và thanh toán cũng đã được xác minh."
-
-#~ msgid "Action"
-#~ msgstr "Hành động"
 
 #~ msgid "Adapt affiliate-marketing tactics and promotional materials as needed, to localise all content for maximum effectiveness"
 #~ msgstr "Thích ứng tốt với những chiến thuật liên kết tiếp thị và tài liệu quảng cáo để có thể định hình hiệu quả nhất tất cả các nội dung"
@@ -13274,9 +13268,6 @@ msgstr "hôm nay, Thứ Sáu"
 #~ msgid "Process website content translations when a full time translator is unavailable"
 #~ msgstr "Xử lý bản dịch nội dung trang web khi không có phiên dich viên toàn thời gian"
 
-#~ msgid "Processing Time"
-#~ msgstr "Thời gian Xử lý"
-
 #~ msgid "Procter & Gamble"
 #~ msgstr "Procter & Gamble"
 
@@ -18043,9 +18034,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Your transaction reference number is %1"
 #~ msgstr "Số tham chiếu giao dịch của bạn là %1"
-
-#~ msgid "Your transaction was cancelled."
-#~ msgstr "Giao dịch của bạn đã bị hủy bỏ."
 
 #~ msgid "Your transaction was successful."
 #~ msgstr "Giao dịch của bạn đã thành công."
