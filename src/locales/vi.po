@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I 18N\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2020-03-25 06:21+0000\n"
+"PO-Revision-Date: 2020-03-25 06:36+0000\n"
 "Last-Translator: Pham Minh Hieu <hphamv7@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
 "binary-websocket/translations/vi/>\n"
@@ -570,15 +570,15 @@ msgid "Date of birth is invalid."
 msgstr "Ngày sinh không hợp lệ."
 
 msgid "Deal cancellation is not available for this contract."
-msgstr "Không thể hủy giao dịch cho hợp đồng này."
+msgstr "Không thể hủy thỏa thuận cho hợp đồng này."
 
 msgid "Deal cancellation is not offered at this duration."
-msgstr "Hủy giao dịch không thể thực hiện trong thời gian này."
+msgstr "Hủy thỏa thuận không thể thực hiện trong thời gian này."
 
 msgid "Deal cancellation period has expired. Your contract can only be cancelled while deal cancellation is active."
 msgstr ""
-"Thời gian hủy hợp đồng đã hết hạn. Hợp đồng của bạn chỉ có thể được hủy khi "
-"thời gian hủy hợp đồng vẫn còn hiệu lực."
+"Thời gian hủy thỏa thuận đã hết hạn. Hợp đồng của bạn chỉ có thể được hủy "
+"khi thời gian hủy thỏa thuận vẫn còn hiệu lực."
 
 msgid "Dear %1 %2 %3,"
 msgstr "%1 %2 %3 thân mến,"
@@ -2749,6 +2749,9 @@ msgstr "Địa chỉ được sử dụng duy nhất một lần cho một lâ�
 
 msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
 msgstr ""
+"Lời chào mời không thể được xóa vì vẫn còn các đơn hàng mở. Vui lòng đợi đến "
+"khi các đơn hàng đóng hết và thử lại. Nếu bạn muốn dừng nhận đơn hàng mới, "
+"bạn có thể tắt lời chào mời của mình."
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "Số tiền quá thấp. Vui lòng nhập tối thiểu %1 %2."
@@ -2761,9 +2764,13 @@ msgstr "Hợp đồng này không thể được xác minh vào thời g
 
 msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
 msgstr ""
+"Hợp đồng này không thể cập nhật sau khi đã được bạn mua. Tính năng này không "
+"khả dụng cho loại hợp đồng này."
 
 msgid "This contract does not include deal cancellation. Your contract can only be cancelled when you select deal cancellation in your purchase."
 msgstr ""
+"Hợp đồng này không bao gồm thỏa thuận hủy. Hợp đồng của bạn chỉ có thể được "
+"hủy khi bạn chọn mục hủy thỏa thuận trong giao dịch mua của mình."
 
 msgid "This contract has already expired."
 msgstr "Hợp đồng này đã hết hạn."
@@ -2819,10 +2826,8 @@ msgstr "Thị trường này hiện đã đóng. Hãy thử Chỉ Số Bi�
 msgid "This payment method is invalid."
 msgstr "Hình thức thanh toán này không hợp lệ."
 
-#, fuzzy
-#| msgid "This account is unavailable."
 msgid "This symbol is not available."
-msgstr "Tài khoản này không khả dụng."
+msgstr "Biểu tượng này không khả dụng."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Giao dịch này tạm thời không khả dụng."
@@ -3234,9 +3239,16 @@ msgstr "Chúng tôi rất tiếc khi bạn muốn rời đi"
 
 msgid "We're unable to process this transfer because the client's resident country is not within your portfolio. Please contact %1 for more info."
 msgstr ""
+"Chúng tôi không thể xử lý việc chuyển khoản này vì quốc gia cư trú của khách "
+"hàng không nằm trong danh mục đầu tư của bạn. Vui lòng liên hệ tơi %1 để "
+"biết thêm chi tiết."
 
+#, fuzzy
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
 msgstr ""
+"Chúng tôi không thể xử lý việc rút tiền này vì quốc gia cư trú của bạn không "
+"nằm trong danh mục đầu tư của đại lý thanh toán. Vui lòng liên hệ %1 để biết "
+"thêm thông tin."
 
 msgid "We've completed"
 msgstr "Chúng tôi đã xử lý xong"
@@ -3496,10 +3508,8 @@ msgstr "Bạn đã đăng ký với giá trị% 1 rồi."
 msgid "You are already subscribed to %1."
 msgstr "Bạn đã đăng ký với %1."
 
-#, fuzzy
-#| msgid "You are already subscribed to p2p order id %1."
 msgid "You are already subscribed to p2p advertiser id %1."
-msgstr "Bạn đã đăng ký với p2p id đơn hàng %1."
+msgstr "Bạn đã đăng ký với nhà quảng cáo p2p có id %1."
 
 msgid "You are already subscribed to p2p order id %1."
 msgstr "Bạn đã đăng ký với p2p id đơn hàng %1."
@@ -3658,16 +3668,18 @@ msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr "Bạn có thể đặt các đơn hàng %1 mỗi 24 giờ. Vui lòng thử lại sau."
 
 msgid "You may update your stop loss amount after deal cancellation has expired."
-msgstr ""
+msgstr "Bạn có thể cập nhật số dừng lỗ sau khi hủy thỏa thuận đã hết hạn."
 
 msgid "You may update your take profit amount after deal cancellation has expired."
-msgstr ""
+msgstr "Bạn có thể cập nhật sô lấy lãi sau khi hủy thỏa thuận đã hết hạn."
 
 msgid "You may upload the copies of all required documents directly from your real money account at %1."
 msgstr "Bạn có thể tải lên các bản sao của tất cả các tài liệu cần thiết trực tiếp từ tài khoản thực của bạn tại %1."
 
 msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
 msgstr ""
+"bạn có thể chọn một trong hai, dừng lỗ hoặc hủy thỏa thuận. Vui lòng chỉ "
+"chọn một."
 
 msgid "You need to set your residence in order to use this feature."
 msgstr "Bạn phải nhập địa chỉ để có thể sử dụng tính năng này."
