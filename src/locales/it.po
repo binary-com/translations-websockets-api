@@ -27,6 +27,11 @@ msgstr "%1 non è un input valido per la tipologia di contratto %2."
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 non è permesso per la residenza di %2."
 
+#, fuzzy
+#| msgid "Trading on %1 is suspended at the moment."
+msgid "%1 is not supported at the moment."
+msgstr "Al momento il trading su %1 è sospeso."
+
 msgid "%1 is one of many trading applications powered by %2 technology."
 msgstr "%1 è una delle numerose applicazioni di trading supportate dalla tecnologia %2."
 
@@ -187,26 +192,23 @@ msgstr "Accettazione della richiesta di prelievo"
 msgid "Action"
 msgstr "Azione"
 
+#, fuzzy
+#| msgid "Advert rate should not be less than %1. Please adjust the value."
+msgid "Ad rate should not be less than %1. Please adjust the value."
+msgstr "Il tasso per gli annunci non può essere inferiore a %1: modifica il valore di conseguenza."
+
+#, fuzzy
+#| msgid "Advert rate should not be more than %1. Please adjust the value."
+msgid "Ad rate should not be more than %1. Please adjust the value."
+msgstr "Un tasso per annunci non può essere superiore a %1: modifica il valore di conseguenza."
+
 msgid "Address"
 msgstr "Indirizzo"
 
-msgid "Advert is inactive."
-msgstr "L'annuncio non è attivo."
-
-msgid "Advert minimum price is zero, Please adjust minimum amount or rate."
-msgstr "Il prezzo minimo dell'annuncio è zero: modifica l'importo o il tasso minimo."
-
-msgid "Advert not found."
-msgstr "Annuncio non trovato."
-
-msgid "Advert rate should not be less than %1. Please adjust the value."
-msgstr "Il tasso per gli annunci non può essere inferiore a %1: modifica il valore di conseguenza."
-
-msgid "Advert rate should not be more than %1. Please adjust the value."
-msgstr "Un tasso per annunci non può essere superiore a %1: modifica il valore di conseguenza."
-
-msgid "Advertising for the currency is not available at the moment."
-msgstr "Al momento non è disponibile alcuna pubblicità per la valuta."
+#, fuzzy
+#| msgid "Deposits are currently unavailable. Please try again later."
+msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
+msgstr "Al momento non è possibile effettuare depositi. Si prega di riprovare più tardi."
 
 msgid "Age and identity verification"
 msgstr "Verifica di identità ed età"
@@ -373,6 +375,9 @@ msgstr "Innanzitutto assicurati di essere online"
 msgid "Buy"
 msgstr "Acquista"
 
+msgid "Buy orders do not require payment and contact information."
+msgstr ""
+
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
@@ -463,12 +468,6 @@ msgstr "Le materie prime sono prodotti negoziati con qualità direttamente utili
 
 msgid "Connection closed"
 msgstr "Connessione chiusa"
-
-msgid "Contact and payment information are not applicable for this ad."
-msgstr "Le informazioni su recapiti e pagamenti non valgono per questo annuncio."
-
-msgid "Contact and payment information are not applicable for this order."
-msgstr "Le informazioni su recapiti e pagamenti non valgono per questo ordine."
 
 msgid "Continuous Indices"
 msgstr "Indici continui"
@@ -1400,12 +1399,6 @@ msgstr "Tipologia di trade non valida: %1."
 msgid "Invalid user."
 msgstr "Utente non valido."
 
-msgid "Invalid value for list limit"
-msgstr "Valore non valido per il limite della lista"
-
-msgid "Invalid value for list offset"
-msgstr "Valore non valido per la compensazione della lista"
-
 msgid "Irish Index"
 msgstr "Indice irlandese"
 
@@ -1532,6 +1525,21 @@ msgstr "Combacia/Differisce"
 msgid "Max 30 tokens are allowed."
 msgstr "Sono consentiti massimo 30 token."
 
+#, fuzzy
+#| msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
+msgid "Maximum ad amount is %1 %2. Please adjust the value."
+msgstr "L'importo massimo depositabile è %1 %2. Correggi l'importo selezionato."
+
+#, fuzzy
+#| msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
+msgid "Maximum ad limit is %1 %2. Please adjust the value."
+msgstr "L'importo massimo depositabile è %1 %2. Correggi l'importo selezionato."
+
+#, fuzzy
+#| msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
+msgid "Maximum ad order amount is %1 %2. Please adjust the value."
+msgstr "L'importo massimo depositabile è %1 %2. Correggi l'importo selezionato."
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "Dimensione massima del file raggiunta. Il massimo consentito è %1"
 
@@ -1547,6 +1555,11 @@ msgstr "Medio Oriente"
 msgid "Min trade stake should be lower than max trade stake."
 msgstr "La puntata minima del trade deve essere inferiore alla puntata massima."
 
+#, fuzzy
+#| msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
+msgid "Minimum ad amount is %1 %2. Please adjust the value."
+msgstr "L'importo minimo per i trasferimenti è %1 %2. Correggi l'importo selezionato."
+
 msgid "Minimum amount is %1 with no decimal places."
 msgstr "Importo minimo di %1, senza decimali."
 
@@ -1555,6 +1568,11 @@ msgstr "Importo minimo di %1, fino a %2 decimali, usando la virgola prima di que
 
 msgid "Minimum multiplier of %1."
 msgstr "Moltiplicatore minimo di %1."
+
+#, fuzzy
+#| msgid "Advert rate should not be less than %1. Please adjust the value."
+msgid "Minimum order amount is %1. Please adjust the value."
+msgstr "Il tasso per gli annunci non può essere inferiore a %1: modifica il valore di conseguenza."
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
 msgstr "Puntata minima di %1 e payout massimo di %2. Il payout attuale è %3."
@@ -1631,6 +1649,11 @@ msgstr "Per questo contratto non è disponibile alcuna informazione."
 msgid "No such category or event. Please check the provided value."
 msgstr "Categoria o evento non trovati. Controllare il valore fornito."
 
+#, fuzzy
+#| msgid "Not found."
+msgid "No token found"
+msgstr "Elemento non trovato."
+
 msgid "Non atm barrier is not allowed for reset contract."
 msgstr "Le barriere non-atm non sono consentite per annullare il contratto."
 
@@ -1645,9 +1668,6 @@ msgstr "Indice della Norvegia"
 
 msgid "Not Found"
 msgstr "Non trovato"
-
-msgid "Not found."
-msgstr "Elemento non trovato."
 
 msgid "Not you? Unsure?"
 msgstr "Non sei tu? Non sei sicuro?"
@@ -1666,9 +1686,6 @@ msgstr "Le note non devono superare i %1 caratteri."
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Il numero di tick deve essere compreso tra %1 e %2."
-
-msgid "Numeric value should be greater than 0."
-msgstr "Il valore numerico deve essere maggiore di 0."
 
 msgid "OTP Verification"
 msgstr "Verifica OTP"
@@ -1739,8 +1756,8 @@ msgstr "O"
 msgid "Or use your social account"
 msgstr "Oppure usa un conto social"
 
-msgid "Order not found."
-msgstr "Ordine non trovato."
+msgid "Order is in progress. Changes are no longer allowed."
+msgstr ""
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -1768,11 +1785,20 @@ msgstr "Sopra/Sotto"
 msgid "P.O. Box is not accepted in address."
 msgstr "Le caselle postali non sono accettate in indirizzo."
 
-msgid "P2P advertiser not found."
-msgstr "Pubblicità P2P non trovata."
+#, fuzzy
+#| msgid "MT5 is currently unavailable. Please try again later."
+msgid "P2P cashier is currently unavailable. Please check back later."
+msgstr "MT5 non è momentaneamente disponibile. Riprova più tardi."
 
-msgid "P2P cashier functionality is not available on demo accounts."
+#, fuzzy
+#| msgid "P2P cashier functionality is not available on demo accounts."
+msgid "P2P cashier is unavailable in your country."
 msgstr "La funzione cassa P2P non è disponibile per i conti demo."
+
+#, fuzzy
+#| msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
+msgid "P2P cashier is unavailable on demo accounts. Please switch to your real account."
+msgstr "Questo è un account virtuale. Passa all'account reale per accedere alla cassa."
 
 msgid "Palladium/USD"
 msgstr "Palladio/USD"
@@ -1812,6 +1838,11 @@ msgstr "I trasferimenti tramite agenti di pagamento non sono momentaneamente dis
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "I prelievi tramite agenti di pagamento non sono consentiti per i conti indicati."
+
+#, fuzzy
+#| msgid "Payment and contact information cannot be specified for buy advert."
+msgid "Payment and contact information are not needed for buy ads."
+msgstr "Non è possibile specificare le informazioni di pagamento e contatto per acquistare un annuncio."
 
 msgid "Payments"
 msgstr "Pagamenti"
@@ -1870,6 +1901,11 @@ msgstr "Accetta la Protezione dei fondi."
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "Prima di procedere, si prega di accettare il disclaimer sui rischi."
 
+#, fuzzy
+#| msgid "If you need help, please contact our customer support team at"
+msgid "Please apply to be an advertiser. If you've already applied, please contact our Customer Support team."
+msgstr "Se hai bisogno di aiuto, contatta la nostra assistenza clienti a"
+
 msgid "Please authenticate your account by %1updating your tax information%2 and uploading the following documents:"
 msgstr "Ti preghiamo di autenticare il tuo conto %aggiornando le informazioni fiscali%2 e caricando i seguenti documenti:"
 
@@ -1902,6 +1938,11 @@ msgstr "Deposita sul tuo account."
 
 msgid "Please ensure all positions in your account(s) are closed before proceeding: %1."
 msgstr "Prima di procedere, accertarsi che tutte le posizioni relative al/i conto/i siano chiuse: %1."
+
+#, fuzzy
+#| msgid "Please enter a take profit amount that's higher than %1."
+msgid "Please enter a limit value that's greater than 0."
+msgstr "Inserisci un importo per il profitto che sia superiore a %1."
 
 msgid "Please enter a number between %1 and %2."
 msgstr "Inserisci un numero compreso tra %1 e %2."
@@ -1939,6 +1980,11 @@ msgstr "Inserisci un numero di telefono valido, compreso il prefisso nazionale (
 msgid "Please enter a valid place of birth."
 msgstr "Inserisci un luogo di nascita valido."
 
+#, fuzzy
+#| msgid "Please enter a stop loss amount that's higher than %1."
+msgid "Please enter a value that's greater than 0."
+msgstr "Inserisci un importo per Stop Loss che sia superiore a %1."
+
 msgid "Please enter amount"
 msgstr "Inserisci l'importo"
 
@@ -1963,14 +2009,13 @@ msgstr "Aiutaci a verificare la tua identità inserendo il seguente token di ver
 msgid "Please help us to verify your identity by entering the following verification token into the payment withdrawal form:"
 msgstr "Aiutaci a verificare la tua identità inserendo il seguente token di verifica nel modulo relativo ai prelievi:"
 
-msgid "Please include your contact information."
-msgstr "Inserisci i tuoi recapiti."
-
-msgid "Please include your payment information."
-msgstr "Inserisci le informazioni sui pagamenti."
-
 msgid "Please let us know right away."
 msgstr "Ti chiediamo di darci riscontro il prima  possibile."
+
+#, fuzzy
+#| msgid "Please log in."
+msgid "Please log in to continue."
+msgstr "Effettua il login."
 
 msgid "Please log in to your social account to continue."
 msgstr "Accedi al tuo conto social per continuare."
@@ -1980,9 +2025,6 @@ msgstr "Effettua il login."
 
 msgid "Please note that if you reset your password, your social account login will be deactivated."
 msgstr "Reimpostando la password, verrà disattivato il conto social di accesso."
-
-msgid "Please note that the selected currency is allowed for selected users only."
-msgstr "Nota: la valuta selezionata è permessa solo per alcuni utenti."
 
 msgid "Please note that you are limited to one fiat currency account."
 msgstr "Nota: le tue operazioni sono limitate a un conto in valuta fiat."
@@ -2011,11 +2053,31 @@ msgstr "Fornisci un importo valido."
 msgid "Please provide valid currency."
 msgstr "Fornisci una valuta valida."
 
+#, fuzzy
+#| msgid "Please fill in your account details"
+msgid "Please provide your contact details."
+msgstr "Inserisci i dettagli relativi al tuo conto"
+
+#, fuzzy
+#| msgid "Please provide valid amount."
+msgid "Please provide your name."
+msgstr "Fornisci un importo valido."
+
+#, fuzzy
+#| msgid "Please include your payment information."
+msgid "Please provide your payment details."
+msgstr "Inserisci le informazioni sui pagamenti."
+
 msgid "Please review the details to confirm it was you."
 msgstr "Verifica i dettagli per confermare che hai effettuato tu l'operazione."
 
 msgid "Please select"
 msgstr "Seleziona"
+
+#, fuzzy
+#| msgid "Please set the currency."
+msgid "Please select an ad that matches your currency."
+msgstr "Imposta la valuta."
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Per creare più account, imposta la valuta del tuo account esistente %1."
@@ -2064,6 +2126,9 @@ msgstr "Utilizza il token seguente per creare una nuova password."
 
 msgid "Please verify your<br />withdrawal request"
 msgstr "Verifica la<br />richiesta di prelievo"
+
+msgid "Please wait for confirmation or contact the seller."
+msgstr ""
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Attendere la liquidazione del contratto. Il prezzo della liquidazione finale può differire rispetto al prezzo indicativo."
@@ -2539,26 +2604,8 @@ msgstr "Il team di %1."
 msgid "The %1 team."
 msgstr "Il team di %1."
 
-msgid "The P2P cashier is currently disabled."
-msgstr "La cassa P2P è momentaneamente disabilitata."
-
 msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
 msgstr "Questo indirizzo è in uso per operazioni di deposito; usa un indirizzo differente per effettuare il prelievo."
-
-msgid "The advert is inactive and cannot be changed."
-msgstr "L'annuncio è inattivo e non può essere modificato."
-
-msgid "The advertiser is not approved."
-msgstr "L'inserzionista non è approvato."
-
-msgid "The advertiser name cannot be blank."
-msgstr "Il nome dell'inserzionista non può restare vuoto."
-
-msgid "The advertiser name is already taken. Please choose another."
-msgstr "Il nome dell'inserzionista è già stato utilizzato: scegli un altro nome."
-
-msgid "The amount exceeds the maximum limit."
-msgstr "L'importo supera il limite massimo."
 
 msgid "The contract %4 has changed from %1%2 to %1%3."
 msgstr "Il contratto %4 è stato modificato da %1%2 a %1%3."
@@ -2599,34 +2646,18 @@ msgstr "Il mercato deve essere aperto all'orario di inizio."
 msgid "The market must be open at the start time. Try out the Synthetic Indices which are always open."
 msgstr "Il mercato deve essere aperto all'orario di inizio. Prova con gli indici sintetici che sono sempre aperti."
 
-msgid "The maximum amount exceeds the maximum amount per order (%1 %2). Please adjust the value."
-msgstr "L'importo massimo supera l'importo massimo per ordine (%1 %2): modifica il valore di conseguenza."
-
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "L'importo massimo depositabile è %1 %2. Correggi l'importo selezionato."
-
-msgid "The maximum amount should be less than or equal to the advert amount."
-msgstr "L'importo massimo deve essere inferiore o uguale all'importo dell'annuncio."
 
 msgid "The maximum amount you may transfer is: %1."
 msgstr "L'importo massimo che puoi trasferire è: 1%."
 
-msgid "The maximum available amount for this advert is %1 %2 at the moment."
-msgstr "Al momento, l'importo massimo disponibile per questo annuncio è %1 %2."
-
-msgid "The maximum limit of active adverts reached."
-msgstr "È stato raggiunto il limite massimo degli annunci attivi."
-
-msgid "The minimum amount for this advert is %1 %2."
-msgstr "L'importo minimo per questo annuncio è %1 %2."
-
 msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
 msgstr "L'importo minimo per i trasferimenti è %1 %2. Correggi l'importo selezionato."
 
-msgid "The minimum amount requirements are not met."
-msgstr "I requisiti di importo minimo non sono rispettati."
-
-msgid "The minimum amount should be less than or equal to maximum amount."
+#, fuzzy
+#| msgid "The minimum amount should be less than or equal to maximum amount."
+msgid "The minimum order amount should be less than or equal to the maximum ad amount. Please adjust the value."
 msgstr "L'importo minimo deve essere inferiore o uguale all'importo massimo."
 
 msgid "The minimum withdrawal amount allowed is %1 %2."
@@ -2638,20 +2669,8 @@ msgstr "Le coppie Forex più ampiamente negoziate e liquide."
 msgid "The name is taken."
 msgstr "Il nome è gia utilizzato."
 
-msgid "The new amount cannot be less than the value of current orders against this advert."
-msgstr "L'importo nuovo non può essere inferiore agli ordini correnti rispetto a questo annuncio."
-
-msgid "The order cannot be confirmed in its current state."
-msgstr "L'ordine non può essere confermato nel suo stato attuale."
-
-msgid "The order has expired and cannot be changed."
-msgstr "L'ordine è scaduto e non può essere cambiato."
-
-msgid "The order is already cancelled."
-msgstr "L'ordine è già stato cancellato."
-
-msgid "The order is already confirmed by you."
-msgstr "L'ordine è già stato confermato da te."
+msgid "The offset value cannot be negative. Please enter 0 or higher."
+msgstr ""
 
 msgid "The password for %1 has been successfully changed."
 msgstr "La password di %1 è stata modificata."
@@ -2664,9 +2683,6 @@ msgstr "La password per il tuo account %1 è stata ripristinata. Se tale richies
 
 msgid "The payment agent facility is not available for this account."
 msgstr "La funzione dell'agente di pagamento non è disponibile per questo account."
-
-msgid "The provided advertiser ID does not belong to an active advertiser."
-msgstr "L'ID dell'inserzionista fornito non appartiene a un inserzionista attivo."
 
 msgid "The provided currency %1 is invalid."
 msgstr "La valuta %1 fornita non è valida."
@@ -2737,29 +2753,32 @@ msgstr "Il conto MT5 ha una Società d'appoggio non valida."
 msgid "This account does not allow MT5 trading. Please log in to the correct account."
 msgstr "Questo conto non è abilitato per il trading su MT5. Accedi al conto corretto."
 
-msgid "This account has already been registered as a P2P advertiser."
-msgstr "Questo conto è già stato registrato come inserzionista P2P."
-
 msgid "This account has been disabled."
 msgstr "Questo account è stato disattivato."
-
-msgid "This account is not registered as a P2P advertiser."
-msgstr "Questo conto non è registrato come inserzionista P2P."
 
 msgid "This account is unavailable."
 msgstr "Questo account non è disponibile."
 
+#, fuzzy
+#| msgid "MT5 is currently unavailable. Please try again later."
+msgid "This ad is currently unavailable. Please check back later."
+msgstr "MT5 non è momentaneamente disponibile. Riprova più tardi."
+
 msgid "This address can only be used once to make a deposit."
 msgstr "L'indirizzo può essere utilizzato solo una volta per effettuare un deposito."
 
-msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
-msgstr "Questo annuncio non può essere eliminato perché ci sono ordini aperti. Attendi la chiusura di tutti gli ordini e prova di nuovo; se non vuoi più accettare nuovi ordini, disabilita l'annuncio."
+#, fuzzy
+#| msgid "The advertiser name is already taken. Please choose another."
+msgid "This advertiser has not been approved yet. Please choose another advertiser."
+msgstr "Il nome dell'inserzionista è già stato utilizzato: scegli un altro nome."
+
+#, fuzzy
+#| msgid "The advertiser name is already taken. Please choose another."
+msgid "This advertiser is currently inactive. Please check again later or choose another advertiser."
+msgstr "Il nome dell'inserzionista è già stato utilizzato: scegli un altro nome."
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "L'importo è troppo basso: ti invitiamo a inserire un minimo di %1 %2."
-
-msgid "This cannot be cancelled since the order is already in progress."
-msgstr "Non è possibile eliminarlo poiché l'ordine è in fase di esecuzione."
 
 msgid "This contract cannot be properly validated at this time."
 msgstr "Questo contratto non può essere convalidato correttamente in questo momento."
@@ -2797,11 +2816,8 @@ msgstr "Questo contratto non è stato trovato tra le tue posizioni aperte."
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "Il prezzo di questo contratto è di %1 %2. I contratti acquistati da %3 devono avere un prezzo d'acquisto al di sopra di %1 %4. Aumentare di conseguenza l'importo del contratto per rispettare questa puntata minima."
 
-msgid "This country is not enabled for P2P cashier functionality."
-msgstr "Questo paese non è abilitato alla funzione di cassa P2P."
-
-msgid "This currency is not enabled for P2P cashier functionality."
-msgstr "Questa valuta non è valida per la funzione di cassa P2P."
+msgid "This currency is temporarily suspended. Please select another currency to proceed."
+msgstr ""
 
 msgid "This email address is invalid."
 msgstr "Questo indirizzo email non è valido."
@@ -2821,11 +2837,36 @@ msgstr "Questo mercato è attualmente chiuso."
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "Questo mercato è attualmente chiuso. Prova con gli indici sintetici che sono sempre aperti."
 
+#, fuzzy
+#| msgid "The advertiser name is already taken. Please choose another."
+msgid "This name is already in use. Please provide a different name."
+msgstr "Il nome dell'inserzionista è già stato utilizzato: scegli un altro nome."
+
+#, fuzzy
+#| msgid "Login ID (%1) does not exist."
+msgid "This order does not exist."
+msgstr "L'ID di accesso (%1) non esiste."
+
+#, fuzzy
+#| msgid "The order has expired and cannot be changed."
+msgid "This order has expired and cannot be changed."
+msgstr "L'ordine è scaduto e non può essere cambiato."
+
+#, fuzzy
+#| msgid "The order is already confirmed by you."
+msgid "This order is already confirmed."
+msgstr "L'ordine è già stato confermato da te."
+
 msgid "This symbol is not available."
 msgstr "Questo simbolo non è disponibile."
 
 msgid "This trade is temporarily unavailable."
 msgstr "Questo trade non è temporaneamente disponibile."
+
+#, fuzzy
+#| msgid "The maximum amount should be less than or equal to the advert amount."
+msgid "This value should be less than or equal to the ad amount."
+msgstr "L'importo massimo deve essere inferiore o uguale all'importo dell'annuncio."
 
 msgid "Tick prediction must be between %1 and %2."
 msgstr "La previsione del tick deve essere compresa tra %1 e %2."
@@ -2853,9 +2894,6 @@ msgstr "Sono state richieste troppe barriere."
 
 msgid "Too many market holidays during the contract period."
 msgstr "Troppe festività del mercato durante il periodo del contratto."
-
-msgid "Too many orders. Please complete your pending orders."
-msgstr "Numero eccessivo di ordini: completa quelli in sospeso."
 
 msgid "Touch/No Touch"
 msgstr "Touch/No touch"
@@ -3136,9 +3174,6 @@ msgstr "Stiamo elaborando la tua richiesta. I fondi virtuali devono essere ancor
 msgid "We are retrieving your MT5 details. Please give us a few more seconds."
 msgstr "Stiamo recuperando i dettagli MT5. Ancora qualche istante."
 
-msgid "We are unable to determine the local currency for your country."
-msgstr "Non siamo in grado di determinare la valuta locale del tuo paese."
-
 msgid "We are unable to do that because your account has been restricted. If you need help, let us know."
 msgstr "Non siamo in grado di eseguire questa operazione perché il tuo conto è sottoposto a limitazioni. Se hai bisogno di assistenza, contatta il nostro staff."
 
@@ -3151,6 +3186,16 @@ msgstr "Non è possibile effettuare trasferimenti verso %1 perché quel conto è
 msgid "We are updating our site in a short while. Some services may be temporarily unavailable."
 msgstr "Aggiorneremo il nostro sito a breve. Alcuni servizi potrebbero essere temporaneamente non disponibili."
 
+#, fuzzy
+#| msgid "We can't find this account. Please check the details and try again."
+msgid "We can't find the ad. Please review the details or try another ad."
+msgstr "Non riusciamo a trovare questo conto. Verifica i dettagli e prova di nuovo."
+
+#, fuzzy
+#| msgid "We can't find this account. Please check the details and try again."
+msgid "We can't find the advertiser. Please review the details and try again."
+msgstr "Non riusciamo a trovare questo conto. Verifica i dettagli e prova di nuovo."
+
 msgid "We can't find this account. Please check the details and try again."
 msgstr "Non riusciamo a trovare questo conto. Verifica i dettagli e prova di nuovo."
 
@@ -3159,6 +3204,11 @@ msgstr "Non riusciamo a trovare questo ID nella nostra banca dati. Verifica i de
 
 msgid "We cannot complete your request. You can only ask for additional virtual funds if your demo account balance falls below %1 %2."
 msgstr "Non siam in grado di completare la tua richiesta: puoi chiedere fondi virtuali aggiuntivi solo se il tuo conto di prova scende sotto %1 %2."
+
+#, fuzzy
+#| msgid "If you need help, please contact our customer support team at"
+msgid "We cannot recognise your local currency. Please contact our Customer Support team."
+msgstr "Se hai bisogno di aiuto, contatta la nostra assistenza clienti a"
 
 msgid "We cannot transfer to account %1. Please select another payment agent."
 msgstr "Non è possibile effettuare trasferimento verso il conto %1. Selezionare un altro agente di pagamento."
@@ -3487,6 +3537,11 @@ msgstr "Hai già un account finanziario. Cambia account per negoziare prodotti f
 msgid "You already requested professional status."
 msgstr "Hai già richiesto lo status Professionista."
 
+#, fuzzy
+#| msgid "You are already subscribed to p2p advertiser id %1."
+msgid "You are already an advertiser."
+msgstr "Sei già iscritto all'id inserzionista di p2p %1."
+
 msgid "You are already subscribed to %1"
 msgstr "Sei già iscritto a %1"
 
@@ -3511,12 +3566,6 @@ msgstr "Non sei autorizzato a trasferire tramite gli agenti di pagamento."
 msgid "You are not authorized for withdrawals via payment agents."
 msgstr "Non sei autorizzato a prelevare tramite gli agenti di pagamento."
 
-msgid "You are not logged in."
-msgstr "Non hai effettuato l'accesso."
-
-msgid "You are not yet registered as a P2P advertiser."
-msgstr "Non sei ancora registrato come inserzionista P2P."
-
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "Stai usando un conto virtuale. Per aprire un conto MT5, passa a un conto reale."
 
@@ -3529,11 +3578,10 @@ msgstr "Puoi effettuare un massimo di %1 trasferimenti al giorno. Ti invitiamo a
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Puoi richiedere fondi aggiuntivi esclusivamente se il saldo del tuo conto virtuale scende al di sotto di %1 %2."
 
-msgid "You cannot create an order for your own advert."
+#, fuzzy
+#| msgid "You cannot create an order for your own advert."
+msgid "You cannot make an order for your own ad."
 msgstr "Non puoi creare un ordine per il tuo inserzionista."
-
-msgid "You cannot create an order with a different currency than your account."
-msgstr "Non puoi creare un ordine con una valuta diversa da quella del tuo conto."
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Non è possibile effettuare il prelievo sull'account %1 poiché l'account dell'agente di pagamento è disabilitato."
@@ -3543,6 +3591,11 @@ msgstr "Non è possibile effettuare il prelievo dal conto %1 poiché il conto de
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "Non è possibile effettuare il prelievo sull'account %1 poiché la cassa dell'agente di pagamento è bloccata."
+
+#, fuzzy
+#| msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
+msgid "You cannot perform this action because of your account status. Please contact our Customer Support team."
+msgstr "Non è possibile effettuare questa operazione perché il conto è stato disabilitato per i trasferimenti con MT5. Ti invitiamo a contattarci all'indirizzo %1"
 
 msgid "You cannot perform this action with a virtual account."
 msgstr "Non è possibile effettuare questa operazione con un conto virtuale."
@@ -3586,11 +3639,13 @@ msgstr "Non è possibile trasferire sull'account %1 poiché i documenti di verif
 msgid "You cannot withdraw funds to the same account."
 msgstr "Non puoi prelevare fondi dallo stesso conto."
 
-msgid "You do not have permission for this action."
-msgstr "Non sei autorizzato a effettuare questa operazione."
-
 msgid "You have already claimed a bonus in the past."
 msgstr "Hai già ricevuto un bonus in passato."
+
+#, fuzzy
+#| msgid "You have reached the limit of active orders on this account, please cancel or complete existing orders, or wait for them to expire"
+msgid "You have an active order for this ad. Please complete the order before making a new one."
+msgstr "Hai raggiunto il limite di ordini attivi per il conto: cancella o completa alcuni ordini esistenti, oppure attendi il loro termine"
 
 msgid "You have created all accounts available to you."
 msgstr "Hai creato tutti gli account disponibili per te."
@@ -3613,8 +3668,10 @@ msgstr "Hai superato il tuo limite giornaliero di perdite di %1 %2."
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "Non hai ancora raggiunto il turnover richiesto per ricevere l'accredito del bonus."
 
-msgid "You have not yet selected a currency for your account."
-msgstr "Non hai ancora selezionato una valuta per il conto."
+#, fuzzy
+#| msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
+msgid "You have open orders for this ad. Please wait until all orders are closed."
+msgstr "Non è possibile eliminare un annuncio con ordini aperti. Assicurati che l'annuncio sia disattivato e attendi la chiusura degli ordini."
 
 msgid "You have opened an account using invalid details."
 msgstr "Hai aperto un account utilizzando dati non validi."
@@ -3670,8 +3727,18 @@ msgstr "Puoi caricare le copie di tutti i documenti richiesti direttamente dal t
 msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
 msgstr "Puoi utilizzare Stop loss o annullamento del contratto, ma non entrambi. Seleziona un'opzione."
 
-msgid "You need to set your residence in order to use this feature."
-msgstr "Inserisci la tua residenza per usare questa funzione."
+#, fuzzy
+#| msgid "The order is already cancelled."
+msgid "You've already cancelled this order."
+msgstr "L'ordine è già stato cancellato."
+
+#, fuzzy
+#| msgid "If you need help, please contact our customer support team at"
+msgid "You've not been approved as an advertiser yet. Please contact our Customer Support team."
+msgstr "Se hai bisogno di aiuto, contatta la nostra assistenza clienti a"
+
+msgid "You've reached the maximum ad limit. Please deactivate some ads."
+msgstr ""
 
 msgid "You've used this password before. Please create a different one."
 msgstr "Hai già utilizzato questa password; ti invitiamo a crearne una nuova."
@@ -5609,8 +5676,20 @@ msgstr "oggi, Venerdì"
 #~ msgid "Advert contact information is required for sell adverts."
 #~ msgstr "Le informazioni di contatto sono necessarie per vendere gli annunci."
 
+#~ msgid "Advert is inactive."
+#~ msgstr "L'annuncio non è attivo."
+
+#~ msgid "Advert minimum price is zero, Please adjust minimum amount or rate."
+#~ msgstr "Il prezzo minimo dell'annuncio è zero: modifica l'importo o il tasso minimo."
+
+#~ msgid "Advert not found."
+#~ msgstr "Annuncio non trovato."
+
 #~ msgid "Advert payment information is required for sell adverts."
 #~ msgstr "Le informazioni sul pagamento sono necessarie per vendere annunci."
+
+#~ msgid "Advertising for the currency is not available at the moment."
+#~ msgstr "Al momento non è disponibile alcuna pubblicità per la valuta."
 
 #~ msgid "Advising senior managers regarding salary negotiations and job offers"
 #~ msgstr "Senior manager di consulenza per le negoziazioni degli stipendi e le offerte di lavoro"
@@ -7193,6 +7272,12 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "Contact Us"
 #~ msgstr "Contattaci"
+
+#~ msgid "Contact and payment information are not applicable for this ad."
+#~ msgstr "Le informazioni su recapiti e pagamenti non valgono per questo annuncio."
+
+#~ msgid "Contact and payment information are not applicable for this order."
+#~ msgstr "Le informazioni su recapiti e pagamenti non valgono per questo ordine."
 
 #~ msgid "Contact each client to get their unique API token. (The API token authorizes you to place trades for your clients using funds in their %1 account)"
 #~ msgstr "Contatta ogni cliente per ottenere il loro token API unico. (Il token API ti autorizza a effettuare trade per i tuoi clienti utilizzando fondi sul loro account di %1)"
@@ -9469,9 +9554,6 @@ msgstr "oggi, Venerdì"
 #~ msgid "If you need assistance feel free to contact our %1Customer Support"
 #~ msgstr "Se hai bisogno di assistenza, contatta la nostra Assistenza clienti %1"
 
-#~ msgid "If you need help, please contact our customer support team at"
-#~ msgstr "Se hai bisogno di aiuto, contatta la nostra assistenza clienti a"
-
 #~ msgid "If you select \"Asian Fall\", you will win the payout if the <strong>last tick</strong> is <strong>lower</strong> than the <strong>average</strong> of the ticks."
 #~ msgstr "Se selezioni \"Ribasso asiatiche\", vincerai il payout se l'<strong>ultimo tick</strong> è <strong>inferiore</strong> alla <strong>media</strong> dei tick."
 
@@ -9954,6 +10036,12 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "Invalid telephone number."
 #~ msgstr "Numero di telefono non valido."
+
+#~ msgid "Invalid value for list limit"
+#~ msgstr "Valore non valido per il limite della lista"
+
+#~ msgid "Invalid value for list offset"
+#~ msgstr "Valore non valido per la compensazione della lista"
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "Nome del luogo di lavoro non valido. Utilizzare solo caratteri (A-Z,a-z,0-9, -, _ e spazi bianchi)"
@@ -11666,6 +11754,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "Number of token placed must be between %1 and %2."
 #~ msgstr "Il numero di token posizionati deve essere compreso tra %1 e %2."
 
+#~ msgid "Numeric value should be greater than 0."
+#~ msgstr "Il valore numerico deve essere maggiore di 0."
+
 #~ msgid "OK"
 #~ msgstr "OK"
 
@@ -11855,6 +11946,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "Order not found"
 #~ msgstr "Ordine non trovato"
 
+#~ msgid "Order not found."
+#~ msgstr "Ordine non trovato."
+
 #~ msgid "Ordinary"
 #~ msgstr "Ordinario"
 
@@ -11979,6 +12073,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "Ownership, content, and liability of the Affiliate's websites are the sole responsibility of the Affiliate. You will be solely responsible for the development, operation, and maintenance of your website and for all materials that appear on your website. You will indemnify and hold us harmless from all claims, damages, and expenses (including, without limitation to, attorneys' fees) relating to the development, operation, maintenance, and contents of your website."
 #~ msgstr "La proprietà, il contenuto e la responsabilità per i siti affiliati sono di responsabilità esclusiva dell'affiliato. Sarai l'unico responsabile per lo sviluppo, funzionamento e manutenzione del tuo sito e di tutto il materiale in esso contenuto. Ci indennizzerai e ci terrai indenni da qualsiasi reclamo, danno e spesa (incluse, senza limitazioni, le spese legali) connesso allo sviluppo, al funzionamento, alla manutenzione e ai contenuti del tuo sito."
 
+#~ msgid "P2P advertiser not found."
+#~ msgstr "Pubblicità P2P non trovata."
+
 #~ msgid "POSCO"
 #~ msgstr "POSCO"
 
@@ -12064,9 +12161,6 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 #~ msgstr "Il trasferimento dell'agente di pagamento non è consentito per l'importo indicato, poiché il saldo dell'account di %1 potrebbe eccedere i limiti consentiti."
-
-#~ msgid "Payment and contact information cannot be specified for buy advert."
-#~ msgstr "Non è possibile specificare le informazioni di pagamento e contatto per acquistare un annuncio."
 
 #~ msgid "Payment and contact information cannot be specified for buy order."
 #~ msgstr "Non è possibile specificare le informazioni di contatto e pagamento per gli ordini di acquisto."
@@ -12239,11 +12333,11 @@ msgstr "oggi, Venerdì"
 #~ msgid "Please fill in the Login ID and Amount you wish to transfer to your Client in the form below:"
 #~ msgstr "Inserisci l'ID di accesso e l'Importo che desideri trasferire al tuo Cliente nel modulo sottostante:"
 
-#~ msgid "Please fill in your account details"
-#~ msgstr "Inserisci i dettagli relativi al tuo conto"
-
 #~ msgid "Please follow the pattern 3 numbers, a dash, followed by 4 numbers."
 #~ msgstr "Segui il modello con 3 numeri, un trattino e 4 numeri."
+
+#~ msgid "Please include your contact information."
+#~ msgstr "Inserisci i tuoi recapiti."
 
 #~ msgid "Please input a valid date"
 #~ msgstr "Inserisci una data valida"
@@ -12265,6 +12359,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "Please note that our website generates log files that record the IP addresses of accesses to your account. This information is gathered with the sole purpose of assisting in the unlikely event of a need to investigate accesses to your account by unauthorised users. Additionally we may verify certain of the information you supply in the account opening form, or otherwise, with third-party information providers."
 #~ msgstr "Si prega di notare che il nostro sito internet genera dei file di log che registrano gli indirizzi IP degli accessi sul tuo account. Queste informazioni vengono raccolte solo al fine di essere d'aiuto in caso di necessità di indagini sugli accessi effettuati sul tuo account da parte di utenti non autorizzati. Inoltre, possiamo verificare determinate informazioni fornite sul modulo di apertura dell'account o diversamente da parte di provider di informazioni terzi."
+
+#~ msgid "Please note that the selected currency is allowed for selected users only."
+#~ msgstr "Nota: la valuta selezionata è permessa solo per alcuni utenti."
 
 #~ msgid "Please note that to apply to become a Payment Agent, you must <a href=\"%1\">Authenticate your Account</a> first."
 #~ msgstr "Si prega di notare che per richiedere di diventare un Agente di Pagamento, devi innanzitutto <a href=\"%1\">Convalidare il tuo Account</a>."
@@ -14246,6 +14343,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "The Moving Average Convergence/Divergence (MACD) indicator is a trend following indicator and is designed to identify trend changes.The MACD is an oscillator based on two exponential moving averages of a share price. Three lines are shown. The \"MACD\" line is calculated as the difference between the two moving averages (usually based on 12- and 26- day averages). The \"signal\" line is a 9-day smoothed average of the standard MACD line, and is sometimes referred to as the \"slow\" MACD line."
 #~ msgstr "Il Moving Average Convergence/Divergence (MACD) è un indicatore che segue i trend ed è stato progettato per individuare i cambiamenti del trend. Il MACD è un oscillatore basato su due medie mobili esponenziali di una quotazione. Vengono mostrate tre linee. La linea \"MACD\" viene calcolata dalla differenza tra le due medie mobili (di solito basate su medie di 12-26 giorni). La linea del \"segnale\" è una linea della media di 9 giorni della linea standard del MACD e a volte è indicata come la linea \"lenta\"."
 
+#~ msgid "The P2P cashier is currently disabled."
+#~ msgstr "La cassa P2P è momentaneamente disabilitata."
+
 #~ msgid "The Performance indicator displays a security's price performance as a percentage. This is sometimes called a \"normalized\" chart. The Performance indicator displays the percentage that the security has increased since the first period displayed. For example, if the Performance indicator is 10, it means that the security's price has increased 10% since the first period displayed on the left side of the chart. Similarly, a value of -10% means that the security's price has fallen by 10% since the first period displayed.Performance charts are helpful for comparing the price movements of different securities."
 #~ msgstr "L'Indicatore di performance mostra il rendimento del prezzo di un titolo espresso in percentuale. A volte viene chiamato grafico \"normalizzato\". L'Indicatore di performance mostra la percentuale di un titolo che è aumentato rispetto al primo periodo mostrato. Ad esempio, se l'Indicatore di performance è 10, significa che il prezzo del titolo è aumentato del 10% rispetto al primo periodo mostrato sulla parte sinistra del grafico. Allo stesso modo, un valore pari a -10% indica che il prezzo del titolo è diminuito del 10% rispetto al primo periodo mostrato. I grafici di performance sono utili per confrontare i movimenti di prezzo dei diversi titoli."
 
@@ -14329,8 +14429,20 @@ msgstr "oggi, Venerdì"
 #~ msgid "The address can be only used once while pending. Please generate a new address."
 #~ msgstr "L'indirizzo può essere utilizzato solo una volta quando è in sospeso. Genera un nuovo indirizzo."
 
+#~ msgid "The advert is inactive and cannot be changed."
+#~ msgstr "L'annuncio è inattivo e non può essere modificato."
+
+#~ msgid "The advertiser is not approved."
+#~ msgstr "L'inserzionista non è approvato."
+
+#~ msgid "The advertiser name cannot be blank."
+#~ msgstr "Il nome dell'inserzionista non può restare vuoto."
+
 #~ msgid "The affiliate program enables you to benefit from referring clients to the site. Growth and success is shared with affiliates who have the ability to bring new Clients to the site."
 #~ msgstr "Il programma di affiliazione ti consente di trarre vantaggio dai clienti invitati sul sito. La crescita e il successo vengono condivisi con gli affiliati che hanno la capacità di portare nuovi Clienti sul sito."
+
+#~ msgid "The amount exceeds the maximum limit."
+#~ msgstr "L'importo supera il limite massimo."
 
 #~ msgid "The amount of profit/loss per point of rise/fall is multiplied by the amount per point. A large amount per point will result in large profits/losses per point of movement of the index."
 #~ msgstr "L'importo della perdita/profitto per punto di rialzo/ribasso viene moltiplicato per l'importo per punto. Importi più alti per punto porteranno ad ampi profitti/perdite per punto di movimento dell'indice."
@@ -14481,8 +14593,26 @@ msgstr "oggi, Venerdì"
 #~ msgid "The materials comprising the %1 website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-<span class='currentYear'></span> Binary Group of companies. All rights reserved."
 #~ msgstr "I materiali comprendenti il sito internet di %1 (inclusi, senza limitazione, tutti gli articoli, testi, messaggi, loghi, raccolte, sistemi, codici e design) sono coperti dal Copyright 1999-<span class='currentYear'></span> delle società del Gruppo Binary. Tutti i diritti riservati."
 
+#~ msgid "The maximum amount exceeds the maximum amount per order (%1 %2). Please adjust the value."
+#~ msgstr "L'importo massimo supera l'importo massimo per ordine (%1 %2): modifica il valore di conseguenza."
+
+#~ msgid "The maximum available amount for this advert is %1 %2 at the moment."
+#~ msgstr "Al momento, l'importo massimo disponibile per questo annuncio è %1 %2."
+
+#~ msgid "The maximum limit of active adverts reached."
+#~ msgstr "È stato raggiunto il limite massimo degli annunci attivi."
+
 #~ msgid "The maximum loss that may be incurred by any Client is the amount of money paid by oneself to the Company."
 #~ msgstr "La perdita massima che può essere subita da qualsiasi Cliente è pari all'importo pagato alla Società."
+
+#~ msgid "The minimum amount for this advert is %1 %2."
+#~ msgstr "L'importo minimo per questo annuncio è %1 %2."
+
+#~ msgid "The minimum amount requirements are not met."
+#~ msgstr "I requisiti di importo minimo non sono rispettati."
+
+#~ msgid "The new amount cannot be less than the value of current orders against this advert."
+#~ msgstr "L'importo nuovo non può essere inferiore agli ordini correnti rispetto a questo annuncio."
 
 #~ msgid "The offer amount should be greater than or equal to maximum amount."
 #~ msgstr "L'importo dell'offerta deve essere superiore o uguale all'importo massimo."
@@ -14495,6 +14625,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "The order cannot be confirmed by client in its current state."
 #~ msgstr "L'ordine non può essere confermato dall'agente nel suo stato attuale."
+
+#~ msgid "The order cannot be confirmed in its current state."
+#~ msgstr "L'ordine non può essere confermato nel suo stato attuale."
 
 #~ msgid "The order is already confirmed by client."
 #~ msgstr "L'ordine è già stato confermato dal cliente."
@@ -14528,6 +14661,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "The profit of USD 294 is the difference between the exit and entry level multiplied by the amount per point."
 #~ msgstr "Il profitto di 294 USD è la differenza tra il livello d'uscita e quello d'entrata moltiplicato per l'importo per punto."
+
+#~ msgid "The provided advertiser ID does not belong to an active advertiser."
+#~ msgstr "L'ID dell'inserzionista fornito non appartiene a un inserzionista attivo."
 
 #~ msgid "The random index is a stock index whose price is simulated using random numbers. Unlike real market stock indices whose prices depend on the prices of the individual stocks listed on an Exchange, the random stock index only relies on factors like volatility, previous index price (previous simulated price) and a random number to determine the price of the index. Due to the use of random numbers, the price (or direction) of the index cannot be predicted with certainty and thus behaves like a real market index. When the index is appended with a number, the number is the percentage volatility used in calculating the index price. For instance, the Random Index 25 uses a volatility of 25% in the calculation of the index price. The index started at 1000 on 16 May 2004."
 #~ msgstr "L'indice random è un indice azionario il cui prezzo viene simulato utilizzando numeri casuali. A differenza degli indici azionari del mercato reale, i cui prezzi dipendono da quelli delle singole azioni elencate nella Borsa, l'indice azionario random dipende solo da fattori come la volatilità, il prezzo precedente dell'indice (prezzo simulato precedentemente) e un numero casuale per definire il prezzo dell'indice. Con l'utilizzo di numeri casuali, il prezzo (o direzione) dell'indice non può essere previsto con sicurezza e si comporta quindi come un indice del mercato reale. Quando l'indice è collegato a un numero, il numero è la volatilità percentuale utilizzata nel calcolo del prezzo dell'indice. Per esempio, l'Indice Random 25 utilizza una volatilità del 25% nel calcolo del prezzo dell'indice. L'indice è partito da 1000 il 16 Maggio 2004."
@@ -14700,11 +14836,20 @@ msgstr "oggi, Venerdì"
 #~ msgid "This acccount is unavailable."
 #~ msgstr "Questo account non è disponibile."
 
+#~ msgid "This account has already been registered as a P2P advertiser."
+#~ msgstr "Questo conto è già stato registrato come inserzionista P2P."
+
+#~ msgid "This account is not registered as a P2P advertiser."
+#~ msgstr "Questo conto non è registrato come inserzionista P2P."
+
 #~ msgid "This account is unavailable. For any questions please contact <a href=\"%1\">Customer Support</a>."
 #~ msgstr "Questo account non è disponibile. Per qualsiasi domanda contattare l'<a href=\"%1\">Assistenza Clienti</a>."
 
 #~ msgid "This account is unavailable. For any questions please contact Customer Support."
 #~ msgstr "Questo account non è disponibile. Per qualsiasi domanda contattare l'Assistenza Clienti."
+
+#~ msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
+#~ msgstr "Questo annuncio non può essere eliminato perché ci sono ordini aperti. Attendi la chiusura di tutti gli ordini e prova di nuovo; se non vuoi più accettare nuovi ordini, disabilita l'annuncio."
 
 #~ msgid "This agent account is not currently active"
 #~ msgstr "Al momento questo conto non è attivo"
@@ -14714,6 +14859,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "This bonus will be processed and credited to a client's account when:"
 #~ msgstr "Questo bonus verrà elaborato e accreditato sull'account del cliente quando:"
+
+#~ msgid "This cannot be cancelled since the order is already in progress."
+#~ msgstr "Non è possibile eliminarlo poiché l'ordine è in fase di esecuzione."
 
 #~ msgid "This client cashier section is locked."
 #~ msgstr "Questa sezione della cassa clienti è bloccata."
@@ -14741,6 +14889,12 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "This contract won"
 #~ msgstr "Questo contratto ha vinto"
+
+#~ msgid "This country is not enabled for P2P cashier functionality."
+#~ msgstr "Questo paese non è abilitato alla funzione di cassa P2P."
+
+#~ msgid "This currency is not enabled for P2P cashier functionality."
+#~ msgstr "Questa valuta non è valida per la funzione di cassa P2P."
 
 #~ msgid "This document (the \"Agreement\") sets out the terms and conditions (\"Terms\") between \"the Company\" which is Binary Services Ltd (\"we,\" \"us,\" and \"our\"), and you (the person who registered for the Binary.com Application Program Interface (\"API\"); \"you\", or \"your\")."
 #~ msgstr "Il presente documento (l'\"Accordo\") stabilisce i termini e le condizioni (\"Termini\") tra \"la Società\", ossia Binary Services Ltd (\"noi\", \"ci\" e \"nostro\"), e te (la persona che si è registrata per l'Application Program Interface (\"API\") di Binary.com; \"tu\" o \"tuo\")."
@@ -14949,6 +15103,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "Tokyo Electric Power Co. Inc"
 #~ msgstr "Tokyo Electric Power Co. Inc"
 
+#~ msgid "Too many orders. Please complete your pending orders."
+#~ msgstr "Numero eccessivo di ordini: completa quelli in sospeso."
+
 #~ msgid "Too many recent attempts. Try again later."
 #~ msgstr "Troppi tentativi recenti. Riprova più tardi."
 
@@ -15068,9 +15225,6 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "Trading manual"
 #~ msgstr "Trading manual"
-
-#~ msgid "Trading on %1 is suspended at the moment."
-#~ msgstr "Al momento il trading su %1 è sospeso."
 
 #~ msgid "Trading on this contract type is suspended for the last one hour of the session."
 #~ msgstr "Il trading su questa tipologia di contratto è sospeso per l'ultima ora della sessione."
@@ -15663,6 +15817,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "We are required to take a number of factors into account when considering how to give you best execution. We have rated price as the most important followed by: (a) costs; (b) size, (c) liquidity of the underlying market, (d) speed and (e) likelihood of execution and settlement. The main way in which we will ensure that you obtain best execution is by ensuring that in our calculation of our bid/offer prices, we pay due consideration to the market price for the underlying reference product to which your Contract relates. We have access to a number of different data sources in order to ascertain the market price, which is our objective view of the bids and offers available to arms' length traders."
 #~ msgstr "Siamo tenuti a considerare una serie di fattori quando si considera in che modo offrirti l'esecuzione migliore. Abbiamo valutato il prezzo come il fattore più importante seguito da: (a) costi; (b) volume, (c) liquidità del mercato sottostante, (d) velocità e (e) probabilità di esecuzione e liquidazione. Il modo principale in cui ti garantiamo l'ottenimento dell'esecuzione migliore è garantendoti che nel calcolo dei nostri prezzi di domanda/offerta, teniamo in dovuta considerazione il prezzo del mercato per il prodotto di riferimento sottostante cui è connesso il tuo Contratto. Abbiamo accesso a varie fonti di dati diverse al fine di determinare il prezzo di mercato, ossia la nostra visione obiettiva delle domande e delle offerte disponibili per i trader indipendenti."
+
+#~ msgid "We are unable to determine the local currency for your country."
+#~ msgstr "Non siamo in grado di determinare la valuta locale del tuo paese."
 
 #~ msgid "We could not authenticate your account online. Please proceed to the <a href=\"%1\">manual authentication section</a>. If you would like to register additional credit cards, please contact <a class=\"pjaxload\" href=\"%2\">customer support</a>."
 #~ msgstr "Impossibile autenticare il tuo account online. Si prega di passare alla <a href=\"%1\">sezione di convalida manuale</a>. Se desideri registrare carte di credito aggiuntive, contatta l'<a class=\"pjaxload\" href=\"%2\">assistenza clienti</a>."
@@ -16273,6 +16430,12 @@ msgstr "oggi, Venerdì"
 #~ msgid "You are not entitled to any compensation or reimbursement of any kind from the Company under any circumstances."
 #~ msgstr "Non hai in nessun caso diritto ad alcun compenso o rimborso di alcun tipo da parte della Società."
 
+#~ msgid "You are not logged in."
+#~ msgstr "Non hai effettuato l'accesso."
+
+#~ msgid "You are not yet registered as a P2P advertiser."
+#~ msgstr "Non sei ancora registrato come inserzionista P2P."
+
 #~ msgid "You are responsible for managing your tax and legal affairs including making any regulatory filings and payments and complying with applicable laws and regulations. We do not provide any regulatory, tax or legal advice. If you are in any doubt as to the tax treatment or liabilities of Investment Products or Gambling Products available through %1, you may wish to seek independent advice."
 #~ msgstr "Sei responsabile per la gestione fiscale e giuridica degli affari inclusa qualsiasi archiviazione e pagamento normativo e la conformità alle leggi e normative in vigore. Non forniamo alcuna consulenza normativa, fiscale o legale. Per qualsiasi dubbio connesso al trattamento fiscale o responsabilità sui Prodotti d'investimento o Prodotti d'azzardo disponibili attraverso %1, dovresti cercare una consulenza esterna."
 
@@ -16312,14 +16475,11 @@ msgstr "oggi, Venerdì"
 #~ msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 #~ msgstr "Per effettuare depositi e prelievi con modalità di pagamento o con valute locali non supportate da %1 è possibile utilizzare un agente di pagamento autorizzato. È molto semplice."
 
-#~ msgid "You cannot delete an advert with open orders. Please ensure the advert is deactivated and wait until all orders are closed."
-#~ msgstr "Non è possibile eliminare un annuncio con ordini aperti. Assicurati che l'annuncio sia disattivato e attendi la chiusura degli ordini."
+#~ msgid "You cannot create an order with a different currency than your account."
+#~ msgstr "Non puoi creare un ordine con una valuta diversa da quella del tuo conto."
 
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "Non è possibile effettuare il prelievo sull'account %1 poiché l'account dell'agente di pagamento è contrassegnato come negativo."
-
-#~ msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
-#~ msgstr "Non è possibile effettuare questa operazione perché il conto è stato disabilitato per i trasferimenti con MT5. Ti invitiamo a contattarci all'indirizzo %1"
 
 #~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
 #~ msgstr "Non è possibile effettuare questa operazione poiché, come richiesto, la cassa del conto %1 è bloccata."
@@ -16341,6 +16501,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "You did not change anything."
 #~ msgstr "Non hai modificato nulla."
+
+#~ msgid "You do not have permission for this action."
+#~ msgstr "Non sei autorizzato a effettuare questa operazione."
 
 #~ msgid "You don't need to deposit any money to open an account, but you need to deposit funds before you can start trading."
 #~ msgstr "Non è necessario fare alcun deposito per aprire un account ma, prima di iniziare il trading, bisogna depositare dei fondi."
@@ -16372,6 +16535,9 @@ msgstr "oggi, Venerdì"
 #~ msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
 #~ msgstr "Non hai ottenuto e non manterrai tutte le licenze e i consensi necessari per operare all'interno di qualsiasi legge, norma e regolamento applicabile in base all'autorità di qualsiasi ente regolatore della giurisdizione competente su cui operi o rivolgi la tua attività;"
 
+#~ msgid "You have not yet selected a currency for your account."
+#~ msgstr "Non hai ancora selezionato una valuta per il conto."
+
 #~ msgid "You have purchased the following contract:"
 #~ msgstr "Hai acquistato il seguente contratto:"
 
@@ -16379,9 +16545,6 @@ msgstr "oggi, Venerdì"
 #~| msgid "You are either already subscribed or you have reached the limit for pricing table subscription."
 #~ msgid "You have reached the limit for pricing table subscription."
 #~ msgstr "Sei già iscritto oppure hai raggiunto il limite di iscrizioni delle tabelle dei prezzi."
-
-#~ msgid "You have reached the limit of active orders on this account, please cancel or complete existing orders, or wait for them to expire"
-#~ msgstr "Hai raggiunto il limite di ordini attivi per il conto: cancella o completa alcuni ordini esistenti, oppure attendi il loro termine"
 
 #~ msgid "You have reached the rate limit of requests per second. To continue, please <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">refresh</a> the page."
 #~ msgstr "Hai raggiunto il limite di tasso delle richieste per secondo. Per continuare, <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">aggiorna</a> la pagina."
@@ -16454,6 +16617,9 @@ msgstr "oggi, Venerdì"
 
 #~ msgid "You need to finish all 20 questions."
 #~ msgstr "Devi completare tutte le 20 domande."
+
+#~ msgid "You need to set your residence in order to use this feature."
+#~ msgstr "Inserisci la tua residenza per usare questa funzione."
 
 #~ msgid "You only need to make four decisions to execute a binary contract."
 #~ msgstr "Per stipulare un contratto binario, devi decidere solo quattro cose."

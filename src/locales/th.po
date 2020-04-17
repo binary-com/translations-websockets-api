@@ -32,6 +32,11 @@ msgstr "%1 ไม่ถูกต้อง สำหรับประเภท�
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 ไม่ได้รับอนุญาตในการพำนักที่ %2"
 
+#, fuzzy
+#| msgid "Trading on %1 is suspended at the moment."
+msgid "%1 is not supported at the moment."
+msgstr "การซื้อขาย %1ถูกพักชั่วคราวในขณะนี้"
+
 msgid "%1 is one of many trading applications powered by %2 technology."
 msgstr ""
 
@@ -208,34 +213,23 @@ msgstr "การตอบรับของการแจ้งถอนเง
 msgid "Action"
 msgstr "การกระทำ"
 
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "Ad rate should not be less than %1. Please adjust the value."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "Ad rate should not be more than %1. Please adjust the value."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
 msgid "Address"
 msgstr "ที่อยู่"
 
-msgid "Advert is inactive."
-msgstr ""
-
-msgid "Advert minimum price is zero, Please adjust minimum amount or rate."
-msgstr ""
-
 #, fuzzy
-#| msgid "Not Found"
-msgid "Advert not found."
-msgstr "ไม่พบ"
-
-#, fuzzy
-#| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "Advert rate should not be less than %1. Please adjust the value."
-msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
-
-#, fuzzy
-#| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "Advert rate should not be more than %1. Please adjust the value."
-msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
-
-#, fuzzy
-#| msgid "The provided currency %1 is not selectable at the moment."
-msgid "Advertising for the currency is not available at the moment."
-msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
+msgstr "ขออภัย ไม่สามารถโอนได้ในขณะนี้ กรุณาทำรายการใหม่ภายหลัง"
 
 msgid "Age and identity verification"
 msgstr "การตรวจสอบอายุและอัตลักษณ์บุคคล"
@@ -458,6 +452,9 @@ msgstr ""
 msgid "Buy"
 msgstr "ซื้อ"
 
+msgid "Buy orders do not require payment and contact information."
+msgstr ""
+
 msgid "CAD/CHF"
 msgstr "CAD/CHF"
 
@@ -547,16 +544,6 @@ msgstr "สินค้าโภคภัณฑ์ถูกซื้อขาย
 
 msgid "Connection closed"
 msgstr "ปิดการเชื่อมต่อ"
-
-#, fuzzy
-#| msgid "Payment agent facilities are not available for this account."
-msgid "Contact and payment information are not applicable for this ad."
-msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับบัญชีนี้"
-
-#, fuzzy
-#| msgid "Payment agent facilities are not available for this account."
-msgid "Contact and payment information are not applicable for this order."
-msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับบัญชีนี้"
 
 msgid "Continuous Indices"
 msgstr "ดัชนีต่อเนื่อง"
@@ -1567,16 +1554,6 @@ msgstr "ประเภทการซื้อขายไม่ถูกต้
 msgid "Invalid user."
 msgstr "ผู้ใช้งานไม่ถูกต้อง"
 
-#, fuzzy
-#| msgid "Invalid date format."
-msgid "Invalid value for list limit"
-msgstr "รูปแบบวันที่ไม่ถูกต้อง"
-
-#, fuzzy
-#| msgid "Invalid URI for appstore."
-msgid "Invalid value for list offset"
-msgstr "URI ของ AppStore ไม่ถูกต้อง"
-
 msgid "Irish Index"
 msgstr "ดัชนีไอริช"
 
@@ -1719,6 +1696,21 @@ msgstr "Matches/Differs"
 msgid "Max 30 tokens are allowed."
 msgstr "อนุญาตมากที่สุด 30 โทเค่น"
 
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "Maximum ad amount is %1 %2. Please adjust the value."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "Maximum ad limit is %1 %2. Please adjust the value."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "Maximum ad order amount is %1 %2. Please adjust the value."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
 msgid "Maximum file size reached. Maximum allowed is %1"
 msgstr "ขนาดของไฟล์ใหญ่เกินไป ขนาดไฟล์ที่รองรับได้ คือ %1"
 
@@ -1735,6 +1727,11 @@ msgid "Min trade stake should be lower than max trade stake."
 msgstr "การวางเงินซื้อขายขั้นต่ำควรจะมีค่าต่ำกว่าการวางเงินซื้อขายขั้นสูงสุด"
 
 #, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "Minimum ad amount is %1 %2. Please adjust the value."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
+#, fuzzy
 #| msgid "Barrier can only be up to %1 decimal places."
 msgid "Minimum amount is %1 with no decimal places."
 msgstr "ค่า Barrier มีทศนิยมไม่เกิน %1 หลัก"
@@ -1746,6 +1743,11 @@ msgstr "ค่า Barrier มีทศนิยมไม่เกิน %1 ห�
 
 msgid "Minimum multiplier of %1."
 msgstr "ตัวคูณที่น้อยที่สุดของ %1"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "Minimum order amount is %1. Please adjust the value."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
 msgstr "จำนวนเงินเดิมพันที่ต่ำที่สุดของ %1 และจำนวนเงินที่ชำระที่มากที่สุดของ %2 จำนวนเงินที่ชำระปัจจุบันคือ %3"
@@ -1826,6 +1828,11 @@ msgstr "ไม่มีข้อมูลของสัญญาฉบับน
 msgid "No such category or event. Please check the provided value."
 msgstr "ไม่มีหมวดหมู่หรือรายการดังกล่าว โปรดตรวจสอบคำค้นอีกครั้ง"
 
+#, fuzzy
+#| msgid "Not Found"
+msgid "No token found"
+msgstr "ไม่พบ"
+
 msgid "Non atm barrier is not allowed for reset contract."
 msgstr "ไม่อนุญาตให้กำหนด Non ATM Barrier สำหรับตั้งค่าสัญญาใหม่"
 
@@ -1839,11 +1846,6 @@ msgid "Norwegian Index"
 msgstr "ดัชนีนอรเวย์"
 
 msgid "Not Found"
-msgstr "ไม่พบ"
-
-#, fuzzy
-#| msgid "Not Found"
-msgid "Not found."
 msgstr "ไม่พบ"
 
 msgid "Not you? Unsure?"
@@ -1863,11 +1865,6 @@ msgstr "บันทึกจะต้องไม่เกิน %1 ตัว�
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "จำนวนของช่วงราคาต้องอยู่ระหว่าง %1 และ %2"
-
-#, fuzzy
-#| msgid "Please enter a number greater than 0"
-msgid "Numeric value should be greater than 0."
-msgstr "โปรดป้อนตัวเลขมากกว่า 0"
 
 msgid "OTP Verification"
 msgstr "การตรวจสอบ OTP"
@@ -1946,10 +1943,8 @@ msgstr "หรือ"
 msgid "Or use your social account"
 msgstr "ลงชื่อเข้าใช้โดยใช้บัญชีเครือข่ายสังคมออนไลน์"
 
-#, fuzzy
-#| msgid "Not Found"
-msgid "Order not found."
-msgstr "ไม่พบ"
+msgid "Order is in progress. Changes are no longer allowed."
+msgstr ""
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -1978,14 +1973,19 @@ msgid "P.O. Box is not accepted in address."
 msgstr "ไม่สามารถใช้ ตู้ปณ. ในข้อมูลที่อยู่"
 
 #, fuzzy
-#| msgid "Document not found."
-msgid "P2P advertiser not found."
-msgstr "ไม่พบเอกสารที่ต้องการ"
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "P2P cashier is currently unavailable. Please check back later."
+msgstr "ขออภัย ไม่สามารถโอนได้ในขณะนี้ กรุณาทำรายการใหม่ภายหลัง"
 
 #, fuzzy
 #| msgid "This contract is unavailable on this account."
-msgid "P2P cashier functionality is not available on demo accounts."
+msgid "P2P cashier is unavailable in your country."
 msgstr "สัญญานี้ไม่สามารถใช้งานได้กับบัญชีนี้"
+
+#, fuzzy
+#| msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
+msgid "P2P cashier is unavailable on demo accounts. Please switch to your real account."
+msgstr "นี้คือ บัญชีทดลองใช้ โปรดเปลี่ยนกลับไปบัญชีเงินจริงเพื่อดำเนินการ"
 
 msgid "Palladium/USD"
 msgstr "Palladium/USD"
@@ -2027,6 +2027,11 @@ msgstr "ไม่สามารถใช้บริการการโอน
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "ไม่อนุญาตให้ตัวแทนชำระเงินถอนเงินสำหรับบัญชีที่กำหนดไว้"
+
+#, fuzzy
+#| msgid "Payment agent facilities are not available for this account."
+msgid "Payment and contact information are not needed for buy ads."
+msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับบัญชีนี้"
 
 msgid "Payments"
 msgstr "การชำระเงิน"
@@ -2091,6 +2096,11 @@ msgstr "โปรดยอมรับ Fund Protection"
 msgid "Please agree to the risk disclaimer before proceeding."
 msgstr "โปรดแสดงความยินยอมในการสงวนสิทธิ์ความเสี่ยงก่อนดำเนินการต่อไป"
 
+#, fuzzy
+#| msgid "If you need help, please contact our customer support team at"
+msgid "Please apply to be an advertiser. If you've already applied, please contact our Customer Support team."
+msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อทีมบริการลูกค้าของเราที่"
+
 msgid "Please authenticate your account by %1updating your tax information%2 and uploading the following documents:"
 msgstr "โปรดตรวจสอบบัญชีของท่าน โดย %1 ปรับปรุงข้อมูลภาษีของท่าน %2 และอัพโหลดเอกสารต่อไปนี้:"
 
@@ -2131,6 +2141,11 @@ msgstr "โปรดฝากเงิน หรือ หลักประก�
 
 msgid "Please ensure all positions in your account(s) are closed before proceeding: %1."
 msgstr "โปรดปิดสัญญาทั้งหมดในบัญชีของท่านก่อนดำเนินการต่อไป: %1"
+
+#, fuzzy
+#| msgid "Please enter the amount you wish to transfer."
+msgid "Please enter a limit value that's greater than 0."
+msgstr "โปรดป้อนจำนวนเงินที่ท่านต้องการโอน"
 
 msgid "Please enter a number between %1 and %2."
 msgstr "โปรดป้อนตัวเลขระหว่าง %1 และ %2"
@@ -2185,6 +2200,11 @@ msgstr ""
 
 msgid "Please enter a valid place of birth."
 msgstr "โปรดป้อนสถานที่เกิดที่ถูกต้อง"
+
+#, fuzzy
+#| msgid "Please enter the amount you wish to transfer."
+msgid "Please enter a value that's greater than 0."
+msgstr "โปรดป้อนจำนวนเงินที่ท่านต้องการโอน"
 
 #, fuzzy
 #| msgid "Please authenticate your account."
@@ -2250,18 +2270,13 @@ msgstr ""
 "\n"
 "แบบฟอร์มการตั้งรหัสผ่านใหม่: %2"
 
-#, fuzzy
-#| msgid "update your tax information"
-msgid "Please include your contact information."
-msgstr "ปรับปรุงแก้ไขข้อมูลภาษีของท่าน"
-
-#, fuzzy
-#| msgid "update your tax information"
-msgid "Please include your payment information."
-msgstr "ปรับปรุงแก้ไขข้อมูลภาษีของท่าน"
-
 msgid "Please let us know right away."
 msgstr ""
+
+#, fuzzy
+#| msgid "Please log in."
+msgid "Please log in to continue."
+msgstr "โปรดเข้าสู่ระบบ"
 
 msgid "Please log in to your social account to continue."
 msgstr "โปรดลงชื่อเข้าใช้บัญชีเครือข่ายสังคัมออนไลน์ของท่านเพื่อดำเนินการต่อ"
@@ -2271,11 +2286,6 @@ msgstr "โปรดเข้าสู่ระบบ"
 
 msgid "Please note that if you reset your password, your social account login will be deactivated."
 msgstr ""
-
-#, fuzzy
-#| msgid "Please note that the selected currency is allowed for limited accounts only"
-msgid "Please note that the selected currency is allowed for selected users only."
-msgstr "สกุลเงินที่ท่านเลือกสามารถใช้กับางบัญชีเท่านั้น"
 
 msgid "Please note that you are limited to one fiat currency account."
 msgstr "โปรดทราบว่า ท่านสามารถใช้บัญชีสกุลเงินเดียว"
@@ -2304,11 +2314,31 @@ msgstr "โปรดป้อนตัวเลขที่ถูกต้อง
 msgid "Please provide valid currency."
 msgstr "โปรดป้อนสกุลเงินที่ถูกต้อง"
 
+#, fuzzy
+#| msgid "Please fill in your account details"
+msgid "Please provide your contact details."
+msgstr "โปรดกรอกรายละเอียดบัญชีของท่าน"
+
+#, fuzzy
+#| msgid "Please provide valid amount."
+msgid "Please provide your name."
+msgstr "โปรดป้อนตัวเลขที่ถูกต้อง"
+
+#, fuzzy
+#| msgid "update your tax information"
+msgid "Please provide your payment details."
+msgstr "ปรับปรุงแก้ไขข้อมูลภาษีของท่าน"
+
 msgid "Please review the details to confirm it was you."
 msgstr "โปรดตรวจสอบข้อมูลเพื่อยืนยันว่าเป็นตัวท่านเอง"
 
 msgid "Please select"
 msgstr "โปรดระบุ"
+
+#, fuzzy
+#| msgid "Please set the currency."
+msgid "Please select an ad that matches your currency."
+msgstr "โปรดระบุสกุลเงิน"
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชีเดิมของท่าน %1 เพื่อดำเนินการเปิดบัญชีใหม่"
@@ -2365,6 +2395,9 @@ msgstr "โปรดตรวจสอบอีเมล์ของท่าน
 #| msgid "Verify your withdraw request."
 msgid "Please verify your<br />withdrawal request"
 msgstr "ตรวจสอบคำสั่งถอนเงินของท่าน"
+
+msgid "Please wait for confirmation or contact the seller."
+msgstr ""
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "โปรดรอสักครู่เพื่อประมวลผลสัญญา ราคาสุดท้ายที่ปิดอาจจะแตกต่างจากราคาตามที่ปรากฎ"
@@ -2886,33 +2919,7 @@ msgstr "ทีมงาท %1"
 msgid "The %1 team."
 msgstr "ทีมงาท %1"
 
-#, fuzzy
-#| msgid "TOTP based 2FA is already disabled."
-msgid "The P2P cashier is currently disabled."
-msgstr "TOTP based 2FA ได้ปิดการใช้งานแล้ว"
-
 msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
-msgstr ""
-
-#, fuzzy
-#| msgid "Value of citizen cannot be changed after authentication."
-msgid "The advert is inactive and cannot be changed."
-msgstr "ไม่สามารถเปลี่ยนค่าของสัญชาติได้หลังจากได้ยืนยันบัญชีแล้ว"
-
-#, fuzzy
-#| msgid "Client is not fully authenticated."
-msgid "The advertiser is not approved."
-msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
-
-#, fuzzy
-#| msgid "Value of last name cannot be changed after authentication."
-msgid "The advertiser name cannot be blank."
-msgstr "ไม่สามารถเปลี่ยนค่าของนามสกุลได้หลังจากได้ยืนยันบัญชีแล้ว"
-
-msgid "The advertiser name is already taken. Please choose another."
-msgstr ""
-
-msgid "The amount exceeds the maximum limit."
 msgstr ""
 
 msgid "The contract %4 has changed from %1%2 to %1%3."
@@ -2966,35 +2973,10 @@ msgstr "ตลาดจะเปิดทำการที่เวลาเร
 
 #, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The maximum amount exceeds the maximum amount per order (%1 %2). Please adjust the value."
-msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
-
-#, fuzzy
-#| msgid "The account transfer is unavailable. Please deposit to your account."
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
-#, fuzzy
-#| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The maximum amount should be less than or equal to the advert amount."
-msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
-
 msgid "The maximum amount you may transfer is: %1."
-msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
-
-#, fuzzy
-#| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The maximum available amount for this advert is %1 %2 at the moment."
-msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
-
-#, fuzzy
-#| msgid "The maximum number of tokens (%1) has been reached."
-msgid "The maximum limit of active adverts reached."
-msgstr "จำนวนมากที่สุดของโทเค่น (%1) ถูกใช้หมดแล้ว"
-
-#, fuzzy
-#| msgid "The maximum amount you may transfer is: %1."
-msgid "The minimum amount for this advert is %1 %2."
 msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
 
 #, fuzzy
@@ -3003,13 +2985,8 @@ msgid "The minimum amount for transfers is %1 %2. Please adjust your amount."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
 #, fuzzy
-#| msgid "The maximum amount you may transfer is: %1."
-msgid "The minimum amount requirements are not met."
-msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
-
-#, fuzzy
 #| msgid "The account transfer is unavailable. Please deposit to your account."
-msgid "The minimum amount should be less than or equal to maximum amount."
+msgid "The minimum order amount should be less than or equal to the maximum ad amount. Please adjust the value."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
 msgid "The minimum withdrawal amount allowed is %1 %2."
@@ -3021,30 +2998,8 @@ msgstr "คู่อัตราแลกเปลี่ยนที่นิย
 msgid "The name is taken."
 msgstr "ชื่อนี้ถูกใช้แล้ว"
 
-#, fuzzy
-#| msgid "Expiration date cannot be less than or equal to current date."
-msgid "The new amount cannot be less than the value of current orders against this advert."
-msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
-
-#, fuzzy
-#| msgid "Expiration date cannot be less than or equal to current date."
-msgid "The order cannot be confirmed in its current state."
-msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
-
-#, fuzzy
-#| msgid "Your password has been changed."
-msgid "The order has expired and cannot be changed."
-msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
-
-#, fuzzy
-#| msgid "Your password has been changed."
-msgid "The order is already cancelled."
-msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
-
-#, fuzzy
-#| msgid "Your password has been changed."
-msgid "The order is already confirmed by you."
-msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
+msgid "The offset value cannot be negative. Please enter 0 or higher."
+msgstr ""
 
 #, fuzzy
 #| msgid "Your password has been changed."
@@ -3059,11 +3014,6 @@ msgstr "รหัสผ่านของบัญชีท่าน %1 มี�
 
 msgid "The payment agent facility is not available for this account."
 msgstr "ไม่มีบริการตัวแทนรับชำระเงินสำหรับบัญชีนี้"
-
-#, fuzzy
-#| msgid "The provided currency %1 is not selectable at the moment."
-msgid "The provided advertiser ID does not belong to an active advertiser."
-msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
 
 msgid "The provided currency %1 is invalid."
 msgstr "สกุลเงิน %1 ดังกล่าวไม่ถูกต้อง"
@@ -3138,33 +3088,30 @@ msgstr "บัญชีนี้ถูกห้ามใช้งาน"
 msgid "This account does not allow MT5 trading. Please log in to the correct account."
 msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
-#, fuzzy
-#| msgid "Your account is registered as a Payment Agent."
-msgid "This account has already been registered as a P2P advertiser."
-msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
-
 msgid "This account has been disabled."
 msgstr "บัญชีนี้ถูกห้ามใช้งาน"
-
-#, fuzzy
-#| msgid "Your account is registered as a Payment Agent."
-msgid "This account is not registered as a P2P advertiser."
-msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
 
 msgid "This account is unavailable."
 msgstr "บัญชีนี้ไม่สามารถใช้งานได้"
 
+#, fuzzy
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "This ad is currently unavailable. Please check back later."
+msgstr "ขออภัย ไม่สามารถโอนได้ในขณะนี้ กรุณาทำรายการใหม่ภายหลัง"
+
 msgid "This address can only be used once to make a deposit."
 msgstr "ที่อยู่ถูกใช้ได้เพียงครั้งเดียวต่อการฝากหนึ่งครั้ง"
 
-msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
+#, fuzzy
+#| msgid "The provided currency %1 is not selectable at the moment."
+msgid "This advertiser has not been approved yet. Please choose another advertiser."
+msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
+
+msgid "This advertiser is currently inactive. Please check again later or choose another advertiser."
 msgstr ""
 
 msgid "This amount is too low. Please enter a minimum of %1 %2."
 msgstr "จำนวนเงินต่ำเกินไป โปรดป้อนจำนวนเงินขั้นต่ำ %1 %2"
-
-msgid "This cannot be cancelled since the order is already in progress."
-msgstr ""
 
 msgid "This contract cannot be properly validated at this time."
 msgstr "สัญญานี้ไม่สามารถดำเนินการตรวจสอบในขณะนี้"
@@ -3204,15 +3151,8 @@ msgstr "สัญญานี้ไม่ปรากฏโพซิชั่น
 msgid "This contract's price is %1%2. Contracts purchased from %3 must have a purchase price above %1%4. Please accordingly increase the contract amount to meet this minimum stake."
 msgstr "ราคาของสัญญานี้ คือ %1%2 สัญญาที่ซื้อจาก %3 ต้องมีราคาซื้อขายสูงกว่า %1%4 โปรดพิจารณาเพิ่มจำนวนของสัญญาเพื่อให้เป็นไปตามเงื่อนไขการวางเงินขั้นต่ำ"
 
-#, fuzzy
-#| msgid "The provided currency %1 is not applicable for this account."
-msgid "This country is not enabled for P2P cashier functionality."
-msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถใช้กับบัญชีนี้ได้"
-
-#, fuzzy
-#| msgid "The provided currency %1 is not applicable for this account."
-msgid "This currency is not enabled for P2P cashier functionality."
-msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถใช้กับบัญชีนี้ได้"
+msgid "This currency is temporarily suspended. Please select another currency to proceed."
+msgstr ""
 
 msgid "This email address is invalid."
 msgstr "อีเมล์ไม่ถูกต้อง"
@@ -3236,6 +3176,24 @@ msgstr "ตลาดนี้ได้ปิดทำการขณะนี้
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "ตลาดนี้ได้ปิดทำการขณะนี้ ลองพิจารณาซื้อขายดัชนีผันผวนซึ่งเปิดตลอดเวลา"
 
+msgid "This name is already in use. Please provide a different name."
+msgstr ""
+
+#, fuzzy
+#| msgid "Login ID (%1) does not exist."
+msgid "This order does not exist."
+msgstr "ไม่มีรหัสผู้ใช้งาน (%1)"
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "This order has expired and cannot be changed."
+msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
+
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "This order is already confirmed."
+msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
+
 #, fuzzy
 #| msgid "This account is unavailable."
 msgid "This symbol is not available."
@@ -3243,6 +3201,11 @@ msgstr "บัญชีนี้ไม่สามารถใช้งานไ
 
 msgid "This trade is temporarily unavailable."
 msgstr "การซื้อขายนี้ไม่สามารถใช้การได้ชั่วคราว"
+
+#, fuzzy
+#| msgid "The account transfer is unavailable. Please deposit to your account."
+msgid "This value should be less than or equal to the ad amount."
+msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
 
 msgid "Tick prediction must be between %1 and %2."
 msgstr "การคาดคะเนช่วงราคาต้องมีค่าระหว่าง %1 และ %2"
@@ -3272,9 +3235,6 @@ msgstr "มีการกำหนดแบริเออร์มากเก
 
 msgid "Too many market holidays during the contract period."
 msgstr "มีวันหยุดของตลาดหลายวันระหว่างระยะเวลาของสัญญา"
-
-msgid "Too many orders. Please complete your pending orders."
-msgstr ""
 
 msgid "Touch/No Touch"
 msgstr "Touch/No Touch"
@@ -3577,11 +3537,6 @@ msgstr ""
 msgid "We are retrieving your MT5 details. Please give us a few more seconds."
 msgstr ""
 
-#, fuzzy
-#| msgid "Please set the currency of your account."
-msgid "We are unable to determine the local currency for your country."
-msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
-
 msgid "We are unable to do that because your account has been restricted. If you need help, let us know."
 msgstr "เราไม่สามารถดำเนินการได้ เนื่องจากบัญชีของท่านถูกจำกัดด้วยการตั้งค่าเงื่อนไข หากท่านต้องการความช่วยเหลือโปรดแจ้งให้เราทราบ"
 
@@ -3596,6 +3551,16 @@ msgstr "เรากำลังปรับปรุงเว็บไซต์
 
 #, fuzzy
 #| msgid "We cannot transfer to account %1. Please select another payment agent."
+msgid "We can't find the ad. Please review the details or try another ad."
+msgstr "เราไม่สามารถโอนไปยังบัญชี % 1 โปรดเลือกตัวแทนชำระเงินอื่น"
+
+#, fuzzy
+#| msgid "We cannot transfer to account %1. Please select another payment agent."
+msgid "We can't find the advertiser. Please review the details and try again."
+msgstr "เราไม่สามารถโอนไปยังบัญชี % 1 โปรดเลือกตัวแทนชำระเงินอื่น"
+
+#, fuzzy
+#| msgid "We cannot transfer to account %1. Please select another payment agent."
 msgid "We can't find this account. Please check the details and try again."
 msgstr "เราไม่สามารถโอนไปยังบัญชี % 1 โปรดเลือกตัวแทนชำระเงินอื่น"
 
@@ -3606,6 +3571,11 @@ msgstr ""
 #| msgid "You can only request additional funds if your demo account balance falls below %1 %2."
 msgid "We cannot complete your request. You can only ask for additional virtual funds if your demo account balance falls below %1 %2."
 msgstr "ท่านสามารถขอเงินเพิ่มได้ หากบัญชีทดลองของท่านมีเงินต่ำกว่า %1 %2"
+
+#, fuzzy
+#| msgid "If you need help, please contact our customer support team at"
+msgid "We cannot recognise your local currency. Please contact our Customer Support team."
+msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อทีมบริการลูกค้าของเราที่"
 
 msgid "We cannot transfer to account %1. Please select another payment agent."
 msgstr "เราไม่สามารถโอนไปยังบัญชี % 1 โปรดเลือกตัวแทนชำระเงินอื่น"
@@ -3956,6 +3926,11 @@ msgstr "ท่านมีบัญชีแล้ว โปรดสับเ�
 msgid "You already requested professional status."
 msgstr "ท่านได้ส่งคำขอแก้ไขเป็นลูกค้าผู้เชี่ยวชาญ"
 
+#, fuzzy
+#| msgid "You are already subscribed to %1."
+msgid "You are already an advertiser."
+msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูล %1 แล้ว"
+
 msgid "You are already subscribed to %1"
 msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูล %1 แล้ว"
 
@@ -3987,16 +3962,6 @@ msgid "You are not authorized for withdrawals via payment agents."
 msgstr "ท่านไม่ได้รับอนุญาตในการถอนเงินผ่านตัวแทนรับชำระเงิน"
 
 #, fuzzy
-#| msgid "You are not a Payment Agent"
-msgid "You are not logged in."
-msgstr "ท่านไม่ใช่ตัวแทนรับชำระเงิน"
-
-#, fuzzy
-#| msgid "Your account is registered as a Payment Agent."
-msgid "You are not yet registered as a P2P advertiser."
-msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
-
-#, fuzzy
 #| msgid "To perform this action, please upgrade to Binary.com real account."
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "หากต้องการดำเนินการ โปรดอัพเกรดเป็นบัญชีจริง Binary.com"
@@ -4012,12 +3977,7 @@ msgstr "ท่านสามารถขอเงินเพิ่มได้
 
 #, fuzzy
 #| msgid "Please set the currency of your account."
-msgid "You cannot create an order for your own advert."
-msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
-
-#, fuzzy
-#| msgid "Please set the currency of your account."
-msgid "You cannot create an order with a different currency than your account."
+msgid "You cannot make an order for your own ad."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
@@ -4028,6 +3988,11 @@ msgstr "ท่านไม่สามารถถอนเงินไปยั
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's cashier is locked."
 msgstr "ท่านไม่สามารถถอนเงินไปยังบัญชี %1 เนื่องจากบัญชีของตัวแทนรับชำระเงินถูกล็อค"
+
+#, fuzzy
+#| msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
+msgid "You cannot perform this action because of your account status. Please contact our Customer Support team."
+msgstr "ท่านไม่สามารถดำเนินการดังกล่าวได้ เนื่องจากบัญชีของท่านถูกล็อคสำหรับการโอน MT5 โปรดติดต่อเรา ที่ %1"
 
 #, fuzzy
 #| msgid "You cannot perform this action, as your account is cashier locked."
@@ -4075,13 +4040,11 @@ msgstr "ท่านไม่สามารถดำเนินการโอ
 msgid "You cannot withdraw funds to the same account."
 msgstr "ท่านไม่สามารถถอนเงินไปยังบัญชีเดียวกัน"
 
-#, fuzzy
-#| msgid "We cannot get open positions for this account."
-msgid "You do not have permission for this action."
-msgstr "เราไม่สามารถใช้โพซิชั่นเปิดสำหรับบัญชีนี้"
-
 msgid "You have already claimed a bonus in the past."
 msgstr "ท่านได้ใช้โบนัสไปแล้ว"
+
+msgid "You have an active order for this ad. Please complete the order before making a new one."
+msgstr ""
 
 msgid "You have created all accounts available to you."
 msgstr "ท่านได้เปิดบัญชีเพื่อใช้งานแล้ว"
@@ -4104,10 +4067,8 @@ msgstr "ท่านใช้วงเงินขาดทุนรายวั
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "ท่านยังไม่บรรลุมูลค่าการซื้อขายที่กำหนดเพื่อบันทึกยอดรวมกับโบนัส"
 
-#, fuzzy
-#| msgid "Please set the currency of your account."
-msgid "You have not yet selected a currency for your account."
-msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
+msgid "You have open orders for this ad. Please wait until all orders are closed."
+msgstr ""
 
 msgid "You have opened an account using invalid details."
 msgstr "ท่านได้เปิดบัญชีโดยใช้รายละเอียดที่ไม่ถูกต้อง"
@@ -4173,7 +4134,17 @@ msgstr "ท่านสามารถอัพโหลดสำเนาเอ
 msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
 msgstr ""
 
-msgid "You need to set your residence in order to use this feature."
+#, fuzzy
+#| msgid "Your password has been changed."
+msgid "You've already cancelled this order."
+msgstr "รหัสผ่านของท่านได้ถูกแก้ไขแล้ว"
+
+#, fuzzy
+#| msgid "If you need help, please contact our customer support team at"
+msgid "You've not been approved as an advertiser yet. Please contact our Customer Support team."
+msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อทีมบริการลูกค้าของเราที่"
+
+msgid "You've reached the maximum ad limit. Please deactivate some ads."
 msgstr ""
 
 msgid "You've used this password before. Please create a different one."
@@ -6090,6 +6061,16 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Advanced tool for active traders"
 #~ msgstr "เครื่องมือขั้นสูงสำหรับนักลงทุนที่ใช้งานอยู่ในปัจจุบัน"
 
+#, fuzzy
+#~| msgid "Not Found"
+#~ msgid "Advert not found."
+#~ msgstr "ไม่พบ"
+
+#, fuzzy
+#~| msgid "The provided currency %1 is not selectable at the moment."
+#~ msgid "Advertising for the currency is not available at the moment."
+#~ msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถเลือกใช้ได้ในขณะนี้"
+
 #~ msgid "Advising senior managers regarding salary negotiations and job offers"
 #~ msgstr "ให้คำแนะนำผู้จัดการอาวุโสในเรื่องการต่อรองเงินเดือนและข้อเสนองานต่างๆ"
 
@@ -7559,6 +7540,11 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Contact Us"
 #~ msgstr "ติดต่อเรา"
+
+#, fuzzy
+#~| msgid "Payment agent facilities are not available for this account."
+#~ msgid "Contact and payment information are not applicable for this order."
+#~ msgstr "ไม่สามารถใช้ตัวแทนรับชำระเงินกับบัญชีนี้"
 
 #~ msgid "Contact the payment agent directly for more information on how to transfer money to them."
 #~ msgstr "ติดต่อตัวแทนรับชำระเงินโดยตรงเพื่อสอบถามวิธีการโอนเงิน"
@@ -9569,9 +9555,6 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "If you need assistance feel free to contact our %1Customer Support"
 #~ msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อแผนกบริการลูกค้า %1"
 
-#~ msgid "If you need help, please contact our customer support team at"
-#~ msgstr "หากท่านต้องการความช่วยเหลือ โปรดติดต่อทีมบริการลูกค้าของเราที่"
-
 #~ msgid "If you select a <strong>start time</strong> in the future, the <strong>start time</strong> is that which is selected and the <strong>entry spot</strong> is the price in effect at that time."
 #~ msgstr "หากท่านกำหนด <strong>เวลาเริ่มต้น</strong>ในอนาคต <strong>เวลาเริ่มต้น</strong> ที่เลือกนั้น<strong>สปอตเริ่มต้น</strong> คือ ราคาที่มีผลในเวลานั้น"
 
@@ -9910,6 +9893,16 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Invalid telephone number."
 #~ msgstr "หมายเลขโทรศัพท์ไม่ถูกต้อง"
+
+#, fuzzy
+#~| msgid "Invalid date format."
+#~ msgid "Invalid value for list limit"
+#~ msgstr "รูปแบบวันที่ไม่ถูกต้อง"
+
+#, fuzzy
+#~| msgid "Invalid URI for appstore."
+#~ msgid "Invalid value for list offset"
+#~ msgstr "URI ของ AppStore ไม่ถูกต้อง"
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "การตั้งชื่อ Workspace ไม่ถูกต้อง โปรดใช้อักขระ A-Z, a-z, 0-9, - และช่องว่าง เท่านั้น"
@@ -11372,6 +11365,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Number of token placed must be between %1 and %2."
 #~ msgstr "จำนวนของโทเค่นต้องอยู่ระหว่าง %1 และ %2"
 
+#, fuzzy
+#~| msgid "Please enter a number greater than 0"
+#~ msgid "Numeric value should be greater than 0."
+#~ msgstr "โปรดป้อนตัวเลขมากกว่า 0"
+
 #~ msgid "OK"
 #~ msgstr "OK"
 
@@ -11531,6 +11529,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Order not found"
 #~ msgstr "ไม่พบ"
 
+#, fuzzy
+#~| msgid "Not Found"
+#~ msgid "Order not found."
+#~ msgstr "ไม่พบ"
+
 #~ msgid "Ordinary"
 #~ msgstr "ธรรมดา"
 
@@ -11634,6 +11637,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ "กรรมสิทธิ์และเนื้อหาในเว็บไซต์ %1 ประกอบด้วยคุณสมบัติ \n"
 #~ "\n"
 #~ "and shall not be deemed to have been transferred to you through any act or omission in respect of this Agreement."
+
+#, fuzzy
+#~| msgid "Document not found."
+#~ msgid "P2P advertiser not found."
+#~ msgstr "ไม่พบเอกสารที่ต้องการ"
 
 #~ msgid "Palo Alto Networks Inc."
 #~ msgstr "Palo Alto Networks Inc."
@@ -11837,11 +11845,13 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Please fill in the Login ID and Amount you wish to transfer to your Client in the form below:"
 #~ msgstr "โปรดกรอกรหัสผู้ใช้งาน และจำนวนเงินที่ท่านต้องการโอนให้กับลูกค้าของท่านในแบบฟอร์มด้านล่าง:"
 
-#~ msgid "Please fill in your account details"
-#~ msgstr "โปรดกรอกรายละเอียดบัญชีของท่าน"
-
 #~ msgid "Please follow the pattern 3 numbers, a dash, followed by 4 numbers."
 #~ msgstr "โปรดป้อนข้อมูลในรูปแบบ ตัวเลข 3 หลัก ขีดกลาง และตามด้วย ตัวเลข 4 หลักสุดท้าย"
+
+#, fuzzy
+#~| msgid "update your tax information"
+#~ msgid "Please include your contact information."
+#~ msgstr "ปรับปรุงแก้ไขข้อมูลภาษีของท่าน"
 
 #~ msgid "Please input a valid date"
 #~ msgstr "โปรดป้อนวันที่ที่ถูกต้อง"
@@ -11854,6 +11864,11 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Please note that our website generates log files that record the IP addresses of accesses to your account. This information is gathered with the sole purpose of assisting in the unlikely event of a need to investigate accesses to your account by unauthorised users. Additionally we may verify certain of the information you supply in the account opening form, or otherwise, with third-party information providers."
 #~ msgstr "เว็บไซต์ของเรามีการบันทึกการใช้งานและบันทึกไอพีแอดเดรสที่เข้าใช้งานบัญชีของท่าน ข้อมูลนี้ถูกรวบรวมเพื่อการติดตามเหตุการณ์ที่ไม่ปกติเพื่อช่วยในการสอบสวนหากมีผู้ใช้งานที่ไม่ได้รับอนุญาตเข้าใช้บัญชีของท่าน และพวกเรายังตรวจสอบข้อมูลของท่านตามเอกสารการเปิดบัญชี หรือเอกสารอื่นๆ ด้วยทีมงานภายนอก"
+
+#, fuzzy
+#~| msgid "Please note that the selected currency is allowed for limited accounts only"
+#~ msgid "Please note that the selected currency is allowed for selected users only."
+#~ msgstr "สกุลเงินที่ท่านเลือกสามารถใช้กับางบัญชีเท่านั้น"
 
 #~ msgid "Please note that you may update your personal information at any time by logging into the \"Settings\" section of your account. It is your responsibility to ensure that %1 is promptly and continually informed of any change in your personal information."
 #~ msgstr "ท่านสามารถปรับปรุงข้อมูลส่วนตัวของท่านได้ตามต้องการ โดยการแก้ไขจากเมนู \"การตั้งค่า (Settings)\" ในบัญชีของท่าน และเป็นความรับผิดชอบของท่านเพื่อทำให้แน่ใจว่า %1 มีการปรับปรุงข้อมูลส่วนบุคคลของท่านมีการแจ้งให้ทราบทันทีและสม่ำเสมอ"
@@ -13335,6 +13350,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "The ICO is only available to professional investors in your country of residence. If you are a professional investor, please contact our customer support team to verify your account status."
 #~ msgstr "ICO มีให้บริการกับนักลงทุนมืออาชีพในประเทศของท่าน หากท่านเป็นนักลงทุนมืออาชีพ โปรดติดต่อฝ่ายบริการลูกค้าเพื่อตรวจสอบสถานะทางบัญชีของท่าน"
 
+#, fuzzy
+#~| msgid "TOTP based 2FA is already disabled."
+#~ msgid "The P2P cashier is currently disabled."
+#~ msgstr "TOTP based 2FA ได้ปิดการใช้งานแล้ว"
+
 #~ msgid "The USD Index is a weighted Index, measuring the US Dollar’s value against a basket of 5 global currencies (EUR, GBP, JPY, CAD, AUD), each weighted by 20%."
 #~ msgstr "ดัชนี USD เป็นดัชนีถ่วงน้ำหนัก แสดงมูลค่าของค่าเงินดอลลาร์สหรัฐต่อ 5 สกุลเงินสากล (EUR, GBP, JPY, CAD, AUD) โดยใช้ร้อยละ 20 ในการถ่วงน้ำหนัก"
 
@@ -13378,6 +13398,21 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "The address can be only used once while pending. Please generate a new address."
 #~ msgstr "ที่อยู่สามารถถูกอ้างอิงเพียงครั้งเดียว โปรดแจ้งที่อยู่ใหม่"
 
+#, fuzzy
+#~| msgid "Value of citizen cannot be changed after authentication."
+#~ msgid "The advert is inactive and cannot be changed."
+#~ msgstr "ไม่สามารถเปลี่ยนค่าของสัญชาติได้หลังจากได้ยืนยันบัญชีแล้ว"
+
+#, fuzzy
+#~| msgid "Client is not fully authenticated."
+#~ msgid "The advertiser is not approved."
+#~ msgstr "บัญชีลูกค้ายังไม่ได้ยืนยันตัวตนครบถ้วน"
+
+#, fuzzy
+#~| msgid "Value of last name cannot be changed after authentication."
+#~ msgid "The advertiser name cannot be blank."
+#~ msgstr "ไม่สามารถเปลี่ยนค่าของนามสกุลได้หลังจากได้ยืนยันบัญชีแล้ว"
+
 #~ msgid "The application sent an invalid request."
 #~ msgstr "แอพพลิเคชันส่งคำสั่งไม่ถูกต้อง"
 
@@ -13399,6 +13434,36 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgstr "อนาคตของการซื้อขายกับ %1"
 
 #, fuzzy
+#~| msgid "The account transfer is unavailable. Please deposit to your account."
+#~ msgid "The maximum amount exceeds the maximum amount per order (%1 %2). Please adjust the value."
+#~ msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
+#, fuzzy
+#~| msgid "The account transfer is unavailable. Please deposit to your account."
+#~ msgid "The maximum available amount for this advert is %1 %2 at the moment."
+#~ msgstr "การโอนบัญชีไม่สามารถทำได้ โปรดฝากเงินในบัญชีของท่าน"
+
+#, fuzzy
+#~| msgid "The maximum number of tokens (%1) has been reached."
+#~ msgid "The maximum limit of active adverts reached."
+#~ msgstr "จำนวนมากที่สุดของโทเค่น (%1) ถูกใช้หมดแล้ว"
+
+#, fuzzy
+#~| msgid "The maximum amount you may transfer is: %1."
+#~ msgid "The minimum amount for this advert is %1 %2."
+#~ msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
+
+#, fuzzy
+#~| msgid "The maximum amount you may transfer is: %1."
+#~ msgid "The minimum amount requirements are not met."
+#~ msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
+
+#, fuzzy
+#~| msgid "Expiration date cannot be less than or equal to current date."
+#~ msgid "The new amount cannot be less than the value of current orders against this advert."
+#~ msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
+
+#, fuzzy
 #~| msgid "The contract has expired"
 #~ msgid "The offer has expired."
 #~ msgstr "สัญญาหมดอายุ"
@@ -13411,6 +13476,11 @@ msgstr "วันนี้ วันศุกร์"
 #, fuzzy
 #~| msgid "Expiration date cannot be less than or equal to current date."
 #~ msgid "The order cannot be confirmed by client in its current state."
+#~ msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
+
+#, fuzzy
+#~| msgid "Expiration date cannot be less than or equal to current date."
+#~ msgid "The order cannot be confirmed in its current state."
 #~ msgstr "วันที่หมดอายุต้องมากกว่าวันนี้"
 
 #~ msgid "The page has timed out. This may be due to a slow Internet connection, or to excess load on our servers.  Please try again in a few moments."
@@ -13502,6 +13572,16 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "This acccount is unavailable."
 #~ msgstr "บัญชีนี้ไม่สามารถใช้งานได้"
 
+#, fuzzy
+#~| msgid "Your account is registered as a Payment Agent."
+#~ msgid "This account has already been registered as a P2P advertiser."
+#~ msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
+
+#, fuzzy
+#~| msgid "Your account is registered as a Payment Agent."
+#~ msgid "This account is not registered as a P2P advertiser."
+#~ msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
+
 #~ msgid "This account is unavailable. For any questions please contact <a href=\"%1\">Customer Support</a>."
 #~ msgstr "บัญชีนี้ไม่สามารถใช้งานได้ หากท่านมีข้อสงสัยประการใด โปรดติดต่อ <a href=\"%1\">เจ้าหน้าที่ลูกค้าสัมพันธ์</a>"
 
@@ -13545,6 +13625,16 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "This contract won"
 #~ msgstr "สัญญานี้กำไร"
+
+#, fuzzy
+#~| msgid "The provided currency %1 is not applicable for this account."
+#~ msgid "This country is not enabled for P2P cashier functionality."
+#~ msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถใช้กับบัญชีนี้ได้"
+
+#, fuzzy
+#~| msgid "The provided currency %1 is not applicable for this account."
+#~ msgid "This currency is not enabled for P2P cashier functionality."
+#~ msgstr "สกุลเงิน %1 ดังกล่าว ไม่สามารถใช้กับบัญชีนี้ได้"
 
 #~ msgid "This function is not relevant to Virtual money accounts"
 #~ msgstr "ฟังก์ชันนี้ไม่สัมพันธ์กัยบัญชีเงินเสมือน"
@@ -13769,9 +13859,6 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "Trading manual"
 #~ msgstr "คู่มือการซื้อขาย"
-
-#~ msgid "Trading on %1 is suspended at the moment."
-#~ msgstr "การซื้อขาย %1ถูกพักชั่วคราวในขณะนี้"
 
 #~ msgid "Trading on this market is suspended due to missing market (old) data."
 #~ msgstr "การซื้อขายในตลาดนี้ถูกพักชั่วคราวเนื่องจากไม่มีข้อมูลการตลาด (เก่า)"
@@ -14129,6 +14216,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgstr "ในขณะนี้ พวกเรายังไม่รับบัญชีที่มีถิ่นฐานในประเทศนี้"
 
 #, fuzzy
+#~| msgid "Please set the currency of your account."
+#~ msgid "We are unable to determine the local currency for your country."
+#~ msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
+
+#, fuzzy
 #~| msgid "These are the bank account details you provided previously. If you wish to register a different account then please contact customer support."
 #~ msgid "We received a request to open a new account for this email (%1), which belongs to a closed account. If you would like to reactivate your account, please contact customer support."
 #~ msgstr "ทางเรามีรายละเอียดบัญชีของท่านแล้ว หากท่านประสงค์จะใช้บัญชีอื่นที่นอกเหนือจากบัญชีที่ลงทะเบียนไว้ โปรดติดต่อฝ่ายบริการลูกค้า"
@@ -14304,14 +14396,26 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "You are not eligible for Japan knowledge test."
 #~ msgstr "You are not eligible for Japan knowledge test."
 
+#, fuzzy
+#~| msgid "You are not a Payment Agent"
+#~ msgid "You are not logged in."
+#~ msgstr "ท่านไม่ใช่ตัวแทนรับชำระเงิน"
+
+#, fuzzy
+#~| msgid "Your account is registered as a Payment Agent."
+#~ msgid "You are not yet registered as a P2P advertiser."
+#~ msgstr "บัญชีของท่านได้ลงทะเบียนเป็นตัวแทนรับชำระเงิน"
+
 #~ msgid "You can request a funds transfer to your designated bank account at any time. You must have sufficient balance in your trading account at the time of transfer. Please contact customer support if you need to withdraw more than the maximum amount."
 #~ msgstr "ท่านสามารถส่งคำสั่งโอนเงินไปยังบัญชีที่ท่านต้องการได้ตลอดเวลา โดยบัญชีของท่านต้องมียอดคงเหลือที่เพียงพอต่อจำนวนธุรกรรมดังกล่าว และโปรดติดต่อเจ้าหน้าที่ลูกค้าสัมพันธ์หากท่านประสงค์จะดำเนินการถอนเงินมากกว่าจำนวนเงินคงเหลือ"
 
+#, fuzzy
+#~| msgid "Please set the currency of your account."
+#~ msgid "You cannot create an order with a different currency than your account."
+#~ msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
+
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "ท่านไม่สามารถถอนเงินไปยังบัญชี %1 เนื่องจากบัญชีของตัวแทนรับชำระเงินไม่สามารถใช้งาน และแสดงสถานะปฏิเสธ"
-
-#~ msgid "You cannot perform this action because your account has been locked for MT5 transfers. Please contact us at %1"
-#~ msgstr "ท่านไม่สามารถดำเนินการดังกล่าวได้ เนื่องจากบัญชีของท่านถูกล็อคสำหรับการโอน MT5 โปรดติดต่อเรา ที่ %1"
 
 #~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
 #~ msgstr "ท่านไม่สามารถดำเนินการดังกล่าวได้ เนื่องจากบัญชีของท่าน %1 การรับจ่ายเงินถูกล็อคตามความประสงค์ของท่าน"
@@ -14334,6 +14438,11 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "You did not change anything."
 #~ msgstr "ท่านไม่ได้เปลี่ยนแปลงค่าใดๆ"
 
+#, fuzzy
+#~| msgid "We cannot get open positions for this account."
+#~ msgid "You do not have permission for this action."
+#~ msgstr "เราไม่สามารถใช้โพซิชั่นเปิดสำหรับบัญชีนี้"
+
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "ท่านได้ถอน %1 %2 หรือเทียบเท่า ในช่วง %3 วันที่ผ่านมา"
 
@@ -14348,6 +14457,11 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "You have not granted access to any applications."
 #~ msgstr "ท่านไม่ได้รับอนุญาตให้เข้าใช้งานระบบใดๆ"
+
+#, fuzzy
+#~| msgid "Please set the currency of your account."
+#~ msgid "You have not yet selected a currency for your account."
+#~ msgstr "โปรดระบุสกุลเงินสำหรับบัญชีของท่าน"
 
 #~ msgid "You have purchased the following contract:"
 #~ msgstr "ท่านได้ซื้อสัญญาต่อไปนี้:"
