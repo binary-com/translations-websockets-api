@@ -1894,9 +1894,6 @@ msgstr "ธุรกรรมที่อยู่ระหว่างการ
 msgid "Perhaps you signed up with a social account?"
 msgstr "หรือ ท่านอาจลงชื่อเข้าระบบโดยใช้บัญชีเครือข่ายสังคมออนไลน์?"
 
-msgid "Permission denied, balance of other account requires oauth token"
-msgstr "ท่านไม่ได้รับอนุญาตในการใช้งาน โปรดใช้โทเค่น Oauth หากต้องการเชื่อมต่อด้วยบัญชีอื่น"
-
 msgid "Permission denied, balances of all accounts require oauth token"
 msgstr "ท่านไม่ได้รับอนุญาตในการใช้งาน โปรดใช้โทเค่น Oauth ในการเชื่อมต่อกับบัญชีทั้งหมด"
 
@@ -3580,11 +3577,18 @@ msgstr "คุณเป็นผู้โฆษณาอยู่แล้ว"
 msgid "You are already subscribed to %1"
 msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูล %1 แล้ว"
 
-msgid "You are already subscribed to %1 balance."
-msgstr "ท่านได้ลงนามเพื่อรับข้อมูลเงินในบัญชี %1 แล้ว"
-
 msgid "You are already subscribed to %1."
 msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูล %1 แล้ว"
+
+#, fuzzy
+#| msgid "You are already subscribed to balance updates."
+msgid "You are already subscribed to balance for account %1."
+msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูลยอดคงเหลือแล้ว"
+
+#, fuzzy
+#| msgid "You are already subscribed to balance updates."
+msgid "You are already subscribed to balance for all accounts."
+msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูลยอดคงเหลือแล้ว"
 
 msgid "You are already subscribed to p2p advertiser id %1."
 msgstr "คุณได้สมัครใช้งานผู้โฆษณา p2p แล้ว รหัส %1"
@@ -3669,6 +3673,11 @@ msgstr "ท่านไม่สามารถดำเนินการดั
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "ท่านไม่สามารถดำเนินการถอนเงินไปยังบัญชี %1 ได้ เนื่องจากเอกสารตัวแทนชำระเงินที่ได้รับการตรวจสอบหมดอายุ"
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "You cannot subscribe to an account with no currency selected."
+msgstr "ท่านไม่สามารถดำเนินการดังกล่าวได้ เนื่องจากบัญชีของท่านไม่สามารถใช้งานได้ในขณะนี้"
 
 msgid "You cannot transfer to account %1"
 msgstr "คุณไม่สามารถโอนไปยังบัญชี %1"
@@ -11378,6 +11387,9 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "Permission denied"
 #~ msgstr "ท่านไม่ได้รับอนุญาตในการใช้งาน"
 
+#~ msgid "Permission denied, balance of other account requires oauth token"
+#~ msgstr "ท่านไม่ได้รับอนุญาตในการใช้งาน โปรดใช้โทเค่น Oauth หากต้องการเชื่อมต่อด้วยบัญชีอื่น"
+
 #~ msgid "Permission error. MT5 manager accounts are not allowed to withdraw as payments are processed manually."
 #~ msgstr "ข้อผิดพลาดเกี่ยวกับสิทธิ์การใช้งาน บัญชี MT5 ไม่อนุญาตให้ถอนเงิน เนื่องจากการชำระเงินดำเนินการด้วยบุคคล"
 
@@ -13997,8 +14009,8 @@ msgstr "วันนี้ วันศุกร์"
 #~ msgid "You already have a %1 account %2."
 #~ msgstr "ท่านมี %1 บัญชี %2 แล้ว"
 
-#~ msgid "You are already subscribed to balance updates."
-#~ msgstr "ท่านได้ลงนามเพื่อรับทราบข้อมูลยอดคงเหลือแล้ว"
+#~ msgid "You are already subscribed to %1 balance."
+#~ msgstr "ท่านได้ลงนามเพื่อรับข้อมูลเงินในบัญชี %1 แล้ว"
 
 #~| msgid "You are already subscribed to transaction updates."
 #~ msgid "You are already subscribed to pricing table."

@@ -1938,9 +1938,6 @@ msgstr "Transactions en attente"
 msgid "Perhaps you signed up with a social account?"
 msgstr "Vous vous êtes peut-être inscrit à l'aide d'un compte social ?"
 
-msgid "Permission denied, balance of other account requires oauth token"
-msgstr "Permission refusée, le solde d'un autre compte nécessite un jeton oauth"
-
 msgid "Permission denied, balances of all accounts require oauth token"
 msgstr "Permission refusée, les soldes de tous les comptes nécessitent un jeton oauth"
 
@@ -3696,11 +3693,18 @@ msgstr "Vous êtes déjà abonné à l'identifiant p2p %1."
 msgid "You are already subscribed to %1"
 msgstr "Vous êtes déjà inscrit(e) sur %1"
 
-msgid "You are already subscribed to %1 balance."
-msgstr "Vous êtes déjà souscrit(e) au solde %1."
-
 msgid "You are already subscribed to %1."
 msgstr "Vous êtes déjà inscrit(e) sur %1."
+
+#, fuzzy
+#| msgid "You are already subscribed to balance updates."
+msgid "You are already subscribed to balance for account %1."
+msgstr "Vous êtes déjà inscrit(e) aux notifications de solde."
+
+#, fuzzy
+#| msgid "You are already subscribed to balance updates."
+msgid "You are already subscribed to balance for all accounts."
+msgstr "Vous êtes déjà inscrit(e) aux notifications de solde."
 
 #, fuzzy
 #| msgid "You are already subscribed to p2p order id %1."
@@ -3793,6 +3797,11 @@ msgstr "Vous ne pouvez pas effectuer cette action, veuillez définir votre rési
 
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "Vous ne pouvez pas effectuer de retrait sur le compte %1, car les documents de vérification de l'agent payeur sont expirés."
+
+#, fuzzy
+#| msgid "You cannot perform this action, as your account is currently disabled."
+msgid "You cannot subscribe to an account with no currency selected."
+msgstr "Vous ne pouvez pas effectuer cette action, car votre compte est actuellement désactivé."
 
 msgid "You cannot transfer to account %1"
 msgstr "Vous ne pouvez pas transférer vers le compte %1"
@@ -15667,6 +15676,9 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "Permission denied"
 #~ msgstr "Permission refusée"
 
+#~ msgid "Permission denied, balance of other account requires oauth token"
+#~ msgstr "Permission refusée, le solde d'un autre compte nécessite un jeton oauth"
+
 #~ msgid "Permission error. MT5 manager accounts are not allowed to withdraw as payments are processed manually."
 #~ msgstr "Erreur de permission. Les comptes MT5 manager ne sont pas autorisés à faire des retraits car les paiements sont traités manuellement."
 
@@ -21487,8 +21499,8 @@ msgstr "aujourd'hui, Vendredis"
 #~ msgid "You are advised that the Binary Options offered by %1 are not traded under the rules of any recognised, designated or regulated exchange. Consequently, engaging in Binary Options trading may expose you to substantially greater risks than investments which are so traded."
 #~ msgstr "Vous êtes avisé que les Options Binaires offertes par %1 ne sont pas tradées sous les règles d'un marché de change reconnu, désigné ou régulé. S'engager dans des Options Binaires peut donc vous exposer à des risques considérablement supérieurs aux investissements qui sont tradés de cette manière."
 
-#~ msgid "You are already subscribed to balance updates."
-#~ msgstr "Vous êtes déjà inscrit(e) aux notifications de solde."
+#~ msgid "You are already subscribed to %1 balance."
+#~ msgstr "Vous êtes déjà souscrit(e) au solde %1."
 
 #, fuzzy
 #~| msgid "You are already subscribed to transaction updates."
