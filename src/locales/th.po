@@ -26,8 +26,10 @@ msgstr "%1 ขอรหัสผ่าน MT5 ใหม่"
 msgid "%1 and %2"
 msgstr "%1 และ %2"
 
-msgid "%1 currently supports Tether (USDT)."
-msgstr "%1 ขณะนี้รองรับ Tether (USDT)"
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "%1 barrier offset can not have more than %2 decimal places."
+msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 ไม่ถูกต้อง สำหรับประเภทสัญญา %2"
@@ -324,6 +326,11 @@ msgstr "Barrier ต้องมีค่าอย่างน้อย %plural(%
 msgid "Barrier must be symmetrical."
 msgstr "Barrier ต้องสมมาตร"
 
+#, fuzzy
+#| msgid "Contract barrier must be positive."
+msgid "Barrier offset %1 exceeded quote price, contract barrier must be positive."
+msgstr "แบร์ริเออร์ของสัญญาต้องเป็นค่าบวก"
+
 msgid "Barriers could not be determined."
 msgstr "ไม่สามารถกำหนด Barrier ได้"
 
@@ -485,9 +492,6 @@ msgstr "ปิดการเชื่อมต่อ"
 
 msgid "Continuous Indices"
 msgstr "ดัชนีต่อเนื่อง"
-
-msgid "Contract barrier must be positive."
-msgstr "แบร์ริเออร์ของสัญญาต้องเป็นค่าบวก"
 
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "ไม่สามารถขายสัญญาได้ในขณะนี้ โปรดลองอีกครั้ง."
@@ -2149,9 +2153,6 @@ msgstr "โปรดรอการยืนยันหรือติดต่
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "โปรดรอสักครู่เพื่อประมวลผลสัญญา ราคาสุดท้ายที่ปิดอาจจะแตกต่างจากราคาตามที่ปรากฎ"
 
-msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
-msgstr "โปรดถอน USDT ออกจากบัญชี %1 ของคุณไปยัง Omni Layer wallet ที่เปิดใช้งาน"
-
 msgid "Please withdraw your account balance and close all your open positions before revoking MT5 account manager permissions."
 msgstr "โปรดถอนยอดเงินในบัญชีทั้งหมดและปิดสถานะรายการที่เปิดอยู่ทั้งหมดก่อนยกเลิกบัญชีMT5"
 
@@ -3625,7 +3626,14 @@ msgstr "ท่านไม่ได้รับอนุญาตในการ
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "คุณใช้งานในบัญชีเสมือน หากต้องการเปิดบัญชี MT5 โปรดใช้บัญชีจริงในการสมัคร"
 
-msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Ethereum wallet into your %2 account."
+msgstr "คุณสามารถฝากเงิน USDT จาก Omni Layer ของคุณไปยัง %1 บัญชีของคุณ"
+
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Omni Layer wallet into your %2 account."
 msgstr "คุณสามารถฝากเงิน USDT จาก Omni Layer ของคุณไปยัง %1 บัญชีของคุณ"
 
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
@@ -3633,6 +3641,16 @@ msgstr "ท่านสามารถดำเนินการได้ %1 �
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "ท่านสามารถขอเงินเพิ่มได้ หากบัญชีเสมือนของท่านมีเงินต่ำกว่า %1 %2"
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
+msgstr "โปรดถอน USDT ออกจากบัญชี %1 ของคุณไปยัง Omni Layer wallet ที่เปิดใช้งาน"
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Omni Layer wallet."
+msgstr "โปรดถอน USDT ออกจากบัญชี %1 ของคุณไปยัง Omni Layer wallet ที่เปิดใช้งาน"
 
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "คุณยังไม่สามารถลงโฆษณาได้ เนื่องจากคุณยังไม่ได้รับการอนุมัติเป็นผู้โฆษณา"
@@ -4144,6 +4162,9 @@ msgstr "วันนี้ วันศุกร์"
 
 #~ msgid "%1 assumes ownership of the customer at point of first contact with the visitor. You, as an affiliate, act as a referring agent for %1. We reserve the right to refuse clients (or to close their accounts) if necessary to comply with any requirements we may periodically establish."
 #~ msgstr "%1 ยอมรับกรรมสิทธิ์ชองลูกค้าผู้ที่ดำเนินการติดต่อกัน คุณในฐานะพันธมิตร ทำหน้าที่เป็นตัวแทนอ้างอิงสำหรับ %1 เราสงวนสิทธิ์ในการปฏิเสธลูกค้า (หรือ ในการปิดบัญชีต่างๆ ของพวกเขา) หากมีความจำเป็นเพื่อดำเนินการตามกฎเกณฑ์หรือเงื่อนไขที่มีหรือถูกกำหนดขึ้นตามระยะเวลา"
+
+#~ msgid "%1 currently supports Tether (USDT)."
+#~ msgstr "%1 ขณะนี้รองรับ Tether (USDT)"
 
 #~ msgid "%1 does not charge any transfer fees."
 #~ msgstr "%1 ไม่ถูกเรียกเก็บค่าธรรมเนียมการโอนใดๆ"
@@ -12822,11 +12843,6 @@ msgstr "วันนี้ วันศุกร์"
 #~| msgid "Profit"
 #~ msgid "Take Profit"
 #~ msgstr "กำไร"
-
-#, fuzzy
-#~| msgid "Stake can not have more than %1 decimal places."
-#~ msgid "Take profit can not have more than %1 decimal places."
-#~ msgstr "จำนวนเงินที่วางมีทศนิยมไม่เกิน %1 หลัก"
 
 #~ msgid "Talk to us"
 #~ msgstr "พูดคุยกับเรา"

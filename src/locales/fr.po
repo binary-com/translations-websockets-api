@@ -22,8 +22,10 @@ msgstr "Demande de nouveau mot de passe MT5 %1"
 msgid "%1 and %2"
 msgstr "%1 et %2"
 
-msgid "%1 currently supports Tether (USDT)."
-msgstr "%1 accepte désormais Tether (USDT)."
+#, fuzzy
+#| msgid "Take profit can not have more than %1 decimal places."
+msgid "%1 barrier offset can not have more than %2 decimal places."
+msgstr "La Prise de Profit ne peut pas avoir plus de %1 décimales."
 
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 n'est pas une entrée valide pour le type de contrat %2."
@@ -319,6 +321,11 @@ msgstr "La barrière doit se situer à au moins %plural(%1,%d pip,%d pips) du sp
 msgid "Barrier must be symmetrical."
 msgstr "La barrière doit être symétrique."
 
+#, fuzzy
+#| msgid "Contract barrier must be positive."
+msgid "Barrier offset %1 exceeded quote price, contract barrier must be positive."
+msgstr "La barrière doit être positive."
+
 msgid "Barriers could not be determined."
 msgstr "Des barrières n'ont pas pu être établies."
 
@@ -480,9 +487,6 @@ msgstr "Connexion terminée"
 
 msgid "Continuous Indices"
 msgstr "Indices continus"
-
-msgid "Contract barrier must be positive."
-msgstr "La barrière doit être positive."
 
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "Le contrat ne peut être vendu pour le moment. Veuillez réessayer."
@@ -2147,9 +2151,6 @@ msgstr "Veuillez attendre la confirmation ou contacter le vendeur."
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Veuillez attendre le réglement du contrat. Le prix de réglement final peut différer du prix indicatif."
 
-msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
-msgstr "Veuillez retirer USDT de votre compte %1 vers votre portefeuille compatible Omni Layer."
-
 msgid "Please withdraw your account balance and close all your open positions before revoking MT5 account manager permissions."
 msgstr "Veuillez retirer le solde de votre compte et fermer toutes vos positions ouvertes avant de révoquer les autorisations du gestionnaire de compte MT5."
 
@@ -3623,7 +3624,14 @@ msgstr "Vous n'êtes pas autorisé pour les retraits via les agents de paiement.
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "Vous êtes sur un compte virtuel. Pour ouvrir un compte MT5, veuillez passer à un compte réel."
 
-msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Ethereum wallet into your %2 account."
+msgstr "Vous pouvez uniquement déposer USDT à partir de votre portefeuille compatible Omni Layer sur votre compte %1."
+
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Omni Layer wallet into your %2 account."
 msgstr "Vous pouvez uniquement déposer USDT à partir de votre portefeuille compatible Omni Layer sur votre compte %1."
 
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
@@ -3631,6 +3639,16 @@ msgstr "Vous ne pouvez effectuer que jusqu'à %1 transferts par jour. Veuillez r
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Vous ne pouvez demander des fonds supplémentaires que si le solde de votre compte virtuel tombe en dessous de %1 %2."
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
+msgstr "Veuillez retirer USDT de votre compte %1 vers votre portefeuille compatible Omni Layer."
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Omni Layer wallet."
+msgstr "Veuillez retirer USDT de votre compte %1 vers votre portefeuille compatible Omni Layer."
 
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "Vous ne pouvez pas répertorier d'annonces, car vous n'avez pas encore été approuvé en tant qu'annonceur."
@@ -4427,6 +4445,9 @@ msgstr "aujourd'hui, Vendredis"
 
 #~ msgid "%1 client's guide"
 #~ msgstr "Guide du client %1"
+
+#~ msgid "%1 currently supports Tether (USDT)."
+#~ msgstr "%1 accepte désormais Tether (USDT)."
 
 #~ msgid "%1 does not charge any transfer fees."
 #~ msgstr "%1 ne facture aucun frais de transfert."
@@ -18082,9 +18103,6 @@ msgstr "aujourd'hui, Vendredis"
 
 #~ msgid "Take advantage of %1's 'no slippage, no gap risk, no hidden fees' platform."
 #~ msgstr "Profitez de la plate-forme de %1 'sans dérapages, sans risque d'écart, sans commissions cachées'."
-
-#~ msgid "Take profit can not have more than %1 decimal places."
-#~ msgstr "La Prise de Profit ne peut pas avoir plus de %1 décimales."
 
 #~ msgid "Talk to us"
 #~ msgstr "Parlez-nous"

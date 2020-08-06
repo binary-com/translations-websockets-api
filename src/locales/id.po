@@ -26,8 +26,10 @@ msgstr "Permohonan kata sandi MT5 baru %1"
 msgid "%1 and %2"
 msgstr "%1 dan %2"
 
-msgid "%1 currently supports Tether (USDT)."
-msgstr "%1 saat ini menyediakan Tether (USDT)."
+#, fuzzy
+#| msgid "Take profit can not have more than %1 decimal places."
+msgid "%1 barrier offset can not have more than %2 decimal places."
+msgstr "Take profit tidak boleh memiliki lebih dari %1 desimal."
 
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 bukan input yang valid untuk jenis kontrak %2."
@@ -323,6 +325,11 @@ msgstr "Batasan untuk kontrak ini setidaknya berjarak %plural(%1,%d pip) dari sp
 msgid "Barrier must be symmetrical."
 msgstr "Barrier harus simetris."
 
+#, fuzzy
+#| msgid "Contract barrier must be positive."
+msgid "Barrier offset %1 exceeded quote price, contract barrier must be positive."
+msgstr "Batasan kontrak harus bernilai positif."
+
 msgid "Barriers could not be determined."
 msgstr "Batasan tidak dapat ditentukan."
 
@@ -484,9 +491,6 @@ msgstr "Sambungan ditutup"
 
 msgid "Continuous Indices"
 msgstr "Indeks Berterusan"
-
-msgid "Contract barrier must be positive."
-msgstr "Batasan kontrak harus bernilai positif."
 
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "Kontrak tidak dapat dijual saat ini. Silakan coba lagi."
@@ -2148,9 +2152,6 @@ msgstr "Mohon tunggu konfirmasi atau hubungi penjual."
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Silahkan tunggu penyelesaian kontrak. Harga penyelesaian akhir mungkin berbeda dari harga indikatif."
 
-msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
-msgstr "Lakukan penarikan USDT dari akun %1 ke wallet Omni Layer Anda."
-
 msgid "Please withdraw your account balance and close all your open positions before revoking MT5 account manager permissions."
 msgstr "Silakan tutup semua posisi berjalan dan tarik saldo akun Anda terlebih dahulu sebelum mencabut izin manajer akun MT5."
 
@@ -3624,7 +3625,14 @@ msgstr "Anda tidak dibenarkan untuk menarik dana menggunakan agen pembayaran."
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "Anda menggunakan akun virtual. Untuk mendaftar akun MT5, mohon upgrade ke akun riil."
 
-msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Ethereum wallet into your %2 account."
+msgstr "Anda hanya dapat mendeposit USDT menggunakan wallet Omni Layer ke akun %1 Anda."
+
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Omni Layer wallet into your %2 account."
 msgstr "Anda hanya dapat mendeposit USDT menggunakan wallet Omni Layer ke akun %1 Anda."
 
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
@@ -3632,6 +3640,16 @@ msgstr "Anda hanya dapat melakukan transfer hingga %1 per hari. Silakan coba kem
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Anda hanya dapat meminta dana tambahan jika saldo akun virtual Anda dibawah %1 %2."
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
+msgstr "Lakukan penarikan USDT dari akun %1 ke wallet Omni Layer Anda."
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Omni Layer wallet."
+msgstr "Lakukan penarikan USDT dari akun %1 ke wallet Omni Layer Anda."
 
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "Anda tidak dapat mencantumkan iklan karena Anda belum disetujui sebagai pengiklan."
@@ -4676,6 +4694,9 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "%1 client's guide"
 #~ msgstr "Panduan Klien %1"
+
+#~ msgid "%1 currently supports Tether (USDT)."
+#~ msgstr "%1 saat ini menyediakan Tether (USDT)."
 
 #~ msgid "%1 deposits are processed automatically once Moneybookers clears the transaction."
 #~ msgstr "Deposit %1 terproses otomatis setelah Moneybookers menyelesaikan transaksi."
@@ -20291,9 +20312,6 @@ msgstr "hari ini, Jumat"
 
 #~ msgid "Take advantage of %1's 'no slippage, no gap risk, no hidden fees' platform."
 #~ msgstr "Gunakan kelebihan platform %1 tanpa slippage, tanpa resiko gap, tanpa biaya tambahan."
-
-#~ msgid "Take profit can not have more than %1 decimal places."
-#~ msgstr "Take profit tidak boleh memiliki lebih dari %1 desimal."
 
 #~ msgid "Talk to us"
 #~ msgstr "Hubungi kami"

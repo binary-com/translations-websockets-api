@@ -22,8 +22,10 @@ msgstr "%1 Neuer MT5 Passwortantrag"
 msgid "%1 and %2"
 msgstr "%1  und %2"
 
-msgid "%1 currently supports Tether (USDT)."
-msgstr ""
+#, fuzzy
+#| msgid "Stake can not have more than %1 decimal places."
+msgid "%1 barrier offset can not have more than %2 decimal places."
+msgstr "Der Einsatz kann nicht mehr als %1 Dezimalstellen enthalten."
 
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 ist keine gültige Eingabe für den Kontrakttyp %2."
@@ -373,6 +375,11 @@ msgstr "Die Grenze muss mindestens %plural(%1,%d Pip,%d Pips) vom Punkt entfernt
 msgid "Barrier must be symmetrical."
 msgstr "Schwelle muss eine ganze Zahl sein."
 
+#, fuzzy
+#| msgid "Contract barrier must be positive."
+msgid "Barrier offset %1 exceeded quote price, contract barrier must be positive."
+msgstr "Kontraktschwelle muss positiv sein."
+
 msgid "Barriers could not be determined."
 msgstr "Es können keine Schwellen festgelegt werden."
 
@@ -564,9 +571,6 @@ msgstr "Verbindung geschlossen"
 
 msgid "Continuous Indices"
 msgstr "Laufende Indizes"
-
-msgid "Contract barrier must be positive."
-msgstr "Kontraktschwelle muss positiv sein."
 
 #, fuzzy
 #| msgid "This contract cannot be purchased within the last %1 of trading."
@@ -2505,11 +2509,6 @@ msgstr ""
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Bitte warten Sie auf die Kontraktabrechnung. Der endgültige Schlusskurs kann vom indikativen Kurs abweichen."
 
-#, fuzzy
-#| msgid "Please withdraw all funds from your account(s) before proceeding: %1."
-msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
-msgstr "Bitte ziehen Sie alle Gelder von Ihrem/n Konto(en) ab, bevor Sie fortfahren: %1."
-
 msgid "Please withdraw your account balance and close all your open positions before revoking MT5 account manager permissions."
 msgstr ""
 
@@ -4199,7 +4198,10 @@ msgstr "Sie sind nicht befugt, Auszahlungen über Zahlungsagenten zu tätigen."
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "Für diese Aktion benötigen Sie ein Echtgelt-Konto."
 
-msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Ethereum wallet into your %2 account."
+msgstr ""
+
+msgid "You can only deposit %1 from your Omni Layer wallet into your %2 account."
 msgstr ""
 
 #, fuzzy
@@ -4209,6 +4211,16 @@ msgstr "Umrechnungen heute. Bitte versuchen Sie es morgen wieder"
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Sie können zusätzliche Gelder nur dann beantragen, wenn Ihr virtuelles Kontoguthaben unter %1 %2 fällt."
+
+#, fuzzy
+#| msgid "Please withdraw all funds from your account(s) before proceeding: %1."
+msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
+msgstr "Bitte ziehen Sie alle Gelder von Ihrem/n Konto(en) ab, bevor Sie fortfahren: %1."
+
+#, fuzzy
+#| msgid "Please withdraw all funds from your account(s) before proceeding: %1."
+msgid "You can only withdraw %1 from your %2 account into your Omni Layer wallet."
+msgstr "Bitte ziehen Sie alle Gelder von Ihrem/n Konto(en) ab, bevor Sie fortfahren: %1."
 
 #, fuzzy
 #| msgid "The provided currency %1 is not selectable at the moment."
@@ -18665,11 +18677,6 @@ msgstr "heute, Freitags"
 
 #~ msgid "Take advantage of %1's 'no slippage, no gap risk, no hidden fees' platform."
 #~ msgstr "Machen Sie sich die %1 Plattform ohne Slippage Kosten, ohne Lücken-Risiko, und ohne versteckte Gebühren zu Nutzen."
-
-#, fuzzy
-#~| msgid "Stake can not have more than %1 decimal places."
-#~ msgid "Take profit can not have more than %1 decimal places."
-#~ msgstr "Der Einsatz kann nicht mehr als %1 Dezimalstellen enthalten."
 
 #~ msgid "Talk to us"
 #~ msgstr "Sprechen Sie mit uns"

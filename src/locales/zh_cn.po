@@ -23,8 +23,10 @@ msgstr "%1 MT5 新密码请求"
 msgid "%1 and %2"
 msgstr "%1 和 %2"
 
-msgid "%1 currently supports Tether (USDT)."
-msgstr "%1 当前支持泰达币 (USDT)。"
+#, fuzzy
+#| msgid "Take profit can not have more than %1 decimal places."
+msgid "%1 barrier offset can not have more than %2 decimal places."
+msgstr "止盈额的小数点后不得超过%1位。"
 
 msgid "%1 is not a valid input for contract type %2."
 msgstr "合约类型%2的%1输入无效。"
@@ -320,6 +322,11 @@ msgstr "障碍与现货价的距离必须至少%plural(%1,%d pip)。"
 msgid "Barrier must be symmetrical."
 msgstr "障碍必须对称。"
 
+#, fuzzy
+#| msgid "Contract barrier must be positive."
+msgid "Barrier offset %1 exceeded quote price, contract barrier must be positive."
+msgstr "合约障碍必须为正数。"
+
 msgid "Barriers could not be determined."
 msgstr "无法确定障碍。"
 
@@ -483,9 +490,6 @@ msgstr "连接已关闭"
 
 msgid "Continuous Indices"
 msgstr "连续指数"
-
-msgid "Contract barrier must be positive."
-msgstr "合约障碍必须为正数。"
 
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "此时不能卖出合约。请重试。"
@@ -2147,9 +2151,6 @@ msgstr "请等待确认或与卖者联系。"
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "正在进行合约结算，请稍等。最终结算价格可能与指示性价格有差异。"
 
-msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
-msgstr "请从 %1 账户提取 USDT 存入经启用 Omni Layer 的钱包。"
-
 msgid "Please withdraw your account balance and close all your open positions before revoking MT5 account manager permissions."
 msgstr "撤消MT5账户管理员权限前，请提取账户余款并对所有持仓头寸平仓。"
 
@@ -3625,7 +3626,14 @@ msgstr "您无权通过付款代理取款。"
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "您用的是虚拟账户。要开立MT5账户，请先升级为真实账户。"
 
-msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Ethereum wallet into your %2 account."
+msgstr "您仅可从经启用 Omni Layer 的钱包将 USDT 存入 %1 账户。"
+
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Omni Layer wallet into your %2 account."
 msgstr "您仅可从经启用 Omni Layer 的钱包将 USDT 存入 %1 账户。"
 
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
@@ -3633,6 +3641,16 @@ msgstr "一天最多只能转账%1次。请明天重新尝试。"
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "您的虚拟账户余额必须低于％1％2才能请求额外资金。"
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
+msgstr "请从 %1 账户提取 USDT 存入经启用 Omni Layer 的钱包。"
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Omni Layer wallet."
+msgstr "请从 %1 账户提取 USDT 存入经启用 Omni Layer 的钱包。"
 
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "广告无法列出，因您还未被批准为广告商。"
@@ -4579,6 +4597,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "%1 client's guide"
 #~ msgstr "%1 客户导览"
+
+#~ msgid "%1 currently supports Tether (USDT)."
+#~ msgstr "%1 当前支持泰达币 (USDT)。"
 
 #~ msgid "%1 deposits are processed automatically once Moneybookers clears the transaction."
 #~ msgstr "%1存款在 Moneybookers 清算交易后自动处理。"
@@ -20261,9 +20282,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Take advantage of %1's 'no slippage, no gap risk, no hidden fees' platform."
 #~ msgstr "利用 %1的‘无滑脱，无缺口风险，无隐藏费用’平台。"
-
-#~ msgid "Take profit can not have more than %1 decimal places."
-#~ msgstr "止盈额的小数点后不得超过%1位。"
 
 #~ msgid "Talk to us"
 #~ msgstr "联系我们"

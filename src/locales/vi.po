@@ -26,8 +26,10 @@ msgstr "%1 Yêu Cầu Mật Khẩu MT5 Mới"
 msgid "%1 and %2"
 msgstr "%1 và %2"
 
-msgid "%1 currently supports Tether (USDT)."
-msgstr "%1 hiện hỗ trợ Tether (USDT)."
+#, fuzzy
+#| msgid "Take profit can not have more than %1 decimal places."
+msgid "%1 barrier offset can not have more than %2 decimal places."
+msgstr "Lấy Lợi Nhuận không thể có nhiều hơn %1 chữ số thập phân."
 
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 là thông tin nhập vào không hợp lệ cho loại hợp đồng %2."
@@ -324,6 +326,11 @@ msgstr "Giới hạn phải có ít nhất %plural(%1, %d pip, %d pips) ra khỏ
 msgid "Barrier must be symmetrical."
 msgstr "Giới hạn phải là một số đối xứng."
 
+#, fuzzy
+#| msgid "Contract barrier must be positive."
+msgid "Barrier offset %1 exceeded quote price, contract barrier must be positive."
+msgstr "Giới hạn hợp đồng phải là số dương."
+
 msgid "Barriers could not be determined."
 msgstr "Không thể xác định được rào cản."
 
@@ -486,9 +493,6 @@ msgstr "Kết nối đã đóng"
 
 msgid "Continuous Indices"
 msgstr "Các chỉ số liên tiếp"
-
-msgid "Contract barrier must be positive."
-msgstr "Giới hạn hợp đồng phải là số dương."
 
 msgid "Contract cannot be sold at this time. Please try again."
 msgstr "Hợp đồng không thể được bán vào thời điểm này. Vui lòng thử lại sau."
@@ -2150,9 +2154,6 @@ msgstr "Vui lòng đợi xác nhận hoặc liên hệ người bán."
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Xin đợi thiết lập hợp đồng. Giá thanh toán có thể thay đổi so với giá chỉ thị."
 
-msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
-msgstr "Vui lòng rút USDT từ tài khoản %1 của bạn sang ví hỗ trợ Omni Layer."
-
 msgid "Please withdraw your account balance and close all your open positions before revoking MT5 account manager permissions."
 msgstr "Vui lòng rút tiền trong tài khoản và đóng tất cả các giao dịch mở trước khi thu hồi các cấp phép quản lý tài khoản MT5."
 
@@ -3626,7 +3627,14 @@ msgstr "Bạn không được quyền rút tiền qua đại lý thanh toán."
 msgid "You are on a virtual account. To open an MT5 account, please upgrade to a real account."
 msgstr "Bạn đang sử dụng một tài khoản ảo. Để mở một tài khoản MT5, vui lòng nâng cấp thành một tài khoản thực."
 
-msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Ethereum wallet into your %2 account."
+msgstr "Bạn chỉ có thể gửi USDT từ ví kích hoạt Omni Layer vào tài khoản %1 của bạn."
+
+#, fuzzy
+#| msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your %1 account."
+msgid "You can only deposit %1 from your Omni Layer wallet into your %2 account."
 msgstr "Bạn chỉ có thể gửi USDT từ ví kích hoạt Omni Layer vào tài khoản %1 của bạn."
 
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
@@ -3634,6 +3642,16 @@ msgstr "Bạn chỉ có thể thực hiện tối đa %1 lần chuyển k
 
 msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
 msgstr "Bạn chỉ có thể yêu cầu thêm tiền nếu số dư tài khoản ảo của bạn dưới% 1% 2."
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
+msgstr "Vui lòng rút USDT từ tài khoản %1 của bạn sang ví hỗ trợ Omni Layer."
+
+#, fuzzy
+#| msgid "Please withdraw USDT from your %1 account to your Omni Layer-enabled wallet."
+msgid "You can only withdraw %1 from your %2 account into your Omni Layer wallet."
+msgstr "Vui lòng rút USDT từ tài khoản %1 của bạn sang ví hỗ trợ Omni Layer."
 
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "Bạn chưa thể đăng quảng cáo vì bạn chưa được phê duyệt như một nhà quảng cáo."
@@ -4210,6 +4228,9 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "%1 client's guide"
 #~ msgstr "Hướng dẫn dành cho khách hàng %1"
+
+#~ msgid "%1 currently supports Tether (USDT)."
+#~ msgstr "%1 hiện hỗ trợ Tether (USDT)."
 
 #~ msgid "%1 does not charge any transfer fees."
 #~ msgstr "%1 không tính bất kì phí chuyển tiền nào."
@@ -14971,9 +14992,6 @@ msgstr "hôm nay, Thứ Sáu"
 
 #~ msgid "Take Profit"
 #~ msgstr "Lấy Lợi Nhuận"
-
-#~ msgid "Take profit can not have more than %1 decimal places."
-#~ msgstr "Lấy Lợi Nhuận không thể có nhiều hơn %1 chữ số thập phân."
 
 #~ msgid "Talk to us"
 #~ msgstr "Nói với chúng tôi"
