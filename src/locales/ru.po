@@ -2157,11 +2157,13 @@ msgstr "Пожалуйста, воспользуйтесь токеном ниж
 msgid "Please verify your<br />withdrawal request"
 msgstr "Пожалуйста, подтвердите свой <br />запрос на вывод"
 
-msgid "Please wait for confirmation or contact the seller."
-msgstr "Пожалуйста, дождитесь подтверждения или свяжитесь с продавцом."
-
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Пожалуйста, дождитесь окончания действия контракта. Окончательная цена контракта может отличаться от ориентировочной цены."
+
+#, fuzzy
+#| msgid "Please wait for confirmation or contact the seller."
+msgid "Please wait for the buyer to confirm the order."
+msgstr "Пожалуйста, дождитесь подтверждения или свяжитесь с продавцом."
 
 msgid "Please withdraw your account balance and close all your open positions before revoking MT5 account manager permissions."
 msgstr "Пожалуйста, выведите баланс счёта и закройте все открытые позиции перед отменой всех полномочий менеджера счёта MT5."
@@ -2299,6 +2301,11 @@ msgstr "Reset Пут"
 
 msgid "Reset the barrier if contract is out of the money at half the option lifetime."
 msgstr "Задайте новый бартер на убыточном контракте в середине срока его действия."
+
+#, fuzzy
+#| msgid "Do you offer virtual-money accounts?"
+msgid "Reset to default virtual money account balance."
+msgstr "Вы предлагаете виртуальные (демо) счета?"
 
 msgid "Reset your %1 account password"
 msgstr "Переустановить пароль для %1"
@@ -2901,11 +2908,13 @@ msgstr "Это имя уже используется. Пожалуйста, у�
 msgid "This order does not exist."
 msgstr "Этот ордер не существует."
 
+#, fuzzy
+#| msgid "A chat for this order has already been created."
+msgid "This order has already been completed."
+msgstr "Чат для этого ордера уже создан."
+
 msgid "This order has expired and cannot be changed."
 msgstr "Этот ордер истёк и не может быть изменён."
-
-msgid "This order is already confirmed."
-msgstr "Этот ордер уже подтвержден."
 
 msgid "This symbol is not available."
 msgstr "Данный символ недоступен."
@@ -3663,9 +3672,6 @@ msgstr "Вы можете пополнять счет %2 в %1 только со
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
 msgstr "Вы можете выполнить до %1 переводов в день. Пожалуйста, повторите попытку завтра."
 
-msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
-msgstr "Если баланс Вашего демо-счёта опустится ниже %1 %2, Вы можете запросить дополнительное пополнение."
-
 msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
 msgstr "Вы можете выводить %1 со своего счета %2 только на свой кошелек Ethereum."
 
@@ -3836,6 +3842,12 @@ msgstr "Вы превысите максимальный предел риска
 
 msgid "You've already cancelled this order."
 msgstr "Вы уже отменили этот ордер."
+
+msgid "You've already confirmed this order, but the seller has not. Please contact them for more information. If you need help, contact our Customer Support team."
+msgstr ""
+
+msgid "You've already confirmed this order. Please wait for the seller to confirm."
+msgstr ""
 
 msgid "You've reached the maximum ad limit. Please deactivate some ads."
 msgstr "Вы достигли максимального лимита объявлений. Пожалуйста, отключите некоторые объявления."
@@ -11273,9 +11285,6 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "Do not trade when you are tired or are under the influence of alcohol."
 #~ msgstr "Не покупайте контракты, если Вы устали или находитесь под действием алкоголя."
-
-#~ msgid "Do you offer virtual-money accounts?"
-#~ msgstr "Вы предлагаете виртуальные (демо) счета?"
 
 #~ msgid "Do you own a newsletter or a mailing list?"
 #~ msgstr "У вас есть собственный информационный бюллетень или список адресов для рассылок?"
@@ -20899,6 +20908,9 @@ msgstr "сегодня, по пятницам"
 #~ msgid "This offer cannot be used in conjunction with any other offer."
 #~ msgstr "Это предложение не может быть использовано совместно с другим предложением."
 
+#~ msgid "This order is already confirmed."
+#~ msgstr "Этот ордер уже подтвержден."
+
 #~ msgid "This page is unavailable when impersonating user"
 #~ msgstr "Данная страница недоступна, когда входящий выдает себя за пользователя"
 
@@ -23032,6 +23044,9 @@ msgstr "сегодня, по пятницам"
 
 #~ msgid "You can only deposit USDT from your Omni Layer-enabled wallet into your Binary.com account."
 #~ msgstr "Вы можете пополнять свой счет Binary.com в USDT только с кошелька с поддержкой Omni Layer."
+
+#~ msgid "You can only request additional funds if your virtual account balance falls below %1 %2."
+#~ msgstr "Если баланс Вашего демо-счёта опустится ниже %1 %2, Вы можете запросить дополнительное пополнение."
 
 #~ msgid "You can open a <a class =\"pjaxload\" href=\"%1\">real money</a> account using dollars, pounds or euros. Simply make a deposit using your credit card, bank wire or e-cash. You can deposit between 5 and 150,000 USD, GBP, EUR and AUD."
 #~ msgstr "Откройте <a class =\"pjaxload\" href=\"%1\">реальный счет</a> в долларах, фунтах или евро. Пополните его кредитной картой, банковским переводом или электронным кошельком."
