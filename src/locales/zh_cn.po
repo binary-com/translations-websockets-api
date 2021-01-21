@@ -74,11 +74,13 @@ msgstr "％1i）如果您使用的是银行卡，％2请附上清晰显示您的
 msgid "%1ii) If you’re using ZingPay,%2 attach a bank statement which shows your name, account details, and the transaction to Binary.com via ZingPay."
 msgstr "％1ii）如果您使用的是ZingPay，％2请通过ZingPay将显示您的姓名、账户详细信息和交易的银行对账单附加到Binary.com。"
 
-msgid "%1ii) If you’re using ZingPay,%2 attach a bank statement which shows your name, account details, and the transaction to Deriv via ZingPay."
-msgstr "％1ii）如果您使用的是ZingPay，％2请通过ZingPay将显示您的姓名、账户详细信息和交易的银行对账单附加到Deriv 。"
-
 msgid "%1iii) If you’re using an e-wallet,%2 attach a screenshot of your e-wallet account showing your username, email address, and account number."
 msgstr "％1iii）如果您使用的是电子钱包，％2请附上显示您的用户名、电子邮件地址和账号的电子钱包账户的屏幕截图。"
+
+#, fuzzy
+#| msgid "Terms and conditions approval is required."
+msgid "*Terms and conditions may apply to withdrawals."
+msgstr "需要批准条款和条件。"
 
 msgid ", as their account is disabled."
 msgstr "，因其账户已被禁用。"
@@ -98,12 +100,6 @@ msgstr "已为此订单创建聊天功能。"
 msgid "A connection error happened while we were completing your request. Please try again later."
 msgstr "处理请求时出现连接错误。请稍后重试。"
 
-msgid "A copy of a utility bill or bank statement issued within the past six months"
-msgstr "水电煤账单或银行月结单复印件（发出日期不得超过六个月）"
-
-msgid "A copy of a valid driving licence, identity card, or passport (front and back)"
-msgstr "有效驾照、身份证或护照前后复印件"
-
 msgid "A general error has occurred."
 msgstr "发生普通错误。"
 
@@ -112,9 +108,6 @@ msgstr "有新设备访问了您的Deriv 账户。"
 
 msgid "A new device accessed your DerivCrypto account."
 msgstr "有新设备访问了您的DerivCrypto 账户。"
-
-msgid "A photo of yourself (selfie) holding your driving licence, identity card, or passport"
-msgstr "手持驾照、身份证或护照的自拍照片"
 
 msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
 msgstr "您目前居住地址的水电煤账单扫描件（账单不得超过3个月）。"
@@ -221,14 +214,8 @@ msgstr "同一账户内不可转账。"
 msgid "Account transfers are not possible between %1 and %2."
 msgstr "%1和%2之间不可转账。"
 
-msgid "Account verification"
-msgstr "账户验证"
-
 msgid "Acknowledgement of Money Transfer"
 msgstr "确认转账"
-
-msgid "Acknowledgement of Withdrawal Request"
-msgstr "确认提款请求"
 
 msgid "Action"
 msgstr "操作"
@@ -244,9 +231,6 @@ msgstr "地址"
 
 msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
 msgstr "此币种目前不可打广告。请联系我们的客服团队或稍后重试。"
-
-msgid "Age and identity verification"
-msgstr "年龄和身份验证"
 
 msgid "All rights reserved."
 msgstr "保留所有权利。"
@@ -320,18 +304,6 @@ msgstr "与代表市场相对波动率的数字相关联。比如，波动率100
 msgid "Australian Index"
 msgstr "澳大利亚指数"
 
-msgid "Authenticate my account"
-msgstr "验证我的账户"
-
-msgid "Authenticate your account to enable withdrawals and transfers"
-msgstr "验证您的账户，以启用取款和转账"
-
-msgid "Authenticating your account is easy. Just click the button below, follow the steps to upload the necessary documents. We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
-msgstr "账户的验证过程很简单。只需单击下面的按钮，按照步骤上传必要的文档。我们将于1-3个工作日内处理好文件。如果没有问题，我们将立即开启提款和转账功能。"
-
-msgid "Authenticating your account is easy. Just log in to your Binary.com account and head to the %1Authentication page%2, "
-msgstr "账户的验证过程很简单。只需登录Binary.com账户并前往％1验证页面％2， "
-
 msgid "Authorise application"
 msgstr "授权应用程序"
 
@@ -395,6 +367,16 @@ msgstr "在我们为您重置MT5密码前，请在密码重置表格内输入以
 msgid "Before we can proceed with the withdrawal process, we first need to check that it was you who made the request."
 msgstr "继续处理取款程序前，我们需先确认是您本人提出取款请求。"
 
+#, fuzzy
+#| msgid "Before we can proceed with the withdrawal process, we first need to check that it was you who made the request."
+msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
+msgstr "继续处理取款程序前，我们需先确认是您本人提出取款请求。"
+
+#, fuzzy
+#| msgid "Before we can proceed with the withdrawal process, we first need to check that it was you who made the request."
+msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
+msgstr "继续处理取款程序前，我们需先确认是您本人提出取款请求。"
+
 msgid "Before we proceed, we noticed you are logged in using your (Google/Facebook) account."
 msgstr "继续操作前，我们注意到您是使用 (Google/Facebook)账户登录的。"
 
@@ -430,9 +412,6 @@ msgstr "浏览器:"
 
 msgid "Bull Market Index"
 msgstr "牛市指数"
-
-msgid "But first check if you are on"
-msgstr "但请先检查看您是否已"
 
 msgid "Buy"
 msgstr "买入"
@@ -496,6 +475,11 @@ msgstr "收银台 API 不支持选定的提供商或运作。"
 msgid "Change in account settings"
 msgstr "账户设置更改"
 
+#, fuzzy
+#| msgid "Change Password"
+msgid "Change my password"
+msgstr "更改密码"
+
 msgid "Chat is not possible because the other client is not yet registered on the P2P system."
 msgstr "无法聊天，因另一位客户尚未在P2P 系统注册。"
 
@@ -549,6 +533,9 @@ msgstr "恭喜! 您的 MT5 %1 账户已就诸。"
 
 msgid "Connection closed"
 msgstr "连接已关闭"
+
+msgid "Contact us"
+msgstr "联系我们"
 
 msgid "Continuous Indices"
 msgstr "连续指数"
@@ -676,9 +663,6 @@ msgstr "交易取消已过期。您的合约仅能在交易取消有效期间才
 msgid "Dear %1 %2 %3,"
 msgstr "尊敬的 %1 %2 %3,"
 
-msgid "Dear %1 %2,"
-msgstr "尊敬的 %1 %2 ,"
-
 msgid "Dear %1,"
 msgstr "尊敬的 %1,"
 
@@ -771,6 +755,11 @@ msgstr "存款"
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "目前无法存款。请稍后重试。"
 
+#, fuzzy
+#| msgid "Deposits are currently unavailable. Please try again later."
+msgid "Deposits are temporarily unavailable for %1. Please try later."
+msgstr "目前无法存款。请稍后重试。"
+
 msgid "Device:"
 msgstr "设备:"
 
@@ -800,6 +789,11 @@ msgstr "数字期权"
 
 msgid "Do not withdraw directly to a crowdfund or ICO address, as your account will not be credited with tokens from such sales."
 msgstr "不要直接把提取资金汇到大众筹资或ICO地址，因为您的账户无法收取此类业务发出的代币。"
+
+#, fuzzy
+#| msgid "Amount you wish to trade:"
+msgid "Do you wish to withdraw funds?"
+msgstr "您要提取的金额:"
 
 msgid "Document ID is required."
 msgstr "文件ID是必要的。"
@@ -930,9 +924,6 @@ msgstr "电子邮件是必要的。"
 msgid "Email not given."
 msgstr "未提交电子邮件 。"
 
-msgid "Email verification unsuccessful"
-msgstr "电子邮件验证失败"
-
 msgid "End Time"
 msgstr "结束时间"
 
@@ -1038,11 +1029,19 @@ msgstr "Firefox"
 msgid "Fixed expiry for reset contract is not allowed."
 msgstr "重设合约不允许固定到期日。"
 
-msgid "Following the email we sent you a few days ago, we'd like to remind you to authenticate your account if you wish to continue trading on MT5."
-msgstr "正如数天前我们给您发出的电子邮件所述，请注意您必须在账户验证后才能继续在MT5交易。"
-
 msgid "For each deposit, you will have to visit here again to generate a new address."
 msgstr "每次存款时必须再访问此处添加新地址。"
+
+#, fuzzy
+#| msgid ""
+#| "For more information on the terms and conditions that apply to your bonus, go to:\n"
+#| "\n"
+#| "%1"
+msgid "For more information on the terms and conditions that apply to your bonus, go to:"
+msgstr ""
+"如需了解有关奖金适用条款和条件的详细信息，请前往：↵ \n"
+"↵ \n"
+"%1"
 
 msgid ""
 "For more information on the terms and conditions that apply to your bonus, go to:\n"
@@ -1055,6 +1054,9 @@ msgstr ""
 
 msgid "For tips to protect yourself against gambling and security risks, %1read our page%2 on secure and responsible trading."
 msgstr "有关防止赌博和安全风险的提示，请％1阅读%2我们关于安全和负责任交易的页面。"
+
+msgid "For your reference, here's the %1general terms of use%2 for our products, and services."
+msgstr ""
 
 msgid "Forex"
 msgstr "外汇"
@@ -1071,8 +1073,18 @@ msgstr "忘记密码？"
 msgid "Forgot your password?"
 msgstr "忘记密码？"
 
+#, fuzzy
+#| msgid "Forgot your password? Please reset your password."
+msgid "Forgot your password? Let's get you a new one."
+msgstr "忘了密码？请重置密码。"
+
 msgid "Forgot your password? Please reset your password."
 msgstr "忘了密码？请重置密码。"
+
+#, fuzzy
+#| msgid "Forgot your password?"
+msgid "Forgot your social password?"
+msgstr "忘记密码？"
 
 msgid "French Index"
 msgstr "法国指数"
@@ -1155,6 +1167,11 @@ msgstr "德国指数"
 msgid "German Smart Index"
 msgstr "德国智能指数"
 
+#, fuzzy
+#| msgid "Reset your %1 account password"
+msgid "Get a new %1 account password"
+msgstr "重设您的%1账户密码"
+
 msgid "Go to my profile"
 msgstr "前往我的个人资料"
 
@@ -1182,71 +1199,19 @@ msgstr "授予"
 msgid "Granularity is not valid"
 msgstr "粒度无效"
 
+#, fuzzy
+#| msgid "Welcome to Deriv"
+msgid "Great, take me to Deriv"
+msgstr "欢迎来到Deriv"
+
 msgid "Hang Seng China"
 msgstr "恒生中国指数"
-
-msgid "Happy trading and please %1contact us%2  if you need further assistance."
-msgstr "祝交易愉快。如需进一步帮助，请 %1\">联系我们%2。"
 
 msgid "Having trouble with the button?"
 msgstr "无法使用按钮？"
 
 msgid "Hello %1,"
 msgstr "%1您好，"
-
-msgid ""
-"Hello %1,\n"
-"\n"
-"We received a request to change your password. If it was you, you may reset your password now.\n"
-"\n"
-"%2\n"
-"\n"
-"Not you? Unsure? Please let us know right away at https://www.binary.com/en/contact.html.\n"
-"\n"
-"Thank you for trading with us.\n"
-"Team %3"
-msgstr ""
-"%1您好，\n"
-"\n"
-"我们收到您的重设密码请求。如果是您提出的，请现在重设密码。\n"
-"\n"
-"%2\n"
-"\n"
-"不是您提出的？不能确定？请立刻到 https://www.binary.com/en/contact.html通知我们。\n"
-"\n"
-"谢谢您使用我们的交易服务。\n"
-"%3团队"
-
-msgid ""
-"Hello %1,\n"
-"\n"
-"We received a request to reset your password. If it was you, we’d be glad to help.\n"
-"\n"
-"Before we proceed, we noticed you are logged in using your (Google/Facebook) account. Please note that if you reset your password, your social account login will be deactivated. If you wish to keep your social account login, you would need to remember your (Google/Facebook) account password.\n"
-"\n"
-"If you’re ready, reset your password now.\n"
-"\n"
-"%2\n"
-"\n"
-"Not you? Unsure? Please let us know right away at https://www.binary.com/en/contact.html.\n"
-"\n"
-"Thank you for trading with us.\n"
-"Team %1"
-msgstr ""
-"%1您好，\n"
-"\n"
-"我们收到您的密码重设请求。如果是您提出的，我们将乐意提供帮忙。\n"
-"\n"
-"在我们继续操作前，我们留意您是用您的(Google/Facebook)账户登录的。请注意，如果要重设密码，您的社交账户登录将失效。如果要继续保留社交账户登录状态，您必须记住您的(Google/Facebook) 账户的密码。\n"
-"\n"
-"如果已经准备好，请现在重设密码。 \n"
-"\n"
-"%2\n"
-"\n"
-"您没有提出请求？不能确定? 请立刻到 https://www.binary.com/en/contact.html通知我们。\n"
-"\n"
-"谢谢您使用我们的交易服务。\n"
-"%1团队"
 
 msgid "Hello there,"
 msgstr "嗨！你好，"
@@ -1320,11 +1285,36 @@ msgstr "如果是您本人，请%1现在就重置密码。%2"
 msgid "If it wasn’t you, please ignore this message."
 msgstr "如果不是您本人，请忽略此消息。"
 
+#, fuzzy
+#| msgid "If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead."
+msgid "If the button doesn't work, copy and paste the link below into a new browser window."
+msgstr "如果无法点击以上链接，请复制URL并粘贴到新的浏览器窗口上。"
+
 msgid "If this was you, you can ignore this email."
 msgstr "如果是您本人，您可忽略此电子邮件。"
 
 msgid "If this wasn't you, please ignore this email."
 msgstr "如果不是您本人，请忽略此电子邮件。"
+
+#, fuzzy
+#| msgid "If you didn’t request a new password, please let us know immediately."
+msgid "If you didn't request a new password,"
+msgstr "如您没有请求新密码，请立刻通知我们。"
+
+#, fuzzy
+#| msgid "If you have questions, please %1contact us%2 via live chat."
+msgid "If you didn't request a new password, %1contact us%2 via live chat."
+msgstr "如有疑问，请通过实时聊天%1与我们联系%2。"
+
+#, fuzzy
+#| msgid "If you have questions, please %1contact us%2 via live chat."
+msgid "If you didn't request for funds withdrawal, %1contact us%2 via live chat."
+msgstr "如有疑问，请通过实时聊天%1与我们联系%2。"
+
+#, fuzzy
+#| msgid "If you have questions, please %1contact us%2 via live chat."
+msgid "If you didn’t request a new password, %1contact us%2 via live chat."
+msgstr "如有疑问，请通过实时聊天%1与我们联系%2。"
 
 msgid "If you didn’t request a new password, please let us know immediately."
 msgstr "如您没有请求新密码，请立刻通知我们。"
@@ -1347,9 +1337,6 @@ msgstr "如果您觉得这些原因全都不适用于您的情况，并希望将
 msgid "If you have forgotten your password, please %1reset your password%2 now to access your account."
 msgstr "如果您忘了密码，请现在就%1重置密码%2以访问账户。"
 
-msgid "If you have not sent us your documents thus far, your MT5 real money account will be disabled shortly. This will close any open positions you may have. Your remaining MT5 real money account balance will also be transferred back to your binary options real money account."
-msgstr "如您至今还未把文件发给我们，您的MT5真实资金账户即将被禁用。如有任何未平仓头寸将被强制平仓。您在MT5 真实资金账户如有剩余金额则将会被转入您的二元期权真实资金账户。"
-
 msgid "If you have questions, please %1 contact us %2 via live chat."
 msgstr "如有疑问，请通过实时聊天%1与我们联系%2。"
 
@@ -1362,11 +1349,13 @@ msgstr "如果您无法通过提供的链接发送文档的正反两面，则可
 msgid "If you need additional help, please %1contact us%2."
 msgstr "如果您需要其他帮助，请%1联系我们%2。"
 
-msgid "If you need further clarification or assistance regarding this decision, please contact us at %1."
-msgstr "关于此决定如果您需要详细说明或帮助，请通过%1联系我们。"
+#, fuzzy
+#| msgid "Need help? Please %1let us know%2."
+msgid "If you need help, please %1let us know%2."
+msgstr "需要帮助？请%1告诉我们%2。"
 
-msgid "If you need further clarification or assistance, please contact us at %1."
-msgstr "如果您需要详细说明或帮助，请通过%1联系我们。"
+msgid "If you send any other digital asset, including %1, you will lose your funds."
+msgstr ""
 
 msgid "If you wish to create another MT5 account, you can simply do it from your MT5 dashboard."
 msgstr "如您想要建立另一个 MT5 账户，只需前往 MT5 仪表板即可办理。"
@@ -1374,14 +1363,32 @@ msgstr "如您想要建立另一个 MT5 账户，只需前往 MT5 仪表板即�
 msgid "If you wish to keep your social account login, you would need to remember your (Google/Facebook) account password."
 msgstr "如果想保持登录社交账户，您需记得您的 (Google/Facebook)账户密码。"
 
+msgid "If you wish to reset your DMT5 account password, please click on the button below:"
+msgstr ""
+
+#, fuzzy
+#| msgid "If you have questions, please %1contact us%2 via live chat."
+msgid "If you'd like to reactivate your account, %1contact us%2 via live chat."
+msgstr "如有疑问，请通过实时聊天%1与我们联系%2。"
+
 msgid "If you're a %1 user, log in with your %2 username and password"
 msgstr "如果您是%1用户，请使用%2用户名和密码登录"
+
+#, fuzzy
+#| msgid "If you're having trouble with the button, copy and paste this link into your browser:"
+msgid "If you're having trouble with the button, copy and paste the link below into your browser."
+msgstr "如果您无法使用该按钮，请复制此链接并粘贴至您的浏览器中："
 
 msgid "If you're having trouble with the button, copy and paste this link into your browser:"
 msgstr "如果您无法使用该按钮，请复制此链接并粘贴至您的浏览器中："
 
 msgid "If you're ready, %1reset your password now.%2"
 msgstr "如已就绪，请%现在就重置密码。%2"
+
+#, fuzzy
+#| msgid "If you’ve forgotten your password, no problem. Just go to the %1Reset password page%2 to create a new one."
+msgid "If you've forgotten your password, no problem. Hit the button below to create a new one."
+msgstr "如果您忘了密码，没问题。只需前往%1重置密码页面%2创建新密码即可。"
 
 msgid "If you’re having trouble with the button, copy and paste this link into your browser:"
 msgstr "如果此按钮无法使用，请复制链接并粘贴至您的浏览器中："
@@ -1554,6 +1561,14 @@ msgstr "日本指数"
 msgid "Japanese Smart Index"
 msgstr "日本智能指数"
 
+msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %1 password?"
+msgstr ""
+
+#, fuzzy
+#| msgid "Click the button below and upload a scanned copy or a clear photo of your passport, driving licence, or national ID."
+msgid "Just hit the button below to upload a copy of your national ID, passport, or driving licence within 5 days."
+msgstr "单击下面的按钮，然后上传护照、驾照或身份证的扫描件或清晰的照片。"
+
 msgid "Kind Regards"
 msgstr "谨致问候"
 
@@ -1562,9 +1577,6 @@ msgstr "谨致问候，"
 
 msgid "Kind regards,"
 msgstr "谨致问候，"
-
-msgid "Kindly note that if we don't receive your documents by %1, your account will be disabled and any open position that you may have on the MT5 platform will be closed."
-msgstr "如我們%1前还未收到您的文件，您的账户即将被禁用。您在MT5平台如有任何未平仓头寸将被强制平仓。"
 
 msgid "Korean Index"
 msgstr "韩国指数"
@@ -1586,6 +1598,9 @@ msgstr "位置："
 
 msgid "Log in"
 msgstr "登录"
+
+msgid "Log in to Deriv"
+msgstr "登录Deriv"
 
 msgid "Log in using social account"
 msgstr "使用社交网站账户登录"
@@ -1755,6 +1770,14 @@ msgstr "新西兰元/瑞士法郎"
 msgid "Need both secret question and secret answer."
 msgstr "需要机密问题和机密答案。"
 
+msgid "Need help? "
+msgstr ""
+
+#, fuzzy
+#| msgid "If you have questions, please %1contact us%2 via live chat."
+msgid "Need help? %1Contact us%2 via live chat."
+msgstr "如有疑问，请通过实时聊天%1与我们联系%2。"
+
 msgid "Need help? Please %1let us know%2."
 msgstr "需要帮助？请%1告诉我们%2。"
 
@@ -1839,6 +1862,11 @@ msgstr "原油/美元"
 msgid "Once we’ve received your reply, we’ll verify the documents and unlock your cashier. If the payment method isn’t yours, check our %1supported payment options%2 and register for one."
 msgstr "收到您的答复后，我们将验证文件并解锁您的收银台。如果所列的付款方式您没使用，请查看我们％1支持的付款方式％2并注册一个。"
 
+#, fuzzy
+#| msgid "Would you like to reactivate your account?"
+msgid "One more step to create your account"
+msgstr "是否要重新激活您的账户？"
+
 msgid "Only %1 decimal places allowed."
 msgstr "只允许%1 个小数位。"
 
@@ -1865,6 +1893,11 @@ msgstr "每秒钟只允许一次更新。"
 
 msgid "Only ports 80 and 443 are allowed"
 msgstr "只允许端口80与443"
+
+#, fuzzy
+#| msgid "Send your %1 (%2) to this address:"
+msgid "Only send %1 (%2) to this address."
+msgstr "请将您的%1(%2) 送到此地址:"
 
 msgid "Only updates to these parameters are allowed %1."
 msgstr "只允许这些参数更新%1。"
@@ -1895,6 +1928,25 @@ msgstr "或者，您可以提交具有以下要求的其他地址证明，例如
 
 msgid "Order is in progress. Changes are no longer allowed."
 msgstr "订单在进行中。不再允许更改。"
+
+#, fuzzy
+#| msgid ""
+#| "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
+#| "\n"
+#| "We wish you the best of luck with your trading.\n"
+#| "\n"
+#| "Regards,\n"
+#| "\n"
+#| "%1"
+msgid "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account."
+msgstr ""
+"收到文件之后，我们的客服团队将尽快为您提交新的奖金请求。奖金会在约3个工作日后存入您的账户。↵ \n"
+"↵ \n"
+"祝您交易顺利。↵ \n"
+"↵ \n"
+"此致，↵ \n"
+"↵ \n"
+"%1"
 
 msgid ""
 "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
@@ -1960,9 +2012,6 @@ msgstr "密码是必需的。"
 
 msgid "Password not given."
 msgstr "未输入密码。"
-
-msgid "Password reset unsuccessful"
-msgstr "密码重设失败"
 
 msgid "Payment agent facilities are not available for this account."
 msgstr "此账户无可用支付代理设施。"
@@ -2033,9 +2082,6 @@ msgstr "出生地"
 msgid "Platinum/USD"
 msgstr "铂金/美元"
 
-msgid "Please %1contact us%2 if you need further assistance."
-msgstr "若需进一步帮助，请%1联系我们%2。"
-
 msgid "Please accept Funds Protection."
 msgstr "请接受资金保护。"
 
@@ -2048,14 +2094,8 @@ msgstr "请申请成为广告商。如已经申请，请联系我们的客服团
 msgid "Please authenticate your %1 account to proceed with the fund transfer."
 msgstr "请验证 %1账户，以继续转汇基金。"
 
-msgid "Please authenticate your account by %1updating your tax information%2 and uploading the following documents:"
-msgstr "为验证您的账号，请%1更新您的税务信息%2并上传以下文件："
-
 msgid "Please authenticate your account to continue."
 msgstr "请验证您的账户，以继续操作。"
-
-msgid "Please authenticate your account to enable withdrawals and transfers"
-msgstr "请验证账户，以启用取款和转账"
 
 msgid "Please authenticate your account to proceed with withdrawals."
 msgstr "请验证账户，以继续取款。"
@@ -2131,6 +2171,11 @@ msgstr "请输入数额"
 
 msgid "Please enter end date."
 msgstr "请输入结束日期。"
+
+#, fuzzy
+#| msgid "Please specify either %1 or %2."
+msgid "Please enter only %1 or %2."
+msgstr "请指定%1或%2。"
 
 msgid "Please enter start date."
 msgstr "请输入开始日期。"
@@ -2462,14 +2507,16 @@ msgstr "重设密码"
 msgid "Reset Put"
 msgstr "重设卖权"
 
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Reset password"
+msgstr "重设密码"
+
 msgid "Reset the barrier if contract is out of the money at half the option lifetime."
 msgstr "重设障碍市场合约是否居于永久期权一半资金范围之外。"
 
 msgid "Reset to default virtual money account balance."
 msgstr "重置为默认虚拟资金账户余额。"
-
-msgid "Reset your %1 account password"
-msgstr "重设您的%1账户密码"
 
 msgid "Reset your password"
 msgstr "重置密码"
@@ -2510,9 +2557,6 @@ msgstr "卖出失败，因为合约已更新。"
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "请将您的%1(%2) 送到此地址，以便将资金存入账户"
 
-msgid "Send your %1 (%2) to this address:"
-msgstr "请将您的%1(%2) 送到此地址:"
-
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "交易期限不能大于 6周。"
 
@@ -2522,20 +2566,19 @@ msgstr "上海指数"
 msgid "Shared Payment Method account %1"
 msgstr "共享的付款方式账户％1"
 
+#, fuzzy
+#| msgid "Available payment methods"
+msgid "Shared payment method"
+msgstr "可用支付方式"
+
 msgid "Shenzhen Index"
 msgstr "深圳指数"
 
 msgid "Should you have any questions, please reach out to us through the live chat on our website."
 msgstr "如有任何疑问，请通过我们网站的实时聊天与我们联系。"
 
-msgid "Should you wish to reactivate your MT5 account, please %1update your tax information%3 and %2authenticate your account%3."
-msgstr "如果想重新激活MT5账户，请%1更新您的税务信息%3并%2验证您的账户%3。"
-
 msgid "Signed up with another trading application that uses %1 technology."
 msgstr "已在另一个使用%1技术的交易应用程序注册。"
-
-msgid "Signup unsuccessful"
-msgstr "注册失败"
 
 msgid "Silver/USD"
 msgstr "白银/美元"
@@ -2593,6 +2636,11 @@ msgstr "对不起，您所在的国家无法使用金融产品合同"
 
 msgid "Sorry, contracts on Synthetic Indices are not available in your country of residence"
 msgstr "对不起，您所在的国家无法使用综合指数合同"
+
+#, fuzzy
+#| msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
+msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
+msgstr "对不起，由于系统维护，收银台暂停使用。"
 
 msgid "Sorry, deposits for this currency are currently disabled."
 msgstr "对不起，目前不能用此币种存款。"
@@ -2708,11 +2756,26 @@ msgstr "位于区间之内"
 msgid "Stays Between/Goes Outside"
 msgstr "保持在范围内/超出范围"
 
+#, fuzzy
+#| msgid "Step"
+msgid "Step FX"
+msgstr "步骤"
+
+#, fuzzy
+#| msgid "Smart FX indices"
+msgid "Step FX indices"
+msgstr "智能外汇指数"
+
 msgid "Step Index"
 msgstr "Step指数"
 
 msgid "Step Indices"
 msgstr "分阶指数"
+
+#, fuzzy
+#| msgid "Forgot password?"
+msgid "Still want to reset your %1 password?"
+msgstr "忘记密码？"
 
 msgid "Stock Indices"
 msgstr "股票指数"
@@ -2798,7 +2861,9 @@ msgstr "谢谢您选择%1。"
 msgid "Thank you for choosing us!"
 msgstr "谢谢您选择我们！"
 
-msgid "Thank you for opening an MT5 real money account with us. We hope your trading experience has been positive so far."
+#, fuzzy
+#| msgid "Thank you for opening an MT5 real money account with us. We hope your trading experience has been positive so far."
+msgid "Thank you for creating an account with us. To complete your sign up, please verify your email."
 msgstr "谢谢您在我们的平台开立MT5真实资金账户。希望您的交易进行得很顺利。"
 
 msgid "Thank you for signing up for a virtual account!"
@@ -2807,8 +2872,16 @@ msgstr "谢谢您注册虚拟账户！"
 msgid "Thank you for submitting your documents."
 msgstr "感谢您提交文件。"
 
+#, fuzzy
+#| msgid "Thank you for submitting your documents."
+msgid "Thank you for submitting your documents. We've successfully verified your identity."
+msgstr "感谢您提交文件。"
+
 msgid "Thank you for trading with us."
 msgstr "感谢您通过我们交易。"
+
+msgid "Thank you for verifying your address and identity. You can now trade, make deposits, and withdraw your funds without interruption."
+msgstr ""
 
 msgid "Thank you."
 msgstr "谢谢。"
@@ -2861,9 +2934,6 @@ msgstr "您提交的地址证明文件格式不受支持或已损坏，因此无
 msgid "The email address and date of birth do not match."
 msgstr "电子邮件和出生日期不匹配。"
 
-msgid "The email address you entered to sign up for Deriv is already in use."
-msgstr "您注册 Deriv 账户时输入的电邮地址已经被使用。"
-
 msgid "The email address you entered to sign up for DerivCrypto is already in use."
 msgstr "您注册 DerivCrypto 账户时输入的电邮地址已经被使用。"
 
@@ -2872,6 +2942,11 @@ msgstr "您提供的电邮地址已经在%1账户注册过了。"
 
 msgid "The financial assessment is not complete"
 msgstr "未完成金融评估"
+
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
+msgid "The following MT5 account(s) are temporarily inaccessible: %1. Please try again later."
+msgstr "法定货币和加密货币账户间转账当前不可执行。请稍后重试。"
 
 msgid "The funds have been credited into your account %1 at %2."
 msgstr "资金已记入您的%2账户%1。"
@@ -2965,6 +3040,11 @@ msgstr "当前系统载入量大，此拨电已暂停。 请几分钟后再试�
 
 msgid "The token is invalid."
 msgstr "令牌无效。"
+
+#, fuzzy
+#| msgid "Your account has been credited with <strong>%1 %2</strong>"
+msgid "The transaction was completed by <strong>%1, %2</strong>."
+msgstr "您的账户已被计入<strong>%1 %2</strong>"
 
 msgid "The type of document you submitted as proof of identity can't be accepted"
 msgstr "您提交的身份证明文件类型无法接受"
@@ -3092,14 +3172,21 @@ msgstr "此市场目前已收市。"
 msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
 msgstr "此市场已关闭。您可以试试一直开放的综合指数。"
 
-msgid "This may be because you have a Binary.com account. If you do, you can just %1log in to Deriv%2 with your Binary.com email and password."
-msgstr "可能是因为您已经有 Binary.com 账户。如是这样，仅需使用您的 Binary.com 电邮地址和密码即可%1登录 Deriv%2 。"
-
 msgid "This may be because you have a Binary.com account. If you do, you can just %1log in to DerivCrypto%2 with your Binary.com email and password."
 msgstr "可能是因为您已经有 Binary.com 账户。如是这样，仅需使用您的 Binary.com 电邮地址和密码即可%1登录 DerivCrypto%2 。"
 
+#, fuzzy
+#| msgid "This may be because you have a Binary.com account. If you do, you can just %1log in to Deriv%2 with your Binary.com email and password."
+msgid "This may be because you have a Binary.com account. If you do, you don't need to sign up for Deriv.com. You can simply log in to Deriv.com with the same email address and password."
+msgstr "可能是因为您已经有 Binary.com 账户。如是这样，仅需使用您的 Binary.com 电邮地址和密码即可%1登录 Deriv%2 。"
+
 msgid "This name is already in use. Please provide a different name."
 msgstr "此名称已被取用。请提供别的名称。"
+
+#, fuzzy
+#| msgid "This order has expired and cannot be changed."
+msgid "This order cannot be refunded or cancelled."
+msgstr "此订单已过期且无法修改。"
 
 msgid "This order does not exist."
 msgstr "此订单 不存在。"
@@ -3139,9 +3226,6 @@ msgstr "暂停时间必须大于当前时间。"
 
 msgid "To account provided should be same as current authorized client."
 msgstr "目标账户必须与当前被授权客户相符。"
-
-msgid "To enable them, you'll need to authenticate your account."
-msgstr "要启用这些功能，您须验证您的账户。"
 
 msgid "To unlock the cashier, please follow these steps:"
 msgstr "要解锁收银台，请按照以下步骤操作："
@@ -3364,8 +3448,21 @@ msgstr "很遗憾，您的回答显示您缺乏足够的财务资源或交易经
 msgid "Unfortunately, due to %1legal obligations%2, we cannot offer our service to you because you do not meet our minimum age requirements."
 msgstr "很遗憾，由于 %1法律义务%2，我们无法向您提供服务，因为您不符合最低年龄需求。"
 
+#, fuzzy
+#| msgid "Unfortunately, due to %1legal obligations%2, we cannot offer our service to you because you do not meet our minimum age requirements."
+msgid "Unfortunately, due to regulations, we are unable to offer our services to anyone below 18 years old."
+msgstr "很遗憾，由于 %1法律义务%2，我们无法向您提供服务，因为您不符合最低年龄需求。"
+
+msgid "Unfortunately, we couldn't create a new account for you because your email address is linked to a closed account."
+msgstr ""
+
 msgid "Unfortunately, we were unable to verify/authenticate your account due to the following reasons:"
 msgstr "很遗憾，由于以下原因，我们无法验证/认证您的账户："
+
+#, fuzzy
+#| msgid "We were unable to send you a password reset link because your email is associated with a closed account."
+msgid "Unfortunately, you won't be able to reset your password because your email address is linked to a closed account."
+msgstr "我们无法传送密码重置链接给您，因为您的电子邮件与已关闭的账户有关联。"
 
 msgid "Unicode is not allowed in URL"
 msgstr "网址不可含Unicode"
@@ -3378,9 +3475,6 @@ msgstr "未知合约出售建议"
 
 msgid "Unknown landing company."
 msgstr "未知着陆公司。"
-
-msgid "Unsuccessful Deriv account creation"
-msgstr "建立 Deriv 账户失败"
 
 msgid "Unsupported bet class %1."
 msgstr "不支持的投注级别%1。"
@@ -3397,8 +3491,10 @@ msgstr "止损和止盈目前不可更新。"
 msgid "Update your personal details."
 msgstr "更新您的个人资料。"
 
-msgid "Upload document"
-msgstr "上传文件"
+#, fuzzy
+#| msgid "Upload your documents"
+msgid "Upload my documents"
+msgstr "上传您的文件"
 
 msgid "Upload your documents"
 msgstr "上传您的文件"
@@ -3412,11 +3508,13 @@ msgstr "验证码"
 msgid "Verify and start trading"
 msgstr "验证及开始交易"
 
+#, fuzzy
+#| msgid "Verify your email address - %1"
+msgid "Verify my email"
+msgstr "验证您的电子邮件地址 - %1"
+
 msgid "Verify your account"
 msgstr "验证您的账户"
-
-msgid "Verify your account for Deriv"
-msgstr "验证您的 Deriv 账户"
 
 msgid "Verify your email address - %1"
 msgstr "验证您的电子邮件地址 - %1"
@@ -3424,8 +3522,10 @@ msgstr "验证您的电子邮件地址 - %1"
 msgid "Verify your withdraw request."
 msgstr "验证您的提款请求。"
 
-msgid "Verify your withdrawal request - %1"
-msgstr "验证您的提款请求 - %1"
+#, fuzzy
+#| msgid "Verify your withdraw request."
+msgid "Verify your withdrawal request"
+msgstr "验证您的提款请求。"
 
 msgid "View on blockchain."
 msgstr "在区块链上查看。"
@@ -3514,17 +3614,29 @@ msgstr "无法辨识您的本地币种。请联系我们的客服团队。"
 msgid "We cannot transfer to account %1. Please select another payment agent."
 msgstr "我们不能转账至账户 %1。请另选付款代理。"
 
-msgid "We closed your %1 account"
-msgstr "我们已关闭您的%1账户"
-
 msgid "We could not process this contract at this time."
 msgstr "目前我们无法处理该合约。"
+
+#, fuzzy
+#| msgid "Reset your password"
+msgid "We couldn't reset your password"
+msgstr "重置密码"
+
+#, fuzzy
+#| msgid "Verify your email address - %1"
+msgid "We couldn't verify your email address"
+msgstr "验证您的电子邮件地址 - %1"
 
 msgid "We don’t accept addresses on envelopes as proof of address. We also don’t accept screenshots."
 msgstr "我们不接受信封上的地址作为地址证明。我们也不接受屏幕截图。"
 
 msgid "We don’t accept screenshots as proof of address. We also don’t accept addresses on envelopes."
 msgstr "我们不接受屏幕截图作为地址证明。我们也不接受信封上的地址。"
+
+#, fuzzy
+#| msgid "Reset your %1 account password"
+msgid "We got a request to change your %1 account password."
+msgstr "重设您的%1账户密码"
 
 msgid "We have closed these account(s) due to inactivity."
 msgstr "由于长久没活动，我们已关闭这些账户。"
@@ -3538,17 +3650,45 @@ msgstr "我们留意到您之前是使用 <strong>Google</strong> 或 <strong>Fa
 msgid "We noticed that you previously logged in to DerivCrypto using either <strong>Google</strong> or <strong>Facebook</strong>. If you reset your password now, you will need to login with your email and password in the future."
 msgstr "我们留意到您之前是使用 <strong>Google</strong> 或 <strong>Facebook</strong>登录 DerivCrypto账户。如您现在重置密码，将来须用电子邮件和密码登录。"
 
+#, fuzzy
+#| msgid "We received a request to change the password for the account with the email %1."
+msgid "We received a request to change the password for the account with the email "
+msgstr "我们收到用%1为电子邮件的账户的重置密码请求。"
+
 msgid "We received a request to change the password for the account with the email %1."
 msgstr "我们收到用%1为电子邮件的账户的重置密码请求。"
+
+msgid "We received a request to reset your %1 login password. Since you log in using your social account, would you like to reset your social password instead? If yes, reset your social password and try logging in to %1."
+msgstr ""
 
 msgid "We received a request to reset your password."
 msgstr "我们收到您的密码重置请求。"
 
-msgid "We recently sent you an email requesting documents to authenticate your MT5 real money account."
-msgstr "最近我们给您发送了请求文件的电邮以便验证MT5真实资金账户。"
-
 msgid "We require your tax information for regulatory purposes. Please fill in your tax information."
 msgstr "根据法律规定，我们需要您的税务信息。请填写您的税务信息。"
+
+msgid "We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %1%2*."
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "Dear %1,\n"
+#| "\n"
+#| "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+#| "\n"
+#| "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+msgid "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+msgstr ""
+"尊敬的 %1：\n"
+"\n"
+"我们十分高兴您已经决定开始交易%2，我们希望希望到目前为止，您在我们平台上的体验是良好的。\n"
+"\n"
+"在此特别通知您，我们已收到您的奖金请求。但是很遗憾，由于以下某个原因，我们无法处理您的请求："
+
+#, fuzzy
+#| msgid "We were unable to verify your email"
+msgid "We were unable to process your withdrawal"
+msgstr "无法验证您的电邮地址"
 
 msgid "We were unable to send you a password reset link"
 msgstr "我们无法传送密码重置链接给您"
@@ -3568,6 +3708,14 @@ msgstr "无法验证您的电邮地址"
 msgid "We were unable to verify your email because it is associated with a closed account."
 msgstr "无法验证您的电邮地址，因为它与已关闭的账户有关联。"
 
+msgid "We will activate your account once we receive your documents."
+msgstr ""
+
+#, fuzzy
+#| msgid "We thank you for choosing %1 and we wish you the best of luck with your trading."
+msgid "We wish you the best of luck with your trading."
+msgstr "感谢您选择  %1 ，祝交好运。"
+
 msgid "We would like to inform you that the transfer of %1 %2 via %3 has been processed."
 msgstr "我们特此通知您，通过%3的%1%2转账已处理。"
 
@@ -3583,9 +3731,6 @@ msgstr "我们特此通知您，由 <strong>%3%4</strong>作出的<strong>%1%2</
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "我们特此通知您，您的%1已处理。"
 
-msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
-msgstr "我们将于1-3个工作日内处理好文件。如果没有问题，我们将立即开启提款和转账功能。"
-
 msgid "We're experiencing a technical issue with our Cashier. Your funds are safe, but deposits and withdrawals are unavailable for the time being."
 msgstr "我们的收银台发生技术性错误。您的基金很安全，但暂时无法存取款。"
 
@@ -3598,11 +3743,8 @@ msgstr "我们的系统当前的负载量非常高。目前正在努力解决这
 msgid "We're having an issue with some of our data feeds. We're working hard to resolve this, but some markets may be unavailable for the time being."
 msgstr "我们正面对一些数据汇入的问题。目前正在努力解决这个问题，但一些市场可能暂时无法使用。"
 
-msgid "We're pleased to inform you that we've verified your account. All account features are now enabled and you can enjoy a seamless trading experience."
-msgstr "很高兴通知您，您的账户已通过验证。现在您可以使用所有账户功能，享受无缝交易体验。"
-
-msgid "We're pleased to inform you that we've verified your age and identity."
-msgstr "很高兴通知您，您的年龄和身份已通过验证。"
+msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
+msgstr ""
 
 msgid "We're sorry you're leaving"
 msgstr "您决定离开，我们很遗憾"
@@ -3613,10 +3755,30 @@ msgstr "此转账无法处理，因为客户的居住国不在您的投资组合
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
 msgstr "此取款无法处理，因为您的居住国不在付款代理的投资组合之内。请联系％1以获取更多信息。"
 
+#, fuzzy
+#| msgid "We were unable to sign you up"
+msgid "We're unable to sign you up"
+msgstr "无法让您注册"
+
+#, fuzzy
+#| msgid "We were unable to verify your email because it is associated with a closed account."
+msgid "We're unable to verify your email address because it is linked to a closed account."
+msgstr "无法验证您的电邮地址，因为它与已关闭的账户有关联。"
+
 msgid "We're updating our site in a short while. Some services may be temporarily unavailable."
 msgstr "我们的网站将于短时间内更新。某些服务可能暂时不可用。"
 
+#, fuzzy
+#| msgid "We closed your %1 account"
+msgid "We've closed your account"
+msgstr "我们已关闭您的%1账户"
+
 msgid "We've completed"
+msgstr "我们已完成"
+
+#, fuzzy
+#| msgid "We've completed"
+msgid "We've completed a transfer"
 msgstr "我们已完成"
 
 msgid "We've disabled your MT5 account. Please contact us for more information."
@@ -3838,6 +4000,11 @@ msgstr "目前无法取款。请稍后重试。"
 msgid "Withdrawals are not possible for demo accounts."
 msgstr "模拟账户不可提款。"
 
+#, fuzzy
+#| msgid "Withdrawals are currently unavailable. Please try again later."
+msgid "Withdrawals are temporarily unavailable for %1. Please try later."
+msgstr "目前无法取款。请稍后重试。"
+
 msgid "Withdrawals from MT5 manager accounts is not possible. Please choose another payment method."
 msgstr "MT5管理员账户无法取款。请另选别的付款方式。"
 
@@ -3876,6 +4043,11 @@ msgstr "是"
 
 msgid "Yes, it's me!"
 msgstr "是我本人！"
+
+#, fuzzy
+#| msgid "Reset your password"
+msgid "Yes, reset my %1 password"
+msgstr "重置密码"
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
 msgstr "您已拥有金融资金账户。请切换账户为交易金融产品类。"
@@ -4060,6 +4232,14 @@ msgstr "您使用无效信息开立了账户。"
 msgid "You have reached the rate limit for %1."
 msgstr "您已达 %1的最高限率。"
 
+#, fuzzy
+#| msgid "The funds have been credited into your account <strong>%1</strong> at <strong>%2</strong>."
+msgid "You have received <strong>%1 %2</strong> in your <strong>%3 </strong> account at <strong>%4</strong>."
+msgstr "资金已记入您的<strong>%2</strong>账户<strong>%1</strong>。"
+
+msgid "You have received funds"
+msgstr ""
+
 msgid "You have signed up for more than one account."
 msgstr "您已注册一个以上的账户。"
 
@@ -4071,18 +4251,6 @@ msgstr "您的年龄还未验证。欲知详情请跟我们联系。"
 
 msgid "You may have"
 msgstr "您可能有"
-
-msgid "You may have noticed that we've disabled your withdrawals and transfers between your crypto and fiat currency accounts. To enable them, you'll need to authenticate your account."
-msgstr "您可能已经注意到，我们已禁止您在加密货币和法定货币账户之间取款和转账。要启用这些功能，您须对账户进行验证。"
-
-msgid "You may have noticed that we’ve disabled your withdrawals and transfers between your crypto and fiat currency accounts."
-msgstr "您可能已经注意到，我们已禁止您在加密货币和法定货币账户之间取款和转账。"
-
-msgid "You may ignore this email if you have sent us your documents."
-msgstr "如果已经发送文件给我们，请忽视此电邮。"
-
-msgid "You may ignore this email if you have sent us your documents. We shall process your documents in due time."
-msgstr "如果已经发送文件给我们，请忽视此电邮。我们将及时处理您的文件。"
 
 msgid "You may need to wait for "
 msgstr "您可能需要稍等 "
@@ -4102,9 +4270,6 @@ msgstr "您可以在取消交易过期后更新止损金额。"
 msgid "You may update your take profit amount after deal cancellation has expired."
 msgstr "您可以在取消交易过期后更新获利金额。"
 
-msgid "You may upload the copies of all required documents directly from your real money account at %1."
-msgstr "所有必需文件影印本可直接从您在此网站的真实资金账户透过%1上传。"
-
 msgid "You may use either stop loss or deal cancellation, but not both. Please select either one."
 msgstr "您可以使用止损或交易取消，但不能同时使用两者。请选择一个。"
 
@@ -4114,11 +4279,25 @@ msgstr "您可以使用止盈或交易取消，但不能同时使用两者。请
 msgid "You opened a %1 account. Your account login ID is %2."
 msgstr "您已开立了 %1 账户。登录 ID 是 %2。"
 
+msgid "You opened a <b class='darkcolor-subtext'> %1 </b> account. Before you can start trading, we need to make sure you're 18 or older."
+msgstr ""
+
+msgid "You opened a <strong> %1 %2 </strong> account. Before you can start trading, we need to make sure you're 18 or older."
+msgstr ""
+
+#, fuzzy
+#| msgid "It seems that you tried to sign up with an email address that's already in the %1 system."
+msgid "You tried to sign up for Deriv.com with an email address that's already in use."
+msgstr "您似乎正在使用已经在%1系统内的电子邮件地址注册。"
+
 msgid "You will exceed the maximum exposure limit for this market if you purchase this contract. Please close some of your positions and try again."
 msgstr "如您购入此合约将超出此市场的最大曝光限额。请先将一些头寸平仓后重试。"
 
 msgid "You will exceed the maximum exposure limit if you purchase this contract. Please close some of your positions and try again."
 msgstr "如您购入此合约将超出最大曝光限额。请先将一些头寸平仓后重试。"
+
+msgid "You're nearly there!"
+msgstr ""
 
 msgid "You've already cancelled this order."
 msgstr "您已取消此订单。"
@@ -4129,6 +4308,11 @@ msgstr "您已经确认了此订单，但卖者尚未确认。请与他们联系
 msgid "You've already confirmed this order. Please wait for the seller to confirm."
 msgstr "您已经确认了此订单。请等待卖者确认。"
 
+#, fuzzy
+#| msgid "You’ve got yourself a new password"
+msgid "You've got a new password"
+msgstr "您已设置了新密码"
+
 msgid "You've reached the maximum ad limit. Please deactivate some ads."
 msgstr "您已达最大广告限额。请停止部分广告。"
 
@@ -4138,11 +4322,21 @@ msgstr "您已达到此货币对和订单类型在用广告的最大％1。请�
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
 msgstr "您已达最大取款限额 %1 %2。请验证账户以获取无限取款额。"
 
+#, fuzzy
+#| msgid "We received a request to change the password for the account with the email %1."
+msgid "You've successfully created a new password for your Deriv account with the email address"
+msgstr "我们收到用%1为电子邮件的账户的重置密码请求。"
+
 msgid "You've used this password before. Please create a different one."
 msgstr "您已用过此密码。请另设新密码。"
 
 msgid "Your %1 is invalid."
 msgstr "您的%1无效。"
+
+#, fuzzy
+#| msgid "Your MT5 password has been reset."
+msgid "Your DMT5 account new password request"
+msgstr "您的MT5密码已重设。"
 
 msgid "Your Details"
 msgstr "您的详细信息"
@@ -4174,6 +4368,11 @@ msgstr "您的账户币种必须相同。 请选择币种匹配的账户，然�
 msgid "Your account currency and trader currency must be same."
 msgstr "您的账户货币必须与交易者货币相符。"
 
+#, fuzzy
+#| msgid "This account has been disabled."
+msgid "Your account has been closed"
+msgstr "此账户已禁用。"
+
 msgid "Your account has exceeded the trading limit with free promo code, please deposit if you wish to continue trading."
 msgstr "您的账户已超过免费推广代码的交易限额，如果要继续交易，请存入资金。"
 
@@ -4201,6 +4400,16 @@ msgstr "您的账户需要先认证才能执行付款代理转账。"
 msgid "Your account opening reason cannot be changed."
 msgstr "开立账户原因无法修改。"
 
+#, fuzzy
+#| msgid "Your email address is unverified."
+msgid "Your address and identity are verified"
+msgstr "您的电子邮件未通过验证。"
+
+#, fuzzy
+#| msgid "Your settings have been updated successfully."
+msgid "Your address and identity have been verified successfully"
+msgstr "您的设置已成功更新。"
+
 msgid "Your bonus request - %1"
 msgstr "您的奖励请求- %1"
 
@@ -4221,6 +4430,11 @@ msgstr "您的当前收银台会话已经过期。请重新开始。"
 
 msgid "Your date of birth cannot be changed."
 msgstr "出生日期无法修改。"
+
+#, fuzzy
+#| msgid "This email is already in use"
+msgid "Your email address is already in use"
+msgstr "此电子邮件已被使用"
 
 msgid "Your email address is unverified."
 msgstr "您的电子邮件未通过验证。"
@@ -4249,14 +4463,29 @@ msgstr "区块链取得最大的三个确认后，您的资金将记入账户。
 msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and unlock your cashier."
 msgstr "您的身份证件已过期。请前往账户个人资料提交有效的证件并解锁收银台。"
 
+#, fuzzy
+#| msgid "Your proof of identity is expired."
+msgid "Your identity is verified"
+msgstr "您的身份证明已过期。"
+
 msgid "Your last name cannot be changed."
 msgstr "姓氏无法修改。"
 
 msgid "Your login ID is missing. Please check the details and try again."
 msgstr "缺少您的登录ID。请仔细检查并重试。"
 
+#, fuzzy
+#| msgid "Reset your %1 account password"
+msgid "Your new Deriv account password"
+msgstr "重设您的%1账户密码"
+
 msgid "Your password has been changed."
 msgstr "您的密码已更改。"
+
+#, fuzzy
+#| msgid "Your password has been reset."
+msgid "Your password has been reset"
+msgstr "您的密码已重设。"
 
 msgid "Your password has been reset."
 msgstr "您的密码已重设。"
@@ -4372,9 +4601,6 @@ msgstr "信封上的地址"
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "允许输入字母数字组合、空格和划线，2-32个字符"
 
-msgid "and follow the steps to upload the necessary documents."
-msgstr "并按照步骤上传必要的文档。"
-
 msgid "android"
 msgstr "android"
 
@@ -4417,11 +4643,17 @@ msgstr "example@email.com"
 msgid "first tick"
 msgstr "首个跳动点"
 
+msgid "immediately."
+msgstr ""
+
 msgid "iphone"
 msgstr "iphone"
 
 msgid "is dated within the last 6 months"
 msgstr "最近 6 个月签发的"
+
+msgid "let us know"
+msgstr ""
 
 msgid "real"
 msgstr "真實"
@@ -4449,6 +4681,11 @@ msgstr "今天"
 
 msgid "today, Fridays"
 msgstr "今天，每星期五"
+
+#, fuzzy
+#| msgid "Live chat:"
+msgid "via live chat."
+msgstr "在线聊天："
 
 #~ msgid ""
 #~ "\n"
@@ -5283,6 +5520,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "%1: Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices"
 #~ msgstr "%1：外汇、指数、大宗商品及智能指数的二元期权在线交易平台"
+
+#~ msgid "%1ii) If you’re using ZingPay,%2 attach a bank statement which shows your name, account details, and the transaction to Deriv via ZingPay."
+#~ msgstr "％1ii）如果您使用的是ZingPay，％2请通过ZingPay将显示您的姓名、账户详细信息和交易的银行对账单附加到Deriv 。"
 
 #~ msgid "%1’s IT Operations Group is responsible for the design, development and operation of the company’s high-traffic networks. Its responsibilities include hardware and software deployment, up-time and reliability testing, incident response reporting, network security, intrusion detection, and load balancing."
 #~ msgstr "1％的信息技术运营组负责公司高流量网络的设计、开发和运营。其职责范围包括硬件和软件部署、运行时间和可靠性测试、事件响应报告、网络安全、入侵检测和负载平衡。"
@@ -7595,6 +7835,12 @@ msgstr "今天，每星期五"
 #~ msgid "A contract may be sold when a tradeable price can be determined. Indicative prices are provided throughout the contract lifetime to help you gauge its progress."
 #~ msgstr "如果可以确定一个可交易的价格，就可以出售合约。合约有效期内都将提供指示性的价格，用以帮助您衡量价格变化。"
 
+#~ msgid "A copy of a utility bill or bank statement issued within the past six months"
+#~ msgstr "水电煤账单或银行月结单复印件（发出日期不得超过六个月）"
+
+#~ msgid "A copy of a valid driving licence, identity card, or passport (front and back)"
+#~ msgstr "有效驾照、身份证或护照前后复印件"
+
 #~ msgid "A dedicated affiliate team to provide you with the best service possible"
 #~ msgstr "专门的联盟团队为您提供最佳服务"
 
@@ -7645,6 +7891,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "A panel featuring industry leaders awards BetOnMarkets.com ‘Financial Betting Operator of the Year’ over two other finalists. It’s a major victory for our brand and further recognition of our world-beating service. Ten years on, and going from strength to strength."
 #~ msgstr "BetOnMarkets.com 淘汰了其他两个决赛对手，赢得由行业领袖专家团评选的“年度最佳金融投注运营商”奖项。这对我们的品牌来说是一场很重大的胜利，并进一步肯定了我们首屈一指的卓越服务。十年过去了，我们的实力越来越强。"
+
+#~ msgid "A photo of yourself (selfie) holding your driving licence, identity card, or passport"
+#~ msgstr "手持驾照、身份证或护照的自拍照片"
 
 #~ msgid "A popular strategy is to trade with or against short-term market trends (market going up or down). For instance, if a market is rising, you may want to \"ride\" it by trading up, or trade against it by trading down."
 #~ msgstr "一种流行的策略是按照或反着短期市场趋势制订 交易 。比如，如果某一市场正在上涨，您可能想通过向上 交易 来“驾驭”它，或者通过向下 交易 来制订反向 交易 。"
@@ -7915,6 +8164,9 @@ msgstr "今天，每星期五"
 #~ msgid "Account type"
 #~ msgstr "帐户类型"
 
+#~ msgid "Account verification"
+#~ msgstr "账户验证"
+
 #~ msgid "Accounting"
 #~ msgstr "会计"
 
@@ -7938,6 +8190,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Accuracy of Information"
 #~ msgstr "信息的准确性"
+
+#~ msgid "Acknowledgement of Withdrawal Request"
+#~ msgstr "确认提款请求"
 
 #~ msgid "Acquisition"
 #~ msgstr "收购"
@@ -8076,6 +8331,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Against"
 #~ msgstr "针对"
+
+#~ msgid "Age and identity verification"
+#~ msgstr "年龄和身份验证"
 
 #~ msgid "Agreement Restrictions"
 #~ msgstr "协议限制"
@@ -8233,9 +8491,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Amount to withdraw <strong><span id=\"currencyInfo\">%1</span></strong>"
 #~ msgstr "提款金额 <strong><span id=\"currencyInfo\">%1</span></strong>"
-
-#~ msgid "Amount you wish to trade:"
-#~ msgstr "您要提取的金额:"
 
 #~ msgid "Amount you wish to 交易:"
 #~ msgstr "您打算交易的金额："
@@ -8648,11 +8903,23 @@ msgstr "今天，每星期五"
 #~ msgid "Authenticate"
 #~ msgstr "验证"
 
+#~ msgid "Authenticate my account"
+#~ msgstr "验证我的账户"
+
 #~ msgid "Authenticate to Withdraw"
 #~ msgstr "验证提款"
 
+#~ msgid "Authenticate your account to enable withdrawals and transfers"
+#~ msgstr "验证您的账户，以启用取款和转账"
+
 #~ msgid "Authenticated"
 #~ msgstr "已验证"
+
+#~ msgid "Authenticating your account is easy. Just click the button below, follow the steps to upload the necessary documents. We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
+#~ msgstr "账户的验证过程很简单。只需单击下面的按钮，按照步骤上传必要的文档。我们将于1-3个工作日内处理好文件。如果没有问题，我们将立即开启提款和转账功能。"
+
+#~ msgid "Authenticating your account is easy. Just log in to your Binary.com account and head to the %1Authentication page%2, "
+#~ msgstr "账户的验证过程很简单。只需登录Binary.com账户并前往％1验证页面％2， "
 
 #~ msgid "Authentication"
 #~ msgstr "验证"
@@ -8685,9 +8952,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Available currencies"
 #~ msgstr "支持的货币"
-
-#~ msgid "Available payment methods"
-#~ msgstr "可用支付方式"
 
 #~ msgid "Available soon..."
 #~ msgstr "很快即可启用..."
@@ -9569,6 +9833,9 @@ msgstr "今天，每星期五"
 #~ msgid "Business Development"
 #~ msgstr "商务发展"
 
+#~ msgid "But first check if you are on"
+#~ msgstr "但请先检查看您是否已"
+
 #~ msgid "But there's no need to wait until expiry. You can sell back long-term trades at any time to profit from changing market conditions."
 #~ msgstr "但您不需要等到合约到期。可以在任何时间内卖出您的长线交易合约，根据市场变化及时获利。"
 
@@ -9805,9 +10072,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Change Account Information"
 #~ msgstr "更改账户信息"
-
-#~ msgid "Change Password"
-#~ msgstr "更改密码"
 
 #~ msgid "Change my email preferences"
 #~ msgstr "改变我的电子邮件首选项"
@@ -10295,9 +10559,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Contact the payment agent directly for more information on how to transfer money to them."
 #~ msgstr "请直接联系支付代理咨询汇款方法。"
-
-#~ msgid "Contact us"
-#~ msgstr "联系我们"
 
 #~ msgid "Contact us via our %1Help Centre"
 #~ msgstr "通过 %1帮助中心与我们联系"
@@ -10935,6 +11196,9 @@ msgstr "今天，每星期五"
 #~ msgid "Dear %1 %2 %3, We would like to inform you that your Western Union withdrawal has been processed. <strong>%5</strong> You can then go to any Western Union agent, provide the MTCN number and claim your funds. You can find the Western Union agent which is closest to you on their <a href=\"http://www.westernunion.com/info/agentLocator.asp?country=global\">website</a>. Kind Regards, %4"
 #~ msgstr "尊敬的%1%2%3， 我们想通知您，您的西联提款已经处理。 <strong>%5</strong> 然后您可以前往任何西联汇款代理人处，提供 MTCN 号码即可提款。您可在西联汇款的 <a href=\"http://www.westernunion.com/info/agentLocator.asp?country=global\" target = \"_blank\">website</a> 上找到离您最近的西联快汇代理人。此致，%4"
 
+#~ msgid "Dear %1 %2,"
+#~ msgstr "尊敬的 %1 %2 ,"
+
 #~ msgid ""
 #~ "Dear %1 %2,\n"
 #~ "\n"
@@ -11428,11 +11692,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Dialog Semiconductor plc"
 #~ msgstr "戴乐格半导体公司"
-
-#, fuzzy
-#~| msgid "Forgot password?"
-#~ msgid "Did you try to reset your Deriv password?"
-#~ msgstr "忘记密码？"
 
 #~ msgid "Differences with other data feeds"
 #~ msgstr "与其他数据源的差异"
@@ -12076,6 +12335,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Email the token to your account manager."
 #~ msgstr "将令牌以电子邮件方式传给您的账户管理员。"
+
+#~ msgid "Email verification unsuccessful"
+#~ msgstr "电子邮件验证失败"
 
 #~ msgid "Email: "
 #~ msgstr "电子邮件: "
@@ -12744,6 +13006,9 @@ msgstr "今天，每星期五"
 #~ msgid "Follow up on rejected deposits"
 #~ msgstr "跟进被拒绝的存款"
 
+#~ msgid "Following the email we sent you a few days ago, we'd like to remind you to authenticate your account if you wish to continue trading on MT5."
+#~ msgstr "正如数天前我们给您发出的电子邮件所述，请注意您必须在账户验证后才能继续在MT5交易。"
+
 #~ msgid "For CAC40 charts visit"
 #~ msgstr "对于 CAC40 图表访问"
 
@@ -13356,6 +13621,9 @@ msgstr "今天，每星期五"
 #~ msgid "Hands-on test automation experience a plus"
 #~ msgstr "有自动化测试设备使用经验者优先考虑"
 
+#~ msgid "Happy trading and please %1contact us%2  if you need further assistance."
+#~ msgstr "祝交易愉快。如需进一步帮助，请 %1\">联系我们%2。"
+
 #, fuzzy
 #~| msgid "Corporate Actions"
 #~ msgid "Haseko Corporation"
@@ -13378,6 +13646,60 @@ msgstr "今天，每星期五"
 
 #~ msgid "Heineken"
 #~ msgstr "喜力"
+
+#~ msgid ""
+#~ "Hello %1,\n"
+#~ "\n"
+#~ "We received a request to change your password. If it was you, you may reset your password now.\n"
+#~ "\n"
+#~ "%2\n"
+#~ "\n"
+#~ "Not you? Unsure? Please let us know right away at https://www.binary.com/en/contact.html.\n"
+#~ "\n"
+#~ "Thank you for trading with us.\n"
+#~ "Team %3"
+#~ msgstr ""
+#~ "%1您好，\n"
+#~ "\n"
+#~ "我们收到您的重设密码请求。如果是您提出的，请现在重设密码。\n"
+#~ "\n"
+#~ "%2\n"
+#~ "\n"
+#~ "不是您提出的？不能确定？请立刻到 https://www.binary.com/en/contact.html通知我们。\n"
+#~ "\n"
+#~ "谢谢您使用我们的交易服务。\n"
+#~ "%3团队"
+
+#~ msgid ""
+#~ "Hello %1,\n"
+#~ "\n"
+#~ "We received a request to reset your password. If it was you, we’d be glad to help.\n"
+#~ "\n"
+#~ "Before we proceed, we noticed you are logged in using your (Google/Facebook) account. Please note that if you reset your password, your social account login will be deactivated. If you wish to keep your social account login, you would need to remember your (Google/Facebook) account password.\n"
+#~ "\n"
+#~ "If you’re ready, reset your password now.\n"
+#~ "\n"
+#~ "%2\n"
+#~ "\n"
+#~ "Not you? Unsure? Please let us know right away at https://www.binary.com/en/contact.html.\n"
+#~ "\n"
+#~ "Thank you for trading with us.\n"
+#~ "Team %1"
+#~ msgstr ""
+#~ "%1您好，\n"
+#~ "\n"
+#~ "我们收到您的密码重设请求。如果是您提出的，我们将乐意提供帮忙。\n"
+#~ "\n"
+#~ "在我们继续操作前，我们留意您是用您的(Google/Facebook)账户登录的。请注意，如果要重设密码，您的社交账户登录将失效。如果要继续保留社交账户登录状态，您必须记住您的(Google/Facebook) 账户的密码。\n"
+#~ "\n"
+#~ "如果已经准备好，请现在重设密码。 \n"
+#~ "\n"
+#~ "%2\n"
+#~ "\n"
+#~ "您没有提出请求？不能确定? 请立刻到 https://www.binary.com/en/contact.html通知我们。\n"
+#~ "\n"
+#~ "谢谢您使用我们的交易服务。\n"
+#~ "%1团队"
 
 #~ msgid "Hello, World!"
 #~ msgstr "你好，世界!"
@@ -13801,6 +14123,9 @@ msgstr "今天，每星期五"
 #~ msgid "If you have lived at another address, please enter it here.<br />(Note: It must be the most recent before the current address that was registered under your name.Example, address in Identity card, Telephone bill, Electricity bill or Driving licence)"
 #~ msgstr "如果您以更换住址，请将新地址填写此处.<br />(请注意：必须是你名下注册的"
 
+#~ msgid "If you have not sent us your documents thus far, your MT5 real money account will be disabled shortly. This will close any open positions you may have. Your remaining MT5 real money account balance will also be transferred back to your binary options real money account."
+#~ msgstr "如您至今还未把文件发给我们，您的MT5真实资金账户即将被禁用。如有任何未平仓头寸将被强制平仓。您在MT5 真实资金账户如有剩余金额则将会被转入您的二元期权真实资金账户。"
+
 #~ msgid "If you have questions regarding the program or need assistance, please contact %1, Affiliate Program Manager, at %2."
 #~ msgstr "如果您对于该计划存有问题或需要帮助，请联系%2处的%1, 联盟计划经理。"
 
@@ -13821,6 +14146,12 @@ msgstr "今天，每星期五"
 
 #~ msgid "If you need assistance feel free to contact our %1Customer Support"
 #~ msgstr "如果您需要帮助，请联系我们的 %1客服部"
+
+#~ msgid "If you need further clarification or assistance regarding this decision, please contact us at %1."
+#~ msgstr "关于此决定如果您需要详细说明或帮助，请通过%1联系我们。"
+
+#~ msgid "If you need further clarification or assistance, please contact us at %1."
+#~ msgstr "如果您需要详细说明或帮助，请通过%1联系我们。"
 
 #~ msgid "If you select \"Asian Fall\", you will win the payout if the <strong>last tick</strong> is <strong>lower</strong> than the <strong>average</strong> of the ticks."
 #~ msgstr "如果您选择“亚洲下跌”期权，<strong>当</strong><strong>最新价格</strong>低于<strong>平均</strong>价格时，您将获得赔付。"
@@ -15309,6 +15640,9 @@ msgstr "今天，每星期五"
 #~ msgid "Kindly note that funds transfer between Payment Agents is prohibited."
 #~ msgstr "谨请注意，禁止支付代理人之间进行资金转帐。"
 
+#~ msgid "Kindly note that if we don't receive your documents by %1, your account will be disabled and any open position that you may have on the MT5 platform will be closed."
+#~ msgstr "如我們%1前还未收到您的文件，您的账户即将被禁用。您在MT5平台如有任何未平仓头寸将被强制平仓。"
+
 #~ msgid "Kindly send a scan of one of the following documents by email:"
 #~ msgstr "请把下列文件之一的扫描件以电子邮件发送过来："
 
@@ -15694,9 +16028,6 @@ msgstr "今天，每星期五"
 #~ msgid "Live charts"
 #~ msgstr "实时图表"
 
-#~ msgid "Live chat:"
-#~ msgstr "在线聊天："
-
 #~ msgid "Live-Stream Contract Prices"
 #~ msgstr "实时流媒体交易价格"
 
@@ -15732,9 +16063,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Log Scale"
 #~ msgstr "对数刻度"
-
-#~ msgid "Log in to Deriv"
-#~ msgstr "登录Deriv"
 
 #~ msgid "Log in using your email"
 #~ msgstr "使用电子邮件登录"
@@ -17424,6 +17752,9 @@ msgstr "今天，每星期五"
 #~ msgid "Password not given"
 #~ msgstr "未输入密码。"
 
+#~ msgid "Password reset unsuccessful"
+#~ msgstr "密码重设失败"
+
 #~ msgid "Password score is: %1. Passing score is: 20."
 #~ msgstr "密码积分是： %1。通过积分是: 20。"
 
@@ -17658,6 +17989,9 @@ msgstr "今天，每星期五"
 #~ msgid "Please %1 to view this page"
 #~ msgstr "要查看此页面请%1"
 
+#~ msgid "Please %1contact us%2 if you need further assistance."
+#~ msgstr "若需进一步帮助，请%1联系我们%2。"
+
 #~ msgid "Please <a href=\"%1\">contact us</a> to register a new card to your account."
 #~ msgstr "请<a href=\"%1\">联系我们</a>为您的帐户注册新卡。"
 
@@ -17683,6 +18017,12 @@ msgstr "今天，每星期五"
 
 #~ msgid "Please authenticate your account by"
 #~ msgstr "请验证您的账户，截至日期是"
+
+#~ msgid "Please authenticate your account by %1updating your tax information%2 and uploading the following documents:"
+#~ msgstr "为验证您的账号，请%1更新您的税务信息%2并上传以下文件："
+
+#~ msgid "Please authenticate your account to enable withdrawals and transfers"
+#~ msgstr "请验证账户，以启用取款和转账"
 
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "如要增加每日交易限额，请验证您的账户。"
@@ -19642,6 +19982,9 @@ msgstr "今天，每星期五"
 #~ msgid "Should you wish to proceed with appointing a Trading Agent you must read and agree to the following."
 #~ msgstr "若您想任命交易代理，请务必阅读并同意以下内容。"
 
+#~ msgid "Should you wish to reactivate your MT5 account, please %1update your tax information%3 and %2authenticate your account%3."
+#~ msgstr "如果想重新激活MT5账户，请%1更新您的税务信息%3并%2验证您的账户%3。"
+
 #~ msgid "Show"
 #~ msgstr "显示"
 
@@ -19686,6 +20029,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Significant experience in Social Media, Marketing, and / or Advertising"
 #~ msgstr "丰富的社交媒体、市场营销和/或广告经验"
+
+#~ msgid "Signup unsuccessful"
+#~ msgstr "注册失败"
 
 #~ msgid "Simple"
 #~ msgstr "简单"
@@ -20357,9 +20703,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Steady Returns"
 #~ msgstr "稳固回报"
-
-#~ msgid "Step"
-#~ msgstr "步骤"
 
 #~ msgid "Step %1"
 #~ msgstr "步骤 %1"
@@ -21261,11 +21604,6 @@ msgstr "今天，每星期五"
 #~ msgid "The access-token retrieved earlier has a limited lifetime.  In the case of Auth-Code Flow only, it can be renewed."
 #~ msgstr "早前检索的访问令牌寿命有限。 在只有验证代码流的情况下，可以续期。"
 
-#, fuzzy
-#~| msgid "This account has been disabled."
-#~ msgid "The account has since been closed."
-#~ msgstr "此账户已禁用。"
-
 #~ msgid "The account must be in your name and match your binary.com account details. This will be the only account to which we will make payments if you wish to withdraw funds. If your bank account details change in future, please contact customer support who will need to verify your ID and new back account details."
 #~ msgstr "账户须是您的名字，并与您的binary.com账户详细资料匹配。当您提款时，这将是我们向您支付款项的唯一账户。将来如果您的银行账户详细有更改，请联系客服部，他们将对您的身份和新的银行账户详细进行验证。"
 
@@ -21463,6 +21801,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "The easiest way to get started in the financial markets"
 #~ msgstr "参与金融市场最简便的方法"
+
+#~ msgid "The email address you entered to sign up for Deriv is already in use."
+#~ msgstr "您注册 Deriv 账户时输入的电邮地址已经被使用。"
 
 #~ msgid "The end time of the 交易 (from 30 seconds to multiple days)."
 #~ msgstr "交易的结束时间（从 30 秒至好几天）。"
@@ -22121,9 +22462,6 @@ msgstr "今天，每星期五"
 #~ msgid "This document (the \"Agreement\") sets out the terms and conditions between \"the Company\" which is Binary Services Ltd, and you (the person who applied for this program; \"you\", \"your\", or \"Affiliate\"), in relation to your application to setup an affiliate account (and membership of the affiliate program if your application is deemed successful)"
 #~ msgstr "本文件（“协议”）规定了“公司”（即 Binary Services Ltd.）与“您”（本项目申请人；“您”、“您的”或“联盟成员”）之间关于您申请设立联盟会员账户（申请成功后还包括联盟项目的会员资格）以推广网站 %1 的条款和条件"
 
-#~ msgid "This email is already in use"
-#~ msgstr "此电子邮件已被使用"
-
 #~ msgid "This email is taken"
 #~ msgstr "此电子邮件已被使用"
 
@@ -22430,6 +22768,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "To enable cookies, follow the instructions below for the browser version that you are using."
 #~ msgstr "要启用 cookie，请根据您的浏览器版本选择对应的指示说明，并进行操作。"
+
+#~ msgid "To enable them, you'll need to authenticate your account."
+#~ msgstr "要启用这些功能，您须验证您的账户。"
 
 #~ msgid "To fully authenticate your account, please email scanned copies of the document listed below."
 #~ msgstr "为了充分验证您的账户，请通过电子邮件提交下列文件的扫描件。"
@@ -23112,6 +23453,9 @@ msgstr "今天，每星期五"
 #~ msgid "Unshackle your trades"
 #~ msgstr "解锁交易"
 
+#~ msgid "Unsuccessful Deriv account creation"
+#~ msgstr "建立 Deriv 账户失败"
+
 #~ msgid "Up to"
 #~ msgstr "高达"
 
@@ -23162,6 +23506,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "Upgrade to a Real Account"
 #~ msgstr "升级到真实账户"
+
+#~ msgid "Upload document"
+#~ msgstr "上传文件"
 
 #~ msgid "Upon appointment of a Trading Agent, the Client acknowledges and understands that the Company is hereby giving authorisation to follow the instructions of the authorised Trading Agent in every respect with regards to the Client's financial trading account with the Company, EXCEPT for the withdrawal of any funds from the Client's account. The Company will not in any way be liable or responsible for any buy or sell trading actions done on the Client's behalf by the Trading Agent, or for any losses incurred by the Trading Agent for the Client's Account. Furthermore, the Company does not endorse the Trading Agent nor does it vouch for the background, or experience of the Trading Agent, nor does the Company endorse any operating methods used by the Trading Agent, including when trading for the Client's account."
 #~ msgstr "一经指定交易代理，客户即确认并了解公司将特此有权在涉及客户金融交易账户的任何方面遵循授权交易代理商的指令行事，但从客户账户提取资金除外。公司对交易代理代表客户完成的任何买卖交易行为或给客户账户造成的任何损失不负有任何责任。此外，本公司对交易代理不作认可表示或为交易代理的背景或经验作出担保，也不会对交易代理所使用的任何操盘方法（包括客户账户的交易时间）做认可表示。"
@@ -23297,6 +23644,12 @@ msgstr "今天，每星期五"
 
 #~ msgid "Verify new password"
 #~ msgstr "验证新密码"
+
+#~ msgid "Verify your account for Deriv"
+#~ msgstr "验证您的 Deriv 账户"
+
+#~ msgid "Verify your withdrawal request - %1"
+#~ msgstr "验证您的提款请求 - %1"
 
 #~ msgid "Verisign Inc"
 #~ msgstr "威瑞信公司"
@@ -23686,6 +24039,9 @@ msgstr "今天，每星期五"
 #~ msgid "We received a request to open a new account for this email (%1), which belongs to a closed account. If you would like to reactivate your account, please contact customer support."
 #~ msgstr "这些是您之前提供的银行账户资料。如欲注册另一账户，请联系客服部。"
 
+#~ msgid "We recently sent you an email requesting documents to authenticate your MT5 real money account."
+#~ msgstr "最近我们给您发送了请求文件的电邮以便验证MT5真实资金账户。"
+
 #~ msgid "We recognize the importance of protecting your personal and financial information."
 #~ msgstr "我们意识到保护您的个人和财务信息的重要性。"
 
@@ -23700,9 +24056,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "We segregate and hold client funds in secure AAA-rated banks."
 #~ msgstr "我们把客户资金交由安全的 3A 级银行独立托管。"
-
-#~ msgid "We thank you for choosing %1 and we wish you the best of luck with your trading."
-#~ msgstr "感谢您选择  %1 ，祝交好运。"
 
 #~ msgid "We use identity verification services and real-time fraud detection measures to help protect you from unauthorised access to your account. We also monitor account activity for signs of unusual activity that might indicate fraud and work with collection agencies and law-enforcement agencies to address fraud issues."
 #~ msgstr "我们通过身份核实服务和实时防欺诈措施防止您的账户遭到非法访问。另外，我们还会对您的账户活动进行监控，来发现不正常的欺诈活动迹象。我们还会和征管机构及执法机关合作，应对欺诈问题。"
@@ -23793,6 +24146,9 @@ msgstr "今天，每星期五"
 #~ "我们特此通知您，您的%1%2取款请求已被拒。\n"
 #~ "账户已退款。"
 
+#~ msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
+#~ msgstr "我们将于1-3个工作日内处理好文件。如果没有问题，我们将立即开启提款和转账功能。"
+
 #~ msgid "We'll then send you an e-mail asking you to verify your identity."
 #~ msgstr "然后，我们将通过电子邮件请您确认身份。"
 
@@ -23801,6 +24157,12 @@ msgstr "今天，每星期五"
 
 #~ msgid "We're excited to have you trade with us!"
 #~ msgstr "您加入我们的交易平台令我们非常兴奋！"
+
+#~ msgid "We're pleased to inform you that we've verified your account. All account features are now enabled and you can enjoy a seamless trading experience."
+#~ msgstr "很高兴通知您，您的账户已通过验证。现在您可以使用所有账户功能，享受无缝交易体验。"
+
+#~ msgid "We're pleased to inform you that we've verified your age and identity."
+#~ msgstr "很高兴通知您，您的年龄和身份已通过验证。"
 
 #~ msgid "We're sorry but the Affiliate Token is not available for this type of Accounts."
 #~ msgstr "对不起，联盟代币对于此种账户不可用。"
@@ -23888,9 +24250,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Welcome to %1. You've joined the longest-standing fixed-odds financial 交易 community in the world, with over 250,000 members worldwide. %1 was the first company to offer this easy, low-risk way to participate in the markets. We've been operating since 1999."
 #~ msgstr "欢迎来到%1。您已加入世界上最为长久的固定赔率金融交易群体，其在世界范围内拥有超过250000名成员。%1是首家提供这种方便低风险市场参与方式的公司。我们自1999年就已开始营业。"
-
-#~ msgid "Welcome to Deriv"
-#~ msgstr "欢迎来到Deriv"
 
 #~ msgid "Welcome to Deriv!"
 #~ msgstr "欢迎来到Deriv！"
@@ -24813,6 +25172,18 @@ msgstr "今天，每星期五"
 #~ msgid "You may earn up to 35% commission on the net revenue generated by clients whom you introduce to our trading platform."
 #~ msgstr "您可以从您介绍给本平台的客户净收入中获得最高为 35% 的佣金。"
 
+#~ msgid "You may have noticed that we've disabled your withdrawals and transfers between your crypto and fiat currency accounts. To enable them, you'll need to authenticate your account."
+#~ msgstr "您可能已经注意到，我们已禁止您在加密货币和法定货币账户之间取款和转账。要启用这些功能，您须对账户进行验证。"
+
+#~ msgid "You may have noticed that we’ve disabled your withdrawals and transfers between your crypto and fiat currency accounts."
+#~ msgstr "您可能已经注意到，我们已禁止您在加密货币和法定货币账户之间取款和转账。"
+
+#~ msgid "You may ignore this email if you have sent us your documents."
+#~ msgstr "如果已经发送文件给我们，请忽视此电邮。"
+
+#~ msgid "You may ignore this email if you have sent us your documents. We shall process your documents in due time."
+#~ msgstr "如果已经发送文件给我们，请忽视此电邮。我们将及时处理您的文件。"
+
 #~ msgid "You may not assign rights granted in this Agreement without the Company’s prior written approval."
 #~ msgstr "未经公司事先书面批准，您不得转让本协议授予的权利。"
 
@@ -24848,6 +25219,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "You may try the website with your existing %1 loginID and password."
 #~ msgstr "您可以尝试用您现有的 %1 登录 ID 和密码登录网站。"
+
+#~ msgid "You may upload the copies of all required documents directly from your real money account at %1."
+#~ msgstr "所有必需文件影印本可直接从您在此网站的真实资金账户透过%1上传。"
 
 #~ msgid "You may validate your bank SWIFT code (also known as BIC - Bank Identification Code) by using the tool available on <a target=swift href=\"http://www.swift.com/biconline/\">www.swift.com/biconline</a>."
 #~ msgstr "您可使用 <a target=swift href=\"http://www.swift.com/biconline/\">www.swift.com/biconline</a> 上提供的工具验证您的银行 SWIFT 代码（也称为 BIC - 银行标识码）。"
@@ -25138,9 +25512,6 @@ msgstr "今天，每星期五"
 
 #~ msgid "Your account balance is negative.<br>You cannot withdraw."
 #~ msgstr "您的帐户余额为负。<br>您不能提款。"
-
-#~ msgid "Your account has been credited with <strong>%1 %2</strong>"
-#~ msgstr "您的账户已被计入<strong>%1 %2</strong>"
 
 #~ msgid "Your account has been debited with %1 %2"
 #~ msgstr "您的帐户已借记了 %1 %2"
@@ -25482,9 +25853,6 @@ msgstr "今天，每星期五"
 #~ msgid "Your session duration limit will end in %1 seconds."
 #~ msgstr "交易期持续时间限制将于%1秒内结束。"
 
-#~ msgid "Your settings have been updated successfully."
-#~ msgstr "您的设置已成功更新。"
-
 #~ msgid "Your telephone number"
 #~ msgstr "您的电话号码"
 
@@ -25620,6 +25988,9 @@ msgstr "今天，每星期五"
 
 #~ msgid "and can then pass the token externally to a client application."
 #~ msgstr "且接下来可将令牌从外部传送到客户应用。"
+
+#~ msgid "and follow the steps to upload the necessary documents."
+#~ msgstr "并按照步骤上传必要的文档。"
 
 #~ msgid "and quote your loginID"
 #~ msgstr "并告知您的登录 ID"
