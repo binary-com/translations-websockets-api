@@ -44,6 +44,11 @@ msgstr "%1 是由 %2 技术提供支持的许多交易应用程序之一。"
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "多重障碍合约必须有%1。"
 
+#, fuzzy
+#| msgid "%1 to %2"
+msgid "%1 trace ID %2"
+msgstr "%1 到 %2"
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "此账户可能无法执行%1交易。"
 
@@ -197,6 +202,26 @@ msgstr "账户需要通过年龄验证。"
 msgid "Account opening reason"
 msgstr "开立账户的原因"
 
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer from %1"
+msgstr "账户转账"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer from %1. %2."
+msgstr "账户转账"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer to %1"
+msgstr "账户转账"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer to %1. %2."
+msgstr "账户转账"
+
 msgid "Account transfers are not available between %1 and %2"
 msgstr "%1和%2之间不可转账"
 
@@ -226,6 +251,14 @@ msgstr "广告费率不可大于%1。请更改数值。"
 
 msgid "Address"
 msgstr "地址"
+
+#, fuzzy
+#| msgid "Address"
+msgid "Address: %1"
+msgstr "地址"
+
+msgid "Address: %1, transaction: %2"
+msgstr ""
 
 msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
 msgstr "此币种目前不可打广告。请联系我们的客服团队或稍后重试。"
@@ -310,6 +343,11 @@ msgstr "授权予此应用程序"
 
 msgid "Authorize application"
 msgstr "授权应用程序"
+
+#, fuzzy
+#| msgid "Amazon Corporation"
+msgid "Balance operation"
+msgstr "亚马逊公司"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "障碍的小数点后不得超过%1位。"
@@ -1011,6 +1049,9 @@ msgstr "到期时间不可在过去。"
 msgid "Failed to get user identity."
 msgstr "无法获取用户身份。"
 
+msgid "Fee for %1 trace ID %2"
+msgstr ""
+
 msgid "Financial Risk approval is required."
 msgstr "需要通过金融风险批准。"
 
@@ -1269,6 +1310,11 @@ msgstr "如果是您本人，您可忽略此电子邮件。"
 msgid "If this wasn't you, please ignore this email."
 msgstr "如果不是您本人，请忽略此电子邮件。"
 
+#, fuzzy
+#| msgid "Would you like to reactivate your account?"
+msgid "If you change your mind, you may reactivate your account by logging in."
+msgstr "是否要重新激活您的账户？"
+
 msgid "If you didn't make the changes, %1contact us%2 via live chat."
 msgstr "如您没有作出更改，请通过实时聊天%1与我们联系%2。"
 
@@ -1367,6 +1413,12 @@ msgstr "为了让您能够交易期权合约，我们需要知道您的居住地
 
 msgid "In/Out"
 msgstr "“范围之内/之外”"
+
+msgid "Includes the minimum transfer fee of %1 %2"
+msgstr ""
+
+msgid "Includes transfer fee of %1 %2 (%3%)"
+msgstr ""
 
 msgid "Indices derived from actual financial instruments or pure randomness."
 msgstr "从真实金融工具或纯随机得来的指数。"
@@ -1922,10 +1974,14 @@ msgstr "模拟账户无法使用 P2P 收银台。请转换到真实账户。"
 msgid "P2P order %1 cancelled - seller funds released"
 msgstr "P2P 订单 %1 已取消 - 卖方资金已发放"
 
-msgid "P2P order %1 completed - payment from %2 (%3)"
+#, fuzzy
+#| msgid "P2P order %1 completed - payment from %2 (%3)"
+msgid "P2P order %1 completed - funds received from %2 (%3)"
 msgstr "P2P 订单 %1 已完成 - 付款来自%2 (%3)"
 
-msgid "P2P order %1 completed - payment to %2 (%3)"
+#, fuzzy
+#| msgid "P2P order %1 completed - payment to %2 (%3)"
+msgid "P2P order %1 completed - funds transferred to %2 (%3)"
 msgstr "P2P 订单 %1 已完成 - 付款至%2 (%3)"
 
 msgid "P2P order %1 completed - seller funds released"
@@ -1936,6 +1992,11 @@ msgstr "P2P 订单 %1 已创建 - 已持有卖方资金"
 
 msgid "P2P order %1 created by %2 (%3) - seller funds held"
 msgstr "P2P 订单 %1 已由%2 (%3)创建 - 已持有卖方资金"
+
+#, fuzzy
+#| msgid "P2P order %1 cancelled - seller funds released"
+msgid "P2P order %1 refunded - seller funds released"
+msgstr "P2P 订单 %1 已取消 - 卖方资金已发放"
 
 msgid "Palladium/USD"
 msgstr "钯金/美元"
@@ -2452,6 +2513,12 @@ msgstr "重置为默认虚拟资金账户余额。"
 
 msgid "Reset your password"
 msgstr "重置密码"
+
+msgid "Reversal of %1 trace ID %2"
+msgstr ""
+
+msgid "Reversal of fee for %1 trace ID %2"
+msgstr ""
 
 msgid "Review Permissions"
 msgstr "评估权限"
@@ -3251,17 +3318,25 @@ msgstr "交易"
 msgid "Transfer between two MT5 accounts is not allowed."
 msgstr "两个MT5账户之间转账当前已暂停。"
 
-msgid "Transfer from %1 to MT5 account %2 %3 "
-msgstr "自%1 转账 %2 %3至 MT5账户 "
-
-msgid "Transfer from %1 to MT5 account %2 %3 includes transfer fee of %4 %5 (2%)."
-msgstr "自%1 转账 %2 %3，包括 %4 %5 (2%)转账费用至 MT5账户。"
-
-msgid "Transfer from MT5 account %1 %2 to %3 "
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer from MT5 account %1"
 msgstr "转账自MT5账户%1 %2至 %3。 "
 
-msgid "Transfer from MT5 account %1 %2 to %3 includes transfer fee of %4 %5 (2%)."
-msgstr "转账自MT5账户%1 %2，包括%4 %5 (2%)转账费用至 %3。"
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer from MT5 account %1. %2."
+msgstr "转账自MT5账户%1 %2至 %3。 "
+
+#, fuzzy
+#| msgid "Transfer from %1 to MT5 account %2 %3 "
+msgid "Transfer to MT5 account %1"
+msgstr "自%1 转账 %2 %3至 MT5账户 "
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer to MT5 account %1. %2."
+msgstr "转账自MT5账户%1 %2至 %3。 "
 
 msgid "Transfer validation failed on %1."
 msgstr "%1转账验证失败。"
@@ -4171,6 +4246,11 @@ msgstr "您已收到资金"
 msgid "You have requested to close your %1 accounts. This is to confirm that all your accounts have been terminated successfully."
 msgstr "您请求关闭%1账户。谨此确认您的所有账户已成功关闭。"
 
+#, fuzzy
+#| msgid "You have requested to close your %1 accounts. This is to confirm that all your accounts have been terminated successfully."
+msgid "You have requested to close your accounts. This is to confirm that all your accounts have been terminated successfully."
+msgstr "您请求关闭%1账户。谨此确认您的所有账户已成功关闭。"
+
 msgid "You have signed up for more than one account."
 msgstr "您已注册一个以上的账户。"
 
@@ -4320,6 +4400,11 @@ msgstr "您的账户需要先认证才能执行付款代理转账。"
 
 msgid "Your account opening reason cannot be changed."
 msgstr "开立账户原因无法修改。"
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid "Your accounts are deactivated"
+msgstr "您的账户已被禁用。"
 
 msgid "Your address and identity are verified"
 msgstr "您的地址和身份已通过验证"
@@ -4531,9 +4616,6 @@ msgstr "仅配置"
 msgid "contract start time"
 msgstr "合约开始时间"
 
-msgid "demo"
-msgstr "演示"
-
 msgid "entry spot"
 msgstr "入市现价"
 
@@ -4566,9 +4648,6 @@ msgstr "最近 6 个月签发的"
 
 msgid "let us know"
 msgstr "通知我们"
-
-msgid "real"
-msgstr "真實"
 
 msgid "screenshots of addresses"
 msgstr "地址屏幕截图"
@@ -5373,9 +5452,6 @@ msgstr "通过即时聊天。"
 #~| msgid "Support"
 #~ msgid "%1 supports"
 #~ msgstr "支持"
-
-#~ msgid "%1 to %2"
-#~ msgstr "%1 到 %2"
 
 #~ msgid "%1 was converted to %2."
 #~ msgstr "%1 转换成%2。"
@@ -8036,9 +8112,6 @@ msgstr "通过即时聊天。"
 #~ msgid "Account Settings</a> accordingly. Thank you for your kind assistance"
 #~ msgstr "账户设置</a>。谢谢您的积极配合"
 
-#~ msgid "Account Transfer"
-#~ msgstr "账户转账"
-
 #~ msgid "Account Upgrade (Virtual to Real)"
 #~ msgstr "虚拟账户升级为真实账户"
 
@@ -8350,9 +8423,6 @@ msgstr "通过即时聊天。"
 
 #~ msgid "Although the Company has and retains all rights to refuse or to close a Client’s account, the Company does warrant that all contractual obligations already made, shall be honoured."
 #~ msgstr "尽管公司拥有及保留所有拒绝或关闭客户账户的权利，但公司保证所有开出的合同义务都必须执行。"
-
-#~ msgid "Amazon Corporation"
-#~ msgstr "亚马逊公司"
 
 #~ msgid "Amazon.com"
 #~ msgstr "Amazon.com网站"
@@ -23049,6 +23119,12 @@ msgstr "通过即时聊天。"
 #~ msgid "Transfer between your gaming and financial accounts."
 #~ msgstr "在您的博彩和金融账户之间进行转账。"
 
+#~ msgid "Transfer from %1 to MT5 account %2 %3 includes transfer fee of %4 %5 (2%)."
+#~ msgstr "自%1 转账 %2 %3，包括 %4 %5 (2%)转账费用至 MT5账户。"
+
+#~ msgid "Transfer from MT5 account %1 %2 to %3 includes transfer fee of %4 %5 (2%)."
+#~ msgstr "转账自MT5账户%1 %2，包括%4 %5 (2%)转账费用至 %3。"
+
 #~ msgid "Transfer from another account"
 #~ msgstr "从其他账户转账"
 
@@ -26025,6 +26101,9 @@ msgstr "通过即时聊天。"
 #~ msgid "days"
 #~ msgstr "天"
 
+#~ msgid "demo"
+#~ msgstr "演示"
+
 #~ msgid "deposit"
 #~ msgstr "存款"
 
@@ -26367,6 +26446,9 @@ msgstr "通过即时聊天。"
 
 #~ msgid "raphael.attr."
 #~ msgstr "raphael.attr."
+
+#~ msgid "real"
+#~ msgstr "真實"
 
 #~ msgid "redirect_uri=CALLBACK_URL"
 #~ msgstr "重定向_uri=CALLBACK_URL"

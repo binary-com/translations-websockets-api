@@ -47,6 +47,11 @@ msgstr "%1 – одно из торговых приложений, работа
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "Необходимо указать %1 для мультибарьерных контрактов."
 
+#, fuzzy
+#| msgid "%1 to %2"
+msgid "%1 trace ID %2"
+msgstr "%1 до %2"
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "Транзакции %1 не могут производиться на данном счету."
 
@@ -200,6 +205,26 @@ msgstr "Необходима проверка возраста."
 msgid "Account opening reason"
 msgstr "Причина открытия счета"
 
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer from %1"
+msgstr "Перевод счета"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer from %1. %2."
+msgstr "Перевод счета"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer to %1"
+msgstr "Перевод счета"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer to %1. %2."
+msgstr "Перевод счета"
+
 msgid "Account transfers are not available between %1 and %2"
 msgstr "Трансферы недоступны между %1 и %2"
 
@@ -229,6 +254,14 @@ msgstr "Ставка объявления не должна быть более 
 
 msgid "Address"
 msgstr "Адрес"
+
+#, fuzzy
+#| msgid "Address"
+msgid "Address: %1"
+msgstr "Адрес"
+
+msgid "Address: %1, transaction: %2"
+msgstr ""
 
 msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
 msgstr "Создание объявлений для этой валюты в данный момент недоступно. Пожалуйста, попробуйте позже или свяжитесь с нашей Службой поддержки."
@@ -315,6 +348,11 @@ msgstr "Авторизовать приложение"
 
 msgid "Authorize application"
 msgstr "Авторизовать приложение"
+
+#, fuzzy
+#| msgid "Amazon Corporation"
+msgid "Balance operation"
+msgstr "Amazon Corporation"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "Барьер может быть только до %1 десятичных."
@@ -1015,6 +1053,9 @@ msgstr "Время истечения контракта не может быт�
 msgid "Failed to get user identity."
 msgstr "Не удалось идентифицировать пользователя."
 
+msgid "Fee for %1 trace ID %2"
+msgstr ""
+
 msgid "Financial Risk approval is required."
 msgstr "Необходимо подтверждение финансового риска."
 
@@ -1273,6 +1314,11 @@ msgstr "Если это были Вы, просто проигнорируйте
 msgid "If this wasn't you, please ignore this email."
 msgstr "Если это были не Вы, просто проигнорируйте данное сообщение."
 
+#, fuzzy
+#| msgid "Would you like to reactivate your account?"
+msgid "If you change your mind, you may reactivate your account by logging in."
+msgstr "Хотите повторно активировать счет?"
+
 msgid "If you didn't make the changes, %1contact us%2 via live chat."
 msgstr "Если вы не вносили изменения, %1свяжитесь с нами%2 через чат."
 
@@ -1371,6 +1417,12 @@ msgstr "Для того, чтобы Вы могли приобретать ко�
 
 msgid "In/Out"
 msgstr "Внутри/Вне"
+
+msgid "Includes the minimum transfer fee of %1 %2"
+msgstr ""
+
+msgid "Includes transfer fee of %1 %2 (%3%)"
+msgstr ""
 
 msgid "Indices derived from actual financial instruments or pure randomness."
 msgstr "Индексы основаны на реальных финансовых инструментах или стохастичности."
@@ -1932,10 +1984,14 @@ msgstr "Касса P2P недоступна на демо-счетах. Пожа
 msgid "P2P order %1 cancelled - seller funds released"
 msgstr "P2P ордер %1 отменен - средства возвращены продавцу"
 
-msgid "P2P order %1 completed - payment from %2 (%3)"
+#, fuzzy
+#| msgid "P2P order %1 completed - payment from %2 (%3)"
+msgid "P2P order %1 completed - funds received from %2 (%3)"
 msgstr "P2P ордер %1 выполнен - платеж от %2 (%3)"
 
-msgid "P2P order %1 completed - payment to %2 (%3)"
+#, fuzzy
+#| msgid "P2P order %1 completed - payment to %2 (%3)"
+msgid "P2P order %1 completed - funds transferred to %2 (%3)"
 msgstr "P2P ордер %1 выполнен - платеж на счет %2 (%3)"
 
 msgid "P2P order %1 completed - seller funds released"
@@ -1946,6 +2002,11 @@ msgstr "Создан P2P ордер %1 - средства продавца уд�
 
 msgid "P2P order %1 created by %2 (%3) - seller funds held"
 msgstr "%2 (%3) создал P2P ордер %1 - средства продавца удерживаются"
+
+#, fuzzy
+#| msgid "P2P order %1 cancelled - seller funds released"
+msgid "P2P order %1 refunded - seller funds released"
+msgstr "P2P ордер %1 отменен - средства возвращены продавцу"
 
 msgid "Palladium/USD"
 msgstr "Палладий/USD"
@@ -2464,6 +2525,12 @@ msgstr "Восстановить баланс виртуальных денег 
 
 msgid "Reset your password"
 msgstr "Смените пароль"
+
+msgid "Reversal of %1 trace ID %2"
+msgstr ""
+
+msgid "Reversal of fee for %1 trace ID %2"
+msgstr ""
 
 msgid "Review Permissions"
 msgstr "Обзор права доступа"
@@ -3277,17 +3344,25 @@ msgstr "Контракты"
 msgid "Transfer between two MT5 accounts is not allowed."
 msgstr "Переводы между двумя счетами MT5 запрещены."
 
-msgid "Transfer from %1 to MT5 account %2 %3 "
-msgstr "Перевод с %1 на счет MT5 %2 %3 "
-
-msgid "Transfer from %1 to MT5 account %2 %3 includes transfer fee of %4 %5 (2%)."
-msgstr "Перевод с %1 на счет MT5 %2 %3 включает комиссию за перевод %4 %5 (2%)."
-
-msgid "Transfer from MT5 account %1 %2 to %3 "
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer from MT5 account %1"
 msgstr "Перевод со счета MT5 %1 %2 на %3 "
 
-msgid "Transfer from MT5 account %1 %2 to %3 includes transfer fee of %4 %5 (2%)."
-msgstr "Перевод со счета MT5 %1 %2 на %3 включает комиссию за перевод %4 %5 (2%)."
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer from MT5 account %1. %2."
+msgstr "Перевод со счета MT5 %1 %2 на %3 "
+
+#, fuzzy
+#| msgid "Transfer from %1 to MT5 account %2 %3 "
+msgid "Transfer to MT5 account %1"
+msgstr "Перевод с %1 на счет MT5 %2 %3 "
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer to MT5 account %1. %2."
+msgstr "Перевод со счета MT5 %1 %2 на %3 "
 
 msgid "Transfer validation failed on %1."
 msgstr "Не удалось провести проверку перевода на %1."
@@ -4196,6 +4271,11 @@ msgstr "Вы получили средства"
 msgid "You have requested to close your %1 accounts. This is to confirm that all your accounts have been terminated successfully."
 msgstr "Вы подали запрос на закрытие счетов на %1. Данное письмо подтверждает, что все счета успешно закрыты."
 
+#, fuzzy
+#| msgid "You have requested to close your %1 accounts. This is to confirm that all your accounts have been terminated successfully."
+msgid "You have requested to close your accounts. This is to confirm that all your accounts have been terminated successfully."
+msgstr "Вы подали запрос на закрытие счетов на %1. Данное письмо подтверждает, что все счета успешно закрыты."
+
 msgid "You have signed up for more than one account."
 msgstr "Вы открыли более одного счета."
 
@@ -4345,6 +4425,11 @@ msgstr "Вам необходимо пройти аутентификацию д
 
 msgid "Your account opening reason cannot be changed."
 msgstr "Нельзя менять причину открытия счёта."
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid "Your accounts are deactivated"
+msgstr "Ваш счет недоступен."
 
 msgid "Your address and identity are verified"
 msgstr "Ваш адрес и личность подтверждены"
@@ -4556,9 +4641,6 @@ msgstr "только для конфигурации"
 msgid "contract start time"
 msgstr "врем. начала контракта"
 
-msgid "demo"
-msgstr "демо"
-
 msgid "entry spot"
 msgstr "входная спот-котировка"
 
@@ -4591,9 +4673,6 @@ msgstr "датировано в течение последних 6 месяце
 
 msgid "let us know"
 msgstr "дайте нам знать"
-
-msgid "real"
-msgstr "реальный"
 
 msgid "screenshots of addresses"
 msgstr "скриншоты адресов"
@@ -5696,9 +5775,6 @@ msgstr "через чат."
 
 #~ msgid "%1 supports"
 #~ msgstr "%1 поддерживает"
-
-#~ msgid "%1 to %2"
-#~ msgstr "%1 до %2"
 
 #~ msgid "%1 was converted to %2."
 #~ msgstr "%1 было(и) конвертировано(ы) в %2."
@@ -8263,9 +8339,6 @@ msgstr "через чат."
 #~ msgid "Account Settings</a> accordingly. Thank you for your kind assistance"
 #~ msgstr "Установки</a> на Вашем счету. Спасибо за содействие"
 
-#~ msgid "Account Transfer"
-#~ msgstr "Перевод счета"
-
 #~ msgid "Account Upgrade (Virtual to Real)"
 #~ msgstr "Обновление счета (с Виртуального на Реальный)"
 
@@ -8561,9 +8634,6 @@ msgstr "через чат."
 
 #~ msgid "Although the Company has and retains all rights to refuse or to close a Client’s account, the Company does warrant that all contractual obligations already made, shall be honoured."
 #~ msgstr "Хотя Компания сохраняет за собой право отказать или закрыть счет Клиента, она гарантирует исполнение всех договорных обязательств, уже принятых Компанией."
-
-#~ msgid "Amazon Corporation"
-#~ msgstr "Amazon Corporation"
 
 #~ msgid "Amazon.com"
 #~ msgstr "Amazon.com"
@@ -22066,6 +22136,12 @@ msgstr "через чат."
 #~ msgid "Transfer between your gaming and financial accounts."
 #~ msgstr "Перевод средств между Вашими игровым и финансовым счетами."
 
+#~ msgid "Transfer from %1 to MT5 account %2 %3 includes transfer fee of %4 %5 (2%)."
+#~ msgstr "Перевод с %1 на счет MT5 %2 %3 включает комиссию за перевод %4 %5 (2%)."
+
+#~ msgid "Transfer from MT5 account %1 %2 to %3 includes transfer fee of %4 %5 (2%)."
+#~ msgstr "Перевод со счета MT5 %1 %2 на %3 включает комиссию за перевод %4 %5 (2%)."
+
 #~ msgid "Transfer from another account"
 #~ msgstr "Перевод с другого счета"
 
@@ -24691,6 +24767,9 @@ msgstr "через чат."
 #~ msgid "days"
 #~ msgstr "дн."
 
+#~ msgid "demo"
+#~ msgstr "демо"
+
 #~ msgid "deposit"
 #~ msgstr "пополнение"
 
@@ -24991,6 +25070,9 @@ msgstr "через чат."
 
 #~ msgid "read"
 #~ msgstr "спред"
+
+#~ msgid "real"
+#~ msgstr "реальный"
 
 #~ msgid "redirect_uri=CALLBACK_URL"
 #~ msgstr "redirect_uri=CALLBACK_URL"

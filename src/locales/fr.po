@@ -43,6 +43,9 @@ msgstr "%1 est l'une des nombreuses applications de trading basées sur la techn
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "%1 doit être fourni pour les contrats à barrières multiples."
 
+msgid "%1 trace ID %2"
+msgstr ""
+
 msgid "%1 transactions may not be performed with this account."
 msgstr "Les transactions %1 ne peuvent être effectuées avec ce compte."
 
@@ -196,6 +199,26 @@ msgstr "Ce compte requiert une vérification de l'âge."
 msgid "Account opening reason"
 msgstr "Motif de l'ouverture du compte"
 
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer from %1"
+msgstr "Transfert de compte"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer from %1. %2."
+msgstr "Transfert de compte"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer to %1"
+msgstr "Transfert de compte"
+
+#, fuzzy
+#| msgid "Account Transfer"
+msgid "Account transfer to %1. %2."
+msgstr "Transfert de compte"
+
 msgid "Account transfers are not available between %1 and %2"
 msgstr "Les transferts de compte ne sont pas disponibles entre %1 et %2"
 
@@ -225,6 +248,14 @@ msgstr "Le taux de la pub ne doit pas être supérieur à %1. Veuillez ajuster l
 
 msgid "Address"
 msgstr "Adresse"
+
+#, fuzzy
+#| msgid "Address"
+msgid "Address: %1"
+msgstr "Adresse"
+
+msgid "Address: %1, transaction: %2"
+msgstr ""
 
 msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
 msgstr "La publicité pour cette devise n'est actuellement pas disponible. Veuillez contacter notre équipe de support client ou réessayer plus tard."
@@ -309,6 +340,11 @@ msgstr "Autoriser cette application"
 
 msgid "Authorize application"
 msgstr "Autoriser l'application"
+
+#, fuzzy
+#| msgid "Corporate Actions"
+msgid "Balance operation"
+msgstr "Actions de société"
 
 msgid "Barrier can only be up to %1 decimal places."
 msgstr "La barrière ne peut pas contenir plus de %1 décimales."
@@ -1011,6 +1047,9 @@ msgstr "L'heure d'expiration ne peut être antérieure."
 msgid "Failed to get user identity."
 msgstr "L'identité de l'utilisateur n'a pas pu être obtenue."
 
+msgid "Fee for %1 trace ID %2"
+msgstr ""
+
 msgid "Financial Risk approval is required."
 msgstr "L'acceptation des risques financiers est requise."
 
@@ -1269,6 +1308,11 @@ msgstr "Si c'était vous, vous pouvez ignorer cet email."
 msgid "If this wasn't you, please ignore this email."
 msgstr "Si ce n'était pas vous, veuillez ignorer cet e-mail."
 
+#, fuzzy
+#| msgid "Would you like to reactivate your account?"
+msgid "If you change your mind, you may reactivate your account by logging in."
+msgstr "Souhaitez-vous réactiver votre compte ?"
+
 msgid "If you didn't make the changes, %1contact us%2 via live chat."
 msgstr "Si vous n'avez pas effectué les modifications, %1contactez-nous%2 via le chat en direct."
 
@@ -1367,6 +1411,12 @@ msgstr "Pour que vous puissiez placer des contrats, nous devons connaître votre
 
 msgid "In/Out"
 msgstr "Dans/Hors de"
+
+msgid "Includes the minimum transfer fee of %1 %2"
+msgstr ""
+
+msgid "Includes transfer fee of %1 %2 (%3%)"
+msgstr ""
 
 msgid "Indices derived from actual financial instruments or pure randomness."
 msgstr "Indices dérivés d'instruments financiers actuels ou purement aléatoires."
@@ -1922,10 +1972,14 @@ msgstr "La caisse P2P n'est pas disponible sur les comptes de démonstration. Ve
 msgid "P2P order %1 cancelled - seller funds released"
 msgstr "Commande P2P %1 annulée - fonds du vendeur libérés"
 
-msgid "P2P order %1 completed - payment from %2 (%3)"
+#, fuzzy
+#| msgid "P2P order %1 completed - payment from %2 (%3)"
+msgid "P2P order %1 completed - funds received from %2 (%3)"
 msgstr "Commande P2P %1 terminée - paiement de %2 (%3)"
 
-msgid "P2P order %1 completed - payment to %2 (%3)"
+#, fuzzy
+#| msgid "P2P order %1 completed - payment to %2 (%3)"
+msgid "P2P order %1 completed - funds transferred to %2 (%3)"
 msgstr "Commande P2P %1 terminée - paiement à %2 (%3)"
 
 msgid "P2P order %1 completed - seller funds released"
@@ -1936,6 +1990,11 @@ msgstr "Commande P2P %1 créée - fonds du vendeur en suspens"
 
 msgid "P2P order %1 created by %2 (%3) - seller funds held"
 msgstr "Ordre P2P %1 créé par %2 (%3) - fonds du vendeur en suspens"
+
+#, fuzzy
+#| msgid "P2P order %1 cancelled - seller funds released"
+msgid "P2P order %1 refunded - seller funds released"
+msgstr "Commande P2P %1 annulée - fonds du vendeur libérés"
 
 msgid "Palladium/USD"
 msgstr "Palladium/USD"
@@ -2452,6 +2511,12 @@ msgstr "Réinitialisez par défaut le solde du compte d'argent virtuel."
 
 msgid "Reset your password"
 msgstr "Réinitialiser votre mot de passe"
+
+msgid "Reversal of %1 trace ID %2"
+msgstr ""
+
+msgid "Reversal of fee for %1 trace ID %2"
+msgstr ""
 
 msgid "Review Permissions"
 msgstr "Accéder aux permissions"
@@ -3253,17 +3318,25 @@ msgstr "Transactions"
 msgid "Transfer between two MT5 accounts is not allowed."
 msgstr "Le transfert entre deux comptes MT5 n'est pas autorisé."
 
-msgid "Transfer from %1 to MT5 account %2 %3 "
-msgstr "Transfert de %1 vers le compte MT5 %2 %3 "
-
-msgid "Transfer from %1 to MT5 account %2 %3 includes transfer fee of %4 %5 (2%)."
-msgstr "Le transfert de %1 vers le compte MT5 %2 %3 comprend les frais de transfert de %4 %5 (2%)."
-
-msgid "Transfer from MT5 account %1 %2 to %3 "
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer from MT5 account %1"
 msgstr "Transfert du compte MT5 %1 %2 vers %3 "
 
-msgid "Transfer from MT5 account %1 %2 to %3 includes transfer fee of %4 %5 (2%)."
-msgstr "Le transfert du compte MT5 %1 %2 vers %3 comprend des frais de transfert de %4 %5 (2%)."
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer from MT5 account %1. %2."
+msgstr "Transfert du compte MT5 %1 %2 vers %3 "
+
+#, fuzzy
+#| msgid "Transfer from %1 to MT5 account %2 %3 "
+msgid "Transfer to MT5 account %1"
+msgstr "Transfert de %1 vers le compte MT5 %2 %3 "
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1 %2 to %3 "
+msgid "Transfer to MT5 account %1. %2."
+msgstr "Transfert du compte MT5 %1 %2 vers %3 "
 
 msgid "Transfer validation failed on %1."
 msgstr "Échec de validation de la saisie : 1%."
@@ -4171,6 +4244,11 @@ msgstr "Vous avez reçu des fonds"
 msgid "You have requested to close your %1 accounts. This is to confirm that all your accounts have been terminated successfully."
 msgstr "Vous avez demandé la fermeture de vos comptes %1. Ceci pour confirmer que tous vos comptes ont été clôturés avec succès."
 
+#, fuzzy
+#| msgid "You have requested to close your %1 accounts. This is to confirm that all your accounts have been terminated successfully."
+msgid "You have requested to close your accounts. This is to confirm that all your accounts have been terminated successfully."
+msgstr "Vous avez demandé la fermeture de vos comptes %1. Ceci pour confirmer que tous vos comptes ont été clôturés avec succès."
+
 msgid "You have signed up for more than one account."
 msgstr "Vous avez effectué des inscriptions pour plus d'un compte."
 
@@ -4320,6 +4398,11 @@ msgstr "Votre compte doit être authentifié pour effectuer les transferts d'age
 
 msgid "Your account opening reason cannot be changed."
 msgstr "La raison de l'ouverture de votre compte ne peut pas être modifiée."
+
+#, fuzzy
+#| msgid "Your account is disabled."
+msgid "Your accounts are deactivated"
+msgstr "Votre compte est désactivé."
 
 msgid "Your address and identity are verified"
 msgstr "Votre adresse et votre identité sont vérifiées"
@@ -4531,9 +4614,6 @@ msgstr "config uniquement"
 msgid "contract start time"
 msgstr "heure de début du contrat"
 
-msgid "demo"
-msgstr "démo"
-
 msgid "entry spot"
 msgstr "point d'entrée"
 
@@ -4566,9 +4646,6 @@ msgstr "est daté durant les 6 derniers mois"
 
 msgid "let us know"
 msgstr "faites le nous savoir"
-
-msgid "real"
-msgstr "réel"
 
 msgid "screenshots of addresses"
 msgstr "captures d'écran d'adresses"
@@ -7606,9 +7683,6 @@ msgstr "via le Chat en direct."
 #~ msgid "Account Settings</a> accordingly. Thank you for your kind assistance"
 #~ msgstr "Paramètres du Compte</a> en conséquence. Nous vous remercions de votre sympathique assistance"
 
-#~ msgid "Account Transfer"
-#~ msgstr "Transfert de compte"
-
 #~ msgid "Account Upgrade (Virtual to Real)"
 #~ msgstr "Mise à niveau du compte (virtuel>réel)"
 
@@ -7862,11 +7936,6 @@ msgstr "via le Chat en direct."
 
 #~ msgid "Although the Company has and retains all rights to refuse or to close a Client’s account, the Company does warrant that all contractual obligations already made, shall be honoured."
 #~ msgstr "Même si la Société a et retient tous les droits de refuser ou de clôturer le compte d'un Client, la Société garantit que toutes les obligations contractuelles déjà faites, seront honorées."
-
-#, fuzzy
-#~| msgid "Corporate Actions"
-#~ msgid "Amazon Corporation"
-#~ msgstr "Actions de société"
 
 #~ msgid "Amazon.com"
 #~ msgstr "Amazon.com"
@@ -20577,6 +20646,12 @@ msgstr "via le Chat en direct."
 #~ msgid "Transfer between your gaming and financial accounts."
 #~ msgstr "Transfert entre votre compte de jeu et financier."
 
+#~ msgid "Transfer from %1 to MT5 account %2 %3 includes transfer fee of %4 %5 (2%)."
+#~ msgstr "Le transfert de %1 vers le compte MT5 %2 %3 comprend les frais de transfert de %4 %5 (2%)."
+
+#~ msgid "Transfer from MT5 account %1 %2 to %3 includes transfer fee of %4 %5 (2%)."
+#~ msgstr "Le transfert du compte MT5 %1 %2 vers %3 comprend des frais de transfert de %4 %5 (2%)."
+
 #~ msgid "Transfer from another account"
 #~ msgstr "Transfert depuis un autre compte"
 
@@ -23061,6 +23136,9 @@ msgstr "via le Chat en direct."
 #~ msgid "days"
 #~ msgstr "jours"
 
+#~ msgid "demo"
+#~ msgstr "démo"
+
 #~ msgid "deposit"
 #~ msgstr "dépôt"
 
@@ -23360,6 +23438,9 @@ msgstr "via le Chat en direct."
 
 #~ msgid "read"
 #~ msgstr "lire"
+
+#~ msgid "real"
+#~ msgstr "réel"
 
 #~ msgid "redirect_uri=CALLBACK_URL"
 #~ msgstr "redirect_uri=CALLBACK_URL"
