@@ -2579,6 +2579,12 @@ msgstr "Índices Inteligentes"
 msgid "Social login is not enabled for this account. Please log in with your email and password instead."
 msgstr "O login social não está habilitado para esta conta. Por favor faça login com seu e-mail e senha."
 
+msgid "Some details in your document appear to be invalid, missing, or unclear."
+msgstr ""
+
+msgid "Some details on your document appear to be invalid, missing, or unclear."
+msgstr ""
+
 msgid "Sorry, account opening is unavailable."
 msgstr "Lamentamos, mas a abertura de contas está indisponível."
 
@@ -2882,7 +2888,9 @@ msgstr "O endereço que você forneceu não aceita saques. Digite um endereço d
 msgid "The amount of the order exceeds your funds available in DP2P."
 msgstr "O valor do pedido excede os fundos disponíveis no DP2P."
 
-msgid "The back of your document appears to be missing. Please provide both sides of your identity document."
+#, fuzzy
+#| msgid "The back of your document appears to be missing. Please provide both sides of your identity document."
+msgid "The back of your document appears to be missing. Please include both sides of your identity document."
 msgstr "Parece que falta o verso do documento. Forneça os dois lados do seu documento de identidade."
 
 msgid "The contract %4 has changed from %2 %1 to %3 %1."
@@ -2894,29 +2902,24 @@ msgstr "O contrato expirou"
 msgid "The contract must expire on a trading day."
 msgstr "O contrato deverá expirar em um dia de negociação."
 
+#, fuzzy
+#| msgid "The details in the proof of address don’t match your profile."
+msgid "The date of birth on your document doesn't match your profile."
+msgstr "Os detalhes do comprovante de endereço não correspondem ao detalhes em seu perfil."
+
 msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
 msgstr "A data que você digitou não é permitida. Digite uma data entre %1 e %2."
 
 msgid "The details in the proof of address don’t match your profile."
 msgstr "Os detalhes do comprovante de endereço não correspondem ao detalhes em seu perfil."
 
-msgid "The document you provided appears to be invalid. Please provide a valid document."
-msgstr "O documento fornecido parece ser inválido. Forneça um documento válido."
-
-msgid "The document you provided appears to be invalid. Please try again or provide another document."
-msgstr "O documento fornecido parece ser inválido. Tente novamente ou forneça outro documento."
-
 msgid "The document you provided appears to be two different types. Please try again or provide another document."
 msgstr "O documento que você forneceu parece ser de dois tipos diferentes. Tente novamente ou forneça outro documento."
 
-msgid "The document you provided because it is not supported for your country. Please provide a supported document for your country."
+#, fuzzy
+#| msgid "The document you provided because it is not supported for your country. Please provide a supported document for your country."
+msgid "The document you provided is not supported for your country. Please provide a supported document for your country."
 msgstr "O documento que você forneceu não é compatível com seu país. Forneça um documento compatível para seu país."
-
-msgid "The document you provided failed our verification checks. Please provide another document."
-msgstr "O documento que você forneceu falhou em nossas verificações. Forneça outro documento."
-
-msgid "The document you provided has expired. Please provide a valid document."
-msgstr "O documento que você forneceu expirou. Forneça um documento válido."
 
 msgid "The documents you submitted as proof of address are password-protected."
 msgstr "Os documentos que você enviou como comprovante de endereço são protegidos por senha."
@@ -2954,6 +2957,11 @@ msgstr "Os fundos foram creditados na sua conta."
 msgid "The given URL scheme is not valid"
 msgstr "O esquema de URL fornecido não é válido"
 
+#, fuzzy
+#| msgid "The back of your document appears to be missing. Please provide both sides of your identity document."
+msgid "The image quality of your document is too low. Please provide a hi-res photo of your identity document."
+msgstr "Parece que falta o verso do documento. Forneça os dois lados do seu documento de identidade."
+
 msgid "The market must be open at the start time."
 msgstr "O mercado deve estar aberto no horário do início."
 
@@ -2982,6 +2990,11 @@ msgid "The name is taken."
 msgstr "Este nome não está disponível."
 
 msgid "The name on the proof of address doesn’t match your Deriv/Binary profile."
+msgstr "O nome no comprovante de endereço não corresponde ao seu nome no perfil Deriv/Binary."
+
+#, fuzzy
+#| msgid "The name on the proof of address doesn’t match your Deriv/Binary profile."
+msgid "The name on your document doesn't match your profile."
 msgstr "O nome no comprovante de endereço não corresponde ao seu nome no perfil Deriv/Binary."
 
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
@@ -3022,6 +3035,9 @@ msgstr "O serviço solicitado não está disponível de momento."
 
 msgid "The selfie submitted does not show a clear image of your face."
 msgstr "A selfie enviada não mostra uma imagem clara do seu rosto."
+
+msgid "The serial number of your document couldn't be verified."
+msgstr ""
 
 msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
 msgstr "O preço à vista mudou. Não fechamos este contrato porque seu lucro é negativo e o cancelamento da transação está ativo. Cancele seu contrato para recuperar toda a sua aposta."
@@ -3340,6 +3356,9 @@ msgstr "Transferências entre contas não estão disponíveis para a sua conta."
 
 msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
 msgstr "As transferências entre contas fiduciárias e cripto não estão disponíveis no momento. Por favor, tente novamente mais tarde."
+
+msgid "Typical processing time is %1 to %2 business days."
+msgstr ""
 
 msgid "UC"
 msgstr "UC"
@@ -3665,9 +3684,6 @@ msgstr "Não foi possível fazer sua inscrição"
 msgid "We were unable to sign you up because this email is associated with a closed account."
 msgstr "Não foi possível fazer a inscrição porque este email está associado a uma conta encerrada."
 
-msgid "We were unable to verify the serial number of the document you provided. Please try again or provide another document."
-msgstr "Não foi possível verificar o número de série do documento fornecido. Tente novamente ou forneça outro documento."
-
 msgid "We were unable to verify your email"
 msgstr "Não foi possível confirmar o seu email"
 
@@ -3731,38 +3747,14 @@ msgstr "Não conseguimos inscrever você"
 msgid "We're unable to verify the document you provided because it appears to be a blank image. Please try again or upload another document."
 msgstr "Não foi possível verificar o documento fornecido porque ele parece ser uma imagem em branco. Por favor, tente novamente ou carregue outro documento."
 
-msgid "We're unable to verify the document you provided because it appears to be a digital document. Please provide a clear photo of your original identity document."
-msgstr "Não foi possível verificar o documento fornecido porque ele parece ser um documento digital. Forneça uma foto nítida do seu documento de identidade original."
-
-msgid "We're unable to verify the document you provided because it appears to be a photo of a device screen. Please provide a clear photo of your original identity document."
-msgstr "Não foi possível verificar o documento que você forneceu porque parece ser uma foto da tela de um dispositivo. Forneça uma foto nítida do seu documento de identidade original."
-
-msgid "We're unable to verify the document you provided because it appears to be a photo of a photo of your document. Please provide a clear photo of your original identity document."
-msgstr "Não foi possível verificar o documento que você forneceu porque parece ser a foto de uma foto do seu documento. Forneça uma foto nítida do seu documento de identidade original."
-
-msgid "We're unable to verify the document you provided because it appears to be a printed copy. Please provide a clear photo of your original identity document."
-msgstr "Não foi possível verificar o documento fornecido porque parece ser uma cópia impressa. Forneça uma foto nítida do seu documento de identidade original."
-
-msgid "We're unable to verify the document you provided because it appears to be a screenshot. Please provide a clear photo of your original identity document."
-msgstr "Não foi possível verificar o documento que você forneceu porque parece ser uma captura de tela. Forneça uma foto nítida do seu documento de identidade original."
-
 msgid "We're unable to verify the document you provided because it appears to be damaged. Please try again or upload another document."
 msgstr "Não foi possível verificar o documento que você forneceu porque parece estar danificado. Por favor, tente novamente ou carregue outro documento."
-
-msgid "We're unable to verify the document you provided because it appears to be in black and white. Please provide a colour photo of your document."
-msgstr "Não foi possível verificar o documento fornecido porque ele parece estar em preto e branco. Forneça uma foto colorida do seu documento."
 
 msgid "We're unable to verify the document you provided because it contains markings or text that should not be on your document. Please provide a clear photo or a scan of your original identity document."
 msgstr "Não foi possível verificar o documento que você forneceu porque ele contém marcações ou texto que não deveria estar em seu documento. Forneça uma foto nítida ou uma digitalização do seu documento de identidade original."
 
-msgid "We're unable to verify the document you provided because some details appear to be invalid, missing, or unclear. Please try again or provide another document."
-msgstr "Não foi possível verificar o documento que você forneceu porque alguns detalhes parecem ser inválidos, ausentes ou confusos. Tente novamente ou forneça outro documento."
-
 msgid "We're unable to verify the document you provided because some details appear to be missing. Please try again or provide another document."
 msgstr "Não foi possível verificar o documento fornecido porque alguns detalhes parecem estar faltando. Tente novamente ou forneça outro documento."
-
-msgid "We're unable to verify the document you provided because the image quality is too low. Please provide a hi-res photo of your identity document."
-msgstr "Não foi possível verificar o documento fornecido porque a qualidade da imagem é muito baixa. Forneça uma foto em alta resolução do seu documento de identidade."
 
 msgid "We're unable to verify your email address because it is linked to a closed account."
 msgstr "Não foi possível verificar o seu endereço de e-mail porque ele está vinculado a uma conta encerrada."
@@ -4433,8 +4425,48 @@ msgstr "A sua sessão atual do caixa expirou. Comece novamente."
 msgid "Your date of birth cannot be changed."
 msgstr "Sua data de nascimento não pode ser alterada."
 
-msgid "Your date of birth on the document you provided doesn't match your profile. Please check and try again."
-msgstr "A data de nascimento no documento fornecido não corresponde ao seu perfil. Por favor verifique e tente novamente."
+#, fuzzy
+#| msgid "The document you provided appears to be invalid. Please provide a valid document."
+msgid "Your document appears to be a digital document."
+msgstr "O documento fornecido parece ser inválido. Forneça um documento válido."
+
+msgid "Your document appears to be a photo of a device screen."
+msgstr ""
+
+msgid "Your document appears to be a printed copy."
+msgstr ""
+
+msgid "Your document appears to be a scanned copy that contains markings or text that shouldn't be on your document."
+msgstr ""
+
+msgid "Your document appears to be a screenshot."
+msgstr ""
+
+msgid "Your document appears to be damaged or cropped."
+msgstr ""
+
+#, fuzzy
+#| msgid "We're unable to verify the document you provided because it appears to be in black and white. Please provide a colour photo of your document."
+msgid "Your document appears to be in black and white. Please upload a colour photo of your document."
+msgstr "Não foi possível verificar o documento fornecido porque ele parece estar em preto e branco. Forneça uma foto colorida do seu documento."
+
+#, fuzzy
+#| msgid "Your token has expired or is invalid."
+msgid "Your document appears to be invalid."
+msgstr "O seu token já expirou ou é inválido."
+
+msgid "Your document contains markings or text that should not be on your document."
+msgstr ""
+
+#, fuzzy
+#| msgid "Kindly send us your documents for verification."
+msgid "Your document failed our verification checks."
+msgstr "Pedimos nos envie os seus documentos para verificação."
+
+#, fuzzy
+#| msgid "Contract has expired."
+msgid "Your document has expired."
+msgstr "O contrato expirou."
 
 msgid "Your email address is already in use"
 msgstr "Seu endereço de e-mail já está em uso"
@@ -4477,9 +4509,6 @@ msgstr "Seu ID de login para a plataforma MT5 é %1 e seu servidor é %2."
 
 msgid "Your login ID is missing. Please check the details and try again."
 msgstr "Seu ID de login está ausente. Verifique os detalhes e tente novamente."
-
-msgid "Your name on the document you provided doesn't match your profile. Please check and try again."
-msgstr "Seu nome no documento fornecido não corresponde ao seu perfil. Por favor verifique e tente novamente."
 
 msgid "Your new DMT5 account password"
 msgstr "Sua nova senha de conta DMT5"
@@ -4552,6 +4581,11 @@ msgstr "Sua resposta secreta não pode ser alterada."
 
 msgid "Your secret question cannot be changed."
 msgstr "Sua pergunta secreta não pode ser alterada."
+
+#, fuzzy
+#| msgid "We were unable to verify your selfie because it's not clear. Please take a clearer photo and try again. Ensure that there's enough light where you are and that your entire face is in the frame."
+msgid "Your selfie isn't clear. Please take a clearer photo and try again. Ensure that there's enough light where you are and that your entire face is in the frame."
+msgstr "Não foi possível verificar sua selfie porque ela não está clara. Tire uma foto mais nítida e tente novamente. Certifique-se de que há luz suficiente onde você está e que todo o seu rosto está no enquadramento."
 
 msgid "Your tax identification number cannot be changed."
 msgstr "O seu número de identificação fiscal não pode ser alterado."
@@ -14600,9 +14634,6 @@ msgstr "via chat ao vivo."
 #~ msgid "Kindly send a scan of one of the following documents by email:"
 #~ msgstr "Você ainda pode autenticar a sua conta nos enviando por e-mail as cópias digitalizadas dos seguintes documentos"
 
-#~ msgid "Kindly send us your documents for verification."
-#~ msgstr "Pedimos nos envie os seus documentos para verificação."
-
 #~ msgid "King Digital Entertainment plc"
 #~ msgstr "King Digital Entertainment plc"
 
@@ -19937,6 +19968,15 @@ msgstr "via chat ao vivo."
 #~ msgid "The distance between the middle line and the upper and lower threshold lines"
 #~ msgstr "A distância entre a linha central e as linhas de limite superior e inferior"
 
+#~ msgid "The document you provided appears to be invalid. Please try again or provide another document."
+#~ msgstr "O documento fornecido parece ser inválido. Tente novamente ou forneça outro documento."
+
+#~ msgid "The document you provided failed our verification checks. Please provide another document."
+#~ msgstr "O documento que você forneceu falhou em nossas verificações. Forneça outro documento."
+
+#~ msgid "The document you provided has expired. Please provide a valid document."
+#~ msgstr "O documento que você forneceu expirou. Forneça um documento válido."
+
 #~ msgid "The duration is the length of a purchased trade (see 'contract period')."
 #~ msgstr "A duração de um contrato representa o período da negociação comprada (veja \"período do contrato\")."
 
@@ -21936,6 +21976,9 @@ msgstr "via chat ao vivo."
 #~ msgid "We were unable to recover your Login ID or Password with the provided information. <a href=\"%1\">Return to Password Recovery</a>, or <a href=\"%2\"><strong>contact us</strong></a> should you need further assistance."
 #~ msgstr "Não nos foi possível recuperar o seu ID de Início de Sessão ou Senha com a informação fornecida. <a href=\"%1\">Regresse à Recuperação da Senha</a>, ou <a href=\"%2\"><strong>contate-nos</strong></a> caso necessite de mais assistência."
 
+#~ msgid "We were unable to verify the serial number of the document you provided. Please try again or provide another document."
+#~ msgstr "Não foi possível verificar o número de série do documento fornecido. Tente novamente ou forneça outro documento."
+
 #~ msgid "We were unable to verify your identity and prove your residential address using our automated verification procedure."
 #~ msgstr "Não foi possível verificar a sua identidade e comprovar o endereço da sua residência através do nosso procedimento de verificação automático."
 
@@ -22021,6 +22064,27 @@ msgstr "via chat ao vivo."
 
 #~ msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 #~ msgstr "Lamentamos mas a ferramenta Auto Exclusão não está disponível para Contas Virtuais."
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a digital document. Please provide a clear photo of your original identity document."
+#~ msgstr "Não foi possível verificar o documento fornecido porque ele parece ser um documento digital. Forneça uma foto nítida do seu documento de identidade original."
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a photo of a device screen. Please provide a clear photo of your original identity document."
+#~ msgstr "Não foi possível verificar o documento que você forneceu porque parece ser uma foto da tela de um dispositivo. Forneça uma foto nítida do seu documento de identidade original."
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a photo of a photo of your document. Please provide a clear photo of your original identity document."
+#~ msgstr "Não foi possível verificar o documento que você forneceu porque parece ser a foto de uma foto do seu documento. Forneça uma foto nítida do seu documento de identidade original."
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a printed copy. Please provide a clear photo of your original identity document."
+#~ msgstr "Não foi possível verificar o documento fornecido porque parece ser uma cópia impressa. Forneça uma foto nítida do seu documento de identidade original."
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a screenshot. Please provide a clear photo of your original identity document."
+#~ msgstr "Não foi possível verificar o documento que você forneceu porque parece ser uma captura de tela. Forneça uma foto nítida do seu documento de identidade original."
+
+#~ msgid "We're unable to verify the document you provided because some details appear to be invalid, missing, or unclear. Please try again or provide another document."
+#~ msgstr "Não foi possível verificar o documento que você forneceu porque alguns detalhes parecem ser inválidos, ausentes ou confusos. Tente novamente ou forneça outro documento."
+
+#~ msgid "We're unable to verify the document you provided because the image quality is too low. Please provide a hi-res photo of your identity document."
+#~ msgstr "Não foi possível verificar o documento fornecido porque a qualidade da imagem é muito baixa. Forneça uma foto em alta resolução do seu documento de identidade."
 
 #~ msgid "We've noticed that your account was opened some time ago and certain information that we require is missing. To use our service, kindly contact our customer support team at <a href=\"mailto:%1\">%1</a> to provide them with this missing information."
 #~ msgstr "Reparamos que a sua conta foi aberta há algum tempo e faltam certas informações de que necessitamos. Para usar os nossos serviços, por gentileza entre em contato com a nossa equipe de atendimento ao cliente em <a href=\"mailto:%1\">%1</a> para lhes fornecer essa informação em falta."
@@ -23278,6 +23342,9 @@ msgstr "via chat ao vivo."
 #~ msgid "Your date of birth is invalid."
 #~ msgstr "A sua data de nascimento é inválida."
 
+#~ msgid "Your date of birth on the document you provided doesn't match your profile. Please check and try again."
+#~ msgstr "A data de nascimento no documento fornecido não corresponde ao seu perfil. Por favor verifique e tente novamente."
+
 #~ msgid "Your designated bank account"
 #~ msgstr "A sua conta bancária designada"
 
@@ -23331,6 +23398,9 @@ msgstr "via chat ao vivo."
 
 #~ msgid "Your most pressing questions answered."
 #~ msgstr "Resposta às suas perguntas mais prementes."
+
+#~ msgid "Your name on the document you provided doesn't match your profile. Please check and try again."
+#~ msgstr "Seu nome no documento fornecido não corresponde ao seu perfil. Por favor verifique e tente novamente."
 
 #~ msgid "Your name, email address and contact number"
 #~ msgstr "O seu nome, endereço de e-mail e número de contato"

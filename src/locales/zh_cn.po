@@ -2579,6 +2579,12 @@ msgstr "智能指数"
 msgid "Social login is not enabled for this account. Please log in with your email and password instead."
 msgstr "此账户不允许社交登录。请尝试输入电子邮件和密码登录。"
 
+msgid "Some details in your document appear to be invalid, missing, or unclear."
+msgstr ""
+
+msgid "Some details on your document appear to be invalid, missing, or unclear."
+msgstr ""
+
 msgid "Sorry, account opening is unavailable."
 msgstr "对不起，不可开立账户。"
 
@@ -2882,7 +2888,9 @@ msgstr "您提供的地址不接受提款。请输入不同的地址。"
 msgid "The amount of the order exceeds your funds available in DP2P."
 msgstr "订单金额超出了DP2P可用资金。"
 
-msgid "The back of your document appears to be missing. Please provide both sides of your identity document."
+#, fuzzy
+#| msgid "The back of your document appears to be missing. Please provide both sides of your identity document."
+msgid "The back of your document appears to be missing. Please include both sides of your identity document."
 msgstr "您似乎忘了提供文件的背面。请提供身份证件的正反两面。"
 
 msgid "The contract %4 has changed from %2 %1 to %3 %1."
@@ -2894,29 +2902,24 @@ msgstr "合约已到期"
 msgid "The contract must expire on a trading day."
 msgstr "合约到期日必须为交易日。"
 
+#, fuzzy
+#| msgid "The details in the proof of address don’t match your profile."
+msgid "The date of birth on your document doesn't match your profile."
+msgstr "地址证明中的详细信息与您的个人资料不匹配。"
+
 msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
 msgstr "您输入的日期不允许。请输入介于%1 和 %2之间的日期。"
 
 msgid "The details in the proof of address don’t match your profile."
 msgstr "地址证明中的详细信息与您的个人资料不匹配。"
 
-msgid "The document you provided appears to be invalid. Please provide a valid document."
-msgstr "您提供的文件似乎无效。请提供有效文件。"
-
-msgid "The document you provided appears to be invalid. Please try again or provide another document."
-msgstr "您提供的文件似乎无效。请重试或提供其他文件。"
-
 msgid "The document you provided appears to be two different types. Please try again or provide another document."
 msgstr "您提供的文件似乎是两种不同的类型。请重试或提供其他文件。"
 
-msgid "The document you provided because it is not supported for your country. Please provide a supported document for your country."
+#, fuzzy
+#| msgid "The document you provided because it is not supported for your country. Please provide a supported document for your country."
+msgid "The document you provided is not supported for your country. Please provide a supported document for your country."
 msgstr "您提供的文件无效，因为您所在的国家/地区不支持该文件。请提供受您所在国家/地区支持的文件。"
-
-msgid "The document you provided failed our verification checks. Please provide another document."
-msgstr "您提供的文件未通过我们的验证检查。请提供其他文件。"
-
-msgid "The document you provided has expired. Please provide a valid document."
-msgstr "您提供的文件已过期。请提供有效的文件。"
 
 msgid "The documents you submitted as proof of address are password-protected."
 msgstr "您提交的地址证明文件受密码保护。"
@@ -2954,6 +2957,11 @@ msgstr "资金已记入您的账户。"
 msgid "The given URL scheme is not valid"
 msgstr "提供网址方案无效"
 
+#, fuzzy
+#| msgid "The back of your document appears to be missing. Please provide both sides of your identity document."
+msgid "The image quality of your document is too low. Please provide a hi-res photo of your identity document."
+msgstr "您似乎忘了提供文件的背面。请提供身份证件的正反两面。"
+
 msgid "The market must be open at the start time."
 msgstr "市场开始时必须已经开市。"
 
@@ -2982,6 +2990,11 @@ msgid "The name is taken."
 msgstr "此名已被注册。"
 
 msgid "The name on the proof of address doesn’t match your Deriv/Binary profile."
+msgstr "地址证明上的姓名与您的 Deriv/Binary 账戶个人资料不匹配。"
+
+#, fuzzy
+#| msgid "The name on the proof of address doesn’t match your Deriv/Binary profile."
+msgid "The name on your document doesn't match your profile."
 msgstr "地址证明上的姓名与您的 Deriv/Binary 账戶个人资料不匹配。"
 
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
@@ -3022,6 +3035,9 @@ msgstr "要求的服务目前不可用。"
 
 msgid "The selfie submitted does not show a clear image of your face."
 msgstr "提交的自拍照未显示清晰的脸部图像。"
+
+msgid "The serial number of your document couldn't be verified."
+msgstr ""
 
 msgid "The spot price has moved. We have not closed this contract because your profit is negative and deal cancellation is active. Cancel your contract to get your full stake back."
 msgstr "现货价已有变动。由于您的利润为负值，且交易取消有效，我们尚未关闭此合约。取消合同即可收回全部投注额。"
@@ -3340,6 +3356,9 @@ msgstr "您的账户不可进行账户间转账。"
 
 msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
 msgstr "法定货币和加密货币账户间转账当前不可执行。请稍后重试。"
+
+msgid "Typical processing time is %1 to %2 business days."
+msgstr ""
 
 msgid "UC"
 msgstr "UC"
@@ -3667,9 +3686,6 @@ msgstr "无法让您注册"
 msgid "We were unable to sign you up because this email is associated with a closed account."
 msgstr "无法让您注册，因为这个电子邮件与已关闭的账户有关联。"
 
-msgid "We were unable to verify the serial number of the document you provided. Please try again or provide another document."
-msgstr "我们无法验证您提供的文件序列号。请重试或提供其他文件。"
-
 msgid "We were unable to verify your email"
 msgstr "无法验证您的电邮地址"
 
@@ -3733,38 +3749,14 @@ msgstr "无法让您注册"
 msgid "We're unable to verify the document you provided because it appears to be a blank image. Please try again or upload another document."
 msgstr "我们无法验证您提供的文件，因为它似乎是空白图像。请重试或上传其他文件。"
 
-msgid "We're unable to verify the document you provided because it appears to be a digital document. Please provide a clear photo of your original identity document."
-msgstr "我们无法验证您提供的文件，因为它似乎是数字文档。请提供身份证明真本文件的清晰照片。"
-
-msgid "We're unable to verify the document you provided because it appears to be a photo of a device screen. Please provide a clear photo of your original identity document."
-msgstr "我们无法验证您提供的文件，因为它似乎是设备屏幕的照片。请提供身份证明真本文件的清晰照片。"
-
-msgid "We're unable to verify the document you provided because it appears to be a photo of a photo of your document. Please provide a clear photo of your original identity document."
-msgstr "我们无法验证您提供的文件，因为它似乎是文档照片的照片。请提供身份证明真本文件的清晰照片。"
-
-msgid "We're unable to verify the document you provided because it appears to be a printed copy. Please provide a clear photo of your original identity document."
-msgstr "我们无法验证您提供的文件，因为它似乎是列印件。请提供身份证明真本文件的清晰照片。"
-
-msgid "We're unable to verify the document you provided because it appears to be a screenshot. Please provide a clear photo of your original identity document."
-msgstr "我们无法验证您提供的文件，因为它似乎是屏幕截图。请提供身份证明真本文件的清晰照片。"
-
 msgid "We're unable to verify the document you provided because it appears to be damaged. Please try again or upload another document."
 msgstr "我们无法验证您提供的文件，因为它似乎已损坏。请重试或上传其他文件。"
-
-msgid "We're unable to verify the document you provided because it appears to be in black and white. Please provide a colour photo of your document."
-msgstr "我们无法验证您提供的文件，因为它似乎是黑白的。请提供文件的彩色照片。"
 
 msgid "We're unable to verify the document you provided because it contains markings or text that should not be on your document. Please provide a clear photo or a scan of your original identity document."
 msgstr "我们无法验证您提供的文件，因为其中包含文档中不应该有的标记或文本。请提供清晰的照片或身份证明真本文件的扫描件。"
 
-msgid "We're unable to verify the document you provided because some details appear to be invalid, missing, or unclear. Please try again or provide another document."
-msgstr "由于某些详细信息似乎无效、丢失或不清楚，因此我们无法验证您提供的文件。请重试或提供其他文档。"
-
 msgid "We're unable to verify the document you provided because some details appear to be missing. Please try again or provide another document."
 msgstr "由于某些细节似乎遗漏，因此我们无法验证您提供的文件。请重试或提供其他文档。"
-
-msgid "We're unable to verify the document you provided because the image quality is too low. Please provide a hi-res photo of your identity document."
-msgstr "由于图像质量太低，我们无法验证您提供的文件。请提供您的身份证件的高分辨率照片。"
 
 msgid "We're unable to verify your email address because it is linked to a closed account."
 msgstr "无法验证您的电邮地址，因为它与已关闭的账户连接。"
@@ -4435,8 +4427,48 @@ msgstr "您的当前收银台会话已经过期。请重新开始。"
 msgid "Your date of birth cannot be changed."
 msgstr "出生日期无法修改。"
 
-msgid "Your date of birth on the document you provided doesn't match your profile. Please check and try again."
-msgstr "您提供的文件上的生日与您的个人资料不符。请检查并重试。"
+#, fuzzy
+#| msgid "The document you provided appears to be invalid. Please provide a valid document."
+msgid "Your document appears to be a digital document."
+msgstr "您提供的文件似乎无效。请提供有效文件。"
+
+msgid "Your document appears to be a photo of a device screen."
+msgstr ""
+
+msgid "Your document appears to be a printed copy."
+msgstr ""
+
+msgid "Your document appears to be a scanned copy that contains markings or text that shouldn't be on your document."
+msgstr ""
+
+msgid "Your document appears to be a screenshot."
+msgstr ""
+
+msgid "Your document appears to be damaged or cropped."
+msgstr ""
+
+#, fuzzy
+#| msgid "We're unable to verify the document you provided because it appears to be in black and white. Please provide a colour photo of your document."
+msgid "Your document appears to be in black and white. Please upload a colour photo of your document."
+msgstr "我们无法验证您提供的文件，因为它似乎是黑白的。请提供文件的彩色照片。"
+
+#, fuzzy
+#| msgid "Your token has expired or is invalid."
+msgid "Your document appears to be invalid."
+msgstr "您的令牌已经过期或无效。"
+
+msgid "Your document contains markings or text that should not be on your document."
+msgstr ""
+
+#, fuzzy
+#| msgid "Kindly send us your documents for verification."
+msgid "Your document failed our verification checks."
+msgstr "请将验证文件发送给我们。"
+
+#, fuzzy
+#| msgid "Contract has expired."
+msgid "Your document has expired."
+msgstr "合约已到期。"
 
 msgid "Your email address is already in use"
 msgstr "您的电子邮件已被使用"
@@ -4479,9 +4511,6 @@ msgstr "您的MT5平台登录 ID 是%1，服务器为%2。"
 
 msgid "Your login ID is missing. Please check the details and try again."
 msgstr "缺少您的登录ID。请仔细检查并重试。"
-
-msgid "Your name on the document you provided doesn't match your profile. Please check and try again."
-msgstr "您提供的文件上的姓名与您的个人资料不匹配。请检查并重试。"
 
 msgid "Your new DMT5 account password"
 msgstr "您的新DMT5账户密码"
@@ -4554,6 +4583,11 @@ msgstr "机密问题答案无法修改。"
 
 msgid "Your secret question cannot be changed."
 msgstr "机密问题无法修改。"
+
+#, fuzzy
+#| msgid "We were unable to verify your selfie because it's not clear. Please take a clearer photo and try again. Ensure that there's enough light where you are and that your entire face is in the frame."
+msgid "Your selfie isn't clear. Please take a clearer photo and try again. Ensure that there's enough light where you are and that your entire face is in the frame."
+msgstr "由于照片模糊不清，我们无法验证您的自拍照。请拍张清晰的照片，然后重试。确保您拍照的地方有足够的光线，并且整个脸孔都在框架内。"
 
 msgid "Your tax identification number cannot be changed."
 msgstr "您的税务识别号无法修改。"
@@ -15630,9 +15664,6 @@ msgstr "通过即时聊天。"
 #~ msgid "Kindly send a scan of one of the following documents by email:"
 #~ msgstr "请把下列文件之一的扫描件以电子邮件发送过来："
 
-#~ msgid "Kindly send us your documents for verification."
-#~ msgstr "请将验证文件发送给我们。"
-
 #~ msgid "King Digital Entertainment plc"
 #~ msgstr "金数位娱乐公司"
 
@@ -21788,6 +21819,15 @@ msgstr "通过即时聊天。"
 #~ msgid "The distance between the middle line and the upper and lower threshold lines"
 #~ msgstr "中间线与上限线和下限线之间的距离"
 
+#~ msgid "The document you provided appears to be invalid. Please try again or provide another document."
+#~ msgstr "您提供的文件似乎无效。请重试或提供其他文件。"
+
+#~ msgid "The document you provided failed our verification checks. Please provide another document."
+#~ msgstr "您提供的文件未通过我们的验证检查。请提供其他文件。"
+
+#~ msgid "The document you provided has expired. Please provide a valid document."
+#~ msgstr "您提供的文件已过期。请提供有效的文件。"
+
 #~ msgid "The duration is the length of a purchased trade (see 'contract period')."
 #~ msgstr "期限是所买入交易的时间周期（参考“合约期限”’）。"
 
@@ -24070,6 +24110,9 @@ msgstr "通过即时聊天。"
 #~ msgid "We were unable to recover your Login ID or Password with the provided information. <a href=\"%1\">Return to Password Recovery</a>, or <a href=\"%2\"><strong>contact us</strong></a> should you need further assistance."
 #~ msgstr "我们无法根据您提供的信息找回您的登录 ID 或密码。<a href=\"%1\">返回“找回密码”页面</a>，或<a href=\"%2\"><strong>联系我们</strong></a>获取进一步帮助。"
 
+#~ msgid "We were unable to verify the serial number of the document you provided. Please try again or provide another document."
+#~ msgstr "我们无法验证您提供的文件序列号。请重试或提供其他文件。"
+
 #~ msgid "We were unable to verify your identity and prove your residential address using our automated verification procedure."
 #~ msgstr "我们未能通过自动验证程序验证您的身份和您的住址。"
 
@@ -24167,6 +24210,27 @@ msgstr "通过即时聊天。"
 
 #~ msgid "We're sorry but the Self Exclusion facility is not available for Virtual Accounts."
 #~ msgstr "对不起，自我禁止工具对于虚拟账户不可用。"
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a digital document. Please provide a clear photo of your original identity document."
+#~ msgstr "我们无法验证您提供的文件，因为它似乎是数字文档。请提供身份证明真本文件的清晰照片。"
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a photo of a device screen. Please provide a clear photo of your original identity document."
+#~ msgstr "我们无法验证您提供的文件，因为它似乎是设备屏幕的照片。请提供身份证明真本文件的清晰照片。"
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a photo of a photo of your document. Please provide a clear photo of your original identity document."
+#~ msgstr "我们无法验证您提供的文件，因为它似乎是文档照片的照片。请提供身份证明真本文件的清晰照片。"
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a printed copy. Please provide a clear photo of your original identity document."
+#~ msgstr "我们无法验证您提供的文件，因为它似乎是列印件。请提供身份证明真本文件的清晰照片。"
+
+#~ msgid "We're unable to verify the document you provided because it appears to be a screenshot. Please provide a clear photo of your original identity document."
+#~ msgstr "我们无法验证您提供的文件，因为它似乎是屏幕截图。请提供身份证明真本文件的清晰照片。"
+
+#~ msgid "We're unable to verify the document you provided because some details appear to be invalid, missing, or unclear. Please try again or provide another document."
+#~ msgstr "由于某些详细信息似乎无效、丢失或不清楚，因此我们无法验证您提供的文件。请重试或提供其他文档。"
+
+#~ msgid "We're unable to verify the document you provided because the image quality is too low. Please provide a hi-res photo of your identity document."
+#~ msgstr "由于图像质量太低，我们无法验证您提供的文件。请提供您的身份证件的高分辨率照片。"
 
 #~ msgid "We've noticed that your account was opened some time ago and certain information that we require is missing. To use our service, kindly contact our customer support team at <a href=\"mailto:%1\">%1</a> to provide them with this missing information."
 #~ msgstr "我们注意到您的帐户已开设一段时间，但缺少我们要求的部分信息。要使用我们的服务，谨请联系我们的客户支持团队： <a href=\"mailto:%1\">%1</a> ，提供缺失信息。"
@@ -25682,6 +25746,9 @@ msgstr "通过即时聊天。"
 #~ msgid "Your date of birth is invalid."
 #~ msgstr "您的出生日期无效。"
 
+#~ msgid "Your date of birth on the document you provided doesn't match your profile. Please check and try again."
+#~ msgstr "您提供的文件上的生日与您的个人资料不符。请检查并重试。"
+
 #~ msgid "Your designated bank account"
 #~ msgstr "您的指定银行账户"
 
@@ -25756,6 +25823,9 @@ msgstr "通过即时聊天。"
 
 #~ msgid "Your name"
 #~ msgstr "您的姓名"
+
+#~ msgid "Your name on the document you provided doesn't match your profile. Please check and try again."
+#~ msgstr "您提供的文件上的姓名与您的个人资料不匹配。请检查并重试。"
 
 #~ msgid "Your name, email address and contact number"
 #~ msgstr "您的名字、 电子邮件和电话"
