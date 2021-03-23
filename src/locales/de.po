@@ -693,6 +693,9 @@ msgstr "Schließt früh (um 21:00)"
 msgid "Closing Spot"
 msgstr "Schlusskurs"
 
+msgid "Code of conduct should be accepted."
+msgstr ""
+
 msgid "Commodities"
 msgstr "Rohstoffe"
 
@@ -1749,6 +1752,11 @@ msgstr "Ungültige Währung."
 msgid "Invalid date format."
 msgstr "Falsches Datumsformat."
 
+#, fuzzy
+#| msgid "Invalid period input! Please input the period between 0 and #1"
+msgid "Invalid deposit commission amount: it should be between 0 and %1."
+msgstr "Ungültige Zeitraumeingabe! Bitte geben Sie einen Zeitraum zwischen 0 und #1 ein"
+
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Ungültige Laufzeit (Tick) für Kontrakttyp (%1)."
 
@@ -1797,6 +1805,9 @@ msgstr "Ungültiger Handelstyp: %1."
 
 msgid "Invalid user."
 msgstr "Ungültiger Benutzer."
+
+msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+msgstr ""
 
 msgid "Irish Index"
 msgstr "Irischer Index"
@@ -2226,11 +2237,6 @@ msgid "Only ports 80 and 443 are allowed"
 msgstr "Es sind nur die Anschlüsse 80 und 443 erlaubt"
 
 #, fuzzy
-#| msgid "Send your %1 (%2) to this address:"
-msgid "Only send %1 (%2) to this address."
-msgstr "Schicken Sie Ihr %1 (%2) an diese Adresse:"
-
-#, fuzzy
 #| msgid "Only 3 decimal places are allowed."
 msgid "Only updates to these parameters are allowed %1."
 msgstr "Es sind 3 Dezimalstellen erlaubt."
@@ -2387,6 +2393,11 @@ msgstr "Zahlungsagenten-Überweisungen sind im Wohnsitzland des Kunden vorüberg
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "Zahlungsagenten-Behebungen sind für angegebene Konten nicht erlaubt."
+
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed for the specified accounts."
+msgid "Payment agents are suspended in your residence country."
+msgstr "Zahlungsagenten-Überweisungen sind für die angegebenen Konten nicht erlaubt."
 
 #, fuzzy
 #| msgid "Payment agent facilities are not available for this account."
@@ -2751,6 +2762,11 @@ msgstr "Bitte legen Sie die Währung für Ihr existierendes Konto %1 fest, um me
 msgid "Please set the currency for your existing account %1."
 msgstr "Bitte legen Sie die Währung für Ihr existierendes Konto %1 fest."
 
+#, fuzzy
+#| msgid "Please set the currency for your existing account"
+msgid "Please set the currency for your existing account."
+msgstr "Bitte legen Sie die Währung für Ihr existierendes Konto fest"
+
 msgid "Please set the currency of your account."
 msgstr "Bitte legen Sie die Währung für Ihr Konto fest."
 
@@ -3082,8 +3098,16 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Send your %1 (%2) to this address:"
+msgid "Send only %1 (%2) to this address."
+msgstr "Schicken Sie Ihr %1 (%2) an diese Adresse:"
+
+#, fuzzy
+#| msgid "Send your %1 (%2) to this address:"
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "Schicken Sie Ihr %1 (%2) an diese Adresse:"
+
+msgid "Sending any other digital currency will result in the loss of your deposit."
+msgstr ""
 
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "Die Sitzungsdauer kann nicht mehr als 6 Wochen betragen."
@@ -3652,6 +3676,16 @@ msgstr "Die angegebene Währung %1 kann im Moment nicht ausgewählt werden."
 
 msgid "The provided currency %1 is not the default currency"
 msgstr "Die angegebene Währung %1 ist nicht die voreingestellte Währung"
+
+#, fuzzy
+#| msgid "Withdrawal amount must be greater than zero."
+msgid "The requested maximum amount must be greater than minimum amount."
+msgstr "Abhebungsbetrag muss über Null liegen."
+
+#, fuzzy
+#| msgid "Withdrawal amount must be greater than zero."
+msgid "The requested minimum amount must be greater than zero."
+msgstr "Abhebungsbetrag muss über Null liegen."
 
 msgid "The requested service is unavailable at the moment."
 msgstr "Der angeforderte Service ist zur Zeit nicht verfügbar."
@@ -4993,9 +5027,6 @@ msgstr "Bitte ziehen Sie alle Gelder von Ihrem/n Konto(en) ab, bevor Sie fortfah
 msgid "You can send them in the form of photos, scanned files, or PDF documents."
 msgstr ""
 
-msgid "You can't sell on DP2P because you haven't been active enough and have used a card to fund your account."
-msgstr ""
-
 #, fuzzy
 #| msgid "The provided currency %1 is not selectable at the moment."
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
@@ -5071,6 +5102,11 @@ msgid "You cannot transfer to account %1, as their verification documents have e
 msgstr "Sie können auf das Konto %1 keine Überweisung vornehmen, da deren Verifikationsdokumente abgelaufen sind."
 
 #, fuzzy
+#| msgid "You cannot perform this action, please set your residence."
+msgid "You cannot use this name, because it is taken by someone else."
+msgstr "Du kannst diese Aktion nicht durchführen, bitte setze deinen Wohnsitz fest."
+
+#, fuzzy
 #| msgid "Log in using your email address"
 msgid "You cannot use your email address as your password."
 msgstr "Melden Sie sich mittels E-Mail an"
@@ -5116,6 +5152,11 @@ msgstr "Sie haben das 7-Tage Limit für Verluste von %2 %1 überschritten."
 #| msgid "You have exceeded your daily limit on losses of %1%2."
 msgid "You have exceeded your daily limit on losses of %1 %2."
 msgstr "Sie haben das Tageslimit für Verluste in Höhe von %2 %1 überschritten."
+
+#, fuzzy
+#| msgid "You are not authorized for transfers via payment agents."
+msgid "You have not applied for being payment agent yet."
+msgstr "Sie sind nicht befugt, Überweisungen über Zahlungsagenten zu tätigen."
 
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "Sie haben den erforderlichen Umsatz für die Bonusgutschrift noch nicht erreicht."
@@ -5256,6 +5297,11 @@ msgstr ""
 
 msgid "You've already confirmed this order. Please wait for the seller to confirm."
 msgstr ""
+
+#, fuzzy
+#| msgid "You are already subscribed to transaction updates."
+msgid "You've already submitted a payment agent application request."
+msgstr "Sie haben sich schon für Transaktionsaktualisierungen angemeldet."
 
 msgid "You've been temporarily barred from using our services due to multiple cancellation attempts. Try again after %1."
 msgstr ""
@@ -14366,9 +14412,6 @@ msgstr "Live-Chat:"
 #~ msgid "Invalid offer currency."
 #~ msgstr "Ungültige Währung."
 
-#~ msgid "Invalid period input! Please input the period between 0 and #1"
-#~ msgstr "Ungültige Zeitraumeingabe! Bitte geben Sie einen Zeitraum zwischen 0 und #1 ein"
-
 #, fuzzy
 #~| msgid "Invalid authentication code"
 #~ msgid "Invalid rate for creating an order."
@@ -17507,9 +17550,6 @@ msgstr "Live-Chat:"
 
 #~ msgid "Please set citizenship for your account."
 #~ msgstr "Bitte legen Sie die Staatsbürgerschaft für Ihr Konto fest."
-
-#~ msgid "Please set the currency for your existing account"
-#~ msgstr "Bitte legen Sie die Währung für Ihr existierendes Konto fest"
 
 #~ msgid "Please specify either duration or date_expiry."
 #~ msgstr "Bitte geben Sie entweder Dauer oder Datum Verfall an."
@@ -23088,9 +23128,6 @@ msgstr "Live-Chat:"
 #~ msgid "Withdrawal amount exceeds client balance."
 #~ msgstr "Auszahlungsbetrag überschreitet Kundenkontostand."
 
-#~ msgid "Withdrawal amount must be greater than zero."
-#~ msgstr "Abhebungsbetrag muss über Null liegen."
-
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Behebungen in dieser Währung sind aufgrund von Wechselkursen suspendiert. Bitte versuchen Sie es erneut, sobald der Markt geöffnet hat."
 
@@ -23281,9 +23318,6 @@ msgstr "Live-Chat:"
 #~ msgid "You are already subscribed to proposal_open_contract."
 #~ msgstr "Sie haben sich schon für einen proposal_open_contract angemeldet."
 
-#~ msgid "You are already subscribed to transaction updates."
-#~ msgstr "Sie haben sich schon für Transaktionsaktualisierungen angemeldet."
-
 #~ msgid "You are being given the better price."
 #~ msgstr "Ihnen wurde der bessere Kurs gewährt."
 
@@ -23393,9 +23427,6 @@ msgstr "Live-Chat:"
 
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Sie können diese Aktion nicht durchführen, da ihr Konto %1 als unwillkommen markiert ist."
-
-#~ msgid "You cannot perform this action, please set your residence."
-#~ msgstr "Du kannst diese Aktion nicht durchführen, bitte setze deinen Wohnsitz fest."
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "Sie können keine Überweisung zu einem Kunden mit einem anderen Wohnsitzland vornehmen."

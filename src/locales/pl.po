@@ -574,6 +574,9 @@ msgstr "Zamykane wcześnie (o 20:55)"
 msgid "Closing Spot"
 msgstr "Punkt zamknięcia"
 
+msgid "Code of conduct should be accepted."
+msgstr ""
+
 msgid "Commodities"
 msgstr "Towary"
 
@@ -1486,6 +1489,11 @@ msgstr "Nieprawidłowa waluta."
 msgid "Invalid date format."
 msgstr "Nieprawidłowy format daty."
 
+#, fuzzy
+#| msgid "Invalid period input! Please input the period between 0 and #1"
+msgid "Invalid deposit commission amount: it should be between 0 and %1."
+msgstr "Nieprawidłowo wpisany okres! Proszę wpisać okres między 0 a #1"
+
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Nieprawidłowy czas trwania (najmniejsza zmiana ceny) dla kontraktu tego rodzaju (%1)."
 
@@ -1530,6 +1538,9 @@ msgstr "Nieprawidłowy typ zakładu: %1."
 
 msgid "Invalid user."
 msgstr "Nieprawidłowy użytkownik."
+
+msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+msgstr ""
 
 msgid "Irish Index"
 msgstr "Indeks irlandzki"
@@ -1900,9 +1911,6 @@ msgstr "Dozwolona jest tylko jedna aktualizacja na sekundę."
 msgid "Only ports 80 and 443 are allowed"
 msgstr "Dozwolone są tylko porty 80 i 443"
 
-msgid "Only send %1 (%2) to this address."
-msgstr "Prześlij %1 (%2) na ten adres."
-
 msgid "Only updates to these parameters are allowed %1."
 msgstr "Dozwolone są tylko aktualizacje tego parametru %1."
 
@@ -2028,6 +2036,11 @@ msgstr "Przelewy przez pośredników płatności są tymczasowo niedostępne w p
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "Wypłaty przy udziale pośredników płatności nie są dozwolone w przypadku niektórych kont."
+
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed for the specified accounts."
+msgid "Payment agents are suspended in your residence country."
+msgstr "Przelewy przez pośredników płatności nie są dozwolone w przypadku określonych kont."
 
 msgid "Payment and contact information are not needed for buy ads."
 msgstr "Dane kontaktowe i dane dot. płatności nie są wymagane dla reklam zakupu."
@@ -2277,6 +2290,11 @@ msgstr "Aby utworzyć więcej kont, ustaw najpierw walutę dla istniejącego kon
 
 msgid "Please set the currency for your existing account %1."
 msgstr "Proszę ustawić walutę dla istniejącego konta %1."
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account"
+msgid "Please set the currency for your existing account."
+msgstr "Proszę ustawić walutę dla istniejącego konta"
 
 msgid "Please set the currency of your account."
 msgstr "Proszę ustawić walutę swojego konta."
@@ -2563,8 +2581,16 @@ msgstr "Sprzedaj"
 msgid "Sell failed because contract was updated."
 msgstr "Sprzedaż nie powiodła się z powodu aktualizacji kontraktu."
 
+#, fuzzy
+#| msgid "Only send %1 (%2) to this address."
+msgid "Send only %1 (%2) to this address."
+msgstr "Prześlij %1 (%2) na ten adres."
+
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "Prześlij %1 (%2) na ten adres, aby zasilić swoje konto"
+
+msgid "Sending any other digital currency will result in the loss of your deposit."
+msgstr ""
 
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "Limit czasu sesji nie może przekroczyć 6 tygodni."
@@ -3051,6 +3077,16 @@ msgstr "Obecnie nie jest możliwe wybranie waluty %1."
 
 msgid "The provided currency %1 is not the default currency"
 msgstr "Podana waluta %1 nie jest walutą domyślną"
+
+#, fuzzy
+#| msgid "The offer amount should be greater than or equal to maximum amount."
+msgid "The requested maximum amount must be greater than minimum amount."
+msgstr "Kwota oferty powinna być równa maksymalnej kwocie lub od niej wyższa."
+
+#, fuzzy
+#| msgid "Withdrawal amount must be greater than zero."
+msgid "The requested minimum amount must be greater than zero."
+msgstr "Kwota wypłaty musi być wyższa niż zero."
 
 msgid "The requested service is unavailable at the moment."
 msgstr "Żądana usługa jest w tym momencie niedostępna."
@@ -4156,9 +4192,6 @@ msgstr "Możesz tylko wypłacać %1 ze swojego konta %2 do swojego portfela Omni
 msgid "You can send them in the form of photos, scanned files, or PDF documents."
 msgstr "Możesz wysłać je w postaci zdjęć, zeskanowanych plików lub dokumentów PDF."
 
-msgid "You can't sell on DP2P because you haven't been active enough and have used a card to fund your account."
-msgstr "Nie możesz sprzedawać na DP2P, gdyż Twoja aktywność nie była wystarczająca i skorzystałeś/-aś z karty w celu zasilenia konta."
-
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "Nie możesz wystawiać jeszcze reklam, gdyż nie zatwierdzono Cię jeszcze jako reklamodawcę."
 
@@ -4219,6 +4252,11 @@ msgstr "Nie możesz wykonać przelewu na konto %1"
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ upłynęła ważność powiązanych z nim dokumentów weryfikacyjnych."
 
+#, fuzzy
+#| msgid "You cannot perform this action, please set your residence."
+msgid "You cannot use this name, because it is taken by someone else."
+msgstr "Nie możesz wykonać tej czynności, proszę wprowadzić swoje miejsce zamieszkania."
+
 msgid "You cannot use your email address as your password."
 msgstr "Nie można użyć adresu e-mail jako hasła."
 
@@ -4257,6 +4295,11 @@ msgstr "Przekroczono 7-dniowy limit straty: %2 %1."
 
 msgid "You have exceeded your daily limit on losses of %1 %2."
 msgstr "Przekroczono dzienny limit straty: %2 %1."
+
+#, fuzzy
+#| msgid "You are not authorized for transfers via payment agents."
+msgid "You have not applied for being payment agent yet."
+msgstr "Nie jesteś upoważniony do dokonywania przelewów przez pośredników płatności."
 
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "Nie osiągnięto jeszcze obrotu wymaganego do otrzymania bonusu."
@@ -4353,6 +4396,11 @@ msgstr "To zlecenie zostało już potwierdzone przez Ciebie, ale nie przez sprze
 
 msgid "You've already confirmed this order. Please wait for the seller to confirm."
 msgstr "To zlecenie zostało już przez Ciebie potwierdzone. Poczekaj, aż potwierdzi je sprzedający."
+
+#, fuzzy
+#| msgid "You are already subscribed to transaction updates."
+msgid "You've already submitted a payment agent application request."
+msgstr "Korzystasz już z powiadomień o stanie transakcji."
 
 msgid "You've been temporarily barred from using our services due to multiple cancellation attempts. Try again after %1."
 msgstr "Z powodu wielokrotnych prób anulowania korzystanie z naszych usług zostało tymczasowo zablokowane. Spróbuj ponownie po %1."
@@ -13158,9 +13206,6 @@ msgstr "przez czat na żywo."
 #~ msgid "Invalid offer currency."
 #~ msgstr "Nieprawidłowa waluta oferty"
 
-#~ msgid "Invalid period input! Please input the period between 0 and #1"
-#~ msgstr "Nieprawidłowo wpisany okres! Proszę wpisać okres między 0 a #1"
-
 #, fuzzy
 #~| msgid "Invalid amount for creating an order"
 #~ msgid "Invalid rate for creating an order."
@@ -16157,9 +16202,6 @@ msgstr "przez czat na żywo."
 #~ msgid "Please set citizenship for your account."
 #~ msgstr "Proszę ustawić obywatelstwo dla swojego konta."
 
-#~ msgid "Please set the currency for your existing account"
-#~ msgstr "Proszę ustawić walutę dla istniejącego konta"
-
 #~ msgid "Please specify either duration or date_expiry."
 #~ msgstr "Podaj okres trwania lub datę wygaśnięcia."
 
@@ -19070,9 +19112,6 @@ msgstr "przez czat na żywo."
 #~ msgid "The new amount cannot be less than the value of current orders against this advert."
 #~ msgstr "Nowa kwota nie może być niższa od kwoty obecnych zleceń w stosunku do tej reklamy."
 
-#~ msgid "The offer amount should be greater than or equal to maximum amount."
-#~ msgstr "Kwota oferty powinna być równa maksymalnej kwocie lub od niej wyższa."
-
 #~ msgid "The offer has expired."
 #~ msgstr "Oferta wygasła."
 
@@ -21307,9 +21346,6 @@ msgstr "przez czat na żywo."
 #~ msgid "Withdrawal amount exceeds client balance."
 #~ msgstr "Kwota wypłaty przekracza wartość środków na saldzie klienta."
 
-#~ msgid "Withdrawal amount must be greater than zero."
-#~ msgstr "Kwota wypłaty musi być wyższa niż zero."
-
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Wypłaty w tej walucie zostały zawieszone w związku z kursem wymiany walut. Prosimy spróbować ponownie, gdy rynek będzie otwarty."
 
@@ -21481,9 +21517,6 @@ msgstr "przez czat na żywo."
 #~ msgid "You are already subscribed to proposal_open_contract."
 #~ msgstr "Korzystasz już z subskrypcji propozycji_otwarcia_kontraktu."
 
-#~ msgid "You are already subscribed to transaction updates."
-#~ msgstr "Korzystasz już z powiadomień o stanie transakcji."
-
 #~ msgid "You are being given the better price."
 #~ msgstr "Otrzymujesz lepszą cenę."
 
@@ -21577,6 +21610,9 @@ msgstr "przez czat na żywo."
 #~ msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 #~ msgstr "Możesz skorzystać z usług autoryzowanego pośrednika płatności oferującego metody płatności i lokalne waluty nieobsługiwane przez %1."
 
+#~ msgid "You can't sell on DP2P because you haven't been active enough and have used a card to fund your account."
+#~ msgstr "Nie możesz sprzedawać na DP2P, gdyż Twoja aktywność nie była wystarczająca i skorzystałeś/-aś z karty w celu zasilenia konta."
+
 #~ msgid "You cannot create an order with a different currency than your account."
 #~ msgstr "Nie możesz utworzyć zlecenia w innej walucie niż waluta prowadzenia Twojego konta."
 
@@ -21588,9 +21624,6 @@ msgstr "przez czat na żywo."
 
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Nie możesz wykonać tej czynności, ponieważ Twoje konto %1 jest oznaczone jako niepożądane."
-
-#~ msgid "You cannot perform this action, please set your residence."
-#~ msgstr "Nie możesz wykonać tej czynności, proszę wprowadzić swoje miejsce zamieszkania."
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "Nie możesz przelać pieniędzy do klienta w innym państwie zamieszkania."

@@ -572,6 +572,9 @@ msgstr "收盘提前（于 20:55）"
 msgid "Closing Spot"
 msgstr "收盘现价"
 
+msgid "Code of conduct should be accepted."
+msgstr ""
+
 msgid "Commodities"
 msgstr "大宗商品"
 
@@ -1481,6 +1484,11 @@ msgstr "无效货币。"
 msgid "Invalid date format."
 msgstr "无效的日期格式。"
 
+#, fuzzy
+#| msgid "Invalid period input! Please input the period between 0 and #1"
+msgid "Invalid deposit commission amount: it should be between 0 and %1."
+msgstr "无效期限输入！请输入在 0 和 #1 之间的期限"
+
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "合约类型（%1）的持久期（跳动点）无效。"
 
@@ -1525,6 +1533,9 @@ msgstr "无效交易类型 :%1。"
 
 msgid "Invalid user."
 msgstr "无效用户。"
+
+msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+msgstr ""
 
 msgid "Irish Index"
 msgstr "爱尔兰指数"
@@ -1895,9 +1906,6 @@ msgstr "每秒钟只允许一次更新。"
 msgid "Only ports 80 and 443 are allowed"
 msgstr "只允许端口80与443"
 
-msgid "Only send %1 (%2) to this address."
-msgstr "仅需发送%1(%2) 到此地址。"
-
 msgid "Only updates to these parameters are allowed %1."
 msgstr "只允许这些参数更新%1。"
 
@@ -2023,6 +2031,11 @@ msgstr "客户居住国暂时不能用支付代理转账。"
 
 msgid "Payment agent withdrawals are not allowed for specified accounts."
 msgstr "指定账户不允许支付代理提款。"
+
+#, fuzzy
+#| msgid "Payment Agents are not allowed by your landing company."
+msgid "Payment agents are suspended in your residence country."
+msgstr "您的登录公司不允许使用支付代理人。"
 
 msgid "Payment and contact information are not needed for buy ads."
 msgstr "买入广告不需要付款和联系信息。"
@@ -2272,6 +2285,11 @@ msgstr "请设置您当前账户%1的货币，以开立更多账户。"
 
 msgid "Please set the currency for your existing account %1."
 msgstr "请设置您当前账户%1的货币。"
+
+#, fuzzy
+#| msgid "Please set the currency for your existing account"
+msgid "Please set the currency for your existing account."
+msgstr "请设置您当前账户的货币"
 
 msgid "Please set the currency of your account."
 msgstr "请设置您账户的货币。"
@@ -2558,8 +2576,16 @@ msgstr "卖出"
 msgid "Sell failed because contract was updated."
 msgstr "卖出失败，因为合约已更新。"
 
+#, fuzzy
+#| msgid "Only send %1 (%2) to this address."
+msgid "Send only %1 (%2) to this address."
+msgstr "仅需发送%1(%2) 到此地址。"
+
 msgid "Send your %1 (%2) to this address to fund your account"
 msgstr "请将您的%1(%2) 送到此地址，以便将资金存入账户"
+
+msgid "Sending any other digital currency will result in the loss of your deposit."
+msgstr ""
 
 msgid "Session duration limit cannot be more than 6 weeks."
 msgstr "交易期限不能大于 6周。"
@@ -3046,6 +3072,16 @@ msgstr "所提供的货币 %1目前不可选用。"
 
 msgid "The provided currency %1 is not the default currency"
 msgstr "所提供的货币 %1不是默认货币"
+
+#, fuzzy
+#| msgid "The offer amount should be greater than or equal to maximum amount."
+msgid "The requested maximum amount must be greater than minimum amount."
+msgstr "报价金额须大于或相等于最大金额。"
+
+#, fuzzy
+#| msgid "Withdrawal amount must be greater than zero."
+msgid "The requested minimum amount must be greater than zero."
+msgstr "提款金额必须大于零。"
 
 msgid "The requested service is unavailable at the moment."
 msgstr "要求的服务目前不可用。"
@@ -4153,9 +4189,6 @@ msgstr "您仅可从 %2 账户提取 %1 存入Omni Layer 钱包。"
 msgid "You can send them in the form of photos, scanned files, or PDF documents."
 msgstr "您可以以照片、扫描文件或PDF文档的形式发送这些文件。"
 
-msgid "You can't sell on DP2P because you haven't been active enough and have used a card to fund your account."
-msgstr "您不能在DP2P 销售，因为您不够活跃，并使用卡为账户注资。"
-
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "广告无法列出，因您还未被批准为广告商。"
 
@@ -4216,6 +4249,11 @@ msgstr "无法转账至账户 %1"
 msgid "You cannot transfer to account %1, as their verification documents have expired."
 msgstr "您不能转账至账户 %1，因为其验证文件已过期。"
 
+#, fuzzy
+#| msgid "You cannot perform this action, please set your residence."
+msgid "You cannot use this name, because it is taken by someone else."
+msgstr "您不能执行此操作，请先设定您的居住地。"
+
 msgid "You cannot use your email address as your password."
 msgstr "电子邮件地址不可用作密码。"
 
@@ -4254,6 +4292,11 @@ msgstr "您已超出 %1 %2的7天损失限额。"
 
 msgid "You have exceeded your daily limit on losses of %1 %2."
 msgstr "您已超出%1 %2的每日损失限额。"
+
+#, fuzzy
+#| msgid "You are not authorized for transfers via payment agents."
+msgid "You have not applied for being payment agent yet."
+msgstr "您无权通过付款代理转账。"
 
 msgid "You have not yet reached the turnover required to be credited with the bonus."
 msgstr "您还没有达到奖金入账的交易额要求。"
@@ -4350,6 +4393,11 @@ msgstr "您已经确认了此订单，但卖者尚未确认。请与他们联系
 
 msgid "You've already confirmed this order. Please wait for the seller to confirm."
 msgstr "您已经确认了此订单。请等待卖者确认。"
+
+#, fuzzy
+#| msgid "You are already subscribed to transaction updates."
+msgid "You've already submitted a payment agent application request."
+msgstr "您已订阅交易提醒。"
 
 msgid "You've been temporarily barred from using our services due to multiple cancellation attempts. Try again after %1."
 msgstr "由于多次尝试取消，您已暂时被禁使用我们的服务。请%1后重试。"
@@ -14899,9 +14947,6 @@ msgstr "通过即时聊天。"
 #~ msgid "Invalid offer currency."
 #~ msgstr "报价货币无效"
 
-#~ msgid "Invalid period input! Please input the period between 0 and #1"
-#~ msgstr "无效期限输入！请输入在 0 和 #1 之间的期限"
-
 #, fuzzy
 #~| msgid "Invalid amount for creating an order"
 #~ msgid "Invalid rate for creating an order."
@@ -17867,9 +17912,6 @@ msgstr "通过即时聊天。"
 #~ msgid "Payment Agents"
 #~ msgstr "付款代理"
 
-#~ msgid "Payment Agents are not allowed by your landing company."
-#~ msgstr "您的登录公司不允许使用支付代理人。"
-
 #~ msgid "Payment Agents are not available on this site."
 #~ msgstr "本网站无可用支付代理。"
 
@@ -18478,9 +18520,6 @@ msgstr "通过即时聊天。"
 
 #~ msgid "Please set citizenship for your account."
 #~ msgstr "请设置您账户的公民身分。"
-
-#~ msgid "Please set the currency for your existing account"
-#~ msgstr "请设置您当前账户的货币"
 
 #~ msgid "Please specify either duration or date_expiry."
 #~ msgstr "请指明期限或date_expiry。"
@@ -22042,9 +22081,6 @@ msgstr "通过即时聊天。"
 #~ msgid "The new amount cannot be less than the value of current orders against this advert."
 #~ msgstr "新的金额不可小于当前针对此广告的订单金额。"
 
-#~ msgid "The offer amount should be greater than or equal to maximum amount."
-#~ msgstr "报价金额须大于或相等于最大金额。"
-
 #~ msgid "The offer has expired."
 #~ msgstr "报价已到期。"
 
@@ -24748,9 +24784,6 @@ msgstr "通过即时聊天。"
 #~ msgid "Withdrawal amount exceeds client balance."
 #~ msgstr "提款金额超出客户余额。"
 
-#~ msgid "Withdrawal amount must be greater than zero."
-#~ msgstr "提款金额必须大于零。"
-
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "由于兑换率问题，此币种的提款已暂停。开市时请重试。"
 
@@ -24955,9 +24988,6 @@ msgstr "通过即时聊天。"
 #~ msgid "You are already subscribed to proposal_open_contract."
 #~ msgstr "您已订阅未平仓合约提议。"
 
-#~ msgid "You are already subscribed to transaction updates."
-#~ msgstr "您已订阅交易提醒。"
-
 #~ msgid "You are being given the better price."
 #~ msgstr "正在为您获取更好的价格。"
 
@@ -25084,6 +25114,9 @@ msgstr "通过即时聊天。"
 #~ msgid "You can withdraw your funds now."
 #~ msgstr "现在您可以提款了。"
 
+#~ msgid "You can't sell on DP2P because you haven't been active enough and have used a card to fund your account."
+#~ msgstr "您不能在DP2P 销售，因为您不够活跃，并使用卡为账户注资。"
+
 #~ msgid "You cannot convert to/from PLY (play currency)."
 #~ msgstr "您不能转换为 PLY（交易投机货币）或从 PLY 转换。"
 
@@ -25098,9 +25131,6 @@ msgstr "通过即时聊天。"
 
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "您不能执行此操作，因为您的账户 %1已被标记为不受欢迎。"
-
-#~ msgid "You cannot perform this action, please set your residence."
-#~ msgstr "您不能执行此操作，请先设定您的居住地。"
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "您不能转账给不同国家居民的客户。"
