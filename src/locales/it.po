@@ -27,6 +27,11 @@ msgstr "%1 e %2"
 msgid "%1 barrier offset can not have more than %2 decimal places."
 msgstr "%1 correzione della barriera non può avere più di %2 decimali."
 
+#, fuzzy
+#| msgid "Payments are suspended."
+msgid "%1 currency transfers are suspended."
+msgstr "I pagamenti sono sospesi."
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 non è un input valido per la tipologia di contratto %2."
 
@@ -296,6 +301,9 @@ msgstr "Si è verificato un errore durante la creazione della chat. Si prega di 
 msgid "An error occurred when issuing a new token. Please try again later."
 msgstr "Si è verificato un errore durante l'emissione di un nuovo token. Si prega di riprovare più tardi."
 
+msgid "An invalid Deriv X account ID was provided."
+msgstr ""
+
 msgid "An order cannot be created for this amount at this time. Please try adjusting the amount."
 msgstr "Al momento non è possibile creare un ordine con questo importo. Ti invitiamo a modificare l'importo."
 
@@ -449,6 +457,14 @@ msgstr "Indice Boom 1000"
 
 msgid "Boom 500 Index"
 msgstr "Indice Boom 500"
+
+#, fuzzy
+#| msgid "Withdrawals are not possible for demo accounts."
+msgid "Both accounts must be demo accounts."
+msgstr "Non è possibile effettuare prelievi dai conti di prova."
+
+msgid "Both accounts must be real accounts."
+msgstr ""
 
 msgctxt "field for payment method Bank Transfer"
 msgid "Branch"
@@ -771,6 +787,9 @@ msgstr "Deposita"
 
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "Al momento non è possibile effettuare depositi. Si prega di riprovare più tardi."
+
+msgid "Deriv X account management is currently suspended."
+msgstr ""
 
 msgid "Device:"
 msgstr "Dispositivo:"
@@ -1391,12 +1410,6 @@ msgstr "Se hai problemi con il pulsante, copia e incolla questo link nel tuo bro
 
 msgid "If you’ve forgotten your password, no problem. Just go to the %1Reset password page%2 to create a new one."
 msgstr "Se hai dimenticato la password, vai alla %1pagina Reimposta la password%2 per crearne una nuova."
-
-msgid "Important:"
-msgstr "Importante:"
-
-msgid "Important: Please use the address above only once."
-msgstr "Importante: usa l'indirizzo riportato sopra solo una volta."
 
 msgid "In order for you to place contracts, we need to know your Residence (Country). Please update your settings."
 msgstr "Per poter aprire dei contratti, abbiamo bisogno della tua Residenza (Paese). Aggiorna le tue impostazioni."
@@ -2122,6 +2135,12 @@ msgstr "Contatta %1l'assistenza clienti%2 per riattivare il conto."
 msgid "Please deposit to your account."
 msgstr "Deposita sul tuo account."
 
+msgid "Please ensure your trading account currency is the same as your wallet account currency."
+msgstr ""
+
+msgid "Please ensure your trading account type is the same as your wallet account type."
+msgstr ""
+
 msgid "Please enter a limit value that's greater than 0."
 msgstr "Inserisci un valore del limite maggiore di 0."
 
@@ -2227,7 +2246,9 @@ msgstr "Nota: puoi utilizzare un solo conto %1."
 msgid "Please note that your settings have been updated as follows:"
 msgstr "Si prega di notare che le tue impostazioni sono state aggiornate come segue:"
 
-msgid "Please provide a currency for the DXtrade account."
+#, fuzzy
+#| msgid "Please provide a currency for the DXtrade account."
+msgid "Please provide a currency for the Deriv X account."
 msgstr "Fornisci una valuta per il conto DXtrade."
 
 msgid "Please provide a valid email address."
@@ -2275,6 +2296,11 @@ msgstr "Seleziona"
 msgid "Please select an ad that matches your currency."
 msgstr "Seleziona un annuncio in linea con la tua valuta."
 
+#, fuzzy
+#| msgid "Please set your account currency."
+msgid "Please select your account currency first."
+msgstr "Imposta la valuta del conto."
+
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Per creare più account, imposta la valuta del tuo account esistente %1."
 
@@ -2316,9 +2342,6 @@ msgstr "Cambia account per negoziare su questo mercato."
 
 msgid "Please use different passwords for your investor and main accounts."
 msgstr "Utilizza una password diversa per conto principale e conto per investimenti."
-
-msgid "Please use the address above only once."
-msgstr "Usa l'indirizzo sopra solo una volta."
 
 msgid "Please use the token below to create your new password."
 msgstr "Utilizza il token seguente per creare una nuova password."
@@ -2707,6 +2730,27 @@ msgstr "Siamo spiacenti, questa funzione non è disponibile."
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "Al momento non è possibile effettuare trasferimenti. Si prega di riprovare più tardi."
 
+msgid "Sorry, we couldn't find your DXTrader account."
+msgstr ""
+
+#, fuzzy
+#| msgid "Unable to get account details for your MT5 account %1."
+msgid "Sorry, we couldn't find your MT5 account."
+msgstr "Impossibile ottenere i dettagli dell'account per il tuo account MT5 %1."
+
+#, fuzzy
+#| msgid "Sorry, you are too young to open an account."
+msgid "Sorry, we couldn't find your trading account."
+msgstr "Siamo spiacenti, sei troppo giovane per poter aprire un account."
+
+#, fuzzy
+#| msgid "Sorry, we couldn't verify your password. Please reset your password."
+msgid "Sorry, we couldn't find your wallet account."
+msgstr "Non è stato possibile verificare la password Ti invitiamo a reimpostarla."
+
+msgid "Sorry, we couldn't link your trading account to this wallet."
+msgstr ""
+
 msgid "Sorry, we couldn't verify your password. Please reset your password."
 msgstr "Non è stato possibile verificare la password Ti invitiamo a reimpostarla."
 
@@ -2745,6 +2789,9 @@ msgstr "Siamo spiacenti, il tuo account non è autorizzato per qualsiasi altro a
 
 msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "Siamo spiacenti, il tuo conto non è autorizzato ad accedere all'applicazione. Al momento, solo i conti in USD hanno l'autorizzazione."
+
+msgid "Sorry, your trading account is already linked to a wallet."
+msgstr ""
 
 msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 msgstr "Il prelievo per l'indirizzo: %1 è in fase di esecuzione oppure è stato rifiutato."
@@ -2944,11 +2991,21 @@ msgstr "Il contratto è scaduto"
 msgid "The contract must expire on a trading day."
 msgstr "Il contratto deve scadere nella giornata di trading."
 
+#, fuzzy
+#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
+msgid "The credit to your Deriv account did not complete. Please contact our Customer Support team."
+msgstr "Non puoi depositare perché il conto MT5 è disabilitato. Contatta l'assistenza clienti per maggiori informazioni."
+
 msgid "The date of birth on your document doesn't match your profile."
 msgstr "La data di nascita sul documento non corrisponde a quella del tuo profilo."
 
 msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
 msgstr "La data inserita non è valida, poiché deve essere compresa tra 1% e 2%."
+
+#, fuzzy
+#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
+msgid "The deposit to your Deriv X account did not complete. Please contact our Customer Support team."
+msgstr "Non puoi depositare perché il conto MT5 è disabilitato. Contatta l'assistenza clienti per maggiori informazioni."
 
 msgid "The details in the proof of address don’t match your profile."
 msgstr "I dettagli del documento di verifica dell'inidirizzo non corrispondono al tuo profilo."
@@ -3049,6 +3106,11 @@ msgstr "La password per il tuo account %1 è stata ripristinata. Se tale richies
 msgid "The payment agent facility is not available for this account."
 msgstr "La funzione dell'agente di pagamento non è disponibile per questo account."
 
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided Deriv account ID is not valid."
+msgstr "La valuta %1 fornita non è valida."
+
 msgid "The provided currency %1 is invalid."
 msgstr "La valuta %1 fornita non è valida."
 
@@ -3073,6 +3135,12 @@ msgstr "L'importo minimo richiesto deve essere maggiore di zero."
 msgid "The requested service is unavailable at the moment."
 msgstr "Il servizio richiesto non è momentaneamente disponibile."
 
+msgid "The required funds could not be withdrawn from your Deriv X account. Pleaese try later or use a different account."
+msgstr ""
+
+msgid "The required funds could not be withdrawn from your Deriv account. Pleaese try a different account."
+msgstr ""
+
 msgid "The selfie submitted does not show a clear image of your face."
 msgstr "La foto inviata non permette di vedere chiaramente il tuo volto."
 
@@ -3093,6 +3161,14 @@ msgstr "Il token non è valido."
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "L'operazione è stata effettuata da <strong>%1, %2</strong>."
+
+msgid "The transfer completed successfully, but an error occured when getting account details."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your crypto withdrawal request could not be completed"
+msgid "The transfer could not be completed: %1"
+msgstr "Non è stato possibile eseguire il prelievo di criptovalute come richiesto"
 
 msgid "The type of document you submitted as proof of identity can't be accepted"
 msgstr "Il tipo di documento inviato come verifica dell'identità non è idoneo"
@@ -3205,7 +3281,17 @@ msgstr "Questa valuta è momentaneamente sospesa: selezionane un'altra per proce
 msgid "This email address is invalid."
 msgstr "Questo indirizzo email non è valido."
 
+#, fuzzy
+#| msgid "Sorry, this feature is available to virtual accounts only."
+msgid "This feature is not available for virtual accounts."
+msgstr "Siamo spiacenti, questa funzione è disponibile solo sugli account virtuali."
+
 msgid "This feature is only available for accounts with crypto as currency."
+msgstr "Questa opzione è disponibile solo per conti con criptovalute."
+
+#, fuzzy
+#| msgid "This feature is only available for accounts with crypto as currency."
+msgid "This feature is only available for wallet accounts."
 msgstr "Questa opzione è disponibile solo per conti con criptovalute."
 
 msgid "This field is required."
@@ -3249,6 +3335,9 @@ msgstr "Questo ordine è oggetto di contestazione."
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "Questa motivazione non si applica al tuo caso: scegli un'altra motivazione."
+
+msgid "This request must be made using a connection authorized by the Deriv account involved in the transfer."
+msgstr ""
 
 msgid "This resource cannot be accessed by this account type."
 msgstr "Non è possibile accedere alla risorsa con questo tipo di conto."
@@ -3364,14 +3453,39 @@ msgstr "Operazione non ancora effettuata."
 msgid "Transactions"
 msgstr "Transazioni"
 
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between two Deriv X accounts is not allowed."
+msgstr "Non sono consentiti trasferimenti tra conti MT5."
+
 msgid "Transfer between two MT5 accounts is not allowed."
 msgstr "Non sono consentiti trasferimenti tra conti MT5."
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1"
+msgid "Transfer from Deriv X account %1"
+msgstr "Trasferimento dal conto MT5 %1"
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1. %2."
+msgid "Transfer from Deriv X account %1. %2."
+msgstr "Trasferimento dal conto MT5 %1. %2."
 
 msgid "Transfer from MT5 account %1"
 msgstr "Trasferimento dal conto MT5 %1"
 
 msgid "Transfer from MT5 account %1. %2."
 msgstr "Trasferimento dal conto MT5 %1. %2."
+
+#, fuzzy
+#| msgid "Transfer to MT5 account %1"
+msgid "Transfer to Deriv X account %1"
+msgstr "Trasferimento sul conto %1 MT5"
+
+#, fuzzy
+#| msgid "Transfer to MT5 account %1. %2."
+msgid "Transfer to Deriv X account %1. %2."
+msgstr "Trasferimento sul conto MT5 %1. %2."
 
 msgid "Transfer to MT5 account %1"
 msgstr "Trasferimento sul conto %1 MT5"
@@ -3388,6 +3502,11 @@ msgstr "Al momento non è possibile effettuare trasferimenti tra %1 e %2. Usa un
 msgid "Transfers are not allowed for these accounts."
 msgstr "I trasferimenti non sono consentiti per questo conto."
 
+#, fuzzy
+#| msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+msgid "Transfers are suspended for system maintenance. Please try later."
+msgstr "Siamo spiacenti, il Trasferimento dell'agente di pagamento è temporaneamente disattivato per questioni di manutenzione del sistema. Si prega di riprovare tra 30 minuti."
+
 msgid "Transfers are unavailable on weekends. Please try again anytime from Monday to Friday."
 msgstr "I trasferimenti non sono disponibili durante il weekend. Riprova in qualsiasi momento da lunedì a venerdì."
 
@@ -3399,6 +3518,16 @@ msgstr "I trasferimenti tra gli account non sono disponibili per il tuo account.
 
 msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
 msgstr "I trasferimenti tra conti di fiat e criptovalute non sono momentaneamente disponibili. Ti invitiamo a riprovare più tardi."
+
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
+msgid "Transfers between these accounts are temporarily unavailable. Please try later."
+msgstr "I trasferimenti tra conti di fiat e criptovalute non sono momentaneamente disponibili. Ti invitiamo a riprovare più tardi."
+
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "Transfers have been blocked on this account."
+msgstr "I trasferimenti non sono consentiti per questo conto."
 
 msgid "Typical processing time is %1 to %2 business days."
 msgstr "Generalmente il tempo richiesto per l'operazione è di 1%-2% giorni lavorativi."
@@ -4099,7 +4228,9 @@ msgstr "Sì, sono io!"
 msgid "Yes, reset my %1 password"
 msgstr "Sì, reimposta la password %1"
 
-msgid "You already have DXtrade account of this type (account ID %1)."
+#, fuzzy
+#| msgid "You already have DXtrade account of this type (account ID %1)."
+msgid "You already have Deriv X account of this type (account ID %1)."
 msgstr "Hai già un conto DXtrade di questo tipo (ID del conto %1)."
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
@@ -4416,6 +4547,11 @@ msgstr "Tua %1 non è valido."
 
 msgid "Your DMT5 account new password request"
 msgstr "La richiesta di una nuova password per il conto DMT5"
+
+#, fuzzy
+#| msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
+msgid "Your Deriv X account balance is insufficient for this withdrawal."
+msgstr "Il saldo del tuo account (%1%2) non è sufficiente per acquistare questo contratto (%3 %2)."
 
 msgid "Your Details"
 msgstr "I tuoi dettagli"
@@ -10629,6 +10765,12 @@ msgstr "tramite live chat."
 #~ msgid "Imperial Tobacco Group plc"
 #~ msgstr "Imperial Tobacco Group plc"
 
+#~ msgid "Important:"
+#~ msgstr "Importante:"
+
+#~ msgid "Important: Please use the address above only once."
+#~ msgstr "Importante: usa l'indirizzo riportato sopra solo una volta."
+
 #~ msgid "Improve Binary.com’s front-end content"
 #~ msgstr "Migliora il contenuto front-end di Binary.com"
 
@@ -13402,6 +13544,9 @@ msgstr "tramite live chat."
 #~ msgid "Please use only letters, spaces, hyphens, full-stops or apostrophes."
 #~ msgstr "Utilizza solo lettere, spazi, trattini, punti o apostrofi."
 
+#~ msgid "Please use the address above only once."
+#~ msgstr "Usa l'indirizzo sopra solo una volta."
+
 #~ msgid "Please wait.<br />Your request is being processed."
 #~ msgstr "Attendi.<br />La tua richiesta sta per essere elaborata."
 
@@ -14485,9 +14630,6 @@ msgstr "tramite live chat."
 #~ msgid "Sorry, $currency is not default currency for payment agent "
 #~ msgstr "Siamo spiacenti, $currency non è la valuta di default per l'agente di pagamento "
 
-#~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-#~ msgstr "Siamo spiacenti, il Trasferimento dell'agente di pagamento è temporaneamente disattivato per questioni di manutenzione del sistema. Si prega di riprovare tra 30 minuti."
-
 #~ msgid "Sorry, an error occured with this trade.  Please try again in a few minutes.  If the problem persists, please contact customer support."
 #~ msgstr "Siamo spiacenti, si è verificato un errore su questo trade. Si prega di riprovare fra qualche minuto. Se il problema persiste, si prega di contattare l'assistenza clienti."
 
@@ -14565,9 +14707,6 @@ msgstr "tramite live chat."
 
 #~ msgid "Sorry, there is too much data to display, please select a shorter interval"
 #~ msgstr "Siamo spiacenti, ci sono troppi dati da mostrare. Si prega di selezionare un intervallo più breve"
-
-#~ msgid "Sorry, this feature is available to virtual accounts only."
-#~ msgstr "Siamo spiacenti, questa funzione è disponibile solo sugli account virtuali."
 
 #~ msgid "Sorry, this page cannot be refreshed."
 #~ msgstr "Siamo spiacenti, questa pagina non può essere aggiornata."
@@ -16384,9 +16523,6 @@ msgstr "tramite live chat."
 
 #~ msgid "Ultra-fast trading"
 #~ msgstr "Trading ultra rapido"
-
-#~ msgid "Unable to get account details for your MT5 account %1."
-#~ msgstr "Impossibile ottenere i dettagli dell'account per il tuo account MT5 %1."
 
 #~ msgid "Unable to process your request"
 #~ msgstr "Impossibile elaborare la tua richiesta"

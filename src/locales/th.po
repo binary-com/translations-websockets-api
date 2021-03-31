@@ -32,6 +32,11 @@ msgstr "%1 และ %2"
 msgid "%1 barrier offset can not have more than %2 decimal places."
 msgstr "%1 การชดเชย barrier ต้องมีทศนิยมไม่เกิน %2 ตำแหน่ง"
 
+#, fuzzy
+#| msgid "Payments are suspended."
+msgid "%1 currency transfers are suspended."
+msgstr "การชำระเงินถูกระงับชั่วคราว"
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 ไม่ถูกต้อง สำหรับประเภทสัญญา %2"
 
@@ -301,6 +306,9 @@ msgstr "เกิดข้อผิดพลาดขณะสร้างกา
 msgid "An error occurred when issuing a new token. Please try again later."
 msgstr "เกิดข้อผิดพลาดเมื่อออกโทเค็นใหม่ โปรดลองใหม่อีกครั้งในภายหลัง"
 
+msgid "An invalid Deriv X account ID was provided."
+msgstr ""
+
 msgid "An order cannot be created for this amount at this time. Please try adjusting the amount."
 msgstr "ไม่สามารถสร้างใบสั่งสําหรับยอดเงินนี้ในขณะนี้ โปรดลองปรับจํานวนเงิน"
 
@@ -454,6 +462,14 @@ msgstr "ดัชนี Boom 1000"
 
 msgid "Boom 500 Index"
 msgstr "ดัชนี Boom 500"
+
+#, fuzzy
+#| msgid "Withdrawals are not possible for demo accounts."
+msgid "Both accounts must be demo accounts."
+msgstr "การถอนเงินไม่สามารถทำได้กับบัญชีทดลอง"
+
+msgid "Both accounts must be real accounts."
+msgstr ""
 
 msgctxt "field for payment method Bank Transfer"
 msgid "Branch"
@@ -775,6 +791,9 @@ msgstr "ฝาก"
 
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "ไม่สามารถฝากเงินได้ในขณะนี้ กรุณาลองใหม่อีกครั้งในภายหลัง"
+
+msgid "Deriv X account management is currently suspended."
+msgstr ""
 
 msgid "Device:"
 msgstr "อุปกรณ์:"
@@ -1395,12 +1414,6 @@ msgstr "หากคุณมีปัญหาในการกด ให้�
 
 msgid "If you’ve forgotten your password, no problem. Just go to the %1Reset password page%2 to create a new one."
 msgstr "หากคุณลืมรหัสผ่าน ไม่เป็นไร เพียงไปที่หน้า%1รีเซ็ตรหัสผ่าน%2 เพื่อสร้างใหม่"
-
-msgid "Important:"
-msgstr "สำคัญ:"
-
-msgid "Important: Please use the address above only once."
-msgstr "ข้อควรระวัง: โปรดใช้ที่อยู่ข้างต้นเพียงครั้งเดียว"
 
 msgid "In order for you to place contracts, we need to know your Residence (Country). Please update your settings."
 msgstr "ในการดำเนินการสัญญาของท่าน พวกเราต้องการทราบประเทศที่ท่านพำนักอยู่ โปรดเพิ่มข้อมูลของท่าน"
@@ -2126,6 +2139,12 @@ msgstr "โปรดติดต่อ %1ฝ่ายบริการลูก
 msgid "Please deposit to your account."
 msgstr "โปรดฝากเงิน หรือ หลักประกัน ในบัญชีของท่าน"
 
+msgid "Please ensure your trading account currency is the same as your wallet account currency."
+msgstr ""
+
+msgid "Please ensure your trading account type is the same as your wallet account type."
+msgstr ""
+
 msgid "Please enter a limit value that's greater than 0."
 msgstr "โปรดป้อนค่าจำกัดที่มากกว่า 0"
 
@@ -2231,7 +2250,9 @@ msgstr "โปรดทราบว่า ท่านสามารถใช�
 msgid "Please note that your settings have been updated as follows:"
 msgstr "การตั้งค่าของท่านมีการแก้ไขดังต่อไปนี้:"
 
-msgid "Please provide a currency for the DXtrade account."
+#, fuzzy
+#| msgid "Please provide a currency for the DXtrade account."
+msgid "Please provide a currency for the Deriv X account."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชี DXtrade"
 
 msgid "Please provide a valid email address."
@@ -2279,6 +2300,11 @@ msgstr "โปรดระบุ"
 msgid "Please select an ad that matches your currency."
 msgstr "โปรดเลือกโฆษณาที่ตรงกับสกุลเงินของคุณ"
 
+#, fuzzy
+#| msgid "Please set your account currency."
+msgid "Please select your account currency first."
+msgstr "โปรดกำหนดสกุลเงินบัญชีของคุณ"
+
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชีเดิมของท่าน %1 เพื่อดำเนินการเปิดบัญชีใหม่"
 
@@ -2320,9 +2346,6 @@ msgstr "โปรดเปลี่ยนบัญชีเพื่อทำก
 
 msgid "Please use different passwords for your investor and main accounts."
 msgstr "โปรดใช้รหัสผ่านที่แตกต่างกันสำหรับบัญชีนักลงทุนและบัญชีหลักของคุณ"
-
-msgid "Please use the address above only once."
-msgstr "โปรดใช้ที่อยู่ข้างต้นเพียงครั้งเดียว"
 
 msgid "Please use the token below to create your new password."
 msgstr "โปรดใช้โทเค็นด้านล่างเพื่อสร้างรหัสผ่านใหม่ของคุณ"
@@ -2711,6 +2734,27 @@ msgstr "ขออภัย ฟังก์ชันนี้ไม่ได้�
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "ขออภัย ไม่สามารถโอนได้ในขณะนี้ กรุณาทำรายการใหม่ภายหลัง"
 
+msgid "Sorry, we couldn't find your DXTrader account."
+msgstr ""
+
+#, fuzzy
+#| msgid "Unable to get account details for your MT5 account %1."
+msgid "Sorry, we couldn't find your MT5 account."
+msgstr "ไม่สามารถดึงรายละเอียดบัญชีได้สำหรับบัญชี MT5 ของท่าน %1"
+
+#, fuzzy
+#| msgid "Sorry, you are too young to open an account."
+msgid "Sorry, we couldn't find your trading account."
+msgstr "ขออภัย ท่านอายุยังไม่ถึงเกณฑ์ที่เป็นคุณสมบัติสำหรับผู้สมัครในการเปิดบัญชี"
+
+#, fuzzy
+#| msgid "Sorry, we couldn't verify your password. Please reset your password."
+msgid "Sorry, we couldn't find your wallet account."
+msgstr "ขออภัย เราไม่สามารถยืนยันรหัสผ่านของคุณได้ กรุณาตั้งค่ารหัสผ่านของคุณใหม่"
+
+msgid "Sorry, we couldn't link your trading account to this wallet."
+msgstr ""
+
 msgid "Sorry, we couldn't verify your password. Please reset your password."
 msgstr "ขออภัย เราไม่สามารถยืนยันรหัสผ่านของคุณได้ กรุณาตั้งค่ารหัสผ่านของคุณใหม่"
 
@@ -2749,6 +2793,9 @@ msgstr "ขออภัย บัญชีของท่านไม่ได�
 
 msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "ขออภัย บัญชีของท่านไม่ได้รับอนุญาตให้เข้าใช้แอพพลิเคชันนี้ เฉพาะบัญชี USD เท่านั้นที่ได้รับอนุญาต"
+
+msgid "Sorry, your trading account is already linked to a wallet."
+msgstr ""
 
 msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 msgstr "ขออภัยรายการถอนเงินของคุณสำหรับที่อยู่: %1 อยู่ระหว่างการดำเนินการหรือถูกปฏิเสธ"
@@ -2948,11 +2995,21 @@ msgstr "สัญญาหมดอายุ"
 msgid "The contract must expire on a trading day."
 msgstr "สัญญาจะหมดอายุในวันที่ซื้อขาย"
 
+#, fuzzy
+#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
+msgid "The credit to your Deriv account did not complete. Please contact our Customer Support team."
+msgstr "คุณไม่สามารถทำการฝากเงินได้เนื่องจากบัญชี MT5 ถูกปิดการใช้งาน โปรดติดต่อทีมสนับสนุนลูกค้าของเรา"
+
 msgid "The date of birth on your document doesn't match your profile."
 msgstr "วันเกิดในเอกสารของคุณไม่ตรงกับโปรไฟล์ของคุณ"
 
 msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
 msgstr "วันที่ที่คุณป้อนไม่ได้รับการอนุญาต โปรดป้อนวันที่ระหว่าง %1 ถึง %2"
+
+#, fuzzy
+#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
+msgid "The deposit to your Deriv X account did not complete. Please contact our Customer Support team."
+msgstr "คุณไม่สามารถทำการฝากเงินได้เนื่องจากบัญชี MT5 ถูกปิดการใช้งาน โปรดติดต่อทีมสนับสนุนลูกค้าของเรา"
 
 msgid "The details in the proof of address don’t match your profile."
 msgstr "รายละเอียดในหลักฐานยืนยันที่อยู่ไม่ตรงกับโปรไฟล์ของคุณ"
@@ -3053,6 +3110,11 @@ msgstr "รหัสผ่านของบัญชีท่าน %1 มี�
 msgid "The payment agent facility is not available for this account."
 msgstr "ไม่มีบริการตัวแทนรับชำระเงินสำหรับบัญชีนี้"
 
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided Deriv account ID is not valid."
+msgstr "สกุลเงิน %1 ดังกล่าวไม่ถูกต้อง"
+
 msgid "The provided currency %1 is invalid."
 msgstr "สกุลเงิน %1 ดังกล่าวไม่ถูกต้อง"
 
@@ -3077,6 +3139,12 @@ msgstr "จำนวนเงินขั้นต่ำที่ร้องข
 msgid "The requested service is unavailable at the moment."
 msgstr "ขออภัย ไม่สามารถให้บริการดังกล่าวได้ในขณะนี้"
 
+msgid "The required funds could not be withdrawn from your Deriv X account. Pleaese try later or use a different account."
+msgstr ""
+
+msgid "The required funds could not be withdrawn from your Deriv account. Pleaese try a different account."
+msgstr ""
+
 msgid "The selfie submitted does not show a clear image of your face."
 msgstr "รูปเซลฟี่ที่ส่งมาไม่ได้แสดงรูปใบหน้าของคุณที่ชัดเจน"
 
@@ -3097,6 +3165,14 @@ msgstr "โทเค่นไม่ถูกต้อง"
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "ธุรกรรมเสร็จสมบูรณ์โดย <strong>%1 %2</strong>"
+
+msgid "The transfer completed successfully, but an error occured when getting account details."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your crypto withdrawal request could not be completed"
+msgid "The transfer could not be completed: %1"
+msgstr "คำขอการถอนเงินดิจิทัลของคุณไม่สำเร็จ"
 
 msgid "The type of document you submitted as proof of identity can't be accepted"
 msgstr "ประเภทของเอกสารที่คุณส่งเป็นหลักฐานยืนยันตัวตนไม่ถูกต้อง"
@@ -3209,7 +3285,17 @@ msgstr "สกุลเงินนี้ถูกระงับชั่วค
 msgid "This email address is invalid."
 msgstr "อีเมล์ไม่ถูกต้อง"
 
+#, fuzzy
+#| msgid "Sorry, this feature is available to virtual accounts only."
+msgid "This feature is not available for virtual accounts."
+msgstr "ขออภัย ฟังก์ชันนี้มีให้ใช้งานเฉพาะบัญชีทดลองใช้เท่านั้น"
+
 msgid "This feature is only available for accounts with crypto as currency."
+msgstr "ฟีเจอร์นี้ใช้ได้เฉพาะบัญชีสกุลเงินดิจิทัลเท่านั้น"
+
+#, fuzzy
+#| msgid "This feature is only available for accounts with crypto as currency."
+msgid "This feature is only available for wallet accounts."
 msgstr "ฟีเจอร์นี้ใช้ได้เฉพาะบัญชีสกุลเงินดิจิทัลเท่านั้น"
 
 msgid "This field is required."
@@ -3253,6 +3339,9 @@ msgstr "คำสั่งซื้อนี้อยู่ระหว่าง
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "เหตุผลนี้ไม่สามารถใช้ได้กับกรณีของคุณ โปรดเลือกเหตุผลอื่น"
+
+msgid "This request must be made using a connection authorized by the Deriv account involved in the transfer."
+msgstr ""
 
 msgid "This resource cannot be accessed by this account type."
 msgstr "ชนิดบัญชีนี้ไม่สามารถเข้าถึงทรัพยากรนี้"
@@ -3368,14 +3457,39 @@ msgstr "ยังไม่ได้ประมวลผลธุรกรรม
 msgid "Transactions"
 msgstr "ธุรกรรม"
 
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between two Deriv X accounts is not allowed."
+msgstr "ไม่อนุญาตให้โอนเงินระหว่างสองบัญชีของ MT5"
+
 msgid "Transfer between two MT5 accounts is not allowed."
 msgstr "ไม่อนุญาตให้โอนเงินระหว่างสองบัญชีของ MT5"
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1"
+msgid "Transfer from Deriv X account %1"
+msgstr "โอนเงินจากบัญชี MT5 %1"
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1. %2."
+msgid "Transfer from Deriv X account %1. %2."
+msgstr "โอนเงินจากบัญชี MT5 %1 %2"
 
 msgid "Transfer from MT5 account %1"
 msgstr "โอนเงินจากบัญชี MT5 %1"
 
 msgid "Transfer from MT5 account %1. %2."
 msgstr "โอนเงินจากบัญชี MT5 %1 %2"
+
+#, fuzzy
+#| msgid "Transfer to MT5 account %1"
+msgid "Transfer to Deriv X account %1"
+msgstr "โอนย้ายไปที่บัญชี MT5 %1"
+
+#, fuzzy
+#| msgid "Transfer to MT5 account %1. %2."
+msgid "Transfer to Deriv X account %1. %2."
+msgstr "โอนย้ายไปที่บัญชี MT5 %1 %2"
 
 msgid "Transfer to MT5 account %1"
 msgstr "โอนย้ายไปที่บัญชี MT5 %1"
@@ -3392,6 +3506,11 @@ msgstr "การโอนไม่สามารถใช้งานได้
 msgid "Transfers are not allowed for these accounts."
 msgstr "บัญชีเหล่านี้ไม่อนุญาตให้ทำการโอน"
 
+#, fuzzy
+#| msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+msgid "Transfers are suspended for system maintenance. Please try later."
+msgstr "ขออภัย การโอนเงินผ่านตัวแทนรับชำระเงินใช้งานไม่ได้ชั่วคราว เนื่องจากการปรับปรุงระบบ โปรดทดลองอีกครั้งในอีก 30 นาที"
+
 msgid "Transfers are unavailable on weekends. Please try again anytime from Monday to Friday."
 msgstr "การโอนไม่สามารถใช้งานได้ในวันหยุดสุดสัปดาห์ โปรดลองอีกครั้งในช่วงเวลาทำการ วันจันทร์ ถึง วันศุกร์"
 
@@ -3403,6 +3522,16 @@ msgstr "การโอนบัญชีระหว่างบัญชีไ
 
 msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
 msgstr "ขณะนี้ การโอนเงินระหว่างบัญชีเงินจริงและบัญชีเงินดิจิทัลไม่สามารถดำเนินการได้ โปรดลองใหม่ในภายหลัง"
+
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
+msgid "Transfers between these accounts are temporarily unavailable. Please try later."
+msgstr "ขณะนี้ การโอนเงินระหว่างบัญชีเงินจริงและบัญชีเงินดิจิทัลไม่สามารถดำเนินการได้ โปรดลองใหม่ในภายหลัง"
+
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "Transfers have been blocked on this account."
+msgstr "บัญชีเหล่านี้ไม่อนุญาตให้ทำการโอน"
 
 msgid "Typical processing time is %1 to %2 business days."
 msgstr "เวลาประมวลผลโดยทั่วไปคือ %1 ถึง %2 วันทําการ"
@@ -4103,7 +4232,9 @@ msgstr "ใช่ฉันเอง!"
 msgid "Yes, reset my %1 password"
 msgstr "ใช่ รีเซ็ตรหัสผ่าน %1 ของฉัน"
 
-msgid "You already have DXtrade account of this type (account ID %1)."
+#, fuzzy
+#| msgid "You already have DXtrade account of this type (account ID %1)."
+msgid "You already have Deriv X account of this type (account ID %1)."
 msgstr "คุณมีบัญชี DXtrade ประเภทนี้แล้ว (รหัสบัญชี %1)"
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
@@ -4420,6 +4551,11 @@ msgstr "%1 ของท่านไม่ถูกต้อง"
 
 msgid "Your DMT5 account new password request"
 msgstr "คําขอรหัสผ่านใหม่ของบัญชี DMT5 ของคุณ"
+
+#, fuzzy
+#| msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
+msgid "Your Deriv X account balance is insufficient for this withdrawal."
+msgstr "ยอดเงินคงเหลือในบัญชีของคุณ (%1 %2) ไม่เพียงพอในการซื้อสัญญานี้ (%3 %2)"
 
 msgid "Your Details"
 msgstr "รายละเอียดของท่าน"
@@ -10125,6 +10261,12 @@ msgstr "ผ่านการแชทสด"
 #~ msgid "Imperial Tobacco Group plc"
 #~ msgstr "Imperial Tobacco Group plc"
 
+#~ msgid "Important:"
+#~ msgstr "สำคัญ:"
+
+#~ msgid "Important: Please use the address above only once."
+#~ msgstr "ข้อควรระวัง: โปรดใช้ที่อยู่ข้างต้นเพียงครั้งเดียว"
+
 #~ msgid "Improve Binary.com’s front-end content"
 #~ msgstr "ปรับปรุงเนื้อหาของ Binary.com"
 
@@ -12442,6 +12584,9 @@ msgstr "ผ่านการแชทสด"
 #~ msgid "Please type your chosen password twice into the fields below:"
 #~ msgstr "โปรดพิมพ์รหัสผ่านที่ท่านเลือกสองครั้งในช่องว่างด้านล่าง:"
 
+#~ msgid "Please use the address above only once."
+#~ msgstr "โปรดใช้ที่อยู่ข้างต้นเพียงครั้งเดียว"
+
 #~ msgid "Please wait.<br />Your request is being processed."
 #~ msgstr "กรุณารอสักครู่<br />กำลังดำเนินการการร้องขอของท่าน"
 
@@ -13315,9 +13460,6 @@ msgstr "ผ่านการแชทสด"
 #~ msgid "Sony Corporation"
 #~ msgstr "Sony Corporation"
 
-#~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-#~ msgstr "ขออภัย การโอนเงินผ่านตัวแทนรับชำระเงินใช้งานไม่ได้ชั่วคราว เนื่องจากการปรับปรุงระบบ โปรดทดลองอีกครั้งในอีก 30 นาที"
-
 #~ msgid "Sorry, an error occured with this trade.  Please try again in a few minutes.  If the problem persists, please contact customer support."
 #~ msgstr "ขออภัย มีข้อผิดพลาดเกิดขึ้นในการซื้อขายครั้งนี้ โปรดลองใหม่อีกครั้งภายหลัง หากยังพบปัญหาอยู่ โปรดติดต่อเจ้าหน้าที่บริการลูกค้าของเรา"
 
@@ -13377,9 +13519,6 @@ msgstr "ผ่านการแชทสด"
 
 #~ msgid "Sorry, there is too much data to display, please select a shorter interval"
 #~ msgstr "ขออภัย ข้อมูลที่แสดงมีมากเกินไป โปรดกำหนดช่วงเวลาให้สั้นลง"
-
-#~ msgid "Sorry, this feature is available to virtual accounts only."
-#~ msgstr "ขออภัย ฟังก์ชันนี้มีให้ใช้งานเฉพาะบัญชีทดลองใช้เท่านั้น"
 
 #~ msgid "Sorry, this page cannot be refreshed."
 #~ msgstr "ขออภัย หน้านี้ไม่สามารถถูกรีเฟรช"
@@ -14564,9 +14703,6 @@ msgstr "ผ่านการแชทสด"
 
 #~ msgid "Ultra-fast trading"
 #~ msgstr "การซื้อขายที่เร็วยิ่งยวด"
-
-#~ msgid "Unable to get account details for your MT5 account %1."
-#~ msgstr "ไม่สามารถดึงรายละเอียดบัญชีได้สำหรับบัญชี MT5 ของท่าน %1"
 
 #~ msgid "Under Armour Inc."
 #~ msgstr "Under Armour Inc."

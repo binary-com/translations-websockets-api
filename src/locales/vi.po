@@ -32,6 +32,11 @@ msgstr "%1 và %2"
 msgid "%1 barrier offset can not have more than %2 decimal places."
 msgstr "%1 độ lệch hàng rào không được có nhiều hơn %2 chữ số thập phân."
 
+#, fuzzy
+#| msgid "Payments are suspended."
+msgid "%1 currency transfers are suspended."
+msgstr "Thanh toán bị tạm ngừng."
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 là thông tin nhập vào không hợp lệ cho loại hợp đồng %2."
 
@@ -301,6 +306,9 @@ msgstr "Đã xảy ra lỗi khi tạo trò chuyện. Vui lòng thử lại sau."
 msgid "An error occurred when issuing a new token. Please try again later."
 msgstr "Đã xảy ra vấn đề khi phát hành mã token mới. Vui lòng thử lại sau."
 
+msgid "An invalid Deriv X account ID was provided."
+msgstr ""
+
 msgid "An order cannot be created for this amount at this time. Please try adjusting the amount."
 msgstr "Không thể tạo đơn hàng cho số tiền này vào lúc này. Vui lòng thử điều chỉnh số lượng."
 
@@ -454,6 +462,14 @@ msgstr "Chỉ số Boom 1000"
 
 msgid "Boom 500 Index"
 msgstr "Chỉ số Boom 500"
+
+#, fuzzy
+#| msgid "Withdrawals are not possible for demo accounts."
+msgid "Both accounts must be demo accounts."
+msgstr "Rút tiền không khả dụng cho các tài khoản demo."
+
+msgid "Both accounts must be real accounts."
+msgstr ""
 
 msgctxt "field for payment method Bank Transfer"
 msgid "Branch"
@@ -776,6 +792,9 @@ msgstr "Gửi tiền"
 
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "Gửi tiền hiện không khả dụng. Vui lòng thử lại sau."
+
+msgid "Deriv X account management is currently suspended."
+msgstr ""
 
 msgid "Device:"
 msgstr "Thiết bị:"
@@ -1396,12 +1415,6 @@ msgstr "Nếu bạn đang gặp vấn đề với nút xác nhận, hã
 
 msgid "If you’ve forgotten your password, no problem. Just go to the %1Reset password page%2 to create a new one."
 msgstr "Nếu bạn quên mật khẩu của mình đừng lo. Chỉ cần đi đến %1trang đổi mật khẩu%2 để tạo mật khẩu mới."
-
-msgid "Important:"
-msgstr "Lưu ý:"
-
-msgid "Important: Please use the address above only once."
-msgstr "Chú ý: Vui lòng chỉ sử dụng địa chỉ trên duy nhất một lần."
 
 msgid "In order for you to place contracts, we need to know your Residence (Country). Please update your settings."
 msgstr "Để bạn có thể đặt hợp đồng, chúng tôi cần biết Quốc Gia bạn đang cư trú. Vui lòng cập nhật thông tin cá nhân."
@@ -2127,6 +2140,12 @@ msgstr "Xin vui lòng liên hệ với %1hỗ trợ khách hàng%2 nếu bạn m
 msgid "Please deposit to your account."
 msgstr "Vui lòng gửi tiền vào tài khoản của bạn."
 
+msgid "Please ensure your trading account currency is the same as your wallet account currency."
+msgstr ""
+
+msgid "Please ensure your trading account type is the same as your wallet account type."
+msgstr ""
+
 msgid "Please enter a limit value that's greater than 0."
 msgstr "Vui lòng nhập giá trị giới hạn lớn hơn 0."
 
@@ -2232,7 +2251,9 @@ msgstr "Xin lưu ý rằng bạn chỉ được sở hữu một tài khoản
 msgid "Please note that your settings have been updated as follows:"
 msgstr "Vui lòng chú ý rằng thiết lập của bạn đã được cập nhật như sau:"
 
-msgid "Please provide a currency for the DXtrade account."
+#, fuzzy
+#| msgid "Please provide a currency for the DXtrade account."
+msgid "Please provide a currency for the Deriv X account."
 msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản DXtrade."
 
 msgid "Please provide a valid email address."
@@ -2280,6 +2301,11 @@ msgstr "Vui lòng chọn"
 msgid "Please select an ad that matches your currency."
 msgstr "Vui lòng chọn một quảng cáo khớp với loại tiền tệ của bạn."
 
+#, fuzzy
+#| msgid "Please set your account currency."
+msgid "Please select your account currency first."
+msgstr "Vui lòng thiết lập loại tiền tệ cho tài khoản."
+
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản %1 của bạn, để có thể tạo thêm tài khoản."
 
@@ -2321,9 +2347,6 @@ msgstr "Vui lòng chuyển đổi tài khoản để giao dịch thị trư
 
 msgid "Please use different passwords for your investor and main accounts."
 msgstr "Vui lòng sử dụng một mật khẩu khác nhau cho nhà đầu tư và tài khoản chính của bạn."
-
-msgid "Please use the address above only once."
-msgstr "Vui lòng chỉ sử dụng địa chỉ trên duy nhất một lần."
 
 msgid "Please use the token below to create your new password."
 msgstr "Vui lòng sử dụng mã xác nhận sau để tạo mật khẩu mới."
@@ -2712,6 +2735,27 @@ msgstr "Xin lỗi, chức năng này không khả dụng."
 msgid "Sorry, transfers are currently unavailable. Please try again later."
 msgstr "Rất tiếc, chuyển khoản hiện không khả dụng. Vui lòng thử lại sau."
 
+msgid "Sorry, we couldn't find your DXTrader account."
+msgstr ""
+
+#, fuzzy
+#| msgid "Unable to get account details for your MT5 account %1."
+msgid "Sorry, we couldn't find your MT5 account."
+msgstr "Không thể lấy thông tin cho tài khoản %1 MT5 của bạn."
+
+#, fuzzy
+#| msgid "Sorry, you are too young to open an account."
+msgid "Sorry, we couldn't find your trading account."
+msgstr "Rất tiếc, bạn chưa đủ tuổi để mở tài khoản."
+
+#, fuzzy
+#| msgid "Sorry, we couldn't verify your password. Please reset your password."
+msgid "Sorry, we couldn't find your wallet account."
+msgstr "Rất tiếc, chúng tôi không thể xác thực mật khẩu của bạn. Vui lòng đặt lại mật khẩu mới."
+
+msgid "Sorry, we couldn't link your trading account to this wallet."
+msgstr ""
+
 msgid "Sorry, we couldn't verify your password. Please reset your password."
 msgstr "Rất tiếc, chúng tôi không thể xác thực mật khẩu của bạn. Vui lòng đặt lại mật khẩu mới."
 
@@ -2750,6 +2794,9 @@ msgstr "Rất tiếc, tài khoản của bạn không có quyền mua thêm h
 
 msgid "Sorry, your account is not authorized to access this application. Currently, only USD accounts are allowed."
 msgstr "Rất tiếc, tài khoản của bạn không có quyền truy cập vào ứng dụng này. Hiện tại, chỉ các tài khoản USD được phép truy cập."
+
+msgid "Sorry, your trading account is already linked to a wallet."
+msgstr ""
 
 msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 msgstr "Rất tiếc, giao dịch rút tiền của bạn cho địa chỉ: %1 đang được xử lý hoặc đã bị từ chối."
@@ -2949,11 +2996,21 @@ msgstr "Hợp đồng đã hết hạn"
 msgid "The contract must expire on a trading day."
 msgstr "Hợp đồng phải hết hạn vào một ngày giao dịch."
 
+#, fuzzy
+#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
+msgid "The credit to your Deriv account did not complete. Please contact our Customer Support team."
+msgstr "Bạn không thể thực hiện lệnh nạp này vì tài khoản MT5 của bạn đang bị vô hiệu hóa. Vui lòng liên hệ cho bộ phận Chăm sóc khách hàng."
+
 msgid "The date of birth on your document doesn't match your profile."
 msgstr "Ngày sinh không khớp với hồ sơ của bạn."
 
 msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
 msgstr "Ngày bạn vừa điền không hợp lệ. Vui lòng điền một ngày giữa %1 và %2."
+
+#, fuzzy
+#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
+msgid "The deposit to your Deriv X account did not complete. Please contact our Customer Support team."
+msgstr "Bạn không thể thực hiện lệnh nạp này vì tài khoản MT5 của bạn đang bị vô hiệu hóa. Vui lòng liên hệ cho bộ phận Chăm sóc khách hàng."
 
 msgid "The details in the proof of address don’t match your profile."
 msgstr "Các chi tiết trong bằng chứng địa chỉ không khớp với hồ sơ của bạn."
@@ -3054,6 +3111,11 @@ msgstr "Mật khẩu cho tài khoản %1 của bạn đã được thiết 
 msgid "The payment agent facility is not available for this account."
 msgstr "Cơ sở đại lý thanh toán không khả dụng cho tài khoản này."
 
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided Deriv account ID is not valid."
+msgstr "Đơn vị tiền tệ %1 được cung cấp không hợp lệ."
+
 msgid "The provided currency %1 is invalid."
 msgstr "Đơn vị tiền tệ %1 được cung cấp không hợp lệ."
 
@@ -3078,6 +3140,12 @@ msgstr "Số vốn yêu cầu tối thiểu phải lớn hơn 0."
 msgid "The requested service is unavailable at the moment."
 msgstr "Dịch vụ được yêu cầu hiện đang không khả dụng."
 
+msgid "The required funds could not be withdrawn from your Deriv X account. Pleaese try later or use a different account."
+msgstr ""
+
+msgid "The required funds could not be withdrawn from your Deriv account. Pleaese try a different account."
+msgstr ""
+
 msgid "The selfie submitted does not show a clear image of your face."
 msgstr "Ảnh tự chụp được gửi không hiển thị rõ ràng hình ảnh khuôn mặt của bạn."
 
@@ -3098,6 +3166,14 @@ msgstr "Token không hợp lệ."
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "Giao dịch đã được hoàn tất bởi <strong>%1, %2 </strong>."
+
+msgid "The transfer completed successfully, but an error occured when getting account details."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your crypto withdrawal request could not be completed"
+msgid "The transfer could not be completed: %1"
+msgstr "Yêu cầu rút tiền tiện tử của bạn không thể được hoàn thiện"
 
 msgid "The type of document you submitted as proof of identity can't be accepted"
 msgstr "Loại tài liệu bạn đã gửi làm giấy tờ tùy thân không được chấp nhận"
@@ -3210,7 +3286,17 @@ msgstr "Loại tiền tệ này tạm thời bị đình chỉ. Vui lòng chọn
 msgid "This email address is invalid."
 msgstr "Địa chỉ email không hợp lệ."
 
+#, fuzzy
+#| msgid "Sorry, this feature is available to virtual accounts only."
+msgid "This feature is not available for virtual accounts."
+msgstr "Rất tiếc, tính năng này chỉ khả dụng với tài khoản tiền ảo."
+
 msgid "This feature is only available for accounts with crypto as currency."
+msgstr "Tính năng này chỉ khả dụng cho các tài khoản tiền điện tử."
+
+#, fuzzy
+#| msgid "This feature is only available for accounts with crypto as currency."
+msgid "This feature is only available for wallet accounts."
 msgstr "Tính năng này chỉ khả dụng cho các tài khoản tiền điện tử."
 
 msgid "This field is required."
@@ -3254,6 +3340,9 @@ msgstr "Đơn hàng đang được tranh chấp."
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "Lý do này không áp dụng cho trường hợp của bạn. Vui lòng chọn một lý do khác."
+
+msgid "This request must be made using a connection authorized by the Deriv account involved in the transfer."
+msgstr ""
 
 msgid "This resource cannot be accessed by this account type."
 msgstr "Nguồn này không thể truy cập bằng loại tài khoản này."
@@ -3369,14 +3458,39 @@ msgstr "Giao dịch chưa được thực hiện."
 msgid "Transactions"
 msgstr "Các giao dịch"
 
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between two Deriv X accounts is not allowed."
+msgstr "Chuyển khoản giữa hai tài khoản MT5 là không được phép."
+
 msgid "Transfer between two MT5 accounts is not allowed."
 msgstr "Chuyển khoản giữa hai tài khoản MT5 là không được phép."
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1"
+msgid "Transfer from Deriv X account %1"
+msgstr "Chuyển từ tài khoản MT5 %1"
+
+#, fuzzy
+#| msgid "Transfer from MT5 account %1. %2."
+msgid "Transfer from Deriv X account %1. %2."
+msgstr "Chuyển từ tài khoản MT5 %1. %2."
 
 msgid "Transfer from MT5 account %1"
 msgstr "Chuyển từ tài khoản MT5 %1"
 
 msgid "Transfer from MT5 account %1. %2."
 msgstr "Chuyển từ tài khoản MT5 %1. %2."
+
+#, fuzzy
+#| msgid "Transfer to MT5 account %1"
+msgid "Transfer to Deriv X account %1"
+msgstr "Chuyển khoản tài khoản MT5 %1"
+
+#, fuzzy
+#| msgid "Transfer to MT5 account %1. %2."
+msgid "Transfer to Deriv X account %1. %2."
+msgstr "Chuyển tới tài khoản MT5 %1. %2."
 
 msgid "Transfer to MT5 account %1"
 msgstr "Chuyển khoản tài khoản MT5 %1"
@@ -3393,6 +3507,11 @@ msgstr "Việc chuyển đổi giữa %1 và %2 đang không khả dụng. Vui l
 msgid "Transfers are not allowed for these accounts."
 msgstr "Việc chuyển khoản không được phép đối với các tài khoản này."
 
+#, fuzzy
+#| msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
+msgid "Transfers are suspended for system maintenance. Please try later."
+msgstr "Xin lỗi, Đại lý Chuyển khoản Thanh toán tạm thời không hoạt động do bảo trì hệ thống. Xin vui lòng thử lại sau 30 phút."
+
 msgid "Transfers are unavailable on weekends. Please try again anytime from Monday to Friday."
 msgstr "Việc chuyển đổi không khả dụng vào cuối tuần. Vui lòng thử lại vào các ngày từ Thứ Hai đến Thứ Sáu."
 
@@ -3404,6 +3523,16 @@ msgstr "Chuyển khoản giữa các tài khoản không khả dụng đối v�
 
 msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
 msgstr "Chuyển khoản giữa các tài khoản fiat và crypto hiện đang không khả dụng. Vui lòng thử lại sau."
+
+#, fuzzy
+#| msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
+msgid "Transfers between these accounts are temporarily unavailable. Please try later."
+msgstr "Chuyển khoản giữa các tài khoản fiat và crypto hiện đang không khả dụng. Vui lòng thử lại sau."
+
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "Transfers have been blocked on this account."
+msgstr "Việc chuyển khoản không được phép đối với các tài khoản này."
 
 msgid "Typical processing time is %1 to %2 business days."
 msgstr "Thời gian xử lý thông thường là %1 đến %2 ngày làm việc."
@@ -4104,7 +4233,9 @@ msgstr "Vâng, đó là tôi!"
 msgid "Yes, reset my %1 password"
 msgstr "Có, đặt lại mật khẩu %1 của tôi"
 
-msgid "You already have DXtrade account of this type (account ID %1)."
+#, fuzzy
+#| msgid "You already have DXtrade account of this type (account ID %1)."
+msgid "You already have Deriv X account of this type (account ID %1)."
 msgstr "Bạn đã có sẵn một tài khoản DXtrader (ID tài khoản %1)."
 
 msgid "You already have a financial money account. Please switch accounts to trade financial products."
@@ -4421,6 +4552,11 @@ msgstr "%1 của bạn không hợp lệ."
 
 msgid "Your DMT5 account new password request"
 msgstr "Yêu cầu mật khẩu mới cho tài khoản DMT5 của bạn"
+
+#, fuzzy
+#| msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
+msgid "Your Deriv X account balance is insufficient for this withdrawal."
+msgstr "Số dư tài khoản của bạn (%1 %2) không đủ để mua hợp đồng này (%3 %2)."
 
 msgid "Your Details"
 msgstr "Thông tin của bạn"
@@ -11163,6 +11299,12 @@ msgstr "qua chat trực tuyến."
 #~ msgid "Imperial Tobacco Group plc"
 #~ msgstr "Imperial Tobacco Group plc"
 
+#~ msgid "Important:"
+#~ msgstr "Lưu ý:"
+
+#~ msgid "Important: Please use the address above only once."
+#~ msgstr "Chú ý: Vui lòng chỉ sử dụng địa chỉ trên duy nhất một lần."
+
 #~ msgid "Improve Binary.com’s front-end content"
 #~ msgstr "Cải thiện nội dung front-end của Binary.com"
 
@@ -14158,6 +14300,9 @@ msgstr "qua chat trực tuyến."
 #~ msgid "Please use only letters, spaces, hyphens, full-stops or apostrophes."
 #~ msgstr "Vui lòng chỉ sử dụng các chữ cái, khoảng trắng, dấu gạch nối, dấu chấm hoặc dấu nháy."
 
+#~ msgid "Please use the address above only once."
+#~ msgstr "Vui lòng chỉ sử dụng địa chỉ trên duy nhất một lần."
+
 #~ msgid "Please wait.<br />Your request is being processed."
 #~ msgstr "Vui lòng chờ. <br />Yêu cầu của bạn đang được xử lý."
 
@@ -15344,9 +15489,6 @@ msgstr "qua chat trực tuyến."
 #~ msgid "Sorry, $currency is not default currency for payment agent "
 #~ msgstr "XIn lỗi, đồng tiền $ không phải là đồng tiền mặc định cho đại lý thanh toán "
 
-#~ msgid "Sorry, Payment Agent Transfer is temporarily disabled due to system maintenance. Please try again in 30 minutes."
-#~ msgstr "Xin lỗi, Đại lý Chuyển khoản Thanh toán tạm thời không hoạt động do bảo trì hệ thống. Xin vui lòng thử lại sau 30 phút."
-
 #~ msgid "Sorry, an error occured with this trade.  Please try again in a few minutes.  If the problem persists, please contact customer support."
 #~ msgstr "Xin lỗi, Lỗi xảy ra với giao dịch này. Xin vui lòng thử lại sau ít phút. Nếu lỗi còn diễn ra, xin vui lòng liên hệ với đội ngũ chăm sóc khách hàng."
 
@@ -15430,9 +15572,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "Sorry, there is too much data to display, please select a shorter interval"
 #~ msgstr "Xin lỗi, có quá nhiều dữ liệu hiển thị, vui lòng chọn giờ nghỉ ngắn hơn"
-
-#~ msgid "Sorry, this feature is available to virtual accounts only."
-#~ msgstr "Rất tiếc, tính năng này chỉ khả dụng với tài khoản tiền ảo."
 
 #~ msgid "Sorry, this page cannot be refreshed."
 #~ msgstr "Xin lỗi, trang này không thể làm tươi mới được."
@@ -17489,9 +17628,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "Ultra-fast trading"
 #~ msgstr "Giao dịch cực nhanh"
-
-#~ msgid "Unable to get account details for your MT5 account %1."
-#~ msgstr "Không thể lấy thông tin cho tài khoản %1 MT5 của bạn."
 
 #~ msgid "Unable to process your request"
 #~ msgstr "Không thể xử lý yêu cầu của bạn"
