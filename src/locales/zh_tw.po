@@ -1187,9 +1187,6 @@ msgstr "法國智慧指數"
 msgid "Fridays"
 msgstr "星期五"
 
-msgid "From account provided should be same as current authorized client."
-msgstr "帳戶所提供的必需與目前被授權客戶相符。"
-
 msgid "From date must be before To date for sending statement"
 msgstr "發送月結單的開始日期必須在結束日期之前"
 
@@ -3493,9 +3490,6 @@ msgstr "暫休時間不能大於6週。"
 msgid "Timeout time must be greater than current time."
 msgstr "暫休時間必須大於目前時間。"
 
-msgid "To account provided should be same as current authorized client."
-msgstr "目標帳戶必需與目前被授權客戶相符。"
-
 msgid "To enable them, you'll need to authenticate your account."
 msgstr "要啟用這些功能，您須驗證您的帳戶。"
 
@@ -3586,10 +3580,20 @@ msgstr "交易尚未處理。"
 msgid "Transactions"
 msgstr "交易"
 
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between real and virtual accounts is not allowed."
+msgstr "兩個MT5帳戶之間目前不可轉帳。"
+
 msgid "Transfer between two Deriv X accounts is not allowed."
 msgstr "不允許兩個 Deriv X 帳戶之間轉帳。"
 
 msgid "Transfer between two MT5 accounts is not allowed."
+msgstr "兩個MT5帳戶之間目前不可轉帳。"
+
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between wallet accounts is not allowed."
 msgstr "兩個MT5帳戶之間目前不可轉帳。"
 
 msgid "Transfer from Deriv X account %1"
@@ -3855,6 +3859,11 @@ msgstr "虛擬帳戶不需要上載文件。"
 
 msgid "Virtual money credit to account"
 msgstr "虛擬資金已經到帳"
+
+#, fuzzy
+#| msgid "Account transfers are not possible between %1 and %2."
+msgid "Virtual transfers are only possible between wallet and other account types."
+msgstr "%1和%2之間不可轉帳。"
 
 msgid "Volatility 10 (1s) Index"
 msgstr "波動率10 (1s)指數"
@@ -4333,9 +4342,6 @@ msgstr "提款是 %2 %1 ，但餘額包括凍結獎金 %4為 %3。"
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "目前無法取款。請稍後重試。"
 
-msgid "Withdrawals are not possible for demo accounts."
-msgstr "模擬帳戶不可提款。"
-
 msgid "Withdrawals from MT5 manager accounts is not possible. Please choose another payment method."
 msgstr "MT5管理員帳戶無法取款。請另選別的付款方式。"
 
@@ -4411,6 +4417,16 @@ msgstr "您已訂閱p2p ，訂單 id為%1。"
 msgid "You are already subscribed to p2p order list"
 msgstr "您已訂閱p2p 訂購清單"
 
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "You are not allowed to transfer from this account."
+msgstr "這些帳戶不允許轉帳。"
+
+#, fuzzy
+#| msgid "Make a transfer to this bank account."
+msgid "You are not allowed to transfer to this account."
+msgstr "匯款到此銀行帳戶。"
+
 msgid "You are not authorized for transfers via payment agents."
 msgstr "您未經授權通過付款代理轉帳。"
 
@@ -4444,6 +4460,14 @@ msgstr "您僅可從 Omni Layer 錢包將 %1 存入 %2 帳戶。"
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
 msgstr "一天最多只能轉帳%1次。請明天再重試。"
 
+msgid "You can only transfer from the current authorized client's account."
+msgstr ""
+
+#, fuzzy
+#| msgid "To account provided should be same as current authorized client."
+msgid "You can only transfer to the current authorized client's account."
+msgstr "目標帳戶必需與目前被授權客戶相符。"
+
 msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
 msgstr "您僅可從 %2 帳戶提取 %1 存入以太坊錢包。"
 
@@ -4470,9 +4494,6 @@ msgstr "您不能在帳戶%1取款，因為付款代理的收銀台已被鎖。"
 
 msgid "You cannot perform this action because of your account status. Please contact our Customer Support team."
 msgstr "無法進行此操作，因為您的帳戶出現問題。請聯繫我們的支援團隊。"
-
-msgid "You cannot perform this action with a virtual account."
-msgstr "您不能用虛擬帳戶執行此操作。"
 
 msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
 msgstr "您不能執行此操作，因為%1 不是付款代理帳戶 %2的預設貨幣。"
@@ -4506,6 +4527,11 @@ msgstr "您不可為自己的廣告下訂單。"
 
 msgid "You cannot subscribe to an account with no currency selected."
 msgstr "您不能訂閱未選擇幣種的帳戶。"
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer between real accounts because the authorized client is virtual."
+msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
 
 msgid "You cannot transfer to account %1"
 msgstr "您不能轉帳至帳戶%1"
@@ -10396,6 +10422,9 @@ msgstr "透過即時聊天。"
 #~ msgid "From Barrier out of limit"
 #~ msgstr "從超限門檻"
 
+#~ msgid "From account provided should be same as current authorized client."
+#~ msgstr "帳戶所提供的必需與目前被授權客戶相符。"
+
 #~ msgid "From expiry date format error"
 #~ msgstr "到期起始日期格式錯誤"
 
@@ -12571,9 +12600,6 @@ msgstr "透過即時聊天。"
 
 #~ msgid "Make a deposit or withdraw."
 #~ msgstr "存取款。"
-
-#~ msgid "Make a transfer to this bank account."
-#~ msgstr "匯款到此銀行帳戶。"
 
 #~ msgid "Make your trade"
 #~ msgstr "執行交易"
@@ -17958,6 +17984,9 @@ msgstr "透過即時聊天。"
 #~ msgid "Withdrawal request declined - %1"
 #~ msgstr "提款要求已被拒 - %1"
 
+#~ msgid "Withdrawals are not possible for demo accounts."
+#~ msgstr "模擬帳戶不可提款。"
+
 #, fuzzy
 #~| msgid "Withdrawals are currently unavailable. Please try again later."
 #~ msgid "Withdrawals are temporarily unavailable for %1. Please try later."
@@ -18171,6 +18200,9 @@ msgstr "透過即時聊天。"
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "您不能在帳戶%1取款，因為付款代理的帳戶已被標記為不受歡迎。"
 
+#~ msgid "You cannot perform this action with a virtual account."
+#~ msgstr "您不能用虛擬帳戶執行此操作。"
+
 #~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
 #~ msgstr "無法繼續操作，因%1帳戶收銀台已按請求鎖上。"
 
@@ -18179,9 +18211,6 @@ msgstr "透過即時聊天。"
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "您不能轉帳給不同國家居民的客戶。"
-
-#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
-#~ msgstr "您不能轉帳至帳戶%1，因為此帳戶目前已禁用。"
 
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "您不能轉帳至帳戶%1，因為該帳戶已被標記為不受歡迎。"

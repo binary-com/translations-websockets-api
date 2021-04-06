@@ -1200,9 +1200,6 @@ msgstr "Índice Smart Francia"
 msgid "Fridays"
 msgstr "Viernes"
 
-msgid "From account provided should be same as current authorized client."
-msgstr "La cuenta de origen proporcionada debe ser igual al cliente autorizado actual."
-
 msgid "From date must be before To date for sending statement"
 msgstr "La fecha de Inicio debe ser previa a la fecha de Finalización para el envío del extracto"
 
@@ -3523,9 +3520,6 @@ msgstr "La pausa no puede ser de más de 6 semanas."
 msgid "Timeout time must be greater than current time."
 msgstr "La pausa debe ser mayor que el tiempo actual."
 
-msgid "To account provided should be same as current authorized client."
-msgstr "La cuenta proporcionada debe ser igual al cliente autorizado actual."
-
 msgid "To enable them, you'll need to authenticate your account."
 msgstr "Para habilitarlos, deberá autenticar su cuenta."
 
@@ -3616,10 +3610,20 @@ msgstr "Transacción aún no procesada."
 msgid "Transactions"
 msgstr "Transacciones"
 
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between real and virtual accounts is not allowed."
+msgstr "No se permite la transferencia entre dos cuentas MT5."
+
 msgid "Transfer between two Deriv X accounts is not allowed."
 msgstr "No se permite la transferencia entre dos cuentas Deriv X."
 
 msgid "Transfer between two MT5 accounts is not allowed."
+msgstr "No se permite la transferencia entre dos cuentas MT5."
+
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between wallet accounts is not allowed."
 msgstr "No se permite la transferencia entre dos cuentas MT5."
 
 msgid "Transfer from Deriv X account %1"
@@ -3893,6 +3897,11 @@ msgstr "Cuentas virtuales no requieren enviar documentos de verificación de ide
 
 msgid "Virtual money credit to account"
 msgstr "Crédito de dinero virtual a la cuenta"
+
+#, fuzzy
+#| msgid "Account transfers are not possible between %1 and %2."
+msgid "Virtual transfers are only possible between wallet and other account types."
+msgstr "Las transferencias de cuenta no son posibles entre %1 y %2."
 
 msgid "Volatility 10 (1s) Index"
 msgstr "Índice de Volatilidad 10 (1s)"
@@ -4371,9 +4380,6 @@ msgstr "El retiro es %2 %1 pero el balance %3 incluye el bono congelado %4."
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Los retiros no están disponibles actualmente. Por favor, inténtelo de nuevo más tarde."
 
-msgid "Withdrawals are not possible for demo accounts."
-msgstr "Los retiros no son posibles para cuentas demo."
-
 msgid "Withdrawals from MT5 manager accounts is not possible. Please choose another payment method."
 msgstr "No es posible realizar retiros de cuentas de administrador de MT5. Por favor, elija otro método de pago."
 
@@ -4449,6 +4455,16 @@ msgstr "Ya está suscrito al ID de orden p2p %1."
 msgid "You are already subscribed to p2p order list"
 msgstr "Ya está suscrito a la lista de orden p2p"
 
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "You are not allowed to transfer from this account."
+msgstr "Las transferencias no están permitidas para las cuentas especificadas."
+
+#, fuzzy
+#| msgid "Make a transfer to this bank account."
+msgid "You are not allowed to transfer to this account."
+msgstr "Realice una transferencia a esta cuenta bancaria."
+
 msgid "You are not authorized for transfers via payment agents."
 msgstr "Usted no está autorizado para realizar transferencias a través de agentes de pago."
 
@@ -4482,6 +4498,14 @@ msgstr "Solo puede depositar %1 de su billetera Omni Layer a su cuenta %2."
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
 msgstr "Solo puede realizar hasta %1 transferencias por día. Por favor intente nuevamente mañana."
 
+msgid "You can only transfer from the current authorized client's account."
+msgstr ""
+
+#, fuzzy
+#| msgid "To account provided should be same as current authorized client."
+msgid "You can only transfer to the current authorized client's account."
+msgstr "La cuenta proporcionada debe ser igual al cliente autorizado actual."
+
 msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
 msgstr "Solo puede retirar %1 de su cuenta %2 a su billetera Ethereum."
 
@@ -4508,9 +4532,6 @@ msgstr "Usted no puede retirar dinero hacia la cuenta %1, dado que el cajero del
 
 msgid "You cannot perform this action because of your account status. Please contact our Customer Support team."
 msgstr "No puede realizar esta acción debido al estado de su cuenta. Póngase en contacto con nuestro equipo de Atención al cliente."
-
-msgid "You cannot perform this action with a virtual account."
-msgstr "No puede realizar esta acción con una cuenta virtual."
 
 msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
 msgstr "No es posible realizar esta acción, dado que %1 no es la moneda por defecto para la cuenta de agente de pago %2."
@@ -4544,6 +4565,11 @@ msgstr "No puede crear una orden para su propio anuncio."
 
 msgid "You cannot subscribe to an account with no currency selected."
 msgstr "No puede suscribirse a una cuenta sin moneda seleccionada."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer between real accounts because the authorized client is virtual."
+msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
 
 msgid "You cannot transfer to account %1"
 msgstr "No puede transferir a la cuenta %1"
@@ -12848,6 +12874,9 @@ msgstr "a través de chat en vivo."
 #~ msgid "From Barrier out of limit"
 #~ msgstr "Desde la barrera fuera del límite"
 
+#~ msgid "From account provided should be same as current authorized client."
+#~ msgstr "La cuenta de origen proporcionada debe ser igual al cliente autorizado actual."
+
 #~ msgid "From expiry date format error"
 #~ msgstr "Error de formato desde la fecha de vencimiento"
 
@@ -15594,9 +15623,6 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "Make a prediction that a market will either rise or fall in the next 30 seconds to one year."
 #~ msgstr "Intente predecir si un mercado subirá o bajará en los próximos 30 segundos hasta un año."
-
-#~ msgid "Make a transfer to this bank account."
-#~ msgstr "Realice una transferencia a esta cuenta bancaria."
 
 #~ msgid "Make your trade"
 #~ msgstr "Realice su transacción"
@@ -23005,6 +23031,9 @@ msgstr "a través de chat en vivo."
 #~ msgid "Withdrawal via bank wire"
 #~ msgstr "Retiro mediante transferencia bancaria"
 
+#~ msgid "Withdrawals are not possible for demo accounts."
+#~ msgstr "Los retiros no son posibles para cuentas demo."
+
 #~ msgid "Withdrawals are temporarily unavailable for %1. Please try later."
 #~ msgstr "Los retiros no están disponibles temporalmente para %1. Por favor intente más tarde."
 
@@ -23252,6 +23281,9 @@ msgstr "a través de chat en vivo."
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "Usted no puede retirar dinero hacia la cuenta %1, dado que la cuenta del agente de pago está marcada como no deseada."
 
+#~ msgid "You cannot perform this action with a virtual account."
+#~ msgstr "No puede realizar esta acción con una cuenta virtual."
+
 #~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
 #~ msgstr "No puede realizar esta acción, ya que el cajero de su cuenta %1 está bloqueado por solicitud."
 
@@ -23260,9 +23292,6 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "Usted no puede realizar transferencias a un cliente con un país de residencia diferente."
-
-#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
-#~ msgstr "Usted no puede transferir a la cuenta %1, por estar momentáneamente deshabilitada."
 
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Usted no puede transferir a la cuenta %1, ya que se encuentra marcada como no deseada."

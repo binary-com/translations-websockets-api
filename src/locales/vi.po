@@ -1202,9 +1202,6 @@ msgstr "Chỉ số chứng khoán thông minh Pháp"
 msgid "Fridays"
 msgstr "Thứ Sáu"
 
-msgid "From account provided should be same as current authorized client."
-msgstr "Tài khoản cung cấp phải giống như tài khoản khách hàng ủy quyền hiện tại."
-
 msgid "From date must be before To date for sending statement"
 msgstr "ngày bắt đầu phải trước ngày cập nhật"
 
@@ -3550,9 +3547,6 @@ msgstr "Thời gian nghỉ truy cập không được dài hơn 6 tuần."
 msgid "Timeout time must be greater than current time."
 msgstr "Thời gian nghỉ truy cập phải sau thời gian hiện tại."
 
-msgid "To account provided should be same as current authorized client."
-msgstr "Tài khoản được cung cấp phải giống như tài khoản khách hàng ủy quyền hiện tại."
-
 msgid "To enable them, you'll need to authenticate your account."
 msgstr "Để mở khóa chúng, bạn sẽ phải xác minh tài khoản của mình."
 
@@ -3645,10 +3639,20 @@ msgstr "Các giao dịch"
 
 #, fuzzy
 #| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between real and virtual accounts is not allowed."
+msgstr "Chuyển khoản giữa hai tài khoản MT5 là không được phép."
+
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
 msgid "Transfer between two Deriv X accounts is not allowed."
 msgstr "Chuyển khoản giữa hai tài khoản MT5 là không được phép."
 
 msgid "Transfer between two MT5 accounts is not allowed."
+msgstr "Chuyển khoản giữa hai tài khoản MT5 là không được phép."
+
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between wallet accounts is not allowed."
 msgstr "Chuyển khoản giữa hai tài khoản MT5 là không được phép."
 
 #, fuzzy
@@ -3936,6 +3940,11 @@ msgstr "Tài khoản ảo không yêu cầu tải lên tài liệu."
 
 msgid "Virtual money credit to account"
 msgstr "Tín dụng tiền ảo vào tài khoản"
+
+#, fuzzy
+#| msgid "Account transfers are not possible between %1 and %2."
+msgid "Virtual transfers are only possible between wallet and other account types."
+msgstr "Chuyển khoản không khả dụng giữa %1 và %2."
 
 msgid "Volatility 10 (1s) Index"
 msgstr "Chỉ số Biến động 10 (1s)"
@@ -4414,9 +4423,6 @@ msgstr "Rút tiền được %2 %1 nhưng số dư %3 bao gồm khoản thưởn
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Việc rút tiền hiện không khả dụng. Vui lòng thử lại sau."
 
-msgid "Withdrawals are not possible for demo accounts."
-msgstr "Rút tiền không khả dụng cho các tài khoản demo."
-
 msgid "Withdrawals from MT5 manager accounts is not possible. Please choose another payment method."
 msgstr "Việc rút tiền từ tài khoản quản lý MT5 không khả dụng. Vui lòng chọn một hình thức thanh khoản khác."
 
@@ -4494,6 +4500,16 @@ msgstr "Bạn đã đăng ký với p2p id đơn hàng %1."
 msgid "You are already subscribed to p2p order list"
 msgstr "Bạn đã đăng ký với danh sách đơn hàng p2p"
 
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "You are not allowed to transfer from this account."
+msgstr "Việc chuyển khoản không được phép đối với các tài khoản này."
+
+#, fuzzy
+#| msgid "Make a transfer to this bank account."
+msgid "You are not allowed to transfer to this account."
+msgstr "Chuyển khoản đến tài khoản ngân hàng này."
+
 msgid "You are not authorized for transfers via payment agents."
 msgstr "Bạn không được quyền chuyển tiền qua đại lý thanh toán."
 
@@ -4527,6 +4543,14 @@ msgstr "Bạn chỉ có thể gửi %1 từ ví Omni Layer vào tài khoản %2 
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
 msgstr "Bạn chỉ có thể thực hiện tối đa %1 lần chuyển khoản mỗi ngày. Vui lòng thử lại vào ngày mai."
 
+msgid "You can only transfer from the current authorized client's account."
+msgstr ""
+
+#, fuzzy
+#| msgid "To account provided should be same as current authorized client."
+msgid "You can only transfer to the current authorized client's account."
+msgstr "Tài khoản được cung cấp phải giống như tài khoản khách hàng ủy quyền hiện tại."
+
 msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
 msgstr "Bạn chỉ có thể rút %1 từ tài khoản %2 vào ví Ethereum của mình."
 
@@ -4553,9 +4577,6 @@ msgstr "Bạn không thể rút tiền từ tài khoản %1, vì thu ngân của
 
 msgid "You cannot perform this action because of your account status. Please contact our Customer Support team."
 msgstr "Bạn không thể thực hiện hành động này vì tình trạng tại khoản của mình. Vui lòng liên hệ cho bộ phận Chăm sóc khách hàng."
-
-msgid "You cannot perform this action with a virtual account."
-msgstr "Bạn không thể thực hiện hành động này bằng một tài khoản ảo."
 
 msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
 msgstr "Bạn không thể thực hiện hành động này vì %1 không là đơn vị tiền tệ mặc định cho tài khoản đại lý thanh toán %2."
@@ -4589,6 +4610,11 @@ msgstr "Bạn không thể đặt một đơn hàng cho quảng cáo của chí
 
 msgid "You cannot subscribe to an account with no currency selected."
 msgstr "Bạn không thể theo dõi một tài khoản không có loại tiền tệ."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer between real accounts because the authorized client is virtual."
+msgstr "Bạn không thể chuyển vào tài khoản %1, vì tài khoản của họ hiện đang bị vô hiệu hóa."
 
 msgid "You cannot transfer to account %1"
 msgstr "Bạn không thể chuyển vào tài khoản %1"
@@ -10746,6 +10772,9 @@ msgstr "qua chat trực tuyến."
 #~ msgid "From Barrier out of limit"
 #~ msgstr "Từ Rào cản bên ngoài giới hạn"
 
+#~ msgid "From account provided should be same as current authorized client."
+#~ msgstr "Tài khoản cung cấp phải giống như tài khoản khách hàng ủy quyền hiện tại."
+
 #~ msgid "From expiry date format error"
 #~ msgstr "Từ lỗi định dạng ngày hết hạn"
 
@@ -12995,9 +13024,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "Make a deposit using credit card, bank wire, cheque and e-cash. Accounts are available in dollars, pounds and euros. The minimum account size is ($/&pound;/&euro;) 5 and the maximum account size is ($/&pound;/&euro;) 150,000."
 #~ msgstr "Gửi tiền sử dụng thẻ tín dụng, điện ngân hàng, séc và thẻ điện tử. Tài khoản luôn có ba loại tiền: Đô la, Bảng Anh và Euro. Cỡ tài khoản nhỏ nhất là ($/&pound;/&euro;) 5 và cỡ tài khoản lớn nhất là ($/&pound;/&euro;) 150,000."
-
-#~ msgid "Make a transfer to this bank account."
-#~ msgstr "Chuyển khoản đến tài khoản ngân hàng này."
 
 #~ msgid "Make your trade"
 #~ msgstr "Giao dịch"
@@ -18679,6 +18705,9 @@ msgstr "qua chat trực tuyến."
 #~ msgid "Withdrawal request declined - %1"
 #~ msgstr "Yêu cầu rút tiền bị từ chối-%1"
 
+#~ msgid "Withdrawals are not possible for demo accounts."
+#~ msgstr "Rút tiền không khả dụng cho các tài khoản demo."
+
 #, fuzzy
 #~| msgid "Withdrawals are currently unavailable. Please try again later."
 #~ msgid "Withdrawals are temporarily unavailable for %1. Please try later."
@@ -18899,6 +18928,9 @@ msgstr "qua chat trực tuyến."
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "Bạn không thể thực hiện việc rút tiền từ tài khoản% 1, vì tài khoản của đại lý thanh toán được đánh dấu là không tin cậy."
 
+#~ msgid "You cannot perform this action with a virtual account."
+#~ msgstr "Bạn không thể thực hiện hành động này bằng một tài khoản ảo."
+
 #~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
 #~ msgstr "Bạn không thể thực hiện hành động này vì tài khoản %1 của bạn đã bị khoá thu ngân theo yêu cầu."
 
@@ -18907,9 +18939,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "Bạn không thể chuyển tới một khách hàng tại một quốc gia cư trú khác."
-
-#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
-#~ msgstr "Bạn không thể chuyển vào tài khoản %1, vì tài khoản của họ hiện đang bị vô hiệu hóa."
 
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Bạn không thể chuyển vào tài khoản %1, vì tài khoản của họ được đánh dấu là không đáng tin."

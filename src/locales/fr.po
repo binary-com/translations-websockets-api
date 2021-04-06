@@ -1205,9 +1205,6 @@ msgstr "Indice Intelligent France"
 msgid "Fridays"
 msgstr "Vendredis"
 
-msgid "From account provided should be same as current authorized client."
-msgstr "Le compte fourni doit être correspondre à un client autorisé actuel."
-
 msgid "From date must be before To date for sending statement"
 msgstr "La date du début doit être antérieure à la date de fin pour l'envoi du relevé"
 
@@ -3556,9 +3553,6 @@ msgstr "La limite de durée de session ne peut excéder 6 semaines."
 msgid "Timeout time must be greater than current time."
 msgstr "L'horaire d'exclusion doit être ultérieur à l'heure actuelle."
 
-msgid "To account provided should be same as current authorized client."
-msgstr "Vers compte fourni doit être le même que celui du client actuel autorisé."
-
 msgid "To enable them, you'll need to authenticate your account."
 msgstr "Pour les activer, vous devrez authentifier votre compte."
 
@@ -3651,10 +3645,20 @@ msgstr "Transactions"
 
 #, fuzzy
 #| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between real and virtual accounts is not allowed."
+msgstr "Le transfert entre deux comptes MT5 n'est pas autorisé."
+
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
 msgid "Transfer between two Deriv X accounts is not allowed."
 msgstr "Le transfert entre deux comptes MT5 n'est pas autorisé."
 
 msgid "Transfer between two MT5 accounts is not allowed."
+msgstr "Le transfert entre deux comptes MT5 n'est pas autorisé."
+
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between wallet accounts is not allowed."
 msgstr "Le transfert entre deux comptes MT5 n'est pas autorisé."
 
 #, fuzzy
@@ -3942,6 +3946,11 @@ msgstr "Les comptes virtuels ne nécessitent pas de téléchargements de documen
 
 msgid "Virtual money credit to account"
 msgstr "Crédit de fonds virtuels sur le compte"
+
+#, fuzzy
+#| msgid "Account transfers are not possible between %1 and %2."
+msgid "Virtual transfers are only possible between wallet and other account types."
+msgstr "Les transferts de compte ne sont pas possibles entre %1 et %2."
 
 msgid "Volatility 10 (1s) Index"
 msgstr "Indice de Volatilité 10 (1s)"
@@ -4420,9 +4429,6 @@ msgstr "Le retrait est de %2 %1 mais le solde %3 inclut le bonus gelé %4."
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Les retraits sont actuellement indisponibles. Veuillez réessayer plus tard."
 
-msgid "Withdrawals are not possible for demo accounts."
-msgstr "Les retraits ne sont pas possibles pour les comptes de démo."
-
 msgid "Withdrawals from MT5 manager accounts is not possible. Please choose another payment method."
 msgstr "Il n'est pas possible d'effectuer des retraits sur les comptes des gestionnaires MT5. Veuillez choisir un autre mode de paiement."
 
@@ -4500,6 +4506,16 @@ msgstr "Vous êtes déjà abonné à l'identifiant p2p %1."
 msgid "You are already subscribed to p2p order list"
 msgstr "Vous êtes déjà abonné à l'ordre de liste p2p"
 
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "You are not allowed to transfer from this account."
+msgstr "Les transferts ne sont pas autorisés pour ces comptes."
+
+#, fuzzy
+#| msgid "Make a transfer to this bank account."
+msgid "You are not allowed to transfer to this account."
+msgstr "Effectuer un virement sur ce compte bancaire."
+
 msgid "You are not authorized for transfers via payment agents."
 msgstr "Vous n'êtes pas autorisé pour les transferts via des agents de paiement."
 
@@ -4533,6 +4549,14 @@ msgstr "Vous ne pouvez déposer que %1 de votre portefeuille Omni Layer sur votr
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
 msgstr "Vous ne pouvez effectuer que jusqu'à %1 transferts par jour. Veuillez réessayer demain."
 
+msgid "You can only transfer from the current authorized client's account."
+msgstr ""
+
+#, fuzzy
+#| msgid "To account provided should be same as current authorized client."
+msgid "You can only transfer to the current authorized client's account."
+msgstr "Vers compte fourni doit être le même que celui du client actuel autorisé."
+
 msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
 msgstr "Vous ne pouvez retirer %1 de votre compte %2 que dans votre portefeuille Ethereum."
 
@@ -4559,9 +4583,6 @@ msgstr "Vous ne pouvez effectuer de retrait du compte 1 %, comme la fonction de 
 
 msgid "You cannot perform this action because of your account status. Please contact our Customer Support team."
 msgstr "Vous ne pouvez pas effectuer cette action en raison de l'état de votre compte. Veuillez contacter notre Service Clientèle."
-
-msgid "You cannot perform this action with a virtual account."
-msgstr "Vous ne pouvez pas effectuer cette action avec un compte virtuel."
 
 msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
 msgstr "Vous ne pouvez pas effectuer cette action, comme %1 n’est pas la devise par défaut pour le compte d’agent de paiement %2."
@@ -4595,6 +4616,11 @@ msgstr "Vous ne pouvez pas passer une commande pour votre propre annonce."
 
 msgid "You cannot subscribe to an account with no currency selected."
 msgstr "Vous ne pouvez pas vous abonner à un compte sans devise sélectionnée."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer between real accounts because the authorized client is virtual."
+msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
 
 msgid "You cannot transfer to account %1"
 msgstr "Vous ne pouvez pas transférer vers le compte %1"
@@ -12514,6 +12540,9 @@ msgstr "via le Chat en direct."
 #~ msgid "From Barrier out of limit"
 #~ msgstr "De la Barrière hors limite"
 
+#~ msgid "From account provided should be same as current authorized client."
+#~ msgstr "Le compte fourni doit être correspondre à un client autorisé actuel."
+
 #~ msgid "From expiry date format error"
 #~ msgstr "Erreur de format de la date d'expiration"
 
@@ -15225,9 +15254,6 @@ msgstr "via le Chat en direct."
 
 #~ msgid "Make a prediction that a market will either rise or fall in the next 30 seconds to one year."
 #~ msgstr "Faites une prédiction si le marché va monter ou descendre dans un délai de 30 secondes à un an."
-
-#~ msgid "Make a transfer to this bank account."
-#~ msgstr "Effectuer un virement sur ce compte bancaire."
 
 #~ msgid "Make your trade"
 #~ msgstr "Faites votre trade"
@@ -22403,6 +22429,9 @@ msgstr "via le Chat en direct."
 #~ msgid "Withdrawal via bank wire"
 #~ msgstr "Retrait via virement bancaire"
 
+#~ msgid "Withdrawals are not possible for demo accounts."
+#~ msgstr "Les retraits ne sont pas possibles pour les comptes de démo."
+
 #, fuzzy
 #~| msgid "Withdrawals are currently unavailable. Please try again later."
 #~ msgid "Withdrawals are temporarily unavailable for %1. Please try later."
@@ -22609,6 +22638,9 @@ msgstr "via le Chat en direct."
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "Vous ne pouvez pas effectuer de retrait du compte %1, comme l'agent de paiement du compte est marqué comme indésirable."
 
+#~ msgid "You cannot perform this action with a virtual account."
+#~ msgstr "Vous ne pouvez pas effectuer cette action avec un compte virtuel."
+
 #~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
 #~ msgstr "Vous ne pouvez pas effectuer cette action, car la caisse de votre compte %1 est bloquée  sur demande."
 
@@ -22617,9 +22649,6 @@ msgstr "via le Chat en direct."
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "Vous ne pouvez pas faire de transfert vers un client d'un pays de résidence différent."
-
-#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
-#~ msgstr "Vous pouvez effectuer aucun virement vers le compte %1, car ce compte est actuellement désactivé."
 
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Vous ne pouvez pas transférer vers le compte %1, puisque leur compte est marqué comme indésirable."

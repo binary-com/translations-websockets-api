@@ -1190,9 +1190,6 @@ msgstr "Indeks Smart Perancis"
 msgid "Fridays"
 msgstr "Jum'at"
 
-msgid "From account provided should be same as current authorized client."
-msgstr "Dari akun yang diberikan harus sama dengan akun yang dibenarkan."
-
 msgid "From date must be before To date for sending statement"
 msgstr "Dari tanggal harus sebelum Hingga tanggal untuk mengirim pernyataan"
 
@@ -3495,9 +3492,6 @@ msgstr "Waktu timeout tidak dapat lebih dari 6 minggu."
 msgid "Timeout time must be greater than current time."
 msgstr "Waktu timeout harus lebih lama dari waktu saat ini."
 
-msgid "To account provided should be same as current authorized client."
-msgstr "Ke dalam akun yang disediakan harus sama dengan klien yang berwenang saat ini."
-
 msgid "To enable them, you'll need to authenticate your account."
 msgstr "Untuk mengaktifkannya, Anda harus mengautentikasi akun."
 
@@ -3588,10 +3582,20 @@ msgstr "Transaksi belum diproses."
 msgid "Transactions"
 msgstr "Transaksi"
 
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between real and virtual accounts is not allowed."
+msgstr "Transfer antara dua akun MT5 tidak dibenarkan."
+
 msgid "Transfer between two Deriv X accounts is not allowed."
 msgstr "Transfer antara dua akun Deriv X tidak dibenarkan."
 
 msgid "Transfer between two MT5 accounts is not allowed."
+msgstr "Transfer antara dua akun MT5 tidak dibenarkan."
+
+#, fuzzy
+#| msgid "Transfer between two MT5 accounts is not allowed."
+msgid "Transfer between wallet accounts is not allowed."
 msgstr "Transfer antara dua akun MT5 tidak dibenarkan."
 
 msgid "Transfer from Deriv X account %1"
@@ -3857,6 +3861,11 @@ msgstr "Akun virtual tidak memerlukan upload dokumen."
 
 msgid "Virtual money credit to account"
 msgstr "Dana virtual kreditkan kedalam akun"
+
+#, fuzzy
+#| msgid "Account transfers are not possible between %1 and %2."
+msgid "Virtual transfers are only possible between wallet and other account types."
+msgstr "Transfer akun tidak dapat dilakukan antara %1 dan %2."
 
 msgid "Volatility 10 (1s) Index"
 msgstr "Indeks Volatilitas 10 (1s)"
@@ -4335,9 +4344,6 @@ msgstr "Jumlah penarikan adalah %2 %1 namun saldo %3 termasuk nilai bonus %4 yan
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Penarikan tidak tersedia untuk saat ini. Silakan coba kembali nanti."
 
-msgid "Withdrawals are not possible for demo accounts."
-msgstr "Penarikan tidak tersedia untuk akun demo."
-
 msgid "Withdrawals from MT5 manager accounts is not possible. Please choose another payment method."
 msgstr "Penarikan dari akun manajer MT5 tidak dibenarkan. Silakan pilih metode pembayaran lain."
 
@@ -4413,6 +4419,16 @@ msgstr "Anda sudah berlangganan pada id order p2p %1."
 msgid "You are already subscribed to p2p order list"
 msgstr "Anda sudah berlangganan pada daftar order p2p"
 
+#, fuzzy
+#| msgid "Transfers are not allowed for these accounts."
+msgid "You are not allowed to transfer from this account."
+msgstr "Transfer tidak diperbolehkan untuk akun ini."
+
+#, fuzzy
+#| msgid "Make a transfer to this bank account."
+msgid "You are not allowed to transfer to this account."
+msgstr "Lakukan transfer ke rekening bank ini."
+
 msgid "You are not authorized for transfers via payment agents."
 msgstr "Anda tidak diizinkan untuk melakukan transfer melalui agen pembayaran."
 
@@ -4446,6 +4462,14 @@ msgstr "Anda hanya dapat mendeposit %1 menggunakan wallet Omni Layer ke akun %2 
 msgid "You can only perform up to %1 transfers a day. Please try again tomorrow."
 msgstr "Anda hanya dapat melakukan transfer hingga %1 per hari. Silakan coba kembali besok."
 
+msgid "You can only transfer from the current authorized client's account."
+msgstr ""
+
+#, fuzzy
+#| msgid "To account provided should be same as current authorized client."
+msgid "You can only transfer to the current authorized client's account."
+msgstr "Ke dalam akun yang disediakan harus sama dengan klien yang berwenang saat ini."
+
 msgid "You can only withdraw %1 from your %2 account into your Ethereum wallet."
 msgstr "Anda hanya dapat menarik %1 dari akun %2 ke wallet Ethereum Anda."
 
@@ -4472,9 +4496,6 @@ msgstr "Anda tidak dapat melakukan penarikan ke akun %1, berhubung kasir agen pe
 
 msgid "You cannot perform this action because of your account status. Please contact our Customer Support team."
 msgstr "Anda tidak dapat melakukan tindakan ini karena status akun Anda. Silakan hubungi tim Customer Support kami."
-
-msgid "You cannot perform this action with a virtual account."
-msgstr "Anda tidak dapat melakukan transaksi ini pada akun virtual."
 
 msgid "You cannot perform this action, as %1 is not default currency for payment agent account %2."
 msgstr "Anda tidak dapat melakukan transaksi ini, berhubung %1 bukan merupakan mata uang akun agen pembayaran %2."
@@ -4508,6 +4529,11 @@ msgstr "Anda tidak dapat melakukan order untuk iklan Anda sendiri."
 
 msgid "You cannot subscribe to an account with no currency selected."
 msgstr "Anda tidak dapat berlangganan pada akun yang belum memilih mata uang."
+
+#, fuzzy
+#| msgid "You cannot transfer to account %1, as their account is currently disabled."
+msgid "You cannot transfer between real accounts because the authorized client is virtual."
+msgstr "Anda tidak dapat mentransfer ke account %1, berhubung akun ini dibatalkan untuk sementara."
 
 msgid "You cannot transfer to account %1"
 msgstr "Anda tidak dapat mentransfer ke akun %1"
@@ -13623,6 +13649,9 @@ msgstr "melalui obrolan langsung."
 #~ msgid "From Barrier out of limit"
 #~ msgstr "Batasan diluar batas"
 
+#~ msgid "From account provided should be same as current authorized client."
+#~ msgstr "Dari akun yang diberikan harus sama dengan akun yang dibenarkan."
+
 #~ msgid "From expiry date format error"
 #~ msgstr "Tanggal berakhir salah"
 
@@ -16652,9 +16681,6 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "Make a prediction that a market will either rise or fall in the next 30 seconds to one year."
 #~ msgstr "Beli kontrak dimana market akan bergerak naik atau turun pada 30 detik hingga satu tahun mendatang."
-
-#~ msgid "Make a transfer to this bank account."
-#~ msgstr "Lakukan transfer ke rekening bank ini."
 
 #~ msgid "Make your trade"
 #~ msgstr "Lakukan trading Anda"
@@ -24641,6 +24667,9 @@ msgstr "melalui obrolan langsung."
 #~ msgid "Withdrawal via bank wire"
 #~ msgstr "Penarikan melalui bank transfer"
 
+#~ msgid "Withdrawals are not possible for demo accounts."
+#~ msgstr "Penarikan tidak tersedia untuk akun demo."
+
 #, fuzzy
 #~| msgid "Withdrawals are currently unavailable. Please try again later."
 #~ msgid "Withdrawals are temporarily unavailable for %1. Please try later."
@@ -24890,6 +24919,9 @@ msgstr "melalui obrolan langsung."
 #~ msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is marked as unwelcome."
 #~ msgstr "Anda tidak dapat melakukan penarikan ke akun %1, karena akun agen pembayaran dinyatakan sebagai tidak aktif."
 
+#~ msgid "You cannot perform this action with a virtual account."
+#~ msgstr "Anda tidak dapat melakukan transaksi ini pada akun virtual."
+
 #~ msgid "You cannot perform this action, as your account %1 cashier is locked as per request."
 #~ msgstr "Anda tidak dapat melakukan transaksi ini, berhubung bagian kasir akun %1 dibatalkan sesuai permintaan."
 
@@ -24898,9 +24930,6 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "You cannot transfer to a client in a different country of residence."
 #~ msgstr "Anda tidak dapat mentransfer ke klien dengan negara tempat tinggal yang berbeda."
-
-#~ msgid "You cannot transfer to account %1, as their account is currently disabled."
-#~ msgstr "Anda tidak dapat mentransfer ke account %1, berhubung akun ini dibatalkan untuk sementara."
 
 #~ msgid "You cannot transfer to account %1, as their account is marked as unwelcome."
 #~ msgstr "Anda tidak dapat mentransfer ke akun %1, berhubung akun ini dinonaktifkan untuk sementara."
