@@ -35,11 +35,24 @@ msgstr "%1 độ lệch hàng rào không được có nhiều hơn %2 chữ s�
 msgid "%1 currency transfers are suspended."
 msgstr "chuyển tiền %1 bị đình chỉ."
 
+msgid "%1 is a required field for payment method %2. Please provide a value."
+msgstr ""
+
+#, fuzzy
+#| msgid "%1 is not a valid input for contract type %2."
+msgid "%1 is not a valid field for payment method %2."
+msgstr "%1 là thông tin nhập vào không hợp lệ cho loại hợp đồng %2."
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 là thông tin nhập vào không hợp lệ cho loại hợp đồng %2."
 
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 không được phép cho dân cư của %2."
+
+#, fuzzy
+#| msgid "View available payment methods"
+msgid "%1 is not available as a payment method for this advert."
+msgstr "Xem các phương thức thanh toán có sẵn"
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 tạm thời chưa được hỗ trợ."
@@ -369,6 +382,9 @@ msgstr "Người châu Á"
 
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "Liên kết với một số đại diện cho sự biến động tương đối của thị trường. Ví dụ, Chỉ số Biến động 100 thì biến động gấp hai lần so với Chỉ số Biến động 50."
+
+msgid "At least one active payment method is required."
+msgstr ""
 
 msgid "Australian Index"
 msgstr "Chỉ số chứng khoán Úc"
@@ -767,6 +783,9 @@ msgstr "Các hợp đồng trên thị trường này mà có kỳ hạn dư�
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "Những hợp đồng có biên độ dao động được xác định trước cần có biên độ dao động cố định."
+
+msgid "Copied"
+msgstr ""
 
 msgid "Copier can't be a trader."
 msgstr "Người sao chép không thể là nhà giao dịch."
@@ -1680,9 +1699,6 @@ msgstr "Đơn vị tiền tệ không hợp lệ."
 msgid "Invalid date format."
 msgstr "Định dạng ngày không hợp lệ."
 
-msgid "Invalid deposit commission amount: it should be between 0 and %1."
-msgstr "Số tiền hoa hồng gửi vào không hợp lệ! Vui lòng nhập tiền trong khoảng từ 0 đến %1."
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Thời hạn (tick) không hợp lệ cho loại hợp đồng (%1)."
 
@@ -1694,6 +1710,16 @@ msgstr "Đầu vào không hợp lệ (thời lượng hoặc Ngày_hết _hạn
 
 msgid "Invalid loginid"
 msgstr "ID đăng nhập không hợp lệ"
+
+#, fuzzy
+#| msgid "Invalid trade type: %1."
+msgid "Invalid payment method provided: %1."
+msgstr "Loại giao dịch không hợp lệ: %1."
+
+#, fuzzy
+#| msgid "This payment method is invalid."
+msgid "Invalid payment methods provided."
+msgstr "Hình thức thanh toán này không hợp lệ."
 
 msgid "Invalid payout currency"
 msgstr "Đơn vị tiền thanh toán không hợp lệ"
@@ -1728,9 +1754,6 @@ msgstr "Loại giao dịch không hợp lệ: %1."
 msgid "Invalid user."
 msgstr "Người dùng không hợp lệ."
 
-msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
-msgstr "Số tiền hoa hồng muốn rút không hợp lệ: số tiền cần phải nằm trong khoảng từ 0 đến %1."
-
 msgid "Irish Index"
 msgstr "Chỉ số chứng khoán Ai-len"
 
@@ -1742,6 +1765,11 @@ msgstr "Bạn đã thực hiện yêu cầu này. Xin vui lòng thử lại sau.
 
 msgid "It looks like your account is locked for MT5 transfers. Please contact us for more information."
 msgstr "Tài khoản của bạn bị khóa chức năng chuyển tiền MT5. Xin vui lòng liên hệ với chúng tôi để biết thêm chi tiết."
+
+#, fuzzy
+#| msgid "Payout must be between %1 and %2."
+msgid "It must be between %1 and %2."
+msgstr "Tiền thưởng cần phải ở giữa %1 và %2."
 
 msgid "It seems that you tried to sign up with an email address that's already in the %1 system."
 msgstr "Dường như bạn đã cố đăng ký bằng một địa chỉ email đã được đăng ký từ trước trên hệ thống %1."
@@ -2117,6 +2145,11 @@ msgstr "Một bước nữa để tạo tài khoản của bạn"
 
 msgid "Only %1 decimal places allowed."
 msgstr "Chỉ được dùng %1 chữ số thập phân."
+
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places are allowed."
+msgstr "Chỉ 3 chữ số thập phân được cho phép."
 
 msgid "Only 3 decimal places are allowed."
 msgstr "Chỉ 3 chữ số thập phân được cho phép."
@@ -2495,6 +2528,11 @@ msgstr "Vui lòng chú ý rằng thiết lập của bạn đã được
 
 msgid "Please provide a currency for the Deriv X account."
 msgstr "Xin vui lòng thiết lập loại tiền tệ cho tài khoản Deriv X."
+
+#, fuzzy
+#| msgid "Please provide your payment details."
+msgid "Please provide a payment method."
+msgstr "Vui lòng cung cấp thông tin thanh khoản của bạn."
 
 msgid "Please provide a valid email address."
 msgstr "Vui lòng cung cấp một địa chỉ email hợp lệ."
@@ -3358,6 +3396,11 @@ msgstr "Tên trên tài liệu của bạn không khớp với hồ sơ của b�
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
 msgstr "Tên trên giấy tờ tùy thân của bạn và hồ sơ Deriv / Binary không khớp."
 
+#, fuzzy
+#| msgid "The symbol is invalid."
+msgid "The numeric value is invalid."
+msgstr "Ký hiệu không hợp lệ."
+
 msgid "The offset value cannot be negative. Please enter 0 or higher."
 msgstr "Giá trị bù không thể âm. Vui lòng nhập 0 hoặc cao hơn."
 
@@ -3372,6 +3415,11 @@ msgstr "Mật khẩu cho tài khoản %1 của bạn đã được thiết 
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Cơ sở đại lý thanh toán không khả dụng cho tài khoản này."
+
+#, fuzzy
+#| msgid "The payment agent account does not exist."
+msgid "The payment method ID does not exist."
+msgstr "Tài khoản đại lý thanh toán không tồn tại."
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "ID tài khoản Deriv được cung cấp không hợp lệ."
@@ -3493,6 +3541,9 @@ msgstr "Quảng cáo này tạm thời không khả dụng. Vui lòng chọn qu�
 msgid "This address can only be used once to make a deposit."
 msgstr "Địa chỉ được sử dụng duy nhất một lần cho một lần gửi tiền."
 
+msgid "This advert has no payment methods. Please add at least one before activating it."
+msgstr ""
+
 msgid "This advertiser has not been approved yet. Please choose another advertiser."
 msgstr "Nhà quảng cáo này chưa được phê duyệt. Vui lòng chọn một nhà quảng cáo khác."
 
@@ -3561,6 +3612,9 @@ msgstr "Tính năng này chỉ khả dụng cho các tài khoản ví."
 msgid "This field is required."
 msgstr "Thông tin này là bắt buộc."
 
+msgid "This field must contain at least one alphabetic character."
+msgstr ""
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Đây là một tài khoản tiền ảo. Vui lòng chuyển sang một tài khoản tiền thực để truy cập thu ngân."
 
@@ -3596,6 +3650,15 @@ msgstr "Lệnh này đã được hoàn tất và không thể được tranh ch
 
 msgid "This order is under dispute."
 msgstr "Đơn hàng đang được tranh chấp."
+
+msgid "This payment method is in use by multiple ads and/or orders, and cannot be deleted or deactivated."
+msgstr ""
+
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
+msgstr ""
+
+msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
+msgstr ""
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "Lý do này không áp dụng cho trường hợp của bạn. Vui lòng chọn một lý do khác."
@@ -4708,6 +4771,11 @@ msgstr "Bạn không thể rút quỹ từ cùng một tài khoản."
 msgid "You deactivated your account due to financial reasons."
 msgstr "Bạn đã hủy tài khoản vì lí do tài chính."
 
+#, fuzzy
+#| msgid "You have already withdrawn the equivalent of %1 %2."
+msgid "You have a payment method with the same values for %1."
+msgstr "Bạn đã rút số tiền tương đương %1 %2."
+
 msgid "You have already claimed a bonus in the past."
 msgstr "Bạn đã nhận một khoản tiền thưởng trong quá khứ."
 
@@ -4806,6 +4874,9 @@ msgstr "Bạn có thể chọn một trong hai, dừng lỗ hoặc hủy giao d�
 
 msgid "You may use either take profit or deal cancellation, but not both. Please select either one."
 msgstr "Bạn có thể chọn một trong hai, chốt lãi hoặc hủy giao dịch. Vui lòng chỉ chọn một."
+
+msgid "You must keep a %1 payment method on this advert while it has active orders."
+msgstr ""
 
 msgid "You opened a %1 account. Your account login ID is %2."
 msgstr "Bạn đã mở một tài khoản %1. ID đăng nhập tài khoản của bạn là %2."
@@ -5245,6 +5316,9 @@ msgstr "được phát hành trong vòng 6 tháng qua"
 
 msgid "let us know"
 msgstr "hãy cho chúng tôi biết"
+
+msgid "payment_method field can not be updated for sell ads."
+msgstr ""
 
 msgid "screenshots of addresses"
 msgstr "ảnh chụp màn hình của địa chỉ"
@@ -11856,6 +11930,9 @@ msgstr "qua chat trực tuyến."
 #~ msgid "Invalid candles request"
 #~ msgstr "Yêu cầu kiểm tra không hợp lệ"
 
+#~ msgid "Invalid deposit commission amount: it should be between 0 and %1."
+#~ msgstr "Số tiền hoa hồng gửi vào không hợp lệ! Vui lòng nhập tiền trong khoảng từ 0 đến %1."
+
 #~ msgid "Invalid email and password combination."
 #~ msgstr "Kết hợp email và mật khẩu không hợp lệ."
 
@@ -11901,6 +11978,9 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "Invalid value for list offset"
 #~ msgstr "Giá trị không hợp lệ cho danh sách bù"
+
+#~ msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+#~ msgstr "Số tiền hoa hồng muốn rút không hợp lệ: số tiền cần phải nằm trong khoảng từ 0 đến %1."
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "Tên nơi làm việc không hợp lệ. Chỉ sử dụng các kí tự (A-Z,a-z,0-9, -, _ và khoảng trắng)"
@@ -14160,9 +14240,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "Payout has moved in your favour from %1 to %2."
 #~ msgstr "Tiền thưởng đã được chuyển vào tài khoản của bạn từ %1 tới %2."
-
-#~ msgid "Payout must be between %1 and %2."
-#~ msgstr "Tiền thưởng cần phải ở giữa %1 và %2."
 
 #~ msgid "Payout must be between <strong>%1</strong> and <strong>%2</strong>."
 #~ msgstr "Tiền thưởng cần phải ở giữa <strong>%1</strong> và<strong>%2</strong>."
@@ -16878,9 +16955,6 @@ msgstr "qua chat trực tuyến."
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "Bằng sáng chế có nghĩa là Regent Markets là nhà tiên phong được công nhận trong cá cược nhị phân. Bằng sáng chế giúp bảo vệ những đổi mới của chúng tôi."
 
-#~ msgid "The payment agent account does not exist."
-#~ msgstr "Tài khoản đại lý thanh toán không tồn tại."
-
 #~ msgid "The payment agent facility is currently not available in your country."
 #~ msgstr "Cơ sở đại lý thanh toán hiện không khả dụng ở nước bạn."
 
@@ -16949,9 +17023,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "The stop-loss and stop-profit are guaranteed. The loss and profit are limited to the stop-loss and stop-profit respectively.  When the exit level touches either the stop-loss or stop-profit, the contract will be closed at the stop-loss or stop-profit level."
 #~ msgstr "Điểm tới hạn lỗ và tới hạn lãi được bảo đảm. Lỗ và lãi được giới hạn tới điểm tới hạn lỗ và điểm tới hạn lãi tương ứng. Khi mức giá đi ra chạm vào hoặc điểm tới hạn lỗ hoặc tới hạn lãi, thì hợp đồng sẽ được đóng tại mức giá tại điểm tới hạn lỗ hoặc điểm tới hạn lãi."
-
-#~ msgid "The symbol is invalid."
-#~ msgstr "Ký hiệu không hợp lệ."
 
 #~ msgid "The system is missing critical pricing information. Please try again in a few minutes, or try a different market."
 #~ msgstr "Hệ thống đang thiếu thông tin định giá quan trọng. Vui lòng thử lại sau ít phút, hoặc thử một thị trường khác."
@@ -17266,9 +17337,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "This page is unavailable when impersonating user"
 #~ msgstr "Trang này không có do người dùng mạo danh"
-
-#~ msgid "This payment method is invalid."
-#~ msgstr "Hình thức thanh toán này không hợp lệ."
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "Khuyến mãi này chỉ dành cho những Khách hàng mới. Những Khách hàng hiện tại hoặc Khách hàng cũ không đủ điều kiện. Mỗi khách hàng chỉ có một lần được hưởng chương trình này."
@@ -18039,9 +18107,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "View and increase your"
 #~ msgstr "Xem và tăng hạn mức rút tiền của bạn"
-
-#~ msgid "View available payment methods"
-#~ msgstr "Xem các phương thức thanh toán có sẵn"
 
 #~ msgid "View contract prices across a range of barriers and durations."
 #~ msgstr "Xem giá hợp đồng thông qua hàng loạt rào cảo và khoảng thời gian."
@@ -18996,9 +19061,6 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "Bạn đã rút số tiền tương đương với %1 %2 trong tổng số hơn %3 ngày qua."
-
-#~ msgid "You have already withdrawn the equivalent of %1 %2."
-#~ msgstr "Bạn đã rút số tiền tương đương %1 %2."
 
 #~ msgid "You have already withdrawn the equivalent of EUR %1 in aggregate over the lifetime of your account."
 #~ msgstr "Bạn đã rút tương đương EUR %1 trong tổng số vượt quá vòng đời của tài khoản."

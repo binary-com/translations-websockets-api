@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-04-28 20:05+0000\n"
 "Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.7-dev\n"
 
 msgid " before the transaction is reflected in your destination wallet."
@@ -37,11 +35,24 @@ msgstr "Оффсет барьера %1 не может иметь более %2 
 msgid "%1 currency transfers are suspended."
 msgstr "Валютные переводы %1 приостановлены."
 
+msgid "%1 is a required field for payment method %2. Please provide a value."
+msgstr ""
+
+#, fuzzy
+#| msgid "%1 is not a valid input for contract type %2."
+msgid "%1 is not a valid field for payment method %2."
+msgstr "%1 является неправильным параметром для контрактов %2."
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 является неправильным параметром для контрактов %2."
 
 msgid "%1 is not allowed for residence of %2."
 msgstr "Извините, %1 не разрешен для резидентов %2."
+
+#, fuzzy
+#| msgid "View available payment methods"
+msgid "%1 is not available as a payment method for this advert."
+msgstr "См. доступные способы оплаты"
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 в данный момент не поддерживается."
@@ -270,9 +281,7 @@ msgid "Address: %1, transaction: %2"
 msgstr "Адрес: %1, транзакция: %2"
 
 msgid "Addresses starting with \"%1\" (%2 format) aren't supported by the %3 network. Please enter address starting with 1 or 3."
-msgstr ""
-"Адреса, начинающиеся с \"%1\" (формат %2), не поддерживаются сетью %3. "
-"Введите адрес, который начинается с 1 или 3."
+msgstr "Адреса, начинающиеся с \"%1\" (формат %2), не поддерживаются сетью %3. Введите адрес, который начинается с 1 или 3."
 
 msgid "Adidas"
 msgstr "Adidas"
@@ -372,6 +381,9 @@ msgstr "Азиатские"
 
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "Ассоциируется с номером, который отражает волатильность рынка. Например, Индекс волатильности 100 в два раза волатильнее, чем Индекс волатильности 50."
+
+msgid "At least one active payment method is required."
+msgstr ""
 
 # 75%
 # 100%
@@ -771,6 +783,9 @@ msgstr "Контракты на данном рынке с длительнос�
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "Контракты с заранее установленным барьером требуют указания абсолютного барьера."
+
+msgid "Copied"
+msgstr ""
 
 msgid "Copier can't be a trader."
 msgstr "Копирующий пользователь не может быть трейдером."
@@ -1681,9 +1696,6 @@ msgstr "Недействительная валюта."
 msgid "Invalid date format."
 msgstr "Неправильный формат даты."
 
-msgid "Invalid deposit commission amount: it should be between 0 and %1."
-msgstr "Неверный размер комиссии за пополнение: должно быть от 0 до %1."
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Неправильная длительность (тики) для данного типа контракта (%1)."
 
@@ -1695,6 +1707,16 @@ msgstr "Неправильные данные (длительность или d
 
 msgid "Invalid loginid"
 msgstr "Неправильный логин"
+
+#, fuzzy
+#| msgid "Invalid trade type: %1."
+msgid "Invalid payment method provided: %1."
+msgstr "Неверный тип контракта: %1."
+
+#, fuzzy
+#| msgid "This payment method is invalid."
+msgid "Invalid payment methods provided."
+msgstr "Данный платёжный метод недействителен."
 
 msgid "Invalid payout currency"
 msgstr "Недействительная валюта"
@@ -1729,9 +1751,6 @@ msgstr "Неверный тип контракта: %1."
 msgid "Invalid user."
 msgstr "Неправильное имя пользователя."
 
-msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
-msgstr "Неверный размер комиссии за вывод средств: должно быть от 0 до %1."
-
 msgid "Irish Index"
 msgstr "Ирландский индекс"
 
@@ -1743,6 +1762,11 @@ msgstr "Похоже, что Вы уже отправили запрос. Пож
 
 msgid "It looks like your account is locked for MT5 transfers. Please contact us for more information."
 msgstr "Похоже, что переводы с/на MT5 закрыты на Вашем счёте. Пожалуйста, свяжитесь с нами для получения дополнительной информации."
+
+#, fuzzy
+#| msgid "Payout must be between %1 and %2."
+msgid "It must be between %1 and %2."
+msgstr "Выплата должна составлять от %1 до %2."
 
 msgid "It seems that you tried to sign up with an email address that's already in the %1 system."
 msgstr "Похоже, что Вы пытаетесь зарегистрироваться через электронный адрес, который уже есть в системе %1."
@@ -2125,6 +2149,11 @@ msgstr "Еще один шаг перед открытием счета"
 msgid "Only %1 decimal places allowed."
 msgstr "Разрешены только %1 десятичных."
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places are allowed."
+msgstr "Разрешены лишь 3 десятичные."
+
 msgid "Only 3 decimal places are allowed."
 msgstr "Разрешены лишь 3 десятичные."
 
@@ -2496,6 +2525,11 @@ msgstr "Ваши настройки были обновлены:"
 
 msgid "Please provide a currency for the Deriv X account."
 msgstr "Пожалуйста, укажите валюту для счета Deriv X."
+
+#, fuzzy
+#| msgid "Please provide your payment details."
+msgid "Please provide a payment method."
+msgstr "Пожалуйста, укажите вашу платежную информацию."
 
 msgid "Please provide a valid email address."
 msgstr "Пожалуйста, введите действующий email."
@@ -3363,6 +3397,11 @@ msgstr "Имя в вашем документе не соответствует 
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
 msgstr "Имена в вашем документе, удостоверяющем личность, и профиле Deriv/Binary не совпадают."
 
+#, fuzzy
+#| msgid "The symbol is invalid."
+msgid "The numeric value is invalid."
+msgstr "Неверный символ."
+
 msgid "The offset value cannot be negative. Please enter 0 or higher."
 msgstr "Значение смещения не может быть отрицательным. Пожалуйста, введите 0 или выше."
 
@@ -3377,6 +3416,11 @@ msgstr "Пароль к Вашему счету %1 был изменен. Есл
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Оплата через платежного агента недоступна для Вашего счёта."
+
+#, fuzzy
+#| msgid "The payment agent account does not exist."
+msgid "The payment method ID does not exist."
+msgstr "Данный платежный агент не существует."
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "Указанный ID счета Deriv недействителен."
@@ -3502,6 +3546,9 @@ msgstr "В данное время это объявление недоступ�
 msgid "This address can only be used once to make a deposit."
 msgstr "Данный адрес можно использовать только один раз для пополнения счёта."
 
+msgid "This advert has no payment methods. Please add at least one before activating it."
+msgstr ""
+
 msgid "This advertiser has not been approved yet. Please choose another advertiser."
 msgstr "Этот адвертайзер еще не был одобрен. Пожалуйста, выберите другого адвертайзера."
 
@@ -3568,6 +3615,9 @@ msgstr "Эта функция доступна только для кошель�
 msgid "This field is required."
 msgstr "Это поле обязательно к заполнению."
 
+msgid "This field must contain at least one alphabetic character."
+msgstr ""
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Вы находитесь на демо-счету. Пожалуйста, переключитесь на реальный счет, чтобы получить доступ к кассе."
 
@@ -3603,6 +3653,15 @@ msgstr "Этот ордер выполнен и не может быть осп�
 
 msgid "This order is under dispute."
 msgstr "Этот ордер оспаривается."
+
+msgid "This payment method is in use by multiple ads and/or orders, and cannot be deleted or deactivated."
+msgstr ""
+
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
+msgstr ""
+
+msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
+msgstr ""
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "Эта причина не относится к вашему случаю. Выберите другую причину."
@@ -4714,6 +4773,11 @@ msgstr "Вы не можете вывести средства на тот же 
 msgid "You deactivated your account due to financial reasons."
 msgstr "Вы деактивировали счет по финансовым причинам."
 
+#, fuzzy
+#| msgid "You have already withdrawn the equivalent of %1 %2."
+msgid "You have a payment method with the same values for %1."
+msgstr "Вы уже вывели со счета сумму, эквивалентную %1 %2."
+
 msgid "You have already claimed a bonus in the past."
 msgstr "Вы уже получали бонус ранее."
 
@@ -4812,6 +4876,9 @@ msgstr "Вы не можете одновременно использовать
 
 msgid "You may use either take profit or deal cancellation, but not both. Please select either one."
 msgstr "Вы не можете одновременно использовать тейк профит и отмену сделки. Пожалуйста, выберите одну из функций."
+
+msgid "You must keep a %1 payment method on this advert while it has active orders."
+msgstr ""
 
 msgid "You opened a %1 account. Your account login ID is %2."
 msgstr "Вы открыли %1 счет. Логин ID вашего счета: %2."
@@ -5247,6 +5314,9 @@ msgstr "датировано в течение последних 6 месяце
 
 msgid "let us know"
 msgstr "дайте нам знать"
+
+msgid "payment_method field can not be updated for sell ads."
+msgstr ""
 
 msgid "screenshots of addresses"
 msgstr "скриншоты адресов"
@@ -15105,6 +15175,9 @@ msgstr "через чат."
 #~ msgid "Invalid date: $until"
 #~ msgstr "Неверная дата: $until"
 
+#~ msgid "Invalid deposit commission amount: it should be between 0 and %1."
+#~ msgstr "Неверный размер комиссии за пополнение: должно быть от 0 до %1."
+
 #~ msgid "Invalid duration entered."
 #~ msgstr "Неверно внесена продолжительность."
 
@@ -15168,6 +15241,9 @@ msgstr "через чат."
 
 #~ msgid "Invalid value for list offset"
 #~ msgstr "Недопустимое значение для смещения списка"
+
+#~ msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+#~ msgstr "Неверный размер комиссии за вывод средств: должно быть от 0 до %1."
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "Неверное название рабочего пространства. Используйте следующие знаки: A-Z,a-z,0-9, -, _ и пробел"
@@ -17833,9 +17909,6 @@ msgstr "через чат."
 
 #~ msgid "Payout may only contain integers"
 #~ msgstr "Выплата может содержать только целые числа"
-
-#~ msgid "Payout must be between %1 and %2."
-#~ msgstr "Выплата должна составлять от %1 до %2."
 
 #~ msgid "Payout must be between <strong>%1</strong> and <strong>%2</strong>."
 #~ msgstr "Выплата должна быть между <strong>%1</strong> и <strong>%2</strong>."
@@ -21500,9 +21573,6 @@ msgstr "через чат."
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "Патент означает признание Regent Markets пионером бинарного беттинга. Он способствует защите наших инноваций."
 
-#~ msgid "The payment agent account does not exist."
-#~ msgstr "Данный платежный агент не существует."
-
 #~ msgid "The payment agent facility is currently not available in your country."
 #~ msgstr "Оплата через платежного агента в данный момент недоступна для Вашей страны."
 
@@ -21598,9 +21668,6 @@ msgstr "через чат."
 
 #~ msgid "The stop-loss and stop-profit are guaranteed. The loss and profit are limited to the stop-loss and stop-profit respectively.  When the exit level touches either the stop-loss or stop-profit, the contract will be closed at the stop-loss or stop-profit level."
 #~ msgstr "Стоп-лосс и стоп-профит являются гарантированными инструментами. Прибыли и убытки ограничены инструментами стоп-профит и стоп-лосс, соответственно. Когда уровень окончания касается уровня стоп-лосс или стоп-профит, контракт будет закрыт на соответствующей отметке."
-
-#~ msgid "The symbol is invalid."
-#~ msgstr "Неверный символ."
 
 #~ msgid "The system is currently closed for maintenance."
 #~ msgstr "В данный момент система закрыта по причине технических работ."
@@ -22013,9 +22080,6 @@ msgstr "через чат."
 
 #~ msgid "This page is unavailable when impersonating user"
 #~ msgstr "Данная страница недоступна, когда входящий выдает себя за пользователя"
-
-#~ msgid "This payment method is invalid."
-#~ msgstr "Данный платёжный метод недействителен."
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "Данное предложение распространяется только на новых клиентов. Настоящие или бывшие клиенты не могут им воспользоваться. Предложением можно воспользоваться только один раз."
@@ -23048,9 +23112,6 @@ msgstr "через чат."
 
 #~ msgid "View and increase your"
 #~ msgstr "Просмотрите и увеличьте Ваш(и)"
-
-#~ msgid "View available payment methods"
-#~ msgstr "См. доступные способы оплаты"
 
 #~ msgid "View balances"
 #~ msgstr "Баланс"
@@ -24260,9 +24321,6 @@ msgstr "через чат."
 
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "Вы уже в целом вывели сумму, эквивалентную %1 %2 за последние %3 суток."
-
-#~ msgid "You have already withdrawn the equivalent of %1 %2."
-#~ msgstr "Вы уже вывели со счета сумму, эквивалентную %1 %2."
 
 #~ msgid "You have already withdrawn the equivalent of EUR %1 in aggregate over the lifetime of your account."
 #~ msgstr "Вы уже вывели общую сумму EUR %1 (или эквивалент в другой валюте) за время существования Вашего счета."

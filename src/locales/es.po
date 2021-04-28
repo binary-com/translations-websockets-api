@@ -36,11 +36,24 @@ msgstr "%1 el desplazamiento de barrera no puede tener más de %2 decimales."
 msgid "%1 currency transfers are suspended."
 msgstr "Las transferencias de moneda %1 están suspendidas."
 
+msgid "%1 is a required field for payment method %2. Please provide a value."
+msgstr ""
+
+#, fuzzy
+#| msgid "%1 is not a valid input for contract type %2."
+msgid "%1 is not a valid field for payment method %2."
+msgstr "%1 no es una entrada válida para el tipo de contrato %2."
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 no es una entrada válida para el tipo de contrato %2."
 
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 no está disponible para residentes de %2."
+
+#, fuzzy
+#| msgid "View available payment methods"
+msgid "%1 is not available as a payment method for this advert."
+msgstr "Ver los métodos de pago disponibles"
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 no es compatible en este momento."
@@ -369,6 +382,9 @@ msgstr "Asiáticas"
 
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "Asociados con un número que representa la volatilidad relativa del mercado. Por ejemplo, el Índice de Volatilidad 100 es dos veces igual de volátil que el Índice de Volatilidad 50."
+
+msgid "At least one active payment method is required."
+msgstr ""
 
 msgid "Australian Index"
 msgstr "Índice Australia"
@@ -765,6 +781,9 @@ msgstr "Los contratos de este mercado con una duración inferior a 24 horas debe
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "Los contratos con duración inferior a 24h necesitan una barrera absoluta."
+
+msgid "Copied"
+msgstr ""
 
 msgid "Copier can't be a trader."
 msgstr "Un copiador no puede ser un operador."
@@ -1680,9 +1699,6 @@ msgstr "Divisa no válida."
 msgid "Invalid date format."
 msgstr "Formato de fecha inválido."
 
-msgid "Invalid deposit commission amount: it should be between 0 and %1."
-msgstr "Monto de depósito de comisión no válido: debe estar entre 0 y %1."
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Duración inválida (intervalo) para el tipo de contrato (%1)."
 
@@ -1694,6 +1710,16 @@ msgstr "Entrada no válida (duración o date_expiry) para este tipo de contrato 
 
 msgid "Invalid loginid"
 msgstr "ID de inicio de sesión no válido"
+
+#, fuzzy
+#| msgid "Invalid trade type: %1."
+msgid "Invalid payment method provided: %1."
+msgstr "Tipo de negociación inválido: %1."
+
+#, fuzzy
+#| msgid "This payment method is invalid."
+msgid "Invalid payment methods provided."
+msgstr "Este método de pago no es válido."
 
 msgid "Invalid payout currency"
 msgstr "Divisa no válida"
@@ -1728,9 +1754,6 @@ msgstr "Tipo de negociación inválido: %1."
 msgid "Invalid user."
 msgstr "Usuario no válido."
 
-msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
-msgstr "Monto de retiro de comisión no válido: debe estar entre 0 y %1."
-
 msgid "Irish Index"
 msgstr "Índice Irlanda"
 
@@ -1742,6 +1765,11 @@ msgstr "Parece que ya ha hecho la solicitud. Por favor, inténtelo de nuevo más
 
 msgid "It looks like your account is locked for MT5 transfers. Please contact us for more information."
 msgstr "Parece que su cuenta está bloqueada para transferencias MT5. Por favor contáctenos para más información."
+
+#, fuzzy
+#| msgid "Payout must be between %1 and %2."
+msgid "It must be between %1 and %2."
+msgstr "El pago tiene que ser entre %1 y %2."
 
 msgid "It seems that you tried to sign up with an email address that's already in the %1 system."
 msgstr "Parece que intentó registrarse con una dirección de correo electrónico que ya está en el sistema %1."
@@ -2118,6 +2146,11 @@ msgstr "Un paso más para crear su cuenta"
 msgid "Only %1 decimal places allowed."
 msgstr "Solo se permiten %1 decimales."
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places are allowed."
+msgstr "Sólo se permiten 3 decimales."
+
 msgid "Only 3 decimal places are allowed."
 msgstr "Sólo se permiten 3 decimales."
 
@@ -2491,6 +2524,11 @@ msgstr "Tenga en cuenta que sus configuraciones deben actualizarse como se muest
 
 msgid "Please provide a currency for the Deriv X account."
 msgstr "Proporcione una moneda para la cuenta Deriv X."
+
+#, fuzzy
+#| msgid "Please provide your payment details."
+msgid "Please provide a payment method."
+msgstr "Proporcione sus detalles de pago."
 
 msgid "Please provide a valid email address."
 msgstr "Por favor ingrese una dirección de correo electrónico válida."
@@ -3350,6 +3388,11 @@ msgstr "El nombre en su documento no coincide con su perfil."
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
 msgstr "Los nombres de su comprobante de identidad y el perfil de Deriv / Binary no coinciden."
 
+#, fuzzy
+#| msgid "The symbol is invalid."
+msgid "The numeric value is invalid."
+msgstr "El símbolo no es válido."
+
 msgid "The offset value cannot be negative. Please enter 0 or higher."
 msgstr "El valor de compensación no puede ser negativo. Por favor, introduzca 0 o superior."
 
@@ -3364,6 +3407,11 @@ msgstr "La contraseña de su cuenta %1 ha sido cambiada. Si esta solicitud no fu
 
 msgid "The payment agent facility is not available for this account."
 msgstr "La opción de agente de pagos no está disponible para esta cuenta."
+
+#, fuzzy
+#| msgid "The payment agent account does not exist."
+msgid "The payment method ID does not exist."
+msgstr "La cuenta del agente de pagos no existe."
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "El ID de cuenta Deriv proporcionado no es válido."
@@ -3485,6 +3533,9 @@ msgstr "Este anuncio no está disponible actualmente. Elija otro anuncio o vuelv
 msgid "This address can only be used once to make a deposit."
 msgstr "Esta dirección solo se puede usar una vez para hacer deposito."
 
+msgid "This advert has no payment methods. Please add at least one before activating it."
+msgstr ""
+
 msgid "This advertiser has not been approved yet. Please choose another advertiser."
 msgstr "Este anunciante aún no ha sido aprobado. Por favor, elija otro anunciante."
 
@@ -3551,6 +3602,9 @@ msgstr "Esta función solo está disponible para cuentas de billetera."
 msgid "This field is required."
 msgstr "Este campo es requerido."
 
+msgid "This field must contain at least one alphabetic character."
+msgstr ""
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Esta es una cuenta de dinero virtual. Por favor cambie a una cuenta de dinero para acceder al sistema de pagos."
 
@@ -3586,6 +3640,15 @@ msgstr "Este orden ya está completo y no se puede disputar."
 
 msgid "This order is under dispute."
 msgstr "Este orden está en disputa."
+
+msgid "This payment method is in use by multiple ads and/or orders, and cannot be deleted or deactivated."
+msgstr ""
+
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
+msgstr ""
+
+msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
+msgstr ""
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "Esta razón no se aplica a su caso. Elija otro motivo."
@@ -4694,6 +4757,11 @@ msgstr "No es posible retirar fondos para la misma cuenta."
 msgid "You deactivated your account due to financial reasons."
 msgstr "Desactivó su cuenta por motivos económicos."
 
+#, fuzzy
+#| msgid "You have already withdrawn the equivalent of %1 %2."
+msgid "You have a payment method with the same values for %1."
+msgstr "Usted ya retiró el equivalente a %1 %2."
+
 msgid "You have already claimed a bonus in the past."
 msgstr "Usted ya se ha beneficiado de una bonificación en el pasado."
 
@@ -4792,6 +4860,9 @@ msgstr "Puede usar el stop loss o la cancelación de la oferta, pero no ambos. P
 
 msgid "You may use either take profit or deal cancellation, but not both. Please select either one."
 msgstr "Puede usar la opción de take-profit o de cancelación del contrato, pero no ambas. Por favor seleccione una de las dos."
+
+msgid "You must keep a %1 payment method on this advert while it has active orders."
+msgstr ""
 
 msgid "You opened a %1 account. Your account login ID is %2."
 msgstr "Ha abierto una cuenta %1. Su ID de inicio de sesión es %2."
@@ -5227,6 +5298,9 @@ msgstr "tiene fecha de los últimos 6 meses"
 
 msgid "let us know"
 msgstr "Háganos saber"
+
+msgid "payment_method field can not be updated for sell ads."
+msgstr ""
 
 msgid "screenshots of addresses"
 msgstr "capturas de pantalla de direcciones"
@@ -14351,6 +14425,9 @@ msgstr "a través de chat en vivo."
 #~ msgid "Invalid date: $until"
 #~ msgstr "Fecha no válida: $until"
 
+#~ msgid "Invalid deposit commission amount: it should be between 0 and %1."
+#~ msgstr "Monto de depósito de comisión no válido: debe estar entre 0 y %1."
+
 #~ msgid "Invalid email and password combination."
 #~ msgstr "Combinación inválida de email y contraseña."
 
@@ -14404,6 +14481,9 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "Invalid value for list offset"
 #~ msgstr "Valor inválido para la lista offset"
+
+#~ msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+#~ msgstr "Monto de retiro de comisión no válido: debe estar entre 0 y %1."
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "Nombre no válido para el espacio de trabajo. Utilice solo caracteres (A-Z, a-z, 0-9, -, _ y espacio en blanco)"
@@ -17066,9 +17146,6 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "Payout may only contain integers"
 #~ msgstr "El pago solo puede contener números enteros"
-
-#~ msgid "Payout must be between %1 and %2."
-#~ msgstr "El pago tiene que ser entre %1 y %2."
 
 #~ msgid "Payout must be between <strong>%1</strong> and <strong>%2</strong>."
 #~ msgstr "Ganancias deseadas deben estar entre <strong>%1</strong> y <strong>%2</strong>."
@@ -20680,9 +20757,6 @@ msgstr "a través de chat en vivo."
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "La patente significa que Regent Markets es reconocida como pionera de apuestas binarias. La patente ayuda a proteger nuestras innovaciones."
 
-#~ msgid "The payment agent account does not exist."
-#~ msgstr "La cuenta del agente de pagos no existe."
-
 #~ msgid "The payment agent facility is currently not available in your country."
 #~ msgstr "La opción de agentes de pagos no está disponible actualmente en su país."
 
@@ -20766,9 +20840,6 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "The stop-loss and stop-profit are guaranteed. The loss and profit are limited to the stop-loss and stop-profit respectively.  When the exit level touches either the stop-loss or stop-profit, the contract will be closed at the stop-loss or stop-profit level."
 #~ msgstr "Los stop loss y stop profit están garantizados. Las pérdidas y los beneficios se limitan al stop loss y el stop profit respectivamente. Cuando el nivel de salida toca el stop loss o el stop profit, el contrato se cierra al nivel del stop loss o stop profit."
-
-#~ msgid "The symbol is invalid."
-#~ msgstr "El símbolo no es válido."
 
 #~ msgid "The system is currently closed for maintenance."
 #~ msgstr "Momentáneamente, el sistema está cerrado por mantenimiento."
@@ -21164,9 +21235,6 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "This page is unavailable when impersonating user"
 #~ msgstr "Esta página no está disponible cuando uno la intenta ver personificando al usuario"
-
-#~ msgid "This payment method is invalid."
-#~ msgstr "Este método de pago no es válido."
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "Esta promoción solo está disponible para Clientes nuevos. No se aplica a Clientes actuales o anteriores. Está disponible solo una vez para cada Cliente."
@@ -22201,9 +22269,6 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "View and increase your"
 #~ msgstr "Ver y aumentar su"
-
-#~ msgid "View available payment methods"
-#~ msgstr "Ver los métodos de pago disponibles"
 
 #~ msgid "View balances"
 #~ msgstr "Ver los saldos"
@@ -23394,9 +23459,6 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "Usted ya retiró un total equivalente a %1 %2  en los últimos %3 días."
-
-#~ msgid "You have already withdrawn the equivalent of %1 %2."
-#~ msgstr "Usted ya retiró el equivalente a %1 %2."
 
 #~ msgid "You have already withdrawn the equivalent of EUR %1 in aggregate over the lifetime of your account."
 #~ msgstr "Usted ya retiró un total equivalente a EUR %1 por el período de vigencia de su cuenta."

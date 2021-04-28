@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-04-28 20:05+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hant/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +30,24 @@ msgstr "%1 障礙抵銷的小數點後不可超過%2位數。"
 msgid "%1 currency transfers are suspended."
 msgstr "%1貨幣轉匯已停用。"
 
+msgid "%1 is a required field for payment method %2. Please provide a value."
+msgstr ""
+
+#, fuzzy
+#| msgid "%1 is not a valid input for contract type %2."
+msgid "%1 is not a valid field for payment method %2."
+msgstr "合約類型%2的%1輸入無效。"
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "合約類型%2的%1輸入無效。"
 
 msgid "%1 is not allowed for residence of %2."
 msgstr "%2居民不可進行%1。"
+
+#, fuzzy
+#| msgid "View available payment methods"
+msgid "%1 is not available as a payment method for this advert."
+msgstr "檢視可用支付方式"
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 目前不受支持。"
@@ -365,6 +377,9 @@ msgstr "亞洲期權"
 
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "與代表市場相對波動率的數字相關聯。比如，波動率100 指數的波動率是波動率50指數的兩倍。"
+
+msgid "At least one active payment method is required."
+msgstr ""
 
 msgid "Australian Index"
 msgstr "澳大利亞指數"
@@ -763,6 +778,9 @@ msgstr "期限小於24小時的市場內合約必須在同一交易日到期。"
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "擁有預定障礙的合約必須有個絕對障礙。"
+
+msgid "Copied"
+msgstr ""
 
 msgid "Copier can't be a trader."
 msgstr "交易員不可成為複製者。"
@@ -1674,9 +1692,6 @@ msgstr "無效工作階段。"
 msgid "Invalid date format."
 msgstr "無效的日期格式。"
 
-msgid "Invalid deposit commission amount: it should be between 0 and %1."
-msgstr "存款佣金額無效: 必須在 0 和 %1之間。"
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "合約類型(%1)無效持續時間(跳動點)。"
 
@@ -1688,6 +1703,16 @@ msgstr "此合約類型(%1)的輸入(期限或date_expiry)無效。"
 
 msgid "Invalid loginid"
 msgstr "無效登入id"
+
+#, fuzzy
+#| msgid "Invalid trade type: %1."
+msgid "Invalid payment method provided: %1."
+msgstr "無效交易類型: %1。"
+
+#, fuzzy
+#| msgid "This payment method is invalid."
+msgid "Invalid payment methods provided."
+msgstr "此付款方式無效。"
 
 msgid "Invalid payout currency"
 msgstr "無效賠付幣種"
@@ -1722,9 +1747,6 @@ msgstr "無效交易類型: %1。"
 msgid "Invalid user."
 msgstr "無效使用者。"
 
-msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
-msgstr "提款佣金額無效: 必須在 0 和 %1之間。"
-
 msgid "Irish Index"
 msgstr "愛爾蘭指數"
 
@@ -1736,6 +1758,11 @@ msgstr "此請求您似乎已經提過了。請稍後重試。"
 
 msgid "It looks like your account is locked for MT5 transfers. Please contact us for more information."
 msgstr "您的帳戶似乎已被鎖定，無法進行MT5轉帳。欲知詳情請跟我們聯繫。"
+
+#, fuzzy
+#| msgid "Payout must be between %1 and %2."
+msgid "It must be between %1 and %2."
+msgstr "賠付額須在%1 與 %2之間。"
 
 msgid "It seems that you tried to sign up with an email address that's already in the %1 system."
 msgstr "您似乎正在使用已經在%1系統內的電子郵件地址註冊。"
@@ -2112,6 +2139,11 @@ msgstr "還差一步即可建立帳戶"
 msgid "Only %1 decimal places allowed."
 msgstr "只允許%1個小數點。"
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places are allowed."
+msgstr "只允許3個小數點。"
+
 msgid "Only 3 decimal places are allowed."
 msgstr "只允許3個小數點。"
 
@@ -2483,6 +2515,11 @@ msgstr "請注意，您的設定已完成以下更新："
 
 msgid "Please provide a currency for the Deriv X account."
 msgstr "請提供 Deriv X 帳戶的貨幣。"
+
+#, fuzzy
+#| msgid "Please provide your payment details."
+msgid "Please provide a payment method."
+msgstr "請提供您的付款詳細資訊。"
 
 msgid "Please provide a valid email address."
 msgstr "請提供有效的電郵地址。"
@@ -3342,6 +3379,11 @@ msgstr "文件上的姓名與您的個人資料不匹配。"
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
 msgstr "您的身份證明文件和 Deriv/Binary 帳戶個人資料中的姓名不匹配。"
 
+#, fuzzy
+#| msgid "The symbol is invalid."
+msgid "The numeric value is invalid."
+msgstr "此符號無效。"
+
 msgid "The offset value cannot be negative. Please enter 0 or higher."
 msgstr "抵銷數值不可為負。請輸入 0 或更大數值。"
 
@@ -3356,6 +3398,11 @@ msgstr "您的帳戶%1密碼已重設。如您並沒執行此項要求，請立�
 
 msgid "The payment agent facility is not available for this account."
 msgstr "此帳戶無可用付款代理設施。"
+
+#, fuzzy
+#| msgid "The payment agent account does not exist."
+msgid "The payment method ID does not exist."
+msgstr "付款代理帳戶不存在。"
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "所提供的Deriv 帳戶 ID無效。"
@@ -3477,6 +3524,9 @@ msgstr "此廣告目前無法使用。請選擇別的廣告或稍後再查看。
 msgid "This address can only be used once to make a deposit."
 msgstr "作為存款用途，此地址僅可使用一次。"
 
+msgid "This advert has no payment methods. Please add at least one before activating it."
+msgstr ""
+
 msgid "This advertiser has not been approved yet. Please choose another advertiser."
 msgstr "此廣告商還未被批准。請選擇別的廣告商。"
 
@@ -3543,6 +3593,9 @@ msgstr "此功能僅適用於錢包帳戶。"
 msgid "This field is required."
 msgstr "此欄位是必填項。"
 
+msgid "This field must contain at least one alphabetic character."
+msgstr ""
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "這是虛擬帳戶。要存取收銀台請轉換到真實資金帳戶。"
 
@@ -3578,6 +3631,15 @@ msgstr "此訂單已完成，因此無法提出投訴。"
 
 msgid "This order is under dispute."
 msgstr "此訂單有糾紛。"
+
+msgid "This payment method is in use by multiple ads and/or orders, and cannot be deleted or deactivated."
+msgstr ""
+
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
+msgstr ""
+
+msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
+msgstr ""
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "此原因不適用於您的案例。請選擇別的原因。"
@@ -4686,6 +4748,11 @@ msgstr "不可轉帳到相同帳戶。"
 msgid "You deactivated your account due to financial reasons."
 msgstr "由於財務因素，您已停止使用您的帳戶。"
 
+#, fuzzy
+#| msgid "You have already withdrawn the equivalent of %1 %2."
+msgid "You have a payment method with the same values for %1."
+msgstr "您已提取 %1 %2 的等值。"
+
 msgid "You have already claimed a bonus in the past."
 msgstr "您此前已領取獎金。"
 
@@ -4784,6 +4851,9 @@ msgstr "您可以使用止損或交易取消，但不能同時使用兩者。請
 
 msgid "You may use either take profit or deal cancellation, but not both. Please select either one."
 msgstr "您可以使用止盈或交易取消，但不能同時使用兩者。請選擇一個。"
+
+msgid "You must keep a %1 payment method on this advert while it has active orders."
+msgstr ""
 
 msgid "You opened a %1 account. Your account login ID is %2."
 msgstr "您已開立了 %1 帳戶。登入 ID 是 %2。"
@@ -5219,6 +5289,9 @@ msgstr "最近 6 個月簽發的"
 
 msgid "let us know"
 msgstr "通知我們"
+
+msgid "payment_method field can not be updated for sell ads."
+msgstr ""
 
 msgid "screenshots of addresses"
 msgstr "地址螢幕擷取畫面"
@@ -11530,6 +11603,9 @@ msgstr "透過即時聊天。"
 #~ msgid "Invalid candles request"
 #~ msgstr "無效K線圖請求"
 
+#~ msgid "Invalid deposit commission amount: it should be between 0 and %1."
+#~ msgstr "存款佣金額無效: 必須在 0 和 %1之間。"
+
 #~ msgid "Invalid email and password combination."
 #~ msgstr "無效的電子郵件地址和密碼組合。"
 
@@ -11572,6 +11648,9 @@ msgstr "透過即時聊天。"
 
 #~ msgid "Invalid value for list offset"
 #~ msgstr "無效的清單位移數值"
+
+#~ msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+#~ msgstr "提款佣金額無效: 必須在 0 和 %1之間。"
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "無效的工作區名稱。只可使用以下字母、數字和符號(AZ、az、0-9、 -、_ 以及空白字元)"
@@ -13737,9 +13816,6 @@ msgstr "透過即時聊天。"
 
 #~ msgid "Payout has moved in your favour from %1 to %2."
 #~ msgstr "賠付變得對您有利，從 %1 變為 %2。"
-
-#~ msgid "Payout must be between %1 and %2."
-#~ msgstr "賠付額須在%1 與 %2之間。"
 
 #~ msgid "Payout must be between <strong>%1</strong> and <strong>%2</strong>."
 #~ msgstr "賠付額必須介於<strong>%1</strong> 和<strong>%2</strong>之間。"
@@ -16320,9 +16396,6 @@ msgstr "透過即時聊天。"
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "該專利意味著Regent Markets 為公認的二元投注先驅。這項專利有助於保護我們的創新。"
 
-#~ msgid "The payment agent account does not exist."
-#~ msgstr "付款代理帳戶不存在。"
-
 #~ msgid "The payment agent facility is currently not available in your country."
 #~ msgstr "目前您的國家無可用付款代理設施。"
 
@@ -16370,9 +16443,6 @@ msgstr "透過即時聊天。"
 
 #~ msgid "The stop-loss and stop-profit are guaranteed. The loss and profit are limited to the stop-loss and stop-profit respectively.  When the exit level touches either the stop-loss or stop-profit, the contract will be closed at the stop-loss or stop-profit level."
 #~ msgstr "我們提供止損和止盈的保證。虧損和盈利分別受止損和止盈所限制。  當退出價位接觸止損或止盈任何一項時，合約將在該止損或止盈價位平倉。"
-
-#~ msgid "The symbol is invalid."
-#~ msgstr "此符號無效。"
 
 #~ msgid "The system is missing critical pricing information. Please try again in a few minutes, or try a different market."
 #~ msgstr "系統丟失關鍵定價資訊。請幾分鐘後再試，或嘗試別的市場。"
@@ -16670,9 +16740,6 @@ msgstr "透過即時聊天。"
 
 #~ msgid "This order is already confirmed."
 #~ msgstr "此訂單已確認。"
-
-#~ msgid "This payment method is invalid."
-#~ msgstr "此付款方式無效。"
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "本促銷活動僅適用於新客戶。目前或以往客戶不符合條件。每一客戶僅能獲得一次。"
@@ -17391,9 +17458,6 @@ msgstr "透過即時聊天。"
 
 #~ msgid "View and increase your"
 #~ msgstr "檢視和增加您的"
-
-#~ msgid "View available payment methods"
-#~ msgstr "檢視可用支付方式"
 
 #~ msgid "View contract prices across a range of barriers and durations."
 #~ msgstr "檢視不同障礙和期限的合約價格。"
@@ -18327,9 +18391,6 @@ msgstr "透過即時聊天。"
 
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "過去 %3 天裡您已累計提取 %1 %2 的等值。"
-
-#~ msgid "You have already withdrawn the equivalent of %1 %2."
-#~ msgstr "您已提取 %1 %2 的等值。"
 
 #~ msgid "You have already withdrawn the equivalent of EUR %1 in aggregate over the lifetime of your account."
 #~ msgstr "自您開戶以來，您已累計提取 EUR %1。"

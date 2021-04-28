@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-04-28 20:05+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/th/>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/translations/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,11 +35,22 @@ msgstr "%1 การชดเชย barrier ต้องมีทศนิยม
 msgid "%1 currency transfers are suspended."
 msgstr "%1 การโอนสกุลเงินถูกระงับ"
 
+msgid "%1 is a required field for payment method %2. Please provide a value."
+msgstr ""
+
+#, fuzzy
+#| msgid "%1 is not a valid input for contract type %2."
+msgid "%1 is not a valid field for payment method %2."
+msgstr "%1 ไม่ถูกต้อง สำหรับประเภทสัญญา %2"
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 ไม่ถูกต้อง สำหรับประเภทสัญญา %2"
 
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 ไม่ได้รับอนุญาตในการพำนักที่ %2"
+
+msgid "%1 is not available as a payment method for this advert."
+msgstr ""
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 ไม่รองรับในขณะนี้"
@@ -270,9 +280,7 @@ msgid "Address: %1, transaction: %2"
 msgstr "ที่อยู่: %1 ธุรกรรม: %2"
 
 msgid "Addresses starting with \"%1\" (%2 format) aren't supported by the %3 network. Please enter address starting with 1 or 3."
-msgstr ""
-"เครือข่าย %3 ไม่สนับสนุนที่อยู่ที่ขึ้นกับ \"%1\" (รูปแบบ %2) "
-"กรุณาใส่ที่อยู่ที่ขึ้นกับ 1 หรือ 3"
+msgstr "เครือข่าย %3 ไม่สนับสนุนที่อยู่ที่ขึ้นกับ \"%1\" (รูปแบบ %2) กรุณาใส่ที่อยู่ที่ขึ้นกับ 1 หรือ 3"
 
 msgid "Adidas"
 msgstr "Adidas"
@@ -372,6 +380,9 @@ msgstr "Asians"
 
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "เกี่ยวข้องกับตัวเลขที่แสดงความสัมพันธ์ของความผันผวนในตลาด เช่น ดัชนีผันผวน 100 เป็นสองเท่าของความผันผวนของดัชนีผันผวน 50"
+
+msgid "At least one active payment method is required."
+msgstr ""
 
 msgid "Australian Index"
 msgstr "ดัชนีออสเตรเลีย"
@@ -768,6 +779,9 @@ msgstr "สัญญาในตลาดนี้ที่มีระยะเ
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "สัญญาที่มีค่า Barrier ที่กำหนดไว้ก่อน ต้องการค่าสัมบูรณ์ของ Barrier"
+
+msgid "Copied"
+msgstr ""
 
 msgid "Copier can't be a trader."
 msgstr "ผู้คัดสำเนาไม่สามารถเป็นนักซื้อขาย"
@@ -1679,9 +1693,6 @@ msgstr "สกุลเงินไม่ถูกต้อง"
 msgid "Invalid date format."
 msgstr "รูปแบบวันที่ไม่ถูกต้อง"
 
-msgid "Invalid deposit commission amount: it should be between 0 and %1."
-msgstr "จำนวนคอมมิชชั่นการฝากไม่ถูกต้อง: ควรอยู่ระหว่าง 0 ถึง %1"
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "ช่วงเวลาไม่ถูกต้อง (ช่วงราคา) สำหรับประเภทสัญญา (%1)"
 
@@ -1693,6 +1704,16 @@ msgstr "ข้อมูลสัญญาไม่ถูกต้อง(ระ�
 
 msgid "Invalid loginid"
 msgstr "รหัสผู้ใช้งานไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "Invalid trade type: %1."
+msgid "Invalid payment method provided: %1."
+msgstr "ประเภทการซื้อขายไม่ถูกต้อง: %1"
+
+#, fuzzy
+#| msgid "The token is invalid."
+msgid "Invalid payment methods provided."
+msgstr "โทเค่นไม่ถูกต้อง"
 
 msgid "Invalid payout currency"
 msgstr "สกุลเงินไม่ถูกต้อง"
@@ -1727,9 +1748,6 @@ msgstr "ประเภทการซื้อขายไม่ถูกต้
 msgid "Invalid user."
 msgstr "ผู้ใช้งานไม่ถูกต้อง"
 
-msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
-msgstr "จำนวนคอมมิชชั่นการถอนไม่ถูกต้อง: ควรอยู่ระหว่าง 0 ถึง %1"
-
 msgid "Irish Index"
 msgstr "ดัชนีไอริช"
 
@@ -1741,6 +1759,11 @@ msgstr "คุณได้ทำคำขอไปแล้ว กรุณา�
 
 msgid "It looks like your account is locked for MT5 transfers. Please contact us for more information."
 msgstr "บัญชี MT5 ของคุณถูกล็อคสําหรับการโอน โปรดติดต่อเราสําหรับข้อมูลเพิ่มเติม"
+
+#, fuzzy
+#| msgid "Stop Loss must be between %1 and %2 %3"
+msgid "It must be between %1 and %2."
+msgstr "การระงับขาดทุนต้องมีค่าระหว่าง %1 และ %2 %3"
 
 msgid "It seems that you tried to sign up with an email address that's already in the %1 system."
 msgstr "ดูเหมือนว่าคุณพยายามลงทะเบียนด้วยอีเมลที่มีอยู่แล้วใน%1 ระบบ"
@@ -2117,6 +2140,11 @@ msgstr "อีกขั้นตอนหนึ่งในการสร้า
 msgid "Only %1 decimal places allowed."
 msgstr "อนุญาต %1 ให้ใช้ทศนิยมตำแหน่ง"
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places are allowed."
+msgstr "ใช้ทศนิยมได้ 3 หลัก"
+
 msgid "Only 3 decimal places are allowed."
 msgstr "ใช้ทศนิยมได้ 3 หลัก"
 
@@ -2488,6 +2516,11 @@ msgstr "การตั้งค่าของท่านมีการแก
 
 msgid "Please provide a currency for the Deriv X account."
 msgstr "โปรดระบุสกุลเงินสำหรับบัญชี Deriv X"
+
+#, fuzzy
+#| msgid "Please provide your payment details."
+msgid "Please provide a payment method."
+msgstr "โปรดระบุรายละเอียดการชำระเงินของคุณ"
 
 msgid "Please provide a valid email address."
 msgstr "โปรดป้อนอีเมล์ที่ถูกต้องของท่าน"
@@ -3347,6 +3380,11 @@ msgstr "ชื่อบนเอกสารของคุณไม่ตรง
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
 msgstr "ชื่อในหลักฐานยืนยันตัวตนและโปรไฟล์ Deriv/Binary ไม่ตรงกัน"
 
+#, fuzzy
+#| msgid "The symbol is invalid."
+msgid "The numeric value is invalid."
+msgstr "สัญลักษณ์ไม่ถูกต้อง"
+
 msgid "The offset value cannot be negative. Please enter 0 or higher."
 msgstr "ค่าของออฟเซ็ตไม่สามารถเป็นค่าลบ โปรดใส่ 0 หรือมากกว่า"
 
@@ -3361,6 +3399,11 @@ msgstr "รหัสผ่านของบัญชีท่าน %1 มี�
 
 msgid "The payment agent facility is not available for this account."
 msgstr "ไม่มีบริการตัวแทนรับชำระเงินสำหรับบัญชีนี้"
+
+#, fuzzy
+#| msgid "The payment agent account does not exist."
+msgid "The payment method ID does not exist."
+msgstr "ไม่มีบัญชีตัวแทนชำระเงินนี้"
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "รหัสบัญชี Deriv ที่ระบุไม่ถูกต้อง"
@@ -3482,6 +3525,9 @@ msgstr "โฆษณานี้ไม่สามารถใช้งานไ
 msgid "This address can only be used once to make a deposit."
 msgstr "ที่อยู่ถูกใช้ได้เพียงครั้งเดียวต่อการฝากหนึ่งครั้ง"
 
+msgid "This advert has no payment methods. Please add at least one before activating it."
+msgstr ""
+
 msgid "This advertiser has not been approved yet. Please choose another advertiser."
 msgstr "ผู้ลงโฆษณารายนี้ยังไม่ได้รับการอนุมัติ โปรดเลือกผู้ลงโฆษณารายอื่น"
 
@@ -3548,6 +3594,9 @@ msgstr "ฟีเจอร์นี้มีให้สำหรับบัญ
 msgid "This field is required."
 msgstr "ต้องใส่ข้อมูลในเขตข้อมูลนี้"
 
+msgid "This field must contain at least one alphabetic character."
+msgstr ""
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "นี้คือ บัญชีทดลองใช้ โปรดเปลี่ยนกลับไปบัญชีเงินจริงเพื่อดำเนินการ"
 
@@ -3583,6 +3632,15 @@ msgstr "คำสั่งซื้อนี้เสร็จสมบูรณ
 
 msgid "This order is under dispute."
 msgstr "คำสั่งซื้อนี้อยู่ระหว่างการยกข้อโต้แย้ง"
+
+msgid "This payment method is in use by multiple ads and/or orders, and cannot be deleted or deactivated."
+msgstr ""
+
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
+msgstr ""
+
+msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
+msgstr ""
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "เหตุผลนี้ไม่สามารถใช้ได้กับกรณีของคุณ โปรดเลือกเหตุผลอื่น"
@@ -4691,6 +4749,11 @@ msgstr "ท่านไม่สามารถถอนเงินไปยั
 msgid "You deactivated your account due to financial reasons."
 msgstr "คุณปิดใช้งานบัญชีของคุณเนื่องจากเหตุผลทางการเงิน"
 
+#, fuzzy
+#| msgid "You have already withdrawn the equivalent of %1 %2."
+msgid "You have a payment method with the same values for %1."
+msgstr "ท่านได้ถอน %1 %2 หรือเทียบเท่า"
+
 msgid "You have already claimed a bonus in the past."
 msgstr "ท่านได้ใช้โบนัสไปแล้ว"
 
@@ -4789,6 +4852,9 @@ msgstr "คุณสามารถใช้การหยุดการสู
 
 msgid "You may use either take profit or deal cancellation, but not both. Please select either one."
 msgstr "คุณสามารถเลือกทำกำไรหรือยกเลิกข้อตกลง ได้เพียงอย่างใดอย่างหนึ่ง"
+
+msgid "You must keep a %1 payment method on this advert while it has active orders."
+msgstr ""
 
 msgid "You opened a %1 account. Your account login ID is %2."
 msgstr "คุณได้เปิดบัญชี %1 บัญชีล็อกอินของคุณ คือ %2"
@@ -5224,6 +5290,9 @@ msgstr "เป็นวันที่ภายใน 6 เดือนที่
 
 msgid "let us know"
 msgstr "แจ้งให้เราทราบ"
+
+msgid "payment_method field can not be updated for sell ads."
+msgstr ""
 
 msgid "screenshots of addresses"
 msgstr "รูปหน้าจอของที่อยู่"
@@ -10710,6 +10779,9 @@ msgstr "ผ่านการแชทสด"
 #~ msgid "Invalid candles request"
 #~ msgstr "การร้องขอแท่งเทียนไม่ถูกต้อง"
 
+#~ msgid "Invalid deposit commission amount: it should be between 0 and %1."
+#~ msgstr "จำนวนคอมมิชชั่นการฝากไม่ถูกต้อง: ควรอยู่ระหว่าง 0 ถึง %1"
+
 #~ msgid "Invalid email and password combination."
 #~ msgstr "อีเมล์และการกำหนดรหัสผ่านไม่ถูกต้อง"
 
@@ -10750,6 +10822,9 @@ msgstr "ผ่านการแชทสด"
 #~| msgid "Invalid URI for appstore."
 #~ msgid "Invalid value for list offset"
 #~ msgstr "URI ของ AppStore ไม่ถูกต้อง"
+
+#~ msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+#~ msgstr "จำนวนคอมมิชชั่นการถอนไม่ถูกต้อง: ควรอยู่ระหว่าง 0 ถึง %1"
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "การตั้งชื่อ Workspace ไม่ถูกต้อง โปรดใช้อักขระ A-Z, a-z, 0-9, - และช่องว่าง เท่านั้น"
@@ -13856,9 +13931,6 @@ msgstr "ผ่านการแชทสด"
 #~ msgid "Stop Loss Level"
 #~ msgstr "ระดับการระงับการขาดทุน"
 
-#~ msgid "Stop Loss must be between %1 and %2 %3"
-#~ msgstr "การระงับขาดทุนต้องมีค่าระหว่าง %1 และ %2 %3"
-
 #~ msgid "Stop Profit Level"
 #~ msgstr "ระดับการระงับกำไร"
 
@@ -14307,9 +14379,6 @@ msgstr "ผ่านการแชทสด"
 #~ msgid "The password for your account %1 has been changed. This request originated from IP address %2. If this request was not performed by you, please immediately contact Customer Support."
 #~ msgstr "รหัสผ่านของบัญชีท่าน %1 มีการแก้ไข จาก IP Address %2 หากท่านไม่ได้เป็นผู้ขอดำเนินการ โปรดติดต่อเจ้าหน้าที่บริการลูกค้าทันที"
 
-#~ msgid "The payment agent account does not exist."
-#~ msgstr "ไม่มีบัญชีตัวแทนชำระเงินนี้"
-
 #~ msgid "The payment agent facility is currently not available in your country."
 #~ msgstr "ขณะนี้ไม่มีบริการตัวแทนรับชำระเงินในประเทศของท่าน"
 
@@ -14330,9 +14399,6 @@ msgstr "ผ่านการแชทสด"
 
 #~ msgid "The smoothing and filtering algorithms described above."
 #~ msgstr "อัลกอริธึ่มการทำให้เรียบและการคัดกรองได้อธิบายแล้วข้างต้น"
-
-#~ msgid "The symbol is invalid."
-#~ msgstr "สัญลักษณ์ไม่ถูกต้อง"
 
 #~ msgid "The two passwords that you entered do not match."
 #~ msgstr "รหัสผ่านที่ท่านป้อนสองครั้งไม่ตรงกัน"
@@ -14511,11 +14577,6 @@ msgstr "ผ่านการแชทสด"
 
 #~ msgid "This order is already confirmed."
 #~ msgstr "รายการสั่งซื้อนี้ได้รับการยืนยันแล้ว"
-
-#, fuzzy
-#~| msgid "The token is invalid."
-#~ msgid "This payment method is invalid."
-#~ msgstr "โทเค่นไม่ถูกต้อง"
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "การส่งเสริมการขายนี้จัดขึ้นเฉพาะลูกค้ารายใหม่เท่านั้น ลูกค้าเดิมไม่สามารถใช้ได้ ขอสงวนสิทธิ์สำหรับลูกค้าแต่ละราย"
@@ -15295,9 +15356,6 @@ msgstr "ผ่านการแชทสด"
 
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "ท่านได้ถอน %1 %2 หรือเทียบเท่า ในช่วง %3 วันที่ผ่านมา"
-
-#~ msgid "You have already withdrawn the equivalent of %1 %2."
-#~ msgstr "ท่านได้ถอน %1 %2 หรือเทียบเท่า"
 
 #~ msgid "You have bought contracts with a combined purchase price of five times the bonus amount."
 #~ msgstr "ท่านได้ซื้อสัญญาด้วยราคา 5 เท่าของมูลค่าโบนัส"

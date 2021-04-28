@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-04-28 20:05+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/binary-websocket/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,11 +35,24 @@ msgstr "Batasan offset %1 tidak dapat memiliki lebih dari %2 desimal."
 msgid "%1 currency transfers are suspended."
 msgstr "transfer mata uang %1 telah dibatalkan."
 
+msgid "%1 is a required field for payment method %2. Please provide a value."
+msgstr ""
+
+#, fuzzy
+#| msgid "%1 is not a valid input for contract type %2."
+msgid "%1 is not a valid field for payment method %2."
+msgstr "%1 bukan input yang valid untuk jenis kontrak %2."
+
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 bukan input yang valid untuk jenis kontrak %2."
 
 msgid "%1 is not allowed for residence of %2."
 msgstr "%1 tidak tersedia bagi penduduk %2."
+
+#, fuzzy
+#| msgid "View available payment methods"
+msgid "%1 is not available as a payment method for this advert."
+msgstr "Lihat metode pembayaran yang tersedia"
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 tidak tersedia untuk sementara."
@@ -269,9 +281,7 @@ msgid "Address: %1, transaction: %2"
 msgstr "Alamat: %1, transaksi: %2"
 
 msgid "Addresses starting with \"%1\" (%2 format) aren't supported by the %3 network. Please enter address starting with 1 or 3."
-msgstr ""
-"Alamat yang diawali dengan \"%1\" (format %2) tidak tersedia untuk jaringan "
-"%3. Mohon masukkan alamat yang diawali dengan 1 atau 3."
+msgstr "Alamat yang diawali dengan \"%1\" (format %2) tidak tersedia untuk jaringan %3. Mohon masukkan alamat yang diawali dengan 1 atau 3."
 
 msgid "Adidas"
 msgstr "Adidas"
@@ -371,6 +381,9 @@ msgstr "Asian"
 
 msgid "Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index."
 msgstr "Berhubungan dengan angka yang mewakili volatilitas pasar. Sebagai contoh, Indeks Volatilitas 100 memiliki volatilitas dua kali lipat Indeks Volatilitas 50."
+
+msgid "At least one active payment method is required."
+msgstr ""
 
 msgid "Australian Index"
 msgstr "Indeks Australia"
@@ -767,6 +780,9 @@ msgstr "Kontrak pada pasar ini dengan durasi kurang dari 24 jam harus berakhir p
 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "Kontrak dengan barrier yang ditentukan memerlukan absolut barrier."
+
+msgid "Copied"
+msgstr ""
 
 msgid "Copier can't be a trader."
 msgstr "Copier tidak bisa menjadi trader."
@@ -1677,9 +1693,6 @@ msgstr "Mata uang salah."
 msgid "Invalid date format."
 msgstr "Format tanggal salah."
 
-msgid "Invalid deposit commission amount: it should be between 0 and %1."
-msgstr "Jumlah komisi untuk deposit tidak valid: harus antara 0 dan %1."
-
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Durasi (tik) tidak berlaku untuk jenis kontrak (%1)."
 
@@ -1691,6 +1704,16 @@ msgstr "Input tidak valid (durasi atau date_expiry) untuk jenis kontrak ini (%1)
 
 msgid "Invalid loginid"
 msgstr "Loginid tidak berlaku"
+
+#, fuzzy
+#| msgid "Invalid trade type: %1."
+msgid "Invalid payment method provided: %1."
+msgstr "Jenis kontrak salah: %1."
+
+#, fuzzy
+#| msgid "This payment method is invalid."
+msgid "Invalid payment methods provided."
+msgstr "Metode pembayaran ini tidak tersedia."
 
 msgid "Invalid payout currency"
 msgstr "Mata uang hasil tidak berlaku"
@@ -1725,9 +1748,6 @@ msgstr "Jenis kontrak salah: %1."
 msgid "Invalid user."
 msgstr "Pengguna tidak valid."
 
-msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
-msgstr "Jumlah komisi untuk penarikan tidak valid: harus antara 0 dan %1."
-
 msgid "Irish Index"
 msgstr "Indeks Irlandia"
 
@@ -1739,6 +1759,11 @@ msgstr "Sepertinya Anda sudah membuat permintaan. Silakan coba kembali nanti."
 
 msgid "It looks like your account is locked for MT5 transfers. Please contact us for more information."
 msgstr "Sepertinya akun Anda tidak dibenarkan untuk melakukan transfer MT5. Silakan hubungi kami untuk informasi lebih lanjut."
+
+#, fuzzy
+#| msgid "Payout must be between %1 and %2."
+msgid "It must be between %1 and %2."
+msgstr "Hasil harus antara %1 dan %2."
 
 msgid "It seems that you tried to sign up with an email address that's already in the %1 system."
 msgstr "Sepertinya Anda mencoba untuk mendaftar menggunakan alamat email yang sudah tersedia di dalam sistem %1."
@@ -2115,6 +2140,11 @@ msgstr "Satu langkah lagi untuk mendaftar akun Anda"
 msgid "Only %1 decimal places allowed."
 msgstr "Hanya %1 angka desimal diperbolehkan."
 
+#, fuzzy
+#| msgid "Only 3 decimal places are allowed."
+msgid "Only %1 decimal places are allowed."
+msgstr "Hanya 3 angka desimal yang dibenarkan."
+
 msgid "Only 3 decimal places are allowed."
 msgstr "Hanya 3 angka desimal yang dibenarkan."
 
@@ -2350,8 +2380,7 @@ msgid "Please authenticate your account to proceed with withdrawals."
 msgstr "Otentikasi akun Anda untuk melanjutkan penarikan."
 
 msgid "Please authenticate your account to trade on synthetic markets."
-msgstr ""
-"Mohon otentikasi akun Anda untuk melanjutkan trading pada pasar sintetis."
+msgstr "Mohon otentikasi akun Anda untuk melanjutkan trading pada pasar sintetis."
 
 msgid "Please authenticate your account."
 msgstr "Silahkan otentikasi akun Anda."
@@ -2487,6 +2516,11 @@ msgstr "Mohon diketahui bahwa pengaturan Anda telah diperbarui sebagai berikut:"
 
 msgid "Please provide a currency for the Deriv X account."
 msgstr "Silahkan pilih mata uang pada akun Deriv X."
+
+#, fuzzy
+#| msgid "Please provide your payment details."
+msgid "Please provide a payment method."
+msgstr "Mohon berikan rincian pembayaran Anda."
 
 msgid "Please provide a valid email address."
 msgstr "Mohon untuk memberikan alamat email yang valid."
@@ -3346,6 +3380,11 @@ msgstr "Nama yang tercantum pada dokumen Anda tidak sesuai dengan profil Anda."
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
 msgstr "Nama pada bukti identitas Anda dan profil Deriv/Binary tidak cocok."
 
+#, fuzzy
+#| msgid "The symbol is invalid."
+msgid "The numeric value is invalid."
+msgstr "Simbol ini tidak berlaku."
+
 msgid "The offset value cannot be negative. Please enter 0 or higher."
 msgstr "Nilai offset tidak dapat berupa nilai negatif. Silakan masukkan 0 atau nilai lebih tinggi."
 
@@ -3360,6 +3399,11 @@ msgstr "Kata sandi akun %1 Anda telah dirubah. Jika permohonan ini bukan berasal
 
 msgid "The payment agent facility is not available for this account."
 msgstr "Fasilitas agen pembayaran tidak tersedia untuk akun ini."
+
+#, fuzzy
+#| msgid "The payment agent account does not exist."
+msgid "The payment method ID does not exist."
+msgstr "Akun agen pembayaran tidak tersedia."
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "ID akun Deriv yang diberikan tidak valid."
@@ -3481,6 +3525,9 @@ msgstr "Iklan ini tidak tersedia. Silakan pilih iklan lain atau periksa kembali 
 msgid "This address can only be used once to make a deposit."
 msgstr "Alamat ini hanya dapat digunakan satu kali saja untuk melakukan deposit."
 
+msgid "This advert has no payment methods. Please add at least one before activating it."
+msgstr ""
+
 msgid "This advertiser has not been approved yet. Please choose another advertiser."
 msgstr "Pengiklan ini belum disetujui. Silakan pilih pengiklan lain."
 
@@ -3547,6 +3594,9 @@ msgstr "Fitur ini hanya tersedia untuk akun wallet."
 msgid "This field is required."
 msgstr "Kolom ini diperlukan."
 
+msgid "This field must contain at least one alphabetic character."
+msgstr ""
+
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
 msgstr "Ini adalah akun uang virtual. Silahkan pindah ke akun uang riil untuk mengakses kasir."
 
@@ -3582,6 +3632,15 @@ msgstr "Order ini telah berakhir dan tidak dapat lagi diperdebatkan."
 
 msgid "This order is under dispute."
 msgstr "Order ini sedang diperdebatkan."
+
+msgid "This payment method is in use by multiple ads and/or orders, and cannot be deleted or deactivated."
+msgstr ""
+
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
+msgstr ""
+
+msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
+msgstr ""
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "Alasan ini tidak berlaku untuk kasus Anda. Silakan pilih alasan lain."
@@ -4690,6 +4749,11 @@ msgstr "Anda tidak dapat menarik dana ke akun yang sama."
 msgid "You deactivated your account due to financial reasons."
 msgstr "Anda telah menonaktifkan akun Anda berhubung alasan keuangan."
 
+#, fuzzy
+#| msgid "You have already withdrawn the equivalent of %1 %2."
+msgid "You have a payment method with the same values for %1."
+msgstr "Anda telah melakukan penarikan setara dengan %1 %2."
+
 msgid "You have already claimed a bonus in the past."
 msgstr "Anda telah menerima bonus sebelumnya."
 
@@ -4788,6 +4852,9 @@ msgstr "Anda dapat menggunakan stop loss atau pembatalan transaksi, namun tidak 
 
 msgid "You may use either take profit or deal cancellation, but not both. Please select either one."
 msgstr "Anda dapat menggunakan batas keuntungan atau pembatalan transaksi, namun tidak secara bersamaan. Mohon pilih salah satu."
+
+msgid "You must keep a %1 payment method on this advert while it has active orders."
+msgstr ""
 
 msgid "You opened a %1 account. Your account login ID is %2."
 msgstr "Anda mendaftar akun %1. Login ID akun Anda adalah %2."
@@ -5223,6 +5290,9 @@ msgstr "dicetak dalam 6 bulan terakhir"
 
 msgid "let us know"
 msgstr "informasikan kepada kami"
+
+msgid "payment_method field can not be updated for sell ads."
+msgstr ""
 
 msgid "screenshots of addresses"
 msgstr "screenshot alamat"
@@ -15332,6 +15402,9 @@ msgstr "melalui obrolan langsung."
 #~ msgid "Invalid date: $until"
 #~ msgstr "Tanggal salah: $until"
 
+#~ msgid "Invalid deposit commission amount: it should be between 0 and %1."
+#~ msgstr "Jumlah komisi untuk deposit tidak valid: harus antara 0 dan %1."
+
 #~ msgid "Invalid document format. File should be in %1 format."
 #~ msgstr "Format dokumen salah. Dokumen harus berupa format %1."
 
@@ -15404,6 +15477,9 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "Invalid value for list offset"
 #~ msgstr "Nilai tidak berlaku untuk daftar offset"
+
+#~ msgid "Invalid withdrawal commission amount: it should be between 0 and %1."
+#~ msgstr "Jumlah komisi untuk penarikan tidak valid: harus antara 0 dan %1."
 
 #~ msgid "Invalid workspace name. Only use characters (A-Z,a-z,0-9, -, _ and whitespace)"
 #~ msgstr "Nama area kerja tidak berlaku. Silakan gunakan hanya huruf (A-Z,a-z,0-9, -, _ dan whitespace)"
@@ -18350,9 +18426,6 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "Payout may only contain integers"
 #~ msgstr "Payout hanya dapat berisi bilangan bulat"
-
-#~ msgid "Payout must be between %1 and %2."
-#~ msgstr "Hasil harus antara %1 dan %2."
 
 #~ msgid "Payout must be between <strong>%1</strong> and <strong>%2</strong>."
 #~ msgstr "Hasil harus diantara <strong>%1</strong> hingga <strong>%2</strong>."
@@ -22329,9 +22402,6 @@ msgstr "melalui obrolan langsung."
 #~ msgid "The patent means Regent Markets is the recognised pioneer of binary betting. The patent helps protect our innovations."
 #~ msgstr "Paten berarti Regent Markets diakui sebagai perintis trading binary. Paten ini membantu melindungi inovasi kami."
 
-#~ msgid "The payment agent account does not exist."
-#~ msgstr "Akun agen pembayaran tidak tersedia."
-
 #~ msgid "The payment agent facility is currently not available in your country."
 #~ msgstr "Fasilitas agen pembayaran saat ini tidak tersedia di negara Anda."
 
@@ -22421,9 +22491,6 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "The stop-loss and stop-profit are guaranteed. The loss and profit are limited to the stop-loss and stop-profit respectively.  When the exit level touches either the stop-loss or stop-profit, the contract will be closed at the stop-loss or stop-profit level."
 #~ msgstr "Stop-loss dan stop-profit adalah terjamin. Kerugian dan keuntungan terbatas pada masing-masing stop loss dan stop profit. Ketika tingkat keluar menyentuh salah satu stop-loss atau stop-profit, kontrak akan ditutup pada tingkatan stop-loss atau stop-profit."
-
-#~ msgid "The symbol is invalid."
-#~ msgstr "Simbol ini tidak berlaku."
 
 #~ msgid "The system is currently closed for maintenance."
 #~ msgstr "Sistem ditutup sementara berhubung perbaikan."
@@ -22824,9 +22891,6 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "This page is unavailable when impersonating user"
 #~ msgstr "Kontrak ini tidak tersedia ketika akun diduplikat"
-
-#~ msgid "This payment method is invalid."
-#~ msgstr "Metode pembayaran ini tidak tersedia."
 
 #~ msgid "This promotion is only available to new Clients. Existing or former Clients do not qualify. It is only available once to each Client."
 #~ msgstr "Promosi ini hanya berlaku untuk pembukaan akun baru. Dan hanya dapat diperoleh sekali saja untuk setiap Pelanggan."
@@ -23861,9 +23925,6 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "View and increase your"
 #~ msgstr "Lihat dan tingkatkan milik Anda"
-
-#~ msgid "View available payment methods"
-#~ msgstr "Lihat metode pembayaran yang tersedia"
 
 #~ msgid "View balances"
 #~ msgstr "Lihat saldo"
@@ -25064,9 +25125,6 @@ msgstr "melalui obrolan langsung."
 
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "Anda telah menarik dana sebesar %1 %2 dalam tempo %3 hari terakhir."
-
-#~ msgid "You have already withdrawn the equivalent of %1 %2."
-#~ msgstr "Anda telah melakukan penarikan setara dengan %1 %2."
 
 #~ msgid "You have already withdrawn the equivalent of EUR %1 in aggregate over the lifetime of your account."
 #~ msgstr "Anda telah melakukan penarikan dana sejumlah EUR %1 akumulasi sepanjang pengoperasian akun Anda."
