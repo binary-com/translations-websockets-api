@@ -23,6 +23,21 @@ msgstr " ก่อนที่ธุรกรรมจะสะท้อนใ�
 msgid "%1"
 msgstr "%1"
 
+#, fuzzy
+#| msgid "Addresses starting with \"%1\" (%2 format) aren't supported by the %3 network. Please enter address starting with 1 or 3."
+msgid "%1 Addresses starting with \"%2\" (%3 format) aren't supported by the %4 network. Please enter address starting with %5 or %6."
+msgstr "เครือข่าย %3 ไม่สนับสนุนที่อยู่ที่ขึ้นกับ \"%1\" (รูปแบบ %2) กรุณาใส่ที่อยู่ที่ขึ้นกับ 1 หรือ 3"
+
+#, fuzzy
+#| msgid "Address"
+msgid "%1 address"
+msgstr "ที่อยู่"
+
+#, fuzzy
+#| msgid "Addresses starting with \"%1\" (%2 format) aren't supported by the %3 network. Please enter address starting with 1 or 3."
+msgid "%1 addresses starting with \"%2\" (%3 format) aren't supported by the %4 network. Please enter address starting with %5 or %6."
+msgstr "เครือข่าย %3 ไม่สนับสนุนที่อยู่ที่ขึ้นกับ \"%1\" (รูปแบบ %2) กรุณาใส่ที่อยู่ที่ขึ้นกับ 1 หรือ 3"
+
 msgid "%1 and %2"
 msgstr "%1 และ %2"
 
@@ -276,9 +291,6 @@ msgstr "ที่อยู่: %1"
 
 msgid "Address: %1, transaction: %2"
 msgstr "ที่อยู่: %1 ธุรกรรม: %2"
-
-msgid "Addresses starting with \"%1\" (%2 format) aren't supported by the %3 network. Please enter address starting with 1 or 3."
-msgstr "เครือข่าย %3 ไม่สนับสนุนที่อยู่ที่ขึ้นกับ \"%1\" (รูปแบบ %2) กรุณาใส่ที่อยู่ที่ขึ้นกับ 1 หรือ 3"
 
 msgid "Adidas"
 msgstr "Adidas"
@@ -1238,9 +1250,6 @@ msgstr "เพลิดเพลินกับการซื้อขายก
 msgid "Ensure your information is up-to-date."
 msgstr "ตรวจสอบให้แน่ใจว่าข้อมูลของคุณเป็นข้อมูลล่าสุด"
 
-msgid "Enter the amount"
-msgstr "ป้อนจำนวนเงิน"
-
 msgid "Enter the following verification token into the form to create an account:"
 msgstr "ใส่ข้อความยืนยันตัวตนที่ปรากฏลงในแบบฟอร์มเพื่อสร้างบัญชี:"
 
@@ -1250,8 +1259,15 @@ msgstr "ป้อนโทเค็นการยืนยันต่อไป
 msgid "Enter the two-factor authentication (2FA) code from the authenticator app on your phone."
 msgstr "ป้อนรหัสการรับรองความถูกต้องด้วยสองปัจจัย (2FA) จากแอปตัวตรวจสอบความถูกต้องบนโทรศัพท์ของคุณ"
 
-msgid "Enter your address"
+#, fuzzy
+#| msgid "Enter your address"
+msgid "Enter your %1 address"
 msgstr "โปรดป้อนที่อยู่ของท่าน"
+
+#, fuzzy
+#| msgid "Verify your withdrawal request"
+msgid "Enter your withdrawal amount"
+msgstr "ยืนยันคําขอถอนเงินของคุณ"
 
 msgid "Entry Spot"
 msgstr "สปอตเริ่มต้น"
@@ -2689,6 +2705,11 @@ msgstr "โปรดใส่จํานวนเงินกําไรที
 
 msgid "Please enter a take profit amount that's lower than %1."
 msgstr "โปรดใส่จํานวนเงินกําไรที่ต่ำากว่า %1"
+
+#, fuzzy
+#| msgid "Please enter a valid address between 25 and 64 characters."
+msgid "Please enter a valid %1 address. It should contain %2 to %3 characters only."
+msgstr "โปรดใส่ที่อยู่ที่ถูกต้องระหว่าง 25 ถึง 64 ตัวอักษร"
 
 msgid "Please enter a valid address between 25 and 64 characters."
 msgstr "โปรดใส่ที่อยู่ที่ถูกต้องระหว่าง 25 ถึง 64 ตัวอักษร"
@@ -10008,6 +10029,9 @@ msgstr "ผ่านการแชทสด"
 #~ msgid "Enter Your"
 #~ msgstr "ป้อนอีเมล์ของท่าน"
 
+#~ msgid "Enter the amount"
+#~ msgstr "ป้อนจำนวนเงิน"
+
 #~ msgid "Enter the barrier in terms of the difference from the spot price. If you enter +0.005, then you will be purchasing a contract with a barrier 0.005 higher than the entry spot. The entry spot will be the next tick after your order has been received"
 #~ msgstr "เริ่มต้น Barrier ในความแตกต่างของจุดราคา หากท่านเพิ่ม +0.005 แล้ว หมายถึง คำสั่งของท่านจะซื้อที่ราคาที่สูงกว่าสปอตเริ่มต้นด้วย Barrier 0.005 สปอตเริ่มต้นจะเป็นช่วงราคาถัดไปหลังจากระบบได้รับคำสั่งของท่าน"
 
@@ -16190,11 +16214,6 @@ msgstr "ผ่านการแชทสด"
 
 #~ msgid "a definite or indefinite period during which you wish to exclude yourself from the website."
 #~ msgstr "ช่วงเวลาที่แน่นอน หรือไม่แน่นอนระหว่างที่ท่านปรารถนาจะพักจากเว็บไซต์"
-
-#, fuzzy
-#~| msgid "Address"
-#~ msgid "address:"
-#~ msgstr "ที่อยู่"
 
 #~ msgid "amount"
 #~ msgstr "จำนวนเงิน"
