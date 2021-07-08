@@ -370,6 +370,11 @@ msgstr "Se produjo un error al crear el chat. Por favor, inténtelo de nuevo má
 msgid "An error occurred when issuing a new token. Please try again later."
 msgstr "Se produjo un error al emitir un nuevo token. Por favor, inténtelo de nuevo más tarde."
 
+#, fuzzy
+#| msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "Lo sentimos, ocurrió un problema al procesar la solicitud. Inténtelo de nuevo en un minuto."
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr "Se proporcionó un ID de cuenta de Deriv X no válido."
 
@@ -1967,9 +1972,6 @@ msgstr "URL no válida"
 msgid "Invalid account."
 msgstr "Cuenta inválida."
 
-msgid "Invalid address."
-msgstr "Dirección inválida."
-
 msgid "Invalid amount."
 msgstr "Valor inválido."
 
@@ -2356,6 +2358,11 @@ msgstr "Pares menores"
 msgid "Miss"
 msgstr "Srta."
 
+#, fuzzy
+#| msgid "Invalid request parameters."
+msgid "Missing or invalid required parameter."
+msgstr "Parámetros de solicitud inválidos."
+
 msgid "Missing required contract parameters (%1)."
 msgstr "Faltan los parámetros de contrato requeridos (%1)."
 
@@ -2364,6 +2371,11 @@ msgstr "Faltan los parámetros de contrato requeridos (predicción del último d
 
 msgid "Missing required contract parameters (selected tick)."
 msgstr "Faltan los parámetros de contrato requeridos (intervalo escogido)."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required parameter."
+msgstr "Faltan los parámetros de contrato requeridos (%1)."
 
 msgctxt "payment method name"
 msgid "MobiCash"
@@ -2959,7 +2971,9 @@ msgstr "Tenga en cuenta que ya hay una transacción de retiro pendiente para la 
 msgid "Please change the minimum and/or maximum order limit for this ad. The range between these limits must not overlap with another active ad you created for this currency pair and order type."
 msgstr "Por favor cambie el límite mínimo y/o máximo de la orden para este anuncio. El rango entre estos límites no puede superponerse a otro anuncio activo suyo para el mismo par de divisas y tipo de orden."
 
-msgid "Please close open positions and withdraw all funds from your %1 account(s) before proceeding."
+#, fuzzy
+#| msgid "Please close open positions and withdraw all funds from your %1 account(s) before proceeding."
+msgid "Please close open positions and withdraw all funds from your %1 account(s). Also, notice if you have pending withdrawal requests, wait for those to be finalized first before proceeding."
 msgstr "Por favor, cierre las posiciones abiertas y retire los fondos de su(s) cuenta (s) %1 antes de proceder."
 
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
@@ -3748,6 +3762,11 @@ msgstr "Lo sentimos, su cuenta de trading ya está vinculada a una billetera."
 msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 msgstr "Lo sentimos, su transacción de retiro para la dirección: %1 está en proceso o ha sido rechazada."
 
+#, fuzzy
+#| msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
+msgid "Sorry, your withdrawal transaction for id: %1 is under processing or has been rejected."
+msgstr "Lo sentimos, su transacción de retiro para la dirección: %1 está en proceso o ha sido rechazada."
+
 msgid "South African Index"
 msgstr "Índice de Sudáfrica"
 
@@ -3981,7 +4000,9 @@ msgstr "La compañía de Walt Disney"
 msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
 msgstr "La dirección está en uso para una transacción de depósito. Utilice una dirección diferente para este retiro."
 
-msgid "The address you entered appears to be the same as the account you're withdrawing from. Please enter a different account address."
+#, fuzzy
+#| msgid "The address you entered appears to be the same as the account you're withdrawing from. Please enter a different account address."
+msgid "The address you entered appears to be the same as the account you are withdrawing from. Please enter a different account address."
 msgstr "La dirección que ingresó parece ser la misma que de la cuenta de la que está retirando. Por favor, introduzca una dirección de cuenta diferente."
 
 msgid "The address you provided does not accept withdrawals. Please enter a different address."
@@ -4124,6 +4145,16 @@ msgstr "El ID del método de pago no existe."
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "El ID de cuenta Deriv proporcionado no es válido."
+
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided address is invalid."
+msgstr "La divisa proporcionada de %1 no es válida."
+
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided amount is invalid."
+msgstr "La divisa proporcionada de %1 no es válida."
 
 msgid "The provided currency %1 is invalid."
 msgstr "La divisa proporcionada de %1 no es válida."
@@ -5150,6 +5181,11 @@ msgstr "Nos gustaría informarle que su %1 ha sido procesado."
 msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
 msgstr "Los procesaremos en 1 a 3 días hábiles y, si no hay problemas, habilitaremos sus retiros y transferencias de inmediato."
 
+#, fuzzy
+#| msgid "Your withdrawal is pending confirmation from the blockchain."
+msgid "We're awaiting confirmation from the blockchain."
+msgstr "Su retiro está pendiente de confirmación de la cadena de bloques."
+
 msgid "We're experiencing a technical issue with our Cashier. Your funds are safe, but deposits and withdrawals are unavailable for the time being."
 msgstr "Estamos experimentando problemas técnicos con nuestro Cajero. Su dinero está seguro, pero por el momento no es posible realizar depósitos ni retiros."
 
@@ -5164,6 +5200,9 @@ msgstr "Tenemos un problema con algunos de nuestros feeds de datos. Estamos trab
 
 msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
 msgstr "Estamos muy contentos de que haya decidido comenzar a operar con %1 y esperamos que su experiencia en nuestra plataforma haya sido positiva hasta ahora."
+
+msgid "We're sending your request to the blockchain."
+msgstr ""
 
 msgid "We're sorry you're leaving"
 msgstr "Sentimos que se vaya"
@@ -5426,10 +5465,14 @@ msgstr "Retire a su billetera personal"
 msgid "Withdrawal"
 msgstr "Retiro"
 
-msgid "Withdrawal amount of %1 %2 exceeds your account balance of  %3 %2"
+#, fuzzy
+#| msgid "Withdrawal amount of %1 %2 exceeds your account balance of  %3 %2"
+msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "El monto de retiro de %1 %2 excede el saldo de su cuenta de %3 %2"
 
-msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2"
+#, fuzzy
+#| msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2"
+msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "El monto de retiro de 1% %2 excede el límite de retiro de su cuenta de %3 %2"
 
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
@@ -5755,6 +5798,11 @@ msgstr "Tiene órdenes abiertas para este anuncio. Por favor espere hasta que to
 
 msgid "You have opened an account using invalid details."
 msgstr "Ha abierto una cuenta utilizando datos no válidos."
+
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "You have reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgstr "Ha alcanzado el límite máximo de retiro de %1 %2. Autentique su cuenta para realizar retiros ilimitados."
 
 msgid "You have reached the rate limit for %1."
 msgstr "Ha alcanzado el límite para %1."
@@ -6182,6 +6230,11 @@ msgstr "Su token ha caducado o no es válido."
 msgid "Your trading password has been set"
 msgstr "Se ha establecido su contraseña de trading"
 
+#, fuzzy
+#| msgid "Your funds will be credited after a maximum of 3 confirmations on the blockchain."
+msgid "Your transaction is received. We'll credit your funds after a maximum of %1 confirmations on the blockchain."
+msgstr "Sus fondos serán acreditados después de un máximo de 3 confirmaciones en la cadena de bloques."
+
 msgid "Your withdrawal is pending confirmation from the blockchain."
 msgstr "Su retiro está pendiente de confirmación de la cadena de bloques."
 
@@ -6189,6 +6242,16 @@ msgid "Your withdrawal is unsuccessful. Please make sure you have enough funds i
 msgstr "Su retiro no tuvo éxito. Asegúrese de tener fondos suficientes en su cuenta."
 
 msgid "Your withdrawal request has been declined"
+msgstr "Su solicitud de retiro ha sido rechazada"
+
+#, fuzzy
+#| msgid "Your withdrawal request has been declined"
+msgid "Your withdrawal request has been submitted. We're reviewing it now."
+msgstr "Su solicitud de retiro ha sido rechazada"
+
+#, fuzzy
+#| msgid "Your withdrawal request has been declined"
+msgid "Your withdrawal request is approved and is being processed."
 msgstr "Su solicitud de retiro ha sido rechazada"
 
 msgid "Your withdrawal request is awaiting payment approval."
@@ -15418,6 +15481,9 @@ msgstr "a través de chat en vivo."
 
 #~ msgid "Invalid URI for homepage."
 #~ msgstr "URI no válido para la página de inicio."
+
+#~ msgid "Invalid address."
+#~ msgstr "Dirección inválida."
 
 #~ msgid "Invalid amount for creating an order."
 #~ msgstr "Cantidad no válida para crear una orden."

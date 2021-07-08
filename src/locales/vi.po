@@ -374,6 +374,11 @@ msgstr "Đã xảy ra lỗi khi tạo trò chuyện. Vui lòng thử lại sau."
 msgid "An error occurred when issuing a new token. Please try again later."
 msgstr "Đã xảy ra vấn đề khi phát hành mã token mới. Vui lòng thử lại sau."
 
+#, fuzzy
+#| msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "Rất tiếc, đã xảy ra lỗi khi xử lý yêu cầu của bạn. Vui lòng thử lại sau vài phút."
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr "Bạn đã nhập một ID tài khoản Deriv X không hợp lệ."
 
@@ -1989,9 +1994,6 @@ msgstr "Đường dẫn không hợp lệ"
 msgid "Invalid account."
 msgstr "Tài khoản không hợp lệ."
 
-msgid "Invalid address."
-msgstr "Địa chỉ không hợp lệ."
-
 msgid "Invalid amount."
 msgstr "Số lượng không hợp lệ."
 
@@ -2380,6 +2382,11 @@ msgstr "Cặp tiền tệ thứ yếu"
 msgid "Miss"
 msgstr "Cô"
 
+#, fuzzy
+#| msgid "Invalid request parameters."
+msgid "Missing or invalid required parameter."
+msgstr "Các thông số yêu cầu không hợp lệ."
+
 msgid "Missing required contract parameters (%1)."
 msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
 
@@ -2388,6 +2395,11 @@ msgstr "Thiếu các thông số hợp đồng đã yêu cầu (dự đoán số
 
 msgid "Missing required contract parameters (selected tick)."
 msgstr "Thiếu các thông số hợp đồng theo yêu cầu (tick được chọn)."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required parameter."
+msgstr "Thiếu các thông số hợp đồng đã yêu cầu (%1)."
 
 msgctxt "payment method name"
 msgid "MobiCash"
@@ -2991,7 +3003,9 @@ msgstr "Vui lòng chú ý rằng đã có một giao dịch rút tiền đang đ
 msgid "Please change the minimum and/or maximum order limit for this ad. The range between these limits must not overlap with another active ad you created for this currency pair and order type."
 msgstr "Vui lòng thay đổi giới hạn đặt hàng tối thiểu và/hoặc tối đa cho quảng cáo này. Phạm vi giữa các giới hạn này không được trùng lặp với một quảng cáo đang hoạt động khác mà bạn đã tạo cho cặp tiền tệ và loại đơn đặt hàng này."
 
-msgid "Please close open positions and withdraw all funds from your %1 account(s) before proceeding."
+#, fuzzy
+#| msgid "Please close open positions and withdraw all funds from your %1 account(s) before proceeding."
+msgid "Please close open positions and withdraw all funds from your %1 account(s). Also, notice if you have pending withdrawal requests, wait for those to be finalized first before proceeding."
 msgstr "Xin vui lòng đóng cái vị thế mở rút hết vốn trong các tài khoản của bạn trước khi xử lý: %1."
 
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
@@ -3786,6 +3800,11 @@ msgstr "Rất tiếc, tài khoản giao dịch của bạn đã được liên k
 msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 msgstr "Rất tiếc, giao dịch rút tiền của bạn cho địa chỉ: %1 đang được xử lý hoặc đã bị từ chối."
 
+#, fuzzy
+#| msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
+msgid "Sorry, your withdrawal transaction for id: %1 is under processing or has been rejected."
+msgstr "Rất tiếc, giao dịch rút tiền của bạn cho địa chỉ: %1 đang được xử lý hoặc đã bị từ chối."
+
 msgid "South African Index"
 msgstr "Chỉ số chứng khoán Nam Phi"
 
@@ -4023,7 +4042,9 @@ msgstr "Tập Đoàn Walt Disney"
 msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
 msgstr "Địa chỉ đang được sử dụng cho một giao dịch gửi tiển. Vui lòng sử dụng một địa chỉ khác cho việc rút tiền."
 
-msgid "The address you entered appears to be the same as the account you're withdrawing from. Please enter a different account address."
+#, fuzzy
+#| msgid "The address you entered appears to be the same as the account you're withdrawing from. Please enter a different account address."
+msgid "The address you entered appears to be the same as the account you are withdrawing from. Please enter a different account address."
 msgstr "Địa chỉ bạn đã nhập trùng với tài khoản bạn đang rút. Vui lòng nhập một địa chỉ tài khoản khác."
 
 msgid "The address you provided does not accept withdrawals. Please enter a different address."
@@ -4166,6 +4187,16 @@ msgstr "ID phương thức thanh toán không tồn tại."
 
 msgid "The provided Deriv account ID is not valid."
 msgstr "ID tài khoản Deriv được cung cấp không hợp lệ."
+
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided address is invalid."
+msgstr "Đơn vị tiền tệ %1 được cung cấp không hợp lệ."
+
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided amount is invalid."
+msgstr "Đơn vị tiền tệ %1 được cung cấp không hợp lệ."
 
 msgid "The provided currency %1 is invalid."
 msgstr "Đơn vị tiền tệ %1 được cung cấp không hợp lệ."
@@ -5202,6 +5233,11 @@ msgstr "Chúng tôi muốn thông báo với bạn rằng %1 của bạn đ
 msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
 msgstr "Chúng tôi sẽ xử lý chúng trong 1 - 3 ngày làm việc và, nếu không có vấn đề gì, bạn sẽ có thể rút và chuyển tiền ngay lập tức."
 
+#, fuzzy
+#| msgid "Your withdrawal is pending confirmation from the blockchain."
+msgid "We're awaiting confirmation from the blockchain."
+msgstr "Việc rút tiền của bạn đang chờ được xác nhận từ blockchain."
+
 msgid "We're experiencing a technical issue with our Cashier. Your funds are safe, but deposits and withdrawals are unavailable for the time being."
 msgstr "Chúng tôi đang gặp phải vấn đề kỹ thuật với chức năng Thu Ngân. Tiền của bạn vẫn được đảm bảo an toàn nhưng trong thời gian khắc phục sự cố bạn sẽ không thể gửi hoặc rút tiền."
 
@@ -5216,6 +5252,9 @@ msgstr "Chúng tôi đang gặp sự cố với một hoặc nhiều nguồn c�
 
 msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
 msgstr "Chúng tôi thực sự vui mừng vì bạn đã quyết định tham gia giao dịch với %1 và chúng tôi hy vọng rằng bạn có những trải nghiệm hoàn hảo trên nền tảng của chúng tôi."
+
+msgid "We're sending your request to the blockchain."
+msgstr ""
 
 msgid "We're sorry you're leaving"
 msgstr "Chúng tôi rất tiếc khi bạn muốn rời đi"
@@ -5478,10 +5517,14 @@ msgstr "Rút vào ví cá nhân của bạn"
 msgid "Withdrawal"
 msgstr "Rút tiền"
 
-msgid "Withdrawal amount of %1 %2 exceeds your account balance of  %3 %2"
+#, fuzzy
+#| msgid "Withdrawal amount of %1 %2 exceeds your account balance of  %3 %2"
+msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "Số tiền rút %1 %2 vượt quá số dư tài khoản của bạn là  %3 %2"
 
-msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2"
+#, fuzzy
+#| msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2"
+msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "Số tiền rút %1 %2 vượt quá giới hạn rút tiền trong tài khoản của bạn là %3 %2"
 
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
@@ -5811,6 +5854,11 @@ msgstr "Bạn có đơn đặt hàng mở cho quảng cáo này. Xin vui lòng c
 
 msgid "You have opened an account using invalid details."
 msgstr "Bạn đã mở tài khoản sử dụng các chi tiết không hợp lệ."
+
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "You have reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgstr "Bạn đã đạt mức giới hạn rút tối đa %1 %2. Vui lòng xác minh tài khoản để rút không giới hạn."
 
 msgid "You have reached the rate limit for %1."
 msgstr "Bạn đã đạt tỉ lệ giới hạn của %1."
@@ -6240,6 +6288,11 @@ msgstr "Thẻ token của bạn đã hết hạn hoặc không hợp lệ."
 msgid "Your trading password has been set"
 msgstr "Mật khẩu giao dịch của bạn đã được đặt"
 
+#, fuzzy
+#| msgid "Your funds will be credited after a maximum of 3 confirmations on the blockchain."
+msgid "Your transaction is received. We'll credit your funds after a maximum of %1 confirmations on the blockchain."
+msgstr "Tiền của bạn sẽ được ghi sau tối đa của 3 xác nhận trên chuỗi khối."
+
 msgid "Your withdrawal is pending confirmation from the blockchain."
 msgstr "Việc rút tiền của bạn đang chờ được xác nhận từ blockchain."
 
@@ -6247,6 +6300,16 @@ msgid "Your withdrawal is unsuccessful. Please make sure you have enough funds i
 msgstr "Yêu cầu rút tiền cảu bạn không thành công. Hãy đảm bảo bạn có đủ tiền trong tài khoản."
 
 msgid "Your withdrawal request has been declined"
+msgstr "Yêu cầu rút tiền của bạn đã bị từ chối"
+
+#, fuzzy
+#| msgid "Your withdrawal request has been declined"
+msgid "Your withdrawal request has been submitted. We're reviewing it now."
+msgstr "Yêu cầu rút tiền của bạn đã bị từ chối"
+
+#, fuzzy
+#| msgid "Your withdrawal request has been declined"
+msgid "Your withdrawal request is approved and is being processed."
 msgstr "Yêu cầu rút tiền của bạn đã bị từ chối"
 
 msgid "Your withdrawal request is awaiting payment approval."
@@ -12999,6 +13062,9 @@ msgstr "qua chat trực tuyến."
 
 #~ msgid "Invalid URI for homepage."
 #~ msgstr "Đường dẫn không hợp lệ tới trang chủ."
+
+#~ msgid "Invalid address."
+#~ msgstr "Địa chỉ không hợp lệ."
 
 #, fuzzy
 #~| msgid "Invalid amount for creating an order"

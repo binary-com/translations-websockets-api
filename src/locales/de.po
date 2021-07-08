@@ -441,6 +441,11 @@ msgstr "Beim Bearbeiten der Anfrage ist ein Problem aufgetreten. Bitte versuchen
 msgid "An error occurred when issuing a new token. Please try again later."
 msgstr "Beim Bearbeiten der Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es in einer Minute erneut."
 
+#, fuzzy
+#| msgid "Sorry, an error occurred whilst processing your request. Please try again in one minute."
+msgid "An error occurred while processing your request. Please try again later."
+msgstr "Es tut uns leid, beim Bearbeiten Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es in einer Minute erneut."
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr ""
 
@@ -2344,9 +2349,6 @@ msgstr "Ungültige URL"
 msgid "Invalid account."
 msgstr "Ungültiges Konto."
 
-msgid "Invalid address."
-msgstr "Falsche Adresse."
-
 msgid "Invalid amount."
 msgstr "Ungültiger Betrag."
 
@@ -2805,6 +2807,11 @@ msgstr "Untergeordnete Paare"
 msgid "Miss"
 msgstr "Verpasst"
 
+#, fuzzy
+#| msgid "Invalid request."
+msgid "Missing or invalid required parameter."
+msgstr "Ungültige Anforderung."
+
 msgid "Missing required contract parameters (%1)."
 msgstr "Notwendige Kontrakt-Parameter fehlen (%1)."
 
@@ -2813,6 +2820,11 @@ msgstr "Notwendige Kontrakt-Parameter fehlen (letzte Endziffer-Vorhersage für E
 
 msgid "Missing required contract parameters (selected tick)."
 msgstr "Notwendige Kontrakt-Parameter fehlen (ausgewählter Tick)."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required parameter."
+msgstr "Notwendige Kontrakt-Parameter fehlen (%1)."
 
 msgctxt "payment method name"
 msgid "MobiCash"
@@ -3526,7 +3538,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Please withdraw all funds from your account(s) before proceeding: %1."
-msgid "Please close open positions and withdraw all funds from your %1 account(s) before proceeding."
+msgid "Please close open positions and withdraw all funds from your %1 account(s). Also, notice if you have pending withdrawal requests, wait for those to be finalized first before proceeding."
 msgstr "Bitte ziehen Sie alle Gelder von Ihrem/n Konto(en) ab, bevor Sie fortfahren: %1."
 
 msgid "Please complete the financial assessment form to lift your withdrawal and trading limits."
@@ -4509,6 +4521,11 @@ msgstr ""
 msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 msgstr ""
 
+#, fuzzy
+#| msgid "Your transaction was cancelled."
+msgid "Sorry, your withdrawal transaction for id: %1 is under processing or has been rejected."
+msgstr "Ihre Überweisung wurde abgebrochen."
+
 msgid "South African Index"
 msgstr "Südafrikanischer Index"
 
@@ -4790,8 +4807,10 @@ msgstr "The Boeing Company"
 msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
 msgstr ""
 
-msgid "The address you entered appears to be the same as the account you're withdrawing from. Please enter a different account address."
-msgstr ""
+#, fuzzy
+#| msgid "The address can be only used once. Please generate a new address."
+msgid "The address you entered appears to be the same as the account you are withdrawing from. Please enter a different account address."
+msgstr "Die Adresse kann nur einmal verwendet werden. Bitte generieren Sie eine neue Adresse."
 
 #, fuzzy
 #| msgid "The address can be only used once. Please generate a new address."
@@ -4972,6 +4991,16 @@ msgstr "Das Zahlungsabwicklerkonto existiert nicht."
 #, fuzzy
 #| msgid "The provided currency %1 is invalid."
 msgid "The provided Deriv account ID is not valid."
+msgstr "Die angegebene Währung %1 ist ungültig."
+
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided address is invalid."
+msgstr "Die angegebene Währung %1 ist ungültig."
+
+#, fuzzy
+#| msgid "The provided currency %1 is invalid."
+msgid "The provided amount is invalid."
 msgstr "Die angegebene Währung %1 ist ungültig."
 
 msgid "The provided currency %1 is invalid."
@@ -6232,6 +6261,11 @@ msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'
 msgstr ""
 
 #, fuzzy
+#| msgid "Your transaction is pending confirmation."
+msgid "We're awaiting confirmation from the blockchain."
+msgstr "Ihre Überweisung erwartet Bestätigung."
+
+#, fuzzy
 #| msgid "Sorry, but we are experiencing a technical issue with our Cashier. Your funds are safe but deposits and withdrawals are unavailable for the time being."
 msgid "We're experiencing a technical issue with our Cashier. Your funds are safe, but deposits and withdrawals are unavailable for the time being."
 msgstr "Es tut uns leid, wir haben derzeit ein technisches Problem mit unserer Kasse. Ihre Gelder sind sicher, aber Einzahlungen und Behebungen sind vorerst nicht möglich."
@@ -6252,6 +6286,9 @@ msgid "We're having an issue with some of our data feeds. We're working hard to 
 msgstr "Wir haben ein Problem mit einer oder mehrerer unserer Dateneinspeisungen. Wir arbeiten daran, das Problem zu lösen, aber manche Märkte sind möglicherweise vorerst nicht verfügbar."
 
 msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
+msgstr ""
+
+msgid "We're sending your request to the blockchain."
 msgstr ""
 
 msgid "We're sorry you're leaving"
@@ -6541,12 +6578,12 @@ msgstr "Auszahlung"
 
 #, fuzzy
 #| msgid "Withdrawal amount of %1 %2 exceeds your account balance of  %3 %4"
-msgid "Withdrawal amount of %1 %2 exceeds your account balance of  %3 %2"
+msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "Der Auszahlungsbetrag von %1 %2 übersteigt Ihren Kontostand von %3 %4"
 
 #, fuzzy
 #| msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %4"
-msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2"
+msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "Der Auszahlungsbetrag von %1 %2 überschreitet Ihre Auszahlungsgrenze von %3 %4"
 
 #, fuzzy
@@ -6962,6 +6999,11 @@ msgstr ""
 
 msgid "You have opened an account using invalid details."
 msgstr "Sie haben ein Konto mit ungültigen Angaben eröffnet."
+
+#, fuzzy
+#| msgid "Your withdrawal cannot be processed as the amount exceeds your withdrawal limit. Please <a href=\"%1\">authenticate your account</a> to have such withdrawal limits increased."
+msgid "You have reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgstr "Ihre Auszahlung kann nicht bearbeitet werden, da der Betrag Ihr Abhebelimit übersteigt. Bitte <a href=\"%1\">authentifizieren Sie Ihr Konto</a>, damit Ihre Auszahlungslimits angehoben werden können."
 
 msgid "You have reached the rate limit for %1."
 msgstr "Sie haben das Kurslimit für %1 erreicht."
@@ -7560,6 +7602,11 @@ msgid "Your trading password has been set"
 msgstr "Ihr Passwort wurde zurückgesetzt."
 
 #, fuzzy
+#| msgid "Each transaction will be confirmed once we receive three confirmations from the blockchain."
+msgid "Your transaction is received. We'll credit your funds after a maximum of %1 confirmations on the blockchain."
+msgstr "Jede Transaktion wird bestätigt, sobald wir drei Bestätigungen von der Blockchain erhalten."
+
+#, fuzzy
 #| msgid "Your transaction is pending confirmation."
 msgid "Your withdrawal is pending confirmation from the blockchain."
 msgstr "Ihre Überweisung erwartet Bestätigung."
@@ -7570,6 +7617,16 @@ msgstr ""
 #, fuzzy
 #| msgid "Your transaction was cancelled."
 msgid "Your withdrawal request has been declined"
+msgstr "Ihre Überweisung wurde abgebrochen."
+
+#, fuzzy
+#| msgid "Your transaction was cancelled."
+msgid "Your withdrawal request has been submitted. We're reviewing it now."
+msgstr "Ihre Überweisung wurde abgebrochen."
+
+#, fuzzy
+#| msgid "Your transaction was cancelled."
+msgid "Your withdrawal request is approved and is being processed."
 msgstr "Ihre Überweisung wurde abgebrochen."
 
 #, fuzzy
@@ -16170,6 +16227,9 @@ msgstr "Live-Chat:"
 
 #~ msgid "Invalid URI for homepage."
 #~ msgstr "Ungültige URI für Homepage."
+
+#~ msgid "Invalid address."
+#~ msgstr "Falsche Adresse."
 
 #, fuzzy
 #~| msgid "Invalid authentication code"
