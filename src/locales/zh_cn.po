@@ -937,9 +937,6 @@ msgstr "无法提取合约细节"
 msgid "Country \"%1\" is not supported by Onfido."
 msgstr "Onfido不支持%1国。"
 
-msgid "Country code is not supported."
-msgstr "国家（地区）代码不受支持。"
-
 msgid "Country of Residence"
 msgstr "居住国"
 
@@ -1996,9 +1993,6 @@ msgstr "无效货币。"
 
 msgid "Invalid date format."
 msgstr "无效的日期格式。"
-
-msgid "Invalid document type"
-msgstr "无效的文件类型"
 
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "合约类型（%1）的持久期（跳动点）无效。"
@@ -3991,10 +3985,20 @@ msgstr "合约已到期"
 msgid "The contract must expire on a trading day."
 msgstr "合约到期日必须为交易日。"
 
+#, fuzzy
+#| msgid "Country code is not supported."
+msgid "The country you selected isn't supported."
+msgstr "国家（地区）代码不受支持。"
+
 msgid "The credit to your Deriv account did not complete. Please contact our Customer Support team."
 msgstr "您的 Deriv 账户无法完成进账。请联系我们的客服团队。"
 
 msgid "The date of birth on your document doesn't match your profile."
+msgstr "文件中的出生日期与您的个人资料不匹配。"
+
+#, fuzzy
+#| msgid "The date of birth on your document doesn't match your profile."
+msgid "The date of birth retrieved from your document doesn't match your profile."
 msgstr "文件中的出生日期与您的个人资料不匹配。"
 
 msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
@@ -4005,6 +4009,11 @@ msgstr "无法存款到您的 Deriv X 账户。请联系我们的客服团队。
 
 msgid "The details in the proof of address don’t match your profile."
 msgstr "地址证明中的详细信息与您的个人资料不匹配。"
+
+#, fuzzy
+#| msgid "Input parameter 'server' is not supported for the account type."
+msgid "The document type you entered isn't supported for the country you selected."
+msgstr "此类账户不支持输入“服务器”参数。"
 
 msgid "The document you provided appears to be two different types. Please try again or provide another document."
 msgstr "您提供的文件似乎是两种不同的类型。请重试或提供其他文件。"
@@ -4085,6 +4094,11 @@ msgid "The name on the proof of address doesn’t match your Deriv/Binary profil
 msgstr "地址证明上的姓名与您的 Deriv/Binary 账戶个人资料不匹配。"
 
 msgid "The name on your document doesn't match your profile."
+msgstr "文件上的姓名与您的个人资料不匹配。"
+
+#, fuzzy
+#| msgid "The name on your document doesn't match your profile."
+msgid "The name retrieved from your document doesn't match your profile."
 msgstr "文件上的姓名与您的个人资料不匹配。"
 
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
@@ -4335,6 +4349,11 @@ msgstr "可能是因为您已经有 Binary.com 账户。如是这样，仅需使
 
 msgid "This may be because you have a Binary.com account. If you do, you don't need to sign up for Deriv.com. You can simply log in to Deriv.com with the same email address and password."
 msgstr "可能是因为您已经有 Binary.com 账户。如是这样，您不需要在Deriv.com注册，仅需使用相同的电邮地址和密码即可登录 Deriv.com 。"
+
+#, fuzzy
+#| msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
+msgid "This method of verification is not allowed. Please try another method."
+msgstr "您输入的日期不允许。请输入介于%1 和 %2之间的日期。"
 
 msgid "This name is already in use. Please provide a different name."
 msgstr "此名称已被取用。请提供别的名称。"
@@ -5763,6 +5782,11 @@ msgstr "不可转账到相同账户。"
 msgid "You deactivated your account due to financial reasons."
 msgstr "由于财务原因，您已停用了账户。"
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "You don't need to authenticate your account at this time."
+msgstr "请验证您的账户，以继续操作。"
+
 msgid "You have a payment method with the same values for %1."
 msgstr "您的付款方法与 %1的数值相同。"
 
@@ -5895,6 +5919,11 @@ msgstr "如您购入此合约将超出最大曝光限额。请先将一些头寸
 msgid "You're nearly there!"
 msgstr "快完成了！"
 
+#, fuzzy
+#| msgid "You're nearly there!"
+msgid "You're under legal age."
+msgstr "快完成了！"
+
 msgid "You've already cancelled this order."
 msgstr "您已取消此订单。"
 
@@ -5921,6 +5950,9 @@ msgstr "您已获得了新密码"
 
 msgid "You've reached the maximum ad limit. Please deactivate some ads."
 msgstr "您已达最大广告限额。请停止部分广告。"
+
+msgid "You've reached the maximum number of attempts for verifying your proof of identity with this method."
+msgstr ""
 
 msgid "You've reached the maximum of %1 active ads for this currency pair and order type. Please delete an ad to place a new one."
 msgstr "您已达到此货币对和订单类型在用广告的最大％1。请删除一个广告以放置新的广告。"
@@ -6029,6 +6061,11 @@ msgstr "您的地址和身份已通过验证"
 
 msgid "Your address and identity have been verified successfully"
 msgstr "您的地址和身份已成功通过验证"
+
+#, fuzzy
+#| msgid "Your email has been verified."
+msgid "Your age already been verified."
+msgstr "您的电子邮件已经验证。"
 
 msgid "Your age in the document you provided appears to be below 18 years. We're only allowed to offer our services to clients above 18 years old, so we'll need to close your account. If you have a balance in your account, contact us via live chat and we'll help to withdraw your funds before your account is closed."
 msgstr "您提供的文件显示年龄似乎未满18岁。我们只能为18岁以上的客户提供服务，因此我们必须关闭您的账户。如果您的账户中有余额，请通过实时聊天与我们联系，我们将帮助您在关闭账户前提取资金。"
@@ -16417,6 +16454,9 @@ msgstr "通过即时聊天。"
 
 #~ msgid "Invalid document format. File should be in %1 format."
 #~ msgstr "无效的文件格式。文件应为 %1格式。"
+
+#~ msgid "Invalid document type"
+#~ msgstr "无效的文件类型"
 
 #~ msgid "Invalid email and password combination."
 #~ msgstr "无效的电子邮件地址和密码组合。"
@@ -27250,9 +27290,6 @@ msgstr "通过即时聊天。"
 
 #~ msgid "Your email and/or password is incorrect. Please check and try again. Perhaps you signed up with a social account?"
 #~ msgstr "您的电子邮件地址和/或密码不正确。请检查及重试。可能是您已用社交账户注册？"
-
-#~ msgid "Your email has been verified."
-#~ msgstr "您的电子邮件已经验证。"
 
 #~ msgid "Your form has been submitted."
 #~ msgstr "您的表格已提交。"

@@ -938,9 +938,6 @@ msgstr "Não foi possível recuperar os dados do contrato"
 msgid "Country \"%1\" is not supported by Onfido."
 msgstr "O país \"%1\" não é suportado no Onfido."
 
-msgid "Country code is not supported."
-msgstr "Código do país não é suportado."
-
 msgid "Country of Residence"
 msgstr "País de Residência"
 
@@ -2014,9 +2011,6 @@ msgstr "Moeda inválida."
 
 msgid "Invalid date format."
 msgstr "Formato de data inválido."
-
-msgid "Invalid document type"
-msgstr "Tipo de documento inválido"
 
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Duração inválida (tick) para o tipo de contrato %1."
@@ -4027,10 +4021,20 @@ msgstr "O contrato expirou"
 msgid "The contract must expire on a trading day."
 msgstr "O contrato deverá expirar em um dia de negociação."
 
+#, fuzzy
+#| msgid "Country code is not supported."
+msgid "The country you selected isn't supported."
+msgstr "Código do país não é suportado."
+
 msgid "The credit to your Deriv account did not complete. Please contact our Customer Support team."
 msgstr "O crédito na sua conta Deriv não foi concluído. Por favor contate a nossa equipe de Suporte ao Cliente."
 
 msgid "The date of birth on your document doesn't match your profile."
+msgstr "A data de nascimento presente em seu documento não é a mesma do seu perfil."
+
+#, fuzzy
+#| msgid "The date of birth on your document doesn't match your profile."
+msgid "The date of birth retrieved from your document doesn't match your profile."
 msgstr "A data de nascimento presente em seu documento não é a mesma do seu perfil."
 
 msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
@@ -4041,6 +4045,11 @@ msgstr "O depósito na sua conta Deriv X não foi concluído. Por favor contate 
 
 msgid "The details in the proof of address don’t match your profile."
 msgstr "Os detalhes do comprovante de endereço não correspondem ao detalhes em seu perfil."
+
+#, fuzzy
+#| msgid "Input parameter 'server' is not supported for the account type."
+msgid "The document type you entered isn't supported for the country you selected."
+msgstr "O parâmetro de entrada 'servidor' não é compatível com o tipo de conta."
 
 msgid "The document you provided appears to be two different types. Please try again or provide another document."
 msgstr "O documento que você forneceu parece ser de dois tipos diferentes. Tente novamente ou forneça outro documento."
@@ -4121,6 +4130,11 @@ msgid "The name on the proof of address doesn’t match your Deriv/Binary profil
 msgstr "O nome no comprovante de endereço não corresponde ao seu nome no perfil Deriv/Binary."
 
 msgid "The name on your document doesn't match your profile."
+msgstr "O nome no seu documento não é o mesmo que está em seu perfil."
+
+#, fuzzy
+#| msgid "The name on your document doesn't match your profile."
+msgid "The name retrieved from your document doesn't match your profile."
 msgstr "O nome no seu documento não é o mesmo que está em seu perfil."
 
 msgid "The names on your proof of identity and Deriv/Binary profile don’t match."
@@ -4375,6 +4389,11 @@ msgstr "Isso pode ser porque você tem uma conta Binary.com. Se você tem, você
 
 msgid "This may be because you have a Binary.com account. If you do, you don't need to sign up for Deriv.com. You can simply log in to Deriv.com with the same email address and password."
 msgstr "Isso pode ser porque você tem uma conta Binary.com. Se você tem, não será necessário se inscrever no Deriv.com. Você pode simplesmente fazer login no Deriv.com com o mesmo endereço de e-mail e senha."
+
+#, fuzzy
+#| msgid "The date you entered is not allowed. Please enter a date between %1 and %2."
+msgid "This method of verification is not allowed. Please try another method."
+msgstr "A data que você digitou não é permitida. Digite uma data entre %1 e %2."
 
 msgid "This name is already in use. Please provide a different name."
 msgstr "Este nome já está em uso. Por favor, forneça um nome diferente."
@@ -5819,6 +5838,11 @@ msgstr "Não é possível retirar fundos para a mesma conta."
 msgid "You deactivated your account due to financial reasons."
 msgstr "Você desativou sua conta por motivos financeiros."
 
+#, fuzzy
+#| msgid "Please authenticate your account to continue."
+msgid "You don't need to authenticate your account at this time."
+msgstr "Autentique a sua conta para continuar."
+
 msgid "You have a payment method with the same values for %1."
 msgstr "Você tem uma forma de pagamento com os mesmos valores para %1."
 
@@ -5951,6 +5975,11 @@ msgstr "Você excederá o limite máximo de exposição se comprar este contrato
 msgid "You're nearly there!"
 msgstr "Você está quase lá!"
 
+#, fuzzy
+#| msgid "You're nearly there!"
+msgid "You're under legal age."
+msgstr "Você está quase lá!"
+
 msgid "You've already cancelled this order."
 msgstr "Você já cancelou essa ordem."
 
@@ -5981,6 +6010,9 @@ msgstr "Você tem uma nova senha"
 
 msgid "You've reached the maximum ad limit. Please deactivate some ads."
 msgstr "Você atingiu o limite máximo de anúncios. Por favor, desative alguns anúncios."
+
+msgid "You've reached the maximum number of attempts for verifying your proof of identity with this method."
+msgstr ""
 
 msgid "You've reached the maximum of %1 active ads for this currency pair and order type. Please delete an ad to place a new one."
 msgstr "Você atingiu o máximo de %1 anúncios ativos para este par de moedas e tipo de pedido. Por favor, exclua um anúncio para colocar um novo."
@@ -6095,6 +6127,11 @@ msgstr "Seu endereço e identidade foram verificados"
 
 msgid "Your address and identity have been verified successfully"
 msgstr "Seu endereço e identidade foram verificados com sucesso"
+
+#, fuzzy
+#| msgid "Your email has been verified."
+msgid "Your age already been verified."
+msgstr "O seu endereço de e-mail foi verificado."
 
 msgid "Your age in the document you provided appears to be below 18 years. We're only allowed to offer our services to clients above 18 years old, so we'll need to close your account. If you have a balance in your account, contact us via live chat and we'll help to withdraw your funds before your account is closed."
 msgstr "A sua idade no documento que forneceu parece ser inferior a 18 anos. Só podemos oferecer nossos serviços a clientes maiores de 18 anos, portanto, precisaremos encerrar sua conta. Se você tiver saldo em sua conta, entre em contato conosco via chat ao vivo e ajudaremos a retirar seus fundos antes que sua conta seja encerrada."
@@ -15530,6 +15567,9 @@ msgstr "via chat ao vivo."
 #~ msgid "Invalid deposit commission amount: it should be between 0 and %1."
 #~ msgstr "Valor de comissão de depósito inválido: deve estar entre 0 e %1."
 
+#~ msgid "Invalid document type"
+#~ msgstr "Tipo de documento inválido"
+
 #~ msgid "Invalid email and password combination."
 #~ msgstr "Combinação inválida de e-mail e senha."
 
@@ -24950,9 +24990,6 @@ msgstr "via chat ao vivo."
 
 #~ msgid "Your email and/or password is incorrect. Please check and try again. Perhaps you signed up with a social account?"
 #~ msgstr "O seu e-mail e/ou senha está incorreto. Por favor, verifique e tente novamente. Talvez você tenha se cadastrado com login social?"
-
-#~ msgid "Your email has been verified."
-#~ msgstr "O seu endereço de e-mail foi verificado."
 
 #~ msgid "Your form has been submitted."
 #~ msgstr "O seu formulário foi enviado."
