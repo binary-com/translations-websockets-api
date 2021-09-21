@@ -2847,11 +2847,8 @@ msgstr "Dane kontaktowe i dane dot. płatności nie są wymagane dla reklam zaku
 
 #, fuzzy
 #| msgid "Payment method can not be changed for sell ads."
-msgid "Payment method field cannot be combined with other payment method fields."
+msgid "Payment method can not be changed for sell ads."
 msgstr "Nie można zmienić metody płatności w przypadku reklam sprzedaży."
-
-msgid "Payment method names cannot be provided for sell adverts. Please provide full payment details."
-msgstr ""
 
 msgid "Payments"
 msgstr "Płatności"
@@ -4389,7 +4386,7 @@ msgstr "Ta metoda płatności jest używana przez wiele ogłoszeń i/lub zamówi
 
 #, fuzzy
 #| msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
-msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or delete the ad."
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
 msgstr "Ta forma płatności jest używana przez następujące ogłoszenie(a): %1. Proszę dodać inne metody płatności do ogłoszenia lub dezaktywować ogłoszenie."
 
 msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
@@ -5008,6 +5005,9 @@ msgstr "W tej chwili nie możemy zrealizować wniosku, ponieważ Twoje konto nie
 msgid "We are unable to transfer to %1 because that account has been restricted."
 msgstr "Nie możemy wykonać przelewu do %1, gdyż to konto jest objęte ograniczeniami."
 
+msgid "We are unable to transfer to %1, because that account has been restricted."
+msgstr "Nie możemy wykonać przelewu do %1, gdyż to konto jest objęte ograniczeniami."
+
 msgid "We can't find the ad. Please review the details or try another ad."
 msgstr "Nie możemy znaleźć reklamy. Sprawdź szczegóły lub wybierz inną reklamę."
 
@@ -5482,6 +5482,9 @@ msgstr "Kwota wypłaty: %1 %2 jest większa niż Twoje saldo wynoszące %3 %2."
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "Kwota wypłaty: %1 %2 przekracza limit wypłat na Twoim koncie wynoszący %3 %2."
 
+msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
+msgstr "Kwota wypłaty wynosi %2 %1, ale saldo %3 zawiera zamrożone środki %4."
+
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Wypłaty są obecnie niedostępne. Prosimy spróbować później."
 
@@ -5732,6 +5735,9 @@ msgstr "Nie możesz wykonać tej czynności, ponieważ Twoje konto jest obecnie 
 msgid "You cannot perform this action, as your account is withdrawal locked."
 msgstr "Nie możesz wykonać tej czynności, ponieważ dokonywanie wypłat z Twojego konta jest obecnie zablokowane."
 
+msgid "You cannot perform this action, as your verification documents have expired."
+msgstr "Nie możesz wykonać tej czynności, ponieważ upłynęła ważność Twoich dokumentów weryfikacyjnych."
+
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ upłynęła ważność dokumentów weryfikacyjnych pośrednika płatności."
 
@@ -5746,6 +5752,9 @@ msgstr "Nie możesz dokonywać przelewów między rzeczywistymi kontami, gdyż a
 
 msgid "You cannot transfer to account %1"
 msgstr "Nie możesz wykonać przelewu na konto %1"
+
+msgid "You cannot transfer to account %1, as their verification documents have expired."
+msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ upłynęła ważność powiązanych z nim dokumentów weryfikacyjnych."
 
 msgid "You cannot use this name, because it is taken by someone else."
 msgstr "Nie możesz użyć tej nazwy, ponieważ została użyta przez kogoś innego."
@@ -22277,9 +22286,6 @@ msgstr "przez czat na żywo."
 #~ msgid "We are unable to determine the local currency for your country."
 #~ msgstr "Nie jesteśmy w stanie określić lokalnej waluty dla tego kraju."
 
-#~ msgid "We are unable to transfer to %1, because that account has been restricted."
-#~ msgstr "Nie możemy wykonać przelewu do %1, gdyż to konto jest objęte ograniczeniami."
-
 #~ msgid "We can not properly price your requested contract at this time. Please adjust your contract conditions and try again."
 #~ msgstr "Nie możemy obecnie prawidłowo wycenić wybranego kontraktu. Prosimy zmienić warunki kontraktu i spróbować ponownie."
 
@@ -22877,9 +22883,6 @@ msgstr "przez czat na żywo."
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Wypłaty w tej walucie zostały zawieszone w związku z kursem wymiany walut. Prosimy spróbować ponownie, gdy rynek będzie otwarty."
 
-#~ msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
-#~ msgstr "Kwota wypłaty wynosi %2 %1, ale saldo %3 zawiera zamrożone środki %4."
-
 #~ msgid "Withdrawal is disabled."
 #~ msgstr "Wypłata jest niemożliwa."
 
@@ -23207,9 +23210,6 @@ msgstr "przez czat na żywo."
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Nie możesz wykonać tej czynności, ponieważ Twoje konto %1 jest oznaczone jako niepożądane."
 
-#~ msgid "You cannot perform this action, as your verification documents have expired."
-#~ msgstr "Nie możesz wykonać tej czynności, ponieważ upłynęła ważność Twoich dokumentów weryfikacyjnych."
-
 #~ msgid "You cannot subscribe to an account with no currency selected."
 #~ msgstr "Nie możesz subskrybować powiadomień dot. konta bez wybranej waluty."
 
@@ -23221,9 +23221,6 @@ msgstr "przez czat na żywo."
 
 #~ msgid "You cannot transfer to account %1, as their cashier is locked."
 #~ msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ sekcja Kasjer z nim powiązana jest zablokowana."
-
-#~ msgid "You cannot transfer to account %1, as their verification documents have expired."
-#~ msgstr "Nie możesz przelać pieniędzy na konto %1, ponieważ upłynęła ważność powiązanych z nim dokumentów weryfikacyjnych."
 
 #~ msgid "You cannot withdraw from a payment agent in a different country of residence."
 #~ msgstr "Nie możesz dokonać wypłaty środków, korzystając z usług pośrednika płatności w innym państwie zamieszkania."

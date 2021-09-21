@@ -2842,11 +2842,8 @@ msgstr "Informações de pagamento e contato não são necessárias para anúnci
 
 #, fuzzy
 #| msgid "Payment method can not be changed for sell ads."
-msgid "Payment method field cannot be combined with other payment method fields."
+msgid "Payment method can not be changed for sell ads."
 msgstr "O método de pagamento não pode ser alterado anúncios de vendas."
-
-msgid "Payment method names cannot be provided for sell adverts. Please provide full payment details."
-msgstr ""
 
 msgid "Payments"
 msgstr "Pagamentos"
@@ -4366,7 +4363,7 @@ msgstr "Este método de pagamento está em uso em vários anúncios e/ou ordens,
 
 #, fuzzy
 #| msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
-msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or delete the ad."
+msgid "This payment method is in use by the following ad(s): %1. Please add other payment methods to the ad, or deactivate the ad."
 msgstr "Esta forma de pagamento é utilizada pelo(s) seguinte(s) anúncio(s): %1. Por favor adicione outros métodos de pagamento ao anúncio, ou desative o anúncio."
 
 msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
@@ -4981,6 +4978,9 @@ msgstr "Não podemos completar a solicitação neste momento porque sua conta n�
 msgid "We are unable to transfer to %1 because that account has been restricted."
 msgstr "Não é possível efetuar transferências para %1 porque a conta encontra-se restrita."
 
+msgid "We are unable to transfer to %1, because that account has been restricted."
+msgstr "Não é possível efetuar transferências para %1, porque a conta encontra-se restrita."
+
 msgid "We can't find the ad. Please review the details or try another ad."
 msgstr "Não conseguimos encontrar o anúncio. Por favor, revise os detalhes ou tente outro anúncio."
 
@@ -5449,6 +5449,9 @@ msgstr "O valor de retirada de %1 %2 excede o saldo de sua conta de %3 %2."
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "O valor de saque de %1 %2 excede o limite de saque de sua conta de %3 %2."
 
+msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
+msgstr "O valor da retirada é %2 %1 mas o saldo %3 inclui um bônus congelado de %4."
+
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "As retiradas não estão disponíveis no momento. Por favor, tente novamente mais tarde."
 
@@ -5689,6 +5692,9 @@ msgstr "Você não pode executar esta ação, pois sua conta está no momento de
 msgid "You cannot perform this action, as your account is withdrawal locked."
 msgstr "Você não pode executar esta ação, porque retiradas de sua conta estão no momento desativadas."
 
+msgid "You cannot perform this action, as your verification documents have expired."
+msgstr "Não é possível executar esta ação, visto que os seus documentos de verificação já expiraram."
+
 msgid "You cannot perform withdrawal to account %1, as payment agent's verification documents have expired."
 msgstr "Não é possível efetuar uma retirada para a conta %1, visto que os documentos de verificação do agente de pagamentos já expiraram."
 
@@ -5703,6 +5709,9 @@ msgstr "Você não pode transferir entre contas reais porque o cliente autorizad
 
 msgid "You cannot transfer to account %1"
 msgstr "Você não pode transferir para a conta %1"
+
+msgid "You cannot transfer to account %1, as their verification documents have expired."
+msgstr "Você não pode transferir para a conta %1, porque os documentos de verificação expiraram."
 
 msgid "You cannot use this name, because it is taken by someone else."
 msgstr "Você não pode usar este nome, porque ele já está sendo utilizado por outra pessoa."
@@ -23397,9 +23406,6 @@ msgstr "via chat ao vivo."
 #~ msgid "We are unable to determine the local currency for your country."
 #~ msgstr "Não conseguimos determinar a moeda local do seu país."
 
-#~ msgid "We are unable to transfer to %1, because that account has been restricted."
-#~ msgstr "Não é possível efetuar transferências para %1, porque a conta encontra-se restrita."
-
 #~ msgid "We can not properly price your requested contract at this time. Adjust your contract conditions and try again."
 #~ msgstr "Neste momento, não é possível fixar adequadamente o preço para o contrato solicitado. Por favor reajuste as suas condições de contrato e tente novamente."
 
@@ -24053,9 +24059,6 @@ msgstr "via chat ao vivo."
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Retiradas nesta moeda estão suspensas devido às taxas de câmbio. Tente novamente quando o mercado estiver aberto."
 
-#~ msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
-#~ msgstr "O valor da retirada é %2 %1 mas o saldo %3 inclui um bônus congelado de %4."
-
 #~ msgid "Withdrawal is disabled."
 #~ msgstr "As retiradas de fundos estão desativadas."
 
@@ -24393,9 +24396,6 @@ msgstr "via chat ao vivo."
 #~ msgid "You cannot perform this action, as your account %1 is marked as unwelcome."
 #~ msgstr "Você não pode executar esta ação, uma vez que a sua conta %1 está marcada como inadequada."
 
-#~ msgid "You cannot perform this action, as your verification documents have expired."
-#~ msgstr "Não é possível executar esta ação, visto que os seus documentos de verificação já expiraram."
-
 #~ msgid "You cannot subscribe to an account with no currency selected."
 #~ msgstr "Você não pode se inscrever para uma conta sem a moeda selecionada."
 
@@ -24407,9 +24407,6 @@ msgstr "via chat ao vivo."
 
 #~ msgid "You cannot transfer to account %1, as their cashier is locked."
 #~ msgstr "Você não pode transferir para a conta %1, porque o caixa desta conta está bloqueado."
-
-#~ msgid "You cannot transfer to account %1, as their verification documents have expired."
-#~ msgstr "Você não pode transferir para a conta %1, porque os documentos de verificação expiraram."
 
 #~ msgid "You cannot withdraw from a payment agent in a different country of residence."
 #~ msgstr "Não é possível retirar fundos de agentes de pagamento situados em países de residência diferentes."
