@@ -1082,6 +1082,9 @@ msgstr "Bu uygulamayı reddet"
 msgid "Deposit"
 msgstr "Mevduat"
 
+msgid "Deposit exceeds %1 limit %2. Aggregated deposit over period %3. Current amount %4."
+msgstr ""
+
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "Mevduat şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyiniz."
 
@@ -2023,6 +2026,11 @@ msgstr "Geçersiz son kullanma süresi."
 msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
 msgstr "Bu sözleşme türü (%1) için geçersiz giriş (süre yada tarih_son kullanma)."
 
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Invalid landing company - %1"
+msgstr "Bilinmeyen açılış şirketi."
+
 msgid "Invalid loginid"
 msgstr "Geçersiz oturum açma kimliği"
 
@@ -2878,6 +2886,11 @@ msgstr "Ödeme aracıları, ikamet ettiğiniz ülkede askıya alındı."
 msgid "Payment and contact information are not needed for buy ads."
 msgstr "Satın alma ilanları için ödeme ve iletişim bilgilerine gerek yoktur."
 
+#, fuzzy
+#| msgid "The provided currency %1 is not a valid cryptocurrency."
+msgid "Payment currency %1 not client currency %2."
+msgstr "Sağlanan %1 para birimi geçerli bir kripto para birimi değil."
+
 msgid "Payment method can not be changed for sell ads."
 msgstr "Satış ilanlarında ödeme şekli değiştirilemez."
 
@@ -3654,6 +3667,11 @@ msgstr "Üzgünüz, ancak ülkenizde maksimum para yatırma limitinizi belirleme
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "Üzgünüz, sistem bakımı nedeniyle kasiyer geçici olarak kullanılamıyor."
 
+#, fuzzy
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "Sorry, cashier is temporarily unavailable. Please try again later."
+msgstr "Üzgünüz, transferler şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyiniz."
+
 msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
 msgstr "Üzgünüz, kripto kasiyeri sistem bakımı nedeniyle geçici olarak kullanılamıyor."
 
@@ -4352,6 +4370,14 @@ msgstr "Bu para birimi mevcut değil."
 
 msgid "This currency is temporarily suspended. Please select another currency to proceed."
 msgstr "Bu para birimi geçici olarak askıya alındı. Lütfen devam etmek için başka bir para birimi seçin."
+
+#, fuzzy
+#| msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1 %2."
+msgid "This deposit will cause your account balance to exceed your account limit of %1 %2."
+msgstr "Bu sözleşmeyi satın almak, 7 günlük %1 %2 ciro sınırınızı aşmanıza neden olur."
+
+msgid "This deposit will cause your account balance to exceed your limit of %1 %2. To proceed with this deposit, please adjust your self exclusion settings."
+msgstr ""
 
 msgid "This email address is invalid."
 msgstr "Bu e-posta adresi geçersiz."
@@ -5261,6 +5287,11 @@ msgstr "Müşterinin ikamet ettiği ülke portföyünüz dahilinde olmadığı i
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
 msgstr "İkamet ettiğiniz ülke ödeme aracısının portföyünde olmadığı için bu para çekme işlemini gerçekleştiremiyoruz. Daha fazla bilgi için lütfen %1 ile iletişime geçin."
 
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "We're unable to process your withdrawal request because it exceeds the limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Maksimum para çekme limiti olan %1 %2'ye ulaştınız. Sınırsız para çekmek için lütfen hesabınızı doğrulayın."
+
 msgid "We're unable to reset your trading password due to system maintenance. Please try again later."
 msgstr "Sistem bakımı nedeniyle işlem şifrenizi sıfırlayamıyoruz. Lütfen daha sonra tekrar deneyiniz."
 
@@ -5507,11 +5538,19 @@ msgstr "Kişisel cüzdanınıza para çekin"
 msgid "Withdrawal"
 msgstr "Para çekme"
 
+#, fuzzy
+#| msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
+msgid "Withdrawal amount [%1 %2] exceeds client balance [%3 %2]."
+msgstr "%1 %2 tutarındaki para çekme tutarı, %3 %2 tutarındaki hesap bakiyenizi aşıyor."
+
 msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "%1 %2 tutarındaki para çekme tutarı, %3 %2 tutarındaki hesap bakiyenizi aşıyor."
 
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "%1 %2'lik para çekme miktarı, %3 %2'lik hesap çekme limitinizi aşıyor."
+
+msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
+msgstr ""
 
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Para çekme işlemleri şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyiniz."
@@ -5968,6 +6007,11 @@ msgstr "Bu yöntemle kimlik kanıtınızı doğrulamak için maksimum deneme say
 
 msgid "You've reached the maximum of %1 active ads for this currency pair and order type. Please delete an ad to place a new one."
 msgstr "Bu döviz çifti ve sipariş türü için maksimum %1 aktif ilana ulaştınız. Lütfen yeni bir ilan yerleştirmek için bir ilanı silin."
+
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Maksimum para çekme limiti olan %1 %2'ye ulaştınız. Sınırsız para çekmek için lütfen hesabınızı doğrulayın."
 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
 msgstr "Maksimum para çekme limiti olan %1 %2'ye ulaştınız. Sınırsız para çekmek için lütfen hesabınızı doğrulayın."

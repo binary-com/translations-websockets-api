@@ -1081,6 +1081,9 @@ msgstr "Rifiuta questa app"
 msgid "Deposit"
 msgstr "Deposita"
 
+msgid "Deposit exceeds %1 limit %2. Aggregated deposit over period %3. Current amount %4."
+msgstr ""
+
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "Al momento non è possibile effettuare depositi. Si prega di riprovare più tardi."
 
@@ -2023,6 +2026,11 @@ msgstr "Orario di scadenza non valido."
 msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
 msgstr "Dato non corretto (durata o date_expiry) per questo tipo di contratto (%1)."
 
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Invalid landing company - %1"
+msgstr "Società di landing sconosciuta."
+
 msgid "Invalid loginid"
 msgstr "ID d'accesso non valido"
 
@@ -2878,6 +2886,11 @@ msgstr "Gli agenti di pagamento sono sospesi nel tuo Paese di residenza."
 msgid "Payment and contact information are not needed for buy ads."
 msgstr "Le informazioni di contatto e sul pagamento non sono necessarie per l'acquisto di annunci."
 
+#, fuzzy
+#| msgid "The provided currency %1 is not a valid cryptocurrency."
+msgid "Payment currency %1 not client currency %2."
+msgstr "La valuta %1 fornita non è una criptovaluta valida."
+
 msgid "Payment method can not be changed for sell ads."
 msgstr "La modalità di pagamento non può essere cambiata per vendere annunci."
 
@@ -3654,6 +3667,11 @@ msgstr "Siamo spiacenti ma non è prevista l'opzione di deposito massimo per il 
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "Siamo spiacenti, la cassa è temporaneamente disattivata per questioni di manutenzione del sistema."
 
+#, fuzzy
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "Sorry, cashier is temporarily unavailable. Please try again later."
+msgstr "Al momento non è possibile effettuare trasferimenti. Si prega di riprovare più tardi."
+
 msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
 msgstr "Siamo spiacenti, la cassa di criptovalute è temporaneamente disattivata per questioni di manutenzione del sistema."
 
@@ -4352,6 +4370,14 @@ msgstr "Questa valuta non è disponibile."
 
 msgid "This currency is temporarily suspended. Please select another currency to proceed."
 msgstr "Questa valuta è momentaneamente sospesa: selezionane un'altra per procedere."
+
+#, fuzzy
+#| msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1 %2."
+msgid "This deposit will cause your account balance to exceed your account limit of %1 %2."
+msgstr "L'acquisto di questo contratto comporterà il superamento del tuo limite di turnover su 7 giorni di %1 %2."
+
+msgid "This deposit will cause your account balance to exceed your limit of %1 %2. To proceed with this deposit, please adjust your self exclusion settings."
+msgstr ""
 
 msgid "This email address is invalid."
 msgstr "Questo indirizzo email non è valido."
@@ -5261,6 +5287,11 @@ msgstr "Non siamo in grado di effettuare il trasferimento perché il Paese di re
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
 msgstr "Non siamo in grado di effettuare il prelievo perché il Paese di residenza non rientra nel portafoglio dell'agente di pagamento. Contatta %1 per maggiori informazioni."
 
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "We're unable to process your withdrawal request because it exceeds the limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Hai raggiunto il limite massimo di prelievi di %1 %2. Autentica il conto per effettuare prelievi illimitati."
+
 msgid "We're unable to reset your trading password due to system maintenance. Please try again later."
 msgstr "Non è stato possibile modificare la password a causa della manutenzione del sistema. Riprova più tardi."
 
@@ -5507,11 +5538,19 @@ msgstr "Preleva dal tuo portafoglio"
 msgid "Withdrawal"
 msgstr "Prelievo"
 
+#, fuzzy
+#| msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
+msgid "Withdrawal amount [%1 %2] exceeds client balance [%3 %2]."
+msgstr "L'importo del prelievo di %1 %2 supera il saldo del tuo conto di %3 %2."
+
 msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "L'importo del prelievo di %1 %2 supera il saldo del tuo conto di %3 %2."
 
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "L'importo del prelievo di %1 %2 supera il limite di prelievo del tuo conto di %3 %2."
+
+msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
+msgstr "I prelievi corrispondono a %2 %1 ma il saldo %3 comprende il bonus congelato %4."
 
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Al momento non è possibile effettuare prelievi. Si prega di riprovare più tardi."
@@ -5968,6 +6007,11 @@ msgstr "Hai superato il limite di tentativi per verificare la tua identità con 
 
 msgid "You've reached the maximum of %1 active ads for this currency pair and order type. Please delete an ad to place a new one."
 msgstr "Hai raggiunto il massimo di %1 annunci attivi per coppia valutaria e tipo di ordine. Elimina un annuncio per inserirne uno nuovo."
+
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Hai raggiunto il limite massimo di prelievi di %1 %2. Autentica il conto per effettuare prelievi illimitati."
 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
 msgstr "Hai raggiunto il limite massimo di prelievi di %1 %2. Autentica il conto per effettuare prelievi illimitati."
@@ -18868,9 +18912,6 @@ msgstr "© %1 Deriv, tutti i diritti sono riservati."
 
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "I prelievi per questa valuta sono sospesi a causa dei tassi di cambio. Ti invitiamo a riprovare quando il mercato è aperto."
-
-#~ msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
-#~ msgstr "I prelievi corrispondono a %2 %1 ma il saldo %3 comprende il bonus congelato %4."
 
 #~ msgid "Withdrawal is disabled."
 #~ msgstr "I prelievi sono disabilitati."

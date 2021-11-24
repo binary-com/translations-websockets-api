@@ -1083,6 +1083,9 @@ msgstr "Tolak aplikasi ini"
 msgid "Deposit"
 msgstr "Deposit"
 
+msgid "Deposit exceeds %1 limit %2. Aggregated deposit over period %3. Current amount %4."
+msgstr ""
+
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "Maaf, fasilitas deposit tidak tersedia untuk saat ini. Silakan coba kembali nanti."
 
@@ -2024,6 +2027,11 @@ msgstr "Waktu berakhir tidak berlaku."
 msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
 msgstr "Input tidak valid (durasi atau date_expiry) untuk jenis kontrak ini (%1)."
 
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Invalid landing company - %1"
+msgstr "Perusahaan pemegang tidak diketahui."
+
 msgid "Invalid loginid"
 msgstr "Loginid tidak berlaku"
 
@@ -2879,6 +2887,11 @@ msgstr "Agen pembayaran tidak tersedia di negara tempat tinggal Anda."
 msgid "Payment and contact information are not needed for buy ads."
 msgstr "Informasi pembayaran dan kontak tidak diperlukan untuk iklan beli."
 
+#, fuzzy
+#| msgid "The provided currency %1 is not a valid cryptocurrency."
+msgid "Payment currency %1 not client currency %2."
+msgstr "Mata uang yang disediakan %1 bukan mata uang kripto yang berlaku."
+
 msgid "Payment method can not be changed for sell ads."
 msgstr "Metode pembayaran tidak dapat diubah untuk iklan jual."
 
@@ -3655,6 +3668,11 @@ msgstr "Maaf, namun pengaturan batas deposit maksimum tidak tersedia di negara A
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "Maaf, kasir sementara tidak tersedia berhubung peningkatan sistem."
 
+#, fuzzy
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "Sorry, cashier is temporarily unavailable. Please try again later."
+msgstr "Maaf, transfer saat ini tidak tersedia. Silakan coba lagi nanti."
+
 msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
 msgstr "Maaf, kasir kripto sementara tidak tersedia berhubung peningkatan sistem."
 
@@ -4353,6 +4371,14 @@ msgstr "Mata uang ini tidak tersedia."
 
 msgid "This currency is temporarily suspended. Please select another currency to proceed."
 msgstr "Mata uang ini ditangguhkan sementara. Silakan pilih mata uang lain untuk melanjutkan."
+
+#, fuzzy
+#| msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1 %2."
+msgid "This deposit will cause your account balance to exceed your account limit of %1 %2."
+msgstr "Dengan membeli kontrak ini maka Anda akan melebihi batasan 7 hari total pembelian sebesar %1 %2."
+
+msgid "This deposit will cause your account balance to exceed your limit of %1 %2. To proceed with this deposit, please adjust your self exclusion settings."
+msgstr ""
 
 msgid "This email address is invalid."
 msgstr "Alamat email ini tidak berlaku."
@@ -5262,6 +5288,11 @@ msgstr "Kami tidak dapat memproses transfer berikut ini berhubung negara domisil
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
 msgstr "Kami tidak dapat memproses penarikan ini karena negara tempat tinggal Anda tidak tersedia dalam portofolio agen pembayaran. Silakan hubungi %1 untuk info lebih lanjut."
 
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "We're unable to process your withdrawal request because it exceeds the limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Anda telah mencapai batas penarikan maksimum %1 %2. Otentikasi akun Anda untuk menghapus batas penarikan."
+
 msgid "We're unable to reset your trading password due to system maintenance. Please try again later."
 msgstr "Kami tidak dapat mereset kata sandi trading Anda berhubung pemeliharaan sistem. Coba lagi nanti."
 
@@ -5508,11 +5539,19 @@ msgstr "Tarik ke wallet pribadi Anda"
 msgid "Withdrawal"
 msgstr "Penarikan"
 
+#, fuzzy
+#| msgid "Withdrawal amount exceeds client balance."
+msgid "Withdrawal amount [%1 %2] exceeds client balance [%3 %2]."
+msgstr "Jumlah penarikan melebihi saldo Pelanggan."
+
 msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "Jumlah penarikan sebesar %1 %2 lebih besar dari jumlah saldo Anda %3 %2."
 
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "Jumlah penarikan sebesar %1 %2 melebihi batas penarikan akun Anda sebesar %3 %2."
+
+msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
+msgstr "Jumlah penarikan adalah %2 %1 namun saldo %3 termasuk nilai bonus %4 yang dibekukan."
 
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Penarikan tidak tersedia untuk saat ini. Silakan coba kembali nanti."
@@ -5969,6 +6008,11 @@ msgstr "Anda telah mencapai jumlah maksimum untuk memverifikasi bukti identitas 
 
 msgid "You've reached the maximum of %1 active ads for this currency pair and order type. Please delete an ad to place a new one."
 msgstr "Anda telah mencapai maksimum %1 iklan aktif untuk pasangan mata uang dan jenis order ini. Hapus iklan untuk membuat iklan baru."
+
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Anda telah mencapai batas penarikan maksimum %1 %2. Otentikasi akun Anda untuk menghapus batas penarikan."
 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
 msgstr "Anda telah mencapai batas penarikan maksimum %1 %2. Otentikasi akun Anda untuk menghapus batas penarikan."
@@ -26004,14 +26048,8 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 #~ msgid "Withdrawal Verification"
 #~ msgstr "Verifikasi Penarikan"
 
-#~ msgid "Withdrawal amount exceeds client balance."
-#~ msgstr "Jumlah penarikan melebihi saldo Pelanggan."
-
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Penarikan untuk mata uang ini tidak tersedia berhubung nilai tukar. Silakan coba kembali pada saat pasar dibuka."
-
-#~ msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
-#~ msgstr "Jumlah penarikan adalah %2 %1 namun saldo %3 termasuk nilai bonus %4 yang dibekukan."
 
 #~ msgid "Withdrawal is disabled."
 #~ msgstr "Bagian penarikan dibatalkan untuk sementara. Hal ini berhubung penarikan tidak dibenarkan pada hari Sabtu dan Minggu atau data akun anda tidak lengkap."

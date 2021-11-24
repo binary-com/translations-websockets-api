@@ -1082,6 +1082,9 @@ msgstr "拒绝此应用程序"
 msgid "Deposit"
 msgstr "存款"
 
+msgid "Deposit exceeds %1 limit %2. Aggregated deposit over period %3. Current amount %4."
+msgstr ""
+
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "目前无法存款。请稍后重试。"
 
@@ -2023,6 +2026,11 @@ msgstr "无效到期时间。"
 msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
 msgstr "此合约类型（%1）的输入（期限或date_expiry）无效。"
 
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Invalid landing company - %1"
+msgstr "未知着陆公司。"
+
 msgid "Invalid loginid"
 msgstr "无效登录id"
 
@@ -2878,6 +2886,11 @@ msgstr "您的居住国禁止使用支付代理。"
 msgid "Payment and contact information are not needed for buy ads."
 msgstr "买入广告不需要付款和联系信息。"
 
+#, fuzzy
+#| msgid "The provided currency %1 is not a valid cryptocurrency."
+msgid "Payment currency %1 not client currency %2."
+msgstr "所提供的货币 %1不是有效的加密货币。"
+
 msgid "Payment method can not be changed for sell ads."
 msgstr "销售广告的付款方法不可改变。"
 
@@ -3654,6 +3667,11 @@ msgstr "对不起，您所在的国家不可设置最大存款限额。"
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "对不起，由于系统维护，收银台暂停使用。"
 
+#, fuzzy
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "Sorry, cashier is temporarily unavailable. Please try again later."
+msgstr "对不起，目前无法转账。请稍后重试。"
+
 msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
 msgstr "对不起，由于系统维护，加密货币收银台暂停使用。"
 
@@ -4352,6 +4370,14 @@ msgstr "此币种不可用。"
 
 msgid "This currency is temporarily suspended. Please select another currency to proceed."
 msgstr "此币种已暂停使用。请选择另一币种继续。"
+
+#, fuzzy
+#| msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1 %2."
+msgid "This deposit will cause your account balance to exceed your account limit of %1 %2."
+msgstr "买入此合约将导致您超出%1 %2的7天期交易限额。"
+
+msgid "This deposit will cause your account balance to exceed your limit of %1 %2. To proceed with this deposit, please adjust your self exclusion settings."
+msgstr ""
 
 msgid "This email address is invalid."
 msgstr "此电子邮件地址无效。"
@@ -5263,6 +5289,11 @@ msgstr "此转账无法处理，因为客户的居住国不在您的投资组合
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
 msgstr "此取款无法处理，因为您的居住国不在付款代理的投资组合之内。请联系％1以获取更多信息。"
 
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "We're unable to process your withdrawal request because it exceeds the limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "您已达最大取款限额 %1 %2。请验证账户以获取无限取款额。"
+
 msgid "We're unable to reset your trading password due to system maintenance. Please try again later."
 msgstr "由于系统维护，交易密码无法重置。请稍后重试。"
 
@@ -5509,11 +5540,19 @@ msgstr "提取至您的个人钱包"
 msgid "Withdrawal"
 msgstr "提款"
 
+#, fuzzy
+#| msgid "Withdrawal amount exceeds client balance."
+msgid "Withdrawal amount [%1 %2] exceeds client balance [%3 %2]."
+msgstr "提款金额超出客户余额。"
+
 msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "提款金额%1 %2大于您的账户余额%3 %2。"
 
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "提款金额%1 %2大于您的账户提款限额%3 %2。"
+
+msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
+msgstr "提款是 %2 %1，但余额包括冻结奖金 %4为 %3 。"
 
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "目前无法取款。请稍后重试。"
@@ -5970,6 +6009,11 @@ msgstr "此身份验证方法已达最大尝试次数。"
 
 msgid "You've reached the maximum of %1 active ads for this currency pair and order type. Please delete an ad to place a new one."
 msgstr "您已达到此货币对和订单类型在用广告的最大％1。请删除一个广告以放置新的广告。"
+
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "您已达最大取款限额 %1 %2。请验证账户以获取无限取款额。"
 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
 msgstr "您已达最大取款限额 %1 %2。请验证账户以获取无限取款额。"
@@ -26292,17 +26336,11 @@ msgstr "© %1 Deriv 保留所有权利。"
 #~ msgid "Withdrawal Verification"
 #~ msgstr "提款验证"
 
-#~ msgid "Withdrawal amount exceeds client balance."
-#~ msgstr "提款金额超出客户余额。"
-
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "由于兑换率问题，此币种的提款已暂停。开市时请重试。"
 
 #~ msgid "Withdrawal from %1"
 #~ msgstr "从 %1 提款"
-
-#~ msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
-#~ msgstr "提款是 %2 %1，但余额包括冻结奖金 %4为 %3 。"
 
 #~ msgid "Withdrawal is disabled."
 #~ msgstr "提款禁用。"

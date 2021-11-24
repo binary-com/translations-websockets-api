@@ -1084,6 +1084,9 @@ msgstr "Denegar esta aplicación"
 msgid "Deposit"
 msgstr "Depósito"
 
+msgid "Deposit exceeds %1 limit %2. Aggregated deposit over period %3. Current amount %4."
+msgstr ""
+
 msgid "Deposits are currently unavailable. Please try again later."
 msgstr "Los depósitos no están disponibles actualmente. Por favor, inténtelo de nuevo más tarde."
 
@@ -2028,6 +2031,11 @@ msgstr "Inválido vencimiento hora."
 msgid "Invalid input (duration or date_expiry) for this contract type (%1)."
 msgstr "Entrada no válida (duración o date_expiry) para este tipo de contrato (%1)."
 
+#, fuzzy
+#| msgid "Unknown landing company."
+msgid "Invalid landing company - %1"
+msgstr "Compañía de destino desconocida."
+
 msgid "Invalid loginid"
 msgstr "ID de inicio de sesión no válido"
 
@@ -2883,6 +2891,11 @@ msgstr "Los agentes de pago están suspendidos en su país de residencia."
 msgid "Payment and contact information are not needed for buy ads."
 msgstr "El pago y la información de contacto no son necesarios para comprar anuncios."
 
+#, fuzzy
+#| msgid "The provided currency %1 is not a valid cryptocurrency."
+msgid "Payment currency %1 not client currency %2."
+msgstr "La moneda proporcionada de %1 no es una criptomoneda válida."
+
 msgid "Payment method can not be changed for sell ads."
 msgstr "El método de pago no se puede cambiar para vender anuncios."
 
@@ -3659,6 +3672,11 @@ msgstr "Lo sentimos, pero establecer su límite máximo de depósito no está di
 msgid "Sorry, cashier is temporarily unavailable due to system maintenance."
 msgstr "Lo sentimos, nuestro sistema de pago está temporalmente fuera de servicio por mantenimiento del sistema."
 
+#, fuzzy
+#| msgid "Sorry, transfers are currently unavailable. Please try again later."
+msgid "Sorry, cashier is temporarily unavailable. Please try again later."
+msgstr "Lo sentimos, las transferencias no están disponibles de momento. Inténtelo más tarde."
+
 msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
 msgstr "Lo sentimos, el cajero crypto está temporalmente fuera de servicio por mantenimiento del sistema."
 
@@ -4357,6 +4375,14 @@ msgstr "Esta moneda no está disponible."
 
 msgid "This currency is temporarily suspended. Please select another currency to proceed."
 msgstr "Esta moneda está suspendida temporalmente. Seleccione otra moneda para continuar."
+
+#, fuzzy
+#| msgid "Purchasing this contract will cause you to exceed your 7-day turnover limit of %1 %2."
+msgid "This deposit will cause your account balance to exceed your account limit of %1 %2."
+msgstr "La compra de este contrato hará que exceda su límite de volumen de negocios de 7 días de %1 %2."
+
+msgid "This deposit will cause your account balance to exceed your limit of %1 %2. To proceed with this deposit, please adjust your self exclusion settings."
+msgstr ""
 
 msgid "This email address is invalid."
 msgstr "Esta dirección de correo electrónico es inválida."
@@ -5266,6 +5292,11 @@ msgstr "No podemos procesar esta transferencia porque el país de residencia del
 msgid "We're unable to process this withdrawal because your country of residence is not within the payment agent's portfolio. Please contact %1 for more info."
 msgstr "No podemos procesar este retiro porque su país de residencia no está dentro de la cartera del agente de pagos. Póngase en contacto con %1 para obtener más información."
 
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "We're unable to process your withdrawal request because it exceeds the limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Ha alcanzado el límite máximo de retiro de %1 %2. Autentique su cuenta para realizar retiros ilimitados."
+
 msgid "We're unable to reset your trading password due to system maintenance. Please try again later."
 msgstr "No podemos restablecer su contraseña de trading debido al mantenimiento del sistema. Por favor, inténtelo de nuevo más tarde."
 
@@ -5512,11 +5543,19 @@ msgstr "Retire a su billetera personal"
 msgid "Withdrawal"
 msgstr "Retiro"
 
+#, fuzzy
+#| msgid "Withdrawal amount exceeds client balance."
+msgid "Withdrawal amount [%1 %2] exceeds client balance [%3 %2]."
+msgstr "El valor de retiro solicitado excede su saldo."
+
 msgid "Withdrawal amount of %1 %2 exceeds your account balance of %3 %2."
 msgstr "El monto de retiro de %1 %2 excede el saldo de su cuenta de %3 %2."
 
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "El monto de retiro de 1% %2 excede el límite de retiro de su cuenta de %3 %2."
+
+msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
+msgstr "El retiro es %2 %1 pero el balance %3 incluye el bono congelado %4."
 
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Los retiros no están disponibles actualmente. Por favor, inténtelo de nuevo más tarde."
@@ -5973,6 +6012,11 @@ msgstr "Ha alcanzado el número máximo de intentos para verificar su comprobant
 
 msgid "You've reached the maximum of %1 active ads for this currency pair and order type. Please delete an ad to place a new one."
 msgstr "Alcanzó el máximo de %1 anuncios activos para este par de divisas y tipo de orden. Elimina un anuncio para colocar uno nuevo."
+
+#, fuzzy
+#| msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
+msgstr "Ha alcanzado el límite máximo de retiro de %1 %2. Autentique su cuenta para realizar retiros ilimitados."
 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
 msgstr "Ha alcanzado el límite máximo de retiro de %1 %2. Autentique su cuenta para realizar retiros ilimitados."
@@ -24409,14 +24453,8 @@ msgstr "© %1 Deriv, Todos los derechos reservados."
 #~ msgid "Withdrawal Verification"
 #~ msgstr "Verificación de Retiro"
 
-#~ msgid "Withdrawal amount exceeds client balance."
-#~ msgstr "El valor de retiro solicitado excede su saldo."
-
 #~ msgid "Withdrawal for this currency are suspended due to exchange rates. Please try again when market is open."
 #~ msgstr "Los retiros para esta moneda están suspendidos debido al tipo de cambio. Vuelva a intentarlo cuando el mercado esté abierto."
-
-#~ msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
-#~ msgstr "El retiro es %2 %1 pero el balance %3 incluye el bono congelado %4."
 
 #~ msgid "Withdrawal is disabled."
 #~ msgstr "El retiro está deshabilitado."
