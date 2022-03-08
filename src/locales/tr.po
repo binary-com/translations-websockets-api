@@ -818,6 +818,11 @@ msgstr "Yatırımcı şifremi değiştirme"
 msgid "Change my password"
 msgstr "Şifremi Değiştir"
 
+#, fuzzy
+#| msgid "Change of currency is not allowed for an existing account with previous deposits."
+msgid "Change of currency is not allowed after the first deposit attempt."
+msgstr "Önceki mevduatları olan mevcut bir hesap için para birimi değişikliğine izin verilmez."
+
 msgid "Change of currency is not allowed due to an existing Deriv X real account."
 msgstr "Mevcut bir Deriv X gerçek hesabı nedeniyle para birimi değişikliğine izin verilmez."
 
@@ -2820,9 +2825,6 @@ msgstr "Not: Bu, Binary.com oturum açma parolanızdan farklı olabilir."
 msgid "Note: This maybe different from your Deriv login password."
 msgstr "Not: Bu, Deriv oturum açma parolanızdan farklı olabilir."
 
-msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
-msgstr "Not: %2 %1 bonusunuzu ancak toplam işlem hacminiz %3 %1'i aştığında çekebileceksiniz. Bu kısıtlama sadece bonus ve bundan elde edilen kazançlar için geçerlidir. Diğer tüm mevduatlar ve bunlardan elde edilen karlar herhangi bir zamanda geri çekilebilir."
-
 msgid "Notes must not exceed %1 characters."
 msgstr "Notlar %1 karakteri geçmemelidir."
 
@@ -3074,9 +3076,6 @@ msgctxt "payment method name"
 msgid "Payant"
 msgstr "Ödeme"
 
-msgid "Payment agent facilities are not available for this account."
-msgstr "Ödeme aracısı olanakları bu hesap için kullanılamaz."
-
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Belirtilen hesaplar için ödeme aracı transferlerine izin verilmiyor."
 
@@ -3086,7 +3085,9 @@ msgstr "Aynı hesapta ödeme aracı transferlerine izin verilmez."
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
 msgstr "Bugün için izin verilen maksimum işlemleri aştığınız için ödeme aracı transferlerine izin verilmiyor."
 
-msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount %1 %2 for today."
 msgstr "Bugün için izin verilen maksimum transfer tutarını aştığınız için ödeme aracı transferlerine izin verilmez."
 
 msgid "Payment agent transfers are temporarily unavailable in the client's country of residence."
@@ -4007,20 +4008,13 @@ msgstr "Üzgünüz, hesap açmak için çok gençsiniz."
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please wait until some contracts have closed and try again."
 msgstr "Üzgünüz, belirli bir zamanda %1'den fazla sözleşme tutamazsınız. Lütfen bazı kontratlar kapanana kadar bekleyin ve yeniden deneyin."
 
-msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+#, fuzzy
+#| msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+msgid "Sorry, you cannot withdraw. Your account balance is %3 %2."
 msgstr "Üzgünüz, para çekemezsiniz. Hesap bakiyeniz %1 %2."
-
-msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
-msgstr "Üzgünüz, para çekemezsiniz. %1 para çekme tutarınız, %2 çekme limitini aşıyor."
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Üzgünüz, zaten çok fazla başarısız denemeniz oldu. Lütfen 5 dakika sonra tekrar deneyin."
-
-msgid "Sorry, you have exceeded the maximum allowable transactions for today."
-msgstr "Üzgünüz, bugün için izin verilen maksimum işlemleri aştınız."
-
-msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
-msgstr "Üzgünüz, bugün için izin verilen en fazla %1 transfer tutarını aştınız."
 
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "Maalesef hesap bakiyeniz çok yüksek (%1). Maksimum hesap bakiyeniz %2'dir."
@@ -4520,6 +4514,9 @@ msgstr "Token geçersiz, 'yönetici' kapsamı gerektiriyor."
 
 msgid "The token is invalid."
 msgstr "Token geçersiz."
+
+msgid "The token you used is invalid in this session. Please get a new token and try again."
+msgstr ""
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "İşlem <strong>%1, %2</strong> tarafından tamamlandı."
@@ -6770,9 +6767,6 @@ msgstr "Bu döviz çifti ve sipariş türü için maksimum %1 aktif ilana ulaşt
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr "Maksimum para çekme limiti olan %1 %2'ye ulaştınız. Sınırsız para çekmek için lütfen hesabınızı doğrulayın."
 
-msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
-msgstr "Maksimum para çekme limiti olan %1 %2'ye ulaştınız. Sınırsız para çekmek için lütfen hesabınızı doğrulayın."
-
 msgid "You've successfully changed the following information on your Deriv profile"
 msgstr "Deriv profilinizde aşağıdaki bilgileri başarıyla değiştirdiniz"
 
@@ -6841,9 +6835,6 @@ msgstr "MT5 hesabınız kilitlendi. Daha fazla bilgi için lütfen bizimle ileti
 msgctxt "Customer.io email: MT5 Signup (Binary) "
 msgid "Your MT5 account is ready!"
 msgstr "MT5 hesabınız hazır!"
-
-msgid "Your MT5 account(s) have been closed"
-msgstr "MT5 hesaplarınız kapatıldı"
 
 msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
 msgstr "Hesap bakiyeniz (%1 %2) bu sözleşmeyi (%3 %2) satın almak için yetersiz."
@@ -7398,6 +7389,12 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 #~ msgid "Note: Do not withdraw directly to a crowdfund or ICO address, as your account will not be credited with tokens from such sales."
 #~ msgstr "Not: Hesabınıza bu tür satışlardan token yüklenmeyeceğinden, doğrudan bir crowdfund veya ICO adresine para çekmeyin."
 
+#~ msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
+#~ msgstr "Not: %2 %1 bonusunuzu ancak toplam işlem hacminiz %3 %1'i aştığında çekebileceksiniz. Bu kısıtlama sadece bonus ve bundan elde edilen kazançlar için geçerlidir. Diğer tüm mevduatlar ve bunlardan elde edilen karlar herhangi bir zamanda geri çekilebilir."
+
+#~ msgid "Payment agent facilities are not available for this account."
+#~ msgstr "Ödeme aracısı olanakları bu hesap için kullanılamaz."
+
 #~ msgid "Payment and contact information are not needed for buy ads."
 #~ msgstr "Satın alma ilanları için ödeme ve iletişim bilgilerine gerek yoktur."
 
@@ -7430,6 +7427,15 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 #, fuzzy
 #~ msgid "Sorry, contracts on Synthetic Indices are not available in your country of residence"
 #~ msgstr "Üzgünüz, Sentetik Endekslerle ilgili kontratlar ikamet ettiğiniz ülkede mevcut değil"
+
+#~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
+#~ msgstr "Üzgünüz, para çekemezsiniz. %1 para çekme tutarınız, %2 çekme limitini aşıyor."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+#~ msgstr "Üzgünüz, bugün için izin verilen maksimum işlemleri aştınız."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
+#~ msgstr "Üzgünüz, bugün için izin verilen en fazla %1 transfer tutarını aştınız."
 
 #, fuzzy
 #~ msgctxt "Customer IO email content "
@@ -7479,6 +7485,12 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 
 #~ msgid "You've got a new password"
 #~ msgstr "Yeni bir şifreniz var"
+
+#~ msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+#~ msgstr "Maksimum para çekme limiti olan %1 %2'ye ulaştınız. Sınırsız para çekmek için lütfen hesabınızı doğrulayın."
+
+#~ msgid "Your MT5 account(s) have been closed"
+#~ msgstr "MT5 hesaplarınız kapatıldı"
 
 #~ msgid "Your new Deriv account password"
 #~ msgstr "Yeni Deriv hesap şifreniz"

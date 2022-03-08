@@ -813,6 +813,11 @@ msgstr "Redefinir minha senha de investidor"
 msgid "Change my password"
 msgstr "Mudar minha senha"
 
+#, fuzzy
+#| msgid "Change of currency is not allowed for an existing account with previous deposits."
+msgid "Change of currency is not allowed after the first deposit attempt."
+msgstr "A mudança de moeda não é permitida para uma conta existente que possua depósitos anteriores."
+
 msgid "Change of currency is not allowed due to an existing Deriv X real account."
 msgstr "A mudança de moeda não é permitida devido a uma conta Deriv X existente."
 
@@ -2818,9 +2823,6 @@ msgstr "Nota: Isso pode ser diferente da sua senha de login da Binary.com."
 msgid "Note: This maybe different from your Deriv login password."
 msgstr "Nota: Isso pode ser diferente de sua senha de login da Deriv."
 
-msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
-msgstr "Nota: Você poderá retirar o seu bônus de %2 %1 apenas quando o seu volume agregado de contratos exceder %3 %1. Esta restrição aplica-se apenas aos bônus e aos lucros deles derivados. Todos os outros depósitos e lucros derivados dos mesmos podem ser retirados a qualquer momento."
-
 msgid "Notes must not exceed %1 characters."
 msgstr "As notas não devem exceder %1 caracteres."
 
@@ -3072,9 +3074,6 @@ msgctxt "payment method name"
 msgid "Payant"
 msgstr "Payant"
 
-msgid "Payment agent facilities are not available for this account."
-msgstr "Recursos de agentes de pagamentos não estão disponíveis para esta conta."
-
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Transferências para o agente de pagamento não são permitidas para as contas especificadas."
 
@@ -3084,7 +3083,9 @@ msgstr "Transferências para o agente de pagamento não são permitidas entre a 
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
 msgstr "Transferências para o agente de pagamento não são permitidas, já que você atingiu o máximo de transações do dia."
 
-msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount %1 %2 for today."
 msgstr "Transferências por agentes de pagamento não são permitidas, já que você atingiu o valor máximo de transferências do dia."
 
 msgid "Payment agent transfers are temporarily unavailable in the client's country of residence."
@@ -4007,20 +4008,13 @@ msgstr "Desculpe, mas você é demasiado jovem para abrir uma conta."
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please wait until some contracts have closed and try again."
 msgstr "Lamentamos, não é possível deter mais de %1 contratos num determinado momento. Aguarde até que alguns contratos tenham se fechado e tente novamente."
 
-msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+#, fuzzy
+#| msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+msgid "Sorry, you cannot withdraw. Your account balance is %3 %2."
 msgstr "Lamentamos, mas não lhe é possível realizar uma retirada. O saldo da sua conta é %1 %2."
-
-msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
-msgstr "Lamentamos, mas você não pode efetuar retiradas. O seu valor de retirada %1 excede o limite de retiradas %2."
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Lamentamos, você já teve muitas tentativas sem êxito. Por favor, tente novamente em 5 minutos."
-
-msgid "Sorry, you have exceeded the maximum allowable transactions for today."
-msgstr "Lamentamos, excedeu o máximo de transações permissível para hoje."
-
-msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
-msgstr "Lamentamos, mas excedeu o montante máximo permitido de transferências de %1 para hoje."
 
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "Lamentamos, o saldo em dinheiro da sua conta é demasiado alto (%1). O seu saldo máximo de conta é %2."
@@ -4520,6 +4514,9 @@ msgstr "O token é inválido, requer permissão 'admin'."
 
 msgid "The token is invalid."
 msgstr "O token é inválido."
+
+msgid "The token you used is invalid in this session. Please get a new token and try again."
+msgstr ""
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "A transação foi concluída por <strong>%1,%2 </strong>."
@@ -6778,9 +6775,6 @@ msgstr "Você atingiu o máximo de %1 anúncios ativos para este par de moedas e
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr "Você atingiu o limite máximo de retirada de %1 %2. Por favor, autentique a sua conta antes de proceder com a retirada."
 
-msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
-msgstr "Você atingiu o limite máximo de retirada de %1 %2. Autentique sua conta para remover o limite de retirada."
-
 msgid "You've successfully changed the following information on your Deriv profile"
 msgstr "Você alterou com sucesso as seguintes informações no seu perfil Deriv"
 
@@ -6849,9 +6843,6 @@ msgstr "Sua conta MT5 está bloqueada. Entre em contato conosco para mais inform
 msgctxt "Customer.io email: MT5 Signup (Binary) "
 msgid "Your MT5 account is ready!"
 msgstr "Sua conta MT5 está pronta!"
-
-msgid "Your MT5 account(s) have been closed"
-msgstr "Sua conta MT5 foi fechada"
 
 msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
 msgstr "O seu saldo de conta (%1%2) é insuficiente para comprar este contrato (%3 %2)."
@@ -18435,6 +18426,9 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 #~ msgid "Note: Withdrawal via payment agent is available only if you deposit exclusively via payment agent"
 #~ msgstr "Nota: Retiradas através de agentes de pagamento estão disponíveis apenas se você deposita exclusivamente através de agentes de pagamento"
 
+#~ msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
+#~ msgstr "Nota: Você poderá retirar o seu bônus de %2 %1 apenas quando o seu volume agregado de contratos exceder %3 %1. Esta restrição aplica-se apenas aos bônus e aos lucros deles derivados. Todos os outros depósitos e lucros derivados dos mesmos podem ser retirados a qualquer momento."
+
 #~ msgid "Note: limits will apply to all currency segments on your account individually."
 #~ msgstr "Nota: os limites serão individualmente aplicáveis a todos os segmentos de moedas na sua conta."
 
@@ -19044,6 +19038,9 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 
 #~ msgid "Payment Agents"
 #~ msgstr "Agentes de pagamentos"
+
+#~ msgid "Payment agent facilities are not available for this account."
+#~ msgstr "Recursos de agentes de pagamentos não estão disponíveis para esta conta."
 
 #~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 #~ msgstr "A transferência por agente de pagamentos não é permitida com o valor especificado, visto que o saldo da conta %1 iria exceder os limites permitidos."
@@ -21244,6 +21241,9 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "Lamentamos, não pode fazer a retirada."
 
+#~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
+#~ msgstr "Lamentamos, mas você não pode efetuar retiradas. O seu valor de retirada %1 excede o limite de retiradas %2."
+
 #~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
 #~ msgstr "Lamentamos, não é possível retirar fundos. O seu valor de retirada %1 excede o limite para retiradas de %2. Contate o <a href=\"%3\">apoio ao cliente</a> para autenticar a sua conta."
 
@@ -21279,6 +21279,12 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 
 #~ msgid "Sorry, you have exceeded a BOUNDARY contract weekly turnover of USD%1 which is the maximum weekly turnover allowed. Please choose on a different type of contract or lower your stake."
 #~ msgstr "Lamentamos, excedeu o volume de negócios semanal LIMITE de contratos de %1USD, que corresponde ao volume de negócios máximo semanal permitido. Escolha um tipo de contrato diferente ou reduza a sua aposta."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+#~ msgstr "Lamentamos, excedeu o máximo de transações permissível para hoje."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
+#~ msgstr "Lamentamos, mas excedeu o montante máximo permitido de transferências de %1 para hoje."
 
 #~ msgid "Sorry, you have excluded yourself from the website until %1."
 #~ msgstr "Lamentamos, você auto excluiu-se da página Web até %1."
@@ -25698,6 +25704,9 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 #~ msgid "You've not been approved as an advertiser yet. Please contact our Customer Support team."
 #~ msgstr "Você ainda não foi aprovado como anunciante. Entre em contato com nossa equipe de Suporte ao Cliente."
 
+#~ msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+#~ msgstr "Você atingiu o limite máximo de retirada de %1 %2. Autentique sua conta para remover o limite de retirada."
+
 #~ msgid "You've set your password"
 #~ msgstr "Você definiu sua senha"
 
@@ -25754,6 +25763,9 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 
 #~ msgid "Your Login ID should not contain spaces."
 #~ msgstr "O seu ID de Início de Sessão não pode conter espaços."
+
+#~ msgid "Your MT5 account(s) have been closed"
+#~ msgstr "Sua conta MT5 foi fechada"
 
 #~ msgid "Your MT5 investor password has been changed."
 #~ msgstr "A sua senha de investidor MT5 foi alterada."

@@ -820,6 +820,11 @@ msgstr "Đổi lại mật khẩu đầu tư"
 msgid "Change my password"
 msgstr "Thay đổi mật khẩu"
 
+#, fuzzy
+#| msgid "Change of currency is not allowed for an existing account with previous deposits."
+msgid "Change of currency is not allowed after the first deposit attempt."
+msgstr "Không được phép đổi loại tiền tệ cho một tài khoản đã tồn tại và được gửi tiền vào từ trước."
+
 msgid "Change of currency is not allowed due to an existing Deriv X real account."
 msgstr "Không được phép đổi loại tiền tệ do đã tồn tại một tài khoản Deriv X."
 
@@ -2813,9 +2818,6 @@ msgstr "Lưu ý: Mật khẩu này có thể khác với mật khẩu đăng nh�
 msgid "Note: This maybe different from your Deriv login password."
 msgstr "Lưu ý: Mật khẩu này có thể khác với mật khẩu đăng nhập Deriv của bạn."
 
-msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
-msgstr "Lưu ý: Bạn có thể rút tiền thưởng của %2 %1 nếu tổng khối lượng giao dịch của bạn đã vượt quá %3 %1. Hạn chế này chỉ áp dụng cho tiền thưởng và lợi nhuận thu được từ đó.  Tất cả các khoản tiền gửi khác và lợi nhuận thu được từ đó có thể được rút ra bất cứ lúc nào."
-
 msgid "Notes must not exceed %1 characters."
 msgstr "Ghi chú không được vượt quá %1 kí tự."
 
@@ -3067,9 +3069,6 @@ msgctxt "payment method name"
 msgid "Payant"
 msgstr "Payant"
 
-msgid "Payment agent facilities are not available for this account."
-msgstr "Các tiện ích đại lý thanh toán không có sẵn cho tài khoản này."
-
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Việc chuyển khoản đại lý thanh toán không được phép đối với các tài khoản nhất định."
 
@@ -3079,7 +3078,9 @@ msgstr "Việc chuyển khoản đại lý thanh toán không được phép tro
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
 msgstr "Việc chuyển khoản đại lý thanh toán không được phép, vì bạn đã giao dịch vượt mức tối đa của ngày hôm nay."
 
-msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount %1 %2 for today."
 msgstr "Việc chuyển khoản đại lý thanh toán không được phép, vì số tiền chuyển khoản đã đạt mức cho phép tối đa của ngày hôm nay."
 
 msgid "Payment agent transfers are temporarily unavailable in the client's country of residence."
@@ -3992,20 +3993,13 @@ msgstr "Rất tiếc, bạn chưa đủ tuổi để mở tài khoản."
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please wait until some contracts have closed and try again."
 msgstr "Rất tiếc, bạn không thể nắm giữ hơn %1 hợp đồng trong cùng một lúc. Vui lòng chờ một vài hợp đồng được chốt và thử lại."
 
-msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+#, fuzzy
+#| msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+msgid "Sorry, you cannot withdraw. Your account balance is %3 %2."
 msgstr "Rất tiếc, bạn không thể rút tiền. Số dư tài khoản của bạn là %1 %2."
-
-msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
-msgstr "Rất tiếc, bạn không thể rút tiền. Số tiền %1 mà bạn đang rút vượt quá giới hạn rút tiền %2."
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động không thành công. Xin vui lòng thử lại sau 5 phút."
-
-msgid "Sorry, you have exceeded the maximum allowable transactions for today."
-msgstr "Rất tiếc, bạn đã vượt quá số giao dịch cho phép tối đa trong ngày hôm nay."
-
-msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
-msgstr "Rất tiếc, bạn đã vượt quá lượng tiền %1 được chuyển tối đa trong ngày hôm nay."
 
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "Rất tiếc, bạn có quá nhiều tiền mặt trong tài khoản (%1). Số dư tài khoản tối đa của bạn là %2."
@@ -4503,6 +4497,9 @@ msgstr "Mã thông báo không hợp lệ, yêu cầu phạm vi 'quản trị vi
 
 msgid "The token is invalid."
 msgstr "Token không hợp lệ."
+
+msgid "The token you used is invalid in this session. Please get a new token and try again."
+msgstr ""
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "Giao dịch đã được hoàn tất bởi <strong>%1, %2 </strong>."
@@ -6747,9 +6744,6 @@ msgstr "Bạn đã đạt đến tối đa %1 quảng cáo đang hoạt động 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr "Bạn đã đạt đến giới hạn rút tiền tối đa %1 %2. Vui lòng xác thực tài khoản của bạn trước khi tiến hành việc rút tiền này."
 
-msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
-msgstr "Bạn đã đạt mức giới hạn rút tối đa %1 %2. Vui lòng xác minh tài khoản để rút không giới hạn."
-
 msgid "You've successfully changed the following information on your Deriv profile"
 msgstr "Bạn đã thay đổi thành công các thông tin sau trên hồ sơ Deriv của mình"
 
@@ -6818,9 +6812,6 @@ msgstr "Tài khoản MT5 của bạn đã bị khóa. Xin vui lòng liên hệ v
 msgctxt "Customer.io email: MT5 Signup (Binary) "
 msgid "Your MT5 account is ready!"
 msgstr "Tài khoản MT5 của bạn đã sẵn sàng!"
-
-msgid "Your MT5 account(s) have been closed"
-msgstr "(Các) tài khoản MT5 của bạn đã bị đóng"
 
 msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
 msgstr "Số dư tài khoản của bạn (%1 %2) không đủ để mua hợp đồng này (%3 %2)."
@@ -15720,6 +15711,9 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 #~ msgid "Note: Withdrawal via payment agent is available only if you deposit exclusively via payment agent"
 #~ msgstr "Lưu ý: Rút tiền thông qua đại lý thanh toán chỉ khả dụng nếu bạn gửi độc quyền qua đại lý đó"
 
+#~ msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
+#~ msgstr "Lưu ý: Bạn có thể rút tiền thưởng của %2 %1 nếu tổng khối lượng giao dịch của bạn đã vượt quá %3 %1. Hạn chế này chỉ áp dụng cho tiền thưởng và lợi nhuận thu được từ đó.  Tất cả các khoản tiền gửi khác và lợi nhuận thu được từ đó có thể được rút ra bất cứ lúc nào."
+
 #~ msgid "Note: this is the \"bom-token\" not the \"access-token\"."
 #~ msgstr "Lưu ý: đây là \"mã-bom\" không phải là \"mã-truy cập\"."
 
@@ -16206,6 +16200,9 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 
 #~ msgid "Payment Agents"
 #~ msgstr "Đại lý Thanh toán"
+
+#~ msgid "Payment agent facilities are not available for this account."
+#~ msgstr "Các tiện ích đại lý thanh toán không có sẵn cho tài khoản này."
 
 #~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 #~ msgstr "Không được phép chuyển khoản với số tiền trên, vì số dư tài khoản %1 sẽ vượt quá giới hạn cho phép."
@@ -17824,6 +17821,9 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "Xin lỗi, bạn không thể rút tiền."
 
+#~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
+#~ msgstr "Rất tiếc, bạn không thể rút tiền. Số tiền %1 mà bạn đang rút vượt quá giới hạn rút tiền %2."
+
 #~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
 #~ msgstr "Xin lỗi, bạn không thể rút tiền. Số tiền rút %1 của bạn vượt quá giới hạn tiền rút%2. Vui lòng liên hệ <a href=\"%3\">bộ phận hỗ trợ khách hàng</a> để xác thực tài khoản của bạn."
 
@@ -17832,6 +17832,12 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 
 #~ msgid "Sorry, you have entered an incorrect email address."
 #~ msgstr "Rất tiếc, bạn đã nhập sai địa chỉ email."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+#~ msgstr "Rất tiếc, bạn đã vượt quá số giao dịch cho phép tối đa trong ngày hôm nay."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
+#~ msgstr "Rất tiếc, bạn đã vượt quá lượng tiền %1 được chuyển tối đa trong ngày hôm nay."
 
 #~ msgid "Sorry, you have excluded yourself from the website until %1."
 #~ msgstr "Xin lỗi, bạn đã đã rút ra khỏi trang web cho tới %1."
@@ -21393,6 +21399,9 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 #~ msgid "You've not been approved as an advertiser yet. Please contact our Customer Support team."
 #~ msgstr "Bạn chưa được chấp thuận là nhà quảng cáo. Vui lòng liên hệ cho nhóm Hỗ trợ khách hàng."
 
+#~ msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+#~ msgstr "Bạn đã đạt mức giới hạn rút tối đa %1 %2. Vui lòng xác minh tài khoản để rút không giới hạn."
+
 #~ msgid "You've set your password"
 #~ msgstr "Bạn vừa đặt lại mật khẩu"
 
@@ -21440,6 +21449,9 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 
 #~ msgid "Your Login ID should not contain spaces."
 #~ msgstr "ID đăng nhập của bạn không nên chứa khoảng trắng."
+
+#~ msgid "Your MT5 account(s) have been closed"
+#~ msgstr "(Các) tài khoản MT5 của bạn đã bị đóng"
 
 #~ msgid "Your MT5 accounts still have funds. Please withdraw all funds before proceeding."
 #~ msgstr "Các tài khoản MT5 của bạn vẫn còn vốn. Vui lồng rút hết vốn để tiếp tục."

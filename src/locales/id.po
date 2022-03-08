@@ -817,6 +817,11 @@ msgstr "Rubah kata sandi investor saya"
 msgid "Change my password"
 msgstr "Ubah kata sandi saya"
 
+#, fuzzy
+#| msgid "Change of currency is not allowed for an existing account with previous deposits."
+msgid "Change of currency is not allowed after the first deposit attempt."
+msgstr "Perubahan mata uang tidak dibenarkan berhubung Anda sudah mendaftar akun dan mendeposit."
+
 msgid "Change of currency is not allowed due to an existing Deriv X real account."
 msgstr "Perubahan mata uang tidak dibenarkan berhubung Anda sudah mendaftar akun riil Deriv X."
 
@@ -2809,9 +2814,6 @@ msgstr "Nota: Kata sandi ini mungkin berbeda dengan kata sandi Binary.com."
 msgid "Note: This maybe different from your Deriv login password."
 msgstr "Nota: Kata sandi ini mungkin berbeda dengan kata sandi Deriv Anda."
 
-msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
-msgstr "Nota: Anda dapat mencairkan bonus sejumlah %2 %1 jika volume trading melebihi %3 %1. Aturan ini hanya berlaku bagi nominal bonus dan profit yang dihasilkannya, jika ada dana diluar bonus dan profit yang dihasilkannya maka Anda bisa mencairkannya kapan saja."
-
 msgid "Notes must not exceed %1 characters."
 msgstr "Catatan tidak boleh melebihi %1 karakter."
 
@@ -3063,9 +3065,6 @@ msgctxt "payment method name"
 msgid "Payant"
 msgstr "Payant"
 
-msgid "Payment agent facilities are not available for this account."
-msgstr "Fasilitas agen pembayaran tidak tersedia untuk akun ini."
-
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "Transfer agen pembayaran tidak diizinkan untuk akun tertentu."
 
@@ -3075,7 +3074,9 @@ msgstr "Transfer agen pembayaran tidak diperbolehkan pada akun yang sama."
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
 msgstr "Transfer agen pembayaran tidak dibenarkan, Anda telah melampaui transaksi maksimum hari ini."
 
-msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount %1 %2 for today."
 msgstr "Transfer agen pembayaran tidak diperbolehkan, Anda telah melampaui jumlah transfer maksimum hari ini."
 
 msgid "Payment agent transfers are temporarily unavailable in the client's country of residence."
@@ -3988,20 +3989,13 @@ msgstr "Maaf, Anda terlalu muda untuk mendaftar akun."
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please wait until some contracts have closed and try again."
 msgstr "Maaf, Anda tidak dapat membeli lebih dari %1 kontrak secara bersamaan. Silahkan tunggu hingga beberapa kontrak berakhir dan coba kembali."
 
-msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+#, fuzzy
+#| msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+msgid "Sorry, you cannot withdraw. Your account balance is %3 %2."
 msgstr "Maaf, Anda tidak dapat menarik dana. Saldo akun Anda adalah %1 %2."
-
-msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
-msgstr "Maaf, Anda tidak dapat mencairkan. Jumlah penarikan Anda %1 melebihi batas penarikan %2."
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "Maaf, Anda telah gagal mengakses beberapa kali. Silakan coba kembali dalam waktu 5 menit lagi."
-
-msgid "Sorry, you have exceeded the maximum allowable transactions for today."
-msgstr "Maaf, Anda telah melebihi maksimum transaksi yang diperbolehkan untuk hari ini."
-
-msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
-msgstr "Maaf, Anda telah melebihi jumlah transfer maksimum yang diperbolehkan untuk hari ini."
 
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "Saldo Anda sangat tinggi (%1). Jumlah maksimal saldo Anda adalah %2."
@@ -4499,6 +4493,9 @@ msgstr "Token tidak berlaku, memerlukan scope 'admin'."
 
 msgid "The token is invalid."
 msgstr "Token tidak berlaku."
+
+msgid "The token you used is invalid in this session. Please get a new token and try again."
+msgstr ""
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "Transaksi transfer dilakukan oleh <strong>%1, %2</strong>."
@@ -6743,9 +6740,6 @@ msgstr "Anda telah mencapai maksimum %1 iklan aktif untuk pasangan mata uang dan
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr "Anda telah mencapai batas penarikan maksimum %1 %2. Mohon autentikasi akun Anda sebelum melanjutkan penarikan ini."
 
-msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
-msgstr "Anda telah mencapai batas penarikan maksimum %1 %2. Otentikasi akun Anda untuk menghapus batas penarikan."
-
 msgid "You've successfully changed the following information on your Deriv profile"
 msgstr "Anda telah berhasil mengubah informasi berikut pada profil Deriv Anda"
 
@@ -6814,9 +6808,6 @@ msgstr "Akun MT5 Anda terblokir. Silakan hubungi kami untuk informasi lebih lanj
 msgctxt "Customer.io email: MT5 Signup (Binary) "
 msgid "Your MT5 account is ready!"
 msgstr "Akun MT5 Anda sudah siap!"
-
-msgid "Your MT5 account(s) have been closed"
-msgstr "Akun MT5 Anda telah ditutup"
 
 msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
 msgstr "Saldo Anda (%1 %2) tidak mencukupi untuk membeli kontrak (%3 %2) ini."
@@ -19694,6 +19685,9 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 #~ msgid "Note: Withdrawal via payment agent is available only if you deposit exclusively via payment agent"
 #~ msgstr "Nota: Penarikan via agen pembayaran hanya tersedia jika Anda mendeposit via agen pembayaran"
 
+#~ msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
+#~ msgstr "Nota: Anda dapat mencairkan bonus sejumlah %2 %1 jika volume trading melebihi %3 %1. Aturan ini hanya berlaku bagi nominal bonus dan profit yang dihasilkannya, jika ada dana diluar bonus dan profit yang dihasilkannya maka Anda bisa mencairkannya kapan saja."
+
 #~ msgid "Note: if your account starts with either of UK or MX, you should log into"
 #~ msgstr "Pesan: jika rekening anda diawali dengan salah satu dari UK atau MX, anda harus log melalui"
 
@@ -20379,6 +20373,9 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 
 #~ msgid "Payment Gateway Busy"
 #~ msgstr "Pintu gerbang pembayaran sibuk"
+
+#~ msgid "Payment agent facilities are not available for this account."
+#~ msgstr "Fasilitas agen pembayaran tidak tersedia untuk akun ini."
 
 #~ msgid "Payment agent transfer"
 #~ msgstr "Transfer Agen Pembayaran"
@@ -22915,6 +22912,9 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "Maaf, Anda tidak dapat mencairkan."
 
+#~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
+#~ msgstr "Maaf, Anda tidak dapat mencairkan. Jumlah penarikan Anda %1 melebihi batas penarikan %2."
+
 #~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
 #~ msgstr "Maaf, Anda tidak dapat melakukan penarikan. Jumlah penarikan Anda %1 melebihi batasan yang dibenarkan yaitu %2. Silahkan hubungi <a href=\"%3\">customer support</a> untuk membuktikan kebenaran akun Anda."
 
@@ -22950,6 +22950,12 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 
 #~ msgid "Sorry, you have exceeded a BOUNDARY contract weekly turnover of USD%1 which is the maximum weekly turnover allowed. Please choose on a different type of contract or lower your stake."
 #~ msgstr "Maaf, anda telah melebihi batasan maksimum HASIL mingguan sebesar USD%1 untuk kontrak ini. Pilih jenis kontrak lain atau kurangi modal anda."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+#~ msgstr "Maaf, Anda telah melebihi maksimum transaksi yang diperbolehkan untuk hari ini."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
+#~ msgstr "Maaf, Anda telah melebihi jumlah transfer maksimum yang diperbolehkan untuk hari ini."
 
 #~ msgid "Sorry, you have excluded yourself from the website until %1."
 #~ msgstr "Maaf, Anda telah mengecualikan diri dari website hingga %1."
@@ -27478,6 +27484,9 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 #~ msgid "You've not been approved as an advertiser yet. Please contact our Customer Support team."
 #~ msgstr "Anda belum disetujui sebagai pengiklan. Silakan hubungi tim Customer Support kami."
 
+#~ msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+#~ msgstr "Anda telah mencapai batas penarikan maksimum %1 %2. Otentikasi akun Anda untuk menghapus batas penarikan."
+
 #~ msgid "You've set your password"
 #~ msgstr "Anda telah mengatur kata sandi Anda"
 
@@ -27537,6 +27546,9 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 
 #~ msgid "Your Login ID should not contain spaces."
 #~ msgstr "Login ID tidak boleh mengandungi spasi."
+
+#~ msgid "Your MT5 account(s) have been closed"
+#~ msgstr "Akun MT5 Anda telah ditutup"
 
 #~ msgid "Your MT5 accounts still have funds. Please withdraw all funds before proceeding."
 #~ msgstr "Akun MT5 Anda masih memiliki saldo. Lakukan penarikann semua dana sebelum melanjutkan."

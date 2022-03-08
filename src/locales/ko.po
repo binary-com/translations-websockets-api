@@ -818,6 +818,11 @@ msgstr "나의 투자자 암호 변경하기"
 msgid "Change my password"
 msgstr "비밀번호 변경하기"
 
+#, fuzzy
+#| msgid "Change of currency is not allowed for an existing account with previous deposits."
+msgid "Change of currency is not allowed after the first deposit attempt."
+msgstr "이전의 예금과 함께 이미 존재하는 계좌에 대해서는 통화의 변경이 허용되지 않습니다."
+
 msgid "Change of currency is not allowed due to an existing Deriv X real account."
 msgstr "이미 존재하는 Deriv X 실제 계좌때문에 통화의 변경은 허용되지 않습니다."
 
@@ -2810,9 +2815,6 @@ msgstr "알림: 이는 귀하의 Binary.com 로그인 비밀번호와는 다를 
 msgid "Note: This maybe different from your Deriv login password."
 msgstr "알림: 이는 귀하의 Deriv 로그인 비밀번호와는 다를 수 있습니다."
 
-msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
-msgstr "알림: 귀하께서는 귀하의 합게 거래량이 %3 %1을 초과할 때에만 %2 %1에 대한 귀하의 보너스를 인출하실 수 있을 것입니다. 이러한 제한은 앞서 언급된 그것으로부터 파생된 보너스와 이윤에만 적용됩니다. 그것으로부터 파생된 다른 모든 이윤 및 예금된 부분은 그 언제든지 인출될 수 있습니다."
-
 msgid "Notes must not exceed %1 characters."
 msgstr "노트는 문자수 %1를 넘을 수 없습니다."
 
@@ -3064,9 +3066,6 @@ msgctxt "payment method name"
 msgid "Payant"
 msgstr "페이언트 (Payant)"
 
-msgid "Payment agent facilities are not available for this account."
-msgstr "이 계좌에 대해서는 지불 에이전트 기능이 불가능합니다."
-
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "명시되어 있는 게좌들에 대해서는 지불 에이전트 송금이 허용되지 않습니다."
 
@@ -3076,7 +3075,9 @@ msgstr "같은 계좌 내에서는 제불 에이전트 송금이 허용되지 �
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
 msgstr "귀하께서는 하루에 허용되는 최대 송금 횟수를 초과했으므로 지불 에이전트 송금이 허용되지 않습니다."
 
-msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount %1 %2 for today."
 msgstr "귀하께서는 하루에 허용되는 최대 송금 금액을 초과했으므로 지불 에이전트 송금이 허용되지 않습니다."
 
 msgid "Payment agent transfers are temporarily unavailable in the client's country of residence."
@@ -3993,20 +3994,13 @@ msgstr "죄송합니다, 귀하께서는 계좌를 개설하시기에 너무 어
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please wait until some contracts have closed and try again."
 msgstr "죄송합니다, 귀하께서는 주어진 시간에 %1 계약보다 더 많이 보유하실 수 없습니다. 몇몇의 계약이 닫길때까지 기다려주시고 다시 시도해 주시기 바랍니다."
 
-msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+#, fuzzy
+#| msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+msgid "Sorry, you cannot withdraw. Your account balance is %3 %2."
 msgstr "죄송합니다, 귀하께서는 인출하실 수 없습니다. 귀하의 계좌 잔액은 %1 %2입니다."
-
-msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
-msgstr "죄송합니다, 귀하께서는 인출하실 수 없습니다. 귀하의 인출 금액 %1는 인출한도 %2를 초과합니다."
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "죄송합니다, 귀하께서는 너무 많은 시도가 실패되었습니다. 5분 후에 다시 시도해 주시기 바랍니다."
-
-msgid "Sorry, you have exceeded the maximum allowable transactions for today."
-msgstr "죄송합니다, 귀하께서는 오늘 허용되는 최대 송금을 초과하셨습니다."
-
-msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
-msgstr "죄송합니다, 귀하께서는 오늘 허용되는 최대 송금액인 %1를 초과하셨습니다."
 
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "죄송합니다, 귀하의 계좌 현금 잔액이 너무 높습니다 (%1). 귀하의 최대 계좌 잔액은 %2입니다."
@@ -4504,6 +4498,9 @@ msgstr "해당 토큰은 유효하지 않으며 '관리자' 범위가 요구됩�
 
 msgid "The token is invalid."
 msgstr "해당 토큰은 유효하지 않습니다."
+
+msgid "The token you used is invalid in this session. Please get a new token and try again."
+msgstr ""
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "해당 거래는 <strong>%1, %2</strong>에 의해 완료되었습니다."
@@ -6877,9 +6874,6 @@ msgstr ""
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr ""
 
-msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
-msgstr ""
-
 msgid "You've successfully changed the following information on your Deriv profile"
 msgstr ""
 
@@ -6952,9 +6946,6 @@ msgstr ""
 msgctxt "Customer.io email: MT5 Signup (Binary) "
 msgid "Your MT5 account is ready!"
 msgstr "축하드립니다! 귀하의 MT5 %1 계좌가 준비되었습니다."
-
-msgid "Your MT5 account(s) have been closed"
-msgstr ""
 
 msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
 msgstr ""
@@ -7489,3 +7480,18 @@ msgstr "© %1 Deriv, 저작권을 소유하고 있습니다."
 
 #~ msgid "If you didn't request a new password,"
 #~ msgstr "만약 귀하께서 새로운 비밀번호를 요청하시 않으셨다면,"
+
+#~ msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
+#~ msgstr "알림: 귀하께서는 귀하의 합게 거래량이 %3 %1을 초과할 때에만 %2 %1에 대한 귀하의 보너스를 인출하실 수 있을 것입니다. 이러한 제한은 앞서 언급된 그것으로부터 파생된 보너스와 이윤에만 적용됩니다. 그것으로부터 파생된 다른 모든 이윤 및 예금된 부분은 그 언제든지 인출될 수 있습니다."
+
+#~ msgid "Payment agent facilities are not available for this account."
+#~ msgstr "이 계좌에 대해서는 지불 에이전트 기능이 불가능합니다."
+
+#~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
+#~ msgstr "죄송합니다, 귀하께서는 인출하실 수 없습니다. 귀하의 인출 금액 %1는 인출한도 %2를 초과합니다."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+#~ msgstr "죄송합니다, 귀하께서는 오늘 허용되는 최대 송금을 초과하셨습니다."
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
+#~ msgstr "죄송합니다, 귀하께서는 오늘 허용되는 최대 송금액인 %1를 초과하셨습니다."

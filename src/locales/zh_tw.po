@@ -815,6 +815,11 @@ msgstr "更改投資者密碼"
 msgid "Change my password"
 msgstr "更改密碼"
 
+#, fuzzy
+#| msgid "Change of currency is not allowed for an existing account with previous deposits."
+msgid "Change of currency is not allowed after the first deposit attempt."
+msgstr "現有帳戶曾經存入資金，不允許更改幣種。"
+
 msgid "Change of currency is not allowed due to an existing Deriv X real account."
 msgstr "由於現有的 Deriv X 真實帳戶，不允許更改幣種。"
 
@@ -2808,9 +2813,6 @@ msgstr "注意：這可能與您的Binary.com登入密碼不相同。"
 msgid "Note: This maybe different from your Deriv login password."
 msgstr "注意：這可能與您的Deriv 登入密碼不相同。"
 
-msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
-msgstr "注：僅當您的交易總額超過%3%1時，您才能夠提取您的獎金%2%1。此限制僅適用於由此產生的獎金和收益。由此產生的所有其他存款和收益可隨時提取。"
-
 msgid "Notes must not exceed %1 characters."
 msgstr "備註不能超過 %1 個字元。"
 
@@ -3062,9 +3064,6 @@ msgctxt "payment method name"
 msgid "Payant"
 msgstr "Payant"
 
-msgid "Payment agent facilities are not available for this account."
-msgstr "此帳戶無可用支付代理設施。"
-
 msgid "Payment agent transfers are not allowed for the specified accounts."
 msgstr "指定帳戶不允許支付代理轉帳。"
 
@@ -3074,7 +3073,9 @@ msgstr "同一帳戶內不允許支付代理轉帳。"
 msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transactions for today."
 msgstr "您已超過今日允許的最大交易數，不允許支付代理轉帳。"
 
-msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+#, fuzzy
+#| msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount for today."
+msgid "Payment agent transfers are not allowed, as you have exceeded the maximum allowable transfer amount %1 %2 for today."
 msgstr "您已超過今日允許的最大轉帳金額，不允許支付代理轉帳。"
 
 msgid "Payment agent transfers are temporarily unavailable in the client's country of residence."
@@ -3987,20 +3988,13 @@ msgstr "對不起，您的年齡太小，不能開戶。"
 msgid "Sorry, you cannot hold more than %1 contracts at a given time. Please wait until some contracts have closed and try again."
 msgstr "對不起，在指定時間內您不可持有超過%1 的合約。請等到一些合約終止後才重試。"
 
-msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+#, fuzzy
+#| msgid "Sorry, you cannot withdraw. Your account balance is %1 %2."
+msgid "Sorry, you cannot withdraw. Your account balance is %3 %2."
 msgstr "對不起，您不能提款。您的帳戶餘額為%1 %2。"
-
-msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
-msgstr "對不起，您不能提款。您的提款金額%1超過提款限額%2。"
 
 msgid "Sorry, you have already had too many unsuccessful attempts. Please try again in 5 minutes."
 msgstr "對不起，您的失敗嘗試次數過多。請5分鐘後再試。"
-
-msgid "Sorry, you have exceeded the maximum allowable transactions for today."
-msgstr "對不起，您已超過今日允許的最大交易數。"
-
-msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
-msgstr "對不起，您已超過今日允許的最大轉帳金額%1。"
 
 msgid "Sorry, your account cash balance is too high (%1). Your maximum account balance is %2."
 msgstr "對不起，您的帳戶現金餘額太高(%1)。最大允許餘額為%2。"
@@ -4498,6 +4492,9 @@ msgstr "權杖無效，須「管理員」範圍。"
 
 msgid "The token is invalid."
 msgstr "權杖無效。"
+
+msgid "The token you used is invalid in this session. Please get a new token and try again."
+msgstr ""
 
 msgid "The transaction was completed by <strong>%1, %2</strong>."
 msgstr "交易已於<strong>%1，%2</strong>完成。"
@@ -6742,9 +6739,6 @@ msgstr "您已達到此貨幣對和訂單類型在用廣告的最大％1。請�
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr "您已達最大取款限額%1 %2。請驗證帳戶以繼續取款。"
 
-msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
-msgstr "您已達最大取款限額%1 %2。請驗證帳戶以獲取無限取款額。"
-
 msgid "You've successfully changed the following information on your Deriv profile"
 msgstr "您已成功更改了以下的 Deriv 個人資料資訊"
 
@@ -6813,9 +6807,6 @@ msgstr "您的MT5帳戶已被鎖定。欲知詳情請跟我們聯繫。"
 msgctxt "Customer.io email: MT5 Signup (Binary) "
 msgid "Your MT5 account is ready!"
 msgstr "您的MT5 帳戶已準備就緒！"
-
-msgid "Your MT5 account(s) have been closed"
-msgstr "MT5 帳戶已關閉"
 
 msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
 msgstr "您的帳戶餘額(%1 %2)不足以買入該合約(%3 %2)。"
@@ -15346,6 +15337,9 @@ msgstr "© %1 Deriv 保留所有權利。"
 #~ msgid "Note: Withdrawal via payment agent is available only if you deposit exclusively via payment agent"
 #~ msgstr "注意:您必須完全通過付款代理存款才可使用付款代理提款"
 
+#~ msgid "Note: You will be able to withdraw your bonus of %2 %1 only once your aggregate volume of trades exceeds %3 %1. This restriction applies only to the bonus and profits derived therefrom.  All other deposits and profits derived therefrom can be withdrawn at any time."
+#~ msgstr "注：僅當您的交易總額超過%3%1時，您才能夠提取您的獎金%2%1。此限制僅適用於由此產生的獎金和收益。由此產生的所有其他存款和收益可隨時提取。"
+
 #~ msgid "Note: this is the \"bom-token\" not the \"access-token\"."
 #~ msgstr "注：這是bom權杖，非存取權杖。"
 
@@ -15803,6 +15797,9 @@ msgstr "© %1 Deriv 保留所有權利。"
 
 #~ msgid "Payment Agents"
 #~ msgstr "付款代理"
+
+#~ msgid "Payment agent facilities are not available for this account."
+#~ msgstr "此帳戶無可用支付代理設施。"
 
 #~ msgid "Payment agent transfer is not allowed with the specified amount, as account %1 balance would exceed allowed limits."
 #~ msgstr "不允許付款代理處理指定金額，因帳戶%1餘額將超出允許的限額。"
@@ -17353,6 +17350,9 @@ msgstr "© %1 Deriv 保留所有權利。"
 #~ msgid "Sorry, you cannot withdraw."
 #~ msgstr "對不起，您不能取款。"
 
+#~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2."
+#~ msgstr "對不起，您不能提款。您的提款金額%1超過提款限額%2。"
+
 #~ msgid "Sorry, you cannot withdraw. Your withdrawal amount %1 exceeds withdrawal limit%2. Please contact <a href=\"%3\">customer support</a> to authenticate your account."
 #~ msgstr "對不起，您不能提款。您的提款額 %1 超出提款限額%2。請聯繫<a href=\"%3\">客服部</a>驗證您的帳戶。"
 
@@ -17361,6 +17361,12 @@ msgstr "© %1 Deriv 保留所有權利。"
 
 #~ msgid "Sorry, you have entered an incorrect email address."
 #~ msgstr "對不起，您輸入的電郵地址不正確。"
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transactions for today."
+#~ msgstr "對不起，您已超過今日允許的最大交易數。"
+
+#~ msgid "Sorry, you have exceeded the maximum allowable transfer amount %1 for today."
+#~ msgstr "對不起，您已超過今日允許的最大轉帳金額%1。"
 
 #~ msgid "Sorry, you have excluded yourself from the website until %1."
 #~ msgstr "對不起，您已禁止自己存取本網站，直到%1。"
@@ -20746,6 +20752,9 @@ msgstr "© %1 Deriv 保留所有權利。"
 #~ msgid "You've not been approved as an advertiser yet. Please contact our Customer Support team."
 #~ msgstr "您尚未被批准成為廣告商。請聯繫客戶支援團隊。"
 
+#~ msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
+#~ msgstr "您已達最大取款限額%1 %2。請驗證帳戶以獲取無限取款額。"
+
 #~ msgid "You've set your password"
 #~ msgstr "您已設定密碼"
 
@@ -20793,6 +20802,9 @@ msgstr "© %1 Deriv 保留所有權利。"
 
 #~ msgid "Your Login ID should not contain spaces."
 #~ msgstr "您的登入 ID 不應包含空格。"
+
+#~ msgid "Your MT5 account(s) have been closed"
+#~ msgstr "MT5 帳戶已關閉"
 
 #~ msgid "Your MT5 accounts still have funds. Please withdraw all funds before proceeding."
 #~ msgstr "您的MT5帳戶還有餘款。繼續操作前請提出所有資金。"
