@@ -2479,8 +2479,19 @@ msgstr "不支援MULTUP 和 MULTDOWN。"
 msgid "Major Pairs"
 msgstr "主要貨幣對"
 
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Make a withdrawal from your fiat account via %1%2%3."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make a withdrawal from your %1 account via %2%3%4."
+msgstr "通過%1%2%3從法定帳戶取款。"
+
 msgid "Make a withdrawal from your fiat account using the same method that you last used to make a deposit."
 msgstr "使用您最近存款的同一方法從法定貨幣帳戶取款。"
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make an exchange on Deriv P2P for your local currency."
+msgstr ""
 
 msgid "Make withdrawals and transfers"
 msgstr "提款和轉帳請求"
@@ -3682,6 +3693,10 @@ msgstr "此致，"
 msgid "Region added"
 msgstr "地區已新增"
 
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Remember to check if your payment agent is able to process crypto withdrawals. If not, you may need to transfer %1 to your %2 account first, and then withdraw through your payment agent."
+msgstr ""
+
 msgid "Remember to use a strong password to safeguard your account."
 msgstr "請記住使用安全性高的密碼來保護您的帳戶。"
 
@@ -4795,6 +4810,12 @@ msgstr "爲了保障帳戶安全，此連結將於%3分鐘後失效。如您在�
 msgid "To keep your account secure, this link will expire in %3 minutes. If the link expires before you have a chance to use it, you can request another one in %1your account settings%2."
 msgstr "爲了保障帳戶安全，此連結將於%3分鐘後失效。如您在連結失效前沒有使用它，可前往%1帳戶設定%2 請求新的連結。"
 
+#, fuzzy
+#| msgid "Commission on withdrawals"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "To make a withdrawal:"
+msgstr "取款佣金"
+
 msgid "To reset your %1 password, please use the %2 API."
 msgstr "要重設%1密碼，請使用 %2 API。"
 
@@ -4907,6 +4928,12 @@ msgstr "交易尚未處理。"
 
 msgid "Transactions"
 msgstr "交易"
+
+#, fuzzy
+#| msgid "Transfer to Deriv X account %1"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Transfer %1 to your %2 account."
+msgstr "轉帳至Deriv X帳戶 %1"
 
 msgid "Transfer between real and virtual accounts is not allowed."
 msgstr "真實和虛擬帳戶之間不可轉帳。"
@@ -6259,6 +6286,13 @@ msgstr "提款金額%1 %2 大於您的帳戶提款限額%3 %2。"
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "提款是 %2 %1 ，但餘額包括凍結獎金 %4為 %3。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Withdrawal request for %1%2 %3%4 from your account %5 was declined because you have frequently deposited through %6, a different payment method."
+msgstr "因為您經常通過不一樣的付款方式%6存款，從加密帳戶%5取款 %1%2 %3%4 的請求已被拒。"
+
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "目前無法取款。請稍後重試。"
 
@@ -6895,6 +6929,13 @@ msgstr "國籍無法修改。"
 msgid "Your crypto withdrawal request could not be completed"
 msgstr "您的加密貨幣取款請求無法完成"
 
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your crypto withdrawal request has been declined from our side. If you wish to proceed with the withdrawal again, please contact our %1chat support%2 to get further assistance."
+msgstr "加密帳戶取款請求已被拒。如要繼續取款操作，請聯繫我們的聊天支援部以尋求協助。"
+
 msgid "Your crypto withdrawal request was declined"
 msgstr "您的加密貨幣取款請求已被拒"
 
@@ -7105,6 +7146,17 @@ msgstr "取款失败。请确认帳戶有足够资金。"
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "取款失败。有關詳情，我們已給您傳送了電子郵件。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
+msgstr "因為您經常通過不一樣的付款方式%6存款，從加密帳戶%5取款 %1%2 %3%4 的請求已被拒。"
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via a payment agent, your usual deposit method. We recommend using your usual payment agent for withdrawals."
+msgstr ""
 
 msgid "Your withdrawal request has been declined"
 msgstr "取款請求已被拒"
@@ -10662,9 +10714,6 @@ msgstr "© %1 Deriv 保留所有權利。"
 
 #~ msgid "Commission on deposits"
 #~ msgstr "存款佣金"
-
-#~ msgid "Commission on withdrawals"
-#~ msgstr "取款佣金"
 
 #~ msgid "Commissions for account managers"
 #~ msgstr "帳戶管理員佣金"
@@ -14846,10 +14895,6 @@ msgstr "© %1 Deriv 保留所有權利。"
 
 #~ msgid "Make a deposit or withdraw."
 #~ msgstr "存取款。"
-
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Make a withdrawal from your fiat account via %1%2%3."
-#~ msgstr "通過%1%2%3從法定帳戶取款。"
 
 #~ msgid "Make your trade"
 #~ msgstr "執行交易"
@@ -20323,10 +20368,6 @@ msgstr "© %1 Deriv 保留所有權利。"
 #~ msgid "Withdrawal request declined - %1"
 #~ msgstr "提款要求已被拒 - %1"
 
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
-#~ msgstr "因為您經常通過不一樣的付款方式%6存款，從加密帳戶%5取款 %1%2 %3%4 的請求已被拒。"
-
 #~ msgid "Withdrawals are not possible for demo accounts."
 #~ msgstr "模擬帳戶不可提款。"
 
@@ -21039,10 +21080,6 @@ msgstr "© %1 Deriv 保留所有權利。"
 
 #~ msgid "Your clients will love the %1 trading platform because we offer a complete trading experience tailored to the needs of an exceptionally wide range of traders."
 #~ msgstr "您的客戶將會對 %1 熱愛不已，因為我們針對特定需求向廣泛的交易者提供完整的交易體驗。"
-
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
-#~ msgstr "加密帳戶取款請求已被拒。如要繼續取款操作，請聯繫我們的聊天支援部以尋求協助。"
 
 #~ msgid "Your current balance is"
 #~ msgstr "您目前餘額有"

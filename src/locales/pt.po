@@ -2512,8 +2512,19 @@ msgstr "MULTUP e MULTDOWN não são suportados."
 msgid "Major Pairs"
 msgstr "Pares Principais"
 
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Make a withdrawal from your fiat account via %1%2%3."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make a withdrawal from your %1 account via %2%3%4."
+msgstr "Faça um saque de sua conta fiduciária através de %1%2%3."
+
 msgid "Make a withdrawal from your fiat account using the same method that you last used to make a deposit."
 msgstr "Faça uma retirada a partir de sua conta fiduciária usando o mesmo método usado pela última vez para fazer um depósito."
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make an exchange on Deriv P2P for your local currency."
+msgstr ""
 
 msgid "Make withdrawals and transfers"
 msgstr "Faça saques e transferências"
@@ -3721,6 +3732,10 @@ msgstr "Atenciosamente,"
 msgid "Region added"
 msgstr "Região adicionada"
 
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Remember to check if your payment agent is able to process crypto withdrawals. If not, you may need to transfer %1 to your %2 account first, and then withdraw through your payment agent."
+msgstr ""
+
 msgid "Remember to use a strong password to safeguard your account."
 msgstr "Lembre-se de usar uma senha forte para proteger sua conta."
 
@@ -4838,6 +4853,12 @@ msgstr "Para manter sua conta segura, este link irá expirar em %3 minutos. Se o
 msgid "To keep your account secure, this link will expire in %3 minutes. If the link expires before you have a chance to use it, you can request another one in %1your account settings%2."
 msgstr "Para manter sua conta segura, este link irá expirar em %3 minutos. Se o link expirar antes de você ter a chance de usá-lo, você pode solicitar outro link em %1suas configurações de conta%2."
 
+#, fuzzy
+#| msgid "Commission on withdrawals"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "To make a withdrawal:"
+msgstr "Comissão sobre retiradas"
+
 msgid "To reset your %1 password, please use the %2 API."
 msgstr "Para redefinir sua senha %1, use a API %2."
 
@@ -4950,6 +4971,12 @@ msgstr "A transação ainda não foi processada."
 
 msgid "Transactions"
 msgstr "Transações"
+
+#, fuzzy
+#| msgid "Transfer to another account"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Transfer %1 to your %2 account."
+msgstr "Transferir para outra conta"
 
 msgid "Transfer between real and virtual accounts is not allowed."
 msgstr "A transferência entre contas reais e virtuais não é permitida."
@@ -6332,6 +6359,13 @@ msgstr "O valor de saque de %1 %2 excede o limite de saque de sua conta de %3 %2
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "O valor da retirada é %2 %1 mas o saldo %3 inclui um bônus congelado de %4."
 
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Withdrawal request for %1%2 %3%4 from your account %5 was declined because you have frequently deposited through %6, a different payment method."
+msgstr "A solicitação de retirada de %1 %2 %3%4 de sua conta cripto %5 foi recusada porque você frequentemente deposita por meio de %6, um método de pagamento diferente."
+
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "As retiradas não estão disponíveis no momento. Por favor, tente novamente mais tarde."
 
@@ -6970,6 +7004,13 @@ msgstr "Sua cidadania não pode ser mudada."
 msgid "Your crypto withdrawal request could not be completed"
 msgstr "Não foi possível concluir sua solicitação de retirada de criptomoeda"
 
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your crypto withdrawal request has been declined from our side. If you wish to proceed with the withdrawal again, please contact our %1chat support%2 to get further assistance."
+msgstr "Sua solicitação de retirada de criptomoeda foi recusada de nossa parte. Se desejar prosseguir com a retirada novamente, entre em contato com nosso suporte por chat para obter ajuda."
+
 msgid "Your crypto withdrawal request was declined"
 msgstr "Sua solicitação de retirada de criptomoeda foi recusada"
 
@@ -7180,6 +7221,17 @@ msgstr "Sua retirada não teve êxito. Verifique se você possui fundos suficien
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "Sua retirada não foi bem-sucedida. Enviamos a você um e-mail com mais informações."
+
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
+msgstr "A solicitação de retirada de %1 %2 %3%4 de sua conta cripto %5 foi recusada porque você frequentemente deposita por meio de %6, um método de pagamento diferente."
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via a payment agent, your usual deposit method. We recommend using your usual payment agent for withdrawals."
+msgstr ""
 
 msgid "Your withdrawal request has been declined"
 msgstr "Sua solicitação de retirada foi recusada"
@@ -12485,9 +12537,6 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 
 #~ msgid "Commission on deposits"
 #~ msgstr "Comissão sobre depósitos"
-
-#~ msgid "Commission on withdrawals"
-#~ msgstr "Comissão sobre retiradas"
 
 #~ msgid "Commissions for account managers"
 #~ msgstr "Comissões para gerentes de contas"
@@ -17824,13 +17873,6 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 
 #~ msgid "Make a prediction that a market will either rise or fall in the next 30 seconds to one year."
 #~ msgstr "Faça uma previsão de que um mercado vai subir ou descer nos próximos 30 segundos para um ano."
-
-#, fuzzy
-#~| msgctxt "Customer IO email content "
-#~| msgid "Make a withdrawal from your fiat account via %1%2%3."
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Make a withdrawal from your fiat account via %1%2%3."
-#~ msgstr "Faça um saque de sua conta fiduciária através de %1%2%3."
 
 #~ msgid "Make your trade"
 #~ msgstr "Faça a sua negociação"
@@ -23795,9 +23837,6 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 #~ msgid "Transfer to Payment Agent"
 #~ msgstr "Transferir para Agente de Pagamentos"
 
-#~ msgid "Transfer to another account"
-#~ msgstr "Transferir para outra conta"
-
 #~ msgid "Transfer to client"
 #~ msgstr "Transferir para o cliente"
 
@@ -25186,13 +25225,6 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 #~ msgid "Withdrawal request declined - %1"
 #~ msgstr "Pedido de retirada recusado - %1"
 
-#, fuzzy
-#~| msgctxt "Customer IO email content "
-#~| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
-#~ msgstr "A solicitação de retirada de %1 %2 %3%4 de sua conta cripto %5 foi recusada porque você frequentemente deposita por meio de %6, um método de pagamento diferente."
-
 #~ msgid "Withdrawal using legacy method: %1"
 #~ msgstr "Fazer retirada utilizando o método de patrimônio: %1"
 
@@ -26076,13 +26108,6 @@ msgstr "© %1 Deriv, Todos os direitos reservados."
 
 #~ msgid "Your contract was purchased successfully, but an error occurred while trying to show you the details. Please visit your <a href=\"%1\">Portfolio</a> to see the contract. Any details on the error will be shown in the box below."
 #~ msgstr "O seu contrato foi comprado com sucesso, mas ocorreu um erro ao tentar mostrar-lhe os detalhes. Visite por favor o seu <a href=\"%1\">Portfólio</a> para ver o contrato. Quaisquer detalhes sobre o erro serão mostrados na caixa em baixo."
-
-#, fuzzy
-#~| msgctxt "Customer IO email content "
-#~| msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
-#~ msgstr "Sua solicitação de retirada de criptomoeda foi recusada de nossa parte. Se desejar prosseguir com a retirada novamente, entre em contato com nosso suporte por chat para obter ajuda."
 
 #~ msgid "Your current balance is"
 #~ msgstr "O seu saldo atual é"

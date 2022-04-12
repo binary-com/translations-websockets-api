@@ -2519,8 +2519,19 @@ msgstr "MULTUP và MULDOWN không được hỗ trợ."
 msgid "Major Pairs"
 msgstr "Cặp tiền tệ chính"
 
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Make a withdrawal from your fiat account via %1%2%3."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make a withdrawal from your %1 account via %2%3%4."
+msgstr "Thực hiện rút tiền từ tài khoản tiền pháp định của bạn qua %1% 2%3."
+
 msgid "Make a withdrawal from your fiat account using the same method that you last used to make a deposit."
 msgstr "Rút tiền từ tài khoản tiền pháp định bằng cùng một phương thức mà bạn đã sử dụng gần đây nhất để nạp tiền."
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make an exchange on Deriv P2P for your local currency."
+msgstr ""
 
 msgid "Make withdrawals and transfers"
 msgstr "Thực hiện rút và chuyển tiền"
@@ -3728,6 +3739,10 @@ msgstr "Trân trọng,"
 msgid "Region added"
 msgstr "Khu vực đã được thêm vào"
 
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Remember to check if your payment agent is able to process crypto withdrawals. If not, you may need to transfer %1 to your %2 account first, and then withdraw through your payment agent."
+msgstr ""
+
 msgid "Remember to use a strong password to safeguard your account."
 msgstr "Hãy sử dụng một mật khẩu mạnh để bảo vệ tài khoản của bạn."
 
@@ -4845,6 +4860,12 @@ msgstr "Để giữ an toàn cho tài khoản của bạn, liên kết này sẽ
 msgid "To keep your account secure, this link will expire in %3 minutes. If the link expires before you have a chance to use it, you can request another one in %1your account settings%2."
 msgstr "Để giữ an toàn cho tài khoản của bạn, liên kết này sẽ hết hạn sau %3 phút. Nếu liên kết hết hạn trước khi bạn có cơ hội sử dụng nó, bạn có thể yêu cầu một liên kết khác trong %1cài đặt tài khoản%2."
 
+#, fuzzy
+#| msgid "Commission on withdrawals"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "To make a withdrawal:"
+msgstr "Hoa hồng rút tiền"
+
 msgid "To reset your %1 password, please use the %2 API."
 msgstr "Để đặt lại mật khẩu %1 của bạn, vui lòng sử dụng API %2."
 
@@ -4957,6 +4978,12 @@ msgstr "Giao dịch chưa được thực hiện."
 
 msgid "Transactions"
 msgstr "Các giao dịch"
+
+#, fuzzy
+#| msgid "Transfer to Deriv X account %1"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Transfer %1 to your %2 account."
+msgstr "Chuyển khoản đến tài khoản Deriv X %1"
 
 msgid "Transfer between real and virtual accounts is not allowed."
 msgstr "Chuyển khoản giữa tài khoản thực và ảo là không được phép."
@@ -6339,6 +6366,13 @@ msgstr "Số tiền rút %1 %2 vượt quá giới hạn rút tiền trong tài 
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "Rút tiền được %2 %1 nhưng số dư %3 bao gồm khoản thưởng cứng %4."
 
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Withdrawal request for %1%2 %3%4 from your account %5 was declined because you have frequently deposited through %6, a different payment method."
+msgstr "Yêu cầu rút tiền %1%2%3%4 từ tài khoản tiền mã hóa %5 của bạn đã bị từ chối vì bạn thường xuyên gửi tiền qua một phương thức thanh toán khác là %6."
+
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Việc rút tiền hiện không khả dụng. Vui lòng thử lại sau."
 
@@ -6977,6 +7011,13 @@ msgstr "Quốc tịch của bạn sẽ không thể thay đổi."
 msgid "Your crypto withdrawal request could not be completed"
 msgstr "Yêu cầu rút tiền tiện tử của bạn không thể được hoàn thiện"
 
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your crypto withdrawal request has been declined from our side. If you wish to proceed with the withdrawal again, please contact our %1chat support%2 to get further assistance."
+msgstr "Yêu cầu rút tiền mã hóa của bạn đã bị từ chối từ phía chúng tôi. Nếu bạn muốn tiếp tục rút tiền, vui lòng liên hệ với bộ phận hỗ trợ trò chuyện trực tuyến của chúng tôi để được hỗ trợ thêm."
+
 msgid "Your crypto withdrawal request was declined"
 msgstr "Yêu cầu rút tiền điện tử của bạn đã bị từ chối"
 
@@ -7187,6 +7228,17 @@ msgstr "Yêu cầu rút tiền cảu bạn không thành công. Hãy đảm bả
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "Bạn rút tiền không thành công. Chúng tôi đã gửi cho bạn một email để cung cấp thêm thông tin."
+
+#, fuzzy
+#| msgctxt "Customer.io email: crypto_withdrawal_rejected "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
+msgstr "Yêu cầu rút tiền %1%2%3%4 từ tài khoản tiền mã hóa %5 của bạn đã bị từ chối vì bạn thường xuyên gửi tiền qua một phương thức thanh toán khác là %6."
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via a payment agent, your usual deposit method. We recommend using your usual payment agent for withdrawals."
+msgstr ""
 
 msgid "Your withdrawal request has been declined"
 msgstr "Yêu cầu rút tiền của bạn đã bị từ chối"
@@ -10945,9 +10997,6 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 
 #~ msgid "Commission on deposits"
 #~ msgstr "Hoa hồng gửi tiền"
-
-#~ msgid "Commission on withdrawals"
-#~ msgstr "Hoa hồng rút tiền"
 
 #~ msgid "Commissions for account managers"
 #~ msgstr "Tiền hoa hồng cho những người quản lý tài khoản"
@@ -15270,10 +15319,6 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 
 #~ msgid "Make a deposit using credit card, bank wire, cheque and e-cash. Accounts are available in dollars, pounds and euros. The minimum account size is ($/&pound;/&euro;) 5 and the maximum account size is ($/&pound;/&euro;) 150,000."
 #~ msgstr "Gửi tiền sử dụng thẻ tín dụng, điện ngân hàng, séc và thẻ điện tử. Tài khoản luôn có ba loại tiền: Đô la, Bảng Anh và Euro. Cỡ tài khoản nhỏ nhất là ($/&pound;/&euro;) 5 và cỡ tài khoản lớn nhất là ($/&pound;/&euro;) 150,000."
-
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Make a withdrawal from your fiat account via %1%2%3."
-#~ msgstr "Thực hiện rút tiền từ tài khoản tiền pháp định của bạn qua %1% 2%3."
 
 #~ msgid "Make your trade"
 #~ msgstr "Giao dịch"
@@ -21034,10 +21079,6 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 #~ msgid "Withdrawal request declined - %1"
 #~ msgstr "Yêu cầu rút tiền bị từ chối-%1"
 
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
-#~ msgstr "Yêu cầu rút tiền %1%2%3%4 từ tài khoản tiền mã hóa %5 của bạn đã bị từ chối vì bạn thường xuyên gửi tiền qua một phương thức thanh toán khác là %6."
-
 #~ msgid "Withdrawals are not possible for demo accounts."
 #~ msgstr "Rút tiền không khả dụng cho các tài khoản demo."
 
@@ -21767,10 +21808,6 @@ msgstr "© %1 Deriv, Đã đăng ký bản quyền."
 
 #~ msgid "Your clients will love the %1 trading platform because we offer a complete trading experience tailored to the needs of an exceptionally wide range of traders."
 #~ msgstr "Khách hàng của bạn sẽ yêu thích sàn giao dịch %1 bởi vì chúng tôi cung cấp những kinh nghiệm giao dịch hoàn thiện phù hợp với nhu cầu của rất nhiều nhà giao dịch."
-
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
-#~ msgstr "Yêu cầu rút tiền mã hóa của bạn đã bị từ chối từ phía chúng tôi. Nếu bạn muốn tiếp tục rút tiền, vui lòng liên hệ với bộ phận hỗ trợ trò chuyện trực tuyến của chúng tôi để được hỗ trợ thêm."
 
 #~ msgid "Your current balance is"
 #~ msgstr "Số dư hiện tại của bạn là"

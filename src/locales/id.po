@@ -2502,8 +2502,19 @@ msgstr "MULTUP dan MULTDOWN tidak tersedia."
 msgid "Major Pairs"
 msgstr "Pasangan Mayor"
 
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Make a withdrawal from your fiat account via %1%2%3."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make a withdrawal from your %1 account via %2%3%4."
+msgstr "Tarik dana dari akun fiat Anda melalui %1%2%3."
+
 msgid "Make a withdrawal from your fiat account using the same method that you last used to make a deposit."
 msgstr "Tarik dana dari akun fiat menggunakan metode deposit terakhir yang Anda gunakan untuk mendanai akun tersebut."
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Make an exchange on Deriv P2P for your local currency."
+msgstr ""
 
 msgid "Make withdrawals and transfers"
 msgstr "Membuat penarikan dan transfer"
@@ -3710,6 +3721,10 @@ msgstr "Salam,"
 msgid "Region added"
 msgstr "Wilayah ditambahkan"
 
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Remember to check if your payment agent is able to process crypto withdrawals. If not, you may need to transfer %1 to your %2 account first, and then withdraw through your payment agent."
+msgstr ""
+
 msgid "Remember to use a strong password to safeguard your account."
 msgstr "Jangan lupa untuk menggunakan kata sandi yang kuat untuk melindungi akun Anda."
 
@@ -4825,6 +4840,12 @@ msgstr "Untuk menjaga keamanan akun Anda, tautan ini akan berakhir dalam tempo %
 msgid "To keep your account secure, this link will expire in %3 minutes. If the link expires before you have a chance to use it, you can request another one in %1your account settings%2."
 msgstr "Untuk menjaga keamanan akun Anda, tautan ini akan berakhir dalam tempo %3 menit. Jika tautan berakhir sebelum digunakan, Anda dapat meminta tautan baru dari %1pengaturan akun Anda%2."
 
+#, fuzzy
+#| msgid "Make a Withdrawal"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "To make a withdrawal:"
+msgstr "Membuat pencairan"
+
 msgid "To reset your %1 password, please use the %2 API."
 msgstr "Untuk mereset kata sandi %1 Anda, mohon gunakan API %2."
 
@@ -4937,6 +4958,12 @@ msgstr "Transaksi belum diproses."
 
 msgid "Transactions"
 msgstr "Transaksi"
+
+#, fuzzy
+#| msgid "Transfer to another account"
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Transfer %1 to your %2 account."
+msgstr "Transfer ke akun lainnya"
 
 msgid "Transfer between real and virtual accounts is not allowed."
 msgstr "Transfer antara akun riil dan virtual tidak diperbolehkan."
@@ -6317,6 +6344,13 @@ msgstr "Jumlah penarikan sebesar %1 %2 melebihi batas penarikan akun Anda sebesa
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "Jumlah penarikan adalah %2 %1 namun saldo %3 termasuk nilai bonus %4 yang dibekukan."
 
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Withdrawal request for %1%2 %3%4 from your account %5 was declined because you have frequently deposited through %6, a different payment method."
+msgstr "Permohonan penarikan untuk %1%2 %3%4 dari akun kripto Anda %5 telah ditolak berhubung Anda terlalu sering mendeposit menggunakan %6, metode pembayaran berbeda."
+
 msgid "Withdrawals are currently unavailable. Please try again later."
 msgstr "Penarikan tidak tersedia untuk saat ini. Silakan coba kembali nanti."
 
@@ -6955,6 +6989,13 @@ msgstr "Kewarganegaraan Anda tidak dapat diubah."
 msgid "Your crypto withdrawal request could not be completed"
 msgstr "Permintaan penarikan kripto Anda tidak dapat diselesaikan"
 
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your crypto withdrawal request has been declined from our side. If you wish to proceed with the withdrawal again, please contact our %1chat support%2 to get further assistance."
+msgstr "Permohonan penarikan kripto Anda telah ditolak. Jika Anda ingin melakukan penarikan lebih lanjut, hubungi support kami melalui obrolan untuk bantuan lebih lanjut."
+
 msgid "Your crypto withdrawal request was declined"
 msgstr "Permintaan penarikan kripto Anda ditolak"
 
@@ -7165,6 +7206,17 @@ msgstr "Penarikan Anda tidak berhasil. Pastikan akun Anda memiliki dana yang cuk
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "Penarikan Anda tidak berhasil. Kami telah mengirimi email berisi informasi lebih lanjut."
+
+#, fuzzy
+#| msgctxt "Customer IO email content "
+#| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
+msgstr "Permohonan penarikan untuk %1%2 %3%4 dari akun kripto Anda %5 telah ditolak berhubung Anda terlalu sering mendeposit menggunakan %6, metode pembayaran berbeda."
+
+msgctxt "Customer.io email: crypto-withdrawal-rejected "
+msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via a payment agent, your usual deposit method. We recommend using your usual payment agent for withdrawals."
+msgstr ""
 
 msgid "Your withdrawal request has been declined"
 msgstr "Permintaan penarikan Anda telah ditolak"
@@ -18957,9 +19009,6 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 #~ msgid "Make a Deposit"
 #~ msgstr "Lakukan Deposit"
 
-#~ msgid "Make a Withdrawal"
-#~ msgstr "Membuat pencairan"
-
 #~ msgid "Make a deposit or withdraw."
 #~ msgstr "Deposit atau menarik dana."
 
@@ -18968,13 +19017,6 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 
 #~ msgid "Make a prediction that a market will either rise or fall in the next 30 seconds to one year."
 #~ msgstr "Beli kontrak dimana market akan bergerak naik atau turun pada 30 detik hingga satu tahun mendatang."
-
-#, fuzzy
-#~| msgctxt "Customer IO email content "
-#~| msgid "Make a withdrawal from your fiat account via %1%2%3."
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Make a withdrawal from your fiat account via %1%2%3."
-#~ msgstr "Tarik dana dari akun fiat Anda melalui %1%2%3."
 
 #~ msgid "Make your trade"
 #~ msgstr "Lakukan trading Anda"
@@ -25557,9 +25599,6 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 #~ msgid "Transfer to Payment Agent"
 #~ msgstr "Penarikan Agen Pembayaran"
 
-#~ msgid "Transfer to another account"
-#~ msgstr "Transfer ke akun lainnya"
-
 #~ msgid "Transfer to client"
 #~ msgstr "Transfer ke klien"
 
@@ -26979,13 +27018,6 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 #~ msgid "Withdrawal request declined - %1"
 #~ msgstr "Permintaan penarikan ditolak - %1"
 
-#, fuzzy
-#~| msgctxt "Customer IO email content "
-#~| msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Withdrawal request for %1%2 %3%4 from your crypto account %5 has been declined because you have frequently deposited through %6, a different payment method."
-#~ msgstr "Permohonan penarikan untuk %1%2 %3%4 dari akun kripto Anda %5 telah ditolak berhubung Anda terlalu sering mendeposit menggunakan %6, metode pembayaran berbeda."
-
 #~ msgid "Withdrawal using legacy method: %1"
 #~ msgstr "Penarikan menggunakan metode: %1"
 
@@ -27905,13 +27937,6 @@ msgstr "© %1 Deriv, Hak cipta terpelihara."
 
 #~ msgid "Your contract was purchased successfully, but an error occurred while trying to show you the details. Please visit your <a href=\"%1\">Portfolio</a> to see the contract. Any details on the error will be shown in the box below."
 #~ msgstr "Kontrak anda telah berhasil dibeli namun telah terjadi error pada saat menampilkan keterangan lengkap. Silahkan kunjungi bagian <a href=\"%1\">Portopolio</a> anda untuk melihar kontrak tersebut. Keterangan lengkap error akan ditampilkan pada kotak berikut ini."
-
-#, fuzzy
-#~| msgctxt "Customer IO email content "
-#~| msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
-#~ msgctxt "Customer.io email: crypto_withdrawal_rejected "
-#~ msgid "Your crypto withdrawal request was declined from our side. If you wish to proceed with the withdrawal again, please contact our chat support to get further assistance."
-#~ msgstr "Permohonan penarikan kripto Anda telah ditolak. Jika Anda ingin melakukan penarikan lebih lanjut, hubungi support kami melalui obrolan untuk bantuan lebih lanjut."
 
 #~ msgid "Your current balance is"
 #~ msgstr "Saldo Anda saat ini"
