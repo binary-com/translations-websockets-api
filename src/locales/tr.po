@@ -20,10 +20,6 @@ msgstr ""
 msgid " before the transaction is reflected in your destination wallet."
 msgstr " işlem hedef cüzdanınıza yansıtılmadan önce."
 
-msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
-msgid "%1 Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request. %2 Before we can process your withdrawal, we first need to check that it was you who made the request. %3"
-msgstr "%1 Ödeme acentesi aracılığı ile para çekme işlemlerinizi gerçekleştirmeden önce, ilk olarak bu talebi yapan kişinin siz olup olmadığını kontrol etmemiz gerekiyor. %2 Para çekme işleminizi gerçekleştirmeden önce, ilk olarak talepte bulunan kişinin siz olup olmadığını kontrol etmemiz gerekiyor. %3"
-
 msgctxt "Customer.io email: Unknown Login (Deriv) "
 msgid "%1 If you do not recognize this activity, go to %2%3%4 to reset your password immediately. %5"
 msgstr "%1 Bu etkinliği tanımıyorsanız, parolanızı hemen sıfırlamak için %2%3%4 öğesine gidin. %5"
@@ -639,6 +635,18 @@ msgstr ""
 msgctxt "Customer.io email: VER03 Account verification for pending payout "
 msgid "Before we can proceed with your withdrawal request, you'll need to verify your identity and address. Go to your account profile and upload a scan of the following documents:"
 msgstr "Para çekme talebinize devam edebilmemiz için kimliğinizi ve adresinizi doğrulamanız gerekir. Hesap profilinize gidin ve aşağıdaki belgelerin bir taramasını yükleyin:"
+
+#, fuzzy
+#| msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
+msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
+msgstr "Para çekme işleminizi ödeme acentesi aracılığıyla işleme almadan önce, talebi yapanın siz olup olmadığınızı kontrol etmeliyiz."
+
+#, fuzzy
+#| msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
+msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
+msgstr "Para çekme işleminizi işleme almadan önce, talebi yapanın siz olup olmadığınızı kontrol etmeliyiz."
 
 msgid "Before we proceed, we noticed you are logged in using your (Google/Facebook/Apple) account."
 msgstr "Devam etmeden önce, (Google/Facebook/Apple) hesabınızı kullanarak giriş yaptığınızı fark ettik."
@@ -1565,7 +1573,9 @@ msgstr "Sabit oran ilanları şu anda mevcut değil."
 msgid "Floating rate adverts are not available at this time."
 msgstr "Değişken oran ilanları şu anda mevcut değil."
 
-msgid "Floating rate cannot be provided with more than 2 decmial places of precision."
+#, fuzzy
+#| msgid "Floating rate cannot be provided with more than 2 decmial places of precision."
+msgid "Floating rate cannot be provided with more than 2 decimal places of precision."
 msgstr "Dalgalı kur, 2 ondalık basamaktan fazla kesinlik ile sağlanamaz."
 
 msgctxt "payment method name"
@@ -1816,12 +1826,14 @@ msgstr "Merhaba %1"
 msgid "Hi %1 %2,"
 msgstr "Merhaba %1 %2,"
 
-msgctxt "Customer.io email: SYS01 Closing underage accounts "
-msgid "Hi %1%2%3there%4,"
-msgstr "Merhaba %1%2%3there%4,"
-
 msgid "Hi %1,"
 msgstr "Merhaba %1,"
+
+#, fuzzy
+#| msgid "Hello there,"
+msgctxt "Customer.io email: SYS01 Closing underage accounts "
+msgid "Hi there,"
+msgstr "Merhaba,"
 
 msgid "High"
 msgstr "Yüksek"
@@ -5712,7 +5724,7 @@ msgstr "Cüzdan hesabı oluşturma şu anda askıya alındı."
 #, fuzzy
 #| msgid "Log in using your email address"
 msgctxt "Customer.io email: request_change_email "
-msgid "Want to change your email address?"
+msgid "Want to change your Deriv login email address?"
 msgstr "E-posta adresinizi kullanarak giriş yapın"
 
 msgctxt "Customer.io email: Unknown Login (Binary) "
@@ -7348,6 +7360,10 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 #~ msgid "%1"
 #~ msgstr "%1"
 
+#~ msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+#~ msgid "%1 Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request. %2 Before we can process your withdrawal, we first need to check that it was you who made the request. %3"
+#~ msgstr "%1 Ödeme acentesi aracılığı ile para çekme işlemlerinizi gerçekleştirmeden önce, ilk olarak bu talebi yapan kişinin siz olup olmadığını kontrol etmemiz gerekiyor. %2 Para çekme işleminizi gerçekleştirmeden önce, ilk olarak talepte bulunan kişinin siz olup olmadığını kontrol etmemiz gerekiyor. %3"
+
 #~ msgid "%1 address"
 #~ msgstr "%1 adres"
 
@@ -7389,12 +7405,6 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 
 #~ msgid "Before we can proceed with the withdrawal process, we first need to check that it was you who made the request."
 #~ msgstr "Para çekme işlemine devam etmeden önce, talebi yapanın siz olup olmadığınızı kontrol etmeliyiz."
-
-#~ msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
-#~ msgstr "Para çekme işleminizi ödeme acentesi aracılığıyla işleme almadan önce, talebi yapanın siz olup olmadığınızı kontrol etmeliyiz."
-
-#~ msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
-#~ msgstr "Para çekme işleminizi işleme almadan önce, talebi yapanın siz olup olmadığınızı kontrol etmeliyiz."
 
 #, fuzzy
 #~ msgctxt "Customer IO email content "
@@ -7456,6 +7466,10 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 
 #~ msgid "Hello%1,<br/><br/>We detected a new sign-in on your account."
 #~ msgstr "Merhaba%1,<br/><br/>Hesabınızda yeni bir oturum açma algıladık."
+
+#~ msgctxt "Customer.io email: SYS01 Closing underage accounts "
+#~ msgid "Hi %1%2%3there%4,"
+#~ msgstr "Merhaba %1%2%3there%4,"
 
 #~ msgid "Hi,"
 #~ msgstr "Merhaba"

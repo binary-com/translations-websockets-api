@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2022-04-21 20:13+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hans/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,10 +16,6 @@ msgstr ""
 
 msgid " before the transaction is reflected in your destination wallet."
 msgstr " 在交易受目标钱包反映之前。"
-
-msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
-msgid "%1 Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request. %2 Before we can process your withdrawal, we first need to check that it was you who made the request. %3"
-msgstr "%1处理通过付款代理取款前，我们需先确认是您本人提出取款请求。%2处理取款前，我们需先确认是您本人提出取款请求。%3"
 
 msgctxt "Customer.io email: Unknown Login (Deriv) "
 msgid "%1 If you do not recognize this activity, go to %2%3%4 to reset your password immediately. %5"
@@ -636,6 +631,18 @@ msgstr ""
 msgctxt "Customer.io email: VER03 Account verification for pending payout "
 msgid "Before we can proceed with your withdrawal request, you'll need to verify your identity and address. Go to your account profile and upload a scan of the following documents:"
 msgstr "在我们处理您的取款请求前，您须验证身份和地址。请前往账户个人资料并上传以下文件的扫描件:"
+
+#, fuzzy
+#| msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
+msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
+msgstr "处理通过付款代理取款前，我们需先确认是您本人提出取款请求。"
+
+#, fuzzy
+#| msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
+msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
+msgstr "处理取款前，我们需先确认是您本人提出取款请求。"
 
 msgid "Before we proceed, we noticed you are logged in using your (Google/Facebook/Apple) account."
 msgstr "继续操作前，我们注意到您是使用 (Google/Facebook/Apple)账户登录的。"
@@ -1556,7 +1563,9 @@ msgstr "当前不可登固定费率广告。"
 msgid "Floating rate adverts are not available at this time."
 msgstr "当前不可登浮动费率广告。"
 
-msgid "Floating rate cannot be provided with more than 2 decmial places of precision."
+#, fuzzy
+#| msgid "Floating rate cannot be provided with more than 2 decmial places of precision."
+msgid "Floating rate cannot be provided with more than 2 decimal places of precision."
 msgstr "浮动费率的小数点后不得超过2位。"
 
 msgctxt "payment method name"
@@ -1807,12 +1816,14 @@ msgstr "您好%1"
 msgid "Hi %1 %2,"
 msgstr "您好%1 %2，"
 
-msgctxt "Customer.io email: SYS01 Closing underage accounts "
-msgid "Hi %1%2%3there%4,"
-msgstr "您好%1%2%3%4，"
-
 msgid "Hi %1,"
 msgstr "%1您好,"
+
+#, fuzzy
+#| msgid "Hello there,"
+msgctxt "Customer.io email: SYS01 Closing underage accounts "
+msgid "Hi there,"
+msgstr "嗨！你好，"
 
 msgid "High"
 msgstr "最高"
@@ -5671,8 +5682,11 @@ msgstr "钱包ID"
 msgid "Wallet account creation is currently suspended."
 msgstr "钱包账户创建当前已停用。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: request_change_email "
+#| msgid "Want to change your email address?"
 msgctxt "Customer.io email: request_change_email "
-msgid "Want to change your email address?"
+msgid "Want to change your Deriv login email address?"
 msgstr "要更改电子邮件地址？"
 
 msgctxt "Customer.io email: Unknown Login (Binary) "
@@ -7798,6 +7812,10 @@ msgstr "© %1 Deriv 保留所有权利。"
 
 #~ msgid "%1 Affiliate Program Terms and Conditions"
 #~ msgstr "%1 联盟计划的条款和条件"
+
+#~ msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+#~ msgid "%1 Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request. %2 Before we can process your withdrawal, we first need to check that it was you who made the request. %3"
+#~ msgstr "%1处理通过付款代理取款前，我们需先确认是您本人提出取款请求。%2处理取款前，我们需先确认是您本人提出取款请求。%3"
 
 #~ msgid "%1 Gift Certificates are electronic tokens that you may email to your friends. When you create a Gift Certificate, your account is debited by the certificate amount, and you are issued with a digital token that you may email to any person. The recipient of the Gift Certificate may then paste the certificate into %1 and his account will be credited by the certificate amount. Gift Certificates are an easy and friendly way to introduce %1 to your friends"
 #~ msgstr "%1礼品券是你可以通过邮件发送给朋友的电子货币。当你生成一个礼券，礼券金额将计入你账户的借方，你就可以将一个电子货币通过邮件发送给任何人。礼品券的接收方将礼品券粘贴到1%，礼品券金额就计入他账户的贷方。礼品券是向朋友们介绍%1简单而友好的方式。"
@@ -11922,12 +11940,6 @@ msgstr "© %1 Deriv 保留所有权利。"
 
 #~ msgid "Before we can proceed with the withdrawal process, we first need to check that it was you who made the request."
 #~ msgstr "继续处理取款程序前，我们需先确认是您本人提出取款请求。"
-
-#~ msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
-#~ msgstr "处理通过付款代理取款前，我们需先确认是您本人提出取款请求。"
-
-#~ msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
-#~ msgstr "处理取款前，我们需先确认是您本人提出取款请求。"
 
 #~ msgid "Before we open an account for you to trade or invest in Investment Products with BIEL, we are required to make an assessment of whether the Investment Products or services you have chosen are appropriate for you, and to warn you if, on the basis of the information you provide to us, any such product or service is not appropriate. Any decision to open an account and to use our products or services is yours. It is your responsibility to understand the risks involved with our products or services."
 #~ msgstr "在为您开立 BIEL账户，对投资产品进行交易或投资之前，我们要先评估您所选择的投资产品或服务，如果对您不合适，我们必须提醒您。最后，由您自行决定是否开立账户，并使用我们产品或服务。您应充分了解我们产品和服务的风险，并承担所有责任。"
@@ -16236,6 +16248,10 @@ msgstr "© %1 Deriv 保留所有权利。"
 
 #~ msgid "Hewlett-Packard Company"
 #~ msgstr "惠普科技股份有限公司"
+
+#~ msgctxt "Customer.io email: SYS01 Closing underage accounts "
+#~ msgid "Hi %1%2%3there%4,"
+#~ msgstr "您好%1%2%3%4，"
 
 #~ msgid "Hi,"
 #~ msgstr "您好，"

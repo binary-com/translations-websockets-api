@@ -20,10 +20,6 @@ msgstr ""
 msgid " before the transaction is reflected in your destination wallet."
 msgstr " 귀하의 목적지 지갑에 해당 거래가 반영되기 이전."
 
-msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
-msgid "%1 Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request. %2 Before we can process your withdrawal, we first need to check that it was you who made the request. %3"
-msgstr "%1 지불 에이전트를 통해서 저희가 귀하의 인출을 처리할 수 있기 이전에, 저희는 먼저 해당 요청을 하신 분이 귀하인지를 확인해야 할 필요가 있습니다. %2 저희가 귀하의 인출을 처리할 수 있기 이전에, 저희는 먼저 해당 요청을 하신 분이 귀하인지를 확인해야 할 필요가 있습니다. %3"
-
 msgctxt "Customer.io email: Unknown Login (Deriv) "
 msgid "%1 If you do not recognize this activity, go to %2%3%4 to reset your password immediately. %5"
 msgstr "%1이 활동에 대하여 아시는 바가 없다면, 즉시 %2%3%4로 가셔서 귀하의 비밀번호를 재설정하세요. %5"
@@ -651,6 +647,18 @@ msgid "Before we can proceed with your withdrawal request, you'll need to verify
 msgstr ""
 "저희가 귀하의 인출 요청을 처리할 수 있기 이전에, 귀하께서는 귀하의 신분과\n"
 "                            주소를 확인하셔야 합니다. 귀하의 프로필로 가셔서 다음 문서들의 스캔들을 업로드 해주시기 바랍니다:"
+
+#, fuzzy
+#| msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
+msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
+msgstr "저희가 결제 에이전트를 통해 귀하의 인출을 처리할 수 있기 이전에, 저희는 먼저 해당 요청이 귀하로부터 요청된 것인지를 먼저 확인할 필요가 있습니다."
+
+#, fuzzy
+#| msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
+msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
+msgstr "저희가 귀하의 인출을 처리할 수 있기 이전에, 저희는 해당 요청이 정말 귀하로부터 요청되었는지를 먼저 확인할 필요가 있습니다."
 
 msgid "Before we proceed, we noticed you are logged in using your (Google/Facebook/Apple) account."
 msgstr "처리하기 이전에, 저희는 귀하께서 귀하의 (구글/페이스북/애플) 계정을 이용하여 로그인하셨다는 것을 발견했습니다."
@@ -1582,7 +1590,9 @@ msgstr "고정 금리 광고는 현재 가능하지 않습니다."
 msgid "Floating rate adverts are not available at this time."
 msgstr "변동이율 광고는 현재 가능하지 않습니다."
 
-msgid "Floating rate cannot be provided with more than 2 decmial places of precision."
+#, fuzzy
+#| msgid "Floating rate cannot be provided with more than 2 decmial places of precision."
+msgid "Floating rate cannot be provided with more than 2 decimal places of precision."
 msgstr "변동이율은 정밀도에 대하여 소수 2자리 이상으로 제공될 수 없습니다."
 
 msgctxt "payment method name"
@@ -1833,12 +1843,14 @@ msgstr "안녕하세요 %1"
 msgid "Hi %1 %2,"
 msgstr "안녕하세요 %1 %2,"
 
-msgctxt "Customer.io email: SYS01 Closing underage accounts "
-msgid "Hi %1%2%3there%4,"
-msgstr "안녕하세요%1%2%3고객님%4,"
-
 msgid "Hi %1,"
 msgstr "안녕하세요 %1,"
+
+#, fuzzy
+#| msgid "Hello there,"
+msgctxt "Customer.io email: SYS01 Closing underage accounts "
+msgid "Hi there,"
+msgstr "안녕하세요,"
 
 msgid "High"
 msgstr "하이"
@@ -5733,7 +5745,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Log in using your email address"
 msgctxt "Customer.io email: request_change_email "
-msgid "Want to change your email address?"
+msgid "Want to change your Deriv login email address?"
 msgstr "귀하의 이메일 주소를 이용하여 로그인"
 
 msgctxt "Customer.io email: Unknown Login (Binary) "
@@ -7451,6 +7463,10 @@ msgstr "© %1 Deriv, 저작권을 소유하고 있습니다."
 #~ msgid "%1"
 #~ msgstr "%1"
 
+#~ msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
+#~ msgid "%1 Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request. %2 Before we can process your withdrawal, we first need to check that it was you who made the request. %3"
+#~ msgstr "%1 지불 에이전트를 통해서 저희가 귀하의 인출을 처리할 수 있기 이전에, 저희는 먼저 해당 요청을 하신 분이 귀하인지를 확인해야 할 필요가 있습니다. %2 저희가 귀하의 인출을 처리할 수 있기 이전에, 저희는 먼저 해당 요청을 하신 분이 귀하인지를 확인해야 할 필요가 있습니다. %3"
+
 #~ msgid "%1 address"
 #~ msgstr "%1 주소"
 
@@ -7483,12 +7499,6 @@ msgstr "© %1 Deriv, 저작권을 소유하고 있습니다."
 
 #~ msgid "Before we can proceed with the withdrawal process, we first need to check that it was you who made the request."
 #~ msgstr "저희가 인출 프로세스를 처리할 수 있기 이전에, 저희는 해당 요청이 귀하로부터 요청되었는지를 먼저 확인해야 합니다."
-
-#~ msgid "Before we can process your withdrawal via payment agent, we first need to check that it was you who made the request."
-#~ msgstr "저희가 결제 에이전트를 통해 귀하의 인출을 처리할 수 있기 이전에, 저희는 먼저 해당 요청이 귀하로부터 요청된 것인지를 먼저 확인할 필요가 있습니다."
-
-#~ msgid "Before we can process your withdrawal, we first need to check that it was you who made the request."
-#~ msgstr "저희가 귀하의 인출을 처리할 수 있기 이전에, 저희는 해당 요청이 정말 귀하로부터 요청되었는지를 먼저 확인할 필요가 있습니다."
 
 #~ msgid "Click the following link to verify your account:"
 #~ msgstr "귀하의 계좌를 인증받기 위해 다음의 링크를 클릭하세요:"
@@ -7545,6 +7555,10 @@ msgstr "© %1 Deriv, 저작권을 소유하고 있습니다."
 
 #~ msgid "Hello%1,<br/><br/>We detected a new sign-in on your account."
 #~ msgstr "안녕하세요%1,<br/><br/>저희는 귀하의 계좌에 대하여 새로운 로그인 시도를 감지했습니다."
+
+#~ msgctxt "Customer.io email: SYS01 Closing underage accounts "
+#~ msgid "Hi %1%2%3there%4,"
+#~ msgstr "안녕하세요%1%2%3고객님%4,"
 
 #~ msgid "Hi,"
 #~ msgstr "안녕하세요,"
