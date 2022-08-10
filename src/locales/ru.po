@@ -141,9 +141,6 @@ msgstr "%1ii) Если вы используете ZingPay,%2 приложите
 msgid "%1iii) If you’re using an e-wallet,%2 attach a screenshot of your e-wallet account showing your username, email address, and account number."
 msgstr "%1iii) Если вы используете электронный кошелек,%2 прикрепите скриншот своего счета электронного кошелька с вашим именем пользователя, адресом электронной почты и номером счета."
 
-msgid "*Terms and conditions may apply to withdrawals."
-msgstr "*При выводе средств могут применяться правила и условия."
-
 msgctxt "Customer.io email: VER02 Account verification "
 msgid "1. Go to your profile and ensure your personal details are accurate and complete."
 msgstr "1. Перейдите в свой профиль и убедитесь, что ваши личные данные точны и полны."
@@ -229,12 +226,6 @@ msgstr "Вход на счет Deriv с нового устройства."
 
 msgid "A new password is required"
 msgstr "Требуется новый пароль"
-
-msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
-msgstr "Отсканированная копия счета за коммунальные услуги с указанием вашего текущего адреса (счет должен быть датирован не ранее, чем 3 последние месяца)."
-
-msgid "A scanned copy of your passport or driver's licence."
-msgstr "Отсканированная копия паспорта или водительских прав."
 
 #, fuzzy
 msgid "ACCU is not supported."
@@ -1507,46 +1498,11 @@ msgstr "Срок отмены сделки истек. Ваш контракт �
 msgid "Dear %1 %2 %3,"
 msgstr "Уважаемый(ая) %1 %2 %3,"
 
+#, fuzzy
+#| msgid "Dear %1,"
+msgctxt "Customer.io email: VER04 Payment Agent Transfer Confirm "
 msgid "Dear %1,"
 msgstr "Уважаемый(ая) %1"
-
-msgid ""
-"Dear %1,\n"
-"\n"
-"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-"\n"
-"We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
-"\n"
-"Kind Regards,\n"
-"\n"
-"%2\n"
-"\n"
-"*Terms and conditions may apply to withdrawals. (%5)"
-msgstr ""
-"%1,\n"
-"\n"
-"Мы рады, что вы решили торговать на %2, и надеемся, что ваш опыт работы с нашей платформой до сих пор был положительным.\n"
-"\n"
-"Хотим сообщить, что на ваш счет был начислен бонус в размере %3%4.\n"
-"\n"
-"С уважением,\n"
-"\n"
-"%2\n"
-"\n"
-"*К выводу дохода от бонуса применяются определенные условия. См. дальнейшую информацию по ссылке (%5)"
-
-msgid ""
-"Dear %1,\n"
-"\n"
-"We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
-"\n"
-"We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
-msgstr ""
-"%1,\n"
-"\n"
-"Мы рады, что вы решили торговать на %2, и надеемся, что ваш опыт работы с нашей платформой до сих пор был положительным.\n"
-"\n"
-"Мы получили ваш запрос на бонус. К сожалению, мы не смогли обработать ваш запрос по одной из следующих причин:"
 
 msgid "Dear Valued Customer,"
 msgstr "Уважаемый клиент,"
@@ -2121,18 +2077,6 @@ msgstr "Следите за графиком"
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr ""
-
-msgid "For more information on the terms and conditions that apply to your bonus, go to:"
-msgstr "Дополнительную информацию об условиях, применимых к вашему бонусу, можно найти здесь:"
-
-msgid ""
-"For more information on the terms and conditions that apply to your bonus, go to:\n"
-"\n"
-"%1"
-msgstr ""
-"Для дополнительной информации по правилам и условиям, применяющимся к бонусу, смотрите:\n"
-"\n"
-"%1"
 
 msgctxt "Customer.io email: SYS01 Closing underage accounts "
 msgid "For your reference, here's the %1general terms of use %2for our products and services."
@@ -2752,9 +2696,6 @@ msgstr "Если вы не отправите средства обратно, �
 msgid "If you don’t want to reset your password, you can ignore this email."
 msgstr "Если вы не хотите менять пароль, просто проигнорируйте это сообщение."
 
-msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
-msgstr "Если вы считаете, что ни одно из вышеуказанных условий не применимо к вашему счету, и хотите снова сделать запрос на бонус, пожалуйста, предоставьте следующее:"
-
 #, fuzzy
 #| msgctxt "Customer.io email: Affiliate self tagging "
 #| msgid "If you have any questions, please %1contact us%2 via live chat."
@@ -3055,6 +2996,11 @@ msgstr "Похоже, вы уже сделали запрос. Пожалуйс�
 msgctxt "Customer.io email: VER01 Account Opening Existing "
 msgid "It looks like you may already have an account with us. Have you signed up for a Binary.com or Deriv account before? If you have, just %1log in%2 to access your account."
 msgstr "Похоже, у вас уже есть счет в нашей компании. Вы уже регистрировались на Binary.com или Deriv? Если да, просто %1войдите в систему%2, чтобы получить доступ к счету."
+
+#, fuzzy
+#| msgid "It looks like you have already made the request. Please try again later."
+msgid "It looks like you've made too many attempts to confirm this order. Please try again after %1 minutes."
+msgstr "Похоже, вы уже сделали запрос. Пожалуйста, повторите попытку позже."
 
 msgid "It looks like your account is locked for MT5 transfers. Please contact us for more information."
 msgstr "Похоже, что переводы с/на MT5 заблокированы на вашем счете. Пожалуйста, свяжитесь с нами для получения дополнительной информации."
@@ -4134,26 +4080,6 @@ msgctxt "Customer.io email: seller-nopayment-initial "
 msgid "Otherwise, we will investigate the case and inform you and the buyer of the result. We may request additional information and documents during our investigation."
 msgstr ""
 
-msgid "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account."
-msgstr "Наша служба поддержки отправит еще один запрос на получение бонуса от вашего имени, как только мы получим документы. Зачисление бонуса на ваш счет может занять до 3 рабочих дней."
-
-msgid ""
-"Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
-"\n"
-"We wish you the best of luck with your trading.\n"
-"\n"
-"Regards,\n"
-"\n"
-"%1"
-msgstr ""
-"Наша служба поддержки отправит еще один запрос на получение бонуса от вашего имени, как только мы получим документы. Зачисление бонуса на ваш счет может занять до 3 рабочих дней.\n"
-"\n"
-"Желаем вам удачи в работе на сайте!\n"
-"\n"
-"С уважением,\n"
-"\n"
-"%1"
-
 msgctxt "Customer.io email: svg_sign-up_real_nigeria "
 msgid "Our peer-to-peer deposit and withdrawal service that lets you move money in and out of your account in minutes, via exchanges with fellow traders."
 msgstr ""
@@ -4761,6 +4687,11 @@ msgstr "Пожалуйста, перейдите в свой профиль, ч�
 msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте полное удостоверение личности, например паспорт, водительские права или национальную ID-карту, с соблюдением следующих требований:"
 
+#, fuzzy
+#| msgid "Please close out all open positions before requesting additional funds."
+msgid "Please wait for %1 seconds before requesting another email."
+msgstr "Пожалуйста, закройте все открытые позиции перед запросом дополнительных средств"
+
 msgid "Please wait for a few minutes before attempting to change your password for the above account."
 msgstr "Подождите несколько минут, прежде чем пытаться изменить пароль вышеуказанного счета."
 
@@ -5047,9 +4978,6 @@ msgstr "Получать новости и спец. предложения"
 msgctxt "Customer.io email: P2P02 dispute by seller, buyer not paid, email to buyer "
 msgid "Recipient's account details"
 msgstr "Данные счета получателя"
-
-msgid "Regards,"
-msgstr "С уважением,"
 
 msgid "Region added"
 msgstr "Регион добавлен"
@@ -5995,6 +5923,11 @@ msgstr "Качество изображения вашего документа 
 
 msgid "The investor password for your MT5 account %1 has been reset. If this request was not performed by you, please immediately contact Customer Support."
 msgstr "Инвесторский пароль вашего счета %1 MT5 был изменен. Если вы не меняли пароль, пожалуйста, немедленно обратитесь в службу поддержки."
+
+#, fuzzy
+#| msgid "It looks like the document number you entered is invalid. Please check and try again."
+msgid "The link that you used appears to be invalid. Please check and try again."
+msgstr "Похоже, вы ввели неверный номер документа. Пожалуйста, проверьте данные и попробуйте снова."
 
 msgid "The market must be open at the start time."
 msgstr "Рынок должен быть открыт на момент начала."
@@ -7724,12 +7657,6 @@ msgstr "Мы получили запрос на изменение вашего 
 msgid "We require your tax information for regulatory purposes. Please fill in your tax information."
 msgstr "Налоговая информация нужна нам для соблюдения нормативных требований. Пожалуйста, заполните вашу налоговую информацию."
 
-msgid "We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %1%2*."
-msgstr "Мы приняли ваш запрос на получение бонуса и на ваш счет был зачислен бонус в размере %1%2*."
-
-msgid "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
-msgstr "Хотим сообщить, что мы приняли ваш запрос на получение бонуса. К сожалению, мы не можем одобрить этот запрос по одной из следующих причин:"
-
 msgid "We were unable to change your %1 password for these accounts:"
 msgstr "Нам не удалось изменить ваш пароль %1 на этих счетах:"
 
@@ -7755,9 +7682,6 @@ msgstr "Мы никогда не передаем списки адресов э
 msgctxt "Customer.io email: VER03 Account verification for pending payout "
 msgid "We will process your withdrawal request once your identity and address have been successfully verified. If we don’t receive your documents by the given date, we will decline your withdrawal request."
 msgstr "Мы обработаем ваш запрос на вывод средств, как только вы подтвердите личность и адрес. Если мы не получим ваши документы к указанной дате, мы отклоним ваш запрос."
-
-msgid "We wish you the best of luck with your trading."
-msgstr "Желаем вам успехов в трейдинге."
 
 msgctxt "Customer.io email: VER04 Payment Agent Transfer Confirm "
 msgid "We would like to inform you that the transfer of %1%2 %3%4 via %5%6%7 has been processed. The funds have been credited into your account %8%9%10."
@@ -7785,9 +7709,6 @@ msgstr ""
 
 msgid "We're processing your withdrawal."
 msgstr "Мы обрабатываем ваш вывод средств."
-
-msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
-msgstr "Мы очень рады, что вы решили начать трейдинг с %1, и надеемся, что ваш опыт работы с нашей платформой до сих пор был положительным."
 
 msgid "We're reviewing your withdrawal request. You may still cancel this transaction if you wish. Once we start processing, you won't be able to cancel."
 msgstr "Мы рассматриваем ваш запрос на вывод средств. Вы можете отменить эту транзакцию до того, как мы начнем обрабатывать запрос."
@@ -7841,6 +7762,9 @@ msgstr "Мы деактивировали ваш счет MT5. Свяжитес�
 
 msgid "We've received your request and are waiting for more blockchain confirmations."
 msgstr "Мы получили ваш запрос и ждем дополнительных подтверждений блокчейна."
+
+msgid "We've sent you an email. Click the confirmation link in the email to complete this order."
+msgstr ""
 
 msgctxt "payment method name"
 msgid "WeChat Pay"
@@ -8552,9 +8476,6 @@ msgstr "У вас есть платежный метод с такими же з
 msgid "You have active orders on this ad, so you must keep these payment methods: %1"
 msgstr "По этому объявлению есть открытые ордеры, поэтому нужно оставить платежный метод %1"
 
-msgid "You have already claimed a bonus in the past."
-msgstr "Вы уже получали бонус ранее."
-
 msgid "You have already reviewed this order."
 msgstr "Вы уже оценили этот ордер."
 
@@ -8594,14 +8515,8 @@ msgstr "Вы еще не подали заявку на участие в про
 msgid "You have not registered as an affiliate."
 msgstr "Вы еще не зарегистрированы в качестве партнера."
 
-msgid "You have not yet reached the turnover required to be credited with the bonus."
-msgstr "Вы не достигли требуемого оборота для получения бонуса."
-
 msgid "You have open orders for this ad. Complete all open orders before deleting this ad."
 msgstr "У вас есть открытые ордеры для этого объявления. Завершите все открытые ордеры перед удалением объявления."
-
-msgid "You have opened an account using invalid details."
-msgstr "Вы указали некоторые неверные данные при открытии счета."
 
 msgid "You have reached the maximum withdrawal limit of %1 %2. Please authenticate your account to make unlimited withdrawals."
 msgstr "Вы достигли максимального лимита на вывод средств (%1 %2). Пожалуйста, аутентифицируйте счет, чтобы сделать вывод средств неограниченным."
@@ -8619,9 +8534,6 @@ msgstr "Вы подали запрос на закрытие счетов на %
 
 msgid "You have requested to close your accounts. This is to confirm that all your accounts have been terminated successfully."
 msgstr "Вы подали запрос на закрытие счетов. Данное письмо подтверждает, что все счета успешно закрыты."
-
-msgid "You have signed up for more than one account."
-msgstr "Вы открыли более одного счета."
 
 msgid "You haven't verified your age. Please contact us for more information."
 msgstr "Вы еще не прошли проверку возраста. Свяжитесь с нами для получения дополнительной информации."
@@ -8932,9 +8844,6 @@ msgstr "Ваш возраст, указанный в предоставленн�
 msgctxt "Customer.io email: Request POI "
 msgid "Your bank statement or utility bill showing your name and address (not more than 6 months old)"
 msgstr "Банковская выписка или счет за коммунальные услуги с указанием вашего имени и адреса (не старше 6 месяцев)"
-
-msgid "Your bonus request - %1"
-msgstr "Ваш запрос на бонус - %1"
 
 msgid "Your cashier is locked."
 msgstr "Ваша касса заблокирована."
@@ -10795,6 +10704,9 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "* We will never share your e-mail address"
 #~ msgstr "* Мы не разглашаем данные клиентов"
+
+#~ msgid "*Terms and conditions may apply to withdrawals."
+#~ msgstr "*При выводе средств могут применяться правила и условия."
 
 #~ msgid "+b.x+"
 #~ msgstr "+b.x+"
@@ -12987,6 +12899,12 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "A recent (less than 3 months old) scanned copy of your paper utility bill, or your paper bank, credit union, building society, credit, or debit card statement, or passbook"
 #~ msgstr "Недавняя (не старее 3 месяцев) sотсканированная копия бумажного счета за коммунальные услуги, выписка из банка (с адресом), данные о кредите, выписка об операциях кредитной или дебетовой карты (с адресом)"
+
+#~ msgid "A scanned copy of a utility bill showing your current residential address (utility bill must not be more than 3 months old)."
+#~ msgstr "Отсканированная копия счета за коммунальные услуги с указанием вашего текущего адреса (счет должен быть датирован не ранее, чем 3 последние месяца)."
+
+#~ msgid "A scanned copy of your passport or driver's licence."
+#~ msgstr "Отсканированная копия паспорта или водительских прав."
 
 #~ msgid "A sound understanding of the regulatory aspects of doing business in the region"
 #~ msgstr "Чёткое понимание нормативно-правовых аспектов ведения бизнеса в регионе"
@@ -16292,6 +16210,44 @@ msgstr "© %1 Deriv, все права защищены."
 #~ msgid ""
 #~ "Dear %1,\n"
 #~ "\n"
+#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+#~ "\n"
+#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %3%4*.\n"
+#~ "\n"
+#~ "Kind Regards,\n"
+#~ "\n"
+#~ "%2\n"
+#~ "\n"
+#~ "*Terms and conditions may apply to withdrawals. (%5)"
+#~ msgstr ""
+#~ "%1,\n"
+#~ "\n"
+#~ "Мы рады, что вы решили торговать на %2, и надеемся, что ваш опыт работы с нашей платформой до сих пор был положительным.\n"
+#~ "\n"
+#~ "Хотим сообщить, что на ваш счет был начислен бонус в размере %3%4.\n"
+#~ "\n"
+#~ "С уважением,\n"
+#~ "\n"
+#~ "%2\n"
+#~ "\n"
+#~ "*К выводу дохода от бонуса применяются определенные условия. См. дальнейшую информацию по ссылке (%5)"
+
+#~ msgid ""
+#~ "Dear %1,\n"
+#~ "\n"
+#~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been a positive one so far.\n"
+#~ "\n"
+#~ "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+#~ msgstr ""
+#~ "%1,\n"
+#~ "\n"
+#~ "Мы рады, что вы решили торговать на %2, и надеемся, что ваш опыт работы с нашей платформой до сих пор был положительным.\n"
+#~ "\n"
+#~ "Мы получили ваш запрос на бонус. К сожалению, мы не смогли обработать ваш запрос по одной из следующих причин:"
+
+#~ msgid ""
+#~ "Dear %1,\n"
+#~ "\n"
 #~ "We're really glad that you've decided to take up trading with %2 and we hope that your experience on our platform has been good.\n"
 #~ "\n"
 #~ "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:\n"
@@ -17870,6 +17826,18 @@ msgstr "© %1 Deriv, все права защищены."
 #~ msgid "For more information about calling Websocket services see"
 #~ msgstr "Для получения дополнительной информации о вызове службы Websocket, смотрите"
 
+#~ msgid "For more information on the terms and conditions that apply to your bonus, go to:"
+#~ msgstr "Дополнительную информацию об условиях, применимых к вашему бонусу, можно найти здесь:"
+
+#~ msgid ""
+#~ "For more information on the terms and conditions that apply to your bonus, go to:\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Для дополнительной информации по правилам и условиям, применяющимся к бонусу, смотрите:\n"
+#~ "\n"
+#~ "%1"
+
 #~ msgid "For security reasons, please note that Payment Agent accounts will only be able to deposit via Bank Wire."
 #~ msgstr "По причинам безопасности, обратите внимание, что счета платежных агентов могут пополняться только банковским переводом."
 
@@ -18816,6 +18784,9 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "If you don't want to withdraw funds from your account, you can ignore this email."
 #~ msgstr "Если вы не хотите выводить средства со счета, просто проигнорируйте это сообщение."
+
+#~ msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
+#~ msgstr "Если вы считаете, что ни одно из вышеуказанных условий не применимо к вашему счету, и хотите снова сделать запрос на бонус, пожалуйста, предоставьте следующее:"
 
 #~ msgid "If you have any questions or concerns, we’re here to help."
 #~ msgstr "Если у Вас есть какие-либо вопросы или сомнения, будем рады Вам помочь."
@@ -21993,6 +21964,26 @@ msgstr "© %1 Deriv, все права защищены."
 #~ msgid "Our costs and charges for depositing and withdrawing money are set out <a href=\"%1\" class=\"pjaxload\">here</a>. Please be aware of all costs and charges that apply to you because they will affect your profitability."
 #~ msgstr "Наши затраты и расходы на внесение и снятие денег изложены <a href=\"%1\" class=\"pjaxload\">здесь</a>. Пожалуйста, примите во внимание затраты и расходы, которые могут применяться к Вам, так как они влияют на Вашу доходность."
 
+#~ msgid "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account."
+#~ msgstr "Наша служба поддержки отправит еще один запрос на получение бонуса от вашего имени, как только мы получим документы. Зачисление бонуса на ваш счет может занять до 3 рабочих дней."
+
+#~ msgid ""
+#~ "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account.\n"
+#~ "\n"
+#~ "We wish you the best of luck with your trading.\n"
+#~ "\n"
+#~ "Regards,\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Наша служба поддержки отправит еще один запрос на получение бонуса от вашего имени, как только мы получим документы. Зачисление бонуса на ваш счет может занять до 3 рабочих дней.\n"
+#~ "\n"
+#~ "Желаем вам удачи в работе на сайте!\n"
+#~ "\n"
+#~ "С уважением,\n"
+#~ "\n"
+#~ "%1"
+
 #~ msgid "Our customers clearly like us. In mid-2014, Binary.com has over 100 million historical transactions and over 130,000 new daily transactions."
 #~ msgstr "Без сомнения, нашим клиентам по душе наш сервис. В середине 2014 года Binary.com зарегистрировал более 100 миллионов исторических сделок в своем архиве и провёл более 130 тысяч новых ежедневных сделок."
 
@@ -22421,9 +22412,6 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "Please click on the verification link sent to your email, or click <a class=\"pjaxload\" href=\"%1\">here</a> to restart the verification process."
 #~ msgstr "Пожалуйста, нажмите на ссылку подтверждения, отправленную на Ваш email, или нажмите <a class=\"pjaxload\" href=\"%1\">здесь,</a> чтобы повторно запустить процесс проверки."
-
-#~ msgid "Please close out all open positions before requesting additional funds."
-#~ msgstr "Пожалуйста, закройте все открытые позиции перед запросом дополнительных средств"
 
 #~ msgid "Please complete this step by %1"
 #~ msgstr "Пожалуйста, сделайте это до %1"
@@ -23344,6 +23332,9 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "Reference ID"
 #~ msgstr "Номер"
+
+#~ msgid "Regards,"
+#~ msgstr "С уважением,"
 
 #~ msgid "Regent Markets Group Limited, with registered office address situated at 47 Esplanade, St. Helier, Jersey, JE 0BD Channel Islands, is partly owned by the <a href=\"http://www.regentpac.com/\">Regent Pacific Group Limited</a>, a diversified mining group focused on the Asian Pacific region and listed on the Hong Kong exchange (<a href=\"http://www.hkex.com.hk/eng/invest/company/quote_page_e.asp?WidCoID=0575&WidCoAbbName=&Month=1&langcode=e\">share price</a>)."
 #~ msgstr "Regent Markets Group Limited, с зарегистрированным адресом 47 Esplanade, St. Helier, Jersey, JE 0BD Channel Islands, является частичной собственностью <a href=\"http://www.regentpac.com/\">Regent Pacific Group Limited</a>, диверсифицированной компании, сфокусированной на Азиатско-Тихоокеанском регионе и котирующейся на Гонк-Конгской бирже (<a href=\"http://www.hkex.com.hk/eng/invest/company/quote_page_e.asp?WidCoID=0575&WidCoAbbName=&Month=1&langcode=e\">цена акции</a>)."
@@ -27942,6 +27933,12 @@ msgstr "© %1 Deriv, все права защищены."
 #~ msgid "We segregate and hold client funds in secure AAA-rated banks."
 #~ msgstr "Мы отделяем и содержим средства клиентов в банках рейтинга ААА."
 
+#~ msgid "We thought we'd drop you a note to let you know that we have received your request for a bonus and your account has been credited with a bonus of %1%2*."
+#~ msgstr "Мы приняли ваш запрос на получение бонуса и на ваш счет был зачислен бонус в размере %1%2*."
+
+#~ msgid "We thought we'd drop you a note to let you know that we have received your request for a bonus. Unfortunately, we were unable to process your request for one of the following reasons:"
+#~ msgstr "Хотим сообщить, что мы приняли ваш запрос на получение бонуса. К сожалению, мы не можем одобрить этот запрос по одной из следующих причин:"
+
 #~ msgid "We use identity verification services and real-time fraud detection measures to help protect you from unauthorised access to your account. We also monitor account activity for signs of unusual activity that might indicate fraud and work with collection agencies and law-enforcement agencies to address fraud issues."
 #~ msgstr "Для предотвращения неавторизованного доступа к Вашему счету введены сервисы идентификации и меры по защите от мошеннических действий онлайн. Мы также отслеживаем признаки подозрительной деятельности на счетах, которые могут указывать на возможный несанкционированный доступ. В сфере защиты от мошенничества мы сотрудничаем с коллекторскими и юридическими агентствами."
 
@@ -28020,6 +28017,9 @@ msgstr "© %1 Deriv, все права защищены."
 #~ msgid "We will send you an e-mail asking you to verify your identity. If you don't receive an e-mail from us within a few minutes of requesting a reset, please check your junk/spam mail folder."
 #~ msgstr "Мы вышлем Вам электронное сообщение с просьбой подтвердить Вашу личность. Если вы не получите сообщение от нас в следующие несколько минут после отправления запроса, пожалуйста, проверьте папку со спамом."
 
+#~ msgid "We wish you the best of luck with your trading."
+#~ msgstr "Желаем вам успехов в трейдинге."
+
 #~ msgid "We would like to inform you that the transfer of %1 %2 via %3 has been processed."
 #~ msgstr "Рады сообщить о том, что запрос на перевод средств в размере %1 %2 через %3 успешно обработан."
 
@@ -28090,6 +28090,9 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "We're pleased to inform you that we've verified your age and identity."
 #~ msgstr "Рады сообщить о том, что мы успешно проверили Ваш возраст и личность."
+
+#~ msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
+#~ msgstr "Мы очень рады, что вы решили начать трейдинг с %1, и надеемся, что ваш опыт работы с нашей платформой до сих пор был положительным."
 
 #~ msgid "We're sorry but the Affiliate Token is not available for this type of Accounts."
 #~ msgstr "Приносим свои извинения, но партнёрский ключ не действует на данном виде счетов."
@@ -28962,6 +28965,9 @@ msgstr "© %1 Deriv, все права защищены."
 #~ msgid "You have already attempted to authenticate your ID using our online verification procedure."
 #~ msgstr "Вы уже пытались пройти авторизацию, используя онлайн форму."
 
+#~ msgid "You have already claimed a bonus in the past."
+#~ msgstr "Вы уже получали бонус ранее."
+
 #~ msgid "You have already withdrawn %1 %2."
 #~ msgstr "Вы уже вывели со счета %1 %2."
 
@@ -28992,8 +28998,14 @@ msgstr "© %1 Deriv, все права защищены."
 #~ msgid "You have not obtained and have not maintained all necessary licences and consents to operate within any laws, rules, and regulations applicable under the authority of any regulatory body of the jurisdiction(s) in which you operate or target your business;"
 #~ msgstr "Вы не получили и не обладаете всеми необходимыми лицензиями и разрешениями, чтобы работать в соответствии с любыми законами, правилами и нормативными требованиями, действующими в рамках любого регулирующего органа в юрисдикции (юрисдикциях), в которой вы ведёте или планируете вести бизнес;"
 
+#~ msgid "You have not yet reached the turnover required to be credited with the bonus."
+#~ msgstr "Вы не достигли требуемого оборота для получения бонуса."
+
 #~ msgid "You have not yet selected a currency for your account."
 #~ msgstr "Вы ещё не выбрали валюту Вашего счёта."
+
+#~ msgid "You have opened an account using invalid details."
+#~ msgstr "Вы указали некоторые неверные данные при открытии счета."
 
 #~ msgid "You have predicted that the %1th tick will <strong><i>not</i></strong> have a last decimal digit of \"%2\"."
 #~ msgstr "Вы сделали ставку на то, что на %1-м тике последняя десятичная цифра <strong><i>не</i></strong> будет \"%2\"."
@@ -29018,6 +29030,9 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "You have received <strong>%1 %2</strong> in your <strong>%3 </strong> account at <strong>%4</strong>."
 #~ msgstr "Вы получили <strong>%1 %2</strong> на ваш счет <strong>%3 </strong> на <strong>%4</strong>."
+
+#~ msgid "You have signed up for more than one account."
+#~ msgstr "Вы открыли более одного счета."
 
 #~ msgid "You have sold this contract at %1 %2"
 #~ msgstr "Вы продали данный контракт по цене %1 %2"
@@ -29476,6 +29491,9 @@ msgstr "© %1 Deriv, все права защищены."
 
 #~ msgid "Your base url for all API calls"
 #~ msgstr "Ваш базовый url для всех вызовов API"
+
+#~ msgid "Your bonus request - %1"
+#~ msgstr "Ваш запрос на бонус - %1"
 
 #~ msgid "Your bonus will be credited to your account within 3 working days after the following conditions have been met:"
 #~ msgstr "Ваш бонус будет зачислен на счет через три рабочих дня после того, как будут удовлетворены следующие условия:"
