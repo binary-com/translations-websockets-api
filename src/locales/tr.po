@@ -112,10 +112,6 @@ msgctxt "Customer.io email: seller-nopayment-seller-favor "
 msgid "%1Note:%2 According to DP2P terms of use, the buyer and the seller are solely responsible for making sure that the payment is accurate. Deriv is not liable in any way to make corrections or compensations for any incorrect payment made by the buyer, including but not limited to overpayment and underpayment."
 msgstr "%1Not:%2 DP2P kullanım şartlarına göre, ödemenin eksiksiz olduğundan emin olmaktan yalnızca alıcı ve satıcı sorumludur. Deriv, fazla ödeme ve eksik ödeme ile sınırlı olmamak kaydıyla, alıcı tarafından yapılan herhangi bir yanlış ödeme için düzeltme veya telafi yapmaktan hiçbir şekilde sorumlu değildir."
 
-msgctxt "Customer.io email: mf_sign-up_real "
-msgid "%1Risk warning:%2 Products offered on Deriv are classed as complex products and may not be suitable for retail investors. Contracts for difference (CFDs) are complex instruments and come with a high risk of losing money rapidly due to leverage. 65% of retail investor accounts lose money when trading CFDs with Deriv Investments (Europe) Ltd. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
-msgstr "%1Risk uyarısı:%2 Deriv'de sunulan ürünler karmaşık ürünler olarak sınıflandırılır ve bireysel yatırımcılar için uygun olmayabilir. Fark sözleşmeleri (CFD'ler) karmaşık araçlardır ve kaldıraç nedeniyle hızlı para kaybetme riski yüksektir. Parekende yatırımcı hesaplarının %65'i Deriv Investments (Europe) Ltd. ile CFD ticareti yaparken para kaybetmektedir. CFD'lerin nasıl çalıştığını anlayıp anlamadığınızı ve paranızı kaybetme riskini göze alıp alamayacağınızı düşünmelisiniz."
-
 msgid "%1Upload document%2"
 msgstr "%1Belge yükle%2"
 
@@ -1560,15 +1556,24 @@ msgctxt "Customer.io email: mt5_real_financial-signup "
 msgid "Deriv Community"
 msgstr "Deriv Topluluğu"
 
-msgctxt "Customer.io email: eu-welcome "
+#, fuzzy
+#| msgctxt "Customer.io email: eu-welcome "
+#| msgid "Deriv Investments (Europe) Limited does not offer investment advice."
+msgctxt "Customer.io email: mf_sign-up_real "
 msgid "Deriv Investments (Europe) Limited does not offer investment advice."
 msgstr "Deriv Investments (Europe) Limited yatırım tavsiyesi vermemektedir."
 
-msgctxt "Customer.io email: eu-welcome "
+#, fuzzy
+#| msgctxt "Customer.io email: eu-welcome "
+#| msgid "Deriv Investments (Europe) Limited is authorised to deal on its own account and is both the manufacturer and distributor of its products."
+msgctxt "Customer.io email: mf_sign-up_real "
 msgid "Deriv Investments (Europe) Limited is authorised to deal on its own account and is both the manufacturer and distributor of its products."
 msgstr "Deriv Investments (Europe) Limited kendi hesabına işlem yapma yetkisine sahiptir ve ürünlerinin hem üreticisi hem de distribütörüdür."
 
-msgctxt "Customer.io email: eu-welcome "
+#, fuzzy
+#| msgctxt "Customer.io email: eu-welcome "
+#| msgid "Deriv Investments (Europe) Limited is licensed in Malta and regulated by the Malta Financial Services Authority under the Investment Services Act, to provide investment services in the European Union."
+msgctxt "Customer.io email: mf_sign-up_real "
 msgid "Deriv Investments (Europe) Limited is licensed in Malta and regulated by the Malta Financial Services Authority under the Investment Services Act, to provide investment services in the European Union."
 msgstr "Deriv Investment (Europe) Limited, Malta'da lisanslıdır ve Malta Finansal Hizmetler Kurumu tarafından Yatırım Hizmetleri Yasası kapsamında Avrupa Birliği'nde yatırım hizmetleri sunmak üzere denetlenmektedir."
 
@@ -2001,6 +2006,9 @@ msgstr "FNB e-Cüzdan hesabı"
 
 msgid "Facebook"
 msgstr "Facebook"
+
+msgid "Failed to create account due to failed Proof of Address with status: %1"
+msgstr ""
 
 msgid "Failed to get user identity."
 msgstr "Kullanıcı kimliği alınamadı."
@@ -3090,10 +3098,6 @@ msgstr "Kazang hesabı"
 msgid "Kenyan Shilling"
 msgstr "Kenya Şilini"
 
-msgctxt "Customer.io email: mf_sign-up_real "
-msgid "Key information documents"
-msgstr "Anahtar bilgi belgeleri"
-
 msgid "Kind Regards,"
 msgstr "Saygılarımızla,"
 
@@ -3797,7 +3801,10 @@ msgstr "Mevcut işlem oturumu için bu sözleşme türünde daha fazla alım sat
 msgid "No information is available for this contract."
 msgstr "Bu sözleşme için herhangi bir bilgi bulunmamaktadır."
 
-msgctxt "Customer.io email: south-africa-zingpay-notice "
+#, fuzzy
+#| msgctxt "Customer.io email: south-africa-zingpay-notice "
+#| msgid "No longer want to receive these emails? %1Unsubscribe%2"
+msgctxt "Customer.io email: mf_sign-up_real "
 msgid "No longer want to receive these emails? %1Unsubscribe%2"
 msgstr "Artık bu e-postaları almak istemiyor musunuz? %1Abonelikten çık%2"
 
@@ -4809,6 +4816,12 @@ msgstr "Mesleki Yeterlilik Kartı"
 
 msgid "Professional status is not applicable to your account."
 msgstr "Profesyonel statü hesabınız için geçerli değildir."
+
+#, fuzzy
+#| msgctxt "Customer.io email: poa_verification_failed "
+#| msgid "Proof of address verification failed"
+msgid "Proof of Address verification failed. Withdrawal operation suspended."
+msgstr "Adres doğrulama kanıtı başarısız oldu"
 
 msgctxt "Onfido document type "
 msgid "Proof of Citizenship"
@@ -5956,12 +5969,18 @@ msgstr "Ödeme yöntemi kimliği mevcut değil."
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "Ödeme yöntemi özelliği henüz P2P'de mevcut değil. Lütfen daha sonra tekrar kontrol edin."
 
-msgctxt "Customer.io email: eu-welcome "
+#, fuzzy
+#| msgctxt "Customer.io email: eu-welcome "
+#| msgid "The products may be affected by changes in currency exchange rates; If you invest in this product, you may lose some or all of the money you invest; The value of your investment may go down as well as up."
+msgctxt "Customer.io email: mf_sign-up_real "
 msgid "The products may be affected by changes in currency exchange rates; If you invest in this product, you may lose some or all of the money you invest; The value of your investment may go down as well as up."
 msgstr "Ürünler döviz kurlarındaki değişikliklerden etkilenebilir; Bu ürüne yatırım yaparsanız, yatırdığınız paranın bir kısmını veya tamamını kaybedebilirsiniz; Yatırımınızın değeri yükselebileceği gibi düşebilir de."
 
-msgctxt "Customer.io email: eu-welcome "
-msgid "The products offered by Deriv Investments (Europe) Limited, including CFDs are classed as ‘complex products’ and may not be suitable for retail clients. CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 65% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+#, fuzzy
+#| msgctxt "Customer.io email: eu-welcome "
+#| msgid "The products offered by Deriv Investments (Europe) Limited, including CFDs are classed as ‘complex products’ and may not be suitable for retail clients. CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 65% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+msgctxt "Customer.io email: mf_sign-up_real "
+msgid "The products offered by Deriv Investments (Europe) Limited, including CFDs are classed as ‘complex products’ and may not be suitable for retail clients. CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgstr "CFD'ler de dahil olmak üzere Deriv Investments (Europe) Limited tarafından sunulan ürünler 'karmaşık ürünler' olarak sınıflandırılır ve parekende müşteriler için uygun olmayabilir. CFD'ler karmaşık araçlardır ve kaldıraç nedeniyle hızla para kaybetme riski yüksektir. Parekende yatırımcı hesaplarının %65'i bu sağlayıcı ile CFD ticareti yaparken para kaybetmektedir. CFD'lerin nasıl çalıştığını anlayıp anlamadığınızı ve paranızı kaybetme riskini göze alıp alamayacağınızı düşünmelisiniz."
 
 msgid "The proof of ownership id provided is not valid"
@@ -6196,16 +6215,15 @@ msgstr "Bu belge numarası zaten farklı bir hesap için gönderilmişti. Görü
 msgid "This email address is invalid."
 msgstr "Bu e-posta adresi geçersiz."
 
-msgctxt "Customer.io email: eu-welcome "
+#, fuzzy
+#| msgctxt "Customer.io email: eu-welcome "
+#| msgid "This email is a marketing email intended for Retail and Professional Clients and has been issued by Deriv Investments (Europe) Limited with the registered address: W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
+msgctxt "Customer.io email: mf_sign-up_real "
 msgid "This email is a marketing email intended for Retail and Professional Clients and has been issued by Deriv Investments (Europe) Limited with the registered address: W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
 msgstr "Bu e-posta, Parekende ve Profesyonel Müşterilere yönelik bir pazarlama e-postasıdır ve kayıtlı adresi Deriv Investments (Europe) Limited tarafından yayınlanmıştır. W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
 
 msgid "This email is already in use. Please use a different email."
 msgstr "Bu e-posta zaten kullanımda. Lütfen farklı bir e-posta adresi kullanın."
-
-msgctxt "Customer.io email: mf_sign-up_real "
-msgid "This email is intended for Retail and Professional clients. Deriv Investments (Europe) Limited is licensed and regulated in Malta under the Investment Services Act (Cap.370) by the Malta Financial Services Authority, having its registered office at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta and is both the manufacturer and distributor of its products."
-msgstr "Bu e-posta Bireysel ve Profesyonel müşteriler için hazırlanmıştır. Deriv Investments (Europe) Limited, Malta'da Malta Finansal Hizmetler Yasası (Cap.370) kapsamında lisanslanmıştır ve denetlenmektedir, kayıtlı ofisi W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta'dır, ve ürünlerinin hem üreticisi hem de distribütörüdür."
 
 msgid "This feature is not allowed for internal clients."
 msgstr "Bu özellik dahili müşteriler için izin verilmez."
@@ -7583,7 +7601,10 @@ msgstr "Net olmadığı için özçekiminizi doğrulayamadık. Lütfen daha net 
 msgid "We will activate your account once we receive your documents."
 msgstr "Belgelerinizi aldığımızda hesabınızı etkinleştireceğiz."
 
-msgctxt "Customer.io email: eu-welcome "
+#, fuzzy
+#| msgctxt "Customer.io email: eu-welcome "
+#| msgid "We will never share our email lists and other data with a third party. To learn more about how we protect your personal and financial information, please read our security and privacy policy."
+msgctxt "Customer.io email: mf_sign-up_real "
 msgid "We will never share our email lists and other data with a third party. To learn more about how we protect your personal and financial information, please read our security and privacy policy."
 msgstr "E-posta listelerimizi ve diğer verilerimizi asla üçüncü bir tarafla paylaşmayacağız. Kişisel ve finansal bilgilerinizi nasıl koruduğumuz hakkında daha fazla bilgi edinmek için lütfen güvenlik ve gizlilik politikamızı okuyun."
 
@@ -9258,6 +9279,10 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 #~ msgid "%1Go to MT5 dashboard%2"
 #~ msgstr "%1MT5 panosuna git%2"
 
+#~ msgctxt "Customer.io email: mf_sign-up_real "
+#~ msgid "%1Risk warning:%2 Products offered on Deriv are classed as complex products and may not be suitable for retail investors. Contracts for difference (CFDs) are complex instruments and come with a high risk of losing money rapidly due to leverage. 65% of retail investor accounts lose money when trading CFDs with Deriv Investments (Europe) Ltd. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+#~ msgstr "%1Risk uyarısı:%2 Deriv'de sunulan ürünler karmaşık ürünler olarak sınıflandırılır ve bireysel yatırımcılar için uygun olmayabilir. Fark sözleşmeleri (CFD'ler) karmaşık araçlardır ve kaldıraç nedeniyle hızlı para kaybetme riski yüksektir. Parekende yatırımcı hesaplarının %65'i Deriv Investments (Europe) Ltd. ile CFD ticareti yaparken para kaybetmektedir. CFD'lerin nasıl çalıştığını anlayıp anlamadığınızı ve paranızı kaybetme riskini göze alıp alamayacağınızı düşünmelisiniz."
+
 #~ msgid "*Terms and conditions may apply to withdrawals."
 #~ msgstr "*Şartlar ve koşullar para çekme işlemleri için geçerli olabilir."
 
@@ -9587,6 +9612,10 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 #~ msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %1 password?"
 #~ msgstr "Sadece bir not: %1 şifrenizi sıfırlarsanız, artık sosyal hesabınızla giriş yapamazsınız. Devam edip %1 şifrenizi sıfırlamak ister misiniz?"
 
+#~ msgctxt "Customer.io email: mf_sign-up_real "
+#~ msgid "Key information documents"
+#~ msgstr "Anahtar bilgi belgeleri"
+
 #~ msgctxt "Customer.io email: crypto-withdrawal-rejected "
 #~ msgid "Make a withdrawal from your %1 account via %2%3%4."
 #~ msgstr "%1 hesabınızdan %2%3%4 yolu ile para çekme işlemi yapın."
@@ -9852,6 +9881,10 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 
 #~ msgid "This address can only be used once to make a deposit."
 #~ msgstr "Bu adres sadece bir kez para yatırmak için kullanılabilir."
+
+#~ msgctxt "Customer.io email: mf_sign-up_real "
+#~ msgid "This email is intended for Retail and Professional clients. Deriv Investments (Europe) Limited is licensed and regulated in Malta under the Investment Services Act (Cap.370) by the Malta Financial Services Authority, having its registered office at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta and is both the manufacturer and distributor of its products."
+#~ msgstr "Bu e-posta Bireysel ve Profesyonel müşteriler için hazırlanmıştır. Deriv Investments (Europe) Limited, Malta'da Malta Finansal Hizmetler Yasası (Cap.370) kapsamında lisanslanmıştır ve denetlenmektedir, kayıtlı ofisi W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta'dır, ve ürünlerinin hem üreticisi hem de distribütörüdür."
 
 #~ msgid "This may be because you have a Binary.com account. If you do, you can just %1log in to DerivCrypto%2 with your Binary.com email and password."
 #~ msgstr "Bunun nedeni Binary.com hesabınızın olması olabilir. Bunu yaparsanız, Binary.com e-postanız ve parolanızla %1DerivCrypto'da oturum açabilirsiniz%2."
