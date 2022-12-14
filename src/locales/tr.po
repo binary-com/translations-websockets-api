@@ -1187,6 +1187,9 @@ msgctxt "Customer.io email: Welcome email SVG "
 msgid "Choose a Financial or Derived account to trade the way you want."
 msgstr "İstediğiniz şekilde ticaret yapmak için bir Finansal veya Türev hesap seçin."
 
+msgid "Choose a barrier level which makes the contract worthless if being crossed by the spot market"
+msgstr ""
+
 msgctxt "Customer.io email: eu_sign-up_real-fr "
 msgid "Choose a payment method available to you."
 msgstr "Kullanabileceğiniz bir ödeme yöntemi seçin."
@@ -2405,8 +2408,10 @@ msgctxt "Customer.io email: KYC Account Verify "
 msgid "Great, take me to Deriv"
 msgstr "Harika, beni Deriv'e götür"
 
-msgid "GrowthRate value %1 is not in this allowable list: %2."
-msgstr "Büyüme Oranı değeri olan %1 izin verilen listede değil: %2."
+#, fuzzy
+#| msgid "Multiplier is not in acceptable range. Accepts %1."
+msgid "Growth rate is not in acceptable range. Accepts %1."
+msgstr "Çarpan kabul edilebilir aralıkta değil. %1 kabul ediyor."
 
 msgid "Guatemalan Quetzal"
 msgstr "Guatemala Quetzalı"
@@ -3611,6 +3616,11 @@ msgstr "Bayan"
 
 msgid "Missing or invalid required parameter."
 msgstr "Eksik veya geçersiz gerekli parametre."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (%1)."
+msgid "Missing required contract config."
+msgstr "Gerekli kontrat parametreleri (%1) eksik."
 
 msgid "Missing required contract parameters (%1)."
 msgstr "Gerekli kontrat parametreleri (%1) eksik."
@@ -6729,6 +6739,17 @@ msgstr "Tekrar deneyin"
 msgid "Tunisian Dinar"
 msgstr "Tunus Dinarı"
 
+msgid "Turbos Call"
+msgstr ""
+
+#, fuzzy
+#| msgid "Transactions"
+msgid "Turbos Options"
+msgstr "İşlemler"
+
+msgid "Turbos Put"
+msgstr ""
+
 msgid "Turkish Lira"
 msgstr "Türk Lirası"
 
@@ -7908,9 +7929,6 @@ msgctxt "Customer.io email: test2-options "
 msgid "Why you should trade digital options on Deriv"
 msgstr "Neden Deriv'de dijital opsiyon ticareti yapmalısınız"
 
-msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
-msgstr "%1'de ± %3%'ü geçmeyen her tik değişimi için bahsinizin %2'sini kazanın."
-
 msgid "Win %5% of your stake for every 1% fall in %1."
 msgstr "%1'deki her %1 düşüş için bahsinizin %5%'ini kazanın."
 
@@ -8072,6 +8090,11 @@ msgstr "%1'in %5 tiki tüm %3'lük işaretler arasında en yüksekse, ödemeyi k
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "%1'in %5 tiki tüm %3'lük işaretler arasında en düşükse, ödemeyi kazanın."
+
+#, fuzzy
+#| msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+msgstr "%1'in son tiki %plural(%3,%d onay,%d onay) ortalamasından kesinlikle yüksekse ödeme kazanın."
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 after %plural(%3,%d tick,%d ticks)."
 msgstr "%1'in çıkış tiki %plural(%3,%d tik,%d tick)'den sonra %4 ile %5 arasındaysa %7 %6'ya kadar kazanın."
@@ -9658,6 +9681,9 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 #~ msgid "Gold Index"
 #~ msgstr "Altın Endeksi"
 
+#~ msgid "GrowthRate value %1 is not in this allowable list: %2."
+#~ msgstr "Büyüme Oranı değeri olan %1 izin verilen listede değil: %2."
+
 #~ msgid "Having trouble with the button?"
 #~ msgstr "Düğmede sorun mu yaşıyorsunuz?"
 
@@ -10291,6 +10317,9 @@ msgstr "© %1 Deriv, Tüm hakları saklıdır."
 
 #~ msgid "When you’ve done the transfer, inform our Customer Support team via live chat."
 #~ msgstr "Transferi tamamladığınızda, canlı sohbet yoluyla Müşteri Destek ekibimizi bilgilendirin."
+
+#~ msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
+#~ msgstr "%1'de ± %3%'ü geçmeyen her tik değişimi için bahsinizin %2'sini kazanın."
 
 #~ msgid "Withdraw %1 (%2) to your personal wallet"
 #~ msgstr "Kişisel cüzdanınıza %1 (%2) para çekin"

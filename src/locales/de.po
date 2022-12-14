@@ -1195,6 +1195,9 @@ msgctxt "Customer.io email: Welcome email SVG "
 msgid "Choose a Financial or Derived account to trade the way you want."
 msgstr "Wählen Sie ein Finanz-, Finanz-STP- oder Synthetisches Konto, um so zu handeln, wie Sie es wünschen."
 
+msgid "Choose a barrier level which makes the contract worthless if being crossed by the spot market"
+msgstr ""
+
 #, fuzzy
 #| msgid "Choose the payment method you'd like to use."
 msgctxt "Customer.io email: eu_sign-up_real-fr "
@@ -2438,8 +2441,10 @@ msgctxt "Customer.io email: KYC Account Verify "
 msgid "Great, take me to Deriv"
 msgstr "Toll, bring mich zu Deriv"
 
-msgid "GrowthRate value %1 is not in this allowable list: %2."
-msgstr "Der GrowthRate-Wert %1 ist nicht in dieser zulässigen Liste enthalten: %2."
+#, fuzzy
+#| msgid "Barrier is out of acceptable range."
+msgid "Growth rate is not in acceptable range. Accepts %1."
+msgstr "Schwelle liegt außerhalb des akzeptablen Bereichs."
 
 msgid "Guatemalan Quetzal"
 msgstr "Guatemaltekischer Quetzal"
@@ -3782,6 +3787,11 @@ msgstr "Verpasst"
 #| msgid "Invalid request."
 msgid "Missing or invalid required parameter."
 msgstr "Ungültige Anforderung."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (underlying)."
+msgid "Missing required contract config."
+msgstr "Notwendige Kontrakt-Parameter fehlen (Basiswert)."
 
 msgid "Missing required contract parameters (%1)."
 msgstr "Notwendige Kontrakt-Parameter fehlen (%1)."
@@ -7695,6 +7705,17 @@ msgstr "Erneut spielen"
 msgid "Tunisian Dinar"
 msgstr "Tunesischer Dinar"
 
+msgid "Turbos Call"
+msgstr ""
+
+#, fuzzy
+#| msgid "Transactions"
+msgid "Turbos Options"
+msgstr "Transaktionen"
+
+msgid "Turbos Put"
+msgstr ""
+
 msgid "Turkish Lira"
 msgstr "Türkische Lira"
 
@@ -9327,9 +9348,6 @@ msgctxt "Customer.io email: test2-options "
 msgid "Why you should trade digital options on Deriv"
 msgstr ""
 
-msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
-msgstr ""
-
 msgid "Win %5% of your stake for every 1% fall in %1."
 msgstr ""
 
@@ -9491,6 +9509,11 @@ msgstr "Gewinnen Sie eine Auszahlung, wenn der Tick %5 von %1 der höchste unter
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Gewinnen Sie eine Auszahlung, wenn der Tick %5 von %1 der niedrigste unter allen %3 Ticks ist."
+
+#, fuzzy
+#| msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+msgstr "Gewinnen Sie eine Auszahlung, wenn der letzte Tick von %1 eindeutig höher als der Durchschnitt des/der %plural(%3,%d Tick,%d Ticks) ist."
 
 #, fuzzy
 #| msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 at %3."
@@ -18810,6 +18833,9 @@ msgstr ""
 #~ msgid "Groupon Inc."
 #~ msgstr "Groupon Inc."
 
+#~ msgid "GrowthRate value %1 is not in this allowable list: %2."
+#~ msgstr "Der GrowthRate-Wert %1 ist nicht in dieser zulässigen Liste enthalten: %2."
+
 #~ msgid "Guide to Financial Trading"
 #~ msgstr "Anleitung für Finanz-Trading"
 
@@ -21588,9 +21614,6 @@ msgstr ""
 
 #~ msgid "Missing required contract parameters (multiplier)."
 #~ msgstr "Notwendige Kontrakt-Parameter fehlen (Multiplikator)."
-
-#~ msgid "Missing required contract parameters (underlying)."
-#~ msgstr "Notwendige Kontrakt-Parameter fehlen (Basiswert)."
 
 #, fuzzy
 #~| msgid "Shinhan Financial"

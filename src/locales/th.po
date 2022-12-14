@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2022-12-14 20:05+0000\n"
 "Last-Translator: Premyuda Boonroj <premyuda@regentmarkets.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/th/>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/translations/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1187,6 +1186,9 @@ msgstr "เปโซชิลี"
 msgctxt "Customer.io email: Welcome email SVG "
 msgid "Choose a Financial or Derived account to trade the way you want."
 msgstr "เลือกบัญชี Financial หรือ Derived เพื่อทำการซื้อขายในแบบที่คุณต้องการ"
+
+msgid "Choose a barrier level which makes the contract worthless if being crossed by the spot market"
+msgstr ""
 
 msgctxt "Customer.io email: eu_sign-up_real-fr "
 msgid "Choose a payment method available to you."
@@ -2406,8 +2408,10 @@ msgctxt "Customer.io email: KYC Account Verify "
 msgid "Great, take me to Deriv"
 msgstr "เยี่ยมเลย พาฉันไปที่ Deriv"
 
-msgid "GrowthRate value %1 is not in this allowable list: %2."
-msgstr "ค่าอัตราการเติบโต %1 ไม่อยู่ในรายการที่อนุญาตนี้: %2"
+#, fuzzy
+#| msgid "Multiplier is not in acceptable range. Accepts %1."
+msgid "Growth rate is not in acceptable range. Accepts %1."
+msgstr "ตัวคูณนั้นไม่อยู่ในช่วงระยะที่ยอมรับได้ ที่ยอมรับคือ %1"
 
 msgid "Guatemalan Quetzal"
 msgstr "เกตซัลกัวเตมาลา"
@@ -3613,6 +3617,11 @@ msgstr "นางสาว"
 
 msgid "Missing or invalid required parameter."
 msgstr "ตัวแปรพารามิเตอร์ตามที่ต้องมีนั้นขาดหายไปหรือไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (underlying)."
+msgid "Missing required contract config."
+msgstr "ไม่มีตัวแปร (สินค้าอ้างอิง) ที่ต้องการในสัญญา"
 
 msgid "Missing required contract parameters (%1)."
 msgstr "ไม่พบตัวแปรพารามิเตอร์สัญญาตามที่ต้องมี (%1)"
@@ -6731,6 +6740,17 @@ msgstr "ลองอีกครั้ง"
 msgid "Tunisian Dinar"
 msgstr "ดีนาร์ตูนิเซีย"
 
+msgid "Turbos Call"
+msgstr ""
+
+#, fuzzy
+#| msgid "Transactions"
+msgid "Turbos Options"
+msgstr "ธุรกรรม"
+
+msgid "Turbos Put"
+msgstr ""
+
 msgid "Turkish Lira"
 msgstr "ลีราตุรกี"
 
@@ -7910,9 +7930,6 @@ msgctxt "Customer.io email: test2-options "
 msgid "Why you should trade digital options on Deriv"
 msgstr "ทำไมคุณควรซื้อขายแลกเปลี่ยนตราสารสิทธิหรือออปชั่นบน Deriv"
 
-msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
-msgstr "ทำกำไรได้ %2% จากเงินลงทุนของคุณในทุกการเคลื่อนไหวจุด tick ใน %1 ซึ่งไม่เกิน ± %3%"
-
 msgid "Win %5% of your stake for every 1% fall in %1."
 msgstr "ทำกำไรได้ %5% ของเงินลงทุนของคุณสําหรับทุก 1% ที่ขยับตัวลงของ %1"
 
@@ -8074,6 +8091,11 @@ msgstr "ได้รับเงินตอบแทน หากจุด Tick
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "ได้รับเงินตอบแทน หากจุด Tick %5 ของ %1 เป็นค่าต่ำสุดจากบรรดาจุด Tick ทั้งหมด %3 ตัว"
+
+#, fuzzy
+#| msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+msgstr "ได้รับเงินตอบแทน หากจุด Tick อันสุดท้ายของ %1 มีค่าสูงกว่าค่าเฉลี่ยของ %หลายตัว(%3, จุด Tick %d, จุด Tick %d)"
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 after %plural(%3,%d tick,%d ticks)."
 msgstr "ทำเงินตอบแทนได้ถึง %7 %6 หากจุด Tick อันสุดท้ายมีค่าระหว่าง %4 และ %5 หลังจาก %หลายตัว(%3, จุด Tick %d, จุด Tick %d)"
@@ -8866,8 +8888,7 @@ msgid "Your document appears to be damaged or cropped."
 msgstr "เอกสารของคุณดูเหมือนจะเสียหายหรือถูกครอบตัด"
 
 msgid "Your document appears to be in black and white. Please upload a colour photo of your document."
-msgstr ""
-"เอกสารของคุณดูเหมือนจะเป็นภาพขาวดํา กรุณาอัปโหลดรูปถ่ายสีของเอกสารของคุณ"
+msgstr "เอกสารของคุณดูเหมือนจะเป็นภาพขาวดํา กรุณาอัปโหลดรูปถ่ายสีของเอกสารของคุณ"
 
 msgid "Your document appears to be invalid."
 msgstr "เอกสารของคุณดูเหมือนจะไม่ถูกต้อง"
@@ -8900,29 +8921,19 @@ msgid "Your email address looks familiar"
 msgstr "ที่อยู่อีเมล์ของคุณดูคุ้นๆ"
 
 msgid "Your email and/or password is incorrect. Perhaps you signed up with a social account?"
-msgstr ""
-"อีเมล์หรือรหัสผ่านของคุณไม่ถูกต้อง "
-"บางทีคุณอาจสมัครใช้งานโดยใช้บัญชีโซเชียลหรือเปล่า?"
+msgstr "อีเมล์หรือรหัสผ่านของคุณไม่ถูกต้อง บางทีคุณอาจสมัครใช้งานโดยใช้บัญชีโซเชียลหรือเปล่า?"
 
 msgid "Your existing account does not allow %1 trading. To open a %1 account, please upgrade to a financial account."
-msgstr ""
-"บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขายใน %1 หากต้องการเปิดบัญชี %1 "
-"โปรดอัปเกรดเป็นบัญชี Financial"
+msgstr "บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขายใน %1 หากต้องการเปิดบัญชี %1 โปรดอัปเกรดเป็นบัญชี Financial"
 
 msgid "Your existing account does not allow %1 trading. To open a %1 account, please upgrade to a gaming account."
-msgstr ""
-"บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขาย %1 หากต้องการเปิดบัญชี %1 "
-"โปรดอัปเกรดเป็นบัญชี Gaming"
+msgstr "บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขาย %1 หากต้องการเปิดบัญชี %1 โปรดอัปเกรดเป็นบัญชี Gaming"
 
 msgid "Your existing account does not allow MT5 trading. To open an MT5 account, please upgrade to a financial account."
-msgstr ""
-"บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขายใน MT5 หากต้องการเปิดบัญชี MT5 "
-"โปรดอัปเกรดเป็นบัญชี Financial"
+msgstr "บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขายใน MT5 หากต้องการเปิดบัญชี MT5 โปรดอัปเกรดเป็นบัญชี Financial"
 
 msgid "Your existing account does not allow MT5 trading. To open an MT5 account, please upgrade to a gaming account."
-msgstr ""
-"บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขาย MT5 หากต้องการเปิดบัญชี MT5 "
-"โปรดอัปเกรดเป็นบัญชี Gaming"
+msgstr "บัญชีที่มีอยู่ของคุณไม่อนุญาตให้ทำการซื้อขาย MT5 หากต้องการเปิดบัญชี MT5 โปรดอัปเกรดเป็นบัญชี Gaming"
 
 msgctxt "Customer.io email: test2-options "
 msgid "Your favourite markets"
@@ -8935,15 +8946,10 @@ msgid "Your funds will be credited after a maximum of 3 confirmations on the blo
 msgstr "คุณจะได้รับเงินของคุณหลังจากได้รับการยืนยัน 3 ครั้งจากบล็อกเชน"
 
 msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and create your MT5 Financial STP account."
-msgstr ""
-"เอกสารระบุตัวตนของคุณหมดอายุแล้ว "
-"ไปที่โปรไฟล์บัญชีของคุณเพื่อส่งเอกสารที่ถูกต้องและสร้างบัญชี MT5 Financial "
-"STP ของคุณ"
+msgstr "เอกสารระบุตัวตนของคุณหมดอายุแล้ว ไปที่โปรไฟล์บัญชีของคุณเพื่อส่งเอกสารที่ถูกต้องและสร้างบัญชี MT5 Financial STP ของคุณ"
 
 msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and unlock your cashier."
-msgstr ""
-"เอกสารประจําตัวของคุณหมดอายุแล้ว "
-"ไปที่โปรไฟล์บัญชีของคุณเพื่อส่งเอกสารที่ถูกต้องและปลดล็อกแคชเชียร์ของคุณ"
+msgstr "เอกสารประจําตัวของคุณหมดอายุแล้ว ไปที่โปรไฟล์บัญชีของคุณเพื่อส่งเอกสารที่ถูกต้องและปลดล็อกแคชเชียร์ของคุณ"
 
 msgid "Your last name cannot be changed."
 msgstr "นามสกุลของคุณ ไม่สามารถเปลี่ยนแปลงได้"
@@ -9004,19 +9010,13 @@ msgid "Your order has expired"
 msgstr "คำสั่งซื้อขายของคุณหมดอายุแล้ว"
 
 msgid "Your password must be 8 to 25 characters long. It must include lowercase and uppercase letters, and numbers."
-msgstr ""
-"รหัสผ่านของคุณควรมีอย่างน้อย 8 ถึง 25 อักขระ ประกอบด้วยอักษรตัวพิมพ์เล็ก "
-"ตัวพิมพ์ใหญ่และตัวเลข"
+msgstr "รหัสผ่านของคุณควรมีอย่างน้อย 8 ถึง 25 อักขระ ประกอบด้วยอักษรตัวพิมพ์เล็ก ตัวพิมพ์ใหญ่และตัวเลข"
 
 msgid "Your payout will be %5 for each point above %4 at expiry time"
-msgstr ""
-"เงินตอบแทนของคุณจะเท่ากับ 5% สำหรับแต่ละจุดที่มากกว่า %4 ณ "
-"เวลาที่สัญญาหมดอายุ"
+msgstr "เงินตอบแทนของคุณจะเท่ากับ 5% สำหรับแต่ละจุดที่มากกว่า %4 ณ เวลาที่สัญญาหมดอายุ"
 
 msgid "Your payout will be %5 for each point below %4 at expiry time"
-msgstr ""
-"เงินตอบแทนของคุณจะเท่ากับ 5% สำหรับแต่ละจุดที่มากกว่า 4% ณ "
-"เวลาที่สัญญาหมดอายุ"
+msgstr "เงินตอบแทนของคุณจะเท่ากับ 5% สำหรับแต่ละจุดที่มากกว่า 4% ณ เวลาที่สัญญาหมดอายุ"
 
 msgid "Your place of birth cannot be changed."
 msgstr "สถานที่เกิดของคุณ ไม่สามารถเปลี่ยนแปลงได้"
@@ -9074,21 +9074,15 @@ msgid "Your proof of payment must show the following information:"
 msgstr "หลักฐานการชำระเงินของคุณต้องแสดงข้อมูลต่อไปนี้:"
 
 msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site."
-msgstr ""
-"อีเมล์ของคุณถูกนำมาใช้ลงทะเบียนโดยผู้ใช้งานอีกบัญชีหนึ่งแล้ว ทั้งนี้ "
-"ตามข้อตกลงและเงื่อนไข คุณสามารถลงทะเบียนได้เพียงครั้งเดียวกับเว็บไซต์ของเรา"
+msgstr "อีเมล์ของคุณถูกนำมาใช้ลงทะเบียนโดยผู้ใช้งานอีกบัญชีหนึ่งแล้ว ทั้งนี้ ตามข้อตกลงและเงื่อนไข คุณสามารถลงทะเบียนได้เพียงครั้งเดียวกับเว็บไซต์ของเรา"
 
 msgctxt "Customer.io email: eu-welcome (minus france) "
 msgid "Your risk-free demo account is loaded with $10K in virtual funds so you can explore any of Deriv platforms and sharpen your trading skills."
-msgstr ""
-"บัญชีทดลองที่ไร้ความเสี่ยงของคุณนั้นมาพร้อมเงินเสมือน $10,000 "
-"คุณจึงสามารถเข้าดูแพลตฟอร์ม Deriv อันใดๆ ก็ได้และฝึกฝนทักษะการเทรดของคุณได้"
+msgstr "บัญชีทดลองที่ไร้ความเสี่ยงของคุณนั้นมาพร้อมเงินเสมือน $10,000 คุณจึงสามารถเข้าดูแพลตฟอร์ม Deriv อันใดๆ ก็ได้และฝึกฝนทักษะการเทรดของคุณได้"
 
 msgctxt "Customer.io email: Welcome email SVG "
 msgid "Your risk-free demo account is loaded with %1$10K%2 in virtual funds so you can explore any of Deriv platforms and sharpen your trading skills."
-msgstr ""
-"บัญชีทดลองที่ไร้ความเสี่ยงของคุณมาพร้อมเงินเสมือน $10,000 "
-"คุณจึงสามารถเข้าดูแพลตฟอร์มใดๆ ของ Deriv และฝึกฝนทักษะการซื้อขายของคุณได้"
+msgstr "บัญชีทดลองที่ไร้ความเสี่ยงของคุณมาพร้อมเงินเสมือน $10,000 คุณจึงสามารถเข้าดูแพลตฟอร์มใดๆ ของ Deriv และฝึกฝนทักษะการซื้อขายของคุณได้"
 
 msgctxt "Customer.io email: buyer-unreleased-initial "
 msgid "Your role in the exchange: %1%2Buyer%3%4"
@@ -9108,10 +9102,7 @@ msgid "Your secret question cannot be changed."
 msgstr "คำถามความปลอดภัยของคุณ ไม่อาจเปลี่ยนแปลงได้"
 
 msgid "Your selfie isn't clear. Please take a clearer photo and try again. Ensure that there's enough light where you are and that your entire face is in the frame."
-msgstr ""
-"เซลฟี่ของคุณไม่ชัดเจน กรุณาถ่ายภาพให้ชัดเจนขึ้นแล้วลองอีกครั้ง "
-"ตรวจดูให้แน่ใจว่า มีแสงเพียงพอในที่ๆ "
-"คุณอยู่และแสดงใบหน้าทั้งหมดของคุณอยู่ในกรอบภาพ"
+msgstr "เซลฟี่ของคุณไม่ชัดเจน กรุณาถ่ายภาพให้ชัดเจนขึ้นแล้วลองอีกครั้ง ตรวจดูให้แน่ใจว่า มีแสงเพียงพอในที่ๆ คุณอยู่และแสดงใบหน้าทั้งหมดของคุณอยู่ในกรอบภาพ"
 
 msgid "Your tax identification number cannot be changed."
 msgstr "หมายเลขผู้เสียภาษีของคุณ ไม่สามารถเปลี่ยนแปลงได้"
@@ -9140,24 +9131,17 @@ msgid "Your withdrawal is successful."
 msgstr "การถอนเงินของคุณสําเร็จแล้ว"
 
 msgid "Your withdrawal is unsuccessful due to an error. Please contact us via live chat for more info."
-msgstr ""
-"การถอนเงินของคุณไม่สําเร็จเนื่องจากเกิดข้อผิดพลาด "
-"กรุณาติดต่อเราผ่านแชทสดสําหรับข้อมูลเพิ่มเติม"
+msgstr "การถอนเงินของคุณไม่สําเร็จเนื่องจากเกิดข้อผิดพลาด กรุณาติดต่อเราผ่านแชทสดสําหรับข้อมูลเพิ่มเติม"
 
 msgid "Your withdrawal is unsuccessful. Please make sure you have enough funds in your account."
-msgstr ""
-"รายการถอนของคุณนั้นไม่สําเร็จ โปรดตรวจสอบให้แน่ใจว่า "
-"มีเงินเพียงพอในบัญชีของคุณ"
+msgstr "รายการถอนของคุณนั้นไม่สําเร็จ โปรดตรวจสอบให้แน่ใจว่า มีเงินเพียงพอในบัญชีของคุณ"
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
-msgstr ""
-"การถอนเงินของคุณนั้นไม่สําเร็จ เราได้ส่งอีเมล์ถึงคุณพร้อมข้อมูลเพิ่มเติม"
+msgstr "การถอนเงินของคุณนั้นไม่สําเร็จ เราได้ส่งอีเมล์ถึงคุณพร้อมข้อมูลเพิ่มเติม"
 
 msgctxt "Customer.io email: crypto-withdrawal-rejected "
 msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
-msgstr ""
-"การถอนเงิน %1%2 %3%4 จากบัญชีของคุณ %5 ถูกปฏิเสธเนื่องจากไม่ได้ดำเนินการผ่าน "
-"Deriv P2P ซึ่งเป็นวิธีการฝากเงินตามปกติของคุณ"
+msgstr "การถอนเงิน %1%2 %3%4 จากบัญชีของคุณ %5 ถูกปฏิเสธเนื่องจากไม่ได้ดำเนินการผ่าน Deriv P2P ซึ่งเป็นวิธีการฝากเงินตามปกติของคุณ"
 
 msgctxt "Customer.io email: crypto-withdrawal-rejected "
 msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via a payment agent, your usual deposit method. We recommend using your usual payment agent for withdrawals."
@@ -14457,6 +14441,9 @@ msgstr "© %1 Deriv สงวนลิขสิทธิ์ทั้งหมด
 #~ msgid "Groupon Inc."
 #~ msgstr "Groupon Inc."
 
+#~ msgid "GrowthRate value %1 is not in this allowable list: %2."
+#~ msgstr "ค่าอัตราการเติบโต %1 ไม่อยู่ในรายการที่อนุญาตนี้: %2"
+
 #~ msgid "HDFC Bank Ltd"
 #~ msgstr "HDFC Bank Ltd"
 
@@ -16362,9 +16349,6 @@ msgstr "© %1 Deriv สงวนลิขสิทธิ์ทั้งหมด
 
 #~ msgid "Missing required contract parameters (multiplier)."
 #~ msgstr "ไม่มีตัวแปร (multiplier) ที่ต้องการในสัญญา"
-
-#~ msgid "Missing required contract parameters (underlying)."
-#~ msgstr "ไม่มีตัวแปร (สินค้าอ้างอิง) ที่ต้องการในสัญญา"
 
 #~ msgid "Mo"
 #~ msgstr "จ"
@@ -19981,6 +19965,9 @@ msgstr "© %1 Deriv สงวนลิขสิทธิ์ทั้งหมด
 
 #~ msgid "Williams %R"
 #~ msgstr "Williams %R"
+
+#~ msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
+#~ msgstr "ทำกำไรได้ %2% จากเงินลงทุนของคุณในทุกการเคลื่อนไหวจุด tick ใน %1 ซึ่งไม่เกิน ± %3%"
 
 #~ msgid "Windows"
 #~ msgstr "ระบบปฏิบัติการวินโดว์"

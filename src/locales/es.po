@@ -1187,6 +1187,9 @@ msgctxt "Customer.io email: Welcome email SVG "
 msgid "Choose a Financial or Derived account to trade the way you want."
 msgstr "Elija entre una cuenta financiera o derivada para operar como quiera."
 
+msgid "Choose a barrier level which makes the contract worthless if being crossed by the spot market"
+msgstr ""
+
 msgctxt "Customer.io email: eu_sign-up_real-fr "
 msgid "Choose a payment method available to you."
 msgstr "Elija una forma de pago que esté disponible para usted."
@@ -2407,8 +2410,10 @@ msgctxt "Customer.io email: KYC Account Verify "
 msgid "Great, take me to Deriv"
 msgstr "Genial, llévame a Deriv"
 
-msgid "GrowthRate value %1 is not in this allowable list: %2."
-msgstr "El valor de GrowthRate %1 no está en esta lista permitida: %2."
+#, fuzzy
+#| msgid "Multiplier is not in acceptable range. Accepts %1."
+msgid "Growth rate is not in acceptable range. Accepts %1."
+msgstr "El multiplicador no está en un rango aceptable. Acepta %1."
 
 msgid "Guatemalan Quetzal"
 msgstr "Quetzal guatemalteco"
@@ -3613,6 +3618,11 @@ msgstr "Srta."
 
 msgid "Missing or invalid required parameter."
 msgstr "Parámetros faltantes o inválidos."
+
+#, fuzzy
+#| msgid "Missing required contract parameters (underlying)."
+msgid "Missing required contract config."
+msgstr "Faltan los parámetros de contrato requeridos (activo subyacente)."
 
 msgid "Missing required contract parameters (%1)."
 msgstr "Faltan los parámetros de contrato requeridos (%1)."
@@ -6731,6 +6741,17 @@ msgstr "Intentar de nuevo"
 msgid "Tunisian Dinar"
 msgstr "Dinar tunecino"
 
+msgid "Turbos Call"
+msgstr ""
+
+#, fuzzy
+#| msgid "Transactions"
+msgid "Turbos Options"
+msgstr "Transacciones"
+
+msgid "Turbos Put"
+msgstr ""
+
 msgid "Turkish Lira"
 msgstr "Lira turca"
 
@@ -7910,9 +7931,6 @@ msgctxt "Customer.io email: test2-options "
 msgid "Why you should trade digital options on Deriv"
 msgstr "Por qué debería operar con opciones digitales en Deriv"
 
-msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
-msgstr "Gane el %2% de su entrada por cada cambio de tick en %1 que no supere el ± %3%."
-
 msgid "Win %5% of your stake for every 1% fall in %1."
 msgstr "Gane %5% de su entrada por cada caída del 1% en %1."
 
@@ -8074,6 +8092,11 @@ msgstr "Ganar si el intervalo %5 de %1 es el más alto entre los %3 ticks."
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Ganar si el intervalo %5 de %1 es el más bajo entre los %3 ticks."
+
+#, fuzzy
+#| msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+msgstr "Ganar si el último intervalo de %1 es estrictamente mayor a la media de los %plural(%3,%d intervalo,%d intervalos)."
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 after %plural(%3,%d tick,%d ticks)."
 msgstr "Gana hasta %7 %6 si el intervalo de salida de %1 está entre %4 y %5 después %plural(%3,%d tick,%d ticks)."
@@ -17588,6 +17611,9 @@ msgstr "© %1 Deriv, Todos los derechos reservados."
 #~ msgid "Groupon Inc."
 #~ msgstr "Groupon Inc."
 
+#~ msgid "GrowthRate value %1 is not in this allowable list: %2."
+#~ msgstr "El valor de GrowthRate %1 no está en esta lista permitida: %2."
+
 #~ msgid "Guide to Financial Trading"
 #~ msgstr "Guía del comercio financiero"
 
@@ -20361,9 +20387,6 @@ msgstr "© %1 Deriv, Todos los derechos reservados."
 
 #~ msgid "Missing required contract parameters (multiplier)."
 #~ msgstr "Faltan los parámetros de contrato requeridos (multiplicador)."
-
-#~ msgid "Missing required contract parameters (underlying)."
-#~ msgstr "Faltan los parámetros de contrato requeridos (activo subyacente)."
 
 #~ msgid "Mitsubishi UFJ"
 #~ msgstr "Mitsubishi UFJ"
@@ -27703,6 +27726,9 @@ msgstr "© %1 Deriv, Todos los derechos reservados."
 
 #~ msgid "Win"
 #~ msgstr "Gana"
+
+#~ msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
+#~ msgstr "Gane el %2% de su entrada por cada cambio de tick en %1 que no supere el ± %3%."
 
 #~ msgid "Win 10-1000% on your stake if you are correct. Increase your winning return by choosing \"Stays In\" with a narrow price target."
 #~ msgstr "Obtenga una ganancia desde el 10% hasta el 1000% de su inversión si acierta. Para obtener una mayor ganancia escoja el contrato \"Queda dentro\" con un precio objetivo más ajustado."

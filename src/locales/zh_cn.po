@@ -1185,6 +1185,9 @@ msgctxt "Customer.io email: Welcome email SVG "
 msgid "Choose a Financial or Derived account to trade the way you want."
 msgstr "选择金融或衍生账户以您想要的方式交易。"
 
+msgid "Choose a barrier level which makes the contract worthless if being crossed by the spot market"
+msgstr ""
+
 msgctxt "Customer.io email: eu_sign-up_real-fr "
 msgid "Choose a payment method available to you."
 msgstr "选择可用的支付方式。"
@@ -2403,8 +2406,10 @@ msgctxt "Customer.io email: KYC Account Verify "
 msgid "Great, take me to Deriv"
 msgstr "好极了，请将我转到Deriv"
 
-msgid "GrowthRate value %1 is not in this allowable list: %2."
-msgstr "GrowthRate 值 %1 不在此允许列表中：%2。"
+#, fuzzy
+#| msgid "Multiplier is not in acceptable range. Accepts %1."
+msgid "Growth rate is not in acceptable range. Accepts %1."
+msgstr "乘数值不在可接受范围内。接受%1。"
 
 msgid "Guatemalan Quetzal"
 msgstr "危地马拉格查尔"
@@ -3609,6 +3614,11 @@ msgstr "小姐"
 
 msgid "Missing or invalid required parameter."
 msgstr "缺少或无效的必填参数。"
+
+#, fuzzy
+#| msgid "Missing required contract parameters (underlying)."
+msgid "Missing required contract config."
+msgstr "遗漏所需合约参数(标的)。"
 
 msgid "Missing required contract parameters (%1)."
 msgstr "遗漏所需合约参数(%1)。"
@@ -6727,6 +6737,17 @@ msgstr "重试"
 msgid "Tunisian Dinar"
 msgstr "突尼斯第纳尔"
 
+msgid "Turbos Call"
+msgstr ""
+
+#, fuzzy
+#| msgid "Transactions"
+msgid "Turbos Options"
+msgstr "交易"
+
+msgid "Turbos Put"
+msgstr ""
+
 msgid "Turkish Lira"
 msgstr "土耳其里拉"
 
@@ -7908,9 +7929,6 @@ msgctxt "Customer.io email: test2-options "
 msgid "Why you should trade digital options on Deriv"
 msgstr "为什么您应该在 Deriv 交易数字期权"
 
-msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
-msgstr "%1 中每跳动点变化不超过 ± %3%，可赢得投注额的 %2% 。"
-
 msgid "Win %5% of your stake for every 1% fall in %1."
 msgstr "%1每下跌1%，您可赢得投注额的 %5% 。"
 
@@ -8072,6 +8090,11 @@ msgstr "如果%1的%5跳动点为所有%3跳动点的最高值，将获得赔付
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "如果%1的%5跳动点为所有%3跳动点的最低值，将获得赔付额。"
+
+#, fuzzy
+#| msgid "Win payout if the last tick of %1 is strictly higher than the average of the %plural(%3,%d tick,%d ticks)."
+msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+msgstr "如果%1的最新跳动点严格高于%plural(%3,%d 跳动点) 的平均价格，将获得赔付额。"
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 after %plural(%3,%d tick,%d ticks)."
 msgstr "如果%1的退市跳动点在%复数(%3,%d 跳动点,%d 跳动点)以后处于%4与%5之间，将获赔付额高达%7 %6。"
@@ -18294,6 +18317,9 @@ msgstr "© %1 Deriv 保留所有权利。"
 #~ msgid "Groupon Inc."
 #~ msgstr "高朋团购股份有限公司"
 
+#~ msgid "GrowthRate value %1 is not in this allowable list: %2."
+#~ msgstr "GrowthRate 值 %1 不在此允许列表中：%2。"
+
 #~ msgid "Guide to Financial Trading"
 #~ msgstr "金融交易指南"
 
@@ -21333,9 +21359,6 @@ msgstr "© %1 Deriv 保留所有权利。"
 
 #~ msgid "Missing required contract parameters (multiplier)."
 #~ msgstr "遗漏所需合约参数(倍数值)。"
-
-#~ msgid "Missing required contract parameters (underlying)."
-#~ msgstr "遗漏所需合约参数(标的)。"
 
 #~ msgid "Mitchells & Butlers"
 #~ msgstr "Mitchells & Butlers"
@@ -29535,6 +29558,9 @@ msgstr "© %1 Deriv 保留所有权利。"
 
 #~ msgid "Win"
 #~ msgstr "赚"
+
+#~ msgid "Win %2% of your stake for every tick change in %1 that does not exceed ± %3%."
+#~ msgstr "%1 中每跳动点变化不超过 ± %3%，可赢得投注额的 %2% 。"
 
 #~ msgid "Win 10-1000% on your stake if you are correct. Increase your winning return by choosing \"Stays In\" with a narrow price target."
 #~ msgstr "如果您预测正确，即可获得投注额 10%-1000% 的回报。要获得较高回报，可选择目标价比较近的“保持在范围之内”交易。"
