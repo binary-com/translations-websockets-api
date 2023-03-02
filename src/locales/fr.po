@@ -123,10 +123,6 @@ msgctxt "Customer.io email: p2p-buyer-has-paid "
 msgid "%1What if I haven’t received payment?%2 Please contact %3 via the DP2P chat channel to settle the order."
 msgstr "%1Que faire si je n'ai pas reçu de paiement ?%2 Veuillez contacter %3 via le chat DP2P pour compléter la commande."
 
-msgctxt "Customer.io email: test-payops-rejected "
-msgid "%1You don't have balance in your account.%2Your details are not correct.%3%4"
-msgstr ""
-
 msgid "%1i) If you’re using a bank card,%2 attach a clear picture of your bank card showing your name, and the first six and the last four digits of the card. Alternatively, you may provide your card’s bank statement that shows the same information."
 msgstr "%1i) Si vous utilisez une carte bancaire,%2 joignez une photo claire de votre carte bancaire avec votre nom, ainsi que les six premiers et les quatre derniers chiffres de la carte. Vous pouvez également fournir le relevé bancaire de votre carte contenant les mêmes informations."
 
@@ -1641,14 +1637,8 @@ msgid "Deriv X account management is currently suspended."
 msgstr "La gestion du compte Deriv X est actuellement suspendue."
 
 #, fuzzy
-#| msgid "Deriv MT5 account"
-msgctxt "Customer.io email: test-payops-rejected "
-msgid "Deriv account %1"
-msgstr "compte Deriv MT5"
-
-#, fuzzy
 #| msgid "Account ID: %1"
-msgctxt "Customer.io email: test-payops-complete "
+msgctxt "Customer.io email: test-payops-snipp "
 msgid "Deriv account ID %1"
 msgstr "Identifiant compte : %1"
 
@@ -2175,7 +2165,7 @@ msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "Suivez les instructions et les étapes qui s'affichent à l'écran pour télécharger votre pièce d'identité (passeport, permis de conduire ou carte d'identité) et un selfie."
 
-msgctxt "Customer.io email: test-payops-complete "
+msgctxt "Customer.io email: test-payops-snipp "
 msgid "For card withdrawals, it takes 5 to 15 working days, depending on the card's issuing bank."
 msgstr ""
 
@@ -2825,7 +2815,7 @@ msgstr "Si vous avez des questions, veuillez %1nous contacter%2 via le chat en d
 #, fuzzy
 #| msgctxt "Customer.io email: south-africa-zingpay-notice "
 #| msgid "If you have any questions, please %1contact us via live chat%2."
-msgctxt "Customer.io email: test-payops-complete "
+msgctxt "Customer.io email: test-payops-snipp "
 msgid "If you have any questions, please contact us via %1live chat%2 on our %3website%4."
 msgstr "Si vous avez des questions, veuillez %1nous contacter via le chat en direct%2."
 
@@ -4472,20 +4462,14 @@ msgstr "Paiement"
 
 #, fuzzy
 #| msgid "Payout processed"
-msgctxt "Customer.io email: test-payops-complete "
+msgctxt "Customer.io email: test-payops-snipp "
 msgid "Payout Complete"
 msgstr "Versement traité"
 
 #, fuzzy
 #| msgid "Payout processed"
-msgctxt "Customer.io email: test-payops-complete "
+msgctxt "Customer.io email: test-payops-snipp "
 msgid "Payout Completed"
-msgstr "Versement traité"
-
-#, fuzzy
-#| msgid "Payout processed"
-msgctxt "Customer.io email: test-payops-rejected "
-msgid "Payout Rejected"
 msgstr "Versement traité"
 
 msgid "Payout can not have more than %1 decimal places."
@@ -7386,13 +7370,6 @@ msgctxt "Customer.io email: VER01  Verify Email Closed Account Opening "
 msgid "Unfortunately, we couldn't create a new account for you because your email address is linked to a closed account."
 msgstr "Malheureusement, nous n'avons pas pu créer un nouveau compte pour vous, car votre adresse e-mail est liée à un compte fermé."
 
-#, fuzzy
-#| msgctxt "Customer.io email: KYC01 POI POA Resubmission "
-#| msgid "Unfortunately, we were unable to verify/authenticate your account due to the following reasons:"
-msgctxt "Customer.io email: test-payops-rejected "
-msgid "Unfortunately, we were unable to process your withdrawal request for %1 %2 for trace ID %3 due to the following reasons:"
-msgstr "Malheureusement, nous n'avons pas pu vérifier/authentifier votre compte pour les raisons suivantes :"
-
 msgctxt "Customer.io email: KYC01 POI POA Resubmission "
 msgid "Unfortunately, we were unable to verify/authenticate your account due to the following reasons:"
 msgstr "Malheureusement, nous n'avons pas pu vérifier/authentifier votre compte pour les raisons suivantes :"
@@ -7783,12 +7760,6 @@ msgstr "Nous fermons les comptes MT5 qui sont inactifs depuis plus de 30 jours. 
 msgid "We could not process this contract at this time."
 msgstr "Nous n'avons pas pu traiter ce contrat pour le moment."
 
-#, fuzzy
-#| msgid "We were unable to process your withdrawal"
-msgctxt "Customer.io email: test-payops-rejected "
-msgid "We could not process your withdrawal request"
-msgstr "Nous n'avons pas pu traiter votre retrait"
-
 msgid "We couldn't verify your account"
 msgstr "Nous n'avons pas pu vérifier votre compte"
 
@@ -7813,7 +7784,7 @@ msgstr "Nous vous encourageons à contacter directement l'acheteur pour résoudr
 #, fuzzy
 #| msgctxt "Customer.io email: VER01 Request Payment Withdrawal "
 #| msgid "Verify your withdrawal request"
-msgctxt "Customer.io email: test-payops-complete "
+msgctxt "Customer.io email: test-payops-snipp "
 msgid "We have approved your withdrawal request"
 msgstr "Vérifiez votre demande de retrait"
 
@@ -7832,9 +7803,12 @@ msgctxt "Customer.io email: SYS01 Closing underage accounts "
 msgid "We have closed your account and refunded any balance you might have had in your account."
 msgstr "Nous avons fermé votre compte et remboursé tout solde que vous aviez sur votre compte."
 
-msgctxt "Customer.io email: test-payops-complete "
+#, fuzzy
+#| msgctxt "Customer.io email: KYC01 POI POA Resubmission "
+#| msgid "Unfortunately, we were unable to verify/authenticate your account due to the following reasons:"
+msgctxt "Customer.io email: test-payops-snipp "
 msgid "We have successfully processed your withdrawal request for %1 %2 for trace ID %3"
-msgstr ""
+msgstr "Malheureusement, nous n'avons pas pu vérifier/authentifier votre compte pour les raisons suivantes :"
 
 msgid "We noticed that you previously logged in to Deriv using either <strong>Google</strong> or <strong>Facebook</strong>. If you reset your password now, you will need to login with your email and password in the future."
 msgstr "Nous avons remarqué que vous vous étiez déjà connecté à Deriv en utilisant soit <strong>Google</strong> ou <strong>Facebook</strong>. Si vous réinitialisez votre mot de passe maintenant, vous devrez vous connecter avec votre courriel et votre mot de passe à l'avenir."
@@ -15734,6 +15708,12 @@ msgstr "© %1 Deriv, Tous droits réservés."
 #~ msgid "Deprecated broker code"
 #~ msgstr "Code d'agent de change désapprouvé"
 
+#, fuzzy
+#~| msgid "Deriv MT5 account"
+#~ msgctxt "Customer.io email: test-payops-rejected "
+#~ msgid "Deriv account %1"
+#~ msgstr "compte Deriv MT5"
+
 #~ msgid "Derivative investment instruments such as Binary Options and related markets can be highly volatile. The prices of the underlying instrument which a Binary Options refers to may fluctuate rapidly and over wide ranges and may reflect unforeseeable events or changes in conditions, none of which can be controlled by you or %1."
 #~ msgstr "Des instruments d'investissement dérivés comme les Options Binaires et marchés liés peuvent être très volatils. Les prix de l'instrument sous-jacent auquel les Options Binaires font référence peut fluctuer rapidement et sur une large distance et peut refléter des événements imprévus ou des changements de conditions qui ne peuvent pas être contrôlés par vous ou %1."
 
@@ -21249,6 +21229,12 @@ msgstr "© %1 Deriv, Tous droits réservés."
 #~ msgid "Payout Currency"
 #~ msgstr "Devise du Versement"
 
+#, fuzzy
+#~| msgid "Payout processed"
+#~ msgctxt "Customer.io email: test-payops-rejected "
+#~ msgid "Payout Rejected"
+#~ msgstr "Versement traité"
+
 #~ msgid "Payout has moved in your favour from %1 to %2."
 #~ msgstr "Le gain a évolué en votre faveur de %1 à %2."
 
@@ -26529,6 +26515,12 @@ msgstr "© %1 Deriv, Tous droits réservés."
 
 #~ msgid "We could not authenticate your account online. Please proceed to the <a href=\"%1\">manual authentication section</a>. If you would like to register additional credit cards, please contact <a class=\"pjaxload\" href=\"%2\">customer support</a>."
 #~ msgstr "Nous n'avons pas pu authentifier votre compte en ligne. Veuillez consulter la <a href=\"%1\">section d'authentification manuelle</a>. Si vous désirez enregistrer des cartes bancaires supplémentaires, veuillez contacter le <a class=\"pjaxload\" href=\"%2\">service clientèle</a>."
+
+#, fuzzy
+#~| msgid "We were unable to process your withdrawal"
+#~ msgctxt "Customer.io email: test-payops-rejected "
+#~ msgid "We could not process your withdrawal request"
+#~ msgstr "Nous n'avons pas pu traiter votre retrait"
 
 #~ msgid "We could not properly determine the barriers for this contract."
 #~ msgstr "Nous n'avons pas pu déterminer correctement les barrières pour ce contrat."
