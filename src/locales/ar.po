@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-03-08 10:01+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/binary-websocket/translations/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.16.2-dev\n"
 
 msgid " before the transaction is reflected in your destination wallet."
@@ -3914,6 +3912,11 @@ msgstr "الحد الأدنى للمضاعف ٪1."
 msgid "Minimum order amount is %1. Please adjust the value."
 msgstr "الحد الأدنى لمبلغ الطلب هو 1٪. يرجى ضبط القيمة."
 
+#, fuzzy
+#| msgid "Maximum stake allowed is %1."
+msgid "Minimum stake allowed is %1."
+msgstr "الحد الأقصى للحصة المسموح بها هو 1٪."
+
 msgid "Minimum stake of %1 and maximum payout of %2. Current payout is %3."
 msgstr "الحد الأدنى للحصة 1٪ والحد الأقصى للدفع 2٪. العائد الحالي هو ٪3."
 
@@ -4880,6 +4883,11 @@ msgid "Please enter a payout amount that's at least %1."
 msgstr "الرجاء إدخال مبلغ عائد لا يقل عن 1٪."
 
 msgid "Please enter a stake amount that's at least %1."
+msgstr "الرجاء إدخال مبلغ حصة لا يقل عن 1٪."
+
+#, fuzzy
+#| msgid "Please enter a stake amount that's at least %1."
+msgid "Please enter a stake amount that's less than %1."
 msgstr "الرجاء إدخال مبلغ حصة لا يقل عن 1٪."
 
 msgid "Please enter a stop loss amount that's higher than %1."
@@ -6083,6 +6091,11 @@ msgstr "تم تعطيل المصادقة الثنائية (2FA) العتمدة �
 msgid "TRX/USD"
 msgstr "ترون/ دولار أمريكي"
 
+#, fuzzy
+#| msgid "MULTUP and MULTDOWN are not supported."
+msgid "TURBOSLONG and TURBOSPUT are not supported."
+msgstr "MULTUP و MULTDOWN غير مدعومين."
+
 msgid "TUSD/USD"
 msgstr "ترو يو إس دي/ دولار أمريكي"
 
@@ -6743,7 +6756,14 @@ msgstr "ستنتهي صلاحية هذا الرابط في ٪1 دقيقة. إذ�
 msgid "This market is presently closed."
 msgstr "هذه السوق مغلقة حاليا."
 
-msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
+#, fuzzy
+#| msgid "This market is presently closed."
+msgid "This market is presently closed. Market will open at %1."
+msgstr "هذه السوق مغلقة حاليا."
+
+#, fuzzy
+#| msgid "This market is presently closed. Try out the Synthetic Indices which are always open."
+msgid "This market is presently closed. Market will open at %1. Try out the Synthetic Indices which are always open."
 msgstr "هذه السوق مغلقة حاليا. جرب المؤشرات الاصطناعية التي تبقى مفتوحة على الدوام."
 
 msgid "This method of verification is not allowed. Please try another method."
@@ -7141,13 +7161,17 @@ msgstr "يرجى المحاولة مرة أخرى"
 msgid "Tunisian Dinar"
 msgstr "دينار تونسي"
 
-msgid "Turbos Call"
-msgstr "توربو كول"
+#, fuzzy
+#| msgid "Turbos Options"
+msgid "Turbos Long"
+msgstr "خيارات توربو"
 
 msgid "Turbos Options"
 msgstr "خيارات توربو"
 
-msgid "Turbos Put"
+#, fuzzy
+#| msgid "Turbos Put"
+msgid "Turbos Short"
 msgstr "وضع توربوس"
 
 msgid "Turkish Lira"
@@ -10296,6 +10320,9 @@ msgstr "©٪ 1 Deriv ، كافة الحقوق محفوظة."
 #~ msgctxt "Customer.io email: test1 - margin "
 #~ msgid "Trade with leverage and maximise potential profits"
 #~ msgstr "تداول برافعة مالية وحقق أقصى قدر من الأرباح المحتملة"
+
+#~ msgid "Turbos Call"
+#~ msgstr "توربو كول"
 
 #~ msgctxt "Customer.io email: test1-margin-thumbnail "
 #~ msgid "Use leverage to your advantage"
