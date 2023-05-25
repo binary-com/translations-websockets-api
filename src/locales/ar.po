@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-05-25 20:05+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/binary-websocket/translations/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.18-dev\n"
 
 msgid " before the transaction is reflected in your destination wallet."
@@ -123,6 +121,10 @@ msgstr "٪1 نرجو الحصول على إذن للوصول إلى حسابك �
 msgid "%1 would like permission to:"
 msgstr "٪1 نرجو الحصول على إذن ل:"
 
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "%1Action needed:%2 Please verify your identity and address before making a withdrawal. Go to %3Manage account settings &gt; Verification%4 to upload your documents."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_account_reactivated "
 msgid "%1Check your personal details%2%3Ensure your information is up-to-date."
 msgstr "تأكد من تحديث معلوماتك."
@@ -149,6 +151,20 @@ msgstr "٪1هام:٪2 يجب عليك إكمال الطلب في غضون ساع
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
 msgid "%1Note:%2 According to DP2P terms of use, the buyer and the seller are solely responsible for making sure that the payment is accurate. Deriv is not liable in any way to make corrections or compensations for any incorrect payment made by the buyer, including but not limited to overpayment and underpayment."
 msgstr "٪ 1ملاحظة: ٪ 2 وفقا لشروط استخدام DP2P ، يتحمل المشتري والبائع وحدهما المسؤولية عن التأكد من دقة عملية الدفع. Deriv ليست مسؤولة بأي شكل من الأشكال عن إجراء تصحيحات أو تعويضات عن أي مدفوعات غير صحيحة يقوم بها المشتري ، بما في ذلك على سبيل المثال لا الحصر الدفع الزائد والدفع الناقص."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "We accept a scan or a clear photo of your bank statement, utility bill, or affidavit. It must:"
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "%1Proof of address%2%3Upload a clear photo (or a scan) of your bank statement, utility bill, or affidavit. It must:"
+msgstr "نحن نقبل مسحا ضوئيا أو صورة واضحة لكشف حسابك المصرفي أو فاتورة الخدمات أو الإفادة الخطية. يجب:"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "We accept a scan or a clear photo of your passport, driving licence, or national identity card. It must:"
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "%1Proof of identity%2%3Upload a clear photo (or a scan) of your passport, driving licence, or national identity card. It must:"
+msgstr "نحن نقبل مسحا ضوئيا أو صورة واضحة لجواز سفرك أو رخصة القيادة أو بطاقة الهوية الوطنية. يجب:"
 
 msgctxt "Customer.io email: svg_all_transactional_account_reactivated "
 msgid "%1Reset your password%2%3Remember to use a strong password to safeguard your account."
@@ -378,6 +394,12 @@ msgctxt "field for payment method Other"
 msgid "Account ID / phone number / email"
 msgstr "معرف الحساب / رقم الهاتف / البريد الإلكتروني"
 
+#, fuzzy
+#| msgid "Account ID: %1"
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Account ID:"
+msgstr "معرف الحساب:٪ 1"
+
 msgid "Account ID: %1"
 msgstr "معرف الحساب:٪ 1"
 
@@ -503,6 +525,10 @@ msgstr "بعد تسجيل الدخول إلى حساب Deriv الخاص بك ، 
 msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
 msgid "After making full payment, please reply to this email to let us know."
 msgstr "بعد إجراء الدفع الكامل ، يرجى الرد على هذا البريد الإلكتروني لإعلامنا بذلك."
+
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "After we process your withdrawal, your funds will be available on your card within 15 working days."
+msgstr ""
 
 msgid "Air France KLM SA"
 msgstr "الخطوط الجوية الفرنسية KLM SA"
@@ -1641,16 +1667,11 @@ msgstr "Deriv P2P غير متوفر في بلدك."
 
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
 msgid "Deriv Investments (Europe) Limited is authorised to deal on its own account and is both the manufacturer and distributor of its products."
-msgstr ""
-"شركة Deriv Investments (Europe) Limited مصرح لها بالتعامل على حسابها الخاص "
-"وهي الشركة المصنعة والموزعة لمنتجاتها."
+msgstr "شركة Deriv Investments (Europe) Limited مصرح لها بالتعامل على حسابها الخاص وهي الشركة المصنعة والموزعة لمنتجاتها."
 
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
 msgid "Deriv Investments (Europe) Limited is licensed in Malta and regulated by the Malta Financial Services Authority under the Investment Services Act, to provide investment services in the European Union."
-msgstr ""
-"Deriv Investments (Europe) Limited مرخصة في مالطا ومنظمة من قبل هيئة الخدمات "
-"المالية في مالطا بموجب قانون خدمات الاستثمار ، لتقديم خدمات الاستثمار في "
-"الاتحاد الأوروبي."
+msgstr "Deriv Investments (Europe) Limited مرخصة في مالطا ومنظمة من قبل هيئة الخدمات المالية في مالطا بموجب قانون خدمات الاستثمار ، لتقديم خدمات الاستثمار في الاتحاد الأوروبي."
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv MT5"
@@ -2209,6 +2230,10 @@ msgstr "لأغراض أمنية، وضعنا القيود التالية على 
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "For security reasons, after the specified period:"
 msgstr "لأسباب أمنية ، بعد الفترة المحددة:"
+
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "For the following reason:"
+msgstr ""
 
 msgctxt "Customer.io email: svg_all_transactional_account_reactivated "
 msgid "For tips to protect yourself against gambling and security risks, %1 read our page%2 on secure and responsible trading."
@@ -2829,6 +2854,13 @@ msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "If you have any questions, %1contact us via live chat.%2"
 msgstr "إذا كانت لديك أي أسئلة ، ٪1اتصل بنا عبر الدردشة الحية.٪2"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
+#| msgid "If you have any questions, %1contact us via live chat%2."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "If you have any questions, contact us%1%2Live chat%3 | %4WhatsApp%5"
+msgstr "إذا كانت لديك أي أسئلة ، ٪1اتصل بنا عبر الدردشة الحية.٪2"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
 msgid "If you have any questions, please %1contact us via live chat%2."
 msgstr "إذا كانت لديك أي أسئلة، من فضلك %1 اتصل بنا عن طريق الدردشة الحية."
@@ -3138,6 +3170,20 @@ msgstr "يبدو أن رقم المستند الذي أدخلته غير صال�
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_expired "
 msgid "It looks like the document you submitted as proof of address failed our verification checks for your %1%2%3 account."
 msgstr "يبدو أن المستند الذي قدمته كدليل على العنوان لم يقبل في عمليات التحقق الخاصة بنا."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "Your crypto withdrawal request was declined because you are using a different payment method than the one used to deposit."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "It looks like you are using a different payment method than the one you used to deposit."
+msgstr "تم رفض طلب سحب العملات المشفرة الخاص بك لأنك تستخدم طريقة دفع مختلفة عن تلك المستخدمة للإيداع."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "Your crypto withdrawal request was declined because you are using a different payment method than the one used to deposit."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "It looks like you are using a different payment method than the one you usually use to make deposits."
+msgstr "تم رفض طلب سحب العملات المشفرة الخاص بك لأنك تستخدم طريقة دفع مختلفة عن تلك المستخدمة للإيداع."
 
 msgid "It looks like you have already made the request. Please try again later."
 msgstr "يبدو أنك قدمت الطلب بالفعل. يرجى إعادة المحاولة لاحقا."
@@ -4427,6 +4473,12 @@ msgctxt "Customer.io email: svg_nigeria_transactional_real_signup "
 msgid "Perfect Money"
 msgstr "بيرفاكت موني"
 
+#, fuzzy
+#| msgid "Please authenticate your account to proceed with withdrawals."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Perform more trades on your account before making a withdrawal."
+msgstr "يرجى مصادقة حسابك لمتابعة عمليات السحب."
+
 msgid "Perhaps you signed up with a social account?"
 msgstr "ربما قمت بالتسجيل باستخدام حساب وسائل التواصل الاجتماعي؟"
 
@@ -4735,6 +4787,13 @@ msgstr "يرجى تبديل الحسابات للتداول في هذه السو
 
 msgid "Please try later."
 msgstr "يرجى المحاولة لاحقا."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
+#| msgid "Remember to check if your payment agent is able to process crypto withdrawals. If not, you may need to transfer %1 to your %2 account first, and then withdraw through your payment agent."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Please try to make a withdrawal via your usual payment agent. If your payment agent isn't able to process crypto withdrawals, transfer your crypto funds to your %1 account, and then make a withdrawal via your payment agent."
+msgstr "تذكر التحقق مما إذا كان وكيل الدفع الخاص بك قادرًا على معالجة عمليات سحب العملات المشفرة. إذا لم يكن الأمر كذلك، فقد تحتاج إلى نقل %1 إلى حسابك %2 أولاً، ثم السحب من خلال وكيل الدفع الخاص بك."
 
 msgid "Please use Deriv P2P to make a withdrawal."
 msgstr "يرجى استخدام Deriv P2P لإجراء سحب."
@@ -5047,6 +5106,10 @@ msgstr "عروض الأسعار في الوقت الفعلي غير متوفرة
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
 msgid "Recipient's account details"
 msgstr "تفاصيل حساب المستلم"
+
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Reference no.:"
+msgstr ""
 
 msgid "Region added"
 msgstr "تمت إضافة المنطقة"
@@ -5498,6 +5561,10 @@ msgstr "عذرا، حسابك غير مصرح به لأي عمليات شراء 
 
 msgid "Sorry, your trading account is already linked to a wallet."
 msgstr "عذرا ، حساب التداول الخاص بك مرتبط بالفعل بمحفظة."
+
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Sorry, your withdrawal didn’t go through"
+msgstr ""
 
 msgid "South African Index"
 msgstr "مؤشر جنوب أفريقيا"
@@ -6327,10 +6394,7 @@ msgstr "عنوان البريد الإلكتروني هذا غير صالح."
 
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
 msgid "This email is a marketing email intended for Retail and Professional Clients and has been issued by Deriv Investments (Europe) Limited with the registered address: W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
-msgstr ""
-"هذا البريد الإلكتروني هو بريد إلكتروني تسويقي مخصص للعملاء الأفراد "
-"والمحترفين وقد تم إصداره من قبل Deriv Investments (Europe) Limited بعنوان "
-"مسجل: W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
+msgstr "هذا البريد الإلكتروني هو بريد إلكتروني تسويقي مخصص للعملاء الأفراد والمحترفين وقد تم إصداره من قبل Deriv Investments (Europe) Limited بعنوان مسجل: W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
 
 msgid "This email is already in use. Please use a different email."
 msgstr "هذا البريد الإلكتروني قيد الاستخدام بالفعل. يرجى استخدام بريد إلكتروني مختلف."
@@ -7767,6 +7831,13 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuy
 msgid "We encourage you to contact the buyer directly to resolve this. In the meantime, please provide your latest bank statement showing the payment received from the buyer. We accept bank statements in PDF. Screenshots and text messages (SMS) are not accepted."
 msgstr "نحن نشجعك على الاتصال بالمشتري مباشرة لحل هذه المشكلة. في غضون ذلك ، يرجى تقديم أحدث كشف حساب مصرفي يوضح الدفعة المستلمة من المشتري. نحن نقبل كشوف الحسابات المصرفية بصيغة PDF. لا يتم قبول لقطات الشاشة والرسائل النصية (SMS)."
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_payout_successful "
+#| msgid "We have approved your withdrawal request"
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "We had to decline your withdrawal request:"
+msgstr "لقد وافقنا على طلب السحب الخاص بك"
+
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have approved your withdrawal request"
 msgstr "لقد وافقنا على طلب السحب الخاص بك"
@@ -7865,10 +7936,7 @@ msgstr "سنحتاج إلى معالجة هذا الطلب يدويا بدلا �
 
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
 msgid "We will never share our email lists and other data with a third party. To learn more about how we protect your personal and financial information, please read our security and privacy policy."
-msgstr ""
-"لن نشارك أبدا قوائم البريد الإلكتروني والبيانات الأخرى التي لدينا مع طرف "
-"ثالث. لمعرفة المزيد حول كيفية حماية معلوماتك الشخصية والمالية، يرجى قراءة "
-"سياسة الأمان والخصوصية الخاصة بنا."
+msgstr "لن نشارك أبدا قوائم البريد الإلكتروني والبيانات الأخرى التي لدينا مع طرف ثالث. لمعرفة المزيد حول كيفية حماية معلوماتك الشخصية والمالية، يرجى قراءة سياسة الأمان والخصوصية الخاصة بنا."
 
 msgctxt "Customer.io email: svg_all_transactional_withdraw_account_verification "
 msgid "We will process your withdrawal request once your identity and address have been successfully verified. If we don’t receive your documents by the given date, we will decline your withdrawal request."
@@ -7880,6 +7948,13 @@ msgstr "نود أن نعلمك أنه تمت معالجة تحويل% 1% 2% 3% 4
 
 msgid "We would like to inform you that your %1 has been processed."
 msgstr "نود أن نعلمك أنه تمت معالجة ٪1 الخاص بك."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "To allow us to proceed, first transfer the funds back to your FIAT account. Then, reply to this email with permission for us to do a manual refund to your debit/credit card."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "We'll need to process this withdrawal manually. First, transfer your crypto funds to your %1 account. Then, reply to this email to give us permission to perform a refund on your card."
+msgstr "للسماح لنا بالمتابعة ، قم أولا بتحويل الأموال مرة أخرى إلى حساب فيات الخاص بك. بعد ذلك ، قم بالرد على هذا البريد الإلكتروني مع السماح لنا بإجراء استرداد يدوي لبطاقة الخصم / الائتمان الخاصة بك."
 
 msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
 msgstr "سنقوم بمعالجته في غضون 1-3 أيام عمل ، وإذا لم تكن هناك مشاكل ، فسنقوم بتمكين عمليات السحب والتحويلات الخاصة بك على الفور."
@@ -7939,6 +8014,11 @@ msgstr "يتعذر علينا التحقق من المستند الذي قدمت
 
 msgid "We're unable to verify the document you provided because some details appear to be missing. Please try again or provide another document."
 msgstr "يتعذر علينا التحقق من المستند الذي قدمته لأن بعض التفاصيل تبدو مفقودة. يرجى المحاولة مرة أخرى أو تقديم مستند آخر."
+
+#, fuzzy
+#| msgid "We're unable to verify the document you provided because it contains markings or text that should not be on your document. Please provide a clear photo or a scan of your original identity document."
+msgid "We're unable to verify the selfie you provided as it does not match the required criteria. Please provide a photo that closely resembles the document photo provided."
+msgstr "يتعذر علينا التحقق من المستند الذي قدمته لأنه يحتوي على علامات أو نص لا ينبغي أن يكون موجودا في المستند. يرجى تقديم صورة واضحة أو مسح ضوئي لوثيقة الهوية الأصلية الخاصة بك."
 
 msgctxt "Customer.io email: svg_all_transactional_verify_email_closed_account "
 msgid "We're unable to verify your email address because it is linked to a closed account."
@@ -8270,6 +8350,12 @@ msgstr "مبلغ السحب البالغ ٪1 ٪2 يتجاوز رصيد حساب�
 
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "مبلغ السحب البالغ ٪1 ٪2 يتجاوز حد السحب في حسابك البالغ ٪3 ٪2."
+
+#, fuzzy
+#| msgid "Withdrawal"
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Withdrawal amount:"
+msgstr "سحب"
 
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "السحب هو ٪2 ٪1 ولكن الرصيد ٪3 يشمل المكافأة المجمدة ٪4."
@@ -8779,6 +8865,27 @@ msgstr "لا يجوز لك تحويل الأموال إلى حسابات وكي�
 msgid "You may only place %1 orders every 24 hours. Please try again later."
 msgstr "يمكنك فقط تقديم طلبات ٪1 كل 24 ساعة. يرجى إعادة المحاولة لاحقا."
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "Make a withdrawal from your fiat account using the same method that you last used to make a deposit."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "You may transfer your crypto funds to %1 account and make a withdrawal using the same payment method you last used for deposits."
+msgstr "قم بإجراء سحب من حساب فيات الخاص بك باستخدام نفس الطريقة التي استخدمتها آخر مرة للإيداع."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "Make a withdrawal from your fiat account using the same method that you last used to make a deposit."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "You may transfer your crypto funds to your %1 account and make a withdrawal using the same payment method you last used for deposits."
+msgstr "قم بإجراء سحب من حساب فيات الخاص بك باستخدام نفس الطريقة التي استخدمتها آخر مرة للإيداع."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
+#| msgid "Transfer your crypto funds to your fiat account."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "You may transfer your crypto funds to your %1 account and make a withdrawal via Deriv P2P."
+msgstr "عذرا، لم تبلغ السن الكافية لفتح حساب."
+
 msgid "You may update your stop loss amount after deal cancellation has expired."
 msgstr "يمكنك تحديث مبلغ وقف الخسارة بعد انتهاء صلاحية إلغاء الصفقة."
 
@@ -8874,6 +8981,13 @@ msgstr "لقد استخدمت كلمة المرور هذه من قبل. الرج
 
 msgid "Your %1 is invalid."
 msgstr "٪1 الخاص بك غير صالح."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
+#| msgid "Your withdrawal request has been declined"
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Your %1 withdrawal is declined"
+msgstr "تم رفض طلب السحب الخاص بك"
 
 msgctxt "Customer.io email: svg_all_transactional_real_crypto_signup "
 msgid "Your Deriv %1 account is ready."
@@ -8976,10 +9090,22 @@ msgstr "حساب MT5 الخاص بك جاهز!"
 msgid "Your User ID appears to be invalid."
 msgstr "يبدو أن معرف المستخدم الخاص بك غير صالح."
 
+#, fuzzy
+#| msgid "Your account has no country of residence."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Your account %1 has very low trading activity."
+msgstr "لا يحتوي حسابك على بلد إقامة."
+
 msgid "Your account balance (%1 %2) is insufficient to buy this contract (%3 %2)."
 msgstr "رصيد حسابك (٪1 ٪2) غير كاف لشراء هذا العقد (٪3 ٪2)."
 
 msgid "Your account balance is insufficient for this transaction."
+msgstr "رصيد حسابك غير كاف لهذه المعاملة."
+
+#, fuzzy
+#| msgid "Your account balance is insufficient for this transaction."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Your account balance is insufficient."
 msgstr "رصيد حسابك غير كاف لهذه المعاملة."
 
 msgid "Your account cashier is locked. Please contact us for more information."
@@ -9321,9 +9447,6 @@ msgstr "لا يمكن تغيير إجابتك السرية."
 msgid "Your secret question cannot be changed."
 msgstr "لا يمكن تغيير سؤالك السري."
 
-msgid "Your selfie isn't clear. Please take a clearer photo and try again. Ensure that there's enough light where you are and that your entire face is in the frame."
-msgstr "صورتك الشخصية غير واضحة. يرجى التقاط صورة أوضح والمحاولة مرة أخرى. تأكد من وجود ما يكفي من الضوء في مكانك وأن وجهك واضح بالكامل في الإطار."
-
 msgid "Your tax identification number cannot be changed."
 msgstr "لا يمكن تغيير رقم التعريف الضريبي الخاص بك."
 
@@ -9371,6 +9494,19 @@ msgstr "طلب السحب الخاص بك في انتظار الموافقة ع�
 
 msgid "Your withdrawal transaction for address: %1 has been cancelled."
 msgstr "تم إلغاء معاملة السحب الخاصة بك للعنوان: ٪1."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
+#| msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Your withdrawal was not made via Deriv P2P, your usual deposit method."
+msgstr "تم رفض سحبك بنسبة %1%2 %3%4 من حسابك بنسبة 5٪ لأنه لم يتم عبر Deriv P2P، طريقة الإيداع المعتادة."
+
+#, fuzzy
+#| msgid "To continue withdrawals, please select the same payment method you used to deposit."
+msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
+msgid "Your withdrawal was not made via your payment agent, your usual deposit method."
+msgstr "لمتابعة عمليات السحب ، يرجى تحديد نفس طريقة الدفع التي استخدمتها للإيداع."
 
 msgid "Your withdrawal will be processed within 24 hours"
 msgstr "ستتم معالجة عملية السحب الخاصة بك في غضون 24 ساعة"
@@ -10757,6 +10893,9 @@ msgstr "مبلغ المعاملة"
 #~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
 #~ msgid "Your role in the exchange: %1%2Seller%3%4"
 #~ msgstr "دورك في التبادل: ٪1٪2المشتري٪3٪4"
+
+#~ msgid "Your selfie isn't clear. Please take a clearer photo and try again. Ensure that there's enough light where you are and that your entire face is in the frame."
+#~ msgstr "صورتك الشخصية غير واضحة. يرجى التقاط صورة أوضح والمحاولة مرة أخرى. تأكد من وجود ما يكفي من الضوء في مكانك وأن وجهك واضح بالكامل في الإطار."
 
 #~ msgid "Your withdrawal is successful."
 #~ msgstr "تم السحب بنجاح."
