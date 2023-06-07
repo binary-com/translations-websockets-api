@@ -5,8 +5,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-06-07 20:05+0000\n"
 "Last-Translator: Asaph Youmdi <youmdiasaph@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/binary-websocket/translations/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -141,8 +140,11 @@ msgctxt "Customer.io email: svg_all_transactional_underage_account_closed "
 msgid "%1Hi %2,%3Hi trader,%4"
 msgstr "%1Bonjour %2, %3 Bonjour, trader%4"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "%1Important:%2 You must complete the order within 2 hours from when the order was created (date, time). Failure to do so will affect your completion rate stats."
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
-msgid "%1Important:%2 You must complete the order within 2 hours from when the order was created (date, time). Failure to do so will affect your completion rate stats."
+msgid "%1Important:%2 You must complete the order within 1 hour from when the order was created. Failure to do so will affect your completion rate."
 msgstr "%1Important :%2 Vous devez terminer la commande dans les 2 heures qui suivent la création de la commande (date, heure). Si vous ne le faites pas, vos statistiques sur le taux de réalisation seront affectées."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
@@ -5831,9 +5833,7 @@ msgid "The document you used appears to be expired. Please use a valid document.
 msgstr "Le document que vous avez utilisé semble avoir expiré. Veuillez utiliser un document valide."
 
 msgid "The document you used appears to be from an underage individual. Please use a valid document."
-msgstr ""
-"Le document que vous avez utilisé semble correspondre à celui d'une personne "
-"mineure. Veuillez utiliser un document valide."
+msgstr "Le document que vous avez utilisé semble correspondre à celui d'une personne mineure. Veuillez utiliser un document valide."
 
 msgid "The document's validity has been expired."
 msgstr "La validité du document a expiré."
@@ -7663,10 +7663,6 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
 msgid "We have received a complaint that you paid for order %1 with the help of a third party, despite the order instructions."
 msgstr "Nous avons reçu une plainte selon laquelle vous avez payé la commande %1 avec l'aide d'un tiers, en dépit des instructions de la commande."
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within 12 hours, we’ll release the funds back to your Deriv account."
-msgstr "Nous avons reçu votre différend pour l'ordonnance %1. Nous avons contacté l'acheteur pour plus d'informations pour vous aider à faire le remboursement pour la somme payée. Si nous ne recevons pas de réponse d’eux dans les 12 heures, nous reverserons les fonds sur votre compte Deriv."
-
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have successfully processed your withdrawal request for %1 %2 for trace ID %3"
 msgstr "Nous avons traité avec succès votre demande de retrait de %1 %2 d'identifiant de suivi %3"
@@ -8116,9 +8112,6 @@ msgstr "Gagnez le paiement si le tick %5 de %1 est le plus élevé parmi les tic
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Gagnez le paiement si le tick %5 de %1 est le plus bas parmi tous les ticks %3."
-
-msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
-msgstr "Vous percevez le paiement lorsque chaque tick de votre contrat se situe dans les barrières du tick précédent en %1."
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 after %plural(%3,%d tick,%d ticks)."
 msgstr "Gagner jusqu'à %7 %6 si le tick de sortie de %1 est compris entre %4 et %5 après %pluriel(%3,%d tick,%d ticks)."
@@ -8824,10 +8817,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_mt5_account_signup "
 msgid "Your Deriv MT5 account is ready"
 msgstr "Votre compte Deriv MT5 est prêt"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "Votre litige Deriv P2P est en cours.  ID de la commande : %1 N° de compte : %2"
-
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
 msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
 msgstr "Votre réclamation Deriv P2P est en cours. ID de la commande : %1 N° de compte : %2"
@@ -9265,6 +9254,9 @@ msgstr "Votre réponse secrète ne peut pas être modifiée."
 
 msgid "Your secret question cannot be changed."
 msgstr "Votre question secrète ne peut pas être modifiée."
+
+msgid "Your stake will grow at %1% per tick continuously for every tick that the spot price remains within the Range."
+msgstr ""
 
 msgid "Your tax identification number cannot be changed."
 msgstr "Votre numéro d'identification fiscale ne peut pas être modifié."
@@ -27113,6 +27105,10 @@ msgstr "●  Montant de la transaction"
 #~ msgid "We have in place adequate internal procedures to ensure that you are in all cases treated fairly and that the risk of damage to client interests will be mitigated."
 #~ msgstr "Nous avons mis en place des procédures adéquates internes afin d'assurer que vous soyez traité justement dans tous les cas et que le risque ou dégât aux intérêts du client soit réduit."
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within 12 hours, we’ll release the funds back to your Deriv account."
+#~ msgstr "Nous avons reçu votre différend pour l'ordonnance %1. Nous avons contacté l'acheteur pour plus d'informations pour vous aider à faire le remboursement pour la somme payée. Si nous ne recevons pas de réponse d’eux dans les 12 heures, nous reverserons les fonds sur votre compte Deriv."
+
 #~ msgctxt "Customer.io email: Test-Natalia-lang-snippets "
 #~ msgid "We have successfully processed your withdrawal request for for trace ID"
 #~ msgstr "Nous avons traité avec succès votre demande de retrait avec pour identifiant de traçage"
@@ -27740,6 +27736,9 @@ msgstr "●  Montant de la transaction"
 
 #~ msgid "Win 80-100% on your stake if you are correct."
 #~ msgstr "Gagnez 80%-100% sur votre mise si votre prédiction s'avère correcte."
+
+#~ msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+#~ msgstr "Vous percevez le paiement lorsque chaque tick de votre contrat se situe dans les barrières du tick précédent en %1."
 
 #~ msgid "Windows"
 #~ msgstr "Windows"
@@ -28506,6 +28505,10 @@ msgstr "●  Montant de la transaction"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "Votre compte Deriv MetaTrader 5 (DMT5) %1 %2 demo %3 real %4 est prêt."
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "Votre litige Deriv P2P est en cours.  ID de la commande : %1 N° de compte : %2"
 
 #~ msgctxt "Customer.io email: svg_all_transactional_real_usdt_signup "
 #~ msgid "Your Deriv USDT account is ready"

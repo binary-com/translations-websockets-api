@@ -144,8 +144,11 @@ msgctxt "Customer.io email: svg_all_transactional_underage_account_closed "
 msgid "%1Hi %2,%3Hi trader,%4"
 msgstr "%1Здравствуйте, %2, %3Уважаемый трейдер,%4"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "%1Important:%2 You must complete the order within 2 hours from when the order was created (date, time). Failure to do so will affect your completion rate stats."
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
-msgid "%1Important:%2 You must complete the order within 2 hours from when the order was created (date, time). Failure to do so will affect your completion rate stats."
+msgid "%1Important:%2 You must complete the order within 1 hour from when the order was created. Failure to do so will affect your completion rate."
 msgstr "%1Важно:%2 Вы должны завершить ордер в течение 2 часов с момента его создания (дата, время). Невыполнение этого требования повлияет на статистику процента завершения."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
@@ -7721,10 +7724,6 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
 msgid "We have received a complaint that you paid for order %1 with the help of a third party, despite the order instructions."
 msgstr "Мы получили жалобу на то, что вы, несмотря на инструкции, оплатили ордер %1 с помощью третьей стороны."
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within 12 hours, we’ll release the funds back to your Deriv account."
-msgstr "Мы получили ваш спор по ордеру %1. Мы связались с покупателем для получения дополнительной информации, чтобы помочь вам вернуть уплаченную сумму. Мы вернем средства на ваш счет Deriv, если не получим ответ покупателя в течение 12 часов."
-
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have successfully processed your withdrawal request for %1 %2 for trace ID %3"
 msgstr "Мы обработали ваш запрос на вывод средств %1 %2, trace ID: %3"
@@ -8179,9 +8178,6 @@ msgstr "Получите выплату, если тик %5 из %1 будет �
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Получите выплату, если тик %5 из %1 будет наименьшим из %3 тиков."
-
-msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
-msgstr "Получите выплату, если каждый тик вашего контракта находится в пределах барьеров предыдущего тика. Актив: %1."
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 after %plural(%3,%d tick,%d ticks)."
 msgstr "Получите выплату до %7 %6, если последний тик %1 будет между %4 и %5 через %plural(%3,%d тик,%d тика,%d тиков)."
@@ -8909,10 +8905,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_mt5_account_signup "
 msgid "Your Deriv MT5 account is ready"
 msgstr "Ваш счет Deriv MT5 готов"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "Ваш спор Deriv P2P на рассмотрении.   ID ордера: %1, номер счета: %2"
-
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
 msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
 msgstr "Ваш спор Deriv P2P на рассмотрении. ID ордера: %1, номер счета: %2"
@@ -9362,6 +9354,9 @@ msgstr "Невозможно изменить секретный ответ."
 
 msgid "Your secret question cannot be changed."
 msgstr "Невозможно изменить секретный вопрос."
+
+msgid "Your stake will grow at %1% per tick continuously for every tick that the spot price remains within the Range."
+msgstr ""
 
 msgid "Your tax identification number cannot be changed."
 msgstr "Ваш номер налогоплательщика не может быть изменен."
@@ -28999,6 +28994,10 @@ msgstr "●  Сумма транзакции"
 #~ msgid "We have in place adequate internal procedures to ensure that you are in all cases treated fairly and that the risk of damage to client interests will be mitigated."
 #~ msgstr "У нас имеются соответствующие внутренние процедуры для того, чтобы во всех случаях Вы получали справедливое обращение и чтобы риск ущерба интересов клиента был максимально снижен."
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within 12 hours, we’ll release the funds back to your Deriv account."
+#~ msgstr "Мы получили ваш спор по ордеру %1. Мы связались с покупателем для получения дополнительной информации, чтобы помочь вам вернуть уплаченную сумму. Мы вернем средства на ваш счет Deriv, если не получим ответ покупателя в течение 12 часов."
+
 #~ msgctxt "Customer.io email: Test-Natalia-lang-snippets "
 #~ msgid "We have successfully processed your withdrawal request for for trace ID"
 #~ msgstr "Мы обработали ваш запрос на вывод средств для trace ID"
@@ -29655,6 +29654,9 @@ msgstr "●  Сумма транзакции"
 
 #~ msgid "Win 80-100% on your stake if you are correct."
 #~ msgstr "Получите прибыль от 80% до 100% от Вашей ставки, если Ваш прогноз правилен."
+
+#~ msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+#~ msgstr "Получите выплату, если каждый тик вашего контракта находится в пределах барьеров предыдущего тика. Актив: %1."
 
 #~ msgid "Windows"
 #~ msgstr "Окна"
@@ -30525,6 +30527,10 @@ msgstr "●  Сумма транзакции"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "Ваш счет %1 Derived %2 %3 %4 %5 демо-счет %6 реальный %7 Deriv MetaTrader 5 готов."
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "Ваш спор Deriv P2P на рассмотрении.   ID ордера: %1, номер счета: %2"
 
 #~ msgctxt "Customer.io email: svg_all_transactional_real_usdt_signup "
 #~ msgid "Your Deriv USDT account is ready"

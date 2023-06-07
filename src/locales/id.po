@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-06-07 20:05+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/binary-websocket/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,8 +144,11 @@ msgctxt "Customer.io email: svg_all_transactional_underage_account_closed "
 msgid "%1Hi %2,%3Hi trader,%4"
 msgstr "%1Hai %2, %3 Hai trader, %4"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "%1Important:%2 You must complete the order within 2 hours from when the order was created (date, time). Failure to do so will affect your completion rate stats."
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
-msgid "%1Important:%2 You must complete the order within 2 hours from when the order was created (date, time). Failure to do so will affect your completion rate stats."
+msgid "%1Important:%2 You must complete the order within 1 hour from when the order was created. Failure to do so will affect your completion rate."
 msgstr "%1Penting:%2 Anda harus menyelesaikan order dalam tempo 2 jam sejak order dibuat (tanggal, waktu). Kegagalan untuk melengkapi transaksi akan memengaruhi statistik tingkat penyelesaian Anda."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
@@ -5834,9 +5836,7 @@ msgid "The document you used appears to be expired. Please use a valid document.
 msgstr "Dokumen sebelumnya sudah kadaluwarsa. Mohon gunakan dokumen yang masih berlaku."
 
 msgid "The document you used appears to be from an underage individual. Please use a valid document."
-msgstr ""
-"Dokumen yang Anda gunakan sepertinya berasal dari individu di bawah umur. "
-"Mohon gunakan dokumen yang sesuai."
+msgstr "Dokumen yang Anda gunakan sepertinya berasal dari individu di bawah umur. Mohon gunakan dokumen yang sesuai."
 
 msgid "The document's validity has been expired."
 msgstr "Masa berlaku dokumen sudah berakhir."
@@ -7664,10 +7664,6 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
 msgid "We have received a complaint that you paid for order %1 with the help of a third party, despite the order instructions."
 msgstr "Kami telah menerima komplain bahwa Anda telah membayar order %1 menggunakan bantuan pihak ketiga, meskipun telah diberikan instruksi pembayaran."
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within 12 hours, we’ll release the funds back to your Deriv account."
-msgstr "Kami telah menerima perselisihan yang Anda ajukan untuk order %1. Kami telah menghubungi pembeli untuk informasi lebih lanjut untuk membantu Anda melakukan pengembalian dana yang telah dibayarkan. Jika kami tidak menerima tanggapan dari mereka dalam tempo 12 jam, maka kami akan mengembalikan dana tersebut ke dalam akun Deriv Anda."
-
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have successfully processed your withdrawal request for %1 %2 for trace ID %3"
 msgstr "Kami telah berhasil memproses permintaan penarikan dana Anda untuk %1 %2 dengan ID lacak %3"
@@ -8117,9 +8113,6 @@ msgstr "Dapatkan hasil jika tik %5 dari %1 adalah yang tertinggi diantara %3 tik
 
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Dapatkan hasil jika tik %5 dari %1 adalah yang terendah diantara %3 tik."
-
-msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
-msgstr "Dapatkan hasil jika setiap tik kontrak Anda berada di dalam barrier tik sebelumnya pada %1."
 
 msgid "Win up to %7 %6 if %1's exit tick is between %4 and %5 after %plural(%3,%d tick,%d ticks)."
 msgstr "Hasil hingga %7 %6 jika tik akhir %1 adalah antara %4 dan %5 setelah %plural(%3,%d tik,%d tik)."
@@ -8825,10 +8818,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_mt5_account_signup "
 msgid "Your Deriv MT5 account is ready"
 msgstr "Akun Deriv MT5 Anda sudah tersedia"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "Perselisihan P2P Deriv Anda sedang berlangsung.  Order ID: %1 No akun: %2"
-
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
 msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
 msgstr "Perselisihan P2P Deriv Anda sedang berlangsung. ID order: %1 No akun: %2"
@@ -9266,6 +9255,9 @@ msgstr "Jawaban rahasia Anda tidak dapat diubah."
 
 msgid "Your secret question cannot be changed."
 msgstr "Pertanyaan rahasia Anda tidak dapat diubah."
+
+msgid "Your stake will grow at %1% per tick continuously for every tick that the spot price remains within the Range."
+msgstr ""
 
 msgid "Your tax identification number cannot be changed."
 msgstr "Nomor identifikasi pajak Anda tidak dapat diubah."
@@ -29651,6 +29643,10 @@ msgstr "●  Jumlah transaksi"
 #~ msgid "We have in place adequate internal procedures to ensure that you are in all cases treated fairly and that the risk of damage to client interests will be mitigated."
 #~ msgstr "Kami memiliki prosedur internal yang memadai untuk memastikan Anda berada dalam semua kasus diperlakukan secara adil dan bahwa risiko kerusakan pada kepentingan klien akan dikurangi."
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within 12 hours, we’ll release the funds back to your Deriv account."
+#~ msgstr "Kami telah menerima perselisihan yang Anda ajukan untuk order %1. Kami telah menghubungi pembeli untuk informasi lebih lanjut untuk membantu Anda melakukan pengembalian dana yang telah dibayarkan. Jika kami tidak menerima tanggapan dari mereka dalam tempo 12 jam, maka kami akan mengembalikan dana tersebut ke dalam akun Deriv Anda."
+
 #~ msgctxt "Customer.io email: Test-Natalia-lang-snippets "
 #~ msgid "We have successfully processed your withdrawal request for for trace ID"
 #~ msgstr "Kami telah berhasil memproses permintaan penarikan untuk trace ID Anda"
@@ -30312,6 +30308,9 @@ msgstr "●  Jumlah transaksi"
 
 #~ msgid "Win 80-100% on your stake if you are correct."
 #~ msgstr "Dapatkan keuntungan dari 80-100% modal jika analisa tepat."
+
+#~ msgid "Win payout when every tick of your contract is within the barriers of the previous tick in %1."
+#~ msgstr "Dapatkan hasil jika setiap tik kontrak Anda berada di dalam barrier tik sebelumnya pada %1."
 
 #~ msgid "Windows"
 #~ msgstr "Windows"
@@ -31186,6 +31185,10 @@ msgstr "●  Jumlah transaksi"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "Akun %2 %3 %4 %5 demo %6 riill %7 Deriv MetaTrader 5 %1 Turunan milik Anda sudah tersedia."
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "Perselisihan P2P Deriv Anda sedang berlangsung.  Order ID: %1 No akun: %2"
 
 #~ msgctxt "Customer.io email: svg_all_transactional_real_usdt_signup "
 #~ msgid "Your Deriv USDT account is ready"
