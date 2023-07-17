@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: BOM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-07-10 20:04+0000\n"
+"PO-Revision-Date: 2023-07-14 20:05+0000\n"
 "Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
@@ -68,10 +68,6 @@ msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_no
 msgid "%1 If you’re using ZingPay,%2 attach a bank statement which shows your name, account details, and the transaction to Deriv via ZingPay."
 msgstr "%1 Если вы используете ZingPay,%2 приложите выписку из банка, в которой указано ваше имя, данные счета и транзакция с Deriv через ZingPay."
 
-msgctxt "Customer.io email: svg_all_transactional_account_verify_successful "
-msgid "%1 Only for your non EU accounts. %2 For both your EU and non EU accounts. %3"
-msgstr "%1 Только для ваших счетов вне ЕС. %2 Для ваших счетов в и вне ЕС. %3"
-
 msgctxt "Customer.io email: svg_all_transactional_account_verification_request "
 msgid "%1 We noticed you have recently updated your account name. For security reasons, we would need to verify your account information. %2 As part of our regulatory requirements, we verify our clients' accounts. %3"
 msgstr "%1 Мы заметили, что вы недавно обновили имя на своем счете. Из соображений безопасности нам необходимо проверить данные вашего счета. %2 Мы проверяем счета клиентов в рамках наших нормативных требований. %3"
@@ -113,6 +109,9 @@ msgstr "%1 в данный момент не поддерживается."
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "Необходимо указать %1 для мультибарьерных контрактов."
 
+msgid "%1 permissions have changed please re-confirm:"
+msgstr "Разрешения %1 изменены, подтвердите еще раз:"
+
 msgid "%1 trace ID %2"
 msgstr "%1 trace ID %2"
 
@@ -135,7 +134,7 @@ msgstr "%1Проверить личные данные%2%3Убедитесь, ч
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "%1Complete your deposit%2 with your Skrill wallet balance or bank card depending on your preference."
-msgstr ""
+msgstr "%1Завершите пополнение%2 с баланса кошелька Skrill или банковской карты."
 
 msgid "%1Create one%2 now."
 msgstr "%1Создайте его%2 сейчас."
@@ -174,7 +173,7 @@ msgstr "%1Важно:%2 у вас должен быть активный акк�
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "%1Note%2: You can view transaction time frames on our %3website%4."
-msgstr ""
+msgstr "%1Примечание%2: время обработки транзакций см. на нашем %сайте%4."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
 msgid "%1Note:%2 According to DP2P terms of use, the buyer and the seller are solely responsible for making sure that the payment is accurate. Deriv is not liable in any way to make corrections or compensations for any incorrect payment made by the buyer, including but not limited to overpayment and underpayment."
@@ -552,10 +551,8 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer 
 msgid "After making full payment, please reply to this email to let us know."
 msgstr "Сообщите нам в ответе на это письмо, когда произведете полную оплату."
 
-#, fuzzy
-#| msgid "Your stake will grow at %1% per tick continuously for every tick that the spot price remains within the Range."
 msgid "After the entry spot tick, your stake will grow continuously by %1% for every tick that the spot price remains within the ± %2 % from the previous spot price."
-msgstr "Ставка будет расти на %1% за тик, если цена остается в рамках заданного диапазона."
+msgstr "После входного тика ваша ставка будет расти на %1% за каждый тик, если спот-цена остается в пределах ± %2 % от предыдущей цены."
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
 msgid "After we process your withdrawal, your funds will be available on your card within 15 working days."
@@ -720,7 +717,7 @@ msgstr "Арубанский флорин"
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "As part of our due diligence process, we need the following documents:"
-msgstr ""
+msgstr "В рамках процедур должной осмотрительности нам потребуются следующие документы:"
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_cancelled "
 msgid "As you requested, your withdrawal is cancelled."
@@ -1752,11 +1749,9 @@ msgctxt "Customer.io email: test-payops-snipp "
 msgid "Deriv account ID %1"
 msgstr "ID счета Deriv: %1"
 
-#, fuzzy
-#| msgid "Your document has expired."
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "Deriv | Your documents are needed"
-msgstr "Срок действия вашего документа истек."
+msgstr "Deriv | Нужны ваши документы"
 
 msgid "Derived"
 msgstr "Derived"
@@ -2076,12 +2071,9 @@ msgstr "Введите код двухфакторной аутентифика�
 msgid "Enter your %1 address"
 msgstr "Введите ваш адрес %1"
 
-#, fuzzy
-#| msgctxt "Customer.io email: south-africa-zingpay-notice "
-#| msgid "Enter the amount, and click Next."
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Enter your deposit amount and click %1Next%2."
-msgstr "Введите сумму и нажмите Далее."
+msgstr "Введите сумму пополнения и нажмите %1Далее%2."
 
 msgid "Enter your withdrawal amount"
 msgstr "Введите сумму для вывода"
@@ -2269,10 +2261,14 @@ msgid "Follow the prompt and steps on the screen to upload your identity documen
 msgstr "Следуйте подсказкам и шагам на экране, чтобы загрузить документ, удостоверяющий личность (паспорт, водительские права или другое удостоверение личности), и селфи."
 
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
-msgstr ""
+msgstr "Контракт Колл: вы получите выплату %3, если окончательная цена %1 будет выше %4. Выплата будет равна %5, умноженная на разницу%7между конечной ценой и %4. Вы можете продать контракт за %6 до %3 и получить стоимость контракта. "
 
 msgid "For a 'Put' contract, you receive a payout on %3 if the final price of %1 is below %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
-msgstr ""
+msgstr "Контракт Пут: вы получите выплату %3, если окончательная цена %1 будет ниже %4. Выплата будет равна %5, умноженная на разницу%7между конечной ценой и %4. Вы можете продать контракт за %6 до %3 и получить стоимость контракта. "
+
+msgctxt "Customer.io email: svg_all_transactional_account_verify_successful "
+msgid "For both your EU and non EU accounts."
+msgstr "Для ваших счетов в и вне ЕС."
 
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "For card withdrawals, it takes 5 to 15 working days, depending on the card's issuing bank."
@@ -2488,7 +2484,7 @@ msgstr "Счет Glo"
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Go to %1Cashier%2 in your Deriv account , select Deposit from the menu, and click the %3E-wallet%4 icon."
-msgstr ""
+msgstr "Перейдите в %1кассу%1 счета Deriv, выберите Пополнить и нажмите на значок %3E-wallet%4."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
 msgid "Go to DP2P"
@@ -2895,11 +2891,11 @@ msgstr "Если вы не хотите менять пароль, просто 
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "If you have a Skrill account, use this option instead!"
-msgstr ""
+msgstr "Выберите этот вариант, если у вас есть кошелек Skrill."
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "If you have any other documents that can prove your employment and source of income (such as brokerage statements, investment bank statements, or business registration documents), please upload them, too."
-msgstr ""
+msgstr "Если у вас есть другие документы, подтверждающие занятость и источник дохода (например, выписки из брокерских контор, инвестиционные банковские выписки или документы о регистрации бизнеса), загрузите и их тоже."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_expired "
 msgid "If you have any questions or issues, %1contact us via live chat%2."
@@ -2975,7 +2971,7 @@ msgstr "Если вы хотите продолжить этот вывод ср
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "If you used your bank card, your Deriv account will be credited upon receiving approval from the bank."
-msgstr ""
+msgstr "Если вы использовали банковскую карту, ваш счет Deriv будет пополнен после получения подтверждения от банка."
 
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "If you wish to continue trading on Deriv X, please %1contact us via live chat%2 to help you reactivate your account."
@@ -3473,10 +3469,8 @@ msgstr "Войдите на %1"
 msgid "Log in to Deriv"
 msgstr "Войдите на Deriv"
 
-#, fuzzy
-#| msgid "Please log in to continue."
 msgid "Log in to continue."
-msgstr "Пожалуйста, войдите в систему, чтобы продолжить."
+msgstr "Войдите, чтобы продолжить."
 
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Log in to my account"
@@ -4191,6 +4185,10 @@ msgstr "В сумме можно поставить не более двух д�
 msgid "Only exchanges in your local currency are supported. Contact us via live chat to learn more."
 msgstr "Поддерживаются только обмены в вашей местной валюте. Свяжитесь с нами через чат, чтобы узнать больше."
 
+msgctxt "Customer.io email: svg_all_transactional_account_verify_successful "
+msgid "Only for your non EU accounts."
+msgstr "Только для счетов вне ЕС."
+
 msgid "Only one update per second is allowed."
 msgstr "Разрешено только одно обновление в секунду."
 
@@ -4527,11 +4525,9 @@ msgstr "Телефон или UPID"
 msgid "Platinum/USD"
 msgstr "Платина/USD"
 
-#, fuzzy
-#| msgid "Please log in to your social account to continue."
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "Please %1log in%2 to your Deriv account to %3upload these documents.%4"
-msgstr "Чтобы продолжить, пожалуйста, войдите в свой аккаунт соц. сети."
+msgstr "%1Войдите%2 на счет Deriv, чтобы %3загрузить эти документы.%4"
 
 msgid "Please accept Funds Protection."
 msgstr "Пожалуйста, установите защиту средств."
@@ -4802,7 +4798,7 @@ msgstr "Попробуйте вывести средства через ваше
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "Please upload these documents by %1%2%3%4%5. If we don’t receive your documents by then, we may have to suspend your account."
-msgstr ""
+msgstr "Загрузите эти документы до %1%2%3%4%5. Мы можем приостановить действие вашего счета, если не получим документы в указанное время."
 
 msgid "Please use Deriv P2P to make a withdrawal."
 msgstr "Пожалуйста, используйте Deriv P2P для вывода средств."
@@ -5297,7 +5293,7 @@ msgstr "Выберите актив."
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Select the %1Skrill%2 icon."
-msgstr ""
+msgstr "Выберите значок %1Skrill%2."
 
 msgid "Selected tick must be an integer."
 msgstr "Выбранный тик должен быть целым числом."
@@ -5341,17 +5337,13 @@ msgstr "Сейшельская рупия"
 msgid "Shanghai Index"
 msgstr "Шанхайский индекс"
 
-#, fuzzy
-#| msgid "Shared Payment Method account %1"
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "Shared payment method"
-msgstr "Счет %1 с общим платежным методом"
+msgstr "Общий платежный метод"
 
-#, fuzzy
-#| msgid "Shared Payment Method account %1"
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "Shared payment method detected"
-msgstr "Счет %1 с общим платежным методом"
+msgstr "Обнаружен общий платежный метод"
 
 msgid "Shenzhen Index"
 msgstr "Шэньчжэньский индекс"
@@ -6370,6 +6362,11 @@ msgstr "При изменении вашего пароля %1 произошл�
 msgid "There's no contract available for this symbol."
 msgstr "Для этого символа нет доступных контрактов."
 
+#, fuzzy
+#| msgid "MT5 %1 account is not available in your country yet."
+msgid "This %1 account is not available for your account."
+msgstr "%1 счет MT5 недоступен в вашей стране."
+
 msgid "This API is deprecated."
 msgstr "Этот API устарел."
 
@@ -6691,11 +6688,9 @@ msgctxt "Customer.io email: svg_all_transactional_derivx_signup "
 msgid "To start trading, head to Trader's Hub."
 msgstr "Перейдите на Trader's Hub, чтобы начать торговать."
 
-#, fuzzy
-#| msgid "To unlock the cashier, please reply to this email and attach any of the following:"
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "To unlock the Cashier, please submit your proof of ownership. You can submit any of the following options:"
-msgstr "Чтобы разблокировать кассу, ответьте на это письмо и приложите любой из следующих документов:"
+msgstr "Чтобы разблокировать кассу, отправьте подтверждение права собственности. Можно отправить любой из следующих вариантов:"
 
 msgid "To unlock the cashier, please follow these steps:"
 msgstr "Чтобы разблокировать кассу, выполните следующие действия:"
@@ -8132,11 +8127,8 @@ msgctxt "Customer.io email: svg_all_transactional_real_derivez_welcome "
 msgid "Welcome to Deriv EZ"
 msgstr "Добро пожаловать на Deriv EZ"
 
-#, fuzzy
-#| msgctxt "Customer.io email: Alvi Test "
-#| msgid "Welcome"
 msgid "Welcome!"
-msgstr "Добро пожаловать"
+msgstr "Добро пожаловать!"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
 msgid "We’re investigating your dispute"
@@ -8477,7 +8469,7 @@ msgstr "Без полной оплаты с вашей стороны нам п�
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Wondering what Skrill is? Skrill is a safe and reliable virtual wallet for money transfers and online payments that enables you to move money into and out of your account hassle-free. Here’s how to make a deposit using Skrill:"
-msgstr ""
+msgstr "Не знаете, что такое Skrill? Это безопасный и надежный виртуальный кошелек для переводов и онлайн-платежей. Вот как пополнить счет с помощью Skrill:"
 
 msgid "XAG/AUD"
 msgstr "XAG/AUD"
@@ -9000,7 +8992,7 @@ msgstr "Вы открыли счет <strong> %1 %2 </strong>. Прежде че
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "You recently attempted to deposit funds in your account using your National First Bank card. Unfortunately, this bank does not support deposits into Deriv via card."
-msgstr ""
+msgstr "Вы недавно пытались пополнить счет с карты National First Bank. К сожалению карты этого банка не поддерживают переводы на Deriv."
 
 msgid "You will exceed the maximum exposure limit for this market if you purchase this contract. Please close some of your positions and try again."
 msgstr "Вы превысите максимальный предел риска на этом рынке, если купите этот контракт. Пожалуйста, закройте некоторые из ваших позиций и попробуйте снова."
@@ -9303,7 +9295,7 @@ msgstr "Нельзя менять дату рождения."
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Your deposit failed? We’ve got you covered!"
-msgstr ""
+msgstr "Депозит не прошел? Не волнуйтесь!"
 
 msgid "Your document appears to be a digital document."
 msgstr "Кажется, вы отправили цифровой документ."
@@ -9423,13 +9415,11 @@ msgstr "Невозможно изменить фамилию."
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "Your last payslip"
-msgstr ""
+msgstr "Последний расчетный лист"
 
-#, fuzzy
-#| msgid "A copy of a utility bill or bank statement issued within the past six months"
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "Your latest bank account statement (issued within the last 3 months)"
-msgstr "Копия счета за коммунальные услуги или выписка из банка с адресом (выданные не позднее 6 месяцев назад)"
+msgstr "Последняя выписка по банковскому счету (выданная в течение последних 3 месяцев)"
 
 msgctxt "Customer.io email: svg_all_transactional_mt5_financial_signup "
 msgid "Your login ID for the Deriv MT5 platform is %1%2%3. Your server is %4, located in %5."
@@ -9498,10 +9488,10 @@ msgid "Your payment method account ID is not valid. Please try again with a vali
 msgstr "ID счета платежного метода недействителен. Повторите попытку с действительным ID счета."
 
 msgid "Your payout will grow by %5 for every point above the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
-msgstr ""
+msgstr "Выплата будет увеличиваться на %5 за каждый пункт выше барьера, если барьер не будет затронут в течение срока действия контракта. Вы начнете получать прибыль, когда выплата превысит ставку."
 
 msgid "Your payout will grow by %5 for every point below the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
-msgstr ""
+msgstr "Выплата будет увеличиваться на %5 за каждый пункт ниже барьера, если барьер не будет затронут в течение срока действия контракта. Вы начнете получать прибыль, когда выплата превысит ставку."
 
 msgid "Your place of birth cannot be changed."
 msgstr "Невозможно изменить место рождения."
@@ -22908,9 +22898,6 @@ msgstr "●  Сумма транзакции"
 
 #~ msgid "Options trading can become a real addiction, as can any other activity pushed to its limits. To avoid the danger of such an addiction, we provide a reality-check that gives you a summary of your trades and accounts on a regular basis."
 #~ msgstr "Торговля бинарными опционами может вызывать зависимость, как и любая другая деятельность, доведенная до крайности. Чтобы избежать опасности возникновения подобной зависимости, мы проводим проверку реальности и предоставляем регулярный отчёт о Ваших сделках и счетах."
-
-#~ msgid "Or use your social account"
-#~ msgstr "Или войдите через аккаунт в соц сетях"
 
 #~ msgid "Oracle"
 #~ msgstr "Oracle"
