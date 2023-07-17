@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chinese (Taiwan) (Binary)\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-07-11 20:05+0000\n"
+"PO-Revision-Date: 2023-07-14 20:05+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hant/>\n"
 "Language: zh_tw\n"
@@ -63,10 +63,6 @@ msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_no
 msgid "%1 If you’re using ZingPay,%2 attach a bank statement which shows your name, account details, and the transaction to Deriv via ZingPay."
 msgstr "％1 如果使用 ZingPay，％2請通過 ZingPay 將顯示姓名、帳戶詳細資料和交易的銀行帳單附加到 Deriv。"
 
-msgctxt "Customer.io email: svg_all_transactional_account_verify_successful "
-msgid "%1 Only for your non EU accounts. %2 For both your EU and non EU accounts. %3"
-msgstr "%1 僅適用於非歐盟帳戶。 %2 適用於歐盟和非歐盟帳戶。 %3"
-
 msgctxt "Customer.io email: svg_all_transactional_account_verification_request "
 msgid "%1 We noticed you have recently updated your account name. For security reasons, we would need to verify your account information. %2 As part of our regulatory requirements, we verify our clients' accounts. %3"
 msgstr "%1我們注意到最近您已更新了帳戶名。出於安全理由，我們需驗證您的帳戶資訊。 %2 作為我們監管要求的一部分，我們會驗證客戶的帳戶。 %3"
@@ -107,6 +103,9 @@ msgstr "%1 目前不受支持。"
 
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "多重障礙合約必須有%1。"
+
+msgid "%1 permissions have changed please re-confirm:"
+msgstr "%1 權限已更改，請重新確認："
 
 msgid "%1 trace ID %2"
 msgstr "%1 追蹤 ID %2"
@@ -2259,10 +2258,14 @@ msgid "Follow the prompt and steps on the screen to upload your identity documen
 msgstr "按照螢幕的提示和步驟上傳身份證件（護照、駕照或身份證）和自拍照。"
 
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
-msgstr "對於「看漲」合約，如果 %1 的最終價格高於 %4，將收到 %3 的賠付。賠付額等於 %5 乘以最終價格與 %4 之間的差額%7。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
+msgstr "對於「看漲」合約，如果 %1 的最終價格高於 %4，%3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
 
 msgid "For a 'Put' contract, you receive a payout on %3 if the final price of %1 is below %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
-msgstr "對於「看跌」合約，如果 %1 的最終價格低於 %4，將收到 %3 的賠付。賠付額等於 %5 乘以最終價格與 %4 之間的差額%7。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
+msgstr "對於「看跌」合約，如果 %1 的最終價格低於 %4， %3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
+
+msgctxt "Customer.io email: svg_all_transactional_account_verify_successful "
+msgid "For both your EU and non EU accounts."
+msgstr "適用於歐盟和非歐盟帳戶。"
 
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "For card withdrawals, it takes 5 to 15 working days, depending on the card's issuing bank."
@@ -4169,6 +4172,10 @@ msgstr "金額只允許至多小數點后兩位。"
 
 msgid "Only exchanges in your local currency are supported. Contact us via live chat to learn more."
 msgstr "僅支援以當地貨幣兌換。透過即時聊天聯繫我們以了解更多資訊。"
+
+msgctxt "Customer.io email: svg_all_transactional_account_verify_successful "
+msgid "Only for your non EU accounts."
+msgstr "僅適用於非歐盟帳戶。"
 
 msgid "Only one update per second is allowed."
 msgstr "每秒鐘只允許一次更新。"
@@ -6326,6 +6333,9 @@ msgstr "更改%1密碼時出現了問題"
 
 msgid "There's no contract available for this symbol."
 msgstr "此符號無適用的合約。"
+
+msgid "This %1 account is not available for your account."
+msgstr "您的帳戶不能使用 %1帳戶。"
 
 msgid "This API is deprecated."
 msgstr "此 API 已被弃用。"
@@ -18908,9 +18918,6 @@ msgstr "● 交易金額"
 
 #~ msgid "Options trading can become a real addiction, as can any other activity pushed to its limits. To avoid the danger of such an addiction, we provide a reality-check that gives you a summary of your trades and accounts on a regular basis."
 #~ msgstr "二元期權交易就像任何其他活動一樣，過於沉迷可能會上癮。為了避免發生此種過於入迷的風險，我們定期向您提供交易和財務的實況簡報。"
-
-#~ msgid "Or use your social account"
-#~ msgstr "或使用社交帳戶"
 
 #~ msgid "Oracle"
 #~ msgstr "甲骨文公司"
