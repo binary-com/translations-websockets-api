@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-07-18 20:05+0000\n"
 "Last-Translator: Luis Peña <luis@regentmarkets.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/binary-websocket/translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -242,6 +241,11 @@ msgstr "2Checkout"
 msgctxt "field for payment method 2Checkout"
 msgid "2Checkout account"
 msgstr "Cuenta 2Checkout"
+
+#, fuzzy
+#| msgid "2 Ways DSI Index (Momentum DSI) allows clients to trade in the same direction of a trend switch."
+msgid "3 Ways DSI Index (Contrarian DSI) allows clients to trade in the opposite direction of a trend switch."
+msgstr "2 Ways DSI Index (Momentum DSI) permite a los clientes operar en la misma dirección de un cambio de tendencia."
 
 msgid "3M Company"
 msgstr "3M Company"
@@ -669,6 +673,21 @@ msgstr "Se ha proporcionado un tipo de mercado Deriv X no válido para la creaci
 msgid "An invalid MT5 account ID was provided."
 msgstr "Se proporcionó un ID de cuenta de MT5 no válido."
 
+#, fuzzy
+#| msgid "An invalid MT5 account ID was provided."
+msgid "An invalid cTrader account ID was provided."
+msgstr "Se proporcionó un ID de cuenta de MT5 no válido."
+
+#, fuzzy
+#| msgid "An invalid Deriv X market type was provided for %1 account creation"
+msgid "An invalid cTrader account type was provided for account creation."
+msgstr "Se ha proporcionado un tipo de mercado Deriv X no válido para la creación de cuenta %1"
+
+#, fuzzy
+#| msgid "An invalid Deriv X market type was provided for %1 account creation"
+msgid "An invalid cTrader market type was provided for account creation."
+msgstr "Se ha proporcionado un tipo de mercado Deriv X no válido para la creación de cuenta %1"
+
 msgid "An order cannot be created for this amount at this time. Please try adjusting the amount."
 msgstr "No se puede crear un pedido por esta cantidad en este momento. Intente ajustar la cantidad."
 
@@ -677,6 +696,9 @@ msgstr "Ha ocurrido un error inesperado"
 
 msgid "An unexpected error occurred: Please refresh or try again in a few minutes."
 msgstr "Ocurrió un error inesperado. Por favor, actualice la página o intente de nuevo más tarde."
+
+msgid "An unknown error has occurred."
+msgstr "Ha ocurrido un error desconocido."
 
 msgid "Angolan Kwanza"
 msgstr "Kwanza angoleño"
@@ -1148,23 +1170,12 @@ msgstr "Franco CFA de África Occidental"
 msgid "CFA Franc BEAC"
 msgstr "Franco CFA de África Central"
 
+#, fuzzy
+#| msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
+#| msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 73% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
-msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 72% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
-msgstr ""
-"Los CFDs son instrumentos complejos con un alto riesgo de perder dinero "
-"rápidamente debido al apalancamiento. El 73% de las cuentas de inversores "
-"minoristas pierden dinero al operar CFDs con este proveedor. Debe considerar "
-"si comprende cómo funcionan los CFDs y si puede permitirse asumir el alto "
-"riesgo de perder su dinero."
-
-msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
 msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 73% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
-msgstr ""
-"Los CFD son instrumentos complejos con un alto riesgo de perder dinero "
-"rápidamente debido al apalancamiento. El 73% de las cuentas de inversores "
-"minoristas pierden dinero al operar con CFD con este proveedor. Debe "
-"considerar si comprende cómo funcionan los CFD y si puede permitirse asumir "
-"el alto riesgo de perder su dinero."
+msgstr "Los CFD son instrumentos complejos con un alto riesgo de perder dinero rápidamente debido al apalancamiento. El 73% de las cuentas de inversores minoristas pierden dinero al operar con CFD con este proveedor. Debe considerar si comprende cómo funcionan los CFD y si puede permitirse asumir el alto riesgo de perder su dinero."
 
 msgid "CFP Franc"
 msgstr "Franco CFP"
@@ -1239,6 +1250,11 @@ msgstr "Cajero"
 
 msgid "Cashier API doesn't support the selected provider or operation."
 msgstr "La API del cajero no es compatible con el proveedor u operación seleccionados."
+
+#, fuzzy
+#| msgid "Payment agent withdrawals are not allowed for specified accounts."
+msgid "Cashier deposits and withdrawals are not allowed on this account."
+msgstr "Los retiros a través de agentes de pagos no están permitidos para las cuentas especificadas."
 
 msgctxt "payment method name"
 msgid "Cassava Remit"
@@ -1372,6 +1388,9 @@ msgstr "ClicknPay"
 msgctxt "field for payment method ClicknPay"
 msgid "ClicknPay account"
 msgstr "Cuenta ClicknPay"
+
+msgid "Client loginid is required."
+msgstr "Se requiere el ID de inicio de sesión del cliente."
 
 msgid "Close"
 msgstr "Cerrar"
@@ -1567,6 +1586,9 @@ msgstr "Las criptomonedas representan el valor de un activo digital en moneda fi
 msgid "Cuban Peso"
 msgstr "Peso cubano"
 
+msgid "Currency is required."
+msgstr "La divisa es obligatoria."
+
 msgid "Currency provided is different from account currency."
 msgstr "La moneda proporcionada es diferencia a la moneda de la cuenta."
 
@@ -1616,8 +1638,19 @@ msgstr "Cuenta DPO"
 msgid "DSH/USD"
 msgstr "DSH/USD"
 
+msgid "DSI10"
+msgstr ""
+
 msgid "DSI2"
 msgstr "DSI2"
+
+#, fuzzy
+#| msgid "DSI2"
+msgid "DSI20"
+msgstr "DSI2"
+
+msgid "DSI30"
+msgstr ""
 
 msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
 msgid "DTrader lets you trade multipliers. With multipliers, you’ll amplify your potential profits and never risk losing more than your stake. Customise your trade using inline charts and indicators of your choice."
@@ -2166,6 +2199,12 @@ msgstr "El tiempo de exclusión debe ser a partir de mañana."
 msgid "Exclusion time conversion error."
 msgstr "Error de conversión de tiempo de exclusión."
 
+msgid "Existing active cTrader account found."
+msgstr ""
+
+msgid "Existing cTrader accounts missing group data."
+msgstr ""
+
 msgid "Exit Spot"
 msgstr "Punto de salida"
 
@@ -2206,6 +2245,9 @@ msgstr "No se pudo obtener la identidad del usuario."
 
 msgid "Failed to reach an acceptable trading experience score."
 msgstr "No ha logrado alcanzar una puntuación de experiencia de trading aceptable."
+
+msgid "Failed to retrieve new or existing CTID."
+msgstr ""
 
 msgid "Falkland Islands Pound"
 msgstr "Libra malvinense"
@@ -2855,6 +2897,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirma
 msgid "If you did receive the payment, please let us know if there is any reason you haven’t completed the order."
 msgstr "Si ha recibido el pago, le invitamos a que nos comunique si hay alguna razón por la que no ha completado el pedido."
 
+#, fuzzy
+#| msgid "If you didn't make the changes, %1contact us%2 via live chat."
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "If you didn't make the changes, %1 contact us via live chat. %2"
+msgstr "Si no hiciste los cambios, %1comuníquese con nosotros%2 a través del chat en vivo."
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "If you didn't request a new password, %1Contact us%2 via live chat."
+msgstr "Si no solicitó una nueva contraseña, %1contáctenos%2 a través del live chat."
+
 msgid "If you didn't request a new password, %1contact us%2 via live chat."
 msgstr "Si no solicitó una nueva contraseña, %1comuníquese con nosotros%2 a través del live chat."
 
@@ -3005,6 +3057,10 @@ msgstr "Si desea reactivar su cuenta, %1comuníquese con nosotros%2 a través de
 
 msgid "If you're a %1 user, log in with your %2 username and password"
 msgstr "Si es un usuario %1, inicie sesión con su nombre de usuario y contraseña %2"
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "If you're having trouble with the button, copy and paste the link below into your browser."
+msgstr "Si tiene problemas con el botón, copie y pegue el enlace a continuación en su navegador."
 
 msgid "If you're ready, %1reset your password now.%2"
 msgstr "Si está listo, %1restablezca su contraseña ahora.%2"
@@ -3234,6 +3290,12 @@ msgctxt "Customer.io email: svg_all_transactional_poa_poi_resubmission "
 msgid "Is dated within the last 6 months"
 msgstr "Tiene fecha de los últimos 6 meses"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_verify_age "
+#| msgid "Go to proof of identity"
+msgid "Issuing country is mandatory for proof of identity"
+msgstr "Ir a la prueba de identidad"
+
 msgid "Istanbul Index"
 msgstr "Índice Estambul"
 
@@ -3350,6 +3412,10 @@ msgstr "Índices Jump"
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Just a couple of notes regarding your payment agent account:"
 msgstr "Solo un par de comentarios sobre tu cuenta de agente de pagos:"
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %2 password?"
+msgstr "Una nota: si restablece su contraseña %1, ya no podrá iniciar sesión con su cuenta social. ¿Le gustaría continuar y restablecer su contraseña %2?"
 
 msgid "Just hit the button below to upload a copy of your national ID, passport, or driving licence within 5 days."
 msgstr "Haga clic en el botón de abajo para subir una copia de su identificación nacional, pasaporte o licencia de conducir dentro de los 5 días."
@@ -3697,6 +3763,9 @@ msgstr "Microsoft"
 msgid "Middle East"
 msgstr "Medio Oriente"
 
+msgid "Migration is not in failed state."
+msgstr ""
+
 msgid "Min trade stake should be lower than max trade stake."
 msgstr "La apuesta mínima de negociación debe ser inferior a la apuesta máxima."
 
@@ -3839,10 +3908,6 @@ msgstr "Cuenta Myghpay"
 msgid "NEO/USD"
 msgstr "NEO/USD"
 
-msgctxt "IDV document type "
-msgid "NIN Slip"
-msgstr "Recibo NIN"
-
 msgid "NZD/CAD"
 msgstr "NZD/CAD"
 
@@ -3865,12 +3930,18 @@ msgctxt "Onfido document type "
 msgid "National Health Insurance Card"
 msgstr "Tarjeta sanitaria nacional"
 
+#, fuzzy
+#| msgctxt "IDV document type "
+#| msgid "National ID"
 msgctxt "IDV document type "
-msgid "National ID"
+msgid "National ID Number"
 msgstr "DNI"
 
+#, fuzzy
+#| msgctxt "IDV document type "
+#| msgid "National ID no photo"
 msgctxt "IDV document type "
-msgid "National ID no photo"
+msgid "National ID Number Slip"
 msgstr "DNI sin foto"
 
 msgctxt "Onfido document type "
@@ -4555,6 +4626,9 @@ msgstr "Autentique su cuenta para operar en mercados sintéticos."
 msgid "Please authenticate your account."
 msgstr "Autentique su cuenta."
 
+msgid "Please be informed that there is already a withdrawal transaction pending for the provided address. Please wait the transaction to be confirmed."
+msgstr "Tenga en cuenta que ya hay una transacción de retiro pendiente para la dirección proporcionada. Espere a que se confirme la transacción."
+
 msgid "Please change the minimum and/or maximum order limit for this ad. The range between these limits must not overlap with another active ad you created for this currency pair and order type."
 msgstr "Por favor cambie el límite mínimo y/o máximo del pedido para este anuncio. El rango entre estos límites no puede superponerse a otro anuncio activo suyo para el mismo par de divisas y tipo de pedido."
 
@@ -4998,6 +5072,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_unreleased_buyer_confirmat
 msgid "Provide your proof of payment."
 msgstr "Proporcione su comprobante de pago."
 
+msgid "Provided amount is not within permissible limits."
+msgstr "El monto entregado está fuera de los límites permitidos."
+
 msgid "Provided amount is not within permissible limits. Maximum transfer amount for %1 currency is %2."
 msgstr "El monto entregado está fuera de los límites permitidos. La transferencia máxima para la moneda %1 es %2."
 
@@ -5233,10 +5310,6 @@ msgstr "SPDR Dow Jones Industrial Average ETF Trust CFD"
 msgid "SPDR Gold Trust CFD"
 msgstr "SPDR Gold Trust CFD"
 
-msgctxt "IDV document type "
-msgid "SSNIT"
-msgstr "SSNIT"
-
 msgctxt "field for payment method Bank Transfer"
 msgid "SWIFT or IFSC code"
 msgstr "Código SWIFT o IFSC"
@@ -5425,6 +5498,13 @@ msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "So get your documents ready, verify your identity, and start using ZingPay on Deriv now!"
 msgstr "Así que prepare sus documentos, verifique su identidad ¡y empiece a usar ZingPay en Deriv ahora!"
 
+#, fuzzy
+#| msgctxt "Onfido document type "
+#| msgid "Social Security Card (Individual Number Paper Slip)"
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Tarjeta de Seguridad Social (recibo con número individual)"
+
 msgid "Social login is not enabled for this account. Please log in with your email and password instead."
 msgstr "El inicio de sesión social no está habilitado para esta cuenta. Por favor, inicie sesión con su correo electrónico y contraseña."
 
@@ -5495,6 +5575,9 @@ msgstr "Lo sentimos, el cajero no está disponible de momento. Inténtelo más t
 msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
 msgstr "Lo sentimos, el cajero crypto está temporalmente fuera de servicio por mantenimiento del sistema."
 
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "Lo sentimos, los depósitos para esta moneda están actualmente deshabilitados."
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr "Lo sentimos, parece que ya tiene una cuenta de dinero real con nosotros. Se permite solo una cuenta de dinero real para cada cliente."
 
@@ -5552,6 +5635,9 @@ msgstr "Lo sentimos, no pudimos encontrar su cuenta de billetera."
 msgid "Sorry, we couldn't link your trading account to this wallet."
 msgstr "Lo sentimos, no pudimos vincular su cuenta de trading a esta billetera."
 
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "Lo sentimos, los retiros para esta moneda están actualmente deshabilitados."
+
 msgid "Sorry, you are too young to open an account."
 msgstr "Lo sentimos, usted es muy joven para abrir una cuenta."
 
@@ -5579,6 +5665,9 @@ msgstr "Lo sentimos, su cuenta de trading ya está vinculada a una billetera."
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
 msgid "Sorry, your withdrawal didn’t go through"
 msgstr "Lo sentimos, su retiro no tuvo éxito"
+
+msgid "Sorry, your withdrawal transaction for id: %1 is under processing or has been rejected."
+msgstr "Lo sentimos, su transacción de retiro del id: %1 está en proceso o ha sido rechazada."
 
 msgid "South African Index"
 msgstr "Índice de Sudáfrica"
@@ -5689,6 +5778,10 @@ msgstr "SticPay"
 msgctxt "field for payment method SticPay"
 msgid "SticPay account"
 msgstr "Cuenta SticPay"
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "Still want to reset your %1 password?"
+msgstr "¿Aún quiere restablecer su contraseña %1?"
 
 msgid "Stock Indices"
 msgstr "Índices Stock"
@@ -5969,6 +6062,12 @@ msgctxt "Customer.io email: svg-all-transactional-professional-client-request "
 msgid "Thanks for choosing to trade with Deriv.com."
 msgstr "Gracias por elegir operar con Deriv.com."
 
+#, fuzzy
+#| msgid "Thanks for keeping your profile up to date."
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "Thanks for keeping your profile up to date."
+msgstr "Gracias por mantener actualizado su perfil."
+
 msgctxt "Customer.io email: svg_all_transactional_account_opening_verify_email "
 msgid "Thanks for signing up."
 msgstr "Gracias por registrarse."
@@ -5984,6 +6083,15 @@ msgstr "El equipo de %1."
 
 msgid "The Walt Disney Company"
 msgstr "La compañía de Walt Disney"
+
+msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
+msgstr "La dirección está en uso para una transacción de depósito. Utilice una dirección diferente para este retiro."
+
+msgid "The address you entered appears to be the same as the account you are withdrawing from. Please enter a different account address."
+msgstr "La dirección que ingresó parece ser la misma que de la cuenta de la que está retirando. Por favor, introduzca una dirección de cuenta diferente."
+
+msgid "The address you provided does not accept withdrawals. Please enter a different address."
+msgstr "La dirección que proporcionó no acepta retiros. Por favor, introduzca una dirección diferente."
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "The all-in-one CFD-trading platform for professionals worldwide."
@@ -6030,6 +6138,11 @@ msgid "The date you entered is not allowed. Please enter a date between %1 and %
 msgstr "La fecha que ingresó no está permitida. Ingrese una fecha entre %1 y %2."
 
 msgid "The deposit to your Deriv X account did not complete. Please contact our Customer Support team."
+msgstr "El depósito en su cuenta Deriv X no se completó. Póngase en contacto con nuestro equipo de Atención al cliente."
+
+#, fuzzy
+#| msgid "The deposit to your Deriv X account did not complete. Please contact our Customer Support team."
+msgid "The deposit to your cTrader account did not complete. Please contact our Customer Support team."
 msgstr "El depósito en su cuenta Deriv X no se completó. Póngase en contacto con nuestro equipo de Atención al cliente."
 
 msgid "The details in the proof of address don't match your profile."
@@ -6130,6 +6243,9 @@ msgstr "El monto mínimo para transferencias es %1 %2. Por favor, ajuste su cant
 msgid "The minimum order amount should be less than or equal to the maximum order amount. Please adjust the value."
 msgstr "La cantidad mínima del pedido debe ser menor o igual a la cantidad máxima del pedido. Por favor, ajuste el valor."
 
+msgid "The minimum withdrawal amount allowed is %1 %2."
+msgstr "El monto mínimo permitido para retirar es %1 %2."
+
 msgid "The most widely traded and liquid forex pairs."
 msgstr "Los pares de divisas más negociadas y líquidas."
 
@@ -6188,6 +6304,12 @@ msgstr "La prueba de titularidad proporcionada no es válida"
 msgid "The provided Deriv account ID is not valid."
 msgstr "El ID de cuenta Deriv proporcionado no es válido."
 
+msgid "The provided address is invalid."
+msgstr "La dirección proporcionada no es válida."
+
+msgid "The provided amount is invalid."
+msgstr "La cantidad proporcionada no es válida."
+
 msgid "The provided currency %1 is invalid."
 msgstr "La divisa proporcionada de %1 no es válida."
 
@@ -6215,11 +6337,21 @@ msgstr "La cantidad mínima solicitada debe ser mayor que cero."
 msgid "The requested service is unavailable at the moment."
 msgstr "El servicio solicitado no está disponible en este momento."
 
+#, fuzzy
+#| msgid "The required funds could not be withdrawn from your Deriv account. Please try a different account."
+msgid "The required funds could not be deposited to your cTrader account. Please try a different account."
+msgstr "Los fondos necesarios no se pudieron retirar de su cuenta de Deriv. Por favor, pruebe con una cuenta diferente."
+
 msgid "The required funds could not be withdrawn from your Deriv X account. Please try later or use a different account."
 msgstr "Los fondos requeridos no se pudieron retirar de su cuenta Deriv X. Inténtelo más tarde o utilice una cuenta diferente."
 
 msgid "The required funds could not be withdrawn from your Deriv account. Please try a different account."
 msgstr "Los fondos necesarios no se pudieron retirar de su cuenta de Deriv. Por favor, pruebe con una cuenta diferente."
+
+#, fuzzy
+#| msgid "The required funds could not be withdrawn from your Deriv X account. Please try later or use a different account."
+msgid "The required funds could not be withdrawn from your cTrader account. Please try later or use a different account."
+msgstr "Los fondos requeridos no se pudieron retirar de su cuenta Deriv X. Inténtelo más tarde o utilice una cuenta diferente."
 
 msgid "The security hash used in your request appears to be invalid."
 msgstr "La clave de seguridad utilizada en su solicitud parece no ser válida."
@@ -6332,6 +6464,16 @@ msgstr "Ha habido un problema al actualizar su límite. Vuelva a intentarlo más
 msgid "There was a problem validating your personal details."
 msgstr "Hubo un problema al validar sus datos personales."
 
+#, fuzzy
+#| msgid "There was an error while creating your account. Please try again later."
+msgid "There was an error creating cTrader account. Please try again later."
+msgstr "Se ha producido un error al procesar su solicitud. Por favor, inténtelo de nuevo más tarde."
+
+#, fuzzy
+#| msgid "There was an error while creating your account. Please try again later."
+msgid "There was an error linking created cTrader account. Please try again later."
+msgstr "Se ha producido un error al procesar su solicitud. Por favor, inténtelo de nuevo más tarde."
+
 msgid "There was an error processing the request."
 msgstr "Hubo un error al procesar la solicitud."
 
@@ -6374,6 +6516,9 @@ msgstr "Esta cuenta no está disponible."
 
 msgid "This ad is currently unavailable. Please choose another ad or check back later."
 msgstr "Este anuncio no está disponible actualmente. Elija otro anuncio o vuelva más tarde."
+
+msgid "This address has been blocked for use on our platform. Please enter another address to proceed."
+msgstr "Esta dirección ha sido bloqueada para su uso en nuestra plataforma. Por favor, ingrese otra dirección para continuar."
 
 msgid "This advert has no payment methods. Please add at least one before activating it."
 msgstr "Este anuncio no tiene métodos de pago. Agregue al menos uno antes de activarlo."
@@ -6559,6 +6704,11 @@ msgstr "Esta transacción no puede realizarse porque su %1 cuenta tiene saldo ce
 
 msgid "This verification method is currently unavailable."
 msgstr "Este método de verificación no está disponible actualmente."
+
+#, fuzzy
+#| msgid "Two Ways DSI"
+msgid "Three Ways DSI"
+msgstr "Two Ways DSI"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Three great platforms that give you the tools to trade simply, flexibly, and reliably. Available on desktop, mobile, and tablet."
@@ -7741,6 +7891,14 @@ msgstr "ID de billetera"
 msgid "Wallet account creation is currently suspended."
 msgstr "La creación de la cuenta de Wallet está actualmente suspendida."
 
+msgid "Wallet migration is already finished."
+msgstr ""
+
+#, fuzzy
+#| msgid "This cannot be cancelled since the order is already in progress."
+msgid "Wallet migration is already in progress."
+msgstr "Esto no se puede cancelar porque el pedido ya está en curso."
+
 msgctxt "Customer.io email: svg_all_transactional_change_email_request "
 msgid "Want to change your Deriv login email address?"
 msgstr "¿Desea cambiar su dirección de correo electrónico de Deriv?"
@@ -7846,6 +8004,11 @@ msgstr "No podemos completar su solicitud. Solo puede solicitar fondos virtuales
 msgid "We cannot complete your request. You can only top up your Deriv X demo account when the balance falls below %1 %2."
 msgstr "No podemos completar su solicitud. Solo puede recargar su cuenta demo de Deriv X cuando el saldo sea inferior al %1 %2."
 
+#, fuzzy
+#| msgid "We cannot complete your request. You can only top up your Deriv X demo account when the balance falls below %1 %2."
+msgid "We cannot complete your request. You can only top up your cTrader demo account when the balance falls below %1 %2."
+msgstr "No podemos completar su solicitud. Solo puede recargar su cuenta demo de Deriv X cuando el saldo sea inferior al %1 %2."
+
 msgid "We cannot recognise your local currency. Please contact our Customer Support team."
 msgstr "No podemos reconocer su moneda local. Póngase en contacto con nuestro Servicio de atención al cliente."
 
@@ -7940,6 +8103,10 @@ msgstr "Recibimos una solicitud para cambiar la contraseña de la cuenta con el 
 msgid "We received a request to change the password for the account with the email %1."
 msgstr "Recibimos una solicitud para cambiar la contraseña de la cuenta con el correo electrónico %1."
 
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "We received a request to reset your %1 login password. Since you log in using your social account, would you like to reset your social password instead? If yes, reset your social password and try logging in to %2."
+msgstr "Recibimos una solicitud para restablecer su contraseña de inicio de sesión de %1. Ya que inicia sesión con su cuenta social, ¿le gustaría restablecer su contraseña social? Si es así, restablezca su contraseña social e intente iniciar sesión en %2."
+
 msgid "We received a request to reset your password."
 msgstr "Recibimos una solicitud para restablecer su contraseña."
 
@@ -8002,6 +8169,9 @@ msgstr "Tendremos que procesar este retiro manualmente. Primero, transfiera sus 
 msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
 msgstr "Los procesaremos en 1 a 3 días hábiles y, si no hay problemas, habilitaremos sus retiros y transferencias de inmediato."
 
+msgid "We're awaiting confirmation from the blockchain."
+msgstr "Estamos esperando la confirmación de la cadena de bloques."
+
 msgid "We're experiencing a technical issue with our Cashier. Your funds are safe, but deposits and withdrawals are unavailable for the time being."
 msgstr "Estamos experimentando problemas técnicos con nuestro Cajero. Su dinero está seguro, pero por el momento no es posible realizar depósitos ni retiros."
 
@@ -8024,6 +8194,18 @@ msgstr "Estamos investigando su disputa"
 
 msgid "We're processing your request to withdraw funds via a payment agent. You'll get to know the status of your request via email within 24 hours."
 msgstr "Estamos procesando su solicitud de retirada de fondos a través de un agente de pago. Sabrá el estado de su solicitud por email en 24 horas."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_pending "
+#| msgid "We’re processing your withdrawal"
+msgid "We're processing your withdrawal."
+msgstr "Estamos procesando su retiro"
+
+msgid "We're reviewing your withdrawal request. You may still cancel this transaction if you wish. Once we start processing, you won't be able to cancel."
+msgstr "Estamos revisando su solicitud de retiro. Todavía puede cancelar esta transacción si lo desea. Una vez que empecemos a procesarla, no podrá cancelarla."
+
+msgid "We're sending your request to the blockchain."
+msgstr "Estamos enviando su solicitud a la cadena de bloques."
 
 msgid "We're sorry you're leaving"
 msgstr "Sentimos que se vaya"
@@ -8074,6 +8256,9 @@ msgstr "Hemos completado una transferencia"
 
 msgid "We've disabled your MT5 account. Please contact us for more information."
 msgstr "Hemos deshabilitado su cuenta MT5. Por favor contáctenos para más información."
+
+msgid "We've received your request and are waiting for more blockchain confirmations."
+msgstr "Hemos recibido su solicitud y estamos esperando más confirmaciones de la cadena de bloques."
 
 msgid "We've sent you an email. Click the confirmation link in the email to complete this order."
 msgstr "Le hemos enviado un correo electrónico. Haga clic en el enlace de confirmación en él para completar este pedido."
@@ -8559,6 +8744,10 @@ msgctxt "Customer.io email: svg_all_transactional_withdrawal_request_verificatio
 msgid "Yes, it's me!"
 msgstr "¡Sí, soy yo!"
 
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "Yes, reset my %1 password"
+msgstr "Sí, restablecer mi contraseña %1"
+
 msgid "You already have Deriv X account of this type (account ID %1).%2"
 msgstr "Ya tiene una cuenta Deriv X de este tipo (ID de cuenta %1). %2"
 
@@ -9013,6 +9202,9 @@ msgstr "Ya ha enviado una solicitud de ser agente de pagos."
 msgid "You've been temporarily barred from using our services due to multiple cancellation attempts. Try again after %1 GMT."
 msgstr "Se le ha prohibido temporalmente el uso de nuestros servicios debido a múltiples intentos de cancelación. Vuelva a intentarlo después de las %1 GMT."
 
+msgid "You've cancelled your withdrawal request."
+msgstr "Ha cancelado su solicitud de retiro."
+
 msgid "You've got a new %1 investor password"
 msgstr "Tiene una nueva contraseña de inversor %1"
 
@@ -9030,6 +9222,13 @@ msgstr "Alcanzó el máximo de %1 anuncios activos para este par de divisas y ti
 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr "Ha alcanzado el límite máximo de retiro de %1 %2. Autentique su cuenta para realizar este retiros."
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
+#| msgid "You've successfully changed the following information on your Deriv profile:"
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "You've successfully changed the following information on your Deriv profile:"
+msgstr "Ha cambiado correctamente la siguiente información en su perfil de Deriv:"
 
 msgid "You've successfully created a new investor password for your DMT5 account %1."
 msgstr "Ha creado correctamente una nueva contraseña de inversor para su cuenta DMT5 %1."
@@ -9210,6 +9409,11 @@ msgstr "Su cuenta está desactivada."
 msgid "Your account is locked for withdrawals."
 msgstr "Su cuenta está bloqueada para retiros."
 
+#, fuzzy
+#| msgid "Your account is locked for withdrawals."
+msgid "Your account is not ready for wallet migration."
+msgstr "Su cuenta está bloqueada para retiros."
+
 msgid "Your account is restricted to deposits only."
 msgstr "Su cuenta está restringida sólo a depósitos."
 
@@ -9254,6 +9458,16 @@ msgctxt "Customer.io email: svg_all_transactional_request_poi "
 msgid "Your bank statement or utility bill showing your name and address (not more than 6 months old)"
 msgstr "Su extracto bancario o factura de servicios públicos en la que figure su nombre y dirección (no más de 6 meses de antigüedad)"
 
+#, fuzzy
+#| msgid "Your Deriv X account balance is insufficient for this withdrawal."
+msgid "Your cTrader account balance is insufficient for this withdrawal."
+msgstr "El balance de su cuenta Deriv X es insuficiente para este retiro."
+
+#, fuzzy
+#| msgid "Your Deriv X demo account could not be topped up at this time. Please try later."
+msgid "Your cTrader demo account could not be topped up at this time. Please try later."
+msgstr "Su cuenta demo de Deriv X no se pudo recargar en este momento. Por favor intente más tarde."
+
 msgid "Your cashier is locked."
 msgstr "Su cajero está bloqueado."
 
@@ -9277,6 +9491,15 @@ msgstr "Su fecha de nacimiento no se puede cambiar."
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Your deposit failed? We’ve got you covered!"
 msgstr "¿Ha fallado su depósito? ¡Nosotros nos encargamos!"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_deposit_confirmed "
+#| msgid "Your %1 deposit is successful"
+msgid "Your deposit is successful."
+msgstr "Su depósito %1 se ha realizado con éxito"
+
+msgid "Your deposit is unsuccessful due to an error. Please contact your crypto wallet service provider for more info."
+msgstr "Su depósito no ha sido realizado con éxito debido a un error. Póngase en contacto con su proveedor de servicios de monedero cripto para obtener más información."
 
 msgid "Your document appears to be a digital document."
 msgstr "Su documento parece ser un documento digital."
@@ -9430,6 +9653,13 @@ msgstr "Su nueva contraseña de inversor %1"
 msgid "Your new %1 password"
 msgstr "Su nueva contraseña %1"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
+#| msgid "Your new Deriv personal details"
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "Your new Deriv personal details"
+msgstr "Sus nuevos datos personales de Deriv"
+
 msgid "Your new trading password request"
 msgstr "Su solicitud de nueva contraseña de trading"
 
@@ -9580,8 +9810,20 @@ msgstr "Su retiro fue cancelado"
 msgid "Your withdrawal is pending confirmation from the blockchain."
 msgstr "Su retiro está pendiente de confirmación de la cadena de bloques."
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_successful "
+#| msgid "Your %1 withdrawal is successful"
+msgid "Your withdrawal is successful."
+msgstr "Su retiro %1 ha sido exitoso"
+
+msgid "Your withdrawal is unsuccessful due to an error. Please contact us via live chat for more info."
+msgstr "Su retiro no ha sido exitoso debido a un error. Póngase en contacto con nosotros a través del chat en vivo para obtener más información."
+
 msgid "Your withdrawal is unsuccessful. Please make sure you have enough funds in your account."
 msgstr "Su retiro no tuvo éxito. Asegúrese de tener fondos suficientes en su cuenta."
+
+msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
+msgstr "Su retiro no tuvo éxito. Le hemos enviado un correo electrónico con más información."
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
 msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
@@ -9738,6 +9980,34 @@ msgstr "cesta de índices"
 
 msgid "bears your name that matches your Deriv/Binary profile"
 msgstr "lleva su nombre que coincide con su perfil de Deriv / Binary"
+
+#, fuzzy
+#| msgid "MT5 account management is currently suspended."
+msgid "cTrader account management is currently suspended."
+msgstr "La gestión de cuentas MT5 está actualmente suspendida."
+
+#, fuzzy
+#| msgid "Deriv EZ account is not available in your country yet."
+msgid "cTrader account or landing company is not available in your country yet."
+msgstr "La cuenta Deriv EZ aún no está disponible en su país."
+
+#, fuzzy
+#| msgid "MT5 deposits are suspended."
+msgid "cTrader deposit is currently suspended."
+msgstr "Los depósitos MT5 están suspendidos."
+
+#, fuzzy
+#| msgid "Invalid currency provided."
+msgid "cTrader invalid group provided."
+msgstr "Divisa no válida proporcionada."
+
+msgid "cTrader unsupported country code."
+msgstr ""
+
+#, fuzzy
+#| msgid "MT5 withdrawals are suspended."
+msgid "cTrader withdrawal is currently suspended."
+msgstr "Los retiros MT5 están suspendidos."
 
 msgid "close on %1"
 msgstr "cierre %1"
@@ -13457,9 +13727,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "An oscillator used to identify overbought and oversold readings in RSI (Relative Strength Index). Because RSI can go for extended periods without becoming overbought (above 70) or oversold (below 30), StochRSI provides an alternative means to identify these extremities."
 #~ msgstr "Un oscilador usado para identificar lecturas de sobrecompra y sobreventa en el RSI (Indice de fuerza relativa). Como el RSI puede pasar períodos extensos sin entrar en sobrecompra (por encima de 70) o sobreventa (por debajo de 30), StochRSI proporciona medios alternativos para identificar estos extremos."
 
-#~ msgid "An unknown error has occurred."
-#~ msgstr "Ha ocurrido un error desconocido."
-
 #~ msgid "An unknown payment exception occured."
 #~ msgstr "Se ha producido un error de pago desconocido."
 
@@ -14671,6 +14938,10 @@ msgstr "● Importe de la transacción"
 #~ msgid "CBS Corporation"
 #~ msgstr "CBS Corporation"
 
+#~ msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
+#~ msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 72% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+#~ msgstr "Los CFDs son instrumentos complejos con un alto riesgo de perder dinero rápidamente debido al apalancamiento. El 73% de las cuentas de inversores minoristas pierden dinero al operar CFDs con este proveedor. Debe considerar si comprende cómo funcionan los CFDs y si puede permitirse asumir el alto riesgo de perder su dinero."
+
 #~ msgid "CLIENT_SECRET will be provided to you on registration"
 #~ msgstr "CLIENT_SECRET será proporcionado después de que se registre"
 
@@ -15068,9 +15339,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "Client email not set."
 #~ msgstr "Correo electrónico del cliente no enviado."
-
-#~ msgid "Client loginid is required."
-#~ msgstr "Se requiere el ID de inicio de sesión del cliente."
 
 #~ msgid "Client record fetch failure"
 #~ msgstr "No se han encontrado datos del cliente"
@@ -15645,9 +15913,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "Currency conversion transfer"
 #~ msgstr "Transferencia de conversión de divisas"
-
-#~ msgid "Currency is required."
-#~ msgstr "La divisa es obligatoria."
 
 #~ msgid "Currency quotes are truncated to 5 digits and all contracts are purchased and settled based on 5-digit currency quotes."
 #~ msgstr "Las cotizaciones de divisas están truncadas a cingo dígitos y todos los contratos se adquieren y se liquidan basándose en cotizaciones de divisas de 5 dígitos."
@@ -18786,15 +19051,8 @@ msgstr "● Importe de la transacción"
 #~ msgid "If you choose to enter into a Contract with us, it is important that you remain aware of the risks involved, that you have adequate investment resources to bear such risks and that you monitor your positions carefully."
 #~ msgstr "Si decide comprar un contrato con nosotros, es importante que sea consciente de los riesgos involucrados, que tenga recursos de inversión suficientes para asumir dichos riesgos y que controle sus posiciones con atención."
 
-#~ msgid "If you didn't make the changes, %1contact us%2 via live chat."
-#~ msgstr "Si no hiciste los cambios, %1comuníquese con nosotros%2 a través del chat en vivo."
-
 #~ msgid "If you didn't request a new password,"
 #~ msgstr "Si no solicitó una nueva contraseña,"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "If you didn't request a new password, %1Contact us%2 via live chat."
-#~ msgstr "Si no solicitó una nueva contraseña, %1contáctenos%2 a través del live chat."
 
 #~ msgctxt "Customer IO email content "
 #~ msgid "If you didn't request a new password, contact us via live chat.%1%2"
@@ -19007,10 +19265,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "If you're a broker we'd like to work with you. You will be introducing your clients to a unique and innovative product - the %1 trading platform."
 #~ msgstr "Si usted es un agente de bolsa, nos gustaría trabajar con usted. Podrá introducir a sus clientes a un producto único e innovador - la plataforma de operaciones financieras %1."
-
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "If you're having trouble with the button, copy and paste the link below into your browser."
-#~ msgstr "Si tiene problemas con el botón, copie y pegue el enlace a continuación en su navegador."
 
 #~ msgid "If you're having trouble with the button, copy and paste this link into your browser:"
 #~ msgstr "Si tiene problemas con el botón, copie y pegue este enlace en su navegador:"
@@ -20279,10 +20533,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %1 password?"
 #~ msgstr "Una nota: si restablece su contraseña %1, ya no podrá iniciar sesión con su cuenta social. ¿Le gustaría continuar y restablecer su contraseña %1?"
 
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %2 password?"
-#~ msgstr "Una nota: si restablece su contraseña %1, ya no podrá iniciar sesión con su cuenta social. ¿Le gustaría continuar y restablecer su contraseña %2?"
-
 #~ msgctxt "Customer.io email: svg_all_transactional_mt5_archival_14_days "
 #~ msgid "Just log in and place a trade on each of these accounts to keep them active."
 #~ msgstr "Sólo tiene que iniciar sesión y realizar una operación en cada una de estas cuentas para mantenerlas activas."
@@ -20879,12 +21129,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "MT5 account closure report"
 #~ msgstr "Informe de cierre de la cuenta MT5"
-
-#~ msgid "MT5 deposits are suspended."
-#~ msgstr "Los depósitos MT5 están suspendidos."
-
-#~ msgid "MT5 withdrawals are suspended."
-#~ msgstr "Los retiros MT5 están suspendidos."
 
 #~ msgid "Macquarie Group"
 #~ msgstr "Grupo Macquarie"
@@ -21509,6 +21753,10 @@ msgstr "● Importe de la transacción"
 #~ msgctxt "IDV document type "
 #~ msgid "NIN"
 #~ msgstr "NIN"
+
+#~ msgctxt "IDV document type "
+#~ msgid "NIN Slip"
+#~ msgstr "Recibo NIN"
 
 #~ msgid "NZDJPY"
 #~ msgstr "NZDJPY"
@@ -22768,9 +23016,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "Autentique su cuenta para aumentar su límite diario de volumen de negocios."
 
-#~ msgid "Please be informed that there is already a withdrawal transaction pending for the provided address. Please wait the transaction to be confirmed."
-#~ msgstr "Tenga en cuenta que ya hay una transacción de retiro pendiente para la dirección proporcionada. Espere a que se confirme la transacción."
-
 #~ msgid "Please check your email for the value of this token"
 #~ msgstr "Por favor verifique su correo electrónico para el valor de este token"
 
@@ -23411,9 +23656,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "Provide the Company with all data and information related to the Company (including, but not limited to, passwords) at no charge to the Company, to enable the Company to monitor your Site and to ensure that you are complying with these terms and conditions."
 #~ msgstr "Proporcionar a la Compañía toda la información relacionada a la Compañía (incluyendo pero sin limitarse a las contraseñas) sin costo a la Compañía, para permitir que la Compañía supervise su sitio web y se asegure de que usted está cumpliendo con estos términos y condiciones."
-
-#~ msgid "Provided amount is not within permissible limits."
-#~ msgstr "El monto entregado está fuera de los límites permitidos."
 
 #~ msgid "Provided password is incorrect."
 #~ msgstr "La contraseña proporcionada es incorrecta."
@@ -24217,6 +24459,10 @@ msgstr "● Importe de la transacción"
 #~ msgid "SSMI Generic Future"
 #~ msgstr "SSMI Generic Future"
 
+#~ msgctxt "IDV document type "
+#~ msgid "SSNIT"
+#~ msgstr "SSNIT"
+
 #~ msgid "STAFF"
 #~ msgstr "EQUIPO"
 
@@ -24700,10 +24946,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Social Security Card"
 #~ msgstr "Tarjeta de Seguridad Social"
 
-#~ msgctxt "Onfido document type "
-#~ msgid "Social Security Card (Individual Number Paper Slip)"
-#~ msgstr "Tarjeta de Seguridad Social (recibo con número individual)"
-
 #~ msgid "Societe Generale"
 #~ msgstr "Societe Generale"
 
@@ -24817,9 +25059,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Sorry, contracts on Synthetic Indices are not available in your country of residence"
 #~ msgstr "Lo sentimos, los contratos sobre los Índices sintéticos no están disponibles en su país de residencia"
 
-#~ msgid "Sorry, deposits for this currency are currently disabled."
-#~ msgstr "Lo sentimos, los depósitos para esta moneda están actualmente deshabilitados."
-
 #~ msgid "Sorry, due to VAT regulations in your country of residence, contracts on Random Indices are not available."
 #~ msgstr "Lo sentimos, debido a la normativa del IVA en el país de su residencia, los contratos sobre índices Random no están disponibles."
 
@@ -24928,9 +25167,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Sorry, withdrawals cannot be made on the day of your account opening. Please wait until tomorrow to make a withdrawal."
 #~ msgstr "Lo sentimos, los retiros de dinero no pueden realizarse el día que abre su cuenta. Aguarde hasta mañana."
 
-#~ msgid "Sorry, withdrawals for this currency are currently disabled."
-#~ msgstr "Lo sentimos, los retiros para esta moneda están actualmente deshabilitados."
-
 #~ msgid "Sorry, you cannot buy this contract because the system is currently closed for maintenance. Please try again later."
 #~ msgstr "Lo sentimos, no puede comprar este contrato porque el sistema está cerrado por cuestiones de mantenimiento. Inténtelo de nuevo más tarde."
 
@@ -25038,9 +25274,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 #~ msgstr "Lo sentimos, su transacción de retiro para la dirección: %1 está en proceso o ha sido rechazada."
-
-#~ msgid "Sorry, your withdrawal transaction for id: %1 is under processing or has been rejected."
-#~ msgstr "Lo sentimos, su transacción de retiro del id: %1 está en proceso o ha sido rechazada."
 
 #~ msgid "Sort by"
 #~ msgstr "Ordenar por"
@@ -25264,10 +25497,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "Still open"
 #~ msgstr "Aún abierto"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "Still want to reset your %1 password?"
-#~ msgstr "¿Aún quiere restablecer su contraseña %1?"
 
 #~ msgid "StochRSI"
 #~ msgstr "RSI estocástico"
@@ -25712,9 +25941,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Thank you. Your application has been submitted and will be examined by our team as soon as possible. You will receive a reply by email within 72 hours."
 #~ msgstr "Gracias. Se envió su solicitud y nuestro equipo la examinará cuanto antes. Recibirá una respuesta en las próximas 72 horas."
 
-#~ msgid "Thanks for keeping your profile up to date."
-#~ msgstr "Gracias por mantener actualizado su perfil."
-
 #~ msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
 #~ msgid "Thanks for keeping your profile up to date. %1%2 If you didn't make the changes, %3 contact us via live chat. %4"
 #~ msgstr "Gracias por mantener actualizado su perfil. %1%2 Si no fue usted el que realizó los cambios, %3 comuníquese con nosotros a través del live chat. %4"
@@ -26127,15 +26353,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "The account transfer is unavailable. Please"
 #~ msgstr "La transferencia de la cuenta no está disponible. Por favor"
 
-#~ msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
-#~ msgstr "La dirección está en uso para una transacción de depósito. Utilice una dirección diferente para este retiro."
-
-#~ msgid "The address you entered appears to be the same as the account you are withdrawing from. Please enter a different account address."
-#~ msgstr "La dirección que ingresó parece ser la misma que de la cuenta de la que está retirando. Por favor, introduzca una dirección de cuenta diferente."
-
-#~ msgid "The address you provided does not accept withdrawals. Please enter a different address."
-#~ msgstr "La dirección que proporcionó no acepta retiros. Por favor, introduzca una dirección diferente."
-
 #~ msgid "The advert is inactive and cannot be changed."
 #~ msgstr "El anuncio está inactivo y no se puede cambiar."
 
@@ -26418,9 +26635,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "The minimum deposit is ($/&pound;/&euro;) 5 and the maximum account is ($/&pound;/&euro;) 150,000."
 #~ msgstr "El depósito mínimo es ($/&pound;/&euro;) 5 y la cuenta máxima es ($/&pound;/&euro;) 150.000."
 
-#~ msgid "The minimum withdrawal amount allowed is %1 %2."
-#~ msgstr "El monto mínimo permitido para retirar es %1 %2."
-
 #~ msgid "The most important benefit of using OAuth2.0 is that the end-users, who already have valid logins at %1, are able to leverage new applications to execute various trading activities, without these applications needing to know or \"see\" the end-users security credentials."
 #~ msgstr "El beneficio más importante de la utilización de OAuth2.0 es que los usuarios finales, que ya tienen identificaciones válidos en %1, serán capaces de aprovechar las nuevas aplicaciones para la ejecución de diversas actividades comerciales, sin que estas aplicaciones necesiten \"saber\" o \"ver\" las credenciales de seguridad de los usuarios."
 
@@ -26526,14 +26740,8 @@ msgstr "● Importe de la transacción"
 #~ msgid "The profit of USD 294 is the difference between the exit and entry level multiplied by the amount per point."
 #~ msgstr "El beneficio de USD 294 representa la diferencia entre los niveles de salida y entrada multiplicada por la cantidad por punto."
 
-#~ msgid "The provided address is invalid."
-#~ msgstr "La dirección proporcionada no es válida."
-
 #~ msgid "The provided advertiser ID does not belong to an active advertiser."
 #~ msgstr "El ID de anunciante proporcionado no pertenece a un anunciante activo."
-
-#~ msgid "The provided amount is invalid."
-#~ msgstr "La cantidad proporcionada no es válida."
 
 #~ msgid "The random index is a stock index whose price is simulated using random numbers. Unlike real market stock indices whose prices depend on the prices of the individual stocks listed on an Exchange, the random stock index only relies on factors like volatility, previous index price (previous simulated price) and a random number to determine the price of the index. Due to the use of random numbers, the price (or direction) of the index cannot be predicted with certainty and thus behaves like a real market index. When the index is appended with a number, the number is the percentage volatility used in calculating the index price. For instance, the Random Index 25 uses a volatility of 25% in the calculation of the index price. The index started at 1000 on 16 May 2004."
 #~ msgstr "El índice Random es un índice cuyo precio se simula con números aleatorios. A diferencia de los índices bursátiles reales del mercado cuyos precios dependen de los precios de las reservas individuales en la Bolsa, el índice aleatorio Random se basa en factores como volatilidad, precios de índices previos (precios simulados anteriormente) y un número aleatorio para determinar el precio del índice. Debido al uso de los números aleatorios, el precio (o dirección) del índice no puede predecirse con certeza y por lo tanto se comporta como un índice real del mercado. Cuando al índice se le adjunta un número, el número es el porcentaje de volatilidad que se utiliza para calcular el precio del índice. Por ejemplo, el Random 25 utiliza un porcentaje de volatilidad de 25% para calcular el precio del índice. El índice comenzó a las 10.00 el 16 de mayo de 2004."
@@ -26794,9 +27002,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "This address can only be used once to make a deposit."
 #~ msgstr "Esta dirección solo se puede usar una vez para hacer deposito."
 
-#~ msgid "This address has been blocked for use on our platform. Please enter another address to proceed."
-#~ msgstr "Esta dirección ha sido bloqueada para su uso en nuestra plataforma. Por favor, ingrese otra dirección para continuar."
-
 #~ msgid "This advert cannot be deleted because there are open orders. Please wait until the orders are closed and try again. If you'd like to stop accepting new orders, you may disable your advert."
 #~ msgstr "Este anuncio no se puede eliminar porque hay órdenes abiertas. Espere hasta que se cierren las órdenes e intente nuevamente. Si desea dejar de aceptar nuevas órdenes puede deshabilitar su anuncio."
 
@@ -26814,9 +27019,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "This call will return the same JSON structure that can be previewed from the API Console Facility."
 #~ msgstr "Esta llamada devolverá la misma estructura JSON que se puede ver en la facilidad para la consola de API."
-
-#~ msgid "This cannot be cancelled since the order is already in progress."
-#~ msgstr "Esto no se puede cancelar porque el pedido ya está en curso."
 
 #~ msgid "This client cashier section is locked."
 #~ msgstr "Esta sección de cajero del cliente está bloqueada."
@@ -28453,10 +28655,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "We received a request to reset your %1 login password. Since you log in using your social account, would you like to reset your social password instead? If yes, reset your social password and try logging in to %1."
 #~ msgstr "Recibimos una solicitud para restablecer su contraseña de inicio de sesión de %1. Ya que inicia sesión con su cuenta social, ¿le gustaría restablecer su contraseña social? Si es así, restablezca su contraseña social e intente iniciar sesión en %1."
 
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "We received a request to reset your %1 login password. Since you log in using your social account, would you like to reset your social password instead? If yes, reset your social password and try logging in to %2."
-#~ msgstr "Recibimos una solicitud para restablecer su contraseña de inicio de sesión de %1. Ya que inicia sesión con su cuenta social, ¿le gustaría restablecer su contraseña social? Si es así, restablezca su contraseña social e intente iniciar sesión en %2."
-
 #~ msgid "We recently sent you an email requesting documents to authenticate your MT5 real money account."
 #~ msgstr "Recientemente le enviamos un correo electrónico solicitando documentos para autenticar su cuenta de dinero real MT5."
 
@@ -28600,9 +28798,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "We'll then send you an e-mail asking you to verify your identity. If you don't receive the e-mail within a few minutes, please check your junk/spam mail folder."
 #~ msgstr "Le enviaremos un mensaje de correo electrónico con una solicitud para verificar su identidad. Si no recibe este mensaje en los próximos minutos, compruebe su carpeta spam/correo no deseado."
 
-#~ msgid "We're awaiting confirmation from the blockchain."
-#~ msgstr "Estamos esperando la confirmación de la cadena de bloques."
-
 #~ msgid "We're excited to have you trade with us!"
 #~ msgstr "¡Estamos emocionados de tenerle operando con nosotros!"
 
@@ -28614,12 +28809,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
 #~ msgstr "Estamos muy contentos de que haya decidido comenzar a operar con %1 y esperamos que su experiencia en nuestra plataforma haya sido positiva hasta ahora."
-
-#~ msgid "We're reviewing your withdrawal request. You may still cancel this transaction if you wish. Once we start processing, you won't be able to cancel."
-#~ msgstr "Estamos revisando su solicitud de retiro. Todavía puede cancelar esta transacción si lo desea. Una vez que empecemos a procesarla, no podrá cancelarla."
-
-#~ msgid "We're sending your request to the blockchain."
-#~ msgstr "Estamos enviando su solicitud a la cadena de bloques."
 
 #~ msgid "We're sorry but the Affiliate Token is not available for this type of Accounts."
 #~ msgstr "Lo sentimos, pero el Token de Afiliado no está disponible para este tipo de Cuentas."
@@ -28662,9 +28851,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "We've noticed that your account was opened some time ago and certain information that we require is missing. To use our service, kindly contact our customer support team at <a href=\"mailto:%1\">%1</a> to provide them with this missing information."
 #~ msgstr "Hemos notado que su cuenta se abrió hace un tiempo y que aún no se ha completado información requerida. Para utilizar nuestro servicio, comuníquese con el equipo de atención al cliente a <a href=\"mailto:%1\">%1</a> para proporcionar la información faltante."
-
-#~ msgid "We've received your request and are waiting for more blockchain confirmations."
-#~ msgstr "Hemos recibido su solicitud y estamos esperando más confirmaciones de la cadena de bloques."
 
 #, fuzzy
 #~| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_tobuyer "
@@ -29297,10 +29483,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Yes, all good"
 #~ msgstr "Sí, todo bien"
 
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "Yes, reset my %1 password"
-#~ msgstr "Sí, restablecer mi contraseña %1"
-
 #~ msgid "Yes. Please email us at <a href=\"mailto:%1\">%1</a> for further assistance."
 #~ msgstr "Sí. Por favor envíenos un correo electrónico a <a href=\"mailto:%1\">%1</a> para más asistencia."
 
@@ -29826,9 +30008,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "You're using a Virtual Account."
 #~ msgstr "Está usando su cuenta de dinero virtual."
 
-#~ msgid "You've cancelled your withdrawal request."
-#~ msgstr "Ha cancelado su solicitud de retiro."
-
 #~ msgid "You've changed your password"
 #~ msgstr "Ha cambiado su contraseña"
 
@@ -29849,10 +30028,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "You've successfully changed the following information on your Deriv profile"
 #~ msgstr "Ha cambiado correctamente la siguiente información en su perfil de Deriv"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
-#~ msgid "You've successfully changed the following information on your Deriv profile:"
-#~ msgstr "Ha cambiado correctamente la siguiente información en su perfil de Deriv:"
 
 #~ msgid "Youku Tudou Inc."
 #~ msgstr "Youku Tudou Inc."
@@ -30161,9 +30336,6 @@ msgstr "● Importe de la transacción"
 #~ msgid "Your date of birth on the document you provided doesn't match your profile. Please check and try again."
 #~ msgstr "Su fecha de nacimiento en el documento que proporcionó no coincide con su perfil. Por favor revísela e intente de nuevo."
 
-#~ msgid "Your deposit is unsuccessful due to an error. Please contact your crypto wallet service provider for more info."
-#~ msgstr "Su depósito no ha sido realizado con éxito debido a un error. Póngase en contacto con su proveedor de servicios de monedero cripto para obtener más información."
-
 #~ msgid "Your designated bank account"
 #~ msgstr "Su cuenta bancaria designada"
 
@@ -30238,10 +30410,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "Your new Deriv account password"
 #~ msgstr "Su nueva contraseña de cuenta Deriv"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
-#~ msgid "Your new Deriv personal details"
-#~ msgstr "Sus nuevos datos personales de Deriv"
 
 #~ msgid "Your new account balance is %s %s"
 #~ msgstr "El nuevo balance de su cuenta es %s %s"
@@ -30399,12 +30567,6 @@ msgstr "● Importe de la transacción"
 
 #~ msgid "Your withdrawal cannot be processed as the amount exceeds your withdrawal limit. Please <a href=\"%1\">authenticate your account</a> to have such withdrawal limits increased."
 #~ msgstr "Su retiro no puede procesarse ya que la cantidad excede el límite de retiro. Por favor, <a href=\"%1\">autentique su cuenta</a> para aumentar los límites de extracción."
-
-#~ msgid "Your withdrawal is unsuccessful due to an error. Please contact us via live chat for more info."
-#~ msgstr "Su retiro no ha sido exitoso debido a un error. Póngase en contacto con nosotros a través del chat en vivo para obtener más información."
-
-#~ msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
-#~ msgstr "Su retiro no tuvo éxito. Le hemos enviado un correo electrónico con más información."
 
 #~ msgid "Your withdrawal limit for the entire duration of the account is currently: <b>EUR %1</b> (or %2 in other currency.)"
 #~ msgstr "Su actual límite de retiro para toda la validez de la cuenta es: <b>EUR %1</b> (o %2 en otra divisa.)"

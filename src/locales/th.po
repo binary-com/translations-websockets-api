@@ -241,6 +241,11 @@ msgctxt "field for payment method 2Checkout"
 msgid "2Checkout account"
 msgstr "2บัญชีเช็คเอ้าท์"
 
+#, fuzzy
+#| msgid "2 Ways DSI Index (Momentum DSI) allows clients to trade in the same direction of a trend switch."
+msgid "3 Ways DSI Index (Contrarian DSI) allows clients to trade in the opposite direction of a trend switch."
+msgstr "ดัชนีแบบ 2 Ways DSI Index (หรือที่เรียกว่า Momentum DSI) นั้นให้ลูกค้าได้สามารถเทรดในทิศทางเดียวกับการสลับเทรนด์"
+
 msgid "3M Company"
 msgstr "3M Company"
 
@@ -668,6 +673,21 @@ msgstr "มีการระบุประเภทตลาด Deriv X ที
 msgid "An invalid MT5 account ID was provided."
 msgstr "มีการระบุรหัสบัญชี MT5 ที่ไม่ถูกต้อง"
 
+#, fuzzy
+#| msgid "An invalid MT5 account ID was provided."
+msgid "An invalid cTrader account ID was provided."
+msgstr "มีการระบุรหัสบัญชี MT5 ที่ไม่ถูกต้อง"
+
+#, fuzzy
+#| msgid "An invalid Deriv X market type was provided for %1 account creation"
+msgid "An invalid cTrader account type was provided for account creation."
+msgstr "มีการระบุประเภทตลาด Deriv X ที่ไม่ถูกต้องสำหรับ %การสร้างบัญชี"
+
+#, fuzzy
+#| msgid "An invalid Deriv X market type was provided for %1 account creation"
+msgid "An invalid cTrader market type was provided for account creation."
+msgstr "มีการระบุประเภทตลาด Deriv X ที่ไม่ถูกต้องสำหรับ %การสร้างบัญชี"
+
 msgid "An order cannot be created for this amount at this time. Please try adjusting the amount."
 msgstr "ไม่สามารถสร้างใบออร์เดอร์สําหรับยอดเงินจำนวนนี้ในขณะนี้ได้ โปรดลองปรับจํานวนเงิน"
 
@@ -676,6 +696,9 @@ msgstr "มีข้อผิดพลาดเกิดขึ้น"
 
 msgid "An unexpected error occurred: Please refresh or try again in a few minutes."
 msgstr "เกิดข้อผิดพลาดที่ไม่คาดคิด: โปรดทำการรีเฟรชหรือลองอีกครั้งในอีกสักครู่"
+
+msgid "An unknown error has occurred."
+msgstr "มีข้อผิดพลาดที่ไม่รู้จักเกิดขึ้น"
 
 msgid "Angolan Kwanza"
 msgstr "กวานซาแองโกลา"
@@ -1147,11 +1170,10 @@ msgstr "ฟรังก์ซีเอฟเอ บีซีอีเอโอ"
 msgid "CFA Franc BEAC"
 msgstr "ฟรังก์ซีเอฟเอ บีอีเอซี"
 
+#, fuzzy
+#| msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
+#| msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 73% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
-msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 72% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
-msgstr "สัญญาการซื้อขายส่วนต่างหรือ CFD เป็นตราสารที่ซับซ้อนและมีความเสี่ยงสูงต่อการสูญเสียเงินอย่างรวดเร็วเนื่องจากการใช้เลเวอเรจ โดย 72% ของบัญชีนักลงทุนรายย่อยสูญเสียเงินเมื่อทำการซื้อขาย CFD กับผู้ให้บริการรายนี้ คุณจึงควรพิจารณาดูว่า คุณเข้าใจวิธีการทำงานของ CFD หรือไม่และคุณสามารถรับความเสี่ยงสูงที่จะสูญเสียเงินของคุณได้หรือไม่"
-
-msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
 msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 73% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgstr "สัญญาการซื้อขายส่วนต่างหรือ CFD เป็นตราสารที่ซับซ้อนและมีความเสี่ยงสูงต่อการสูญเสียเงินอย่างรวดเร็วเนื่องจากการใช้เลเวอเรจ โดย 73% ของบัญชีนักลงทุนรายย่อยสูญเสียเงินเมื่อทำการซื้อขาย CFD กับผู้ให้บริการรายนี้ คุณจึงควรพิจารณาดูว่า คุณเข้าใจวิธีการทำงานของ CFD หรือไม่และคุณสามารถรับความเสี่ยงสูงที่จะสูญเสียเงินของคุณได้หรือไม่"
 
@@ -1228,6 +1250,11 @@ msgstr "แคชเชียร์"
 
 msgid "Cashier API doesn't support the selected provider or operation."
 msgstr "แคชเชียร์ API ไม่รองรับผู้ให้บริการหรือการดําเนินการที่เลือก"
+
+#, fuzzy
+#| msgid "Payment agent withdrawals are not allowed for specified accounts."
+msgid "Cashier deposits and withdrawals are not allowed on this account."
+msgstr "การถอนเงินผ่านตัวแทนรับชำระเงินนั้นไม่อนุญาตสำหรับบัญชีที่กำหนดไว้"
 
 msgctxt "payment method name"
 msgid "Cassava Remit"
@@ -1361,6 +1388,9 @@ msgstr "ClicknPay"
 msgctxt "field for payment method ClicknPay"
 msgid "ClicknPay account"
 msgstr "บัญชี ClicknPay"
+
+msgid "Client loginid is required."
+msgstr "ต้องระบุไอดีการเข้าใช้งานของลูกค้า"
 
 msgid "Close"
 msgstr "ปิด"
@@ -1556,6 +1586,9 @@ msgstr "คริปโตเคอเรนซี่แสดงมูลค่
 msgid "Cuban Peso"
 msgstr "เปโซคิวบา"
 
+msgid "Currency is required."
+msgstr "จำเป็นต้องมีค่าสกุลเงิน"
+
 msgid "Currency provided is different from account currency."
 msgstr "สกุลเงินที่เลือกนั้นต่างจากสกุลเงินของบัญชี"
 
@@ -1605,8 +1638,19 @@ msgstr "บัญชี DPO"
 msgid "DSH/USD"
 msgstr "DSH/USD"
 
+msgid "DSI10"
+msgstr ""
+
 msgid "DSI2"
 msgstr "ดัชนี DSI2"
+
+#, fuzzy
+#| msgid "DSI2"
+msgid "DSI20"
+msgstr "ดัชนี DSI2"
+
+msgid "DSI30"
+msgstr ""
 
 msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
 msgid "DTrader lets you trade multipliers. With multipliers, you’ll amplify your potential profits and never risk losing more than your stake. Customise your trade using inline charts and indicators of your choice."
@@ -2154,6 +2198,12 @@ msgstr "เวลาพักต้องเริ่มพรุ่งนี้
 msgid "Exclusion time conversion error."
 msgstr "มีข้อผิดพลาดในการแปลงค่าเวลาพัก"
 
+msgid "Existing active cTrader account found."
+msgstr ""
+
+msgid "Existing cTrader accounts missing group data."
+msgstr ""
+
 msgid "Exit Spot"
 msgstr "สปอตสิ้นสุด"
 
@@ -2194,6 +2244,9 @@ msgstr "ไม่สามารถยืนยันตัวตนผู้ใ
 
 msgid "Failed to reach an acceptable trading experience score."
 msgstr "คะแนนประสบการณ์การเทรดนั้นยังไม่ถึงเกณฑ์ที่ยอมรับได้"
+
+msgid "Failed to retrieve new or existing CTID."
+msgstr ""
 
 msgid "Falkland Islands Pound"
 msgstr "เงินปอนด์หมู่เกาะฟอล์กแลนด์"
@@ -2844,6 +2897,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirma
 msgid "If you did receive the payment, please let us know if there is any reason you haven’t completed the order."
 msgstr "หากคุณได้รับการชำระเงินไปแล้วจริง โปรดแจ้งให้เราทราบถึงเหตุผลใดๆ ที่คุณยังไม่ดำเนินการตามออร์เดอร์นั้นให้เสร็จสิ้น"
 
+#, fuzzy
+#| msgid "If you didn't make the changes, %1contact us%2 via live chat."
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "If you didn't make the changes, %1 contact us via live chat. %2"
+msgstr "หากคุณไม่ได้ทําการเปลี่ยนแปลงโปรด %1ติดต่อเรา%2 ผ่านการแชทสด"
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "If you didn't request a new password, %1Contact us%2 via live chat."
+msgstr "หากคุณไม่ได้ร้องขอรหัสผ่านอันใหม่ กรุณา %1ติดต่อเรา%2 ผ่านแชทสด"
+
 msgid "If you didn't request a new password, %1contact us%2 via live chat."
 msgstr "หากคุณไม่ได้ร้องขอรหัสผ่านอันใหม่โปรด %1ติดต่อเรา%2 ผ่านการแชทสด"
 
@@ -2994,6 +3057,10 @@ msgstr "หากคุณต้องการเปิดใช้งานบ
 
 msgid "If you're a %1 user, log in with your %2 username and password"
 msgstr "หากคุณเป็นผู้ใช้ %1 โปรดเข้าสู่ระบบด้วย %2 ชื่อผู้ใช้และรหัสผ่านของคุณ"
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "If you're having trouble with the button, copy and paste the link below into your browser."
+msgstr "หากว่าปุ่มกดมีปัญหาให้คุณคัดลอกและวางลิงก์ด้านล่างนี้ลงไปในช่องเบราว์เซอร์ของคุณ"
 
 msgid "If you're ready, %1reset your password now.%2"
 msgstr "หากคุณพร้อม %1รีเซ็ตรหัสผ่าน%2 ได้ตอนนี้"
@@ -3223,6 +3290,12 @@ msgctxt "Customer.io email: svg_all_transactional_poa_poi_resubmission "
 msgid "Is dated within the last 6 months"
 msgstr "มีการระบุวันที่อยู่ภายใน 6 เดือนที่ผ่านมา"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_verify_age "
+#| msgid "Go to proof of identity"
+msgid "Issuing country is mandatory for proof of identity"
+msgstr "ไปที่หลักฐานแสดงตัวตน"
+
 msgid "Istanbul Index"
 msgstr "ดัชนีอิสตันบูล"
 
@@ -3339,6 +3412,10 @@ msgstr "ดัชนี Jump"
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Just a couple of notes regarding your payment agent account:"
 msgstr "มีข้อสังเกตสองสามข้อเกี่ยวกับบัญชีตัวแทนชำระเงินของคุณ:"
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %2 password?"
+msgstr "หมายเหตุ: หากว่าคุณทำการรีเซ็ตรหัสผ่าน %1 ของคุณแล้วก็จะไม่สามารถเข้าสู่ระบบด้วยบัญชีโซเชียลของคุณได้อีก คุณยังต้องการดำเนินการต่อและรีเซ็ตรหัสผ่าน %2 หรือไม่?"
 
 msgid "Just hit the button below to upload a copy of your national ID, passport, or driving licence within 5 days."
 msgstr "เพียงกดปุ่มด้านล่างเพื่ออัปโหลดสําเนาบัตรประจําตัวประชาชน หนังสือเดินทาง หรือใบขับขี่ ภายใน 5 วัน"
@@ -3686,6 +3763,9 @@ msgstr "Microsoft"
 msgid "Middle East"
 msgstr "ตะวันออกกลาง"
 
+msgid "Migration is not in failed state."
+msgstr ""
+
 msgid "Min trade stake should be lower than max trade stake."
 msgstr "เงินทุนทรัพย์ขั้นต่ำควรจะมีค่าต่ำกว่าเงินทุนทรัพย์ขั้นสูงสุด"
 
@@ -3828,10 +3908,6 @@ msgstr "บัญชี Myghpay"
 msgid "NEO/USD"
 msgstr "NEO/USD"
 
-msgctxt "IDV document type "
-msgid "NIN Slip"
-msgstr "Slip NIN"
-
 msgid "NZD/CAD"
 msgstr "NZD/CAD"
 
@@ -3854,12 +3930,18 @@ msgctxt "Onfido document type "
 msgid "National Health Insurance Card"
 msgstr "บัตรประกันสุขภาพแห่งชาติ"
 
+#, fuzzy
+#| msgctxt "IDV document type "
+#| msgid "National ID"
 msgctxt "IDV document type "
-msgid "National ID"
+msgid "National ID Number"
 msgstr "รหัสประจำตัวประชาชน"
 
+#, fuzzy
+#| msgctxt "IDV document type "
+#| msgid "National ID no photo"
 msgctxt "IDV document type "
-msgid "National ID no photo"
+msgid "National ID Number Slip"
 msgstr "บัตรประจําตัวประชาชนไม่มีรูปถ่าย"
 
 msgctxt "Onfido document type "
@@ -4544,6 +4626,9 @@ msgstr "โปรดพิสูจน์ยืนยันบัญชีขอ
 msgid "Please authenticate your account."
 msgstr "โปรดพิสูจน์ยืนยันบัญชีของคุณ"
 
+msgid "Please be informed that there is already a withdrawal transaction pending for the provided address. Please wait the transaction to be confirmed."
+msgstr "โปรดทราบว่า มีรายการถอนที่กำลังรอดำเนินการสำหรับที่อยู่ที่ให้ไว้นี้ โปรดรอการยืนยันการทำธุรกรรม"
+
 msgid "Please change the minimum and/or maximum order limit for this ad. The range between these limits must not overlap with another active ad you created for this currency pair and order type."
 msgstr "โปรดเปลี่ยนขีดจำกัดคำสั่งซื้อขั้นต่ำหรือขั้นสูงสุดสำหรับโฆษณานี้ โดยช่วงระหว่างขีดจํากัดเหล่านี้จะต้องไม่ทับซ้อนกันกับโฆษณาอื่นที่คุณสร้างขึ้นและกำลังใช้งานอยู่สําหรับคู่สกุลเงินและประเภทคําสั่งซื้อนี้"
 
@@ -4987,6 +5072,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_unreleased_buyer_confirmat
 msgid "Provide your proof of payment."
 msgstr "โปรดแสดงหลักฐานยืนยันการชำระเงินของคุณ"
 
+msgid "Provided amount is not within permissible limits."
+msgstr "จำนวนเงินที่ให้มานั้นไม่อยู่ภายในวงเงินที่ได้รับอนุญาต"
+
 msgid "Provided amount is not within permissible limits. Maximum transfer amount for %1 currency is %2."
 msgstr "จำนวนเงินที่ให้มานั้นไม่อยู่ภายในวงเงินที่ได้รับอนุญาต จำนวนเงินสูงสุดในการโอนเงินสกุล %1 คือ %2"
 
@@ -5222,10 +5310,6 @@ msgstr "SPDR Dow Jones Industrial Average ETF Trust CFD"
 msgid "SPDR Gold Trust CFD"
 msgstr "SPDR Gold Trust CFD"
 
-msgctxt "IDV document type "
-msgid "SSNIT"
-msgstr "SSNIT"
-
 msgctxt "field for payment method Bank Transfer"
 msgid "SWIFT or IFSC code"
 msgstr "รหัส SWIFT หรือ IFSC"
@@ -5414,6 +5498,13 @@ msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "So get your documents ready, verify your identity, and start using ZingPay on Deriv now!"
 msgstr "เตรียมเอกสารของคุณให้พร้อม ทำการยืนยันตัวตนของคุณ และเริ่มใช้ ZingPay บน Deriv ได้ตอนนี้เลย!"
 
+#, fuzzy
+#| msgctxt "Onfido document type "
+#| msgid "Social Security Card (Individual Number Paper Slip)"
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "บัตรประกันสังคม (สลิปกระดาษหมายเลขบุคคล)"
+
 msgid "Social login is not enabled for this account. Please log in with your email and password instead."
 msgstr "การเข้าสู่ระบบโซเชียลสำหรับบัญชีนี้ไม่ได้ถูกเปิดใช้งาน โปรดเข้าสู่ระบบด้วยอีเมล์และรหัสผ่านของคุณแทน"
 
@@ -5484,6 +5575,9 @@ msgstr "ขออภัย ระบบแคชเชียร์นั้น�
 msgid "Sorry, crypto cashier is temporarily unavailable due to system maintenance."
 msgstr "ขออภัย ระบบแคชเชียร์ crypto ไม่สามารถใช้งานได้ชั่วคราวเนื่องจากการบำรุงรักษาระบบ"
 
+msgid "Sorry, deposits for this currency are currently disabled."
+msgstr "ขออภัย ไม่สามารถทำการฝากเงินในสกุลเงินนี้ได้ในขณะนี้"
+
 msgid "Sorry, it looks like you already have a real money account with us. Only one real money account is allowed for each client."
 msgstr "ขออภัย ดูเหมือนว่าคุณมีบัญชีเงินจริงกับเราอยู่แล้ว ลูกค้าแต่ละท่านได้รับอนุญาตให้มีบัญชีเงินจริงได้เพียงบัญชีเดียว"
 
@@ -5541,6 +5635,9 @@ msgstr "ขออภัย เราไม่พบบัญชีกระเ�
 msgid "Sorry, we couldn't link your trading account to this wallet."
 msgstr "ขออภัย เราไม่สามารถเชื่อมโยงบัญชีซื้อขายของคุณเข้ากับกระเป๋าเงินนี้ได้"
 
+msgid "Sorry, withdrawals for this currency are currently disabled."
+msgstr "ขออภัย ไม่สามารถทำการถอนเงินในสกุลเงินนี้ได้ในขณะนี้"
+
 msgid "Sorry, you are too young to open an account."
 msgstr "ขออภัย คุณมีอายุยังไม่ถึงเกณฑ์เข้าข่ายคุณสมบัติผู้สมัครเปิดบัญชี"
 
@@ -5568,6 +5665,9 @@ msgstr "ขออภัย บัญชีซื้อขายของคุ�
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_declined "
 msgid "Sorry, your withdrawal didn’t go through"
 msgstr "ขออภัย การถอนเงินของคุณไม่สำเร็จ"
+
+msgid "Sorry, your withdrawal transaction for id: %1 is under processing or has been rejected."
+msgstr "ขออภัย ธุรกรรมการถอนเงินของคุณสําหรับ ID: %1 อยู่ระหว่างการประมวลผลหรือถูกปฏิเสธ"
 
 msgid "South African Index"
 msgstr "ดัชนีแอฟริกาใต้"
@@ -5678,6 +5778,10 @@ msgstr "SticPay"
 msgctxt "field for payment method SticPay"
 msgid "SticPay account"
 msgstr "บัญชี SticPay"
+
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "Still want to reset your %1 password?"
+msgstr "คุณยังคงต้องการรีเซ็ตรหัสผ่าน %1 ของคุณหรือไม่?"
 
 msgid "Stock Indices"
 msgstr "ดัชนีหุ้น"
@@ -5958,6 +6062,12 @@ msgctxt "Customer.io email: svg-all-transactional-professional-client-request "
 msgid "Thanks for choosing to trade with Deriv.com."
 msgstr "ขอบคุณที่เลือกเทรดกับ Deriv.com"
 
+#, fuzzy
+#| msgid "Thanks for keeping your profile up to date."
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "Thanks for keeping your profile up to date."
+msgstr "ขอบคุณที่ทําให้โปรไฟล์ของคุณทันสมัยอยู่เสมอ"
+
 msgctxt "Customer.io email: svg_all_transactional_account_opening_verify_email "
 msgid "Thanks for signing up."
 msgstr "ขอบคุณที่ลงทะเบียนกับเรา"
@@ -5973,6 +6083,15 @@ msgstr "ทีมงาน %1"
 
 msgid "The Walt Disney Company"
 msgstr "The Walt Disney Company"
+
+msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
+msgstr "ที่อยู่นี้กำลังถูกใช้สำหรับรายการฝากเงิน โปรดใช้ที่อยู่อื่นสำหรับการขอถอนเงินนี้"
+
+msgid "The address you entered appears to be the same as the account you are withdrawing from. Please enter a different account address."
+msgstr "ที่อยู่ที่คุณป้อนนั้นดูเหมือนกันกับบัญชีที่คุณกําลังถอนอยู่ กรุณาป้อนที่อยู่บัญชีอันอื่น"
+
+msgid "The address you provided does not accept withdrawals. Please enter a different address."
+msgstr "ที่อยู่ที่คุณให้มานั้นไม่ยอมรองรับการถอน โปรดกรอกที่อยู่อันอื่น"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "The all-in-one CFD-trading platform for professionals worldwide."
@@ -6019,6 +6138,11 @@ msgid "The date you entered is not allowed. Please enter a date between %1 and %
 msgstr "วันที่ที่คุณป้อนไม่ได้รับการอนุญาต โปรดป้อนวันที่ระหว่าง %1 ถึง %2"
 
 msgid "The deposit to your Deriv X account did not complete. Please contact our Customer Support team."
+msgstr "การฝากเงินเข้าไปยังบัญชี Deriv X ของคุณไม่เสร็จสมบูรณ์ โปรดติดต่อทีมสนับสนุนลูกค้าของเรา"
+
+#, fuzzy
+#| msgid "The deposit to your Deriv X account did not complete. Please contact our Customer Support team."
+msgid "The deposit to your cTrader account did not complete. Please contact our Customer Support team."
 msgstr "การฝากเงินเข้าไปยังบัญชี Deriv X ของคุณไม่เสร็จสมบูรณ์ โปรดติดต่อทีมสนับสนุนลูกค้าของเรา"
 
 msgid "The details in the proof of address don't match your profile."
@@ -6119,6 +6243,9 @@ msgstr "จำนวนขั้นต่ำสำหรับการโอน
 msgid "The minimum order amount should be less than or equal to the maximum order amount. Please adjust the value."
 msgstr "จำนวนขั้นต่ำของการสั่งซื้อนั้นควรจะน้อยกว่าหรือเท่ากับจำนวนขั้นสูงสุดของการสั่งซื้อ กรุณาปรับค่า"
 
+msgid "The minimum withdrawal amount allowed is %1 %2."
+msgstr "จำนวนขั้นต่ำสุดที่อนุญาตให้ถอนได้ คือ %1 %2"
+
 msgid "The most widely traded and liquid forex pairs."
 msgstr "คู่อัตราแลกเปลี่ยนเงินที่มีการนิยมเทรดและมีสภาพคล่องมากที่สุด"
 
@@ -6177,6 +6304,12 @@ msgstr "หมายเลข ID หลักฐานการเป็นเ�
 msgid "The provided Deriv account ID is not valid."
 msgstr "หมายเลข ID บัญชี Deriv ดังกล่าวนั้นไม่ถูกต้อง"
 
+msgid "The provided address is invalid."
+msgstr "ที่อยู่ดังกล่าวนั้นไม่ถูกต้อง"
+
+msgid "The provided amount is invalid."
+msgstr "จํานวนดังกล่าวนั้นไม่ถูกต้อง"
+
 msgid "The provided currency %1 is invalid."
 msgstr "สกุลเงิน %1 ดังกล่าวนั้นไม่ถูกต้อง"
 
@@ -6204,11 +6337,21 @@ msgstr "จำนวนเงินขั้นต่ำที่ร้องข
 msgid "The requested service is unavailable at the moment."
 msgstr "ขออภัย ไม่สามารถให้บริการดังกล่าวได้ในขณะนี้"
 
+#, fuzzy
+#| msgid "The required funds could not be withdrawn from your Deriv account. Please try a different account."
+msgid "The required funds could not be deposited to your cTrader account. Please try a different account."
+msgstr "ไม่สามารถถอนเงินตามที่ต้องการออกจากบัญชี Deriv ของคุณได้ โปรดลองใช้บัญชีอื่น"
+
 msgid "The required funds could not be withdrawn from your Deriv X account. Please try later or use a different account."
 msgstr "ไม่สามารถถอนเงินตามที่ต้องการออกจากบัญชี Deriv X ของคุณได้ โปรดลองในภายหลังหรือใช้บัญชีอื่น"
 
 msgid "The required funds could not be withdrawn from your Deriv account. Please try a different account."
 msgstr "ไม่สามารถถอนเงินตามที่ต้องการออกจากบัญชี Deriv ของคุณได้ โปรดลองใช้บัญชีอื่น"
+
+#, fuzzy
+#| msgid "The required funds could not be withdrawn from your Deriv X account. Please try later or use a different account."
+msgid "The required funds could not be withdrawn from your cTrader account. Please try later or use a different account."
+msgstr "ไม่สามารถถอนเงินตามที่ต้องการออกจากบัญชี Deriv X ของคุณได้ โปรดลองในภายหลังหรือใช้บัญชีอื่น"
 
 msgid "The security hash used in your request appears to be invalid."
 msgstr "แฮชความปลอดภัยที่ใช้ในคําขอของคุณดูเหมือนจะไม่ถูกต้อง"
@@ -6321,6 +6464,16 @@ msgstr "มีปัญหาในการอัปเกรดวงเงิ
 msgid "There was a problem validating your personal details."
 msgstr "มีปัญหาในการตรวจสอบยืนยันที่อยู่ของคุณ"
 
+#, fuzzy
+#| msgid "There was an error while creating your account. Please try again later."
+msgid "There was an error creating cTrader account. Please try again later."
+msgstr "มีข้อผิดพลาดเกิดขึ้นขณะกําลังสร้างบัญชีของคุณ โปรดลองอีกครั้งในภายหลัง"
+
+#, fuzzy
+#| msgid "There was an error while creating your account. Please try again later."
+msgid "There was an error linking created cTrader account. Please try again later."
+msgstr "มีข้อผิดพลาดเกิดขึ้นขณะกําลังสร้างบัญชีของคุณ โปรดลองอีกครั้งในภายหลัง"
+
 msgid "There was an error processing the request."
 msgstr "มีความผิดพลาดเกิดขึ้นขณะประมวลผลตามคำขอของคุณ"
 
@@ -6363,6 +6516,9 @@ msgstr "บัญชีนี้ไม่สามารถใช้งานไ
 
 msgid "This ad is currently unavailable. Please choose another ad or check back later."
 msgstr "โฆษณานี้ไม่สามารถใช้งานได้ในขณะนี้ โปรดเลือกโฆษณาอื่นหรือลองอีกครั้งในภายหลัง"
+
+msgid "This address has been blocked for use on our platform. Please enter another address to proceed."
+msgstr "ที่อยู่นี้ถูกบล็อกสําหรับการใช้งานบนแพลตฟอร์มของเรา กรุณาใส่ที่อยู่อื่นเพื่อดําเนินการต่อ"
 
 msgid "This advert has no payment methods. Please add at least one before activating it."
 msgstr "โฆษณานี้ไม่มีวิธีการชำระเงิน โปรดเพิ่มอย่างน้อยหนึ่งรายการก่อนเปิดใช้งาน"
@@ -6548,6 +6704,11 @@ msgstr "ไม่สามารถทำธุรกรรมนี้ได้
 
 msgid "This verification method is currently unavailable."
 msgstr "วิธีการพิสูจน์ตรวจสอบนี้ไม่สามารถใช้ได้ในขณะนี้"
+
+#, fuzzy
+#| msgid "Two Ways DSI"
+msgid "Three Ways DSI"
+msgstr "ดัชนี Two Ways DSI"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Three great platforms that give you the tools to trade simply, flexibly, and reliably. Available on desktop, mobile, and tablet."
@@ -7730,6 +7891,12 @@ msgstr "รหัสกระเป๋าเงิน"
 msgid "Wallet account creation is currently suspended."
 msgstr "การสร้างบัญชีวอลเล็ทหรือกระเป๋าเงินถูกระงับในขณะนี้"
 
+msgid "Wallet migration is already finished."
+msgstr ""
+
+msgid "Wallet migration is already in progress."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_change_email_request "
 msgid "Want to change your Deriv login email address?"
 msgstr "ต้องการเปลี่ยนที่อยู่อีเมล์สำหรับใช้เข้าสู่ระบบ Deriv ของคุณหรือไม่?"
@@ -7835,6 +8002,11 @@ msgstr "เราไม่สามารถดำเนินการได้
 msgid "We cannot complete your request. You can only top up your Deriv X demo account when the balance falls below %1 %2."
 msgstr "เราไม่สามารถดำเนินการตามคำขอได้ คุณจะเติมเงินในบัญชีทดลอง Deriv X ได้เมื่อยอดคงเหลือต่ำกว่า %1 %2 เท่านั้น"
 
+#, fuzzy
+#| msgid "We cannot complete your request. You can only top up your Deriv X demo account when the balance falls below %1 %2."
+msgid "We cannot complete your request. You can only top up your cTrader demo account when the balance falls below %1 %2."
+msgstr "เราไม่สามารถดำเนินการตามคำขอได้ คุณจะเติมเงินในบัญชีทดลอง Deriv X ได้เมื่อยอดคงเหลือต่ำกว่า %1 %2 เท่านั้น"
+
 msgid "We cannot recognise your local currency. Please contact our Customer Support team."
 msgstr "เราไม่อาจยอมรับเงินสกุลท้องถิ่นของคุณได้ โปรดติดต่อฝ่ายสนับสนุนลูกค้าของเรา"
 
@@ -7929,6 +8101,10 @@ msgstr "เราได้รับคำขอให้เปลี่ยนร
 msgid "We received a request to change the password for the account with the email %1."
 msgstr "เราได้รับคำขอให้เปลี่ยนรหัสผ่านสำหรับบัญชีด้วยอีเมล์ %1"
 
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "We received a request to reset your %1 login password. Since you log in using your social account, would you like to reset your social password instead? If yes, reset your social password and try logging in to %2."
+msgstr "เราได้รับคําขอให้รีเซ็ตรหัสผ่านเพื่อเข้าสู่ระบบ %1 ของคุณ เนื่องจากคุณเข้าสู่ระบบโดยใช้บัญชีโซเชียลมีเดีย คุณต้องการจะรีเซ็ตรหัสผ่านบัญชีโซเชียลของคุณแทนหรือไม่ ถ้าใช่ก็ให้คุณรีเซ็ตรหัสผ่านโซเชียลและลองเข้าสู่ระบบ %2"
+
 msgid "We received a request to reset your password."
 msgstr "เราได้รับคําขอให้รีเซ็ตรหัสผ่านของคุณ"
 
@@ -7991,6 +8167,9 @@ msgstr "เราจะต้องดำเนินการถอนเงิ
 msgid "We'll process them in 1 - 3 working days and, if there are no issues, we'll enable your withdrawals and transfers right away."
 msgstr "เราจะดำเนินการภายใน 1 - 3 วันทำการและหากไม่มีปัญหาใด เราจะเปิดการใช้งานถอนเงินและโอนเงินของคุณโดยทันที"
 
+msgid "We're awaiting confirmation from the blockchain."
+msgstr "เรากําลังรอการยืนยันจากบล็อกเชน"
+
 msgid "We're experiencing a technical issue with our Cashier. Your funds are safe, but deposits and withdrawals are unavailable for the time being."
 msgstr "เรากำลังประสบปัญหากับระบบของแคชเชียร์ เงินของคุณจะปลอดภัย แต่ไม่สามารถทำการฝากและถอนเงินได้ในขณะนี้"
 
@@ -8013,6 +8192,18 @@ msgstr "เรากำลังสืบสวนข้อพิพาทขอ
 
 msgid "We're processing your request to withdraw funds via a payment agent. You'll get to know the status of your request via email within 24 hours."
 msgstr "เรากำลังดำเนินการตามคำร้องของคุณเพื่อขอถอนเงินผ่านตัวแทนชำระเงิน คุณจะทราบสถานะคำร้องผ่านทางอีเมล์ภายใน 24 ชั่วโมง"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_pending "
+#| msgid "We’re processing your withdrawal"
+msgid "We're processing your withdrawal."
+msgstr "เรากําลังดําเนินการถอนเงินของคุณ"
+
+msgid "We're reviewing your withdrawal request. You may still cancel this transaction if you wish. Once we start processing, you won't be able to cancel."
+msgstr "เรากําลังตรวจสอบคําขอถอนเงินของคุณ คุณอาจจะยังยกเลิกธุรกรรมนี้ได้ถ้าต้องการ แต่เมื่อเราเริ่มประมวลผลแล้ว คุณจะไม่สามารถยกเลิกได้"
+
+msgid "We're sending your request to the blockchain."
+msgstr "เรากําลังส่งคําขอของคุณไปยังบล็อกเชน"
 
 msgid "We're sorry you're leaving"
 msgstr "เราเสียใจที่คุณต้องการเลิกลาจากไป"
@@ -8063,6 +8254,9 @@ msgstr "เราได้ทำการโอนเรียบร้อยแ
 
 msgid "We've disabled your MT5 account. Please contact us for more information."
 msgstr "เราได้ปิดการใช้งานบัญชี MT5 ของคุณ โปรดติดต่อเราเพื่อขอข้อมูลเพิ่มเติม"
+
+msgid "We've received your request and are waiting for more blockchain confirmations."
+msgstr "เราได้รับคําขอของคุณและกําลังรอการยืนยันบล็อกเชนเพิ่มเติม"
 
 msgid "We've sent you an email. Click the confirmation link in the email to complete this order."
 msgstr "เราได้ส่งอีเมล์ไปหาคุณ โปรดคลิกลิงก์ยืนยันในอีเมล์นั้นเพื่อทำให้คำสั่งซื้อนี้เสร็จสมบูรณ์"
@@ -8548,6 +8742,10 @@ msgctxt "Customer.io email: svg_all_transactional_withdrawal_request_verificatio
 msgid "Yes, it's me!"
 msgstr "ใช่ ฉันเอง!"
 
+msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
+msgid "Yes, reset my %1 password"
+msgstr "ใช่ กรุณารีเซ็ตรหัสผ่าน %1 ของฉัน"
+
 msgid "You already have Deriv X account of this type (account ID %1).%2"
 msgstr "คุณมีบัญชี Deriv X ประเภทนี้อยู่แล้ว (รหัสบัญชี %1).%2"
 
@@ -9002,6 +9200,9 @@ msgstr "คุณได้ส่งคำขอสมัครตัวแทน
 msgid "You've been temporarily barred from using our services due to multiple cancellation attempts. Try again after %1 GMT."
 msgstr "คุณถูกห้ามไม่ให้ใช้บริการของเราชั่วคราวเนื่องจากมีการพยายามยกเลิกหลายครั้ง กรุณาลองอีกครั้งหลังจาก %1 GMT"
 
+msgid "You've cancelled your withdrawal request."
+msgstr "คุณได้ยกเลิกคําขอถอนเงินของคุณแล้ว"
+
 msgid "You've got a new %1 investor password"
 msgstr "คุณมีรหัสผ่านนักลงทุน %1 อันใหม่"
 
@@ -9019,6 +9220,13 @@ msgstr "คุณมีโฆษณาที่กำลังใช้งาน
 
 msgid "You've reached the maximum withdrawal limit of %1 %2. Please authenticate your account before proceeding with this withdrawal."
 msgstr "คุณได้มาถึงขีดจำกัดการถอนสูงสุดที่ %1 %2 แล้ว กรุณาตรวจสอบยืนยันบัญชีของคุณก่อนจะดำเนินการถอนเงินนี้"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
+#| msgid "You've successfully changed the following information on your Deriv profile:"
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "You've successfully changed the following information on your Deriv profile:"
+msgstr "คุณได้เปลี่ยนข้อมูลต่อไปนี้ในโปรไฟล์ Deriv ของคุณสำเร็จแล้ว:"
 
 msgid "You've successfully created a new investor password for your DMT5 account %1."
 msgstr "คุณได้สร้างรหัสผ่านสำหรับนักลงทุนอันใหม่สำหรับบัญชี DMT5 %1 ของคุณเรียบร้อยแล้ว"
@@ -9199,6 +9407,11 @@ msgstr "บัญชีของคุณถูกระงับการใช
 msgid "Your account is locked for withdrawals."
 msgstr "บัญชีของคุณถูกล็อกไม่ให้ใช้การถอนเงิน"
 
+#, fuzzy
+#| msgid "Your account is locked for withdrawals."
+msgid "Your account is not ready for wallet migration."
+msgstr "บัญชีของคุณถูกล็อกไม่ให้ใช้การถอนเงิน"
+
 msgid "Your account is restricted to deposits only."
 msgstr "บัญชีของคุณถูกจำกัดให้ทำได้เฉพาะการฝากเงินเท่านั้น"
 
@@ -9243,6 +9456,16 @@ msgctxt "Customer.io email: svg_all_transactional_request_poi "
 msgid "Your bank statement or utility bill showing your name and address (not more than 6 months old)"
 msgstr "ใบแจ้งยอดธนาคารหรือบิลค่าสาธารณูปโภคที่แสดงชื่อและที่อยู่ของคุณ (อายุไม่เกิน 6 เดือน)"
 
+#, fuzzy
+#| msgid "Your Deriv X account balance is insufficient for this withdrawal."
+msgid "Your cTrader account balance is insufficient for this withdrawal."
+msgstr "ยอดเงินในบัญชี Deriv X ของคุณนั้นไม่เพียงพอสำหรับการถอนครั้งนี้"
+
+#, fuzzy
+#| msgid "Your Deriv X demo account could not be topped up at this time. Please try later."
+msgid "Your cTrader demo account could not be topped up at this time. Please try later."
+msgstr "ไม่สามารถเติมเงินในบัญชีเดโม Deriv X ของคุณได้ในขณะนี้ กรุณาลองใหม่ในภายหลัง"
+
 msgid "Your cashier is locked."
 msgstr "แคชเชียร์ของคุณถูกล็อกไว้"
 
@@ -9266,6 +9489,15 @@ msgstr "วันเดือนปีเกิดของคุณนั้น
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Your deposit failed? We’ve got you covered!"
 msgstr "การฝากเงินของคุณไม่สำเร็จ? เรามาช่วยคุณแล้ว!"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_deposit_confirmed "
+#| msgid "Your %1 deposit is successful"
+msgid "Your deposit is successful."
+msgstr "การฝากเงิน %1 ของคุณสําเร็จแล้ว"
+
+msgid "Your deposit is unsuccessful due to an error. Please contact your crypto wallet service provider for more info."
+msgstr "การฝากเงินของคุณไม่สําเร็จเพราะมีข้อผิดพลาด โปรดติดต่อผู้ให้บริการกระเป๋าเงินคริปโตของคุณสําหรับข้อมูลเพิ่มเติม"
 
 msgid "Your document appears to be a digital document."
 msgstr "เอกสารของคุณดูเหมือนจะเป็นเอกสารดิจิทัล"
@@ -9419,6 +9651,13 @@ msgstr "รหัสผ่านนักลงทุน %1 อันใหม�
 msgid "Your new %1 password"
 msgstr "รหัสผ่าน %1 อันใหม่ของคุณ"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
+#| msgid "Your new Deriv personal details"
+msgctxt "Customer.io email: dummy_update_account_settings "
+msgid "Your new Deriv personal details"
+msgstr "รายละเอียดส่วนบุคคล Deriv ใหม่ของคุณ"
+
 msgid "Your new trading password request"
 msgstr "คําขอรหัสผ่านการซื้อขายอันใหม่ของคุณ"
 
@@ -9569,8 +9808,20 @@ msgstr "การถอนเงินของคุณถูกยกเลิ
 msgid "Your withdrawal is pending confirmation from the blockchain."
 msgstr "การถอนของคุณกำลังรอการยืนยันจากบล็อกเชน"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_successful "
+#| msgid "Your %1 withdrawal is successful"
+msgid "Your withdrawal is successful."
+msgstr "การถอนเงิน %1 ของคุณสําเร็จแล้ว"
+
+msgid "Your withdrawal is unsuccessful due to an error. Please contact us via live chat for more info."
+msgstr "การถอนเงินของคุณไม่สําเร็จเนื่องจากเกิดข้อผิดพลาด กรุณาติดต่อเราผ่านแชทสดสําหรับข้อมูลเพิ่มเติม"
+
 msgid "Your withdrawal is unsuccessful. Please make sure you have enough funds in your account."
 msgstr "รายการถอนของคุณนั้นไม่สําเร็จ โปรดตรวจสอบให้แน่ใจว่า มีเงินเพียงพอในบัญชีของคุณ"
+
+msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
+msgstr "การถอนเงินของคุณนั้นไม่สําเร็จ เราได้ส่งอีเมล์ถึงคุณพร้อมข้อมูลเพิ่มเติม"
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
 msgid "Your withdrawal of %1%2 %3%4 from your account %5 was declined because it wasn’t made via Deriv P2P, your usual deposit method."
@@ -9727,6 +9978,34 @@ msgstr "ดัชนีตะกร้า"
 
 msgid "bears your name that matches your Deriv/Binary profile"
 msgstr "มีชื่อของคุณที่ตรงกับโปรไฟล์ Deriv/Binary ของคุณ"
+
+#, fuzzy
+#| msgid "MT5 account management is currently suspended."
+msgid "cTrader account management is currently suspended."
+msgstr "ขณะนี้การจัดการบัญชี MT5 ถูกระงับ"
+
+#, fuzzy
+#| msgid "Deriv EZ account is not available in your country yet."
+msgid "cTrader account or landing company is not available in your country yet."
+msgstr "บัญชี Deriv EZ ยังไม่มีให้บริการในประเทศของคุณ"
+
+#, fuzzy
+#| msgid "MT5 deposits are suspended."
+msgid "cTrader deposit is currently suspended."
+msgstr "การฝากเงิน MT5 ถูกระงับชั่วคราว"
+
+#, fuzzy
+#| msgid "Invalid currency provided."
+msgid "cTrader invalid group provided."
+msgstr "ระบุสกุลเงินไม่ถูกต้อง"
+
+msgid "cTrader unsupported country code."
+msgstr ""
+
+#, fuzzy
+#| msgid "MT5 withdrawals are suspended."
+msgid "cTrader withdrawal is currently suspended."
+msgstr "การถอนเงิน MT5 ถูกระงับชั่วคราว"
 
 msgid "close on %1"
 msgstr "ปิดที่ %1"
@@ -11809,9 +12088,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "An oscillator used to identify overbought and oversold readings in RSI (Relative Strength Index). Because RSI can go for extended periods without becoming overbought (above 70) or oversold (below 30), StochRSI provides an alternative means to identify these extremities."
 #~ msgstr "เครื่องมือทางเทคนิคออสซิลเลเทอร์ใช้เพื่อบอกสภาวะขายมากเกินไป และสภาวะซื้อมากเกินไปบน RSI (Relative Strength Index) เนื่องจาก RSI สามารถขยายช่วงเวลาโดยปราศจากสภาวะซื้อมากเกินไป (เหนือ 70) หรือ สภาวะขายมากเกินไป (ต่ำกว่า 30) StochRSI แสดงทางเลือกเพื่อบอกการเคลื่อนไหวเหล่านี้"
 
-#~ msgid "An unknown error has occurred."
-#~ msgstr "มีข้อผิดพลาดที่ไม่รู้จักเกิดขึ้น"
-
 #~ msgid "Analyze data regarding fraud, risk assessment, and anti-money laundering"
 #~ msgstr "วิเคราะห์ข้อมูลที่เกี่ยวข้องกับการฉ้อโกง การประเมินความเสี่ยง และการปราบปรามการฟอกเงิน"
 
@@ -12712,6 +12988,10 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "CBS Corporation"
 #~ msgstr "CBS Corporation"
 
+#~ msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
+#~ msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 72% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+#~ msgstr "สัญญาการซื้อขายส่วนต่างหรือ CFD เป็นตราสารที่ซับซ้อนและมีความเสี่ยงสูงต่อการสูญเสียเงินอย่างรวดเร็วเนื่องจากการใช้เลเวอเรจ โดย 72% ของบัญชีนักลงทุนรายย่อยสูญเสียเงินเมื่อทำการซื้อขาย CFD กับผู้ให้บริการรายนี้ คุณจึงควรพิจารณาดูว่า คุณเข้าใจวิธีการทำงานของ CFD หรือไม่และคุณสามารถรับความเสี่ยงสูงที่จะสูญเสียเงินของคุณได้หรือไม่"
+
 #~ msgid "CSL Ltd"
 #~ msgstr "CSL Ltd"
 
@@ -12956,9 +13236,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Client email not set."
 #~ msgstr "อีเมล์ลูกค้ายังไม่ได้ระบุ"
-
-#~ msgid "Client loginid is required."
-#~ msgstr "ต้องระบุไอดีการเข้าใช้งานของลูกค้า"
 
 #~ msgid "Client's Liability"
 #~ msgstr "หนี้สินของลูกค้า"
@@ -13326,9 +13603,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Currencies"
 #~ msgstr "สกุลเงิน"
-
-#~ msgid "Currency is required."
-#~ msgstr "จำเป็นต้องมีค่าสกุลเงิน"
 
 #~ msgid "Current"
 #~ msgstr "ปัจจุบัน"
@@ -15470,15 +15744,8 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "If you choose to enter into a Contract with us, it is important that you remain aware of the risks involved, that you have adequate investment resources to bear such risks and that you monitor your positions carefully."
 #~ msgstr "หากท่านเลือกซื้อขายสัญญากับเรา ซึ่งมีความสำคัญที่ท่านจะตระหนักในความเสี่ยงที่เกี่ยวข้อง ท่านมีแหล่งข้อมูลการลงทุนที่เพียงพอเพื่อเข้าใจในความเสี่ยงดังกล่าว ที่ท่านควรพิจารณาสังเกตการณ์อย่างใกล้ชิด"
 
-#~ msgid "If you didn't make the changes, %1contact us%2 via live chat."
-#~ msgstr "หากคุณไม่ได้ทําการเปลี่ยนแปลงโปรด %1ติดต่อเรา%2 ผ่านการแชทสด"
-
 #~ msgid "If you didn't request a new password,"
 #~ msgstr "หากคุณไม่ได้ขอรหัสผ่านใหม่"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "If you didn't request a new password, %1Contact us%2 via live chat."
-#~ msgstr "หากคุณไม่ได้ร้องขอรหัสผ่านอันใหม่ กรุณา %1ติดต่อเรา%2 ผ่านแชทสด"
 
 #~ msgctxt "Customer IO email content "
 #~ msgid "If you didn't request a new password, contact us via live chat.%1%2"
@@ -15581,10 +15848,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "If you're a broker we'd like to work with you. You will be introducing your clients to a unique and innovative product - the %1 trading platform."
 #~ msgstr "หากท่านเป็นโบรกเกอร์ พวกเราต้องการดำเนินธุรกิจร่วมกับท่าน เราจะแนะนำผลิตภัณฑ์นวัตกรรมที่ไม่เหมือนใครให้กับลูกค้าของท่าน - ระบบซื้อขาย %1"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "If you're having trouble with the button, copy and paste the link below into your browser."
-#~ msgstr "หากว่าปุ่มกดมีปัญหาให้คุณคัดลอกและวางลิงก์ด้านล่างนี้ลงไปในช่องเบราว์เซอร์ของคุณ"
 
 #~ msgid "If you're having trouble with the button, copy and paste this link into your browser:"
 #~ msgstr "หากคุณมีปัญหาในการกด ให้ทำการคัดลอกและวางลิงก์นี้ลงในเบราว์เซอร์ของคุณ:"
@@ -16522,10 +16785,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %1 password?"
 #~ msgstr "เพียงบันทึกย่อ: หากคุณรีเซ็ตรหัสผ่าน %1 คุณจะไม่สามารถเข้าสู่ระบบด้วยบัญชีโซเชียลของคุณอีกต่อไปได้ คุณต้องการไปข้างหน้าและตั้งค่ารหัสผ่าน %1 ของคุณใหม่หรือไม่"
 
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "Just a note: if you do reset your %1 password, you won't be able to log in with your social account anymore. Would you like to go ahead and reset your %2 password?"
-#~ msgstr "หมายเหตุ: หากว่าคุณทำการรีเซ็ตรหัสผ่าน %1 ของคุณแล้วก็จะไม่สามารถเข้าสู่ระบบด้วยบัญชีโซเชียลของคุณได้อีก คุณยังต้องการดำเนินการต่อและรีเซ็ตรหัสผ่าน %2 หรือไม่?"
-
 #~ msgctxt "Customer.io email: svg_all_transactional_mt5_archival_14_days "
 #~ msgid "Just log in and place a trade on each of these accounts to keep them active."
 #~ msgstr "เพียงเข้าใช้งานและส่งคำสั่งซื้อขายจากในแต่ละบัญชีเหล่านี้เพื่อให้บัญชียังคงใช้งานได้อยู่"
@@ -16968,12 +17227,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "MT5 account closure report"
 #~ msgstr "รายงานการปิดบัญชี MT5"
 
-#~ msgid "MT5 deposits are suspended."
-#~ msgstr "การฝากเงิน MT5 ถูกระงับชั่วคราว"
-
-#~ msgid "MT5 withdrawals are suspended."
-#~ msgstr "การถอนเงิน MT5 ถูกระงับชั่วคราว"
-
 #~ msgid "Macquarie Group"
 #~ msgstr "Macquarie Group"
 
@@ -17401,6 +17654,10 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgctxt "IDV document type "
 #~ msgid "NIN"
 #~ msgstr "NIN"
+
+#~ msgctxt "IDV document type "
+#~ msgid "NIN Slip"
+#~ msgstr "Slip NIN"
 
 #~ msgid "Name"
 #~ msgstr "ชื่อ"
@@ -18177,9 +18434,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "Please authenticate your account to increase your daily turnover limit."
 #~ msgstr "โปรดยืนยันตัวตนของบัญชีของท่านเพื่อเพิ่มวงเงินซื้อขายต่อวันของท่าน"
 
-#~ msgid "Please be informed that there is already a withdrawal transaction pending for the provided address. Please wait the transaction to be confirmed."
-#~ msgstr "โปรดทราบว่า มีรายการถอนที่กำลังรอดำเนินการสำหรับที่อยู่ที่ให้ไว้นี้ โปรดรอการยืนยันการทำธุรกรรม"
-
 #~ msgid "Please check your email for the value of this token"
 #~ msgstr "โปรดตรวจสอบอีเมล์ของท่านเพื่อการใช้งานโทเค่นนี้"
 
@@ -18578,9 +18832,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Provide administrative support in areas related to vendor management, event planning, accounting, and human resources administration."
 #~ msgstr "ให้การบริการงานบริหารจัดการต่างๆ ที่เกี่ยวข้องกับ การบริหารคู่ค้า การวางแผนกิจกรรม การบัญชี และการบริการงานบุคคล"
-
-#~ msgid "Provided amount is not within permissible limits."
-#~ msgstr "จำนวนเงินที่ให้มานั้นไม่อยู่ภายในวงเงินที่ได้รับอนุญาต"
 
 #~ msgid "Provided password is incorrect."
 #~ msgstr "รหัสผ่านที่ระบุไม่ถูกต้อง"
@@ -19001,6 +19252,10 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "SAP SE"
 #~ msgstr "SAP SE"
 
+#~ msgctxt "IDV document type "
+#~ msgid "SSNIT"
+#~ msgstr "SSNIT"
+
 #~ msgid "STMicroelectronics semiconductors"
 #~ msgstr "STMicroElectronics Semiconductors"
 
@@ -19263,10 +19518,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "Social Security Card"
 #~ msgstr "บัตรประกันสังคม"
 
-#~ msgctxt "Onfido document type "
-#~ msgid "Social Security Card (Individual Number Paper Slip)"
-#~ msgstr "บัตรประกันสังคม (สลิปกระดาษหมายเลขบุคคล)"
-
 #~ msgid "Societe Generale"
 #~ msgstr "Societe Generale"
 
@@ -19325,9 +19576,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "Sorry, contracts on Synthetic Indices are not available in your country of residence"
 #~ msgstr "ขออภัยสัญญาของดัชนีสังเคราะห์ไม่สามารถใช้ได้ในประเทศที่คุณอาศัยอยู่"
 
-#~ msgid "Sorry, deposits for this currency are currently disabled."
-#~ msgstr "ขออภัย ไม่สามารถทำการฝากเงินในสกุลเงินนี้ได้ในขณะนี้"
-
 #~ msgid "Sorry, it is not allowed."
 #~ msgstr "ขออภัย คำสั่งนี้ไม่ได้รับอนุญาตให้ดำเนินการ"
 
@@ -19364,9 +19612,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Sorry, we couldn't verify your password. Please reset your password."
 #~ msgstr "ขออภัย เราไม่สามารถยืนยันรหัสผ่านของคุณได้ กรุณาตั้งค่ารหัสผ่านของคุณใหม่"
-
-#~ msgid "Sorry, withdrawals for this currency are currently disabled."
-#~ msgstr "ขออภัย ไม่สามารถทำการถอนเงินในสกุลเงินนี้ได้ในขณะนี้"
 
 #~ msgid "Sorry, you cannot reset your password because you logged in using a social network."
 #~ msgstr "ขออภัย บัญชีของท่านไม่สามารถตั้งรหัสผ่านใหม่ได้ เนื่องจากท่านใช้โซเชียลมีเดียในการเข้าสู่ระบบ"
@@ -19415,9 +19660,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Sorry, your withdrawal transaction for address: %1 is under processing or has been rejected."
 #~ msgstr "ขออภัยรายการถอนเงินของคุณสำหรับที่อยู่: %1 อยู่ระหว่างการดำเนินการหรือถูกปฏิเสธ"
-
-#~ msgid "Sorry, your withdrawal transaction for id: %1 is under processing or has been rejected."
-#~ msgstr "ขออภัย ธุรกรรมการถอนเงินของคุณสําหรับ ID: %1 อยู่ระหว่างการประมวลผลหรือถูกปฏิเสธ"
 
 #~ msgid "SouFun Holdings Limited"
 #~ msgstr "SouFun Holdings Limited"
@@ -19534,10 +19776,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #, fuzzy
 #~ msgid "Step FX indices"
 #~ msgstr "ดัชนีอัตราแลกเปลี่ยนสมาร์ท"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "Still want to reset your %1 password?"
-#~ msgstr "คุณยังคงต้องการรีเซ็ตรหัสผ่าน %1 ของคุณหรือไม่?"
 
 #~ msgid "StochRSI"
 #~ msgstr "StochRSI"
@@ -19838,9 +20076,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "Thank you. Your application has been submitted and will be examined by our team as soon as possible. You will receive a reply by email within 72 hours."
 #~ msgstr "ขอบคุณ การสมัตรของท่านได้ถูกส่งเรียบร้อยแล้วและเจ้าหน้าที่ของเราจะทำการตรวจสอบโดยทันที ท่านจะได้รับข้อความตอบผ่านทางอีเมล์ภายใน 72 ชั่วโมง"
 
-#~ msgid "Thanks for keeping your profile up to date."
-#~ msgstr "ขอบคุณที่ทําให้โปรไฟล์ของคุณทันสมัยอยู่เสมอ"
-
 #~ msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
 #~ msgid "Thanks for keeping your profile up to date. %1%2 If you didn't make the changes, %3 contact us via live chat. %4"
 #~ msgstr "ขอบคุณที่คอยอัพเดตให้โปรไฟล์ของคุณเป็นปัจจุบันเสมอ %1%2 แต่ถ้าคุณไม่ได้ทําการเปลี่ยนแปลงนี้ กรุณา %3ติดต่อเราผ่านแชทสด%4"
@@ -19972,15 +20207,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "The account transfer is unavailable. Please"
 #~ msgstr "โปรดทราบ การโอนบัญชีไม่สามารถทำได้"
 
-#~ msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
-#~ msgstr "ที่อยู่นี้กำลังถูกใช้สำหรับรายการฝากเงิน โปรดใช้ที่อยู่อื่นสำหรับการขอถอนเงินนี้"
-
-#~ msgid "The address you entered appears to be the same as the account you are withdrawing from. Please enter a different account address."
-#~ msgstr "ที่อยู่ที่คุณป้อนนั้นดูเหมือนกันกับบัญชีที่คุณกําลังถอนอยู่ กรุณาป้อนที่อยู่บัญชีอันอื่น"
-
-#~ msgid "The address you provided does not accept withdrawals. Please enter a different address."
-#~ msgstr "ที่อยู่ที่คุณให้มานั้นไม่ยอมรองรับการถอน โปรดกรอกที่อยู่อันอื่น"
-
 #, fuzzy
 #~ msgid "The advert is inactive and cannot be changed."
 #~ msgstr "ไม่สามารถเปลี่ยนค่าของสัญชาติได้หลังจากได้ยืนยันบัญชีแล้ว"
@@ -20057,9 +20283,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "The minimum amount requirements are not met."
 #~ msgstr "จำนวนเงินที่ท่านสามารถโอนมากที่สุด คือ: %1"
 
-#~ msgid "The minimum withdrawal amount allowed is %1 %2."
-#~ msgstr "จำนวนขั้นต่ำสุดที่อนุญาตให้ถอนได้ คือ %1 %2"
-
 #~ msgctxt "Customer.io email: test1 - margin "
 #~ msgid "The most popular digital coins"
 #~ msgstr "เงินสกุลดิจิทัลยอดนิยม"
@@ -20113,12 +20336,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "The profit of USD 294 is the difference between the exit and entry level multiplied by the amount per point."
 #~ msgstr "กำไรจำนวน 294 เหรียญสหรัฐ เป็นมูลค่าความแตกต่างระหว่างราคาเริ่มต้นและราคาสุดท้ายที่คูณด้วยจำนวนต่อจุด"
-
-#~ msgid "The provided address is invalid."
-#~ msgstr "ที่อยู่ดังกล่าวนั้นไม่ถูกต้อง"
-
-#~ msgid "The provided amount is invalid."
-#~ msgstr "จํานวนดังกล่าวนั้นไม่ถูกต้อง"
 
 #~ msgid "The random index is a stock index whose price is simulated using random numbers. Unlike real market stock indices whose prices depend on the prices of the individual stocks listed on an Exchange, the random stock index only relies on factors like volatility, previous index price (previous simulated price) and a random number to determine the price of the index. Due to the use of random numbers, the price (or direction) of the index cannot be predicted with certainty and thus behaves like a real market index. When the index is appended with a number, the number is the percentage volatility used in calculating the index price. For instance, the Random Index 25 uses a volatility of 25% in the calculation of the index price. The index started at 1000 on 16 May 2004."
 #~ msgstr "ดัชนีแบบสุ่มเป็นดัชนีหลักทรัพย์ที่ถูกจำลองขึ้นโดยใช้หลักการของตัวเลขสุ่ม ต่างจากดัชนีของตลาดจริงซึ่งราคาจะขึ้นกับหลักทรัพย์เดี่ยวๆ ในตลาด ดัชนีหลักทรัพย์แบบสุ่มนั้นขึ้นกับปัจจัยต่างๆ เหล่านี้เเท่านั้น เช่น ความไม่แน่นอน ดัชนีราคาก่อนหน้า (เป็นราคาจำลอง) และตัวเลขสุ่มเพื่อกำหนดราคาของดัชนี เมื่อปัจจัย คือ การกำหนดโดยใช้ตัวเลขสุ่ม ราคา (หรือทิศทาง) ของดัชนีจะไม่สามารถถูกพยากรณ์ได้อย่างแน่นอน และทำให้มีพฤติกรรมเหมือนดัชีของตลาดจริง เมื่อดัชนีหลักทรัพย์ถูกกำหนดด้วยตัวเลข ซึ่งเป็นร้อยละของความไม่แน่นอนที่นำมาคำนวณเป็นดัชนีราคา เช่น ดัชนีสุ่ม 25 จะใช้ 25% ของความไม่แน่นอนในการคำนวนราคาดัชนี โดยดัชนีประเภทนี้เริ่มต้นที่ 1,000 จุด เมื่อ 16 พฤษภาคม 2004 (พ.ศ. 2547)"
@@ -20207,9 +20424,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "This address can only be used once to make a deposit."
 #~ msgstr "ที่อยู่ถูกใช้ได้เพียงครั้งเดียวต่อการฝากหนึ่งครั้ง"
-
-#~ msgid "This address has been blocked for use on our platform. Please enter another address to proceed."
-#~ msgstr "ที่อยู่นี้ถูกบล็อกสําหรับการใช้งานบนแพลตฟอร์มของเรา กรุณาใส่ที่อยู่อื่นเพื่อดําเนินการต่อ"
 
 #, fuzzy
 #~ msgid "This agent account is not currently active"
@@ -21010,10 +21224,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "We received a request to reset your %1 login password. Since you log in using your social account, would you like to reset your social password instead? If yes, reset your social password and try logging in to %1."
 #~ msgstr "เราได้รับคําขอให้รีเซ็ตรหัสผ่านการเข้าสู่ระบบ %1 ของคุณ เนื่องจากคุณเข้าสู่ระบบโดยใช้บัญชีโซเชียลของคุณคุณต้องการตั้งค่ารหัสผ่านโซเชียลของคุณใหม่แทนหรือไม่ ถ้าใช่ ให้รีเซ็ตรหัสผ่านโซเชียลของคุณและลองเข้าสู่ระบบ %1"
 
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "We received a request to reset your %1 login password. Since you log in using your social account, would you like to reset your social password instead? If yes, reset your social password and try logging in to %2."
-#~ msgstr "เราได้รับคําขอให้รีเซ็ตรหัสผ่านเพื่อเข้าสู่ระบบ %1 ของคุณ เนื่องจากคุณเข้าสู่ระบบโดยใช้บัญชีโซเชียลมีเดีย คุณต้องการจะรีเซ็ตรหัสผ่านบัญชีโซเชียลของคุณแทนหรือไม่ ถ้าใช่ก็ให้คุณรีเซ็ตรหัสผ่านโซเชียลและลองเข้าสู่ระบบ %2"
-
 #~ msgid "We recently sent you an email requesting documents to authenticate your MT5 real money account."
 #~ msgstr "เราได้ส่งอีเมล์ถึงท่านเพื่อขอเอกสารในการยืนยันตัวบุคคลกับบัญชีเงินจริงบนแพลตฟอร์ม MT5 ของท่าน"
 
@@ -21091,9 +21301,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ "ขอเรียนให้ท่านทราบว่า คำสั่งถอนเงิน %1 %2 ของท่าน ถูกปฏิเสธ\n"
 #~ "ได้ดำเนินการคืนเงินเข้าบัญชีท่านแล้ว"
 
-#~ msgid "We're awaiting confirmation from the blockchain."
-#~ msgstr "เรากําลังรอการยืนยันจากบล็อกเชน"
-
 #~ msgid "We're pleased to inform you that we've verified your account. All account features are now enabled and you can enjoy a seamless trading experience."
 #~ msgstr "เรายินดีที่จะแจ้งให้ท่านทราบว่า เราได้ตรวจสอบเพื่อยืนยันข้อมูลบัญชีของท่านเรียบร้อยแล้ว บัญชีและการใช้งานทั้งหมดจะเปิดใช้งานในขณะนี้ และท่านสามารถเพลิดเพลินไปกับประสบการณ์การซื้อขายที่ราบรื่นกับเรา"
 
@@ -21102,12 +21309,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "We're really glad that you've decided to take up trading with %1 and we hope that your experience on our platform has been a positive one so far."
 #~ msgstr "เราดีใจที่คุณตัดสินใจที่จะซื้อขายกับ %1 และเราหวังว่าประสบการณ์ของคุณบนแพลตฟอร์มของเรานั้นเป็นบวก"
-
-#~ msgid "We're reviewing your withdrawal request. You may still cancel this transaction if you wish. Once we start processing, you won't be able to cancel."
-#~ msgstr "เรากําลังตรวจสอบคําขอถอนเงินของคุณ คุณอาจจะยังยกเลิกธุรกรรมนี้ได้ถ้าต้องการ แต่เมื่อเราเริ่มประมวลผลแล้ว คุณจะไม่สามารถยกเลิกได้"
-
-#~ msgid "We're sending your request to the blockchain."
-#~ msgstr "เรากําลังส่งคําขอของคุณไปยังบล็อกเชน"
 
 #~ msgid "We're sorry but the Affiliate Token is not available for this type of Accounts."
 #~ msgstr "ขออภัย ไม่มีการใช้ Affiliate Token สำหรับบัญชีประเภทนี้"
@@ -21147,9 +21348,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "We've completed"
 #~ msgstr "เราดําเนินการเรียบร้อยแล้ว"
-
-#~ msgid "We've received your request and are waiting for more blockchain confirmations."
-#~ msgstr "เราได้รับคําขอของคุณและกําลังรอการยืนยันบล็อกเชนเพิ่มเติม"
 
 #~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
 #~ msgid "We've resolved the complaint against you for this DP2P exchange:"
@@ -21323,10 +21521,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Yes"
 #~ msgstr "ใช่"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_reset_password_request_social "
-#~ msgid "Yes, reset my %1 password"
-#~ msgstr "ใช่ กรุณารีเซ็ตรหัสผ่าน %1 ของฉัน"
 
 #~ msgid "Yes. Please email us at <a href=\"mailto:%1\">%1</a> for further assistance."
 #~ msgstr "ใช่ โปรดส่งอีเมล์ถึงเราที่ <a href=\"mailto:%1\">%1</a> เพื่อแจ้งความประสงค์ของท่าน"
@@ -21556,9 +21750,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "You're using a Virtual Account."
 #~ msgstr "ท่านกำลังใช้บัญชีเสมือน หรือ บัญชีทดลองใช้"
 
-#~ msgid "You've cancelled your withdrawal request."
-#~ msgstr "คุณได้ยกเลิกคําขอถอนเงินของคุณแล้ว"
-
 #~ msgid "You've changed your password"
 #~ msgstr "คุณได้เปลี่ยนรหัสผ่านของคุณแล้ว"
 
@@ -21579,10 +21770,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "You've successfully changed the following information on your Deriv profile"
 #~ msgstr "คุณเปลี่ยนข้อมูลต่อไปนี้ในโปรไฟล์ Deriv ของคุณสำเร็จแล้ว"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
-#~ msgid "You've successfully changed the following information on your Deriv profile:"
-#~ msgstr "คุณได้เปลี่ยนข้อมูลต่อไปนี้ในโปรไฟล์ Deriv ของคุณสำเร็จแล้ว:"
 
 #~ msgid "Youku Tudou Inc."
 #~ msgstr "Youku Tudou Inc."
@@ -21795,9 +21982,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "Your date of birth on the document you provided doesn't match your profile. Please check and try again."
 #~ msgstr "วันเกิดของคุณในเอกสารที่คุณให้ไว้ไม่ตรงกับโปรไฟล์ของคุณ กรุณาตรวจสอบแล้วลองอีกครั้ง"
 
-#~ msgid "Your deposit is unsuccessful due to an error. Please contact your crypto wallet service provider for more info."
-#~ msgstr "การฝากเงินของคุณไม่สําเร็จเพราะมีข้อผิดพลาด โปรดติดต่อผู้ให้บริการกระเป๋าเงินคริปโตของคุณสําหรับข้อมูลเพิ่มเติม"
-
 #~ msgid "Your designated bank account"
 #~ msgstr "บัญชีธนาคารของท่าน"
 
@@ -21863,10 +22047,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Your new Deriv account password"
 #~ msgstr "รหัสผ่านบัญชีสืบทอดใหม่ของคุณ"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_updated_account_successful "
-#~ msgid "Your new Deriv personal details"
-#~ msgstr "รายละเอียดส่วนบุคคล Deriv ใหม่ของคุณ"
 
 #~ msgctxt "Customer.io email: mf_france_transactional_real_signup "
 #~ msgid "Your new account has been created"
@@ -21961,12 +22141,6 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 
 #~ msgid "Your website URL (if you have one)"
 #~ msgstr "ที่อยู่เว็บไซต์ (URL) ของท่าน (ถ้ามี)"
-
-#~ msgid "Your withdrawal is unsuccessful due to an error. Please contact us via live chat for more info."
-#~ msgstr "การถอนเงินของคุณไม่สําเร็จเนื่องจากเกิดข้อผิดพลาด กรุณาติดต่อเราผ่านแชทสดสําหรับข้อมูลเพิ่มเติม"
-
-#~ msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
-#~ msgstr "การถอนเงินของคุณนั้นไม่สําเร็จ เราได้ส่งอีเมล์ถึงคุณพร้อมข้อมูลเพิ่มเติม"
 
 #~ msgid "Your withdrawal limit is %1 %2."
 #~ msgstr "วงเงินการถอนของท่าน คือ %1 %2"
