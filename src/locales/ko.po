@@ -2440,6 +2440,26 @@ msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "귀하의 신분 문서 (여권, 운전면허증 또는 신분증)와 셀피를 업로드하기 위해 화면상의 프롬프트와 단계들을 따르세요."
 
+#, fuzzy
+#| msgid "For a 'Put' contract, you receive a payout on %3 if the final price of %1 is below %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+msgstr "'풋 (Put)' 계약의 경우, %1의 최종 가격이 %4보다 아래인 경우에 %3에 대하여 지불금을 받습니다, 해당 지불금은 최종 가격과 %4의 %7차이에 %5를 곱한 금액입니다. "
+
+#, fuzzy
+#| msgid "For a 'Put' contract, you receive a payout on %3 if the final price of %1 is below %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+msgstr "'풋 (Put)' 계약의 경우, %1의 최종 가격이 %4보다 아래인 경우에 %3에 대하여 지불금을 받습니다, 해당 지불금은 최종 가격과 %4의 %7차이에 %5를 곱한 금액입니다. "
+
+#, fuzzy
+#| msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+msgstr "'콜 (Call)' 계약에 경우, %1 의 최종 가격이 %4를 초과하는 경우에 %3에 대한 지불금을 받습니다. 해당 지불금은 %5에 최종 가격과 %4의 %7차이를 곱한 금액입니다. "
+
+#, fuzzy
+#| msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+msgstr "'콜 (Call)' 계약에 경우, %1 의 최종 가격이 %4를 초과하는 경우에 %3에 대한 지불금을 받습니다. 해당 지불금은 %5에 최종 가격과 %4의 %7차이를 곱한 금액입니다. "
+
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
 msgstr "'콜 (Call)' 계약에 경우, %1 의 최종 가격이 %4를 초과하는 경우에 %3에 대한 지불금을 받습니다. 해당 지불금은 %5에 최종 가격과 %4의 %7차이를 곱한 금액입니다. "
 
@@ -10218,12 +10238,6 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "Your payment method account ID is not valid. Please try again with a valid account ID."
 msgstr "귀하의 결제 수단 계정 ID가 유효하지 않습니다. 유요한 계정 ID로 다시 시도해 주시기 바랍니다."
 
-msgid "Your payout will grow by %5 for every point above the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
-msgstr "해당 계약 기간 동안에 장벽에 닿지 않는다면, 만기 시에 해당 장벽 위의 매 포인트에 대하여 %5 만큼 지불금이 증가합니다."
-
-msgid "Your payout will grow by %5 for every point below the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
-msgstr "해당 계약 기간 동안 장벽에 닿지 않는다면 만기 시에 장벽 아래의 매 포인트에 대하여 %5 만큼 지불금이 증가합니다. 지불 금액이 귀하의 지분보다 큰 경우 수익이 발생합니다."
-
 msgid "Your place of birth cannot be changed."
 msgstr "귀하의 출생지는 변경될 수 없습니다."
 
@@ -12185,6 +12199,12 @@ msgstr "● 거래 금액"
 
 #~ msgid "Your payout will be %5 for each point below %4 at expiry time"
 #~ msgstr "귀하의 지불금은 만료 시간에 %4 아래에 해당되는 상황에서 각 포인트에 대하여 %5가 될 것입니다"
+
+#~ msgid "Your payout will grow by %5 for every point above the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
+#~ msgstr "해당 계약 기간 동안에 장벽에 닿지 않는다면, 만기 시에 해당 장벽 위의 매 포인트에 대하여 %5 만큼 지불금이 증가합니다."
+
+#~ msgid "Your payout will grow by %5 for every point below the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
+#~ msgstr "해당 계약 기간 동안 장벽에 닿지 않는다면 만기 시에 장벽 아래의 매 포인트에 대하여 %5 만큼 지불금이 증가합니다. 지불 금액이 귀하의 지분보다 큰 경우 수익이 발생합니다."
 
 #~ msgid "Your personal details have been updated"
 #~ msgstr "귀하의 인적 세부정보가 업데이트 되었습니다"

@@ -2437,6 +2437,26 @@ msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "按照螢幕的提示和步驟上傳身份證件（護照、駕照或身份證）和自拍照。"
 
+#, fuzzy
+#| msgid "For a 'Put' contract, you receive a payout on %3 if the final price of %1 is below %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+msgstr "對於「Put」合約，如果 %1 的最終價格低於 %4， %3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
+
+#, fuzzy
+#| msgid "For a 'Put' contract, you receive a payout on %3 if the final price of %1 is below %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+msgstr "對於「Put」合約，如果 %1 的最終價格低於 %4， %3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
+
+#, fuzzy
+#| msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+msgstr "對於「Call」合約，如果 %1 的最終價格高於 %4，%3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
+
+#, fuzzy
+#| msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
+msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+msgstr "對於「Call」合約，如果 %1 的最終價格高於 %4，%3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
+
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
 msgstr "對於「Call」合約，如果 %1 的最終價格高於 %4，%3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
 
@@ -10215,12 +10235,6 @@ msgstr "支付代理申請成功。 帳戶 ID 是 %1。 您現在可以幫助我
 msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "Your payment method account ID is not valid. Please try again with a valid account ID."
 msgstr "付款方式帳戶 ID 無效。請使用有效的帳戶 ID 重試。"
-
-msgid "Your payout will grow by %5 for every point above the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
-msgstr "如果合約期限內未觸及障礙，到期時高於障礙的每點賠付將增加 %5。當賠付高於投注額時，將開始獲利。"
-
-msgid "Your payout will grow by %5 for every point below the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
-msgstr "如果合約期限內未觸及障礙，到期時低於障礙的每點賠付將增加 %5。當賠付高於投注額時，將開始獲利。"
 
 msgid "Your place of birth cannot be changed."
 msgstr "出生地無法修改。"
@@ -25489,6 +25503,12 @@ msgstr "● 交易金額"
 
 #~ msgid "Your payout will be %5 for each point below %4 at expiry time"
 #~ msgstr "到期時每低於 %4 的點數，賠付將是 %5"
+
+#~ msgid "Your payout will grow by %5 for every point above the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
+#~ msgstr "如果合約期限內未觸及障礙，到期時高於障礙的每點賠付將增加 %5。當賠付高於投注額時，將開始獲利。"
+
+#~ msgid "Your payout will grow by %5 for every point below the barrier at the expiry time if the barrier is not touched during the contract duration. You will start making a profit when the payout is higher than your stake."
+#~ msgstr "如果合約期限內未觸及障礙，到期時低於障礙的每點賠付將增加 %5。當賠付高於投注額時，將開始獲利。"
 
 #~ msgid "Your personal details have been updated"
 #~ msgstr "您的個人資訊已成功更新"
