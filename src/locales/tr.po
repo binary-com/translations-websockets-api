@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-12-19 10:55+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/tr/>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/binary-websocket/translations/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -259,10 +258,6 @@ msgstr "@kolay cüzdan"
 msgctxt "field for payment method @ease wallet"
 msgid "@ease wallet account"
 msgstr "@ease cüzdan hesabı"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
-msgstr "Deriv P2P uyuşmazlığı gündeme getirildi. Emir ID: %1 Hesap no: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "A Deriv P2P order was placed to sell %1 USD from your Deriv funds. Please check the details below carefully to make sure the order is yours:"
@@ -1485,7 +1480,10 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verific
 msgid "Confirm"
 msgstr "Onayla"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#| msgid "Confirm your Deriv P2P order"
+msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your Deriv P2P order"
 msgstr "Deriv P2P emrinizi onaylayın"
 
@@ -1692,11 +1690,17 @@ msgstr "DOT/USD"
 msgid "DP2P is Deriv's peer-to-peer deposit and withdrawal service"
 msgstr "DP2P, Deriv'in uçtan uca para yatırma ve çekme hizmetidir"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_ad_created "
 msgid "DP2P: Your %1 ad has been created"
 msgstr "DP2P: %1 ilanınız oluşturuldu"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_order_placed "
 msgid "DP2P: Your order has been placed"
 msgstr "DP2P: Emriniz oluşturuldu"
 
@@ -1842,10 +1846,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv MT5"
 msgstr "Deriv MT5"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
-msgid "Deriv P2P - There was no response to your ad(s)"
-msgstr "Deriv P2P - İlan(lar)ınıza yanıt gelmedi"
-
 msgid "Deriv P2P is currently unavailable. Please check back later."
 msgstr "Deriv P2P şu anda kullanılamıyor. Lütfen daha sonra tekrar kontrol edin."
 
@@ -1858,9 +1858,76 @@ msgstr "Deriv P2P ülkenizde kullanılamıyor. Lütfen farklı bir hesap açma n
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "Deriv P2P, demo hesaplarda kullanılamaz. Lütfen gerçek hesabınıza geçin."
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Deriv P2P: A dispute was raised for order %1"
+msgstr "Deriv P2P uyuşmazlığı gündeme getirildi. Emir ID: %1 Hesap no: %2"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
 msgstr "Deriv P2P: %1 Siparişi için ödeme aldığınızı onaylayın"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+msgid "Deriv P2P: Confirm your order %1"
+msgstr "Deriv P2P: %1 Siparişi için ödeme aldığınızı onaylayın"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+#| msgid "Higher daily P2P limits for you"
+msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+msgid "Deriv P2P: Higher daily P2P limits for you"
+msgstr "Sizin için daha yüksek günlük P2P limitleri"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
+msgid "Deriv P2P: Resolution for order %1"
+msgstr "DP2P emri %1 için çözüm"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+#| msgid "Deriv P2P - There was no response to your ad(s)"
+msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+msgid "Deriv P2P: There was no response to your ad(s)"
+msgstr "Deriv P2P - İlan(lar)ınıza yanıt gelmedi"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Deriv P2P: You have a dispute against you for order %1"
+msgstr "Deriv P2P: %1 Siparişi için ödeme aldığınızı onaylayın"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+msgid "Deriv P2P: Your %1 ad has been created"
+msgstr "DP2P: %1 ilanınız oluşturuldu"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+msgid "Deriv P2P: Your dispute for order %1 is in progress"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+#| msgid "Your order has expired"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+msgid "Deriv P2P: Your order %1 has expired"
+msgstr "Emrinizin süresi doldu"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+msgid "Deriv P2P: Your order has been placed"
+msgstr "DP2P: Emriniz oluşturuldu"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv Trader"
@@ -2878,10 +2945,6 @@ msgstr "High/Low Ticks"
 
 msgid "Higher"
 msgstr "Daha yüksek"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
-msgid "Higher daily P2P limits for you"
-msgstr "Sizin için daha yüksek günlük P2P limitleri"
 
 msgid "Higher/Lower"
 msgstr "Daha Yüksek/Daha Düşük"
@@ -5342,9 +5405,7 @@ msgstr "Devam et"
 
 msgctxt "Customer.io email: svg_russia_transactional_real_signup "
 msgid "Process deposits and withdrawals with ease via Deriv's authorised payment agents in your country"
-msgstr ""
-"Deriv'in ülkenizdeki yetkili ödeme aracıları aracılığıyla deposit ve para "
-"çekme işlemlerini kolaylıkla gerçekleştirin"
+msgstr "Deriv'in ülkenizdeki yetkili ödeme aracıları aracılığıyla deposit ve para çekme işlemlerini kolaylıkla gerçekleştirin"
 
 msgctxt "Customer.io email: svg_india_transactional_real_signup "
 msgid "Process deposits and withdrawals with ease via Deriv's authorised payment agents in your country."
@@ -5569,7 +5630,10 @@ msgctxt "Onfido document type "
 msgid "Residence Permit"
 msgstr "Oturma izni"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
 msgid "Resolution for DP2P order %1"
 msgstr "DP2P emri %1 için çözüm"
 
@@ -7191,10 +7255,7 @@ msgstr "Kasiyerin kilidini açmak için lütfen bu e-postayı yanıtlayın ve a�
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "To verify your address, %1upload%2 a photo of your recent bank statement or utility bill (no more than 12 months old) that clearly shows your name and current address."
-msgstr ""
-"Adresinizi doğrulamak için, açıkça adınızı ve mevcut adresini gösteren son "
-"banka dökümünüzün veya bir faturanızın fotoğrafını ( 12 aydan eski olmamalı) "
-"%1yükleyin%2."
+msgstr "Adresinizi doğrulamak için, açıkça adınızı ve mevcut adresini gösteren son banka dökümünüzün veya bir faturanızın fotoğrafını ( 12 aydan eski olmamalı) %1yükleyin%2."
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "To verify your identity,"
@@ -9413,10 +9474,6 @@ msgstr "Sağlanan sunucuda bir Deriv X hesabınız yok."
 msgid "You don't need to authenticate your account at this time."
 msgstr "Şu anda hesabınızı doğrulamanız gerekmiyor."
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
-msgstr "Size karşı bir Deriv P2P anlaşmazlığı var. Emir ID: %1 Hesap no: %2"
-
 msgid "You have a payment method with the same values for %1."
 msgstr "%1 için aynı değerlere sahip bir ödeme yönteminiz var."
 
@@ -9706,14 +9763,6 @@ msgstr "Deriv MT5 hesabınız hazır"
 msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
 msgid "Your Deriv MT5 accounts have been closed"
 msgstr "Deriv MT5 hesaplarınız kapatıldı"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "Deriv P2P anlaşmazlığınız devam ediyor.  Emir ID: %1 Hesap no: %2"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
-msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
-msgstr "Deriv P2P anlaşmazlığınız devam ediyor. Emir ID: %1 Hesap no: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Your Deriv Payment Agent application is approved"
@@ -12289,6 +12338,10 @@ msgstr "● İşlem miktarı"
 #~ msgid "You cannot make a withdrawal because your MT5 account is disabled. Please contact our Customer Support team."
 #~ msgstr "MT5 hesabınız devre dışı bırakıldığı için para çekme işlemi yapamazsınız. Lütfen Müşteri Destek ekibimizle iletişime geçin."
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
+#~ msgstr "Size karşı bir Deriv P2P anlaşmazlığı var. Emir ID: %1 Hesap no: %2"
+
 #~ msgid "You have not applied for being payment agent yet."
 #~ msgstr "Henüz ödeme aracısı olmak için başvurmadınız."
 
@@ -12336,6 +12389,14 @@ msgstr "● İşlem miktarı"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "Deriv MetaTrader 5 %1 %2 demo %3 gerçek %4 hesabınız hazır."
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "Deriv P2P anlaşmazlığınız devam ediyor.  Emir ID: %1 Hesap no: %2"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
+#~ msgstr "Deriv P2P anlaşmazlığınız devam ediyor. Emir ID: %1 Hesap no: %2"
 
 #~ msgctxt "Customer.io email: mf_eu_transactional_real_signup "
 #~ msgid "Your Deriv account is ready"

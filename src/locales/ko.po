@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-12-19 05:22+0000\n"
 "Last-Translator: Putri Kumala <putri@regentmarkets.com>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/ko/>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/binary-websocket/translations/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -259,10 +258,6 @@ msgstr "@ease 지갑"
 msgctxt "field for payment method @ease wallet"
 msgid "@ease wallet account"
 msgstr "@ease 지갑 계좌"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
-msgstr "Deriv P2P의 이의가 제기되었습니다. 주문 ID: 계좌 번호: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "A Deriv P2P order was placed to sell %1 USD from your Deriv funds. Please check the details below carefully to make sure the order is yours:"
@@ -1485,7 +1480,10 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verific
 msgid "Confirm"
 msgstr "확정"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#| msgid "Confirm your Deriv P2P order"
+msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your Deriv P2P order"
 msgstr "귀하의 Deriv P2P 주문을 확정하시기 바랍니다"
 
@@ -1692,11 +1690,17 @@ msgstr "DOT/USD"
 msgid "DP2P is Deriv's peer-to-peer deposit and withdrawal service"
 msgstr "DP2P는 Deriv의 피어 투 피어 예금 및 인출 서비스입니다"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_ad_created "
 msgid "DP2P: Your %1 ad has been created"
 msgstr "DP2P: 귀하의 %1 광고가 생성되었습니다"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_order_placed "
 msgid "DP2P: Your order has been placed"
 msgstr "DP2P: 귀하의 주문이 요청되었습니다"
 
@@ -1842,10 +1846,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv MT5"
 msgstr "Deriv MT5"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
-msgid "Deriv P2P - There was no response to your ad(s)"
-msgstr "Deriv P2P - 귀하의 광고에 응답이 없었습니다"
-
 msgid "Deriv P2P is currently unavailable. Please check back later."
 msgstr "Deriv P2P는 현재 이용 가능하지 않습니다. 나중에 다시 확인해 주시기 바랍니다."
 
@@ -1858,9 +1858,76 @@ msgstr "Deriv P2P는 귀하의 국가에서 이용하실 수 없습니다. 계�
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "Deriv P2P는 데모 계정들에서는 이용하실 수 없습니다. 귀하의 실제 계정으로 변경해 주시기 바랍니다."
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Deriv P2P: A dispute was raised for order %1"
+msgstr "Deriv P2P의 이의가 제기되었습니다. 주문 ID: 계좌 번호: %2"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
 msgstr "Deriv P2P: 주문 %1에 대한 결제를 받았는지를 확정하세요"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+msgid "Deriv P2P: Confirm your order %1"
+msgstr "Deriv P2P: 주문 %1에 대한 결제를 받았는지를 확정하세요"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+#| msgid "Higher daily P2P limits for you"
+msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+msgid "Deriv P2P: Higher daily P2P limits for you"
+msgstr "귀하를 위한 더 높은 일일 P2P 한도"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
+msgid "Deriv P2P: Resolution for order %1"
+msgstr "DP2P 주문 %1에 대한 해결"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+#| msgid "Deriv P2P - There was no response to your ad(s)"
+msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+msgid "Deriv P2P: There was no response to your ad(s)"
+msgstr "Deriv P2P - 귀하의 광고에 응답이 없었습니다"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Deriv P2P: You have a dispute against you for order %1"
+msgstr "Deriv P2P: 주문 %1에 대한 결제를 받았는지를 확정하세요"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+msgid "Deriv P2P: Your %1 ad has been created"
+msgstr "DP2P: 귀하의 %1 광고가 생성되었습니다"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+msgid "Deriv P2P: Your dispute for order %1 is in progress"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+#| msgid "Your order has expired"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+msgid "Deriv P2P: Your order %1 has expired"
+msgstr "귀하의 주문이 만료되었습니다"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+msgid "Deriv P2P: Your order has been placed"
+msgstr "DP2P: 귀하의 주문이 요청되었습니다"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv Trader"
@@ -2878,10 +2945,6 @@ msgstr "하이/로우 틱"
 
 msgid "Higher"
 msgstr "하이어"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
-msgid "Higher daily P2P limits for you"
-msgstr "귀하를 위한 더 높은 일일 P2P 한도"
 
 msgid "Higher/Lower"
 msgstr "Higher/Lower"
@@ -5567,7 +5630,10 @@ msgctxt "Onfido document type "
 msgid "Residence Permit"
 msgstr "거주 인가"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
 msgid "Resolution for DP2P order %1"
 msgstr "DP2P 주문 %1에 대한 해결"
 
@@ -9408,10 +9474,6 @@ msgstr "귀하께서는 제공되어 있는 서버에 Deriv X 계좌를 소유�
 msgid "You don't need to authenticate your account at this time."
 msgstr "귀하께서는 현재 귀하의 계좌를 인증하지 않으셔도 됩니다."
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
-msgstr "귀하께서는 귀하에 대응하는 Deriv P2P 분쟁이 있습니다. 주문 ID: %1 계좌 번호: %2"
-
 msgid "You have a payment method with the same values for %1."
 msgstr "귀하께서는 %1에 대하여 같은 값이 있는 결제 방식이 있습니다."
 
@@ -9701,14 +9763,6 @@ msgstr "귀하의 Deriv MT5 계정이 준비되었습니다"
 msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
 msgid "Your Deriv MT5 accounts have been closed"
 msgstr "귀하의 Deriv MT5 계정이 해지되었습니다"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "귀하의 Deriv P2P 분쟁이 진행중에 있습니다.  주문 ID: %1 계정 번호: %2"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
-msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
-msgstr "귀하의 Deriv P2P 분쟁이 진행중에 있습니다. 주문 ID: %1 계좌번호: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Your Deriv Payment Agent application is approved"
@@ -12179,6 +12233,10 @@ msgstr "● 거래 금액"
 #~ msgid "You cannot make a withdrawal because your MT5 account is disabled. Please contact our Customer Support team."
 #~ msgstr "귀하의 MT5 계정이 중지되어 있기 때문이 인출 하실 수 없습니다. 당사의 고객 지원팀에 연락하시기 바랍니다."
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
+#~ msgstr "귀하께서는 귀하에 대응하는 Deriv P2P 분쟁이 있습니다. 주문 ID: %1 계좌 번호: %2"
+
 #~ msgid "You have not applied for being payment agent yet."
 #~ msgstr "귀하께서는 아직 지불 에이전트로 되기 위한 지원을 하지 않으셨습니다."
 
@@ -12208,6 +12266,14 @@ msgstr "● 거래 금액"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "귀하의 Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 데모 %6 실제 %7 계정이 준비되었습니다."
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "귀하의 Deriv P2P 분쟁이 진행중에 있습니다.  주문 ID: %1 계정 번호: %2"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
+#~ msgstr "귀하의 Deriv P2P 분쟁이 진행중에 있습니다. 주문 ID: %1 계좌번호: %2"
 
 #~ msgctxt "Customer.io email: mf_eu_transactional_real_signup "
 #~ msgid "Your Deriv account is ready"

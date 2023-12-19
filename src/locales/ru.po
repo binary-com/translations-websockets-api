@@ -9,14 +9,12 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-12-19 20:11+0000\n"
 "Last-Translator: Ruslan <ruslan.mukhametdinov.90@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/"
-"translations/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/binary-websocket/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.3\n"
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
@@ -259,10 +257,6 @@ msgstr "@ease wallet"
 msgctxt "field for payment method @ease wallet"
 msgid "@ease wallet account"
 msgstr "Счет @ease wallet"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
-msgstr "Инициирован спор на Deriv P2P. ID ордера: %1, счет: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "A Deriv P2P order was placed to sell %1 USD from your Deriv funds. Please check the details below carefully to make sure the order is yours:"
@@ -1485,7 +1479,10 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verific
 msgid "Confirm"
 msgstr "Подтвердить"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#| msgid "Confirm your Deriv P2P order"
+msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your Deriv P2P order"
 msgstr "Подтвердите ордер Deriv P2P"
 
@@ -1693,11 +1690,17 @@ msgstr "DOT/USD"
 msgid "DP2P is Deriv's peer-to-peer deposit and withdrawal service"
 msgstr "DP2P – это одноранговый сервис пополнений и вывода средств Deriv"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_ad_created "
 msgid "DP2P: Your %1 ad has been created"
 msgstr "DP2P: Создано объявление %1"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_order_placed "
 msgid "DP2P: Your order has been placed"
 msgstr "DP2P: Ордер размещен"
 
@@ -1843,10 +1846,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv MT5"
 msgstr "Deriv MT5"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
-msgid "Deriv P2P - There was no response to your ad(s)"
-msgstr "Deriv P2P – на объявление не было ответов"
-
 msgid "Deriv P2P is currently unavailable. Please check back later."
 msgstr "Deriv P2P временно недоступен. Пожалуйста, попробуйте позже."
 
@@ -1859,9 +1858,76 @@ msgstr "Deriv P2P недоступен в вашей стране. Укажит�
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "Deriv P2P недоступен на демо-счетах. Пожалуйста, переключитесь на реальный счет."
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Deriv P2P: A dispute was raised for order %1"
+msgstr "Инициирован спор на Deriv P2P. ID ордера: %1, счет: %2"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
 msgstr "Deriv P2P: подтвердите получение платежа по ордеру %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+msgid "Deriv P2P: Confirm your order %1"
+msgstr "Deriv P2P: подтвердите получение платежа по ордеру %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+#| msgid "Higher daily P2P limits for you"
+msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+msgid "Deriv P2P: Higher daily P2P limits for you"
+msgstr "Вам доступны повышенные лимиты P2P"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
+msgid "Deriv P2P: Resolution for order %1"
+msgstr "Решение по ордеру DP2P %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+#| msgid "Deriv P2P - There was no response to your ad(s)"
+msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+msgid "Deriv P2P: There was no response to your ad(s)"
+msgstr "Deriv P2P – на объявление не было ответов"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Deriv P2P: You have a dispute against you for order %1"
+msgstr "Deriv P2P: подтвердите получение платежа по ордеру %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+msgid "Deriv P2P: Your %1 ad has been created"
+msgstr "DP2P: Создано объявление %1"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+msgid "Deriv P2P: Your dispute for order %1 is in progress"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+#| msgid "Your order has expired"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+msgid "Deriv P2P: Your order %1 has expired"
+msgstr "Истек срок действия ордера"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+msgid "Deriv P2P: Your order has been placed"
+msgstr "DP2P: Ордер размещен"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv Trader"
@@ -2879,10 +2945,6 @@ msgstr "Высокие/низкие тики"
 
 msgid "Higher"
 msgstr "Выше"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
-msgid "Higher daily P2P limits for you"
-msgstr "Вам доступны повышенные лимиты P2P"
 
 msgid "Higher/Lower"
 msgstr "Higher/Lower"
@@ -5580,7 +5642,10 @@ msgctxt "Onfido document type "
 msgid "Residence Permit"
 msgstr "Вид на жительство"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
 msgid "Resolution for DP2P order %1"
 msgstr "Решение по ордеру DP2P %1"
 
@@ -9438,10 +9503,6 @@ msgstr "У вас нет счета Deriv X на указанном сервер
 msgid "You don't need to authenticate your account at this time."
 msgstr "В настоящее время вам не нужно аутентифицировать счет."
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
-msgstr "Против вас открыт спор Deriv P2P. ID ордера: %1, номер счета: %2"
-
 msgid "You have a payment method with the same values for %1."
 msgstr "У вас есть платежный метод с такими же значениями для %1."
 
@@ -9731,14 +9792,6 @@ msgstr "Ваш счет Deriv MT5 готов"
 msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
 msgid "Your Deriv MT5 accounts have been closed"
 msgstr "Мы закрыли ваши счета Deriv MT5"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "Ваш спор Deriv P2P на рассмотрении.   ID ордера: %1, номер счета: %2"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
-msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
-msgstr "Ваш спор Deriv P2P на рассмотрении. ID ордера: %1, номер счета: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Your Deriv Payment Agent application is approved"
@@ -30738,6 +30791,10 @@ msgstr "●  Сумма транзакции"
 #~ msgid "You get fair and transparent pricing, whatever your position."
 #~ msgstr "Вы получаете справедливую и прозрачную оценку контракта, независимо от его параметров."
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
+#~ msgstr "Против вас открыт спор Deriv P2P. ID ордера: %1, номер счета: %2"
+
 #~ msgid "You have already attempted to authenticate your ID using our online verification procedure."
 #~ msgstr "Вы уже пытались пройти авторизацию, используя онлайн форму."
 
@@ -31112,6 +31169,14 @@ msgstr "●  Сумма транзакции"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "Ваш счет %1 Derived %2 %3 %4 %5 демо-счет %6 реальный %7 Deriv MetaTrader 5 готов."
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "Ваш спор Deriv P2P на рассмотрении.   ID ордера: %1, номер счета: %2"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
+#~ msgstr "Ваш спор Deriv P2P на рассмотрении. ID ордера: %1, номер счета: %2"
 
 #~ msgctxt "Customer.io email: mf_eu_transactional_real_signup "
 #~ msgid "Your Deriv account is ready"

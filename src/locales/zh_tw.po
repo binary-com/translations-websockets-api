@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-12-19 10:55+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/binary-websocket/translations/zh_Hant/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -253,10 +252,6 @@ msgstr "@ease wallet"
 msgctxt "field for payment method @ease wallet"
 msgid "@ease wallet account"
 msgstr "@ease wallet 帳戶"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
-msgstr "引發了 Deriv P2P 爭議。訂單 ID：%1 帳號：%2"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "A Deriv P2P order was placed to sell %1 USD from your Deriv funds. Please check the details below carefully to make sure the order is yours:"
@@ -1482,7 +1477,10 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verific
 msgid "Confirm"
 msgstr "確認"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#| msgid "Confirm your Deriv P2P order"
+msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your Deriv P2P order"
 msgstr "Deriv P2P 訂單確認"
 
@@ -1689,11 +1687,17 @@ msgstr "波卡幣/美元"
 msgid "DP2P is Deriv's peer-to-peer deposit and withdrawal service"
 msgstr "DP2P 是 Deriv 的點對點存取款服務"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_ad_created "
 msgid "DP2P: Your %1 ad has been created"
 msgstr "DP2P: %1 廣告已建立"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_order_placed "
 msgid "DP2P: Your order has been placed"
 msgstr "DP2P: 訂單已下"
 
@@ -1839,10 +1843,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv MT5"
 msgstr "Deriv MT5"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
-msgid "Deriv P2P - There was no response to your ad(s)"
-msgstr "Deriv P2P - 您的廣告沒人回應"
-
 msgid "Deriv P2P is currently unavailable. Please check back later."
 msgstr "Deriv P2P 目前無法使用。請稍後再查看。"
 
@@ -1855,9 +1855,76 @@ msgstr "您的國家不可使用 Deriv P2P。請提供另一個開立帳戶的�
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "模擬帳戶不可使用 Deriv P2P。請轉換到真實帳戶。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Deriv P2P: A dispute was raised for order %1"
+msgstr "引發了 Deriv P2P 爭議。訂單 ID：%1 帳號：%2"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
 msgstr "Deriv P2P: 確定已收到 訂單 %1 的款"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+msgid "Deriv P2P: Confirm your order %1"
+msgstr "Deriv P2P: 確定已收到 訂單 %1 的款"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+#| msgid "Higher daily P2P limits for you"
+msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+msgid "Deriv P2P: Higher daily P2P limits for you"
+msgstr "P2P 每日更高限額"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
+msgid "Deriv P2P: Resolution for order %1"
+msgstr "DP2P 訂單 %1 的解析度"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+#| msgid "Deriv P2P - There was no response to your ad(s)"
+msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+msgid "Deriv P2P: There was no response to your ad(s)"
+msgstr "Deriv P2P - 您的廣告沒人回應"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Deriv P2P: You have a dispute against you for order %1"
+msgstr "Deriv P2P: 確定已收到 訂單 %1 的款"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+msgid "Deriv P2P: Your %1 ad has been created"
+msgstr "DP2P: %1 廣告已建立"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+msgid "Deriv P2P: Your dispute for order %1 is in progress"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+#| msgid "Your order has expired"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+msgid "Deriv P2P: Your order %1 has expired"
+msgstr "訂單已到期"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+msgid "Deriv P2P: Your order has been placed"
+msgstr "DP2P: 訂單已下"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv Trader"
@@ -2876,10 +2943,6 @@ msgstr "High/Low Ticks"
 
 msgid "Higher"
 msgstr "Higher"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
-msgid "Higher daily P2P limits for you"
-msgstr "P2P 每日更高限額"
 
 msgid "Higher/Lower"
 msgstr "Higher/Lower"
@@ -5565,7 +5628,10 @@ msgctxt "Onfido document type "
 msgid "Residence Permit"
 msgstr "居留證"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
 msgid "Resolution for DP2P order %1"
 msgstr "DP2P 訂單 %1 的解析度"
 
@@ -9406,10 +9472,6 @@ msgstr "所提供的伺服器沒有 Deriv X 帳戶。"
 msgid "You don't need to authenticate your account at this time."
 msgstr "您的帳戶目前還不需要驗證。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
-msgstr "有個針對您的 Deriv P2P 爭議。訂單 ID：%1 帳號：%2"
-
 msgid "You have a payment method with the same values for %1."
 msgstr "您的付款方法與 %1的數值相同。"
 
@@ -9699,14 +9761,6 @@ msgstr "Deriv MT5 帳戶已準備就緒"
 msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
 msgid "Your Deriv MT5 accounts have been closed"
 msgstr "Deriv MT5 帳戶已關閉"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "您的 Deriv P2P 爭議正在進行中。  訂單 ID：%1 帳號：%2"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
-msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
-msgstr "您的 Deriv P2P 爭議正在進行中。訂單 ID：%1 帳號：%2"
 
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Your Deriv Payment Agent application is approved"
@@ -24948,6 +25002,10 @@ msgstr "● 交易金額"
 #~ msgid "You get fair and transparent pricing, whatever your position."
 #~ msgstr "不論您要執行什麼樣的交易，您都將獲得公平透明的報價。"
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
+#~ msgstr "有個針對您的 Deriv P2P 爭議。訂單 ID：%1 帳號：%2"
+
 #~ msgid "You have already attempted to authenticate your ID using our online verification procedure."
 #~ msgstr "您已嘗試使用我們的線上驗證程序驗證您的ID。"
 
@@ -25262,6 +25320,14 @@ msgstr "● 交易金額"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "Deriv MetaTrader 5 %1 衍生資產 %2 %3 %4 %5 示範 %6 真實 %7 帳戶已準備就緒。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "您的 Deriv P2P 爭議正在進行中。  訂單 ID：%1 帳號：%2"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
+#~ msgstr "您的 Deriv P2P 爭議正在進行中。訂單 ID：%1 帳號：%2"
 
 #~ msgctxt "Customer.io email: mf_eu_transactional_real_signup "
 #~ msgid "Your Deriv account is ready"

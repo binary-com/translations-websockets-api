@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-12-19 10:55+0000\n"
 "Last-Translator: Jun <truongthithuydung174@gmail.com>\n"
-"Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
-"binary-websocket/translations/vi/>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/binary-websocket/translations/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -258,10 +257,6 @@ msgstr "Ví @ease"
 msgctxt "field for payment method @ease wallet"
 msgid "@ease wallet account"
 msgstr "Tài khoản @ease wallet"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
-msgstr "Một tranh chấp Deriv P2P đã được khởi tạo. ID lệnh: %1 Số tài khoản: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "A Deriv P2P order was placed to sell %1 USD from your Deriv funds. Please check the details below carefully to make sure the order is yours:"
@@ -1494,7 +1489,10 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verific
 msgid "Confirm"
 msgstr "Xác nhận"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#| msgid "Confirm your Deriv P2P order"
+msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your Deriv P2P order"
 msgstr "Xác nhận đơn hàng Deriv P2P của bạn"
 
@@ -1705,11 +1703,17 @@ msgstr "DOT/USD"
 msgid "DP2P is Deriv's peer-to-peer deposit and withdrawal service"
 msgstr "DP2P là dịch vụ gửi và rút tiền ngang hàng của Deriv"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_ad_created "
 msgid "DP2P: Your %1 ad has been created"
 msgstr "DP2P: Quảng cáo %1 của bạn đã được tạo"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_order_placed "
 msgid "DP2P: Your order has been placed"
 msgstr "DP2P: Giao dịch bạn yêu cầu đã được thực hiện"
 
@@ -1855,10 +1859,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv MT5"
 msgstr "Deriv MT5"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
-msgid "Deriv P2P - There was no response to your ad(s)"
-msgstr "Deriv P2P - Không có phản hồi cho (các) quảng cáo của bạn"
-
 msgid "Deriv P2P is currently unavailable. Please check back later."
 msgstr "Deriv P2P tạm thời không khả dụng. Vui lòng thử lại sau."
 
@@ -1871,9 +1871,76 @@ msgstr "Deriv P2P không khả dụng cho quốc gia của bạn. Vui lòng cun
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "Deriv P2P không khả dụng cho tài khoản ảo. Vui lòng chuyển sang một tài khoản thực."
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Deriv P2P: A dispute was raised for order %1"
+msgstr "Một tranh chấp Deriv P2P đã được khởi tạo. ID lệnh: %1 Số tài khoản: %2"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
 msgstr "Deriv P2P: Xác nhận bạn đã nhận được thanh toán cho Lệnh%1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+msgid "Deriv P2P: Confirm your order %1"
+msgstr "Deriv P2P: Xác nhận bạn đã nhận được thanh toán cho Lệnh%1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+#| msgid "Higher daily P2P limits for you"
+msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+msgid "Deriv P2P: Higher daily P2P limits for you"
+msgstr "Giới hạn P2P hàng ngày cao hơn cho bạn"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
+msgid "Deriv P2P: Resolution for order %1"
+msgstr "Kết quả đơn hàng DP2P %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+#| msgid "Deriv P2P - There was no response to your ad(s)"
+msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+msgid "Deriv P2P: There was no response to your ad(s)"
+msgstr "Deriv P2P - Không có phản hồi cho (các) quảng cáo của bạn"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Deriv P2P: You have a dispute against you for order %1"
+msgstr "Deriv P2P: Xác nhận bạn đã nhận được thanh toán cho Lệnh%1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+msgid "Deriv P2P: Your %1 ad has been created"
+msgstr "DP2P: Quảng cáo %1 của bạn đã được tạo"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+msgid "Deriv P2P: Your dispute for order %1 is in progress"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+#| msgid "Your order has expired"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+msgid "Deriv P2P: Your order %1 has expired"
+msgstr "Đơn hàng của bạn đã hết hạn"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+msgid "Deriv P2P: Your order has been placed"
+msgstr "DP2P: Giao dịch bạn yêu cầu đã được thực hiện"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv Trader"
@@ -2896,10 +2963,6 @@ msgstr "Tick Cao/Thấp"
 msgid "Higher"
 msgstr "Cao Hơn"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
-msgid "Higher daily P2P limits for you"
-msgstr "Giới hạn P2P hàng ngày cao hơn cho bạn"
-
 msgid "Higher/Lower"
 msgstr "Higher/Lower"
 
@@ -3166,9 +3229,7 @@ msgstr "Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ chúng tôi 
 #| msgid "If you have any questions, contact us:%1%2Live Chat%3 | %4WhatsApp%5"
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "If you have any questions, contact us:%1%2%3Live Chat%4 | %5WhatsApp%6"
-msgstr ""
-"Nếu bạn có bất kỳ thắc mắc nào, vui lòng liên hệ với chúng tôi qua:"
-"%1%2%3Live Chat%4 | %5WhatsApp%6"
+msgstr "Nếu bạn có bất kỳ thắc mắc nào, vui lòng liên hệ với chúng tôi qua:%1%2%3Live Chat%4 | %5WhatsApp%6"
 
 msgid "If you have any questions, please %1contact us via live chat%2."
 msgstr "Nếu bạn có bất kỳ câu hỏi nào, vui lòng %1liên hệ với chúng tôi qua live chat%2."
@@ -5592,7 +5653,10 @@ msgctxt "Onfido document type "
 msgid "Residence Permit"
 msgstr "Giấy phép cư trú"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
 msgid "Resolution for DP2P order %1"
 msgstr "Kết quả đơn hàng DP2P %1"
 
@@ -6162,9 +6226,7 @@ msgstr "Gửi giấy tờ chứng minh địa chỉ"
 #| msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 #| msgid "Submit your proof of address to continue trading"
 msgid "Submit your proof of address and identity before signing up for Deriv P2P."
-msgstr ""
-"Vui lòng gửi giấy tờ chứng minh địa chỉ và danh tính trước khi đăng ký sử "
-"dụng Deriv P2P"
+msgstr "Vui lòng gửi giấy tờ chứng minh địa chỉ và danh tính trước khi đăng ký sử dụng Deriv P2P"
 
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "Submit your proof of address to continue trading"
@@ -6406,9 +6468,7 @@ msgstr "Cảm ơn bạn đã xác minh địa chỉ và danh tính của mình. 
 #| msgid "Thank you for verifying your address. Now, let’s verify your identity by submitting your proof of identity (POI)."
 msgctxt "Customer.io email: KYC Verified POA & Unverified POI "
 msgid "Thank you for verifying your address. Now, let’s verify your identity by submitting your proof of identity (POI)."
-msgstr ""
-"Cám ơn bạn đã xác thực địa chỉ của mình. Tiếp theo, vui lòng xác thực danh "
-"tính bằng cách gửi giấy tờ xác xinh danh tính của bạn(POI)."
+msgstr "Cám ơn bạn đã xác thực địa chỉ của mình. Tiếp theo, vui lòng xác thực danh tính bằng cách gửi giấy tờ xác xinh danh tính của bạn(POI)."
 
 msgctxt "Customer.io email: KYC Verified POI & Unverified POA "
 msgid "Thank you for verifying your identity. Now, let’s verify your address by submitting your proof of address (POA)."
@@ -6799,22 +6859,17 @@ msgstr "Quá trình xác minh có thể mất đến ba ngày và chúng tôi s�
 #, fuzzy
 #| msgid "The verification status is not available, provider says: Unexpected Error."
 msgid "The verification status is not available, There is no response from provider."
-msgstr ""
-"Không có thông tin về tình trạng xác minh, không có phản hồi từ nhà cung cấp."
+msgstr "Không có thông tin về tình trạng xác minh, không có phản hồi từ nhà cung cấp."
 
 #, fuzzy
 #| msgid "The verification status is not available, provider says: Provider Unavailable."
 msgid "The verification status is not available, provider says:  Microservice unavailable."
-msgstr ""
-"Không có thông tin về tình trạng xác minh, nhà cung cấp thông báo: "
-"Microservice không có sẵn."
+msgstr "Không có thông tin về tình trạng xác minh, nhà cung cấp thông báo: Microservice không có sẵn."
 
 #, fuzzy
 #| msgid "The verification status is not available, provider says: Timeout."
 msgid "The verification status is not available, provider says: Invalid webhook request."
-msgstr ""
-"Không có thông tin về tình trạng xác minh, nhà cung cấp thông báo: Yêu cầu "
-"webhook không hợp lệ."
+msgstr "Không có thông tin về tình trạng xác minh, nhà cung cấp thông báo: Yêu cầu webhook không hợp lệ."
 
 msgid "The verification status is not available, provider says: Issuer Unavailable."
 msgstr "Không có thông tin về trạng thái xác minh, nhà cung cấp nói: Không có thông tin bên cấp phát."
@@ -7247,10 +7302,7 @@ msgstr "Để mở khóa chức năng thu ngân, vui lòng trả lời email nà
 #| msgid "To verify your address, %1upload%2 a photo of your recent bank statement or utility bill (no more than 6 months old) that clearly shows your name and current address."
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "To verify your address, %1upload%2 a photo of your recent bank statement or utility bill (no more than 12 months old) that clearly shows your name and current address."
-msgstr ""
-"Để xác minh địa chỉ của bạn, %1vui lòng tải lên%2 ảnh chụp sao kê ngân hàng "
-"hoặc hóa đơn tiện ích gần đây (không quá 12 tháng) có hiển thị rõ tên và địa "
-"chỉ hiện tại của bạn."
+msgstr "Để xác minh địa chỉ của bạn, %1vui lòng tải lên%2 ảnh chụp sao kê ngân hàng hoặc hóa đơn tiện ích gần đây (không quá 12 tháng) có hiển thị rõ tên và địa chỉ hiện tại của bạn."
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "To verify your identity,"
@@ -9475,10 +9527,6 @@ msgstr "Bạn không có tài khoản Deriv X trên máy chủ đã chọn."
 msgid "You don't need to authenticate your account at this time."
 msgstr "Bạn không cần xác thực tài khoản của mình vào lúc này."
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
-msgstr "Bạn có một đơn tranh chấp Deriv P2P chống lại bạn. ID lệnh: %1 Tài khoản số: %2"
-
 msgid "You have a payment method with the same values for %1."
 msgstr "Bạn có một phương thức thanh toán với các giá trị giông nhau cho %1."
 
@@ -9768,14 +9816,6 @@ msgstr "Tài khoản Deriv MT5 của bạn đã sẵn sàng"
 msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
 msgid "Your Deriv MT5 accounts have been closed"
 msgstr "Tài khoản Deriv MT5 của bạn đã bị đóng"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "Tranh chấp Deriv P2P của bạn đang được xử lý.   ID giao dịch: %1 Số tài khoản: %2"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
-msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
-msgstr "Đơn tranh chấp Deriv P2P của bạn đang tiến triển. ID lệnh: %1 Số tài khoản: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Your Deriv Payment Agent application is approved"
@@ -25674,6 +25714,10 @@ msgstr "● Số tiền giao dịch"
 #~ msgid "You get fair and transparent pricing, whatever your position."
 #~ msgstr "Bạn sẽ có được giá cả hợp lý và minh bạch, bất kể bạn ở vị thế nào."
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
+#~ msgstr "Bạn có một đơn tranh chấp Deriv P2P chống lại bạn. ID lệnh: %1 Tài khoản số: %2"
+
 #~ msgid "You have already attempted to authenticate your ID using our online verification procedure."
 #~ msgstr "Bạn đã cố gắng xác thực ID của bạn bằng cách sử dụng quy trình xác minh trực tuyến của chúng tôi."
 
@@ -25996,6 +26040,14 @@ msgstr "● Số tiền giao dịch"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "Tài khoản Deriv MetaTrader 5 (DMT5) %1 %2 demo %3 real %4 của bạn đã sẵn sàng."
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "Tranh chấp Deriv P2P của bạn đang được xử lý.   ID giao dịch: %1 Số tài khoản: %2"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
+#~ msgstr "Đơn tranh chấp Deriv P2P của bạn đang tiến triển. ID lệnh: %1 Số tài khoản: %2"
 
 #~ msgctxt "Customer.io email: mf_eu_transactional_real_signup "
 #~ msgid "Your Deriv account is ready"

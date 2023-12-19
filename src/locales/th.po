@@ -258,10 +258,6 @@ msgctxt "field for payment method @ease wallet"
 msgid "@ease wallet account"
 msgstr "บัญชีวอลเล็ท @ease"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
-msgstr "มีการยื่นข้อร้องเรียนเกี่ยวกับการพิพาทใน Deriv P2P รหัสการสั่งซื้อ: %1 เลขที่บัญชี: %2"
-
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "A Deriv P2P order was placed to sell %1 USD from your Deriv funds. Please check the details below carefully to make sure the order is yours:"
 msgstr "มีการส่งออร์เดอร์ Deriv P2P มาเพื่อขาย %1 USD จากกองทุน Deriv ของคุณ โปรดตรวจดูรายละเอียดด้านล่างอย่างละเอียดเพื่อให้แน่ใจว่าคําสั่งซื้อนี้เป็นของคุณ:"
@@ -1488,7 +1484,10 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verific
 msgid "Confirm"
 msgstr "ยืนยัน"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#| msgid "Confirm your Deriv P2P order"
+msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your Deriv P2P order"
 msgstr "ยืนยันออร์เดอร์ Deriv P2P ของคุณ"
 
@@ -1699,11 +1698,17 @@ msgstr "DOT/USD"
 msgid "DP2P is Deriv's peer-to-peer deposit and withdrawal service"
 msgstr "DP2P คือบริการฝากและถอนแบบ peer-to-peer ของ Deriv"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_ad_created "
 msgid "DP2P: Your %1 ad has been created"
 msgstr "DP2P: ได้มีการสร้าง %1 โฆษณาของคุณแล้ว"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: dummy_svg_all_transactional_p2p_order_placed "
 msgid "DP2P: Your order has been placed"
 msgstr "DP2P: คําสั่งซื้อขายของคุณถูกยื่นไปแล้ว"
 
@@ -1849,10 +1854,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv MT5"
 msgstr "Deriv MT5"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
-msgid "Deriv P2P - There was no response to your ad(s)"
-msgstr "Deriv P2P - ไม่มีการตอบสนองใดต่อโฆษณาของคุณ"
-
 msgid "Deriv P2P is currently unavailable. Please check back later."
 msgstr "Deriv P2P ไม่พร้อมใช้งานในขณะนี้ โปรดกลับมาใหม่ภายหลัง"
 
@@ -1865,9 +1866,76 @@ msgstr "Deriv P2P ไม่พร้อมใช้งานในประเ�
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "Deriv P2P ไม่สามารถใช้งานได้ในบัญชีทดลอง โปรดเปลี่ยนไปใช้บัญชีจริงของคุณ"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "A Deriv P2P dispute was raised. Order ID: %1 Account no: %2"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Deriv P2P: A dispute was raised for order %1"
+msgstr "มีการยื่นข้อร้องเรียนเกี่ยวกับการพิพาทใน Deriv P2P รหัสการสั่งซื้อ: %1 เลขที่บัญชี: %2"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
 msgstr "Deriv P2P: ยืนยันว่าคุณได้รับการชำระเงินแล้วสำหรับคำสั่งซื้อ %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+msgid "Deriv P2P: Confirm your order %1"
+msgstr "Deriv P2P: ยืนยันว่าคุณได้รับการชำระเงินแล้วสำหรับคำสั่งซื้อ %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+#| msgid "Higher daily P2P limits for you"
+msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
+msgid "Deriv P2P: Higher daily P2P limits for you"
+msgstr "วงเงิน P2P รายวันที่ปรับสูงขึ้นสําหรับคุณ"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
+msgid "Deriv P2P: Resolution for order %1"
+msgstr "ข้อยุติการพิพาทสำหรับคำสั่งซื้อ DP2P %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+#| msgid "Deriv P2P - There was no response to your ad(s)"
+msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
+msgid "Deriv P2P: There was no response to your ad(s)"
+msgstr "Deriv P2P - ไม่มีการตอบสนองใดต่อโฆษณาของคุณ"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
+#| msgid "Deriv P2P: Confirm you've received payment for Order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Deriv P2P: You have a dispute against you for order %1"
+msgstr "Deriv P2P: ยืนยันว่าคุณได้รับการชำระเงินแล้วสำหรับคำสั่งซื้อ %1"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+#| msgid "DP2P: Your %1 ad has been created"
+msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
+msgid "Deriv P2P: Your %1 ad has been created"
+msgstr "DP2P: ได้มีการสร้าง %1 โฆษณาของคุณแล้ว"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+msgid "Deriv P2P: Your dispute for order %1 is in progress"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+#| msgid "Your order has expired"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
+msgid "Deriv P2P: Your order %1 has expired"
+msgstr "คำสั่งซื้อขายของคุณหมดอายุแล้ว"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+#| msgid "DP2P: Your order has been placed"
+msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
+msgid "Deriv P2P: Your order has been placed"
+msgstr "DP2P: คําสั่งซื้อขายของคุณถูกยื่นไปแล้ว"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome "
 msgid "Deriv Trader"
@@ -2886,10 +2954,6 @@ msgstr "High/Low Ticks"
 
 msgid "Higher"
 msgstr "Higher"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
-msgid "Higher daily P2P limits for you"
-msgstr "วงเงิน P2P รายวันที่ปรับสูงขึ้นสําหรับคุณ"
 
 msgid "Higher/Lower"
 msgstr "Higher/Lower"
@@ -5575,7 +5639,10 @@ msgctxt "Onfido document type "
 msgid "Residence Permit"
 msgstr "ใบอนุญาตพํานักอาศัย"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Resolution for DP2P order %1"
+msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_toseller "
 msgid "Resolution for DP2P order %1"
 msgstr "ข้อยุติการพิพาทสำหรับคำสั่งซื้อ DP2P %1"
 
@@ -9422,10 +9489,6 @@ msgstr "คุณไม่มีบัญชี Deriv X บนเซิร์ฟ
 msgid "You don't need to authenticate your account at this time."
 msgstr "คุณไม่จําเป็นต้องรับรองความถูกต้องของบัญชีของคุณในขณะนี้"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
-msgstr "คุณมีข้อพิพาทเกี่ยวกับ Deriv P2P ที่มุ่งเป้าที่คุณ รหัสคำสั่งซื้อ: %1 เลขที่บัญชี: %2"
-
 msgid "You have a payment method with the same values for %1."
 msgstr "คุณมีวิธีการชำระเงินที่มีค่าเดียวกันสำหรับ %1"
 
@@ -9715,14 +9778,6 @@ msgstr "บัญชี Deriv MT5 ของคุณพร้อมใช้ง�
 msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
 msgid "Your Deriv MT5 accounts have been closed"
 msgstr "บัญชี Deriv MT5 ของคุณถูกปิดไปแล้ว"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
-msgstr "ข้อพิพาทเกี่ยวกับ Deriv P2P ของคุณกำลังอยู่ระหว่างดำเนินการ  รหัสคำสั่งซื้อ: %1 เลขที่บัญชี: %2"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
-msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
-msgstr "ข้อพิพาทเกี่ยวกับ Deriv P2P ของคุณกำลังอยู่ระหว่างดำเนินการ รหัสคำสั่งซื้อ: %1 เลขที่บัญชี: %2"
 
 msgctxt "Customer.io email: svg_all_transactional_pa_approved "
 msgid "Your Deriv Payment Agent application is approved"
@@ -21941,6 +21996,10 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgid "You do not have permission for this action."
 #~ msgstr "เราไม่สามารถใช้โพซิชั่นเปิดสำหรับบัญชีนี้"
 
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "You have a Deriv P2P dispute against you. Order ID: %1 Account no: %2"
+#~ msgstr "คุณมีข้อพิพาทเกี่ยวกับ Deriv P2P ที่มุ่งเป้าที่คุณ รหัสคำสั่งซื้อ: %1 เลขที่บัญชี: %2"
+
 #~ msgid "You have already withdrawn the equivalent of %1 %2 in aggregate over the last %3 days."
 #~ msgstr "ท่านได้ถอน %1 %2 หรือเทียบเท่า ในช่วง %3 วันที่ผ่านมา"
 
@@ -22112,6 +22171,14 @@ msgstr "●  จำนวนเงินที่ทำธุรกรรม"
 #~ msgctxt "Customer.io email: mt5_demo_sign-up "
 #~ msgid "Your Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
 #~ msgstr "บัญชี %7 ทดลอง %6 จริง Deriv MetaTrader 5 %1 Derived %2 %3 %4 %5 ของคุณพร้อมแล้ว"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress.  Order ID: %1 Account no: %2"
+#~ msgstr "ข้อพิพาทเกี่ยวกับ Deriv P2P ของคุณกำลังอยู่ระหว่างดำเนินการ  รหัสคำสั่งซื้อ: %1 เลขที่บัญชี: %2"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
+#~ msgid "Your Deriv P2P dispute is in progress. Order ID: %1 Account no: %2"
+#~ msgstr "ข้อพิพาทเกี่ยวกับ Deriv P2P ของคุณกำลังอยู่ระหว่างดำเนินการ รหัสคำสั่งซื้อ: %1 เลขที่บัญชี: %2"
 
 #~ msgctxt "Customer.io email: mf_eu_transactional_real_signup "
 #~ msgid "Your Deriv account is ready"
