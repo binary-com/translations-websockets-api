@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-13 10:34\n"
+"PO-Revision-Date: 2024-03-13 20:33\n"
 "Last-Translator: \n"
 "Language-Team: Mongolian\n"
 "MIME-Version: 1.0\n"
@@ -5269,17 +5269,8 @@ msgstr "%1 -ийн шалз %5 бүх %3 хачигт дундаас хамги�
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "%1 -ийн шалз %5 бүх %3 хачиг дунд хамгийн бага байгаа бол төлбөрийн ялалт."
 
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "'Урт '-ийн хувьд %1 -ийн спот үнэ хэзээ ч хүрч эсвэл %4-ээс доош буурах тохиолдолд та %3 дээр төлбөр авдаг. Таны төлбөр нь эцсийн үнэ болон %4хоёрын үнэмлэхүй зөрүүгээр үржүүлсэн %5 -тэй тэнцүү байна. Та гэрээг хүртэл зарах сонгож болно 15 секундын өмнө %3, мөн гэрээний үнэ цэнийг хүлээн авах."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "'Урт '-ийн хувьд %1 -ийн спот үнэ хэзээ ч хүрч эсвэл %4-ээс доош буусан тохиолдолд %plural (%3,%d tick,%d хачиг) -д төлбөр авдаг. Таны төлбөр нь эцсийн үнэ болон %4хоёрын үнэмлэхүй зөрүүгээр үржүүлсэн %5 -тэй тэнцүү байна. Хачгийн тоогоор хугацаагаа сонговол гэрээгээ эрт цуцлах боломжгүй болно."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "'Богино'-ийн хувьд %1 -ийн спот үнэ хэзээ ч хүрч эсвэл %4дээрээс дээш өссөн тохиолдолд та %3 дээр төлбөр авдаг. Таны төлбөр нь эцсийн үнэ болон %4хоёрын үнэмлэхүй зөрүүгээр үржүүлсэн %5 -тэй тэнцүү байна. Та гэрээг хүртэл зарах сонгож болно 15 секундын өмнө %3, мөн гэрээний үнэ цэнийг хүлээн авах."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "'Богино'-ийн хувьд %1 -ийн спот үнэ хэзээ ч хүрч эсвэл %4дээрээс дээш өссөн тохиолдолд %plural (%3,%d tick,%d хачиг) -д төлбөр авдаг. Таны төлбөр нь эцсийн үнэ болон %4хоёрын үнэмлэхүй зөрүүгээр үржүүлсэн %5 -тэй тэнцүү байна. Хачгийн тоогоор хугацаагаа сонговол гэрээгээ эрт цуцлах боломжгүй болно."
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
 
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "%1 гадуур %5 руу %3-ээр %4 руу явбал төлбөрийг хожно."
@@ -5797,8 +5788,8 @@ msgstr "Энэ дансыг идэвхгүй болгосон."
 msgid "Email not given."
 msgstr "И-мэйл өгөөгүй."
 
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "Дамжуулсан утга хүчин төгөлдөр бус байна. Оролтыг зөв баталгаажуулна уу."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr ""
 
 msgid "Password not given."
 msgstr "Нууц үг өгөөгүй."
@@ -5824,11 +5815,20 @@ msgstr "Энэ дансанд нийгмийн нэвтрэлт идэвхжүү
 msgid "Failed to get user identity."
 msgstr "Хэрэглэгчийн үнэмлэхийг олж чадаагүй."
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
-msgstr "Таны нууц үг байхгүй болсон байна, Хэрэв та нууц үг менежер үүнийг устгах уу."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
+msgstr ""
 
-msgid "Failed to authenticate with passkeys. Please try again"
-msgstr "Нууц үгийн тусламжтайгаар баталгаажуулж чадаагүй. Дахин оролдоно уу"
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr ""
+
+msgid "Failed to authenticate with passkeys. Please try again later"
+msgstr ""
+
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr ""
+
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
 
 msgid "Suspicious activity detected from this device - for safety, login has been blocked temporarily."
 msgstr "Энэ төхөөрөмжөөс илрүүлсэн сэжигтэй үйл ажиллагаа - аюулгүй байдлын үүднээс нэвтрэлтийг түр хугацаагаар хаасан байна."
@@ -7290,60 +7290,60 @@ msgid "noqodi account"
 msgstr "бүртгэлийн бүртгэл"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Үндэсний таних баримт бичиг"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Цедула де Идентидад"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "ЦПФ"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Жолоочийн үнэмлэх"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Харь гаригийн карт"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Паспорт"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Үндэсний үнэмлэхний дугаар"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Нийгмийн аюулгүй байдал ба үндэсний даатгалын итгэлцэл (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Сонгогчийн үнэмлэх"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar карт"
+msgid "Nomor Induk Kependudukan"
+msgstr "Индук Цэвэрлэгээний дугаар"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN карт"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Индук Цэвэрлэгээний дугаар"
+msgid "Voter ID"
+msgstr "Сонгогчийн үнэмлэх"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Жолоочийн үнэмлэх"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Паспорт"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Aadhaar карт"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Нийгмийн аюулгүй байдал ба үндэсний даатгалын итгэлцэл (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Цедула де Идентидад"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Үндэсний үнэмлэхний дугаар"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Харь гаригийн карт"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Үндэсний таних баримт бичиг"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "ЦПФ"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
