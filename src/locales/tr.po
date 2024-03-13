@@ -686,6 +686,9 @@ msgstr "Yeni bir token verilirken bir hata oluştu. Lütfen daha sonra tekrar de
 msgid "An error occurred while processing your request. Please try again later."
 msgstr "İşleminiz gerçekleştirilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
 
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr "Geçersiz bir Deriv X hesap kimliği sağlandı."
 
@@ -2355,7 +2358,9 @@ msgstr "FNB e-Cüzdan hesabı"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Failed to authenticate with passkeys. Please try again"
+#, fuzzy
+#| msgid "Failed to authenticate with passkeys. Please try again"
+msgid "Failed to authenticate with passkeys. Please try again later"
 msgstr "Geçiş anahtarlarıyla kimlik doğrulaması yapılamadı. Lütfen tekrar deneyin"
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
@@ -2449,18 +2454,6 @@ msgstr "Grafiği takip edin."
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "Kimlik belgenizi (pasaport, ehliyet veya kimlik kartı) ve bir özçekiminizi yüklemek için ekrandaki uyarı ve adımları izleyin."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "\"Long\" için, %çoklu (%3,% 3, %d tik,%d tikler) bir ödeme alırsınız, eğer %1'in spot fiyatı %4'ün altına asla dokunmaz veya düşmezse. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Sürenizi tik sayısı olarak seçerseniz, sözleşmenizi erken sonlandıramazsınız."
-
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "\"Long\" için, %1'lik spot fiyat %4'ün altına asla dokunmaz veya düşmezse %3 üzerinden ödeme alırsınız. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Sözleşmeyi %3'ten 15 saniye öncesine kadar satmayı seçebilir ve bir sözleşme bedeli alabilirsiniz."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "'Short' için, %plural (%3,%d tick,%d tikler) bir ödeme alırsınız, %1'in spot fiyatı hiç dokunmaz veya %4'ün üzerine çıkmazsa. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Sürenizi tik sayısı olarak seçerseniz, sözleşmenizi erken feshedemezsiniz."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "'Short' için, %1'lik spot fiyat %4'e hiç dokunmaz veya %4'ün üzerine çıkmazsa, %3 üzerinden ödeme alırsınız. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Kontratı %3'ten 15 saniye öncesine kadar satmayı seçebilir ve bir kontrat bedeli alabilirsiniz."
 
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
 msgstr "Bir 'Call' sözleşmesi için,%1'in nihai fiyatı %4'ün üzerindeyse %3 üzerinden bir ödeme alırsınız. Ödeme, nihai fiyat ile %4 arasındaki %7 farkla çarpılan %5'e eşittir. Sözleşmeyi %3'ten önce %6'ya kadar satmayı seçebilir ve bir sözleşme değeri alabilirsiniz. "
@@ -6338,6 +6331,11 @@ msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "The POI you submitted previously has expired."
 msgstr "Daha önce teslim ettiğiniz POI sona erdi."
 
+#, fuzzy
+#| msgid "This service is currently unavailable. Please try again later."
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr "Bu hizmet şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyiniz."
+
 msgid "The Walt Disney Company"
 msgstr "The Walt Disney Company"
 
@@ -6592,6 +6590,11 @@ msgstr "Sağlanan para birimi %1, varsayılan para birimi değil"
 msgid "The rate of the advert has changed. Please try creating your order again."
 msgstr "İlanın oranı değişti. Lütfen emrinizi yeniden oluşturmayı deneyin."
 
+#, fuzzy
+#| msgid "The link that you used appears to be invalid. Please check and try again."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr "Kullandığınız bağlantı geçersiz görünüyor. Lütfen kontrol edin ve tekrar deneyin."
+
 msgid "The requested maximum amount must be greater than minimum amount."
 msgstr "İstenen maksimum tutar, minimum tutardan büyük olmalıdır."
 
@@ -6646,9 +6649,6 @@ msgstr "Transfer tamamlanamadı: %1"
 
 msgid "The underlying market has moved too much since you priced the contract."
 msgstr "Sözleşmeyi fiyatladığınızdan beri temel piyasa çok fazla hareket etti."
-
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "İletilen değer geçersiz. Lütfen doğru giriş yapıldığından emin olun."
 
 msgid "The verification is passed but the personal info is not available to compare."
 msgstr "Doğrulama geçti ancak kişisel bilgiler karşılaştırma için mevcut değil."
@@ -8299,6 +8299,9 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We could not process your withdrawal request"
 msgstr "Para çekme talebinizi işleme koyamadık"
 
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr ""
+
 msgid "We couldn't verify your account"
 msgstr "Hesabınızı doğrulayamadık"
 
@@ -9444,6 +9447,9 @@ msgstr "Bu sözleşmeyi satın alırsanız, bu piyasa için maksimum risk toplam
 msgid "You will exceed the maximum exposure limit if you purchase this contract. Please close some of your positions and try again."
 msgstr "Bu sözleşmeyi satın alırsanız, bu piyasa için maksimum risk toplamı sınırını aşacaksınız. Lütfen pozisyonlarınızdan bazılarını kapatın ve tekrar deneyin."
 
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "You won't be able to make withdrawals."
 msgstr "Para çekme işlemi yapamazsınız."
@@ -9973,7 +9979,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
 msgid "Your order has expired"
 msgstr "Emrinizin süresi doldu"
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
+#, fuzzy
+#| msgid "Your passkey is no longer available, please remove it from you password manager."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
 msgstr "Passkey artık mevcut değildir, lütfen onu şifre yöneticisinden çıkarın."
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
@@ -10866,6 +10874,18 @@ msgstr "● İşlem miktarı"
 #~ msgctxt "Customer.io email: test2-options "
 #~ msgid "Fixed payouts"
 #~ msgstr "Sabit ödemeler"
+
+#~ msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "\"Long\" için, %çoklu (%3,% 3, %d tik,%d tikler) bir ödeme alırsınız, eğer %1'in spot fiyatı %4'ün altına asla dokunmaz veya düşmezse. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Sürenizi tik sayısı olarak seçerseniz, sözleşmenizi erken sonlandıramazsınız."
+
+#~ msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "\"Long\" için, %1'lik spot fiyat %4'ün altına asla dokunmaz veya düşmezse %3 üzerinden ödeme alırsınız. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Sözleşmeyi %3'ten 15 saniye öncesine kadar satmayı seçebilir ve bir sözleşme bedeli alabilirsiniz."
+
+#~ msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "'Short' için, %plural (%3,%d tick,%d tikler) bir ödeme alırsınız, %1'in spot fiyatı hiç dokunmaz veya %4'ün üzerine çıkmazsa. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Sürenizi tik sayısı olarak seçerseniz, sözleşmenizi erken feshedemezsiniz."
+
+#~ msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "'Short' için, %1'lik spot fiyat %4'e hiç dokunmaz veya %4'ün üzerine çıkmazsa, %3 üzerinden ödeme alırsınız. Ödemeniz %5'in nihai fiyat ile %4 arasındaki mutlak farkla çarpımına eşittir. Kontratı %3'ten 15 saniye öncesine kadar satmayı seçebilir ve bir kontrat bedeli alabilirsiniz."
 
 #~ msgid "For each deposit, you will have to visit here again to generate a new address."
 #~ msgstr "Her bir depozite yeni bir adres oluşturmak için burayı tekrar ziyaret etmelisiniz."
@@ -11932,6 +11952,9 @@ msgstr "● İşlem miktarı"
 
 #~ msgid "The type of document you submitted as proof of identity can't be accepted."
 #~ msgstr "Kimlik kanıtı olarak sunmuş olduğunuz belge türü kabul edilemez."
+
+#~ msgid "The value passed is invalid. Please ensure correct input."
+#~ msgstr "İletilen değer geçersiz. Lütfen doğru giriş yapıldığından emin olun."
 
 #~ msgctxt "Customer.io email: test1 - margin "
 #~ msgid "The world’s biggest stock indices"

@@ -701,6 +701,9 @@ msgstr "Đã xảy ra vấn đề khi phát hành mã token mới. Vui lòng th�
 msgid "An error occurred while processing your request. Please try again later."
 msgstr "Đã xảy ra lỗi khi xử lý yêu cầu của bạn. Vui lòng thử lại sau."
 
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr "Bạn đã nhập một ID tài khoản Deriv X không hợp lệ."
 
@@ -2382,8 +2385,10 @@ msgstr "Tài khoản FNB eWallet"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Failed to authenticate with passkeys. Please try again"
-msgstr ""
+#, fuzzy
+#| msgid "Request too frequent. Please try again later."
+msgid "Failed to authenticate with passkeys. Please try again later"
+msgstr "Yêu cầu quá thường xuyên. Xin vui lòng thử lại sau."
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
 msgstr "Không thể tạo tài khoản do không thể chứng minh địa chỉ với trạng thái: %1"
@@ -2479,18 +2484,6 @@ msgstr "Theo dõi biểu đồ."
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "Làm theo lời nhắc và các bước trên màn hình để tải lên giấy tờ xác thực danh tính (hộ chiếu, bằng lái xe hoặc căn cước công dân) và ảnh chân dung tự chụp của bạn."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Với giao dịch 'Long', bạn sẽ nhận được khoản chi trả theo %plural(%3,%d tick,%d ticks) nếu giá giao ngay của %1 không bao giờ chạm hoặc giảm xuống dưới %4. Khoản chi trả của bạn bằng %5 nhân với khoảng chênh lệch tuyệt đối giữa giá cuối cùng và %4. Nếu bạn chọn thời hạn theo số lượng tick, bạn sẽ không thể chấm dứt hợp đồng sớm."
-
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Với giao dịch 'Long', bạn sẽ nhận được khoản chi trả trên %3 nếu giá giao ngay của %1 không bao giờ chạm hoặc giảm xuống dưới %4. Khoản chi trả của bạn bằng %5 nhân với khoảng chênh lệch tuyệt đối giữa giá cuối cùng và %4. Bạn có thể chọn bán hợp đồng cho đến 15 giây trước %3 và nhận lại giá trị hợp đồng."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Với hợp đồng 'Short', bạn sẽ nhận được một khoản chi trả %plural(%3,%d tick,%d ticks) nếu giá cuối cùng của %1 không bao giờ chạm hoặc tăng trên %4. Số tiền lời chi trả cho bạn bằng %5 nhân với mức chênh lệch tuyệt đối giữa giá cuối và %4. Nếu bạn chọn thời hạn theo số tick, bạn sẽ không thể chấm dứt hợp đồng sớm."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Với hợp đồng 'Short', bạn sẽ nhận được một khoản chi trả vào lúc %3 nếu giá giao ngay của %1 không chạm hoặc tăng trên %4. Số tiền lời chi trả cho bạn bằng %5 nhân với mức chênh lệch tuyệt đối giữa giá cuối và %4. Bạn có thể chọn bán hợp đồng 15 giây trước %3 và thu về lại giá trị hợp đồng."
 
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
 msgstr "Với hợp đồng quyền 'Call', bạn sẽ nhận được một khoản chi trả vào lúc %3 nếu giá cuối cùng của %1 cao hơn %4. Số tiền lời chi trả cho bạn bằng %5 nhân với chênh lệch giữa giá cuối và %4. Bạn có thể chọn bán hợp đồng %6 trước %3 và thu về giá trị hợp đồng. "
@@ -6412,6 +6405,11 @@ msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "The POI you submitted previously has expired."
 msgstr "POI bạn gửi trước đó đã hết hạn."
 
+#, fuzzy
+#| msgid "This service is currently unavailable. Please try again later."
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr "Dịch vụ này tạm thời không khả dụng. Vui lòng thử lại sau."
+
 msgid "The Walt Disney Company"
 msgstr "Tập Đoàn Walt Disney"
 
@@ -6666,6 +6664,11 @@ msgstr "Đơn vị tiền tệ %1 được cung cấp không phải là đơn
 msgid "The rate of the advert has changed. Please try creating your order again."
 msgstr "Tỷ giá quảng cáo đã thay đổi. Hãy thử tạo lệnh của bạn một lần nữa."
 
+#, fuzzy
+#| msgid "The link that you used appears to be invalid. Please check and try again."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr "Có vẻ như liên kết bạn nhập không hợp lệ. Vui lòng kiểm tra và thử lại."
+
 msgid "The requested maximum amount must be greater than minimum amount."
 msgstr "Số vốn yêu cầu tối đa phải lớn hơn số vốn tối thiểu đã được thiết lập."
 
@@ -6720,9 +6723,6 @@ msgstr "Việc chuyển tiền không thể được hoàn tất: %1"
 
 msgid "The underlying market has moved too much since you priced the contract."
 msgstr "Thị trường cơ sở đã biến chuyển quá nhiều kể từ lúc bạn định giá hợp đồng."
-
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr ""
 
 msgid "The verification is passed but the personal info is not available to compare."
 msgstr "Quá trình xác minh đã được thông qua tuy nhiên không có thông tin cá nhân để đối chiếu."
@@ -8379,6 +8379,11 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We could not process your withdrawal request"
 msgstr "Chúng tôi không thể xử lý yêu cầu rút tiền của bạn"
 
+#, fuzzy
+#| msgid "Sorry, we couldn't verify your password. Please reset your password."
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr "Rất tiếc, chúng tôi không thể xác thực mật khẩu của bạn. Vui lòng đặt lại mật khẩu mới."
+
 msgid "We couldn't verify your account"
 msgstr "Chúng tôi không thể xác minh tài khoản của bạn"
 
@@ -9554,6 +9559,9 @@ msgstr "Bạn sẽ vượt quá giới hạn tối đa tiếp xúc cho thị tr�
 msgid "You will exceed the maximum exposure limit if you purchase this contract. Please close some of your positions and try again."
 msgstr "Bạn sẽ vượt quá giới hạn tối đa tiếp xúc nếu mua hợp đồng này. Xin vui lòng đóng một số vị trí của bạn và thử một lần nữa."
 
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "You won't be able to make withdrawals."
 msgstr "Bạn sẽ không thể rút tiền."
@@ -10100,7 +10108,7 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
 msgid "Your order has expired"
 msgstr "Đơn hàng của bạn đã hết hạn"
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
 msgstr ""
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
@@ -16296,6 +16304,18 @@ msgstr "● Số tiền giao dịch"
 #~ msgid "Following the email we sent you a few days ago, we'd like to remind you to authenticate your account if you wish to continue trading on MT5."
 #~ msgstr "Như email chúng tôi đã gửi cho bạn vài ngày trước, chúng tôi muốn nhắc bạn xác thực tài khoản của mình nếu muốn tiếp tục giao dịch trên MT5."
 
+#~ msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "Với giao dịch 'Long', bạn sẽ nhận được khoản chi trả theo %plural(%3,%d tick,%d ticks) nếu giá giao ngay của %1 không bao giờ chạm hoặc giảm xuống dưới %4. Khoản chi trả của bạn bằng %5 nhân với khoảng chênh lệch tuyệt đối giữa giá cuối cùng và %4. Nếu bạn chọn thời hạn theo số lượng tick, bạn sẽ không thể chấm dứt hợp đồng sớm."
+
+#~ msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "Với giao dịch 'Long', bạn sẽ nhận được khoản chi trả trên %3 nếu giá giao ngay của %1 không bao giờ chạm hoặc giảm xuống dưới %4. Khoản chi trả của bạn bằng %5 nhân với khoảng chênh lệch tuyệt đối giữa giá cuối cùng và %4. Bạn có thể chọn bán hợp đồng cho đến 15 giây trước %3 và nhận lại giá trị hợp đồng."
+
+#~ msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "Với hợp đồng 'Short', bạn sẽ nhận được một khoản chi trả %plural(%3,%d tick,%d ticks) nếu giá cuối cùng của %1 không bao giờ chạm hoặc tăng trên %4. Số tiền lời chi trả cho bạn bằng %5 nhân với mức chênh lệch tuyệt đối giữa giá cuối và %4. Nếu bạn chọn thời hạn theo số tick, bạn sẽ không thể chấm dứt hợp đồng sớm."
+
+#~ msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "Với hợp đồng 'Short', bạn sẽ nhận được một khoản chi trả vào lúc %3 nếu giá giao ngay của %1 không chạm hoặc tăng trên %4. Số tiền lời chi trả cho bạn bằng %5 nhân với mức chênh lệch tuyệt đối giữa giá cuối và %4. Bạn có thể chọn bán hợp đồng 15 giây trước %3 và thu về lại giá trị hợp đồng."
+
 #~ msgid "For added security protection against unauthorised withdrawals, an email containing a secure link to the payment agent withdrawals page has been sent to your email <span id='client_email'></span>. Please check your email to access this link."
 #~ msgstr "Nhằm tăng cường bảo mật để ngăn chặn rút tiền trái phép, một email chứa đường dẫn bảo mật dẫn đến trang của đại lý thanh toán đã được gửi đến địa chỉ email của bạn <span id='client_email'></span>. Vui lòng kiểm tra email để truy cập đường dẫn đó."
 
@@ -22070,9 +22090,6 @@ msgstr "● Số tiền giao dịch"
 
 #~ msgid "Sorry, we are having a technical issue with our MT5 platform."
 #~ msgstr "Rất tiếc, chúng tôi đang gặp vấn đề kỹ thuật với sàn MT5."
-
-#~ msgid "Sorry, we couldn't verify your password. Please reset your password."
-#~ msgstr "Rất tiếc, chúng tôi không thể xác thực mật khẩu của bạn. Vui lòng đặt lại mật khẩu mới."
 
 #~ msgid "Sorry, you cannot reset your password because you logged in using a social network."
 #~ msgstr "Rất tiếc, bạn không thể đặt lại mật khẩu của mình vì bạn đã đăng nhập bằng mạng xã hội."

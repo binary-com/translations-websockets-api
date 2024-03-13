@@ -701,6 +701,9 @@ msgstr "새 토큰을 발행하는 과정에서 오류가 발생되었습니다.
 msgid "An error occurred while processing your request. Please try again later."
 msgstr "귀하의 요청을 처리하는 과정에서 오류가 발생되었습니다. 나중에 다시 시도해 주시기 바랍니다."
 
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr "유효하지 않은 Deriv X 계좌 ID가 제공되었습니다."
 
@@ -2373,7 +2376,9 @@ msgstr "FNB 전자지갑 계정"
 msgid "Facebook"
 msgstr "페이스북 (Facebook)"
 
-msgid "Failed to authenticate with passkeys. Please try again"
+#, fuzzy
+#| msgid "Failed to authenticate with passkeys. Please try again"
+msgid "Failed to authenticate with passkeys. Please try again later"
 msgstr "암호키로 인증하지 못했습니다. 다시 시도하시기 바랍니다"
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
@@ -2470,18 +2475,6 @@ msgstr "차트를 따르세요."
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "귀하의 신분 문서 (여권, 운전면허증 또는 신분증)와 셀피를 업로드하기 위해 화면상의 프롬프트와 단계들을 따르세요."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "'Long' 계약의 경우, %1의 현물 가격이 %4 이하로 내려가지 않으면 %plural(%3,%d 틱,%d 틱)으로 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 값입니다. 기간을 틱의 수로 선택하는 경우에는 계약을 조기 종료할 수 없습니다."
-
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "'Long' 계약의 경우, %1의 현물가격이 %4에 접하거나 그 아래로 절대 떨어지지 않는 경우 %3에 대한 지급금을 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 부분입니다. %3 이전에 15초가 남은 때까지 해당 계약을 판매하고 계약에 해당하는 값을 받기로 선택할 수 있습니다."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "'Short' 계약의 경우, %1의 현물가격이 %4 이상으로 절대 넘어가지 않으면 지급금을 %plural(%3,%d 틱,%d 틱)으로 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 값입니다. 기간을 틱의 수로 선택한다면, 계약을 조기에 종료할 수 없습니다."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "'Short' 계약의 경우, %1의 현물가격이 %4에 접하거나 또는 그 이상으로 상승하지 않으면 %3에 대한 지급금을 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 부분입니다. %3 이전에 15초가 남은 때까지 해당 계약을 팔고 계약에 해당하는 값을 받기로 선택할 수 있습니다."
 
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
 msgstr "'Call' 계약의 경우, %1의 최종 가격이 %4를 초과하는 경우에 %3에 대한 지급금을 받습니다. 해당 지급금은 %5에 최종 가격과 %4의 %7차이를 곱한 금액입니다. "
@@ -6392,6 +6385,11 @@ msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "The POI you submitted previously has expired."
 msgstr "제출하신 신분증이 만료되었습니다."
 
+#, fuzzy
+#| msgid "This service is currently unavailable. Please try again later."
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr "이 서비스는 현재 이용하실 수 없습니다. 나중에 다시 시도해 주시기 바랍니다."
+
 msgid "The Walt Disney Company"
 msgstr "월트 디즈니 컴퍼니 (The Walt Disney Company)"
 
@@ -6646,6 +6644,11 @@ msgstr "제공된 통화 %1는 기본 통화가 아닙니다"
 msgid "The rate of the advert has changed. Please try creating your order again."
 msgstr "광고의 비율이 변경되었습니다. 귀하의 주문을 다시 생성하실 것을 시도해 주시기 바랍니다."
 
+#, fuzzy
+#| msgid "The link that you used appears to be invalid. Please check and try again."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr "귀하께서 이용하신 해당 링크가 유효하지 않은 것으로 보입니다. 다시 확인 및 시도해 주시기 바랍니다."
+
 msgid "The requested maximum amount must be greater than minimum amount."
 msgstr "요구되는 최대 금액은 반드시 최소 금액보다 커야 합니다."
 
@@ -6700,9 +6703,6 @@ msgstr "해당 송금은 완료될 수 없었습니다: %1"
 
 msgid "The underlying market has moved too much since you priced the contract."
 msgstr "해당 기초자산 시장이 귀하께서 계약에 프라이싱을 한 때부터 너무 많이 이동되었습니다."
-
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "전달된 값이 잘못되었습니다. 정확하게 입력해 주시기 바랍니다."
 
 msgid "The verification is passed but the personal info is not available to compare."
 msgstr "인증 절차는 통과되었지만 개인정보는 비교할 수 없습니다."
@@ -8356,6 +8356,9 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We could not process your withdrawal request"
 msgstr "귀하의 인출 요청을 처리할 수 없었습니다"
 
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr ""
+
 msgid "We couldn't verify your account"
 msgstr "저희는 귀하의 계좌를 인증할 수 없었습니다"
 
@@ -9528,6 +9531,9 @@ msgstr "귀하께서 만약 이 계약을 구매한다면 이 시장에 대하�
 msgid "You will exceed the maximum exposure limit if you purchase this contract. Please close some of your positions and try again."
 msgstr "만약 귀하께서 이 계약을 구매하신다면 귀하의 최대 노출한도를 초과하실 것입니다. 귀하의 몇몇 포지션들을 닫으시고 다시 시도해 주시기 바랍니다."
 
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "You won't be able to make withdrawals."
 msgstr "귀하께서는 인출을 진행하실 수 없습니다."
@@ -10072,7 +10078,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
 msgid "Your order has expired"
 msgstr "귀하의 주문이 만료되었습니다"
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
+#, fuzzy
+#| msgid "Your passkey is no longer available, please remove it from you password manager."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
 msgstr "귀하의 패스키는 더 이상 사용할 수 없습니다, 비밀번호 관리자에서 삭제하시기 바랍니다."
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
@@ -10966,6 +10974,18 @@ msgstr "● 거래 금액"
 #~ msgctxt "Customer.io email: test2-options "
 #~ msgid "Fixed payouts"
 #~ msgstr "고정 지불금"
+
+#~ msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "'Long' 계약의 경우, %1의 현물 가격이 %4 이하로 내려가지 않으면 %plural(%3,%d 틱,%d 틱)으로 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 값입니다. 기간을 틱의 수로 선택하는 경우에는 계약을 조기 종료할 수 없습니다."
+
+#~ msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "'Long' 계약의 경우, %1의 현물가격이 %4에 접하거나 그 아래로 절대 떨어지지 않는 경우 %3에 대한 지급금을 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 부분입니다. %3 이전에 15초가 남은 때까지 해당 계약을 판매하고 계약에 해당하는 값을 받기로 선택할 수 있습니다."
+
+#~ msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "'Short' 계약의 경우, %1의 현물가격이 %4 이상으로 절대 넘어가지 않으면 지급금을 %plural(%3,%d 틱,%d 틱)으로 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 값입니다. 기간을 틱의 수로 선택한다면, 계약을 조기에 종료할 수 없습니다."
+
+#~ msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "'Short' 계약의 경우, %1의 현물가격이 %4에 접하거나 또는 그 이상으로 상승하지 않으면 %3에 대한 지급금을 받습니다. 지급금은 최종 가격과 %4의 절대 차이에 %5를 곱한 부분입니다. %3 이전에 15초가 남은 때까지 해당 계약을 팔고 계약에 해당하는 값을 받기로 선택할 수 있습니다."
 
 #~ msgid "For each deposit, you will have to visit here again to generate a new address."
 #~ msgstr "각 예금에 대하여, 귀하께서는 새로운 주소를 생성하기 위해서 여기에 다시 방문하셔야 할 것입니다."
@@ -11980,6 +12000,9 @@ msgstr "● 거래 금액"
 
 #~ msgid "The type of document you submitted as proof of identity can't be accepted."
 #~ msgstr "귀하께서 신분증으로 제출하신 문서는 수락될 수 없습니다."
+
+#~ msgid "The value passed is invalid. Please ensure correct input."
+#~ msgstr "전달된 값이 잘못되었습니다. 정확하게 입력해 주시기 바랍니다."
 
 #~ msgctxt "Customer.io email: test1 - margin "
 #~ msgid "The world’s biggest stock indices"

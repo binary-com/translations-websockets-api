@@ -681,6 +681,9 @@ msgstr "Beim Ausstellen eines neuen Tokens ist ein Fehler aufgetreten. Bitte ver
 msgid "An error occurred while processing your request. Please try again later."
 msgstr "Bei der Bearbeitung Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal."
 
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr "Es wurde eine ungültige Deriv X-Konto-ID angegeben."
 
@@ -2351,7 +2354,9 @@ msgstr "FNB eWallet-Konto"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Failed to authenticate with passkeys. Please try again"
+#, fuzzy
+#| msgid "Failed to authenticate with passkeys. Please try again"
+msgid "Failed to authenticate with passkeys. Please try again later"
 msgstr "Authentifizierung mit Passkeys fehlgeschlagen. Bitte versuchen Sie es erneut"
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
@@ -2445,18 +2450,6 @@ msgstr "Folgen Sie der Tabelle."
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "Folgen Sie der Aufforderung und den Schritten auf dem Bildschirm, um Ihr Ausweisdokument (Reisepass, Führerschein oder Personalausweis) und ein Selfie hochzuladen."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Bei \"Long\" erhalten Sie eine Auszahlung in %plural(%3,%d tick,%d ticks), wenn der Kassakurs von %1 niemals %4 berührt oder unterschreitet. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Wenn Sie die Laufzeit in Anzahl Ticks wählen, können Sie Ihren Vertrag nicht vorzeitig beenden."
-
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Bei 'Long' erhalten Sie eine Auszahlung bei %3, wenn der Kassakurs von %1 niemals %4 berührt oder unterschreitet. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Sie können den Kontrakt bis zu 15 Sekunden vor %3 verkaufen und erhalten einen Kontraktwert."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Bei 'Short' erhalten Sie eine Auszahlung in %plural(%3,%d tick,%d ticks), wenn der Kassakurs von %1 niemals %4 berührt oder übersteigt. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Wenn Sie die Laufzeit in Anzahl Ticks wählen, können Sie Ihren Vertrag nicht vorzeitig beenden."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Bei 'Short' erhalten Sie eine Auszahlung in Höhe von %3, wenn der Kassakurs von %1 niemals %4 berührt oder übersteigt. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Sie können den Kontrakt bis zu 15 Sekunden vor %3 verkaufen und erhalten einen Kontraktwert."
 
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
 msgstr "Bei einem \"Call\"-Kontrakt erhalten Sie eine Auszahlung am %3, wenn der Schlusskurs von %1 über %4 liegt. Die Auszahlung entspricht %5 multipliziert mit der Differenz%7 zwischen dem Endpreis und %4. Sie können den Kontrakt auch bis %6 vor %3 verkaufen und erhalten dann einen Kontraktwert. "
@@ -6334,6 +6327,11 @@ msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "The POI you submitted previously has expired."
 msgstr "Der von Ihnen eingegebene POI ist abgelaufen."
 
+#, fuzzy
+#| msgid "This service is currently unavailable. Please try again later."
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr "Dieser Dienst ist derzeit nicht verfügbar. Bitte versuchen Sie es später noch einmal."
+
 msgid "The Walt Disney Company"
 msgstr "The Walt Disney Company"
 
@@ -6588,6 +6586,11 @@ msgstr "Die angegebene Währung %1 ist nicht die voreingestellte Währung"
 msgid "The rate of the advert has changed. Please try creating your order again."
 msgstr "Der Preis der Anzeige hat sich geändert. Bitte versuchen Sie, Ihre Bestellung erneut zu erstellen."
 
+#, fuzzy
+#| msgid "The link that you used appears to be invalid. Please check and try again."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr "Der von Ihnen verwendete Link scheint ungültig zu sein. Bitte überprüfen Sie ihn und versuchen Sie es erneut."
+
 msgid "The requested maximum amount must be greater than minimum amount."
 msgstr "Der beantragte Höchstbetrag muss größer sein als der Mindestbetrag."
 
@@ -6642,9 +6645,6 @@ msgstr "Die Überweisung konnte nicht abgeschlossen werden: %1"
 
 msgid "The underlying market has moved too much since you priced the contract."
 msgstr "Seit dem Sie den Kontrakt preislich bestimmt haben, hat sich der Basiskurs zu sehr bewegt."
-
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "Der übergebene Wert ist ungültig. Bitte achten Sie auf eine korrekte Eingabe."
 
 msgid "The verification is passed but the personal info is not available to compare."
 msgstr "Die Überprüfung wird bestanden, aber die persönlichen Daten sind nicht zum Vergleich verfügbar."
@@ -8295,6 +8295,11 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We could not process your withdrawal request"
 msgstr "Wir konnten Ihren Abhebungsantrag nicht bearbeiten"
 
+#, fuzzy
+#| msgid "New password is same as old password."
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr "Das neue Passwort ist das gleiche wie das alte Passwort."
+
 msgid "We couldn't verify your account"
 msgstr "Wir konnten Ihr Konto nicht überprüfen"
 
@@ -9440,6 +9445,9 @@ msgstr "Wenn Sie diesen Kontrakt kaufen, überschreiten Sie die maximale Exposit
 msgid "You will exceed the maximum exposure limit if you purchase this contract. Please close some of your positions and try again."
 msgstr "Wenn Sie diesen Kontrakt kaufen, überschreiten Sie die maximale Expositionsgrenze. Bitte schließen Sie einige Ihrer Positionen und versuchen Sie es erneut."
 
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "You won't be able to make withdrawals."
 msgstr "Sie werden keine Abhebungen vornehmen können."
@@ -9969,7 +9977,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
 msgid "Your order has expired"
 msgstr "Ihre Bestellung ist abgelaufen"
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
+#, fuzzy
+#| msgid "Your passkey is no longer available, please remove it from you password manager."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
 msgstr "Ihr Passkey ist nicht mehr verfügbar, bitte entfernen Sie ihn aus Ihrem Passwortmanager."
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
@@ -17578,6 +17588,18 @@ msgstr "● Transaktionsbetrag"
 #~ msgid "Following the email we sent you a few days ago, we'd like to remind you to authenticate your account if you wish to continue trading on MT5."
 #~ msgstr "Nach der EMail, die wir Ihnen vor einigen Tagen geschickt haben, möchten wir Sie daran erinnern, Ihr Konto zu authentifizieren, wenn Sie den Handel auf MT5 fortsetzen möchten."
 
+#~ msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "Bei \"Long\" erhalten Sie eine Auszahlung in %plural(%3,%d tick,%d ticks), wenn der Kassakurs von %1 niemals %4 berührt oder unterschreitet. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Wenn Sie die Laufzeit in Anzahl Ticks wählen, können Sie Ihren Vertrag nicht vorzeitig beenden."
+
+#~ msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "Bei 'Long' erhalten Sie eine Auszahlung bei %3, wenn der Kassakurs von %1 niemals %4 berührt oder unterschreitet. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Sie können den Kontrakt bis zu 15 Sekunden vor %3 verkaufen und erhalten einen Kontraktwert."
+
+#~ msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "Bei 'Short' erhalten Sie eine Auszahlung in %plural(%3,%d tick,%d ticks), wenn der Kassakurs von %1 niemals %4 berührt oder übersteigt. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Wenn Sie die Laufzeit in Anzahl Ticks wählen, können Sie Ihren Vertrag nicht vorzeitig beenden."
+
+#~ msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "Bei 'Short' erhalten Sie eine Auszahlung in Höhe von %3, wenn der Kassakurs von %1 niemals %4 berührt oder übersteigt. Ihre Auszahlung entspricht %5 multipliziert mit der absoluten Differenz zwischen dem Endpreis und %4. Sie können den Kontrakt bis zu 15 Sekunden vor %3 verkaufen und erhalten einen Kontraktwert."
+
 #~ msgid "For Practice"
 #~ msgstr "Zur Übung"
 
@@ -24726,11 +24748,6 @@ msgstr "● Transaktionsbetrag"
 #~ msgid "Sorry, we are unable to retrieve the portfolio for this account. Login ID appears invalid."
 #~ msgstr "Es tut uns leid, aber wir sind nicht in der Lage das Portfolio für dieses Konto wiederherzustellen. Die Log-in ID scheint ungültig zu sein."
 
-#, fuzzy
-#~| msgid "New password is same as old password."
-#~ msgid "Sorry, we couldn't verify your password. Please reset your password."
-#~ msgstr "Das neue Passwort ist das gleiche wie das alte Passwort."
-
 #~ msgid "Sorry, withdrawals cannot be made on the day of your account opening. Please wait until tomorrow to make a withdrawal."
 #~ msgstr "Es tut uns leid, aber am Tag Ihrer Kontoeröffnung können Sie keine Auszahlungen vornehmen. Bitte warten Sie bis morgen, um eine Auszahlung zu tätigen."
 
@@ -26457,6 +26474,9 @@ msgstr "● Transaktionsbetrag"
 
 #~ msgid "The value of your open positions"
 #~ msgstr "Der Wert Ihrer offenen Positionen"
+
+#~ msgid "The value passed is invalid. Please ensure correct input."
+#~ msgstr "Der übergebene Wert ist ungültig. Bitte achten Sie auf eine korrekte Eingabe."
 
 #~ msgid "The volatility indices simulate various real market situations and provide an ideal platform for getting used to trading and testing strategies under various market conditions. These indices depend on volatility and drift, and help users to try out scenarios like – high volatility, low volatility, bullish and bearish trends."
 #~ msgstr "Die Volatilität Indizes simulieren verschiedene echte Marktsituationen und bieten eine ideale Plattform, um sich mit dem Handel vertraut zu machen, und um Strategien unter unterschiedlichen Marktbedingungen zu testen. Diese Indizes hängen von der Volatiliät und Tendenz ab und helfen den Benutzern dabei, Szenarien wie hohe Volatilität, geringe Volatilität, steigende oder fallende Trends auszuprobieren."

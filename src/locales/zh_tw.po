@@ -681,6 +681,9 @@ msgstr "頒發新權杖時出現錯誤。請稍後重試。"
 msgid "An error occurred while processing your request. Please try again later."
 msgstr "處理請求時出現錯誤。請稍後重試。"
 
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
+
 msgid "An invalid Deriv X account ID was provided."
 msgstr "所提供的Deriv X 帳戶 ID無效。"
 
@@ -2352,7 +2355,9 @@ msgstr "FNB eWallet 帳戶"
 msgid "Facebook"
 msgstr "臉書"
 
-msgid "Failed to authenticate with passkeys. Please try again"
+#, fuzzy
+#| msgid "Failed to authenticate with passkeys. Please try again"
+msgid "Failed to authenticate with passkeys. Please try again later"
 msgstr "無法使用金鑰驗證身份。 請再試一次"
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
@@ -2446,18 +2451,6 @@ msgstr "按照圖表。"
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "按照螢幕的提示和步驟上傳身份證件（護照、駕照或身份證）和自拍照。"
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "對於 'Long' 合約，如果 %1 的現貨價格從未觸及或跌破 %4，將收到 %plural(%3,%d 跳動點,%d 跳動點) 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 如果選擇的持續時間以跳動點數為單位，將無法提前終止合約。"
-
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "對於 'Long' 合約，如果 %1 的現貨價格從未觸及或跌破 %4，將收到 %3 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 可以選擇在 %3 之前 15 秒內出售合約，並獲得合約價值。"
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "對於 'Short' 合約，如果 %1 的現貨價格從未觸及或上漲到 %4 以上，將收到 %plural(%3,%d 跳動點,%d 跳動點) 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 如果選擇的持續時間以跳動點數為單位，將無法提前終止合約。"
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "對於 'Short' 合約，如果 %1 的現貨價格從未觸及或漲至 %4 以上，將收到 %3 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 可以選擇在 %3 之前 15 秒內出售合約，並獲得合約價值。"
 
 msgid "For a 'Call' contract, you receive a payout on %3 if the final price of %1 is above %4. The payout is equal to %5 multiplied by the difference%7between the final price and %4. You may choose to sell the contract up until %6 before %3, and receive a contract value. "
 msgstr "對於 'Call' 合約，如果 %1 的最終價格高於 %4，%3將收到賠付。賠付額等於 %5 乘以最終價格與 %4 之間的%7差。可以選擇在 %3 前至 %6賣出合約，並獲得合約價值。 "
@@ -6336,6 +6329,11 @@ msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "The POI you submitted previously has expired."
 msgstr "之前提交的 (POI) 已過期。"
 
+#, fuzzy
+#| msgid "This service is currently unavailable. Please try again later."
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr "此服务目前無法使用。請稍後重試。"
+
 msgid "The Walt Disney Company"
 msgstr "華特迪士尼公司"
 
@@ -6590,6 +6588,11 @@ msgstr "所提供的貨幣 %1不是預設貨幣"
 msgid "The rate of the advert has changed. Please try creating your order again."
 msgstr "廣告費已更改。請重新建立訂單。"
 
+#, fuzzy
+#| msgid "The link that you used appears to be invalid. Please check and try again."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr "使用的連結似乎無效。請檢查並重試。"
+
 msgid "The requested maximum amount must be greater than minimum amount."
 msgstr "請求的最大金額須大於最小金額。"
 
@@ -6644,9 +6647,6 @@ msgstr "轉帳無法完成: %1"
 
 msgid "The underlying market has moved too much since you priced the contract."
 msgstr "自從您為交易定價後，標的市場已發生太大變化。"
-
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "傳遞的值無效。請確保輸入正確。"
 
 msgid "The verification is passed but the personal info is not available to compare."
 msgstr "驗證已通過，但沒有個人資料供比較。"
@@ -8297,6 +8297,11 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We could not process your withdrawal request"
 msgstr "無法處理取款請求"
 
+#, fuzzy
+#| msgid "Sorry, we couldn't verify your password. Please reset your password."
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr "很抱歉，密碼無法驗證。請重設密碼。"
+
 msgid "We couldn't verify your account"
 msgstr "無法驗證您的帳戶"
 
@@ -9442,6 +9447,9 @@ msgstr "如您購入此合約，將超出此市場的最大曝光限額。請先
 msgid "You will exceed the maximum exposure limit if you purchase this contract. Please close some of your positions and try again."
 msgstr "如您購入此合約，將超出最大曝光限額。請先將一些頭寸平倉後重試。"
 
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "You won't be able to make withdrawals."
 msgstr "無法提款。"
@@ -9971,7 +9979,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
 msgid "Your order has expired"
 msgstr "訂單已到期"
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
+#, fuzzy
+#| msgid "Your passkey is no longer available, please remove it from you password manager."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
 msgstr "您的密碼不再可用，請從密碼管理員中將其刪除。"
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
@@ -15886,6 +15896,18 @@ msgstr "● 交易金額"
 #~ msgid "Following the email we sent you a few days ago, we'd like to remind you to authenticate your account if you wish to continue trading on MT5."
 #~ msgstr "正如我們數天前給您發出的電子郵件所述，請注意您必須在帳戶驗證後才能繼續在MT5交易。"
 
+#~ msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "對於 'Long' 合約，如果 %1 的現貨價格從未觸及或跌破 %4，將收到 %plural(%3,%d 跳動點,%d 跳動點) 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 如果選擇的持續時間以跳動點數為單位，將無法提前終止合約。"
+
+#~ msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "對於 'Long' 合約，如果 %1 的現貨價格從未觸及或跌破 %4，將收到 %3 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 可以選擇在 %3 之前 15 秒內出售合約，並獲得合約價值。"
+
+#~ msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
+#~ msgstr "對於 'Short' 合約，如果 %1 的現貨價格從未觸及或上漲到 %4 以上，將收到 %plural(%3,%d 跳動點,%d 跳動點) 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 如果選擇的持續時間以跳動點數為單位，將無法提前終止合約。"
+
+#~ msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
+#~ msgstr "對於 'Short' 合約，如果 %1 的現貨價格從未觸及或漲至 %4 以上，將收到 %3 的賠付。 賠付額等於 %5 乘以最終價格與 %4 之間的絕對差。 可以選擇在 %3 之前 15 秒內出售合約，並獲得合約價值。"
+
 #~ msgid "For added security protection against unauthorised withdrawals, an email containing a secure link to the payment agent withdrawals page has been sent to your email <span id='client_email'></span>. Please check your email to access this link."
 #~ msgstr "為加強安全保護, 防止非法提款, 內附支付代理提款頁面安全連結的電子郵件已傳送到您的郵箱<span id='client_email'> 1</span> 2。請檢視您的郵件以存取此連結。"
 
@@ -21455,9 +21477,6 @@ msgstr "● 交易金額"
 #~ msgid "Sorry, we are having a technical issue with our MT5 platform."
 #~ msgstr "對不起，我們的MT5平台發生技術性錯誤。"
 
-#~ msgid "Sorry, we couldn't verify your password. Please reset your password."
-#~ msgstr "很抱歉，密碼無法驗證。請重設密碼。"
-
 #~ msgid "Sorry, you cannot reset your password because you logged in using a social network."
 #~ msgstr "對不起，由於您使用社交網絡登入，無法重設密碼。"
 
@@ -22754,6 +22773,9 @@ msgstr "● 交易金額"
 
 #~ msgid "The value of your open positions"
 #~ msgstr "您的未平倉頭寸價值"
+
+#~ msgid "The value passed is invalid. Please ensure correct input."
+#~ msgstr "傳遞的值無效。請確保輸入正確。"
 
 #~ msgid "The volatility indices simulate various real market situations and provide an ideal platform for getting used to trading and testing strategies under various market conditions. These indices depend on volatility and drift, and help users to try out scenarios like – high volatility, low volatility, bullish and bearish trends."
 #~ msgstr "波動率指數類比各種真實的市場情況，並根據不同的市場情況提供理想的平台交易實踐和測試策略。這些指數取決於波動率和漂移率，並協助使用者嘗試各種場景，如高波動率、低波動率、看漲和看跌趨勢。"
