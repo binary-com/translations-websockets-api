@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-13 10:34\n"
+"PO-Revision-Date: 2024-03-13 20:33\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -5269,17 +5269,8 @@ msgstr "Dapatkan hasil jika tik %5 dari %1 adalah yang tertinggi diantara %3 tik
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Dapatkan hasil jika tik %5 dari %1 adalah yang terendah diantara %3 tik."
 
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Untuk kontrak 'Long', Anda akan menerima hasil pada %3 jika harga spot dari %1 tidak pernah menyentuh atau turun di bawah %4. Hasil adalah senilai dengan %5 dikalikan dengan selisih absolut antara harga akhir dan %4. Anda dapat memilih untuk menjual kontrak hingga 15 detik sebelum %3, dan menerima nilai kontrak."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Untuk kontrak 'Long', Anda akan menerima hasil dalam %plural(%3,%d tik,%d tik) jika harga spot %1 tidak pernah menyentuh atau turun di bawah %4. Hasil adalah senilai dengan %5 dikalikan dengan selisih absolut antara harga akhir dan %4. Jika Anda memilih durasi dalam jumlah tik, maka Anda tidak dapat mengakhiri kontrak lebih awal."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Untuk kontrak 'Short', Anda akan menerima hasil pada %3 jika harga spot dari %1 tidak pernah menyentuh atau naik di atas %4. Hasil adalah senilai dengan %5 dikalikan dengan selisih absolut antara harga akhir dan %4. Anda dapat memilih untuk menjual kontrak hingga 15 detik sebelum %3, dan menerima nilai kontrak."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Untuk kontrak 'Short', Anda akan menerima hasil dalam %plural(%3,%d tik,%d tik) jika harga spot %1 tidak pernah menyentuh atau naik di atas %4. Hasil adalah senilai dengan %5 dikalikan dengan selisih absolut antara harga akhir dan %4. Jika Anda memilih durasi dalam jumlah tik, maka Anda tidak dapat mengakhiri kontrak lebih awal."
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
 
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "Dapatkan hasil jika %1 bergerak keluar %5 hingga %4 melewati %3."
@@ -5797,8 +5788,8 @@ msgstr "Akun ini telah dibatalkan."
 msgid "Email not given."
 msgstr "Email belum diberikan."
 
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "Nilai yang dimasukkan tidak valid. Silakan pastikan input yang benar."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr ""
 
 msgid "Password not given."
 msgstr "Kata sandi tidak diberikan."
@@ -5824,11 +5815,20 @@ msgstr "Akses menggunakan media sosial tidak diaktifkan pada akun ini. Coba akse
 msgid "Failed to get user identity."
 msgstr "Gagal mendapatkan identitas pengguna."
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
-msgstr "Passkey Anda sudah tidak tersedia lagi, silakan hapus dari manajer kata sandi Anda."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
+msgstr ""
 
-msgid "Failed to authenticate with passkeys. Please try again"
-msgstr "Gagal mengautentikasi menggunakan passkey. Silakan coba lagi"
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr ""
+
+msgid "Failed to authenticate with passkeys. Please try again later"
+msgstr ""
+
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr ""
+
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
 
 msgid "Suspicious activity detected from this device - for safety, login has been blocked temporarily."
 msgstr "Aktivitas mencurigakan telah terdereksi menggunakan perangkat ini - untuk keamanan, login telah diblokir sementara."
@@ -7290,60 +7290,60 @@ msgid "noqodi account"
 msgstr "Akun noqodi"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Slip Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "SIM"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Kartu Pendaftaran Orang Asing (ARC)"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Paspor"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Nomor Identitas Nasional"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Jaminan Sosial dan Asuransi Nasional (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Kartu Pemilih"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Kartu Aadhaar"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Kartu PAN"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Voter ID"
+msgstr "Kartu Pemilih"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "SIM"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Paspor"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Kartu Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Jaminan Sosial dan Asuransi Nasional (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Nomor Identitas Nasional"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Kartu Pendaftaran Orang Asing (ARC)"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Slip Nomor Induk Kependudukan"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
