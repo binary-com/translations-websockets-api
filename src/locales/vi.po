@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-13 03:33\n"
+"PO-Revision-Date: 2024-03-13 20:33\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
@@ -5269,17 +5269,8 @@ msgstr "Chiến thắng thanh toán nếu tick %5 của %1 có giá trị cao nh
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "Chiến thắng thanh toán nếu tick 5% của %1 có giá trị thấp nhất trong tất cả %3 tick."
 
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Với giao dịch 'Long', bạn sẽ nhận được khoản chi trả trên %3 nếu giá giao ngay của %1 không bao giờ chạm hoặc giảm xuống dưới %4. Khoản chi trả của bạn bằng %5 nhân với khoảng chênh lệch tuyệt đối giữa giá cuối cùng và %4. Bạn có thể chọn bán hợp đồng cho đến 15 giây trước %3 và nhận lại giá trị hợp đồng."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Với giao dịch 'Long', bạn sẽ nhận được khoản chi trả theo %plural(%3,%d tick,%d ticks) nếu giá giao ngay của %1 không bao giờ chạm hoặc giảm xuống dưới %4. Khoản chi trả của bạn bằng %5 nhân với khoảng chênh lệch tuyệt đối giữa giá cuối cùng và %4. Nếu bạn chọn thời hạn theo số lượng tick, bạn sẽ không thể chấm dứt hợp đồng sớm."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "Với hợp đồng 'Short', bạn sẽ nhận được một khoản chi trả vào lúc %3 nếu giá giao ngay của %1 không chạm hoặc tăng trên %4. Số tiền lời chi trả cho bạn bằng %5 nhân với mức chênh lệch tuyệt đối giữa giá cuối và %4. Bạn có thể chọn bán hợp đồng 15 giây trước %3 và thu về lại giá trị hợp đồng."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "Với hợp đồng 'Short', bạn sẽ nhận được một khoản chi trả %plural(%3,%d tick,%d ticks) nếu giá cuối cùng của %1 không bao giờ chạm hoặc tăng trên %4. Số tiền lời chi trả cho bạn bằng %5 nhân với mức chênh lệch tuyệt đối giữa giá cuối và %4. Nếu bạn chọn thời hạn theo số tick, bạn sẽ không thể chấm dứt hợp đồng sớm."
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
 
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "Chiến thắng tiền thưởng nếu %1 vượt ra ngoài %5 tới %4 qua %3."
@@ -5797,8 +5788,8 @@ msgstr "Tài khoản này đã bị vô hiệu hóa."
 msgid "Email not given."
 msgstr "Chưa nhập email."
 
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "Giá trị được truyền là không hợp lệ. Vui lòng đảm bảo đầu vào chính xác."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr ""
 
 msgid "Password not given."
 msgstr "Chưa nhập mật khẩu."
@@ -5824,11 +5815,20 @@ msgstr "Đăng nhập từ mạng xã hội không khả dụng cho tài khoản
 msgid "Failed to get user identity."
 msgstr "Không thể lấy được danh tính người sử dụng."
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
-msgstr "Khóa mật khẩu của bạn không còn nữa, vui lòng xóa mật khẩu khỏi trình quản lý mật khẩu của bạn."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
+msgstr ""
 
-msgid "Failed to authenticate with passkeys. Please try again"
-msgstr "Không thể xác thực bằng khóa mật khẩu. Vui lòng thử lại"
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr ""
+
+msgid "Failed to authenticate with passkeys. Please try again later"
+msgstr ""
+
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr ""
+
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
 
 msgid "Suspicious activity detected from this device - for safety, login has been blocked temporarily."
 msgstr "Hoạt động đáng nghi được phát hiện tại tài khoản này - để đảm bảo an ninh, việc đăng nhập đã tạm thời bị khóa."
@@ -7290,60 +7290,60 @@ msgid "noqodi account"
 msgstr "tài khoản noqodi"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Số Căn cước công dân"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Bằng lái xe"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Thẻ ngoại quốc"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Hộ chiếu"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Số Căn cước công dân"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Quỹ An sinh xã hội và Bảo hiểm hưu trí (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Mã số phiếu bầu"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Thẻ Aadhaar"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Thẻ PAN"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Voter ID"
+msgstr "Mã số phiếu bầu"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Bằng lái xe"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Hộ chiếu"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Thẻ Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Quỹ An sinh xã hội và Bảo hiểm hưu trí (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Số Căn cước công dân"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Thẻ ngoại quốc"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Số Căn cước công dân"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
