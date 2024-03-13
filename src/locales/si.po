@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-13 10:34\n"
+"PO-Revision-Date: 2024-03-13 20:33\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "MIME-Version: 1.0\n"
@@ -5269,17 +5269,8 @@ msgstr "ටික් %3 අතරින් %1න් %5 වන ටික් එ�
 msgid "Win payout if tick %5 of %1 is the lowest among all %3 ticks."
 msgstr "ටික් %3 අතරින් %1න් %5 වන ටික් එක පහළම අගය වුවහොත් ගෙවීම දිනා ගන්න."
 
-msgid "For 'Long', you receive a payout on %3 if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "'Long' සඳහා, %1 හි ස්ථාන මිල කිසි විටෙක %4 ට වඩා ස්පර්ශ නොකළහොත් හෝ පහත වැටෙන්නේ නම්, ඔබට %3 මත ගෙවීමක් ලැබේ. ඔබේ ගෙවීම අවසන් මිල සහ %4 අතර ඇති පරම වෙනස මගින් ගුණ කළ %5 ට සමාන වේ. ඔබට %3 ට පෙර තත්පර 15ක් දක්වා ගිවිසුම විකිණීමට තෝරා ගෙන ගිවිසුම් වටිනාකමක් ලබා ගත හැක."
-
-msgid "For 'Long', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or drops below %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "'Long' සඳහා, %1 හි ස්ථාන මිල කිසි විටෙකත් %4 ට වඩා ස්පර්ශ නොකළහොත් හෝ පහත වැටෙන්නේ නම් ඔබට %plural(%3,%d ටික් එකකින්,%d ටික්වලින්) ගෙවීමක් ලැබේ. ඔබේ ගෙවීම අවසන් මිල සහ %4 අතර ඇති පරම වෙනස මගින් ගුණ කළ %5 ට සමාන වේ. ඔබ ඔබේ කාලසීමාව ටික් ගණනින් තෝරා ගන්නේ නම්, ඔබට ඔබේ ගිවිසුම කලින් අවසන් කිරීමට නොහැකි වනු ඇත."
-
-msgid "For 'Short', you receive a payout on %3 if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. You may choose to sell the contract up until 15 seconds before %3, and receive a contract value."
-msgstr "'Short' සඳහා, %1 හි ස්ථාන මිල කිසි විටෙකත් %4 ට වඩා ස්පර්ශ නොකළහොත් හෝ ඉහළ නොයන්නේ නම්, ඔබට %3 මත ගෙවීමක් ලැබේ. ඔබේ ගෙවීම අවසන් මිල සහ %4 අතර ඇති පරම වෙනස මඟින් ගුණ කළ %5 ට සමාන වේ. ඔබට %3 ට පෙර තත්පර 15ක් දක්වා කාලය තුළ ගිවිසුම විකිණීමට තෝරා ගෙන ගිවිසුම් වටිනාකමක් ලබා ගත හැක."
-
-msgid "For 'Short', you receive a payout in %plural(%3,%d tick,%d ticks) if the spot price of %1 never touches or rises above %4. Your payout is equal to %5 multiplied by the absolute difference between the final price and %4. If you choose your duration in number of ticks, you won't be able to terminate your contract early."
-msgstr "'Short' සඳහා, %1 හි ස්ථාන මිල කිසි විටෙක %4 ස්පර්ශ නොකළහොත් හෝ ඉහළ නොයන්නේ නම්, ඔබට %plural(%3,%d ටික් එකකින්,%d ටික්වලින්) ගෙවීමක් ලැබේ. ඔබේ ගෙවීම අවසන් මිල සහ %4 අතර ඇති පරම වෙනස මඟින් ගුණ කළ %5 ට සමාන වේ. ඔබ ඔබේ කාලසීමාව ටික් ගණනින් තෝරා ගන්නේ නම්, ඔබට ඔබේ ගිවිසුම කලින් අවසන් කිරීමට නොහැකි වනු ඇත."
+msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
+msgstr ""
 
 msgid "Win payout if %1 goes outside %5 to %4 through %3."
 msgstr "%1 %5 සහ %4 ට %3 හරහා පිටතට ගියහොත් ගෙවීම දිනා ගන්න."
@@ -5797,8 +5788,8 @@ msgstr "මෙම ගිණුම අබල කර ඇත."
 msgid "Email not given."
 msgstr "ඊ-තැපෑල ලබා දී නැත."
 
-msgid "The value passed is invalid. Please ensure correct input."
-msgstr "සම්මත කළ අගය වලංගු නොවේ. කරුණාකර නිවැරදි ආදානය සහතික කරන්න."
+msgid "The request contains an invalid value. Please check your input and try again."
+msgstr ""
 
 msgid "Password not given."
 msgstr "මුරපදය ලබා දී නැත."
@@ -5824,11 +5815,20 @@ msgstr "මෙම ගිණුම සඳහා සමාජ පිවිසු�
 msgid "Failed to get user identity."
 msgstr "පරිශීලක අනන්‍යතාවය ලබා ගැනීමට අසමත් විය."
 
-msgid "Your passkey is no longer available, please remove it from you password manager."
-msgstr "ඔබේ මුර යතුර තවදුරටත් ලබා ගත නොහැක, කරුණාකර එය ඔබේ මුරපද කළමනාකරුගෙන් ඉවත් කරන්න."
+msgid "Your passkey is no longer available. Please remove it from your account settings."
+msgstr ""
 
-msgid "Failed to authenticate with passkeys. Please try again"
-msgstr "මුරයතුරු සමඟින් සත්‍යාපනය කිරීමට අසමත් විය. කරුණාකර නැවත උත්සාහ කරන්න"
+msgid "We could not verify your login. Please verify your passkey in account settings."
+msgstr ""
+
+msgid "Failed to authenticate with passkeys. Please try again later"
+msgstr ""
+
+msgid "The Passkeys service is currently unavailable. Please try again later."
+msgstr ""
+
+msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
+msgstr ""
 
 msgid "Suspicious activity detected from this device - for safety, login has been blocked temporarily."
 msgstr "මෙම උපාංගයෙන් සැක කටයුතු ක්‍රියාකාරකම් අනාවරණය වී ඇත - ආරක්ෂාව සඳහා, පුරනය වීම තාවකාලිකව අවහිර කර ඇත."
@@ -7290,60 +7290,60 @@ msgid "noqodi account"
 msgstr "noqodi ගිණුම"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "රියදුරු බලපත්‍රය"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "ඒලියන් කාඩ්පත"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "ගමන් බලපත්‍රය"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "ජාතික හැඳුනුම්පත් අංකය"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ඡන්ද දායක හැඳුනුම්පත"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "අධාර් කාඩ්පත"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN කාඩ්පත"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Voter ID"
+msgstr "ඡන්ද දායක හැඳුනුම්පත"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "රියදුරු බලපත්‍රය"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "ගමන් බලපත්‍රය"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "අධාර් කාඩ්පත"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "ජාතික හැඳුනුම්පත් අංකය"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "ඒලියන් කාඩ්පත"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
