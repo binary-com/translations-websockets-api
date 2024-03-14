@@ -7,9 +7,10 @@ msgstr ""
 "Project-Id-Version: I 18N\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-13 20:11+0000\n"
+"PO-Revision-Date: 2024-03-14 20:11+0000\n"
 "Last-Translator: Premyuda Boonroj <premyuda@regentmarkets.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/translations/th/>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/binary-websocket/"
+"translations/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -688,6 +689,8 @@ msgstr "มีข้อผิดพลาดเกิดขึ้นขณะก
 
 msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
 msgstr ""
+"เกิดข้อผิดพลาดในการเข้าสู่ระบบด้วย Passkey "
+"ทางเลือกอื่นคือโปรดใช้รหัสผ่านหรือเข้าผ่านระบบโซเชียลของคุณ"
 
 msgid "An invalid Deriv X account ID was provided."
 msgstr "มีการระบุรหัสบัญชี Deriv X ที่ไม่ถูกต้อง"
@@ -2358,10 +2361,8 @@ msgstr "บัญชี FNB eWallet"
 msgid "Facebook"
 msgstr "Facebook"
 
-#, fuzzy
-#| msgid "Failed to authenticate with passkeys. Please try again"
 msgid "Failed to authenticate with passkeys. Please try again later"
-msgstr "ไม่อาจตรวจสอบสิทธิ์ด้วยรหัส Passkey ได้ กรุณาลองอีกครั้ง"
+msgstr "ไม่อาจตรวจสอบสิทธิ์ด้วยรหัส Passkey ได้ กรุณาลองอีกครั้งในภายหลัง"
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
 msgstr "ไม่สามารถสร้างบัญชีได้เนื่องจากการตรวจสอบหลักฐานแสดงที่อยู่นั้นไม่สำเร็จและมีสถานะ: %1"
@@ -6330,10 +6331,8 @@ msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "The POI you submitted previously has expired."
 msgstr "หลักฐานระบุตัวตน (POI) ที่คุณได้ยื่นมานั้นหมดอายุ"
 
-#, fuzzy
-#| msgid "This service is currently unavailable. Please try again later."
 msgid "The Passkeys service is currently unavailable. Please try again later."
-msgstr "บริการนี้ไม่พร้อมใช้งานในขณะนี้ โปรดลองอีกครั้งในภายหลัง"
+msgstr "บริการ Passkey ไม่พร้อมใช้งานในขณะนี้ โปรดลองอีกครั้งในภายหลัง"
 
 msgid "The Walt Disney Company"
 msgstr "The Walt Disney Company"
@@ -6589,10 +6588,8 @@ msgstr "สกุลเงิน %1 ดังกล่าวนั้นไม�
 msgid "The rate of the advert has changed. Please try creating your order again."
 msgstr "อัตราของโฆษณามีการเปลี่ยนแปลง โปรดลองสร้างคำสั่งซื้อของคุณอีกครั้ง"
 
-#, fuzzy
-#| msgid "The link that you used appears to be invalid. Please check and try again."
 msgid "The request contains an invalid value. Please check your input and try again."
-msgstr "ลิงก์ที่คุณใช้ดูเหมือนจะไม่ถูกต้อง กรุณาตรวจสอบและลองใหม่อีกครั้ง"
+msgstr "คำขอประกอบด้วยค่าที่ไม่ถูกต้อง โปรดตรวจสอบอินพุทของคุณแล้วลองอีกครั้ง"
 
 msgid "The requested maximum amount must be greater than minimum amount."
 msgstr "จำนวนเงินสูงสุดที่ร้องขอจะต้องมากกว่าจำนวนเงินขั้นต่ำ"
@@ -8298,10 +8295,10 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We could not process your withdrawal request"
 msgstr "เราไม่สามารถดําเนินการตามคำขอถอนเงินของคุณได้"
 
-#, fuzzy
-#| msgid "Sorry, we couldn't verify your password. Please reset your password."
 msgid "We could not verify your login. Please verify your passkey in account settings."
-msgstr "ขออภัย เราไม่สามารถยืนยันรหัสผ่านของคุณได้ กรุณาตั้งค่ารหัสผ่านของคุณใหม่"
+msgstr ""
+"เราไม่อาจยืนยันการเข้าสู่ระบบของคุณได้ กรุณายืนยันรหัส Passkey "
+"ของคุณในการตั้งค่าบัญชี"
 
 msgid "We couldn't verify your account"
 msgstr "เราไม่สามารถตรวจสอบยืนยันบัญชีของคุณได้"
@@ -9450,6 +9447,10 @@ msgstr "คุณจะมีจำนวนสัญญาเกินวงจ
 
 msgid "You will receive a payout at expiry if the spot price never breaches the barrier. The payout is equal to the payout per point multiplied by the distance between the final price and the barrier."
 msgstr ""
+"คุณจะได้รับเงินผลตอบแทนเมื่อสัญญาหมดอายุ "
+"หากว่าราคาสปอตไม่เคยฝ่าทะลุเส้นระดับราคาเป้าหมาย "
+"โดยเงินผลตอบแทนนั้นจะเท่ากับตัวเลขเงินผลตอบแทนต่อจุด นำมาคูณด้วย "
+"ระยะห่างระหว่างราคาสุดท้ายและเส้นระดับราคาเป้าหมาย"
 
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "You won't be able to make withdrawals."
