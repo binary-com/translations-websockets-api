@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-20 13:23\n"
+"PO-Revision-Date: 2024-03-20 20:32\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "MIME-Version: 1.0\n"
@@ -130,8 +130,14 @@ msgstr "දැන්වීම් අනුපාතය %1 ට වඩා වැ�
 msgid "Address: %1"
 msgstr "ලිපිනය: %1"
 
+msgid "Address: %1, inclusive of priority fee: %2"
+msgstr ""
+
 msgid "Address: %1, transaction: %2"
 msgstr "ලිපිනය: %1, ගනුදෙනුව: %2"
+
+msgid "Address: %1, transaction: %2, inclusive of priority fee: %3"
+msgstr ""
 
 msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
 msgstr "දැනට මෙම මුදල් ඒකකය සඳහා ප්‍රචාරණය නොමැත. කරුණාකර අපගේ පාරිභෝගික සහය කණ්ඩායම අමතන්න හෝ පසුව නැවත උත්සාහ කරන්න."
@@ -297,9 +303,6 @@ msgstr "ගිවිසුම සෑදිය නොහැක"
 
 msgid "Cannot generate token for %1."
 msgstr "% 1 සඳහා ටෝකනයක් ජනනය කළ නොහැක."
-
-msgid "Cannot validate contract."
-msgstr "ගිවිසුම වලංගු කළ නොහැක."
 
 msgid "Cashier API doesn't support the selected provider or operation."
 msgstr "API අයකැමි තෝරාගත් සැපයුම්කරුට හෝ මෙහෙයුමට සහය නොදක්වයි."
@@ -2221,9 +2224,6 @@ msgstr "URL හි විමසුමක් නොතිබිය යුතු�
 msgid "URL should not have user info"
 msgstr "URL හි පරිශීලක තොරතුරු නොතිබිය යුතුය"
 
-msgid "Unable to price the contract."
-msgstr "ගිවිසුමේ මිල ගණනය කළ නොහැක."
-
 msgid "Unable to update email, password required for social login."
 msgstr "සමාජ පිවිසුම සඳහා අවශ්‍ය ඊ-තැපෑල, මුරපදය යාවත්කාලීන කළ නොහැක."
 
@@ -2674,8 +2674,14 @@ msgstr "විවෘත P2P ඇණවුම් ඇති විට ඔබට ග
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "ඔබ තවමත් ප්‍රචාරකයෙකු ලෙස අනුමත වී නොමැති නිසා ඔබට දැන්වීම් ලැයිස්තුගත කළ නොහැක."
 
+msgid "You cannot make a deposit because your MT5 account identity verification requirements are not met. Please contact our Customer Support team."
+msgstr ""
+
 msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgstr "ඔබේ MT5 ගිණුම අබල කර ඇති නිසා ඔබට තැන්පතුවක් කළ නොහැක. කරුණාකර අපගේ පාරිභෝගික සහය කණ්ඩායම අමතන්න."
+
+msgid "You cannot make a withdrawal because your MT5 account identity verification requirements are not met. Please contact our Customer Support team."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "ගෙවීම් නියෝජිතයාගේ ගිණුම අබල කර ඇති බැවින් ඔබට %1 ගිණුමට මුදල් ආපසු ගත නොහැක."
@@ -3195,9 +3201,6 @@ msgstr "ඔබ ඇණවුම් මුදලට වඩා වැඩි මු�
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "අවකාශ සහ ඉරි සහිත අක්ෂරාංක, අක්ෂර 2-32"
-
-msgid "barrier2 is not allowed for reset contract."
-msgstr "barrier2 ගිවිසුම යළි සැකසීම සඳහා අවසර නැත."
 
 msgid "cTrader account management is currently suspended."
 msgstr "cTrader ගිණුම් කළමනාකරණය දැනට අත්හිටුවා ඇත."
@@ -5317,6 +5320,9 @@ msgstr "ස්ථාන මිල මාරු වී ඇත. ඔබේ ලා�
 msgid "Deal cancellation is not available for this contract."
 msgstr "මෙම ගිවිසුම් සඳහා ගනුදෙනු අවලංගු කිරීම ලබා ගත නොහැක."
 
+msgid "Cannot validate contract."
+msgstr "ගිවිසුම වලංගු කළ නොහැක."
+
 msgid "This symbol is not available."
 msgstr "මෙම සංකේතය නොපවතී."
 
@@ -7305,60 +7311,60 @@ msgid "noqodi account"
 msgstr "noqodi ගිණුම"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "ජාතික හැඳුනුම්පත් අංකය"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ඡන්ද දායක හැඳුනුම්පත"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "ගමන් බලපත්‍රය"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "අධාර් කාඩ්පත"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN කාඩ්පත"
-
-msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "රියදුරු බලපත්‍රය"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "National ID Number Slip"
+msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
 msgstr "ඒලියන් කාඩ්පත"
 
 msgctxt "IDV document type "
+msgid "Passport"
+msgstr "ගමන් බලපත්‍රය"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "PAN කාඩ්පත"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "අධාර් කාඩ්පත"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "ඡන්ද දායක හැඳුනුම්පත"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
