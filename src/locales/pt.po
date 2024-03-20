@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-20 13:23\n"
+"PO-Revision-Date: 2024-03-20 20:31\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "MIME-Version: 1.0\n"
@@ -130,8 +130,14 @@ msgstr "A taxa do anúncio não deve ser superior a %1. Por favor ajuste o valor
 msgid "Address: %1"
 msgstr "Endereço: %1"
 
+msgid "Address: %1, inclusive of priority fee: %2"
+msgstr ""
+
 msgid "Address: %1, transaction: %2"
 msgstr "Endereço: %1, transação: %2"
+
+msgid "Address: %1, transaction: %2, inclusive of priority fee: %3"
+msgstr ""
 
 msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
 msgstr "Atualmente, anúncios para esta moeda estão indisponíveis. Entre em contato com nossa equipe de suporte ao cliente ou tente novamente mais tarde."
@@ -297,9 +303,6 @@ msgstr "Não é possível criar o contrato"
 
 msgid "Cannot generate token for %1."
 msgstr "Não é possível gerar um token para %1."
-
-msgid "Cannot validate contract."
-msgstr "Não é possível validar o contrato."
 
 msgid "Cashier API doesn't support the selected provider or operation."
 msgstr "O API de Caixa não suporta o fornecedor ou a operação selecionada."
@@ -2221,9 +2224,6 @@ msgstr "O URL não deve conter consultas"
 msgid "URL should not have user info"
 msgstr "O URL não deve conter informações de usuário"
 
-msgid "Unable to price the contract."
-msgstr "Não é possível determinar um preço para o contrato."
-
 msgid "Unable to update email, password required for social login."
 msgstr "Não é possível atualizar o e-mail, senha necessária para o login social."
 
@@ -2674,8 +2674,14 @@ msgstr "Você não pode alterar a moeda da conta enquanto tiver pedidos P2P em a
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "Você não pode listar anúncios porque ainda não foi aprovado como anunciante."
 
+msgid "You cannot make a deposit because your MT5 account identity verification requirements are not met. Please contact our Customer Support team."
+msgstr ""
+
 msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgstr "Você não pode fazer um depósito porque a sua conta MT5 está desativada. Por favor contate a nossa equipe de Suporte ao Cliente."
+
+msgid "You cannot make a withdrawal because your MT5 account identity verification requirements are not met. Please contact our Customer Support team."
+msgstr ""
 
 msgid "You cannot perform the withdrawal to account %1, as the payment agent's account is disabled."
 msgstr "Você não pode fazer a retirada para a conta %1, porque o agente de pagamento da conta está desativado."
@@ -3195,9 +3201,6 @@ msgstr "Você pagou mais do que o valor da ordem"
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "alfanumérico com espaço e traço, 2 a 32 caracteres"
-
-msgid "barrier2 is not allowed for reset contract."
-msgstr "barreira2 não é permitida em contratos redefiníveis."
 
 msgid "cTrader account management is currently suspended."
 msgstr "O gerenciamento da conta cTrader está atualmente suspenso."
@@ -5317,6 +5320,9 @@ msgstr "O preço à vista mudou. Não fechamos este contrato porque seu lucro é
 msgid "Deal cancellation is not available for this contract."
 msgstr "O cancelamento da transação não está disponível para este contrato."
 
+msgid "Cannot validate contract."
+msgstr "Não é possível validar o contrato."
+
 msgid "This symbol is not available."
 msgstr "Este símbolo não está disponível."
 
@@ -7305,60 +7311,60 @@ msgid "noqodi account"
 msgstr "conta noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Bilhete de identidade"
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Número de Identificação Nacional"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Bilhete de identidade"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Cartão do Eleitor"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Passaporte"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar Card"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN Card"
-
-msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "Carteira de Motorista"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "National ID Number Slip"
+msgstr "Comprovativo do Número de Identificação Nacional"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
 msgstr "Cartão de Estrangeiro"
 
 msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Passaporte"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "PAN Card"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Aadhaar Card"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "Cartão do Eleitor"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Segurança Social e Fundo Nacional de Seguro (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Comprovativo do Número de Identificação Nacional"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
