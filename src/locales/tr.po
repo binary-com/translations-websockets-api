@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-03-23 06:28\n"
+"PO-Revision-Date: 2024-04-19 00:38\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -1669,6 +1669,9 @@ msgstr "Belgenin geçerliliği sona erdi."
 msgid "The document's verification has started."
 msgstr "Belgenin doğrulama işlemi başladı."
 
+msgid "The document's verification is waiting for the provider."
+msgstr "Belgenin doğrulaması sağlayıcıyı bekliyor."
+
 msgid "The field document number is required."
 msgstr "Alan belgesi numarası gereklidir."
 
@@ -1812,6 +1815,9 @@ msgstr "İsteğinizde kullanılan güvenlik karması geçersiz görünüyor."
 
 msgid "The serial number of your document couldn't be verified."
 msgstr "Belgenizin seri numarası doğrulanamadı."
+
+msgid "The server is currently unable to handle the request due to a temporary overload or maintenance of the server. Please try again later."
+msgstr "Sunucu şu anda geçici bir aşırı yüklenme veya sunucunun bakımı nedeniyle isteği işleme alamıyor. Lütfen daha sonra tekrar deneyin."
 
 msgid "The system is currently under heavy load, and this call has been suspended temporarily. Please try again in a few minutes."
 msgstr "Sistem şu anda ağır yük altında ve bu alım geçici olarak askıya alındı. Lütfen birkaç dakika içinde tekrar deneyin."
@@ -4892,7 +4898,7 @@ msgid "Accumulator"
 msgstr "Accumulator"
 
 msgid "Asians"
-msgstr "Asians"
+msgstr "Asyalı"
 
 msgid "Call Spread/Put Spread"
 msgstr "Call Spread/Put Spread"
@@ -4904,7 +4910,7 @@ msgid "Ends Between/Ends Outside"
 msgstr "Ends Between/Ends Outside"
 
 msgid "High/Low Ticks"
-msgstr "High/Low Ticks"
+msgstr "Yüksek/Düşük Tikler"
 
 msgid "Lookbacks"
 msgstr "Lookbacks"
@@ -4985,7 +4991,7 @@ msgid "Asian Up"
 msgstr "Asian Up"
 
 msgid "Higher"
-msgstr "Higher"
+msgstr "Daha yüksek"
 
 msgid "Call Spread"
 msgstr "Call Spread"
@@ -5036,13 +5042,13 @@ msgid "Multiply Up"
 msgstr "Multiply Up"
 
 msgid "Does Not Touch"
-msgstr "Does Not Touch"
+msgstr "Temas Etmez"
 
 msgid "Touches"
-msgstr "Touches"
+msgstr "Temas eder"
 
 msgid "Lower"
-msgstr "Lower"
+msgstr "Daha düşük"
 
 msgid "Put Spread"
 msgstr "Put Spread"
@@ -5063,10 +5069,10 @@ msgid "Only Downs"
 msgstr "Only Downs"
 
 msgid "High Tick"
-msgstr "High Tick"
+msgstr "Yüksek Tik"
 
 msgid "Low Tick"
-msgstr "Low Tick"
+msgstr "Düşük Tik"
 
 msgid "Turbos Long"
 msgstr "Turbos Long"
@@ -5462,7 +5468,7 @@ msgid "Please enter a stop loss amount that's higher than %1."
 msgstr "Lütfen %1'den yüksek bir kayıp durdur tutarı girin."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
-msgstr "Geçersiz stop out. Stop out, geçerli spot fiyattan %1 olmalıdır. Lütfen bahisi veya çarpanı ayarlayın."
+msgstr "Geçersiz stop out. Stop out, geçerli spot fiyattan %1 olmalıdır. Lütfen bahisi veya multiplier ayarlayın."
 
 msgid "Invalid duration (tick) for contract type (%1)."
 msgstr "Sözleşme türü için geçersiz süre (tik) (%1)."
@@ -5714,7 +5720,7 @@ msgid "High"
 msgstr "High"
 
 msgid "Higher/Lower"
-msgstr "Higher/Lower"
+msgstr "Daha Yüksek/Daha Düşük"
 
 msgid "Highest Spot"
 msgstr "En Yüksek Nokta"
@@ -5723,7 +5729,7 @@ msgid "In/Out"
 msgstr "In/Out"
 
 msgid "Low"
-msgstr "Low"
+msgstr "Düşük"
 
 msgid "Lowest Spot"
 msgstr "En Düşük Nokta"
@@ -7311,44 +7317,40 @@ msgid "noqodi account"
 msgstr "noqodi hesabı"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasaport"
-
-msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Ulusal Kimlik Numarası"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Yabancı Kartı"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Social Security and National Insurance Trust (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Seçmen Kimliği"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Sürücü Ehliyeti"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "Alien Card"
+msgstr "Yabancı Kartı"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Pasaport"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Social Security and National Insurance Trust (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Sürücü Ehliyeti"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "Seçmen Kimliği"
 
 msgctxt "IDV document type "
 msgid "CPF"
 msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
@@ -7359,12 +7361,16 @@ msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "PAN Kartı"
+
+msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Aadhaar Kartı"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN Kartı"
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -8024,7 +8030,7 @@ msgstr "Puan"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
 msgid "You can still reactivate the ad(s) above on the %1My ads%2 screen."
-msgstr "Yukarıdaki %İlanlarım%2 ekranındaki ilan(lar)ı yeniden etkinleştirebilirsiniz."
+msgstr "Yukarıdaki %1İlanlarım%2 ekranındaki ilan(lar)ı yeniden etkinleştirebilirsiniz."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
 msgid "Deriv P2P: There was no response to your ad(s)"
@@ -8424,7 +8430,7 @@ msgstr "%5 Hesabınızdan %1%2 %3%4 için para çekme talebi reddedildi çünkü
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
 msgid "%1 %2Make a withdrawal%3 from your %4 account via %5%6%7. %8 Make a withdrawal from your %9 account via %10%11%12. %13"
-msgstr "5%6%7 aracılığıyla %4 hesabınızdan %1 %2para çekme işlemi yapın%3. %10%11%12aracılığıyla %9 hesabınızdan %8para çekme işlemi yapın%9. %13"
+msgstr "%4 hesabınızdan %5%6%7 aracılığıyla %1 %2para çekimi yapın%3 . %9 hesabınızdan %10%11%12 aracılığıyla %8 para çekin. %13"
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
 msgid "Your crypto withdrawal request has been declined from our side. If you wish to proceed with the withdrawal again, please contact our %1chat support%2 to get further assistance."
@@ -9184,7 +9190,7 @@ msgstr "%1Belgelerinizi yükleyin%2%3 Kimliğinizi kanıtlamak için belgeler y�
 
 msgctxt "Customer.io email: svg_all_transactional_account_reactivated "
 msgid "%1Check your personal details%2%3Ensure your information is up-to-date."
-msgstr "%Kişisel bilgilerinizi kontrol edin%2%3 Bilgilerinizin güncel olduğundan emin olun."
+msgstr "%1Kişisel bilgilerinizi kontrol edin%2%3Bilgilerinizin güncel olduğundan emin olun."
 
 msgctxt "Customer.io email: svg_all_transactional_account_reactivated "
 msgid "Go to my profile"
@@ -10116,7 +10122,7 @@ msgstr "İşinizi ve gelir kaynağını kanıtlayabilecek başka belgeleriniz va
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "Please upload these documents by %1%2%3%4%5. If we don’t receive your documents by then, we may have to suspend your account."
-msgstr "Lütfen bu belgeleri% 1%2%3%4%5 ile yükleyin. Belgelerinizi o zaman almazsak, hesabınızı askıya almak zorunda kalabiliriz."
+msgstr "Lütfen bu belgeleri %1%2%3%4%5 ile yükleyin. Belgelerinizi o zaman almazsak, hesabınızı askıya almak zorunda kalabiliriz."
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "If you have any questions, %1contact us%2 via live chat."
@@ -10212,7 +10218,7 @@ msgstr "Bu bir hataysa ve başka Deriv hesabınız yoksa, bize bildirin, ve bunu
 
 msgctxt "Customer.io email: dummy-campaign-trading-and-withdrawals-disabled "
 msgid "Contact us at:%1%2Live chat%3 | %4WhatsApp%5"
-msgstr "Bize ulaşın: %1% 2Canlı sohbet%3 | %4WhatsApp%5"
+msgstr "Bize ulaşın:%1%2Canlı sohbet%3 | %4WhatsApp%5"
 
 msgctxt "Customer.io email: dummy-campaign-trading-and-withdrawals-disabled "
 msgid "Trading and withdrawals disabled"
@@ -10397,6 +10403,74 @@ msgstr "Hesabınızı doğrulanmış tutmak için,"
 msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "Action required: Submit a new POI"
 msgstr "Gerekli Eylem: Yeni bir POI gönder"
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "Changing your email?"
+msgstr "E-postanızı mı değiştiriyorsunuz?"
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "Press the button below to confirm that you want to change your email on Deriv:"
+msgstr "Deriv üzerindeki e-postanızı değiştirmek istediğinizi onaylamak için aşağıdaki düğmeye basın:"
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "Change my email"
+msgstr "E-postamı değiştir"
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "If the button above doesn’t work, use this link:"
+msgstr "Yukarıdaki düğme çalışmıyorsa, şu bağlantıyı kullanın:"
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "This link will expire in 60 minutes. Go to %1Manage account settings &gt; %2Email and passwords%3%4 to request a new link."
+msgstr "Bu bağlantı 60 dakika içinde sona erecek. Yeni bir bağlantı istemek için %1Hesap ayarlarını yönet; %2Eposta ve şifreleri%3%4 adresine gidin."
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "If you didn’t make this request, ignore this email."
+msgstr "Bu isteği yapmadıysanız, bu e-postayı yok sayın."
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "If you have any questions, contact us:%1%2Live chat%3 | %4WhatsApp%5"
+msgstr "Herhangi bir sorunuz varsa:%1%2canlı sohbet%3 | %4WhatsApp%5 aracılığıyla bizimle iletişime geçin"
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "Email change? Please confirm"
+msgstr "E-posta değişikliği? Lütfen onaylayın"
+
+msgctxt "Customer.io email: dummy_verify_change_email "
+msgid "One last step to change your email"
+msgstr "E-postanızı değiştirmek için son bir adım"
+
+msgctxt "Customer.io email: dummy_verify_change_email "
+msgid "Hit the button below to confirm your new email:"
+msgstr "Yeni e-postanızı onaylamak için aşağıdaki düğmeye basın:"
+
+msgctxt "Customer.io email: dummy_verify_change_email "
+msgid "Confirm my email"
+msgstr "E-postamı onayla"
+
+msgctxt "Customer.io email: dummy_verify_change_email "
+msgid "If the button doesn’t work, use this link:"
+msgstr "Düğme çalışmıyorsa, şu bağlantıyı kullanın:"
+
+msgctxt "Customer.io email: dummy_verify_change_email "
+msgid "This link will expire in %1 minutes. Go to %2Manage account settings &gt; %3Email and passwords%4%5 to request a new link."
+msgstr "Bu bağlantının süresi %1 dakika içinde sona erecektir. Yeni bir bağlantı istemek için %2Hesap ayarlarını yönet; %3Eposta ve şifreleri%4%5 adresine gidin."
+
+msgctxt "Customer.io email: dummy_verify_change_email "
+msgid "Confirm your new email"
+msgstr "Yeni e-postanızı onaylayın"
+
+msgctxt "Customer.io email: dummy_confirm_change_email "
+msgid "New email, done!"
+msgstr "Yeni e-posta, bitti!"
+
+msgctxt "Customer.io email: dummy_confirm_change_email "
+msgid "Your email registered on Deriv is now %1%2%3. Use this email to log in from now on."
+msgstr "Deriv'e kayıtlı e-postanız artık %1%2%3. Şu andan itibaren giriş yapmak için bu e-postayı kullanın."
+
+msgctxt "Customer.io email: dummy_confirm_change_email "
+msgid "We’ve changed your email"
+msgstr "E-postanızı değiştirdik"
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
