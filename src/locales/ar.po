@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-24 11:09\n"
+"PO-Revision-Date: 2024-04-24 13:34\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -5845,20 +5845,17 @@ msgstr "لم يتم تمكين تسجيل الدخول بواسطة وسائل �
 msgid "Failed to get user identity."
 msgstr "فشل في الحصول على هوية المستخدم."
 
-msgid "Your passkey is no longer available. Please remove it from your account settings."
-msgstr "لم يعد مفتاح المرور الخاص بك متاحاً. يرجى إزالته من إعدادات حسابك."
+msgid "We couldn't sign you in using that passkey as it is not linked to your Deriv account. Remove the existing passkey from your iCloud Keychain or Google Password Manager and create a new passkey."
+msgstr ""
 
-msgid "We could not verify your login. Please verify your passkey in account settings."
-msgstr "لم نتمكن من التحقق من تسجيل الدخول الخاص بك. يرجى التحقق من مفتاح المرور الخاص بك في إعدادات الحساب."
+msgid "Your passkey login is taking longer than expected. Try again later, or log in with email, Google, Facebook, or Apple."
+msgstr ""
 
 msgid "Failed to authenticate with passkeys. Please try again later"
 msgstr "فشل المصادقة باستخدام مفاتيح المرور. يرجى المحاولة مرة أخرى لاحقاً"
 
-msgid "The Passkeys service is currently unavailable. Please try again later."
-msgstr "خدمة Passkeys غير متوفرة حالياً. يرجى المحاولة مرة أخرى في وقت لاحق."
-
-msgid "An error occurred with passkey login. Alternatively, please use your password or social login."
-msgstr "حدث خطأ في تسجيل الدخول بمفتاح المرور. بدلاً من ذلك، يرجى استخدام كلمة المرور أو تسجيل الدخول الاجتماعي."
+msgid "We're experiencing a temporary issue in processing your request. Please try again later."
+msgstr ""
 
 msgid "Suspicious activity detected from this device - for safety, login has been blocked temporarily."
 msgstr "تم اكتشاف نشاط مشبوه من هذا الجهاز - من أجل السلامة ، تم حظر تسجيل الدخول مؤقتا."
@@ -7324,16 +7321,32 @@ msgid "National ID Number"
 msgstr "رقم الهوية الوطنية"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "جواز سفر"
+msgid "Cédula de Identidad"
+msgstr "بطاقة الهوية"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "بطاقة Alien"
+msgid "National ID Number Slip"
+msgstr "قسيمة رقم الهوية الوطنية"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "رخص قيادة"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "بطاقة الهوية الوطنية"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "سي بي إف"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "جواز سفر"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7344,26 +7357,6 @@ msgid "Voter ID"
 msgstr "هوية الناخب"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "رخص قيادة"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "بطاقة الهوية"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "قسيمة رقم الهوية الوطنية"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "بطاقة بان"
 
@@ -7372,8 +7365,12 @@ msgid "Aadhaar Card"
 msgstr "بطاقة أدهار"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "سي بي إف"
+msgid "Alien Card"
+msgstr "بطاقة Alien"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -8549,7 +8546,7 @@ msgstr "التاريخ والوقت"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
 msgid "If we don’t hear from you within %1 hours, we may resolve this dispute in the seller’s favour and release the funds to the seller, as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr ""
+msgstr "إذا لم نتلق ردًا منك في غضون 1% ساعة ، فقد نحل هذا النزاع لصالح البائع ونفرج عن الأموال للبائع ، وفقًا ل 3%شروط الاستخدام2% (راجع القسم 4 ، \"Deriv P2P\")."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
 msgid "We’ve asked the buyer for more information to help in our investigation regarding the order %1 on Deriv P2P."
@@ -8561,7 +8558,7 @@ msgstr "نظرا لأن المشتري قد قام بجزء من الدفع ، �
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
 msgid "Please let us know if you’ve been able to resolve this from your end. If we don’t hear from you within %1 hours, we may resolve this in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr ""
+msgstr "يرجى إعلامنا ما إذا تمكنت من حل هذه المشكلة من طرفك. إذا لم نتلقى أي شيئ منك في غضون 1% ساعة ، فقد نحل هذا النزاع لصالح المشتري ونسرح الأموال للمشتري وفقا ل 3%شروط الاستخدام2% (انظر القسم 4 ، \"اشتقاق P2P\")."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
 msgid "A dispute was raised against you for the order %1 on Deriv P2P. The seller claims that you have not made the full payment for this order."
@@ -8577,7 +8574,7 @@ msgstr "بعد إجراء الدفع الكامل ، يرجى الرد على ه
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
 msgid "If we don’t hear from you within %1 hours, we may resolve this in the seller’s favour and release the funds to the seller as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr ""
+msgstr "إذا لم نتلقى منك ردا في غضون 1% ساعات، فسنقوم برد أموال البائع وفقا ل 3% شروط الاستخدام 2% (انظر القسم 4 ، \"Deriv P2P\")."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
 msgid "A dispute was raised against you for the order %1 on Deriv P2P. The buyer claims to have paid more than the agreed amount."
