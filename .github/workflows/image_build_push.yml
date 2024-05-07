@@ -1,0 +1,26 @@
+name: Image build, test, push
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    tags:
+      - '*'
+    branches:
+      - master
+
+env:
+  DOCKERFILE_PATH: "./Dockerfile"
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: regentmarkets/ci-actions-docker-build/build_and_test@9978e2f284d4655921af9b69737e5e9ed0d3a3ff #v0.0.3
+        with:
+          project_type: skip
+          dockerfile: ${{ env.DOCKERFILE_PATH }}
+          organisation: regentmarkets
+          trivy_ignore: ".trivyignore"
+          push: true
+          username: circle4regentmarkets
+          password: ${{ secrets.DOCKER_PASSWORD }}
