@@ -56,6 +56,10 @@ msgctxt "Customer.io email: svg_all_transactional_unknown_login "
 msgid "%1 If you do not recognize this activity, go to %2%3%4 to reset your password immediately. %5"
 msgstr "%1如无法识别此活动，请立刻前往%2%3%4重置密码。%5"
 
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+msgid "%1 If you received payment but haven't released funds:%2 Explain the reason for the delay."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "%1 If you’re using ZingPay,%2 attach a bank statement which shows your name, account details, and the transaction to Deriv via ZingPay."
 msgstr "%1如果使用 ZingPay，%2请通过 ZingPay 将显示姓名、账户详细信息和交易的银行对账单附加到 Deriv 。"
@@ -147,6 +151,13 @@ msgctxt "Customer.io email: svg_all_transactional_underage_account_closed "
 msgid "%1Hi %2,%3Hi trader,%4"
 msgstr "%1您好%2, %3交易者您好, %4"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+#| msgid "If you didn’t receive the buyer’s payment, please provide your latest bank statement to prove it."
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+msgid "%1If you haven't received payment:%2 Provide your latest bank statement as proof."
+msgstr "如果没有收到买方的付款，请提供最新的银行对账单以证明这一点。"
+
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "%1If you’re using a bank card,%2 attach a clear picture of your bank card showing your name, and the first six and the last four digits of the card. Alternatively, you may provide your card’s bank statement that shows the same information."
 msgstr "%1如果使用银行卡，%2请附上清晰显示姓名以及卡的前六位和后四位数字的银行卡图片。另外，也可以提供显示相同信息的银行卡对账单。"
@@ -154,6 +165,10 @@ msgstr "%1如果使用银行卡，%2请附上清晰显示姓名以及卡的前�
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "%1If you’re using an e-wallet,%2 attach a screenshot of your e-wallet account showing your username, email address, and account number."
 msgstr "%1如果使用电子钱包，%2请附上显示用户名、电子邮件地址和账号的电子钱包账户的屏幕截图。"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "%1Important:%2 Avoid screen recording. Instead, use another device to film the details on your screen."
+msgstr ""
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "%1Important:%2 You must complete the order before %3%4 GMT%5. Failure to do so will affect your completion rate."
@@ -270,21 +285,33 @@ msgstr "已为此订单创建聊天功能。"
 msgid "A connection error happened while we were completing your request. Please try again later."
 msgstr "处理请求时出现连接错误。请稍后重试。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "A dispute was raised against you for the order %1 on Deriv P2P. Please reply to this email with your proof of payment for this order."
-msgstr "针对 Deriv P2P 的订单 %1 对您提出了争议。请回复此电子邮件，并附上此订单的付款证明。"
-
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+#| msgid "A dispute was raised against you for the order %1 on Deriv P2P. The buyer claims to have paid more than the agreed amount."
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
-msgid "A dispute was raised against you for the order %1 on Deriv P2P. The buyer claims that they’ve paid but you did not complete the order from your end."
-msgstr "针对 Deriv P2P 的订单 %1 对您提出了争议。买方声称已经付款，但您没有完成订单。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
-msgid "A dispute was raised against you for the order %1 on Deriv P2P. The buyer claims to have paid more than the agreed amount."
+msgid "A dispute has been raised against order #%1. The buyer claims to have made the payment, but you haven't released the funds."
 msgstr "针对 Deriv P2P 的订单 %1 对您提出了争议。买方声称支付的金额超过了约定金额。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+#| msgid "A dispute was raised against you for the order %1 on Deriv P2P. The buyer claims to have paid more than the agreed amount."
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+msgid "A dispute has been raised against you for order #%1. The buyer claims to have paid more than the agreed amount."
+msgstr "针对 Deriv P2P 的订单 %1 对您提出了争议。买方声称支付的金额超过了约定金额。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+#| msgid "A dispute was raised against you for the order %1 on Deriv P2P. The seller claims that you have not made the full payment for this order."
 msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
-msgid "A dispute was raised against you for the order %1 on Deriv P2P. The seller claims that you have not made the full payment for this order."
+msgid "A dispute has been raised against your Deriv P2P order #%1. The seller claims you haven't paid the full amount."
 msgstr "针对 Deriv P2P 的订单 %1 对您提出了争议。卖方声称您没有支付该订单的全部款项。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#| msgid "A dispute was raised against you for the order %1 on Deriv P2P. Please reply to this email with your proof of payment for this order."
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "A dispute has been raised against your Deriv P2P order #%1. To resolve this, please submit a video proof of payment immediately."
+msgstr "针对 Deriv P2P 的订单 %1 对您提出了争议。请回复此电子邮件，并附上此订单的付款证明。"
 
 msgid "A general error has occurred."
 msgstr "发生一般错误。"
@@ -577,10 +604,6 @@ msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "After logging in to your Deriv account, click Cashier and select Deposit via bank wire, credit card, and e-wallet."
 msgstr "登录 Deriv 账户后，点击收银台并选择通过银行电汇、信用卡和电子钱包存款。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
-msgid "After making full payment, please reply to this email to let us know."
-msgstr "全额付款后，请回复此邮件通知我们。"
-
 msgid "After the entry spot tick, your stake will grow continuously by %1% for every tick that the spot price remains within the ± %2 from the previous spot price."
 msgstr "入市现价变动后，只要现货价与前一个现货价保持在 ± %2 范围内，投注额将以每个报价 %1% 的速度连续增长。"
 
@@ -649,6 +672,13 @@ msgstr "美国指数"
 
 msgid "Americas"
 msgstr "美洲"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Amount:"
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+msgid "Amount"
+msgstr "金额:"
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_pending "
 msgid "Amount to be received:"
@@ -1186,6 +1216,17 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_tobu
 msgid "Buyer"
 msgstr "买方"
 
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Buyer payment pending. Dispute in progress."
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#| msgid "Sender’s account details"
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+msgid "Buyer's account details"
+msgstr "发送人账户详情"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "Buyer's name:"
 msgstr "买方名称："
@@ -1493,6 +1534,13 @@ msgstr "投资者补偿计划下的补偿"
 msgctxt "Customer.io email: mf_france_transactional_real_signup "
 msgid "Complete the details and follow the instructions to confirm your payment."
 msgstr "填写详细信息并按照说明确认付款。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_nigeria_transactional_real_signup "
+#| msgid "Choose your payment method."
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+msgid "Complete your payment"
+msgstr "选择支付方式。"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "Confirm"
@@ -1880,10 +1928,6 @@ msgstr "您的国家无法使用 Deriv P2P。请提供另一个开立账户的�
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "演示账户无法使用 Deriv P2P。请转换到真实账户。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "Deriv P2P: A dispute was raised for order %1"
-msgstr "Deriv P2P: 订单 %1 已提出争议"
-
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
 msgstr "Deriv P2P: 确定已收到订单 %1 的款"
@@ -1903,10 +1947,6 @@ msgstr "Deriv P2P：订单 %1 争议的解决"
 msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
 msgid "Deriv P2P: There was no response to your ad(s)"
 msgstr "Deriv P2P：广告没人反应"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "Deriv P2P: You have a dispute against you for order %1"
-msgstr "Deriv P2P: 订单 %1 有人对您提出了争议"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
 msgid "Deriv P2P: Your %1 ad has been created"
@@ -2308,6 +2348,10 @@ msgstr "Even/Odd"
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "Examples of utility bills that we accept:"
 msgstr "接受的水电煤账单示例："
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_buyer_request_title "
+msgid "Excess payment made"
+msgstr ""
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_expired "
 msgid "Exchange amount:"
@@ -2895,7 +2939,10 @@ msgstr "您好%1"
 msgid "Hi %1 %2,"
 msgstr "您好%1 %2，"
 
-msgctxt "Customer.io email: svg_all_transactional_pa_transfer_confirmation "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_pa_transfer_confirmation "
+#| msgid "Hi %1,"
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
 msgid "Hi %1,"
 msgstr "%1您好，"
 
@@ -3037,17 +3084,23 @@ msgctxt "Customer.io email: dummy_verify_change_email "
 msgid "If the button doesn’t work, use this link:"
 msgstr "如果按钮不起作用，请使用此链接："
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_buyer_request_title "
+#| msgid "If they don’t return your funds, we’ll resolve this in your favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+msgid "If the buyer doesn't respond within 6 hours, we'll release the funds back to your Deriv account as per our %1terms of use%2 (Section 4, ‘Deriv P2P’)."
+msgstr "如果他们不退还您的资金，将根据 %1我们的使用条款 %2 （请参阅第 4 章节，'Deriv P2P'）为您解决此问题。"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_unreleased_buyer_confirmation "
 msgid "If the exchange is successful within the next 24 hours, the dispute will be automatically resolved. Otherwise, we will investigate the case and inform you and the seller of the result. We may request additional information and documents during our investigation."
 msgstr "如果在接下来的 24 小时内兑换成功，争议将自动解决。否则，我们将调查此案例并将结果通知您和卖方。调查期间，可能会要求提供更多信息和文件。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "If they don’t make the full payment, we’ll resolve this in your favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果他们没有全额付款，将根据 %1我们的使用条款%2（参见第 4 章节，'Deriv P2P'）为您解决此问题。"
-
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "If they don’t make the full payment, we’ll resolve this in your favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
 msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_buyer_request_title "
-msgid "If they don’t return your funds, we’ll resolve this in your favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果他们不退还您的资金，将根据 %1我们的使用条款 %2 （请参阅第 4 章节，'Deriv P2P'）为您解决此问题。"
+msgid "If the seller doesn't comply, we'll resolve this in your favour according to our %1terms of use%2 (Section 4, ‘Deriv P2P’)."
+msgstr "如果他们没有全额付款，将根据 %1我们的使用条款%2（参见第 4 章节，'Deriv P2P'）为您解决此问题。"
 
 msgctxt "Customer.io email: dummy-campaign-trading-and-withdrawals-disabled "
 msgid "If this is a mistake and you don’t have other Deriv accounts, let us know, and we’ll sort this out immediately."
@@ -3065,44 +3118,12 @@ msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "If we don't receive your proof of address by %1 %2%3, we may place the following restrictions on your %4 %5%6 account:"
 msgstr "如果在 %1 %2%3 前没有收到地址证明，可能会对 %4 %5%6 账户设置以下限制："
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
-msgid "If we don’t hear from you within %1 hours, we may resolve this dispute in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果%1小时内没有收到回复，可能会以对买方有利的方式解决此争议，并根据%2我们的使用条款%3（参见'Deriv P2P' 第 4 章节）将资金发放给买方。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
-msgid "If we don’t hear from you within %1 hours, we may resolve this dispute in the seller’s favour and release the funds to the seller as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果%1小时内没有收到回复，可能会以对卖方有利的方式解决此争议，并根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）将资金发放给卖方。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
-msgid "If we don’t hear from you within %1 hours, we may resolve this dispute in the seller’s favour and release the funds to the seller, as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果%1小时内没有收到回复，可能会以对卖方有利的方式解决此争议，并根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）将资金发放给卖方。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
-msgid "If we don’t hear from you within %1 hours, we may resolve this in the buyers’s favour as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对买方有利的方式解决此事。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
-msgid "If we don’t hear from you within %1 hours, we may resolve this in the seller’s favour and release the funds to the seller as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果%1小时内没有收到回复，可能会以对卖方有利的方式解决此事，并根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）将资金发放给卖方。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
-msgid "If we don’t hear from you within %1 hours, we may resolve this in the seller’s favour as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对卖方有利的方式解决此事。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "If we don’t hear from you within %1 hours, we’ll refund the seller as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果 %1 小时内没有收到回复，会根据 %2我们的使用条款 %3（参见'Deriv P2P' 第 4 章节）将资金退还给卖方。"
-
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_tobuyer "
 msgid "If you believe there has been a mistake, please contact the seller to recreate and complete the exchange."
 msgstr "如果认为有误，请联系卖方重新创建并完成兑换。"
 
 msgid "If you change your mind, you may reactivate your account by logging in."
 msgstr "如改变注意，可登录并重新激活账户。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
-msgid "If you did receive the payment, please let us know if there is any reason you haven’t completed the order."
-msgstr "如果确实收到了款项，请让我们知道是否有任何原因导致您没有完成订单。"
 
 msgctxt "Customer.io email: dummy_update_account_settings "
 msgid "If you didn't make the changes, %1 contact us via live chat. %2"
@@ -3131,10 +3152,6 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verific
 msgid "If you didn’t make this request, please %1reset your password%2 and %3contact us via live chat%4."
 msgstr "如没有请求，请%1重置密码%2并%3通过实时聊天联系我们%4。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
-msgid "If you didn’t receive the buyer’s payment, please provide your latest bank statement to prove it."
-msgstr "如果没有收到买方的付款，请提供最新的银行对账单以证明这一点。"
-
 msgid "If you didn’t request a new password or have any questions, %1contact us%2 via live chat."
 msgstr "如没有要求新的密码或如有任何疑问，请通过实时聊天%1与我们联系%2。"
 
@@ -3151,10 +3168,6 @@ msgstr "如没有要求取款，请通过实时聊天%1与我们联系%2。"
 msgctxt "Customer.io email: svg_all_transactional_binary_unknown_login "
 msgid "If you do not recognize this activity, go to %1%2%3 to reset your password immediately."
 msgstr "如无法识别此活动，请立刻前往%1%2%3重置密码。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
-msgid "If you don’t send the funds back, we’ll have to resolve this in the buyer’s favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果不退回款项，必须根据 %1我们的使用条款 %2（参见第 4 章节，'Deriv P2P'）以对买方有利的方式解决此问题。"
 
 msgctxt "Customer.io email: svg_all_transactional_bonus_rejected "
 msgid "If you feel that none of these reasons apply to your case and you'd like to request that the bonus is credited to your account, please provide us with:"
@@ -3293,14 +3306,6 @@ msgstr "为了能够交易期权合约，需要知道居住地（国）。请更
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "In order to provide you with a seamless trading experience, we need you to verify your account by submitting your proof of identity (POI) and proof of address (POA)."
 msgstr "为了提供无缝的交易体验，需要提交身份证明（POI）和地址证明（POA）以验证账户。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
-msgid "In the meantime, please reply to this email with the proof of your payment to the seller."
-msgstr "同时，请回复此电子邮件并附上您向卖方付款的证明。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
-msgid "In the meantime, please reply to this email with the proof of your payment to the seller. We only accept bank-issued documents (in PDF), such as your bank statement or payment receipt. Screenshots and text messages (SMS) are not accepted."
-msgstr "同时，请回复此电子邮件并附上向卖方付款的证明。只接受银行出具的文件（PDF 格式），例如银行对账单或付款收据。不接受屏幕截图和短信 (SMS)。"
 
 msgid "In/Out"
 msgstr "In/Out"
@@ -3483,6 +3488,16 @@ msgstr "无效用户。"
 
 msgid "Invalid/duplicate token for a loginid provided."
 msgstr "提供的登录 id 令牌无效/重复。"
+
+#, fuzzy
+#| msgid "Wallet migration is already in progress."
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+msgid "Investigation in progress"
+msgstr "钱包迁移已在进行中。"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+msgid "Investigation underway"
+msgstr ""
 
 msgid "Iranian Rial"
 msgstr "伊朗里亚尔"
@@ -3714,6 +3729,13 @@ msgstr "旧版合约。无法提供更加详细的信息。"
 msgid "Lesotho Loti"
 msgstr "莱索托鲁梯"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+#| msgid "Please let us know if you’ve been able to resolve this from your end. If we don’t hear from you within %1 hours, we may resolve this in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+msgid "Let us know if the issue is resolved. If we don't hear from you within 6 hours, we may have to release the funds to the buyer according to our %1terms of use%2 (Section 4, 'Deriv P2P')."
+msgstr "如果能够自行解决此问题，请通知我们。如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对买方有利的方式解决此问题并将款项发放给买方。"
+
 msgctxt "Customer.io email: svg_all_transactional_affiliate_self_tagging "
 msgid "Let’s get you started"
 msgstr "请开始交易"
@@ -3906,6 +3928,12 @@ msgstr "使用服务前，请务必阅读%1条款和条件%2、%3风险披露%4�
 msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
 msgid "Make sure to read our Terms and conditions, Risk disclosure, and Secure and responsible trading to fully understand the risks involved before using our services. Please also note that the information on this website does not constitute investment advice."
 msgstr "使用服务前，请务必阅读条款和条件、风险披露以及安全和负责任交易，以充分了解所涉及的风险。另请注意，本网站的信息不构成投资建议。"
+
+#, fuzzy
+#| msgid "Please make the full payment"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_request "
+msgid "Make the full payment to the seller."
+msgstr "请支付全额款项"
 
 msgctxt "Customer.io email: P2P14 fixed ads deactivated "
 msgid "Make the switch to floating rates"
@@ -4629,6 +4657,61 @@ msgctxt "field for payment method Orange Money"
 msgid "Orange Money account"
 msgstr "Orange Money 账户"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
+#| msgid "Order ID"
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+msgid "Order #%1"
+msgstr "订单 ID"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Order #%1 disputed: Proof needed"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "Order #%1: Awaiting buyer's payment"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
+msgid "Order #%1: Dispute alert; confirm account info"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+msgid "Order #%1: Dispute received"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+msgid "Order #%1: Dispute update"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
+msgid "Order #%1: Excess amount paid"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_buyer_request_title "
+msgid "Order #%1: Excess payment update"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+msgid "Order #%1: Investigation underway"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+msgid "Order #%1: Payment dispute raised"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+msgid "Order %1 update: Resolve overpayment"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+msgid "Order %1: Action Required"
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_request "
+msgid "Order %1: Payment incomplete"
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_mt5_signup_binary "
 msgid "Order Execution"
 msgstr "执行订单"
@@ -4750,6 +4833,13 @@ msgstr "Paxful"
 msgctxt "field for payment method Paxful"
 msgid "Paxful account"
 msgstr "Paxful 账户"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+#| msgid "Please pay the remaining amount to the seller to resolve this and inform the seller directly."
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+msgid "Pay the remaining amount and inform the seller of the completed payment along with the proof of payment."
+msgstr "请支付剩余金额给卖方以解决此问题并直接通知卖方。"
 
 msgctxt "payment method name"
 msgid "PayGate"
@@ -4987,6 +5077,12 @@ msgstr "请于%1前完成此步骤。"
 msgid "Please complete your financial assessment."
 msgstr "请完成财务评估."
 
+#, fuzzy
+#| msgid "Please set your account currency."
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
+msgid "Please confirm account info"
+msgstr "请设置账户货币。"
+
 msgid "Please cover all other details on your card."
 msgstr "请填写卡上的所有其他详细信息。"
 
@@ -5056,10 +5152,6 @@ msgstr "请授权访问电邮地址，以便用%1登录"
 msgid "Please input a valid number."
 msgstr "请输入有效号码。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
-msgid "Please let us know if you’ve been able to resolve this from your end. If we don’t hear from you within %1 hours, we may resolve this in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果能够自行解决此问题，请通知我们。如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对买方有利的方式解决此问题并将款项发放给买方。"
-
 msgid "Please log in to continue."
 msgstr "请登录以继续。"
 
@@ -5077,10 +5169,6 @@ msgstr "请注意，仅限于使用一个法定货币账户。"
 
 msgid "Please note that you are limited to only one %1 account."
 msgstr "请注意，仅限于使用一个%1账户。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
-msgid "Please pay the remaining amount to the seller to resolve this and inform the seller directly."
-msgstr "请支付剩余金额给卖方以解决此问题并直接通知卖方。"
 
 msgctxt "Customer.io email: svg_all_transactional_request_poi "
 msgid "Please prepare"
@@ -5113,6 +5201,10 @@ msgstr "请提供有效金额。"
 msgid "Please provide valid currency."
 msgstr "请提供有效的货币。"
 
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
+msgid "Please provide your account details immediately so we can facilitate a refund from the seller."
+msgstr ""
+
 msgid "Please provide your contact details."
 msgstr "请提供联系信息。"
 
@@ -5125,8 +5217,22 @@ msgstr "请提供付款详细信息。"
 msgid "Please reset your password to continue."
 msgstr "请重置密码，以继续操作。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
+#| msgid "Please submit one of the following documents:"
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+msgid "Please respond within 6 hours with one of the following:"
+msgstr "请提交以下文件之一："
+
 msgid "Please return the excess funds"
 msgstr "请退还多付的金额"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+#| msgid "Please let us know if you’ve been able to resolve this from your end. If we don’t hear from you within %1 hours, we may resolve this in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+msgid "Please return the excess funds and send us your video proof within 6 hours. If we do not hear from you by then, we may need to resolve the dispute in the buyer's favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
+msgstr "如果能够自行解决此问题，请通知我们。如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对买方有利的方式解决此问题并将款项发放给买方。"
 
 msgid "Please select"
 msgstr "请选择"
@@ -5137,9 +5243,40 @@ msgstr "请选择与币种相匹配的广告。"
 msgid "Please select your account currency first."
 msgstr "首先请选择账户货币。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
+#| msgid "If we don’t hear from you within %1 hours, we may resolve this in the seller’s favour as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
 msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
-msgid "Please send us your account details so that we can share them with the seller to refund your paid amount."
-msgstr "请发送账户详细以便提供给卖方并退还已付的款项。"
+msgid "Please send this information to us within 6 hours. If we do not hear from you by then, we may need to proceed with resolving the dispute in the seller’s favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
+msgstr "如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对卖方有利的方式解决此事。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+#| msgid "Please let us know if you’ve been able to resolve this from your end. If we don’t hear from you within %1 hours, we may resolve this in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+msgid "Please send us the required response within 6 hours. If we do not hear from you by then, we may need to resolve the dispute in the buyer’s favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
+msgstr "如果能够自行解决此问题，请通知我们。如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对买方有利的方式解决此问题并将款项发放给买方。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+#| msgid "Please let us know if you’ve been able to resolve this from your end. If we don’t hear from you within %1 hours, we may resolve this in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Please send us your video proof within 6 hours. If we do not hear from you by then, we may need to proceed with resolving the dispute in the buyer’s favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
+msgstr "如果能够自行解决此问题，请通知我们。如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对买方有利的方式解决此问题并将款项发放给买方。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+#| msgid "If we don’t hear from you within %1 hours, we may resolve this in the buyers’s favour as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+msgid "Please send us your video proof within 6 hours. If we do not hear from you by then, we may need to resolve the dispute in the buyer’s favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
+msgstr "如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对买方有利的方式解决此事。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
+#| msgid "If we don’t hear from you within %1 hours, we may resolve this in the seller’s favour as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+msgid "Please send us your video proof within 6 hours. If we do not hear from you by then, we may need to resolve the dispute in the seller’s favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
+msgstr "如果%1小时内没有收到回复，可能会根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）以对卖方有利的方式解决此事。"
 
 msgid "Please set the currency for your existing account %1, in order to create more accounts."
 msgstr "请设置当前账户%1的货币，以开立更多账户。"
@@ -5469,9 +5606,13 @@ msgstr "RealPay 账户"
 msgid "Realtime quotes not available for %1."
 msgstr "%1不提供实时报价。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
-msgid "Recipient's account details"
-msgstr "接收人账户详情"
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+msgid "Record a video as proof of transfer and reply to this email with the video attached."
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_request "
+msgid "Record a video of proof of transfer and email it to us."
+msgstr ""
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_cancelled "
 msgid "Reference no."
@@ -5480,6 +5621,10 @@ msgstr "参考编号"
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_declined "
 msgid "Reference no.:"
 msgstr "参考编号:"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+msgid "Refunding overpayment: Next steps"
+msgstr ""
 
 msgctxt "Customer.io email: svg_all_transactional_bonus_rejected "
 msgid "Regards,"
@@ -5560,6 +5705,10 @@ msgstr "DP2P 订单 %1 争议的解决"
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
 msgid "Resolution for DP2P order %1%2"
 msgstr "DP2P 订单 %1%2 的解决方法"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+msgid "Return the excess funds and provide proof of payment to the buyer."
+msgstr ""
 
 msgctxt "Customer.io email: dummy_svg_all_crypto_withdrawal_reverted "
 msgid "Returned amount:"
@@ -5692,13 +5841,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller
 msgid "Seller"
 msgstr "卖方"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#| msgid "Sender’s account details"
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+msgid "Seller's account details"
+msgstr "发送人账户详情"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
 msgid "Seller:"
 msgstr "卖方："
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
-msgid "Sender’s account details"
-msgstr "发送人账户详情"
 
 msgid "Serbian Dinar"
 msgstr "塞尔维亚第纳尔"
@@ -5788,8 +5940,8 @@ msgid "SimplePay account"
 msgstr "SimplePay 账户"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
-msgid "Since the buyer has made part of the payment, we encourage you to contact them directly and remind them to complete their payment."
-msgstr "由于买方已支付部分款项，建议您直接联系并提醒他们完成付款。"
+msgid "Since partial payment has been made, please contact the buyer directly to settle the remaining balance."
+msgstr ""
 
 msgid "Singapore Dollar"
 msgstr "新加坡元"
@@ -6124,12 +6276,30 @@ msgstr "Stripe 账户"
 msgid "Style %1 invalid"
 msgstr "样式 %1 无效"
 
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+msgid "Submit a video proof of payment to us. This will help us verify the refund and ensure a quick resolution."
+msgstr ""
+
 msgctxt "Customer.io email: svg_all_transactional_poa_poi_resubmission "
 msgid "Submit now"
 msgstr "立即提交"
 
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
 msgid "Submit proof of address"
+msgstr "提交地址证明"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
+#| msgid "Submit proof of address"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Submit proof of payment"
+msgstr "提交地址证明"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
+#| msgid "Submit proof of address"
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+msgid "Submit proof of received payment"
 msgstr "提交地址证明"
 
 msgid "Submit your proof of address and identity before signing up for Deriv P2P."
@@ -6437,10 +6607,6 @@ msgstr "授权账户不能用于转账。"
 
 msgid "The back of your document appears to be missing. Please include both sides of your identity document."
 msgstr "证件背面似乎缺失。请附上身份证件的正反两面。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "The buyer hasn't made the full payment"
-msgstr "买方尚未支付全额款项"
 
 msgid "The buyer hasn’t made the full payment"
 msgstr "买方尚未支付全额款项"
@@ -7124,6 +7290,14 @@ msgctxt "Customer.io email: svg_all_transactional_derived_ready "
 msgid "To get trading, head to your Deriv MT5 dashboard and transfer funds into your new account."
 msgstr "要交易，请前往 Deriv MT5 仪表板并将资金转入新账户。"
 
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+msgid "To help us resolve the dispute quickly, please provide video proof of your payment."
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+msgid "To help us resolve this, please provide a video proof of received payment. To learn how to submit a video proof of payment, follow these %1detailed steps%2."
+msgstr ""
+
 msgid "To keep your account secure, this link will expire in %3 minutes. If the link expires before you have a chance to use it, you can request another one by clicking the 'Manage investor account password' button on the %1Deriv MT5 dashboard%2."
 msgstr "为了保障账户安全，此链接将于%3 分钟后失效。如链接在使用前失效，可点击%1Deriv MT5 仪表板%2上的‘管理投资者账户密码’按钮请求新的链接。"
 
@@ -7133,6 +7307,14 @@ msgstr "为了保障账户安全，此链接将于%3 分钟后失效。如链接
 msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "To keep your account verified,"
 msgstr "为了保持賬戶通过验证，"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "To learn how to submit a video proof of payment, follow these %1detailed steps%2."
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
+msgid "To learn how to submit video proof of payment, follow these %1detailed steps%2."
+msgstr ""
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
 msgid "To make a withdrawal:"
@@ -7145,13 +7327,22 @@ msgstr "请提交以下文件之一以取消这些限制："
 msgid "To reset your %1 password, please use the %2 API."
 msgstr "要重置 %1 密码，请使用%2 API。"
 
+#, fuzzy
+#| msgid "To unlock the cashier, please follow these steps:"
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_request "
-msgid "To resolve the dispute for the order %1, please make the full payment and send your proof of payment to the seller."
+msgid "To resolve the dispute for order #%1, please follow these steps:"
+msgstr "要解锁收银台，请按照以下步骤操作："
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_request "
+#| msgid "To resolve the dispute for the order %1, please make the full payment and send your proof of payment to the seller."
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+msgid "To resolve the overpayment dispute for order #%1, please take the following steps immediately:"
 msgstr "要解决订单 %1 的争议，请全额付款并将付款证明发送给卖方。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
-msgid "To resolve the dispute for the order %1, return the excess funds to the buyer and send them your proof of payment."
-msgstr "要解决订单 %1 的争议，请将多付的款项退还并将付款证明发送给买方。"
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+msgid "To resolve this quickly:"
+msgstr ""
 
 msgctxt "Customer.io email: svg_all_transactional_derivx_signup "
 msgid "To start trading, head to Trader's Hub."
@@ -7286,10 +7477,6 @@ msgstr "%1到%2期间内，持续时间少于 5 小时的外汇交易暂时停�
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
 msgid "Transaction ID"
 msgstr "交易 ID"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
-msgid "Transaction amount"
-msgstr "交易金额"
 
 msgctxt "Customer.io email: svg_all_transactional_crypto_deposit_confirmed "
 msgid "Transaction hash"
@@ -8400,10 +8587,6 @@ msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
 msgid "We don't accept:"
 msgstr "不接受："
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
-msgid "We encourage you to contact the buyer directly to resolve this. In the meantime, please provide your latest bank statement showing the payment received from the buyer. We accept bank statements in PDF. Screenshots and text messages (SMS) are not accepted."
-msgstr "建议直接与买方联系以解决此问题。同时，请提供最新的银行对账单，显示从买方那里收到的付款。接受 PDF 格式的银行对账单。不接受屏幕截图和短信 (SMS)。"
-
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_declined "
 msgid "We had to decline your withdrawal request. No funds were deducted from your account:"
 msgstr "取款请求ั已被拒。没有从账户中扣除任何资金："
@@ -8435,14 +8618,6 @@ msgstr "已经关闭账户，所有剩余资金（如有）已退还。"
 msgid "We have deducted %1 %2 from your account. Your funds may be temporarily unavailable until the transaction is complete."
 msgstr "已经从账户中扣除了 %1 %2 。在交易完成之前，资金可能暂时不可用。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
-msgid "We have received a complaint that you paid for order %1 with the help of a third party, despite the order instructions."
-msgstr "关于订单 %1，收到投诉说您没依照订单指示，通过第三方付款。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
-msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within %2 hours, we’ll release the funds back to your Deriv account."
-msgstr "已收到您对订单 %1 提出的争议。已与买方联系以获取更多信息，帮助将已支付的款项退还給您。如果%2小时内没有收到他们的回复，会将款项退还到 Deriv 账户。"
-
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have successfully processed your withdrawal request for %1 %2 %3%4 %5 %6 %7 for trace ID %8 %9 %10 %11%12"
 msgstr "跟踪 ID %8 %9 %10 %11%12 的 %1 %2 %3%4 %5 %6 %7 取款请求已成功处理"
@@ -8464,10 +8639,6 @@ msgstr "我们注意到最近您已尝试从账户取款。"
 
 msgid "We noticed that you previously logged in to Deriv using either <strong>Google</strong> or <strong>Facebook</strong>. If you reset your password now, you will need to login with your email and password in the future."
 msgstr "我们留意到您之前是使用 <strong>Google</strong> 或 <strong>Facebook</strong> 登录 Deriv 账户。如现在重置密码，将来须用电子邮件和密码登录。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "We only accept bank-issued documents (in PDF), such as your bank statement or payment receipt. Screenshots and text messages (SMS) are not accepted."
-msgstr "只接受银行出具的文件（PDF 格式），例如银行对账单或付款收据。不接受屏幕截图和短信 (SMS)。"
 
 msgctxt "Customer.io email: svg_all_transactional_reset_password_request "
 msgid "We received a request to change the password for the account with the email %1%2%3%4%5"
@@ -8572,13 +8743,31 @@ msgstr "系统当前的负载量非常高。目前正在努力解决这个问题
 msgid "We're having an issue with some of our data feeds. We're working hard to resolve this, but some markets may be unavailable for the time being."
 msgstr "正面对一些数据汇入的问题。目前正在努力解决，但一些市场可能暂时无法使用。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "We're investigating and need more info"
-msgstr "正在查询，并需要更多信息"
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+msgid "We're investigating the payment dispute for Deriv P2P order #%1. We've requested more information from the buyer."
+msgstr ""
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#| msgid "We're investigating your dispute"
+msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
 msgid "We're investigating your dispute"
 msgstr "正在查询您的争议"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#| msgid "In the meantime, please reply to this email with the proof of your payment to the seller."
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
+msgid "We're investigating your dispute regarding Order #%1. To help us resolve this quickly, please reply to this email with a video proof of your payment to the seller."
+msgstr "同时，请回复此电子邮件并附上您向卖方付款的证明。"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+msgid "We're investigating your dispute regarding order #%1. We've contacted the buyer to verify their payment method and get the required account details for a refund."
+msgstr ""
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+msgid "We're investigating your dispute regarding order #%1. We've requested additional information from the seller to aid our investigation."
+msgstr ""
 
 msgid "We're processing your request to withdraw funds via a payment agent. You'll get to know the status of your request via email within 24 hours."
 msgstr "正在处理通过支付代理提款的请求。将于 24 小时内通过电子邮件让您了解请求状态。"
@@ -8646,6 +8835,17 @@ msgstr "已完成转账"
 msgid "We've disabled your MT5 account. Please contact us for more information."
 msgstr "MT5 账户已被禁用。欲知详情请跟我们联系。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#| msgid "If they don’t make the full payment, we’ll resolve this in your favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+msgid "We've notified the buyer that they need to make the full payment for Order #%1. If they don't complete payment within 6 hours, we'll resolve this dispute in your favour as per our %2terms of use%3 (see Section 4, 'Deriv P2P')."
+msgstr "如果他们没有全额付款，将根据 %1我们的使用条款%2（参见第 4 章节，'Deriv P2P'）为您解决此问题。"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
+msgid "We've received a dispute from the seller regarding order #%1. They claim you used a third-party payment method, which is against our terms of use."
+msgstr ""
+
 msgid "We've received your request and are waiting for more blockchain confirmations."
 msgstr "请求已收到，正在等待更多的区块链确认。"
 
@@ -8697,29 +8897,9 @@ msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_pendin
 msgid "We’re working on your withdrawal request, and we’ll inform you when it’s done."
 msgstr "正在处理提款请求，完成后会通知您。"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
-msgid "We’ve asked the buyer for more information to help in our investigation regarding the order %1 on Deriv P2P."
-msgstr "已要求买方提供更多信息，以帮助调查 Deriv P2P 订单 %1。"
-
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_toseller "
 msgid "We’ve asked the buyer for more information to help in our investigation regarding the order %1 on Deriv P2P. If we don’t receive a response from them within %2 hours, we’ll release the funds back to your Deriv account."
 msgstr "已要求买方提供更多信息，以帮助调查 Deriv P2P 订单 %1。如果 %2 小时内没有收到回复，会将款项退还到您的 Deriv 账户。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
-msgid "We’ve asked the buyer to make the full payment for the order %1 and send the proof of payment to you."
-msgstr "已要求买方给订单 %1 全额付款，并将付款证明发送给您。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
-msgid "We’ve asked the seller for more information to help in our investigation regarding the order %1"
-msgstr "已要求卖方提供更多信息，以帮助调查订单 %1"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
-msgid "We’ve asked the seller for more information to help in our investigation regarding the order %1 on Deriv P2P."
-msgstr "已要求卖方提供更多信息，以帮助调查 Deriv P2P 订单 %1。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_buyer_request_title "
-msgid "We’ve asked the seller to return the excess funds (for the order %1) together with their proof of payment."
-msgstr "已要求卖方退还多付的款项（订单 %1）并提供付款证明。"
 
 msgctxt "Customer.io email: dummy_confirm_change_email "
 msgid "We’ve changed your email"
@@ -9006,10 +9186,6 @@ msgstr "%1暂时无法取款。请稍后重试。"
 
 msgid "Withdrawals from MT5 manager accounts is not possible. Please choose another payment method."
 msgstr "MT5 管理员账户无法取款。请另选别的付款方式。"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_request "
-msgid "Without your full payment, we’ll have to resolve this in the seller’s favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
-msgstr "如果没有全额付款，将根据 %1我们的使用条款%2（参见第 4 章节，'Deriv P2P'）以对卖方有利的方式解决此问题。"
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Wondering what Skrill is? Skrill is a safe and reliable virtual wallet for money transfers and online payments that enables you to move money into and out of your account hassle-free. Here’s how to make a deposit using Skrill:"
@@ -9769,6 +9945,12 @@ msgstr "账户币种必须相同。请选择币种匹配的账户，然后重试
 msgid "Your account currency and trader currency must be same."
 msgstr "账户货币必须与交易者货币相符。"
 
+#, fuzzy
+#| msgid "We need your account details"
+msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+msgid "Your account details"
+msgstr "需要账户详细"
+
 msgid "Your account does not meet the deposit requirement of %1 %2. Note that deposits from credit cards and certain e-wallets do not count towards the deposit requirement."
 msgstr "账户不符合%1 %2的存款需求。请注意，来自信用卡和某些电子钱包的存款不计入存款要求。"
 
@@ -10134,14 +10316,6 @@ msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "Your proof of identity (POI) has expired"
 msgstr "身份证明 (POI) 已过期"
 
-msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
-msgid "Your proof of payment must have the following information:"
-msgstr "付款证明必须包含以下信息："
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "Your proof of payment must show the following information:"
-msgstr "付款证明必须显示以下信息："
-
 msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site."
 msgstr "电邮地址已被注册。根据使用条款和条件，只能在本网站注册一次。"
 
@@ -10185,6 +10359,10 @@ msgstr "用户名：%1"
 msgctxt "Customer.io email: svg_all_transactional_request_poi "
 msgid "Your valid passport, driving licence, or national ID card"
 msgstr "有效的护照、驾照或国民身份证"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "Your video should include:"
+msgstr ""
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_cancelled "
 msgid "Your withdrawal is cancelled"
@@ -10238,6 +10416,10 @@ msgstr "提款不是通过通常的存款方式即支付代理进行的。"
 
 msgid "You’ve paid more than the order amount"
 msgstr "付款超出了订单金额"
+
+msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_buyer_request_title "
+msgid "You’ve paid more than the order amount for order #%1, and we’ve asked the seller to return the excess funds."
+msgstr ""
 
 msgctxt "payment method name"
 msgid "YuCash"
@@ -10511,22 +10693,163 @@ msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "© %1 Deriv, All rights reserved."
 msgstr "© %1 Deriv，保留所有权利。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
+#| msgid "Amount:"
+msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+msgid "●  Amount"
+msgstr "金额:"
+
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
 msgid "●  Date and time"
 msgstr "● 日期和时间"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#| msgid "●  Sender’s account details"
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "●  Recipient's account details"
-msgstr "● 接收人账户详情"
-
-msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "●  Sender’s account details"
+msgid "●  Seller's account details"
 msgstr "● 发送人账户详情"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
 msgid "●  Transaction ID"
 msgstr "● 交易 ID"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#| msgid "●  Sender’s account details"
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
-msgid "●  Transaction amount"
-msgstr "● 交易金额"
+msgid "●  Your account details"
+msgstr "● 发送人账户详情"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+#~ msgid "A dispute was raised against you for the order %1 on Deriv P2P. The buyer claims that they’ve paid but you did not complete the order from your end."
+#~ msgstr "针对 Deriv P2P 的订单 %1 对您提出了争议。买方声称已经付款，但您没有完成订单。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+#~ msgid "After making full payment, please reply to this email to let us know."
+#~ msgstr "全额付款后，请回复此邮件通知我们。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#~ msgid "Deriv P2P: A dispute was raised for order %1"
+#~ msgstr "Deriv P2P: 订单 %1 已提出争议"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "Deriv P2P: You have a dispute against you for order %1"
+#~ msgstr "Deriv P2P: 订单 %1 有人对您提出了争议"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+#~ msgid "If we don’t hear from you within %1 hours, we may resolve this dispute in the buyer’s favour and release the funds to the buyer as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+#~ msgstr "如果%1小时内没有收到回复，可能会以对买方有利的方式解决此争议，并根据%2我们的使用条款%3（参见'Deriv P2P' 第 4 章节）将资金发放给买方。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
+#~ msgid "If we don’t hear from you within %1 hours, we may resolve this dispute in the seller’s favour and release the funds to the seller as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+#~ msgstr "如果%1小时内没有收到回复，可能会以对卖方有利的方式解决此争议，并根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）将资金发放给卖方。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#~ msgid "If we don’t hear from you within %1 hours, we may resolve this dispute in the seller’s favour and release the funds to the seller, as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+#~ msgstr "如果%1小时内没有收到回复，可能会以对卖方有利的方式解决此争议，并根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）将资金发放给卖方。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_info_tobuyer "
+#~ msgid "If we don’t hear from you within %1 hours, we may resolve this in the seller’s favour and release the funds to the seller as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+#~ msgstr "如果%1小时内没有收到回复，可能会以对卖方有利的方式解决此事，并根据%2我们的使用条款%3（参见 'Deriv P2P' 第 4 章节）将资金发放给卖方。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "If we don’t hear from you within %1 hours, we’ll refund the seller as per %2our terms of use%3 (see Section 4, ‘Deriv P2P’)."
+#~ msgstr "如果 %1 小时内没有收到回复，会根据 %2我们的使用条款 %3（参见'Deriv P2P' 第 4 章节）将资金退还给卖方。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
+#~ msgid "If you did receive the payment, please let us know if there is any reason you haven’t completed the order."
+#~ msgstr "如果确实收到了款项，请让我们知道是否有任何原因导致您没有完成订单。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+#~ msgid "If you don’t send the funds back, we’ll have to resolve this in the buyer’s favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
+#~ msgstr "如果不退回款项，必须根据 %1我们的使用条款 %2（参见第 4 章节，'Deriv P2P'）以对买方有利的方式解决此问题。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
+#~ msgid "In the meantime, please reply to this email with the proof of your payment to the seller. We only accept bank-issued documents (in PDF), such as your bank statement or payment receipt. Screenshots and text messages (SMS) are not accepted."
+#~ msgstr "同时，请回复此电子邮件并附上向卖方付款的证明。只接受银行出具的文件（PDF 格式），例如银行对账单或付款收据。不接受屏幕截图和短信 (SMS)。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
+#~ msgid "Please send us your account details so that we can share them with the seller to refund your paid amount."
+#~ msgstr "请发送账户详细以便提供给卖方并退还已付的款项。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#~ msgid "Recipient's account details"
+#~ msgstr "接收人账户详情"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+#~ msgid "Since the buyer has made part of the payment, we encourage you to contact them directly and remind them to complete their payment."
+#~ msgstr "由于买方已支付部分款项，建议您直接联系并提醒他们完成付款。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#~ msgid "The buyer hasn't made the full payment"
+#~ msgstr "买方尚未支付全额款项"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_seller_request "
+#~ msgid "To resolve the dispute for the order %1, return the excess funds to the buyer and send them your proof of payment."
+#~ msgstr "要解决订单 %1 的争议，请将多付的款项退还并将付款证明发送给买方。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#~ msgid "Transaction amount"
+#~ msgstr "交易金额"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_toseller "
+#~ msgid "We encourage you to contact the buyer directly to resolve this. In the meantime, please provide your latest bank statement showing the payment received from the buyer. We accept bank statements in PDF. Screenshots and text messages (SMS) are not accepted."
+#~ msgstr "建议直接与买方联系以解决此问题。同时，请提供最新的银行对账单，显示从买方那里收到的付款。接受 PDF 格式的银行对账单。不接受屏幕截图和短信 (SMS)。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
+#~ msgid "We have received a complaint that you paid for order %1 with the help of a third party, despite the order instructions."
+#~ msgstr "关于订单 %1，收到投诉说您没依照订单指示，通过第三方付款。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
+#~ msgid "We have received your dispute for the order %1. We have contacted the buyer for more information to help you make the refund for the paid sum. If we don’t receive a response from them within %2 hours, we’ll release the funds back to your Deriv account."
+#~ msgstr "已收到您对订单 %1 提出的争议。已与买方联系以获取更多信息，帮助将已支付的款项退还給您。如果%2小时内没有收到他们的回复，会将款项退还到 Deriv 账户。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "We only accept bank-issued documents (in PDF), such as your bank statement or payment receipt. Screenshots and text messages (SMS) are not accepted."
+#~ msgstr "只接受银行出具的文件（PDF 格式），例如银行对账单或付款收据。不接受屏幕截图和短信 (SMS)。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "We're investigating and need more info"
+#~ msgstr "正在查询，并需要更多信息"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_underpayment_followup_toseller "
+#~ msgid "We’ve asked the buyer for more information to help in our investigation regarding the order %1 on Deriv P2P."
+#~ msgstr "已要求买方提供更多信息，以帮助调查 Deriv P2P 订单 %1。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_confirmation_toseller "
+#~ msgid "We’ve asked the buyer to make the full payment for the order %1 and send the proof of payment to you."
+#~ msgstr "已要求买方给订单 %1 全额付款，并将付款证明发送给您。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_followup_tobuyer "
+#~ msgid "We’ve asked the seller for more information to help in our investigation regarding the order %1"
+#~ msgstr "已要求卖方提供更多信息，以帮助调查订单 %1"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#~ msgid "We’ve asked the seller for more information to help in our investigation regarding the order %1 on Deriv P2P."
+#~ msgstr "已要求卖方提供更多信息，以帮助调查 Deriv P2P 订单 %1。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_overpayment_buyer_request_title "
+#~ msgid "We’ve asked the seller to return the excess funds (for the order %1) together with their proof of payment."
+#~ msgstr "已要求卖方退还多付的款项（订单 %1）并提供付款证明。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_underpayment_request "
+#~ msgid "Without your full payment, we’ll have to resolve this in the seller’s favour as per %1our terms of use%2 (see Section 4, ‘Deriv P2P’)."
+#~ msgstr "如果没有全额付款，将根据 %1我们的使用条款%2（参见第 4 章节，'Deriv P2P'）以对卖方有利的方式解决此问题。"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
+#~ msgid "Your proof of payment must have the following information:"
+#~ msgstr "付款证明必须包含以下信息："
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "Your proof of payment must show the following information:"
+#~ msgstr "付款证明必须显示以下信息："
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "●  Recipient's account details"
+#~ msgstr "● 接收人账户详情"
+
+#~ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
+#~ msgid "●  Transaction amount"
+#~ msgstr "● 交易金额"
