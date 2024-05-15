@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-05-14 11:37\n"
+"PO-Revision-Date: 2024-05-15 11:45\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -1264,6 +1264,9 @@ msgstr "กรุณารอสักครู่ก่อนที่จะพ
 msgid "Please wait for some time before requesting another OTP code"
 msgstr "โปรดรอสักครู่ ก่อนที่จะขอรหัส OTP อีกอัน"
 
+msgid "Please wait for some time before sending the OTP"
+msgstr "โปรดรอสักครู่ก่อนส่ง OTP"
+
 msgid "Please wait for the buyer to confirm the order."
 msgstr "โปรดรอให้ผู้ซื้อยืนยันคำสั่งซื้อก่อน"
 
@@ -1578,6 +1581,9 @@ msgstr "ทีมงาน %1"
 
 msgid "The IDV result is missing."
 msgstr "ผลลัพธ์ IDV หายไป"
+
+msgid "The OTP is not valid"
+msgstr "OTP ไม่ถูกต้อง"
 
 msgid "The address is in use for a deposit transaction. Please use a different address for this withdrawal."
 msgstr "ที่อยู่นี้กำลังถูกใช้สำหรับรายการฝากเงิน โปรดใช้ที่อยู่อื่นสำหรับการขอถอนเงินนี้"
@@ -2260,8 +2266,8 @@ msgstr "บริษัทที่ขึ้นทะเบียนบัญช
 msgid "Unsuccessful %1 password change"
 msgstr "เปลี่ยนรหัสผ่าน %1 ไม่สำเร็จ"
 
-msgid "Unsupported bet class %1."
-msgstr "ไม่รองรับ Bet Class %1"
+msgid "Unsupported contract class %1."
+msgstr "คลาสสัญญาที่ไม่ได้รับการสนับสนุน %1"
 
 msgid "Up to 100 tokens are allowed."
 msgstr "อนุญาตให้ใช้มากสุดถึง 100 โทเคน"
@@ -2803,9 +2809,6 @@ msgstr "คุณได้เปิดบัญชีต่างๆ ที่�
 msgid "You have exceeded %1 %2 in cumulative transactions. To continue, you will need to verify your identity."
 msgstr "คุณได้ทำรายการ %1 %2 เกินกำหนดธุรกรรมสะสมแล้ว หากยังต้องการดําเนินการต่อ คุณต้องทำการยืนยันตัวตน"
 
-msgid "You have exceeded the daily limit for contracts of this type."
-msgstr "คุณได้ทำรายการเกินขีดจำกัดรายวันของสัญญาประเภทนี้แล้ว"
-
 msgid "You have exceeded the open position limit for contracts of this type."
 msgstr "คุณมีจำนวนตำแหน่งการค้าที่เปิดไว้เกินขีดจำกัดสำหรับสัญญาประเภทนี้แล้ว"
 
@@ -2907,6 +2910,9 @@ msgstr "คุณมีรหัสผ่านนักลงทุน %1 อ�
 
 msgid "You've got a new %1 password"
 msgstr "คุณมีรหัสผ่าน %1 อันใหม่"
+
+msgid "You've reached the daily maximum stake amount for this asset. Choose a different asset or trade this asset tomorrow when the daily limit resets at %1 %2 %3 %4 %5 UTC"
+msgstr "คุณถึงจำนวนเงินเดิมพันสูงสุดรายวันสำหรับสินทรัพย์นี้แล้วเลือกสินทรัพย์อื่นหรือซื้อขายสินทรัพย์นี้ในวันพรุ่งนี้เมื่อวงเงินจำกัดรายวันจะรีเซ็ตที่ %1 %2 %3 %4 %5 UTC"
 
 msgid "You've reached the maximum ad limit. Please deactivate some ads."
 msgstr "คุณทำรายการจนถึงขีดจํากัดโฆษณาขั้นสูงสุดแล้ว โปรดปิดใช้งานโฆษณาบางตัว"
@@ -7329,60 +7335,60 @@ msgid "noqodi account"
 msgstr "บัญชี noqodi"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "ใบขับขี่"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "หนังสือเดินทาง"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "รหัสผู้ออกเสียงลงคะแนน"
-
-msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "เอกสาร Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "หมายเลขประจำตัวประชาชน"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "บัตรคนต่างด้าว"
 
 msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "บัตรประจำตัว"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "หมายเลขประจำตัวประชาชน CPF"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "บัตร Aadhaar"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "บัตร PAN"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
+msgid "National ID Number"
+msgstr "หมายเลขประจำตัวประชาชน"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "บัตร Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "รหัสผู้ออกเสียงลงคะแนน"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "ใบขับขี่"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "หนังสือเดินทาง"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "บัตร PAN"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "หมายเลขประจำตัวประชาชน CPF"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "บัตรคนต่างด้าว"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
+
+msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10639,6 +10645,90 @@ msgstr "เราจะไม่แชร์รายการอีเมลแ
 msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
 msgid "Payments blocked. Verify your account"
 msgstr "การชำระเงินถูกบล็อกยืนยันบัญชีของคุณ"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "👋 Hello and welcome to Deriv"
+msgstr "👋 สวัสดีและยินดีต้อนรับสู่ Deriv"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your Deriv journey starts here!"
+msgstr "การเดินทางไปกับ Deriv ของคุณเริ่มต้นแล้วที่นี่!"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Welcome to Deriv! We’re excited to have you with us."
+msgstr "ยินดีต้อนรับสู่ Deriv!เรารู้สึกตื่นเต้นที่จะมีคุณอยู่กับเรา"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Our demo account is your playground, designed to help you unleash your trading potential without the fear of financial risk."
+msgstr "บัญชีทดลองของเราคือสนามฝึกลองเล่นของคุณ โดยออกแบบมาเพื่อช่วยให้คุณได้ปลดปล่อยศักยภาพในการเทรดหรือซื้อขายของคุณโดยที่ไม่ต้องกลัวความเสี่ยงทางการเงิน"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "It comes pre-loaded with 10,000 USD in virtual funds, so you can try trading with various strategies. Don’t worry if you run out of your virtual funds, a simple reset is all it takes to get back in the game."
+msgstr "มันมาพร้อมกับเงินทุนเสมือนจริง 10,000 USD ล่วงหน้าดังนั้นคุณสามารถลองซื้อขายด้วยกลยุทธ์ต่างๆ ได้ไม่ต้องกังวลหากคุณหมดเงินเสมือนจริงการรีเซ็ตอย่างง่ายคือทั้งหมดที่ต้องใช้เพื่อกลับเข้าสู่เกม"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your demo account email:"
+msgstr "อีเมล์บัญชีทดลองของคุณคือ:"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Here’s how you can access your demo account:"
+msgstr "นี่คือวิธีที่คุณสามารถเข้าถึงบัญชีทดลองของคุณได้:"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "%1Need help?%2%3%4Our comprehensive %5FAQ page%6 is always a good start. If you require further assistance, our support team is available 24/7 to help via %7live chat%8 or %9WhatsApp%10."
+msgstr "%1Nช่วยเหลือไหม%2%3%4Oหน้า %5FAQ ที่ครอบคลุม%6 เป็นจุดเริ่มต้นที่ดีเสมอหากคุณต้องการความช่วยเหลือเพิ่มเติม ทีมสนับสนุนของเราพร้อมให้บริการตลอด 24 ชั่วโมงทุกวันเพื่อช่วยเหลือผ่าน %7live chat%8 หรือ %9WhatsApp%10"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "The products offered on our platforms are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money."
+msgstr "ผลิตภัณฑ์ที่นำเสนอบนแพลตฟอร์มของเราเป็นผลิตภัณฑ์อนุพันธ์ที่ซับซ้อนซึ่งมีความเสี่ยงอย่างมีนัยสำคัญต่อการสูญเสียที่อาจเกิดขึ้นCFD เป็นตราสารที่ซับซ้อนที่มีความเสี่ยงสูงที่จะสูญเสียเงินอย่างรวดเร็วเนื่องจากเลเวอเรจคุณควรพิจารณาว่าคุณเข้าใจว่าผลิตภัณฑ์เหล่านี้ทำงานอย่างไรและคุณสามารถรับความเสี่ยงสูงที่จะสูญเสียเงินได้หรือไม่"
+
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
+msgid "This email is a marketing email intended for retail and professional clients and has been issued by Deriv Investments (Europe) Limited, a company incorporated in Malta with registration number C 70156, and its registered address at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
+msgstr "อีเมลนี้เป็นอีเมลการตลาดที่มีไว้สำหรับลูกค้าค้าปลีกและมืออาชีพและได้รับการออกโดย Deriv Investments (Europe) Limited บริษัท ที่จดทะเบียนในมอลตาที่มีหมายเลขจดทะเบียน C 70156 และที่อยู่จดทะเบียนที่ W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta"
+
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
+msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage. 67.28%% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+msgstr "CFD เป็นตราสารที่ซับซ้อนที่มีความเสี่ยงสูงที่จะสูญเสียเงินอย่างรวดเร็วเนื่องจากเลเวอเรจ 67.28% ของบัญชีนักลงทุนรายย่อยสูญเสียเงินเมื่อซื้อขาย CFD กับผู้ให้บริการรายนี้คุณควรพิจารณาว่าคุณเข้าใจวิธีการทำงานของ CFD หรือไม่และคุณสามารถรับความเสี่ยงสูงที่จะสูญเสียเงินของคุณได้หรือไม่"
+
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
+msgid "Make sure to read our %1Terms and Conditions%2, %3Risk Disclosure%4, and %5Secure and Responsible Trading%6 to fully understand the risks involved before using our services. Please also note that the information we provide does not constitute investment advice. The value of investments may go down as well as up."
+msgstr "อย่าลืมอ่าน %1Terms และเงื่อนไข%2, %3การเปิดเผยความเสี่ยง%4และ %5Secure และการซื้อขายที่รับผิดชอบ%6 ของเราเพื่อทำความเข้าใจอย่างเต็มที่เกี่ยวกับความเสี่ยงที่เกี่ยวข้องก่อนใช้บริการของเราโปรดทราบด้วยว่าข้อมูลที่เรามีให้ไม่ได้เป็นคำแนะนำในการลงทุนมูลค่าของการลงทุนอาจลดลงและเพิ่มขึ้น"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "Trade risk-free with your Deriv MT5 demo account"
+msgstr "เทรดโดยปราศจากความเสี่ยงด้วยบัญชีทดลอง Deriv MT5 ของคุณ"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "Here is your login ID for the MT5 platform:"
+msgstr "นี่คือรหัสเข้าสู่ระบบของคุณสำหรับแพลตฟอร์ม MT5:"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "Deriv MT5 %1 Derived %2 %3 %4%5%6"
+msgstr "เดริฟ MT5 %1 ที่ได้มาจาก %2 %3 %4%5%6"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "Your Deriv MT5 demo account is here, offering the perfect environment to practise your trading strategies before using real money."
+msgstr "บัญชีทดลอง Deriv MT5 ของคุณอยู่ที่นี่ซึ่งนำเสนอสภาพแวดล้อมที่สมบูรณ์แบบในการฝึกฝนกลยุทธ์การซื้อขายของคุณก่อนที่จะใช้เงินจริง"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "Visit Trader’s Hub and scroll to the CFDs section to find your Deriv MT5 demo account."
+msgstr "เยี่ยมชม Trader's Hub และเลื่อนไปที่ส่วน CFD เพื่อค้นหาบัญชีทดลอง Deriv MT5 ของคุณ"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "%1Important reminder:%2 MT5 undergoes maintenance every Sunday at 1:00 am GMT."
+msgstr "การแจ้งเตือนที่สำคัญ %1I:%2 MT5 ได้รับการบำรุงรักษาทุกวันอาทิตย์เวลา 1:00 น. GMT"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "Go to Trader’s Hub"
+msgstr "ไปที่ Trader's Hub"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "The products offered on our website are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money."
+msgstr "ผลิตภัณฑ์ที่นำเสนอบนเว็บไซต์ของเรานั้นเป็นผลิตภัณฑ์อนุพันธ์ที่ซับซ้อนและมาพร้อมกับความเสี่ยงสูงที่จะขาดทุนสูญเสีย สัญญาการเทรดส่วนต่างหรือ CFD คือตราสารที่ซับซ้อนที่ซับซ้อนและมาพร้อมกับความเสี่ยงสูงที่จะสูญเสียเงินอย่างรวดเร็วเนื่องจากการใช้เลเวอเรจ ดังนั้นคุณควรพิจารณาว่า คุณเข้าใจวิธีการทำงานของผลิตภัณฑ์เหล่านี้หรือไม่และคุณสามารถรับความเสี่ยงสูงที่จะสูญเสียเงินของคุณได้หรือไม่"
+
+msgctxt "Customer.io email: dummy_all_mt5_signup_demo "
+msgid "Your Deriv MT5 %1 Derived %2  %3 %4 demo account is here 🙌"
+msgstr "บัญชีทดลอง Deriv MT5 %1 Derived %2  %3 %4 ของคุณอยู่ที่นี่ 🙌"
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
