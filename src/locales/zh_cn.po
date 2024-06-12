@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-08 01:32\n"
+"PO-Revision-Date: 2024-06-12 11:48\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1285,6 +1285,9 @@ msgstr "撤消 MT5 账户管理员权限前，请提取账户余款并对所有�
 msgid "Postcode is required for UK residents."
 msgstr "英国居民需提供邮政编码。"
 
+msgid "Priority withdrawal is unavailable. You may use standard withdrawal."
+msgstr "无法优先提款。您可以使用标准提款。"
+
 msgid "Proceed"
 msgstr "执行"
 
@@ -1338,9 +1341,6 @@ msgstr "回复此电子邮件，并附上以下任何一项。"
 
 msgid "Request too frequent. Please try again later."
 msgstr "请求过于频繁。请稍后重试。"
-
-msgid "Requested estimated fee is invalid. Please try submitting the withdrawal again."
-msgstr "所请求估计费用无效。请重新提交取款。"
 
 msgid "Resale not available during rollover time."
 msgstr "展期期间不可转售。"
@@ -2533,9 +2533,6 @@ msgstr "提款金额%1 %2大于账户余额%3 %2。"
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "提款金额%1 %2大于账户提款限额%3 %2。"
 
-msgid "Withdrawal estimated fee for %1 is unavailable"
-msgstr "%1 提款预估费用不可用"
-
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "提款是 %2 %1，但余额包括冻结奖金 %4为 %3 。"
 
@@ -3222,6 +3219,9 @@ msgstr "取款失败。请确认账户有足够资金。"
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "取款已失败。有关详情，已发送邮件给您。"
+
+msgid "Your withdrawal request failed due to changed transaction fees. Resubmit a priority withdrawal request."
+msgstr "由于交易费用变更，您的提款请求失败。重新提交优先提款申请。"
 
 msgid "Your withdrawal request has been pending for too long. We're returning the funds to your account."
 msgstr "提款请求等待太久。资金将退还至账户。"
@@ -7362,28 +7362,8 @@ msgid "noqodi account"
 msgstr "noqodi 账户"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "国民身份证号"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "国民身份证"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "身份证"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "国民身份证号码单"
+msgid "Passport"
+msgstr "护照"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7394,12 +7374,36 @@ msgid "Voter ID"
 msgstr "选民 ID"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "护照"
-
-msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "社会保障和国民保险信托 (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "身份证"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "国民身份证号"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "身份证号"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "侨民卡"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "国民身份证号码单"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "国民身份证"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7410,12 +7414,8 @@ msgid "Aadhaar Card"
 msgstr "Aadhaar 卡"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "侨民卡"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "身份证号"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10870,8 +10870,8 @@ msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgstr "OTP 代码和链接有效时间为 %110分钟%2 。"
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "If you didn’t request to change your phone number, reach out to us via %1live chat%2."
-msgstr "如果您没有请求更改电话号码，请通过 %1实时聊天%2 与我们联系。"
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
+msgstr "如果你没有要求验证你的电话号码，请通过 %1live chat%2联系我们。"
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
 msgid "Important: Verification required"
