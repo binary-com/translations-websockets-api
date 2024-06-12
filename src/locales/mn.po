@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-07 11:43\n"
+"PO-Revision-Date: 2024-06-12 11:48\n"
 "Last-Translator: \n"
 "Language-Team: Mongolian\n"
 "MIME-Version: 1.0\n"
@@ -1285,6 +1285,9 @@ msgstr "MT5 дансны менежерийн зөвшөөрлийг хүчин�
 msgid "Postcode is required for UK residents."
 msgstr "Их Британийн оршин суугчдад шуудангийн код шаардлагатай."
 
+msgid "Priority withdrawal is unavailable. You may use standard withdrawal."
+msgstr "Нэн тэргүүнд татгалзах боломжгүй байна. Та стандарт татгалзахыг ашиглаж болно."
+
 msgid "Proceed"
 msgstr "Цааш үргэлжлүүлнэ"
 
@@ -1338,9 +1341,6 @@ msgstr "Энэ имэйлд хариу бичиж, дараах зүйлсийн
 
 msgid "Request too frequent. Please try again later."
 msgstr "Хэт ойр ойрхон хүсэлт гаргах. Дараа нь дахин оролдоно уу."
-
-msgid "Requested estimated fee is invalid. Please try submitting the withdrawal again."
-msgstr "Хүсэлт гаргасан тооцоолсон хураамж хүчингүй байна. Төлбөрийг дахин илгээж үзээрэй."
 
 msgid "Resale not available during rollover time."
 msgstr "Эргэлтийн үед дахин борлуулах боломжгүй."
@@ -2533,9 +2533,6 @@ msgstr "%1 %2 -ийн зарлагын гүйлгээний дүн таны %3 %
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "%1 %2 -ийн татан авалтын хэмжээ нь таны дансны төлбөрийн %3 %2хязгаараас хэтэрнэ."
 
-msgid "Withdrawal estimated fee for %1 is unavailable"
-msgstr "%1 -ийн тооцоолсон төлбөрийг авах боломжгүй байна"
-
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "Гарах нь %2 %1 боловч тэнцэл %3 хөлдөөсөн урамшуулал %4орно."
 
@@ -3222,6 +3219,9 @@ msgstr "Таны татгалзах амжилтгүй болсон. Таны д
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "Таны татгалзах амжилтгүй болсон. Бид танд дэлгэрэнгүй мэдээлэл бүхий имэйл илгээсэн."
+
+msgid "Your withdrawal request failed due to changed transaction fees. Resubmit a priority withdrawal request."
+msgstr "Гүйлгээний төлбөр өөрчлөгдсөний улмаас таны гарах хүсэлт бүтэлгүйтсэн. Нэн тэргүүнд гарах хүсэлтийг дахин ирүүлнэ үү."
 
 msgid "Your withdrawal request has been pending for too long. We're returning the funds to your account."
 msgstr "Таны татгалзах хүсэлт хэтэрхий удаан хүлээгдэж байсан. Бид таны дансанд хөрөнгийг буцааж өгч байна."
@@ -7362,28 +7362,8 @@ msgid "noqodi account"
 msgstr "бүртгэлийн бүртгэл"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Үндэсний үнэмлэхний дугаар"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Үндэсний таних баримт бичиг"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Цедула де Идентидад"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "ЦПФ"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
+msgid "Passport"
+msgstr "Паспорт"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7394,12 +7374,36 @@ msgid "Voter ID"
 msgstr "Сонгогчийн үнэмлэх"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Паспорт"
-
-msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Нийгмийн аюулгүй байдал ба үндэсний даатгалын итгэлцэл (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Цедула де Идентидад"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Үндэсний үнэмлэхний дугаар"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Индук Цэвэрлэгээний дугаар"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Харь гаригийн карт"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Үндэсний таних баримт бичиг"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7410,12 +7414,8 @@ msgid "Aadhaar Card"
 msgstr "Aadhaar карт"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Харь гаригийн карт"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Индук Цэвэрлэгээний дугаар"
+msgid "CPF"
+msgstr "ЦПФ"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10870,8 +10870,8 @@ msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgstr "OTP код ба холбоос %110 минутын%2 хугацаанд хүчинтэй байна."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "If you didn’t request to change your phone number, reach out to us via %1live chat%2."
-msgstr "Хэрэв та утасны дугаараа өөрчлөх хүсэлт гаргаагүй бол %1амьд чат%2-аар бидэнтэй холбогдоно уу."
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
+msgstr "Хэрэв та утасны дугаараа баталгаажуулах хүсэлт өгөөгүй бол %1live chat%2-ээр бидэнтэй холбоо бариарай."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
 msgid "Important: Verification required"
