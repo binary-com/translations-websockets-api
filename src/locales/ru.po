@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-07 11:43\n"
+"PO-Revision-Date: 2024-06-12 11:48\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -1285,6 +1285,9 @@ msgstr "Перед тем, как отозвать разрешения мене
 msgid "Postcode is required for UK residents."
 msgstr "Почтовый код требуется от резидентов Великобритании."
 
+msgid "Priority withdrawal is unavailable. You may use standard withdrawal."
+msgstr "Приоритетное снятие средств недоступно. Вы можете использовать стандартный вывод средств."
+
 msgid "Proceed"
 msgstr "Продолжить"
 
@@ -1338,9 +1341,6 @@ msgstr "Ответьте на это письмо и приложите любо
 
 msgid "Request too frequent. Please try again later."
 msgstr "Слишком частые запросы. Пожалуйста, попробуйте позже."
-
-msgid "Requested estimated fee is invalid. Please try submitting the withdrawal again."
-msgstr "Не удалось рассчитать комиссию. Попробуйте отправить запрос на вывод еще раз."
 
 msgid "Resale not available during rollover time."
 msgstr "Перепродажа недоступна во время ролловера."
@@ -2533,9 +2533,6 @@ msgstr "Сумма вывода %1 %2 превышает баланс вашег
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "Сумма вывода %1 %2 превышает ваш лимит на вывод средств: %3 %2."
 
-msgid "Withdrawal estimated fee for %1 is unavailable"
-msgstr "Ориентировочная комиссия за вывод %1 недоступна"
-
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "Вывод %2 %1, но баланс %3 включает временно замороженный бонус %4."
 
@@ -3222,6 +3219,9 @@ msgstr "Не удалось вывести средства. Пожалуйст�
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "Не удалось вывести средства. Мы отправили вам электронное письмо с дополнительной информацией."
+
+msgid "Your withdrawal request failed due to changed transaction fees. Resubmit a priority withdrawal request."
+msgstr "Ваш запрос на снятие средств не прошел из-за изменения комиссии за транзакцию. Подайте повторный запрос на приоритетное снятие средств."
 
 msgid "Your withdrawal request has been pending for too long. We're returning the funds to your account."
 msgstr "Ваш запрос на вывод средств находится на рассмотрении слишком долго. Мы возвращаем средства на ваш счет."
@@ -7362,28 +7362,8 @@ msgid "noqodi account"
 msgstr "Счет noqodi"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Номер удостоверения"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Бланк с номером удостоверения"
+msgid "Passport"
+msgstr "Паспорт"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7394,12 +7374,36 @@ msgid "Voter ID"
 msgstr "ID избирателя"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Паспорт"
-
-msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Фонд социального обеспечения и национального страхования (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Номер удостоверения"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Иммиграционная карта"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Бланк с номером удостоверения"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7410,12 +7414,8 @@ msgid "Aadhaar Card"
 msgstr "Карта Aadhaar"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Иммиграционная карта"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10870,8 +10870,8 @@ msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgstr "Код OTP и ссылка будут действительны в течение %110 минут%2."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "If you didn’t request to change your phone number, reach out to us via %1live chat%2."
-msgstr "Если вы не запрашивали изменение номера телефона, свяжитесь с нами через %1чат в реальном времени%2."
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
+msgstr "Если Вы не запросили подтверждение номера телефона, свяжитесь с нами через %1live chat%2."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
 msgid "Important: Verification required"
