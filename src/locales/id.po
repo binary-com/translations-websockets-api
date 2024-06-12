@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-07 11:43\n"
+"PO-Revision-Date: 2024-06-12 11:48\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -1285,6 +1285,9 @@ msgstr "Silakan tutup semua posisi berjalan dan tarik saldo akun Anda terlebih d
 msgid "Postcode is required for UK residents."
 msgstr "Kode pos diharuskan untuk warga negara Inggris."
 
+msgid "Priority withdrawal is unavailable. You may use standard withdrawal."
+msgstr ""
+
 msgid "Proceed"
 msgstr "Memproses"
 
@@ -1338,9 +1341,6 @@ msgstr "Balas ke email ini dan lampirkan salah satu hal berikut ini."
 
 msgid "Request too frequent. Please try again later."
 msgstr "Permintaan terlalu sering. Silakan coba kembali lagi nanti."
-
-msgid "Requested estimated fee is invalid. Please try submitting the withdrawal again."
-msgstr "Estimasi biaya yang diminta tidak valid. Coba kirimkan kembali permohonan penarikan dana Anda."
 
 msgid "Resale not available during rollover time."
 msgstr "Penjualan kembali tidak tersedia selama waktu rollover."
@@ -2533,9 +2533,6 @@ msgstr "Jumlah penarikan sebesar %1 %2 lebih besar dari jumlah saldo Anda %3 %2.
 msgid "Withdrawal amount of %1 %2 exceeds your account withdrawal limit of %3 %2."
 msgstr "Jumlah penarikan sebesar %1 %2 melebihi batas penarikan akun Anda sebesar %3 %2."
 
-msgid "Withdrawal estimated fee for %1 is unavailable"
-msgstr "Estimasi biaya penarikan untuk %1 tidak tersedia"
-
 msgid "Withdrawal is %2 %1 but balance %3 includes frozen bonus %4."
 msgstr "Jumlah penarikan adalah %2 %1 namun saldo %3 termasuk nilai bonus %4 yang dibekukan."
 
@@ -3222,6 +3219,9 @@ msgstr "Penarikan Anda tidak berhasil. Pastikan akun Anda memiliki dana yang cuk
 
 msgid "Your withdrawal is unsuccessful. We've sent you an email with more information."
 msgstr "Penarikan Anda tidak berhasil. Kami telah mengirimi email berisi informasi lebih lanjut."
+
+msgid "Your withdrawal request failed due to changed transaction fees. Resubmit a priority withdrawal request."
+msgstr ""
 
 msgid "Your withdrawal request has been pending for too long. We're returning the funds to your account."
 msgstr "Permintaan penarikan dana Anda sudah tertunda terlalu lama. Kami akan mengembalikan dana ke akun Anda."
@@ -7362,28 +7362,8 @@ msgid "noqodi account"
 msgstr "Akun noqodi"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Nomor Identitas Nasional"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Slip Nomor Induk Kependudukan"
+msgid "Passport"
+msgstr "Paspor"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7394,12 +7374,36 @@ msgid "Voter ID"
 msgstr "Kartu Pemilih"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Paspor"
-
-msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Jaminan Sosial dan Asuransi Nasional (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Nomor Identitas Nasional"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Kartu Pendaftaran Orang Asing (ARC)"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Slip Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7410,12 +7414,8 @@ msgid "Aadhaar Card"
 msgstr "Kartu Aadhaar"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Kartu Pendaftaran Orang Asing (ARC)"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10870,7 +10870,7 @@ msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgstr ""
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "If you didn’t request to change your phone number, reach out to us via %1live chat%2."
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
 msgstr ""
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
