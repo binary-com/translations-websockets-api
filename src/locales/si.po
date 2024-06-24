@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-21 11:35\n"
+"PO-Revision-Date: 2024-06-24 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "MIME-Version: 1.0\n"
@@ -1033,6 +1033,9 @@ msgstr "අවසරය ප්‍රතික්ෂේප විය."
 msgid "Phone number verification"
 msgstr "දුරකථන අංක සත්යාපනය"
 
+msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
+msgstr "MT5 ගිණුමක් නිර්මාණය කිරීම සඳහා භෞතික ලිපිනය අවශ්ය වේ. කරුණාකර අපගේ පාරිභෝගික සහාය කණ්ඩායම අමතන්න."
+
 msgid "Please accept Funds Protection."
 msgstr "කරුණාකර අරමුදල් ආරක්ෂණය පිළිගන්න."
 
@@ -1680,6 +1683,12 @@ msgstr "ඔබේ ලේඛනයේ රූප ගුණත්වය ඉතා �
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "ඔබ භාවිත කළ සබැඳිය වලංගු නොවන බව පෙනේ. කරුණාකර පරීක්ෂා කර නැවත උත්සාහ කරන්න."
+
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "ලොජිනිඩ් පරාමිතිය අතුරුදහන් හෝ අවලංගු වේ. බහු ටෝකන් භාවිතා කරන විට කරුණාකර වලංගු ලොජිනිඩ් එකක් ලබා දෙන්න."
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "එක් ටෝකනයක් පමණක් භාවිතා කරන විට ලොජිනිඩ් පරාමිතිය අවශ්ය නොවේ."
 
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "තැන්පතු සඳහා උපරිම මුදල % 1 % 2 වේ. කරුණාකර ඔබේ මුදල ගළපන්න."
@@ -2478,6 +2487,9 @@ msgstr "වෙනත් ගනුදෙනුකරුවෙක් ඔබේ ග
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "කාඩ්පත් භාවිත කරන විට, පහත තොරතුරු පමණක් පෙනෙන බව සහතික කර ගන්න:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "බහු ටෝකන් භාවිතා කරන විට, බලපත්ර MULTI ලෙස සකසන්න."
 
 msgid "Withdrawal"
 msgstr "ආපසු ගැනීම"
@@ -7327,26 +7339,6 @@ msgid "National ID Number"
 msgstr "ජාතික හැඳුනුම්පත් අංකය"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ඡන්ද දායක හැඳුනුම්පත"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "රියදුරු බලපත්‍රය"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "ගමන් බලපත්‍රය"
-
-msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "Cédula de Identidad"
 
@@ -7355,20 +7347,32 @@ msgid "CPF"
 msgstr "CPF"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar කාඩ්පත"
+msgid "Drivers License"
+msgstr "රියදුරු බලපත්‍රය"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "ගමන් බලපත්‍රය"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "ඡන්ද දායක හැඳුනුම්පත"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN කාඩ්පත"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "Aadhaar Card"
+msgstr "Aadhaar කාඩ්පත"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
@@ -7377,6 +7381,14 @@ msgstr "ඒලියන් කාඩ්පත"
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
