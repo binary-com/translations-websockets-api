@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-21 11:34\n"
+"PO-Revision-Date: 2024-06-24 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -575,13 +575,13 @@ msgid "If you didn’t request a new password or have any questions, %1contact u
 msgstr "إذا لم تطلب كلمة مرور جديدة أو لديك أي أسئلة، %1اتصل بنا%2 عبر الدردشة المباشرة."
 
 msgid "If you didn’t request for a new %3 password or have any questions, %1contact us%2 via live chat."
-msgstr "إذا لم تطلب كلمة مرور جديدة 3% أو لديك أي أسئلة، 1% اتصل بنا 2% عبر الدردشة الفورية."
+msgstr "إذا لم تطلب كلمة مرور جديدة 3% أو لديك أي أسئلة، 1%اتصل بنا2% عبر الدردشة الفورية."
 
 msgid "If you didn’t request for a new password, %1contact us%2 via live chat on our website."
 msgstr "إذا لم تطلب كلمة مرور جديدة، 1% اتصل بنا 2% عبر الدردشة الفورية على موقعنا."
 
 msgid "If you have any questions, please %1contact us via live chat%2."
-msgstr "إذا كانت لديك أي أسئلة، فيرجى 1% الاتصال بنا عبر الدردشة 2% الفورية."
+msgstr "إذا كانت لديك أي أسئلة، فيرجى 1%الاتصال بنا عبر الدردشة2% الفورية."
 
 msgid "If you wish to reset your DMT5 account password, please click on the button below:"
 msgstr "إذا كنت ترغب في إعادة ضبط كلمة مرور حساب DMT5 الخاص بك ، فيرجى النقر فوق الزر أدناه:"
@@ -1032,6 +1032,9 @@ msgstr "تم رفض الإذن."
 
 msgid "Phone number verification"
 msgstr "التحقق من رقم الهاتف"
+
+msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
+msgstr "العنوان الفعلي مطلوب لإنشاء حساب MT5. يُرجى الاتصال بفريق دعم العملاء لدينا."
 
 msgid "Please accept Funds Protection."
 msgstr "يرجى قبول حماية الأموال."
@@ -1681,6 +1684,12 @@ msgstr "جودة صورة المستند غير جيدة أبدا. يرجى تق
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "يبدو أن الرابط الذي استخدمته غير صالح. يرجى التحقق والمحاولة مرة أخرى."
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "معلمة معرف تسجيل الدخول مفقودة أو غير صالحة. يرجى تقديم معرف تسجيل دخول صالح عند استخدام رموز متعددة."
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "معلمة معرف تسجيل الدخول غير مطلوبة عند استخدام رمز مميز واحد فقط."
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "الحد الأقصى للمبلغ المودع هو %1 %2. يرجى تعديل المبلغ الخاص بك."
 
@@ -2147,7 +2156,7 @@ msgid "Transfer from Deriv X account %1. %2."
 msgstr "التحويل من حسابDeriv X الخاص بك %1. %2."
 
 msgid "Transfer from MT5 account %1"
-msgstr "التحويل من حساب MT5 الخاص بك %1"
+msgstr "التحويل من حساب MT5 الخاص بك 1%"
 
 msgid "Transfer from MT5 account %1. %2."
 msgstr "التحويل من حساب MT5 الخاص بك %1. %2."
@@ -2478,6 +2487,9 @@ msgstr "لقد اكتشفنا أن عميلا آخر يستخدم طريقة ا�
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "عند استخدام البطاقات، تأكد من أن المعلومات التالية فقط هي المرئية:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "عند استخدام رموز متعددة، قم بتعيين التفويض إلى MULTI."
 
 msgid "Withdrawal"
 msgstr "سحب"
@@ -7327,26 +7339,6 @@ msgid "National ID Number"
 msgstr "رقم الهوية الوطنية"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "هوية الناخب"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "رخص قيادة"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "صندوق الضمان الاجتماعي والتأمين الوطني (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "جواز سفر"
-
-msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "بطاقة الهوية"
 
@@ -7355,20 +7347,32 @@ msgid "CPF"
 msgstr "سي بي إف"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "صندوق الضمان الاجتماعي والتأمين الوطني (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "بطاقة أدهار"
+msgid "Drivers License"
+msgstr "رخص قيادة"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "جواز سفر"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "هوية الناخب"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "بطاقة الهوية الوطنية"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "بطاقة بان"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "بطاقة الهوية الوطنية"
+msgid "Aadhaar Card"
+msgstr "بطاقة أدهار"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
@@ -7377,6 +7381,14 @@ msgstr "بطاقة Alien"
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "قسيمة رقم الهوية الوطنية"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
