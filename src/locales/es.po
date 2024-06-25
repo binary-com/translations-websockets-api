@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-24 23:05\n"
+"PO-Revision-Date: 2024-06-25 12:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 no está disponible como método de pago para este anuncio."
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 no es compatible en este momento."
+
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "%1 es similar a un método de pago P2P disponible. Intente introducir un método de pago diferente."
 
 msgid "%1 permissions have changed please re-confirm:"
 msgstr "Los permisos de %1 han cambiado, por favor, reconfirme:"
@@ -1552,6 +1555,9 @@ msgstr "Este apodo está ocupado. Elija otro."
 msgid "That password is incorrect. Please try again."
 msgstr "Esa contraseña es incorrecta. Inténtelo de nuevo."
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr "Los datos de %1 que ha introducido ya están siendo utilizados por otro anunciante. Utilice otros datos o póngase en contacto con nosotros a través del chat en directo para obtener más ayuda."
+
 msgid "The %1 team."
 msgstr "El equipo de %1."
 
@@ -1683,12 +1689,6 @@ msgstr "La calidad de imagen de su documento es demasiado baja. Por favor, propo
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "Parece que el enlace que ha utilizado no es válido. Por favor revíselo e intente de nuevo."
-
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "El parámetro loginid falta o no es válido. Por favor, proporcione un loginid válido cuando se utilicen múltiples tokens."
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr "El parámetro loginid no es necesario cuando sólo se utiliza un token."
 
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "El monto máximo para depósitos es %1 %2. Por favor, ajuste su cantidad."
@@ -2487,9 +2487,6 @@ msgstr "Hemos detectado que otro cliente está utilizando su método de pago. Pa
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "Al utilizar tarjetas, asegúrese de que solo sea visible la siguiente información:"
-
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr "Cuando utilice varios tokens, ajuste autorizar a MULTI."
 
 msgid "Withdrawal"
 msgstr "Retirada"
@@ -7339,16 +7336,12 @@ msgid "National ID Number"
 msgstr "Número de Identificación Nacional"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
+msgid "Voter ID"
+msgstr "ID de votante"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Fideicomiso de Seguros de la Seguridad Social y Nacional (SSNIT)"
+msgid "Aadhaar Card"
+msgstr "Tarjeta Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7359,28 +7352,24 @@ msgid "Passport"
 msgstr "Pasaporte"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID de votante"
+msgid "PAN Card"
+msgstr "Tarjeta PAN"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Tarjeta PAN"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Tarjeta Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Tarjeta Alien"
-
-msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "Documento de Identificación Nacional provisional"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Fideicomiso de Seguros de la Seguridad Social y Nacional (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
@@ -7389,6 +7378,14 @@ msgstr "Clave Única de Registro de Población"
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Tarjeta Alien"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10855,8 +10852,8 @@ msgid "If the button doesn’t work, copy and paste the link below into a new br
 msgstr "Si el botón no funciona, copie y pegue el enlace a continuación en una nueva ventana del navegador."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
-msgstr "El código OTP y el enlace serán válidos durante %110 minutos%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
+msgstr "El código OTP y el enlace seguirán siendo válidos durante %1 10 minutos%2."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
 msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
