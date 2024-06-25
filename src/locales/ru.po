@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-24 12:37\n"
+"PO-Revision-Date: 2024-06-25 12:07\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 недоступен в качестве платежного мет�
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 в данный момент не поддерживается."
+
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "%1 похож на доступный способ оплаты P2P. Попробуйте ввести другой способ оплаты."
 
 msgid "%1 permissions have changed please re-confirm:"
 msgstr "Разрешения %1 изменены, подтвердите еще раз:"
@@ -1552,6 +1555,9 @@ msgstr "Этот псевдоним занят. Выберите другой."
 msgid "That password is incorrect. Please try again."
 msgstr "Это неверный пароль. Пожалуйста, попробуйте еще раз."
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr "Введенные Вами данные %1 уже используются другим рекламодателем. Используйте другие данные или свяжитесь с нами через чат для получения дальнейшей помощи."
+
 msgid "The %1 team."
 msgstr "Команда %1."
 
@@ -1683,12 +1689,6 @@ msgstr "Качество изображения вашего документа 
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "Кажется, вы использовали недействительную ссылку. Проверьте ссылку и попробуйте снова."
-
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "Параметр loginid отсутствует или недействителен. Пожалуйста, укажите действительный логин, если используется несколько токенов."
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr "Параметр loginid не требуется, если используется только один токен."
 
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Максимальная сумма пополнения: %1 %2. Пожалуйста, измените сумму."
@@ -2487,9 +2487,6 @@ msgstr "Мы обнаружили, что другой клиент исполь
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "Убедитесь, что на карте видна только следующая информация:"
-
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr "При использовании нескольких токенов установите для параметра authorize значение MULTI."
 
 msgid "Withdrawal"
 msgstr "Вывод"
@@ -7339,16 +7336,12 @@ msgid "National ID Number"
 msgstr "Номер удостоверения"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
+msgid "Voter ID"
+msgstr "ID избирателя"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Фонд социального обеспечения и национального страхования (SSNIT)"
+msgid "Aadhaar Card"
+msgstr "Карта Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7359,28 +7352,24 @@ msgid "Passport"
 msgstr "Паспорт"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID избирателя"
+msgid "PAN Card"
+msgstr "Карта PAN"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Карта PAN"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Карта Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Иммиграционная карта"
-
-msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "Бланк с номером удостоверения"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Фонд социального обеспечения и национального страхования (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
@@ -7389,6 +7378,14 @@ msgstr "Clave Única de Registro de Población"
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Иммиграционная карта"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10855,8 +10852,8 @@ msgid "If the button doesn’t work, copy and paste the link below into a new br
 msgstr "Если кнопка не работает, скопируйте и вставьте ссылку ниже в новое окно браузера."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
-msgstr "Код OTP и ссылка будут действительны в течение %110 минут%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
+msgstr "Код OTP и ссылка будут действительны в течение %1 10 минут%2."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
 msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
