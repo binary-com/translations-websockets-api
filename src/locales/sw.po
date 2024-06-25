@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-24 12:37\n"
+"PO-Revision-Date: 2024-06-25 13:10\n"
 "Last-Translator: \n"
 "Language-Team: Swahili\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 haipatikani kama njia ya malipo kwa tangazo hili."
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 haiungwa mkono kwa sasa."
+
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "%1 ni sawa na njia inayopatikana ya malipo ya P2P. Jaribu kuingiza njia tofauti ya malipo."
 
 msgid "%1 permissions have changed please re-confirm:"
 msgstr "Ruhusa za %1 zimebadilika tafadhali thibitisha tena:"
@@ -1552,6 +1555,9 @@ msgstr "Jina hilo linachukuliwa. Chagua mwingine."
 msgid "That password is incorrect. Please try again."
 msgstr "Nenosiri hilo si sahihi. Tafadhali jaribu tena."
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr "Maelezo ya %1 uliyoingiza tayari yanatumiwa na mtangazaji mwingine. Tumia maelezo tofauti au wasiliana nasi kupitia gumzo la moja kwa moja kwa usaidizi zaidi."
+
 msgid "The %1 team."
 msgstr "Timu ya %1 ."
 
@@ -1683,12 +1689,6 @@ msgstr "Ubora wa picha wa hati yako ni chini sana. Tafadhali toa picha ya hi-res
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "Kiungo ulichotumia kinaonekana kuwa halali. Tafadhali angalia na jaribu tena."
-
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "Kipimo cha loginid hakuna au haina halali. Tafadhali toa loginid halali wakati ishara nyingi zinatumiwa."
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr "Kipimo cha loginid haihitajiki wakati ishara moja tu inayotumiwa."
 
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Kiasi cha juu cha amana ni %1 %2. Tafadhali rekebisha kiasi chako."
@@ -2487,9 +2487,6 @@ msgstr "Tumegundua kuwa mteja mwingine anatumia njia yako ya malipo. Ili kuhakik
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "Wakati wa kutumia kadi, hakikisha kuwa habari zifuatazo tu inaonekana:"
-
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr "Unapotumia ishara nyingi, weka idhini kwa MULTI."
 
 msgid "Withdrawal"
 msgstr "Kutoa"
@@ -7339,16 +7336,12 @@ msgid "National ID Number"
 msgstr "Nambari ya Kitambulisho cha"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Kitambulisho cha Utambulisho"
+msgid "Voter ID"
+msgstr "Kitambulisho cha kura"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Usalama wa Jamii na Bima ya Kitaifa (SSNIT)"
+msgid "Aadhaar Card"
+msgstr "Kadi ya Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7359,28 +7352,24 @@ msgid "Passport"
 msgstr "Pasipoti"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Kitambulisho cha kura"
+msgid "PAN Card"
+msgstr "Kadi ya PAN"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Hati ya Kitaifa ya Utambulisho"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Kadi ya PAN"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Kadi ya Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Kadi ya wageni"
-
-msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "Slip ya Nambari ya Kitambulisho"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Usalama wa Jamii na Bima ya Kitaifa (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Kitambulisho cha Utambulisho"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
@@ -7389,6 +7378,14 @@ msgstr "Kifunguo pekee cha Usajili wa Wakazi"
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nambari ya Induk ya Induction"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Kadi ya wageni"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10855,8 +10852,8 @@ msgid "If the button doesn’t work, copy and paste the link below into a new br
 msgstr "Ikiwa kitufe hakifanyi kazi, nakili na ubandike kiungo hapa chini katika dirisha jipya la kivinjari."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
-msgstr "Msimbo wa OTP na kiungo vitabaki kuwa halali kwa %1dakika 10%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
+msgstr "Nambari ya OTP na kiungo vitabaki halali kwa %1 dakika 10%2."
 
 msgctxt "Customer.io email: dummy_phone_number_verification "
 msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
