@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-21 11:34\n"
+"PO-Revision-Date: 2024-06-24 12:37\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -97,6 +97,11 @@ msgstr "La méthode de paiement %1 n'est pas disponible pour cette annonce."
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 n'est pas pris en charge pour le moment."
+
+#, fuzzy
+#| msgid "%1 is not available as a payment method for this advert."
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "La méthode de paiement %1 n'est pas disponible pour cette annonce."
 
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "%1 doit être fourni pour les contrats à barrières multiples."
@@ -5127,10 +5132,8 @@ msgstr "Numéro de téléphone ou UPID"
 msgid "Phone number verification"
 msgstr "Vérification du numéro de téléphone"
 
-#, fuzzy
-#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
-msgstr "Vous n'êtes pas en mesure d'effectuer de dépôt, car votre compte MT5 est désactivé. Veuillez contacter notre Service client."
+msgstr "Une adresse physique est nécessaire pour créer un compte MT5. Veuillez contacter notre équipe d'assistance à la clientèle."
 
 msgid "Platinum/USD"
 msgstr "Platine/USD"
@@ -6650,14 +6653,20 @@ msgstr "Ce nom est déjà utilisé. Choisissez-en un autre."
 msgid "That password is incorrect. Please try again."
 msgstr "Mot de passe incorrect. Veuillez réessayer."
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr ""
+
 msgid "The %1 team."
 msgstr "L'équipe %1."
 
 msgid "The IDV result is missing."
 msgstr "Le résultat de la vérification d'identité est manquant."
 
+#, fuzzy
+#| msgctxt "Customer.io email: dummy_phone_number_verification "
+#| msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
 msgstr "Le code OTP et le lien resteront valides pendant %110 minutes%2."
 
 msgid "The OTP is not valid"
@@ -6814,14 +6823,6 @@ msgstr "La qualité d'image de votre document est trop faible. Veuillez fournir 
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "Le lien que vous avez utilisé semble incorrect. Veuillez vérifier et réessayer."
-
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "Client manquant, veuillez insérer un client valide."
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
 
 msgid "The market must be open at the start time."
 msgstr "Le marché doit être ouvert à l'heure de début."
@@ -9106,9 +9107,6 @@ msgstr "WhatsApp"
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "Lorsque vous utilisez des cartes, veillez à ce que seules les informations suivantes soient visibles :"
 
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
-
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Gagner %6 %5 fois %1 clôture moins le plus bas à %3."
 
@@ -10913,3 +10911,12 @@ msgstr "● Les détails de votre compte"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Salut et bienvenue sur Deriv"
+
+#~ msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+#~ msgstr "Le paramètre loginid est manquant ou invalide. Veuillez fournir un identifiant de connexion valide lorsque plusieurs jetons sont utilisés."
+
+#~ msgid "The loginid parameter is not required when only one token is used."
+#~ msgstr "Le paramètre loginid n'est pas nécessaire lorsqu'un seul jeton est utilisé."
+
+#~ msgid "When using multiple tokens, set authorize to MULTI."
+#~ msgstr "Si vous utilisez plusieurs jetons, réglez l'autorisation sur MULTI."

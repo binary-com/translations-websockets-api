@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-21 11:35\n"
+"PO-Revision-Date: 2024-06-24 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -97,6 +97,11 @@ msgstr "%1 недоступен в качестве платежного мет�
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 в данный момент не поддерживается."
+
+#, fuzzy
+#| msgid "%1 is not available as a payment method for this advert."
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "%1 недоступен в качестве платежного метода для этого объявления."
 
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "Необходимо указать %1 для мультибарьерных контрактов."
@@ -5127,10 +5132,8 @@ msgstr "Телефон или UPID"
 msgid "Phone number verification"
 msgstr "Проверка номера телефона"
 
-#, fuzzy
-#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
-msgstr "Вы не можете сделать депозит, потому что ваш счет MT5 деактивирован. Пожалуйста, свяжитесь с нашей службой поддержки."
+msgstr "Для создания счета MT5 требуется физический адрес. Пожалуйста, свяжитесь с нашей службой поддержки клиентов."
 
 msgid "Platinum/USD"
 msgstr "Платина/USD"
@@ -6650,14 +6653,20 @@ msgstr "Этот псевдоним занят. Выберите другой."
 msgid "That password is incorrect. Please try again."
 msgstr "Это неверный пароль. Пожалуйста, попробуйте еще раз."
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr ""
+
 msgid "The %1 team."
 msgstr "Команда %1."
 
 msgid "The IDV result is missing."
 msgstr "Результат IDV отсутствует."
 
+#, fuzzy
+#| msgctxt "Customer.io email: dummy_phone_number_verification "
+#| msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
 msgstr "Код OTP и ссылка будут действительны в течение %110 минут%2."
 
 msgid "The OTP is not valid"
@@ -6814,14 +6823,6 @@ msgstr "Качество изображения вашего документа 
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "Кажется, вы использовали недействительную ссылку. Проверьте ссылку и попробуйте снова."
-
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "Клиент отсутствует, укажите действительного клиента."
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
 
 msgid "The market must be open at the start time."
 msgstr "Рынок должен быть открыт на момент начала."
@@ -9106,9 +9107,6 @@ msgstr "WhatsApp"
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "Убедитесь, что на карте видна только следующая информация:"
 
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
-
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Выиграйте %6, помноженные на %5 от цены закрытия %1 минус мин. цена на момент %3."
 
@@ -10913,3 +10911,12 @@ msgstr "● Данные Вашего счета"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Здравствуйте и добро пожаловать в Deriv"
+
+#~ msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+#~ msgstr "Параметр loginid отсутствует или недействителен. Пожалуйста, укажите действительный логин, если используется несколько токенов."
+
+#~ msgid "The loginid parameter is not required when only one token is used."
+#~ msgstr "Параметр loginid не требуется, если используется только один токен."
+
+#~ msgid "When using multiple tokens, set authorize to MULTI."
+#~ msgstr "При использовании нескольких токенов установите для параметра authorize значение MULTI."

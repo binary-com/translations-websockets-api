@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-22 00:37\n"
+"PO-Revision-Date: 2024-06-25 00:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -97,6 +97,11 @@ msgstr "%1 不可作为此广告的付款方式。"
 
 msgid "%1 is not supported at the moment."
 msgstr "%1目前不受支持。"
+
+#, fuzzy
+#| msgid "%1 is not available as a payment method for this advert."
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "%1 不可作为此广告的付款方式。"
 
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "多重障碍合约必须有%1。"
@@ -5127,10 +5132,8 @@ msgstr "电话号码或 UPID"
 msgid "Phone number verification"
 msgstr "电话号码验证"
 
-#, fuzzy
-#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
-msgstr "无法存款，因为 MT5 账户已禁用。请联系客服团队。"
+msgstr "开立 MT5 账户需要实际地址。请联系客户支持团队。"
 
 msgid "Platinum/USD"
 msgstr "白金/美元"
@@ -6650,14 +6653,20 @@ msgstr "该昵称已被使用。请选择另一个。"
 msgid "That password is incorrect. Please try again."
 msgstr "密码不正确。请重试。"
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr ""
+
 msgid "The %1 team."
 msgstr "%1 团队。"
 
 msgid "The IDV result is missing."
 msgstr "IDV 结果缺失。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: dummy_phone_number_verification "
+#| msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
 msgstr "OTP 代码和链接有效时间为 %110分钟%2 。"
 
 msgid "The OTP is not valid"
@@ -6814,14 +6823,6 @@ msgstr "证件的图像质量太低。请提供身份证件的高清照片。"
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "使用的链接似乎无效。请检查并重试。"
-
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "客户缺失，请提供有效客户。"
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
 
 msgid "The market must be open at the start time."
 msgstr "市场开始时必须已经开市。"
@@ -9106,9 +9107,6 @@ msgstr "WhatsApp"
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "使用卡时，请确保仅显示以下信息："
 
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
-
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "%3时赢取%6 %5乘以%1的收盘值减最低值。"
 
@@ -10913,3 +10911,12 @@ msgstr "● 您的账户详情"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 您好，欢迎来到 Deriv"
+
+#~ msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+#~ msgstr "loginid 参数缺失或无效。使用多个令牌时，请提供有效的登录名。"
+
+#~ msgid "The loginid parameter is not required when only one token is used."
+#~ msgstr "仅使用一个令牌时，不需要 loginid 参数。"
+
+#~ msgid "When using multiple tokens, set authorize to MULTI."
+#~ msgstr "使用多个令牌时，将授权设置为 MULTI。"

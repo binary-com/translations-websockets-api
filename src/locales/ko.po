@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-21 11:34\n"
+"PO-Revision-Date: 2024-06-24 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -97,6 +97,11 @@ msgstr "%1은(는) 이 광고를 위한 결제 수단으로 이용할 수 없습
 
 msgid "%1 is not supported at the moment."
 msgstr "%1은(는) 현재 지원되지 않습니다."
+
+#, fuzzy
+#| msgid "%1 is not available as a payment method for this advert."
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "%1은(는) 이 광고를 위한 결제 수단으로 이용할 수 없습니다."
 
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "%1는 반드시 다중 장벽 계약을 위해 공급되어야 합니다."
@@ -5127,10 +5132,8 @@ msgstr "전화번호 또는 UPID"
 msgid "Phone number verification"
 msgstr "전화번호 인증"
 
-#, fuzzy
-#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
-msgstr "귀하의 MT5 계좌가 비활성화되어 있기 때문에 귀하께서는 예금을 하실 수 없습니다. 저희의 고객 지원팀에 연락 하시기 바랍니다."
+msgstr "MT5 계정을 만들려면 실제 주소가 필요합니다. 고객 지원팀에 문의하세요."
 
 msgid "Platinum/USD"
 msgstr "백금/USD"
@@ -6650,14 +6653,20 @@ msgstr "해당 닉네임은 이미 사용중입니다. 다른 닉네임을 선�
 msgid "That password is incorrect. Please try again."
 msgstr "해당 비밀번호는 잘못되었습니다. 다시 시도해 주시기 바랍니다."
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr ""
+
 msgid "The %1 team."
 msgstr "%1 팀."
 
 msgid "The IDV result is missing."
 msgstr "IDV 결과가 필요합니다."
 
+#, fuzzy
+#| msgctxt "Customer.io email: dummy_phone_number_verification "
+#| msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
 msgstr "OTP 코드와 링크는 %110분%2 동안 유효합니다."
 
 msgid "The OTP is not valid"
@@ -6814,14 +6823,6 @@ msgstr "귀하의 문서의 이미지 품질이 너무 낮습니다. 귀하의 �
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "귀하께서 이용하신 해당 링크가 유효하지 않은 것으로 보입니다. 다시 확인 및 시도해 주시기 바랍니다."
-
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "고객 정보가 필요합니다, 유효한 고객을 입력해 주시기 바랍니다."
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
 
 msgid "The market must be open at the start time."
 msgstr "해당 시장은 반드시 시작시간에 열려야 합니다."
@@ -9106,9 +9107,6 @@ msgstr "왓츠앱 (WhatsApp)"
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "카드를 사용하실 때에는, 오직 다음의 정보만 보여질 수 있도록 해주세요:"
 
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
-
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "%1의 종가에서 %3에서의 저가를 뺀 부분에 %5배의 %6을 획득하세요."
 
@@ -10913,3 +10911,12 @@ msgstr "계정 세부 정보"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 안녕하세요, Deriv에 오신 것을 환영합니다."
+
+#~ msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+#~ msgstr "loginid 매개변수가 누락되었거나 유효하지 않습니다. 여러 토큰을 사용하는 경우 유효한 로그인 아이디를 입력하세요."
+
+#~ msgid "The loginid parameter is not required when only one token is used."
+#~ msgstr "하나의 토큰만 사용하는 경우 로그인ID 매개변수는 필요하지 않습니다."
+
+#~ msgid "When using multiple tokens, set authorize to MULTI."
+#~ msgstr "여러 개의 토큰을 사용하는 경우 권한을 MULTI로 설정합니다."

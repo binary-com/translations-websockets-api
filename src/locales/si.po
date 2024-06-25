@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-21 11:35\n"
+"PO-Revision-Date: 2024-06-24 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "Language: si_LK\n"
@@ -97,6 +97,11 @@ msgstr "මෙම දැන්වීම සඳහා ගෙවීම් ක්�
 
 msgid "%1 is not supported at the moment."
 msgstr "මේ මොහොතේ %1 සඳහා සහාය නොදක්වයි."
+
+#, fuzzy
+#| msgid "%1 is not available as a payment method for this advert."
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "මෙම දැන්වීම සඳහා ගෙවීම් ක්‍රමයක් ලෙස %1 ලබා ගත නොහැක."
 
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "බහු බාධක ගිවිසුම් සඳහා %1 සැපයිය යුතුය."
@@ -5127,10 +5132,8 @@ msgstr "දුරකථන අංකය හෝ UPID"
 msgid "Phone number verification"
 msgstr "දුරකථන අංක සත්යාපනය"
 
-#, fuzzy
-#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
-msgstr "ඔබේ MT5 ගිණුම අබල කර ඇති නිසා ඔබට තැන්පතුවක් කළ නොහැක. කරුණාකර අපගේ පාරිභෝගික සහය කණ්ඩායම අමතන්න."
+msgstr "MT5 ගිණුමක් නිර්මාණය කිරීම සඳහා භෞතික ලිපිනය අවශ්ය වේ. කරුණාකර අපගේ පාරිභෝගික සහාය කණ්ඩායම අමතන්න."
 
 msgid "Platinum/USD"
 msgstr "ප්ලැටිනම්/USD"
@@ -6650,14 +6653,20 @@ msgstr "එම අන්වර්ථ නාමය දැනටමත් භා�
 msgid "That password is incorrect. Please try again."
 msgstr "එම මුරපදය වැරදියි. කරුණාකර නැවත උත්සාහ කරන්න."
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr ""
+
 msgid "The %1 team."
 msgstr "%1 කණ්ඩායම."
 
 msgid "The IDV result is missing."
 msgstr "IDV ප්‍රතිඵලය අස්ථානගත වී ඇත."
 
+#, fuzzy
+#| msgctxt "Customer.io email: dummy_phone_number_verification "
+#| msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
 msgstr "OTP කේතය සහ සබැඳිය විනාඩි %110ක්%2 සඳහා වලංගු වේ."
 
 msgid "The OTP is not valid"
@@ -6814,14 +6823,6 @@ msgstr "ඔබේ ලේඛනයේ රූප ගුණත්වය ඉතා �
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "ඔබ භාවිත කළ සබැඳිය වලංගු නොවන බව පෙනේ. කරුණාකර පරීක්ෂා කර නැවත උත්සාහ කරන්න."
-
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "සේවාදායකයා අතුරුදහන් වී ඇත, කරුණාකර වලංගු සේවාදායකයෙකු සපයන්න."
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
 
 msgid "The market must be open at the start time."
 msgstr "ආරම්භක වේලාවේදී වෙළඳපල විවෘතව තිබිය යුතුය."
@@ -9106,9 +9107,6 @@ msgstr "WhatsApp"
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "කාඩ්පත් භාවිත කරන විට, පහත තොරතුරු පමණක් පෙනෙන බව සහතික කර ගන්න:"
 
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
-
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "%3ට %1 හි close සෘණ low වරක් %6 %5 බැගින් දිනා ගන්න."
 
@@ -10913,3 +10911,12 @@ msgstr "● ඔබේ ගිණුම් විස්තර"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 ආයුබෝවන් සහ ඩෙරිව් වෙත සාදරයෙන් පිළිගනිමු"
+
+#~ msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+#~ msgstr "ලොජිනිඩ් පරාමිතිය අතුරුදහන් හෝ අවලංගු වේ. බහු ටෝකන් භාවිතා කරන විට කරුණාකර වලංගු ලොජිනිඩ් එකක් ලබා දෙන්න."
+
+#~ msgid "The loginid parameter is not required when only one token is used."
+#~ msgstr "එක් ටෝකනයක් පමණක් භාවිතා කරන විට ලොජිනිඩ් පරාමිතිය අවශ්ය නොවේ."
+
+#~ msgid "When using multiple tokens, set authorize to MULTI."
+#~ msgstr "බහු ටෝකන් භාවිතා කරන විට, බලපත්ර MULTI ලෙස සකසන්න."

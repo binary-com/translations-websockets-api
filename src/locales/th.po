@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-21 11:35\n"
+"PO-Revision-Date: 2024-06-24 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -97,6 +97,11 @@ msgstr "%1 ไม่สามารถใช้เป็นวิธีการ
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 ไม่ได้รับการรองรับในขณะนี้"
+
+#, fuzzy
+#| msgid "%1 is not available as a payment method for this advert."
+msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
+msgstr "%1 ไม่สามารถใช้เป็นวิธีการชำระเงินสำหรับโฆษณานี้ได้"
 
 msgid "%1 must be supplied for multi barrier contracts."
 msgstr "ค่า %1 ต้องนำมาใช้กับสัญญาที่มีหลายเส้นระดับราคาเป้าหมาย"
@@ -5127,10 +5132,8 @@ msgstr "หมายเลขโทรศัพท์หรือ UPID"
 msgid "Phone number verification"
 msgstr "การยืนยันหมายเลขโทรศัพท์"
 
-#, fuzzy
-#| msgid "You cannot make a deposit because your MT5 account is disabled. Please contact our Customer Support team."
 msgid "Physical address is required to create an MT5 account. Please contact our Customer Support team."
-msgstr "คุณไม่สามารถทำการฝากเงินได้เนื่องจากบัญชี MT5 ของคุณถูกปิดการใช้งาน โปรดติดต่อทีมสนับสนุนลูกค้าของเรา"
+msgstr "จำเป็นต้องมีที่อยู่ทางกายภาพในการสร้างบัญชี MT5กรุณาติดต่อทีมสนับสนุนลูกค้าของเรา"
 
 msgid "Platinum/USD"
 msgstr "Platinum/USD"
@@ -6650,14 +6653,20 @@ msgstr "ชื่อเล่นนี้ถูกนำไปใช้แล้
 msgid "That password is incorrect. Please try again."
 msgstr "รหัสผ่านนั้นไม่ถูกต้อง โปรดลองอีกครั้ง"
 
+msgid "The %1 details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance."
+msgstr ""
+
 msgid "The %1 team."
 msgstr "ทีมงาน %1"
 
 msgid "The IDV result is missing."
 msgstr "ผลลัพธ์ IDV หายไป"
 
+#, fuzzy
+#| msgctxt "Customer.io email: dummy_phone_number_verification "
+#| msgid "The OTP code and link will remain valid for %110 minutes%2."
 msgctxt "Customer.io email: dummy_phone_number_verification "
-msgid "The OTP code and link will remain valid for %110 minutes%2."
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
 msgstr "รหัส OTP และลิงก์จะมีอายุ %110 นาที%2"
 
 msgid "The OTP is not valid"
@@ -6814,14 +6823,6 @@ msgstr "เอกสารของคุณมีคุณภาพของภ
 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "ลิงก์ที่คุณใช้ดูเหมือนจะไม่ถูกต้อง กรุณาตรวจสอบและลองใหม่อีกครั้ง"
-
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
-msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "ลูกค้าผู้ใช้งานหายไป โปรดระบุลูกค้าผู้ใช้งานที่ถูกต้อง"
-
-msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
 
 msgid "The market must be open at the start time."
 msgstr "ตลาดจะต้องเปิด ณ เวลาเริ่มต้นนั้น"
@@ -9106,9 +9107,6 @@ msgstr "แอป WhatsApp"
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "เมื่อใช้การ์ด โปรดตรวจดูให้แน่ใจว่ามองเห็นได้เฉพาะข้อมูลต่อไปนี้เท่านั้น:"
 
-msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
-
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "ทำกำไรได้ %6 %5 เท่าของการเอาจุดราคาปิดลบจุดราคาต่ำของ %1 ที่ %3"
 
@@ -10913,3 +10911,12 @@ msgstr "●  รายละเอียดบัญชีของคุณ"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 สวัสดีและยินดีต้อนรับสู่ Deriv"
+
+#~ msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+#~ msgstr "พารามิเตอร์ loginid หายไปหรือไม่ถูกต้องโปรดระบุล็อกอินที่ถูกต้องเมื่อใช้โทเค็นหลายตัว"
+
+#~ msgid "The loginid parameter is not required when only one token is used."
+#~ msgstr "ไม่จำเป็นต้องใช้พารามิเตอร์ loginid เมื่อใช้โทเค็นเดียวเท่านั้น"
+
+#~ msgid "When using multiple tokens, set authorize to MULTI."
+#~ msgstr "เมื่อใช้โทเค็นหลายตัว ให้ตั้งสิทธิ์เป็น MULTI"
