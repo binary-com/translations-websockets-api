@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-30 11:21\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -366,6 +366,9 @@ msgstr "จำนวนเงินทุนทรัพย์ในสัญญ
 
 msgid "Copier can't be a trader."
 msgstr "ผู้คัดสำเนาไม่สามารถเป็นเทรดเดอร์ได้"
+
+msgid "Could not generate OTP, please try again in a few minutes"
+msgstr "ไม่สามารถสร้าง OTP ได้ โปรดลองอีกครั้งในไม่กี่นาที"
 
 msgid "Could not retrieve contract details"
 msgstr "ไม่พบรายละเอียดสัญญา"
@@ -1693,6 +1696,12 @@ msgstr "เอกสารของคุณมีคุณภาพของภ
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "ลิงก์ที่คุณใช้ดูเหมือนจะไม่ถูกต้อง กรุณาตรวจสอบและลองใหม่อีกครั้ง"
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "พารามิเตอร์ loginid หายไปหรือไม่ถูกต้องโปรดระบุล็อกอินที่ถูกต้องเมื่อใช้โทเค็นหลายตัว"
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "ไม่จำเป็นต้องใช้พารามิเตอร์ loginid เมื่อใช้โทเค็นเดียวเท่านั้น"
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "จำนวนสูงสุดของเงินฝากคือ %1 %2 โปรดปรับจำนวนเงินของคุณ"
 
@@ -1743,6 +1752,9 @@ msgstr "ไม่มีรหัสวิธีการชำระเงิน
 
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "ฟีเจอร์วิธีการชำระเงินไม่พร้อมใช้งานใน Deriv P2P ในขณะนี้ โปรดกลับมาตรวจดูในภายหลัง"
+
+msgid "The phone number is not available."
+msgstr "หมายเลขโทรศัพท์ไม่สามารถใช้ได้"
 
 msgid "The proof of ownership id provided is not valid"
 msgstr "หมายเลข ID หลักฐานการเป็นเจ้าของดังกล่าวนั้นไม่ถูกต้อง"
@@ -1998,6 +2010,9 @@ msgstr "ลูกค้าภายในจะไม่ได้รับอน
 
 msgid "This feature is not available for virtual accounts."
 msgstr "ฟีเจอร์นี้ไม่สามารถใช้ได้กับบัญชีเสมือน"
+
+msgid "This feature is not available to virtual accounts."
+msgstr "คุณลักษณะนี้ไม่สามารถใช้ได้กับบัญชีเสมือน"
 
 msgid "This feature is only available for accounts with crypto as currency."
 msgstr "ฟีเจอร์นี้ใช้ได้เฉพาะบัญชีสกุลเงินคริปโตเท่านั้น"
@@ -2493,6 +2508,9 @@ msgstr "เราตรวจพบว่ามีลูกค้ารายอ
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "เมื่อใช้การ์ด โปรดตรวจดูให้แน่ใจว่ามองเห็นได้เฉพาะข้อมูลต่อไปนี้เท่านั้น:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "เมื่อใช้โทเค็นหลายตัว ให้ตั้งสิทธิ์เป็น MULTI"
 
 msgid "Withdrawal"
 msgstr "การถอนเงิน"
@@ -7342,48 +7360,16 @@ msgid "Documento Nacional de Identidad"
 msgstr "เอกสาร Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "หมายเลขประจำตัวประชาชน"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "บัตรประจำตัว"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "หมายเลขประจำตัวประชาชน CPF"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
+msgid "Alien Card"
+msgstr "บัตรคนต่างด้าว"
 
 msgctxt "IDV document type "
 msgid "Passport"
 msgstr "หนังสือเดินทาง"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "บัตรคนต่างด้าว"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "บัตร PAN"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "ใบขับขี่"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "บัตร Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "รหัสผู้ออกเสียงลงคะแนน"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
+msgid "National ID Number"
+msgstr "หมายเลขประจำตัวประชาชน"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
@@ -7392,6 +7378,38 @@ msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "รหัสผู้ออกเสียงลงคะแนน"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "ใบขับขี่"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "หมายเลขประจำตัวประชาชน CPF"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "บัตร PAN"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "บัตร Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "บัตรประจำตัว"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10804,4 +10822,8 @@ msgstr "เนื่องจากปัญหาทางเทคนิค �
 msgctxt "Customer.io email: P2P15 float ads deactivated "
 msgid "Action needed: Use fixed rates on Deriv P2P"
 msgstr "การดำเนินการที่จำเป็น: ใช้อัตราคงที่กับ Deriv P2P"
+
+msgctxt "Phone Number Verification SMS content "
+msgid "Your verification code is: %1. This code is valid for 10 minutes."
+msgstr "รหัสยืนยันของคุณคือ: %1รหัสนี้ใช้ได้เป็นเวลา 10 นาที"
 
