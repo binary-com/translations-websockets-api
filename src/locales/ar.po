@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-01 03:16\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -366,6 +366,9 @@ msgstr "مبلغ حصة العقد أكثر من الحد الأقصى لسعر 
 
 msgid "Copier can't be a trader."
 msgstr "الناسخ لا يمكن أن يكون متداولا."
+
+msgid "Could not generate OTP, please try again in a few minutes"
+msgstr "تعذر إنشاء كلمة المرور لمرة واحدة، يرجى المحاولة مرة أخرى بعد بضع دقائق"
 
 msgid "Could not retrieve contract details"
 msgstr "تعذر استرداد تفاصيل العقد"
@@ -1693,6 +1696,12 @@ msgstr "جودة صورة المستند غير جيدة أبدا. يرجى تق
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "يبدو أن الرابط الذي استخدمته غير صالح. يرجى التحقق والمحاولة مرة أخرى."
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "معلمة معرف تسجيل الدخول مفقودة أو غير صالحة. يرجى تقديم معرف تسجيل دخول صالح عند استخدام رموز متعددة."
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "معلمة معرف تسجيل الدخول غير مطلوبة عند استخدام رمز مميز واحد فقط."
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "الحد الأقصى للمبلغ المودع هو %1 %2. يرجى تعديل المبلغ الخاص بك."
 
@@ -1743,6 +1752,9 @@ msgstr "معرف طريقة الدفع غير متوفر."
 
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "ميزة طريقة الدفع غير متوفرة على P2P حتى الآن. يرجى التحقق مرة أخرى في وقت لاحق."
+
+msgid "The phone number is not available."
+msgstr "رقم الهاتف غير متاح."
 
 msgid "The proof of ownership id provided is not valid"
 msgstr "إثبات هوية الملكية غير صالح"
@@ -1998,6 +2010,9 @@ msgstr "هذه الميزة غير مسموح بها للعملاء الداخل
 
 msgid "This feature is not available for virtual accounts."
 msgstr "هذه الميزة غير متوفرة للحسابات الافتراضية."
+
+msgid "This feature is not available to virtual accounts."
+msgstr "لا تتوفر هذه الميزة للحسابات الافتراضية."
 
 msgid "This feature is only available for accounts with crypto as currency."
 msgstr "هذه الميزة متاحة فقط للحسابات ذات العملات المشفرة."
@@ -2493,6 +2508,9 @@ msgstr "لقد اكتشفنا أن عميلا آخر يستخدم طريقة ا�
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "عند استخدام البطاقات، تأكد من أن المعلومات التالية فقط هي المرئية:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "عند استخدام رموز متعددة، قم بتعيين التفويض إلى MULTI."
 
 msgid "Withdrawal"
 msgstr "سحب"
@@ -7338,12 +7356,24 @@ msgid "noqodi account"
 msgstr "حساب نقودي"
 
 msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "بطاقة الهوية الوطنية"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "بطاقة Alien"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "جواز سفر"
+
+msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "رقم الهوية الوطنية"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "رخص قيادة"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7354,32 +7384,8 @@ msgid "Voter ID"
 msgstr "هوية الناخب"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "جواز سفر"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "بطاقة الهوية"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "بطاقة الهوية الوطنية"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "بطاقة بان"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "بطاقة أدهار"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "قسيمة رقم الهوية الوطنية"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Drivers License"
+msgstr "رخص قيادة"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
@@ -7390,8 +7396,20 @@ msgid "CPF"
 msgstr "سي بي إف"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "بطاقة Alien"
+msgid "PAN Card"
+msgstr "بطاقة بان"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "بطاقة أدهار"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "بطاقة الهوية"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "قسيمة رقم الهوية الوطنية"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10804,4 +10822,8 @@ msgstr "نظرا لمشاكل فنية، اضطررنا إلى العودة إل
 msgctxt "Customer.io email: P2P15 float ads deactivated "
 msgid "Action needed: Use fixed rates on Deriv P2P"
 msgstr "الإجراء المطلوب: استخدم معدلات ثابتة على Deriv P2P"
+
+msgctxt "Phone Number Verification SMS content "
+msgid "Your verification code is: %1. This code is valid for 10 minutes."
+msgstr "رمز التحقق الخاص بك هو: %1. هذا الرمز صالح لمدة 10 دقائق."
 
