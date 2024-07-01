@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-01 03:17\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -366,6 +366,9 @@ msgstr "Jumlah harga kontrak melebihi jumlah harga pembelian maksimal."
 
 msgid "Copier can't be a trader."
 msgstr "Copier tidak bisa menjadi trader."
+
+msgid "Could not generate OTP, please try again in a few minutes"
+msgstr "Tidak dapat membuat OTP, silakan coba lagi dalam beberapa menit"
 
 msgid "Could not retrieve contract details"
 msgstr "Tidak dapat mengambil rincian kontrak"
@@ -1693,6 +1696,12 @@ msgstr "Kualitas gambar dokumen Anda sangat rendah. Mohon kirimkan foto dokumen 
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "Tautan yang Anda gunakan tidak valid. Silakan periksa dan coba lagi."
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "Parameter loginid hilang atau tidak valid. Silakan berikan loginid yang valid saat beberapa token digunakan."
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "Parameter loginid tidak diperlukan saat hanya satu token digunakan."
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "Jumlah deposit maksimum adalah %1 %2. Mohon sesuaikan jumlah Anda."
 
@@ -1743,6 +1752,9 @@ msgstr "ID metode pembayaran tidak tersedia."
 
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "Fitur metode pembayaran belum tersedia di P2P. Silakan periksa kembali nanti."
+
+msgid "The phone number is not available."
+msgstr "Nomor telepon tidak tersedia."
 
 msgid "The proof of ownership id provided is not valid"
 msgstr "Bukti kepemilikan id yang diberikan tidak valid"
@@ -1997,6 +2009,9 @@ msgid "This feature is not allowed for internal clients."
 msgstr "Fitur ini tidak diperbolehkan untuk klien internal."
 
 msgid "This feature is not available for virtual accounts."
+msgstr "Fitur ini tidak tersedia untuk akun virtual."
+
+msgid "This feature is not available to virtual accounts."
 msgstr "Fitur ini tidak tersedia untuk akun virtual."
 
 msgid "This feature is only available for accounts with crypto as currency."
@@ -2493,6 +2508,9 @@ msgstr "Kami mendeteksi bahwa terdapat klien lain yang menggunakan metode pembay
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "Saat menggunakan kartu, pastikan hanya informasi berikut yang terlihat:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "Ketika menggunakan beberapa token, atur authorize menjadi MULTI."
 
 msgid "Withdrawal"
 msgstr "Penarikan"
@@ -7338,12 +7356,24 @@ msgid "noqodi account"
 msgstr "Akun noqodi"
 
 msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Kartu Pendaftaran Orang Asing (ARC)"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Paspor"
+
+msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Nomor Identitas Nasional"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "SIM"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7354,32 +7384,8 @@ msgid "Voter ID"
 msgstr "Kartu Pemilih"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Paspor"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Kartu PAN"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Kartu Aadhaar"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Slip Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Drivers License"
+msgstr "SIM"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
@@ -7390,8 +7396,20 @@ msgid "CPF"
 msgstr "CPF"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Kartu Pendaftaran Orang Asing (ARC)"
+msgid "PAN Card"
+msgstr "Kartu PAN"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Kartu Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Slip Nomor Induk Kependudukan"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10804,4 +10822,8 @@ msgstr "Berhubung masalah teknis, kami harus mengalihkan kembali ke harga tetap 
 msgctxt "Customer.io email: P2P15 float ads deactivated "
 msgid "Action needed: Use fixed rates on Deriv P2P"
 msgstr "Tindakan yang diperlukan: Gunakan nilai tukar tetap pada Deriv P2P"
+
+msgctxt "Phone Number Verification SMS content "
+msgid "Your verification code is: %1. This code is valid for 10 minutes."
+msgstr "Kode verifikasi Anda adalah: %1. Kode ini berlaku selama 10 menit."
 
