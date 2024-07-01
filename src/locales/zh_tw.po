@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-01 03:16\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -366,6 +366,9 @@ msgstr "合約投注額大於最大購入價。"
 
 msgid "Copier can't be a trader."
 msgstr "跟單者不可成為交易員。"
+
+msgid "Could not generate OTP, please try again in a few minutes"
+msgstr "無法產生 OTP，請在幾分鐘後再試一次"
 
 msgid "Could not retrieve contract details"
 msgstr "無法提取合約詳細資料"
@@ -1693,6 +1696,12 @@ msgstr "文件的影像品質太低。請提供高解析度的身份證件照片
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "使用的連結似乎無效。請檢查並重試。"
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "登入 ID 參數遺失或無效。使用多個令牌時，請提供有效的登錄 ID。"
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "只使用一個令牌時，不需要 loginid 參數。"
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "最大存款金額為%1 %2。請更改金額。"
 
@@ -1743,6 +1752,9 @@ msgstr "付款方法 ID 不存在。"
 
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "P2P 目前無法使用此付款方法功能。請稍後再查看。"
+
+msgid "The phone number is not available."
+msgstr "電話號碼不可用。"
 
 msgid "The proof of ownership id provided is not valid"
 msgstr "所提供的擁有權 Id 證明無效"
@@ -1998,6 +2010,9 @@ msgstr "內部客戶不可使用此功能。"
 
 msgid "This feature is not available for virtual accounts."
 msgstr "此功能不適用於虛擬帳戶。"
+
+msgid "This feature is not available to virtual accounts."
+msgstr "虛擬帳戶無法使用此功能。"
 
 msgid "This feature is only available for accounts with crypto as currency."
 msgstr "此功能僅適用於採用加密貨幣的帳戶。"
@@ -2493,6 +2508,9 @@ msgstr "發現另一客戶正在使用您的付款方式。為了確保帳戶的
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "使用卡時，請確保僅顯示以下資訊："
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "使用多個令牌時，將授權設置為 MULTI。"
 
 msgid "Withdrawal"
 msgstr "提款"
@@ -7338,12 +7356,24 @@ msgid "noqodi account"
 msgstr "noqodi 帳戶"
 
 msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "國民身份證"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "僑民卡"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "護照"
+
+msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "國民身份證號"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "駕照"
+msgid "Nomor Induk Kependudukan"
+msgstr "身分證號"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7354,32 +7384,8 @@ msgid "Voter ID"
 msgstr "選民 ID"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "護照"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "身分證"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "國民身份證"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN 卡"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar 卡"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "國民身份證號碼單"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "身分證號"
+msgid "Drivers License"
+msgstr "駕照"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
@@ -7390,8 +7396,20 @@ msgid "CPF"
 msgstr "CPF"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "僑民卡"
+msgid "PAN Card"
+msgstr "PAN 卡"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Aadhaar 卡"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "身分證"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "國民身份證號碼單"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10804,4 +10822,8 @@ msgstr "由于技术问题，不得不将 %1 恢复为固定汇率。 请立即�
 msgctxt "Customer.io email: P2P15 float ads deactivated "
 msgid "Action needed: Use fixed rates on Deriv P2P"
 msgstr "需要采取的行动：在 Deriv P2P 使用固定汇率"
+
+msgctxt "Phone Number Verification SMS content "
+msgid "Your verification code is: %1. This code is valid for 10 minutes."
+msgstr "您的驗證碼是： %1。此代碼有效期為 10 分鐘。"
 
