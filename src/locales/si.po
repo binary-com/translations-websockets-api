@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-28 11:35\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "MIME-Version: 1.0\n"
@@ -366,6 +366,9 @@ msgstr "ගිවිසුමේ කොටස් මුදල උපරිම �
 
 msgid "Copier can't be a trader."
 msgstr "පිටපත් කරන්නා ගනුදෙනුකරුවෙකු විය නොහැක."
+
+msgid "Could not generate OTP, please try again in a few minutes"
+msgstr "OTP ජනනය කළ නොහැකි විය, කරුණාකර මිනිත්තු කිහිපයකින් නැවත උත්සාහ කරන්න"
 
 msgid "Could not retrieve contract details"
 msgstr "ගිවිසුමේ විස්තර ලබා ගැනීමට නොහැකි විය"
@@ -1693,6 +1696,12 @@ msgstr "ඔබේ ලේඛනයේ රූප ගුණත්වය ඉතා �
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "ඔබ භාවිත කළ සබැඳිය වලංගු නොවන බව පෙනේ. කරුණාකර පරීක්ෂා කර නැවත උත්සාහ කරන්න."
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "ලොජිනිඩ් පරාමිතිය අතුරුදහන් හෝ අවලංගු වේ. බහු ටෝකන් භාවිතා කරන විට කරුණාකර වලංගු ලොජිනිඩ් එකක් ලබා දෙන්න."
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "එක් ටෝකනයක් පමණක් භාවිතා කරන විට ලොජිනිඩ් පරාමිතිය අවශ්ය නොවේ."
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "තැන්පතු සඳහා උපරිම මුදල % 1 % 2 වේ. කරුණාකර ඔබේ මුදල ගළපන්න."
 
@@ -1743,6 +1752,9 @@ msgstr "ගෙවීම් ක්‍රමයේ හැඳුනුම්පත 
 
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "තවම P2P හි ගෙවීම් ක්‍රම විශේෂාංගය ලබා ගත නොහැක. කරුණාකර පසුව නැවත පරීක්ෂා කරන්න."
+
+msgid "The phone number is not available."
+msgstr "දුරකථන අංකය නොමැත."
 
 msgid "The proof of ownership id provided is not valid"
 msgstr "සපයා ඇති හිමිකාරත්ව හැඳුනුම්පත වලංගු නොවේ"
@@ -1998,6 +2010,9 @@ msgstr "මෙම විශේෂාංගය අභ්‍යන්තර ගන
 
 msgid "This feature is not available for virtual accounts."
 msgstr "මෙම විශේෂාංගය අතථ්‍ය ගිණුම් සඳහා ලබා ගත නොහැක."
+
+msgid "This feature is not available to virtual accounts."
+msgstr "මෙම විශේෂාංගය අතථ්ය ගිණුම් සඳහා ලබා ගත නොහැක."
 
 msgid "This feature is only available for accounts with crypto as currency."
 msgstr "මෙම විශේෂාංගය ලබා ගත හැක්කේ ක්‍රිප්ටෝ මුදල් ඒකකය ලෙස ඇති ගිණුම් සඳහා පමණි."
@@ -2493,6 +2508,9 @@ msgstr "වෙනත් ගනුදෙනුකරුවෙක් ඔබේ ග
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "කාඩ්පත් භාවිත කරන විට, පහත තොරතුරු පමණක් පෙනෙන බව සහතික කර ගන්න:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "බහු ටෝකන් භාවිතා කරන විට, බලපත්ර MULTI ලෙස සකසන්න."
 
 msgid "Withdrawal"
 msgstr "ආපසු ගැනීම"
@@ -7342,6 +7360,10 @@ msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "ඒලියන් කාඩ්පත"
+
+msgctxt "IDV document type "
 msgid "Passport"
 msgstr "ගමන් බලපත්‍රය"
 
@@ -7350,48 +7372,44 @@ msgid "National ID Number"
 msgstr "ජාතික හැඳුනුම්පත් අංකය"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "ඒලියන් කාඩ්පත"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar කාඩ්පත"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "රියදුරු බලපත්‍රය"
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "ඡන්ද දායක හැඳුනුම්පත"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN කාඩ්පත"
+msgid "Drivers License"
+msgstr "රියදුරු බලපත්‍රය"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
+msgid "PAN Card"
+msgstr "PAN කාඩ්පත"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Aadhaar කාඩ්පත"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10804,4 +10822,8 @@ msgstr "තාක්ෂණික ගැටළු හේතුවෙන්, අ�
 msgctxt "Customer.io email: P2P15 float ads deactivated "
 msgid "Action needed: Use fixed rates on Deriv P2P"
 msgstr "ක්‍රියාමාර්ග අවශ්‍යයි: Deriv P2P මත ස්ථාවර ගාස්තු භාවිත කරන්න"
+
+msgctxt "Phone Number Verification SMS content "
+msgid "Your verification code is: %1. This code is valid for 10 minutes."
+msgstr "ඔබගේ සත්යාපන කේතය වන්නේ: %1. මෙම කේතය විනාඩි 10 ක් සඳහා වලංගු වේ."
 
