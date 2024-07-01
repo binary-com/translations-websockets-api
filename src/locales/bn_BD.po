@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-28 11:35\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "MIME-Version: 1.0\n"
@@ -366,6 +366,9 @@ msgstr "চুক্তির শেয়ারের পরিমাণ সর
 
 msgid "Copier can't be a trader."
 msgstr "কপিয়ার একজন ব্যবসায়ী হতে পারে না।"
+
+msgid "Could not generate OTP, please try again in a few minutes"
+msgstr "ওটিপি তৈরি করা যায়নি, দয়া করে কয়েক মিনিটের মধ্যে আবার চেষ্টা করুন"
 
 msgid "Could not retrieve contract details"
 msgstr "চুক্তির বিবরণ পুনরুদ্ধার করা যায়নি"
@@ -1693,6 +1696,12 @@ msgstr "আপনার নথির ছবির গুণমান খুব�
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "আপনি যে লিঙ্কটি ব্যবহার করেছেন তা অবৈধ বলে মনে হচ্ছে৷ পরীক্ষা করে আবার চেষ্টা করুন, অনুগ্রহ করে।"
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "লগিনিড প্যারামিটারটি অনুপস্থিত বা অবৈধ। একাধিক টোকেন ব্যবহার করা হলে অনুগ্রহ করে একটি বৈধ লগিনিড সরবরাহ করুন।"
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "শুধুমাত্র একটি টোকেন ব্যবহার করা হলে লগিনিড প্যারামিটারের প্রয়োজন হয় না।"
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "আমানতের জন্য সর্বাধিক পরিমাণ হল %1 %2। আপনার পরিমাণ সমন্বয় করুন."
 
@@ -1743,6 +1752,9 @@ msgstr "পেমেন্ট পদ্ধতি আইডি বিদ্যম
 
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "পেমেন্ট পদ্ধতি বৈশিষ্ট্য এখনও P2P এ উপলব্ধ নয়। পরে আবার চেক করুন, অনুগ্রহ করে।"
+
+msgid "The phone number is not available."
+msgstr "ফোন নম্বর পাওয়া যায় না।"
 
 msgid "The proof of ownership id provided is not valid"
 msgstr "প্রদত্ত মালিকানা আইডির প্রমাণ বৈধ নয়"
@@ -1998,6 +2010,9 @@ msgstr "এই বৈশিষ্ট্যটি অভ্যন্তরীণ 
 
 msgid "This feature is not available for virtual accounts."
 msgstr "এই বৈশিষ্ট্যটি ভার্চুয়াল অ্যাকাউন্টগুলির জন্য উপলব্ধ নয়৷"
+
+msgid "This feature is not available to virtual accounts."
+msgstr "এই বৈশিষ্ট্যটি ভার্চুয়াল অ্যাকাউন্টগুলিতে উপলব্ধ নয়।"
 
 msgid "This feature is only available for accounts with crypto as currency."
 msgstr "এই বৈশিষ্ট্যটি শুধুমাত্র মুদ্রা হিসাবে ক্রিপ্টো সহ অ্যাকাউন্টগুলির জন্য উপলব্ধ৷"
@@ -2493,6 +2508,9 @@ msgstr "আমরা শনাক্ত করেছি যে অন্য ক�
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "কার্ড ব্যবহার করার সময়, নিশ্চিত করুন যে শুধুমাত্র নিম্নলিখিত তথ্যগুলি দৃশ্যমান:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "একাধিক টোকেন ব্যবহার করার সময়, MULTI এ অনুমোদন সেট করুন।"
 
 msgid "Withdrawal"
 msgstr "উত্তোলন"
@@ -7342,6 +7360,10 @@ msgid "Documento Nacional de Identidad"
 msgstr "জাতীয় পরিচয়পত্র"
 
 msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "এলিয়েন কার্ড"
+
+msgctxt "IDV document type "
 msgid "Passport"
 msgstr "পাসপোর্ট"
 
@@ -7350,48 +7372,44 @@ msgid "National ID Number"
 msgstr "জাতীয় পরিচয়পত্র নাম্বার"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "এলিয়েন কার্ড"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "আধার কার্ড"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "ড্রাইভার লাইসেন্স"
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "সামাজিক নিরাপত্তা এবং জাতীয় বীমা ট্রাস্ট (SSNIT)"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "ভোটার আইডি"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "প্যান কার্ড"
+msgid "Drivers License"
+msgstr "ড্রাইভার লাইসেন্স"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ন্যাশনাল আইডি নাম্বার স্লিপ"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "সামাজিক নিরাপত্তা এবং জাতীয় বীমা ট্রাস্ট (SSNIT)"
+msgid "PAN Card"
+msgstr "প্যান কার্ড"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "আধার কার্ড"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "ন্যাশনাল আইডি নাম্বার স্লিপ"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10804,4 +10822,8 @@ msgstr "প্রযুক্তিগত সমস্যার কারণে,
 msgctxt "Customer.io email: P2P15 float ads deactivated "
 msgid "Action needed: Use fixed rates on Deriv P2P"
 msgstr "প্রয়োজনীয় পদক্ষেপ: Deriv P2P-এ নির্দিষ্ট হার ব্যবহার করুন"
+
+msgctxt "Phone Number Verification SMS content "
+msgid "Your verification code is: %1. This code is valid for 10 minutes."
+msgstr "আপনার যাচাইকরণ কোড হল: %1। এই কোডটি 10 মিনিটের জন্য বৈধ।"
 
