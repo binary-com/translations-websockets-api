@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-28 11:35\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -366,6 +366,9 @@ msgstr "계약의 지분 금액은 최대 매입 가격보다 더 큽니다."
 
 msgid "Copier can't be a trader."
 msgstr "복사자는 트레이더가 될 수 없습니다."
+
+msgid "Could not generate OTP, please try again in a few minutes"
+msgstr "OTP를 생성할 수 없습니다. 몇 분 후에 다시 시도하세요."
 
 msgid "Could not retrieve contract details"
 msgstr "계약의 세부정보를 불러오지 못했습니다"
@@ -1693,6 +1696,12 @@ msgstr "귀하의 문서의 이미지 품질이 너무 낮습니다. 귀하의 �
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "귀하께서 이용하신 해당 링크가 유효하지 않은 것으로 보입니다. 다시 확인 및 시도해 주시기 바랍니다."
 
+msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
+msgstr "loginid 매개변수가 누락되었거나 유효하지 않습니다. 여러 토큰을 사용하는 경우 유효한 로그인 아이디를 입력하세요."
+
+msgid "The loginid parameter is not required when only one token is used."
+msgstr "하나의 토큰만 사용하는 경우 로그인ID 매개변수는 필요하지 않습니다."
+
 msgid "The maximum amount for deposits is %1 %2. Please adjust your amount."
 msgstr "예금 최대 금액은 %1 %2입니다. 귀하의 금액을 조정해 주시기 바랍니다."
 
@@ -1743,6 +1752,9 @@ msgstr "해당 지불 방식 ID는 존재하지 않습니다."
 
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "해당 지불 방식 기능은 P2P에서는 아직 이용하실 수 없습니다. 나중에 다시 확인해 주시기 바랍니다."
+
+msgid "The phone number is not available."
+msgstr "전화번호를 사용할 수 없습니다."
 
 msgid "The proof of ownership id provided is not valid"
 msgstr "제공된 아이디 소유권 증명은 유효하지 않습니다"
@@ -1998,6 +2010,9 @@ msgstr "해당 기능은 내부 고객분들에게는 허용되지 않습니다.
 
 msgid "This feature is not available for virtual accounts."
 msgstr "이 기능은 가상 계좌에서는 이용하실 수 없습니다."
+
+msgid "This feature is not available to virtual accounts."
+msgstr "가상 계정에서는 이 기능을 사용할 수 없습니다."
 
 msgid "This feature is only available for accounts with crypto as currency."
 msgstr "이 기능은 통화가 암호화폐로 되어 있는 계좌들에 대해서만 활용될 수 있습니다."
@@ -2493,6 +2508,9 @@ msgstr "저희는 다른 고객이 귀하의 결제 방식을 이용하고 있�
 
 msgid "When using cards, ensure that only the following information is visible:"
 msgstr "카드를 사용하실 때에는, 오직 다음의 정보만 보여질 수 있도록 해주세요:"
+
+msgid "When using multiple tokens, set authorize to MULTI."
+msgstr "여러 개의 토큰을 사용하는 경우 권한을 MULTI로 설정합니다."
 
 msgid "Withdrawal"
 msgstr "인출"
@@ -7342,6 +7360,10 @@ msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "외국인 카드 (Alien Card)"
+
+msgctxt "IDV document type "
 msgid "Passport"
 msgstr "여권"
 
@@ -7350,48 +7372,44 @@ msgid "National ID Number"
 msgstr "국민식별번호"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "외국인 카드 (Alien Card)"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "아다르 카드 (Aadhaar Card)"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "운전 면허증"
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "투표자 ID"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN 카드"
+msgid "Drivers License"
+msgstr "운전 면허증"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "국민식별번호 슬립"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Social Security and National Insurance Trust (SSNIT)"
+msgid "PAN Card"
+msgstr "PAN 카드"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "아다르 카드 (Aadhaar Card)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "국민식별번호 슬립"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10804,4 +10822,8 @@ msgstr "기술적인 문제때문에, 저희는 %1에 대하여 고정금리로 
 msgctxt "Customer.io email: P2P15 float ads deactivated "
 msgid "Action needed: Use fixed rates on Deriv P2P"
 msgstr "액션이 필요합니다: Deriv P2P에서 고정률을 이용하세요"
+
+msgctxt "Phone Number Verification SMS content "
+msgid "Your verification code is: %1. This code is valid for 10 minutes."
+msgstr "인증 코드는 %1입니다. 이 코드는 10분 동안 유효합니다."
 
