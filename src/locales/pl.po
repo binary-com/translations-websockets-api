@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-28 11:35\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -1674,10 +1674,8 @@ msgstr "Cordoba oro"
 msgid "Costa Rican Colon"
 msgstr "Colon kostarykański"
 
-#, fuzzy
-#| msgid "Error validating your transaction, please try again in a few minutes."
 msgid "Could not generate OTP, please try again in a few minutes"
-msgstr "Wystąpił błąd podczas zatwierdzania Twojej transakcji. Spróbuj ponownie za kilka minut."
+msgstr "Nie można wygenerować OTP, spróbuj ponownie za kilka minut"
 
 msgid "Could not retrieve contract details"
 msgstr "Nie udało się pobrać szczegółów kontraktu"
@@ -6779,13 +6777,11 @@ msgstr "Jakość zdjęcia Twojego dokumentu jest zbyt niska. Zrób zdjęcie swoj
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "Wygląda na to, że użyty link jest nieprawidłowy. Sprawdź je i spróbuj ponownie."
 
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
 msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "Brakuje klienta; proszę podać prawidłową nazwę klienta."
+msgstr "Brak parametru loginid lub jest nieprawidłowy. Proszę podać prawidłowy identyfikator logowania, gdy używanych jest wiele tokenów."
 
 msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
+msgstr "Parametr loginid nie jest wymagany, gdy używany jest tylko jeden token."
 
 msgid "The market must be open at the start time."
 msgstr "Rynek musi być otwarty w porze rozpoczęcia."
@@ -6847,10 +6843,8 @@ msgstr "Identyfikator metody płatności nie istnieje."
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "Funkcja metody płatności nie jest jeszcze dostępna na P2P. Prosimy spróbować później."
 
-#, fuzzy
-#| msgid "This symbol is not available."
 msgid "The phone number is not available."
-msgstr "Ten symbol jest niedostępny."
+msgstr "Numer telefonu nie jest dostępny."
 
 msgctxt "Customer.io email: mf_france_transactional_real_signup "
 msgid "The products may be affected by changes in currency exchange rates; If you invest in this product, you may lose some or all of the money you invest; The value of your investment may go down as well as up."
@@ -7195,8 +7189,6 @@ msgstr "Ta funkcja nie jest dostępna dla klientów wewnętrznych."
 msgid "This feature is not available for virtual accounts."
 msgstr "Ta funkcja nie jest dostępna dla kont wirtualnych."
 
-#, fuzzy
-#| msgid "This feature is not available for virtual accounts."
 msgid "This feature is not available to virtual accounts."
 msgstr "Ta funkcja nie jest dostępna dla kont wirtualnych."
 
@@ -9064,7 +9056,7 @@ msgid "When using cards, ensure that only the following information is visible:"
 msgstr "Podczas korzystania z kart upewnij się, że widoczne są tylko następujące informacje:"
 
 msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
+msgstr "W przypadku korzystania z wielu tokenów ustaw autoryzuj na MULTI."
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "Wygraj %5 %6 razy cenę zamknięcia na rynku: %1 minus niską cenę o %3."
@@ -10273,10 +10265,6 @@ msgctxt "Customer.io email: svg_all_transactional_crypto_deposit_confirmed "
 msgid "Your funds have been credited into your account."
 msgstr "Twoje środki zostały naliczone na Twoje konto."
 
-msgctxt "Customer.io email: dummy_svg_all_crypto_withdrawal_reverted "
-msgid "Your funds have been returned to your account because they were pending too long. You may try again later."
-msgstr "Twoje środki zostały zwrócone na Twoje konto, gdyż zbyt długo oczekiwały na realizację. Możesz spróbować ponownie później."
-
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_successful "
 msgid "Your funds should reach your wallet as soon as the transaction is confirmed on the blockchain."
 msgstr "Twoje środki zostaną wpłacone do portfela, jak tylko transakcja zostanie potwierdzona w blockchain."
@@ -10466,7 +10454,7 @@ msgstr "Ważny paszport, prawo jazdy lub krajowy dowód osobisty"
 
 msgctxt "Phone Number Verification SMS content "
 msgid "Your verification code is: %1. This code is valid for 10 minutes."
-msgstr ""
+msgstr "Twój kod weryfikacyjny to: %1. Ten kod jest ważny przez 10 minut."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
 msgid "Your video should include:"
@@ -10528,6 +10516,12 @@ msgstr "Twoja wypłata nie została dokonana przez Deriv P2P, który jest Twoją
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_declined "
 msgid "Your withdrawal was not made via your payment agent, your usual deposit method."
 msgstr "Twoja wypłata nie została dokonana przez pośrednika płatności, który stanowi typową metodę wpłat."
+
+#, fuzzy
+#| msgid "Your withdrawal request failed due to changed transaction fees. Resubmit a priority withdrawal request."
+msgctxt "Customer.io email: dummy_svg_all_crypto_withdrawal_reverted "
+msgid "Your withdrawal was returned due to high network fees. Please resubmit your withdrawal request later."
+msgstr "Twoje żądanie wypłaty nie powiodło się z powodu zmienionych opłat transakcyjnych. Ponownie prześlij wniosek o wypłatę priorytetową."
 
 msgid "You’ve paid more than the order amount"
 msgstr "Zapłacono więcej niż kwota zlecenia"
@@ -10834,3 +10828,7 @@ msgstr "● Szczegóły Twojego konta"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Witam i witaj w Deriv"
+
+#~ msgctxt "Customer.io email: dummy_svg_all_crypto_withdrawal_reverted "
+#~ msgid "Your funds have been returned to your account because they were pending too long. You may try again later."
+#~ msgstr "Twoje środki zostały zwrócone na Twoje konto, gdyż zbyt długo oczekiwały na realizację. Możesz spróbować ponownie później."

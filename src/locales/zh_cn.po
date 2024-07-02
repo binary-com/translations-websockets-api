@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-01 03:16\n"
+"PO-Revision-Date: 2024-07-01 13:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1674,10 +1674,8 @@ msgstr "科多巴"
 msgid "Costa Rican Colon"
 msgstr "哥斯达黎加科郎"
 
-#, fuzzy
-#| msgid "Error validating your transaction, please try again in a few minutes."
 msgid "Could not generate OTP, please try again in a few minutes"
-msgstr "交易验证错误。请几分钟后重新尝试。"
+msgstr "无法生成 OTP，请在几分钟后重试"
 
 msgid "Could not retrieve contract details"
 msgstr "无法提取合约细节"
@@ -6779,13 +6777,11 @@ msgstr "证件的图像质量太低。请提供身份证件的高清照片。"
 msgid "The link that you used appears to be invalid. Please check and try again."
 msgstr "使用的链接似乎无效。请检查并重试。"
 
-#, fuzzy
-#| msgid "The client is missing, please provide a valid client."
 msgid "The loginid parameter is missing or invalid. Please provide a valid loginid when multiple tokens are used."
-msgstr "客户缺失，请提供有效客户。"
+msgstr "loginid 参数缺失或无效。使用多个令牌时，请提供有效的登录名。"
 
 msgid "The loginid parameter is not required when only one token is used."
-msgstr ""
+msgstr "当仅使用一个令牌时，不需要 loginid 参数。"
 
 msgid "The market must be open at the start time."
 msgstr "市场开始时必须已经开市。"
@@ -6847,10 +6843,8 @@ msgstr "付款方法 ID 不存在。"
 msgid "The payment method feature is not available on P2P yet. Please check back later."
 msgstr "P2P 目前无法使用此付款方法功能。请稍后再查看。"
 
-#, fuzzy
-#| msgid "This symbol is not available."
 msgid "The phone number is not available."
-msgstr "此符号不可用。"
+msgstr "电话号码不可用。"
 
 msgctxt "Customer.io email: mf_france_transactional_real_signup "
 msgid "The products may be affected by changes in currency exchange rates; If you invest in this product, you may lose some or all of the money you invest; The value of your investment may go down as well as up."
@@ -7195,8 +7189,6 @@ msgstr "内部客户不可使用此功能。"
 msgid "This feature is not available for virtual accounts."
 msgstr "此功能不适用于虚拟账户。"
 
-#, fuzzy
-#| msgid "This feature is not available for virtual accounts."
 msgid "This feature is not available to virtual accounts."
 msgstr "此功能不适用于虚拟账户。"
 
@@ -9064,7 +9056,7 @@ msgid "When using cards, ensure that only the following information is visible:"
 msgstr "使用卡时，请确保仅显示以下信息："
 
 msgid "When using multiple tokens, set authorize to MULTI."
-msgstr ""
+msgstr "使用多个令牌时，将授权设置为 MULTI。"
 
 msgid "Win %6 %5 times %1's close minus low at %3."
 msgstr "%3时赢取%6 %5乘以%1的收盘值减最低值。"
@@ -10273,10 +10265,6 @@ msgctxt "Customer.io email: svg_all_transactional_crypto_deposit_confirmed "
 msgid "Your funds have been credited into your account."
 msgstr "资金已记入账户。"
 
-msgctxt "Customer.io email: dummy_svg_all_crypto_withdrawal_reverted "
-msgid "Your funds have been returned to your account because they were pending too long. You may try again later."
-msgstr "由于等待时间太长，资金已被退回账户。可稍后重试。"
-
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_successful "
 msgid "Your funds should reach your wallet as soon as the transaction is confirmed on the blockchain."
 msgstr "区块链交易一旦确认，钱包资金就会入账。"
@@ -10466,7 +10454,7 @@ msgstr "有效的护照、驾照或国民身份证"
 
 msgctxt "Phone Number Verification SMS content "
 msgid "Your verification code is: %1. This code is valid for 10 minutes."
-msgstr ""
+msgstr "你的验证码是： %1。此代码的有效期为 10 分钟。"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
 msgid "Your video should include:"
@@ -10528,6 +10516,12 @@ msgstr "提款不是通过常用的存款方式 Deriv P2P 进行的。"
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_declined "
 msgid "Your withdrawal was not made via your payment agent, your usual deposit method."
 msgstr "提款不是通过通常的存款方式即付款代理进行的。"
+
+#, fuzzy
+#| msgid "Your withdrawal request failed due to changed transaction fees. Resubmit a priority withdrawal request."
+msgctxt "Customer.io email: dummy_svg_all_crypto_withdrawal_reverted "
+msgid "Your withdrawal was returned due to high network fees. Please resubmit your withdrawal request later."
+msgstr "由于交易费用变更，提款请求失败。重新提交优先提款申请。"
 
 msgid "You’ve paid more than the order amount"
 msgstr "付款超出了订单金额"
@@ -10834,3 +10828,7 @@ msgstr "● 您的账户详情"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 您好，欢迎来到 Deriv"
+
+#~ msgctxt "Customer.io email: dummy_svg_all_crypto_withdrawal_reverted "
+#~ msgid "Your funds have been returned to your account because they were pending too long. You may try again later."
+#~ msgstr "由于等待时间太长，资金已被退回账户。可稍后重试。"
