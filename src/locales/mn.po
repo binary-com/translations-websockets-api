@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-18 13:10\n"
+"PO-Revision-Date: 2024-07-19 11:37\n"
 "Last-Translator: \n"
 "Language-Team: Mongolian\n"
 "MIME-Version: 1.0\n"
@@ -1042,6 +1042,9 @@ msgstr "Зөвшөөрөл татгалзсан, унших эсвэл %1 хам
 msgid "Permission denied."
 msgstr "Зөвшөөрөл татгалзсан."
 
+msgid "Phone Number Verification is temporarily suspended"
+msgstr "Утасны дугаар баталгаажуулалтыг түр хугацаагаар зогсоосон"
+
 msgid "Phone number verification"
 msgstr "Утасны дугаар баталгаажуулалт"
 
@@ -1260,9 +1263,6 @@ msgstr "Өөр OTP код хүсэхээсээ өмнө хэсэг хугаца�
 
 msgid "Please wait for some time before requesting another link"
 msgstr "Өөр холбоос хүсэхээсээ өмнө хэсэг хугацаанд хүлээнэ үү"
-
-msgid "Please wait for some time before sending the OTP"
-msgstr "OTP илгээхээсээ өмнө хэсэг хугацаанд хүлээнэ үү"
 
 msgid "Please wait for the buyer to confirm the order."
 msgstr "Худалдан авагч захиалгыг баталгаажуулахыг хүлээнэ үү."
@@ -7371,24 +7371,8 @@ msgid "noqodi account"
 msgstr "бүртгэлийн бүртгэл"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "ЦПФ"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Цедула де Идентидад"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Үндэсний таних баримт бичиг"
-
-msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Үндэсний үнэмлэхний дугаар"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
@@ -7399,32 +7383,48 @@ msgid "Passport"
 msgstr "Паспорт"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
+msgid "Aadhaar Card"
+msgstr "Aadhaar карт"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "Жолоочийн үнэмлэх"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Индук Цэвэрлэгээний дугаар"
+msgid "Voter ID"
+msgstr "Сонгогчийн үнэмлэх"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN карт"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar карт"
+msgid "Cédula de Identidad"
+msgstr "Цедула де Идентидад"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Сонгогчийн үнэмлэх"
+msgid "CPF"
+msgstr "ЦПФ"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Үндэсний таних баримт бичиг"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Нийгмийн аюулгүй байдал ба үндэсний даатгалын итгэлцэл (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Индук Цэвэрлэгээний дугаар"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10765,6 +10765,42 @@ msgstr "%1 %2 -ийн хадгаламжийг таны төлбөрийн ар�
 msgctxt "Customer.io email: dummy_payment_deposit_reversal_template "
 msgid "Important Notification: Deposit rejected"
 msgstr "Чухал мэдэгдэл: Хадгаламж татгал"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm your verification request"
+msgstr "Баталгаажуулах хүсэлтээ батлаарай"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "We’ve received a request to verify your phone number. To confirm this request is from you and to maintain the security of your account, please enter the following one-time password (OTP): %1%2%3."
+msgstr "Таны утасны дугаарыг баталгаажуулах хүсэлт бидэнд ирсэн. Энэхүү хүсэлтийг танаас баталгаажуулах, дансныхаа аюулгүй байдлыг хадгалахын тулд дараах нэг удаагийн нууц үгийг (OTP) оруулна уу: %1%2%3."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Alternatively, you can confirm your verification request by clicking this button:"
+msgstr "Өөрөөр та энэ товчлуурыг дарж баталгаажуулах хүсэлтээ баталгаажуулж болно:"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm request"
+msgstr "Хүсэлтийг баталгаажуулах"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If the button doesn’t work, copy and paste the link below into a new browser window."
+msgstr "Хэрэв товчлуур ажиллахгүй бол доорх холбоосыг шинэ хөтөчийн цонхонд хуулж буулгана уу."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
+msgstr "OTP код болон холбоос нь %1 10 минут%2-ийн хугацаанд хүчинтэй хэвээр үлдэнэ."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
+msgstr "Хэрэв та утасны дугаараа баталгаажуулах хүсэлт гаргаагүй бол %1шууд чат%2-ээр дамжуулан бидэнтэй холбоо бариарай."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "For company information on the senders of this email, please %1click here%2."
+msgstr "Энэхүү имэйлийг илгээгчдийн талаархи компанийн мэдээллийг авахыг хүсвэл %1энд дарна уу%2."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Important: Verification required"
+msgstr "Чухал зүйл: Баталгаажуулалт шаардлагатай"
 
 msgctxt "Customer.io email: dummy_bankwire_deposit "
 msgid "Your deposit has been processed"
