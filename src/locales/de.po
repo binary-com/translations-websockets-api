@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-18 13:10\n"
+"PO-Revision-Date: 2024-07-19 11:37\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1042,6 +1042,9 @@ msgstr "Berechtigung abgelehnt, erfordert Lese- oder %1-Bereiche."
 msgid "Permission denied."
 msgstr "Berechtigung abgelehnt."
 
+msgid "Phone Number Verification is temporarily suspended"
+msgstr "Die Rufnummernüberprüfung ist vorübergehend ausgesetzt"
+
 msgid "Phone number verification"
 msgstr "Überprüfung der Rufnummer"
 
@@ -1260,9 +1263,6 @@ msgstr "Bitte warten Sie einige Zeit, bevor Sie einen weiteren OTP-Code anforder
 
 msgid "Please wait for some time before requesting another link"
 msgstr "Bitte warten Sie einige Zeit, bevor Sie einen weiteren Link anfordern."
-
-msgid "Please wait for some time before sending the OTP"
-msgstr "Bitte warten Sie einige Zeit, bevor Sie das OTP senden."
 
 msgid "Please wait for the buyer to confirm the order."
 msgstr "Bitte warten Sie, bis der Käufer die Bestellung bestätigt hat."
@@ -7371,24 +7371,8 @@ msgid "noqodi account"
 msgstr "noqodi-Konto"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Nationale ID-Nummer"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
@@ -7399,32 +7383,48 @@ msgid "Passport"
 msgstr "Reisepass"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Nationale ID-Nummer Beleg"
+msgid "Aadhaar Card"
+msgstr "Aadhaar-Karte"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "Führerschein"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Voter ID"
+msgstr "Wähler-ID"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN-Karte"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar-Karte"
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Wähler-ID"
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Stiftung für soziale Sicherheit und Sozialversicherung (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Nationale ID-Nummer Beleg"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10765,6 +10765,42 @@ msgstr "Die Anzahlung von %1 %2 wurde auf Ihre Zahlungsmethode zurücküberwiese
 msgctxt "Customer.io email: dummy_payment_deposit_reversal_template "
 msgid "Important Notification: Deposit rejected"
 msgstr "Wichtige Benachrichtigung: Einzahlung abgelehnt"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm your verification request"
+msgstr "Bestätigen Sie Ihre Anfrage zur Überprüfung"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "We’ve received a request to verify your phone number. To confirm this request is from you and to maintain the security of your account, please enter the following one-time password (OTP): %1%2%3."
+msgstr "Wir haben eine Anfrage zur Verifizierung Ihrer Telefonnummer erhalten. Um zu bestätigen, dass diese Anfrage von Ihnen stammt und um die Sicherheit Ihres Kontos zu gewährleisten, geben Sie bitte das folgende Einmal-Passwort (OTP) ein: %1%2%3."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Alternatively, you can confirm your verification request by clicking this button:"
+msgstr "Alternativ können Sie Ihre Verifizierungsanfrage auch bestätigen, indem Sie auf diese Schaltfläche klicken:"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm request"
+msgstr "Bestätigen Sie die Anfrage"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If the button doesn’t work, copy and paste the link below into a new browser window."
+msgstr "Wenn die Schaltfläche nicht funktioniert, kopieren Sie den unten stehenden Link und fügen Sie ihn in ein neues Browserfenster ein."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
+msgstr "Der OTP-Code und der Link bleiben für %1 10 Minuten gültig%2."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
+msgstr "Wenn Sie die Verifizierung Ihrer Telefonnummer nicht angefordert haben, kontaktieren Sie uns über %1live chat%2."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "For company information on the senders of this email, please %1click here%2."
+msgstr "Für Unternehmensinformationen über die Absender dieser E-Mail, klicken Sie bitte %1hier%2."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Important: Verification required"
+msgstr "Wichtig: Verifizierung erforderlich"
 
 msgctxt "Customer.io email: dummy_bankwire_deposit "
 msgid "Your deposit has been processed"
