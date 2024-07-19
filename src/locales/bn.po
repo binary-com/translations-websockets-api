@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-18 13:11\n"
+"PO-Revision-Date: 2024-07-19 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "MIME-Version: 1.0\n"
@@ -1042,6 +1042,9 @@ msgstr "অনুমতি অস্বীকৃত, পড়তে বা %1 �
 msgid "Permission denied."
 msgstr "অনুমতি অস্বীকৃত।"
 
+msgid "Phone Number Verification is temporarily suspended"
+msgstr "ফোন নম্বর যাচাইকরণ অস্থায়িকভাবে"
+
 msgid "Phone number verification"
 msgstr "ফোন নাম্বার যাচাইকরণ"
 
@@ -1260,9 +1263,6 @@ msgstr "অন্য OTP কোডের অনুরোধ করার আগ�
 
 msgid "Please wait for some time before requesting another link"
 msgstr "অন্য লিঙ্ক অনুরোধের পূর্বে দয়া করে কিছুক্ষণ অপেক্ষা করুন"
-
-msgid "Please wait for some time before sending the OTP"
-msgstr "OTP পাঠানোর আগে দয়া করে কিছুক্ষণ অপেক্ষা করুন"
 
 msgid "Please wait for the buyer to confirm the order."
 msgstr "অর্ডার নিশ্চিত করণে ক্রেতার জন্য অপেক্ষা করুন।"
@@ -7371,24 +7371,8 @@ msgid "noqodi account"
 msgstr "noqodi অ্যাকাউন্ট"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "জাতীয় পরিচয়পত্র"
-
-msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "জাতীয় পরিচয়পত্র নাম্বার"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
@@ -7399,32 +7383,48 @@ msgid "Passport"
 msgstr "পাসপোর্ট"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ন্যাশনাল আইডি নাম্বার স্লিপ"
+msgid "Aadhaar Card"
+msgstr "আধার কার্ড"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "ড্রাইভার লাইসেন্স"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Voter ID"
+msgstr "ভোটার আইডি"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "প্যান কার্ড"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "আধার কার্ড"
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ভোটার আইডি"
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "জাতীয় পরিচয়পত্র"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "সামাজিক নিরাপত্তা এবং জাতীয় বীমা ট্রাস্ট (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "ন্যাশনাল আইডি নাম্বার স্লিপ"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10765,6 +10765,42 @@ msgstr "%1 %2 এর আমানত আপনার পেমেন্ট প�
 msgctxt "Customer.io email: dummy_payment_deposit_reversal_template "
 msgid "Important Notification: Deposit rejected"
 msgstr "গুরুত্বপূর্ণ বিজ্ঞপ্তি: জমা প্রত্যাখ্যান"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm your verification request"
+msgstr "আপনার যাচাইকরণ অনুরোধ নিশ্চিত"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "We’ve received a request to verify your phone number. To confirm this request is from you and to maintain the security of your account, please enter the following one-time password (OTP): %1%2%3."
+msgstr "আমরা আপনার ফোন নম্বর যাচাই করার জন্য একটি অনুরোধ পেয়েছি। এই অনুরোধটি আপনার কাছ থেকে এসেছে তা নিশ্চিত করতে এবং আপনার অ্যাকাউন্টের সুরক্ষা বজায় রাখতে, দয়া করে নিম্নলিখিত এককালীন পাসওয়ার্ড (OTP) লিখুন: %1%2%3।"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Alternatively, you can confirm your verification request by clicking this button:"
+msgstr "বিকল্পভাবে, আপনি এই বোতামটি ক্লিক করে আপনার যাচাইকরণ অনুরোধ নিশ্চিত করতে পারেন:"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm request"
+msgstr "অনুরোধ নিশ্চিত করুন"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If the button doesn’t work, copy and paste the link below into a new browser window."
+msgstr "যদি বোতামটি কাজ না করে তবে নীচের লিঙ্কটি একটি নতুন ব্রাউজার উইন্ডোতে অনুলিপি করে পেস্ট করুন।"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
+msgstr "ওটিপি কোড এবং লিঙ্কটি %1 10 মিনিট%2এর জন্য বৈধ থাকবে।"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
+msgstr "আপনি যদি আপনার ফোন নম্বরটি যাচাই করার জন্য অনুরোধ না করেন তবে %1লাইভ চ্যাট%2এর মাধ্যমে আমাদের সাথে যোগাযোগ করুন।"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "For company information on the senders of this email, please %1click here%2."
+msgstr "এই ইমেল প্রেরকদের সম্পর্কে কোম্পানির তথ্যের জন্য, অনুগ্রহ করে %1এখানে ক্লিক করুন%2।"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Important: Verification required"
+msgstr "গুরুত্বপূর্ণ: যাচাইকরণ প্রয়োজন"
 
 msgctxt "Customer.io email: dummy_bankwire_deposit "
 msgid "Your deposit has been processed"
