@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-18 13:11\n"
+"PO-Revision-Date: 2024-07-19 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "MIME-Version: 1.0\n"
@@ -1042,6 +1042,9 @@ msgstr "අවසරය ප්‍රතික්ෂේප කර ඇත, කි�
 msgid "Permission denied."
 msgstr "අවසරය ප්‍රතික්ෂේප විය."
 
+msgid "Phone Number Verification is temporarily suspended"
+msgstr "දුරකථන අංක තහවුරු කිරීම තාවකාලිකව අත්හිටුවයි"
+
 msgid "Phone number verification"
 msgstr "දුරකථන අංක සත්‍යාපනය"
 
@@ -1260,9 +1263,6 @@ msgstr "කරුණාකර වෙනත් OTP කේතයක් ඉල්�
 
 msgid "Please wait for some time before requesting another link"
 msgstr "වෙනත් සබැඳියක් ඉල්ලා සිටීමට පෙර කරුණාකර ටික වේලාවක් බලා සිටින්න"
-
-msgid "Please wait for some time before sending the OTP"
-msgstr "OTP යැවීමට පෙර කරුණාකර මඳ වේලාවක් රැඳී සිටින්න"
 
 msgid "Please wait for the buyer to confirm the order."
 msgstr "කරුණාකර ගැනුම්කරු ඇණවුම තහවුරු කරන තෙක් රැඳී සිටින්න."
@@ -7371,24 +7371,8 @@ msgid "noqodi account"
 msgstr "noqodi ගිණුම"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "ජාතික හැඳුනුම්පත් අංකය"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
@@ -7399,32 +7383,48 @@ msgid "Passport"
 msgstr "ගමන් බලපත්‍රය"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
+msgid "Aadhaar Card"
+msgstr "Aadhaar කාඩ්පත"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "රියදුරු බලපත්‍රය"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Voter ID"
+msgstr "ඡන්ද දායක හැඳුනුම්පත"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN කාඩ්පත"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar කාඩ්පත"
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ඡන්ද දායක හැඳුනුම්පත"
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10765,6 +10765,42 @@ msgstr "%1 %2 තැන්පතුව ඔබගේ ගෙවීම් ක්ර
 msgctxt "Customer.io email: dummy_payment_deposit_reversal_template "
 msgid "Important Notification: Deposit rejected"
 msgstr "වැදගත් නිවේදනය: තැන්පතුව ප්රතික්ෂේප කෙරේ"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm your verification request"
+msgstr "ඔබේ සත්යාපන ඉල්ලීම තහවුරු කරන්න"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "We’ve received a request to verify your phone number. To confirm this request is from you and to maintain the security of your account, please enter the following one-time password (OTP): %1%2%3."
+msgstr "ඔබගේ දුරකථන අංකය තහවුරු කිරීමට අපට ඉල්ලීමක් ලැබී ඇත. මෙම ඉල්ලීම ඔබෙන් බව තහවුරු කිරීම සඳහා සහ ඔබේ ගිණුමේ ආරක්ෂාව පවත්වා ගැනීම සඳහා කරුණාකර පහත සඳහන් එක් වරක් මුරපදය (OTP) ඇතුළත් කරන්න: %1%2%3."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Alternatively, you can confirm your verification request by clicking this button:"
+msgstr "විකල්පයක් ලෙස, මෙම බොත්තම ක්ලික් කිරීමෙන් ඔබේ සත්යාපන ඉල්ලීම තහවුරු කළ හැකිය:"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Confirm request"
+msgstr "ඉල්ලීම තහවුරු කරන්න"
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If the button doesn’t work, copy and paste the link below into a new browser window."
+msgstr "බොත්තම ක්රියා නොකරන්නේ නම් පහත සබැඳිය නව බ්රවුසර් කවුළුවකට පිටපත් කර අලවන්න."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "The OTP code and link will remain valid for %1 10 minutes%2."
+msgstr "OTP කේතය සහ සබැඳිය %1 විනාඩි 10%2සඳහා වලංගු වේ."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "If you didn’t request to verify your phone number, reach out to us via %1live chat%2."
+msgstr "ඔබගේ දුරකථන අංකය තහවුරු කිරීමට ඔබ ඉල්ලීමක් නොකළේ නම්, %1සජීවී චැට්%2හරහා අප වෙත ළඟා වන්න."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "For company information on the senders of this email, please %1click here%2."
+msgstr "මෙම විද්යුත් තැපෑල යවන්නන් පිළිබඳ සමාගම් තොරතුරු සඳහා, කරුණාකර %1මෙහි ක්ලික් කරන්න%2."
+
+msgctxt "Customer.io email: temp_phone_number_verification "
+msgid "Important: Verification required"
+msgstr "වැදගත්: සත්යාපනය අවශ්ය වේ"
 
 msgctxt "Customer.io email: dummy_bankwire_deposit "
 msgid "Your deposit has been processed"
