@@ -1313,8 +1313,10 @@ msgstr "취소"
 msgid "Cannot create a Banxa order for %1"
 msgstr "%1에 대해서는 Banxa 주문을 생성할 수 없습니다"
 
-msgid "Cannot create a Wyre reservation for %1"
-msgstr "%1에 대해서는 Wyre 예약을 생성할 수 없습니다"
+#, fuzzy
+#| msgid "Cannot create a Banxa order for %1"
+msgid "Cannot create an order for %1"
+msgstr "%1에 대해서는 Banxa 주문을 생성할 수 없습니다"
 
 msgid "Cannot create applicant for %1."
 msgstr "해당 부분은 고객분을 위해 Onfido 지원을 생성할 수 없을 때 저희의 API에 의해 불려진 오류 메시지 입니다. %1는 고객의 로그인 아이디입니다."
@@ -1724,7 +1726,9 @@ msgstr "신용 및 직불카드"
 msgid "Croatian Kuna"
 msgstr "크로아티아 쿠나 (Croatian Kuna)"
 
-msgid "Crypto cashier is unavailable for fiat currencies."
+#, fuzzy
+#| msgid "Crypto cashier is unavailable for fiat currencies."
+msgid "Crypto cashier is unavailable for the provided currency."
 msgstr "크립토 캐셔는 피아트 통화에 대해서는 이용 가능하지 않습니다."
 
 msgid "Cryptocurrencies"
@@ -5737,6 +5741,11 @@ msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_pendin
 msgid "Requested amount:"
 msgstr "요청 금액:"
 
+#, fuzzy
+#| msgid "Input parameter 'server' is not supported for the account type."
+msgid "Requested provider is not supported for the account currency."
+msgstr "해당 계좌 종류에 대해서는 입력 파라미터 '서버'가 지원되지 않습니다."
+
 msgid "Resale not available during rollover time."
 msgstr "롤오버 시간에는 재판매가 가능하지 않습니다."
 
@@ -8484,6 +8493,24 @@ msgctxt "field for payment method Voguepay"
 msgid "Voguepay account"
 msgstr "Voguepay 계정"
 
+msgid "Vol-and-Boom 400"
+msgstr ""
+
+msgid "Vol-and-Boom 550"
+msgstr ""
+
+msgid "Vol-and-Boom 750"
+msgstr ""
+
+msgid "Vol-and-Crash 400"
+msgstr ""
+
+msgid "Vol-and-Crash 550"
+msgstr ""
+
+msgid "Vol-and-Crash 750"
+msgstr ""
+
 msgid "Volatility 10 (1s) Index"
 msgstr "Volatility 10 (1s) 지수"
 
@@ -10881,3 +10908,6 @@ msgstr "계정 세부 정보"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 안녕하세요, Deriv에 오신 것을 환영합니다."
+
+#~ msgid "Cannot create a Wyre reservation for %1"
+#~ msgstr "%1에 대해서는 Wyre 예약을 생성할 수 없습니다"
