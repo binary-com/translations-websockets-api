@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-22 11:37\n"
+"PO-Revision-Date: 2024-07-24 11:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 no está disponible como método de pago para este anuncio."
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 no es compatible en este momento."
+
+msgid "%1 is required."
+msgstr "%1 es necesario."
 
 msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
 msgstr "%1 es similar a un método de pago disponible en P2P. Intente introducir un método de pago diferente."
@@ -2607,6 +2610,9 @@ msgstr "Usted ya está suscrito al saldo de la cuenta %1."
 
 msgid "You are already subscribed to balance for all accounts."
 msgstr "Usted ya está suscrito al saldo de todas las cuentas."
+
+msgid "You are already subscribed to bot with id %1."
+msgstr "Ya está suscrito al bot con el id %1."
 
 msgid "You are already subscribed to cashier payments with %1: %2."
 msgstr "Ya está suscrito a los pagos del cajero con %1: %2."
@@ -5512,9 +5518,6 @@ msgstr "La barrera superior debe ser más alta que la barrera inferior."
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "La barrera superior se encuentra fuera del rango aceptable. Por favor, cambie la barrera superior."
 
-msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "Stop loss inválido. El stop loss debe ser superior a la comisión (%1)."
-
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 no es una entrada válida para el tipo de contrato %2."
 
@@ -7392,36 +7395,8 @@ msgid "noqodi account"
 msgstr "Cuenta noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Número de Identificación Nacional"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Tarjeta Alien"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasaporte"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID de votante"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Fideicomiso de Seguros de la Seguridad Social y Nacional (SSNIT)"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7432,20 +7407,48 @@ msgid "National ID Number Slip"
 msgstr "Documento de Identificación Nacional provisional"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Número de Identificación Nacional"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "ID de votante"
+
+msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Tarjeta Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Pasaporte"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Tarjeta PAN"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Tarjeta Alien"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Fideicomiso de Seguros de la Seguridad Social y Nacional (SSNIT)"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10854,6 +10857,30 @@ msgstr "Nos gustaría informarle de que su desistimiento ha sido procesado."
 msgctxt "Customer.io email: dummy_bankwire_withdrawal "
 msgid "Important Notification: Withdrawal processed"
 msgstr "Notificación importante: Retirada tramitada"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account will be closed in %1 day(s)"
+msgstr "Su cuenta MT5 se cerrará en %1 día(s)"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account is scheduled to close in %1 day(s) due to inactivity:"
+msgstr "Su cuenta MT5 está programada para cerrarse en %1 día(s) debido a inactividad:"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Account type"
+msgstr "Tipo de cuenta"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "It’s easy to keep it open: log in now and place a trade."
+msgstr "Es fácil mantenerlo abierto: conéctese ahora y realice una operación."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "The products offered on our website are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money. For company information on the senders of this email, please %1click here%2."
+msgstr "Los productos ofrecidos en nuestra página web son productos derivados complejos que conllevan un riesgo significativo de pérdida potencial. Los CFD son instrumentos complejos con un alto riesgo de perder dinero rápidamente debido al apalancamiento. Debe considerar si entiende cómo funcionan estos productos y si puede permitirse asumir el alto riesgo de perder su dinero. Para obtener información sobre la empresa remitente de este correo electrónico, por favor %1haga clic aquí%2."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "MT5 account closing soon — Act now"
+msgstr "Próximo cierre de la cuenta MT5 - Actúe ahora"
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
