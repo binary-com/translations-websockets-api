@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-22 11:38\n"
+"PO-Revision-Date: 2024-07-24 11:53\n"
 "Last-Translator: \n"
 "Language-Team: Swahili\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 haipatikani kama njia ya malipo kwa tangazo hili."
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 haiungwa mkono kwa sasa."
+
+msgid "%1 is required."
+msgstr "%1 inahitajika."
 
 msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
 msgstr "%1 ni sawa na njia inayopatikana ya malipo ya P2P. Jaribu kuingiza njia tofauti ya malipo."
@@ -2607,6 +2610,9 @@ msgstr "Tayari umejisajili kwa salio kwa akaunti %1."
 
 msgid "You are already subscribed to balance for all accounts."
 msgstr "Tayari umejisajili kwa usawa kwa akaunti zote."
+
+msgid "You are already subscribed to bot with id %1."
+msgstr "Tayari umejisajili kwa bot na kitambulisho %1."
 
 msgid "You are already subscribed to cashier payments with %1: %2."
 msgstr "Tayari umejisajili kwa malipo ya pesa na %1: %2."
@@ -5512,9 +5518,6 @@ msgstr "Kizuizi cha juu lazima kiwe cha juu kuliko kizuizi cha chini."
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "Kizuizi cha juu ni nje ya aina inayokubalika. Tafadhali rekebisha kizuizi cha juu."
 
-msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "Upotezaji wa kuacha bila malipo. Kuacha upotezaji lazima iwe kubwa kuliko tume (%1)."
-
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 sio pembejeo halali kwa aina ya mkataba %2."
 
@@ -7392,36 +7395,8 @@ msgid "noqodi account"
 msgstr "akaunti ya noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Kitambulisho cha Utambulisho"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Hati ya Kitaifa ya Utambulisho"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Nambari ya Kitambulisho cha"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nambari ya Induk ya Induction"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Kadi ya wageni"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasipoti"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Kitambulisho cha kura"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Usalama wa Jamii na Bima ya Kitaifa (SSNIT)"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7432,20 +7407,48 @@ msgid "National ID Number Slip"
 msgstr "Slip ya Nambari ya Kitambulisho"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Nambari ya Kitambulisho cha"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Hati ya Kitaifa ya Utambulisho"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "Kitambulisho cha kura"
+
+msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Kadi ya Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Pasipoti"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Kadi ya PAN"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nambari ya Induk ya Induction"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Kitambulisho cha Utambulisho"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Kifunguo pekee cha Usajili wa Wakazi"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Kadi ya wageni"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Usalama wa Jamii na Bima ya Kitaifa (SSNIT)"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10854,6 +10857,30 @@ msgstr "Tunataka kukujulisha kuwa uondoaji wako umesindikaji."
 msgctxt "Customer.io email: dummy_bankwire_withdrawal "
 msgid "Important Notification: Withdrawal processed"
 msgstr "Arifa muhimu: Uondoaji uliofanywa"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account will be closed in %1 day(s)"
+msgstr "Akaunti yako ya MT5 itafungwa katika siku ya %1"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account is scheduled to close in %1 day(s) due to inactivity:"
+msgstr "Akaunti yako ya MT5 imepangwa kufunga katika siku %1 kwa sababu ya kutokuwa na shughuli:"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Account type"
+msgstr "Aina ya akaunti"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "It’s easy to keep it open: log in now and place a trade."
+msgstr "Ni rahisi kuiweka wazi: ingia sasa na uweke biashara."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "The products offered on our website are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money. For company information on the senders of this email, please %1click here%2."
+msgstr "Bidhaa zinazotolewa kwenye wavuti yetu ni bidhaa ngumu za matokeo ambazo zina hatari kubwa ya upotezaji. CFD ni vyombo ngumu na hatari kubwa ya kupoteza pesa haraka kutokana na ufanisi. Unapaswa kuzingatia ikiwa unaelewa jinsi bidhaa hizi zinavyofanya kazi na ikiwa unaweza kumudu kuchukua hatari kubwa ya kupoteza pesa zako. Kwa habari ya kampuni juu ya watumaji wa barua pepe hii, tafadhali %1bonyeza hapa%2."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "MT5 account closing soon — Act now"
+msgstr "Kufunga akaunti ya MT5 hivi karibuni - Tenda sasa"
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
