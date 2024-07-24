@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-22 17:20\n"
+"PO-Revision-Date: 2024-07-24 11:53\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 недоступен в качестве платежного мет�
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 в данный момент не поддерживается."
+
+msgid "%1 is required."
+msgstr "%1 требуется."
 
 msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
 msgstr "%1 похож на доступный способ оплаты P2P. Попробуйте выбрать другой способ оплаты."
@@ -2607,6 +2610,9 @@ msgstr "Вы уже подписаны на получение обновлен�
 
 msgid "You are already subscribed to balance for all accounts."
 msgstr "Вы уже подписаны на получение обновлений о балансе всех счетов."
+
+msgid "You are already subscribed to bot with id %1."
+msgstr "Вы уже подписаны на бота с id %1."
 
 msgid "You are already subscribed to cashier payments with %1: %2."
 msgstr "Вы уже подписаны на кассовые платежи %1: %2."
@@ -5512,9 +5518,6 @@ msgstr "Верхний барьер должен быть выше нижнег�
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "Верхний барьер вне допустимого диапазона. Пожалуйста, измените верхний барьер."
 
-msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "Неправильный стоп лосс. Стоп лосс должен быть больше комиссии (%1)."
-
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 является недопустимым вводом для контрактов %2."
 
@@ -7392,36 +7395,8 @@ msgid "noqodi account"
 msgstr "Счет noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Номер удостоверения"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Иммиграционная карта"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Паспорт"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID избирателя"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Фонд социального обеспечения и национального страхования (SSNIT)"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7432,20 +7407,48 @@ msgid "National ID Number Slip"
 msgstr "Бланк с номером удостоверения"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Номер удостоверения"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "ID избирателя"
+
+msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Карта Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Паспорт"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Карта PAN"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Иммиграционная карта"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Фонд социального обеспечения и национального страхования (SSNIT)"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10854,6 +10857,30 @@ msgstr "Мы хотели бы сообщить Вам, что Ваш отзыв
 msgctxt "Customer.io email: dummy_bankwire_withdrawal "
 msgid "Important Notification: Withdrawal processed"
 msgstr "Важное уведомление: Отказ от участия в конкурсе"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account will be closed in %1 day(s)"
+msgstr "Ваш счет MT5 будет закрыт через %1 день(ов)."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account is scheduled to close in %1 day(s) due to inactivity:"
+msgstr "Ваш счет MT5 планируется закрыть через %1 день(ов) по причине неактивности:"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Account type"
+msgstr "Тип счета"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "It’s easy to keep it open: log in now and place a trade."
+msgstr "Держать его открытым очень просто: войдите в систему прямо сейчас и заключите сделку."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "The products offered on our website are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money. For company information on the senders of this email, please %1click here%2."
+msgstr "Продукты, предлагаемые на нашем сайте, являются сложными производными продуктами, которые несут в себе значительный риск потенциальных потерь. CFD - это сложные инструменты с высоким риском быстрой потери денег из-за использования кредитного плеча. Вам следует подумать, понимаете ли Вы, как работают эти продукты, и можете ли Вы позволить себе принять высокий риск потери своих денег. Информацию о компании, отправившей это письмо, можно найти на сайте %1здесь%2."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "MT5 account closing soon — Act now"
+msgstr "Счет MT5 скоро закроется - действуйте сейчас"
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
