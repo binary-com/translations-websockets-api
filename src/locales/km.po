@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-24 04:49\n"
+"PO-Revision-Date: 2024-07-24 11:53\n"
 "Last-Translator: \n"
 "Language-Team: Khmer\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 មិនអាចប្រើជាវិធីបង់ប្រា
 
 msgid "%1 is not supported at the moment."
 msgstr "%1 មិនត្រូវបានគាំទ្រទេនៅពេលនេះ។"
+
+msgid "%1 is required."
+msgstr ""
 
 msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
 msgstr "%1 ដូច​ហេតុ​នេះ​គឺ​ជា​របៀប​ទូទាត់ P2P ដែល​មាន​ស្ថានភាព។ សូម​ព្យា​យោ​ខ្លួន​វា។"
@@ -2608,6 +2611,9 @@ msgstr "អ្នកបានចុះឈ្មោះដើម្បីទទួ
 
 msgid "You are already subscribed to balance for all accounts."
 msgstr "អ្នកបានចុះឈ្មោះទទួលព័ត៌មានសមតុល្យសម្រាប់គណនីទាំងអស់រួចហើយ។"
+
+msgid "You are already subscribed to bot with id %1."
+msgstr ""
 
 msgid "You are already subscribed to cashier payments with %1: %2."
 msgstr "អ្នកបានចុះឈ្មោះទទួលការទូទាត់ប្រាក់តាមបេឡាជាមួយ %1៖ %2។"
@@ -5513,9 +5519,6 @@ msgstr "បន្ទាត់កម្រិតតម្លៃគោលដៅខ
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "បន្ទាត់តម្លៃគោលដៅខាងលើគឺនៅក្រៅជួរដែលអាចទទួលយកបាន។ សូមកែតម្រូវតម្លៃម្តងទៀត។"
 
-msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "មុខងារបញ្ឈប់ការខាតបង់មិនត្រឹមត្រូវទេ។ តម្លៃនៃមុខងារបញ្ឃប់ការបាត់បង់ត្រូវតែខ្ពស់ជាងតម្លៃកំរៃជើងសារ (%1)។"
-
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 មិន​មែន​ជា​ទិន្នន័យ​បញ្ចូល​ត្រឹមត្រូវ​សម្រាប់​ប្រភេទ​កិច្ចសន្យា %2 ។"
 
@@ -7393,44 +7396,24 @@ msgid "noqodi account"
 msgstr "គណនី noqodi"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ប័ណ្ណដែលមានលេខអត្តសញ្ញាណប័ណ្ណ"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "ប័ណ្ណបើកបរ"
 
 msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "ប័ណ្ណដែលមានលេខអត្តសញ្ញាណប័ណ្ណ"
+
+msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "លេខអត្តសញ្ញាណប័ណ្ណ"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "លិខិតឆ្លងដែន"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "កាតជនបរទេស"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "កាត PAN"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
@@ -7441,8 +7424,28 @@ msgid "Aadhaar Card"
 msgstr "កាត Aadhaar"
 
 msgctxt "IDV document type "
+msgid "Passport"
+msgstr "លិខិតឆ្លងដែន"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "កាត PAN"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "កាតជនបរទេស"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -10855,6 +10858,30 @@ msgstr "យើងចង់ប្រតួចប្ព្មានថការិ
 msgctxt "Customer.io email: dummy_bankwire_withdrawal "
 msgid "Important Notification: Withdrawal processed"
 msgstr "សៗជាកចԵន: កໍភັນຢຼນລ  រເພສࢊຎࢀน࢑"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account will be closed in %1 day(s)"
+msgstr ""
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account is scheduled to close in %1 day(s) due to inactivity:"
+msgstr ""
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Account type"
+msgstr ""
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "It’s easy to keep it open: log in now and place a trade."
+msgstr ""
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "The products offered on our website are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money. For company information on the senders of this email, please %1click here%2."
+msgstr ""
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "MT5 account closing soon — Act now"
+msgstr ""
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
