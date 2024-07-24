@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-22 11:38\n"
+"PO-Revision-Date: 2024-07-24 11:53\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1은(는) 이 광고를 위한 결제 수단으로 이용할 수 없습
 
 msgid "%1 is not supported at the moment."
 msgstr "%1은(는) 현재 지원되지 않습니다."
+
+msgid "%1 is required."
+msgstr "%1 가 필요합니다."
 
 msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
 msgstr "%1 는 사용 가능한 P2P 결제 수단과 유사합니다. 다른 결제 방법을 입력해 보세요."
@@ -2607,6 +2610,9 @@ msgstr "귀하께서는 %1 계정에 대한 잔액에 이미 구독하셨습니�
 
 msgid "You are already subscribed to balance for all accounts."
 msgstr "귀하께서는 모든 계정에 대한 잔액에 이미 구독하셨습니다."
+
+msgid "You are already subscribed to bot with id %1."
+msgstr "이미 아이디 %1로 봇을 구독하고 있습니다."
 
 msgid "You are already subscribed to cashier payments with %1: %2."
 msgstr "귀하께서는 %1: %2를 통한 캐셔 결제에 이미 구독하셨습니다."
@@ -5512,9 +5518,6 @@ msgstr "상위 배리어는 반드시 하위 배리어보다 높아야 합니다
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "하이 장벽이 받아들일 수 있는 범위의 밖에 있습니다. 하이 장벽을 조정해 주세요."
 
-msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "유효하지 않은 스톱로스입니다. 스톱로스는 반드시 커미션보다 높아야 합니다 (%1)."
-
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1는 계약 유형 %2에 대하여 유효한 입력이 아닙니다."
 
@@ -7392,36 +7395,8 @@ msgid "noqodi account"
 msgstr "noqodi 계정"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "국민식별번호"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "외국인 카드 (Alien Card)"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "여권"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "투표자 ID"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Social Security and National Insurance Trust (SSNIT)"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7432,20 +7407,48 @@ msgid "National ID Number Slip"
 msgstr "국민식별번호 슬립"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "국민식별번호"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "투표자 ID"
+
+msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "아다르 카드 (Aadhaar Card)"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "여권"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN 카드"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "외국인 카드 (Alien Card)"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10854,6 +10857,30 @@ msgstr "회원님의 탈퇴가 처리되었음을 알려드립니다."
 msgctxt "Customer.io email: dummy_bankwire_withdrawal "
 msgid "Important Notification: Withdrawal processed"
 msgstr "중요 알림: 출금 처리됨"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account will be closed in %1 day(s)"
+msgstr "MT5 계좌는 %1 일 후에 폐쇄됩니다."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account is scheduled to close in %1 day(s) due to inactivity:"
+msgstr "귀하의 MT5 계좌가 비활성 상태로 인해 %1 일 후에 폐쇄될 예정입니다:"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Account type"
+msgstr "계정 유형"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "It’s easy to keep it open: log in now and place a trade."
+msgstr "지금 로그인하여 거래를 시작하면 쉽게 거래할 수 있습니다."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "The products offered on our website are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money. For company information on the senders of this email, please %1click here%2."
+msgstr "당사 웹사이트에서 제공하는 상품은 잠재적 손실 위험이 큰 복잡한 파생상품입니다. CFD는 레버리지로 인해 급격한 손실이 발생할 위험이 높은 복잡한 상품입니다. 이러한 상품의 작동 원리를 이해하고 있는지, 높은 손실 위험을 감당할 수 있는지 고려해야 합니다. 이 이메일의 발신자에 대한 회사 정보는 %1%2에서 확인할 수 있습니다."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "MT5 account closing soon — Act now"
+msgstr "곧 MT5 계좌 폐쇄 - 지금 바로 시작하세요"
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
