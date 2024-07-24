@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-07-22 11:38\n"
+"PO-Revision-Date: 2024-07-24 11:53\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,9 @@ msgstr "%1 nie jest dostępną metodą płatności dla tej reklamy."
 
 msgid "%1 is not supported at the moment."
 msgstr "W chwili obecnej nie obsługujemy %1."
+
+msgid "%1 is required."
+msgstr "Wymagany jest %1 ."
 
 msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
 msgstr "%1 jest podobny do dostępnej metody płatności P2P. Spróbuj wprowadzić inną metodę płatności."
@@ -2607,6 +2610,9 @@ msgstr "Korzystasz już z powiadomień o aktualnym stanie konta %1."
 
 msgid "You are already subscribed to balance for all accounts."
 msgstr "Korzystasz już z powiadomień o aktualnym stanie wszystkich kont."
+
+msgid "You are already subscribed to bot with id %1."
+msgstr "Masz już subskrypcję bota z identyfikatorem %1."
 
 msgid "You are already subscribed to cashier payments with %1: %2."
 msgstr "Korzystasz już z subskrypcji płatności przez kasjera %1: %2."
@@ -5512,9 +5518,6 @@ msgstr "Wysoki limit musi być wyższy nić niski limit."
 msgid "High barrier is out of acceptable range. Please adjust the high barrier."
 msgstr "Wysoki limit przekracza dozwolony zakres. Proszę zmienić limit odpowiednio."
 
-msgid "Invalid stop loss. Stop loss must be higher than commission (%1)."
-msgstr "Nieprawidłowy poziom Stop stratom. Poziom Stop stratom musi być wyższy niż wysokość prowizji (%1)."
-
 msgid "%1 is not a valid input for contract type %2."
 msgstr "%1 nie jest prawidłową wartością dla kontraktu tego rodzaju: %2."
 
@@ -7392,36 +7395,8 @@ msgid "noqodi account"
 msgstr "Konto noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Dowód osobisty"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Numer krajowy dowód tożsamości"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Karta Alien"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Paszport"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Identyfikator wyborcy"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Social Security and National Insurance Trust (SSNIT)"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7432,20 +7407,48 @@ msgid "National ID Number Slip"
 msgstr "Druk z numerem narodowego dowodu tożsamości"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Numer krajowy dowód tożsamości"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "Identyfikator wyborcy"
+
+msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Karta Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Paszport"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Karta PAN"
 
 msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Dowód osobisty"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Karta Alien"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10854,6 +10857,30 @@ msgstr "Pragniemy poinformować, że Twoja wypłata została przetworzona."
 msgctxt "Customer.io email: dummy_bankwire_withdrawal "
 msgid "Important Notification: Withdrawal processed"
 msgstr "Ważne powiadomienie: Przetwarzana wypłata"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account will be closed in %1 day(s)"
+msgstr "Twoje konto MT5 zostanie zamknięte w ciągu %1 dni"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Your MT5 account is scheduled to close in %1 day(s) due to inactivity:"
+msgstr "Twoje konto MT5 ma zostać zamknięte w dniu %1 z powodu braku aktywności:"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "Account type"
+msgstr "Typ konta"
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "It’s easy to keep it open: log in now and place a trade."
+msgstr "Łatwo jest utrzymać go otwarty: zaloguj się teraz i dokonaj transakcji."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "The products offered on our website are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money. For company information on the senders of this email, please %1click here%2."
+msgstr "Produkty oferowane na naszej stronie internetowej to złożone produkty pochodne, które niosą ze sobą znaczne ryzyko potencjalnej straty. Kontrakty CFD to złożone instrumenty o wysokim ryzyku szybkiej utraty pieniędzy z powodu dźwigni finansowej. Powinieneś rozważyć, czy rozumiesz, jak działają te produkty i czy możesz sobie pozwolić na podjęcie wysokiego ryzyka utraty pieniędzy. Aby uzyskać informacje firmowe na temat nadawców tego e-maila, proszę %1kliknij tutaj%2."
+
+msgctxt "Customer.io email: dummy_mt5_archived "
+msgid "MT5 account closing soon — Act now"
+msgstr "Wkrótce zamknięcie konta MT5 - Działaj teraz"
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Switch your Deriv P2P ads to floating rates"
