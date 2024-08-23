@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-08-22 11:40\n"
+"PO-Revision-Date: 2024-08-23 13:45\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -98,10 +98,10 @@ msgid "Account is disabled."
 msgstr "บัญชีถูกระงับ"
 
 msgid "Account is not of type Partner"
-msgstr "บัญชีไม่ใช่ประเภทพันธมิตร"
+msgstr "บัญชีไม่ใช่ประเภทหุ้นส่วน"
 
 msgid "Account is not of type partner"
-msgstr "บัญชีไม่ใช่ประเภทพันธมิตร"
+msgstr "บัญชีไม่ใช่ประเภทหุ้นส่วน"
 
 msgid "Account transfer from %1"
 msgstr "การโอนบัญชีจาก %1"
@@ -308,7 +308,7 @@ msgid "Cannot generate token for %1."
 msgstr "ไม่สามารถสร้างโทเคนสำหรับ %1"
 
 msgid "Cannot have company specific parameters when partner type is set to individual"
-msgstr "ไม่สามารถมีพารามิเตอร์เฉพาะบริษัทได้เมื่อตั้งค่าประเภทพันธมิตรเป็นบุคคลธรรมดา"
+msgstr "ไม่สามารถมีพารามิเตอร์เฉพาะบริษัทได้เมื่อตั้งค่าประเภทหุ้นส่วนเป็นบุคคลธรรมดา"
 
 msgid "Cashier API doesn't support the selected provider or operation."
 msgstr "แคชเชียร์ API ไม่รองรับผู้ให้บริการหรือการดําเนินการที่เลือก"
@@ -911,7 +911,7 @@ msgid "Not Found"
 msgstr "ไม่พบ"
 
 msgid "Not allowed to change Partner Type."
-msgstr "ไม่อนุญาตให้เปลี่ยนประเภทพันธมิตร"
+msgstr "ไม่อนุญาตให้เปลี่ยนประเภทหุ้นส่วน"
 
 msgid "Note: This maybe different from your Deriv login password."
 msgstr "หมายเหตุ: นี่อาจแตกต่างจากรหัสผ่านที่ใช้เข้าสู่ระบบ Deriv ของคุณ"
@@ -932,7 +932,7 @@ msgid "Once we’ve received your reply, we’ll verify the documents and unlock
 msgstr "เมื่อเราได้รับการตอบกลับจากคุณแล้ว เราจะตรวจสอบเอกสารและทำการปลดล็อกแคชเชียร์ของคุณ หากวิธีการชำระเงินไม่ใช่ของคุณ โปรดดู %1ตัวเลือกการชำระเงินที่รองรับ%2 และเลือกลงทะเบียนกับหนึ่งในนั้น"
 
 msgid "One or more parameters is missing"
-msgstr "ไม่มีพารามิเตอร์หนึ่งพารามิเตอร์หรือมากกว่านั้น"
+msgstr "มีพารามิเตอร์จำนวนหนึ่งได้หายไป"
 
 msgid "Only %1 decimal places are allowed."
 msgstr "อนุญาตให้ใช้ทศนิยม %1 ตำแหน่งเท่านั้น"
@@ -7425,36 +7425,52 @@ msgid "noqodi account"
 msgstr "บัญชี noqodi"
 
 msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "บัตรประจำตัว"
+
+msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "เอกสาร Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "รหัสผู้ออกเสียงลงคะแนน"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "หนังสือเดินทาง"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "ใบขับขี่"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "หมายเลขประจำตัวประชาชน"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "บัตรประจำตัว"
+msgid "National ID Number Slip"
+msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "ใบขับขี่"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "บัตรคนต่างด้าว"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "หนังสือเดินทาง"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "หมายเลขประจำตัวประชาชน CPF"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "รหัสผู้ออกเสียงลงคะแนน"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "Aadhaar Card"
@@ -7463,22 +7479,6 @@ msgstr "บัตร Aadhaar"
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "บัตร PAN"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "หมายเลขประจำตัวประชาชน CPF"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "บัตรคนต่างด้าว"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10986,7 +10986,7 @@ msgstr "รหัสยืนยันและปุ่มข้างต้น
 
 msgctxt "Customer.io email: dummy_phone_number_verification_new "
 msgid "We will never share our email lists and other data with a third party. To learn more about how we protect your personal and financial information, please read our %1security and privacy policy%2.."
-msgstr "เราจะไม่เปิดเผยรายชื่ออีเมล์และข้อมูลอื่น ๆ ของเรากับบุคคลภายนอก หากคุณต้องการรู้เพิ่มเติมถึงวิธีที่เราปกป้องข้อมูลส่วนบุคคลและข้อมูลทางการเงินของคุณ โปรดอ่าน %1นโยบายความปลอดภัยและความเป็นส่วนตัว%2 ของเรา"
+msgstr "เราจะไม่เปิดเผยรายชื่ออีเมล์และข้อมูลอื่นๆ ของเราให้กับบุคคลภายนอก หากคุณต้องการรู้เพิ่มเติมถึงวิธีที่เราปกป้องข้อมูลส่วนบุคคลและข้อมูลทางการเงินของคุณ โปรดอ่าน %1นโยบายความปลอดภัยและความเป็นส่วนตัว%2 ของเรา"
 
 msgctxt "Customer.io email: dummy_phone_number_verification_new "
 msgid "Verification code: Do not share"
