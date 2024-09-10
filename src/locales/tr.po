@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-09-09 11:52\n"
+"PO-Revision-Date: 2024-09-10 12:41\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -2680,11 +2680,38 @@ msgstr "CFD ticareti yapmak için Deriv'de aşağıdaki %1 hesaplarına giriş y
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "CFD ticareti yapmak üzere Deriv'deki %1 hesaplarınıza giriş yapmak için yeni şifrenizi kullanabilirsiniz."
 
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "Bu reklamcı(lar)ı engelleyemezsiniz, çünkü onları daha önce engellemiştiniz: %1."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr "Bu aynı reklamcı(ları) engelleyemez ve takip edemezsiniz: %1."
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr "Bu aynı reklamcı(ları) engelleyemez ve engelini kaldıramazsınız: %1."
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "Kimliğinizi henüz doğrulamadığınız için kimseyi engellemeyemezsiniz."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr "Bu reklamcı(ları) engelleyemezsiniz, çünkü şu anda onları takip ediyorsunuz: %1."
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "Bu ödeme yöntemini silemezsiniz çünkü şu satış ilan(lar)ı tarafından kullanılıyor: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr "Bu aynı reklamcı(ları) takip edemez ve takipten çıkamazsınız: %1."
+
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "Bu reklamcı(ları) takip edemezsiniz, çünkü onları daha önce engellemiştiniz: %1."
+
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "Bu reklamcı(ları) takip edemezsiniz, çünkü onları daha önce takip ettiniz: %1."
+
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "Bu reklamcı(lar)ın engelini kaldırmak mümkün değil çünkü daha önce engellemediniz: %1."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr "Bu reklamcı(ları) takipten çıkaramazsınız, çünkü onları daha önce takip etmediniz: %1."
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "Hesap durumunuz nedeniyle ödeme aracısı olmak için başvuramazsınız."
@@ -5536,9 +5563,6 @@ msgstr "Geçersiz ödeme para birimi"
 msgid "Invalid stake/payout."
 msgstr "Geçersiz bahis/ödeme."
 
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "Lütfen %1'den yüksek bir kayıp durdur tutarı girin."
-
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Geçersiz stop out. Stop out, geçerli spot fiyattan %1 olmalıdır. Lütfen bahisi veya multiplier ayarlayın."
 
@@ -5547,6 +5571,12 @@ msgstr "Sözleşme türü için geçersiz süre (tik) (%1)."
 
 msgid "We could not process this contract at this time."
 msgstr "Bu sözleşmeyi şu anda işleme koyamadık."
+
+msgid "Enter an amount equal to or lower than %1."
+msgstr "%1'e eşit veya daha düşük bir miktar girin."
+
+msgid "Enter an amount equal to or higher than %1."
+msgstr "%1'e eşit veya daha yüksek bir miktar girin."
 
 msgid "Only %1 decimal places allowed."
 msgstr "Yalnızca %1 ondalık basamağa izin verilir."
@@ -5695,17 +5725,8 @@ msgstr "Sözleşme kapatma sırasında bir hata oluştu."
 msgid "Minimum stake of %1 and maximum payout of %2. Current stake is %3."
 msgstr "Minimum %1 bahis ve maksimum %2 ödeme. Mevcut ödeme %3'tür."
 
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "Geçersiz kayıp durdur. Kayıp durdur %1'den fazla olamaz."
-
 msgid "Barrier must be symmetrical."
 msgstr "Bariyer simetrik olmalıdır."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "Lütfen %1'den düşük bir kar al tutarı girin."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "Lütfen %1'den yüksek bir kar al tutarı girin."
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Tik sayısı %1 ile %2 arasında olmalıdır."
@@ -7386,8 +7407,24 @@ msgid "noqodi account"
 msgstr "noqodi hesabı"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "National ID Number"
+msgstr "Ulusal Kimlik Numarası"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Pasaport"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Yabancı Kartı"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Ulusal Kimlik Numarası Fişi"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Sürücü Ehliyeti"
 
 msgctxt "IDV document type "
 msgid "Cédula de Identidad"
@@ -7398,48 +7435,32 @@ msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Sürücü Ehliyeti"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasaport"
-
-msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "Seçmen Kimliği"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Ulusal Kimlik Numarası Fişi"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Ulusal Kimlik Numarası"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar Kartı"
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN Kartı"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Yabancı Kartı"
+msgid "Aadhaar Card"
+msgstr "Aadhaar Kartı"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
