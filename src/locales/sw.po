@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-08-30 12:22\n"
+"PO-Revision-Date: 2024-09-09 11:52\n"
 "Last-Translator: \n"
 "Language-Team: Swahili\n"
 "Language: sw_KE\n"
@@ -2334,6 +2334,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
 msgid "Enjoy higher daily limits on Deriv P2P today!"
 msgstr "Furahia mipaka ya juu ya kila siku kwenye Deriv P2P leo!"
 
+#, fuzzy
+#| msgid "Please enter a stop loss amount that's higher than %1."
+msgid "Enter an amount equal to or higher than %1."
+msgstr "Tafadhali ingiza kiasi cha kuacha hasara ambayo ni kubwa kuliko %1."
+
+#, fuzzy
+#| msgid "Please enter a take profit amount that's lower than %1."
+msgid "Enter an amount equal to or lower than %1."
+msgstr "Tafadhali ingiza kiasi cha faida ambacho ni chini kuliko %1."
+
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Enter the amount, and click Next."
 msgstr "Ingiza kiasi, na bonyeza Next."
@@ -3559,9 +3569,6 @@ msgstr "Ombi halali."
 
 msgid "Invalid stake/payout."
 msgstr "Dhihi/malipo halali."
-
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "Upotezaji wa kuacha bila malipo. Kuacha upotezaji hauwezi kuwa zaidi ya %1."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Kuacha bila malipo. Kuacha lazima iwe %1 kuliko bei ya sasa ya hapo. Tafadhali rekebisha hisa au viongezaji."
@@ -5234,15 +5241,6 @@ msgstr "Tafadhali ingiza kiasi cha hisa ambacho ni angalau %1."
 
 msgid "Please enter a stake amount that's less than %1."
 msgstr "Tafadhali ingiza kiasi cha hisa ambacho ni chini ya %1."
-
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "Tafadhali ingiza kiasi cha kuacha hasara ambayo ni kubwa kuliko %1."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "Tafadhali ingiza kiasi cha faida ambacho ni juu kuliko %1."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "Tafadhali ingiza kiasi cha faida ambacho ni chini kuliko %1."
 
 msgid "Please enter a valid amount to transfer."
 msgstr "Tafadhali ingiza kiasi halali cha kuhamisha."
@@ -8145,10 +8143,8 @@ msgstr "USD/PLN"
 msgid "USD/QAR"
 msgstr "USD/QAR"
 
-#, fuzzy
-#| msgid "USD/ARS"
 msgid "USD/RSD"
-msgstr "USD/ARS"
+msgstr "USD/RSD"
 
 msgid "USD/RUB"
 msgstr "USD/RUB"
@@ -9681,11 +9677,38 @@ msgstr "Unaweza kutumia nenosiri lako jipya kuingia kwenye akaunti zifuatazo za 
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "Unaweza kutumia nenosiri lako jipya kuingia kwenye akaunti zako za %1 kwenye Deriv kufanya biashara ya CFDs."
 
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "Huwezi kuweka agizo kwenye tangazo, kwa sababu umemzuia mtangazaji."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr ""
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr ""
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "Huwezi kuzuia mtu yeyote kwa sababu haujathibitisha utambulisho wako bado."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr ""
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "Huwezi kufuta njia hii ya malipo kwa sababu inatumiwa na tangazo haya ya kuuza: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr ""
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "Huwezi kuweka agizo kwenye tangazo, kwa sababu umemzuia mtangazaji."
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "Huwezi kuweka agizo kwenye tangazo, kwa sababu umemzuia mtangazaji."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't make deposits and withdrawals"
@@ -9702,6 +9725,14 @@ msgstr "Huwezi kufungua nafasi mpya kwenye MT5"
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't trade"
 msgstr "Huwezi kufanya biashara"
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "Huwezi kuweka agizo kwenye tangazo, kwa sababu umemzuia mtangazaji."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr ""
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "Huwezi kuomba kuwa wakala wa malipo kwa sababu ya hali ya akaunti yako."
@@ -11003,38 +11034,8 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Habari na karibu Deriv"
 
-#~ msgid "Deriv EZ account is not available in your country yet."
-#~ msgstr "Akaunti ya Deriv EZ haipatikani katika nchi yako bado."
+#~ msgid "Invalid stop loss. Stop loss cannot be more than %1."
+#~ msgstr "Upotezaji wa kuacha bila malipo. Kuacha upotezaji hauwezi kuwa zaidi ya %1."
 
-#~ msgid "Deriv EZ is currently unavailable. Please try again later."
-#~ msgstr "Deriv EZ haipatikani kwa sasa. Tafadhali jaribu tena baadaye."
-
-#~ msgid "Deriv EZ platform is not available."
-#~ msgstr "Jukwaa la Deriv EZ halipatikani."
-
-#~ msgid "Invalid Deriv EZ account currency. Please check the details and try again."
-#~ msgstr "Sarafu halali ya akaunti ya Deriv EZ. Tafadhali angalia maelezo na jaribu tena."
-
-#~ msgid "Some accounts are currently unavailable. Please try again later."
-#~ msgstr "Akaunti zingine hazipatikani kwa sasa. Tafadhali jaribu tena baadaye."
-
-#~ msgid "The following parameters are missing: %1"
-#~ msgstr "Vigezo vifuatavyo havikosekana: %1"
-
-#~ msgid "This Deriv EZ account has an invalid Landing Company."
-#~ msgstr "Akaunti hii ya Deriv EZ ina Kampuni halali ya Utuaji."
-
-#~ msgid "We are retrieving your Deriv EZ details. Please give us a few more seconds."
-#~ msgstr "Tunapata maelezo yako ya Deriv EZ. Tafadhali tupe sekunde chache zaidi."
-
-#~ msgid "You are on a virtual account. To open an Deriv EZ account, please upgrade to a real account."
-#~ msgstr "Uko kwenye akaunti halisi. Ili kufungua akaunti ya Deriv EZ, tafadhali uboresha akaunti halisi."
-
-#~ msgid "Your Deriv EZ account is inactive. Please contact us for more information."
-#~ msgstr "Akaunti yako ya Deriv EZ haifanyi kazi. Tafadhali wasiliana nasi kwa habari zaidi."
-
-#~ msgid "Your Deriv EZ login ID is missing. Please check the details and try again."
-#~ msgstr "Kitambulisho chako cha kuingia cha Deriv EZ haikosekana. Tafadhali angalia maelezo na jaribu tena."
-
-#~ msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and create your Deriv EZ account."
-#~ msgstr "Hati zako za kitambulisho zimekwisha. Tembelea wasifu wa akaunti yako ili kuwasilisha hati zako halali na uunda akaunti yako ya Deriv EZ."
+#~ msgid "Please enter a take profit amount that's higher than %1."
+#~ msgstr "Tafadhali ingiza kiasi cha faida ambacho ni juu kuliko %1."

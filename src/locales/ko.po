@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-08-30 12:22\n"
+"PO-Revision-Date: 2024-09-09 11:51\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -2334,6 +2334,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
 msgid "Enjoy higher daily limits on Deriv P2P today!"
 msgstr "이제 Deriv P2P에서 더 높은 일일 한도를 즐기세요!"
 
+#, fuzzy
+#| msgid "Please enter a stop loss amount that's higher than %1."
+msgid "Enter an amount equal to or higher than %1."
+msgstr "%1보다 높은 스톱로스 금액을 입력해 주시기 바랍니다."
+
+#, fuzzy
+#| msgid "Please enter a take profit amount that's lower than %1."
+msgid "Enter an amount equal to or lower than %1."
+msgstr "%1보다 더 낮은 이익실현 금액을 입력하시기 바랍니다."
+
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Enter the amount, and click Next."
 msgstr "금액을 입력하신 후, 다음을 클릭하세요."
@@ -3559,9 +3569,6 @@ msgstr "유효하지 않은 요청입니다."
 
 msgid "Invalid stake/payout."
 msgstr "유효하지 않은 지분/지불금입니다."
-
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "유효하지 않은 스탑로스입니다. 스탑로스는 %1보다 클 수 없습니다."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "유효하지 않은 스톱아웃입니다. 스톱아웃은 반드시 현재의 현물가격보다 %1이여야 합니다. 지분 또는 승수를 조정해 주시기 바랍니다."
@@ -5234,15 +5241,6 @@ msgstr "적어도 %1인 지분 금액을 입력 해 주시기 바랍니다."
 
 msgid "Please enter a stake amount that's less than %1."
 msgstr "%1보다 더 적은 지분 금액을 입력해 주시기 바랍니다."
-
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "%1보다 높은 스톱로스 금액을 입력해 주시기 바랍니다."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "%1보다 높은 이익실현 금액을 입력해 주시기 바랍니다."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "%1보다 더 낮은 이익실현 금액을 입력하시기 바랍니다."
 
 msgid "Please enter a valid amount to transfer."
 msgstr "송금하기 위한 유효한 숫자를 입력해 주시기 바랍니다."
@@ -8145,10 +8143,8 @@ msgstr "USD/PLN"
 msgid "USD/QAR"
 msgstr "USD/QAR"
 
-#, fuzzy
-#| msgid "USD/ARS"
 msgid "USD/RSD"
-msgstr "USD/ARS"
+msgstr "USD/RSD"
 
 msgid "USD/RUB"
 msgstr "USD/RUB"
@@ -9681,11 +9677,38 @@ msgstr "귀하께서는 CFD를 거래하시기 위해 Deriv에서 다음의 %1�
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "귀하께서는 귀하의 Deriv %1 계정으로 귀하의 새 비밀번호로 로그인하셔서 CFD를 거래하실 수 있습니다."
 
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "귀하께서 해당 광고주를 차단하셨기 때문에 귀하께서는 해당 광고에 대해서는 주문을 하실 수 없습니다."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr ""
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr ""
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "귀하께서는 귀하의 신분을 아직 인증받지 않으셨기 때문에 다른 사람들을 블록처리할 수 없습니다."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr ""
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "이 결제 방식이 다음의 판매 광고(들)에 의해 이용되고 있기 때문에 이 결제 방식을 삭제할 수 없습니다: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr ""
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "귀하께서 해당 광고주를 차단하셨기 때문에 귀하께서는 해당 광고에 대해서는 주문을 하실 수 없습니다."
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "귀하께서 해당 광고주를 차단하셨기 때문에 귀하께서는 해당 광고에 대해서는 주문을 하실 수 없습니다."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't make deposits and withdrawals"
@@ -9702,6 +9725,14 @@ msgstr "MT5에서 새 포지션들을 개설하실 수 없습니다"
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't trade"
 msgstr "거래하실 수 없습니다"
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "귀하께서 해당 광고주를 차단하셨기 때문에 귀하께서는 해당 광고에 대해서는 주문을 하실 수 없습니다."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr ""
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "귀하의 계정 상태로 인해 귀하께서는 결제 에이전트로 신청하실 수 없습니다."
@@ -11003,38 +11034,8 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 안녕하세요, Deriv에 오신 것을 환영합니다."
 
-#~ msgid "Deriv EZ account is not available in your country yet."
-#~ msgstr "Deriv EZ 계정은 아직 귀하의 국가에서는 이요하실 수 없습니다."
+#~ msgid "Invalid stop loss. Stop loss cannot be more than %1."
+#~ msgstr "유효하지 않은 스탑로스입니다. 스탑로스는 %1보다 클 수 없습니다."
 
-#~ msgid "Deriv EZ is currently unavailable. Please try again later."
-#~ msgstr "Deriv EZ는 현재 이용할 수 없습니다. 나중에 다시 시도해 주시기 바랍니다."
-
-#~ msgid "Deriv EZ platform is not available."
-#~ msgstr "Deriv EZ 플랫폼은 현재 사용할 수 없습니다."
-
-#~ msgid "Invalid Deriv EZ account currency. Please check the details and try again."
-#~ msgstr "유효하지 않은 Deriv EZ 계정 통화입니다. 세부사항을 확인 후 다시 시도하시기 바랍니다."
-
-#~ msgid "Some accounts are currently unavailable. Please try again later."
-#~ msgstr "몇몇 계정은 현재 이용할 수 없습니다. 나중에 다시 시도해 주시기 바랍니다."
-
-#~ msgid "The following parameters are missing: %1"
-#~ msgstr "다음의 매개변수가 없습니다: %1"
-
-#~ msgid "This Deriv EZ account has an invalid Landing Company."
-#~ msgstr "이 Deriv EZ 게정은 유효하지 않은 랜딩 컴퍼니 (Landing Company)가 있습니다."
-
-#~ msgid "We are retrieving your Deriv EZ details. Please give us a few more seconds."
-#~ msgstr "귀하의 Deriv EZ 세부 정보를 불러오는 중입니다. 잠시만 기다려 주시기 바랍니다."
-
-#~ msgid "You are on a virtual account. To open an Deriv EZ account, please upgrade to a real account."
-#~ msgstr "귀하께서는 가상 계정을 이용 중이십니다. Deriv EZ 계정을 개설하기 위해서, 실제 계정으로 업그레이드 하시기 바랍니다."
-
-#~ msgid "Your Deriv EZ account is inactive. Please contact us for more information."
-#~ msgstr "귀하의 Deriv EZ 계정이 활성화되어 있지 않습니다. 자세한 정보는 저희에게 문의주시기 바랍니다."
-
-#~ msgid "Your Deriv EZ login ID is missing. Please check the details and try again."
-#~ msgstr "귀하의 Deriv EZ 로그인 아이디를 찾을 수 없습니다. 세부 정보를 확인 후 다시 시도해 주시기 바랍니다."
-
-#~ msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and create your Deriv EZ account."
-#~ msgstr "귀하의 신분 문서가 만료되었습니다. 계정 프로필로 이동하여 유효한 문서를 제출하시고 귀하의 Deriv EZ 계정을 생성하세요."
+#~ msgid "Please enter a take profit amount that's higher than %1."
+#~ msgstr "%1보다 높은 이익실현 금액을 입력해 주시기 바랍니다."

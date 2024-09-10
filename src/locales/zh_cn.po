@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-08-30 12:22\n"
+"PO-Revision-Date: 2024-09-09 11:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2334,6 +2334,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
 msgid "Enjoy higher daily limits on Deriv P2P today!"
 msgstr "立刻体验 Deriv P2P 的每日更高限额！"
 
+#, fuzzy
+#| msgid "Please enter a stop loss amount that's higher than %1."
+msgid "Enter an amount equal to or higher than %1."
+msgstr "请输入大于%1的止损金额。"
+
+#, fuzzy
+#| msgid "Please enter a take profit amount that's lower than %1."
+msgid "Enter an amount equal to or lower than %1."
+msgstr "请输入小于%1的止盈金额。"
+
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Enter the amount, and click Next."
 msgstr "输入金额，然后单击下一步。"
@@ -3559,9 +3569,6 @@ msgstr "无效请求。"
 
 msgid "Invalid stake/payout."
 msgstr "无效投注/赔付金额。"
-
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "止损无效。止损不可大于%1。"
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "强制平仓无效。强制平仓须低于当前现货价%1。请调整投注资金或 multiplier 值。"
@@ -5234,15 +5241,6 @@ msgstr "请输入不小于%1的投注金额。"
 
 msgid "Please enter a stake amount that's less than %1."
 msgstr "请输入小于%1的投注金额。"
-
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "请输入大于%1的止损金额。"
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "请输入大于%1的止盈金额。"
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "请输入小于%1的止盈金额。"
 
 msgid "Please enter a valid amount to transfer."
 msgstr "请输入有效的转账金额。"
@@ -8145,10 +8143,8 @@ msgstr "美元/波兰兹罗提"
 msgid "USD/QAR"
 msgstr "美元/卡塔尔里亚尔"
 
-#, fuzzy
-#| msgid "USD/ARS"
 msgid "USD/RSD"
-msgstr "美元/阿根廷比索"
+msgstr "美元/塞尔维亚第纳尔"
 
 msgid "USD/RUB"
 msgstr "美元/俄罗斯卢布"
@@ -9681,11 +9677,38 @@ msgstr "可用新密码在 Deriv 登录以下的%1 账户并交易差价合约�
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "可用新密码在 Deriv 登录%1 账户交易差价合约。"
 
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "广告无法下订单，因已禁用此广告商。"
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr ""
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr ""
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "无法阻止任何人访问，因还未验证身份。"
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr ""
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "不能删除此付款方式，因为这些销售广告在使用它: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr ""
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "广告无法下订单，因已禁用此广告商。"
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "广告无法下订单，因已禁用此广告商。"
 
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't make deposits and withdrawals"
@@ -9702,6 +9725,14 @@ msgstr "MT5 不可开新头寸"
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't trade"
 msgstr "不可交易"
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "广告无法下订单，因已禁用此广告商。"
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr ""
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "基于账户状况，不可申请为付款代理。"
@@ -11003,38 +11034,8 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 您好，欢迎来到 Deriv"
 
-#~ msgid "Deriv EZ account is not available in your country yet."
-#~ msgstr "您的国家还不能使用 Deriv EZ 账户。"
+#~ msgid "Invalid stop loss. Stop loss cannot be more than %1."
+#~ msgstr "止损无效。止损不可大于%1。"
 
-#~ msgid "Deriv EZ is currently unavailable. Please try again later."
-#~ msgstr "Deriv EZ 目前无法使用。请稍后重试。"
-
-#~ msgid "Deriv EZ platform is not available."
-#~ msgstr "Deriv EZ 平台不可用。"
-
-#~ msgid "Invalid Deriv EZ account currency. Please check the details and try again."
-#~ msgstr "Deriv EZ 账户货币无效。请仔细检查并重试。"
-
-#~ msgid "Some accounts are currently unavailable. Please try again later."
-#~ msgstr "一些账户目前无法使用。请稍后重试。"
-
-#~ msgid "The following parameters are missing: %1"
-#~ msgstr "以下参数丢失：%1"
-
-#~ msgid "This Deriv EZ account has an invalid Landing Company."
-#~ msgstr "此 Deriv EZ 账户含无效的着陆公司。"
-
-#~ msgid "We are retrieving your Deriv EZ details. Please give us a few more seconds."
-#~ msgstr "正在恢复 Deriv EZ 资料。请再等数秒钟时间。"
-
-#~ msgid "You are on a virtual account. To open an Deriv EZ account, please upgrade to a real account."
-#~ msgstr "用的是虚拟账户。要开立 Deriv EZ 账户，请先升级为真实账户。"
-
-#~ msgid "Your Deriv EZ account is inactive. Please contact us for more information."
-#~ msgstr "Deriv EZ 账户已停用。欲知详情请跟我们联系。"
-
-#~ msgid "Your Deriv EZ login ID is missing. Please check the details and try again."
-#~ msgstr "缺少 Deriv EZ 登录 ID。请仔细检查并重试。"
-
-#~ msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and create your Deriv EZ account."
-#~ msgstr "身份证件已过期。请前往账户个人资料提交有效的证件并开立 Deriv EZ 账户。"
+#~ msgid "Please enter a take profit amount that's higher than %1."
+#~ msgstr "请输入大于%1的止盈金额。"

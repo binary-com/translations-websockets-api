@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-08-30 12:22\n"
+"PO-Revision-Date: 2024-09-09 11:51\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -2334,6 +2334,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
 msgid "Enjoy higher daily limits on Deriv P2P today!"
 msgstr "Genießen Sie noch heute höhere Tageslimits bei Deriv P2P!"
 
+#, fuzzy
+#| msgid "Please enter a stop loss amount that's higher than %1."
+msgid "Enter an amount equal to or higher than %1."
+msgstr "Bitte geben Sie einen Stop-Loss-Betrag ein, der höher als %1 ist."
+
+#, fuzzy
+#| msgid "Please enter a take profit amount that's lower than %1."
+msgid "Enter an amount equal to or lower than %1."
+msgstr "Bitte geben Sie einen Take-Profit-Betrag ein, der niedriger als %1 ist."
+
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Enter the amount, and click Next."
 msgstr "Geben Sie den Betrag ein, und klicken Sie auf Weiter."
@@ -3559,9 +3569,6 @@ msgstr "Ungültige Anforderung."
 
 msgid "Invalid stake/payout."
 msgstr "Ungültiger Einsatz/Auszahlung."
-
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "Ungültiger Stop-Loss. Stop-Loss kann nicht größer als %1 sein."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Ungültiger Stop-Out. Der Stop-Out muss %1 als aktueller Spotpreis sein. Bitte passen Sie den Einsatz oder Multiplikator an."
@@ -5234,15 +5241,6 @@ msgstr "Bitte geben Sie einen Betrag ein, der mindestens %1 beträgt."
 
 msgid "Please enter a stake amount that's less than %1."
 msgstr "Bitte geben Sie einen Betrag ein, der kleiner als %1 ist."
-
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "Bitte geben Sie einen Stop-Loss-Betrag ein, der höher als %1 ist."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "Bitte geben Sie einen Take-Profit-Betrag ein, der höher als %1 ist."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "Bitte geben Sie einen Take-Profit-Betrag ein, der niedriger als %1 ist."
 
 msgid "Please enter a valid amount to transfer."
 msgstr "Bitte geben Sie einen gültigen Betrag für die Überweisung ein."
@@ -8145,10 +8143,8 @@ msgstr "USD/PLN"
 msgid "USD/QAR"
 msgstr "USD/QAR"
 
-#, fuzzy
-#| msgid "USD/ARS"
 msgid "USD/RSD"
-msgstr "USD/ARS"
+msgstr "USD/RSD"
 
 msgid "USD/RUB"
 msgstr "USD/RUB"
@@ -9681,11 +9677,38 @@ msgstr "Sie können sich mit Ihrem neuen Passwort bei den folgenden %1-Konten au
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "Mit Ihrem neuen Passwort können Sie sich bei Ihren %1-Konten auf Deriv anmelden, um mit CFDs zu handeln."
 
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "Sie können keine Bestellung auf die Anzeige aufgeben, weil Sie den Werbetreibenden blockiert haben."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr ""
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr ""
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "Sie können niemanden blockieren, weil Sie Ihre Identität noch nicht verifiziert haben."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr ""
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "Sie können diese Zahlungsmethode nicht löschen, da sie von diesen Anzeigen verwendet wird: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr ""
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "Sie können keine Bestellung auf die Anzeige aufgeben, weil Sie den Werbetreibenden blockiert haben."
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "Sie können keine Bestellung auf die Anzeige aufgeben, weil Sie den Werbetreibenden blockiert haben."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't make deposits and withdrawals"
@@ -9702,6 +9725,14 @@ msgstr "Sie können keine neuen Positionen auf MT5 eröffnen"
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't trade"
 msgstr "Sie können nicht handeln"
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "Sie können keine Bestellung auf die Anzeige aufgeben, weil Sie den Werbetreibenden blockiert haben."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr ""
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "Aufgrund Ihres Kontostatus können Sie sich nicht als Zahlungsagent bewerben."
@@ -11003,38 +11034,8 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Hallo und willkommen bei Deriv"
 
-#~ msgid "Deriv EZ account is not available in your country yet."
-#~ msgstr "Das Deriv EZ-Konto ist in Ihrem Land noch nicht verfügbar."
+#~ msgid "Invalid stop loss. Stop loss cannot be more than %1."
+#~ msgstr "Ungültiger Stop-Loss. Stop-Loss kann nicht größer als %1 sein."
 
-#~ msgid "Deriv EZ is currently unavailable. Please try again later."
-#~ msgstr "Deriv EZ ist derzeit nicht verfügbar. Bitte versuchen Sie es später noch einmal."
-
-#~ msgid "Deriv EZ platform is not available."
-#~ msgstr "Entschuldigung, die Deriv EZ-Plattform ist derzeit nicht vorhanden."
-
-#~ msgid "Invalid Deriv EZ account currency. Please check the details and try again."
-#~ msgstr "Ungültige Deriv EZ-Kontowährung. Bitte überprüfen Sie die Details und versuchen Sie es erneut."
-
-#~ msgid "Some accounts are currently unavailable. Please try again later."
-#~ msgstr "Einige Kontos/Konti/Konten sind zurzeit #nicht verfügbar. Bitte probier nochmal nachher."
-
-#~ msgid "The following parameters are missing: %1"
-#~ msgstr "Folgende Parameter fehlen: %1"
-
-#~ msgid "This Deriv EZ account has an invalid Landing Company."
-#~ msgstr "Dieses Deriv EZ-Konto hat eine ungültige Landing Company."
-
-#~ msgid "We are retrieving your Deriv EZ details. Please give us a few more seconds."
-#~ msgstr "Wir rufen gerade Ihre Deriv EZ-Daten ab. Bitte geben Sie uns noch ein paar Sekunden Zeit."
-
-#~ msgid "You are on a virtual account. To open an Deriv EZ account, please upgrade to a real account."
-#~ msgstr "Sie befinden sich auf einem virtuellen Konto. Um ein Deriv EZ-Konto zu eröffnen, wechseln Sie bitte zu einem realen Konto."
-
-#~ msgid "Your Deriv EZ account is inactive. Please contact us for more information."
-#~ msgstr "Ihr Deriv EZ-Konto ist inaktiv. Bitte kontaktieren Sie uns für weitere Informationen."
-
-#~ msgid "Your Deriv EZ login ID is missing. Please check the details and try again."
-#~ msgstr "Ihre Deriv EZ-Anmelde-ID fehlt. Bitte überprüfen Sie die Angaben und versuchen Sie es erneut."
-
-#~ msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and create your Deriv EZ account."
-#~ msgstr "Ihre Ausweisdokumente sind abgelaufen. Besuchen Sie Ihr Kontoprofil, um Ihre gültigen Dokumente einzureichen und Ihr Deriv EZ-Konto zu erstellen."
+#~ msgid "Please enter a take profit amount that's higher than %1."
+#~ msgstr "Bitte geben Sie einen Take-Profit-Betrag ein, der höher als %1 ist."

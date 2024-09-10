@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-08-30 12:22\n"
+"PO-Revision-Date: 2024-09-09 11:52\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -2334,6 +2334,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
 msgid "Enjoy higher daily limits on Deriv P2P today!"
 msgstr "Bugün Deriv P2P'de daha yüksek günlük limitlerin tadını çıkarın!"
 
+#, fuzzy
+#| msgid "Please enter a stop loss amount that's higher than %1."
+msgid "Enter an amount equal to or higher than %1."
+msgstr "Lütfen %1'den yüksek bir kayıp durdur tutarı girin."
+
+#, fuzzy
+#| msgid "Please enter a take profit amount that's lower than %1."
+msgid "Enter an amount equal to or lower than %1."
+msgstr "Lütfen %1'den düşük bir kar al tutarı girin."
+
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Enter the amount, and click Next."
 msgstr "Tutarı girin, ve İleri'ye tıklayın."
@@ -3559,9 +3569,6 @@ msgstr "Geçersiz istek."
 
 msgid "Invalid stake/payout."
 msgstr "Geçersiz bahis/ödeme."
-
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "Geçersiz kayıp durdur. Kayıp durdur %1'den fazla olamaz."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Geçersiz stop out. Stop out, geçerli spot fiyattan %1 olmalıdır. Lütfen bahisi veya multiplier ayarlayın."
@@ -5234,15 +5241,6 @@ msgstr "Lütfen en az %1 olan bir bahis tutarı girin."
 
 msgid "Please enter a stake amount that's less than %1."
 msgstr "Lütfen en az %1 olan bir bahis tutarı girin."
-
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "Lütfen %1'den yüksek bir kayıp durdur tutarı girin."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "Lütfen %1'den yüksek bir kar al tutarı girin."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "Lütfen %1'den düşük bir kar al tutarı girin."
 
 msgid "Please enter a valid amount to transfer."
 msgstr "Lütfen transfer için geçerli bir tutar girin."
@@ -8145,10 +8143,8 @@ msgstr "USD/PLN"
 msgid "USD/QAR"
 msgstr "USD/QAR"
 
-#, fuzzy
-#| msgid "USD/ARS"
 msgid "USD/RSD"
-msgstr "USD/ARS"
+msgstr "USD/RSD"
 
 msgid "USD/RUB"
 msgstr "USD/RUB"
@@ -9681,11 +9677,38 @@ msgstr "CFD ticareti yapmak için Deriv'de aşağıdaki %1 hesaplarına giriş y
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "CFD ticareti yapmak üzere Deriv'deki %1 hesaplarınıza giriş yapmak için yeni şifrenizi kullanabilirsiniz."
 
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "İlanvereni engellediğiniz için, bu ilan için emir veremezsiniz."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr ""
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr ""
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "Kimliğinizi henüz doğrulamadığınız için kimseyi engellemeyemezsiniz."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr ""
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "Bu ödeme yöntemini silemezsiniz çünkü şu satış ilan(lar)ı tarafından kullanılıyor: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr ""
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "İlanvereni engellediğiniz için, bu ilan için emir veremezsiniz."
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "İlanvereni engellediğiniz için, bu ilan için emir veremezsiniz."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't make deposits and withdrawals"
@@ -9702,6 +9725,14 @@ msgstr "MT5'te yeni pozisyonlar açamazsınız"
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't trade"
 msgstr "İşlem yapamazsınız"
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "İlanvereni engellediğiniz için, bu ilan için emir veremezsiniz."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr ""
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "Hesap durumunuz nedeniyle ödeme aracısı olmak için başvuramazsınız."
@@ -11003,38 +11034,8 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Merhaba ve Deriv'e hoş geldiniz"
 
-#~ msgid "Deriv EZ account is not available in your country yet."
-#~ msgstr "Deriv EZ hesabı henüz ülkenizde kullanılamıyor."
+#~ msgid "Invalid stop loss. Stop loss cannot be more than %1."
+#~ msgstr "Geçersiz kayıp durdur. Kayıp durdur %1'den fazla olamaz."
 
-#~ msgid "Deriv EZ is currently unavailable. Please try again later."
-#~ msgstr "Deriv EZ şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin."
-
-#~ msgid "Deriv EZ platform is not available."
-#~ msgstr "Deriv EZ platformu şu anda kullanılamıyor."
-
-#~ msgid "Invalid Deriv EZ account currency. Please check the details and try again."
-#~ msgstr "Geçersiz Deriv EZ hesap para birimi. Lütfen ayrıntıları kontrol edin ve tekrar deneyin."
-
-#~ msgid "Some accounts are currently unavailable. Please try again later."
-#~ msgstr "Bazı hesaplar şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyiniz."
-
-#~ msgid "The following parameters are missing: %1"
-#~ msgstr "Aşağıdaki parametreler eksik: %1"
-
-#~ msgid "This Deriv EZ account has an invalid Landing Company."
-#~ msgstr "Bu Deriv EZ hesabında geçersiz bir Landing Company var."
-
-#~ msgid "We are retrieving your Deriv EZ details. Please give us a few more seconds."
-#~ msgstr "Deriv EZ bilgilerinizi alıyoruz. Lütfen bize birkaç saniye daha verin."
-
-#~ msgid "You are on a virtual account. To open an Deriv EZ account, please upgrade to a real account."
-#~ msgstr "Sanal bir hesap kullanıyorsunuz. Bir Deriv EZ hesabı açmak için lütfen gerçek bir hesaba geçin."
-
-#~ msgid "Your Deriv EZ account is inactive. Please contact us for more information."
-#~ msgstr "Deriv EZ hesabınız etkin değil. Daha fazla bilgi için lütfen bizimle iletişime geçin."
-
-#~ msgid "Your Deriv EZ login ID is missing. Please check the details and try again."
-#~ msgstr "Deriv EZ oturum açma kimliğiniz eksik. Lütfen ayrıntıları kontrol edin ve tekrar deneyin."
-
-#~ msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and create your Deriv EZ account."
-#~ msgstr "Kimlik belgelerinizin süresi dolmuştur. Geçerli belgelerinizi göndermek ve Deriv EZ hesabınızı oluşturmak için hesap profilinizi ziyaret edin."
+#~ msgid "Please enter a take profit amount that's higher than %1."
+#~ msgstr "Lütfen %1'den yüksek bir kar al tutarı girin."

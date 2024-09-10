@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-08-30 12:22\n"
+"PO-Revision-Date: 2024-09-09 11:51\n"
 "Last-Translator: \n"
 "Language-Team: Mongolian\n"
 "Language: mn_MN\n"
@@ -2334,6 +2334,16 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_limit_change "
 msgid "Enjoy higher daily limits on Deriv P2P today!"
 msgstr "Өнөөдөр Deriv P2P дээр өдөр тутмын дээд хязгаарыг эдлээрэй!"
 
+#, fuzzy
+#| msgid "Please enter a stop loss amount that's higher than %1."
+msgid "Enter an amount equal to or higher than %1."
+msgstr "%1-ээс өндөр stop loss хэмжээг оруулна уу."
+
+#, fuzzy
+#| msgid "Please enter a take profit amount that's lower than %1."
+msgid "Enter an amount equal to or lower than %1."
+msgstr "%1-аас доогуур ашгийн хэмжээг оруулна уу."
+
 msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Enter the amount, and click Next."
 msgstr "Дүнг оруулаад Дараа нь дарна уу."
@@ -3559,9 +3569,6 @@ msgstr "Хүчин төгөлдөр бус хүсэлт."
 
 msgid "Invalid stake/payout."
 msgstr "Хүчин төгөлдөр бус хувьцаан/төлбөр."
-
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "Хүчингүй зогсолтын алдагдал. Алдагдлыг зогсоох нь %1-ээс хэтрэхгүй байж болохгүй."
 
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Хүчин төгөлдөр бус зогсоо. Stop out нь одоогийн спот үнээс %1 байх ёстой. Гадна эсвэл үржүүлэгчийг тохируулна уу."
@@ -5234,15 +5241,6 @@ msgstr "Хамгийн багадаа %1гэсэн хувьцааны дүнг �
 
 msgid "Please enter a stake amount that's less than %1."
 msgstr "%1-ээс бага хувьцааны дүнг оруулна уу."
-
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "%1-ээс өндөр stop loss хэмжээг оруулна уу."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "%1-ээс өндөр ашгийн хэмжээг оруулна уу."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "%1-аас доогуур ашгийн хэмжээг оруулна уу."
 
 msgid "Please enter a valid amount to transfer."
 msgstr "Шилжүүлэхийн тулд хүчинтэй дүнг оруулна уу."
@@ -8145,10 +8143,8 @@ msgstr "ДОЛЛАР/PLN"
 msgid "USD/QAR"
 msgstr "АМ.ДОЛЛАР/КАР"
 
-#, fuzzy
-#| msgid "USD/ARS"
 msgid "USD/RSD"
-msgstr "АМ.ДОЛЛАР/АРС"
+msgstr "USD/RSD"
 
 msgid "USD/RUB"
 msgstr "АМ.ДОЛЛАР/ЦЭВЭРЛЭНЭ"
@@ -9681,11 +9677,38 @@ msgstr "Та шинэ нууц үгээ ашиглан Deriv дээрх дара
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "Та шинэ нууц үгээ ашиглан Deriv дээрх %1 дансууддаа нэвтэрч CFD арилжаа хийх боломжтой."
 
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "Та зар сурталчилгаанд захиалга өгөх боломжгүй, учир нь та зар сурталчилгаа хийгчийг хаасан байна."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr ""
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr ""
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "Та одоогоор үнэмлэхээ баталгаажуулаагүй байгаа учраас хэнийг ч хааж болохгүй."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr ""
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "Та эдгээр худалдах зар (ууд) -аар ашиглагдаж байгаа учраас энэ төлбөрийн аргыг устгах боломжгүй: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr ""
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "Та зар сурталчилгаанд захиалга өгөх боломжгүй, учир нь та зар сурталчилгаа хийгчийг хаасан байна."
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "Та зар сурталчилгаанд захиалга өгөх боломжгүй, учир нь та зар сурталчилгаа хийгчийг хаасан байна."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't make deposits and withdrawals"
@@ -9702,6 +9725,14 @@ msgstr "Та MT5 дээр шинэ байр суурь нээж чадахгүй
 msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
 msgid "You can't trade"
 msgstr "Та худалдаа хийж чадахгүй"
+
+#, fuzzy
+#| msgid "You cannot place an order on the advert, because you have blocked the advertiser."
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "Та зар сурталчилгаанд захиалга өгөх боломжгүй, учир нь та зар сурталчилгаа хийгчийг хаасан байна."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr ""
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "Та дансны статусаас шалтгаалан төлбөрийн агент болох өргөдөл гаргах боломжгүй."
@@ -11003,38 +11034,8 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Сайн байна уу, Деривт тавтай морилно уу"
 
-#~ msgid "Deriv EZ account is not available in your country yet."
-#~ msgstr "Deriv EZ данс танай улсад хараахан байхгүй байна."
+#~ msgid "Invalid stop loss. Stop loss cannot be more than %1."
+#~ msgstr "Хүчингүй зогсолтын алдагдал. Алдагдлыг зогсоох нь %1-ээс хэтрэхгүй байж болохгүй."
 
-#~ msgid "Deriv EZ is currently unavailable. Please try again later."
-#~ msgstr "Deriv EZ одоогоор ашиглах боломжгүй байна. Дараа нь дахин оролдоно уу."
-
-#~ msgid "Deriv EZ platform is not available."
-#~ msgstr "Deriv EZ платформ байхгүй байна."
-
-#~ msgid "Invalid Deriv EZ account currency. Please check the details and try again."
-#~ msgstr "Хүчин төгөлдөр бус Deriv EZ дансны валют. Дэлгэрэнгүй мэдээллийг шалгаад дахин оролдоно уу."
-
-#~ msgid "Some accounts are currently unavailable. Please try again later."
-#~ msgstr "Зарим данс одоогоор боломжгүй байна. Дараа нь дахин оролдоно уу."
-
-#~ msgid "The following parameters are missing: %1"
-#~ msgstr "Дараах параметрүүд алга байна: %1"
-
-#~ msgid "This Deriv EZ account has an invalid Landing Company."
-#~ msgstr "Энэхүү Deriv EZ данс нь хүчин төгөлдөр бус Ландинг компанитай."
-
-#~ msgid "We are retrieving your Deriv EZ details. Please give us a few more seconds."
-#~ msgstr "Бид таны Deriv EZ дэлгэрэнгүй мэдээллийг авч байна. Бидэнд дахиад хэдэн секунд өг."
-
-#~ msgid "You are on a virtual account. To open an Deriv EZ account, please upgrade to a real account."
-#~ msgstr "Та виртуаль дансанд байна. Deriv EZ данс нээхийн тулд жинхэнэ данс руу шинэчлэнэ үү."
-
-#~ msgid "Your Deriv EZ account is inactive. Please contact us for more information."
-#~ msgstr "Таны Deriv EZ данс идэвхгүй байна. Дэлгэрэнгүй мэдээллийг бидэнтэй холбоо барина уу."
-
-#~ msgid "Your Deriv EZ login ID is missing. Please check the details and try again."
-#~ msgstr "Таны Deriv EZ нэвтрэх ID алга байна. Дэлгэрэнгүй мэдээллийг шалгаад дахин оролдоно уу."
-
-#~ msgid "Your identity documents have expired. Visit your account profile to submit your valid documents and create your Deriv EZ account."
-#~ msgstr "Таны иргэний үнэмлэхний хугацаа дууссан. Хүчинтэй баримт бичгээ ирүүлэхийн тулд өөрийн дансны профайлд зочилж, Deriv EZ дансаа үүсгээрэй."
+#~ msgid "Please enter a take profit amount that's higher than %1."
+#~ msgstr "%1-ээс өндөр ашгийн хэмжээг оруулна уу."
