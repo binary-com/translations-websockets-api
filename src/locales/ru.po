@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-09-09 11:51\n"
+"PO-Revision-Date: 2024-09-10 12:41\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -2680,11 +2680,38 @@ msgstr "Вы можете использовать свой новый паро�
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "Вы можете использовать свой новый пароль для входа на %1 счета Deriv для торговли CFD."
 
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "Вы не можете заблокировать этого рекламодателя(ей), потому что вы уже их заблокировали: %1."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr "Вы не можете заблокировать и следовать за одним и тем же рекламодателем(ями): %1."
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr "Вы не можете заблокировать и разблокировать одного и того же рекламодателя(ей): %1."
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "Вы не можете никого заблокировать, потому что еще не подтвердили свою личность."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr "Вы не можете заблокировать этих рекламодателей, потому что вы в настоящее время подписаны на них: %1."
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "Вы не можете удалить этот платежный метод, так как он используется в этих объявлениях о продаже: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr "Вы не можете следовать и отписываться от одного и того же рекламодателя(ей): %1."
+
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "Вы не можете подписаться на этих рекламодателей, потому что вы уже заблокировали их: %1."
+
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "Вы не можете подписаться на этих рекламодателей, потому что вы уже подписаны на них: %1."
+
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "Вы не можете разблокировать этих рекламодателей, потому что вы не блокировали их раньше: %1."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr "Вы не можете отписаться от этих рекламодателей, потому что вы ранее не подписывались на них: %1."
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "Вы не можете подать заявку на платежного агента из-за статуса вашего счета."
@@ -5536,9 +5563,6 @@ msgstr "Недействительная валюта"
 msgid "Invalid stake/payout."
 msgstr "Неправильная ставка/выплата."
 
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "Пожалуйста, введите сумму стоп лосс не ниже %1."
-
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Неправильный стоп аут. Стоп аут должен быть %1 текущей спот цены. Пожалуйста, измените ставку или мультипликатор."
 
@@ -5547,6 +5571,12 @@ msgstr "Неправильная длительность (тики) для эт
 
 msgid "We could not process this contract at this time."
 msgstr "Мы не смогли обработать данный контракт в настоящее время."
+
+msgid "Enter an amount equal to or lower than %1."
+msgstr "Введите сумму, равную или ниже %1."
+
+msgid "Enter an amount equal to or higher than %1."
+msgstr "Введите сумму, равную или выше %1."
 
 msgid "Only %1 decimal places allowed."
 msgstr "Разрешены только %1 десятичных."
@@ -5695,17 +5725,8 @@ msgstr "При расчете контракта произошла ошибка
 msgid "Minimum stake of %1 and maximum payout of %2. Current stake is %3."
 msgstr "Минимальная ставка: %1; максимальная выплата: %2. Текущая ставка: %3."
 
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "Неправильный стоп лосс. Стоп лосс не может быть больше %1."
-
 msgid "Barrier must be symmetrical."
 msgstr "Барьер должен быть симметричным."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "Введите сумму тейк профит ниже %1."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "Введите сумму тейк профит не менее %1."
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Количество тиков должно быть от %1 до %2."
@@ -7386,8 +7407,24 @@ msgid "noqodi account"
 msgstr "Счет noqodi"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "National ID Number"
+msgstr "Номер удостоверения"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Паспорт"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Иммиграционная карта"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Бланк с номером удостоверения"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Водительское удостоверение"
 
 msgctxt "IDV document type "
 msgid "Cédula de Identidad"
@@ -7398,48 +7435,32 @@ msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Фонд социального обеспечения и национального страхования (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Водительское удостоверение"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Паспорт"
-
-msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "ID избирателя"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Бланк с номером удостоверения"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Номер удостоверения"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Карта Aadhaar"
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Карта PAN"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Иммиграционная карта"
+msgid "Aadhaar Card"
+msgstr "Карта Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
