@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-09-09 11:52\n"
+"PO-Revision-Date: 2024-09-10 12:41\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -2680,11 +2680,38 @@ msgstr "คุณสามารถใช้รหัสผ่านอันใ
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "คุณสามารถใช้รหัสผ่านอันใหม่เพื่อเข้าสู่ระบบบัญชี %1 ของคุณบน Deriv เพื่อทำการเทรด CFD"
 
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "คุณไม่สามารถบล็อกโฆษณาเหล่านี้ได้เพราะคุณได้บล็อกพวกเขาไปแล้ว: %1"
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr "คุณไม่สามารถบล็อกและติดตามโฆษณาเดียวกันได้: %1"
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr "คุณไม่สามารถบล็อกและปลดบล็อกโฆษณาเดียวกันได้: %1"
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "คุณไม่สามารถบล็อกใครได้เพราะคุณยังไม่ได้ยืนยันตัวตนของคุณ"
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr "คุณไม่สามารถบล็อกโฆษณาเหล่านี้ได้เพราะคุณกำลังติดตามพวกเขาอยู่: %1"
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "คุณไม่สามารถลบวิธีการชำระเงินนี้ได้เนื่องจากมีการใช้งานโดยโฆษณาขายเหล่านี้: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr "คุณไม่สามารถติดตามและเลิกติดตามโฆษณาเดียวกันได้: %1"
+
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "คุณไม่สามารถติดตามโฆษณาเหล่านี้ได้เพราะคุณได้บล็อกพวกเขาไปแล้ว: %1"
+
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "คุณไม่สามารถติดตามโฆษณาเหล่านี้ได้เพราะคุณได้ติดตามพวกเขาไปแล้ว: %1"
+
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "คุณไม่สามารถปลดบล็อกโฆษณาเหล่านี้ได้เพราะคุณไม่ได้บล็อกพวกเขามาก่อน: %1"
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr "คุณไม่สามารถเลิกติดตามโฆษณาเหล่านี้ได้เพราะคุณไม่ได้ติดตามพวกเขามาก่อน: %1"
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "คุณไม่อาจจะสมัครเป็นตัวแทนการชำระเงินได้เนื่องจากสถานะบัญชีของคุณ"
@@ -5536,9 +5563,6 @@ msgstr "สกุลเงินผลตอบแทนนั้นไม่ถ
 msgid "Invalid stake/payout."
 msgstr "ข้อมูลเงินทุนทรัพย์/เงินผลตอบแทนนั้นไม่ถูกต้อง"
 
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "โปรดป้อนค่าตัวหยุดการขาดทุนที่สูงกว่า %1"
-
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "ตัวยุติการเทรดไม่ถูกต้อง ค่าของตัวยุติการเทรดต้อง %1 กว่าราคาซื้อขายปัจจุบัน โปรดปรับเลขเงินทุนทรัพย์หรือ Multiplier"
 
@@ -5547,6 +5571,12 @@ msgstr "ช่วงเวลาไม่ถูกต้อง (จุด Tick) 
 
 msgid "We could not process this contract at this time."
 msgstr "เราไม่สามารถดำเนินการสัญญานี้ได้ในขณะนี้"
+
+msgid "Enter an amount equal to or lower than %1."
+msgstr "กรอกจำนวนที่เท่ากับหรือน้อยกว่า %1"
+
+msgid "Enter an amount equal to or higher than %1."
+msgstr "กรอกจำนวนที่เท่ากับหรือมากกว่า %1"
 
 msgid "Only %1 decimal places allowed."
 msgstr "อนุญาตให้ใช้ทศนิยม %1 ตำแหน่ง"
@@ -5695,17 +5725,8 @@ msgstr "มีข้อผิดพลาดเกิดขึ้นระหว
 msgid "Minimum stake of %1 and maximum payout of %2. Current stake is %3."
 msgstr "เงินทุนทรัพย์ขั้นต่ำสุด %1 และเงินผลตอบแทนขั้นสูงสุด %2 เงินทุนทรัพย์ปัจจุบันคือ %3"
 
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "ตัวหยุดการขาดทุนนั้นไม่ถูกต้อง ตัวหยุดการขาดทุนจะต้องไม่มากกว่า %1"
-
 msgid "Barrier must be symmetrical."
 msgstr "เส้นระดับราคาเป้าหมายต้องสมมาตร"
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "โปรดใส่จํานวนตัวปิดเทรดเอากำไรที่ต่ำกว่า %1"
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "โปรดใส่จํานวนตัวปิดเทรดเอากำไรที่สูงกว่า %1"
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "จำนวนของจุด Tick แสดงราคาต้องอยู่ระหว่าง %1 และ %2"
@@ -7386,8 +7407,24 @@ msgid "noqodi account"
 msgstr "บัญชี noqodi"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "เอกสาร Documento Nacional de Identidad"
+msgid "National ID Number"
+msgstr "หมายเลขประจำตัวประชาชน"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "หนังสือเดินทาง"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "บัตรคนต่างด้าว"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "ใบขับขี่"
 
 msgctxt "IDV document type "
 msgid "Cédula de Identidad"
@@ -7398,48 +7435,32 @@ msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "ใบขับขี่"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "หนังสือเดินทาง"
-
-msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "รหัสผู้ออกเสียงลงคะแนน"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "หมายเลขประจำตัวประชาชน"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "บัตร Aadhaar"
+msgid "CPF"
+msgstr "หมายเลขประจำตัวประชาชน CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "เอกสาร Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "บัตร PAN"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "บัตรคนต่างด้าว"
+msgid "Aadhaar Card"
+msgstr "บัตร Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "หมายเลขประจำตัวประชาชน CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
