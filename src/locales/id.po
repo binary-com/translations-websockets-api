@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-09-09 11:52\n"
+"PO-Revision-Date: 2024-09-10 12:41\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -2680,11 +2680,38 @@ msgstr "Anda dapat menggunakan kata sandi baru untuk masuk ke akun %1 berikut di
 msgid "You can use your new password to log in to your %1 accounts on Deriv to trade CFDs."
 msgstr "Anda dapat menggunakan kata sandi baru untuk mengakses akun %1 di Deriv dan bertrading CFD."
 
+msgid "You can't block  these advertiser(s) because you had already blocked them: %1."
+msgstr "Anda tidak dapat memblokir advertiser ini karena Anda sudah memblokir mereka: %1."
+
+msgid "You can't block and follow the same advertiser(s): %1."
+msgstr "Anda tidak dapat memblokir dan mengikuti advertiser yang sama: %1."
+
+msgid "You can't block and unblock the same advertiser(s): %1."
+msgstr "Anda tidak dapat memblokir dan membuka blokir advertiser yang sama: %1."
+
 msgid "You can't block anyone because you haven't verified your identity yet."
 msgstr "Anda tidak dapat memblokir siapa pun karena belum memverifikasi identitas."
 
+msgid "You can't block these advertiser(s) because you are currently following them: %1."
+msgstr "Anda tidak dapat memblokir advertiser ini karena Anda saat ini mengikuti mereka: %1."
+
 msgid "You can't delete this payment method because it's in use by these sell ad(s): %1"
 msgstr "Anda tidak dapat menghapus metode pembayaran ini karena masih digunakan pada iklan: %1"
+
+msgid "You can't follow and unfollow the same advertiser(s): %1."
+msgstr "Anda tidak dapat mengikuti dan menghentikan pengikut advertiser yang sama: %1."
+
+msgid "You can't follow these advertiser(s) because you had already blocked them : %1."
+msgstr "Anda tidak dapat mengikuti advertiser ini karena Anda sudah memblokir mereka: %1."
+
+msgid "You can't follow these advertiser(s) because you had already followed them: %1."
+msgstr "Anda tidak dapat mengikuti advertiser ini karena Anda sudah mengikuti mereka: %1."
+
+msgid "You can't unblock these advertiser(s) because you didn't block them before: %1."
+msgstr "Anda tidak dapat membuka blokir advertiser ini karena Anda belum memblokir mereka sebelumnya: %1."
+
+msgid "You can't unfollow these advertiser(s) because you didn't follow them before: %1."
+msgstr "Anda tidak dapat menghentikan pengikut advertiser ini karena Anda belum mengikuti mereka sebelumnya: %1."
 
 msgid "You cannot apply to be a payment agent due to your account status."
 msgstr "Anda tidak dapat mengajukan permohonan untuk menjadi agen pembayaran karena status akun Anda."
@@ -5536,9 +5563,6 @@ msgstr "Mata uang hasil tidak berlaku"
 msgid "Invalid stake/payout."
 msgstr "Modal/hasil tidak berlaku."
 
-msgid "Please enter a stop loss amount that's higher than %1."
-msgstr "Mohon masukkan jumlah stop loss yang lebih tinggi dari %1."
-
 msgid "Invalid stop out. Stop out must be %1 than current spot price. Please adjust stake or multiplier."
 msgstr "Stop out tidak berlaku. Stop out harus %1 dari harga spot terkini. Mohon sesuaikan modal atau multiplier."
 
@@ -5547,6 +5571,12 @@ msgstr "Durasi (tik) tidak berlaku untuk jenis kontrak (%1)."
 
 msgid "We could not process this contract at this time."
 msgstr "Kami tidak dapat memproses kontrak saat ini."
+
+msgid "Enter an amount equal to or lower than %1."
+msgstr "Masukkan jumlah yang sama dengan atau lebih rendah dari %1."
+
+msgid "Enter an amount equal to or higher than %1."
+msgstr "Masukkan jumlah yang sama dengan atau lebih tinggi dari %1."
 
 msgid "Only %1 decimal places allowed."
 msgstr "Hanya %1 angka desimal diperbolehkan."
@@ -5695,17 +5725,8 @@ msgstr "Terjadi error selama penyelesaian kontrak."
 msgid "Minimum stake of %1 and maximum payout of %2. Current stake is %3."
 msgstr "Modal minimal %1 dan maksimal hasil %2. Modal saat ini adalah %3."
 
-msgid "Invalid stop loss. Stop loss cannot be more than %1."
-msgstr "Stop loss invalid. Stop Loss tidak boleh lebih dari %1."
-
 msgid "Barrier must be symmetrical."
 msgstr "Barrier harus simetris."
-
-msgid "Please enter a take profit amount that's lower than %1."
-msgstr "Mohon masukkan jumlah take profit yang lebih rendah dari %1."
-
-msgid "Please enter a take profit amount that's higher than %1."
-msgstr "Mohon masukkan jumlah take profit yang lebih tinggi dari %1."
 
 msgid "Number of ticks must be between %1 and %2."
 msgstr "Jumlah tik harus antara %1 dan %2."
@@ -7386,8 +7407,24 @@ msgid "noqodi account"
 msgstr "Akun noqodi"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "National ID Number"
+msgstr "Nomor Identitas Nasional"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Paspor"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Kartu Pendaftaran Orang Asing (ARC)"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Slip Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "SIM"
 
 msgctxt "IDV document type "
 msgid "Cédula de Identidad"
@@ -7398,48 +7435,32 @@ msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Jaminan Sosial dan Asuransi Nasional (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "SIM"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Paspor"
-
-msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "Kartu Pemilih"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Slip Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Nomor Identitas Nasional"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Kartu Aadhaar"
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Kartu PAN"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Kartu Pendaftaran Orang Asing (ARC)"
+msgid "Aadhaar Card"
+msgstr "Kartu Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
