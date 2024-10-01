@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-09-26 11:38\n"
+"PO-Revision-Date: 2024-10-01 11:44\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -2763,6 +2763,9 @@ msgstr "คุณไม่สามารถดำเนินการดัง
 
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "คุณไม่สามารถดำเนินการดังกล่าวได้ เนื่องจากบัญชีของคุณ %1 ไม่สามารถใช้งานได้ขณะนี้"
+
+msgid "You cannot perform this action, as your account is deposit locked."
+msgstr "You cannot perform this action, as your account is deposit locked."
 
 msgid "You cannot perform this action, as your account is withdrawal locked."
 msgstr "คุณไม่สามารถดำเนินการดังกล่าวได้ เนื่องจากบัญชีของคุณถูกล็อคการถอนเงิน"
@@ -5689,9 +5692,6 @@ msgstr "เงินทุนทรัพย์ขั้นต่ำสุด %1
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "สัญญาที่ใช้ค่าเส้นระดับราคาเป้าหมายที่กำหนดไว้ก่อนแล้ว จำเป็นต้องมีค่าสัมบูรณ์ของเส้นระดับราคาเป้าหมาย"
 
-msgid "Contract cannot be sold at this time. Please try again."
-msgstr "ไม่สามารถขายสัญญาได้ในขณะนี้ โปรดลองอีกครั้ง"
-
 msgid "There was a market data disruption during the contract period. For real-money accounts we will attempt to correct this and settle the contract properly, otherwise the contract will be cancelled and refunded. Virtual-money contracts will be cancelled and refunded."
 msgstr "มีภาวะการก่อกวนข้อมูลตลาดในระหว่างระยะเวลาสัญญา ในกรณีบัญชีเงินจริงนั้น พวกเราจะพยายามแก้ไขสิ่งนี้เพื่อให้สัญญามีความถูกต้องและถูกชำระอย่างเหมาะสม มิฉะนั้นสัญญาจะถูกยกเลิกและมีการคืนเงิน ในกรณีบัญชีทดลองที่ใช้เงินเสมือนนั้น สัญญาจะถูกยกเลิกและมีการคืนเงิน"
 
@@ -5712,6 +5712,9 @@ msgstr "เส้นระดับราคาเป้าหมายอัน
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "เวลาที่หมดอายุจะไม่สามารถเป็นอันเดียวกับเวลาเริ่มต้นได้"
+
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "ไม่สามารถขายสัญญาได้ในขณะนี้ โปรดลองอีกครั้ง"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "สัญญาในตลาดนี้ที่มีระยะเวลาน้อยกว่า 24 ชั่วโมงจะต้องหมดอายุภายในวันเดียวกันกับที่เกิดการเทรด"
@@ -7410,28 +7413,44 @@ msgid "noqodi account"
 msgstr "บัญชี noqodi"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "หมายเลขประจำตัวประชาชน"
-
-msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "บัตรประจำตัว"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "เอกสาร Documento Nacional de Identidad"
+msgid "Alien Card"
+msgstr "บัตรคนต่างด้าว"
 
 msgctxt "IDV document type "
 msgid "Passport"
 msgstr "หนังสือเดินทาง"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "หมายเลขประจำตัวประชาชน"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "หมายเลขประจำตัวประชาชน CPF"
+
+msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "ใบขับขี่"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "เอกสาร Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7444,22 +7463,6 @@ msgstr "บัตร Aadhaar"
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "รหัสผู้ออกเสียงลงคะแนน"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "บัตรคนต่างด้าว"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "หมายเลขประจำตัวประชาชน CPF"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
