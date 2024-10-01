@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-09-26 11:37\n"
+"PO-Revision-Date: 2024-10-01 11:43\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -2763,6 +2763,9 @@ msgstr "Vous ne pouvez pas effectuer cette action, puisque %1 n'est pas la devis
 
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "Vous ne pouvez pas effectuer cette action, car votre compte %1 est actuellement désactivé."
+
+msgid "You cannot perform this action, as your account is deposit locked."
+msgstr "Vous ne pouvez pas effectuer cette action, car votre compte est verrouillé pour les dépôts."
 
 msgid "You cannot perform this action, as your account is withdrawal locked."
 msgstr "Vous ne pouvez pas effectuer cette action, car la fonction de retrait de votre compte est verrouillée."
@@ -5689,9 +5692,6 @@ msgstr "Montant minimal de la mise de %1 et paiement maximal de %2. Le paiement 
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "Les contrats avec une barrière prédéfinie doivent être associés à une barrière absolue."
 
-msgid "Contract cannot be sold at this time. Please try again."
-msgstr "Le contrat ne peut être vendu pour le moment. Veuillez réessayer."
-
 msgid "There was a market data disruption during the contract period. For real-money accounts we will attempt to correct this and settle the contract properly, otherwise the contract will be cancelled and refunded. Virtual-money contracts will be cancelled and refunded."
 msgstr "Une interruption du flux des données de marché est survenue pendant la période du contrat. Pour les comptes réels, nous tenterons d'y remédier et de procéder correctement au règlement de votre contrat. Si ce n'est pas possible, le contrat sera annulé et remboursé. Les contrats virtuels seront annulés et remboursés."
 
@@ -5712,6 +5712,9 @@ msgstr "La barrière supérieure et la barrière inférieure doivent être diff�
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "L'heure d'expiration ne peut être identique à l'heure de début."
+
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "Le contrat ne peut être vendu pour le moment. Veuillez réessayer."
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "Les contrats relatifs à ce marché ayant une période d'activité de moins de 24 heures doivent expirer au cours de la même séance."
@@ -7410,28 +7413,44 @@ msgid "noqodi account"
 msgstr "compte noqodi"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Numéro de la carte d'identité nationale"
-
-msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "Carte d'identité"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "Alien Card"
+msgstr "Carte Alien"
 
 msgctxt "IDV document type "
 msgid "Passport"
 msgstr "Passeport"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Numéro de la carte d'identité nationale"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "Permis de conduire"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Numéro de la pièce d'identité nationale"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7444,22 +7463,6 @@ msgstr "Carte Aadhaar"
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "Identifiant du votant"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Numéro de la pièce d'identité nationale"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Carte Alien"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
