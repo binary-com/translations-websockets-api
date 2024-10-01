@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-09-26 13:29\n"
+"PO-Revision-Date: 2024-10-01 11:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -2763,6 +2763,9 @@ msgstr "不能执行此操作，因为%1不是付款代理%2的默认账户货�
 
 msgid "You cannot perform this action, as your account %1 is currently disabled."
 msgstr "不能执行此操作，因为账户 %1目前已禁用。"
+
+msgid "You cannot perform this action, as your account is deposit locked."
+msgstr "您不能执行此操作，因为您的账户存款功能已被锁。"
 
 msgid "You cannot perform this action, as your account is withdrawal locked."
 msgstr "不能执行此操作，因为账户取款功能已被锁。"
@@ -5689,9 +5692,6 @@ msgstr "最小投注额%1及最大赔付额%2。当前赔付额是%3。"
 msgid "Contracts with predefined barrier would need an absolute barrier."
 msgstr "拥有预定障碍的合约必须有个绝对障碍。"
 
-msgid "Contract cannot be sold at this time. Please try again."
-msgstr "此时不能卖出合约。请重试。"
-
 msgid "There was a market data disruption during the contract period. For real-money accounts we will attempt to correct this and settle the contract properly, otherwise the contract will be cancelled and refunded. Virtual-money contracts will be cancelled and refunded."
 msgstr "合约执行期间发生市场数据中断。对于真实货币账户，我们将尝试纠正此情况并妥善结算合约，否则合约将取消并退款。虚拟货币合约将取消并退款。"
 
@@ -5712,6 +5712,9 @@ msgstr "最高和最低障碍必须不同。"
 
 msgid "Expiry time cannot be equal to start time."
 msgstr "到期时间不可与开始时间相同。"
+
+msgid "Contract cannot be sold at this time. Please try again."
+msgstr "此时不能卖出合约。请重试。"
 
 msgid "Contracts on this market with a duration of under 24 hours must expire on the same trading day."
 msgstr "期限小于 24 小时的市场内合约必须在同一交易日到期。"
@@ -7410,28 +7413,44 @@ msgid "noqodi account"
 msgstr "noqodi 账户"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "国民身份证号"
-
-msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "身份证"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "身份证号"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "国民身份证"
+msgid "Alien Card"
+msgstr "侨民卡"
 
 msgctxt "IDV document type "
 msgid "Passport"
 msgstr "护照"
 
 msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "国民身份证号"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "身份证号"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "驾照"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "国民身份证号码单"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "国民身份证"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7444,22 +7463,6 @@ msgstr "Aadhaar 卡"
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "选民 ID"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "国民身份证号码单"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "侨民卡"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
