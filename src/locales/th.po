@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-10-02 09:23\n"
+"PO-Revision-Date: 2024-10-07 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -194,6 +194,10 @@ msgstr "%1หมายเหตุ%2: คุณสามารถมองเห
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
 msgid "%1Note:%2 According to DP2P terms of use, the buyer and the seller are solely responsible for making sure that the payment is accurate. Deriv is not liable in any way to make corrections or compensations for any incorrect payment made by the buyer, including but not limited to overpayment and underpayment."
 msgstr "%1หมายเหตุ:%2 ตามเงื่อนไขการใช้งานของ DP2P ผู้ซื้อและผู้ขายมีหน้าที่รับผิดชอบในการตรวจสอบให้แน่ใจว่า การชำระเงินนั้นถูกต้อง เนื่องจาก Deriv จะไม่รับผิดใดๆ ในการแก้ไขหรือการชดเชยสำหรับการชำระเงินที่ไม่ถูกต้องใดๆ ที่ทำโดยผู้ซื้อ ซึ่งนี่ก็รวมถึงแต่ไม่จำกัดเฉพาะกรณีการชำระเงินเกินไปและกรณีการชำระเงินขาดไป"
+
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "%1Note:%2 Update your ID by %3 to continue making deposits and withdrawals without interruption."
+msgstr ""
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_declined "
 msgid "%1Proof of address%2%3Upload a clear photo (or a scan) of your bank statement, utility bill, or affidavit. It must:"
@@ -528,6 +532,13 @@ msgstr "การดำเนินการที่จำเป็น: ใช�
 msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "Action required: Submit a new POI"
 msgstr "จำเป็นต้องดำเนินการ: ส่ง POI ใหม่"
+
+#, fuzzy
+#| msgctxt "Customer.io email: KYC Verified POA & Unverified POI "
+#| msgid "Action required: Verify your identity"
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "Action required: Update your proof of identity"
+msgstr "จำเป็นต้องดำเนินการ: ตรวจยืนยันตัวตนของคุณ"
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "Action required: Verify your account"
@@ -1280,8 +1291,11 @@ msgstr "ฟรังก์ซีเอฟเอ บีซีอีเอโอ"
 msgid "CFA Franc BEAC"
 msgstr "ฟรังก์ซีเอฟเอ บีอีเอซี"
 
+#, fuzzy
+#| msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
+#| msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage 70.78% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
-msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage 70.78% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage 70.84% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgstr "สัญญาการเทรดส่วนต่างหรือ CFD เป็นตราสารที่ซับซ้อนและมีความเสี่ยงสูงต่อการสูญเสียเงินอย่างรวดเร็วเนื่องจากการใช้เลเวอเรจ โดย 70.78% ของบัญชีนักลงทุนรายย่อยสูญเสียเงินเมื่อทำการเทรด CFD กับผู้ให้บริการรายนี้ คุณจึงควรพิจารณาดูว่า คุณเข้าใจวิธีการทำงานของ CFD หรือไม่และคุณสามารถรับความเสี่ยงสูงที่จะสูญเสียเงินของคุณได้หรือไม่"
 
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
@@ -2078,6 +2092,12 @@ msgstr "จำเป็นต้องมีหมายเลขเอกสา
 msgid "Document already uploaded."
 msgstr "เอกสารได้รับการอัพโหลดเรียบร้อยแล้ว"
 
+#, fuzzy
+#| msgid "Your cashier is locked."
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Document expired, cashier locked"
+msgstr "แคชเชียร์ของคุณถูกล็อกไว้"
+
 msgid "Document was rejected by the provider."
 msgstr "เอกสารถูกปฏิเสธโดยผู้ให้บริการ"
 
@@ -2120,6 +2140,13 @@ msgstr "ใบขับขี่"
 
 msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
 msgid "Driving licence"
+msgstr "ใบขับขี่"
+
+#, fuzzy
+#| msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
+#| msgid "Driving licence"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Driving licence (front and back),"
 msgstr "ใบขับขี่"
 
 msgid "Dubai Index"
@@ -2845,9 +2872,6 @@ msgctxt "Customer.io email: svg_all_transactional_derivx_signup "
 msgid "Go to Trader's Hub"
 msgstr "ไปที่ Trader's Hub"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_derivx_signup "
-#| msgid "Go to Trader's Hub"
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "Go to Trader’s Hub"
 msgstr "ไปที่ Trader's Hub"
@@ -3300,9 +3324,6 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
 msgid "If you have any questions, please%1 contact us%2 via live chat."
 msgstr "หากคุณมีคำถามใดๆ โปรด%1 ติดต่อเรา%2 ผ่านแชทสด"
 
-#, fuzzy
-#| msgctxt "Customer.io email: mf_france_transactional_real_signup "
-#| msgid "If you have any questions, contact us via:%1%2Live chat%3 | %4WhatsApp%5"
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "If you have questions, contact us via:%1%2Live chat%3 | %4WhatsApp%5"
 msgstr "หากคุณมีคำถามใดๆ โปรดติดต่อเราผ่าน: %1%2แชทสด%3 | %4WhatsApp%5"
@@ -3892,6 +3913,13 @@ msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Log in to your Deriv account and make a deposit now!"
 msgstr "ลงชื่อเข้าใช้บัญชี Deriv ของคุณและทำการฝากเงินตอนนี้เลย!"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
+#| msgid "Sign in to your Skrill account."
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Log in to your Deriv account."
+msgstr "ลงชื่อเข้าใช้บัญชี Skrill ของคุณ"
+
 msgid "Login ID (%1) does not exist."
 msgstr "ไม่มีรหัสผู้ใช้งาน (%1)"
 
@@ -4371,6 +4399,10 @@ msgstr "หมายเลขประจำตัวประชาชน"
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
+
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "National ID card (front and back), or"
+msgstr ""
 
 msgctxt "Onfido document type "
 msgid "National Identity Card"
@@ -7500,6 +7532,13 @@ msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
 msgid "To make a withdrawal:"
 msgstr "เพื่อทำการถอนเงิน:"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
+#| msgid "You can't make deposits and withdrawals"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "To re-enable deposits and withdrawals:"
+msgstr "คุณไม่สามารถทำการฝากและถอนเงินได้"
+
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_expired "
 msgid "To remove these restrictions, please submit one of the following documents:"
 msgstr "หากคุณต้องการยกเลิกข้อจำกัดเหล่านี้ โปรดยื่นเอกสารอย่างใดอย่างหนึ่งจากเอกสารดังต่อไปนี้:"
@@ -8375,12 +8414,32 @@ msgstr "รายการอัพเดทตัวหยุดการขา
 msgid "Update your personal details."
 msgstr "อัพเดตข้อมูลส่วนตัวของคุณ"
 
+#, fuzzy
+#| msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
+#| msgid "Proof of identity%1%2Upload%3 %4a scanned copy of any of the following documents:%5"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Upload a scanned copy of any of the following documents:"
+msgstr "หลักฐานแสดงตัวตน%1%2Upload%3 %4a สแกนสำเนาเอกสารใด ๆ ต่อไปนี้:%5"
+
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "Upload document"
 msgstr "อัพโหลดเอกสาร"
 
+#, fuzzy
+#| msgid "Upload my documents"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Upload my document"
+msgstr "อัพโหลดเอกสารของฉัน"
+
 msgid "Upload my documents"
 msgstr "อัพโหลดเอกสารของฉัน"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
+#| msgid "Upload document"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Urgent: Upload a new document now"
+msgstr "อัพโหลดเอกสาร"
 
 msgid "Uruguayan Peso"
 msgstr "เปโซอุรุกวัย"
@@ -9101,7 +9160,7 @@ msgstr "ยินดีต้อนรับสู่ Deriv!เรารู้�
 
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "We’d love to have you back. To resume trading on Deriv X and access integrated TradingView charts, simply create a new Deriv X real account on Trader’s Hub."
-msgstr ""
+msgstr "เรายินดีต้อนรับคุณกลับมา หากต้องการกลับไปเทรดที่ Deriv X และเข้าถึงชาร์ท TradingView ที่รวมอยู่ในแพลตฟอร์ม เพียงแค่สร้างบัญชีจริงใหม่ของ Deriv X บน Trader’s Hub"
 
 msgid "We’re investigating and need more info"
 msgstr "เรากำลังตรวจสอบและต้องการข้อมูลเพิ่มเติม"
@@ -10173,6 +10232,10 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "Your Deriv journey starts here!"
 msgstr "การเดินทางไปกับ Deriv ของคุณเริ่มต้นแล้วที่นี่!"
 
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "Your ID expires on %1. To keep your account active, upload a new document:"
+msgstr ""
+
 msgid "Your Login ID: %1"
 msgstr "รหัสผู้ใช้งานของคุณ: %1"
 
@@ -10599,6 +10662,20 @@ msgstr "จำเป็นต้องมีหลักฐานแสดงท
 
 msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "Your proof of identity (POI) has expired"
+msgstr "หลักฐานยืนยันตัวตน (POI) ของคุณนั้นหมดอายุแล้ว"
+
+#, fuzzy
+#| msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
+#| msgid "Once our verification process is complete, we’ll enable deposits and withdrawals on your account."
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Your proof of identity has expired, and we’ve disabled deposits and withdrawals on your account."
+msgstr "เมื่อขั้นตอนการยืนยันเสร็จสิ้น เราจะเปิดใช้งานการฝากและถอนเงินในบัญชีของคุณ"
+
+#, fuzzy
+#| msgctxt "Customer.io email: KYC Expired POI & Verified POA "
+#| msgid "Your proof of identity (POI) has expired"
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "Your proof of identity is about to expire"
 msgstr "หลักฐานยืนยันตัวตน (POI) ของคุณนั้นหมดอายุแล้ว"
 
 msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site."
@@ -11037,11 +11114,3 @@ msgstr "●  รายละเอียดบัญชีของคุณ"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 สวัสดีและยินดีต้อนรับสู่ Deriv"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
-#~ msgid "Contact Customer Support"
-#~ msgstr "ติดต่อเจ้าหน้าที่บริการลูกค้า"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
-#~ msgid "If you wish to continue trading on Deriv X, please %1contact us via live chat%2 to help you reactivate your account."
-#~ msgstr "หากคุณต้องการเทรดต่อบน Deriv X โปรด %1ติดต่อเราผ่านแชทสด%2 เพื่อช่วยให้คุณเปิดใช้งานบัญชีของคุณได้อีกครั้ง"

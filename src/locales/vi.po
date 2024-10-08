@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-10-01 11:44\n"
+"PO-Revision-Date: 2024-10-07 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -194,6 +194,10 @@ msgstr "%1Lưu ý%2: Bạn có thể xem khung thời gian giao dịch trên %3t
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller_toseller "
 msgid "%1Note:%2 According to DP2P terms of use, the buyer and the seller are solely responsible for making sure that the payment is accurate. Deriv is not liable in any way to make corrections or compensations for any incorrect payment made by the buyer, including but not limited to overpayment and underpayment."
 msgstr "%1Lưu ý:%2 Theo điều khoản sử dụng DP2P, người mua và người bán phải có trách nhiệm đảm bảo rằng khoản thanh toán là chính xác. Deriv không chịu trách nhiệm dưới bất kỳ hình thức nào để sửa chữa hoặc bồi thường cho bất kỳ khoản thanh toán không chính xác nào được thực hiện bởi người mua, bao gồm nhưng không giới hạn cả việc thanh toán vượt mức hay thanh toán thiếu."
+
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "%1Note:%2 Update your ID by %3 to continue making deposits and withdrawals without interruption."
+msgstr ""
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_declined "
 msgid "%1Proof of address%2%3Upload a clear photo (or a scan) of your bank statement, utility bill, or affidavit. It must:"
@@ -528,6 +532,13 @@ msgstr "Hành động cần thiết: Sử dụng tỷ giá cố định trên De
 msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "Action required: Submit a new POI"
 msgstr "Yêu cầu hành động: Gửi giấy tờ xác thực danh tính (Proof of Identity - POI) mới"
+
+#, fuzzy
+#| msgctxt "Customer.io email: KYC Verified POA & Unverified POI "
+#| msgid "Action required: Verify your identity"
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "Action required: Update your proof of identity"
+msgstr "Yêu cầu hành động: Xác minh danh tính của bạn"
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "Action required: Verify your account"
@@ -1280,8 +1291,11 @@ msgstr "CFA Franc BCEAO"
 msgid "CFA Franc BEAC"
 msgstr "CFA Franc BEAC"
 
+#, fuzzy
+#| msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
+#| msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage 70.78% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
-msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage 70.78% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
+msgid "CFDs are complex instruments with a high risk of losing money rapidly due to leverage 70.84% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgstr "CFD là công cụ phức tạp với nguy cơ mất tiền nhanh chóng cao do đòn bẩy 70.78% tài khoản nhà đầu tư bán lẻ bị mất tiền khi giao dịch CFD với nhà cung cấp này. Bạn nên cân nhắc xem bạn có hiểu CFD hoạt động như thế nào hay không và liệu bạn có đủ khả năng để chấp nhận rủi ro mất tiền cao hay không."
 
 msgctxt "Customer.io email: mf_eu_transactional_demo_welcome "
@@ -2078,6 +2092,12 @@ msgstr "ID Tài liệu là bắt buộc."
 msgid "Document already uploaded."
 msgstr "Tài liệu đã được tải lên."
 
+#, fuzzy
+#| msgid "Your cashier is locked."
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Document expired, cashier locked"
+msgstr "Cashier của bạn đã bị khoá."
+
 msgid "Document was rejected by the provider."
 msgstr "Tài liệu đã bị từ chối bởi nhà cung cấp."
 
@@ -2120,6 +2140,13 @@ msgstr "Giấy phép lái xe"
 
 msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
 msgid "Driving licence"
+msgstr "Giấy phép lái xe"
+
+#, fuzzy
+#| msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
+#| msgid "Driving licence"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Driving licence (front and back),"
 msgstr "Giấy phép lái xe"
 
 msgid "Dubai Index"
@@ -2845,9 +2872,6 @@ msgctxt "Customer.io email: svg_all_transactional_derivx_signup "
 msgid "Go to Trader's Hub"
 msgstr "Truy cập Trung tâm giao dịch"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_derivx_signup "
-#| msgid "Go to Trader's Hub"
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "Go to Trader’s Hub"
 msgstr "Truy cập Trung tâm giao dịch"
@@ -3300,12 +3324,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_order_placed "
 msgid "If you have any questions, please%1 contact us%2 via live chat."
 msgstr "Nếu bạn có bất kỳ câu hỏi nào, vui lòng%1 liên hệ với chúng tôi%2 qua live chat."
 
-#, fuzzy
-#| msgctxt "Customer.io email: mf_france_transactional_real_signup "
-#| msgid "If you have any questions, contact us via:%1%2Live chat%3 | %4WhatsApp%5"
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "If you have questions, contact us via:%1%2Live chat%3 | %4WhatsApp%5"
-msgstr "Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ với chúng tôi qua: %1%2Live chat%3 | %4WhatsApp%5"
+msgstr "Nếu bạn có câu hỏi, hãy liên hệ với chúng tôi qua:%1%2Live chat%3 | %4WhatsApp%5"
 
 msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
 msgid "If you need help, %1 contact us%2 via live chat."
@@ -3892,6 +3913,13 @@ msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Log in to your Deriv account and make a deposit now!"
 msgstr "Đăng nhập vào tài khoản Deriv của bạn và nạp tiền ngay bây giờ!"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
+#| msgid "Sign in to your Skrill account."
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Log in to your Deriv account."
+msgstr "Đăng nhập vào tài khoản Skrill của tôi."
+
 msgid "Login ID (%1) does not exist."
 msgstr "ID đăng nhập (%1) không tồn tại."
 
@@ -4371,6 +4399,10 @@ msgstr "Số Căn cước công dân"
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "Số Căn cước công dân"
+
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "National ID card (front and back), or"
+msgstr ""
 
 msgctxt "Onfido document type "
 msgid "National Identity Card"
@@ -7500,6 +7532,13 @@ msgctxt "Customer.io email: svg_all_transactional_crypto_withdrawal_rejected "
 msgid "To make a withdrawal:"
 msgstr "Để có thể rút tiền:"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
+#| msgid "You can't make deposits and withdrawals"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "To re-enable deposits and withdrawals:"
+msgstr "Bạn không thể nạp và rút tiền"
+
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_expired "
 msgid "To remove these restrictions, please submit one of the following documents:"
 msgstr "Để gỡ bỏ những hạn chế này, vui lòng gửi một trong các giấy tờ sau:"
@@ -8375,12 +8414,32 @@ msgstr "Cập nhật dừng lỗ và chốt lời hiện không khả dụng."
 msgid "Update your personal details."
 msgstr "Cập nhật thông tin cá nhân của bạn."
 
+#, fuzzy
+#| msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
+#| msgid "Proof of identity%1%2Upload%3 %4a scanned copy of any of the following documents:%5"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Upload a scanned copy of any of the following documents:"
+msgstr "Bằng chứng nhận dạng%1%2Upload%3 %4a bản sao quét của bất kỳ tài liệu nào sau đây:%5"
+
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "Upload document"
 msgstr "Tải lên giấy tờ"
 
+#, fuzzy
+#| msgid "Upload my documents"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Upload my document"
+msgstr "Tải lên tài liệu của tôi"
+
 msgid "Upload my documents"
 msgstr "Tải lên tài liệu của tôi"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
+#| msgid "Upload document"
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Urgent: Upload a new document now"
+msgstr "Tải lên giấy tờ"
 
 msgid "Uruguayan Peso"
 msgstr "Uruguayan Peso"
@@ -9101,7 +9160,7 @@ msgstr "Chào mừng đến với Deriv! Chúng tôi rất vui khi có bạn v�
 
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "We’d love to have you back. To resume trading on Deriv X and access integrated TradingView charts, simply create a new Deriv X real account on Trader’s Hub."
-msgstr ""
+msgstr "Chúng tôi rất vui khi được chào đón bạn quay lại. Để tiếp tục giao dịch trên Deriv X và truy cập các biểu đồ TradingView tích hợp, hãy tạo một tài khoản thực mới trên Trader's Hub."
 
 msgid "We’re investigating and need more info"
 msgstr "Chúng tôi đang điều tra và cần thêm thông tin"
@@ -10173,6 +10232,10 @@ msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "Your Deriv journey starts here!"
 msgstr "Hành trình Deriv của bạn bắt đầu từ đây!"
 
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "Your ID expires on %1. To keep your account active, upload a new document:"
+msgstr ""
+
 msgid "Your Login ID: %1"
 msgstr "ID Đăng Nhập của bạn: %1"
 
@@ -10599,6 +10662,20 @@ msgstr "Cần có giấy tờ chứng minh địa chỉ của bạn"
 
 msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "Your proof of identity (POI) has expired"
+msgstr "Giấy tờ xác thực danh tính (Proof of Identity - POI) của bạn đã hết hạn"
+
+#, fuzzy
+#| msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
+#| msgid "Once our verification process is complete, we’ll enable deposits and withdrawals on your account."
+msgctxt "Customer.io email: dummy_mf_poi_expired "
+msgid "Your proof of identity has expired, and we’ve disabled deposits and withdrawals on your account."
+msgstr "Sau khi quá trình xác minh của chúng tôi hoàn tất, chúng tôi sẽ cho phép nạp và rút tiền trên tài khoản của bạn."
+
+#, fuzzy
+#| msgctxt "Customer.io email: KYC Expired POI & Verified POA "
+#| msgid "Your proof of identity (POI) has expired"
+msgctxt "Customer.io email: dummy_mf_poi_about_to_expire "
+msgid "Your proof of identity is about to expire"
 msgstr "Giấy tờ xác thực danh tính (Proof of Identity - POI) của bạn đã hết hạn"
 
 msgid "Your provided email address is already in use by another Login ID. According to our terms and conditions, you may only register once through our site."
@@ -11037,11 +11114,3 @@ msgstr "● Chi tiết tài khoản của bạn"
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Xin chào và chào mừng bạn đến với Deriv"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
-#~ msgid "Contact Customer Support"
-#~ msgstr "Liên hệ Hỗ trợ Khách hàng"
-
-#~ msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
-#~ msgid "If you wish to continue trading on Deriv X, please %1contact us via live chat%2 to help you reactivate your account."
-#~ msgstr "Nếu bạn muốn tiếp tục giao dịch trên Deriv X, %1vui lòng liên hệ với chúng tôi qua live chat%2 để kích hoạt lại tài khoản của bạn."
