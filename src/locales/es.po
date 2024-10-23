@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-10-22 22:04\n"
+"PO-Revision-Date: 2024-10-23 11:36\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -438,6 +438,9 @@ msgstr "Deriv P2P no está disponible en su país. Proporcione un motivo de aper
 
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
 msgstr "Deriv P2P no está disponible en cuentas demo. Cambie a su cuenta real."
+
+msgid "Deriv X account is not available in your country yet."
+msgstr "La cuenta de Deriv X aún no está disponible en su país."
 
 msgid "Deriv X account management is currently suspended."
 msgstr "La gestión de cuentas de Deriv X está actualmente suspendida."
@@ -7527,8 +7530,8 @@ msgid "Cédula de Identidad"
 msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
@@ -7539,16 +7542,24 @@ msgid "Passport"
 msgstr "Pasaporte"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Documento de Identificación Nacional provisional"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Fideicomiso de Seguros de la Seguridad Social y Nacional (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "ID de votante"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "Licencia de conducir"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7559,20 +7570,12 @@ msgid "Aadhaar Card"
 msgstr "Tarjeta Aadhaar"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID de votante"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Fideicomiso de Seguros de la Seguridad Social y Nacional (SSNIT)"
+msgid "National ID Number Slip"
+msgstr "Documento de Identificación Nacional provisional"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10689,6 +10692,66 @@ msgstr "Para mantener su cuenta verificada,"
 msgctxt "Customer.io email: KYC Expired POI & Verified POA "
 msgid "Action required: Submit a new POI"
 msgstr "Acción requerida: Presentar un nuevo POI"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Deposit declined - Card verification needed"
+msgstr "Depósito rechazado - Se necesita verificación de tarjeta"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Verify your card to enable deposits and withdrawals"
+msgstr "Verifique su tarjeta para habilitar depósitos y retiradas"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Your bank declined a deposit on your Deriv account a few minutes ago for the payment method %1 To protect your account, we’ve temporarily disabled deposits and withdrawals."
+msgstr "Su banco rechazó un depósito en su cuenta Deriv hace unos minutos para el método de pago %1. Para proteger su cuenta, hemos desactivado temporalmente los depósitos y retiradas."
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "To enable transactions on your account, please submit the following:"
+msgstr "Para habilitar transacciones en su cuenta, por favor envíe lo siguiente:"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "1. Proof of ownership"
+msgstr "1. Prueba de propiedad"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "A photo of the card you just used for the deposit. The photo must show the front of your card and only the first 6 and last 4 digits. Please cover the middle digits."
+msgstr "Una foto de la tarjeta que acaba de usar para el depósito. La foto debe mostrar el frente de su tarjeta y solo los primeros 6 y los últimos 4 dígitos. Por favor, cubra los dígitos intermedios."
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "A stamped bank statement. The statement must show your transactions on the above card from the last 30 days."
+msgstr "Un estado de cuenta bancario sellado. El estado de cuenta debe mostrar sus transacciones en la tarjeta mencionada de los últimos 30 días."
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Submit the photo of your card and bank statement %1here%2"
+msgstr "Envía la foto de tu tarjeta y el estado de cuenta del banco %1aquí%2"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "2. Proof of identity"
+msgstr "2. Prueba de identidad"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Passport, driver's license, identity card. Submit your proof of identity %1here%2"
+msgstr "Pasaporte, licencia de conducir, tarjeta de identidad. Envíe su prueba de identidad %1aquí%2"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "3. Proof of address"
+msgstr "3. Prueba de domicilio"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Recent utility bill or bank statement (no older than 12 months). Submit your proof of address %1here%2"
+msgstr "Factura de servicios públicos reciente o extracto bancario (no anterior a 12 meses). Envíe su prueba de domicilio %1aquí%2"
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Once we receive and verify these documents, we will enable transactions on your account."
+msgstr "Una vez que recibamos y verifiquemos estos documentos, habilitaremos las transacciones en su cuenta."
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "This email is a notification email to inform clients about important updates and has been issued by Deriv Investments (Europe) Limited with the registered address: W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
+msgstr "Este correo electrónico es un correo electrónico de notificación para informar a los clientes sobre actualizaciones importantes y ha sido emitido por Deriv Investments (Europe) Limited con la dirección registrada: W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
+
+msgctxt "Customer.io email: svg_stolen_card "
+msgid "Deriv Investments (Europe) Limited is licensed and regulated by the Malta Financial Services Authority under the Investment Services Act, to provide investment services."
+msgstr ""
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Changing your email?"
