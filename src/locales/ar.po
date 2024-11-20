@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-11-19 10:00\n"
+"PO-Revision-Date: 2024-11-20 09:40\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -817,6 +817,11 @@ msgstr "لا يمكن إنشاء طلب بهذا المبلغ حاليًا. ير
 msgid "An unexpected error occurred"
 msgstr "حدث خطأ غير متوقع"
 
+#, fuzzy
+#| msgid "An unexpected error occurred"
+msgid "An unexpected error occurred."
+msgstr "حدث خطأ غير متوقع"
+
 msgid "An unexpected error occurred: Please refresh or try again in a few minutes."
 msgstr "عذرا، حدث خطأ. يرجى إعادة المحاولة لاحقا."
 
@@ -847,9 +852,6 @@ msgctxt "Customer.io email: svg_all_transactional_binary_unknown_login "
 msgid "Application:"
 msgstr "تطبيق:"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "Archived accounts cannot be reactivated. If you try to log in to your archived account via the Deriv MT5 mobile app, you will see the following error message:"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "Archived accounts cannot be reactivated. If you try to log in to your archived account via the Deriv MT5 mobile app, you will see the following error message:"
 msgstr "Archived accounts cannot be reactivated. If you try to log in to your archived account via the Deriv MT5 mobile app, you will see the following error message:"
@@ -1100,7 +1102,7 @@ msgid "Barrier must be an integer."
 msgstr "يجب أن يكون الحاجز عددا صحيحا."
 
 msgid "Barrier must be at least %plural(%1,%d pip,%d pips) away from the spot."
-msgstr "يجب أن يكون الحاجز على الأقل plural(%1,%d pip,%d pips) % بعيد عن السعر الفوري."
+msgstr "يجب أن يكون الحاجز على الأقل plural(%1،%d نقطة،%d نقاط) % بعيدًا عن السعر الفوري."
 
 msgid "Barrier must be symmetrical."
 msgstr "يجب أن يكون الحاجز متماثلا."
@@ -1200,7 +1202,7 @@ msgid "BitPay account"
 msgstr "حساب بيتي"
 
 msgid "Block trading is currently unavailable. Please try again later."
-msgstr "كتلة التداول غير متوفر حاليًا. الرجاء معاودة المحاولة في وقت لاحق."
+msgstr "خاصية تداول الكتل (Block trading) غير متوفرة حاليًا. الرجاء إعادة المحاولة لاحقًا."
 
 msgid "Boeing"
 msgstr "بوينغ"
@@ -1291,7 +1293,7 @@ msgid "Buy"
 msgstr "الشراء"
 
 msgid "Buy orders do not require payment and contact information."
-msgstr "لا تتطلب أوامر الشراء معلومات الدفع والاتصال."
+msgstr "لا تتطلب طلبات الشراء معلومات الدفع و معلومات الاتصال."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_nopayment_favor_buyer_tobuyer "
 msgid "Buyer"
@@ -1383,19 +1385,19 @@ msgid "Cannot create a Banxa order for %1"
 msgstr "لا يمكن أن يتم انشاء طلب بانكسا %1"
 
 msgid "Cannot create an order for %1"
-msgstr "لا يمكن إنشاء طلب %1"
+msgstr "لا يمكن إنشاء طلب لـ %1"
 
 msgid "Cannot create applicant for %1."
-msgstr "لا يمكن إنشاء مقدم طلب ل %1."
+msgstr "لا يمكن إنشاء مقدم طلب لـ %1."
 
 msgid "Cannot create contract"
-msgstr "لا يمكن إنشاء عقد"
+msgstr "لا يمكن إنشاء العقد"
 
 msgid "Cannot generate token for %1."
-msgstr "لا يمكن إنشاء رمز مميز ل %1."
+msgstr "لا يمكن إنشاء رمز مميز لـ %1."
 
 msgid "Cannot have company specific parameters when partner type is set to individual"
-msgstr "لا يمكن أن تحتوي على معلمات محددة للشركة عندما يكون نوع الشريك محددًا كفرد"
+msgstr "لا يمكن استخدام معلمات خاصة بالشركة إذا كان نوع الشريك مُحددًا كفرد"
 
 msgid "Cannot validate contract."
 msgstr "لا يمكن التصديق على العقد."
@@ -1417,10 +1419,10 @@ msgid "Cashenvoy account"
 msgstr "حساب Cashenvoy"
 
 msgid "Cashier API doesn't support the selected provider or operation."
-msgstr "لا تدعم واجهة برمجة تطبيقات الصندوق الجهة الموفرة أو العملية المحددة."
+msgstr "واجهة برمجة التطبيقات (API) الخاصة بالكاشير لا تدعم مزود الخدمة أو العملية المختارة."
 
 msgid "Cashier deposits and withdrawals are not allowed on this account."
-msgstr "لا يُسمح بالإيداع والسحب من الصراف على هذا الحساب."
+msgstr "لا يُسمح بالإيداع والسحب من الكاشير على هذا الحساب."
 
 msgctxt "payment method name"
 msgid "Cassava Remit"
@@ -1475,13 +1477,13 @@ msgid "Change of currency is not allowed after the first deposit attempt."
 msgstr "لا يسمح بتغيير العملة بعد محاولة الإيداع الأولى."
 
 msgid "Change of currency is not allowed due to an existing Deriv X real account."
-msgstr "لا يسمح بتغيير العملة بسبب حساب Deriv X الحقيقي الحالي."
+msgstr "لا يسمح بتغيير العملة بسبب وجود حساب حقيقي على Deriv X."
 
 msgid "Change of currency is not allowed due to an existing MT5 real account."
-msgstr "لا يسمح بتغيير العملة بسبب وجود حساب MT5 حقيقي موجود."
+msgstr "لا يسمح بتغيير العملة بسبب وجود حساب حقيقي على MT5."
 
 msgid "Change of currency is not allowed for an existing account with previous deposits."
-msgstr "لا يسمح بتغيير العملة لحساب موجود مع ودائع سابقة."
+msgstr "لا يسمح بتغيير العملة لحساب تم إجراء إيداعات سابقة فيه."
 
 msgid "Change of currency is not allowed for an trading account."
 msgstr "لا يسمح بتغيير العملة لحساب التداول."
@@ -1502,7 +1504,7 @@ msgid "Changing your email?"
 msgstr "تغيير بريدك الإلكتروني؟"
 
 msgid "Chat is not possible because the other client is not yet registered as a Deriv P2P advertiser."
-msgstr "الدردشة غير ممكنة لأن العميل الآخر لم يتم تسجيله بعد كمعلن Deriv P2P."
+msgstr "الدردشة غير ممكنة لأن العميل الآخر لم يقم بالتسجيل كمعلن Deriv P2P بعد."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
 msgid "Check my ad"
@@ -1517,7 +1519,7 @@ msgid "Check my profile"
 msgstr "تحقق من ملفي الشخصي"
 
 msgid "Checksum verification failed."
-msgstr "فشل التحقق من المجموع الاختباري."
+msgstr "فشل التحقق من سلامة البيانات باستخدام Checksum."
 
 msgid "Chevron Co."
 msgstr "شركة شيفرون"
@@ -1570,7 +1572,7 @@ msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgid "Click the button below and upload a scanned copy or a clear photo of your passport, driving licence, or national ID."
-msgstr "انقر فوق الزر أدناه وقم بتحميل نسخة ممسوحة ضوئيًا أو صورة واضحة لجواز سفرك أو رخصة القيادة أو الهوية الوطنية."
+msgstr "انقر فوق الزر أدناه وقم بتحميل نسخة ممسوحة ضوئيًا أو صورة واضحة لجواز السفر أو رخصة القيادة أو الهوية الوطنية."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_poi_resubmission "
 msgid "Click the button below to submit your documents and verify your Deriv account."
@@ -1716,7 +1718,7 @@ msgid "Contract cannot be sold at this time. Please try again."
 msgstr "لا يمكن بيع العقد في هذا الوقت. حاول مرة اخرى."
 
 msgid "Contract has expired."
-msgstr "انتهى العقد."
+msgstr "انتهت مدة العقد."
 
 msgid "Contract id is required to cancel contract"
 msgstr "معرف العقد مطلوب لإلغاء العقد"
@@ -1740,7 +1742,7 @@ msgid "Contract price cannot be zero."
 msgstr "لا يمكن أن يكون سعر العقد صفرا."
 
 msgid "Contract's stake amount is more than the maximum purchase price."
-msgstr "مبلغ حصة العقد أكثر من الحد الأقصى لسعر الشراء."
+msgstr "مبلغ الاستثمار للعقد أكثر من الحد الأقصى لسعر الشراء."
 
 msgid "Contracts more than 24 hours in duration would need an absolute barrier."
 msgstr "العقود التي تزيد مدتها عن 24 ساعة ستحتاج إلى حاجز مطلق."
@@ -1771,13 +1773,13 @@ msgid "Costa Rican Colon"
 msgstr "كولون كوستاريكي"
 
 msgid "Could not generate OTP, please try again in a few minutes"
-msgstr "تعذر إنشاء كلمة المرور لمرة واحدة، يرجى المحاولة مرة أخرى بعد بضع دقائق"
+msgstr "تعذر إنشاء كلمة المرور لمرة واحدة (OTP)، يرجى المحاولة مرة أخرى بعد بضع دقائق"
 
 msgid "Could not retrieve contract details"
 msgstr "تعذر استرداد تفاصيل العقد"
 
 msgid "Country \"%1\" is not supported by Onfido."
-msgstr "البلد \"%1\" غير مدعوم من قبل \"أونفيدو\"."
+msgstr "البلد \"%1\" غير مدعوم من قبل \"Onfido\"."
 
 msgid "Crash 1000 Index"
 msgstr "Crash 1000 Index"
@@ -1797,9 +1799,6 @@ msgstr "مؤشر Crash 900"
 msgid "Crash/Boom Indices"
 msgstr "Crash/Boom Indices"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "Create a new Deriv MT5 account"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "Create a new Deriv MT5 account"
 msgstr "Create a new Deriv MT5 account"
@@ -1828,7 +1827,7 @@ msgid "Croatian Kuna"
 msgstr "كونا كرواتية"
 
 msgid "Crypto cashier is unavailable for the provided currency."
-msgstr "أمين الصندوق المشفر غير متاح للعملة المقدمة."
+msgstr "خدمة الكاشير للعملات المشفرة غير متاحة للعملة المقدمة."
 
 msgid "Cryptocurrencies"
 msgstr "العملات المشفرة"
@@ -1852,7 +1851,7 @@ msgid "Currency provided is not valid for your account."
 msgstr "العملة المقدمة غير صالحة لحسابك."
 
 msgid "Current password and new password cannot be the same."
-msgstr "لا يمكن أن تكون كلمة المرور الحالية هي نفس كلمة المرور الجديدة."
+msgstr "لا يمكن أن تكون كلمة المرور الحالية نفس كلمة المرور الجديدة."
 
 msgid "Czech Koruna"
 msgstr "كرونة تشيكية"
@@ -1966,7 +1965,7 @@ msgid "Deal cancellation period has expired. Your contract can only be cancelled
 msgstr "انتهت فترة إلغاء الصفقة. لا يمكن إلغاء عقدك إلا عندما يكون إلغاء الصفقة مفعلا."
 
 msgid "Dear %1 %2 %3,"
-msgstr "عزيزي %1 %2 %3,"
+msgstr "عزيزي %1 %2 %3،"
 
 msgctxt "Customer.io email: svg_all_transactional_bonus_rejected "
 msgid "Dear %1,"
@@ -1994,7 +1993,7 @@ msgid "Deposit declined - Card verification needed"
 msgstr "Deposit declined - Card verification needed"
 
 msgid "Deposit exceeds %1 limit %2. Aggregated deposit over period %3. Current amount %4."
-msgstr "الإيداع يتجاوز %1 بحد %2. الإيداعات المجمعة خلال الفترة %3. المبلغ الحالي %4."
+msgstr "الإيداع يتجاوز %1 الحد البالغ %2. مجموع الإيداعات على مدار الفترة %3. المبلغ الحالي %4."
 
 msgctxt "Customer.io email: dummy_payment_deposit_reversal_template "
 msgid "Deposit rejected"
@@ -2012,7 +2011,7 @@ msgid "Deposits are currently unavailable. Please try again later."
 msgstr "الإيداعات غير متوفرة حاليا. يرجى إعادة المحاولة لاحقا."
 
 msgid "Deposits are temporarily unavailable for %1. Please try later."
-msgstr "الإيداعات غير متوفرة مؤقتا بنسبة %1. يرجى المحاولة لاحقا."
+msgstr "الإيداعات غير متاحة مؤقتًا لـ %1. يرجى المحاولة لاحقًا."
 
 msgctxt "Customer.io email: KYC Unverified POA & POI "
 msgid "Deriv"
@@ -2051,16 +2050,16 @@ msgid "Deriv MT5 %1 Standard %2 %3 %4%5%6"
 msgstr "مشتقات MT5 %1 القياسية %2 %3 %4%5%6"
 
 msgid "Deriv P2P is currently unavailable. Please check back later."
-msgstr "Deriv P2P is currently unavailable. عودوا لاحقاً."
+msgstr "خدمة Deriv P2P غير متاحة حاليًا. يرجى التحقق مرة أخرى لاحقًا."
 
 msgid "Deriv P2P is unavailable in your country."
 msgstr "Deriv P2P غير متوفر في بلدك."
 
 msgid "Deriv P2P is unavailable in your country. Please provide a different account opening reason."
-msgstr "Deriv P2P غير متوفر في بلدك. يرجى تقديم سبب مختلف لفتح الحساب."
+msgstr "خدمة Deriv P2P غير متاحة في بلدك. يرجى تقديم سبب آخر لفتح الحساب."
 
 msgid "Deriv P2P is unavailable on demo accounts. Please switch to your real account."
-msgstr "Deriv P2P غير متوفر في الحسابات التجريبية. يرجى الإنتقال إلى حسابك الحقيقي."
+msgstr "خدمة Deriv P2P غير متاحة للحسابات التجريبية. يرجى الإنتقال إلى حسابك الحقيقي."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_paid_confirmation_toseller "
 msgid "Deriv P2P: Confirm you've received payment for Order %1"
@@ -2103,10 +2102,10 @@ msgid "Deriv Trader"
 msgstr "DTrader"
 
 msgid "Deriv X account is not available in your country yet."
-msgstr "حساب Deriv X غير متوفر في بلدك حتى الآن."
+msgstr "حساب Deriv X غير متوفر في بلدك بعد."
 
 msgid "Deriv X account management is currently suspended."
-msgstr "إدارة حساب Deriv X معلقة حاليا."
+msgstr "إدارة حساب Deriv X غير متاحة حاليًا."
 
 msgctxt "Customer.io email: test-payops-snipp "
 msgid "Deriv account ID %1"
@@ -2240,7 +2239,7 @@ msgid "Dubai Index"
 msgstr "مؤشر دبي"
 
 msgid "Due to a network issue, we couldn't update your %1 password. Please check your email for more details"
-msgstr "بسبب مشكلة في الشبكة ، تعذر علينا تحديث كلمة المرور %1 الخاصة بك. يرجى التحقق من بريدك الإلكتروني لمزيد من التفاصيل"
+msgstr "بسبب مشكلة في الشبكة ، تعذر علينا تحديث كلمة المرور %1 الخاصة بك. يرجى التحقق من بريدك الإلكتروني للمزيد من التفاصيل"
 
 msgid "Due to a network issue, we were only able to change your %1 password for these accounts:"
 msgstr "نظرا لوجود مشكلة في الشبكة، تمكنا فقط من تغيير كلمة مرور %1 لهذه الحسابات:"
@@ -2488,7 +2487,7 @@ msgid "Eritrean Nakfa"
 msgstr "الناكفا الإريترية"
 
 msgid "Error validating your transaction, please try again in a few minutes."
-msgstr "خطأ في التحقق من صحة معاملتك ، يرجى المحاولة مرة أخرى في غضون بضع دقائق."
+msgstr "حدث خطأ في التحقق من صحة معاملتك ، يرجى المحاولة مرة أخرى في غضون بضع دقائق."
 
 msgid "Ethiopian Birr"
 msgstr "بير إثيوبي"
@@ -2560,7 +2559,7 @@ msgid "Exclude time cannot be less than 6 months."
 msgstr "لا يمكن أن يكون وقت الاستبعاد أقل من 6 أشهر."
 
 msgid "Exclude time must be after today."
-msgstr "يجب أن يكون وقت الاستبعاد في يوم لاحق."
+msgstr "يجب أن يكون وقت الاستبعاد بعد تاريخ اليوم."
 
 msgid "Exclusion time conversion error."
 msgstr "خطأ في تحويل وقت الاستبعاد."
@@ -2612,7 +2611,7 @@ msgid "Failed to authenticate with passkeys. Please try again later"
 msgstr "فشل المصادقة باستخدام مفاتيح المرور. يرجى المحاولة مرة أخرى لاحقاً"
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
-msgstr "فشل إنشاء حساب بسبب فشل إثبات العنوان بالحالة: %1"
+msgstr "تعذر إنشاء الحساب بسبب فشل إثبات العنوان مع الحالة: %1"
 
 msgid "Failed to get user identity."
 msgstr "فشل في الحصول على هوية المستخدم."
@@ -2624,7 +2623,7 @@ msgid "Failed to reach an acceptable trading experience score."
 msgstr "فشل في الوصول إلى درجة خبرة تداول مقبولة."
 
 msgid "Failed to retrieve new or existing CTID."
-msgstr "فشل استرداد CTID الجديد أو الحالي."
+msgstr "تعذر استرداد CTID الجديد أو الحالي."
 
 msgid "Falkland Islands Pound"
 msgstr "جنيه جزر فوكلاند"
@@ -2681,7 +2680,7 @@ msgid "Floating rate adverts are not available at this time."
 msgstr "إعلانات السعر العائم غير متوفرة في الوقت الحالي."
 
 msgid "Floating rate cannot be provided with more than 2 decimal places of precision."
-msgstr "لا يمكن توفير معدل عائم بأكثر من 2 منزلة عشرية من الدقة."
+msgstr "لا يمكن تقديم السعر العائم بأكثر من خانتين عشريتين."
 
 msgctxt "Customer.io email: P2P13 deactivate fixed ads notice "
 msgid "Floating rates are enabled on Deriv P2P"
@@ -2703,9 +2702,6 @@ msgctxt "Customer.io email: south-africa-zingpay-notice "
 msgid "Follow the prompt and steps on the screen to upload your identity document (passport, driver’s licence, or identity card) and a selfie."
 msgstr "اتبع الخطوات التي تظهر على الشاشة لتحميل وثيقة الهوية الخاصة بك (جواز السفر أو رخصة القيادة أو بطاقة الهوية) وصورة شخصية."
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "For Android users: “Authorization failed”"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "For Android users: “Authorization failed”"
 msgstr "For Android users: “Authorization failed”"
@@ -2722,9 +2718,6 @@ msgctxt "Customer.io email: svg_all_transactional_real_usdt_signup "
 msgid "For company information on the senders of this email, please click %1here%2."
 msgstr "للحصول على معلومات الشركة المتعلقة بإرسال هذا البريد الإلكتروني، يرجى النقر على %1هنا%2."
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "For iOS users: “Invalid account”"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "For iOS users: “Invalid account”"
 msgstr "For iOS users: “Invalid account”"
@@ -2758,7 +2751,7 @@ msgid "For your reference, here's the %1general terms of use %2for our products 
 msgstr "إليك%1شروط الاستخدام العامة%2لمنتجاتنا وخدماتنا للرجوع اليها."
 
 msgid "Forex"
-msgstr "فوركس"
+msgstr "Forex"
 
 msgid "Forex (or foreign exchange) represents the ratio between the values of two currencies."
 msgstr "يمثل الفوركس (أو صرف العملات الأجنبية) النسبة بين قيمة عملتين."
@@ -2790,7 +2783,7 @@ msgid "Forgot your trading password? Let's get you a new one."
 msgstr "هل نسيت كلمة مرور التداول الخاصة بك؟لنحصل على كلمة مرور جديدة."
 
 msgid "Forgot your trading password?%1Let's get you a new one."
-msgstr "هل نسيت كلمة مرور التداول الخاصة بك؟%1لنحصل على كلمة مرور جديدة."
+msgstr "هل نسيت كلمة مرور التداول الخاصة بك؟%1دعنا نساعدك في الحصول على كلمة مرور جديدة."
 
 msgctxt "payment method name"
 msgid "Fortis Mobile Money"
@@ -3422,9 +3415,6 @@ msgctxt "Customer.io email: svg_all_transactional_crypto_deposit_confirmed "
 msgid "If you have any questions, contact us%1%2Live chat%3 | %4WhatsApp%5"
 msgstr "إذا كانت لديك أية أسئلة، تواصل معنا عبر%1%2الدردشة المباشرة%3 | %4الواتساب%5"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "If you have any questions, contact us:"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "If you have any questions, contact us:"
 msgstr "إذا كانت لديك أي أسئلة، فاتصل بنا:"
@@ -4048,9 +4038,6 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
 msgid "Limits:"
 msgstr "حدود:"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "Live chat"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "Live chat"
 msgstr "دردشة مباشرة"
@@ -4142,9 +4129,6 @@ msgstr "حساب ام-بيزا تنزانيا"
 msgid "MKR/USD"
 msgstr "مايكر/دولار أمريكي"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "MT5 %1 %2 %3"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "MT5 %1 %2 %3"
 msgstr "MT5 %1 %2 %3"
@@ -5524,6 +5508,9 @@ msgstr "يرجى تسجيل الدخول إلى حساب التواصل الاج
 
 msgid "Please log in."
 msgstr "يرجى تسجيل الدخول."
+
+msgid "Please make sure you have only one active login screen."
+msgstr ""
 
 msgid "Please make the full payment"
 msgstr "يرجى إجراء الدفع الكامل"
@@ -6984,6 +6971,11 @@ msgstr "يتجاوز مبلغ الطلب أموالك المتاحة في Deriv 
 msgid "The amount you entered exceeds your commission balance. You may withdraw up to %1 %2."
 msgstr "المبلغ الذي أدخلته يتجاوز رصيد العمولة الخاص بك. يمكنك سحب ما يصل إلى %1 %2."
 
+#, fuzzy
+#| msgid "This verification method is currently unavailable."
+msgid "The authentication service is currently unavailable."
+msgstr "طريقة إثبات الملكية هذه غير متوفرة حاليا."
+
 msgid "The authorized account cannot be used to perform transfers."
 msgstr "لا يمكن استخدام الحساب المعتمد لإجراء التحويلات."
 
@@ -7239,6 +7231,14 @@ msgstr "لقد تغير سعر الإعلان. يرجى محاولة إنشاء 
 
 msgid "The request contains an invalid value. Please check your input and try again."
 msgstr "يحتوي الطلب على قيمة غير صالحة. يرجى التحقق من الإدخال والمحاولة مرة أخرى."
+
+msgid "The request is either missing required parameters or has invalid values."
+msgstr ""
+
+#, fuzzy
+#| msgid "The IDV result is missing."
+msgid "The request is missing a valid app_id."
+msgstr "نتيجة IDV مفقودة."
 
 msgid "The requested maximum amount must be greater than minimum amount."
 msgstr "يجب أن يكون الحد الأقصى للمبلغ المطلوب أكبر من الحد الأدنى له."
@@ -7699,9 +7699,6 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_ad_created "
 msgid "To check or delete your ad, click this button:"
 msgstr "للتحقق من إعلانك أو حذفه، انقر على هذا الزر:"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "To continue trading on Deriv MT5, log in to Trader’s Hub and create a new account."
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "To continue trading on Deriv MT5, log in to Trader’s Hub and create a new account."
 msgstr "To continue trading on Deriv MT5, log in to Trader’s Hub and create a new account."
@@ -9115,12 +9112,9 @@ msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have approved your withdrawal request"
 msgstr "لقد وافقنا على طلب السحب الخاص بك"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "We have archived these account(s) because they’ve been inactive for over 30 days"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "We have archived these account(s) because they’ve been inactive for over 30 days"
-msgstr "لقد قمنا بأرشفة هذه الحسابات لأنها كانت غير نشطة لأكثر من ٣٠ يومًا"
+msgstr "لقد قمنا بأرشفة هذه الحسابات لأنها كانت غير نشطة لأكثر من <b>٣٠</b> يومًا."
 
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "We have closed your Deriv X real account %1 because it has been inactive for over 30 days."
@@ -9490,9 +9484,6 @@ msgctxt "Customer.io email: svg_all_transactional_account_verification_request "
 msgid "What you need to do:"
 msgstr "ما عليك القيام به:"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "WhatsApp"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "WhatsApp"
 msgstr "الواتساب"
@@ -10433,9 +10424,6 @@ msgctxt "Customer.io email: svg_all_transactional_demo_derivez_welcome "
 msgid "Your Deriv EZ real account is ready"
 msgstr "شكرا لك على إنشاء حساب Deriv EZ !"
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_mt5_account_closure "
-#| msgid "Your Deriv MT5 account is archived"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "Your Deriv MT5 account is archived"
 msgstr "Your Deriv MT5 account is archived"
