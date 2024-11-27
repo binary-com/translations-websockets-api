@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-11-26 13:14\n"
+"PO-Revision-Date: 2024-11-27 11:54\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -507,6 +507,9 @@ msgstr "ต้องระบุวันหมดอายุ"
 
 msgid "Failed to create account due to failed Proof of Address with status: %1"
 msgstr "ไม่อาจสร้างบัญชีได้เนื่องจากการตรวจสอบหลักฐานแสดงที่อยู่ไม่สำเร็จและมีสถานะ: %1"
+
+msgid "Failed to get SmileID service token"
+msgstr "ไม่สามารถ GET Token สำหรับบริการ SmileID"
 
 msgid "Failed to migrate account. %1"
 msgstr "ไม่สามารถย้ายโอนบัญชี %1"
@@ -7549,48 +7552,44 @@ msgid "noqodi account"
 msgstr "บัญชี noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "บัตรประจำตัว"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "หมายเลขประจำตัวประชาชน"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "ใบขับขี่"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "เอกสาร Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "บัตรประจำตัว"
+
+msgctxt "IDV document type "
 msgid "CPF"
 msgstr "หมายเลขประจำตัวประชาชน CPF"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "IDV document type "
 msgid "Passport"
 msgstr "หนังสือเดินทาง"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "บัตรคนต่างด้าว"
+msgid "Drivers License"
+msgstr "ใบขับขี่"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "รหัสผู้ออกเสียงลงคะแนน"
 
 msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
+msgid "Nomor Induk Kependudukan"
+msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
@@ -7601,8 +7600,12 @@ msgid "Aadhaar Card"
 msgstr "บัตร Aadhaar"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
+msgid "National ID Number Slip"
+msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "บัตรคนต่างด้าว"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -8730,7 +8733,7 @@ msgstr "●  จำนวน"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
 msgid "●  Transaction ID"
-msgstr "●  รหัสไอดีการทำธุรกรรม"
+msgstr "●  ไอดีธุรกรรม"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_confirmation_tobuyer "
 msgid "●  Date and time"
@@ -8750,7 +8753,7 @@ msgstr "ออร์เดอร์ #%1 ที่มีข้อร้องเ�
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
 msgid "Investigation underway"
-msgstr "อยู่ระหว่างดำเนินการสอบสวน"
+msgstr "อยู่ระหว่างการสอบสวน"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
 msgid "Hi %1,"
