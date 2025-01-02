@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-01-02 07:53\n"
+"PO-Revision-Date: 2025-01-02 14:49\n"
 "Last-Translator: \n"
 "Language-Team: Mongolian\n"
 "MIME-Version: 1.0\n"
@@ -326,7 +326,7 @@ msgid "Change of currency is not allowed due to an existing Deriv X real account
 msgstr "Одоо байгаа Deriv X бодит дансны улмаас валют өөрчлөх боломжгүй байна."
 
 msgid "Change of currency is not allowed due to an existing MT5 real account."
-msgstr "Одоо байгаа MT5 бодит дансны улмаас валют өөрчлөх боломжгүй байна."
+msgstr "Та MТ5 бодит данстай тул валют өөрчлөх боломжгүй байна."
 
 msgid "Change of currency is not allowed for an existing account with previous deposits."
 msgstr "Өмнө нь мөнгө байршуулсан дансны валютыг солихгүй."
@@ -476,10 +476,10 @@ msgid "Email is required."
 msgstr "И-мэйл оруулах шаардлагатай."
 
 msgid "Enter the two-factor authentication (2FA) code from the authenticator app on your phone."
-msgstr "Утсан дээрээ баталгаажуулагч аппликейшнээс хоёр хүчин зүйлийн баталгаажуулалтын (2FA) кодыг оруулна уу."
+msgstr "Утсан дээрх баталгаажуулагч аппликейшнээс хоёр хүчин зүйлийн баталгаажуулалтын (2FA) кодыг оруулна уу."
 
 msgid "Error validating your transaction, please try again in a few minutes."
-msgstr "Таны гүйлгээг баталгаажуулахад алдаа гарсан тул хэдхэн минутын дараа дахин оролдоно уу."
+msgstr "Таны гүйлгээг батлахад алдаа гарсан тул хэдэн минутын дараа дахин оролдоно уу."
 
 msgid "Exchange rates are not currently available."
 msgstr "Валютын ханш одоогоор байхгүй байна."
@@ -7657,16 +7657,24 @@ msgid "noqodi account"
 msgstr "бүртгэлийн бүртгэл"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Сонгогчийн үнэмлэх"
+msgid "National ID Number"
+msgstr "Үндэсний үнэмлэхний дугаар"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Паспорт"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Харь гаригийн карт"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN карт"
 
 msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Паспорт"
+msgid "Voter ID"
+msgstr "Сонгогчийн үнэмлэх"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7677,20 +7685,8 @@ msgid "Aadhaar Card"
 msgstr "Aadhaar карт"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Үндэсний үнэмлэхний дугаар"
-
-msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Үндэсний таних баримт бичиг"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Харь гаригийн карт"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7701,16 +7697,20 @@ msgid "Cédula de Identidad"
 msgstr "Цедула де Идентидад"
 
 msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Үндэсний үнэмлэхний дугаарын хуудас"
+
+msgctxt "IDV document type "
 msgid "CPF"
 msgstr "ЦПФ"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Индук Цэвэрлэгээний дугаар"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Хүн амын бүртгэлийн цорын ганц түлхүүр"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -11461,6 +11461,50 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Баталгаажуулах код: %1 10 минутын хугацаанд хүчинтэй."
 
 msgctxt "KYC email title"
+msgid "Your proof of address is cropped or doesn't show complete details."
+msgstr "Таны хаягийн нотолгоо хэргээс хэтэрсэн эсвэл бүрэн мэдээлэлгүй байна."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Танай профайл руу орж, дансаа баталгаажуулж / гэрчилгээжүүлнэ үү. Доорх шаардлагуудтай хамт банкны хуулга, коммуналь төлбөр, эсвэл танай баримт бичиг хүлээлгэн өгөөрэй:"
+
+msgctxt "KYC email title"
+msgid "Your proof of address is blurred."
+msgstr "Таны хаягийн нотолгоо тодорхойгүй байна."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+
+msgctxt "KYC email title"
+msgid "Your proof of address does not meet our verification standards."
+msgstr "Your proof of address does not meet our verification standards."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+
+msgctxt "KYC email subtitle"
+msgid "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
+msgstr "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "Хаягийн нотолгоо дээрх нэр нь таны Deriv профайлд нийцэхгүй байна."
+
+msgctxt "KYC email title"
+msgid "Your proof of address is outdated."
+msgstr "Your proof of address is outdated."
+
+msgctxt "KYC email title"
+msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
+msgstr "Бид хаягийн нотолгоо гэж зурвас скриншот хүлээж авахгүй. Бид мөн захидлын хаяг хүлээж авахгүй."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Танай профайл руу орж, дансаа баталгаажуулж / гэрчилгээжүүлнэ үү. Доорх шаардлагуудтай хамт банкны хуулга, коммуналь төлбөр, эсвэл танай баримт бичиг хүлээлгэн өгөөрэй:"
+
+msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address are password-protected."
 msgstr "The documents you submitted as proof of address are password-protected."
 
@@ -11471,18 +11515,6 @@ msgstr "Please remove password-protection from the documents and resubmit them."
 msgctxt "KYC email subtitle"
 msgid "Alternatively, you can submit a different proof of address such as a bank statement, utility bill, or affidavit, with the following requirements:"
 msgstr "Alternatively, you can submit a different proof of address such as a bank statement, utility bill, or affidavit, with the following requirements:"
-
-msgctxt "KYC email title"
-msgid "Your proof of address is outdated."
-msgstr "Your proof of address is outdated."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-
-msgctxt "KYC email title"
-msgid "Your proof of address does not meet our verification standards."
-msgstr "Your proof of address does not meet our verification standards."
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
@@ -11496,13 +11528,9 @@ msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a valid document such as a bank statement, utility bill, or affidavit, in JPG, JPEG, PNG, or PDF formats, with the following requirements:"
 msgstr "Танай профайл руу явж, дансаа баталгаажуулж / гэрчилгээжүүлнэ үү. Банкийн хуулга, коммуналь төлбөр эсвэл танай баримт бичгийг, JPG, JPEG, PNG, эсвэл PDF форматын баталгаажигдсан баримтыг доорх шаардлагуудын дагуу хүлээн авна уу:"
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-
-msgctxt "KYC email subtitle"
-msgid "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
-msgstr "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
+msgctxt "KYC email title"
+msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
+msgstr "Бид захидлын хаяг хүлээж авахгүй. Бид мөн зурвас скриншот хүлээж авахгүй."
 
 msgctxt "KYC email title"
 msgid "The details in the proof of address don't match your profile."
@@ -11511,34 +11539,6 @@ msgstr "Хаягийн нотолгоо дахь дэлгэрэнгүй мэдэ
 msgctxt "KYC email subtitle"
 msgid "Please go to your profile to update your residential address. Then, verify/authenticate your account by submitting a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
 msgstr "Таны профайл руу орж, суугчийн хаягаа шинэчилнэ үү. Дараа нь эрүүл, тодорхой баримт бичгийг, жишээлбэл банкны хуулга, коммуналь төлбөр, эсвэл танай баримт бичгээр дансаа баталгаажуулж / гэрчилгээжүүлнэ үү:"
-
-msgctxt "KYC email title"
-msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
-msgstr "Бид хаягийн нотолгоо гэж зурвас скриншот хүлээж авахгүй. Бид мөн захидлын хаяг хүлээж авахгүй."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Танай профайл руу орж, дансаа баталгаажуулж / гэрчилгээжүүлнэ үү. Доорх шаардлагуудтай хамт банкны хуулга, коммуналь төлбөр, эсвэл танай баримт бичиг хүлээлгэн өгөөрэй:"
-
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "Хаягийн нотолгоо дээрх нэр нь таны Deriv профайлд нийцэхгүй байна."
-
-msgctxt "KYC email title"
-msgid "Your proof of address is blurred."
-msgstr "Таны хаягийн нотолгоо тодорхойгүй байна."
-
-msgctxt "KYC email title"
-msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
-msgstr "Бид захидлын хаяг хүлээж авахгүй. Бид мөн зурвас скриншот хүлээж авахгүй."
-
-msgctxt "KYC email title"
-msgid "Your proof of address is cropped or doesn't show complete details."
-msgstr "Таны хаягийн нотолгоо хэргээс хэтэрсэн эсвэл бүрэн мэдээлэлгүй байна."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Танай профайл руу орж, дансаа баталгаажуулж / гэрчилгээжүүлнэ үү. Доорх шаардлагуудтай хамт банкны хуулга, коммуналь төлбөр, эсвэл танай баримт бичиг хүлээлгэн өгөөрэй:"
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -11551,58 +11551,6 @@ msgstr "таны Deriv профайлд тохирсон орон сууцны �
 msgctxt "KYC email layout"
 msgid "is dated within the last %1 months"
 msgstr "сүүлийн %1 сарын дотор огноогдсон"
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "The type of document you submitted as proof of identity can't be accepted."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-
-msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "The names on your proof of identity and Deriv profile don't match."
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "Your proof of identity doesn't show your date of birth."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Your proof of identity is cropped."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Your proof of identity is blurred."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "Your proof of identity is expired."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -11627,6 +11575,58 @@ msgstr "Please visit your profile to verify/authenticate your account. Submit yo
 msgctxt "KYC email footnote"
 msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
 msgstr "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "Your proof of identity doesn't show your date of birth."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Your proof of identity is blurred."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Your proof of identity is cropped."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "The type of document you submitted as proof of identity can't be accepted."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+
+msgctxt "KYC email title"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "The names on your proof of identity and Deriv profile don't match."
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "Your proof of identity is expired."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity does not meet our verification standards."
