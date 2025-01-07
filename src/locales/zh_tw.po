@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-01-03 13:17\n"
+"PO-Revision-Date: 2025-01-07 09:34\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -304,7 +304,7 @@ msgstr "@ease wallet 帳戶"
 
 msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "A Deriv P2P order was placed to sell %1 USD from your Deriv funds. Please check the details below carefully to make sure the order is yours:"
-msgstr "下了 Deriv P2P 訂單，從 Deriv 基金賣出 %1 美元。請仔細檢查以下詳細資料，以確保訂單是您的："
+msgstr "下了 Deriv P2P 訂單，從 Deriv 基金賣出 %1 USD。請仔細檢查以下詳細資料，以確保訂單是您的："
 
 msgid "A Deriv account ID and amount must be provided for real accounts."
 msgstr "真實帳戶必須提供 Deriv 帳戶 ID 和金額。"
@@ -2151,7 +2151,7 @@ msgstr "是否已收到款?"
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_order_confirmation_verification "
 msgid "Did you verify this order %1 and receive %2 USD from %3?"
-msgstr "您是否已驗證此訂單 %1 並收到 %3 轉來的 %2 美元？"
+msgstr "您是否已驗證此訂單 %1 並收到 %3 轉來的 %2 USD？"
 
 msgid "Digit Differs"
 msgstr "Digit Differs"
@@ -3809,7 +3809,7 @@ msgstr "伊斯坦堡指數"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
 msgid "It comes pre-loaded with 10,000 USD in virtual funds, so you can try trading with various strategies. Don’t worry if you run out of your virtual funds, a simple reset is all it takes to get back in the game."
-msgstr "它備有 10,000 美元虛擬資金，因此您可以嘗試使用各種策略交易。 如果虛擬資金用完了，不用擔心，只需要簡單重設就可以重新開始。"
+msgstr "它備有 10,000 USD 虛擬資金，因此您可以嘗試使用各種策略交易。 如果虛擬資金用完了，不用擔心，只需要簡單重設就可以重新開始。"
 
 msgid "It is not possible to place an order on this advert. Please choose another advert."
 msgstr "此廣告無法下訂單。請選擇別的廣告。"
@@ -4405,7 +4405,7 @@ msgstr "最小交易投注額須低於最大交易投注額。"
 
 msgctxt "Customer.io email: mf_france_transactional_real_signup "
 msgid "Min-max deposit: 10-10,000 (in USD, GBP, or EUR)%1Processing time: Instant"
-msgstr "最低-最高存款：10-10,000 (美元、英鎊或歐元) %1處理時間：即時"
+msgstr "最低-最高存款：10-10,000 (USD、GBP 或 EUR) %1處理時間：即時"
 
 msgctxt "Customer.io email: svg_nigeria_transactional_real_signup "
 msgid "Min-max deposit: 10-10,000  |  Processing time: Instant"
@@ -4417,11 +4417,11 @@ msgstr "最低-最高存款: 25-10,000  |  處理時間：即時"
 
 msgctxt "Customer.io email: mf_france_transactional_real_signup "
 msgid "Min-max deposit: 25-100 (in USD, GBP, or EUR)%1Processing time: Instant"
-msgstr "最低-最高存款：25-100 (美元、英鎊或歐元) %1處理時間：即時"
+msgstr "最低-最高存款：25-100 (USD、GBP 或 EUR) %1處理時間：即時"
 
 msgctxt "Customer.io email: mf_france_transactional_real_signup "
 msgid "Min-max deposit: 5-1,000 (in USD, GBP, or EUR)%1Processing time: Instant"
-msgstr "最低-最高存款：5-1,000 (美元、英鎊或歐元) %1處理時間：即時"
+msgstr "最低-最高存款：5-1,000 (USD、GBP 或 EUR) %1處理時間：即時"
 
 msgctxt "Customer.io email: svg_nigeria_transactional_real_signup "
 msgid "Min-max deposit: 5-10,000  |  Processing time: Instant"
@@ -9203,6 +9203,13 @@ msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We are unable to process your payout as you can only use your account as a payment agent to perform clients deposits and withdrawal requests. Kindly contact our customer support for assistance. Thank you."
 msgstr "無法處理您的賠付，因為您只能將帳戶用作付款代理，執行客戶的存款和提款要求。如需協助，請聯絡客戶支援。謝謝。"
 
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
+#| msgid "We are unable to process your payout as you can only use your account as a payment agent to perform clients deposits and withdrawal requests. Kindly contact our customer support for assistance. Thank you."
+msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
+msgid "We are unable to process your payout as your wallet is not able to receive funds. Please check with Skrill support before submitting a new payout. Thank you."
+msgstr "無法處理您的賠付，因為您只能將帳戶用作付款代理，執行客戶的存款和提款要求。如需協助，請聯絡客戶支援。謝謝。"
+
 msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
 msgid "We are unable to support the request at this time because the deposit and withdrawal methods did not match."
 msgstr "由於存取款方式不相符，此次無法執行您的要求。"
@@ -9314,12 +9321,9 @@ msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have approved your withdrawal request"
 msgstr "提款要求已批准"
 
-#, fuzzy
-#| msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
-#| msgid "We have archived these account(s) because they’ve been inactive for over 30 days"
 msgctxt "Customer.io email: dummy_transactional_mt5_accounts_closed "
 msgid "We have archived these account(s) because they’ve been inactive for over 60 days"
-msgstr "由於已超過 30 天沒有活動，這些帳戶已被存檔"
+msgstr "由於已超過 60 天沒有活動，這些帳戶已被存檔"
 
 msgctxt "Customer.io email: svg_all_transactional_derivx_account_closure "
 msgid "We have closed your Deriv X real account %1 because it has been inactive for over 30 days."
@@ -9875,7 +9879,7 @@ msgstr "如果%1的退市跳動點在%3時在%5與%4之間，將獲賠付額高�
 
 msgctxt "Customer.io email: mf_france_transactional_demo_welcome "
 msgid "With our risk-free demo account loaded with $10K in virtual funds, practise your trading skills without limits."
-msgstr "無風險示範帳戶已經有 10,000 美元虛擬資金，可以無限額練習交易技巧。"
+msgstr "無風險示範帳戶已經有 $10,000 虛擬資金，可以無限額練習交易技巧。"
 
 msgid "Withdrawal amount [%1 %2] exceeds client balance [%3 %2]."
 msgstr "提款金額 [%1 %2] 大於客戶餘額 [%3 %2]。"
@@ -11245,6 +11249,13 @@ msgstr "視訊應包括："
 
 msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "Your withdrawal cannot be processed due to an invalid status. Please contact AirTM support to resolve the issue before attempting another withdrawal request. Thank you."
+msgstr "由於狀態無效，提款無法處理。請聯絡 AirTM 支援以解決問題，然後再嘗試其他提款要求。謝謝。"
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
+#| msgid "Your withdrawal cannot be processed due to an invalid status. Please contact AirTM support to resolve the issue before attempting another withdrawal request. Thank you."
+msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
+msgid "Your withdrawal cannot be processed due to your PerfectMoney account being blocked. Please contact PerfectMoney support to check your account status before attempting another withdrawal request. Thank you."
 msgstr "由於狀態無效，提款無法處理。請聯絡 AirTM 支援以解決問題，然後再嘗試其他提款要求。謝謝。"
 
 msgctxt "Customer.io email: dummy_bankwire_withdrawal "
