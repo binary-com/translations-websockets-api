@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-01-07 12:19\n"
+"PO-Revision-Date: 2025-01-20 15:52\n"
 "Last-Translator: \n"
 "Language-Team: Swahili\n"
 "MIME-Version: 1.0\n"
@@ -1377,6 +1377,9 @@ msgstr "Kubadilisha ada ya kitambulisho cha kufuatilia %1 %2"
 
 msgid "Rise/Fall"
 msgstr "Rise/Fall"
+
+msgid "SNOWUP and SNOWDOWN are not supported."
+msgstr "MULTUP na MULTDOWN haziungwa mkono."
 
 msgid "Saved payment methods cannot be provided for buy ads. Please provide payment method names."
 msgstr "Njia za malipo zilizohifadhiwa hazitolewa kwa matangazo ya kununua Tafadhali toa majina ya njia ya malipo."
@@ -5296,6 +5299,12 @@ msgstr "Only Ups"
 msgid "Only Downs"
 msgstr "Only Downs"
 
+msgid "Snowball Down"
+msgstr "Snowball Down"
+
+msgid "Snowball Up"
+msgstr "Snowball Up"
+
 msgid "High Tick"
 msgstr "Nguo Juu"
 
@@ -5514,6 +5523,9 @@ msgstr "Kushinda malipo ikiwa %1 inaongezeka mfululizo kwa %plural (%3,%d tick, 
 
 msgid "Win payout if %1 falls successively for %plural(%3,%d tick, %d ticks) after the entry spot."
 msgstr "Kushinda malipo ikiwa %1 inaanguka mfululizo kwa %plural (%3,%d tick, %d ticks) baada ya mahali pa kuingia."
+
+msgid "Win a payout if the price does not breach caution price. The payout is the sum of accrued coupons minus any commissions."
+msgstr "Shinda malipo ikiwa bei haitavunja bei ya tahadhari. Malipo ni jumla ya kuponi zilizokusanywa minus kamisheni zozote."
 
 msgid "Win payout if tick %5 of %1 is the highest among all %3 ticks."
 msgstr "Kushinda malipo ikiwa alama %5 ya %1 ndio kubwa zaidi kati ya taa zote za %3 ."
@@ -5883,6 +5895,12 @@ msgstr "Biashara kwenye mikataba ya forex na muda chini ya masaa 5 haipatikani k
 
 msgid "Minimum stake allowed is %1."
 msgstr "Hisa ya chini kuruhusiwa ni %1."
+
+msgid "Duration %1 is not supported for Snowball trades. Accepts %2 seconds."
+msgstr "Muda %1 haukubaliki kwa biashara za Snowball. Inakubali %2 sekunde."
+
+msgid "Trade risk profile is invalid. Accepts %1."
+msgstr "Profaili ya hatari ya biashara si halali. Inakubali %1."
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Tafadhali subiri utulivu wa mkataba. Bei ya mwisho ya utuliaji inaweza kutofautiana na bei ya kiashiria."
@@ -7663,60 +7681,60 @@ msgid "noqodi account"
 msgstr "akaunti ya noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Kitambulisho cha Utambulisho"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Leseni ya Madereva"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Slip ya Nambari ya Kitambulisho"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nambari ya Induk ya Induction"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Nambari ya Kitambulisho cha"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Kifunguo pekee cha Usajili wa Wakazi"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Kadi ya wageni"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasipoti"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Hati ya Kitaifa ya Utambulisho"
+msgid "Voter ID"
+msgstr "Kitambulisho cha kura"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Kadi ya PAN"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Kitambulisho cha kura"
+msgid "Passport"
+msgstr "Pasipoti"
 
 msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Kadi ya Aadhaar"
 
 msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Leseni ya Madereva"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Hati ya Kitaifa ya Utambulisho"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Slip ya Nambari ya Kitambulisho"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Kitambulisho cha Utambulisho"
+
+msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Usalama wa Jamii na Bima ya Kitaifa (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nambari ya Induk ya Induction"
+msgid "Clave Única de Registro de Población"
+msgstr "Kifunguo pekee cha Usajili wa Wakazi"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Kadi ya wageni"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10618,6 +10636,14 @@ msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_no
 msgid "Shared payment method detected"
 msgstr "Njia ya malipo iliyoshirikiana"
 
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your MT5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
+msgstr "MT5 %1 Imetolewa %2 %3 %4 %5 demo %6 real %7 akaunti iko tayari."
+
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your login ID for the MetaTrader 5 platform is %1."
+msgstr "Kitambulisho chako cha kuingia kwa jukwaa la MetaTrader 5 ni %1."
+
 msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your order"
 msgstr "Thibitisha agizo lako"
@@ -10935,16 +10961,16 @@ msgid "Changing your email?"
 msgstr "Kubadilisha barua pepe yako?"
 
 msgctxt "Customer.io email: dummy_request_change_email "
+msgid "To protect your account, please note that Deriv will never ask for this link. Ensure you keep it confidential and %1DO NOT SHARE THIS LINK WITH OTHERS.%2"
+msgstr "Ili kulinda akaunti yako, tafadhali kumbuka kwamba Deriv haitakuomba kiungo hiki. Hakikisha unakihifadhi kwa siri na %1USIISHARE KIUNGO HIKI NA WENGINE.%2"
+
+msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Press the button below to confirm that you want to change your email on Deriv:"
 msgstr "Bonyeza kitufe hapa chini ili kuthibitisha kuwa unataka kubadilisha barua pepe yako kwenye Deriv:"
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Change my email"
 msgstr "Badilisha barua pepe yangu"
-
-msgctxt "Customer.io email: dummy_request_change_email "
-msgid "If the button above doesn’t work, use this link:"
-msgstr "Ikiwa kitufe hapo juu hakifanyi kazi, tumia kiungo hiki:"
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "This link will expire in 60 minutes. Go to %1Manage account settings &gt; %2Email and passwords%3%4 to request a new link."
@@ -11059,36 +11085,84 @@ msgid "Payments blocked. Verify your account"
 msgstr "Malipo yamezuiliwa. Thibitisha akaunti yako"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your Deriv account is set + $10K demo funds ready"
+msgstr "Akaunti yako ya Deriv imewekwa + fedha za demo za $10K ziko tayari"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start trading now"
+msgstr "Anza biashara sasa"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Thanks for choosing Deriv! We’ve added $10,000 in virtual funds to your demo account so you can start exploring the markets right away."
+msgstr "Asante kwa kuchagua Deriv! Tumekuwekea $10,000 katika fedha za virtual kwenye akaunti yako ya demo ili uweze kuanza kuchunguza masoko mara moja."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading to:"
+msgstr "Anza biashara ya demo ili:"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Test strategies in real market conditions"
+msgstr "Jaribu mikakati katika hali halisi za soko"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Learn the platform dynamics"
+msgstr "Jifunze mienendo ya jukwaa"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Build your trading confidence"
+msgstr "Jenga kujiamini kwako katika biashara"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Trade without risking real funds"
+msgstr "Fanya biashara bila kuweka hatari katika fedha halisi"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your demo account gives you the perfect environment to develop your skills before moving to real-money trading."
+msgstr "Akaunti yako ya demo inakupa mazingira bora ya kukuza ujuzi wako kabla ya kuhamia kwenye biashara ya fedha halisi."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading"
+msgstr "Anza biashara ya demo"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Ready for real trading instead? Start with just $5."
+msgstr "Je, uko tayari kwa biashara halisi? Anza na $5 tu."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Create real account"
+msgstr "Unda akaunti halisi"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "%1Questions?%2%3Our support team is just a click away on %4Live chat%5 | %6WhatsApp%7"
+msgstr "%1Maswali?%2%3Timu yetu ya msaada iko umbali wa kubofya kwenye %4Maongezi ya moja kwa moja%5 | %6WhatsApp%7"
+
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Habari na karibu Deriv"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your Deriv journey starts here!"
 msgstr "Safari yako ya Deriv huanza hapa!"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Welcome to Deriv! We’re excited to have you with us."
 msgstr "Karibu kwenye Deriv! Tunafurahi kuwa na wewe pamoja nasi."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Our demo account is your playground, designed to help you unleash your trading potential without the fear of financial risk."
 msgstr "Akaunti yetu ya onyesho ni uwanja wako wa michezo, iliyoundwa ili kukusaidia kutoa uwezo wako wa biashara bila hofu ya hatari ya kifedha."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "It comes pre-loaded with 10,000 USD in virtual funds, so you can try trading with various strategies. Don’t worry if you run out of your virtual funds, a simple reset is all it takes to get back in the game."
 msgstr "Inakuja mapema na USD 10,000 katika fedha halisi, kwa hivyo unaweza kujaribu biashara na mikakati mbalimbali. Usijali ikiwa umekosa fedha zako halisi, upya kwa urahisi ndio yote inayohitajika kurudi kwenye mchezo."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your demo account email:"
 msgstr "Barua pepe ya akaunti yako ya demo:"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "%1Need help?%2%3%4Our comprehensive %5FAQ page%6 is always a good start. If you require further assistance, our support team is available 24/7 to help via %7live chat%8 or %9WhatsApp%10."
 msgstr "%1Nunaweza kusaidia?%2%3%4Our kamili %5FAQ ukurasa%6 daima ni mwanzo mzuri. Ikiwa unahitaji msaada zaidi, timu yetu ya usaidizi inapatikana 24/7 kusaidia kupitia %7lina chat%8 au %9WhatsApp%10."
-
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
-msgid "The products offered on our platforms are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money."
-msgstr "Bidhaa zinazotolewa kwenye majukwaa yetu ni bidhaa ngumu za matokeo ambazo zina hatari kubwa ya upotezaji. CFD ni vyombo ngumu na hatari kubwa ya kupoteza pesa haraka kutokana na ufanisi. Unapaswa kuzingatia ikiwa unaelewa jinsi bidhaa hizi zinavyofanya kazi na ikiwa unaweza kumudu kuchukua hatari kubwa ya kupoteza pesa zako."
 
 msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "This email is a marketing email intended for retail and professional clients and has been issued by Deriv Investments (Europe) Limited, a company incorporated in Malta with registration number C 70156, and its registered address at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
@@ -11475,12 +11549,20 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Msimbo wa uthibitisho: %1 unatumika kwa dakika 10."
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "Majina kwenye uthibitisho wako wa utambulisho na wasifu wa Deriv hayalingani."
+msgid "Your proof of identity is blurred."
+msgstr "Uthibitisho wako wa utambulisho umeblur."
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali nenda kwenye wasifu wako na uhakikishe kuwa maelezo yako ni sahihi. Kisha, thibitisha / ithibitisha akaunti yako kwa kuwasilisha uthibitisho wa utambulisho, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha nyaraka zenye ubora wa juu, wazi, na zinazoweza kusomeka, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Uthibitisho wako wa utambulisho haukidhi viwango vyetu vya kuangalia."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha uthibitisho halali wa utambulisho, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -11493,6 +11575,42 @@ msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yak
 msgctxt "KYC email subtitle"
 msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Pia unaweza kuwasilisha pamoja na uthibitisho wako wa utambulisho, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
+
+msgctxt "KYC email title"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "Majina kwenye uthibitisho wako wa utambulisho na wasifu wa Deriv hayalingani."
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali nenda kwenye wasifu wako na uhakikishe kuwa maelezo yako ni sahihi. Kisha, thibitisha / ithibitisha akaunti yako kwa kuwasilisha uthibitisho wa utambulisho, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "Uthibitisho wako wa utambulisho unakosa sehemu ya mbele/nyuma."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha uthibitisho wako wa utambulisho kamili, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "Ikiwa una shida ya kutuma pande zote za hati kupitia kiungo kilichotolewa, unaweza kujibu barua pepe hii kwa kiambatisho cha pande zote mbili za hati yako."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Uthibitisho wako wa utambulisho umekatwa."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha nyaraka kamili, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "Aina ya hati uliyowasilisha kama uthibitisho wa utambulisho haiwezi kukubalika."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha uthibitisho tofauti wa utambulisho, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is expired."
@@ -11514,50 +11632,6 @@ msgctxt "KYC email footnote"
 msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
 msgstr "Tafadhali jibu barua pepe hii na uambatishe cheti chako cha kuzaliwa au uwasilishe uthibitisho tofauti wa utambulisho unaoonyesha tarehe yako ya kuzaliwa."
 
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "Uthibitisho wako wa utambulisho unakosa sehemu ya mbele/nyuma."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha uthibitisho wako wa utambulisho kamili, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "Ikiwa una shida ya kutuma pande zote za hati kupitia kiungo kilichotolewa, unaweza kujibu barua pepe hii kwa kiambatisho cha pande zote mbili za hati yako."
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Uthibitisho wako wa utambulisho umeblur."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha nyaraka zenye ubora wa juu, wazi, na zinazoweza kusomeka, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Uthibitisho wako wa utambulisho umekatwa."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha nyaraka kamili, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Uthibitisho wako wa utambulisho haukidhi viwango vyetu vya kuangalia."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha uthibitisho halali wa utambulisho, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "Aina ya hati uliyowasilisha kama uthibitisho wa utambulisho haiwezi kukubalika."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuangalia / kuithibitisha akaunti yako. Wasilisha uthibitisho tofauti wa utambulisho, kama pasipoti, leseni ya kuendesha, au kitambulisho cha kitaifa, ikiwa na mahitaji yafuatayo:"
-
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
 msgstr "ina jina lako linalofanana na wasifu wako wa Deriv"
@@ -11575,40 +11649,12 @@ msgid "shows your photo"
 msgstr "inaonyesha picha yako"
 
 msgctxt "KYC email title"
-msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
-msgstr "Hatupokei picha za skrini kama uthibitisho wa anwani. Hatupokei pia anwani kwenye bahasha."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati halali, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
-
-msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address could not be opened as they are either in an unsupported format or are corrupted."
 msgstr "Hati ulizowasilisha kama uthibitisho wa anwani hazikuweza kufunguliwa kwani ziko katika muundo usiohusika au zimeharibika."
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a valid document such as a bank statement, utility bill, or affidavit, in JPG, JPEG, PNG, or PDF formats, with the following requirements:"
 msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati halali kama risiti ya benki, bili ya huduma, au kiapo, katika muundo wa JPG, JPEG, PNG, au PDF, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
-
-msgctxt "KYC email title"
-msgid "The details in the proof of address don't match your profile."
-msgstr "Maelezo katika uthibitisho wa anwani hayafanani na wasifu wako."
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile to update your residential address. Then, verify/authenticate your account by submitting a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Tafadhali nenda kwenye wasifu wako kuboresha anwani yako ya makazi. Kisha, thibitisha/baini akaunti yako kwa kuwasilisha hati iliyo wazi na inayoeleweka, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
-
-msgctxt "KYC email title"
-msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
-msgstr "Hatupokei anwani kwenye bahasha kama uthibitisho wa anwani. Hatupokei pia picha za skrini."
-
-msgctxt "KYC email title"
-msgid "Your proof of address is blurred."
-msgstr "Uthibitisho wako wa anwani ume blurred."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati iliyo wazi na inayoeleweka, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
 
 msgctxt "KYC email title"
 msgid "Your proof of address does not meet our verification standards."
@@ -11622,13 +11668,33 @@ msgctxt "KYC email subtitle"
 msgid "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
 msgstr "Au unaweza kuwasilisha uthibitisho tofauti wa anwani, kama bili ya huduma au kiapo, ikiwa na mahitaji yafuatayo:"
 
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "Jina kwenye uthibitisho wa anwani halifanani na wasifu wako wa Deriv."
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati halali, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo"
 
 msgctxt "KYC email title"
-msgid "Your proof of address is outdated."
-msgstr "Uthibitisho wako wa anwani umepitwa na wakati."
+msgid "Your proof of address is blurred."
+msgstr "Uthibitisho wako wa anwani ume blurred."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati iliyo wazi na inayoeleweka, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
+
+msgctxt "KYC email title"
+msgid "The details in the proof of address don't match your profile."
+msgstr "Maelezo katika uthibitisho wa anwani hayafanani na wasifu wako."
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile to update your residential address. Then, verify/authenticate your account by submitting a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Tafadhali nenda kwenye wasifu wako kuboresha anwani yako ya makazi. Kisha, thibitisha/baini akaunti yako kwa kuwasilisha hati iliyo wazi na inayoeleweka, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
+
+msgctxt "KYC email title"
+msgid "Your proof of address is cropped or doesn't show complete details."
+msgstr "Uthibitisho wako wa anwani umepunguzika au hauonyeshi maelezo kamili."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati kamili, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
 
 msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address are password-protected."
@@ -11643,16 +11709,24 @@ msgid "Alternatively, you can submit a different proof of address such as a bank
 msgstr "Vinginevyo, unaweza kuwasilisha uthibitisho tofauti wa anwani kama taarifa ya benki, bili ya huduma, au kiapo, ikiwa na mahitaji yafuatayo:"
 
 msgctxt "KYC email title"
-msgid "Your proof of address is cropped or doesn't show complete details."
-msgstr "Uthibitisho wako wa anwani umepunguzika au hauonyeshi maelezo kamili."
+msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
+msgstr "Hatupokei anwani kwenye bahasha kama uthibitisho wa anwani. Hatupokei pia picha za skrini."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati kamili, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati halali, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo:"
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/baini akaunti yako. Wasilisha hati halali, kama risiti ya benki, bili ya huduma, au kiapo, huku ukihakikisha kuwa inakidhi masharti yafuatayo"
+msgctxt "KYC email title"
+msgid "Your proof of address is outdated."
+msgstr "Uthibitisho wako wa anwani umepitwa na wakati."
+
+msgctxt "KYC email title"
+msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
+msgstr "Hatupokei picha za skrini kama uthibitisho wa anwani. Hatupokei pia anwani kwenye bahasha."
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "Jina kwenye uthibitisho wa anwani halifanani na wasifu wako wa Deriv."
 
 msgctxt "KYC email layout"
 msgid "shows a residential address that matches your Deriv profile"
