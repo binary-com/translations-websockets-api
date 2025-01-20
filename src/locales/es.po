@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-01-07 12:18\n"
+"PO-Revision-Date: 2025-01-20 15:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -1377,6 +1377,9 @@ msgstr "Reversión de la tarifa para %1 ID de seguimiento%2"
 
 msgid "Rise/Fall"
 msgstr "Rise/Fall"
+
+msgid "SNOWUP and SNOWDOWN are not supported."
+msgstr "No se admiten SNOWUP y SNOWDOWN."
 
 msgid "Saved payment methods cannot be provided for buy ads. Please provide payment method names."
 msgstr "No se pueden proporcionar métodos de pago guardados para los anuncios de compra. Por favor, proporcione los nombres de los métodos de pago."
@@ -5296,6 +5299,12 @@ msgstr "Only Ups"
 msgid "Only Downs"
 msgstr "Only Downs"
 
+msgid "Snowball Down"
+msgstr "Nieve Descendente"
+
+msgid "Snowball Up"
+msgstr "Nieve Ascendente"
+
 msgid "High Tick"
 msgstr "High Tick"
 
@@ -5514,6 +5523,9 @@ msgstr "Gana si el %1 sube sucesivamente para %plural(%3, %d tick, %d ticks) des
 
 msgid "Win payout if %1 falls successively for %plural(%3,%d tick, %d ticks) after the entry spot."
 msgstr "Ganar si el %1 cae sucesivamente para %plural(%3,%d tick, %d ticks) después del punto de entrada."
+
+msgid "Win a payout if the price does not breach caution price. The payout is the sum of accrued coupons minus any commissions."
+msgstr "Gane un pago si el precio no supera el precio de advertencia. El pago es la suma de cupones acumulados menos cualquier comisión."
 
 msgid "Win payout if tick %5 of %1 is the highest among all %3 ticks."
 msgstr "Gana si el tick %5 de %1 es el más alto entre los %3 ticks."
@@ -5883,6 +5895,12 @@ msgstr "Las operaciones en Forex con una duración menor a 5 horas no están dis
 
 msgid "Minimum stake allowed is %1."
 msgstr "La inversión máxima permitida es %1."
+
+msgid "Duration %1 is not supported for Snowball trades. Accepts %2 seconds."
+msgstr "La duración %1 no es compatible con las operaciones Snowball. Acepta %2 segundos."
+
+msgid "Trade risk profile is invalid. Accepts %1."
+msgstr "El perfil de riesgo de la operación no es válido. Acepta %1."
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "Espera la liquidación del contrato. El precio final de liquidación puede diferir del precio indicativo."
@@ -7663,60 +7681,60 @@ msgid "noqodi account"
 msgstr "Cuenta noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Licencia de conducir"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Documento de Identificación Nacional provisional"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Número de Identificación Nacional"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Tarjeta Alien"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasaporte"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
+msgid "Voter ID"
+msgstr "ID de votante"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "Tarjeta PAN"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID de votante"
+msgid "Passport"
+msgstr "Pasaporte"
 
 msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Tarjeta Aadhaar"
 
 msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Licencia de conducir"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Documento de Identificación Nacional provisional"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Fideicomiso de Seguros de la Seguridad Social y Nacional (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Tarjeta Alien"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10618,6 +10636,14 @@ msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_no
 msgid "Shared payment method detected"
 msgstr "Método de pago compartido detectado"
 
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your MT5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
+msgstr "Su cuenta MT5 %1 Derivada %2 %3 %4 %5 demo %6 real %7 está lista."
+
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your login ID for the MetaTrader 5 platform is %1."
+msgstr "Su ID de inicio de sesión para la plataforma MetaTrader 5 es %1."
+
 msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your order"
 msgstr "Confirme su pedido"
@@ -10935,16 +10961,16 @@ msgid "Changing your email?"
 msgstr "¿Quiere cambiar su correo electrónico?"
 
 msgctxt "Customer.io email: dummy_request_change_email "
+msgid "To protect your account, please note that Deriv will never ask for this link. Ensure you keep it confidential and %1DO NOT SHARE THIS LINK WITH OTHERS.%2"
+msgstr "Para proteger su cuenta, tenga en cuenta que Deriv nunca le pedirá este enlace. Asegúrese de mantenerlo confidencial y %1NO COMPARTA ESTE ENLACE CON OTROS.%2"
+
+msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Press the button below to confirm that you want to change your email on Deriv:"
 msgstr "Pulse el botón inferior para confirmar que desea cambiar su dirección de correo electrónico en Deriv:"
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Change my email"
 msgstr "Cambiar mi correo electrónico"
-
-msgctxt "Customer.io email: dummy_request_change_email "
-msgid "If the button above doesn’t work, use this link:"
-msgstr "Si el botón de arriba no funciona, use este enlace:"
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "This link will expire in 60 minutes. Go to %1Manage account settings &gt; %2Email and passwords%3%4 to request a new link."
@@ -11059,36 +11085,84 @@ msgid "Payments blocked. Verify your account"
 msgstr "Pagos bloqueados. Verifique su cuenta"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your Deriv account is set + $10K demo funds ready"
+msgstr "Su cuenta de Deriv está configurada + $10.000 en fondos de demostración listos"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start trading now"
+msgstr "Empiece a operar ahora"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Thanks for choosing Deriv! We’ve added $10,000 in virtual funds to your demo account so you can start exploring the markets right away."
+msgstr "¡Gracias por elegir Deriv! Hemos agregado $10.000 en fondos virtuales a su cuenta de demostración para que pueda comenzar a explorar los mercados de inmediato."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading to:"
+msgstr "Empiece a operar en demostración para:"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Test strategies in real market conditions"
+msgstr "Probar estrategias en condiciones reales del mercado"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Learn the platform dynamics"
+msgstr "Aprender la dinámica de la plataforma"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Build your trading confidence"
+msgstr "Construya su confianza en el trading"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Trade without risking real funds"
+msgstr "Opere sin arriesgar fondos reales"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your demo account gives you the perfect environment to develop your skills before moving to real-money trading."
+msgstr "Su cuenta de demostración le brinda el entorno perfecto para desarrollar sus habilidades antes de pasar al trading con dinero real."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading"
+msgstr "Inicie el trading de demostración"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Ready for real trading instead? Start with just $5."
+msgstr "¿Listo para operar en real? Comience con solo $5."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Create real account"
+msgstr "Crear una cuenta real"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "%1Questions?%2%3Our support team is just a click away on %4Live chat%5 | %6WhatsApp%7"
+msgstr "%1¿Preguntas?%2%3Nuestro equipo de soporte está a solo un clic en %4Live chat%5 | %6WhatsApp%7"
+
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 Hola y bienvenido a Deriv"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your Deriv journey starts here!"
 msgstr "¡Su trayectoria en Deriv comienza aquí!"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Welcome to Deriv! We’re excited to have you with us."
 msgstr "¡Bienvenido a Deriv! Estamos encantados de tenerle con nosotros."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Our demo account is your playground, designed to help you unleash your trading potential without the fear of financial risk."
 msgstr "Nuestra cuenta demo es su campo de juego, diseñada para ayudarle a liberar su potencial operativo sin temor al riesgo financiero."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "It comes pre-loaded with 10,000 USD in virtual funds, so you can try trading with various strategies. Don’t worry if you run out of your virtual funds, a simple reset is all it takes to get back in the game."
 msgstr "Viene pre-cargada con 10,000 USD en fondos virtuales, para que pueda probar a operar con diversas estrategias. No se preocupe si se queda sin sus fondos virtuales, un simple reinicio es todo lo que necesita para volver a operar."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your demo account email:"
 msgstr "El correo electrónico de su cuenta demo:"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "%1Need help?%2%3%4Our comprehensive %5FAQ page%6 is always a good start. If you require further assistance, our support team is available 24/7 to help via %7live chat%8 or %9WhatsApp%10."
 msgstr "%1¿Necesita ayuda?%2%3%4Nuestra exhaustiva página de %5FAQ%6 es siempre un buen comienzo. Si necesita más ayuda, nuestro equipo de soporte está disponible 24/7, para ayudarle a través de %7live chat%8 o %9WhatsApp%10."
-
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
-msgid "The products offered on our platforms are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money."
-msgstr "Los productos ofrecidos en nuestras plataformas son productos derivados complejos que conllevan un riesgo significativo de pérdida potencial. Los CFD son instrumentos complejos con un alto riesgo de perder dinero rápidamente debido al apalancamiento. Debe considerar si entiende cómo funcionan estos productos y si puede permitirse asumir el alto riesgo de perder su dinero."
 
 msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "This email is a marketing email intended for retail and professional clients and has been issued by Deriv Investments (Europe) Limited, a company incorporated in Malta with registration number C 70156, and its registered address at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
@@ -11475,12 +11549,20 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Código de verificación: %1 es válido por 10 minutos."
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "Los nombres en su prueba de identidad y en su perfil de Deriv no coinciden."
+msgid "Your proof of identity is blurred."
+msgstr "Su prueba de identidad está borrosa."
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Diríjase a su perfil y asegúrese de que sus datos sean correctos. Luego, verifique / autentique su cuenta presentando una prueba de identidad, como un pasaporte, licencia de conducir o cédula de identidad nacional, con los siguientes requisitos:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe un documento de alta resolución, claro y legible, como el pasaporte, la licencia de conducir o el documento nacional de identidad, con los siguientes requisitos:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Su prueba de identidad no cumple con nuestros estándares de verificación."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe una prueba de identidad válida, como el pasaporte, la licencia de conducir o el documento nacional de identidad, con los siguientes requisitos:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -11493,6 +11575,42 @@ msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe una foto 
 msgctxt "KYC email subtitle"
 msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "También puede enviarlo junto con su prueba de identidad, como el pasaporte, el carné de conducir o el documento nacional de identidad, con los siguientes requisitos:"
+
+msgctxt "KYC email title"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "Los nombres en su prueba de identidad y en su perfil de Deriv no coinciden."
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Diríjase a su perfil y asegúrese de que sus datos sean correctos. Luego, verifique / autentique su cuenta presentando una prueba de identidad, como un pasaporte, licencia de conducir o cédula de identidad nacional, con los siguientes requisitos:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "A su prueba de identidad le falta una sección delantera/trasera."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe su prueba de identidad completa, como el pasaporte, el carné de conducir o el documento nacional de identidad, con los siguientes requisitos:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "Si tiene problemas para enviar ambos lados del documento a través del enlace proporcionado, puede responder a este correo electrónico adjuntando el anverso y el reverso del documento."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Su prueba de identidad está recortada."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite su perfil para verificar / autenticar su cuenta. Envíe un documento completo,así como pasaporte, licencia de conducir o cédula nacional de identidad, con los siguientes requisitos:"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "No se puede aceptar el tipo de documento que envió como prueba de identidad."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite su perfil para verificar/autenticar su cuenta. Envíe una prueba de identidad diferente, como el pasaporte, el carné de conducir o el documento nacional de identidad, con los siguientes requisitos:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is expired."
@@ -11514,50 +11632,6 @@ msgctxt "KYC email footnote"
 msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
 msgstr "Por favor, responda a este correo electrónico y adjunte su certificado de nacimiento o envíe una prueba de identidad diferente que muestre su fecha de nacimiento."
 
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "A su prueba de identidad le falta una sección delantera/trasera."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe su prueba de identidad completa, como el pasaporte, el carné de conducir o el documento nacional de identidad, con los siguientes requisitos:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "Si tiene problemas para enviar ambos lados del documento a través del enlace proporcionado, puede responder a este correo electrónico adjuntando el anverso y el reverso del documento."
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Su prueba de identidad está borrosa."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe un documento de alta resolución, claro y legible, como el pasaporte, la licencia de conducir o el documento nacional de identidad, con los siguientes requisitos:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Su prueba de identidad está recortada."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite su perfil para verificar / autenticar su cuenta. Envíe un documento completo,así como pasaporte, licencia de conducir o cédula nacional de identidad, con los siguientes requisitos:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Su prueba de identidad no cumple con nuestros estándares de verificación."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe una prueba de identidad válida, como el pasaporte, la licencia de conducir o el documento nacional de identidad, con los siguientes requisitos:"
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "No se puede aceptar el tipo de documento que envió como prueba de identidad."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite su perfil para verificar/autenticar su cuenta. Envíe una prueba de identidad diferente, como el pasaporte, el carné de conducir o el documento nacional de identidad, con los siguientes requisitos:"
-
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
 msgstr "lleva su nombre que coincide con su perfil Deriv"
@@ -11575,40 +11649,12 @@ msgid "shows your photo"
 msgstr "muestra su foto"
 
 msgctxt "KYC email title"
-msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
-msgstr "No aceptamos capturas de pantalla como pruebas de domicilio. Tampoco aceptamos direcciones en sobres."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe un documento válido, como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
-
-msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address could not be opened as they are either in an unsupported format or are corrupted."
 msgstr "Los documentos que envió como prueba de domicilio no se pudieron abrir porque están en un formato no admitido o están dañados."
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a valid document such as a bank statement, utility bill, or affidavit, in JPG, JPEG, PNG, or PDF formats, with the following requirements:"
 msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe un documento válido, como un extracto bancario, una factura de servicios públicos o una declaración jurada, en formato JPG, JPEG, PNG o PDF, con los siguientes requisitos:"
-
-msgctxt "KYC email title"
-msgid "The details in the proof of address don't match your profile."
-msgstr "Los detalles de la prueba de domicilio no coinciden con los de su perfil."
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile to update your residential address. Then, verify/authenticate your account by submitting a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Vaya a su perfil para actualizar su dirección residencial. Luego, verifique / autentique su cuenta enviando un documento claro y legible, como un extracto bancario, factura de servicios públicos o declaración jurada, con los siguientes requisitos:"
-
-msgctxt "KYC email title"
-msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
-msgstr "No aceptamos direcciones en sobres como pruebas de domicilio. Tampoco aceptamos capturas de pantalla."
-
-msgctxt "KYC email title"
-msgid "Your proof of address is blurred."
-msgstr "Su prueba de domicilio está borrosa."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Visite su perfil para verificar / autenticar su cuenta. Envíe un documento claro y legible, como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
 
 msgctxt "KYC email title"
 msgid "Your proof of address does not meet our verification standards."
@@ -11622,13 +11668,33 @@ msgctxt "KYC email subtitle"
 msgid "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
 msgstr "O puede presentar un prueba de domicilio diferente, así como una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
 
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "El nombre en la prueba de domicilio no coincide con el de su perfil de Deriv."
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
+msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe un documento válido, como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos"
 
 msgctxt "KYC email title"
-msgid "Your proof of address is outdated."
-msgstr "Su prueba de domicilio no está actualizada."
+msgid "Your proof of address is blurred."
+msgstr "Su prueba de domicilio está borrosa."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Visite su perfil para verificar / autenticar su cuenta. Envíe un documento claro y legible, como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
+
+msgctxt "KYC email title"
+msgid "The details in the proof of address don't match your profile."
+msgstr "Los detalles de la prueba de domicilio no coinciden con los de su perfil."
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile to update your residential address. Then, verify/authenticate your account by submitting a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Vaya a su perfil para actualizar su dirección residencial. Luego, verifique / autentique su cuenta enviando un documento claro y legible, como un extracto bancario, factura de servicios públicos o declaración jurada, con los siguientes requisitos:"
+
+msgctxt "KYC email title"
+msgid "Your proof of address is cropped or doesn't show complete details."
+msgstr "Su prueba de domicilio está recortada o no muestra los detalles completos."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Visite su perfil para verificar / autenticar su cuenta. Envíe un documento completo, así como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
 
 msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address are password-protected."
@@ -11643,16 +11709,24 @@ msgid "Alternatively, you can submit a different proof of address such as a bank
 msgstr "Alternativamente, puede enviar un prueba de domicilio diferente, así como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
 
 msgctxt "KYC email title"
-msgid "Your proof of address is cropped or doesn't show complete details."
-msgstr "Su prueba de domicilio está recortada o no muestra los detalles completos."
+msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
+msgstr "No aceptamos direcciones en sobres como pruebas de domicilio. Tampoco aceptamos capturas de pantalla."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "Visite su perfil para verificar / autenticar su cuenta. Envíe un documento completo, así como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe un documento válido, como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos:"
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
-msgstr "Visite su perfil para verificar/autentificar su cuenta. Envíe un documento válido, como un extracto bancario, una factura de servicios públicos o una declaración jurada, con los siguientes requisitos"
+msgctxt "KYC email title"
+msgid "Your proof of address is outdated."
+msgstr "Su prueba de domicilio no está actualizada."
+
+msgctxt "KYC email title"
+msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
+msgstr "No aceptamos capturas de pantalla como pruebas de domicilio. Tampoco aceptamos direcciones en sobres."
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "El nombre en la prueba de domicilio no coincide con el de su perfil de Deriv."
 
 msgctxt "KYC email layout"
 msgid "shows a residential address that matches your Deriv profile"
