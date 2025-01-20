@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-01-08 02:20\n"
+"PO-Revision-Date: 2025-01-20 15:51\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1377,6 +1377,9 @@ msgstr "恢復 %1 追蹤 ID %2 的費用"
 
 msgid "Rise/Fall"
 msgstr "Rise/Fall"
+
+msgid "SNOWUP and SNOWDOWN are not supported."
+msgstr "不支援 SNOWUP 和 SNOWDOWN。"
 
 msgid "Saved payment methods cannot be provided for buy ads. Please provide payment method names."
 msgstr "採購廣告不可提供儲存的付款方法。請提供付款方法名稱。"
@@ -5296,6 +5299,12 @@ msgstr "Only Ups"
 msgid "Only Downs"
 msgstr "Only Downs"
 
+msgid "Snowball Down"
+msgstr "Snowball Down"
+
+msgid "Snowball Up"
+msgstr "Snowball Up"
+
 msgid "High Tick"
 msgstr "High Tick"
 
@@ -5514,6 +5523,9 @@ msgstr "如果%1在入市現價過後一直到%plural(%3,%d 跳動點) 時持續
 
 msgid "Win payout if %1 falls successively for %plural(%3,%d tick, %d ticks) after the entry spot."
 msgstr "如果%1在入市現價過後一直到%plural(%3,%d 跳動點) 時持續下跌，將獲得賠付。"
+
+msgid "Win a payout if the price does not breach caution price. The payout is the sum of accrued coupons minus any commissions."
+msgstr "如果價格沒有突破警戒價，則可贏得賠付。賠付為累積優惠券總額減去任何佣金費。"
 
 msgid "Win payout if tick %5 of %1 is the highest among all %3 ticks."
 msgstr "如果%1的%5跳動點為所有%3跳動點的最高值，將獲得賠付。"
@@ -5883,6 +5895,12 @@ msgstr "%1到%2期間內，持續時間少於 5 小時的外匯交易暫時停�
 
 msgid "Minimum stake allowed is %1."
 msgstr "最小允許投注額是%1。"
+
+msgid "Duration %1 is not supported for Snowball trades. Accepts %2 seconds."
+msgstr "期間 %1 不支援 Snowball 交易，接受 %2 秒。"
+
+msgid "Trade risk profile is invalid. Accepts %1."
+msgstr "交易風險設定檔無效，接受 %1。"
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "正在進行合約結算，請稍等。最終結算價格可能與指示性價格有差異。"
@@ -7663,60 +7681,60 @@ msgid "noqodi account"
 msgstr "noqodi 帳戶"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "身分證"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "駕照"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "國民身份證號碼單"
+msgid "Nomor Induk Kependudukan"
+msgstr "身分證號"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "國民身份證號"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "僑民卡"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "護照"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "國民身份證"
+msgid "Voter ID"
+msgstr "選民 ID"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN 卡"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "選民 ID"
+msgid "Passport"
+msgstr "護照"
 
 msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Aadhaar 卡"
 
 msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "駕照"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "國民身份證"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "國民身份證號碼單"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "身分證"
+
+msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "社會保障和國民保險信託 (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "身分證號"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "僑民卡"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10618,6 +10636,14 @@ msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_no
 msgid "Shared payment method detected"
 msgstr "檢測到共享的付款方式"
 
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your MT5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
+msgstr "MT5 %1 Derived 資產 %2 %3 %4 %5 示範 %6 真實 %7 帳戶已準備就緒。"
+
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your login ID for the MetaTrader 5 platform is %1."
+msgstr "MetaTrader 5 平台登入 ID 是%1。"
+
 msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your order"
 msgstr "確認訂單"
@@ -10935,16 +10961,16 @@ msgid "Changing your email?"
 msgstr "更改電子郵件？"
 
 msgctxt "Customer.io email: dummy_request_change_email "
+msgid "To protect your account, please note that Deriv will never ask for this link. Ensure you keep it confidential and %1DO NOT SHARE THIS LINK WITH OTHERS.%2"
+msgstr "為了保護帳戶，請注意 Deriv 永遠不會要求您提供該連結。確保將其保密並 %1請勿與他人分享此連結。%2"
+
+msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Press the button below to confirm that you want to change your email on Deriv:"
 msgstr "按下面的按鈕確認想在 Deriv 更改電子郵件："
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Change my email"
 msgstr "更改電子郵件"
-
-msgctxt "Customer.io email: dummy_request_change_email "
-msgid "If the button above doesn’t work, use this link:"
-msgstr "如果上面的按鈕不起作用，請使用以下連結："
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "This link will expire in 60 minutes. Go to %1Manage account settings &gt; %2Email and passwords%3%4 to request a new link."
@@ -11059,36 +11085,84 @@ msgid "Payments blocked. Verify your account"
 msgstr "付款被封鎖。驗證帳戶"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your Deriv account is set + $10K demo funds ready"
+msgstr "Deriv 帳戶已設定 + $10,000 模擬資金已準備就緒"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start trading now"
+msgstr "立即開始交易"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Thanks for choosing Deriv! We’ve added $10,000 in virtual funds to your demo account so you can start exploring the markets right away."
+msgstr "感謝選擇 Deriv！已在示範帳戶新增了 $10,000 虛擬資金，可以立即開始探索市場。"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading to:"
+msgstr "開始示範交易以："
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Test strategies in real market conditions"
+msgstr "在真實市場條件下測試策略"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Learn the platform dynamics"
+msgstr "了解平台動態"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Build your trading confidence"
+msgstr "建立交易信心"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Trade without risking real funds"
+msgstr "在真實資金不承擔風險的情況下交易"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your demo account gives you the perfect environment to develop your skills before moving to real-money trading."
+msgstr "示範帳戶提供了完美的環境，以便在使用真實資金交易之前發展技能。"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading"
+msgstr "開始示範交易"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Ready for real trading instead? Start with just $5."
+msgstr "準備好要真實交易了嗎？只需 $5 即可開始。"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Create real account"
+msgstr "開立真實帳戶"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "%1Questions?%2%3Our support team is just a click away on %4Live chat%5 | %6WhatsApp%7"
+msgstr "%1有疑問嗎？%2%3支援團隊隨時按一下即可以透過 %4即時聊天%5 | %6WhatsApp%7 聯繫。"
+
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 您好，歡迎來到 Deriv"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your Deriv journey starts here!"
-msgstr "您的 Deriv之旅從這裡開始！"
+msgstr "Deriv之旅從這裡開始！"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Welcome to Deriv! We’re excited to have you with us."
 msgstr "歡迎來到 Deriv！很高興您能參與。"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Our demo account is your playground, designed to help you unleash your trading potential without the fear of financial risk."
 msgstr "示範帳戶是交易練習場，旨在幫助您開展交易潛力，而不必擔心財務風險。"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "It comes pre-loaded with 10,000 USD in virtual funds, so you can try trading with various strategies. Don’t worry if you run out of your virtual funds, a simple reset is all it takes to get back in the game."
-msgstr "它備有 10,000 USD 虛擬資金，因此您可以嘗試使用各種策略交易。 如果虛擬資金用完了，不用擔心，只需要簡單重設就可以重新開始。"
+msgstr "其備有 10,000 USD 虛擬資金，因此您可以嘗試使用各種策略交易。如果虛擬資金用完了，不用擔心，只需要簡單重設就可以重新開始。"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your demo account email:"
 msgstr "示範帳戶電子郵件："
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "%1Need help?%2%3%4Our comprehensive %5FAQ page%6 is always a good start. If you require further assistance, our support team is available 24/7 to help via %7live chat%8 or %9WhatsApp%10."
-msgstr "%1需要幫忙嗎？ %2%3%4綜合%5常見問題頁面%6可提供令您滿意的答案。 如果需要進一步的協助，可透過%7即時聊天%8或 %9WhatsApp%10 24/7 全天候聯繫支援團隊尋求協助。"
-
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
-msgid "The products offered on our platforms are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money."
-msgstr "平台提供的產品是複雜的衍生產品，可能虧損的風險很高。差價合約是複雜的工具，並且由於槓桿作用，具有快速虧損的高風險。您必須考慮自己是否了解這些產品的運作方式，以及是否有能力承擔損失資金的高風險。"
+msgstr "%1需要幫忙嗎？ %2%3%4綜合%5常見問題頁面%6可提供令您滿意的答案。如果需要進一步的協助，可透過%7即時聊天%8或 %9WhatsApp%10 24/7 全天候聯繫支援團隊尋求協助。"
 
 msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "This email is a marketing email intended for retail and professional clients and has been issued by Deriv Investments (Europe) Limited, a company incorporated in Malta with registration number C 70156, and its registered address at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
@@ -11475,12 +11549,20 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "驗證碼：%1。此碼有效期為 10 分鐘。"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "身份證明文件和 Deriv 帳戶個人檔案中的姓名不符。"
+msgid "Your proof of identity is blurred."
+msgstr "身份證明模糊不清。"
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面，並確保詳細資料準確無誤。然後，透過提交符合以下要求的身份證明，例如護照、駕駛執照或國民身份證以驗證/認證帳戶："
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求、具高分辨率、清晰易讀的文件，例如護照、駕駛執照或國民身份證："
+
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "身份證明不符合驗證標準。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的有效身份證明，例如護照、駕駛執照或國民身份證："
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -11493,6 +11575,42 @@ msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交清晰面部�
 msgctxt "KYC email subtitle"
 msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "也可以將其與符合以下要求的身份證明，例如護照、駕駛執照或國民身份證一起提交："
+
+msgctxt "KYC email title"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "身份證明文件和 Deriv 帳戶個人檔案中的姓名不符。"
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面，並確保詳細資料準確無誤。然後，透過提交符合以下要求的身份證明，例如護照、駕駛執照或國民身份證以驗證/認證帳戶："
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "身份證明缺少前/後部分。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的完整身份證明，例如護照、駕駛執照或國民身份證："
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "如果無法透過提供的連結傳送文檔的正反兩面，則可以回覆此電子郵件並以附件方式傳送文檔的正反面。"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "身份證明經過裁剪。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交符合以下要求的完整文件，例如護照、駕駛執照或國民身份證："
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "提交的身份證明文件類型無法接受。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的其他身份證明，例如護照、駕駛執照或國民身份證："
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is expired."
@@ -11514,50 +11632,6 @@ msgctxt "KYC email footnote"
 msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
 msgstr "請回覆此電子郵件，並附上出生證明或提交其他顯示出生日期的身份證明。"
 
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "身份證明缺少前/後部分。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的完整身份證明，例如護照、駕駛執照或國民身份證："
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "如果無法透過提供的連結傳送文檔的正反兩面，則可以回覆此電子郵件並以附件方式傳送文檔的正反面。"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "身份證明模糊不清。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求、具高分辨率、清晰易讀的文件，例如護照、駕駛執照或國民身份證："
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "身份證明經過裁剪。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交符合以下要求的完整文件，例如護照、駕駛執照或國民身份證："
-
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "身份證明不符合驗證標準。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的有效身份證明，例如護照、駕駛執照或國民身份證："
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "提交的身份證明文件類型無法接受。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的其他身份證明，例如護照、駕駛執照或國民身份證："
-
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
 msgstr "具與 Deriv 個人檔案相符的名字"
@@ -11575,40 +11649,12 @@ msgid "shows your photo"
 msgstr "顯示照片"
 
 msgctxt "KYC email title"
-msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
-msgstr "不接受螢幕擷取畫面作為地址證明。也不接受信封上的地址。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交符合以下要求的有效文件，例如銀行月結單、水電煤費帳單或宣誓書："
-
-msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address could not be opened as they are either in an unsupported format or are corrupted."
 msgstr "提交的地址證明文件格式不受支援或已損壞，因此無法打開。"
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a valid document such as a bank statement, utility bill, or affidavit, in JPG, JPEG, PNG, or PDF formats, with the following requirements:"
 msgstr "請前往個人檔案頁面以驗證/認證帳戶。以 JPG、JPEG、PNG 或 PDF 格式提交具有以下要求的有效文檔，例如銀行月結單、水電煤費帳單或宣誓書："
-
-msgctxt "KYC email title"
-msgid "The details in the proof of address don't match your profile."
-msgstr "地址證明中的詳細資訊與個人檔案不符合。"
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile to update your residential address. Then, verify/authenticate your account by submitting a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "請前往個人檔案頁面以更新居住地址。然後，提交具有以下要求的、清晰易讀的文件，例如銀行月結單，水電煤費帳單或宣誓書，以驗證/認證帳戶："
-
-msgctxt "KYC email title"
-msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
-msgstr "不接受信封上的地址作為地址證明。也不接受螢幕擷取畫面。"
-
-msgctxt "KYC email title"
-msgid "Your proof of address is blurred."
-msgstr "地址證明模糊不清。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求、清晰可讀的文件，例如銀行月結單，水電煤費帳單或宣誓書："
 
 msgctxt "KYC email title"
 msgid "Your proof of address does not meet our verification standards."
@@ -11622,13 +11668,33 @@ msgctxt "KYC email subtitle"
 msgid "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
 msgstr "或者，可以提交具有以下要求的其他地址證明，例如水電煤費帳單或宣誓書："
 
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "地址證明上的姓名與 Deriv 帳戶個人檔案不符合。"
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交符合以下要求的有效文件，例如銀行月結單、水電煤費帳單或宣誓書"
 
 msgctxt "KYC email title"
-msgid "Your proof of address is outdated."
-msgstr "地址證明已過期。"
+msgid "Your proof of address is blurred."
+msgstr "地址證明模糊不清。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求、清晰可讀的文件，例如銀行月結單，水電煤費帳單或宣誓書："
+
+msgctxt "KYC email title"
+msgid "The details in the proof of address don't match your profile."
+msgstr "地址證明中的詳細資訊與個人檔案不符合。"
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile to update your residential address. Then, verify/authenticate your account by submitting a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "請前往個人檔案頁面以更新居住地址。然後，提交具有以下要求的、清晰易讀的文件，例如銀行月結單，水電煤費帳單或宣誓書，以驗證/認證帳戶："
+
+msgctxt "KYC email title"
+msgid "Your proof of address is cropped or doesn't show complete details."
+msgstr "地址證明被裁剪或沒有顯示完整的詳細資料。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的完整文件，例如銀行月結單、水電煤費帳單或宣誓書："
 
 msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address are password-protected."
@@ -11643,16 +11709,24 @@ msgid "Alternatively, you can submit a different proof of address such as a bank
 msgstr "另外一個方法就是，可以提交具有以下要求的其他地址證明，例如銀行月結單，水電煤帳單或宣誓書："
 
 msgctxt "KYC email title"
-msgid "Your proof of address is cropped or doesn't show complete details."
-msgstr "地址證明被裁剪或沒有顯示完整的詳細資料。"
+msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
+msgstr "不接受信封上的地址作為地址證明。也不接受螢幕擷取畫面。"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的完整文件，例如銀行月結單、水電煤費帳單或宣誓書："
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交符合以下要求的有效文件，例如銀行月結單、水電煤費帳單或宣誓書："
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交符合以下要求的有效文件，例如銀行月結單、水電煤費帳單或宣誓書"
+msgctxt "KYC email title"
+msgid "Your proof of address is outdated."
+msgstr "地址證明已過期。"
+
+msgctxt "KYC email title"
+msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
+msgstr "不接受螢幕擷取畫面作為地址證明。也不接受信封上的地址。"
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "地址證明上的姓名與 Deriv 帳戶個人檔案不符合。"
 
 msgctxt "KYC email layout"
 msgid "shows a residential address that matches your Deriv profile"
