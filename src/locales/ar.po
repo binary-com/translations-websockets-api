@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-01-09 09:29\n"
+"PO-Revision-Date: 2025-01-20 15:51\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -509,7 +509,7 @@ msgid "Failed to create account due to failed Proof of Address with status: %1"
 msgstr "تعذر إنشاء الحساب بسبب فشل إثبات العنوان مع الحالة: %1"
 
 msgid "Failed to get SmileID service callback"
-msgstr "فشل في الحصول على رد الخدمة لـ SmileID"
+msgstr "تعذر الحصول على رد من خدمة SmileID"
 
 msgid "Failed to get SmileID service token"
 msgstr "فشل في الحصول على رمز الخدمة لـ SmileID"
@@ -1370,13 +1370,16 @@ msgid "Resident Self Declaration required for country."
 msgstr "الإقرار الذاتي مطلوب للمقيمين في البلد."
 
 msgid "Reversal of %1 trace ID %2"
-msgstr "عكس %1 معرّف التتبع %2"
+msgstr "إرجاع بمقدار %1 من معرّف التتبع %2"
 
 msgid "Reversal of fee for %1 trace ID %2"
-msgstr "عكس رسوم %1 معرف التتبع %2"
+msgstr "إرجاع الرسوم بمقدار %1 بمعرّف التتبع %2"
 
 msgid "Rise/Fall"
 msgstr "Rise/Fall"
+
+msgid "SNOWUP and SNOWDOWN are not supported."
+msgstr "SNOWUP و SNOWDOWN غير مدعومين."
 
 msgid "Saved payment methods cannot be provided for buy ads. Please provide payment method names."
 msgstr "لا يمكن استخدام طرق الدفع المحفوظة لشراء الإعلانات. يرجى تقديم أسماء طرق الدفع."
@@ -1898,25 +1901,25 @@ msgid "The verification status is not available, provider says: Provider Unavail
 msgstr "حالة التحقق غير متاحة، وفقًا المزود: المزود غير متاح."
 
 msgid "The verification status is not available, provider says: Timeout."
-msgstr "حالة التحقق غير متوفرة ، يقول المزود: المهلة."
+msgstr "حالة التحقق غير متوفرة، وفقًا للمزود: انتهت المهلة."
 
 msgid "The verification status is not available, provider says: Undesired HTTP code."
-msgstr "حالة التحقق غير متوفرة ، يقول المزود: رمز HTTP غير مرغوب فيه."
+msgstr "حالة التحقق غير متاحة، وفقًا للمزود: رمز HTTP غير مقبول."
 
 msgid "The verification status is not available, provider says: Unexpected Error."
-msgstr "حالة التحقق غير متوفرة ، يقول المزود: خطأ غير متوقع."
+msgstr "حالة التحقق غير متاحة، وفقًا للمزود: خطأ غير متوقع."
 
 msgid "The verification status was empty, rejected for lack of information."
-msgstr "حالة التحقق فارغة ، ورفضت لنقص المعلومات."
+msgstr "حالة التحقق فارغة، وتم رفضها بسبب نقص المعلومات."
 
 msgid "There are no items during this period"
 msgstr "لا توجد عناصر خلال هذه الفترة"
 
 msgid "There are no items here."
-msgstr "لا توجد عناصر هنا."
+msgstr "لا يوجد عناصر هنا."
 
 msgid "There is no open contract for the client!"
-msgstr "لا يوجد عقد مفتوح للعميل!"
+msgstr "لا يوجد أي عقد مفتوح للعميل!"
 
 msgid "There is no sold contract during this period!"
 msgstr "لا يوجد عقد بيع خلال هذه الفترة!"
@@ -1925,7 +1928,7 @@ msgid "There was a problem in placing this order. %1"
 msgstr "كانت هناك مشكلة في تقديم هذا الطلب. %1"
 
 msgid "There was a problem in upgrading your limit. Please try again later or contact our Customer Support team for more information."
-msgstr "حدثت مشكلة في ترقية الحد الخاص بك. يرجى إعادة المحاولة لاحقا أو الاتصال بفريق دعم العملاء للحصول على مزيد من المعلومات."
+msgstr "حدثت مشكلة في ترقية الحد الخاص بك. يرجى إعادة المحاولة لاحقا أو التواصل مع فريق دعم العملاء للحصول على مزيد من المعلومات."
 
 msgid "There was a problem validating your personal details."
 msgstr "حدثت مشكلة في التحقق من صحة بياناتك الشخصية."
@@ -1949,10 +1952,10 @@ msgid "This %1 account is not available for your account."
 msgstr "هذا %1 الحساب غير متاح لحسابك."
 
 msgid "This API is deprecated."
-msgstr "تم إلغاء واجهة برمجة التطبيقات هذه."
+msgstr "تم إلغاء واجهة برمجة التطبيقات (API) هذه."
 
 msgid "This MT5 account has an invalid Landing Company."
-msgstr "يحتوي حساب MT5 هذا على شركة غير صالحة."
+msgstr "يحتوي حساب MT5 هذا على شركة مقصودة غير صالحة."
 
 msgid "This account does not allow MT5 trading. Please log in to the correct account."
 msgstr "هذا الحساب لا يسمح بتداول MT5. يرجى تسجيل الدخول إلى الحساب الصحيح."
@@ -1985,7 +1988,7 @@ msgid "This amount is too low. Please enter a minimum of %2 %1."
 msgstr "هذا المبلغ منخفض جدا. الرجاء إدخال %2 %1 كحد أدنى."
 
 msgid "This contract cannot be properly validated at this time."
-msgstr "ولا يمكن التصديق على هذا العقد بشكل سليم حاليا."
+msgstr "لا يمكن التصديق على هذا العقد بشكل سليم حاليا."
 
 msgid "This contract cannot be updated once you've made your purchase. This feature is not available for this contract type."
 msgstr "لا يمكن تحديث هذا العقد بمجرد إجراء عملية الشراء. لا تتوفر هذه الميزة لهذا النوع من العقود."
@@ -1994,7 +1997,7 @@ msgid "This contract is currently unavailable due to market conditions"
 msgstr "هذا العقد غير متوفر حاليا بسبب ظروف السوق"
 
 msgid "This contract is limited to %1 payout on this account."
-msgstr "يقتصر هذا العقد على دفع تعويضات بنسبة %1 على هذا الحساب."
+msgstr "يقتصر هذا العقد على دفع عائد بنسبة %1 على هذا الحساب."
 
 msgid "This contract is unavailable on this account."
 msgstr "هذا العقد غير متوفر على هذا الحساب."
@@ -2003,7 +2006,7 @@ msgid "This contract was not found among your open positions."
 msgstr "لم يتم العثور على هذا العقد بين مراكزك المفتوحة."
 
 msgid "This contract's price is %2 %1. Contracts purchased from %3 must have a purchase price above %4 %1. Please accordingly increase the contract amount to meet this minimum stake."
-msgstr "سعر هذا العقد هو %2 %1. يجب أن يكون للعقود المشتراة من %3 سعر شراء أعلى من %4 %1. يرجى وفقا لذلك زيادة مبلغ العقد لتلبية هذا الحد الأدنى من الحصة."
+msgstr "سعر هذا العقد هو %2 %1. يجب أن يكون للعقود المشتراة من %3 سعر شراء أعلى من %4 %1. يرجى وفقا لذلك زيادة مبلغ العقد لتلبية هذا الحد الأدنى من مبلغ الاستثمار."
 
 msgid "This currency is not available."
 msgstr "هذه العملة غير متوفرة."
@@ -2042,7 +2045,7 @@ msgid "This feature is only available for accounts with crypto as currency."
 msgstr "هذه الميزة متاحة فقط للحسابات ذات العملات المشفرة."
 
 msgid "This feature is only available for wallet accounts."
-msgstr "هذه الميزة متاحة فقط لحسابات المحفظة."
+msgstr "هذه الميزة متاحة فقط للحسابات المرتبطة بالمحفظة."
 
 msgid "This feature is suspended for system maintenance. Please try later."
 msgstr "تم تعليق هذه الميزة لصيانة النظام. يرجى المحاولة لاحقا."
@@ -2057,10 +2060,10 @@ msgid "This field must contain at least one alphabetic character."
 msgstr "يجب أن يحتوي هذا الحقل على حرف أبجدي واحد على الأقل."
 
 msgid "This is a virtual-money account. Please switch to a real-money account to access cashier."
-msgstr "هذا حساب افتراضي. يرجى التبديل إلى حساب نقود حقيقية للوصول إلى الصندوق."
+msgstr "هذا حساب افتراضي. يرجى التبديل إلى حساب حقيقي للوصول إلى الكاشير."
 
 msgid "This market is presently closed."
-msgstr "هذه السوق مغلقة حاليا."
+msgstr "هذا السوق مغلق حاليا."
 
 msgid "This may take up to 2 minutes. During this time, you will not be able to deposit, withdraw, transfer, and add new accounts."
 msgstr "قد يستغرق ذلك ما يصل إلى دقيقتين. خلال هذا الوقت، لن تتمكن من الإيداع والسحب والتحويل وإضافة حسابات جديدة."
@@ -2087,25 +2090,25 @@ msgid "This order has expired and cannot be changed."
 msgstr "انتهت صلاحية هذا الطلب ولا يمكن تغييره."
 
 msgid "This order is complete and can no longer be disputed."
-msgstr "هذا الطلب مكتمل ولم يعد من الممكن الطعن فيه."
+msgstr "هذا الطلب مكتمل ولا يمكن الاعتراض عليه بعد الآن."
 
 msgid "This order is under dispute."
-msgstr "هذا الطلب محل نزاع."
+msgstr "هذا الطلب قيد النزاع."
 
 msgid "This payment method is in use by multiple ads and/or orders, and cannot be deleted or deactivated."
-msgstr "وتستخدم طريقة الدفع هذه بإعلانات و/أو أوامر متعددة، ولا يمكن حذفها أو تعطيلها."
+msgstr "يتم استخدام طريقة الدفع هذه بإعلانات و/أو طلبات متعددة، ولا يمكن حذفها أو تعطيلها."
 
 msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
-msgstr "طريقة الدفع هذه قيد الاستخدام حسب الطلب (الطلبات) التالي: %1. يرجى الانتظار حتى يكتمل."
+msgstr "طريقة الدفع هذه مستخدمة في الطلب/الطلبات التالية: %1. يرجى الانتظار حتى تكتمل."
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "هذا السبب لا ينطبق على حالتك الرجاء اختيار سبب آخر."
 
 msgid "This request must be made using a connection authorized by the Deriv account involved in the transfer."
-msgstr "يجب تقديم هذا الطلب باستخدام اتصال مصرح به من قبل حساب Deriv المضمن في التحويل."
+msgstr "يجب تقديم هذا الطلب باستخدام اتصال مصرح به من حساب Deriv المعني بالتحويل."
 
 msgid "This resource cannot be accessed by this account type."
-msgstr "لا يمكن الوصول إلى هذا المورد بواسطة نوع الحساب هذا."
+msgstr "هذا المورد غير متاح لنوع الحساب الحالي."
 
 msgid "This service is currently unavailable. Please try again later."
 msgstr "هذه الخدمة غير متوفرة حاليا. يرجى إعادة المحاولة لاحقا."
@@ -2120,34 +2123,34 @@ msgid "This transaction cannot be done because your %1 account has zero balance.
 msgstr "لا يمكن إجراء هذه المعاملة لأن حسابك %1 يحتوي على صفر من الرصيد."
 
 msgid "This verification method is currently unavailable."
-msgstr "طريقة إثبات الملكية هذه غير متوفرة حاليا."
+msgstr "طريقة التحقق هذه غير متوفرة حاليًا."
 
 msgid "Timeout time cannot be more than 6 weeks."
-msgstr "لا يمكن أن تكون المهلة أكثر من 6 أسابيع."
+msgstr "لا يمكن أن تزيد المهلة عن 6 أسابيع."
 
 msgid "Timeout time must be greater than current time."
-msgstr "يجب أن يكون وقت المهلة أطول من الوقت الحالي."
+msgstr "يجب أن يكون وقت المهلة اكبر من الوقت الحالي."
 
 msgid "To change your %1 password, please use the %2 API."
 msgstr "لتغيير كلمة السر %1، يرجى استخدام %2 واجهة مبرمج التطبيقات."
 
 msgid "To continue withdrawals, please select the same payment method you used to deposit."
-msgstr "لمتابعة عمليات السحب ، يرجى تحديد نفس طريقة الدفع التي استخدمتها للإيداع."
+msgstr "لمتابعة عمليات السحب، يرجى تحديد نفس طريقة الدفع التي استخدمتها للإيداع."
 
 msgid "To keep your account secure, this link will expire in %3 minutes. If the link expires before you have a chance to use it, you can request another one by clicking the 'Manage investor account password' button on the %1Deriv MT5 dashboard%2."
-msgstr "لضمان أمان حسابك، ستنتهي صلاحية هذا الرابط في غضون %3 دقائق. إذا انتهت صلاحية الرابط قبل أن تتاح لك فرصة استخدامه ، فيمكنك طلب رابط آخر بالنقر على زر 'ضبط كلمة مرور حساب المستثمر' فوق %1لوحة Deriv MT5 للتحكم%2."
+msgstr "للحفاظ على أمان حسابك، ستنتهي صلاحية هذا الرابط خلال %3 دقيقة. إذا انتهت صلاحية الرابط قبل أن تتمكن من استخدامه، يمكنك طلب رابط جديد بالنقر على زر \"إدارة كلمة مرور حساب المستثمر\" على %1لوحة تحكم Deriv MT5%2."
 
 msgid "To keep your account secure, this link will expire in %3 minutes. If the link expires before you have a chance to use it, you can request another one in %1your account settings%2."
-msgstr "للحفاظ على أمان حسابك، ستنتهي صلاحية هذا الرابط في غضون %3 دقائق. إذا انتهت صلاحية الرابط قبل أن تتاح لك فرصة استخدامه، يمكنك طلب رابط آخر في %1إعدادات حسابك%2."
+msgstr "للحفاظ على أمان حسابك، ستنتهي صلاحية هذا الرابط في غضون %3 دقائق. إذا انتهت صلاحية الرابط قبل أن تتاح لك فرصة استخدامه، يمكنك طلب رابط آخر من %1إعدادات حسابك%2."
 
 msgid "To reset your %1 password, please use the %2 API."
-msgstr "لإعادة ضبط كلمة المرور %1 الخاصة بك، يرجى استخدام %2 واجهة مبرمج التطبيقات."
+msgstr "لإعادة ضبط كلمة المرور %1 الخاصة بك، يرجى استخدام %2 واجهة مبرمج التطبيقات (API)."
 
 msgid "To unlock the cashier, please follow these steps:"
-msgstr "لفتح الصندوق، يرجى اتباع الخطوات التالية:"
+msgstr "لإزالة القفل عن الكاشير، يرجى اتباع الخطوات التالية:"
 
 msgid "To unlock the cashier, please reply to this email and attach any of the following:"
-msgstr "لفتح الصندوق ، يرجى الرد على هذا البريد الإلكتروني وإرفاق أي مما يلي:"
+msgstr "لإزالة القفل عن الكاشير، يرجى الرد على هذا البريد الإلكتروني وإرفاق أي مما يلي:"
 
 msgid "Token generation failed. Please try later."
 msgstr "فشل إنشاء الرمز المميز. يرجى المحاولة لاحقا."
@@ -2162,16 +2165,16 @@ msgid "Token is not valid for current user."
 msgstr "الرمز المميز غير صالح للمستخدم الحالي."
 
 msgid "Too many attempts, please wait for one hour before trying again."
-msgstr "محاولات كثيرة جدًا، يُرجى الانتظار لمدة ساعة واحدة قبل المحاولة مرة أخرى."
+msgstr "تم تجاوز عدد المحاولات المسموح بها، يُرجى المحاولة مجددًا بعد ساعة."
 
 msgid "Trade"
 msgstr "التداول"
 
 msgid "Trader and copier must have the same landing company."
-msgstr "يجب أن يكون لدى المتداول والناسخ نفس الشركة."
+msgstr "يجب أن يكون لدى المتداول والناسخ نفس الشركة المقصودة."
 
 msgid "Trader does not allow copy trading."
-msgstr "لا يسمح المتداول بنسخ التداول."
+msgstr "هذا المتداول لا يدعم خاصية نسخ التداول."
 
 msgid "Traders are not allowed to copy trades."
 msgstr "لا يسمح للمتداولين بنسخ الصفقات."
@@ -2183,7 +2186,7 @@ msgid "Trading is unavailable until further notice due to an unexpected error. W
 msgstr "التداول غير متاح حتى إشعار آخر بسبب خطأ غير متوقع. نحن نعمل بجد لحل هذه المشكلة. يرجى إعادة المحاولة لاحقا."
 
 msgid "Trading multiplier options on %1 is disabled. Please choose another market."
-msgstr "تم تعطيل تداول خيارات المضاعف على %1. يرجى اختيار سوق أخرى."
+msgstr "تم تعطيل تداول خيارات الـ Multiplier على %1. يرجى اختيار سوق أخرى."
 
 msgid "Transfer between real and virtual accounts is not allowed."
 msgstr "لا يسمح بالتحويل بين الحسابات الحقيقية والافتراضية."
@@ -2195,13 +2198,13 @@ msgid "Transfer between two MT5 accounts is not allowed."
 msgstr "لا يسمح بالتحويل بين حسابي MT5."
 
 msgid "Transfer between wallet accounts is not allowed."
-msgstr "لا يسمح بالتحويل بين حسابات المحفظة."
+msgstr "لا يسمح بالتحويل بين حسابات المحفظة (Wallet)."
 
 msgid "Transfer from Deriv X account %1"
 msgstr "التحويل من حساب Deriv X %1"
 
 msgid "Transfer from Deriv X account %1. %2."
-msgstr "التحويل من حسابDeriv X الخاص بك %1. %2."
+msgstr "التحويل من حساب Deriv X الخاص بك %1. %2."
 
 msgid "Transfer from MT5 account MTR%1"
 msgstr "التحويل من حساب MT5 MTR%1"
@@ -2240,7 +2243,7 @@ msgid "Transfers between %1 and %2 are currently unavailable. Please try again l
 msgstr "التحويلات بين %1 و%2 غير متوفرة حاليا. يرجى إعادة المحاولة لاحقا."
 
 msgid "Transfers between EU and non-EU accounts aren't allowed. You can only transfer funds between accounts under the same regulator."
-msgstr "لا يُسمح بالتحويلات بين حسابات الاتحاد الأوروبي وحسابات خارج الاتحاد الأوروبي. يمكنك فقط تحويل الأموال بين الحسابات الخاضعة لنفس الجهة المنظمة."
+msgstr "لا يُسمح بالتحويلات بين حسابات الاتحاد الأوروبي والحسابات خارج الاتحاد الأوروبي. يمكنك فقط تحويل الأموال بين الحسابات الخاضعة لنفس الجهة المنظمة."
 
 msgid "Transfers between accounts are currently unavailable. Please try again later."
 msgstr "التحويلات بين الحسابات غير متوفرة حاليا. يرجى إعادة المحاولة لاحقا."
@@ -2249,16 +2252,16 @@ msgid "Transfers between accounts are not available for your account."
 msgstr "التحويلات بين الحسابات غير متاحة لحسابك."
 
 msgid "Transfers between fiat and crypto accounts are currently unavailable. Please try again later."
-msgstr "التحويلات بين حسابات العملات المحلية المعتمدة والعملات المشفرة غير متوفرة حاليا. يرجى إعادة المحاولة لاحقا."
+msgstr "التحويلات بين الحسابات بالعملات الورقية والعملات المشفرة غير متاح حاليًا. يُرجى المحاولة مرة أخرى لاحقًا."
 
 msgid "Transfers between these accounts are temporarily unavailable. Please try later."
-msgstr "التحويلات بين هذه الحسابات غير متاحة مؤقتا. يرجى المحاولة لاحقا."
+msgstr "التحويلات بين هذه الحسابات غير متاح مؤقتا. يرجى المحاولة لاحقا."
 
 msgid "Transfers have been blocked on this account."
 msgstr "تم حظر التحويلات على هذا الحساب."
 
 msgid "Typical processing time is %1 to %2 business days."
-msgstr "وقت المعالجة النموذجي هو %1 إلى %2 أيام عمل."
+msgstr "الوقت المتوقع للمعالجة هو من %1 إلى %2 أيام عمل."
 
 msgid "URL should not have fragment"
 msgstr "يجب ألا يحتوي عنوان URL على تجزئة"
@@ -2270,10 +2273,10 @@ msgid "URL should not have user info"
 msgstr "يجب ألا يحتوي عنوان URL على معلومات المستخدم"
 
 msgid "Unable to update email, password required for social login."
-msgstr "غير قادر على تحديث البريد الإلكتروني ، كلمة المرور المطلوبة لتسجيل الدخول على وسائل التواصل الاجتماعي."
+msgstr "غير قادر على تحديث البريد الإلكتروني، كلمة المرور مطلوبة لتسجيل الدخول عبر وسائل التواصل الاجتماعي."
 
 msgid "Unfortunately your answers to the questions above indicate that you do not have sufficient financial resources or trading experience to be eligible to open a trading account at this time."
-msgstr "لسوء الحظ ، تشير إجاباتك على الأسئلة أعلاه إلى أنه ليس لديك موارد مالية كافية أو خبرة تداول كافية لتكون مؤهلاً لفتح حساب تداول في الوقت الحالي."
+msgstr "للأسف، تشير إجاباتك على الأسئلة أعلاه إلى أنك لا تملك موارد مالية كافية أو خبرة في التداول لتكون مؤهلاً لفتح حساب تداول في الوقت الحالي."
 
 msgid "Unicode is not allowed in URL"
 msgstr "الترميز الموحد غير مسموح به في عنوان URL"
@@ -2288,7 +2291,7 @@ msgid "Unknown country code."
 msgstr "رمز البلد غير معروف."
 
 msgid "Unknown landing company."
-msgstr "شركة مقرضة غير معروفة."
+msgstr "الشركة المقصودة غير معروفة."
 
 msgid "Unsuccessful %1 password change"
 msgstr "تغيير كلمة مرور %1 غير ناجحة"
@@ -2315,7 +2318,7 @@ msgid "User is already email verified."
 msgstr "تم التحقق من البريد الإلكتروني للمستخدم بالفعل."
 
 msgid "Valid array was expected."
-msgstr "صفيف صالح متوقع."
+msgstr "توقع وجود مصفوفة صالحة."
 
 msgid "Value of date of birth is below the minimum age required."
 msgstr "تاريخ الميلاد أقل من الحد الأدنى للسن المطلوب."
@@ -2324,7 +2327,7 @@ msgid "Verification Code"
 msgstr "رمز التحقق"
 
 msgid "Verification URI not configured for App ID: %1. Contact the app owner or contact Deriv via live chat for help."
-msgstr "لم يتم تكوين URI للتحقق لـ معرف التطبيق: %1. اتصل بمالك التطبيق أو اتصل بـ Deriv عبر الدردشة المباشرة للحصول على المساعدة."
+msgstr "لم يتم تكوين URI التحقق لرقم تعريف التطبيق: %1. يرجى التواصل مع مالك التطبيق أو التواصل مع Deriv عبر الدردشة المباشرة للحصول على المساعدة."
 
 msgid "Verify your email"
 msgstr "تحقق من بريدك الإلكتروني"
@@ -2339,31 +2342,31 @@ msgid "Virtual money credit to account"
 msgstr "إيداع الأموال الافتراضية في الحساب"
 
 msgid "Wallet account creation is currently suspended."
-msgstr "تم تعليق إنشاء حساب المحفظة حاليا."
+msgstr "تم تعليق إنشاء حساب المحفظة (Wallet) حاليا."
 
 msgid "Wallet migration is already finished."
-msgstr "تم الانتهاء من ترحيل المحفظة بالفعل."
+msgstr "تم الانتهاء من عملية ترحيل المحفظة (Wallet) بالفعل."
 
 msgid "Wallet migration is already in progress."
-msgstr "ترحيل المحفظة قيد التقدم بالفعل."
+msgstr "ترحيل المحفظة (Wallet) قيد التنفيذ بالفعل."
 
 msgid "Wallet migration is not available."
-msgstr "ترحيل المحفظة غير متاح."
+msgstr "ترحيل المحفظة (Wallet) غير متاح."
 
 msgid "Want to start trading on Deriv again?"
 msgstr "هل تريد بدء التداول على Deriv مرة أخرى؟"
 
 msgid "We are completing your request. Please give us a few more seconds."
-msgstr "نحن نستكمل طلبك. من فضلك أمهلنا بضع ثوان أخرى."
+msgstr "نحن نعمل على إتمام طلبك. يرجى الانتظار بضع ثوان أخرى."
 
 msgid "We are processing your top-up request. Please wait for your virtual funds to be credited."
-msgstr "نحن نقوم بمعالجة طلب الضخ الخاص بك. يرجى الانتظار حتى يتم إيداع أموالك الافتراضية."
+msgstr "نحن نقوم بمعالجة طلب إعادة الشحن الخاص بك. يرجى الانتظار حتى يتم إضافة الأموال الافتراضية إلى حسابك."
 
 msgid "We are retrieving your MT5 details. Please give us a few more seconds."
-msgstr "نحن نسترجع تفاصيل MT5 الخاصة بك. من فضلك أمهلنا بضع ثوان أخرى."
+msgstr "نحن نعمل على استرداد تفاصيل حساب MT5 الخاص بك. نرجو الانتظار لبضع لحظات."
 
 msgid "We are still processing your transfer. Please try again later"
-msgstr "ما زلنا نعالج تحويلك. يرجى إعادة المحاولة لاحقًا"
+msgstr "ما زلنا نعمل على معالجة تحويلك. يرجى المحاولة مرة أخرى لاحقًا"
 
 msgid "We are unable to do that because your account has been restricted. If you need help, let us know."
 msgstr "لا يمكننا القيام بذلك لأنه تم تقييد حسابك. إذا كنت بحاجة إلى مساعدة ، فأخبرنا بذلك."
@@ -5296,6 +5299,12 @@ msgstr "Only Ups"
 msgid "Only Downs"
 msgstr "Only Downs"
 
+msgid "Snowball Down"
+msgstr "كرة الثلج لأسفل"
+
+msgid "Snowball Up"
+msgstr "كرة الثلج لأعلى"
+
 msgid "High Tick"
 msgstr "حركة لحظية (tick) عالية"
 
@@ -5514,6 +5523,9 @@ msgstr "حقق أرباحا إذا ارتفع %1 على التوالي الى %�
 
 msgid "Win payout if %1 falls successively for %plural(%3,%d tick, %d ticks) after the entry spot."
 msgstr "حقق عائدا إذا انخفض %1 على التوالي ل %الجمع (%3 ،%d علامة ،%d علامة) بعد نقطة الدخول."
+
+msgid "Win a payout if the price does not breach caution price. The payout is the sum of accrued coupons minus any commissions."
+msgstr "ربح عائد إذا لم تتجاوز السعر الاحتياطي. العائد هو مجموع القسائم المتراكمة ناقص أي عمولات."
 
 msgid "Win payout if tick %5 of %1 is the highest among all %3 ticks."
 msgstr "اربح عائدا إذا كانت العلامة %5 من %1 هي الأعلى بين جميع علامات %3."
@@ -5883,6 +5895,12 @@ msgstr "التداول على عقود العملات الأجنبية التي 
 
 msgid "Minimum stake allowed is %1."
 msgstr "الحد الأقصى للحصة المسموح بها هو %1."
+
+msgid "Duration %1 is not supported for Snowball trades. Accepts %2 seconds."
+msgstr "المدة %1 غير مدعومة لتداولات كرة الثلج. تقبل %2 ثانية."
+
+msgid "Trade risk profile is invalid. Accepts %1."
+msgstr "ملف تعريف خطر التداول غير صحيح. يقبل %1."
 
 msgid "Please wait for contract settlement. The final settlement price may differ from the indicative price."
 msgstr "يرجى الانتظار لتسوية العقد. قد يختلف سعر التسوية النهائي عن السعر الإرشادي."
@@ -7663,60 +7681,60 @@ msgid "noqodi account"
 msgstr "حساب نقودي"
 
 msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "رقم الهوية الوطنية"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "بطاقة الهوية الوطنية"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "جواز سفر"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "بطاقة Alien"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "بطاقة بان"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "رخص قيادة"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "هوية الناخب"
 
 msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "بطاقة بان"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "جواز سفر"
+
+msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "بطاقة أدهار"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "بطاقة الهوية"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Drivers License"
+msgstr "رخص قيادة"
 
 msgctxt "IDV document type "
 msgid "CPF"
 msgstr "سي بي إف"
 
 msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "صندوق الضمان الاجتماعي والتأمين الوطني (SSNIT)"
+msgid "Documento Nacional de Identidad"
+msgstr "بطاقة الهوية الوطنية"
 
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "قسيمة رقم الهوية الوطنية"
 
 msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "بطاقة الهوية"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "صندوق الضمان الاجتماعي والتأمين الوطني (SSNIT)"
+
+msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "بطاقة Alien"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -10619,6 +10637,14 @@ msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_no
 msgid "Shared payment method detected"
 msgstr "تم اكتشاف طريقة دفع مشتركة"
 
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your MT5 %1 Derived %2 %3 %4 %5 demo %6 real %7 account is ready."
+msgstr "حساب MT5 الخاص بك %1 من نوع Derived ب%2 %3 %4 %5 التجريبي %6 الحقيقي %7 جاهز."
+
+msgctxt "Customer.io email: dummy_mt5_demo_signup "
+msgid "Your login ID for the MetaTrader 5 platform is %1."
+msgstr "معرف تسجيل الدخول الخاص بك لمنصة MetaTrader 5 هو %1."
+
 msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "Confirm your order"
 msgstr "قم بتأكيد طلبك"
@@ -10933,7 +10959,11 @@ msgstr "للحصول على معلومات الشركة المتعلقة بإر�
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Changing your email?"
-msgstr "تغيير بريدك الإلكتروني؟"
+msgstr "هل ترغب في تغيير بريدك الإلكتروني؟"
+
+msgctxt "Customer.io email: dummy_request_change_email "
+msgid "To protect your account, please note that Deriv will never ask for this link. Ensure you keep it confidential and %1DO NOT SHARE THIS LINK WITH OTHERS.%2"
+msgstr "لحماية حسابك، يرجى ملاحظة أن Deriv لن تطلب منك هذا الرابط. تأكد من الاحتفاظ به سريًا و %1لا تشارك هذا الرابط مع الآخرين.%2"
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Press the button below to confirm that you want to change your email on Deriv:"
@@ -10942,10 +10972,6 @@ msgstr "اضغط على الزر أدناه لتأكيد رغبتك في تغي�
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Change my email"
 msgstr "تغيير بريدي الإلكتروني"
-
-msgctxt "Customer.io email: dummy_request_change_email "
-msgid "If the button above doesn’t work, use this link:"
-msgstr "إذا لم يعمل الزر أعلاه، استخدم هذا الرابط:"
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "This link will expire in 60 minutes. Go to %1Manage account settings &gt; %2Email and passwords%3%4 to request a new link."
@@ -10957,7 +10983,7 @@ msgstr "إذا لم تقدم هذا الطلب، تجاهل هذه الرسال�
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "Email change? Please confirm"
-msgstr "تغيير البريد الإلكتروني؟ يرجى التأكيد"
+msgstr "هل ترغب في تغيير البريد الإلكتروني؟ يرجى التأكيد"
 
 msgctxt "Customer.io email: dummy_verify_change_email "
 msgid "One last step to change your email"
@@ -11060,36 +11086,84 @@ msgid "Payments blocked. Verify your account"
 msgstr "المدفوعات المحظورة. التحقق من حسابك"
 
 msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your Deriv account is set + $10K demo funds ready"
+msgstr "تم إعداد حسابك على Deriv + تمويل تجريبي بقيمة 10,000 دولار جاهز"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start trading now"
+msgstr "ابدأ التداول الآن"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Thanks for choosing Deriv! We’ve added $10,000 in virtual funds to your demo account so you can start exploring the markets right away."
+msgstr "شكرًا لاختيارك Deriv! لقد أضفنا 10,000 دولار كأموال افتراضية إلى حسابك التجريبي حتى تتمكن من استكشاف الأسواق على الفور."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading to:"
+msgstr "ابدأ التداول التجريبي لل:"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Test strategies in real market conditions"
+msgstr "اختبار الاستراتيجيات في ظروف السوق الحقيقية"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Learn the platform dynamics"
+msgstr "تعلم ديناميات المنصة"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Build your trading confidence"
+msgstr "بناء ثقتك في التداول"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Trade without risking real funds"
+msgstr "تداول بدون المخاطرة بأموال حقيقية"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Your demo account gives you the perfect environment to develop your skills before moving to real-money trading."
+msgstr "حسابك التجريبي يوفر لك بيئة مثالية لتطوير مهاراتك قبل الانتقال إلى التداول بالأموال الحقيقية."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Start demo trading"
+msgstr "ابدأ التداول التجريبي"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Ready for real trading instead? Start with just $5."
+msgstr "هل أنت مستعد للتداول الحقيقي بدلاً من ذلك؟ ابدأ بـ 5 دولارات فقط."
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "Create real account"
+msgstr "أنشئ حساباً حقيقياً"
+
+msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgid "%1Questions?%2%3Our support team is just a click away on %4Live chat%5 | %6WhatsApp%7"
+msgstr "%1أسئلة؟%2%3فريق الدعم لدينا على بُعد نقرة واحدة فقط عبر %4الدردشة المباشرة%5 | %6واتساب%7"
+
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "👋 Hello and welcome to Deriv"
 msgstr "👋 مرحبًا ومرحبًا بك في Deriv"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your Deriv journey starts here!"
 msgstr "رحلتك مع Deriv تبدأ هنا!"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Welcome to Deriv! We’re excited to have you with us."
 msgstr "مرحبًا بك في Deriv! نحن متحمسون لانضمامك إلينا."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Our demo account is your playground, designed to help you unleash your trading potential without the fear of financial risk."
 msgstr "حسابنا التجريبي هو ملعبك، وهو مصمم لمساعدتك على إطلاق العنان لإمكاناتك في التداول دون خوف من المخاطر المالية."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "It comes pre-loaded with 10,000 USD in virtual funds, so you can try trading with various strategies. Don’t worry if you run out of your virtual funds, a simple reset is all it takes to get back in the game."
 msgstr "تأتي محملة مسبقًا بـ 10,000 دولار أمريكي من الأموال الافتراضية، حتى تتمكن من تجربة التداول باستخدام استراتيجيات مختلفة. لا تقلق إذا نفدت أموالك الافتراضية، فكل ما يتطلبه الأمر هو إعادة تعيين بسيطة للعودة إلى اللعبة."
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "Your demo account email:"
 msgstr "البريد الإلكتروني لحسابك التجريبي"
 
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
+msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "%1Need help?%2%3%4Our comprehensive %5FAQ page%6 is always a good start. If you require further assistance, our support team is available 24/7 to help via %7live chat%8 or %9WhatsApp%10."
-msgstr "%1Need help?%2%3%4Our comprehensive %5FAQ page%6 is always a good start. If you require further assistance, our support team is available 24/7 to help via %7live chat%8 or %9WhatsApp%10."
-
-msgctxt "Customer.io email: svg_all_transactional_demo_welcome_new "
-msgid "The products offered on our platforms are complex derivative products that carry a significant risk of potential loss. CFDs are complex instruments with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money."
-msgstr "إن المنتجات المعروضة على منصاتنا هي منتجات مشتقات معقدة تنطوي على مخاطر كبيرة من الخسارة المحتملة. فالعقود مقابل الفروقات هي أدوات معقدة تنطوي على مخاطرة عالية بخسارة الأموال بسرعة بسبب الرافعة المالية. يجب أن تفكر فيما إذا كنت تفهم كيفية عمل هذه المنتجات وما إذا كنت تستطيع تحمل المخاطرة العالية بخسارة أموالك."
+msgstr "%1تحتاج إلى مساعدة؟%2%3%4صفحتنا الشاملة للأسئلة الشائعة %5%6 هي دائمًا نقطة انطلاق جيدة. إذا كنت بحاجة إلى مساعدة إضافية، فإن فريق الدعم لدينا متاح على مدار %24 ساعة في اليوم و%7 أيام في الأسبوع للمساعدة عبر %8الدردشة المباشرة%8 أو %9الواتساب%10."
 
 msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "This email is a marketing email intended for retail and professional clients and has been issued by Deriv Investments (Europe) Limited, a company incorporated in Malta with registration number C 70156, and its registered address at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
@@ -11476,28 +11550,20 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "رمز التحقق: %1 صالح لمدة 10 دقائق."
 
 msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "لا يمكن قبول نوع المستند الذي قدمته كإثبات للهوية."
+msgid "Your proof of identity is blurred."
+msgstr "إثبات هويتك غير واضح."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك. تقديم إثبات هوية مختلف، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية، مع المتطلبات التالية:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم وثيقة عالية الدقة وواضحة ومقروءة ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "الأسماء الموجودة في إثبات الهوية وملف تعريف Deriv غير متطابقة."
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "إثبات هويتك لا يفي بمعايير التحقق الخاصة بنا."
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى الانتقال إلى ملفك الشخصي والتأكد من دقة التفاصيل الخاصة بك. بعد ذلك ، تحقق من / مصادقة حسابك عن طريق تقديم إثبات الهوية ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "إثبات هويتك منتهي الصلاحية."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك. يرجى تقديم وثيقة صالحة، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية، مع المتطلبات التالية:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة البيانات الشخصية الخاصة بك للتحقق من / المصادقة على حسابك . الرجاء تقديم شهادة هوية سارية المفعول ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، وتلبية المتطلبات التالية :"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -11512,16 +11578,12 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "يمكنك أيضا تقديمه مع إثبات هويتك ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "لا يظهر إثبات هويتك تاريخ ميلادك."
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "الأسماء الموجودة في إثبات الهوية وملف تعريف Deriv غير متطابقة."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "يرجى الرد على هذا البريد الإلكتروني وإرفاق شهادة ميلادك أو تقديم إثبات هوية مختلف يوضح تاريخ ميلادك."
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى الانتقال إلى ملفك الشخصي والتأكد من دقة التفاصيل الخاصة بك. بعد ذلك ، تحقق من / مصادقة حسابك عن طريق تقديم إثبات الهوية ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is missing a front/back section."
@@ -11536,28 +11598,40 @@ msgid "If you have trouble sending both sides of the document via the link provi
 msgstr "إذا كنت تواجه مشكلة في إرسال وجهي المستند عبر الرابط المقدم ، فيمكنك الرد على هذا البريد الإلكتروني مع إرفاق الجهة الأمامية والخلفية للمستند."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "إثبات هويتك لا يفي بمعايير التحقق الخاصة بنا."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة البيانات الشخصية الخاصة بك للتحقق من / المصادقة على حسابك . الرجاء تقديم شهادة هوية سارية المفعول ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، وتلبية المتطلبات التالية :"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "إثبات هويتك غير واضح."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم وثيقة عالية الدقة وواضحة ومقروءة ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
-
-msgctxt "KYC email title"
 msgid "Your proof of identity is cropped."
 msgstr "إثبات هويتك مقصوص."
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند كامل ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "لا يمكن قبول نوع المستند الذي قدمته كإثبات للهوية."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك. تقديم إثبات هوية مختلف، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية، مع المتطلبات التالية:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "إثبات هويتك منتهي الصلاحية."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك. يرجى تقديم وثيقة صالحة، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية، مع المتطلبات التالية:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "لا يظهر إثبات هويتك تاريخ ميلادك."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "يرجى الرد على هذا البريد الإلكتروني وإرفاق شهادة ميلادك أو تقديم إثبات هوية مختلف يوضح تاريخ ميلادك."
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -11576,20 +11650,32 @@ msgid "shows your photo"
 msgstr "يعرض صورتك"
 
 msgctxt "KYC email title"
-msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
-msgstr "لا نقبل لقطات الشاشة كدليل على العنوان. كما أننا لا نقبل العناوين الموجودة على المغلفات."
+msgid "The documents you submitted as proof of address could not be opened as they are either in an unsupported format or are corrupted."
+msgstr "تعذر فتح المستندات التي قدمتها كدليل على العنوان إما لأن تنسيقها غير مدعوم أو تالفة."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "يرجى زيارة البيانات الشخصية الخاصة بك للتحقق من/ مصادقة حسابك . الرجاء تقديم وثائق صحيحة ، مثل البيانات المصرفية ، فواتير المرافق العامة أو إقرار ، وتلبية المتطلبات التالية :"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document such as a bank statement, utility bill, or affidavit, in JPG, JPEG, PNG, or PDF formats, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك. أرسل مستندا صالحا مثل كشف حساب بنكي أو فاتورة مرافق أو إفادة خطية بتنسيقات JPG أو JPEG أو PNG أو PDF، مع المتطلبات التالية:"
 
 msgctxt "KYC email title"
-msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
-msgstr "لا نقبل العناوين الموجودة على المظاريف كدليل على العنوان. نحن أيضا لا نقبل لقطات الشاشة."
+msgid "Your proof of address does not meet our verification standards."
+msgstr "إثبات العنوان الخاص بك لا يفي بمعايير التحقق الخاصة بنا."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وأرسال كشف حساب مصرفي موقع ومختوم يوضح رقم الحساب الذي استخدمته لتمويل حساب Deriv الخاص بك."
+
+msgctxt "KYC email subtitle"
+msgid "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
+msgstr "أو يمكنك تقديم إثبات عنوان مختلف ، مثل فاتورة مرافق أو إفادة خطية ، مع المتطلبات التالية:"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند صالح، مثل كشف حساب بنكي أو فاتورة مرافق أو إفادة خطية، مع المتطلبات التالية"
 
 msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "الاسم الموجود على إثبات العنوان لا يتطابق مع ملف تعريف Deriv الخاص بك."
+msgid "Your proof of address is blurred."
+msgstr "إثبات العنوان الخاص بك غير واضح."
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a clear and readable document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
@@ -11604,28 +11690,12 @@ msgid "Please go to your profile to update your residential address. Then, verif
 msgstr "يرجى الانتقال إلى ملف التعريف الخاص بك لتحديث عنوان إقامتك. بعد ذلك ، تحقق من / صادق على حسابك عن طريق إرسال مستند واضح وقابل للقراءة ، مثل كشف حساب مصرفي أو فاتورة مرافق أو إفادة خطية ، مع المتطلبات التالية:"
 
 msgctxt "KYC email title"
-msgid "The documents you submitted as proof of address could not be opened as they are either in an unsupported format or are corrupted."
-msgstr "تعذر فتح المستندات التي قدمتها كدليل على العنوان إما لأن تنسيقها غير مدعوم أو تالفة."
+msgid "Your proof of address is cropped or doesn't show complete details."
+msgstr "تم اقتصاص إثبات العنوان الخاص بك أو لم يظهر كامل التفاصيل ."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document such as a bank statement, utility bill, or affidavit, in JPG, JPEG, PNG, or PDF formats, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك. أرسل مستندا صالحا مثل كشف حساب بنكي أو فاتورة مرافق أو إفادة خطية بتنسيقات JPG أو JPEG أو PNG أو PDF، مع المتطلبات التالية:"
-
-msgctxt "KYC email title"
-msgid "Your proof of address is blurred."
-msgstr "إثبات العنوان الخاص بك غير واضح."
-
-msgctxt "KYC email title"
-msgid "Your proof of address does not meet our verification standards."
-msgstr "إثبات العنوان الخاص بك لا يفي بمعايير التحقق الخاصة بنا."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند صالح، مثل كشف حساب بنكي أو فاتورة مرافق أو إفادة خطية، مع المتطلبات التالية"
-
-msgctxt "KYC email title"
-msgid "Your proof of address is outdated."
-msgstr "إثبات العنوان الخاص بك قديم."
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق / المصادقة على حسابك. أرسل مستندًا كاملاً ، مثل كشف حساب مصرفي أو فاتورة خدمات أو إفادة خطية ، بالمتطلبات التالية:"
 
 msgctxt "KYC email title"
 msgid "The documents you submitted as proof of address are password-protected."
@@ -11639,21 +11709,25 @@ msgctxt "KYC email subtitle"
 msgid "Alternatively, you can submit a different proof of address such as a bank statement, utility bill, or affidavit, with the following requirements:"
 msgstr "بدلا من ذلك ، يمكنك تقديم إثبات عنوان مختلف مثل كشف حساب مصرفي أو فاتورة مرافق أو إفادة خطية ، مع المتطلبات التالية:"
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وأرسال كشف حساب مصرفي موقع ومختوم يوضح رقم الحساب الذي استخدمته لتمويل حساب Deriv الخاص بك."
+msgctxt "KYC email title"
+msgid "We don't accept addresses on envelopes as proof of address. We also don't accept screenshots."
+msgstr "لا نقبل العناوين الموجودة على المظاريف كدليل على العنوان. نحن أيضا لا نقبل لقطات الشاشة."
 
 msgctxt "KYC email subtitle"
-msgid "Or you may submit a different proof of address, such as a utility bill or affidavit, with the following requirements:"
-msgstr "أو يمكنك تقديم إثبات عنوان مختلف ، مثل فاتورة مرافق أو إفادة خطية ، مع المتطلبات التالية:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
+msgstr "يرجى زيارة البيانات الشخصية الخاصة بك للتحقق من/ مصادقة حسابك . الرجاء تقديم وثائق صحيحة ، مثل البيانات المصرفية ، فواتير المرافق العامة أو إقرار ، وتلبية المتطلبات التالية :"
 
 msgctxt "KYC email title"
-msgid "Your proof of address is cropped or doesn't show complete details."
-msgstr "تم اقتصاص إثبات العنوان الخاص بك أو لم يظهر كامل التفاصيل ."
+msgid "Your proof of address is outdated."
+msgstr "إثبات العنوان الخاص بك قديم."
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a bank statement, utility bill, or affidavit, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق / المصادقة على حسابك. أرسل مستندًا كاملاً ، مثل كشف حساب مصرفي أو فاتورة خدمات أو إفادة خطية ، بالمتطلبات التالية:"
+msgctxt "KYC email title"
+msgid "We don't accept screenshots as proof of address. We also don't accept addresses on envelopes."
+msgstr "لا نقبل لقطات الشاشة كدليل على العنوان. كما أننا لا نقبل العناوين الموجودة على المغلفات."
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "الاسم الموجود على إثبات العنوان لا يتطابق مع ملف تعريف Deriv الخاص بك."
 
 msgctxt "KYC email layout"
 msgid "shows a residential address that matches your Deriv profile"
