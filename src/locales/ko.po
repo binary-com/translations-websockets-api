@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-06-23 10:56\n"
+"PO-Revision-Date: 2025-06-23 20:13\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -137,7 +137,7 @@ msgstr "%1조치가 필요합니다:%2 출금하시기 전에 귀하의 신원�
 
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "%1Card or ZingPay:%2%3 Bank statement showing your full name, account number, and the transaction to Deriv via the card or ZingPay."
-msgstr "%1카드 또는 ZingPay:%2%3 귀하의 성명, 계좌 번호 및 카드 또는 ZingPay를 통해 Deriv로 입금된 거래 내역이 표시된 은행 명세서를 제출하세요."
+msgstr "%1카드 또는 ZingPay:%2%3 귀하의 성명, 계좌 번호 및 카드 또는 ZingPay를 통해 Deriv로 입금한 거래 내역이 기재된 은행 거래 내역서를 제출하세요."
 
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "%1Card:%2%3 Bank statement showing your full name, account number, and the transaction to Deriv via the card."
@@ -219,6 +219,10 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_buyer_notpaid_favor_seller
 msgid "%1Note:%2 According to DP2P terms of use, the buyer and the seller are solely responsible for making sure that the payment is accurate. Deriv is not liable in any way to make corrections or compensations for any incorrect payment made by the buyer, including but not limited to overpayment and underpayment."
 msgstr "%1공지 사항:%2 DP2P 이용 약관에 따라, 구매자와 판매자는 결제가 정확한지를 확인할 전적인 책임이 있습니다. Deriv는 구매자가 지불한 잘못된 금액(과다 결제 및 미달 결제를 포함하며 이에 국한되지 않음)에 대해 어떠한 방식으로든 수정 또는 보상할 책임이 없습니다."
 
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "%1Note:%2 Each client is permitted to maintain only one real account under our %3Terms and Conditions%4."
+msgstr ""
+
 msgctxt "Customer.io email: all_transactional_trading_platform_password_changed "
 msgid "%1Note:%2 This may be different from your Deriv login password."
 msgstr "%1참고:%2 이 비밀번호는 귀하의 Deriv 로그인 비밀번호와 다를 수 있습니다."
@@ -229,11 +233,11 @@ msgstr "%1참고:%2 입출금을 중단 없이 계속하기 위해 %3까지 신�
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "%1Proof of address%2%3Upload a clear photo (or a scan) of your bank statement, utility bill, or affidavit. It must:"
-msgstr "%1주소 증명%2%3명확한 사진 (또는 스캔)으로 귀하의 은행 명세서, 공과금 명세서, 또는 진술서를 업로드하세요. 이는 반드시:"
+msgstr "%1주소 증명%2%3 은행 거래내역서, 공과금 고지서 또는 진술서의 원본(또는 스캔본)을 업로드하세요. 다음 사항을 반드시 충족해야 합니다:"
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "%1Proof of identity%2%3Upload a clear photo (or a scan) of your passport, driving licence, or national identity card. It must:"
-msgstr "%1신분 증명%2%3명확한 사진 (또는 스캔)으로 귀하의 여권, 운전 면허증, 또는 국가 신분 카드를 업로드하세요. 이는 반드시:"
+msgstr "%1신원 증명%2%3여권, 운전면허증 또는 국가 신분증의 선명한 사진(또는 스캔본)을 업로드하세요. 다음 사항을 반드시 충족해야 합니다:"
 
 msgctxt "Customer.io email: svg_all_transactional_account_reactivated "
 msgid "%1Reset your password%2%3Remember to use a strong password to safeguard your account."
@@ -1731,6 +1735,21 @@ msgstr "고객 로그인 ID가 필요합니다."
 msgid "Close"
 msgstr "종료"
 
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "Close all open and pending trades in your MT5 and Deriv accounts within the next %124 hours%2."
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: eu_real_to_deposit_onboarding "
+#| msgid "Deposit now"
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "Close positions now"
+msgstr "지금 예금하세요"
+
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "Close your MT5 positions"
+msgstr ""
+
 msgid "Close-Low"
 msgstr "종가-저가"
 
@@ -2466,6 +2485,17 @@ msgstr "네트워크 문제로 인해 다음 계정에 대한 %1 비밀번호를
 
 msgid "Due to a network issue, we're unable to update your investor password for the following account: %1. Please wait for a few minutes before attempting to change your investor password for the above account."
 msgstr "네트워크 문제로 인해 다음 계정에 대한 투자자 비밀번호를 업데이트 할 수 없습니다: %1. 위 계정의 투자자 비밀번호를 변경하기 전에 몇 분 정도 기다려 주시기 바랍니다."
+
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "Duplicate account alert—Action needed"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "Customer.io email: svg_all_transactional_email_linked_to_closed_account "
+#| msgid "It seems your account is closed"
+msgctxt "Customer.io email:  process_automation_duplicate_account_closed  "
+msgid "Duplicate account closed"
+msgstr "귀하의 계정이 닫힌 것으로 보입니다"
 
 msgid "Duration %1 is not supported for Snowball trades. Accepts %2 seconds."
 msgstr "지속 시간 %1은 눈덩이 거래에 대해 지원되지 않습니다. %2초를 허용합니다."
@@ -3575,6 +3605,10 @@ msgctxt "Customer.io email: dummy_p2p_order_confirm "
 msgid "If everything is correct, press the %1Confirm%2 order button below to proceed."
 msgstr "모든 사항이 올바르다면, 아래의 주문 %1확정%2 버튼을 누르셔서 진행하시기 바랍니다."
 
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "If no action is taken, our system may automatically close your trades and transfer your funds to your Deriv account. We strongly recommend managing your positions within the next %124 hours%2."
+msgstr ""
+
 msgid "If the button does not work, copy and paste this URL into your browser:"
 msgstr "만약 버튼이 작동되지 않는다면, 다음의 URL을 귀하의 브라우저로 복사 및 붙여넣기 하세요:"
 
@@ -3604,7 +3638,7 @@ msgstr "버튼이 작동하지 않으면 다음 URL을 복사하여 브라우저
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
 msgid "If the buyer doesn't respond within 6 hours, we'll release the funds back to your Deriv account as per our %1terms of use%2 (Section 4, ‘Deriv P2P’)."
-msgstr "구매자가 6시간 이내에 응답하지 않으면 당사는 %1te이용약관%2 (섹션 4, '파생 P2P')에 따라 귀하의 파생 계좌로 자금을 다시 지급합니다."
+msgstr "구매자가 6시간 이내에 응답하지 않을 경우, Deriv %1이용 약관%2(섹션 4, 'Deriv P2P')에 따라 해당 금액이 Deriv 계정으로 환불됩니다."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_unreleased_buyer_confirmation "
 msgid "If the exchange is successful within the next 24 hours, the dispute will be automatically resolved. Otherwise, we will investigate the case and inform you and the seller of the result. We may request additional information and documents during our investigation."
@@ -3707,7 +3741,7 @@ msgstr "이미 스크릴 (Skrill) 계정이 있다면, 대신 이 옵션을 선�
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "If you have any other documents that can prove your employment and source of income (such as brokerage statements, investment bank statements, or business registration documents), please upload them, too."
-msgstr "귀하의 고용상태 또는 소득 원천 (예: 중개 내역, 투자 은행 내역 또는 사업 등록 문서)을 증명할 수 있는 문서가 있다면, 해당 문서 또한 업로드하시기 바랍니다."
+msgstr "귀하의 고용 상태 또는 소득 원천(예: 증권 계좌 명세서, 투자 은행 거래 내역서 또는 사업 등록 문서)을 증명할 수 있는 문서가 있다면, 해당 문서 또한 업로드해 주시기 바랍니다."
 
 msgctxt "Customer.io email: svg_all_transactional_poa_verification_expired "
 msgid "If you have any questions or issues, %1contact us via live chat%2."
@@ -4120,7 +4154,7 @@ msgstr "이스탄불 지수"
 
 msgctxt "Customer.io email: svg_all_transactional_shared_payment_method_email_notification "
 msgid "It appears that your payment method is also being used by another Deriv client. To help protect your account, we’ve temporarily locked the Cashier for you."
-msgstr "귀하의 결제 수단이 다른 Deriv 고객에 의해 사용되고 있는 것으로 보입니다. 귀하의 계정을 보호하기 위해 출납부를 임시로 잠갔습니다."
+msgstr "귀하의 결제 수단이 다른 Deriv 고객에 의해 사용되고 있는 것으로 보입니다. 귀하의 계정을 보호하기 위해 캐셔를 일시적으로 잠금 처리하였습니다."
 
 msgctxt "Customer.io email: mf_all_transactional_demo_welcome_new "
 msgid "It comes pre-loaded with 10,000 USD in virtual funds, so you can try trading with various strategies. Don’t worry if you run out of your virtual funds, a simple reset is all it takes to get back in the game."
@@ -4149,7 +4183,7 @@ msgstr "입금 시 사용하신 결제 수단과 다른 결제 수단을 사용�
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "It looks like you are using a different payment method than the one you usually use to make deposits and withdrawals."
-msgstr "귀하께서 평소에 입출금에 사용하는 결제수단과는 다른 결제수단을 사용하고 계신 것 같습니다."
+msgstr "귀하께서 평소에 입출금 시 사용하시는 결제 수단과는 다른 결제 수단을 사용하고 계신 것 같습니다."
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "It looks like you are using a different payment method than the one you usually use to make deposits."
@@ -5156,6 +5190,10 @@ msgstr "새로운 장치 로그인"
 msgid "New wallet accounts are not available in your country."
 msgstr "해당 국가에서는 새 지갑 계정을 사용할 수 없습니다."
 
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "Next steps"
+msgstr ""
+
 msgid "Nickel/USD"
 msgstr "니켈/USD"
 
@@ -5341,7 +5379,7 @@ msgstr "승인되면 입금 금액이 귀하의 Deriv %1 잔액에 표시되며 
 
 msgctxt "Customer.io email: mf_france_transactional_real_signup "
 msgid "Once approved, the deposit amount will appear in your Deriv USD balance and you can begin trading."
-msgstr "승인되면, 해당 입금 금액이 귀하의 Deriv USD 잔액에 표시되며 거래를 시작할 수 있습니다."
+msgstr "승인되면, 입금액이 귀하의 Deriv USD 잔액에 표시되며 거래를 시작하실 수 있습니다."
 
 msgctxt "Customer.io email: all_transactional_under_antifraud_investigation "
 msgid "Once our verification process is complete, we’ll enable deposits and withdrawals on your account."
@@ -5538,6 +5576,10 @@ msgstr "주문이 처리되고 있습니다. 변경은 더이상 허용되지 �
 msgctxt "payment method name"
 msgid "Other"
 msgstr "다른"
+
+msgctxt "Customer.io email:  process_automation_duplicate_account_closed  "
+msgid "Our clients can have only %1one%2 real account. As a result, we have disabled the account linked to this email. You may continue using your other account for future trading."
+msgstr ""
 
 msgctxt "Customer.io email: svg_all_transactional_bonus_rejected "
 msgid "Our customer support team will submit another request for a bonus on your behalf as soon as we receive the documents. It may take up to 3 working days for a bonus to be credited on your account."
@@ -6093,7 +6135,7 @@ msgstr "귀하의 계좌 통화를 먼저 선택해 주시기 바랍니다."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
 msgid "Please send this information to us within 6 hours. If we do not hear from you by then, we may need to proceed with resolving the dispute in the seller’s favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
-msgstr "이 정보를 6시간 이내에 당사로 보내주시기 바랍니다. 그때까지 연락이 없는 경우, 당사는 %1te이용약관%2 (섹션 4 '파생 P2P' 참조)에 따라 판매자에게 유리한 방향으로 분쟁 해결을 진행해야 할 수 있습니다."
+msgstr "이 정보를 6시간 이내에 보내주시기 바랍니다. 그때까지 회신이 없을 경우, %1이용 약관%2(섹션 4, 'Deriv P2P' 참조)에 따라 판매자에게 유리하게 분쟁이 해결될 수 있습니다."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_toseller "
 msgid "Please send us the required response within 6 hours. If we do not hear from you by then, we may need to resolve the dispute in the buyer’s favour according to our %1terms of use%2 (see Section 4, 'Deriv P2P')."
@@ -6159,11 +6201,11 @@ msgstr "나중에 다시 시도해 주세요."
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "Please try to make a withdrawal via your usual payment agent. If your payment agent isn't able to process crypto withdrawals, transfer your crypto funds to your %1 account, and then make a withdrawal via your payment agent."
-msgstr "귀하께서 일반적으로 사용하시는 결제 에이전트를 통해 인출을 진행해 주시기 바랍니다. 귀하의 결제 에이전트가 암호화폐 인출을 처리할 수 없다면, 암호화폐 자금을 귀하의 %1 계정으로 이체하신 후 결제 에이전트를 통해 인출 하시기 바랍니다."
+msgstr "평소에 이용하시는 결제 에이전트를 통해 출금해 주시기 바랍니다. 결제 에이전트가 암호화폐 출금을 처리하지 못하는 경우, 암호화폐 자금을 귀하의 %1 계정으로 이체하신 후 결제 에이전트를 통해 출금하시기 바랍니다."
 
 msgctxt "Customer.io email: svg_all_transactional_request_edd_documents "
 msgid "Please upload these documents by %1%2%3%4%5. If we don’t receive your documents by then, we may have to suspend your account."
-msgstr "이러한 문서들을 %1%2%3%4%5까지 업로드 해 주시기 바랍니다. 해당 때까지 문서가 제출되지 않는 경우, 귀하의 계정을 정지시켜야 할 수 있습니다."
+msgstr "해당 문서들을 %1%2%3%4%5까지 업로드해 주시기 바랍니다. 기한 내에 문서가 접수되지 않을 경우, 귀하의 계정이 정지될 수 있습니다."
 
 msgid "Please use %1 to reset your password. Your password must be 8 to 16 characters long. It must include lowercase, uppercase letters, numbers and special characters."
 msgstr "%1를 사용하여 비밀번호를 재설정해 주시기 바랍니다. 귀하의 비밀번호는 반드시 8~16자여야 합니다. 비밀번호는 반드시 소문자, 대문자, 숫자 및 특수 문자를 포함해야 합니다."
@@ -8358,7 +8400,7 @@ msgstr "이 링크는 %1분 내로 만료됩니다. 사용하기 전에 링크�
 
 msgctxt "Customer.io email: dummy_campaign_ svg_all_transactional_verify_change_email "
 msgid "This link will expire in %1%2%3%4%5minutes. If the link expires before you have a chance to use it, you can request another one from %6your account settings%7."
-msgstr "이 링크는 %1%2%3%4%5분 내로 만료됩니다. 해당 링크가 귀하께서 이용하기 이전에 만료된다면, %6귀하의 계정 설정%7 에서 추가 링크를 요청하실 수 있습니다."
+msgstr "이 링크는 %1%2%3%4%5분 후에 만료됩니다. 사용하기 전에 링크가 만료되는 경우, %6계정 설정%7에서 다른 링크를 요청하실 수 있습니다."
 
 msgctxt "Customer.io email: dummy_request_change_email "
 msgid "This link will expire in 60 minutes."
@@ -9482,7 +9524,7 @@ msgstr "아쉽게도, 귀하의 이메일 주소가 닫혀있는 계정에 연�
 
 msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "Unfortunately, we were unable to process your withdrawal request for %1 %2 (trace ID %3) due to the following reasons:"
-msgstr "아쉽지만, 저희는 다음의 이유로 인해 %1 %2 (추적 ID %3)에 대한 귀하의 인출 요청을 처리할 수 없었습니다:"
+msgstr "아쉽지만, 다음의 이유로 인해 %1 %2 (추적 ID %3)에 대한 귀하의 출금 요청이 처리될 수 없었습니다:"
 
 msgctxt "Customer.io email: svg_all_transactional_poa_poi_resubmission "
 msgid "Unfortunately, we were unable to verify your account due to the following reasons:"
@@ -10080,7 +10122,7 @@ msgstr "귀하의 계정에서 %1 %2를 차감했습니다. 해당 트랜잭션�
 
 msgctxt "Customer.io email: svg_all_transactional_payout_successful "
 msgid "We have successfully processed your withdrawal request for %1 %2 %3%4 %5 %6 %7 for trace ID %8 %9 %10 %11%12"
-msgstr "귀하의 출금 요청 %1 %2 %3%4 %5 %6 %7을(를) 성공적으로 처리하였습니다. 추적 ID는 %8 %9 %10 %11%12입니다"
+msgstr "%1 %2 %3%4 %5 %6 %7(추적 ID: %8 %9 %10 %11%12)에 대한 귀하의 출금 요청이 성공적으로 처리되었습니다"
 
 msgctxt "Customer.io email: test-payops-snipp "
 msgid "We have successfully processed your withdrawal request for %1 %2 for trace ID %3"
@@ -10095,11 +10137,11 @@ msgstr "귀하의 계정 세부 정보가 필요합니다"
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "We noticed that you deposited via your fiat account but tried to withdraw in cryptocurrency. To continue, transfer your crypto funds to your fiat account, then withdraw using Deriv P2P. Thank you."
-msgstr "고객님의 피아트 계좌를 통해 입금했으나 암호화폐로 인출을 시도한 것을 확인했습니다. 계속 진행하려면 암호화폐 자금을 피아트 계좌로 이체한 후 Deriv P2P를 이용하여 인출하세요. 감사합니다."
+msgstr "귀하께서 법정화폐 계정을 통해 입금하셨으나 암호화폐로 출금하려고 하신 것이 확인되었습니다. 계속 진행하시려면, 암호화폐 자금을 법정화폐 계정으로 이체하신 후, Deriv P2P를 통해 출금하시기 바랍니다. 감사합니다."
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "We noticed that you deposited via your fiat account but tried to withdraw in cryptocurrency. To continue, transfer your funds to your fiat account, then withdraw using a payment agent. This method has been enabled for your account. Thank you."
-msgstr "고객님의 피아트 계좌를 통해 입금했으나 암호화폐로 인출을 시도한 것을 확인했습니다. 계속 진행하려면 자금을 피아트 계좌로 이체한 후 결제 대행인을 통해 인출하세요. 이 방법은 고객님의 계좌에 활성화되어 있습니다. 감사합니다."
+msgstr "귀하께서 법정화폐 계정을 통해 입금하셨으나 암호화폐로 출금하려고 하신 것이 확인되었습니다. 계속 진행하시려면, 귀하의 법정화폐 계정으로 자금을 이체하신 후, 결제 에이전트를 통해 출금하시기 바랍니다. 이 방법이 귀하의 계정에 활성화되어 있습니다. 감사합니다."
 
 msgctxt "Customer.io email: svg_all_transactional_withdrawal_rejected "
 msgid "We noticed that you have attempted to make a withdrawal from your account recently."
@@ -10204,7 +10246,7 @@ msgstr "저희는 귀하의 출금이 처리되었다는 점을 알려드리고 
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "We'll need to process this withdrawal manually. First, transfer your crypto funds to your %1 account. Then, reply to this email to give us permission to perform a refund on your card."
-msgstr "이 인출을 수동으로 처리해야 합니다. 먼저, 귀하의 암호화폐 자금을 귀하의 %1 계정으로 이체하시기 바랍니다. 그 후, 이 이메일로 답변을 해 주시고 당사가 귀하의 카드에 대하여 환불을 진행할 수 있도록 허가해 주시기 바랍니다."
+msgstr "이 출금은 수동으로 처리되어야 합니다. 우선, 암호화폐 자금을 귀하의 %1 계정으로 이체해 주시기 바랍니다. 그런 다음, 이 이메일이 회신하여 저희가 귀하의 카드에 대해 환불을 진행할 수 있도록 허가해 주시기 바랍니다."
 
 msgid "We're awaiting confirmation from the blockchain."
 msgstr "저희는 블록체인으로부터 확인을 기다리고 있습니다."
@@ -10238,7 +10280,7 @@ msgstr "주문 #%1과 관련된 귀하의 분쟁이 조사되고 있습니다. �
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_toseller "
 msgid "We're investigating your dispute regarding order #%1. We've contacted the buyer to verify their payment method and get the required account details for a refund."
-msgstr "주문 번호%1에 대한 분쟁을 조사 중입니다. 구매자에게 연락하여 결제 방법을 확인하고 환불에 필요한 계정 세부 정보를 받았습니다."
+msgstr "저희는 주문 #%1과 관련된 분쟁을 조사 중입니다. 저희는 구매자에게 연락하여 결제 수단을 확인하고 환불에 필요한 계정 정보를 요청했습니다."
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_seller_unreleased_confirmation_tobuyer "
 msgid "We're investigating your dispute regarding order #%1. We've requested additional information from the seller to aid our investigation."
@@ -10319,7 +10361,7 @@ msgstr "구매자에게 주문 #%1에 대한 전액 결제를 완료해야 한�
 
 msgctxt "Customer.io email: svg_all_transactional_p2p_3party_payment_tobuyer "
 msgid "We've received a dispute from the seller regarding order #%1. They claim you used a third-party payment method, which is against our terms of use."
-msgstr "주문 번호%1와 관련하여 판매자로부터 분쟁이 접수되었습니다. 판매자는 회원님이 타사 결제 수단을 사용했으며, 이는 회원님의 이용 약관에 위배된다고 주장합니다."
+msgstr "주문 #%1과 관련하여 판매자로부터 분쟁이 접수되었습니다. 판매자는 귀하가 Deriv의 이용 약관에 위배되는 제3자 결제 수단을 이용했다고 주장합니다."
 
 msgid "We've received your request and are waiting for more blockchain confirmations."
 msgstr "저희는 귀하의 요청을 받았고 추가적인 블록체인 확인을 기다리고 있습니다."
@@ -10404,12 +10446,20 @@ msgctxt "Customer.io email: dummy_confirm_change_email "
 msgid "We’ve changed your email"
 msgstr "이메일이 변경되었습니다."
 
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "We’ve detected multiple accounts with your details. For your safety, we have locked the account linked to this email."
+msgstr ""
+
 msgid "We’ve detected that another client is using your payment method. To ensure your account’s safety, we’ve locked your cashier."
 msgstr "저희는 다른 고객이 귀하의 결제 방식을 이용하고 있는 것을 감지했습니다. 귀하의 계좌의 안전을 보장하기 위하여, 저희는 귀하의 캐셔를 잠금처리했습니다."
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_demo_onboarding_email3.1 "
 msgid "We’ve got two ways for you to trade markets - each with its own advantages:"
 msgstr "두 가지 방법으로 시장을 거래할 수 있습니다 - 각각 고유한 장점이 있습니다:"
+
+msgctxt "Customer.io email:  process_automation_duplicate_account_closed  "
+msgid "We’ve identified that you have created multiple real accounts with Deriv."
+msgstr ""
 
 msgctxt "Customer.io email: dummy_ payment_deposit_template "
 msgid "We’ve manually credited your trading account with %1 %2."
@@ -10488,6 +10538,10 @@ msgstr "왜 데모 트레이딩을 시작해야 할까요? 몇 가지 이점은 
 msgctxt "Customer.io email: dummy_svg_all_transactional_demo_onboarding_email2.2 "
 msgid "Why start with demo trading?"
 msgstr "왜 데모 거래부터 시작해야 할까요?"
+
+msgctxt "Customer.io email: process_automation_duplicate_mt5_close_positions "
+msgid "Why this matters"
+msgstr ""
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_demo_onboarding_email8 "
 msgid "Why trade real markets"
@@ -10740,7 +10794,7 @@ msgstr "MT5 관리자 계좌로부터의 인출은 가능하지 않습니다. �
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "Wondering what Skrill is? Skrill is a safe and reliable virtual wallet for money transfers and online payments that enables you to move money into and out of your account hassle-free. Here’s how to make a deposit using Skrill:"
-msgstr "스크릴 (Skrill)이 무엇인지 궁금하신가요? 스크릴은 자금 이체를 위한 안전하고 신뢰할 수 있는 가상 지갑이며 귀하의 계정에서 수월하게 입금 및 인출을 할 수 있습니다. 다음은 스크릴을 이용한 입금 방법입니다:"
+msgstr "Skrill이 무엇인지 궁금하신가요? Skrill은 송금 및 온라인 결제를 위한 안전하고 신뢰할 수 있는 가상 지갑으로, 계정에서 간편하게 입출금할 수 있습니다. Skrill을 사용하여 입금하는 방법은 다음과 같습니다:"
 
 msgid "XAG/AUD"
 msgstr "XAG/AUD"
@@ -11270,7 +11324,7 @@ msgstr "귀하께서는 매 24시간마다 %1 주문만 하실 수 있습니다.
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "You may transfer your crypto funds to %1 account and make a withdrawal using the same payment method you last used for deposits."
-msgstr "암호화폐 자금을 %1 계정으로 이체할 수 있으며 귀하께서 입금에 사용하신 지난 번 결제 수단과 동일한 수단을 사용하여 인출할 수 있습니다."
+msgstr "귀하의 암호화폐 자금을 %1 계정으로 이체할 수 있으며, 이전에 입금에 사용하신 것과 동일한 결제 수단을 사용하여 출금할 수 있습니다."
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "You may transfer your crypto funds to your %1 account and make a withdrawal using an e-wallet."
@@ -11278,7 +11332,7 @@ msgstr "귀하의 암호화폐 자금을 귀하의 %1 계정으로 인출할 수
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "You may transfer your crypto funds to your %1 account and make a withdrawal using the same payment method you last used for deposits."
-msgstr "암호화폐 자금을 귀하의 %1 계정으로 이체할 수 있으며 귀하께서 입금에 사용하신 지난 번 결제 수단과 동일한 결제 수단을 이용하여 인출할 수 있습니다."
+msgstr "암호화폐 자금을 귀하의 %1 계정으로 이체할 수 있으며 귀하께서 입금에 사용하신 결제 수단과 동일한 결제 수단을 사용하여 출금하실 수 있습니다."
 
 msgctxt "Customer.io email: dummy_svg_all_transactional_crypto_withdrawal_rejected "
 msgid "You may transfer your crypto funds to your %1 account and make a withdrawal via Deriv P2P."
@@ -11307,7 +11361,7 @@ msgstr "귀하께서는 <b class='darkcolor-subtext'> %1</b> 계좌를 개설하
 
 msgctxt "Customer.io email: svg_botswana_attempt_failed_BIN_471396_Skrill "
 msgid "You recently attempted to deposit funds in your account using your National First Bank card. Unfortunately, this bank does not support deposits into Deriv via card."
-msgstr "귀하께서는 최근 귀하의 National First Bank 카드를 이요하여 귀하의 계정에 입금을 시도하셨습니다. 아쉽지만 해당 은행은 카드를 통한Deriv로의 입금을 지원하지 않습니다."
+msgstr "귀하께서는 최근 National First Bank 카드를 이용하여 계정에 입금을 시도하셨습니다. 아쉽게도 이 은행은 카드를 통한 Deriv로의 입금을 지원하지 않습니다."
 
 msgid "You will exceed the maximum exposure limit for this market if you purchase this contract. Please close some of your positions and try again."
 msgstr "귀하께서 만약 이 계약을 구매한다면 이 시장에 대하여 최대 노출한도를 초과하실 것입니다. 귀하의 몇몇 포지션들을 닫으시고 다시 시도해 주시기 바랍니다."
