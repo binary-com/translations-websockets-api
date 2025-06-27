@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-06-27 09:45\n"
+"PO-Revision-Date: 2025-06-27 13:23\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "MIME-Version: 1.0\n"
@@ -383,13 +383,13 @@ msgid "Contract not found for contract id: %1."
 msgstr "Contrato não encontrado para o ID do contrato: %1."
 
 msgid "Contract's stake amount is more than the maximum purchase price."
-msgstr "A valor da aposta do contrato é superior ao preço de aquisição máximo."
+msgstr "A valor da entrada do contrato é superior ao preço de aquisição máximo."
 
 msgid "Copier can't be a trader."
-msgstr "Copiador não pode ser um negociador."
+msgstr "O Copiador não pode ser um Trader."
 
 msgid "Could not generate OTP, please try again in a few minutes"
-msgstr "Não foi possível gerar a OTP, tente novamente dentro de alguns minutos"
+msgstr "Não foi possível gerar o OTP. Tente novamente dentro de alguns minutos"
 
 msgid "Could not retrieve contract details"
 msgstr "Não foi possível recuperar os dados do contrato"
@@ -407,7 +407,7 @@ msgid "Currency provided is different from account currency."
 msgstr "A moeda fornecida é diferente da moeda da conta."
 
 msgid "Currency provided is not valid for your account."
-msgstr "A moeda inserida não é aplicável para sua conta."
+msgstr "A moeda inserida não é válida para a sua conta."
 
 msgid "Current password and new password cannot be the same."
 msgstr "A senha atual e a nova senha não podem ser iguais."
@@ -416,10 +416,10 @@ msgid "DP2P is Deriv's peer-to-peer deposit and withdrawal service"
 msgstr "DP2P é um serviço de depósito e retirada peer-to-peer da Deriv"
 
 msgid "Date first contact is invalid."
-msgstr "A data do primeiro contato não é válida."
+msgstr "A data do primeiro contacto não é válida."
 
 msgid "Date of birth is invalid."
-msgstr "A data de nascimento é inválida."
+msgstr "A data de nascimento não é válida."
 
 msgid "Dear %1 %2 %3,"
 msgstr "Prezado %1 %2 %3,"
@@ -806,7 +806,7 @@ msgid "Manual Recovery Adjustment"
 msgstr "Ajuste manual da recuperação"
 
 msgid "Max 30 tokens are allowed."
-msgstr "Um máximo de 30 tokens é permitido."
+msgstr "É permitido um máximo de 30 tokens."
 
 msgid "Maximum ad amount is %1 %2. Please adjust the value."
 msgstr "O valor máximo do anúncio é %1 %2. Por favor ajuste o valor."
@@ -7795,52 +7795,48 @@ msgid "noqodi account"
 msgstr "Conta noqodi"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Número de Identificação Nacional"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Passaporte"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Alien Card (cartão de residência para estrangeiros)"
+msgid "Cédula de Identidad"
+msgstr "Bilhete de identidade"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "Carta de condução"
 
 msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Cartão do Eleitor"
+msgid "Aadhaar Card"
+msgstr "Aadhaar Card"
 
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN Card"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar Card"
+msgid "Voter ID"
+msgstr "Cartão do Eleitor"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Bilhete de identidade"
+msgid "Passport"
+msgstr "Passaporte"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Número de Identificação Nacional"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Alien Card (cartão de residência para estrangeiros)"
 
 msgctxt "IDV document type "
 msgid "CPF"
 msgstr "CPF"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Comprovativo do Número de Identificação Nacional"
-
-msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
@@ -7849,6 +7845,10 @@ msgstr "Nomor Induk Kependudukan"
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Segurança Social e Fundo Nacional de Seguro (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Comprovativo do Número de Identificação Nacional"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12563,12 +12563,32 @@ msgid "is dated within the last %1 months"
 msgstr "emitido nos últimos %1 meses"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Seu comprovante de identidade está borrado."
+msgid "Your proof of identity is missing a front/back section."
+msgstr "Falta um lado frente/verso do seu comprovante de identidade."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um documento de alta resolução, claro e legível, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie seu comprovante de identidade completo, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "Se você esta com problemas para enviar ambos os lados do documento através do link fornecido, você pode responder a este e-mail e anexar ambos os lados dos documentos."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "Seu comprovante de identidade expirou."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um documento válido, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Seu comprovante de identidade não atende aos nossos padrões de verificação."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um comprovante de identidade válido, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -12583,32 +12603,36 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "Você também pode enviá-lo junto com seu comprovane de identidade, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Seu comprovante de identidade foi cortado."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um documento completo, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "Falta um lado frente/verso do seu comprovante de identidade."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie seu comprovante de identidade completo, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "Se você esta com problemas para enviar ambos os lados do documento através do link fornecido, você pode responder a este e-mail e anexar ambos os lados dos documentos."
-
-msgctxt "KYC email title"
 msgid "The names on your proof of identity and Deriv profile don't match."
 msgstr "Os nomes no seu comprovativo de identidade e no perfil Deriv não coincidem."
 
 msgctxt "KYC email subtitle"
 msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Por favor visite seu perfil e certifique-se de que seus dados estão corretos. Em seguida, verifique/autentique sua conta enviando um comprovante de identidade, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "O tipo de documento enviado como comprovante de identidade não pode ser aceito."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um comprovante de identidade diferente, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Seu comprovante de identidade está borrado."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um documento de alta resolução, claro e legível, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Seu comprovante de identidade foi cortado."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um documento completo, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity doesn't show your date of birth."
@@ -12621,30 +12645,6 @@ msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um document
 msgctxt "KYC email footnote"
 msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
 msgstr "Responda a este e-mail e anexe sua certidão de nascimento ou envie um comprovante de identidade diferente que mostre sua data de nascimento."
-
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Seu comprovante de identidade não atende aos nossos padrões de verificação."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um comprovante de identidade válido, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "O tipo de documento enviado como comprovante de identidade não pode ser aceito."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um comprovante de identidade diferente, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "Seu comprovante de identidade expirou."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Visite seu perfil para verificar/autenticar sua conta. Envie um documento válido, como passaporte, carteira de habilitação ou carteira de identidade nacional, com os seguintes requisitos:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
