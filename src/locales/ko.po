@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-07-09 11:58\n"
+"PO-Revision-Date: 2025-07-10 12:11\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -1098,6 +1098,9 @@ msgstr "허가가 거부되었습니다. %1 범위가 요구됩니다."
 
 msgid "Permission denied, requires %1 scope."
 msgstr "허가 거부되었습니다, %1 범위가 요구됩니다."
+
+msgid "Permission denied, requires admin scope."
+msgstr "권한이 거부되었습니다. admin 범위가 필요합니다."
 
 msgid "Permission denied, requires read or %1 scopes."
 msgstr "허가 거부되었습니다, 읽기 또는 %1 범위가 요구됩니다."
@@ -6142,9 +6145,6 @@ msgstr "죄송합니다, 귀하께서는 너무 많은 시도가 실패되었습
 msgid "You have chosen to exclude yourself until %1. Please contact customer support via live chat for further assistance."
 msgstr "귀하는 %1까지 자신을 제외하도록 선택하셨습니다. 추가 지원이 필요하면 실시간 채팅을 통해 고객 지원 팀에 문의해 주시기 바랍니다."
 
-msgid "You are currently logged in with a different account. To log in with another account, please log out first and try again."
-msgstr "현재 다른 계정으로 로그인되어 있습니다. 다른 계정으로 로그인하려면 먼저 로그아웃한 후 다시 시도해 주세요."
-
 msgid "The request is either missing required parameters or has invalid values."
 msgstr "요청에 필수 매개변수가 누락되었거나 유효하지 않은 값이 포함되어 있습니다."
 
@@ -7801,48 +7801,44 @@ msgid "noqodi account"
 msgstr "noqodi 계정"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "투표자 ID"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "여권"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Social Security and National Insurance Trust (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "운전 면허증"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "아다르 카드 (Aadhaar Card)"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN 카드"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "National ID Number"
+msgstr "국민식별번호"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "국민식별번호"
+msgid "PAN Card"
+msgstr "PAN 카드"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "운전 면허증"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "여권"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "아다르 카드 (Aadhaar Card)"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "투표자 ID"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Social Security and National Insurance Trust (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "외국인 카드 (Alien Card)"
 
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
@@ -7853,8 +7849,12 @@ msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "외국인 카드 (Alien Card)"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12569,6 +12569,34 @@ msgid "is dated within the last %1 months"
 msgstr "지난 %1개월 내로 날짜가 되어 있습니다"
 
 msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "귀하의 신분 증명이 크롭되어 있습니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 다음의 요건을 충족하는 여권, 운전면허증 또는 주민등록증과 같은 전체 문서를 제출해 주시기 바랍니다:"
+
+msgctxt "KYC email title"
+msgid "The selfie submitted does not show a clear image of your face."
+msgstr "제출하신 셀카에서 귀하의 얼굴이 선명하게 나와 있지 않습니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
+msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 귀하의 신분증에 있는 사진과 대조하여 확인할 수 있는 선명한 얼굴 이미지가 담긴 셀카를 제출해 주시기 바랍니다."
+
+msgctxt "KYC email subtitle"
+msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하께서는 다음의 요구사항들과 함께, 여권, 운전면허증, 또는 국가 신분증과 같은 신분 증명서를 함께 제출하실 수도 있습니다:"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "귀하께서 신분증으로 제출하신 문서는 수락될 수 없습니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하의 계좌를 검증/인증하기 위하여 귀하의 프로필을 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전면허증, 또는 주민등록증과 같은 다른 신분증명문서를 제출하세요:"
+
+msgctxt "KYC email title"
 msgid "Your proof of identity doesn't show your date of birth."
 msgstr "귀하의 신분증이 귀하의 생년월일을 표시하고 있지 않습니다."
 
@@ -12579,6 +12607,22 @@ msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필을 �
 msgctxt "KYC email footnote"
 msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
 msgstr "귀하의 출생증명서를 첨부하여 이 이메일에 회신하시거나 생년월일이 표시된 다른 신분증을 제출해 주시기 바랍니다."
+
+msgctxt "KYC email title"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "귀하의 신분증에 나와 있는 성명과 귀하의 Deriv 프로필이 일치하지 않습니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "프로필로 이동하여 세부 정보가 정확하도록 해 주세요. 그 후에는 다음의 요건을 만족하여 여권, 운전면허증 또는 신분증을 제출하여 귀하의 계정을 확인/인증해 주세요."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "귀하의 신분증명이 저희의 인증 기준을 만족하지 못합니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필에 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전 면허증, 또는 주민등록증과 같은 유효한 신분증을 제출하시기 바랍니다:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is expired."
@@ -12597,34 +12641,6 @@ msgid "Please visit your profile to verify/authenticate your account. Submit a h
 msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요. 다음의 요구 사항을 충족하는 여권, 운전면허증 또는 신분증과 같이 명확하고 읽기 쉬운 고해상도 문서를 제출해 주세요:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "귀하의 신분증에 나와 있는 성명과 귀하의 Deriv 프로필이 일치하지 않습니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "프로필로 이동하여 세부 정보가 정확하도록 해 주세요. 그 후에는 다음의 요건을 만족하여 여권, 운전면허증 또는 신분증을 제출하여 귀하의 계정을 확인/인증해 주세요."
-
-msgctxt "KYC email title"
-msgid "The selfie submitted does not show a clear image of your face."
-msgstr "제출하신 셀카에서 귀하의 얼굴이 선명하게 나와 있지 않습니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
-msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 귀하의 신분증에 있는 사진과 대조하여 확인할 수 있는 선명한 얼굴 이미지가 담긴 셀카를 제출해 주시기 바랍니다."
-
-msgctxt "KYC email subtitle"
-msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하께서는 다음의 요구사항들과 함께, 여권, 운전면허증, 또는 국가 신분증과 같은 신분 증명서를 함께 제출하실 수도 있습니다:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "귀하의 신분증명이 저희의 인증 기준을 만족하지 못합니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필에 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전 면허증, 또는 주민등록증과 같은 유효한 신분증을 제출하시기 바랍니다:"
-
-msgctxt "KYC email title"
 msgid "Your proof of identity is missing a front/back section."
 msgstr "귀하의 신분 증명에서 앞/뒷 부분이 없습니다."
 
@@ -12635,22 +12651,6 @@ msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요
 msgctxt "KYC email footnote"
 msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
 msgstr "제공된 링크를 통해 문서의 양면을 전송하는 데 문제가 있는 경우, 문서의 앞면과 뒷면을 모두 첨부하여 이 이메일에 회신할 수 있습니다."
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "귀하께서 신분증으로 제출하신 문서는 수락될 수 없습니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하의 계좌를 검증/인증하기 위하여 귀하의 프로필을 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전면허증, 또는 주민등록증과 같은 다른 신분증명문서를 제출하세요:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "귀하의 신분 증명이 크롭되어 있습니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 다음의 요건을 충족하는 여권, 운전면허증 또는 주민등록증과 같은 전체 문서를 제출해 주시기 바랍니다:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
