@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-07-09 11:58\n"
+"PO-Revision-Date: 2025-07-10 12:11\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
@@ -1098,6 +1098,9 @@ msgstr "Quyền hạn bị từ chối, yêu cầu phạm vi %1."
 
 msgid "Permission denied, requires %1 scope."
 msgstr "Quyền hạn bị từ chối, yêu cầu phạm vi %1."
+
+msgid "Permission denied, requires admin scope."
+msgstr "Quyền hạn bị từ chối, yêu cầu phạm vi admin."
 
 msgid "Permission denied, requires read or %1 scopes."
 msgstr "Quyền hạn bị từ chối, yêu cầu đọc hoặc phạm vi %1."
@@ -6142,9 +6145,6 @@ msgstr "Xin lỗi, bạn đã có quá nhiều hoạt động không thà
 msgid "You have chosen to exclude yourself until %1. Please contact customer support via live chat for further assistance."
 msgstr "Bạn đã chọn loại trừ bản thân cho đến %1. Vui lòng liên hệ với bộ phận hỗ trợ khách hàng qua trò chuyện trực tiếp để được hỗ trợ thêm."
 
-msgid "You are currently logged in with a different account. To log in with another account, please log out first and try again."
-msgstr "Bạn hiện đang đăng nhập bằng một tài khoản khác. Để đăng nhập bằng tài khoản khác, vui lòng đăng xuất trước và thử lại."
-
 msgid "The request is either missing required parameters or has invalid values."
 msgstr "Yêu cầu đang thiếu các tham số cần thiết hoặc có giá trị không hợp lệ."
 
@@ -7801,48 +7801,44 @@ msgid "noqodi account"
 msgstr "tài khoản noqodi"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Mã số phiếu bầu"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Hộ chiếu"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Quỹ An sinh xã hội và Bảo hiểm hưu trí (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Bằng lái xe"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Thẻ Aadhaar"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Thẻ PAN"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
+msgid "National ID Number"
+msgstr "Số Căn cước công dân"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Số Căn cước công dân"
+msgid "PAN Card"
+msgstr "Thẻ PAN"
+
+msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "Bằng lái xe"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Hộ chiếu"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Thẻ Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "Mã số phiếu bầu"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Quỹ An sinh xã hội và Bảo hiểm hưu trí (SSNIT)"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Thẻ ngoại quốc"
 
 msgctxt "IDV document type "
 msgid "National ID Number Slip"
@@ -7853,8 +7849,12 @@ msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Thẻ ngoại quốc"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12569,6 +12569,34 @@ msgid "is dated within the last %1 months"
 msgstr "có ngày tháng trong vòng %1 tháng qua"
 
 msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Giấy tờ tùy thân bị cắt xén."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Nộp đầy đủ giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
+
+msgctxt "KYC email title"
+msgid "The selfie submitted does not show a clear image of your face."
+msgstr "Ảnh tự chụp được gửi không hiển thị rõ ràng hình ảnh khuôn mặt của bạn."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
+msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi ảnh tự chụp rõ ràng về khuôn mặt của bạn để chúng tôi có thể xác minh dựa trên ảnh trong giấy tờ tùy thân của bạn."
+
+msgctxt "KYC email subtitle"
+msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Bạn cũng có thể gửi nó cùng với giấy tờ tùy thân của bạn, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "Giấy tờ bạn đã gửi để chứng minh danh tính không được chấp nhận."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập trang hồ sơ của bạn để xác minh/xác thực tài khoản. Gửi giấy tờ tùy thân khác như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
+
+msgctxt "KYC email title"
 msgid "Your proof of identity doesn't show your date of birth."
 msgstr "Giấy tờ tùy thân của bạn không hiển thị ngày sinh của bạn."
 
@@ -12579,6 +12607,22 @@ msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực t�
 msgctxt "KYC email footnote"
 msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
 msgstr "Vui lòng trả lời email này và đính kèm giấy khai sinh của bạn hoặc gửi giấy tờ tùy thân khác có ghi ngày sinh của bạn."
+
+msgctxt "KYC email title"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "Tên trên giấy tờ tùy thân của bạn và hồ sơ Deriv không khớp."
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập vào hồ sơ và đảm bảo thông tin của bạn là chính xác. Sau đó, xác minh/xác thực tài khoản của bạn bằng cách gửi giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân với các yêu cầu sau:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Giấy tờ xác thực danh tính của bạn không đáp ứng các tiêu chuẩn xác minh của chúng tôi."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi giấy tờ tùy thân hợp lệ, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is expired."
@@ -12597,34 +12641,6 @@ msgid "Please visit your profile to verify/authenticate your account. Submit a h
 msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Gửi tài liệu có độ phân giải cao, rõ ràng và dễ đọc, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "Tên trên giấy tờ tùy thân của bạn và hồ sơ Deriv không khớp."
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập vào hồ sơ và đảm bảo thông tin của bạn là chính xác. Sau đó, xác minh/xác thực tài khoản của bạn bằng cách gửi giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân với các yêu cầu sau:"
-
-msgctxt "KYC email title"
-msgid "The selfie submitted does not show a clear image of your face."
-msgstr "Ảnh tự chụp được gửi không hiển thị rõ ràng hình ảnh khuôn mặt của bạn."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
-msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi ảnh tự chụp rõ ràng về khuôn mặt của bạn để chúng tôi có thể xác minh dựa trên ảnh trong giấy tờ tùy thân của bạn."
-
-msgctxt "KYC email subtitle"
-msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Bạn cũng có thể gửi nó cùng với giấy tờ tùy thân của bạn, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Giấy tờ xác thực danh tính của bạn không đáp ứng các tiêu chuẩn xác minh của chúng tôi."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi giấy tờ tùy thân hợp lệ, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
-
-msgctxt "KYC email title"
 msgid "Your proof of identity is missing a front/back section."
 msgstr "Giấy tờ tùy thân của bạn bị thiếu phần trước/sau."
 
@@ -12635,22 +12651,6 @@ msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực 
 msgctxt "KYC email footnote"
 msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
 msgstr "Nếu bạn gặp sự cố khi gửi cả hai mặt của tài liệu qua link được cung cấp, bạn có thể trả lời email này với tệp đính kèm của cả mặt trước và mặt sau của tài liệu."
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "Giấy tờ bạn đã gửi để chứng minh danh tính không được chấp nhận."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập trang hồ sơ của bạn để xác minh/xác thực tài khoản. Gửi giấy tờ tùy thân khác như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Giấy tờ tùy thân bị cắt xén."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Nộp đầy đủ giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
