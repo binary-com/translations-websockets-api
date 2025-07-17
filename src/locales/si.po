@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-07-17 03:28\n"
+"PO-Revision-Date: 2025-07-17 12:17\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "MIME-Version: 1.0\n"
@@ -39,6 +39,12 @@ msgstr "මේ මොහොතේ %1 සඳහා සහාය නොදක්�
 
 msgid "%1 is similar to an available P2P payment method. Try entering a different payment method."
 msgstr "%1 ලබා ගත හැකි P2P ගෙවීම් ක්රමයකට සමාන වේ. වෙනත් ගෙවීම් ක්රමයක් ඇතුළත් කිරීමට උත්සාහ කරන්න."
+
+msgid "%1 must be ARRAY type"
+msgstr "%1 අරයෙන් ARRAY වර්ගයක් විය යුතුය"
+
+msgid "%1 must be set if %2 is set"
+msgstr "%2 සකසා ඇත්නම් %1 සකසා තිබිය යුතුය"
 
 msgid "%1 permissions have changed please re-confirm:"
 msgstr "%1 අවසර වෙනස් වී ඇත, කරුණාකර නැවත තහවුරු කරන්න:"
@@ -211,8 +217,8 @@ msgstr "හඳුනාගත නොහැකි දෝෂයක් සිදු
 msgid "Another partner account creation process is already in progress. Please try again later."
 msgstr "තවත් හවුල්කාර ගිණුම් නිර්මාණය කිරීමේ ක්‍රියාවලියක් දැනටමත් ක්‍රියාත්මක වෙමින් පවතී. කරුණාකර පසුව නැවත උත්සාහ කරන්න."
 
-msgid "App name can't include 'deriv' and/or 'binary' or words that look similar."
-msgstr "යෙදුම් නාමයේ 'deriv' සහ/හෝ 'binary' හෝ සමාන ලෙස පෙනෙන වචන ඇතුළත් කළ නොහැක."
+msgid "App name can't include %1 and/or %2 or words that look similar."
+msgstr "යෙදුම් නාමයේ %1 සහ/හෝ %2 හෝ සමාන ලෙස පෙනෙන වචන ඇතුළත් කළ නොහැක."
 
 msgid "As some of your previous deposits were made via P2P and payment agents, the maximum you can withdraw is %1 %2."
 msgstr "ඔබේ පෙර තැන්පතු සමහරක් P2P සහ ගෙවීම් නියෝජිතයන් හරහා සිදු කර ඇති බැවින්, ඔබට ආපසු ලබාගත හැකි උපරිමය %1 %2 වේ."
@@ -7801,12 +7807,8 @@ msgid "noqodi account"
 msgstr "noqodi ගිණුම"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "රියදුරු බලපත්‍රය"
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
@@ -7821,24 +7823,36 @@ msgid "Alien Card"
 msgstr "ඒලියන් කාඩ්පත"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "ඡන්ද දායක හැඳුනුම්පත"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
+msgid "Drivers License"
+msgstr "රියදුරු බලපත්‍රය"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "සමාජ ආරක්ෂණ සහ ජාතික රක්ෂණ භාරය (SSNIT)"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "ජාතික හැඳුනුම්පත් අංක පත්‍රිකාව"
 
 msgctxt "IDV document type "
 msgid "Aadhaar Card"
@@ -7847,14 +7861,6 @@ msgstr "Aadhaar කාඩ්පත"
 msgctxt "IDV document type "
 msgid "PAN Card"
 msgstr "PAN කාඩ්පත"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12569,12 +12575,44 @@ msgid "is dated within the last %1 months"
 msgstr "පසුගිය මාස %1 තුළ දිනයකි"
 
 msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "ඔබේ අනන්‍යතාවය පිළිබඳ සාක්ෂි බොඳ වී ඇත."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිතව ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි ඉහළ විභේදනයකින් යුත්, පැහැදිලි සහ කියවිය හැකි ලේඛනයක් ඉදිරිපත් කරන්න:"
+
+msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
 msgstr "ඔබ අනන්‍යතා සාක්ෂියක් ලෙස ඉදිරිපත් කළ ලේඛන වර්ගය පිළිගත නොහැක."
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සමඟ ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි වෙනත් අනන්‍යතා සාක්ෂියක් ඉදිරිපත් කරන්න:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "ඔබේ අනන්‍යතා සාක්ෂියේ ඔබේ උපන් දිනය නොපෙන්වයි."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිත ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි ලේඛනයක් ඉදිරිපත් කරන්න:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "කරුණාකර මෙම ඊ-තැපෑලට පිළිතුරු දී ඔබේ උප්පැන්න සහතිකය අමුණන්න හෝ ඔබේ උපන් දිනය පෙන්වන වෙනත් අනන්‍යතා සාක්ෂියක් ඉදිරිපත් කරන්න."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "ඔබේ අනන්‍යතා සාක්ෂියේ ඉදිරිපස/පසුපස කොටසක් අස්ථානගත වී ඇත."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිත ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි ඔබේ සම්පූර්ණ අනන්‍යතා සාක්ෂි ඉදිරිපත් කරන්න:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "ඔබට ලබා දී ඇති සබැඳිය හරහා ලේඛනයේ දෙපැත්ත යැවීමේ ගැටලුවක් තිබේ නම්, ඔබගේ ලේඛනයේ ඉදිරිපස සහ පසුපස යන දෙපස ඇමුණුමක් සමඟින් ඔබට මෙම ඊ-තැපෑලට පිළිතුරු දිය හැක."
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -12589,14 +12627,6 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "ඔබට පහත අවශ්‍යතා සමඟ ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි ඔබේ අනන්‍යතා සාක්ෂියක් සමඟ එය ඉදිරිපත් කළ හැකිය:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "ඔබේ අනන්‍යතාවය පිළිබඳ සාක්ෂි බොඳ වී ඇත."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිතව ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි ඉහළ විභේදනයකින් යුත්, පැහැදිලි සහ කියවිය හැකි ලේඛනයක් ඉදිරිපත් කරන්න:"
-
-msgctxt "KYC email title"
 msgid "Your proof of identity is expired."
 msgstr "ඔබේ අනන්‍යතා සාක්ෂිය කල් ඉකුත් වී ඇත."
 
@@ -12605,16 +12635,12 @@ msgid "Please visit your profile to verify/authenticate your account. Submit a v
 msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිත ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි වලංගු ලේඛනයක් ඉදිරිපත් කරන්න:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "ඔබේ අනන්‍යතා සාක්ෂියේ ඉදිරිපස/පසුපස කොටසක් අස්ථානගත වී ඇත."
+msgid "Your proof of identity is cropped."
+msgstr "ඔබේ අනන්‍යතා සාක්ෂිය කපා (cropped) ඇත."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිත ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි ඔබේ සම්පූර්ණ අනන්‍යතා සාක්ෂි ඉදිරිපත් කරන්න:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "ඔබට ලබා දී ඇති සබැඳිය හරහා ලේඛනයේ දෙපැත්ත යැවීමේ ගැටලුවක් තිබේ නම්, ඔබගේ ලේඛනයේ ඉදිරිපස සහ පසුපස යන දෙපස ඇමුණුමක් සමඟින් ඔබට මෙම ඊ-තැපෑලට පිළිතුරු දිය හැක."
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිත ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි සම්පූර්ණ ලේඛනයක් ඉදිරිපත් කරන්න:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity does not meet our verification standards."
@@ -12631,26 +12657,6 @@ msgstr "ඔබේ අනන්‍යතා සාක්ෂියේ සහ Deriv
 msgctxt "KYC email subtitle"
 msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "කරුණාකර ඔබේ පැතිකඩ වෙත ගොස් ඔබේ විස්තර නිවැරදි බව සහතික කර ගන්න. අනතුරුව, පහත අවශ්‍යතා සමඟ ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි අනන්‍යතා සාක්ෂියක් ඉදිරිපත් කිරීමෙන් ඔබේ ගිණුම සත්‍යාපනය/සහතික කරන්න:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "ඔබේ අනන්‍යතා සාක්ෂිය කපා (cropped) ඇත."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිත ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි සම්පූර්ණ ලේඛනයක් ඉදිරිපත් කරන්න:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "ඔබේ අනන්‍යතා සාක්ෂියේ ඔබේ උපන් දිනය නොපෙන්වයි."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "ඔබේ ගිණුම සත්‍යාපනය/සහතික කිරීමට කරුණාකර ඔබේ පැතිකඩ වෙත පිවිසෙන්න. පහත අවශ්‍යතා සහිත ගමන් බලපත්‍රයක්, රියදුරු බලපත්‍රයක් හෝ ජාතික හැඳුනුම්පතක් වැනි ලේඛනයක් ඉදිරිපත් කරන්න:"
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "කරුණාකර මෙම ඊ-තැපෑලට පිළිතුරු දී ඔබේ උප්පැන්න සහතිකය අමුණන්න හෝ ඔබේ උපන් දිනය පෙන්වන වෙනත් අනන්‍යතා සාක්ෂියක් ඉදිරිපත් කරන්න."
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
