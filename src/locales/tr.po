@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-08-11 12:38\n"
+"PO-Revision-Date: 2025-08-13 12:12\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -7822,6 +7822,10 @@ msgid "noqodi account"
 msgstr "noqodi hesabı"
 
 msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
+
+msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "Ulusal Kimlik Numarası"
 
@@ -7838,44 +7842,40 @@ msgid "National ID Number Slip"
 msgstr "Ulusal Kimlik Numarası Fişi"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN Kartı"
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "Passport"
 msgstr "Pasaport"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Aadhaar Kartı"
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "Seçmen Kimliği"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
+msgid "Aadhaar Card"
+msgstr "Aadhaar Kartı"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "PAN Kartı"
 
 msgctxt "IDV document type "
 msgid "Alien Card"
 msgstr "Yabancı Kartı"
 
 msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "Social Security and National Insurance Trust (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12573,29 +12573,41 @@ msgctxt "Customer.io email:  process_automation_duplicate_account_closed  "
 msgid "Our clients can have only %1one%2 real account. As a result, we have disabled the account linked to this email. You may continue using your other account for future trading."
 msgstr "Müşterilerimiz yalnızca %1bir%2 gerçek hesap sahibi olabilir. Bu nedenle, bu e-postaya bağlı hesabı devre dışı bıraktık. Gelecekte işlem yapmak için diğer hesabınızı kullanmaya devam edebilirsiniz."
 
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "Important: proof of identity required"
+msgstr "Önemli: kimlik kanıtı gerekli"
+
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "Upload your POI document %1to start trading"
+msgstr "Ticarete başlamak için %1 kimlik kanıtı belgenizi yükleyin"
+
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "A valid proof of identity (POI) document is required to verify your account."
+msgstr "Hesabınızı doğrulamak için geçerli bir kimlik kanıtı (POI) belgesi gereklidir."
+
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "You can submit one of the following:"
+msgstr "Aşağıdakilerden birini sunabilirsiniz:"
+
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "Driver’s license"
+msgstr "Sürücü belgesi"
+
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "National ID card"
+msgstr "Ulusal Kimlik kartı"
+
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "The document must be valid and show your full name, date of birth, and photo."
+msgstr "Belge geçerli olmalı ve tam adınızı, doğum tarihinizi ve fotoğrafınızı göstermelidir."
+
+msgctxt "Customer.io email: process_automation_POI_request "
+msgid "Upload document"
+msgstr "Belge yükle"
+
 msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Doğrulama kodu: %1, 10 dakika boyunca geçerlidir."
-
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "Adres kanıtındaki isim, Deriv profiliniz ile eşleşmiyor."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Deriv hesabınızı finanse etmek için kullandığınız hesap numarasını açıkça gösteren imzalı ve damgalı bir banka ekstresi gönderin."
-
-msgctxt "KYC email layout"
-msgid "bears your name that matches your Deriv profile"
-msgstr "Deriv profilinizle eşleşen adınızı taşır"
-
-msgctxt "KYC email layout"
-msgid "shows a residential address that matches your Deriv profile"
-msgstr "deriv profilinizle eşleşen bir ikamet adresi gösterir"
-
-msgctxt "KYC email layout"
-msgid "is dated within the last %1 months"
-msgstr "son %1 ay içinde tarihlendirilmiş"
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12618,12 +12630,16 @@ msgid "Please reply to this email and attach your birth certificate or submit a 
 msgstr "Lütfen bu e-postayı yanıtlayın ve doğum belgenizi ekleyin veya doğum tarihinizi gösteren farklı bir kimlik belgesi gönderin."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Kimlik kanıtınız bulanık."
+msgid "Your proof of identity is missing a front/back section."
+msgstr "Kimlik belgenizin ön/arka bölümü eksik."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Pasaport, ehliyet veya ulusal kimlik kartı gibi yüksek çözünürlüklü, net ve okunabilir bir belgeyi aşağıdaki gereksinimlerle birlikte gönderin:"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Pasaport, ehliyet veya nüfus cüzdanı gibi eksiksiz kimlik belgenizi aşağıdaki gereksinimlerle birlikte gönderin:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "Sağlanan bağlantı aracılığıyla belgenin her iki tarafını da gönderirken sorun yaşıyorsanız, bu e-postaya belgenizin hem ön hem de arka tarafının bir eki ile yanıt verebilirsiniz."
 
 msgctxt "KYC email title"
 msgid "Your proof of identity does not meet our verification standards."
@@ -12640,26 +12656,6 @@ msgstr "Kimlik kanıtınız ve Deriv profilinizdeki isimler eşleşmiyor."
 msgctxt "KYC email subtitle"
 msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Lütfen profilinize gidin ve bilgilerinizin doğru olduğundan emin olun. Ardından, aşağıdaki gereksinimlerle pasaport, ehliyet veya ulusal kimlik kartı gibi bir kimlik belgesi göndererek hesabınızı doğrulayın/onaylayın:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Kimlik kanıtınız kırpılmış."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Pasaport, ehliyet veya ulusal kimlik kartı gibi tam bir belgeyi aşağıdaki gereksinimlerle birlikte gönderin:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "Kimlik belgenizin ön/arka bölümü eksik."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Pasaport, ehliyet veya nüfus cüzdanı gibi eksiksiz kimlik belgenizi aşağıdaki gereksinimlerle birlikte gönderin:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "Sağlanan bağlantı aracılığıyla belgenin her iki tarafını da gönderirken sorun yaşıyorsanız, bu e-postaya belgenizin hem ön hem de arka tarafının bir eki ile yanıt verebilirsiniz."
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -12681,6 +12677,26 @@ msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Pasaport, ehliyet veya nüfus cüzdanı gibi geçerli bir belgeyi aşağıdaki gereksinimlerle birlikte gönderin:"
 
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Kimlik kanıtınız bulanık."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Pasaport, ehliyet veya ulusal kimlik kartı gibi yüksek çözünürlüklü, net ve okunabilir bir belgeyi aşağıdaki gereksinimlerle birlikte gönderin:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Kimlik kanıtınız kırpılmış."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Pasaport, ehliyet veya ulusal kimlik kartı gibi tam bir belgeyi aşağıdaki gereksinimlerle birlikte gönderin:"
+
+msgctxt "KYC email layout"
+msgid "bears your name that matches your Deriv profile"
+msgstr "Deriv profilinizle eşleşen adınızı taşır"
+
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
 msgstr "veriliş ve/veya son kullanma tarihini göster (geçerli ise)"
@@ -12692,4 +12708,20 @@ msgstr "tam doğum tarihinizi gösterir"
 msgctxt "KYC email layout"
 msgid "shows your photo"
 msgstr "fotoğrafınızı gösterir"
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "Adres kanıtındaki isim, Deriv profiliniz ile eşleşmiyor."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "Hesabınızı onaylamak/doğrulamak için lütfen profilinizi ziyaret edin. Deriv hesabınızı finanse etmek için kullandığınız hesap numarasını açıkça gösteren imzalı ve damgalı bir banka ekstresi gönderin."
+
+msgctxt "KYC email layout"
+msgid "shows a residential address that matches your Deriv profile"
+msgstr "deriv profilinizle eşleşen bir ikamet adresi gösterir"
+
+msgctxt "KYC email layout"
+msgid "is dated within the last %1 months"
+msgstr "son %1 ay içinde tarihlendirilmiş"
 
