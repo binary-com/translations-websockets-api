@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-08-11 12:38\n"
+"PO-Revision-Date: 2025-08-13 12:12\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -436,7 +436,7 @@ msgstr "Una guida semplice per fare trading sugli Indici Synthetic—mercati dis
 
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "A valid proof of identity (POI) document is required to verify your account."
-msgstr ""
+msgstr "È richiesto un documento valido di verifica dell'identità (POI) per confermare il tuo conto."
 
 msgid "ACCU is not supported."
 msgstr "ACCU non è supportato."
@@ -1533,6 +1533,14 @@ msgstr "Impossibile generare la richiesta per %1."
 msgid "Cannot create contract"
 msgstr "Impossibile creare contratto"
 
+#, fuzzy
+#| msgid "You cannot subscribe to an account with no currency selected."
+msgid "Cannot create new trading account with existing corresponding wallet."
+msgstr "Non puoi iscriverti a un conto senza averne selezionato la valuta."
+
+msgid "Cannot create new wallet with existing corresponding trading account."
+msgstr ""
+
 msgid "Cannot generate token for %1."
 msgstr "Impossibile generare token %1."
 
@@ -2472,12 +2480,9 @@ msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "Patente"
 
-#, fuzzy
-#| msgctxt "IDV document type "
-#| msgid "Drivers License"
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "Driver’s license"
-msgstr "Patente"
+msgstr "Patente di guida"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -3920,12 +3925,9 @@ msgctxt "Customer.io email: dummy_all_transactional_deposit_reversed "
 msgid "Important: Your recent Deriv deposit"
 msgstr "Importante: Il tuo recente deposito Deriv"
 
-#, fuzzy
-#| msgctxt "KYC email title"
-#| msgid "Your proof of identity is expired."
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "Important: proof of identity required"
-msgstr "Il tuo documento di verifica dell'identità è scaduto."
+msgstr "Importante: è richiesto un documento a verifica dell'identità"
 
 msgid "In order for you to place contracts, we need to know your Residence (Country). Please update your settings."
 msgstr "Per poter aprire dei contratti, abbiamo bisogno della tua Residenza (Paese). Aggiorna le tue impostazioni."
@@ -5062,12 +5064,9 @@ msgctxt "IDV document type "
 msgid "National ID Number Slip"
 msgstr "Numero Slip della carta d'identità"
 
-#, fuzzy
-#| msgctxt "IDV document type "
-#| msgid "National ID Number"
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "National ID card"
-msgstr "Carta d'identità"
+msgstr "Documento d'identità nazionale"
 
 msgctxt "Customer.io email: dummy_mf_poi_expired "
 msgid "National ID card (front and back), or"
@@ -7851,12 +7850,9 @@ msgstr "I dettagli nel documento di indirizzo non corrispondono al tuo profilo."
 msgid "The document is missing."
 msgstr "Documento mancante."
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_poa_failed_reminder "
-#| msgid "Your document must show your full name."
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "The document must be valid and show your full name, date of birth, and photo."
-msgstr "Il documento deve mostrare il nome completo."
+msgstr "Il documento deve essere valido e riportare il tuo nome completo, la data di nascita e una foto."
 
 msgid "The document type you entered isn't supported for the country you selected."
 msgstr "Il tipo di documento caricato non è valido per il Paese selezionato."
@@ -8499,6 +8495,11 @@ msgstr "La modalità di pagamento è in uso per diversi ordini e/o annunci, e no
 
 msgid "This payment method is in use by the following order(s): %1. Please wait until it completes."
 msgstr "La modalità di pagamento è in uso per il seguente ordine: %1. Attendi la fine dell'operazione."
+
+#, fuzzy
+#| msgid "This order is under dispute."
+msgid "This platform is no longer supported."
+msgstr "Questo ordine è oggetto di contestazione."
 
 msgid "This reason doesn't apply to your case. Please choose another reason."
 msgstr "Questa motivazione non si applica al tuo caso: scegli un'altra motivazione."
@@ -9612,12 +9613,6 @@ msgctxt "field for payment method Unitylink"
 msgid "Unitylink account"
 msgstr "Conto Unitylink"
 
-msgid "Unknown contract proposal"
-msgstr "Proposta di contratto sconosciuta"
-
-msgid "Unknown contract sell proposal"
-msgstr "Proposta di vendita di contratto sconosciuta"
-
 msgid "Unknown country code."
 msgstr "Codice paese sconosciuto."
 
@@ -9657,12 +9652,9 @@ msgctxt "Customer.io email: dummy_mf_poi_expired "
 msgid "Upload a scanned copy of any of the following documents:"
 msgstr "Carica una copia scansionata di uno dei seguenti documenti:"
 
-#, fuzzy
-#| msgctxt "Customer.io email: dummy_mf_poi_expired "
-#| msgid "Upload my document"
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "Upload document"
-msgstr "Carica il documento"
+msgstr "Carica documento"
 
 msgctxt "Customer.io email: dummy_mf_poi_expired "
 msgid "Upload my document"
@@ -9673,7 +9665,7 @@ msgstr "Carica i documenti"
 
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "Upload your POI document %1to start trading"
-msgstr ""
+msgstr "Carica il tuo documento di verifica dell'identità %1 per iniziare a fare trading"
 
 msgctxt "Customer.io email: dummy_mf_poi_expired "
 msgid "Urgent: Upload a new document now"
@@ -9948,6 +9940,16 @@ msgstr "Volatility 75 Index"
 msgid "Volatility 90 (1s) Index"
 msgstr "Indice Volatility 90 (1s)"
 
+#, fuzzy
+#| msgid "Volatility 10 Index"
+msgid "Volatility Up - Spot Down Index"
+msgstr "Volatility 10 Index"
+
+#, fuzzy
+#| msgid "Volatility 10 Index"
+msgid "Volatility Up - Spot Up Index"
+msgstr "Volatility 10 Index"
+
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "ID votante"
@@ -10119,6 +10121,9 @@ msgstr "Impossibile elaborare questo contratto in questo momento."
 msgctxt "Customer.io email: svg_all_transactional_payout_rejected "
 msgid "We could not process your withdrawal request"
 msgstr "Non è stato possibile elaborare la richiesta di recesso"
+
+msgid "We couldn't process your trade. Refresh the page or relaunch the app to try again."
+msgstr ""
 
 msgid "We couldn't sign you in using that passkey as it is not linked to your Deriv account. Remove the existing passkey from your iCloud Keychain or Google Password Manager and create a new passkey."
 msgstr "Non siamo riusciti a registrarla con questa passkey perché non è collegata al suo conto Deriv. Rimuova la passkey esistente dal suo Portachiavi iCloud o dal Gestore password di Google e crei una nuova passkey."
@@ -11097,12 +11102,9 @@ msgctxt "Customer.io email: svg_all_transactional_p2p_inactive_ad_removed "
 msgid "You can still reactivate the ad(s) above on the %1My ads%2 screen."
 msgstr "Puoi ancora riattivare il tuo annuncio o i tuoi annunci qui in alto nella schermata %1I miei annunci%2."
 
-#, fuzzy
-#| msgctxt "Customer.io email: svg_all_transactional_poa_verification_reminder "
-#| msgid "Please submit one of the following documents:"
 msgctxt "Customer.io email: process_automation_POI_request "
 msgid "You can submit one of the following:"
-msgstr "Invia uno dei seguenti documenti:"
+msgstr "Puoi presentare uno dei seguenti documenti:"
 
 msgctxt "Customer.io email: svg_real_to_deposit_Email2_exc10 "
 msgid "You can top up your account with cryptocurrencies in two ways. Use Bitcoin, Ethereum, and other digital coins directly, or purchase crypto through a fiat on-ramp to top up your account."
@@ -12742,3 +12744,9 @@ msgstr "👋 Salve e benvenuto su Deriv"
 msgctxt "Customer.io email: svg_all_transactional_poa_poi_resubmission "
 msgid "🔐Verification failed: Try again"
 msgstr "🔐Verifica fallita: riprova"
+
+#~ msgid "Unknown contract proposal"
+#~ msgstr "Proposta di contratto sconosciuta"
+
+#~ msgid "Unknown contract sell proposal"
+#~ msgstr "Proposta di vendita di contratto sconosciuta"
