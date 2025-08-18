@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-08-15 11:08\n"
+"PO-Revision-Date: 2025-08-18 12:45\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
@@ -153,6 +153,12 @@ msgstr "ที่อยู่: %1, ธุรกรรม: %2 รวมค่า�
 
 msgid "Advertising for this currency is currently unavailable. Please contact our Customer Support team or try again later."
 msgstr "การโฆษณาสำหรับสกุลเงินนี้ไม่สามารถใช้งานได้ในขณะนี้ โปรดติดต่อทีมสนับสนุนลูกค้าของเราหรือลองอีกครั้งในภายหลัง"
+
+msgid "Affiliate loyalty reward"
+msgstr "รางวัลความภักดีของพันธมิตร "
+
+msgid "Affiliate tier reward"
+msgstr "รางวัลระดับพันธมิตร "
 
 msgid "All rights reserved."
 msgstr "สงวนลิขสิทธิ์ทั้งหมด"
@@ -5719,6 +5725,9 @@ msgstr "ตัวยกเลิกดีลข้อตกลงไม่อา
 msgid "Cannot validate contract."
 msgstr "ไม่สามารถตรวจสอบสัญญา"
 
+msgid "Missing close tick for symbol %1."
+msgstr "ขาดเครื่องหมายปีกกาเปิดสำหรับสัญลักษณ์ %1"
+
 msgid "This symbol is not available."
 msgstr "สัญลักษณ์นี้ไม่สามารถใช้งานได้"
 
@@ -6006,6 +6015,9 @@ msgstr "การคาดการณ์ถึงจุด Tick แสดงร
 
 msgid "Contract cannot be sold at entry tick. Please wait for the next tick."
 msgstr "สัญญานั้นไม่อาจถูกขายได้ ณ จุด Tick เข้า โปรดรอให้ถึงจุด Tick อันถัดไปเสียก่อน"
+
+msgid "Sell price must be higher than stake %1."
+msgstr "ราคาขายต้องสูงกว่าเดิมพัน %1"
 
 msgid "An error occurred during contract settlement."
 msgstr "มีข้อผิดพลาดเกิดขึ้นระหว่างดำเนินการชำระสะสางสัญญา"
@@ -7834,28 +7846,12 @@ msgid "noqodi account"
 msgstr "บัญชี noqodi"
 
 msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "บัตร PAN"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "บัตร Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "หนังสือเดินทาง"
+msgid "National ID Number Slip"
+msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
 msgstr "ใบขับขี่"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "รหัสผู้ออกเสียงลงคะแนน"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "บัตรที่มีหมายเลขประจําตัวประชาชน"
 
 msgctxt "IDV document type "
 msgid "National ID Number"
@@ -7866,12 +7862,36 @@ msgid "Cédula de Identidad"
 msgstr "บัตรประจำตัว"
 
 msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "บัตรคนต่างด้าว"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
 msgid "Documento Nacional de Identidad"
 msgstr "เอกสาร Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "บัตร Aadhaar"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "รหัสผู้ออกเสียงลงคะแนน"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "บัตร PAN"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "หนังสือเดินทาง"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "บัตรคนต่างด้าว"
+
+msgctxt "IDV document type "
+msgid "Social Security and National Insurance Trust (SSNIT)"
+msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
@@ -7880,14 +7900,6 @@ msgstr "หมายเลขประจำตัว Nomor Induk Kependudukan"
 msgctxt "IDV document type "
 msgid "CPF"
 msgstr "หมายเลขประจำตัวประชาชน CPF"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Social Security and National Insurance Trust (SSNIT)"
-msgstr "บัตรประกันสังคมจาก Social Security and National Insurance Trust (SSNIT)"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12621,6 +12633,62 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "รหัสยืนยัน: %1 ใช้ได้ภายใน 10 นาที"
 
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งใบแจ้งยอดบัญชีธนาคารที่ลงนามและประทับตราแล้วและแสดงหมายเลขบัญชีที่คุณใช้ในการฝากเงินเข้าบัญชี Deriv ของคุณไว้อย่างชัดเจน"
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "ชื่อในหลักฐานแสดงที่อยู่นั้นไม่ตรงกับในโปรไฟล์ Deriv ของคุณ"
+
+msgctxt "KYC email layout"
+msgid "bears your name that matches your Deriv profile"
+msgstr "มีชื่อของคุณที่ตรงกับโปรไฟล์ Deriv ของคุณ"
+
+msgctxt "KYC email layout"
+msgid "shows a residential address that matches your Deriv profile"
+msgstr "แสดงที่อยู่อาศัยที่ตรงกับโปรไฟล์ Deriv ของคุณ"
+
+msgctxt "KYC email layout"
+msgid "is dated within the last %1 months"
+msgstr "มีการระบุวันที่อยู่ภายใน %1 เดือนที่ผ่านมา"
+
+msgctxt "KYC email title"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "ชื่อในหลักฐานการยืนยันตัวตนและในโปรไฟล์ Deriv นั้นไม่ตรงกัน"
+
+msgctxt "KYC email subtitle"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "โปรดไปที่โปรไฟล์ของคุณและตรวจสอบให้แน่ใจว่ารายละเอียดของคุณถูกต้อง จากนั้น ตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณโดยการส่งหลักฐานการยืนยันตัวตน เช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจําตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "หลักฐานการยืนยันตัวตนของคุณนั้นไม่แสดงวันเกิดของคุณ"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งเอกสาร เช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "โปรดตอบกลับอีเมล์นี้และแนบสูติบัตรของคุณหรือส่งหลักฐานการยืนยันตัวตนอื่นที่แสดงวันเกิดของคุณ"
+
+msgctxt "KYC email title"
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "ประเภทของเอกสารที่คุณส่งเป็นหลักฐานการยืนยันตัวตนนั้นไม่ถูกต้อง"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ ส่งหลักฐานยืนยันตัวตนอื่น เช่น หนังสือเดินทาง ใบขับขี่ หรือ บัตรประจําตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "หลักฐานการยืนยันตัวตนของคุณนั้นหมดอายุ"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งเอกสารที่ถูกต้องเช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
+
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
 msgstr "รูปเซลฟี่ที่ส่งมานั้นไม่ได้แสดงให้เห็นใบหน้าของคุณอย่างชัดเจน"
@@ -12634,20 +12702,24 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "นอกจากนี้ คุณยังสามารถส่งพร้อมกับหลักฐานการยืนยันตัวตนเช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "ชื่อในหลักฐานการยืนยันตัวตนและในโปรไฟล์ Deriv นั้นไม่ตรงกัน"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "หลักฐานการยืนยันตัวตนของคุณขาดส่วนหน้า/หลังไป"
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "โปรดไปที่โปรไฟล์ของคุณและตรวจสอบให้แน่ใจว่ารายละเอียดของคุณถูกต้อง จากนั้น ตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณโดยการส่งหลักฐานการยืนยันตัวตน เช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจําตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งหลักฐานการยืนยันตัวตนของคุณเช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "หากคุณมีปัญหาในการส่งเอกสารทั้งสองด้านผ่านลิงก์ที่ให้ไว้ คุณสามารถตอบกลับอีเมล์นี้พร้อมกับแนบเอกสารทั้งด้านหน้าและด้านหลังของคุณมาด้วย"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "หลักฐานการยืนยันตัวตนของคุณนั้นหมดอายุ"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "หลักฐานการยืนยันตัวตนของคุณไม่ผ่านตามมาตรฐานการตรวจสอบของเรา"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งเอกสารที่ถูกต้องเช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งหลักฐานการยืนยันตัวตนที่ถูกต้องเช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is blurred."
@@ -12665,50 +12737,6 @@ msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งเอกสารเต็มฉบับ เช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
 
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "หลักฐานการยืนยันตัวตนของคุณไม่ผ่านตามมาตรฐานการตรวจสอบของเรา"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งหลักฐานการยืนยันตัวตนที่ถูกต้องเช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "ประเภทของเอกสารที่คุณส่งเป็นหลักฐานการยืนยันตัวตนนั้นไม่ถูกต้อง"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ ส่งหลักฐานยืนยันตัวตนอื่น เช่น หนังสือเดินทาง ใบขับขี่ หรือ บัตรประจําตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "หลักฐานการยืนยันตัวตนของคุณนั้นไม่แสดงวันเกิดของคุณ"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งเอกสาร เช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "โปรดตอบกลับอีเมล์นี้และแนบสูติบัตรของคุณหรือส่งหลักฐานการยืนยันตัวตนอื่นที่แสดงวันเกิดของคุณ"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "หลักฐานการยืนยันตัวตนของคุณขาดส่วนหน้า/หลังไป"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งหลักฐานการยืนยันตัวตนของคุณเช่น หนังสือเดินทาง ใบขับขี่ หรือบัตรประจำตัวประชาชน โดยมีข้อกำหนดดังต่อไปนี้:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "หากคุณมีปัญหาในการส่งเอกสารทั้งสองด้านผ่านลิงก์ที่ให้ไว้ คุณสามารถตอบกลับอีเมล์นี้พร้อมกับแนบเอกสารทั้งด้านหน้าและด้านหลังของคุณมาด้วย"
-
-msgctxt "KYC email layout"
-msgid "bears your name that matches your Deriv profile"
-msgstr "มีชื่อของคุณที่ตรงกับโปรไฟล์ Deriv ของคุณ"
-
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
 msgstr "แสดงวันที่ออกเอกสาร/หรือวันที่หมดอายุ (ถ้ามี)"
@@ -12720,20 +12748,4 @@ msgstr "แสดงวันเดือนปีเกิดของคุณ
 msgctxt "KYC email layout"
 msgid "shows your photo"
 msgstr "แสดงรูปของคุณ"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "โปรดไปที่โปรไฟล์ของคุณเพื่อตรวจสอบ/ยืนยันความถูกต้องของบัญชีของคุณ และส่งใบแจ้งยอดบัญชีธนาคารที่ลงนามและประทับตราแล้วและแสดงหมายเลขบัญชีที่คุณใช้ในการฝากเงินเข้าบัญชี Deriv ของคุณไว้อย่างชัดเจน"
-
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "ชื่อในหลักฐานแสดงที่อยู่นั้นไม่ตรงกับในโปรไฟล์ Deriv ของคุณ"
-
-msgctxt "KYC email layout"
-msgid "shows a residential address that matches your Deriv profile"
-msgstr "แสดงที่อยู่อาศัยที่ตรงกับโปรไฟล์ Deriv ของคุณ"
-
-msgctxt "KYC email layout"
-msgid "is dated within the last %1 months"
-msgstr "มีการระบุวันที่อยู่ภายใน %1 เดือนที่ผ่านมา"
 
