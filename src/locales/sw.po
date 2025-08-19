@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-08-18 12:45\n"
+"PO-Revision-Date: 2025-08-19 11:57\n"
 "Last-Translator: \n"
 "Language-Team: Swahili\n"
 "MIME-Version: 1.0\n"
@@ -4372,6 +4372,12 @@ msgstr "Dira ya Kihispania"
 msgid "Spdr S&P 500 ETF CFD"
 msgstr "Spdr S&P 500 ETF CFD"
 
+msgid "Spot Up - Volatility Down Index"
+msgstr "Spot Imekaribia - Fahirisi ya Mabadiliko ya Bei Kushuka "
+
+msgid "Spot Up - Volatility Up Index"
+msgstr "Spot Imekaribia - Fahirisi ya Mabadiliko ya Bei Kuongezeka"
+
 msgid "Step Index 100"
 msgstr "Dira ya Step 100"
 
@@ -4995,12 +5001,6 @@ msgstr "Volatility 75 Index"
 
 msgid "Volatility 90 (1s) Index"
 msgstr "Indeeksi ya Volatility 90 (1s)"
-
-msgid "Volatility Up - Spot Down Index"
-msgstr "Volatility Juu - Spoti Chini Indeksi"
-
-msgid "Volatility Up - Spot Up Index"
-msgstr "Volatility Juu - Spoti Juu Indeksi"
 
 msgid "Wal-Mart Stores Inc."
 msgstr "Wal-Mart Stores Inc."
@@ -7846,8 +7846,32 @@ msgid "noqodi account"
 msgstr "akaunti ya noqodi"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Slip ya Nambari ya Kitambulisho cha Taifa"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Pasipoti"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "Kadi ya PAN"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "Kitambulisho cha mpiga kura"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Kadi ya Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7858,36 +7882,16 @@ msgid "National ID Number"
 msgstr "Nambari ya Kitambulisho cha Taifa"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Kadi ya Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "Kitambulisho cha mpiga kura"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Kadi ya PAN"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasipoti"
-
-msgctxt "IDV document type "
 msgid "Alien Card"
 msgstr "Kadi ya wageni"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Slip ya Nambari ya Kitambulisho cha Taifa"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7896,10 +7900,6 @@ msgstr "Hifadhi ya Jamii na Bima ya Taifa (SSNIT)"
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12633,13 +12633,13 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Msimbo wa uthibitisho: %1 utakuwa halali kwa dakika 10."
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha taarifa ya benki iliyosainiwa na kuwekwa muhuri inayoonyesha waziwazi nambari ya akaunti uliyotumia kuweka pesa kwenye akaunti yako ya Deriv."
-
 msgctxt "KYC email title"
 msgid "The name on the proof of address doesn't match your Deriv profile."
 msgstr "Jina kwenye uthibitisho wa anwani halifanani na jina la wasifu wako wa Deriv."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha taarifa ya benki iliyosainiwa na kuwekwa muhuri inayoonyesha waziwazi nambari ya akaunti uliyotumia kuweka pesa kwenye akaunti yako ya Deriv."
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -12662,16 +12662,28 @@ msgid "Please go to your profile and ensure your details are accurate. Then, ver
 msgstr "Tafadhali nenda kwenye wasifu wako na hakikisha maelezo yako ni sahihi. Kisha, thibitisha/hakiki akaunti yako kwa kuwasilisha uthibitisho wa kitambulisho, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "Uthibitisho wako wa utambulisho hauonyeshi tarehe yako ya kuzaliwa."
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Uthibitisho wako wa kitambulisho haukidhi viwango vyetu vya uthibitishaji."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha uthibitisho halali wa kitambulisho, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
 
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "Tafadhali jibu barua pepe hii na uambatishe cheti chako cha kuzaliwa au wasilisha uthibitisho mwingine wa utambulisho unaoonyesha tarehe yako ya kuzaliwa."
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Uthibitisho wako wa utambulisho umepunguzwa pembeni."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati kamili, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, kwa kuzingatia mahitaji yafuatayo:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Uthibitisho wako wa utambulisho umefichwa."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati yenye mwonekano mzuri, iliyo wazi na isomeke vizuri, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12680,14 +12692,6 @@ msgstr "Aina ya hati uliyowasilisha kama uthibitisho wa utambulisho haikubaliki.
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati nyingine ya uthibitisho wa kitambulisho, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "Uthibitisho wako wa kitambulisho umekwisha muda wake."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati halali, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -12714,28 +12718,24 @@ msgid "If you have trouble sending both sides of the document via the link provi
 msgstr "Iwapo unapata shida kutuma pande zote mbili za hati kupitia kiunganishi kilichotolewa, unaweza kujibu barua pepe hii ukiambatanisha pande zote mbili za hati yako — mbele na nyuma."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Uthibitisho wako wa kitambulisho haukidhi viwango vyetu vya uthibitishaji."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "Uthibitisho wako wa utambulisho hauonyeshi tarehe yako ya kuzaliwa."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha uthibitisho halali wa kitambulisho, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "Tafadhali jibu barua pepe hii na uambatishe cheti chako cha kuzaliwa au wasilisha uthibitisho mwingine wa utambulisho unaoonyesha tarehe yako ya kuzaliwa."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Uthibitisho wako wa utambulisho umefichwa."
+msgid "Your proof of identity is expired."
+msgstr "Uthibitisho wako wa kitambulisho umekwisha muda wake."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati yenye mwonekano mzuri, iliyo wazi na isomeke vizuri, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Uthibitisho wako wa utambulisho umepunguzwa pembeni."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati kamili, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, kwa kuzingatia mahitaji yafuatayo:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Tafadhali tembelea wasifu wako ili kuthibitisha/kuhakiki akaunti yako. Wasilisha hati halali, kama vile pasipoti, leseni ya udereva, au kitambulisho cha taifa, ikiwa na mahitaji yafuatayo:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
