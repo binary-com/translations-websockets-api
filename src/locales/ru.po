@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-08-18 12:44\n"
+"PO-Revision-Date: 2025-08-19 11:56\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -4372,6 +4372,12 @@ msgstr "Испанский индекс"
 msgid "Spdr S&P 500 ETF CFD"
 msgstr "Spdr S&P 500 ETF CFD"
 
+msgid "Spot Up - Volatility Down Index"
+msgstr "Индекс Spot Up - Volatility Down (снижение волатильности)"
+
+msgid "Spot Up - Volatility Up Index"
+msgstr "Индекс Spot Up - Volatility Up (повышение волатильности)"
+
 msgid "Step Index 100"
 msgstr "Индекс Step 100"
 
@@ -4995,12 +5001,6 @@ msgstr "Volatility 75 Index"
 
 msgid "Volatility 90 (1s) Index"
 msgstr "Индекс Volatility 90 (1c)"
-
-msgid "Volatility Up - Spot Down Index"
-msgstr "Индекс с ростом волатильности и падением спота"
-
-msgid "Volatility Up - Spot Up Index"
-msgstr "Индекс с ростом волатильности и ростом спота"
 
 msgid "Wal-Mart Stores Inc."
 msgstr "Wal-Mart Stores Inc."
@@ -7846,8 +7846,32 @@ msgid "noqodi account"
 msgstr "Счет noqodi"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Бланк с номером удостоверения"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Паспорт"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "Карта PAN"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "ID избирателя"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Карта Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7858,36 +7882,16 @@ msgid "National ID Number"
 msgstr "Номер удостоверения"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Карта Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID избирателя"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Карта PAN"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Паспорт"
-
-msgctxt "IDV document type "
 msgid "Alien Card"
 msgstr "Иммиграционная карта"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Бланк с номером удостоверения"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7896,10 +7900,6 @@ msgstr "Фонд социального обеспечения и национа
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12633,13 +12633,13 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Код подтверждения: %1 действителен 10 минут."
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте выписку с банковского счета (с подписью и печатью), на которой четко видно номер счета, с которого вы пополняли свой счет Deriv."
-
 msgctxt "KYC email title"
 msgid "The name on the proof of address doesn't match your Deriv profile."
 msgstr "Имя в подтверждении адреса не соответствует имени в вашем профиле Deriv."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте выписку с банковского счета (с подписью и печатью), на которой четко видно номер счета, с которого вы пополняли свой счет Deriv."
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -12662,16 +12662,28 @@ msgid "Please go to your profile and ensure your details are accurate. Then, ver
 msgstr "Пожалуйста, перейдите в свой профиль и убедитесь, что ваши данные указаны верно. Затем подтвердите/аутентифицируйте свой счет, предоставив удостоверение личности (паспорт, водительские права или национальное удостоверение личности) с соблюдением следующих требований:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "В документе, удостоверяющем личность, не указана дата вашего рождения."
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Ваше удостоверение личности не соответствует нашим стандартам верификации."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте документ, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте действительное удостоверение личности, например паспорт, водительские права или национальную ID-карту, с соблюдением следующих требований:"
 
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "Ответьте на это письмо и приложите свидетельство о рождении или другое удостоверение личности с датой вашего рождения."
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Ваше удостоверение личности обрезано."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Предоставьте полный документ, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Изображение с удостоверением личности размыто."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Предоставьте четкий и читаемый документ в высоком разрешении, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12680,14 +12692,6 @@ msgstr "Мы не можем принять документ, который в�
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Предоставьте другое удостоверение личности, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "Срок действия вашего удостоверения личности истек."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте действительный документ, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -12714,28 +12718,24 @@ msgid "If you have trouble sending both sides of the document via the link provi
 msgstr "Если у вас не получилось отправить обе стороны документа через предоставленную ссылку, вы можете ответить на это электронное письмо, приложив лицевую и оборотную стороны документа."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Ваше удостоверение личности не соответствует нашим стандартам верификации."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "В документе, удостоверяющем личность, не указана дата вашего рождения."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте действительное удостоверение личности, например паспорт, водительские права или национальную ID-карту, с соблюдением следующих требований:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте документ, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "Ответьте на это письмо и приложите свидетельство о рождении или другое удостоверение личности с датой вашего рождения."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Изображение с удостоверением личности размыто."
+msgid "Your proof of identity is expired."
+msgstr "Срок действия вашего удостоверения личности истек."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Предоставьте четкий и читаемый документ в высоком разрешении, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Ваше удостоверение личности обрезано."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Предоставьте полный документ, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Пожалуйста, перейдите в свой профиль, чтобы подтвердить/аутентифицировать счет. Отправьте действительный документ, например паспорт, водительские права или национальное удостоверение личности, с соблюдением следующих требований:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
