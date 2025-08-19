@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-08-18 12:44\n"
+"PO-Revision-Date: 2025-08-19 11:56\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -4372,6 +4372,12 @@ msgstr "Indice spagnolo"
 msgid "Spdr S&P 500 ETF CFD"
 msgstr "Spdr S&P 500 ETF CFD"
 
+msgid "Spot Up - Volatility Down Index"
+msgstr "Indice Spot in Crescita - Volatilità in Diminuzione"
+
+msgid "Spot Up - Volatility Up Index"
+msgstr "Indice Spot in Crescita - Volatilità in Aumento"
+
 msgid "Step Index 100"
 msgstr "Indice Step 100"
 
@@ -4995,12 +5001,6 @@ msgstr "Volatility 75 Index"
 
 msgid "Volatility 90 (1s) Index"
 msgstr "Indice Volatility 90 (1s)"
-
-msgid "Volatility Up - Spot Down Index"
-msgstr "Indice Volatility in Aumento - Spot in Calo Index"
-
-msgid "Volatility Up - Spot Up Index"
-msgstr "Indice Volatility in Aumento - Spot in Aumento Index"
 
 msgid "Wal-Mart Stores Inc."
 msgstr "Wal-Mart Stores Inc."
@@ -7846,8 +7846,32 @@ msgid "noqodi account"
 msgstr "Conto noqodi"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Numero Slip della carta d'identità"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
+
+msgctxt "IDV document type "
+msgid "Cédula de Identidad"
+msgstr "Cédula de Identidad"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Passaporto"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "Carta PAN"
+
+msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "ID votante"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "Carta Aadhaar"
 
 msgctxt "IDV document type "
 msgid "Drivers License"
@@ -7858,36 +7882,16 @@ msgid "National ID Number"
 msgstr "Carta d'identità"
 
 msgctxt "IDV document type "
-msgid "Cédula de Identidad"
-msgstr "Cédula de Identidad"
-
-msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "Carta Aadhaar"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "ID votante"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "Carta PAN"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Passaporto"
-
-msgctxt "IDV document type "
 msgid "Alien Card"
 msgstr "\"Carta verde\" (Alien card o Green card)"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "Numero Slip della carta d'identità"
+
+msgctxt "IDV document type "
+msgid "CPF"
+msgstr "CPF"
 
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
@@ -7896,10 +7900,6 @@ msgstr "Tessera Social Security and National Insurance Trust (SSNIT)"
 msgctxt "IDV document type "
 msgid "Nomor Induk Kependudukan"
 msgstr "Nomor Induk Kependudukan"
-
-msgctxt "IDV document type "
-msgid "CPF"
-msgstr "CPF"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12633,13 +12633,13 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Codice di verifica: %1 è valido per 10 minuti."
 
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "Vai sul tuo profilo per autenticare il conto. Invia un estratto conto bancario firmato e timbrato che indichi chiaramente il numero del conto da cui hai prelevato fondi per trasferirli sul conto Deriv."
-
 msgctxt "KYC email title"
 msgid "The name on the proof of address doesn't match your Deriv profile."
 msgstr "Il nome nel documento di verifica dell'indirizzo non corrisponde a quello sul profilo Deriv."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "Vai sul tuo profilo per autenticare il conto. Invia un estratto conto bancario firmato e timbrato che indichi chiaramente il numero del conto da cui hai prelevato fondi per trasferirli sul conto Deriv."
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -12662,16 +12662,28 @@ msgid "Please go to your profile and ensure your details are accurate. Then, ver
 msgstr "Bitte gehen Sie zu Ihrem Profil und stellen Sie sicher, dass Ihre Angaben korrekt sind. Dann verifizieren/authentifizieren Sie Ihr Konto, indem Sie einen Identitätsnachweis, z. B. einen Reisepass, Führerschein oder Personalausweis, mit den folgenden Anforderungen einreichen:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "Il documento di verifica dell'identità non riporta la tua data di nascita."
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Ihr Identitätsnachweis entspricht nicht unseren Verifizierungsstandards."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vai sul profilo per autenticare il conto. Invia un documento (es. passaporto, patente o carta d'identità) che presenti i seguenti requisiti:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento di verifica dell'identità valido (es. passaporto, patente o carta d'identità) che presenti i seguenti requisiti:"
 
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "Per favore rispondi alla presente e-mail allegando il certificato di nascita oppure inviando un documento di verifica dell'identità con la tua data di nascita."
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Il documento di verifica dell'identità è tagliato."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento completo (es. passaporto, patente o carta d'identità) che presenti i seguenti requisiti:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Il tuo documento di verifica dell'identità è sfocato."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento chiaro, leggibile e ad alta risoluzione (es. passaporto, patente o carta d'identità) che presenti i requisiti seguenti:"
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12680,14 +12692,6 @@ msgstr "Il tipo di documento inviato come verifica dell'identità non è idoneo.
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento di verifica dell'identità (es. passaporto, patente o carta d'identità) che presenti i seguenti requisiti:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "Il tuo documento di verifica dell'identità è scaduto."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento valido (es. passaporto, patente di guida o carta d'identità) che presenti i seguenti requisiti:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -12714,28 +12718,24 @@ msgid "If you have trouble sending both sides of the document via the link provi
 msgstr "Se non riesci a inviare le foto del documento su entrambi i lati attraverso l'apposito link, rispondi a questa e-mail allegando il documento fronte e retro."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Ihr Identitätsnachweis entspricht nicht unseren Verifizierungsstandards."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "Il documento di verifica dell'identità non riporta la tua data di nascita."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento di verifica dell'identità valido (es. passaporto, patente o carta d'identità) che presenti i seguenti requisiti:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vai sul profilo per autenticare il conto. Invia un documento (es. passaporto, patente o carta d'identità) che presenti i seguenti requisiti:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "Per favore rispondi alla presente e-mail allegando il certificato di nascita oppure inviando un documento di verifica dell'identità con la tua data di nascita."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Il tuo documento di verifica dell'identità è sfocato."
+msgid "Your proof of identity is expired."
+msgstr "Il tuo documento di verifica dell'identità è scaduto."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento chiaro, leggibile e ad alta risoluzione (es. passaporto, patente o carta d'identità) che presenti i requisiti seguenti:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Il documento di verifica dell'identità è tagliato."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento completo (es. passaporto, patente o carta d'identità) che presenti i seguenti requisiti:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vai sul tuo profilo per autenticare il conto. Invia un documento valido (es. passaporto, patente di guida o carta d'identità) che presenti i seguenti requisiti:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
