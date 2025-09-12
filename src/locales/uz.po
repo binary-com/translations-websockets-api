@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-09-10 12:15\n"
+"PO-Revision-Date: 2025-09-12 06:38\n"
 "Last-Translator: \n"
 "Language-Team: Uzbek\n"
 "MIME-Version: 1.0\n"
@@ -2882,7 +2882,7 @@ msgid "You cannot change account currency while you have open P2P orders."
 msgstr "P2P buyurtmalaringiz ochiq bo'lganda hisob valyutasini o'zgartira olmaysiz."
 
 msgid "You cannot change your email address for partner accounts. Please contact support."
-msgstr ""
+msgstr "Hamkor hisoblari uchun elektron pochta manzilingizni o'zgartira olmaysiz. Iltimos, yordam uchun qo'llab-quvvatlash xizmatiga murojaat qiling."
 
 msgid "You cannot list adverts because you've not been approved as an advertiser yet."
 msgstr "Siz reklama qila olmaysiz, chunki siz hali reklama beruvchi sifatida tasdiqlanmagansiz."
@@ -8111,44 +8111,40 @@ msgid "Documento Nacional de Identidad"
 msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
-msgid "National ID Number"
-msgstr "Milliy ID Raqami"
-
-msgctxt "IDV document type "
 msgid "Aadhaar Card"
 msgstr "Aadhaar kartasi"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN kartasi"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "Pasport"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "Haydovchilik guvohnoma"
 
 msgctxt "IDV document type "
 msgid "Voter ID"
 msgstr "Saylovchining identifikatori"
 
 msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "Milliy ID raqami qaydnomasi"
+msgid "Drivers License"
+msgstr "Haydovchilik guvohnoma"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "Pasport"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "PAN kartasi"
+
+msgctxt "IDV document type "
+msgid "National ID Number"
+msgstr "Milliy ID Raqami"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Induk Induction Number"
 
 msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
-msgid "Clave Única de Registro de Población"
-msgstr "Clave Única de Registro de Población"
-
-msgctxt "IDV document type "
-msgid "Alien Card"
-msgstr "Alien kartasi"
+msgid "National ID Number Slip"
+msgstr "Milliy ID raqami qaydnomasi"
 
 msgctxt "IDV document type "
 msgid "CPF"
@@ -8159,8 +8155,12 @@ msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Ijtimoiy xavfsizlik va milliy sug'urta tresti (SSNIT)"
 
 msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Induk Induction Number"
+msgid "Clave Única de Registro de Población"
+msgstr "Clave Única de Registro de Población"
+
+msgctxt "IDV document type "
+msgid "Alien Card"
+msgstr "Alien kartasi"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12915,12 +12915,40 @@ msgid "is dated within the last %1 months"
 msgstr "oxirgi %1 oy ichida chiqarilishi kerak"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Shaxsingizni tasdiqlovchi hujjat kesilgan."
+msgid "Your proof of identity is missing a front/back section."
+msgstr "Shaxsingizni tasdiqlovchi hujjatning old/orqa qismi yetishmayapti."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi to`liq hujjatni quyidagi talablar bilan taqdim eting:"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi shaxsingizni tasdiqlovchi to`liq hujjatni quyidagi talablar bilan taqdim eting:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "Hujjatning ikkala tomonini taqdim etilgan havola orqali yuborishda muammoga duch kelsangiz, hujjatning old va orqa tomonlarini ilova qilgan holda ushbu xatga javob berishingiz mumkin."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Sizning shaxsingizni tasdiqlovchi hujjat bizning tasdiqlash standartlarimizga mos kelmaydi."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi shaxsni tasdiqlovchi hujjatni quyidagi talablar bilan taqdim eting:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Shaxsingizni tasdiqlovchi hujjat noaniq."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi yuqori aniqlikdagi, tushunarli va oʻqilishi mumkin bo`lgan hujjatni quyidagi talablar bilan taqdim eting:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "Sizning shaxsingiz tasdiqlovchi hujjatingiz muddati tugagan."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi amaldagi hujjatni quyidagi talablar bilan taqdim eting:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity doesn't show your date of birth."
@@ -12935,32 +12963,12 @@ msgid "Please reply to this email and attach your birth certificate or submit a 
 msgstr "Iltimos, ushbu elektron pochtaga javob yozing va tug`ilganlik haqidagi guvohnomangizni ilova qiling yoki tug`ilgan sanangizni ko`rsatuvchi boshqa shaxsingizni tasdiqlovchi hujjatni taqdim eting."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "Shaxsingizni tasdiqlovchi hujjatning old/orqa qismi yetishmayapti."
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "Shaxsingizni tasdiqlovchi hujjat va Deriv profilidagi ismlar mos kelmaydi."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi shaxsingizni tasdiqlovchi to`liq hujjatni quyidagi talablar bilan taqdim eting:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "Hujjatning ikkala tomonini taqdim etilgan havola orqali yuborishda muammoga duch kelsangiz, hujjatning old va orqa tomonlarini ilova qilgan holda ushbu xatga javob berishingiz mumkin."
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Shaxsingizni tasdiqlovchi hujjat noaniq."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi yuqori aniqlikdagi, tushunarli va oʻqilishi mumkin bo`lgan hujjatni quyidagi talablar bilan taqdim eting:"
-
-msgctxt "KYC email title"
-msgid "The type of document you submitted as proof of identity can't be accepted."
-msgstr "Siz taqdim etgan shaxsni tasdiqlovchi hujjat turi qabul qilinmaydi."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi shaxsni tasdiqlovchi boshqa hujjatni quyidagi talablar bilan taqdim eting:"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Iltimos, profilingizga o`ting va ma`lumotlaringiz to`g`ri ekanligiga ishonch hosil qiling. Keyin, quyidagi talablar bilan pasport, haydovchilik guvohnomasi yoki milliy shaxsiy guvohnoma kabi shaxsingizni tasdiqlovchi hujjatni taqdim etish orqali hisobingizni tasdiqlang/autentifikatsiya qiling:"
 
 msgctxt "KYC email title"
 msgid "The selfie submitted does not show a clear image of your face."
@@ -12975,28 +12983,20 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "Shuningdek, siz uni pasport, haydovchilik guvohnomasi yoki milliy shaxsiy guvohnoma kabi shaxsingizni tasdiqlovchi hujjat bilan birga quyidagi talablar bilan topshirishingiz mumkin:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "Sizning shaxsingiz tasdiqlovchi hujjatingiz muddati tugagan."
+msgid "The type of document you submitted as proof of identity can't be accepted."
+msgstr "Siz taqdim etgan shaxsni tasdiqlovchi hujjat turi qabul qilinmaydi."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi amaldagi hujjatni quyidagi talablar bilan taqdim eting:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a different proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi shaxsni tasdiqlovchi boshqa hujjatni quyidagi talablar bilan taqdim eting:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "Shaxsingizni tasdiqlovchi hujjat va Deriv profilidagi ismlar mos kelmaydi."
+msgid "Your proof of identity is cropped."
+msgstr "Shaxsingizni tasdiqlovchi hujjat kesilgan."
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Iltimos, profilingizga o`ting va ma`lumotlaringiz to`g`ri ekanligiga ishonch hosil qiling. Keyin, quyidagi talablar bilan pasport, haydovchilik guvohnomasi yoki milliy shaxsiy guvohnoma kabi shaxsingizni tasdiqlovchi hujjatni taqdim etish orqali hisobingizni tasdiqlang/autentifikatsiya qiling:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Sizning shaxsingizni tasdiqlovchi hujjat bizning tasdiqlash standartlarimizga mos kelmaydi."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Iltimos, hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi shaxsni tasdiqlovchi hujjatni quyidagi talablar bilan taqdim eting:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Hisobingizni tasdiqlash/autentifikatsiya qilish uchun profilingizga tashrif buyuring. Pasport, haydovchilik guvohnomasi yoki milliy guvohnoma kabi to`liq hujjatni quyidagi talablar bilan taqdim eting:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
