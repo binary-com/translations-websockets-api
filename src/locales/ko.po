@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-09-10 12:14\n"
+"PO-Revision-Date: 2025-09-22 11:45\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -6508,8 +6508,8 @@ msgstr "유효하지 않은 사용자입니다."
 msgid "Please log in to your social account to continue."
 msgstr "계속하기 위해 귀하의 소셜 계정으로 로그인 해주시기 바랍니다."
 
-msgid "Social login is not enabled for this account. Please log in with your email and password instead."
-msgstr "이 계좌에 대해서 소셜 계정으로의 로그인은 활성화되어 있지 않습니다. 대신에 귀하의 이메일과 비밀번호로 로그인 해주시기 바랍니다."
+msgid "You signed up with email. Log in with your email and password."
+msgstr "이메일로 가입하셨습니다. 이메일과 비밀번호로 로그인하세요."
 
 msgid "Failed to get user identity."
 msgstr "사용자의 신분을 확인하는 데에 실패했습니다."
@@ -8107,48 +8107,52 @@ msgid "noqodi account"
 msgstr "noqodi 계정"
 
 msgctxt "IDV document type "
-msgid "Documento Nacional de Identidad"
-msgstr "Documento Nacional de Identidad"
-
-msgctxt "IDV document type "
 msgid "National ID Number"
 msgstr "국민식별번호"
 
 msgctxt "IDV document type "
-msgid "Aadhaar Card"
-msgstr "아다르 카드 (Aadhaar Card)"
-
-msgctxt "IDV document type "
-msgid "PAN Card"
-msgstr "PAN 카드"
-
-msgctxt "IDV document type "
-msgid "Passport"
-msgstr "여권"
-
-msgctxt "IDV document type "
-msgid "Drivers License"
-msgstr "운전 면허증"
-
-msgctxt "IDV document type "
-msgid "Voter ID"
-msgstr "투표자 ID"
-
-msgctxt "IDV document type "
-msgid "National ID Number Slip"
-msgstr "국민식별번호 슬립"
+msgid "Documento Nacional de Identidad"
+msgstr "Documento Nacional de Identidad"
 
 msgctxt "IDV document type "
 msgid "Cédula de Identidad"
 msgstr "Cédula de Identidad"
 
 msgctxt "IDV document type "
+msgid "Drivers License"
+msgstr "운전 면허증"
+
+msgctxt "IDV document type "
+msgid "National ID Number Slip"
+msgstr "국민식별번호 슬립"
+
+msgctxt "IDV document type "
 msgid "Clave Única de Registro de Población"
 msgstr "Clave Única de Registro de Población"
 
 msgctxt "IDV document type "
+msgid "Voter ID"
+msgstr "투표자 ID"
+
+msgctxt "IDV document type "
+msgid "PAN Card"
+msgstr "PAN 카드"
+
+msgctxt "IDV document type "
+msgid "Aadhaar Card"
+msgstr "아다르 카드 (Aadhaar Card)"
+
+msgctxt "IDV document type "
+msgid "Passport"
+msgstr "여권"
+
+msgctxt "IDV document type "
 msgid "Alien Card"
 msgstr "외국인 카드 (Alien Card)"
+
+msgctxt "IDV document type "
+msgid "Nomor Induk Kependudukan"
+msgstr "Nomor Induk Kependudukan"
 
 msgctxt "IDV document type "
 msgid "CPF"
@@ -8157,10 +8161,6 @@ msgstr "CPF"
 msgctxt "IDV document type "
 msgid "Social Security and National Insurance Trust (SSNIT)"
 msgstr "Social Security and National Insurance Trust (SSNIT)"
-
-msgctxt "IDV document type "
-msgid "Nomor Induk Kependudukan"
-msgstr "Nomor Induk Kependudukan"
 
 msgctxt "Onfido document type "
 msgid "Driving Licence"
@@ -12894,25 +12894,21 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "인증 코드: %1은 10분 동안 유효합니다."
 
+msgctxt "KYC email title"
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "귀하의 신분증명이 저희의 인증 기준을 만족하지 못합니다."
+
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
-msgstr "프로필을 방문하여 계정을 확인/인증하시기 바랍니다. Deriv 계정에 입금하는 데 사용한 계좌 번호가 명확히 표시되어 있으며 서명 및 도장이 찍힌 은행거래내역서를 제출하세요."
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필에 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전 면허증, 또는 주민등록증과 같은 유효한 신분증을 제출하시기 바랍니다:"
 
 msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "주소 증명에 나와 있는 성명이 귀하의 Deriv 프로필과 일치하지 않습니다."
+msgid "Your proof of identity is blurred."
+msgstr "귀하의 신분증명이 흐릿합니다."
 
-msgctxt "KYC email layout"
-msgid "bears your name that matches your Deriv profile"
-msgstr "귀하의 Deriv 프로필과 일치하는 귀하의 이름이 있습니다"
-
-msgctxt "KYC email layout"
-msgid "shows a residential address that matches your Deriv profile"
-msgstr "귀하의 Deriv 프로필과 일치하는 거주 주소가 포함되어 있습니다"
-
-msgctxt "KYC email layout"
-msgid "is dated within the last %1 months"
-msgstr "지난 %1개월 내로 날짜가 되어 있습니다"
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요. 다음의 요구 사항을 충족하는 여권, 운전면허증 또는 신분증과 같이 명확하고 읽기 쉬운 고해상도 문서를 제출해 주세요:"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is cropped."
@@ -12921,18 +12917,6 @@ msgstr "귀하의 신분 증명이 크롭되어 있습니다."
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 다음의 요건을 충족하는 여권, 운전면허증 또는 주민등록증과 같은 전체 문서를 제출해 주시기 바랍니다:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "귀하의 신분증이 귀하의 생년월일을 표시하고 있지 않습니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필을 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전면허증, 또는 주민등록증과 같은 문서를 제출하세요:"
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "귀하의 출생증명서를 첨부하여 이 이메일에 회신하시거나 생년월일이 표시된 다른 신분증을 제출해 주시기 바랍니다."
 
 msgctxt "KYC email title"
 msgid "Your proof of identity is missing a front/back section."
@@ -12945,14 +12929,6 @@ msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요
 msgctxt "KYC email footnote"
 msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
 msgstr "제공된 링크를 통해 문서의 양면을 전송하는 데 문제가 있는 경우, 문서의 앞면과 뒷면을 모두 첨부하여 이 이메일에 회신할 수 있습니다."
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "귀하의 신분증명이 흐릿합니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요. 다음의 요구 사항을 충족하는 여권, 운전면허증 또는 신분증과 같이 명확하고 읽기 쉬운 고해상도 문서를 제출해 주세요:"
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12975,14 +12951,6 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "귀하께서는 다음의 요구사항들과 함께, 여권, 운전면허증, 또는 국가 신분증과 같은 신분 증명서를 함께 제출하실 수도 있습니다:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "귀하의 신분 증명이 만료되었습니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요. 다음의 요구 사항을 충족하는 여권, 운전면허증 또는 신분증과 같은 유효한 문서를 제출해 주세요:"
-
-msgctxt "KYC email title"
 msgid "The names on your proof of identity and Deriv profile don't match."
 msgstr "귀하의 신분증에 나와 있는 성명과 귀하의 Deriv 프로필이 일치하지 않습니다."
 
@@ -12991,12 +12959,28 @@ msgid "Please go to your profile and ensure your details are accurate. Then, ver
 msgstr "프로필로 이동하여 세부 정보가 정확하도록 해 주세요. 그 후에는 다음의 요건을 만족하여 여권, 운전면허증 또는 신분증을 제출하여 귀하의 계정을 확인/인증해 주세요."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "귀하의 신분증명이 저희의 인증 기준을 만족하지 못합니다."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "귀하의 신분증이 귀하의 생년월일을 표시하고 있지 않습니다."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필에 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전 면허증, 또는 주민등록증과 같은 유효한 신분증을 제출하시기 바랍니다:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필을 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전면허증, 또는 주민등록증과 같은 문서를 제출하세요:"
+
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "귀하의 출생증명서를 첨부하여 이 이메일에 회신하시거나 생년월일이 표시된 다른 신분증을 제출해 주시기 바랍니다."
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "귀하의 신분 증명이 만료되었습니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요. 다음의 요구 사항을 충족하는 여권, 운전면허증 또는 신분증과 같은 유효한 문서를 제출해 주세요:"
+
+msgctxt "KYC email layout"
+msgid "bears your name that matches your Deriv profile"
+msgstr "귀하의 Deriv 프로필과 일치하는 귀하의 이름이 있습니다"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
@@ -13009,4 +12993,20 @@ msgstr "귀하의 완전한 생년월일을 나타냅니다"
 msgctxt "KYC email layout"
 msgid "shows your photo"
 msgstr "귀하의 사진을 나타냅니다"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
+msgstr "프로필을 방문하여 계정을 확인/인증하시기 바랍니다. Deriv 계정에 입금하는 데 사용한 계좌 번호가 명확히 표시되어 있으며 서명 및 도장이 찍힌 은행거래내역서를 제출하세요."
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "주소 증명에 나와 있는 성명이 귀하의 Deriv 프로필과 일치하지 않습니다."
+
+msgctxt "KYC email layout"
+msgid "shows a residential address that matches your Deriv profile"
+msgstr "귀하의 Deriv 프로필과 일치하는 거주 주소가 포함되어 있습니다"
+
+msgctxt "KYC email layout"
+msgid "is dated within the last %1 months"
+msgstr "지난 %1개월 내로 날짜가 되어 있습니다"
 
