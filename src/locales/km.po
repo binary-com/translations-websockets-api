@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-10-07 11:52\n"
+"PO-Revision-Date: 2025-10-16 11:40\n"
 "Last-Translator: \n"
 "Language-Team: Khmer\n"
 "MIME-Version: 1.0\n"
@@ -69,6 +69,9 @@ msgstr "%1ii) ប្រសិនបើអ្នកកំពុងប្រើ Zi
 
 msgid "%1iii) If you’re using an e-wallet,%2 attach a screenshot of your e-wallet account showing your username, email address, and account number."
 msgstr "%1iii) ប្រសិនបើអ្នកកំពុងប្រើកាបូបអេឡិចត្រូនិកឬ E-wallet %2 ត្រូវភ្ជាប់រូបថតអេក្រង់នៃគណនី e-wallet របស់អ្នកដែលបង្ហាញពីឈ្មោះអ្នកប្រើប្រាស់ អាសយដ្ឋានអ៊ីមែល និងលេខគណនីរបស់អ្នក។"
+
+msgid "2FA must be enabled for this account."
+msgstr "គណនីនេះត្រូវតំរូវឲ្យបើកដំណើរការ 2FA។​ "
 
 msgid "A Deriv account ID and amount must be provided for real accounts."
 msgstr "ត្រូវផ្តល់លេខសម្គាល់គណនី Deriv និងចំនួនទឹកប្រាក់សម្រាប់គណនីពិត។"
@@ -2452,6 +2455,9 @@ msgstr "ការផ្ទៀងផ្ទាត់ URI មិនបានកំ�
 msgid "Verify your email"
 msgstr "ផ្ទៀងផ្ទាត់អ៊ីមែលរបស់អ្នក"
 
+msgid "Verify your withdraw request with TOTP from your Authenticator app (Authy, Google Authenticator etc.)."
+msgstr "សូមបញ្ជាក់សំណើដកប្រាក់របស់អ្នកដោយប្រើកូដ TOTP ពីកម្មវិធី Authenticator របស់អ្នក (Authy, Google Authenticator ជាដើម)។"
+
 msgid "Verify your withdraw request."
 msgstr "ផ្ទៀងផ្ទាត់សំណើដកប្រាក់របស់អ្នក។"
 
@@ -3180,6 +3186,9 @@ msgstr "គណនី MT5 របស់អ្នកត្រូវបានបិ�
 
 msgid "Your MT5 account's balance isn't enough for this transfer. Refresh the page to see your current balance."
 msgstr "សមតុល្យគណនី MT5 របស់អ្នកមិនគ្រប់គ្រាន់សម្រាប់ការផ្ទេរនេះទេ។ រីហ្វ្រសទំព័រឡើងវិញ ដើម្បីមើលសមតុល្យបច្ចុប្បន្នរបស់អ្នក។"
+
+msgid "Your TOTP has expired or is invalid."
+msgstr "កូដ TOTP របស់អ្នកបានផុតកំណត់ ឬមិនត្រឹមត្រូវទេ។"
 
 msgid "Your User ID appears to be invalid."
 msgstr "លេខសម្គាល់អ្នកប្រើប្រាស់របស់អ្នកហាក់ដូចជាមិនត្រឹមត្រូវ។"
@@ -12902,13 +12911,13 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "លេខកូដផ្ទៀងផ្ទាត់៖ %1 នឹងមានសុពលភាពរយៈពេល 10 នាទី។"
 
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "ឈ្មោះនៅលើឯកសារបញ្ជាក់អាសយដ្ឋានមិនត្រូវគ្នានឹងកម្រងព័ត៌មាន Deriv របស់អ្នកទេ។"
-
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
 msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនរបាយការណ៍ធនាគារដែលមានហត្ថលេខា និងបោះត្រាដែលបង្ហាញយ៉ាងច្បាស់នូវលេខគណនីដែលអ្នកធ្លាប់ដាក់ប្រាក់ចូលទៅគណនី Deriv របស់អ្នក។"
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "ឈ្មោះនៅលើឯកសារបញ្ជាក់អាសយដ្ឋានមិនត្រូវគ្នានឹងកម្រងព័ត៌មាន Deriv របស់អ្នកទេ។"
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -12923,36 +12932,12 @@ msgid "is dated within the last %1 months"
 msgstr "បានចុះកាលបរិច្ឆេទក្នុងរយៈពេល %1 ខែចុងក្រោយ"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកមិនច្បាស់។"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "ឈ្មោះនៅលើភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នក និងកម្រងព័ត៌មាន Deriv មិនត្រូវគ្នាទេ។"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារដែលមានគុណភាពខ្ពស់ ច្បាស់លាស់ និងអាចអានបាន ដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដែលមានលក្ខណៈដូចខាងក្រោម៖"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកបាត់ផ្នែកខាងមុខ/ខាងក្រោយ។"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារបញ្ជាក់អត្តសញ្ញាណពេញលេខរបស់​អ្នក ដូចជាលិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដោយមានលក្ខណៈដូចខាងក្រោម៖"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "ប្រសិនបើអ្នកមានបញ្ហាក្នុងការផ្ញើឯកសារទាំងសងខាងតាមរយៈតំណភ្ជាប់ដែលបានផ្តល់ឲ្យនេះ អ្នកអាចឆ្លើយតបទៅអ៊ីមែលនេះព្រមទាំងភ្ជាប់ជាមួយនឹងឯកសារទាំងផ្នែកខាងមុខ និងផ្នែកខាងក្រោយ។"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកមិនបានបង្ហាញថ្ងៃខែឆ្នាំកំណើតរបស់អ្នកទេ។"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "សូមចូលទៅកាន់កម្រងព័ត៌មានរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដែលមានលក្ខណៈដូចខាងក្រោម៖"
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "សូមឆ្លើយតបទៅអ៊ីមែលនេះ ហើយភ្ជាប់ជាមួយ​សំបុត្រកំណើតរបស់អ្នក ឬដាក់ឯកសារបញ្ជាក់អត្តសញ្ញាណផ្សេងដែលបង្ហាញពីថ្ងៃខែឆ្នាំកំណើតរបស់អ្នក។"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "សូមចូលទៅកាន់កម្រងព័ត៌មានរបស់អ្នក ហើយត្រូវប្រាកដថាព័ត៌មានលម្អិតរបស់អ្នកត្រឹមត្រូវ។ បន្ទាប់មក ពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នកដោយដាក់បញ្ជូនឯកសារបញ្ជាក់អត្តសញ្ញាណ ដូចជាលិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដោយមានលក្ខណៈដូចខាងក្រោម៖"
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12975,20 +12960,16 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "អ្នកក៏អាចដាក់វារួមជាមួយនឹងភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដោយមានលក្ខណៈដូចខាងក្រោម៖"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកផុតកំណត់ហើយ។"
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកមិនបានបង្ហាញថ្ងៃខែឆ្នាំកំណើតរបស់អ្នកទេ។"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារដែលមានសុពលភាពដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដែលមានលក្ខណៈដូចខាងក្រោម៖"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "សូមចូលទៅកាន់កម្រងព័ត៌មានរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដែលមានលក្ខណៈដូចខាងក្រោម៖"
 
-msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "ឈ្មោះនៅលើភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នក និងកម្រងព័ត៌មាន Deriv មិនត្រូវគ្នាទេ។"
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "សូមចូលទៅកាន់កម្រងព័ត៌មានរបស់អ្នក ហើយត្រូវប្រាកដថាព័ត៌មានលម្អិតរបស់អ្នកត្រឹមត្រូវ។ បន្ទាប់មក ពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នកដោយដាក់បញ្ជូនឯកសារបញ្ជាក់អត្តសញ្ញាណ ដូចជាលិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដោយមានលក្ខណៈដូចខាងក្រោម៖"
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "សូមឆ្លើយតបទៅអ៊ីមែលនេះ ហើយភ្ជាប់ជាមួយ​សំបុត្រកំណើតរបស់អ្នក ឬដាក់ឯកសារបញ្ជាក់អត្តសញ្ញាណផ្សេងដែលបង្ហាញពីថ្ងៃខែឆ្នាំកំណើតរបស់អ្នក។"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity does not meet our verification standards."
@@ -12999,12 +12980,40 @@ msgid "Please visit your profile to verify/authenticate your account. Submit a v
 msgstr "សូមចូលទៅកាន់កម្រងព័ត៌មានរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារបញ្ជាក់អត្តសញ្ញាណដែលមានសុពលភាព ដូចជាលិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដោយមានលក្ខណៈដូចតទៅ៖"
 
 msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកផុតកំណត់ហើយ។"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារដែលមានសុពលភាពដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដែលមានលក្ខណៈដូចខាងក្រោម៖"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកបាត់ផ្នែកខាងមុខ/ខាងក្រោយ។"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារបញ្ជាក់អត្តសញ្ញាណពេញលេខរបស់​អ្នក ដូចជាលិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដោយមានលក្ខណៈដូចខាងក្រោម៖"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "ប្រសិនបើអ្នកមានបញ្ហាក្នុងការផ្ញើឯកសារទាំងសងខាងតាមរយៈតំណភ្ជាប់ដែលបានផ្តល់ឲ្យនេះ អ្នកអាចឆ្លើយតបទៅអ៊ីមែលនេះព្រមទាំងភ្ជាប់ជាមួយនឹងឯកសារទាំងផ្នែកខាងមុខ និងផ្នែកខាងក្រោយ។"
+
+msgctxt "KYC email title"
 msgid "Your proof of identity is cropped."
 msgstr "ភស្តុតាងនៃសអត្តសញ្ញាណរបស់អ្នកត្រូវ​​បានកាត់ដាច់។"
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារពេញលេញដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដែលមានលក្ខណៈដូចខាងក្រោម៖"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "ភស្តុតាងនៃអត្តសញ្ញាណរបស់អ្នកមិនច្បាស់។"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "សូមចូលទៅកាន់ប្រវត្តិរូបរបស់អ្នក ដើម្បីពិនិត្យបញ្ជាក់/ផ្ទៀងផ្ទាត់គណនីរបស់អ្នក។ ដាក់បញ្ជូនឯកសារដែលមានគុណភាពខ្ពស់ ច្បាស់លាស់ និងអាចអានបាន ដូចជា លិខិតឆ្លងដែន ប័ណ្ណបើកបរ ឬអត្តសញ្ញាណប័ណ្ណ ដែលមានលក្ខណៈដូចខាងក្រោម៖"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
