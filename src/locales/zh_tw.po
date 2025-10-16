@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-10-07 11:52\n"
+"PO-Revision-Date: 2025-10-16 11:40\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -69,6 +69,9 @@ msgstr "%1ii) 如果使用 ZingPay，%2請通過 ZingPay 將顯示姓名、帳�
 
 msgid "%1iii) If you’re using an e-wallet,%2 attach a screenshot of your e-wallet account showing your username, email address, and account number."
 msgstr "%1iii) 如果使用電子錢包，%2請附上顯示使用者名稱、電子郵件地址和帳號的電子錢包帳戶的螢幕擷取畫面。"
+
+msgid "2FA must be enabled for this account."
+msgstr "此帳戶必須啟用雙重驗證(2FA)。"
 
 msgid "A Deriv account ID and amount must be provided for real accounts."
 msgstr "真實帳戶必須提供 Deriv 帳戶 ID 和金額。"
@@ -2452,6 +2455,9 @@ msgstr "未為應用程式 ID 配置驗證 URI：%1。請聯繫應用擁有者�
 msgid "Verify your email"
 msgstr "驗證電子郵件"
 
+msgid "Verify your withdraw request with TOTP from your Authenticator app (Authy, Google Authenticator etc.)."
+msgstr "請使用您的身份驗證應用程式（例如 Authy、Google Authenticator 等）產生的 TOTP 驗證您的提款請求。"
+
 msgid "Verify your withdraw request."
 msgstr "驗證提款要求。"
 
@@ -3180,6 +3186,9 @@ msgstr "MT5 帳戶已被鎖定。欲知詳情請跟我們聯繫。"
 
 msgid "Your MT5 account's balance isn't enough for this transfer. Refresh the page to see your current balance."
 msgstr "MT5 帳戶餘額不足以進行此轉帳。請重新整理頁面查看目前餘額。"
+
+msgid "Your TOTP has expired or is invalid."
+msgstr "您的一次性密碼已過期或無效。"
 
 msgid "Your User ID appears to be invalid."
 msgstr "使用者 ID 似乎無效。"
@@ -12902,13 +12911,13 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "驗證碼：%1。此碼有效期為 10 分鐘。"
 
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "地址證明上的姓名與 Deriv 帳戶個人檔案不符合。"
-
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
 msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具簽名並蓋章的銀行月結單，其中須清楚顯示用於為 Deriv 帳戶注資的帳號。"
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "地址證明上的姓名與 Deriv 帳戶個人檔案不符合。"
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -12923,36 +12932,12 @@ msgid "is dated within the last %1 months"
 msgstr "最近 %1 個月簽發的"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "身份證明模糊不清。"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "身份證明文件和 Deriv 帳戶個人檔案中的姓名不符。"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求、具高分辨率、清晰易讀的文件，例如護照、駕駛執照或國民身份證："
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "身份證明缺少前/後部分。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的完整身份證明，例如護照、駕駛執照或國民身份證："
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "如果無法透過提供的連結傳送文檔的正反兩面，則可以回覆此電子郵件並以附件方式傳送文檔的正反面。"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "身份證明沒有顯示出生日期。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的文件，例如護照、駕駛執照或國民身份證："
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "請回覆此電子郵件，並附上出生證明或提交其他顯示出生日期的身份證明。"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面，並確保詳細資料準確無誤。然後，透過提交符合以下要求的身份證明，例如護照、駕駛執照或國民身份證以驗證/認證帳戶："
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12975,20 +12960,16 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "也可以將其與符合以下要求的身份證明，例如護照、駕駛執照或國民身份證一起提交："
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "身份證明已過期."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "身份證明沒有顯示出生日期。"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的有效文件，例如護照、駕駛執照或國民身份證："
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的文件，例如護照、駕駛執照或國民身份證："
 
-msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "身份證明文件和 Deriv 帳戶個人檔案中的姓名不符。"
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "請前往個人檔案頁面，並確保詳細資料準確無誤。然後，透過提交符合以下要求的身份證明，例如護照、駕駛執照或國民身份證以驗證/認證帳戶："
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "請回覆此電子郵件，並附上出生證明或提交其他顯示出生日期的身份證明。"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity does not meet our verification standards."
@@ -12999,12 +12980,40 @@ msgid "Please visit your profile to verify/authenticate your account. Submit a v
 msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的有效身份證明，例如護照、駕駛執照或國民身份證："
 
 msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "身份證明已過期."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的有效文件，例如護照、駕駛執照或國民身份證："
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "身份證明缺少前/後部分。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求的完整身份證明，例如護照、駕駛執照或國民身份證："
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "如果無法透過提供的連結傳送文檔的正反兩面，則可以回覆此電子郵件並以附件方式傳送文檔的正反面。"
+
+msgctxt "KYC email title"
 msgid "Your proof of identity is cropped."
 msgstr "身份證明經過裁剪。"
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交符合以下要求的完整文件，例如護照、駕駛執照或國民身份證："
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "身份證明模糊不清。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "請前往個人檔案頁面以驗證/認證帳戶。提交具有以下要求、具高分辨率、清晰易讀的文件，例如護照、駕駛執照或國民身份證："
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
