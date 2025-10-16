@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-10-07 11:52\n"
+"PO-Revision-Date: 2025-10-16 11:40\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
@@ -69,6 +69,9 @@ msgstr "%1ii) Nếu bạn đang sử dụng ZingPay,%2 hãy đính kèm bảng s
 
 msgid "%1iii) If you’re using an e-wallet,%2 attach a screenshot of your e-wallet account showing your username, email address, and account number."
 msgstr "%1iii) Nếu bạn đang sử dụng ví điện tử,%2 hãy đính kèm ảnh chụp màn hình tài khoản ví điện tử của bạn hiển thị tên người dùng, địa chỉ email và số tài khoản của bạn."
+
+msgid "2FA must be enabled for this account."
+msgstr "Phải bật 2FA cho tài khoản này."
 
 msgid "A Deriv account ID and amount must be provided for real accounts."
 msgstr "Phải cung cấp một ID tài khoản Deriv và số tiền cho các tài khoản thực."
@@ -2452,6 +2455,9 @@ msgstr "URI xác thực không được cấu hình cho ID ứng dụng: %1. Li�
 msgid "Verify your email"
 msgstr "Xác minh email của bạn"
 
+msgid "Verify your withdraw request with TOTP from your Authenticator app (Authy, Google Authenticator etc.)."
+msgstr "Xác minh yêu cầu rút tiền của bạn bằng TOTP từ ứng dụng Authenticator của bạn (Authy, Google Authenticator, v.v.)."
+
 msgid "Verify your withdraw request."
 msgstr "Xác nhận yêu cầu rút tiền của bạn."
 
@@ -3180,6 +3186,9 @@ msgstr "Tài khoản MT5 của bạn đã bị khóa. Xin vui lòng liên hệ v
 
 msgid "Your MT5 account's balance isn't enough for this transfer. Refresh the page to see your current balance."
 msgstr "Số dư tài khoản MT5 của bạn không đủ cho giao dịch này. Làm mới trang để xem số dư hiện tại của bạn."
+
+msgid "Your TOTP has expired or is invalid."
+msgstr "Mã TOTP của bạn đã hết hạn hoặc không hợp lệ."
 
 msgid "Your User ID appears to be invalid."
 msgstr "ID người dùng của bạn dường như không hợp lệ."
@@ -12902,13 +12911,13 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Mã xác thực: %1 có hiệu lực trong 10 phút."
 
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "Tên trên giấy tờ chứng minh địa chỉ không khớp với hồ sơ Deriv của bạn."
-
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
 msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi bản sao kê ngân hàng có chữ ký và đóng dấu thể hiện rõ số tài khoản bạn đã sử dụng để nạp tiền vào tài khoản Deriv của mình."
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "Tên trên giấy tờ chứng minh địa chỉ không khớp với hồ sơ Deriv của bạn."
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -12923,36 +12932,12 @@ msgid "is dated within the last %1 months"
 msgstr "có ngày tháng trong vòng %1 tháng qua"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Giấy tờ tùy thân của bạn bị mờ."
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "Tên trên giấy tờ tùy thân của bạn và hồ sơ Deriv không khớp."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Gửi tài liệu có độ phân giải cao, rõ ràng và dễ đọc, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "Giấy tờ tùy thân của bạn bị thiếu phần trước/sau."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Nộp đầy đủ giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "Nếu bạn gặp sự cố khi gửi cả hai mặt của tài liệu qua link được cung cấp, bạn có thể trả lời email này với tệp đính kèm của cả mặt trước và mặt sau của tài liệu."
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "Giấy tờ tùy thân của bạn không hiển thị ngày sinh của bạn."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Gửi một tài liệu như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "Vui lòng trả lời email này và đính kèm giấy khai sinh của bạn hoặc gửi giấy tờ tùy thân khác có ghi ngày sinh của bạn."
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập vào hồ sơ và đảm bảo thông tin của bạn là chính xác. Sau đó, xác minh/xác thực tài khoản của bạn bằng cách gửi giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân với các yêu cầu sau:"
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12975,20 +12960,16 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "Bạn cũng có thể gửi nó cùng với giấy tờ tùy thân của bạn, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "Giấy tờ tùy thân của bạn đã hết hạn."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "Giấy tờ tùy thân của bạn không hiển thị ngày sinh của bạn."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi giấy tờ hợp lệ, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Gửi một tài liệu như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
 
-msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "Tên trên giấy tờ tùy thân của bạn và hồ sơ Deriv không khớp."
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Vui lòng truy cập vào hồ sơ và đảm bảo thông tin của bạn là chính xác. Sau đó, xác minh/xác thực tài khoản của bạn bằng cách gửi giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân với các yêu cầu sau:"
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "Vui lòng trả lời email này và đính kèm giấy khai sinh của bạn hoặc gửi giấy tờ tùy thân khác có ghi ngày sinh của bạn."
 
 msgctxt "KYC email title"
 msgid "Your proof of identity does not meet our verification standards."
@@ -12999,12 +12980,40 @@ msgid "Please visit your profile to verify/authenticate your account. Submit a v
 msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi giấy tờ tùy thân hợp lệ, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
 
 msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "Giấy tờ tùy thân của bạn đã hết hạn."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Gửi giấy tờ hợp lệ, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "Giấy tờ tùy thân của bạn bị thiếu phần trước/sau."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh / xác thực tài khoản của bạn. Nộp đầy đủ giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "Nếu bạn gặp sự cố khi gửi cả hai mặt của tài liệu qua link được cung cấp, bạn có thể trả lời email này với tệp đính kèm của cả mặt trước và mặt sau của tài liệu."
+
+msgctxt "KYC email title"
 msgid "Your proof of identity is cropped."
 msgstr "Giấy tờ tùy thân bị cắt xén."
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Nộp đầy đủ giấy tờ như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Giấy tờ tùy thân của bạn bị mờ."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Vui lòng truy cập hồ sơ của bạn để xác minh/xác thực tài khoản của bạn. Gửi tài liệu có độ phân giải cao, rõ ràng và dễ đọc, chẳng hạn như hộ chiếu, giấy phép lái xe hoặc chứng minh nhân dân, với các yêu cầu sau:"
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
