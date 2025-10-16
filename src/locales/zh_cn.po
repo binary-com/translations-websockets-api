@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-10-07 11:52\n"
+"PO-Revision-Date: 2025-10-16 11:40\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -69,6 +69,9 @@ msgstr "%1ii) 如果使用 ZingPay，%2请通过 ZingPay 将显示姓名、账�
 
 msgid "%1iii) If you’re using an e-wallet,%2 attach a screenshot of your e-wallet account showing your username, email address, and account number."
 msgstr "%1iii) 如果使用电子钱包，%2请附上显示用户名、电子邮件地址和账号的电子钱包账户的屏幕截图。"
+
+msgid "2FA must be enabled for this account."
+msgstr "此账户必须启用两步验证（2FA）。"
 
 msgid "A Deriv account ID and amount must be provided for real accounts."
 msgstr "真实账户必须提供 Deriv 账户 ID 和金额。"
@@ -2452,6 +2455,9 @@ msgstr "未配置 App ID 的验证 URI：%1。请联系应用程序所有者或�
 msgid "Verify your email"
 msgstr "电子邮件验证"
 
+msgid "Verify your withdraw request with TOTP from your Authenticator app (Authy, Google Authenticator etc.)."
+msgstr "请使用您的验证器应用（Authy、Google Authenticator 等）生成的 TOTP 验证您的提款请求。"
+
 msgid "Verify your withdraw request."
 msgstr "验证提款请求。"
 
@@ -3180,6 +3186,9 @@ msgstr "MT5 账户已被锁定。欲知详情请跟我们联系。"
 
 msgid "Your MT5 account's balance isn't enough for this transfer. Refresh the page to see your current balance."
 msgstr "MT5 账户余额不足以进行此转账。请刷新页面以查看当前余额。"
+
+msgid "Your TOTP has expired or is invalid."
+msgstr "您的动态令牌已过期或无效。"
 
 msgid "Your User ID appears to be invalid."
 msgstr "用户 ID 似乎无效。"
@@ -12902,13 +12911,13 @@ msgctxt "Phone Number Verification SMS content "
 msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "验证码：%1。有效期为 10 分钟。"
 
-msgctxt "KYC email title"
-msgid "The name on the proof of address doesn't match your Deriv profile."
-msgstr "地址证明上的姓名与 Deriv 账戶个人资料不匹配。"
-
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a signed and stamped bank statement which clearly shows the account number you used to fund your Deriv account."
 msgstr "请前往个人资料页面以验证/认证账户。提交具签名并盖章的银行月结单，其中须清楚显示用于为 Deriv 账户注资的账号。"
+
+msgctxt "KYC email title"
+msgid "The name on the proof of address doesn't match your Deriv profile."
+msgstr "地址证明上的姓名与 Deriv 账戶个人资料不匹配。"
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
@@ -12923,36 +12932,12 @@ msgid "is dated within the last %1 months"
 msgstr "日期在最近 %1 个月内"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "身份证明模糊不清。"
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "身份证明文件和 Deriv 账户个人资料中的姓名不匹配。"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求、具高分辨率、清晰易读的文件，例如护照、驾驶执照或国民身份证："
-
-msgctxt "KYC email title"
-msgid "Your proof of identity is missing a front/back section."
-msgstr "身份证明缺少前/后部分。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求的完整身份证明，例如护照、驾驶执照或国民身份证："
-
-msgctxt "KYC email footnote"
-msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
-msgstr "如果无法通过提供的链接发送文档的正反两面，则可以回复此电子邮件并以附件方式发送文档的正反面。"
-
-msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "身份证明没有显示出生日期。"
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求的文件，例如护照、驾驶执照或国民身份证："
-
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "请回复此电子邮件，并附上出生证明或提交其他显示出生日期的身份证明。"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "请前往个人资料页面，并确保详细信息准确无误。然后，通过提交符合以下要求的身份证明，例如护照、驾驶执照或国民身份证以验证/认证账户："
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12975,20 +12960,16 @@ msgid "You can also submit it together with your proof of identity, such as a pa
 msgstr "也可以将其与符合以下要求的身份证明 (例如护照、驾驶执照或国民身份证) 一起提交："
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is expired."
-msgstr "身份证明已过期。"
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "身份证明没有显示出生日期。"
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求的有效文件，例如护照、驾驶执照或国民身份证："
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求的文件，例如护照、驾驶执照或国民身份证："
 
-msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "身份证明文件和 Deriv 账户个人资料中的姓名不匹配。"
-
-msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "请前往个人资料页面，并确保详细信息准确无误。然后，通过提交符合以下要求的身份证明，例如护照、驾驶执照或国民身份证以验证/认证账户："
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "请回复此电子邮件，并附上出生证明或提交其他显示出生日期的身份证明。"
 
 msgctxt "KYC email title"
 msgid "Your proof of identity does not meet our verification standards."
@@ -12999,12 +12980,40 @@ msgid "Please visit your profile to verify/authenticate your account. Submit a v
 msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求的有效身份证明，例如护照、驾驶执照或国民身份证："
 
 msgctxt "KYC email title"
+msgid "Your proof of identity is expired."
+msgstr "身份证明已过期。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求的有效文件，例如护照、驾驶执照或国民身份证："
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is missing a front/back section."
+msgstr "身份证明缺少前/后部分。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit your complete proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求的完整身份证明，例如护照、驾驶执照或国民身份证："
+
+msgctxt "KYC email footnote"
+msgid "If you have trouble sending both sides of the document via the link provided, you may reply to this email with an attachment of both the front and back sides of your document."
+msgstr "如果无法通过提供的链接发送文档的正反两面，则可以回复此电子邮件并以附件方式发送文档的正反面。"
+
+msgctxt "KYC email title"
 msgid "Your proof of identity is cropped."
 msgstr "身份证明经过裁剪。"
 
 msgctxt "KYC email subtitle"
 msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
 msgstr "请前往个人资料页面以验证/认证账户。提交符合以下要求的完整文件，例如护照、驾驶执照或国民身份证："
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "身份证明模糊不清。"
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "请前往个人资料页面以验证/认证账户。提交具有以下要求、具高分辨率、清晰易读的文件，例如护照、驾驶执照或国民身份证："
 
 msgctxt "KYC email layout"
 msgid "shows the date of issue and/or expiry (if applicable)"
