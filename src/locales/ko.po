@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-12-02 11:48\n"
+"PO-Revision-Date: 2025-12-09 11:41\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -58,8 +58,29 @@ msgstr "%1 거래는 이 계정으로 수행되지 않을 수 있습니다."
 msgid "%1 would like permission to:"
 msgstr "%1는 다음에 대한 접근 권한을 희망합니다:"
 
+msgid "%1P2P order %2 completed"
+msgstr "%1P2P 주문 %2 이 완료되었습니다"
+
+msgid "%1P2P order %2 created"
+msgstr "%1P2P 주문 %2 이 생성되었습니다"
+
+msgid "%1P2P order %2 refunded"
+msgstr "%1P2P 주문 %2 이 환불되었습니다"
+
+msgid "%1Payment Agent transfer to %2. Transaction reference %3"
+msgstr "%1Payment Agent에게 %2으로 자금 이체가 완료되었습니다. 거래 참조 번호: %3"
+
+msgid "%1Payment Agent transfer to %2. Transaction reference %3. Agent notes: %4"
+msgstr "%1Payment Agent에게 %2으로 자금 이체가 완료되었습니다. 거래 참조 번호: %3. 에이전트 메모: %4"
+
 msgid "%1Upload document%2"
 msgstr "%1문서 업로드%2"
+
+msgid "%1Withdrawal by %2 to Payment Agent. Transaction reference %3"
+msgstr "%1%2이(가) Payment Agent를 통해 출금하였습니다. 거래 참조 번호: %3"
+
+msgid "%1Withdrawal by %2 to Payment Agent. Transaction reference %3. Client notes: %4"
+msgstr "%1%2이(가) Payment Agent를 통해 출금하였습니다. 거래 참조 번호: %3. 고객 메모: %4"
 
 msgid "%1i) If you’re using a bank card,%2 attach a clear picture of your bank card showing your name, and the first six and the last four digits of the card. Alternatively, you may provide your card’s bank statement that shows the same information."
 msgstr "%1i) 뱅크카드를 이용하고 계시면,%2 귀하의 성함과 카드의 첫 번째 6자리 수와 마지막 4자리 숫자가 보이도록 귀하의 뱅크카드 사진을 첨부하세요. 대안적으로는, 동일한 정보가 보이도록 귀하의 카드의 은행 내역서를 제공하실 수도 있습니다."
@@ -1024,6 +1045,9 @@ msgstr "귀하의 거주 국가에서는 저희의 서비스를 이용하실 수
 msgid "P.O. Box is not accepted in address."
 msgstr "주소에서 우체국 사서함은 받아들여지지 않습니다."
 
+msgid "P2P funds transfer"
+msgstr "P2P 자금 이체"
+
 msgid "P2P order %1 cancelled - seller funds released"
 msgstr "P2P 주문 %1이 취소되었습니다 - 판매자의 자금이 풀렸습니다"
 
@@ -1044,6 +1068,12 @@ msgstr "P2P 주문 %1이 %2 (%3)에 의해 생성되었습니다 - 판매자의 
 
 msgid "P2P order %1 refunded - seller funds released"
 msgstr "P2P 주문 %1이 환불되었습니다 - 판매자의 자금이 풀렸습니다"
+
+msgid "P2P order completed or refunded"
+msgstr "P2P 주문 완료 또는 환불됨"
+
+msgid "P2P order created"
+msgstr "P2P 주문 생성됨"
 
 msgid "POA document is already uploaded and pending for review"
 msgstr "POA 문서가 이미 업로드되어 검토를 기다리고 있습니다"
@@ -3441,6 +3471,9 @@ msgstr "귀하의 출금 요청이 너무 오랜 시간 동안 보류중이었�
 
 msgid "You’ve paid more than the order amount"
 msgstr "귀하께서는 주문 금액보다 더 많이 지불하셨습니다"
+
+msgid "[reverted] "
+msgstr "[되돌림] "
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "띄어쓰기와 대시를 포함한 문자와 숫자 2~32자"
@@ -12927,40 +12960,24 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "인증 코드: %1은 10분 동안 유효합니다."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "귀하의 신분증명이 저희의 인증 기준을 만족하지 못합니다."
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "귀하의 신분증에 나와 있는 성명과 귀하의 Deriv 프로필이 일치하지 않습니다."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필에 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전 면허증, 또는 주민등록증과 같은 유효한 신분증을 제출하시기 바랍니다:"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "프로필로 이동하여 세부 정보가 정확하도록 해 주세요. 그 후에는 다음의 요건을 만족하여 여권, 운전면허증 또는 신분증을 제출하여 귀하의 계정을 확인/인증해 주세요."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "귀하의 신분 증명이 크롭되어 있습니다."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "귀하의 신분증이 귀하의 생년월일을 표시하고 있지 않습니다."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 다음의 요건을 충족하는 여권, 운전면허증 또는 주민등록증과 같은 전체 문서를 제출해 주시기 바랍니다:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필을 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전면허증, 또는 주민등록증과 같은 문서를 제출하세요:"
 
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "귀하의 신분증명이 흐릿합니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요. 다음의 요구 사항을 충족하는 여권, 운전면허증 또는 신분증과 같이 명확하고 읽기 쉬운 고해상도 문서를 제출해 주세요:"
-
-msgctxt "KYC email title"
-msgid "The selfie submitted does not show a clear image of your face."
-msgstr "제출하신 셀카에서 귀하의 얼굴이 선명하게 나와 있지 않습니다."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
-msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 귀하의 신분증에 있는 사진과 대조하여 확인할 수 있는 선명한 얼굴 이미지가 담긴 셀카를 제출해 주시기 바랍니다."
-
-msgctxt "KYC email subtitle"
-msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하께서는 다음의 요구사항들과 함께, 여권, 운전면허증, 또는 국가 신분증과 같은 신분 증명서를 함께 제출하실 수도 있습니다:"
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "귀하의 출생증명서를 첨부하여 이 이메일에 회신하시거나 생년월일이 표시된 다른 신분증을 제출해 주시기 바랍니다."
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12991,24 +13008,40 @@ msgid "If you have trouble sending both sides of the document via the link provi
 msgstr "제공된 링크를 통해 문서의 양면을 전송하는 데 문제가 있는 경우, 문서의 앞면과 뒷면을 모두 첨부하여 이 이메일에 회신할 수 있습니다."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "귀하의 신분증이 귀하의 생년월일을 표시하고 있지 않습니다."
+msgid "The selfie submitted does not show a clear image of your face."
+msgstr "제출하신 셀카에서 귀하의 얼굴이 선명하게 나와 있지 않습니다."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필을 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전면허증, 또는 주민등록증과 같은 문서를 제출하세요:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
+msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 귀하의 신분증에 있는 사진과 대조하여 확인할 수 있는 선명한 얼굴 이미지가 담긴 셀카를 제출해 주시기 바랍니다."
 
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "귀하의 출생증명서를 첨부하여 이 이메일에 회신하시거나 생년월일이 표시된 다른 신분증을 제출해 주시기 바랍니다."
+msgctxt "KYC email subtitle"
+msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하께서는 다음의 요구사항들과 함께, 여권, 운전면허증, 또는 국가 신분증과 같은 신분 증명서를 함께 제출하실 수도 있습니다:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "귀하의 신분증에 나와 있는 성명과 귀하의 Deriv 프로필이 일치하지 않습니다."
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "귀하의 신분증명이 저희의 인증 기준을 만족하지 못합니다."
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "프로필로 이동하여 세부 정보가 정확하도록 해 주세요. 그 후에는 다음의 요건을 만족하여 여권, 운전면허증 또는 신분증을 제출하여 귀하의 계정을 확인/인증해 주세요."
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "귀하의 계좌를 검증/인증하기 위해 귀하의 프로필에 방문하시기 바랍니다. 다음의 요구사항들과 함께 여권, 운전 면허증, 또는 주민등록증과 같은 유효한 신분증을 제출하시기 바랍니다:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "귀하의 신분증명이 흐릿합니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "프로필을 방문하여 귀하의 계정을 확인/인증해 주세요. 다음의 요구 사항을 충족하는 여권, 운전면허증 또는 신분증과 같이 명확하고 읽기 쉬운 고해상도 문서를 제출해 주세요:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "귀하의 신분 증명이 크롭되어 있습니다."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "프로필을 방문하여 귀하의 계정을 확인/인증하세요. 다음의 요건을 충족하는 여권, 운전면허증 또는 주민등록증과 같은 전체 문서를 제출해 주시기 바랍니다:"
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
