@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-12-02 11:48\n"
+"PO-Revision-Date: 2025-12-09 11:41\n"
 "Last-Translator: \n"
 "Language-Team: Mongolian\n"
 "MIME-Version: 1.0\n"
@@ -58,8 +58,29 @@ msgstr "%1 гүйлгээг энэ дансаар хийхгүй байж бол
 msgid "%1 would like permission to:"
 msgstr "%1 дараах зөвшөөрлийг хүсэж байна:"
 
+msgid "%1P2P order %2 completed"
+msgstr "%1P2P захиалга %2 амжилттай дууслаа"
+
+msgid "%1P2P order %2 created"
+msgstr "%1P2P захиалга %2 үүсгэгдлээ"
+
+msgid "%1P2P order %2 refunded"
+msgstr "%1P2P захиалга %2 буцаагдлаа"
+
+msgid "%1Payment Agent transfer to %2. Transaction reference %3"
+msgstr "%1Төлбөрийн төлөөлөгч рүү %2 шилжүүлэв. Гүйлгээний дугаар: %3"
+
+msgid "%1Payment Agent transfer to %2. Transaction reference %3. Agent notes: %4"
+msgstr "%1Төлбөрийн төлөөлөгч рүү %2 шилжүүлэв. Гүйлгээний дугаар: %3. Агентын тэмдэглэл: %4"
+
 msgid "%1Upload document%2"
 msgstr "%1Баримт бичиг байршуулах %2"
+
+msgid "%1Withdrawal by %2 to Payment Agent. Transaction reference %3"
+msgstr "%1%2 нь Төлбөрийн төлөөлөгч рүү татан авалт хийв. Гүйлгээний дугаар: %3"
+
+msgid "%1Withdrawal by %2 to Payment Agent. Transaction reference %3. Client notes: %4"
+msgstr "%1%2 нь Төлбөрийн төлөөлөгч рүү татан авалт хийв. Гүйлгээний дугаар: %3. Хэрэглэгчийн тэмдэглэл: %4"
 
 msgid "%1i) If you’re using a bank card,%2 attach a clear picture of your bank card showing your name, and the first six and the last four digits of the card. Alternatively, you may provide your card’s bank statement that shows the same information."
 msgstr "%1i) Хэрэв та банкны карт ашиглаж байгаа бол%2 таны нэр болон картын эхний зургаан, сүүлийн дөрвөн орныг харуулсан картны тод гарсан зургийг хавсаргана уу. Эсвэл та дээрх мэдээллийг харуулсан картынхаа банкны хуулгыг өгч болно."
@@ -1024,6 +1045,9 @@ msgstr "Манай үйлчилгээг таны оршин суугаа улс�
 msgid "P.O. Box is not accepted in address."
 msgstr "P.O. Box хаягаар хүлээн авахгүй."
 
+msgid "P2P funds transfer"
+msgstr "P2P мөнгөн шилжүүлэг"
+
 msgid "P2P order %1 cancelled - seller funds released"
 msgstr "P2P захиалга %1 цуцлагдсан - худалдагчийн  мөнгө чөлөөлөгдсөн"
 
@@ -1044,6 +1068,12 @@ msgstr "%2 (%3) P2P захиалгыг %1 үүсгэсэн- худалдагчи
 
 msgid "P2P order %1 refunded - seller funds released"
 msgstr "P2P захиалга %1 буцаан олгогдсон - худалдагчийн мөнгө чөлөөлөгдсөн"
+
+msgid "P2P order completed or refunded"
+msgstr "P2P захиалга дууссан эсвэл буцаагдсан"
+
+msgid "P2P order created"
+msgstr "P2P захиалга үүсгэсэн"
 
 msgid "POA document is already uploaded and pending for review"
 msgstr "Итгэмжлэлийн баримт бичгийг аль хэдийн байршуулсан бөгөөд хянахаар хүлээгдэж байна"
@@ -3441,6 +3471,9 @@ msgstr "Таны татан авалтын хүсэлт хэтэрхий уда�
 
 msgid "You’ve paid more than the order amount"
 msgstr "Та захиалгын дүнгээс илүү төлбөр төлсөн байна"
+
+msgid "[reverted] "
+msgstr "[буцаагдсан]"
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "зай болон зураас бүхий үсэг, тоон 2-32 тэмдэгт"
@@ -12928,40 +12961,24 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "Баталгаажуулах код: %1 хүчинтэй хугацаа 10 минут."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "Таны өөрийгөө батлах бичиг баримт манай баталгаажуулалтын стандартад нийцэхгүй байна."
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "Таны өөрийгөө баталж буй баримт дээрх нэр таны Deriv-ийн профайл дээрх нэртэй таарахгүй байна."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг өөрийгөө батлах хүчин төгөлдөр бичиг баримтыг оруулна уу:"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Өөрийн профайл руу орж, таны дэлгэрэнгүй мэдээлэл үнэн зөв эсэхийг шалгана уу. Дараа нь дараах шаардлагыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг өөрийгөө батлах баримтыг оруулж, дансаа баталгаажуулна уу:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "Таны өөрийгөө батлах баримт урагдсан, тасдагдсан байна."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "Таны өөрийгөө батлах бичиг баримт дээр таны төрсөн огноо байхгүй байна."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагын дагуу паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг бичиг баримтыг бүрэн оруулна уу:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагуудыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг бичиг баримтыг оруулна уу:"
 
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "Таны өөрийгөө батлах бичиг баримт тод харагдахгүй байна."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагыг хангасан, сайн нягтшилтай, тод, уншигдахуйц паспорт, жолооны үнэмлэх, эсвэл иргэний үнэмлэх гэх зэрэг бичиг баримтыг оруулна уу:"
-
-msgctxt "KYC email title"
-msgid "The selfie submitted does not show a clear image of your face."
-msgstr "Таны оруулсан селфи дээр таны царай тод харагдахгүй байна."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
-msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Таны царайг тод харуулсан сэлфи зураг оруулна уу. Бид тэрхүү зургийг таны өөрийгөө батлах баримттай тулгаж баталгаажуулах болно."
-
-msgctxt "KYC email subtitle"
-msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Та мөн дараах шаардлагыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх зэрэг өөрийгөө батлах баримтыг хамтад нь оруулж болно:"
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "Өөрийн төрсний гэрчилгээгээ хавсаргаж эсвэл таны төрсөн огноог харуулсан өөрийгөө батлах өөр бичиг баримтыг оруулж, энэ имэйлд хариу илгээнэ үү."
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12992,24 +13009,40 @@ msgid "If you have trouble sending both sides of the document via the link provi
 msgstr "Хэрэв өгөгдсөн холбоосоор бичиг баримтын хоёр талыг илгээхэд бэрхшээл гарвал бичиг баримтынхаа урд болон ард талыг хавсарган энэхүү имэйлд хариу илгээж болно."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "Таны өөрийгөө батлах бичиг баримт дээр таны төрсөн огноо байхгүй байна."
+msgid "The selfie submitted does not show a clear image of your face."
+msgstr "Таны оруулсан селфи дээр таны царай тод харагдахгүй байна."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагуудыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг бичиг баримтыг оруулна уу:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
+msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Таны царайг тод харуулсан сэлфи зураг оруулна уу. Бид тэрхүү зургийг таны өөрийгөө батлах баримттай тулгаж баталгаажуулах болно."
 
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "Өөрийн төрсний гэрчилгээгээ хавсаргаж эсвэл таны төрсөн огноог харуулсан өөрийгөө батлах өөр бичиг баримтыг оруулж, энэ имэйлд хариу илгээнэ үү."
+msgctxt "KYC email subtitle"
+msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Та мөн дараах шаардлагыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх зэрэг өөрийгөө батлах баримтыг хамтад нь оруулж болно:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "Таны өөрийгөө баталж буй баримт дээрх нэр таны Deriv-ийн профайл дээрх нэртэй таарахгүй байна."
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "Таны өөрийгөө батлах бичиг баримт манай баталгаажуулалтын стандартад нийцэхгүй байна."
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "Өөрийн профайл руу орж, таны дэлгэрэнгүй мэдээлэл үнэн зөв эсэхийг шалгана уу. Дараа нь дараах шаардлагыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг өөрийгөө батлах баримтыг оруулж, дансаа баталгаажуулна уу:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагыг хангасан паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг өөрийгөө батлах хүчин төгөлдөр бичиг баримтыг оруулна уу:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "Таны өөрийгөө батлах бичиг баримт тод харагдахгүй байна."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагыг хангасан, сайн нягтшилтай, тод, уншигдахуйц паспорт, жолооны үнэмлэх, эсвэл иргэний үнэмлэх гэх зэрэг бичиг баримтыг оруулна уу:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "Таны өөрийгөө батлах баримт урагдсан, тасдагдсан байна."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "Өөрийн профайл руу орж, дансаа баталгаажуулна уу. Дараах шаардлагын дагуу паспорт, жолооны үнэмлэх, иргэний үнэмлэх гэх зэрэг бичиг баримтыг бүрэн оруулна уу:"
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
