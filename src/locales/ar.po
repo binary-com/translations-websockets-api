@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deriv-websocket-api\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-12-02 11:48\n"
+"PO-Revision-Date: 2025-12-09 11:41\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -58,8 +58,29 @@ msgstr "%1 من العمليات قد لا يتم تنفيذها باستخدا�
 msgid "%1 would like permission to:"
 msgstr "%1 نرجو الحصول على إذن ل:"
 
+msgid "%1P2P order %2 completed"
+msgstr "اكتمل طلب P2P %1%2"
+
+msgid "%1P2P order %2 created"
+msgstr "تم إنشاء طلب P2P %1%2"
+
+msgid "%1P2P order %2 refunded"
+msgstr "تم رد مبلغ طلب P2P %1%2"
+
+msgid "%1Payment Agent transfer to %2. Transaction reference %3"
+msgstr "%1تحويل من وكيل الدفع إلى %2. مرجع المعاملة %3"
+
+msgid "%1Payment Agent transfer to %2. Transaction reference %3. Agent notes: %4"
+msgstr "%1تحويل من وكيل الدفع إلى %2. مرجع المعاملة %3. ملاحظات الوكيل: %4"
+
 msgid "%1Upload document%2"
 msgstr "%1 تحميل مستند %2"
+
+msgid "%1Withdrawal by %2 to Payment Agent. Transaction reference %3"
+msgstr "%1سحب من خلال %2 إلى وكيل الدفع. مرجع المعاملة %3"
+
+msgid "%1Withdrawal by %2 to Payment Agent. Transaction reference %3. Client notes: %4"
+msgstr "%1سحب من خلال %2 إلى وكيل الدفع. مرجع المعاملة %3. ملاحظات العميل: %4"
 
 msgid "%1i) If you’re using a bank card,%2 attach a clear picture of your bank card showing your name, and the first six and the last four digits of the card. Alternatively, you may provide your card’s bank statement that shows the same information."
 msgstr "%1i) إذا كنت تستخدم بطاقة مصرفية،%2 أرفق صورة واضحة لبطاقتك المصرفية تظهر اسمك والأرقام الستة الأولى والأرقام الأربعة الأخيرة من البطاقة. بدلا من ذلك، يمكنك تقديم كشف حساب مصرفي لبطاقتك يعرض نفس المعلومات."
@@ -1024,6 +1045,9 @@ msgstr "خدماتنا غير متوفرة في بلد إقامتك. يرجى ا
 msgid "P.O. Box is not accepted in address."
 msgstr "لا يُسمح باستخدام صندوق البريد في العنوان."
 
+msgid "P2P funds transfer"
+msgstr "تحويل أموال P2P"
+
 msgid "P2P order %1 cancelled - seller funds released"
 msgstr "تم إلغاء طلب P2P %1 - تم تحرير الأموال للبائع"
 
@@ -1044,6 +1068,12 @@ msgstr "تم إنشاء طلب P2P %1 بواسطة %2 (%3) - أموال البا
 
 msgid "P2P order %1 refunded - seller funds released"
 msgstr "تم استرداد طلب P2P %1 - تم تحرير الأموال للبائع"
+
+msgid "P2P order completed or refunded"
+msgstr "اكتمل طلب P2P أو تم رد المبلغ"
+
+msgid "P2P order created"
+msgstr "تم إنشاء طلب P2P"
 
 msgid "POA document is already uploaded and pending for review"
 msgstr "تم تحميل مستند إثبات العنوان بالفعل وهو في انتظار المراجعة"
@@ -3441,6 +3471,9 @@ msgstr "طلب السحب الخاص بك معلق لفترة طويلة جدً�
 
 msgid "You’ve paid more than the order amount"
 msgstr "لقد دفعت مبلغ أكثر من قيمة الطلب"
+
+msgid "[reverted] "
+msgstr "[تم التراجع]"
 
 msgid "alphanumeric with space and dash, 2-32 characters"
 msgstr "يجب أن يكون مزيجًا من الحروف والأرقام، مع السماح بالمسافات والشرطات، وأن يتراوح بين 2 و32 حرفًا"
@@ -12928,40 +12961,24 @@ msgid "Verification code: %1 will be valid for 10 minutes."
 msgstr "رمز التحقق: %1 صالح لمدة 10 دقائق."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity does not meet our verification standards."
-msgstr "إثبات هويتك لا يفي بمعايير التحقق الخاصة بنا."
+msgid "The names on your proof of identity and Deriv profile don't match."
+msgstr "الأسماء الموجودة في إثبات الهوية وملف تعريف Deriv غير متطابقة."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة البيانات الشخصية الخاصة بك للتحقق من / المصادقة على حسابك . الرجاء تقديم شهادة هوية سارية المفعول ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، وتلبية المتطلبات التالية :"
+msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى الانتقال إلى ملفك الشخصي والتأكد من دقة التفاصيل الخاصة بك. بعد ذلك ، تحقق من / مصادقة حسابك عن طريق تقديم إثبات الهوية ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
 
 msgctxt "KYC email title"
-msgid "Your proof of identity is cropped."
-msgstr "إثبات هويتك مقصوص."
+msgid "Your proof of identity doesn't show your date of birth."
+msgstr "لا يظهر إثبات هويتك تاريخ ميلادك."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند كامل ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
 
-msgctxt "KYC email title"
-msgid "Your proof of identity is blurred."
-msgstr "إثبات هويتك غير واضح."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم وثيقة عالية الدقة وواضحة ومقروءة ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
-
-msgctxt "KYC email title"
-msgid "The selfie submitted does not show a clear image of your face."
-msgstr "لا تٌظهر الصورة الشخصية المقدمة صورة واضحة لوجهك."
-
-msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وأرسال صورة سيلفي مع صورة واضحة لوجهك والتي يمكننا التحقق منها مقابل الصورة في إثبات هويتك."
-
-msgctxt "KYC email subtitle"
-msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يمكنك أيضا تقديمه مع إثبات هويتك ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
+msgctxt "KYC email footnote"
+msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
+msgstr "يرجى الرد على هذا البريد الإلكتروني وإرفاق شهادة ميلادك أو تقديم إثبات هوية مختلف يوضح تاريخ ميلادك."
 
 msgctxt "KYC email title"
 msgid "The type of document you submitted as proof of identity can't be accepted."
@@ -12992,24 +13009,40 @@ msgid "If you have trouble sending both sides of the document via the link provi
 msgstr "إذا كنت تواجه مشكلة في إرسال وجهي المستند عبر الرابط المقدم ، فيمكنك الرد على هذا البريد الإلكتروني مع إرفاق الجهة الأمامية والخلفية للمستند."
 
 msgctxt "KYC email title"
-msgid "Your proof of identity doesn't show your date of birth."
-msgstr "لا يظهر إثبات هويتك تاريخ ميلادك."
+msgid "The selfie submitted does not show a clear image of your face."
+msgstr "لا تٌظهر الصورة الشخصية المقدمة صورة واضحة لوجهك."
 
 msgctxt "KYC email subtitle"
-msgid "Please visit your profile to verify/authenticate your account. Submit a document, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a selfie with a clear image of your face which we can verify against the picture in your proof of identity."
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وأرسال صورة سيلفي مع صورة واضحة لوجهك والتي يمكننا التحقق منها مقابل الصورة في إثبات هويتك."
 
-msgctxt "KYC email footnote"
-msgid "Please reply to this email and attach your birth certificate or submit a different proof of identity that shows your date of birth."
-msgstr "يرجى الرد على هذا البريد الإلكتروني وإرفاق شهادة ميلادك أو تقديم إثبات هوية مختلف يوضح تاريخ ميلادك."
+msgctxt "KYC email subtitle"
+msgid "You can also submit it together with your proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يمكنك أيضا تقديمه مع إثبات هويتك ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
 
 msgctxt "KYC email title"
-msgid "The names on your proof of identity and Deriv profile don't match."
-msgstr "الأسماء الموجودة في إثبات الهوية وملف تعريف Deriv غير متطابقة."
+msgid "Your proof of identity does not meet our verification standards."
+msgstr "إثبات هويتك لا يفي بمعايير التحقق الخاصة بنا."
 
 msgctxt "KYC email subtitle"
-msgid "Please go to your profile and ensure your details are accurate. Then, verify/authenticate your account by submitting a proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
-msgstr "يرجى الانتقال إلى ملفك الشخصي والتأكد من دقة التفاصيل الخاصة بك. بعد ذلك ، تحقق من / مصادقة حسابك عن طريق تقديم إثبات الهوية ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
+msgid "Please visit your profile to verify/authenticate your account. Submit a valid proof of identity, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة البيانات الشخصية الخاصة بك للتحقق من / المصادقة على حسابك . الرجاء تقديم شهادة هوية سارية المفعول ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، وتلبية المتطلبات التالية :"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is blurred."
+msgstr "إثبات هويتك غير واضح."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a high-resolution, clear, and readable document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم وثيقة عالية الدقة وواضحة ومقروءة ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
+
+msgctxt "KYC email title"
+msgid "Your proof of identity is cropped."
+msgstr "إثبات هويتك مقصوص."
+
+msgctxt "KYC email subtitle"
+msgid "Please visit your profile to verify/authenticate your account. Submit a full document, such as a passport, driving licence, or national identity card, with the following requirements:"
+msgstr "يرجى زيارة ملف التعريف الخاص بك للتحقق من / مصادقة حسابك وتقديم مستند كامل ، مثل جواز السفر أو رخصة القيادة أو بطاقة الهوية الوطنية ، مع المتطلبات التالية:"
 
 msgctxt "KYC email layout"
 msgid "bears your name that matches your Deriv profile"
